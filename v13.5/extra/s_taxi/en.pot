@@ -1,0 +1,40 @@
+msgid "limit"
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/0}IS THE TAXI OUT YET TODAY?"
+msgstr ""
+
+
+msgid "<18>{#f/5}HMM... IT TENDS TO COME OUT IN THE LATER HOURS."
+msgstr ""
+
+
+msgid "<18>{#f/6}AS FOR HOW TO TELL THE LATER HOURS FROM EARLIER ONES?"
+msgstr ""
+
+
+msgid "<18>{#f/4}UH, I'LL GET BACK TO YOU ON THAT."
+msgstr ""
+
+
+msgid "<25>{#p/undyne}{#f/12}* Uh, Papyrus, there are no \"later hours.\""
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/9}CORRECT... UNTIL NOW!"
+msgstr ""
+
+
+msgid "<18>{#f/4}... I WAS JUST IN THE PROCESS OF MAKING THEM UP."
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/6}EVENTUALLY!"
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/6}I'LL LET YOU KNOW IF I EVER FINISH MAKING THEM UP!"
+msgstr ""
+
+

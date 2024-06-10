@@ -1,0 +1,73 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-11 07:55+0000\n"
+"PO-Revision-Date: 2024-04-11 07:55+0000\n"
+"Last-Translator: WS3917 <inf.3917.restart@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/2-starton-papyrus/zh_Hans/>\n"
+"Language: zh-hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+msgid "limit"
+msgstr "limit"
+
+msgid "<18>{#p/papyrus}{#f/4}CAREFUL, THIS ROOM HAS SPECIAL SPOOKY POWERS."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}THE TIME IT TAKES TO TRAVEL ACROSS THIS ROOM..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}...NEVER SEEMS TO BE THE SAME."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}SOMETIMES IT'S LONG, SOMETIMES IT'S NOT..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}AND SOMETIMES I WEAR POLKA-DOTS."
+msgstr ""
+
+msgid "<25>{#p/undyne}{#f/12}* Polka-what?"
+msgstr ""
+
+msgid "<25>{#p/undyne}{#f/1}* Well uh, as for the length..."
+msgstr ""
+
+msgid "<25>{#p/undyne}{#f/3}* It's probably just the spatial anomaly here."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}...OH!"
+msgstr ""
+
+msgid "<25>{#p/undyne}{#f/17}* Yeah!!!"
+msgstr ""
+
+msgid "<25>{#p/undyne}{#f/16}* But... polka dots."
+msgstr ""
+
+msgid "<25>{#p/undyne}{#f/8}* What does that have to do with anything!"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}OBJECTS IN HALLWAY ARE FARTHER THAN THEY APPEAR."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}YES, I LITERALLY JUST SAID THAT TO MAKE IT RHYME."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/9}WHAT ARE YOU GONNA DO ABOUT IT, HUH?"
+msgstr ""
+
+msgid "<18>THAT'S RIGHT.\nNOTHING!"
+msgstr ""
+
+msgid "<18>NOTHING AT ALL!"
+msgstr ""
+
+msgid "<25>{#p/undyne}{#f/3}* Damn."
+msgstr ""

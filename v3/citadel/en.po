@@ -1,0 +1,207 @@
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "sequence"
+msgstr "sequence"
+
+msgid "<32>{#p/narrator}* It's a bookshelf."
+msgstr "<32>{#p/narrator}* It's a bookshelf."
+
+msgid "<32>{#p/human}* (You pick out a book...)"
+msgstr "<32>{#p/human}* (You pick out a book...)"
+
+msgid "<32>{#p/narrator}* \"\""
+msgstr "<32>{#p/narrator}* \"\""
+
+msgid "<33>* \"\""
+msgstr "<33>* \"\""
+
+msgid "<32>* \"\""
+msgstr "<32>* \"\""
+
+msgid "<32>{#p/human}* (You put the book back on the shelf.)"
+msgstr "<32>{#p/human}* (You put the book back on the shelf.)"
+
+msgid "<32>{#p/narrator}* It's a bookshelf."
+msgstr "<32>{#p/narrator}* It's a bookshelf."
+
+msgid "<32>{#p/human}* (You pick out a book...)"
+msgstr "<32>{#p/human}* (You pick out a book...)"
+
+msgid "<32>{#p/narrator}* \"hint at trust\""
+msgstr "<32>{#p/narrator}* \"hint at trust\""
+
+msgid "<32>* \"\""
+msgstr "<32>* \"\""
+
+msgid "<32>{#p/human}* (You put the book back on the shelf.)"
+msgstr "<32>{#p/human}* (You put the book back on the shelf.)"
+
+msgid "<32>{#p/narrator}* It's a bookshelf."
+msgstr "<32>{#p/narrator}* It's a bookshelf."
+
+msgid "<32>{#p/human}* (You pick out a book...)"
+msgstr "<32>{#p/human}* (You pick out a book...)"
+
+msgid "<32>{#p/narrator}* \"kindness\""
+msgstr "<32>{#p/narrator}* \"kindness\""
+
+msgid "<32>* \"\""
+msgstr "<32>* \"\""
+
+msgid "<32>{#p/human}* (You put the book back on the shelf.)"
+msgstr "<32>{#p/human}* (You put the book back on the shelf.)"
+
+msgid "<32>{#p/narrator}* It's a bookshelf."
+msgstr "<32>{#p/narrator}* It's a bookshelf."
+
+msgid "<32>{#p/human}* (You pick out a book...)"
+msgstr "<32>{#p/human}* (You pick out a book...)"
+
+msgid "<32>{#p/narrator}* \"hint at archive\""
+msgstr "<32>{#p/narrator}* \"hint at archive\""
+
+msgid "<32>* \"\""
+msgstr "<32>* \"\""
+
+msgid "<32>{#p/human}* (You put the book back on the shelf.)"
+msgstr "<32>{#p/human}* (You put the book back on the shelf.)"
+
+msgid "sequence"
+msgstr "sequence"
+
+msgid "<32>{#p/narrator}* It's a bookshelf."
+msgstr "<32>{#p/narrator}* It's a bookshelf."
+
+msgid "<32>{#p/human}* (You pick out a book...)"
+msgstr "<32>{#p/human}* (You pick out a book...)"
+
+msgid "<32>{#p/narrator}* \"\""
+msgstr "<32>{#p/narrator}* \"\""
+
+msgid "<33>* \"\""
+msgstr "<33>* \"\""
+
+msgid "<32>* \"\""
+msgstr "<32>* \"\""
+
+msgid "<32>{#p/human}* (You put the book back on the shelf.)"
+msgstr "<32>{#p/human}* (You put the book back on the shelf.)"
+
+msgid "<32>{#p/narrator}* It's a bookshelf."
+msgstr "<32>{#p/narrator}* It's a bookshelf."
+
+msgid "<32>{#p/human}* (You pick out a book...)"
+msgstr "<32>{#p/human}* (You pick out a book...)"
+
+msgid "<32>{#p/narrator}* \"\""
+msgstr "<32>{#p/narrator}* \"\""
+
+msgid "<32>* \"\""
+msgstr "<32>* \"\""
+
+msgid "<32>{#p/human}* (You put the book back on the shelf.)"
+msgstr "<32>{#p/human}* (You put the book back on the shelf.)"
+
+msgid "<32>{#p/narrator}* It's a bookshelf."
+msgstr "<32>{#p/narrator}* It's a bookshelf."
+
+msgid "<32>{#p/human}* (You pick out a book...)"
+msgstr "<32>{#p/human}* (You pick out a book...)"
+
+msgid "<32>{#p/narrator}* \"\""
+msgstr "<32>{#p/narrator}* \"\""
+
+msgid "<32>* \"\""
+msgstr "<32>* \"\""
+
+msgid "<32>{#p/human}* (You put the book back on the shelf.)"
+msgstr "<32>{#p/human}* (You put the book back on the shelf.)"
+
+msgid "<32>{#p/narrator}* It's a bookshelf."
+msgstr "<32>{#p/narrator}* It's a bookshelf."
+
+msgid "<32>{#p/human}* (You pick out a book...)"
+msgstr "<32>{#p/human}* (You pick out a book...)"
+
+msgid "<32>{#p/narrator}* \"\""
+msgstr "<32>{#p/narrator}* \"\""
+
+msgid "<32>* \"\""
+msgstr "<32>* \"\""
+
+msgid "<32>{#p/human}* (You put the book back on the shelf.)"
+msgstr "<32>{#p/human}* (You put the book back on the shelf.)"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}* \"Room under renovations.\""
+msgstr "<32>{#p/narrator}* \"Room under renovations.\""
+
+msgid "<32>{#p/narrator}* Despite everything, it's still you."
+msgstr "<32>{#p/narrator}* Despite everything, it's still you."
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "<32>{#p/narrator}* It's a hand-made macaroni art of a starling."
+msgstr "<32>{#p/narrator}* It's a hand-made macaroni art of a starling."
+
+msgid "<32>{#p/narrator}*"
+msgstr "<32>{#p/narrator}*"
+
+msgid "Citadel - Courtyard"
+msgstr "Citadel - Courtyard"
+

@@ -1,0 +1,720 @@
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "hey everyone, we might need to start evacuating people from aerialis."
+msgstr "hey everyone, we might need to start evacuating people from aerialis."
+
+msgid "SYSTEM"
+msgstr "SYSTEM"
+
+msgid "Thank you for creating an account on the outpost's #1 social network!"
+msgstr "Thank you for creating an account on the outpost's #1 social network!"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "finally met the human, that was kinda nervewracking lol"
+msgstr "finally met the human, that was kinda nervewracking lol"
+
+msgid "well, i just met the human"
+msgstr "well, i just met the human"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "still can't believe mettaton wanted me to fight them, smh"
+msgstr "still can't believe mettaton wanted me to fight them, smh"
+
+msgid "not sure what to say except, they seem nice?"
+msgstr "not sure what to say except, they seem nice?"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "anyway, imma be guiding them now :D\ngodddd this is so exciting aaaaaa"
+msgstr "anyway, imma be guiding them now :D\ngodddd this is so exciting aaaaaa"
+
+msgid "anyway, imma be guiding them now :O\nlets hope nothing bad happens"
+msgstr "anyway, imma be guiding them now :O\nlets hope nothing bad happens"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "bro are those dudes fr??\nTHERES ICE CREAM AT THE REC CENTER"
+msgstr "bro are those dudes fr??\nTHERES ICE CREAM AT THE REC CENTER"
+
+msgid "do they not know theres ice cream at the rec center? uhhhhh"
+msgstr "do they not know theres ice cream at the rec center? uhhhhh"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "oh god here we go here we go"
+msgstr "oh god here we go here we go"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "ok imma be honest i have no idea how that worked out lol"
+msgstr "ok imma be honest i have no idea how that worked out lol"
+
+msgid "shoulda known those bombs were just TV props lol"
+msgstr "shoulda known those bombs were just TV props lol"
+
+msgid "is it just me or is mtt literally doing this stuff for no reason???"
+msgstr "is it just me or is mtt literally doing this stuff for no reason???"
+
+msgid "well holy pepperoni that was close"
+msgstr "well holy pepperoni that was close"
+
+msgid "guys that was amazing, anyone who wasn't watching missed out big time"
+msgstr "guys that was amazing, anyone who wasn't watching missed out big time"
+
+msgid "welp, there goes my last portable one-time-use jetpack"
+msgstr "welp, there goes my last portable one-time-use jetpack"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "btw has anyone else seen mew mew space adventure???"
+msgstr "btw has anyone else seen mew mew space adventure???"
+
+msgid "STRONGFISH91"
+msgstr "STRONGFISH91"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "HAVE I EVER???\nMAN THAT SHOW IS FREAKING EPIC!!!"
+msgstr "HAVE I EVER???\nMAN THAT SHOW IS FREAKING EPIC!!!"
+
+msgid "anyone at all?"
+msgstr "anyone at all?"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "woah undyne where did you come from!?!?"
+msgstr "woah undyne where did you come from!?!?"
+
+msgid "damn, guess not"
+msgstr "damn, guess not"
+
+msgid "COOLSKELETON95"
+msgstr "COOLSKELETON95"
+
+msgid "STRONGFISH91"
+msgstr "STRONGFISH91"
+
+msgid "Wouldn't you like to know!\nFUHUHU!"
+msgstr "Wouldn't you like to know!\nFUHUHU!"
+
+msgid "ARE WE WATCHING \"TV SHOWS\" NOW?\nSOUNDS EXCITING!"
+msgstr "ARE WE WATCHING \"TV SHOWS\" NOW?\nSOUNDS EXCITING!"
+
+msgid "Sorry Alphys, I'd love to talk about Mew Mew, just not right now okay?"
+msgstr "Sorry Alphys, I'd love to talk about Mew Mew, just not right now okay?"
+
+msgid "_K1ll3rMann3qu1n_"
+msgstr "_K1ll3rMann3qu1n_"
+
+msgid "Mew Mew SPACE ADVENTURE!?!??\nHAH! WHAT A LOAD OF HOT GARBAGE!"
+msgstr "Mew Mew SPACE ADVENTURE!?!??\nHAH! WHAT A LOAD OF HOT GARBAGE!"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "lemme guess, youre one of those mew mew starfire fans arent you"
+msgstr "lemme guess, youre one of those mew mew starfire fans arent you"
+
+msgid "sigh..."
+msgstr "sigh..."
+
+msgid "_K1ll3rMann3qu1n_"
+msgstr "_K1ll3rMann3qu1n_"
+
+msgid "yeah, okay, but ask yourself this:\ndoes space venture have EXPLOSIONS!?"
+msgstr "yeah, okay, but ask yourself this:\ndoes space venture have EXPLOSIONS!?"
+
+msgid "whats the matter, huh?\nSCARED YOU'LL LOSE AN ARGUMENT!?"
+msgstr "whats the matter, huh?\nSCARED YOU'LL LOSE AN ARGUMENT!?"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "LOLLLLLLLLLLL SPACE VENTURE-\naverage starfire fan cant spell fr"
+msgstr "LOLLLLLLLLLLL SPACE VENTURE-\naverage starfire fan cant spell fr"
+
+msgid "really starting to regret not adding a block function to this thing fr"
+msgstr "really starting to regret not adding a block function to this thing fr"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "okay someone tell me how he already setup another show that fast"
+msgstr "okay someone tell me how he already setup another show that fast"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "for the record, this mew mew doll thing never happened."
+msgstr "for the record, this mew mew doll thing never happened."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "the heck are those guards doing??\ndid they not get my royal memo??"
+msgstr "the heck are those guards doing??\ndid they not get my royal memo??"
+
+msgid "NAPSTABLOOK22"
+msgstr "NAPSTABLOOK22"
+
+msgid "oh...... they haven't added a friend request feature yet......"
+msgstr "oh...... they haven't added a friend request feature yet......"
+
+msgid "SYSTEM"
+msgstr "SYSTEM"
+
+msgid "Your private message history was successfully cleared."
+msgstr "Your private message history was successfully cleared."
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "just to be on the safe side."
+msgstr "just to be on the safe side."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "of course, just cleared it out now"
+msgstr "of course, just cleared it out now"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "heh... remember that time he showed off the new gravity plating?"
+msgstr "heh... remember that time he showed off the new gravity plating?"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "and the whole set just started floating into the sky? OMG YES LMAO"
+msgstr "and the whole set just started floating into the sky? OMG YES LMAO"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "pfft, he really thought that would work, huh?"
+msgstr "pfft, he really thought that would work, huh?"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "i remember asgore trying everything he could to hold it down XD"
+msgstr "i remember asgore trying everything he could to hold it down XD"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "man, what a day... i really miss working with you sans"
+msgstr "man, what a day... i really miss working with you sans"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "i know you do, alph.\nbut i've got a different job to dddd"
+msgstr "i know you do, alph.\nbut i've got a different job to dddd"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "...\nr u there?"
+msgstr "...\nr u there?"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "sorry, yeah. a human just showed up, totally caught me off guard."
+msgstr "sorry, yeah. a human just showed up, totally caught me off guard."
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "no pun intended."
+msgstr "no pun intended."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "right... wait, really?"
+msgstr "right... wait, really?"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "i wouldn't lie about making a pun, would i?"
+msgstr "i wouldn't lie about making a pun, would i?"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "you know what i mean..."
+msgstr "you know what i mean..."
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "don't worry, alph.\ni've got this under control."
+msgstr "don't worry, alph.\ni've got this under control."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "you better lol"
+msgstr "you better lol"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "you know the humans been killing monsters in starton right?"
+msgstr "you know the humans been killing monsters in starton right?"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "theyre going after regular citizens"
+msgstr "theyre going after regular citizens"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "theyre targeting the sentries"
+msgstr "theyre targeting the sentries"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "theyre going after everyone"
+msgstr "theyre going after everyone"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "i'm know. i'm doing my best to get people out before it's too late."
+msgstr "i'm know. i'm doing my best to get people out before it's too late."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "okay, good"
+msgstr "okay, good"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "that was close"
+msgstr "that was close"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "yeah... guess i shouldn't have doubted my bro, heh."
+msgstr "yeah... guess i shouldn't have doubted my bro, heh."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "yeah..."
+msgstr "yeah..."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "never mind the humans back to killing again"
+msgstr "never mind the humans back to killing again"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "welp."
+msgstr "welp."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "sans"
+msgstr "sans"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "the human just killed papyrus"
+msgstr "the human just killed papyrus"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "please tell me youre there"
+msgstr "please tell me youre there"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "i knew i shouldn't have trusted them to change."
+msgstr "i knew i shouldn't have trusted them to change."
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "i knew i shouldn't have left them alone with him."
+msgstr "i knew i shouldn't have left them alone with him."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "what are you gonna do now?"
+msgstr "what are you gonna do now?"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "honestly, alph?"
+msgstr "honestly, alph?"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "i don't feel like doing anything."
+msgstr "i don't feel like doing anything."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "sans..."
+msgstr "sans..."
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "it's not your fault, alph.\nthis would always have happened."
+msgstr "it's not your fault, alph.\nthis would always have happened."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "what do you mean?"
+msgstr "what do you mean?"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "you know how papyrus can be."
+msgstr "you know how papyrus can be."
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "he's just too damn good to stand by and watch as people die."
+msgstr "he's just too damn good to stand by and watch as people die."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "unlike us, huh?"
+msgstr "unlike us, huh?"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "yeah."
+msgstr "yeah."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "..."
+msgstr "..."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "things arent getting any better"
+msgstr "things arent getting any better"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "lemme guess, they're killing people in the foundry now?"
+msgstr "lemme guess, they're killing people in the foundry now?"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "yeah but youre gonna help me evacuate right?"
+msgstr "yeah but youre gonna help me evacuate right?"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "i can't make any promises.\nbut i'll try."
+msgstr "i can't make any promises.\nbut i'll try."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "thanks"
+msgstr "thanks"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "sans people in the foundry are dying"
+msgstr "sans people in the foundry are dying"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "its the human... even the elite squad cant stop it"
+msgstr "its the human... even the elite squad cant stop it"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "its the human... theyre going after the residents down there"
+msgstr "its the human... theyre going after the residents down there"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "its the human... theyre killing everybody down there"
+msgstr "its the human... theyre killing everybody down there"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "well, aren't you gonna start evacuating people?"
+msgstr "well, aren't you gonna start evacuating people?"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "oh right i need to do that"
+msgstr "oh right i need to do that"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "gotta go"
+msgstr "gotta go"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "good luck, alph.\ni'll help evacuate if i can."
+msgstr "good luck, alph.\ni'll help evacuate if i can."
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "thx"
+msgstr "thx"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "first papyrus and now undyne... when is it going to stop?"
+msgstr "first papyrus and now undyne... when is it going to stop?"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "undynes gone"
+msgstr "undynes gone"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "well at least they spared undyne"
+msgstr "well at least they spared undyne"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "i don't know, alph. i just don't."
+msgstr "i don't know, alph. i just don't."
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "i'm sorry, alph. i wish i could do something, but i really can't."
+msgstr "i'm sorry, alph. i wish i could do something, but i really can't."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "though i dont think i want to be here after everything that happened"
+msgstr "though i dont think i want to be here after everything that happened"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "i should probably leave the lab while i still have the chance."
+msgstr "i should probably leave the lab while i still have the chance."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "who knows what theyll do next?"
+msgstr "who knows what theyll do next?"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "yeah, you do that.\ni'll try to keep tabs on 'em though."
+msgstr "yeah, you do that.\ni'll try to keep tabs on 'em though."
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "you can leave the lab if you want.\ni'll try to keep tabs on 'em though."
+msgstr "you can leave the lab if you want.\ni'll try to keep tabs on 'em though."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "ok but dont get too close cause theyve killed a lot of people by now"
+msgstr "ok but dont get too close cause theyve killed a lot of people by now"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "i'll be fine, just be sure to get a phone that works outside the lab."
+msgstr "i'll be fine, just be sure to get a phone that works outside the lab."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "oh yeah i almost forgot, thanks"
+msgstr "oh yeah i almost forgot, thanks"
+
+msgid "lazybones."
+msgstr "lazybones."
+
+msgid "oh, and be sure to clear the message history while you're at it."
+msgstr "oh, and be sure to clear the message history while you're at it."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "yeah ill do that dont worry"
+msgstr "yeah ill do that dont worry"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "hello?"
+msgstr "hello?"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "sans, im kinda getting worried"
+msgstr "sans, im kinda getting worried"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "no... no no no no no please tell me that was a prank"
+msgstr "no... no no no no no please tell me that was a prank"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "you're pranking me right?\nyou wouldnt just die like that"
+msgstr "you're pranking me right?\nyou wouldnt just die like that"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "sans please tell me that youre alive and safe"
+msgstr "sans please tell me that youre alive and safe"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "im sorry if i upset you for some reason or did something bad"
+msgstr "im sorry if i upset you for some reason or did something bad"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "its just been tough on me since you left and i dont know what to do"
+msgstr "its just been tough on me since you left and i dont know what to do"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "papyrus... no..."
+msgstr "papyrus... no..."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "i guess it wasnt a prank, then"
+msgstr "i guess it wasnt a prank, then"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "sans"
+msgstr "sans"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "i dont know if youre there in some form or not but"
+msgstr "i dont know if youre there in some form or not but"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "undynes gone"
+msgstr "undynes gone"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "UNDYNES GONE AND I DONT FING KNOW WHAT TO DO"
+msgstr "UNDYNES GONE AND I DONT FING KNOW WHAT TO DO"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "sorry"
+msgstr "sorry"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "i should probably go."
+msgstr "i should probably go."
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "heck i dont even know why im talking to someone whos dead to begin with"
+msgstr "heck i dont even know why im talking to someone whos dead to begin with"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "by the way, one last thing"
+msgstr "by the way, one last thing"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "it was the starling all along"
+msgstr "it was the starling all along"
+

@@ -1,0 +1,45 @@
+msgid "<32>{#p/narrator}*"
+msgstr ""
+
+msgid "sequence"
+msgstr ""
+
+msgid "<32>{#p/narrator}* It's a bookshelf."
+msgstr ""
+
+msgid "<32>{#p/human}* (You pick out a book...)"
+msgstr ""
+
+msgid "<32>{#p/narrator}* \"\""
+msgstr ""
+
+msgid "<33>* \"\""
+msgstr ""
+
+msgid "<32>* \"\""
+msgstr ""
+
+msgid "<32>{#p/human}* (You put the book back on the shelf.)"
+msgstr ""
+
+msgid "<32>{#p/narrator}* \"hint at trust\""
+msgstr ""
+
+msgid "<32>{#p/narrator}* \"kindness\""
+msgstr ""
+
+msgid "<32>{#p/narrator}* \"hint at archive\""
+msgstr ""
+
+msgid "<32>{#p/narrator}* \"Room under renovations.\""
+msgstr ""
+
+msgid "<32>{#p/narrator}* Despite everything, it's still you."
+msgstr ""
+
+msgid "<32>{#p/narrator}* It's a hand-made macaroni art of a starling."
+msgstr ""
+
+msgid "Citadel - Courtyard"
+msgstr ""
+

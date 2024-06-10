@@ -1,0 +1,412 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-11 07:55+0000\n"
+"PO-Revision-Date: 2024-04-11 07:55+0000\n"
+"Last-Translator: WS3917 <inf.3917.restart@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/4-aerialis-alphys/zh_Hans/>\n"
+"Language: zh-hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "hey everyone, we might need to start evacuating people from aerialis."
+msgstr ""
+
+msgid "SYSTEM"
+msgstr ""
+
+msgid "Thank you for creating an account on the outpost's #1 social network!"
+msgstr ""
+
+msgid "finally met the human, that was kinda nervewracking lol"
+msgstr ""
+
+msgid "well, i just met the human"
+msgstr ""
+
+msgid "still can't believe mettaton wanted me to fight them, smh"
+msgstr ""
+
+msgid "not sure what to say except, they seem nice?"
+msgstr ""
+
+msgid "anyway, imma be guiding them now :D\ngodddd this is so exciting aaaaaa"
+msgstr ""
+
+msgid "anyway, imma be guiding them now :O\nlets hope nothing bad happens"
+msgstr ""
+
+msgid "bro are those dudes fr??\nTHERES ICE CREAM AT THE REC CENTER"
+msgstr ""
+
+msgid "do they not know theres ice cream at the rec center? uhhhhh"
+msgstr ""
+
+msgid "oh god here we go here we go"
+msgstr ""
+
+msgid "ok imma be honest i have no idea how that worked out lol"
+msgstr ""
+
+msgid "shoulda known those bombs were just TV props lol"
+msgstr ""
+
+msgid "is it just me or is mtt literally doing this stuff for no reason???"
+msgstr ""
+
+msgid "well holy pepperoni that was close"
+msgstr ""
+
+msgid "guys that was amazing, anyone who wasn't watching missed out big time"
+msgstr ""
+
+msgid "welp, there goes my last portable one-time-use jetpack"
+msgstr ""
+
+msgid "btw has anyone else seen mew mew space adventure???"
+msgstr ""
+
+msgid "STRONGFISH91"
+msgstr ""
+
+msgid "HAVE I EVER???\nMAN THAT SHOW IS FREAKING EPIC!!!"
+msgstr ""
+
+msgid "anyone at all?"
+msgstr ""
+
+msgid "woah undyne where did you come from!?!?"
+msgstr ""
+
+msgid "damn, guess not"
+msgstr ""
+
+msgid "COOLSKELETON95"
+msgstr ""
+
+msgid "Wouldn't you like to know!\nFUHUHU!"
+msgstr ""
+
+msgid "ARE WE WATCHING \"TV SHOWS\" NOW?\nSOUNDS EXCITING!"
+msgstr ""
+
+msgid "Sorry Alphys, I'd love to talk about Mew Mew, just not right now okay?"
+msgstr ""
+
+msgid "_K1ll3rMann3qu1n_"
+msgstr ""
+
+msgid "Mew Mew SPACE ADVENTURE!?!??\nHAH! WHAT A LOAD OF HOT GARBAGE!"
+msgstr ""
+
+msgid "lemme guess, youre one of those mew mew starfire fans arent you"
+msgstr ""
+
+msgid "sigh..."
+msgstr ""
+
+msgid "yeah, okay, but ask yourself this:\ndoes space venture have EXPLOSIONS!?"
+msgstr ""
+
+msgid "whats the matter, huh?\nSCARED YOU'LL LOSE AN ARGUMENT!?"
+msgstr ""
+
+msgid "LOLLLLLLLLLLL SPACE VENTURE-\naverage starfire fan cant spell fr"
+msgstr ""
+
+msgid "really starting to regret not adding a block function to this thing fr"
+msgstr ""
+
+msgid "okay someone tell me how he already setup another show that fast"
+msgstr ""
+
+msgid "for the record, this mew mew doll thing never happened."
+msgstr ""
+
+msgid "the heck are those guards doing??\ndid they not get my royal memo??"
+msgstr ""
+
+msgid "NAPSTABLOOK22"
+msgstr ""
+
+msgid "oh...... they haven't added a friend request feature yet......"
+msgstr ""
+
+msgid "Your private message history was successfully cleared."
+msgstr ""
+
+msgid "lazybones."
+msgstr ""
+
+msgid "just to be on the safe side."
+msgstr ""
+
+msgid "of course, just cleared it out now"
+msgstr ""
+
+msgid "heh... remember that time he showed off the new gravity plating?"
+msgstr ""
+
+msgid "and the whole set just started floating into the sky? OMG YES LMAO"
+msgstr ""
+
+msgid "pfft, he really thought that would work, huh?"
+msgstr ""
+
+msgid "i remember asgore trying everything he could to hold it down XD"
+msgstr ""
+
+msgid "man, what a day... i really miss working with you sans"
+msgstr ""
+
+msgid "i know you do, alph.\nbut i've got a different job to dddd"
+msgstr ""
+
+msgid "...\nr u there?"
+msgstr ""
+
+msgid "sorry, yeah. a human just showed up, totally caught me off guard."
+msgstr ""
+
+msgid "no pun intended."
+msgstr ""
+
+msgid "right... wait, really?"
+msgstr ""
+
+msgid "i wouldn't lie about making a pun, would i?"
+msgstr ""
+
+msgid "you know what i mean..."
+msgstr ""
+
+msgid "don't worry, alph.\ni've got this under control."
+msgstr ""
+
+msgid "you better lol"
+msgstr ""
+
+msgid "you know the humans been killing monsters in starton right?"
+msgstr ""
+
+msgid "theyre going after regular citizens"
+msgstr ""
+
+msgid "theyre targeting the sentries"
+msgstr ""
+
+msgid "theyre going after everyone"
+msgstr ""
+
+msgid "i'm know. i'm doing my best to get people out before it's too late."
+msgstr ""
+
+msgid "okay, good"
+msgstr ""
+
+msgid "that was close"
+msgstr ""
+
+msgid "yeah... guess i shouldn't have doubted my bro, heh."
+msgstr ""
+
+msgid "yeah..."
+msgstr ""
+
+msgid "never mind the humans back to killing again"
+msgstr ""
+
+msgid "welp."
+msgstr ""
+
+msgid "sans"
+msgstr ""
+
+msgid "the human just killed papyrus"
+msgstr ""
+
+msgid "please tell me youre there"
+msgstr ""
+
+msgid "i knew i shouldn't have trusted them to change."
+msgstr ""
+
+msgid "i knew i shouldn't have left them alone with him."
+msgstr ""
+
+msgid "what are you gonna do now?"
+msgstr ""
+
+msgid "honestly, alph?"
+msgstr ""
+
+msgid "i don't feel like doing anything."
+msgstr ""
+
+msgid "sans..."
+msgstr ""
+
+msgid "it's not your fault, alph.\nthis would always have happened."
+msgstr ""
+
+msgid "what do you mean?"
+msgstr ""
+
+msgid "you know how papyrus can be."
+msgstr ""
+
+msgid "he's just too damn good to stand by and watch as people die."
+msgstr ""
+
+msgid "unlike us, huh?"
+msgstr ""
+
+msgid "yeah."
+msgstr ""
+
+msgid "..."
+msgstr ""
+
+msgid "things arent getting any better"
+msgstr ""
+
+msgid "lemme guess, they're killing people in the foundry now?"
+msgstr ""
+
+msgid "yeah but youre gonna help me evacuate right?"
+msgstr ""
+
+msgid "i can't make any promises.\nbut i'll try."
+msgstr ""
+
+msgid "thanks"
+msgstr ""
+
+msgid "sans people in the foundry are dying"
+msgstr ""
+
+msgid "its the human... even the elite squad cant stop it"
+msgstr ""
+
+msgid "its the human... theyre going after the residents down there"
+msgstr ""
+
+msgid "its the human... theyre killing everybody down there"
+msgstr ""
+
+msgid "well, aren't you gonna start evacuating people?"
+msgstr ""
+
+msgid "oh right i need to do that"
+msgstr ""
+
+msgid "gotta go"
+msgstr ""
+
+msgid "good luck, alph.\ni'll help evacuate if i can."
+msgstr ""
+
+msgid "thx"
+msgstr ""
+
+msgid "first papyrus and now undyne... when is it going to stop?"
+msgstr ""
+
+msgid "undynes gone"
+msgstr ""
+
+msgid "well at least they spared undyne"
+msgstr ""
+
+msgid "i don't know, alph. i just don't."
+msgstr ""
+
+msgid "i'm sorry, alph. i wish i could do something, but i really can't."
+msgstr ""
+
+msgid "though i dont think i want to be here after everything that happened"
+msgstr ""
+
+msgid "i should probably leave the lab while i still have the chance."
+msgstr ""
+
+msgid "who knows what theyll do next?"
+msgstr ""
+
+msgid "yeah, you do that.\ni'll try to keep tabs on 'em though."
+msgstr ""
+
+msgid "you can leave the lab if you want.\ni'll try to keep tabs on 'em though."
+msgstr ""
+
+msgid "ok but dont get too close cause theyve killed a lot of people by now"
+msgstr ""
+
+msgid "i'll be fine, just be sure to get a phone that works outside the lab."
+msgstr ""
+
+msgid "oh yeah i almost forgot, thanks"
+msgstr ""
+
+msgid "oh, and be sure to clear the message history while you're at it."
+msgstr ""
+
+msgid "yeah ill do that dont worry"
+msgstr ""
+
+msgid "hello?"
+msgstr ""
+
+msgid "sans, im kinda getting worried"
+msgstr ""
+
+msgid "no... no no no no no please tell me that was a prank"
+msgstr ""
+
+msgid "you're pranking me right?\nyou wouldnt just die like that"
+msgstr ""
+
+msgid "sans please tell me that youre alive and safe"
+msgstr ""
+
+msgid "im sorry if i upset you for some reason or did something bad"
+msgstr ""
+
+msgid "its just been tough on me since you left and i dont know what to do"
+msgstr ""
+
+msgid "papyrus... no..."
+msgstr ""
+
+msgid "i guess it wasnt a prank, then"
+msgstr ""
+
+msgid "i dont know if youre there in some form or not but"
+msgstr ""
+
+msgid "UNDYNES GONE AND I DONT FING KNOW WHAT TO DO"
+msgstr ""
+
+msgid "sorry"
+msgstr ""
+
+msgid "i should probably go."
+msgstr ""
+
+msgid "heck i dont even know why im talking to someone whos dead to begin with"
+msgstr ""
+
+msgid "by the way, one last thing"
+msgstr ""
+
+msgid "it was the starling all along"
+msgstr ""

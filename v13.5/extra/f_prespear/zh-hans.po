@@ -1,0 +1,72 @@
+msgid "limit"
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/4}CAREFUL, THIS ROOM HAS SPECIAL SPOOKY POWERS."
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/4}THE TIME IT TAKES TO TRAVEL ACROSS THIS ROOM..."
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/4}... NEVER SEEMS TO BE THE SAME."
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/5}SOMETIMES IT'S LONG, SOMETIMES IT'S NOT..."
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/0}AND SOMETIMES I WEAR POLKA-DOTS."
+msgstr ""
+
+
+msgid "<25>{#p/undyne}{#f/12}* Polka-what?"
+msgstr ""
+
+
+msgid "<25>{#p/undyne}{#f/1}* Well uh, as for the length..."
+msgstr ""
+
+
+msgid "<25>{#p/undyne}{#f/3}* It's probably just a spatial disturbance."
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/0}... OH!"
+msgstr ""
+
+
+msgid "<25>{#p/undyne}{#f/17}* Yeah!!!"
+msgstr ""
+
+
+msgid "<25>{#p/undyne}{#f/16}* But... polka dots."
+msgstr ""
+
+
+msgid "<25>{#p/undyne}{#f/8}* What does that have to do with anything!"
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/5}OBJECTS IN HALLWAY ARE FARTHER THAN THEY APPEAR."
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/4}YES, I LITERALLY JUST SAID THAT TO MAKE IT RHYME."
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/9}WHAT ARE YOU GONNA DO ABOUT IT, HUH?"
+msgstr ""
+
+
+msgid "<18>THAT'S RIGHT.\nNOTHING!"
+msgstr ""
+
+
+msgid "<18>NOTHING AT ALL!"
+msgstr ""
+
+

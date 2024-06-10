@@ -1,0 +1,32 @@
+msgid "limit"
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/0}WATCH OUT FOR THE ANCIENT HUMAN PYLON PUZZLES!"
+msgstr ""
+
+
+msgid "<18>THOUGH RUDIMENTARY IN THEIR METHOD OF CONSTRUCTION..."
+msgstr ""
+
+
+msgid "<18>THEIR DESIGN IS NOTHING SHORT OF PERPLEXING!"
+msgstr ""
+
+
+msgid "<18>{#p/papyrus}{#f/4}SO, HOW'D YOU FARE WITH THE PYLON PUZZLES?"
+msgstr ""
+
+
+msgid "<18>{#f/5}I STRUGGLED WITH THEM GREATLY."
+msgstr ""
+
+
+msgid "<25>{#p/undyne}{#f/1}* They weren't built by monsters, so it actually makes sense."
+msgstr ""
+
+
+msgid "<25>{#f/8}* Makes me wonder if the human struggles on monster-made puzzles!"
+msgstr ""
+
+

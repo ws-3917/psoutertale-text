@@ -1,0 +1,57 @@
+msgid "limit"
+msgstr "limit"
+
+msgid "<18>{#p/papyrus}{#f/4}CAREFUL, THIS ROOM HAS SPECIAL SPOOKY POWERS."
+msgstr "<18>{#p/papyrus}{#f/4}CAREFUL, THIS ROOM HAS SPECIAL SPOOKY POWERS."
+
+msgid "<18>{#p/papyrus}{#f/4}THE TIME IT TAKES TO TRAVEL ACROSS THIS ROOM..."
+msgstr "<18>{#p/papyrus}{#f/4}THE TIME IT TAKES TO TRAVEL ACROSS THIS ROOM..."
+
+msgid "<18>{#p/papyrus}{#f/4}...NEVER SEEMS TO BE THE SAME."
+msgstr "<18>{#p/papyrus}{#f/4}...NEVER SEEMS TO BE THE SAME."
+
+msgid "<18>{#p/papyrus}{#f/5}SOMETIMES IT'S LONG, SOMETIMES IT'S NOT..."
+msgstr "<18>{#p/papyrus}{#f/5}SOMETIMES IT'S LONG, SOMETIMES IT'S NOT..."
+
+msgid "<18>{#p/papyrus}{#f/0}AND SOMETIMES I WEAR POLKA-DOTS."
+msgstr "<18>{#p/papyrus}{#f/0}AND SOMETIMES I WEAR POLKA-DOTS."
+
+msgid "<25>{#p/undyne}{#f/12}* Polka-what?"
+msgstr "<25>{#p/undyne}{#f/12}* Polka-what?"
+
+msgid "<25>{#p/undyne}{#f/1}* Well uh, as for the length..."
+msgstr "<25>{#p/undyne}{#f/1}* Well uh, as for the length..."
+
+msgid "<25>{#p/undyne}{#f/3}* It's probably just the spatial anomaly here."
+msgstr "<25>{#p/undyne}{#f/3}* It's probably just the spatial anomaly here."
+
+msgid "<18>{#p/papyrus}{#f/0}...OH!"
+msgstr "<18>{#p/papyrus}{#f/0}...OH!"
+
+msgid "<25>{#p/undyne}{#f/17}* Yeah!!!"
+msgstr "<25>{#p/undyne}{#f/17}* Yeah!!!"
+
+msgid "<25>{#p/undyne}{#f/16}* But... polka dots."
+msgstr "<25>{#p/undyne}{#f/16}* But... polka dots."
+
+msgid "<25>{#p/undyne}{#f/8}* What does that have to do with anything!"
+msgstr "<25>{#p/undyne}{#f/8}* What does that have to do with anything!"
+
+msgid "<18>{#p/papyrus}{#f/5}OBJECTS IN HALLWAY ARE FARTHER THAN THEY APPEAR."
+msgstr "<18>{#p/papyrus}{#f/5}OBJECTS IN HALLWAY ARE FARTHER THAN THEY APPEAR."
+
+msgid "<18>{#p/papyrus}{#f/4}YES, I LITERALLY JUST SAID THAT TO MAKE IT RHYME."
+msgstr "<18>{#p/papyrus}{#f/4}YES, I LITERALLY JUST SAID THAT TO MAKE IT RHYME."
+
+msgid "<18>{#p/papyrus}{#f/9}WHAT ARE YOU GONNA DO ABOUT IT, HUH?"
+msgstr "<18>{#p/papyrus}{#f/9}WHAT ARE YOU GONNA DO ABOUT IT, HUH?"
+
+msgid "<18>THAT'S RIGHT.\nNOTHING!"
+msgstr "<18>THAT'S RIGHT.\nNOTHING!"
+
+msgid "<18>NOTHING AT ALL!"
+msgstr "<18>NOTHING AT ALL!"
+
+msgid "<25>{#p/undyne}{#f/3}* Damn."
+msgstr "<25>{#p/undyne}{#f/3}* Damn."
+

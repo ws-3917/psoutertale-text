@@ -1,0 +1,1010 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-08 14:34+0000\n"
+"PO-Revision-Date: 2024-04-08 17:21+0000\n"
+"Last-Translator: Murder--Sans_MDR <z127568254@163.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/0-gamemenu/zh_Hans/>\n"
+"Language: zh-hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+msgid "<20>You cannot give up just yet..."
+msgstr "<20>不能就这么放弃..."
+
+msgid "<20>$(name)!\nStay determined..."
+msgstr "<20>$(name)!\n保持你的决心..."
+
+msgid "<20>Our fate rests upon you..."
+msgstr "<20>我们的命运都取决于你..."
+
+msgid "<20>You're going to be alright!"
+msgstr "<20>你会没事的！"
+
+msgid "<20>Don't lose hope!"
+msgstr "<20>不要失去希望！"
+
+msgid "<20>It cannot end now!"
+msgstr "<20>现在还不能结束！"
+
+msgid "    * I'm outta here."
+msgstr "    * 我先撤了。"
+
+msgid "    * I've got better to do."
+msgstr "    * 我还有别的事要做。"
+
+msgid "    * Don't slow me down."
+msgstr "    * 别拖我后腿。"
+
+msgid "    * Escaped..."
+msgstr "    * 先走一步..."
+
+msgid "    * Ran away with $(x) EXP\n      and $(y) G."
+msgstr ""
+"    * 带着$(x) EXP 和 $(y)G\n"
+"      逃跑了。"
+
+msgid "* HP fully restored."
+msgstr "* HP已回满。"
+
+msgid "* You recovered $(x) HP."
+msgstr "* 你回复了$(x)HP。"
+
+msgid "* Assist"
+msgstr "* 外援"
+
+msgid "* Flee"
+msgstr "* 逃跑"
+
+msgid "* Spare"
+msgstr "* 饶恕"
+
+msgid "<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y) G."
+msgstr ""
+"<32>{#p/story}* 你赢了！\n"
+"* 你获得了$(x) EXP和$(y) G。"
+
+msgid "<32>{#p/human}* (Your LOVE increased.)"
+msgstr "<32>{#p/human}* （你的LOVE增加了。）"
+
+msgid "ERROR"
+msgstr "错误"
+
+msgid "RESUME"
+msgstr "恢复游戏"
+
+msgid "Click To Resume"
+msgstr "点击此处恢复游戏"
+
+msgid "An error occured! Please send\nscreenshot to developer."
+msgstr ""
+"程序出现错误！\n"
+"请将屏幕截图发给开发者。"
+
+msgid "CONTROL"
+msgstr "控制"
+
+msgid "GENERAL"
+msgstr "常规"
+
+msgid "BATTLE"
+msgstr "战斗中"
+
+msgid "FixMusic"
+msgstr "音乐初始化"
+
+msgid "FixPlayer"
+msgstr "角色初始化"
+
+msgid "InfiniteG"
+msgstr "无限金钱"
+
+msgid "Interact"
+msgstr "允许角色交互"
+
+msgid "Input"
+msgstr "允许按键输入"
+
+msgid "Movement"
+msgstr "允许角色移动"
+
+msgid "Noclip"
+msgstr "无视墙体"
+
+msgid "Save"
+msgstr "快速存档"
+
+msgid "SkipText"
+msgstr "跳过文本"
+
+msgid "Freecam"
+msgstr "自由镜头"
+
+msgid "CanAssist"
+msgstr "允许外援"
+
+msgid "ClearBox"
+msgstr "清除弹幕"
+
+msgid "Exit"
+msgstr "立即退出"
+
+msgid "ResetBox"
+msgstr "重置框体大小"
+
+msgid "ResetMenu"
+msgstr "重置菜单"
+
+msgid "CanFlee"
+msgstr "允许逃跑"
+
+msgid "InfiniteHP"
+msgstr "无限HP"
+
+msgid "PacifyAll"
+msgstr "安抚敌方全体"
+
+msgid "Suicide"
+msgstr "自杀"
+
+msgid "WeakenAll"
+msgstr "削弱敌方全体"
+
+msgid "GAME SPEED"
+msgstr "游戏倍速"
+
+msgid "Less"
+msgstr "减速"
+
+msgid "More"
+msgstr "加速"
+
+msgid "delete"
+msgstr "删除"
+
+msgid "active"
+msgstr "活动"
+
+msgid "anchor"
+msgstr "锚点"
+
+msgid "args"
+msgstr "参数"
+
+msgid "auto"
+msgstr "自动"
+
+msgid "background"
+msgstr "背景"
+
+msgid "filter"
+msgstr "滤镜"
+
+msgid "filters"
+msgstr "滤镜"
+
+msgid "frames"
+msgstr "帧"
+
+msgid "gain"
+msgstr "增益"
+
+msgid "layer"
+msgstr "层"
+
+msgid "music"
+msgstr "音乐"
+
+msgid "name"
+msgstr "名称"
+
+msgid "neighbors"
+msgstr "邻居"
+
+msgid "objects"
+msgstr "对象"
+
+msgid "position"
+msgstr "位置"
+
+msgid "preload"
+msgstr "预加载"
+
+msgid "rate"
+msgstr "速率"
+
+msgid "region-max"
+msgstr "区域最大"
+
+msgid "region-min"
+msgstr "区域最小"
+
+msgid "resources"
+msgstr "资源"
+
+msgid "reverb"
+msgstr "混响"
+
+msgid "rotation"
+msgstr "旋转"
+
+msgid "score"
+msgstr "分数"
+
+msgid "size"
+msgstr "大小"
+
+msgid "spawn"
+msgstr "生成"
+
+msgid "steps"
+msgstr "步骤"
+
+msgid "tags"
+msgstr "标签"
+
+msgid "type"
+msgstr "类型"
+
+msgid "creating"
+msgstr "创建中"
+
+msgid "modifying"
+msgstr "修改中"
+
+msgid "selecting"
+msgstr "选择中"
+
+msgid "object"
+msgstr "对象"
+
+msgid "room"
+msgstr "房间"
+
+msgid "sub-object"
+msgstr "子对象"
+
+msgid "GODHOME"
+msgstr "测试"
+
+msgid "ROOM"
+msgstr "房间"
+
+msgid "Teleport"
+msgstr "传送"
+
+msgid "ENCOUNTER"
+msgstr "遭遇战"
+
+msgid "Start"
+msgstr "开始"
+
+msgid "MENU"
+msgstr "菜单"
+
+msgid "Switch"
+msgstr "切换"
+
+msgid "INSPECT"
+msgstr "检查"
+
+msgid "LAYERS"
+msgstr "图层"
+
+msgid "TYPES"
+msgstr "类型"
+
+msgid "Base"
+msgstr "基层"
+
+msgid "Below"
+msgstr "下层"
+
+msgid "Main"
+msgstr "主层"
+
+msgid "Above"
+msgstr "上层"
+
+msgid "Menu"
+msgstr "菜单层"
+
+msgid "Hitbox"
+msgstr "碰撞箱"
+
+msgid "Sprite"
+msgstr "贴图"
+
+msgid "Text"
+msgstr "文本"
+
+msgid "EXPLORER"
+msgstr "浏览"
+
+msgid "Base (Explorer)"
+msgstr "基层"
+
+msgid "Below (Explorer)"
+msgstr "下层"
+
+msgid "Main (Explorer)"
+msgstr "主层"
+
+msgid "Above (Explorer)"
+msgstr "上层"
+
+msgid "Menu (Explorer)"
+msgstr "菜单层"
+
+msgid "A"
+msgstr "A"
+
+msgid "C"
+msgstr "C"
+
+msgid "E"
+msgstr "E"
+
+msgid "H"
+msgstr "H"
+
+msgid "O"
+msgstr "O"
+
+msgid "P"
+msgstr "P"
+
+msgid "S"
+msgstr "S"
+
+msgid "T"
+msgstr "T"
+
+msgid "SAVEMOD"
+msgstr "存档"
+
+msgid "SAVE EDITOR"
+msgstr "存档编辑器"
+
+msgid "Data (Booleans)"
+msgstr "数据 (布尔型)"
+
+msgid "Data (Numbers)"
+msgstr "数据 (数值型)"
+
+msgid "Data (Strings)"
+msgstr "数据 (字符串型)"
+
+msgid "Flags (Booleans)"
+msgstr "节点 (布尔型)"
+
+msgid "Flags (Numbers)"
+msgstr "节点 (数值型)"
+
+msgid "Flags (Strings)"
+msgstr "节点 (字符串型)"
+
+msgid "NAVIGATION"
+msgstr "浏览"
+
+msgid "Prev"
+msgstr "上一页"
+
+msgid "Next"
+msgstr "下一页"
+
+msgid "STORAGE"
+msgstr "物品"
+
+msgid "STORAGE EDITOR"
+msgstr "物品库存编辑器"
+
+msgid "SELECTION"
+msgstr "选择容器"
+
+msgid "Inventory"
+msgstr "物品栏"
+
+msgid "Dim. Box A"
+msgstr "次元箱 A"
+
+msgid "Dim. Box B"
+msgstr "次元箱 B"
+
+msgid "Download this SAVE file?"
+msgstr "下载存档文件？"
+
+msgid "Upload this SAVE file?"
+msgstr "上传存档文件？"
+
+msgid "Resume Canon Timeline"
+msgstr "重返主时间线"
+
+msgid "Other Slots"
+msgstr "其他时间线槽位"
+
+msgid "Bisect"
+msgstr "切分"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Launch"
+msgstr "启动"
+
+msgid "Rename"
+msgstr "重命名"
+
+msgid "Create New"
+msgstr "新建"
+
+msgid "Enter Timeline Name"
+msgstr "输入时间线名称"
+
+msgid "Are You Sure?"
+msgstr "确定删除吗？"
+
+msgid "DISABLED"
+msgstr "关闭"
+
+msgid "G"
+msgstr "G"
+
+msgid "HP"
+msgstr "HP"
+
+msgid "INF"
+msgstr "INF"
+
+msgid "[PRESS Z OR ENTER]"
+msgstr "[按下 Z 或 ENTER]"
+
+msgid "LV"
+msgstr "LV"
+
+msgid "§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§"
+msgstr ""
+"§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:"
+"§"
+
+msgid "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
+msgstr ""
+"{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystif"
+"y:}"
+
+msgid "No"
+msgstr "否"
+
+msgid "$(x)%"
+msgstr "$(x)%"
+
+msgid "Settings"
+msgstr "游戏设置"
+
+msgid "?"
+msgstr "?"
+
+msgid "Yes"
+msgstr "是"
+
+msgid "INVENTORY"
+msgstr "物品栏"
+
+msgid "BOX"
+msgstr "箱子"
+
+msgid "Press [X] to Finish"
+msgstr "按 [X] 返回。"
+
+msgid "Is this name correct?"
+msgstr "确定要选择这个名字吗?"
+
+msgid "A name has already\nbeen chosen."
+msgstr "已经选定了一个名字。"
+
+msgid "Go back"
+msgstr "返回"
+
+msgid "Not very creative...?"
+msgstr "好像缺少点创意......？"
+
+msgid "Is this name correct? ;)"
+msgstr "你确定是这个名字吗? ;)"
+
+msgid "Uh.... OK?"
+msgstr "额...行吧？"
+
+msgid "D-don't do that."
+msgstr "别-别这么做。"
+
+msgid "You... can? Huh."
+msgstr "... 应该可以？嗯。"
+
+msgid "You cannot."
+msgstr "不可以。"
+
+msgid "...fine."
+msgstr "...行吧。"
+
+msgid "..."
+msgstr "..."
+
+msgid "............\nThey're powerless to stop you."
+msgstr ""
+"...............\n"
+"它无力阻止你。"
+
+msgid "You could come up with something better than that."
+msgstr ""
+"你肯定能想到\n"
+"更好的名字的。"
+
+msgid "You know that's just a nickname, right?"
+msgstr ""
+"这个名字只是个昵称\n"
+"你应该知道吧？"
+
+msgid "Like, OK I guess."
+msgstr "嗯，我想行吧。"
+
+msgid "A pleasing nomenclature, no?"
+msgstr "这名字挺棒的，不是吗？"
+
+msgid "Bratty! Bratty! That's MY name!"
+msgstr ""
+"Bratty! Bratty! \n"
+"那是我的名字！"
+
+msgid "Guh huh huh, nice one."
+msgstr "哈哈哈，不错嘛。"
+
+msgid "The true name."
+msgstr "真正的名字。"
+
+msgid "Alacazam, Hocus Pocus."
+msgstr "阿拉卡扎姆，胡里胡涂。"
+
+msgid "How dare you!?"
+msgstr "我看你敢！？"
+
+msgid "Don't even think about taking my wife's."
+msgstr ""
+"别想打\n"
+"用我妻子名字的主意。"
+
+msgid "A-Ah! It's moving! I-I-It's shaking!"
+msgstr "啊-啊！它在动！它在抖动！"
+
+msgid ".....\nIt doesn't seem much for conversation."
+msgstr ""
+".....\n"
+"他似乎不怎么健谈。"
+
+msgid "It is my name."
+msgstr "那是我的名字。"
+
+msgid "WARNING: This name will do absolutely nothing. Proceed anyway?"
+msgstr ""
+"警告：\n"
+"这个名字什么效果都没有。\n"
+"还要继续吗？"
+
+msgid "Wah ha ha! Why not?"
+msgstr "哇哈哈！为什么不呢？"
+
+msgid "Slick choice, homeslice."
+msgstr "不错的选择，小伙子。"
+
+msgid "I don't think so, darling."
+msgstr "我觉得名字不对哦，亲。"
+
+msgid "You KNEW!?"
+msgstr "你知道！？"
+
+msgid "Jerry."
+msgstr "Jerry."
+
+msgid "It is my world."
+msgstr "这是我的世界。"
+
+msgid "What. What! WHAT!"
+msgstr "什么，什么！什么！！！"
+
+msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
+msgstr "哦!!! 你在推广我的品牌吗？"
+
+msgid "Ahuhuhu, I heard humans love stealing spiders' identities~"
+msgstr ""
+"啊呼呼~\n"
+"我听说...人类非常喜欢\n"
+"冒充蜘蛛的身份~"
+
+msgid "Saddle up!"
+msgstr "上马！"
+
+msgid "I'LL ALLOW IT!!!!"
+msgstr "我准了！！！"
+
+msgid "Now you're on FIRE!!"
+msgstr "现在你火了！！"
+
+msgid "why?"
+msgstr "为啥呢？"
+
+msgid "nope."
+msgstr "没门。"
+
+msgid "That's a pretty \"bright\" one, heh."
+msgstr "那是个很“亮”的名字，呵。"
+
+msgid "...?"
+msgstr "...?"
+
+msgid "Clean name."
+msgstr "干净的名字。"
+
+msgid "hOI!"
+msgstr "你吼！！"
+
+msgid "Umm... I suppose that works..."
+msgstr "嗯... 我想这个名字可以..."
+
+msgid "I think you should think of your own name, my child."
+msgstr ""
+"我觉得，\n"
+"你应该想个自己的名字。\n"
+"我的孩子。"
+
+msgid "Really..."
+msgstr "真的吗..."
+
+msgid "Hee hee hee... you THOUGHT."
+msgstr "嘻嘻嘻...你以为呢。"
+
+msgid "Seriously??"
+msgstr "认真的？？"
+
+msgid "Nice try, idiot."
+msgstr "试的好，白痴。"
+
+msgid "Ngah, okay."
+msgstr "嘎啊，行吧。"
+
+msgid "Get your OWN name!"
+msgstr "找个你自己的名字去！"
+
+msgid "Ahh! Thank you~"
+msgstr "啊！谢谢你～"
+
+msgid "USE"
+msgstr "使用"
+
+msgid "EQUIP"
+msgstr "装备"
+
+msgid "INFO"
+msgstr "信息"
+
+msgid "DROP"
+msgstr "丢弃"
+
+msgid "Continue"
+msgstr "继续"
+
+msgid "Reset"
+msgstr "   重置"
+
+msgid "True Reset"
+msgstr "真正的重置"
+
+msgid "Name the stranded human."
+msgstr "    为受困的人类命名："
+
+msgid "Quit"
+msgstr "返回"
+
+msgid "Backspace"
+msgstr "     删除"
+
+msgid "Done"
+msgstr "确定"
+
+msgid "B"
+msgstr "B"
+
+msgid "D"
+msgstr "D"
+
+msgid "F"
+msgstr "F"
+
+msgid "I"
+msgstr "I"
+
+msgid "J"
+msgstr "J"
+
+msgid "K"
+msgstr "K"
+
+msgid "L"
+msgstr "L"
+
+msgid "M"
+msgstr "M"
+
+msgid "N"
+msgstr "N"
+
+msgid "Q"
+msgstr "Q"
+
+msgid "R"
+msgstr "R"
+
+msgid "U"
+msgstr "U"
+
+msgid "V"
+msgstr "V"
+
+msgid "W"
+msgstr "W"
+
+msgid "X"
+msgstr "X"
+
+msgid "Y"
+msgstr "Y"
+
+msgid "Z"
+msgstr "Z"
+
+msgid "a"
+msgstr "a"
+
+msgid "b"
+msgstr "b"
+
+msgid "c"
+msgstr "c"
+
+msgid "d"
+msgstr "d"
+
+msgid "e"
+msgstr "e"
+
+msgid "f"
+msgstr "f"
+
+msgid "g"
+msgstr "g"
+
+msgid "h"
+msgstr "h"
+
+msgid "i"
+msgstr "i"
+
+msgid "j"
+msgstr "j"
+
+msgid "k"
+msgstr "k"
+
+msgid "l"
+msgstr "l"
+
+msgid "m"
+msgstr "m"
+
+msgid "n"
+msgstr "n"
+
+msgid "o"
+msgstr "o"
+
+msgid "p"
+msgstr "p"
+
+msgid "q"
+msgstr "q"
+
+msgid "r"
+msgstr "r"
+
+msgid "s"
+msgstr "s"
+
+msgid "t"
+msgstr "t"
+
+msgid "u"
+msgstr "u"
+
+msgid "v"
+msgstr "v"
+
+msgid "w"
+msgstr "w"
+
+msgid "x"
+msgstr "x"
+
+msgid "y"
+msgstr "y"
+
+msgid "z"
+msgstr "z"
+
+msgid "Return"
+msgstr "返回"
+
+msgid "File saved."
+msgstr "进度已保存！"
+
+msgid "<32>{#p/human}{@fill:#f00}* ($(x) left.)"
+msgstr "<32>{#p/human}{@fill:#f00}* (还剩下$(x)个。)"
+
+msgid "<32>{#p/human}{@fill:#f00}* (Determination.)"
+msgstr "<32>{#p/human}{@fill:#f00}* （决心。）"
+
+msgid "<32>{#p/human}{@fill:#3f00ff}* ($(x) left.)"
+msgstr "<32>{#p/human}{@fill:#3f00ff}* (还剩下$(x)个。)"
+
+msgid "<32>{#p/human}{@fill:#3f00ff}* (Determination.)"
+msgstr "<32>{#p/human}{@fill:#3f00ff}* （决心。）"
+
+msgid "SETTINGS"
+msgstr "游戏设置"
+
+msgid "EXIT"
+msgstr "返回"
+
+msgid "FX"
+msgstr "音效"
+
+msgid "MUSIC"
+msgstr "音乐"
+
+msgid "ALIGN\nCONTROLS"
+msgstr ""
+"控制按钮\n"
+"位置设定"
+
+msgid "LEFT"
+msgstr "左"
+
+msgid "RIGHT"
+msgstr "右"
+
+msgid "ITEM"
+msgstr "物品"
+
+msgid "STAT"
+msgstr "状态"
+
+msgid "CELL"
+msgstr "电话"
+
+msgid "CONF"
+msgstr "设置"
+
+msgid "--- Instruction ---"
+msgstr "---- 操作介绍 ----"
+
+msgid "[Z or ENTER] - Confirm"
+msgstr "[Z 或 ENTER] - 确认/交互"
+
+msgid "[X or SHIFT] - Cancel"
+msgstr "[X 或 SHIFT] - 取消"
+
+msgid "[C or CTRL] - Menu (In-game)"
+msgstr "[C 或 CTRL] - 菜单（游戏内）"
+
+msgid "[F4] - Fullscreen"
+msgstr "[F4] - 全屏"
+
+msgid "[Hold ESC] - Quit"
+msgstr "[长按 ESC] - 退出游戏"
+
+msgid "When HP is 0, you lose."
+msgstr "当 HP 降至 0，你就输了。"
+
+msgid "Begin Game"
+msgstr "开始游戏"
+
+msgid "AT"
+msgstr "攻击"
+
+msgid "DF"
+msgstr "防御"
+
+msgid "WEAPON"
+msgstr "武器"
+
+msgid "ARMOR"
+msgstr "防具"
+
+msgid "GOLD"
+msgstr "金钱"
+
+msgid "EXP"
+msgstr "EXP"
+
+msgid "NEXT"
+msgstr "下一级"
+
+msgid "§fill:#ff0§Warning:\nSAVE file\ninvalid."
+msgstr ""
+"§fill:#ff0§警告:\n"
+"存档文件\n"
+"不可用。"
+
+msgid "KILLS"
+msgstr "击杀"
+
+msgid "N/A"
+msgstr "不适用"
+
+msgid "BULLY"
+msgstr "伤害"
+
+msgid "Long ago, {^3}two species ruled the solar system: {^5}HUMANS and MONSTERS."
+msgstr ""
+"很久以前，{^6}太阳系由\n"
+"两个物种统治着：{^10}\n"
+"人类和怪物。{^24}"
+
+msgid "As time passed, {^3}a war broke out between the two species."
+msgstr ""
+"随着时间的推移，{^10}\n"
+"两个物种之间爆发了战争。{^24}"
+
+msgid "After the MONSTERS' home planet was destroyed, {^3}HUMANS declared victory."
+msgstr ""
+"最终，{^8}\n"
+"怪物的母星被摧毁，{^15}\n"
+"人类宣布了胜利。{^24}"
+
+msgid "The remaining MONSTERS were banished to an abandoned outpost."
+msgstr ""
+"他们将剩下的怪物流放到{^2}\n"
+"一个被遗弃的前哨站。{^24}"
+
+msgid "A powerful force field was erected, {^3}and the MONSTERS were sealed in."
+msgstr ""
+"人类建立起一道强大的力场，{^10}\n"
+"将怪物们封印在内。{^32}"
+
+msgid "Many years later.{^8}.{^8}."
+msgstr "许多年后.{^12}.{^16}."
+
+msgid "µµµµ EBOTT SECTOR µµµµ µµµµµµµµ 251X{^20}"
+msgstr ""
+"µµµµµµµ EBOTT区 µµµµµµµ{^6}\n"
+"µµµµµµµµ 251X{^20}"
+
+msgid "Tales speak of a place from which spacecraft never return.{^20}"
+msgstr ""
+"有传言说，宇宙中有一个地方，{^7}\n"
+"发射到那里的飞船{^4}\n"
+"都再也没有返航。{^24}"
+
+msgid "{^100}"
+msgstr "{^200}"
+
+msgid "Quitting"
+msgstr "正在退出"
+
+msgid "Quitting."
+msgstr "正在退出."
+
+msgid "Quitting.."
+msgstr "正在退出.."

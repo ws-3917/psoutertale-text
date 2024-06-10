@@ -1,0 +1,1566 @@
+msgid "The player did everything they could..."
+msgstr "The player did everything they could..."
+
+msgid "But alas, {^3}his fate was sealed, {^3}and..."
+msgstr "But alas, {^3}his fate was sealed, {^3}and..."
+
+msgid "No addendum to the story could unravel it."
+msgstr "No addendum to the story could unravel it."
+
+msgid "There was no scenario in which the player could truly be satisfied."
+msgstr "There was no scenario in which the player could truly be satisfied."
+
+msgid "Is this what they really deserve?"
+msgstr "Is this what they really deserve?"
+
+msgid "To live in bittersweet agony, {^3}knowing he could never be..."
+msgstr "To live in bittersweet agony, {^3}knowing he could never be..."
+
+msgid "No...{^5}\nI will not allow it."
+msgstr "No...{^5}\nI will not allow it."
+
+msgid "If bending the fabric of spacetime is what it takes, then..."
+msgstr "If bending the fabric of spacetime is what it takes, then..."
+
+msgid "So be it."
+msgstr "So be it."
+
+msgid "I will not rest until the task is done."
+msgstr "I will not rest until the task is done."
+
+msgid "<33>{#p/narrator}* This bed, albiet well-made, has seen a lot of use."
+msgstr "<33>{#p/narrator}* This bed, albiet well-made, has seen a lot of use."
+
+msgid "<32>{#p/kidd}{#f/1}* Looks comfy! "
+msgstr "<32>{#p/kidd}{#f/1}* Looks comfy! "
+
+msgid "<32>{#p/narrator}* Good to know I'm not the only one who likes the soft things."
+msgstr "<32>{#p/narrator}* Good to know I'm not the only one who likes the soft things."
+
+msgid "<32>{#p/kidd}{#f/3}* Aw, cute."
+msgstr "<32>{#p/kidd}{#f/3}* Aw, cute."
+
+msgid "<32>{#p/narrator}* Color-coded text fills the screen in a monospaced font."
+msgstr "<32>{#p/narrator}* Color-coded text fills the screen in a monospaced font."
+
+msgid "<32>{#p/kidd}{#f/1}* How OLD is this thing?"
+msgstr "<32>{#p/kidd}{#f/1}* How OLD is this thing?"
+
+msgid "<32>{#p/narrator}* Flowers, the universal symbol for sentimentality."
+msgstr "<32>{#p/narrator}* Flowers, the universal symbol for sentimentality."
+
+msgid "<32>{#p/kidd}{#f/1}* I don't think I've ever seen flowers like THESE before..."
+msgstr "<32>{#p/kidd}{#f/1}* I don't think I've ever seen flowers like THESE before..."
+
+msgid "* Agree"
+msgstr "* Agree"
+
+msgid "* Annoy"
+msgstr "* Annoy"
+
+msgid "* Appease"
+msgstr "* Appease"
+
+msgid "* Bathe"
+msgstr "* Bathe"
+
+msgid "* Beckon"
+msgstr "* Beckon"
+
+msgid "* Blind"
+msgstr "* Blind"
+
+msgid "* Boast"
+msgstr "* Boast"
+
+msgid "* Bow"
+msgstr "* Bow"
+
+msgid "* Burn"
+msgstr "* Burn"
+
+msgid "* Challenge"
+msgstr "* Challenge"
+
+msgid "* Check"
+msgstr "* Check"
+
+msgid "* Cheer"
+msgstr "* Cheer"
+
+msgid "* Clean"
+msgstr "* Clean"
+
+msgid "* Comfort"
+msgstr "* Comfort"
+
+msgid "* Compliment"
+msgstr "* Compliment"
+
+msgid "* Console"
+msgstr "* Console"
+
+msgid "* Counter"
+msgstr "* Counter"
+
+msgid "* Create"
+msgstr "* Create"
+
+msgid "* Criticize"
+msgstr "* Criticize"
+
+msgid "* Dance"
+msgstr "* Dance"
+
+msgid "* Direct"
+msgstr "* Direct"
+
+msgid "* Disarm"
+msgstr "* Disarm"
+
+msgid "* Disown"
+msgstr "* Disown"
+
+msgid "* Distance"
+msgstr "* Distance"
+
+msgid "* Ditch"
+msgstr "* Ditch"
+
+msgid "* Dont Pick On"
+msgstr "* Dont Pick On"
+
+msgid "* Encourage"
+msgstr "* Encourage"
+
+msgid "* Flash"
+msgstr "* Flash"
+
+msgid "* Flirt"
+msgstr "* Flirt"
+
+msgid "* Grin"
+msgstr "* Grin"
+
+msgid "* Guide"
+msgstr "* Guide"
+
+msgid "* Handshake"
+msgstr "* Handshake"
+
+msgid "* Heckle"
+msgstr "* Heckle"
+
+msgid "* Heel Turn"
+msgstr "* Heel Turn"
+
+msgid "* Hug"
+msgstr "* Hug"
+
+msgid "* Hum"
+msgstr "* Hum"
+
+msgid "* Imitate"
+msgstr "* Imitate"
+
+msgid "* Insult"
+msgstr "* Insult"
+
+msgid "* Joke"
+msgstr "* Joke"
+
+msgid "* Laugh"
+msgstr "* Laugh"
+
+msgid "* Lecture"
+msgstr "* Lecture"
+
+msgid "* Leech"
+msgstr "* Leech"
+
+msgid "* Mislead"
+msgstr "* Mislead"
+
+msgid "* Mystify"
+msgstr "* Mystify"
+
+msgid "* Pat"
+msgstr "* Pat"
+
+msgid "* Pay"
+msgstr "* Pay"
+
+msgid "* Perch"
+msgstr "* Perch"
+
+msgid "* Pet"
+msgstr "* Pet"
+
+msgid "* Pick On"
+msgstr "* Pick On"
+
+msgid "* Play"
+msgstr "* Play"
+
+msgid "* Play Dead"
+msgstr "* Play Dead"
+
+msgid "* Plead"
+msgstr "* Plead"
+
+msgid "* Poke"
+msgstr "* Poke"
+
+msgid "* Pose"
+msgstr "* Pose"
+
+msgid "* Praise"
+msgstr "* Praise"
+
+msgid "* Rap"
+msgstr "* Rap"
+
+msgid "* Re-Assure"
+msgstr "* Re-Assure"
+
+msgid "* Re-Sniff"
+msgstr "* Re-Sniff"
+
+msgid "* Roll Around"
+msgstr "* Roll Around"
+
+msgid "* Scream"
+msgstr "* Scream"
+
+msgid "* Secret"
+msgstr "* Secret"
+
+msgid "* Shove"
+msgstr "* Shove"
+
+msgid "* Sit"
+msgstr "* Sit"
+
+msgid "* Slap"
+msgstr "* Slap"
+
+msgid "* Spark"
+msgstr "* Spark"
+
+msgid "* Stare"
+msgstr "* Stare"
+
+msgid "* Steal"
+msgstr "* Steal"
+
+msgid "* Talk"
+msgstr "* Talk"
+
+msgid "* Taunt"
+msgstr "* Taunt"
+
+msgid "* Tell Off"
+msgstr "* Tell Off"
+
+msgid "* Terrorize"
+msgstr "* Terrorize"
+
+msgid "* Threat"
+msgstr "* Threat"
+
+msgid "* Translate"
+msgstr "* Translate"
+
+msgid "* Travel"
+msgstr "* Travel"
+
+msgid "* Tug"
+msgstr "* Tug"
+
+msgid "* Turn"
+msgstr "* Turn"
+
+msgid "* Upgrade"
+msgstr "* Upgrade"
+
+msgid "* Walk"
+msgstr "* Walk"
+
+msgid "* Whisper"
+msgstr "* Whisper"
+
+msgid "* Whistle"
+msgstr "* Whistle"
+
+msgid "* ...but everybody ran."
+msgstr "* ...but everybody ran."
+
+msgid "* ...but nobody came."
+msgstr "* ...but nobody came."
+
+msgid "<32>{#p/story}* DUMMY - ATK 0 DEF 0\n* A training dummy, circa 251X.\n* CITADEL standard-issue."
+msgstr "<32>{#p/story}* DUMMY - ATK 0 DEF 0\n* A training dummy, circa 251X.\n* CITADEL standard-issue."
+
+msgid "<32>{#p/human}* (You flirt with DUMMY.)"
+msgstr "<32>{#p/human}* (You flirt with DUMMY.)"
+
+msgid "<32>* .{^7}.{^7}.{^7}"
+msgstr "<32>* .{^7}.{^7}.{^7}"
+
+msgid "<32>* It went exactly how you'd expect."
+msgstr "<32>* It went exactly how you'd expect."
+
+msgid "<32>* Toriel is trying not to laugh."
+msgstr "<32>* Toriel is trying not to laugh."
+
+msgid "<32>{#p/human}* (You hug DUMMY.)"
+msgstr "<32>{#p/human}* (You hug DUMMY.)"
+
+msgid "<32>{#p/narrator}* .{^7}.{^7}.{^7}"
+msgstr "<32>{#p/narrator}* .{^7}.{^7}.{^7}"
+
+msgid "<32>* Well, that was underwhelming."
+msgstr "<32>* Well, that was underwhelming."
+
+msgid "<32>{#p/human}* (You slap DUMMY.)"
+msgstr "<32>{#p/human}* (You slap DUMMY.)"
+
+msgid "<32>{#p/narrator}* .{^7}.{^7}.{^7}"
+msgstr "<32>{#p/narrator}* .{^7}.{^7}.{^7}"
+
+msgid "<32>* Sadly, it did not gain any more sense than it already had."
+msgstr "<32>* Sadly, it did not gain any more sense than it already had."
+
+msgid "<32>{#p/human}* (You talk to DUMMY.)"
+msgstr "<32>{#p/human}* (You talk to DUMMY.)"
+
+msgid "<32>{#p/narrator}* .{^7}.{^7}.{^7}"
+msgstr "<32>{#p/narrator}* .{^7}.{^7}.{^7}"
+
+msgid "<32>* It doesn't seem much for conversation."
+msgstr "<32>* It doesn't seem much for conversation."
+
+msgid "<32>* Toriel seems pleased with you."
+msgstr "<32>* Toriel seems pleased with you."
+
+msgid "<32>{#p/narrator}* DUMMY grew tired of your aimless shenanigans."
+msgstr "<32>{#p/narrator}* DUMMY grew tired of your aimless shenanigans."
+
+msgid "<32>{#p/narrator}* Wait, why is DUMMY blushing?"
+msgstr "<32>{#p/narrator}* Wait, why is DUMMY blushing?"
+
+msgid "<32>* Uh...\n* I guess you... won?"
+msgstr "<32>* Uh...\n* I guess you... won?"
+
+msgid "* Dummy"
+msgstr "* Dummy"
+
+msgid "<32>{#p/narrator}* But then, out of nowhere... DUMMY awakens!"
+msgstr "<32>{#p/narrator}* But then, out of nowhere... DUMMY awakens!"
+
+msgid "<32>{#p/narrator}* Aaaaaand it's gone."
+msgstr "<32>{#p/narrator}* Aaaaaand it's gone."
+
+msgid "<32>{#p/story}* You encountered DUMMY."
+msgstr "<32>{#p/story}* You encountered DUMMY."
+
+msgid "<32>{#p/story}* DUMMY looks like it's already getting bored."
+msgstr "<32>{#p/story}* DUMMY looks like it's already getting bored."
+
+msgid "<32>{#p/story}* DUMMY stands at attention."
+msgstr "<32>{#p/story}* DUMMY stands at attention."
+
+msgid "<32>{#p/story}* DUMMY looks like it's going to fall over."
+msgstr "<32>{#p/story}* DUMMY looks like it's going to fall over."
+
+msgid "<09>{#p/monster}{@swirl:0.6,1.4,15}.{^10}.{^10}.{^10}.{^10}."
+msgstr "<09>{#p/monster}{@swirl:0.6,1.4,15}.{^10}.{^10}.{^10}.{^10}."
+
+msgid "<32>{#p/story}* GLAD DUMMY - ATK 0 DEF 0\n* It's a dream come true!"
+msgstr "<32>{#p/story}* GLAD DUMMY - ATK 0 DEF 0\n* It's a dream come true!"
+
+msgid "<32>{#p/story}* MAD DUMMY - ATK 30 DEF 255\n* Impervious to physical attacks."
+msgstr "<32>{#p/story}* MAD DUMMY - ATK 30 DEF 255\n* Impervious to physical attacks."
+
+msgid "<32>{#p/human}* (You flirt with Glad Dummy.)"
+msgstr "<32>{#p/human}* (You flirt with Glad Dummy.)"
+
+msgid "<32>{#p/narrator}* They're too distracted with themselves to hear you."
+msgstr "<32>{#p/narrator}* They're too distracted with themselves to hear you."
+
+msgid "<32>{#p/human}* (You flirt with Mad Dummy.)"
+msgstr "<32>{#p/human}* (You flirt with Mad Dummy.)"
+
+msgid "<32>* It went exactly how you'd expect."
+msgstr "<32>* It went exactly how you'd expect."
+
+msgid "<32>{#p/human}* (You hug Glad Dummy.)"
+msgstr "<32>{#p/human}* (You hug Glad Dummy.)"
+
+msgid "<32>{#p/human}* (You hug Mad Dummy.)"
+msgstr "<32>{#p/human}* (You hug Mad Dummy.)"
+
+msgid "<32>{#p/human}* (You slap Glad Dummy.)"
+msgstr "<32>{#p/human}* (You slap Glad Dummy.)"
+
+msgid "<32>{#p/narrator}* Glad Dummy exerts the better part of valor and gets the heck outta your way."
+msgstr "<32>{#p/narrator}* Glad Dummy exerts the better part of valor and gets the heck outta your way."
+
+msgid "<32>{#p/human}* (You slap Mad Dummy.)"
+msgstr "<32>{#p/human}* (You slap Mad Dummy.)"
+
+msgid "<32>{#p/human}* (You talk to Glad Dummy.)"
+msgstr "<32>{#p/human}* (You talk to Glad Dummy.)"
+
+msgid "<32>{#p/narrator}* They're too distracted with themselves to hear you."
+msgstr "<32>{#p/narrator}* They're too distracted with themselves to hear you."
+
+msgid "<32>{#p/human}* (You talk to Mad Dummy.)"
+msgstr "<32>{#p/human}* (You talk to Mad Dummy.)"
+
+msgid "<32>* They don't seem much for conversation."
+msgstr "<32>* They don't seem much for conversation."
+
+msgid "<32>* Nobody is happy with this."
+msgstr "<32>* Nobody is happy with this."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Oh my god."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Oh my god."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Why is NOTHING hap- pening?"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Why is NOTHING hap- pening?"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Am I INVISIBLE to you or something??"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Am I INVISIBLE to you or something??"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}..."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}..."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}I CAN'T EVEN BE MAD AT YOU!!!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}I CAN'T EVEN BE MAD AT YOU!!!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}You're so... INANIMATE!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}You're so... INANIMATE!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}JUST... GAHH!\nGET OUT OF MY LIFE!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}JUST... GAHH!\nGET OUT OF MY LIFE!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}GO LISTEN TO MUSIC WITH NAPSTABLOOK OR SOMETHING!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}GO LISTEN TO MUSIC WITH NAPSTABLOOK OR SOMETHING!"
+
+msgid "<32>{#p/story}* Mad Dummy is getting cotton all over the floor."
+msgstr "<32>{#p/story}* Mad Dummy is getting cotton all over the floor."
+
+msgid "<32>{#p/story}* Mechanical whirrs fill the room."
+msgstr "<32>{#p/story}* Mechanical whirrs fill the room."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Foolish.\nFoolish!\nFOOLISH!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Foolish.\nFoolish!\nFOOLISH!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Even if you attack my vessel..."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Even if you attack my vessel..."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}...you'll NEVER hurt ME!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}...you'll NEVER hurt ME!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}I'm still incor- poreal, you DUMMY!!!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}I'm still incor- poreal, you DUMMY!!!"
+
+msgid "<32>{#p/story}* Wait, is DUMMY a compliment?"
+msgstr "<32>{#p/story}* Wait, is DUMMY a compliment?"
+
+msgid "<11>{#p/napstablook}{@swirl:0.4,1.4,15}...sorry, i interrupted you, didn't i?"
+msgstr "<11>{#p/napstablook}{@swirl:0.4,1.4,15}...sorry, i interrupted you, didn't i?"
+
+msgid "<11>{#p/napstablook}{@swirl:0.4,1.4,15}as soon as i came over, your friend immediately left..."
+msgstr "<11>{#p/napstablook}{@swirl:0.4,1.4,15}as soon as i came over, your friend immediately left..."
+
+msgid "<11>{#p/napstablook}{@swirl:0.4,1.4,15}oh wait...\ndidn't you attack me before..."
+msgstr "<11>{#p/napstablook}{@swirl:0.4,1.4,15}oh wait...\ndidn't you attack me before..."
+
+msgid "<11>{#p/napstablook}{@swirl:0.4,1.4,15}uhhh...\nthat's awkward."
+msgstr "<11>{#p/napstablook}{@swirl:0.4,1.4,15}uhhh...\nthat's awkward."
+
+msgid "<11>{#p/napstablook}{@swirl:0.4,1.4,15}sorry..."
+msgstr "<11>{#p/napstablook}{@swirl:0.4,1.4,15}sorry..."
+
+msgid "<11>{#p/napstablook}{@swirl:0.4,1.4,15}oh no...\nyou guys looked like you were having fun..."
+msgstr "<11>{#p/napstablook}{@swirl:0.4,1.4,15}oh no...\nyou guys looked like you were having fun..."
+
+msgid "<11>{#p/napstablook}{@swirl:0.4,1.4,15}oh no...\ni just wanted to say hi..."
+msgstr "<11>{#p/napstablook}{@swirl:0.4,1.4,15}oh no...\ni just wanted to say hi..."
+
+msgid "<11>{#p/napstablook}{@swirl:0.4,1.4,15}oh no......\n...........\n...........\n...........\n..........."
+msgstr "<11>{#p/napstablook}{@swirl:0.4,1.4,15}oh no......\n...........\n...........\n...........\n..........."
+
+msgid "<08>{#p/monster}{@swirl:0.6,1.4,15}Thanks!"
+msgstr "<08>{#p/monster}{@swirl:0.6,1.4,15}Thanks!"
+
+msgid "<08>{#p/monster}{@swirl:0.6,1.4,15}Thank you!"
+msgstr "<08>{#p/monster}{@swirl:0.6,1.4,15}Thank you!"
+
+msgid "<08>{#p/monster}{@swirl:0.6,1.4,15}Great work!"
+msgstr "<08>{#p/monster}{@swirl:0.6,1.4,15}Great work!"
+
+msgid "<08>{#p/monster}{@swirl:0.6,1.4,15}Bravo!"
+msgstr "<08>{#p/monster}{@swirl:0.6,1.4,15}Bravo!"
+
+msgid "<08>{#p/monster}{@swirl:0.6,1.4,15}OK!"
+msgstr "<08>{#p/monster}{@swirl:0.6,1.4,15}OK!"
+
+msgid "<08>{#p/monster}{@swirl:0.6,1.4,15}..."
+msgstr "<08>{#p/monster}{@swirl:0.6,1.4,15}..."
+
+msgid "<08>{#p/monster}{@swirl:0.6,1.4,15}My haphe- phobia!"
+msgstr "<08>{#p/monster}{@swirl:0.6,1.4,15}My haphe- phobia!"
+
+msgid "<08>{#p/monster}{@swirl:0.6,1.4,15}It's gone!"
+msgstr "<08>{#p/monster}{@swirl:0.6,1.4,15}It's gone!"
+
+msgid "<08>{#p/monster}{@swirl:0.6,1.4,15}Thank you.. human.."
+msgstr "<08>{#p/monster}{@swirl:0.6,1.4,15}Thank you.. human.."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Are you for REAL??"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Are you for REAL??"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}N-no..!\nI have haphe- phobia!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}N-no..!\nI have haphe- phobia!"
+
+msgid "<08>{#p/monster}{@swirl:0.6,1.4,15}Mm.."
+msgstr "<08>{#p/monster}{@swirl:0.6,1.4,15}Mm.."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Stop that!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Stop that!"
+
+msgid "<08>{#p/monster}{@swirl:0.6,1.4,15}Ha.. you.."
+msgstr "<08>{#p/monster}{@swirl:0.6,1.4,15}Ha.. you.."
+
+msgid "<08>{#p/monster}{@swirl:0.6,1.4,15}You're gonna squeeze out my SOUL!"
+msgstr "<08>{#p/monster}{@swirl:0.6,1.4,15}You're gonna squeeze out my SOUL!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x2}Knock it off!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x2}Knock it off!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}..."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}..."
+
+msgid "* Glad Dummy"
+msgstr "* Glad Dummy"
+
+msgid "* Mad Dummy"
+msgstr "* Mad Dummy"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}I'll defeat you and take your SOUL!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}I'll defeat you and take your SOUL!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}I'll use your SOUL to break the force field!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}I'll use your SOUL to break the force field!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x6}The other monsters will love me, praise me...!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x6}The other monsters will love me, praise me...!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}THEN EVERYTHING I WANT WILL BE MINE!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}THEN EVERYTHING I WANT WILL BE MINE!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Huh?\nYeah, I guess that'll avenge my cousin."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Huh?\nYeah, I guess that'll avenge my cousin."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x5}Do my other cousins care...?"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x5}Do my other cousins care...?"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Whatever.\nWhatever!\nWHATEVER!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Whatever.\nWhatever!\nWHATEVER!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}..."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}..."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}DUMMY BOTS!\nMAGIC MISSILE!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}DUMMY BOTS!\nMAGIC MISSILE!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}DUMMY BOTS!\nTRY AGAIN!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}DUMMY BOTS!\nTRY AGAIN!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x5}DUMMY BOTS!\nYou're awful???"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x5}DUMMY BOTS!\nYou're awful???"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}DUMMY BOTS!\nFINAL ATTACK!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}DUMMY BOTS!\nFINAL ATTACK!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x2}OWWWW, you DUMMIES!!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x2}OWWWW, you DUMMIES!!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Watch where you aim your magic attacks!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Watch where you aim your magic attacks!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}..."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}..."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Hey!\nYou!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Hey!\nYou!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Forget I said anything about magic."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Forget I said anything about magic."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}HEY GUYS!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}HEY GUYS!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Dummies.\nDummies!\nDUMMIES!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Dummies.\nDummies!\nDUMMIES!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Remember how I said NOT to shoot at me?"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Remember how I said NOT to shoot at me?"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Well..."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Well..."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}FAILURES!\nYOU'RE FIRED!\nYOU'RE ALL BEING REPLACED!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}FAILURES!\nYOU'RE FIRED!\nYOU'RE ALL BEING REPLACED!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Hahaha.\nHahaha!\nHAHAHA!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Hahaha.\nHahaha!\nHAHAHA!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Now you'll see my true power..."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Now you'll see my true power..."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x6}Relying on people that aren't garbage!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x6}Relying on people that aren't garbage!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}N... no way!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}N... no way!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}These guys are WORSE than the other guys!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}These guys are WORSE than the other guys!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Who cares.\nWho cares!\nWHO CARES!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Who cares.\nWho cares!\nWHO CARES!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}I DON'T NEED FRIENDS!!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}I DON'T NEED FRIENDS!!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x6}I'VE GOT KNIVES!!!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x6}I'VE GOT KNIVES!!!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}I'm..."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}I'm..."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Out of knives."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}Out of knives."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}BUT IT DOESN'T MATTER!!!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}BUT IT DOESN'T MATTER!!!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}YOU CAN'T HURT ME AND I CAN'T HURT YOU!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}YOU CAN'T HURT ME AND I CAN'T HURT YOU!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}YOU'LL BE STUCK FIGHTING ME..."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}YOU'LL BE STUCK FIGHTING ME..."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Forever."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Forever."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Forever!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Forever!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x6}FOREVER!!!!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x6}FOREVER!!!!"
+
+msgid "<11>{*}{#p/monster}{@swirl:0.6,1.4,15}{#x6}AHAHAHAHA HAHAHAHAH AHAHAHAHA HAHAHAHAH AHAHAHAHA{%}"
+msgstr "<11>{*}{#p/monster}{@swirl:0.6,1.4,15}{#x6}AHAHAHAHA HAHAHAHAH AHAHAHAHA HAHAHAHAH AHAHAHAHA{%}"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x2}Wh...\nWhat the heck is this!?"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x2}Wh...\nWhat the heck is this!?"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x6}Ergh!\nAcid rain!?!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x6}Ergh!\nAcid rain!?!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Oh, FORGET IT!\nI'm OUTTA here!!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Oh, FORGET IT!\nI'm OUTTA here!!"
+
+msgid "<32>{#p/story}* Mad Dummy is looking for the nearest airlock to throw you out of."
+msgstr "<32>{#p/story}* Mad Dummy is looking for the nearest airlock to throw you out of."
+
+msgid "<32>{#p/story}* Mad Dummy is bossing around its bullets."
+msgstr "<32>{#p/story}* Mad Dummy is bossing around its bullets."
+
+msgid "<32>{#p/story}* Mad Dummy glares into a portal, then turns to you with the same expression."
+msgstr "<32>{#p/story}* Mad Dummy glares into a portal, then turns to you with the same expression."
+
+msgid "<32>{#p/story}* Mad Dummy is hopping mad."
+msgstr "<32>{#p/story}* Mad Dummy is hopping mad."
+
+msgid "<32>{#p/story}* Smells like a clothing store."
+msgstr "<32>{#p/story}* Smells like a clothing store."
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Foolish.\nFoolish!\nFOOLISH!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Foolish.\nFoolish!\nFOOLISH!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Futile.\nFutile!\nFUTILE!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Futile.\nFutile!\nFUTILE!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Pitiful.\nPitiful!\nPITIFUL!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Pitiful.\nPitiful!\nPITIFUL!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Feeble.\nFeeble!\nFEEBLE!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x1}Feeble.\nFeeble!\nFEEBLE!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x6}Why you little...!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x6}Why you little...!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Are you kidding me??"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x4}Are you kidding me??"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x2}Come on!"
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x2}Come on!"
+
+msgid "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}..."
+msgstr "<11>{#p/monster}{@swirl:0.6,1.4,15}{#x3}..."
+
+msgid "<32>{#p/story}* Glad Dummy lets you go."
+msgstr "<32>{#p/story}* Glad Dummy lets you go."
+
+msgid "<32>{#p/story}* Mad Dummy blocks the way!"
+msgstr "<32>{#p/story}* Mad Dummy blocks the way!"
+
+msgid "<32>{#p/asriel2}* Gelatini, the mindless mold.\n* What more can I say?"
+msgstr "<32>{#p/asriel2}* Gelatini, the mindless mold.\n* What more can I say?"
+
+msgid "<32>{#p/story}* Gelatini - ATK 6 DEF 0\n* Stereotypical: Curvaceously attractive, but no brains..."
+msgstr "<32>{#p/story}* Gelatini - ATK 6 DEF 0\n* Stereotypical: Curvaceously attractive, but no brains..."
+
+msgid "<33>{#p/narrator}* You wiggle your hips.\n* Gelatini wiggles back.\n* What a meaningful conversation!"
+msgstr "<33>{#p/narrator}* You wiggle your hips.\n* Gelatini wiggles back.\n* What a meaningful conversation!"
+
+msgid "<33>{#p/narrator}* You give Gelatini a nice pat.\n* Its body changes color...\n* Gelatini must be happy."
+msgstr "<33>{#p/narrator}* You give Gelatini a nice pat.\n* Its body changes color...\n* Gelatini must be happy."
+
+msgid "<32>{#p/narrator}* You give Gelatini a big slap.\n* Although jostled, it is ultimately unfazed..."
+msgstr "<32>{#p/narrator}* You give Gelatini a big slap.\n* Although jostled, it is ultimately unfazed..."
+
+msgid "<08>{~}Blorb.."
+msgstr "<08>{~}Blorb.."
+
+msgid "<08>{~}Squorch.."
+msgstr "<08>{~}Squorch.."
+
+msgid "<08>{~}\x00*Slime sounds*"
+msgstr "<08>{~}\x00*Slime sounds*"
+
+msgid "* Gelatini"
+msgstr "* Gelatini"
+
+msgid "<32>{#p/story}* Gelatini has started to rot."
+msgstr "<32>{#p/story}* Gelatini has started to rot."
+
+msgid "<08>{~}\x00*Sexy wiggle*"
+msgstr "<08>{~}\x00*Sexy wiggle*"
+
+msgid "<32>{#p/asriel2}* Gelatini times three."
+msgstr "<32>{#p/asriel2}* Gelatini times three."
+
+msgid "<32>{#p/story}* You tripped over a line of Gelatinis."
+msgstr "<32>{#p/story}* You tripped over a line of Gelatinis."
+
+msgid "<32>{#p/asriel2}* Gelatini."
+msgstr "<32>{#p/asriel2}* Gelatini."
+
+msgid "<32>{#p/story}* Gelatini blorbs quietly."
+msgstr "<32>{#p/story}* Gelatini blorbs quietly."
+
+msgid "<32>{#p/asriel2}* Gelatini."
+msgstr "<32>{#p/asriel2}* Gelatini."
+
+msgid "<32>{#p/story}* Gelatini waits optimistically."
+msgstr "<32>{#p/story}* Gelatini waits optimistically."
+
+msgid "<32>{#p/asriel2}* Gelatini."
+msgstr "<32>{#p/asriel2}* Gelatini."
+
+msgid "<32>{#p/story}* Gelatini is ruminating."
+msgstr "<32>{#p/story}* Gelatini is ruminating."
+
+msgid "<32>{#p/asriel2}* Gelatini."
+msgstr "<32>{#p/asriel2}* Gelatini."
+
+msgid "<32>{#p/story}* The aroma of lime gelatin wafts through."
+msgstr "<32>{#p/story}* The aroma of lime gelatin wafts through."
+
+msgid "<32>{#p/asriel2}* Two left."
+msgstr "<32>{#p/asriel2}* Two left."
+
+msgid "<32>{#p/story}* And then, there were two."
+msgstr "<32>{#p/story}* And then, there were two."
+
+msgid "<32>{#p/asriel2}* One left."
+msgstr "<32>{#p/asriel2}* One left."
+
+msgid "<32>{#p/story}* And finally, there was one."
+msgstr "<32>{#p/story}* And finally, there was one."
+
+msgid "<32>{#p/story}* Gelatini now blorbs solo."
+msgstr "<32>{#p/story}* Gelatini now blorbs solo."
+
+msgid "<32>{#p/asriel2}* Astro Serf, the attention- seeking astronaut. Cares for nothing but its antenna."
+msgstr "<32>{#p/asriel2}* Astro Serf, the attention- seeking astronaut. Cares for nothing but its antenna."
+
+msgid "<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n* This teen wonders why it isn't named 'Radio Jack.'"
+msgstr "<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n* This teen wonders why it isn't named 'Radio Jack.'"
+
+msgid "<32>{#p/narrator}* You inform Astro Serf that it has a great antenna!"
+msgstr "<32>{#p/narrator}* You inform Astro Serf that it has a great antenna!"
+
+msgid "<32>{#p/narrator}* You ask out Astro Serf."
+msgstr "<32>{#p/narrator}* You ask out Astro Serf."
+
+msgid "<08>{~}DUH!\nWho DOESN'T know?"
+msgstr "<08>{~}DUH!\nWho DOESN'T know?"
+
+msgid "<08>{~}Envious?\nTOO BAD!"
+msgstr "<08>{~}Envious?\nTOO BAD!"
+
+msgid "<32>{#p/asriel2}* It looks annoyed."
+msgstr "<32>{#p/asriel2}* It looks annoyed."
+
+msgid "<32>{#p/story}* Astro Serf is secretly checking if you're looking at its antenna."
+msgstr "<32>{#p/story}* Astro Serf is secretly checking if you're looking at its antenna."
+
+msgid "<32>{#p/asriel2}* Hey $(name), it's jealous of your antenna.\n* Hee hee hee."
+msgstr "<32>{#p/asriel2}* Hey $(name), it's jealous of your antenna.\n* Hee hee hee."
+
+msgid "<32>{#p/story}* Astro Serf is impressed."
+msgstr "<32>{#p/story}* Astro Serf is impressed."
+
+msgid "<09>{~}HELLO???\nMy antenna's up here."
+msgstr "<09>{~}HELLO???\nMy antenna's up here."
+
+msgid "<08>{~}What?\nWhat are you doing?"
+msgstr "<08>{~}What?\nWhat are you doing?"
+
+msgid "<08>{~}But.. it can't be..!"
+msgstr "<08>{~}But.. it can't be..!"
+
+msgid "<08>{~}Woah..\nHow did you do that??"
+msgstr "<08>{~}Woah..\nHow did you do that??"
+
+msgid "<08>{~}You're.. making your OWN antenna?"
+msgstr "<08>{~}You're.. making your OWN antenna?"
+
+msgid "<32>{#p/narrator}* You... somehow... begin to create your own antenna."
+msgstr "<32>{#p/narrator}* You... somehow... begin to create your own antenna."
+
+msgid "<32>{#p/narrator}* You finish creating the antenna, and proceed to put it on."
+msgstr "<32>{#p/narrator}* You finish creating the antenna, and proceed to put it on."
+
+msgid "<32>{#p/narrator}* You start on another antenna.\n* Not knowing what to do, Astro Serf runs away."
+msgstr "<32>{#p/narrator}* You start on another antenna.\n* Not knowing what to do, Astro Serf runs away."
+
+msgid "<32>{#p/story}* Astro Serf is not impressed by your attire."
+msgstr "<32>{#p/story}* Astro Serf is not impressed by your attire."
+
+msgid "<32>{#p/story}* Astro Serf is in love."
+msgstr "<32>{#p/story}* Astro Serf is in love."
+
+msgid "<08>{~}No deal!\nNot without a antenna!"
+msgstr "<08>{~}No deal!\nNot without a antenna!"
+
+msgid "<08>{~}W-what??\nUhm..\nI..\nYou.."
+msgstr "<08>{~}W-what??\nUhm..\nI..\nYou.."
+
+msgid "<32>{#p/asriel2}* Astro Serf."
+msgstr "<32>{#p/asriel2}* Astro Serf."
+
+msgid "<32>{#p/asriel2}* Almost dead."
+msgstr "<32>{#p/asriel2}* Almost dead."
+
+msgid "<32>{#p/story}* Astro Serf's suit is loose."
+msgstr "<32>{#p/story}* Astro Serf's suit is loose."
+
+msgid "<08>{~}Where's YOUR antenna?"
+msgstr "<08>{~}Where's YOUR antenna?"
+
+msgid "<08>{~}Your head looks so ..NAKED"
+msgstr "<08>{~}Your head looks so ..NAKED"
+
+msgid "<08>{~}What a great antenna!\n(Mine)"
+msgstr "<08>{~}What a great antenna!\n(Mine)"
+
+msgid "<09>{~}It's signal feedback, not radi- ation"
+msgstr "<09>{~}It's signal feedback, not radi- ation"
+
+msgid "<08>{~}I just looove my antenna.\nOK?"
+msgstr "<08>{~}I just looove my antenna.\nOK?"
+
+msgid "<08>{~}What have you done.."
+msgstr "<08>{~}What have you done.."
+
+msgid "* Astro Serf"
+msgstr "* Astro Serf"
+
+msgid "<32>{#p/story}* Astro Serf also wants antennae for its other body parts."
+msgstr "<32>{#p/story}* Astro Serf also wants antennae for its other body parts."
+
+msgid "<32>{#p/story}* Astro Serf makes sure its antenna is still there."
+msgstr "<32>{#p/story}* Astro Serf makes sure its antenna is still there."
+
+msgid "<32>{#p/story}* Astro Serf is thinking about a certain article of clothing."
+msgstr "<32>{#p/story}* Astro Serf is thinking about a certain article of clothing."
+
+msgid "<32>{#p/story}* Smells like lithium."
+msgstr "<32>{#p/story}* Smells like lithium."
+
+msgid "<32>{#p/story}* Astro Serf struts into view."
+msgstr "<32>{#p/story}* Astro Serf struts into view."
+
+msgid "<08>{~}I KNEW IT!!!\nTHIEF!!"
+msgstr "<08>{~}I KNEW IT!!!\nTHIEF!!"
+
+msgid "<08>{~}HELP!!!\nFASHION POLICE!!"
+msgstr "<08>{~}HELP!!!\nFASHION POLICE!!"
+
+msgid "<33>{#p/narrator}* You stole Astro Serf's antenna.\n* Its spacesuit fell off too..."
+msgstr "<33>{#p/narrator}* You stole Astro Serf's antenna.\n* Its spacesuit fell off too..."
+
+msgid "<33>{#p/narrator}* Looks like it was powered by lithium the whole time."
+msgstr "<33>{#p/narrator}* Looks like it was powered by lithium the whole time."
+
+msgid "<32>{#p/narrator}* You tried stealing Astro Serf's antenna, but it hasn't been weakened enough!"
+msgstr "<32>{#p/narrator}* You tried stealing Astro Serf's antenna, but it hasn't been weakened enough!"
+
+msgid "<32>{#p/asriel2}* Lithium.\n* That's literally it."
+msgstr "<32>{#p/asriel2}* Lithium.\n* That's literally it."
+
+msgid "<32>{#p/story}* LITHIUM - ATK 1 DEF 0\n* Without its spacesuit..."
+msgstr "<32>{#p/story}* LITHIUM - ATK 1 DEF 0\n* Without its spacesuit..."
+
+msgid "<32>{#p/narrator}* You inform Lithium that it still looks fine."
+msgstr "<32>{#p/narrator}* You inform Lithium that it still looks fine."
+
+msgid "<32>{#p/asriel2}* Lithium."
+msgstr "<32>{#p/asriel2}* Lithium."
+
+msgid "<32>{#p/story}* Lithium doesn't mind its identity."
+msgstr "<32>{#p/story}* Lithium doesn't mind its identity."
+
+msgid "<08>{~}Yeah.. I like my body too."
+msgstr "<08>{~}Yeah.. I like my body too."
+
+msgid "<08>{~}Hmm.. antennae are for posers."
+msgstr "<08>{~}Hmm.. antennae are for posers."
+
+msgid "<08>{~}So I can still impress you?"
+msgstr "<08>{~}So I can still impress you?"
+
+msgid "<08>{~}I wanted you to see me as cool."
+msgstr "<08>{~}I wanted you to see me as cool."
+
+msgid "<32>{#p/asriel2}* Almost dead.\n* Again."
+msgstr "<32>{#p/asriel2}* Almost dead.\n* Again."
+
+msgid "<32>{#p/story}* It's disintegrating."
+msgstr "<32>{#p/story}* It's disintegrating."
+
+msgid "<08>{~}I..\nI.."
+msgstr "<08>{~}I..\nI.."
+
+msgid "<08>{~}What can I say.."
+msgstr "<08>{~}What can I say.."
+
+msgid "<08>{~}What's the point.."
+msgstr "<08>{~}What's the point.."
+
+msgid "<08>{~}So.. alone.."
+msgstr "<08>{~}So.. alone.."
+
+msgid "* Lithium"
+msgstr "* Lithium"
+
+msgid "<32>{#p/story}* \"Astro Turf\" is no more."
+msgstr "<32>{#p/story}* \"Astro Turf\" is no more."
+
+msgid "<32>{#p/story}* Smells like battery power."
+msgstr "<32>{#p/story}* Smells like battery power."
+
+msgid "<32>{#p/kidding}* Uh..."
+msgstr "<32>{#p/kidding}* Uh..."
+
+msgid "<32>* Why'd they vanish like that?"
+msgstr "<32>* Why'd they vanish like that?"
+
+msgid "<32>* Well, we WERE attacking them, so maybe they got scared and teleported away, haha."
+msgstr "<32>* Well, we WERE attacking them, so maybe they got scared and teleported away, haha."
+
+msgid "<32>{#p/kidding}* Another one?"
+msgstr "<32>{#p/kidding}* Another one?"
+
+msgid "<32>* Dang, why don't I get to have a cool teleporter!?"
+msgstr "<32>* Dang, why don't I get to have a cool teleporter!?"
+
+msgid "<32>{#p/kidding}* And they're gone..."
+msgstr "<32>{#p/kidding}* And they're gone..."
+
+msgid "<32>{#p/kidding}* ..."
+msgstr "<32>{#p/kidding}* ..."
+
+msgid "<25>{#p/kidd}{#f/4}* Uh..."
+msgstr "<25>{#p/kidd}{#f/4}* Uh..."
+
+msgid "<25>* Why'd they vanish like that?"
+msgstr "<25>* Why'd they vanish like that?"
+
+msgid "<25>{#f/1}* Well, we WERE attacking them, so..."
+msgstr "<25>{#f/1}* Well, we WERE attacking them, so..."
+
+msgid "<25>* Maybe they got scared and teleported away, haha."
+msgstr "<25>* Maybe they got scared and teleported away, haha."
+
+msgid "<25>{#p/kidd}{#f/4}* Another one?"
+msgstr "<25>{#p/kidd}{#f/4}* Another one?"
+
+msgid "<25>{#f/1}* Dang, why don't I get to have a cool teleporter!?"
+msgstr "<25>{#f/1}* Dang, why don't I get to have a cool teleporter!?"
+
+msgid "<25>{#p/kidd}{#f/4}* And they're gone..."
+msgstr "<25>{#p/kidd}{#f/4}* And they're gone..."
+
+msgid "<25>{#p/kidd}{#f/4}* ..."
+msgstr "<25>{#p/kidd}{#f/4}* ..."
+
+msgid "<32>{#p/kidding}* Yo... I don't know how to do any cool magic yet..."
+msgstr "<32>{#p/kidding}* Yo... I don't know how to do any cool magic yet..."
+
+msgid "<32>{#p/kidding}* But uh, I can heal you!"
+msgstr "<32>{#p/kidding}* But uh, I can heal you!"
+
+msgid "<32>{#p/kidding}* Healing spell!"
+msgstr "<32>{#p/kidding}* Healing spell!"
+
+msgid "<32>{#p/kidding}* Health be with you!"
+msgstr "<32>{#p/kidding}* Health be with you!"
+
+msgid "<32>{#p/kidding}* Take this!"
+msgstr "<32>{#p/kidding}* Take this!"
+
+msgid "<32>{#p/kidding}* Just leave me out of it..."
+msgstr "<32>{#p/kidding}* Just leave me out of it..."
+
+msgid "<32>{#p/kidding}* Help, I've never been in a battle before!\n* What do I do!?"
+msgstr "<32>{#p/kidding}* Help, I've never been in a battle before!\n* What do I do!?"
+
+msgid "<32>{#p/kidding}* Uh... help!"
+msgstr "<32>{#p/kidding}* Uh... help!"
+
+msgid "<32>{#p/kidding}* I... think I'm getting the hang of this."
+msgstr "<32>{#p/kidding}* I... think I'm getting the hang of this."
+
+msgid "<32>{#p/kidding}* Oh! Oh!"
+msgstr "<32>{#p/kidding}* Oh! Oh!"
+
+msgid "<32>* I know how ACTing works!"
+msgstr "<32>* I know how ACTing works!"
+
+msgid "<32>* Watch this...!"
+msgstr "<32>* Watch this...!"
+
+msgid "<32>{#p/kidding}* Are you sure about this...?\n* They don't look too happy about being attacked..."
+msgstr "<32>{#p/kidding}* Are you sure about this...?\n* They don't look too happy about being attacked..."
+
+msgid "<32>* ..."
+msgstr "<32>* ..."
+
+msgid "<32>{#p/kidding}* Is this really a good idea...?"
+msgstr "<32>{#p/kidding}* Is this really a good idea...?"
+
+msgid "<32>* ..."
+msgstr "<32>* ..."
+
+msgid "<32>{#p/kidding}* Uh..."
+msgstr "<32>{#p/kidding}* Uh..."
+
+msgid "<32>{#p/kidding}* Um..."
+msgstr "<32>{#p/kidding}* Um..."
+
+msgid "<32>{#p/kidding}* Er..."
+msgstr "<32>{#p/kidding}* Er..."
+
+msgid "muffet"
+msgstr "muffet"
+
+msgid "<32>{#p/story}* Monster Kid struggled in the web and made a scary face."
+msgstr "<32>{#p/story}* Monster Kid struggled in the web and made a scary face."
+
+msgid "<32>{#p/story}* Monster Kid struggled in the web and yelled."
+msgstr "<32>{#p/story}* Monster Kid struggled in the web and yelled."
+
+msgid "<32>{#p/story}* Monster Kid gave out a menacing laugh."
+msgstr "<32>{#p/story}* Monster Kid gave out a menacing laugh."
+
+msgid "shyren"
+msgstr "shyren"
+
+msgid "<32>{#p/story}* Monster Kid sang a scary tune."
+msgstr "<32>{#p/story}* Monster Kid sang a scary tune."
+
+msgid "<32>{#p/story}* Monster Kid yelled overly edgy lyrics."
+msgstr "<32>{#p/story}* Monster Kid yelled overly edgy lyrics."
+
+msgid "<32>{#p/story}* Monster Kid drummed loudly with their feet."
+msgstr "<32>{#p/story}* Monster Kid drummed loudly with their feet."
+
+msgid "woshua"
+msgstr "woshua"
+
+msgid "<32>{#p/story}* Monster Kid pointed out the dirty floors."
+msgstr "<32>{#p/story}* Monster Kid pointed out the dirty floors."
+
+msgid "<32>{#p/story}* Monster Kid pointed out the leaky pipes."
+msgstr "<32>{#p/story}* Monster Kid pointed out the leaky pipes."
+
+msgid "<32>{#p/story}* Monster Kid made a gross face."
+msgstr "<32>{#p/story}* Monster Kid made a gross face."
+
+msgid "muffet"
+msgstr "muffet"
+
+msgid "<32>{#p/story}* Monster Kid complimented Muffet on her eloquent taste in clothing."
+msgstr "<32>{#p/story}* Monster Kid complimented Muffet on her eloquent taste in clothing."
+
+msgid "<32>{#p/story}* Monster Kid told Muffet her pastries are the best known to monsterkind."
+msgstr "<32>{#p/story}* Monster Kid told Muffet her pastries are the best known to monsterkind."
+
+msgid "<32>{#p/story}* Monster Kid said no webs are as strong as Muffet's."
+msgstr "<32>{#p/story}* Monster Kid said no webs are as strong as Muffet's."
+
+msgid "shyren"
+msgstr "shyren"
+
+msgid "<32>{#p/story}* Monster Kid hummed a pretty melody."
+msgstr "<32>{#p/story}* Monster Kid hummed a pretty melody."
+
+msgid "<32>{#p/story}* Monster Kid complimented Shyren's hair."
+msgstr "<32>{#p/story}* Monster Kid complimented Shyren's hair."
+
+msgid "<32>{#p/story}* Monster Kid complimented Shyren's voice."
+msgstr "<32>{#p/story}* Monster Kid complimented Shyren's voice."
+
+msgid "woshua"
+msgstr "woshua"
+
+msgid "<32>{#p/story}* Monster Kid called Skrubbington the cleanest monster on the block."
+msgstr "<32>{#p/story}* Monster Kid called Skrubbington the cleanest monster on the block."
+
+msgid "<32>{#p/story}* Monster Kid appreciated Skrubbington's efforts to freshen up the factory."
+msgstr "<32>{#p/story}* Monster Kid appreciated Skrubbington's efforts to freshen up the factory."
+
+msgid "<32>{#p/story}* Monster Kid noted Skrubbington's committment to perfection."
+msgstr "<32>{#p/story}* Monster Kid noted Skrubbington's committment to perfection."
+
+msgid "radtile"
+msgstr "radtile"
+
+msgid "<32>{#p/story}* Monster Kid complimented Radtile's mirror."
+msgstr "<32>{#p/story}* Monster Kid complimented Radtile's mirror."
+
+msgid "<32>{#p/story}* Monster Kid complimented Radtile's hat."
+msgstr "<32>{#p/story}* Monster Kid complimented Radtile's hat."
+
+msgid "<32>{#p/story}* Monster Kid made sure to double-check Radtile's appearance."
+msgstr "<32>{#p/story}* Monster Kid made sure to double-check Radtile's appearance."
+
+msgid "<32>{#p/story}* Monster Kid offered to keep $(x) company."
+msgstr "<32>{#p/story}* Monster Kid offered to keep $(x) company."
+
+msgid "<32>{#p/story}* Monster Kid told $(x) they'd be there if it'd help."
+msgstr "<32>{#p/story}* Monster Kid told $(x) they'd be there if it'd help."
+
+msgid "<32>{#p/story}* Monster Kid stood on top of $(x)."
+msgstr "<32>{#p/story}* Monster Kid stood on top of $(x)."
+
+msgid "muffet"
+msgstr "muffet"
+
+msgid "<32>{#p/story}* Monster Kid tried asking Muffet about spider clans."
+msgstr "<32>{#p/story}* Monster Kid tried asking Muffet about spider clans."
+
+msgid "<32>{#p/story}* Monster Kid tried asking Muffet about bakeries."
+msgstr "<32>{#p/story}* Monster Kid tried asking Muffet about bakeries."
+
+msgid "<32>{#p/story}* Monster Kid tried asking Muffet about tea."
+msgstr "<32>{#p/story}* Monster Kid tried asking Muffet about tea."
+
+msgid "shyren"
+msgstr "shyren"
+
+msgid "<32>{#p/story}* Monster Kid debated about musical notation."
+msgstr "<32>{#p/story}* Monster Kid debated about musical notation."
+
+msgid "<32>{#p/story}* Monster Kid spoke about music theory."
+msgstr "<32>{#p/story}* Monster Kid spoke about music theory."
+
+msgid "<32>{#p/story}* Monster Kid discussed their favorite music genres."
+msgstr "<32>{#p/story}* Monster Kid discussed their favorite music genres."
+
+msgid "woshua"
+msgstr "woshua"
+
+msgid "<32>{#p/story}* Monster Kid waxed poetic about proper hygiene."
+msgstr "<32>{#p/story}* Monster Kid waxed poetic about proper hygiene."
+
+msgid "<32>{#p/story}* Monster Kid rapped about hazard safety."
+msgstr "<32>{#p/story}* Monster Kid rapped about hazard safety."
+
+msgid "<32>{#p/story}* Monster Kid showed off their polished sewer pipe set."
+msgstr "<32>{#p/story}* Monster Kid showed off their polished sewer pipe set."
+
+msgid "radtile"
+msgstr "radtile"
+
+msgid "<32>{#p/story}* Monster Kid made an ugly face at Radtile."
+msgstr "<32>{#p/story}* Monster Kid made an ugly face at Radtile."
+
+msgid "<32>{#p/story}* Monster Kid came near and inspected Radtile up close."
+msgstr "<32>{#p/story}* Monster Kid came near and inspected Radtile up close."
+
+msgid "<32>{#p/story}* Monster Kid acted out as if they were a feral creature."
+msgstr "<32>{#p/story}* Monster Kid acted out as if they were a feral creature."
+
+msgid "<32>{#p/story}* Monster Kid wiggled around, mimicing $(x)."
+msgstr "<32>{#p/story}* Monster Kid wiggled around, mimicing $(x)."
+
+msgid "<32>{#p/story}* Monster Kid did a handstand, impressing $(x)."
+msgstr "<32>{#p/story}* Monster Kid did a handstand, impressing $(x)."
+
+msgid "<32>{#p/story}* Monster Kid spun around, bewildering $(x)."
+msgstr "<32>{#p/story}* Monster Kid spun around, bewildering $(x)."
+
+msgid "muffet"
+msgstr "muffet"
+
+msgid "<32>{#p/story}* Monster Kid tried telling Muffet there's no point in all this!"
+msgstr "<32>{#p/story}* Monster Kid tried telling Muffet there's no point in all this!"
+
+msgid "shyren"
+msgstr "shyren"
+
+msgid "radtile"
+msgstr "radtile"
+
+msgid "<32>{#p/story}* Monster Kid claimed a spatial disturbance was approaching fast!"
+msgstr "<32>{#p/story}* Monster Kid claimed a spatial disturbance was approaching fast!"
+
+msgid "woshua"
+msgstr "woshua"
+
+msgid "<32>{#p/story}* Monster Kid claimed an airborne viral agent was on its way!"
+msgstr "<32>{#p/story}* Monster Kid claimed an airborne viral agent was on its way!"
+
+msgid "<32>{#p/story}* Monster Kid claimed the nearby pipes were leaking acid!"
+msgstr "<32>{#p/story}* Monster Kid claimed the nearby pipes were leaking acid!"
+
+msgid "<32>{#p/story}* Nothing happened."
+msgstr "<32>{#p/story}* Nothing happened."
+
+msgid "woshua"
+msgstr "woshua"
+
+msgid "<32>{#p/story}* Skrubbington was grossed out, and their DEFENSE went down!"
+msgstr "<32>{#p/story}* Skrubbington was grossed out, and their DEFENSE went down!"
+
+msgid "shyren"
+msgstr "shyren"
+
+msgid "<32>{#p/story}* Shyren felt uncomfortable, and her DEFENSE went down!"
+msgstr "<32>{#p/story}* Shyren felt uncomfortable, and her DEFENSE went down!"
+
+msgid "radtile"
+msgstr "radtile"
+
+msgid "<32>{#p/story}* Radtile felt uncomfortable, and his DEFENSE went down!"
+msgstr "<32>{#p/story}* Radtile felt uncomfortable, and his DEFENSE went down!"
+
+msgid "<32>{#p/story}* $(x) felt uncomfortable, and their DEFENSE went down!"
+msgstr "<32>{#p/story}* $(x) felt uncomfortable, and their DEFENSE went down!"
+
+msgid "woshua"
+msgstr "woshua"
+
+msgid "<32>{#p/story}* Skrubbington felt flattered, and their ATTACK went down!"
+msgstr "<32>{#p/story}* Skrubbington felt flattered, and their ATTACK went down!"
+
+msgid "shyren"
+msgstr "shyren"
+
+msgid "<32>{#p/story}* Shyren felt flattered, and her ATTACK went down!"
+msgstr "<32>{#p/story}* Shyren felt flattered, and her ATTACK went down!"
+
+msgid "radtile"
+msgstr "radtile"
+
+msgid "<32>{#p/story}* Radtile felt respected, and his ATTACK went down!"
+msgstr "<32>{#p/story}* Radtile felt respected, and his ATTACK went down!"
+
+msgid "<32>{#p/story}* $(x) felt respected, and their ATTACK went down!"
+msgstr "<32>{#p/story}* $(x) felt respected, and their ATTACK went down!"
+
+msgid "woshua"
+msgstr "woshua"
+
+msgid "<32>{#p/story}* Skrubbington and the others were distracted by Monster Kid and forgot their turn!"
+msgstr "<32>{#p/story}* Skrubbington and the others were distracted by Monster Kid and forgot their turn!"
+
+msgid "<32>{#p/story}* Skrubbington was distracted by Monster Kid and forgot their turn!"
+msgstr "<32>{#p/story}* Skrubbington was distracted by Monster Kid and forgot their turn!"
+
+msgid "shyren"
+msgstr "shyren"
+
+msgid "<32>{#p/story}* Distracted by Monster Kid, Shyren forgot her turn!"
+msgstr "<32>{#p/story}* Distracted by Monster Kid, Shyren forgot her turn!"
+
+msgid "<32>{#p/story}* Entranced by Monster Kid, $(x) and the others forgot their turn!"
+msgstr "<32>{#p/story}* Entranced by Monster Kid, $(x) and the others forgot their turn!"
+
+msgid "radtile"
+msgstr "radtile"
+
+msgid "<32>{#p/story}* Entranced by Monster Kid, Radtile forgot his turn!"
+msgstr "<32>{#p/story}* Entranced by Monster Kid, Radtile forgot his turn!"
+
+msgid "<32>{#p/story}* Entranced by Monster Kid, $(x) forgot their turn!"
+msgstr "<32>{#p/story}* Entranced by Monster Kid, $(x) forgot their turn!"
+
+msgid "woshua"
+msgstr "woshua"
+
+msgid "<32>{#p/story}* Fearful for its life, Skrubbington panicked and left the battle!"
+msgstr "<32>{#p/story}* Fearful for its life, Skrubbington panicked and left the battle!"
+
+msgid "<32>{#p/story}* The other monsters continue to fight you."
+msgstr "<32>{#p/story}* The other monsters continue to fight you."
+
+msgid "shyren"
+msgstr "shyren"
+
+msgid "<32>{#p/story}* Fearful for her life, Shyren panicked and left the battle!"
+msgstr "<32>{#p/story}* Fearful for her life, Shyren panicked and left the battle!"
+
+msgid "<32>{#p/story}* Encouraged by her own performance, Shyren braved the threat!"
+msgstr "<32>{#p/story}* Encouraged by her own performance, Shyren braved the threat!"
+
+msgid "radtile"
+msgstr "radtile"
+
+msgid "<32>{#p/story}* Fearful for his life, Radtile panicked and left the battle!"
+msgstr "<32>{#p/story}* Fearful for his life, Radtile panicked and left the battle!"
+
+msgid "<32>{#p/story}* Fearful for its life, $(x) panicked and left the battle!"
+msgstr "<32>{#p/story}* Fearful for its life, $(x) panicked and left the battle!"
+
+msgid "<32>{#p/story}* The other monsters continue to fight you."
+msgstr "<32>{#p/story}* The other monsters continue to fight you."
+
+msgid "<32>{#p/kidding}* Y... y-you want me to fight?\n* Are you sure?"
+msgstr "<32>{#p/kidding}* Y... y-you want me to fight?\n* Are you sure?"
+
+msgid "* (Do you confirm?)"
+msgstr "* (Do you confirm?)"
+
+msgid "No"
+msgstr "No"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "<32>{#p/kidding}* Okay... here goes nothing..."
+msgstr "<32>{#p/kidding}* Okay... here goes nothing..."
+
+msgid "<32>{#p/kidding}* Oh, okay..."
+msgstr "<32>{#p/kidding}* Oh, okay..."
+
+msgid "<32>* I'll just spare them, then!"
+msgstr "<32>* I'll just spare them, then!"
+
+msgid "<32>* Ngh...!"
+msgstr "<32>* Ngh...!"
+
+msgid "<32>* Hi-yah...!"
+msgstr "<32>* Hi-yah...!"
+
+msgid "<32>* Wa-POW!"
+msgstr "<32>* Wa-POW!"
+
+msgid "<32>{#p/kidding}* Mercy?\n* Do I spare them?"
+msgstr "<32>{#p/kidding}* Mercy?\n* Do I spare them?"
+
+msgid "<32>{#p/kidding}* Well, that's easy!"
+msgstr "<32>{#p/kidding}* Well, that's easy!"
+
+msgid "* (What should Monster Kid do?)"
+msgstr "* (What should Monster Kid do?)"
+
+msgid "Mercy"
+msgstr "Mercy"
+
+msgid "Act"
+msgstr "Act"
+
+msgid "Magic"
+msgstr "Magic"
+
+msgid "Fight"
+msgstr "Fight"
+
+msgid "<32>{#s/phone}{#p/event}* Dialing..."
+msgstr "<32>{#s/phone}{#p/event}* Dialing..."
+
+msgid "<32>{#s/equip}{#p/event}* Click..."
+msgstr "<32>{#s/equip}{#p/event}* Click..."
+
+msgid "<32>{#p/human}* (No response.)"
+msgstr "<32>{#p/human}* (No response.)"
+
+msgid "<32>{#p/narrator}* ...but nobody came."
+msgstr "<32>{#p/narrator}* ...but nobody came."
+
+msgid "<32>{#p/human}* (No connection.)"
+msgstr "<32>{#p/human}* (No connection.)"
+
+msgid "<32>{#p/human}* (Too much interference.)"
+msgstr "<32>{#p/human}* (Too much interference.)"
+
+msgid "<32>{#p/human}* (It sounds like a small, white dog is sleeping on the cell phone.)"
+msgstr "<32>{#p/human}* (It sounds like a small, white dog is sleeping on the cell phone.)"
+
+msgid "<32>{#p/monster}* (Snore... snore...)"
+msgstr "<32>{#p/monster}* (Snore... snore...)"
+
+msgid "<32>* (Snore... snore...)"
+msgstr "<32>* (Snore... snore...)"
+
+msgid "Smells like Dihydrogen Monoxide."
+msgstr "Smells like Dihydrogen Monoxide."
+
+msgid "Water"
+msgstr "Water"
+
+msgid "<32>{#p/human}* (You threw away the Bottled Water.)"
+msgstr "<32>{#p/human}* (You threw away the Bottled Water.)"
+
+msgid "<32>{#p/narrator}* \"Bottled Water\" Heals 12 HP\n* Smells like Di-Hydrogen Monoxide."
+msgstr "<32>{#p/narrator}* \"Bottled Water\" Heals 12 HP\n* Smells like Di-Hydrogen Monoxide."
+
+msgid "Bottled Water"
+msgstr "Bottled Water"
+
+msgid "<32>{#p/human}* (You drank the Bottled Water.)"
+msgstr "<32>{#p/human}* (You drank the Bottled Water.)"
+
+msgid "<32>* ...\n* (You're filled with hydration.)"
+msgstr "<32>* ...\n* (You're filled with hydration.)"
+
+msgid "<32>{#p/_}* Ayyo, thanks for playing!\n* Let's get started with the credits, shall we?"
+msgstr "<32>{#p/_}* Ayyo, thanks for playing!\n* Let's get started with the credits, shall we?"
+
+msgid "<32>* Balgamlı Kedi - Assistant spriter, Guest writer, Internal review, Project lead"
+msgstr "<32>* Balgamlı Kedi - Assistant spriter, Guest writer, Internal review, Project lead"
+
+msgid "<32>* Brayjamin - Internal review"
+msgstr "<32>* Brayjamin - Internal review"
+
+msgid "<32>* Burge233 - Guest spriter, Promo artist"
+msgstr "<32>* Burge233 - Guest spriter, Promo artist"
+
+msgid "<32>* DESM.al - Guest spriter"
+msgstr "<32>* DESM.al - Guest spriter"
+
+msgid "<32>* Discarded Vessel - Assistant spriter, Dedicated QA tester"
+msgstr "<32>* Discarded Vessel - Assistant spriter, Dedicated QA tester"
+
+msgid "<32>* Dubituar - Internal review"
+msgstr "<32>* Dubituar - Internal review"
+
+msgid "<32>* ed_ - Guest spriter"
+msgstr "<32>* ed_ - Guest spriter"
+
+msgid "<32>* Efe Kaya - Chief advertiser, Internal review"
+msgstr "<32>* Efe Kaya - Chief advertiser, Internal review"
+
+msgid "<32>* Firedupmoose - Assistant spriter, Internal review"
+msgstr "<32>* Firedupmoose - Assistant spriter, Internal review"
+
+msgid "<32>* Ghostly - Dedicated QA tester, Guest writer, Project lead"
+msgstr "<32>* Ghostly - Dedicated QA tester, Guest writer, Project lead"
+
+msgid "<32>* Gon UT - Battle review, Dedicated QA tester"
+msgstr "<32>* Gon UT - Battle review, Dedicated QA tester"
+
+msgid "<32>* major_memestar - Assistant spriter"
+msgstr "<32>* major_memestar - Assistant spriter"
+
+msgid "<32>* MattSpriteMaster - Assistant spriter"
+msgstr "<32>* MattSpriteMaster - Assistant spriter"
+
+msgid "<32>* MR. PETER - Battle review, Internal review, Project lead"
+msgstr "<32>* MR. PETER - Battle review, Internal review, Project lead"
+
+msgid "<32>* NerNot1 - Promo artist"
+msgstr "<32>* NerNot1 - Promo artist"
+
+msgid "<32>* PhyreFM - Assistant spriter"
+msgstr "<32>* PhyreFM - Assistant spriter"
+
+msgid "<32>* Pongy25 - Guest spriter"
+msgstr "<32>* Pongy25 - Guest spriter"
+
+msgid "<32>* PoTheWinterCorder - Guest spriter"
+msgstr "<32>* PoTheWinterCorder - Guest spriter"
+
+msgid "<32>* ProctorDorkchop02 - Assistant spriter"
+msgstr "<32>* ProctorDorkchop02 - Assistant spriter"
+
+msgid "<32>* Rise - Battle review, Dedicated QA tester, Guest writer"
+msgstr "<32>* Rise - Battle review, Dedicated QA tester, Guest writer"
+
+msgid "<32>* ScarletScaledDragon\n* Assistant spriter"
+msgstr "<32>* ScarletScaledDragon\n* Assistant spriter"
+
+msgid "<32>* semi - Guest spriter"
+msgstr "<32>* semi - Guest spriter"
+
+msgid "<32>* Shaun Duz Stuffs\n* Battle review, Dedicated QA tester"
+msgstr "<32>* Shaun Duz Stuffs\n* Battle review, Dedicated QA tester"
+
+msgid "<32>* spaceknife234 - Internal review"
+msgstr "<32>* spaceknife234 - Internal review"
+
+msgid "<32>* SquigglyWiggley - Guest Spriter, Guest writer"
+msgstr "<32>* SquigglyWiggley - Guest Spriter, Guest writer"
+
+msgid "<32>* Starkiteckt - Backdrop artist"
+msgstr "<32>* Starkiteckt - Backdrop artist"
+
+msgid "<32>* supper12 - Guest Spriter"
+msgstr "<32>* supper12 - Guest Spriter"
+
+msgid "<32>* Zaxento The Greedy - Assistant writer, Dedicated QA tester, Guest spriter"
+msgstr "<32>* Zaxento The Greedy - Assistant writer, Dedicated QA tester, Guest spriter"
+
+msgid "<33>* Discarded Vessel, Ghostly, Shaun Duz Stuffs\n* QA tester"
+msgstr "<33>* Discarded Vessel, Ghostly, Shaun Duz Stuffs\n* QA tester"
+
+msgid "<32>* ..."
+msgstr "<32>* ..."
+
+msgid "<32>* I'd also like to say something."
+msgstr "<32>* I'd also like to say something."
+
+msgid "<32>* I want you to know that, despite your mistakes..."
+msgstr "<32>* I want you to know that, despite your mistakes..."
+
+msgid "<32>* You are awesome, and you deserve love and attention.\n* Remember that, okay?"
+msgstr "<32>* You are awesome, and you deserve love and attention.\n* Remember that, okay?"
+
+msgid "<32>* Take care of yourself, \"$(name).\""
+msgstr "<32>* Take care of yourself, \"$(name).\""
+
+msgid "<32>* Take care of yourself, player."
+msgstr "<32>* Take care of yourself, player."
+

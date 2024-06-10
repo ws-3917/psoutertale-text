@@ -1,0 +1,1011 @@
+msgid "<20>You cannot give up just yet..."
+msgstr "<20>You cannot give up just yet..."
+
+msgid "<20>$(name)!\nStay determined..."
+msgstr "<20>$(name)!\nStay determined..."
+
+msgid "<20>Our fate rests upon you..."
+msgstr "<20>Our fate rests upon you..."
+
+msgid "<20>$(name)!\nStay determined..."
+msgstr "<20>$(name)!\nStay determined..."
+
+msgid "<20>You're going to be alright!"
+msgstr "<20>You're going to be alright!"
+
+msgid "<20>$(name)!\nStay determined..."
+msgstr "<20>$(name)!\nStay determined..."
+
+msgid "<20>Don't lose hope!"
+msgstr "<20>Don't lose hope!"
+
+msgid "<20>$(name)!\nStay determined..."
+msgstr "<20>$(name)!\nStay determined..."
+
+msgid "<20>It cannot end now!"
+msgstr "<20>It cannot end now!"
+
+msgid "<20>$(name)!\nStay determined..."
+msgstr "<20>$(name)!\nStay determined..."
+
+msgid "    * I'm outta here."
+msgstr "    * I'm outta here."
+
+msgid "    * I've got better to do."
+msgstr "    * I've got better to do."
+
+msgid "    * Don't slow me down."
+msgstr "    * Don't slow me down."
+
+msgid "    * Escaped..."
+msgstr "    * Escaped..."
+
+msgid "    * Ran away with $(x) EXP\n      and $(y) G."
+msgstr "    * Ran away with $(x) EXP\n      and $(y) G."
+
+msgid "* HP fully restored."
+msgstr "* HP fully restored."
+
+msgid "* You recovered $(x) HP."
+msgstr "* You recovered $(x) HP."
+
+msgid "* Assist"
+msgstr "* Assist"
+
+msgid "* Flee"
+msgstr "* Flee"
+
+msgid "* Spare"
+msgstr "* Spare"
+
+msgid "<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y) G."
+msgstr "<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y) G."
+
+msgid "<32>{#p/human}* (Your LOVE increased.)"
+msgstr "<32>{#p/human}* (Your LOVE increased.)"
+
+msgid "ERROR"
+msgstr "ERROR"
+
+msgid "RESUME"
+msgstr "RESUME"
+
+msgid "Click To Resume"
+msgstr "Click To Resume"
+
+msgid "An error occured! Please send\nscreenshot to developer."
+msgstr "An error occured! Please send\nscreenshot to developer."
+
+msgid "CONTROL"
+msgstr "CONTROL"
+
+msgid "GENERAL"
+msgstr "GENERAL"
+
+msgid "BATTLE"
+msgstr "BATTLE"
+
+msgid "FixMusic"
+msgstr "FixMusic"
+
+msgid "FixPlayer"
+msgstr "FixPlayer"
+
+msgid "InfiniteG"
+msgstr "InfiniteG"
+
+msgid "Interact"
+msgstr "Interact"
+
+msgid "Input"
+msgstr "Input"
+
+msgid "Movement"
+msgstr "Movement"
+
+msgid "Noclip"
+msgstr "Noclip"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "SkipText"
+msgstr "SkipText"
+
+msgid "Freecam"
+msgstr "Freecam"
+
+msgid "CanAssist"
+msgstr "CanAssist"
+
+msgid "ClearBox"
+msgstr "ClearBox"
+
+msgid "Exit"
+msgstr "Exit"
+
+msgid "ResetBox"
+msgstr "ResetBox"
+
+msgid "ResetMenu"
+msgstr "ResetMenu"
+
+msgid "CanFlee"
+msgstr "CanFlee"
+
+msgid "InfiniteHP"
+msgstr "InfiniteHP"
+
+msgid "PacifyAll"
+msgstr "PacifyAll"
+
+msgid "Suicide"
+msgstr "Suicide"
+
+msgid "WeakenAll"
+msgstr "WeakenAll"
+
+msgid "GAME SPEED"
+msgstr "GAME SPEED"
+
+msgid "Less"
+msgstr "Less"
+
+msgid "More"
+msgstr "More"
+
+msgid "delete"
+msgstr "delete"
+
+msgid "active"
+msgstr "active"
+
+msgid "anchor"
+msgstr "anchor"
+
+msgid "args"
+msgstr "args"
+
+msgid "auto"
+msgstr "auto"
+
+msgid "background"
+msgstr "background"
+
+msgid "filter"
+msgstr "filter"
+
+msgid "filters"
+msgstr "filters"
+
+msgid "frames"
+msgstr "frames"
+
+msgid "gain"
+msgstr "gain"
+
+msgid "layer"
+msgstr "layer"
+
+msgid "music"
+msgstr "music"
+
+msgid "name"
+msgstr "name"
+
+msgid "neighbors"
+msgstr "neighbors"
+
+msgid "objects"
+msgstr "objects"
+
+msgid "position"
+msgstr "position"
+
+msgid "preload"
+msgstr "preload"
+
+msgid "rate"
+msgstr "rate"
+
+msgid "region-max"
+msgstr "region-max"
+
+msgid "region-min"
+msgstr "region-min"
+
+msgid "resources"
+msgstr "resources"
+
+msgid "reverb"
+msgstr "reverb"
+
+msgid "rotation"
+msgstr "rotation"
+
+msgid "score"
+msgstr "score"
+
+msgid "size"
+msgstr "size"
+
+msgid "spawn"
+msgstr "spawn"
+
+msgid "steps"
+msgstr "steps"
+
+msgid "tags"
+msgstr "tags"
+
+msgid "type"
+msgstr "type"
+
+msgid "creating"
+msgstr "creating"
+
+msgid "modifying"
+msgstr "modifying"
+
+msgid "selecting"
+msgstr "selecting"
+
+msgid "object"
+msgstr "object"
+
+msgid "room"
+msgstr "room"
+
+msgid "sub-object"
+msgstr "sub-object"
+
+msgid "GODHOME"
+msgstr "GODHOME"
+
+msgid "ROOM"
+msgstr "ROOM"
+
+msgid "Teleport"
+msgstr "Teleport"
+
+msgid "ENCOUNTER"
+msgstr "ENCOUNTER"
+
+msgid "Start"
+msgstr "Start"
+
+msgid "MENU"
+msgstr "MENU"
+
+msgid "Switch"
+msgstr "Switch"
+
+msgid "INSPECT"
+msgstr "INSPECT"
+
+msgid "LAYERS"
+msgstr "LAYERS"
+
+msgid "TYPES"
+msgstr "TYPES"
+
+msgid "Base"
+msgstr "Base"
+
+msgid "Below"
+msgstr "Below"
+
+msgid "Main"
+msgstr "Main"
+
+msgid "Above"
+msgstr "Above"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Hitbox"
+msgstr "Hitbox"
+
+msgid "Sprite"
+msgstr "Sprite"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "EXPLORER"
+msgstr "EXPLORER"
+
+msgid "Base (Explorer)"
+msgstr "Base (Explorer)"
+
+msgid "Below (Explorer)"
+msgstr "Below (Explorer)"
+
+msgid "Main (Explorer)"
+msgstr "Main (Explorer)"
+
+msgid "Above (Explorer)"
+msgstr "Above (Explorer)"
+
+msgid "Menu (Explorer)"
+msgstr "Menu (Explorer)"
+
+msgid "A"
+msgstr "A"
+
+msgid "C"
+msgstr "C"
+
+msgid "E"
+msgstr "E"
+
+msgid "H"
+msgstr "H"
+
+msgid "O"
+msgstr "O"
+
+msgid "P"
+msgstr "P"
+
+msgid "S"
+msgstr "S"
+
+msgid "T"
+msgstr "T"
+
+msgid "SAVEMOD"
+msgstr "SAVEMOD"
+
+msgid "SAVE EDITOR"
+msgstr "SAVE EDITOR"
+
+msgid "Data (Booleans)"
+msgstr "Data (Booleans)"
+
+msgid "Data (Numbers)"
+msgstr "Data (Numbers)"
+
+msgid "Data (Strings)"
+msgstr "Data (Strings)"
+
+msgid "Flags (Booleans)"
+msgstr "Flags (Booleans)"
+
+msgid "Flags (Numbers)"
+msgstr "Flags (Numbers)"
+
+msgid "Flags (Strings)"
+msgstr "Flags (Strings)"
+
+msgid "NAVIGATION"
+msgstr "NAVIGATION"
+
+msgid "Prev"
+msgstr "Prev"
+
+msgid "Next"
+msgstr "Next"
+
+msgid "STORAGE"
+msgstr "STORAGE"
+
+msgid "STORAGE EDITOR"
+msgstr "STORAGE EDITOR"
+
+msgid "SELECTION"
+msgstr "SELECTION"
+
+msgid "Prev"
+msgstr "Prev"
+
+msgid "Next"
+msgstr "Next"
+
+msgid "Inventory"
+msgstr "Inventory"
+
+msgid "Dim. Box A"
+msgstr "Dim. Box A"
+
+msgid "Dim. Box B"
+msgstr "Dim. Box B"
+
+msgid "Download this SAVE file?"
+msgstr "Download this SAVE file?"
+
+msgid "Upload this SAVE file?"
+msgstr "Upload this SAVE file?"
+
+msgid "Resume Canon Timeline"
+msgstr "Resume Canon Timeline"
+
+msgid "Other Slots"
+msgstr "Other Slots"
+
+msgid "Bisect"
+msgstr "Bisect"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "Launch"
+msgstr "Launch"
+
+msgid "Rename"
+msgstr "Rename"
+
+msgid "Create New"
+msgstr "Create New"
+
+msgid "Enter Timeline Name"
+msgstr "Enter Timeline Name"
+
+msgid "Are You Sure?"
+msgstr "Are You Sure?"
+
+msgid "DISABLED"
+msgstr "DISABLED"
+
+msgid "G"
+msgstr "G"
+
+msgid "HP"
+msgstr "HP"
+
+msgid "INF"
+msgstr "INF"
+
+msgid "[PRESS Z OR ENTER]"
+msgstr "[PRESS Z OR ENTER]"
+
+msgid "LV"
+msgstr "LV"
+
+msgid "§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§"
+msgstr "§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§"
+
+msgid "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
+msgstr "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
+
+msgid "No"
+msgstr "No"
+
+msgid "$(x)%"
+msgstr "$(x)%"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "?"
+msgstr "?"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "INVENTORY"
+msgstr "INVENTORY"
+
+msgid "BOX"
+msgstr "BOX"
+
+msgid "Press [X] to Finish"
+msgstr "Press [X] to Finish"
+
+msgid "Is this name correct?"
+msgstr "Is this name correct?"
+
+msgid "A name has already\nbeen chosen."
+msgstr "A name has already\nbeen chosen."
+
+msgid "Go back"
+msgstr "Go back"
+
+msgid "Not very creative...?"
+msgstr "Not very creative...?"
+
+msgid "Is this name correct? ;)"
+msgstr "Is this name correct? ;)"
+
+msgid "Uh.... OK?"
+msgstr "Uh.... OK?"
+
+msgid "D-don't do that."
+msgstr "D-don't do that."
+
+msgid "You... can? Huh."
+msgstr "You... can? Huh."
+
+msgid "You cannot."
+msgstr "You cannot."
+
+msgid "...fine."
+msgstr "...fine."
+
+msgid "..."
+msgstr "..."
+
+msgid "............\nThey're powerless to stop you."
+msgstr "............\nThey're powerless to stop you."
+
+msgid "............\nThey're powerless to stop you."
+msgstr "............\nThey're powerless to stop you."
+
+msgid "You could come up with something better than that."
+msgstr "You could come up with something better than that."
+
+msgid "You know that's just a nickname, right?"
+msgstr "You know that's just a nickname, right?"
+
+msgid "Like, OK I guess."
+msgstr "Like, OK I guess."
+
+msgid "A pleasing nomenclature, no?"
+msgstr "A pleasing nomenclature, no?"
+
+msgid "Bratty! Bratty! That's MY name!"
+msgstr "Bratty! Bratty! That's MY name!"
+
+msgid "Guh huh huh, nice one."
+msgstr "Guh huh huh, nice one."
+
+msgid "The true name."
+msgstr "The true name."
+
+msgid "Alacazam, Hocus Pocus."
+msgstr "Alacazam, Hocus Pocus."
+
+msgid "How dare you!?"
+msgstr "How dare you!?"
+
+msgid "Don't even think about taking my wife's."
+msgstr "Don't even think about taking my wife's."
+
+msgid "A-Ah! It's moving! I-I-It's shaking!"
+msgstr "A-Ah! It's moving! I-I-It's shaking!"
+
+msgid ".....\nIt doesn't seem much for conversation."
+msgstr ".....\nIt doesn't seem much for conversation."
+
+msgid "It is my name."
+msgstr "It is my name."
+
+msgid "WARNING: This name will do absolutely nothing. Proceed anyway?"
+msgstr "WARNING: This name will do absolutely nothing. Proceed anyway?"
+
+msgid "Wah ha ha! Why not?"
+msgstr "Wah ha ha! Why not?"
+
+msgid "Slick choice, homeslice."
+msgstr "Slick choice, homeslice."
+
+msgid "I don't think so, darling."
+msgstr "I don't think so, darling."
+
+msgid "You KNEW!?"
+msgstr "You KNEW!?"
+
+msgid "Jerry."
+msgstr "Jerry."
+
+msgid "It is my world."
+msgstr "It is my world."
+
+msgid "What. What! WHAT!"
+msgstr "What. What! WHAT!"
+
+msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
+msgstr "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
+
+msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
+msgstr "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
+
+msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
+msgstr "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
+
+msgid "Ahuhuhu, I heard humans love stealing spiders' identities~"
+msgstr "Ahuhuhu, I heard humans love stealing spiders' identities~"
+
+msgid "Saddle up!"
+msgstr "Saddle up!"
+
+msgid "............\nThey're powerless to stop you."
+msgstr "............\nThey're powerless to stop you."
+
+msgid "I'LL ALLOW IT!!!!"
+msgstr "I'LL ALLOW IT!!!!"
+
+msgid "Now you're on FIRE!!"
+msgstr "Now you're on FIRE!!"
+
+msgid "why?"
+msgstr "why?"
+
+msgid "nope."
+msgstr "nope."
+
+msgid "That's a pretty \"bright\" one, heh."
+msgstr "That's a pretty \"bright\" one, heh."
+
+msgid "...?"
+msgstr "...?"
+
+msgid "Clean name."
+msgstr "Clean name."
+
+msgid "Clean name."
+msgstr "Clean name."
+
+msgid "hOI!"
+msgstr "hOI!"
+
+msgid "Umm... I suppose that works..."
+msgstr "Umm... I suppose that works..."
+
+msgid "I think you should think of your own name, my child."
+msgstr "I think you should think of your own name, my child."
+
+msgid "Really..."
+msgstr "Really..."
+
+msgid "Hee hee hee... you THOUGHT."
+msgstr "Hee hee hee... you THOUGHT."
+
+msgid "Seriously??"
+msgstr "Seriously??"
+
+msgid "Nice try, idiot."
+msgstr "Nice try, idiot."
+
+msgid "Ngah, okay."
+msgstr "Ngah, okay."
+
+msgid "Get your OWN name!"
+msgstr "Get your OWN name!"
+
+msgid "Ahh! Thank you~"
+msgstr "Ahh! Thank you~"
+
+msgid "USE"
+msgstr "USE"
+
+msgid "EQUIP"
+msgstr "EQUIP"
+
+msgid "INFO"
+msgstr "INFO"
+
+msgid "DROP"
+msgstr "DROP"
+
+msgid "Continue"
+msgstr "Continue"
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "True Reset"
+msgstr "True Reset"
+
+msgid "Name the stranded human."
+msgstr "Name the stranded human."
+
+msgid "Quit"
+msgstr "Quit"
+
+msgid "Backspace"
+msgstr "Backspace"
+
+msgid "Done"
+msgstr "Done"
+
+msgid "A"
+msgstr "A"
+
+msgid "B"
+msgstr "B"
+
+msgid "C"
+msgstr "C"
+
+msgid "D"
+msgstr "D"
+
+msgid "E"
+msgstr "E"
+
+msgid "F"
+msgstr "F"
+
+msgid "G"
+msgstr "G"
+
+msgid "H"
+msgstr "H"
+
+msgid "I"
+msgstr "I"
+
+msgid "J"
+msgstr "J"
+
+msgid "K"
+msgstr "K"
+
+msgid "L"
+msgstr "L"
+
+msgid "M"
+msgstr "M"
+
+msgid "N"
+msgstr "N"
+
+msgid "O"
+msgstr "O"
+
+msgid "P"
+msgstr "P"
+
+msgid "Q"
+msgstr "Q"
+
+msgid "R"
+msgstr "R"
+
+msgid "S"
+msgstr "S"
+
+msgid "T"
+msgstr "T"
+
+msgid "U"
+msgstr "U"
+
+msgid "V"
+msgstr "V"
+
+msgid "W"
+msgstr "W"
+
+msgid "X"
+msgstr "X"
+
+msgid "Y"
+msgstr "Y"
+
+msgid "Z"
+msgstr "Z"
+
+msgid "a"
+msgstr "a"
+
+msgid "b"
+msgstr "b"
+
+msgid "c"
+msgstr "c"
+
+msgid "d"
+msgstr "d"
+
+msgid "e"
+msgstr "e"
+
+msgid "f"
+msgstr "f"
+
+msgid "g"
+msgstr "g"
+
+msgid "h"
+msgstr "h"
+
+msgid "i"
+msgstr "i"
+
+msgid "j"
+msgstr "j"
+
+msgid "k"
+msgstr "k"
+
+msgid "l"
+msgstr "l"
+
+msgid "m"
+msgstr "m"
+
+msgid "n"
+msgstr "n"
+
+msgid "o"
+msgstr "o"
+
+msgid "p"
+msgstr "p"
+
+msgid "q"
+msgstr "q"
+
+msgid "r"
+msgstr "r"
+
+msgid "s"
+msgstr "s"
+
+msgid "t"
+msgstr "t"
+
+msgid "u"
+msgstr "u"
+
+msgid "v"
+msgstr "v"
+
+msgid "w"
+msgstr "w"
+
+msgid "x"
+msgstr "x"
+
+msgid "y"
+msgstr "y"
+
+msgid "z"
+msgstr "z"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Return"
+msgstr "Return"
+
+msgid "File saved."
+msgstr "File saved."
+
+msgid "<32>{#p/human}{@fill:#f00}* ($(x) left.)"
+msgstr "<32>{#p/human}{@fill:#f00}* ($(x) left.)"
+
+msgid "<32>{#p/human}{@fill:#f00}* (Determination.)"
+msgstr "<32>{#p/human}{@fill:#f00}* (Determination.)"
+
+msgid "<32>{#p/human}{@fill:#3f00ff}* ($(x) left.)"
+msgstr "<32>{#p/human}{@fill:#3f00ff}* ($(x) left.)"
+
+msgid "<32>{#p/human}{@fill:#3f00ff}* (Determination.)"
+msgstr "<32>{#p/human}{@fill:#3f00ff}* (Determination.)"
+
+msgid "SETTINGS"
+msgstr "SETTINGS"
+
+msgid "EXIT"
+msgstr "EXIT"
+
+msgid "FX"
+msgstr "FX"
+
+msgid "MUSIC"
+msgstr "MUSIC"
+
+msgid "ALIGN\nCONTROLS"
+msgstr "ALIGN\nCONTROLS"
+
+msgid "LEFT"
+msgstr "LEFT"
+
+msgid "RIGHT"
+msgstr "RIGHT"
+
+msgid "ITEM"
+msgstr "ITEM"
+
+msgid "STAT"
+msgstr "STAT"
+
+msgid "CELL"
+msgstr "CELL"
+
+msgid "CONF"
+msgstr "CONF"
+
+msgid "--- Instruction ---"
+msgstr "--- Instruction ---"
+
+msgid "[Z or ENTER] - Confirm"
+msgstr "[Z or ENTER] - Confirm"
+
+msgid "[X or SHIFT] - Cancel"
+msgstr "[X or SHIFT] - Cancel"
+
+msgid "[C or CTRL] - Menu (In-game)"
+msgstr "[C or CTRL] - Menu (In-game)"
+
+msgid "[F4] - Fullscreen"
+msgstr "[F4] - Fullscreen"
+
+msgid "[Hold ESC] - Quit"
+msgstr "[Hold ESC] - Quit"
+
+msgid "When HP is 0, you lose."
+msgstr "When HP is 0, you lose."
+
+msgid "Begin Game"
+msgstr "Begin Game"
+
+msgid "AT"
+msgstr "AT"
+
+msgid "DF"
+msgstr "DF"
+
+msgid "WEAPON"
+msgstr "WEAPON"
+
+msgid "ARMOR"
+msgstr "ARMOR"
+
+msgid "GOLD"
+msgstr "GOLD"
+
+msgid "EXP"
+msgstr "EXP"
+
+msgid "NEXT"
+msgstr "NEXT"
+
+msgid "§fill:#ff0§Warning:\nSAVE file\ninvalid."
+msgstr "§fill:#ff0§Warning:\nSAVE file\ninvalid."
+
+msgid "KILLS"
+msgstr "KILLS"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "BULLY"
+msgstr "BULLY"
+
+msgid "Long ago, {^3}two species ruled the solar system: {^5}HUMANS and MONSTERS."
+msgstr "Long ago, {^3}two species ruled the solar system: {^5}HUMANS and MONSTERS."
+
+msgid "As time passed, {^3}a war broke out between the two species."
+msgstr "As time passed, {^3}a war broke out between the two species."
+
+msgid "After the MONSTERS' home planet was destroyed, {^3}HUMANS declared victory."
+msgstr "After the MONSTERS' home planet was destroyed, {^3}HUMANS declared victory."
+
+msgid "The remaining MONSTERS were banished to an abandoned outpost."
+msgstr "The remaining MONSTERS were banished to an abandoned outpost."
+
+msgid "A powerful force field was erected, {^3}and the MONSTERS were sealed in."
+msgstr "A powerful force field was erected, {^3}and the MONSTERS were sealed in."
+
+msgid "Many years later.{^8}.{^8}."
+msgstr "Many years later.{^8}.{^8}."
+
+msgid "µµµµ EBOTT SECTOR µµµµ µµµµµµµµ 251X{^20}"
+msgstr "µµµµ EBOTT SECTOR µµµµ µµµµµµµµ 251X{^20}"
+
+msgid "Tales speak of a place from which spacecraft never return.{^20}"
+msgstr "Tales speak of a place from which spacecraft never return.{^20}"
+
+msgid "{^100}"
+msgstr "{^100}"
+
+msgid "{^100}"
+msgstr "{^100}"
+
+msgid "{^100}"
+msgstr "{^100}"
+
+msgid "Quitting"
+msgstr "Quitting"
+
+msgid "Quitting."
+msgstr "Quitting."
+
+msgid "Quitting.."
+msgstr "Quitting.."
+

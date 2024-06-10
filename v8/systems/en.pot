@@ -1,0 +1,2396 @@
+msgid "You cannot give up just yet..."
+msgstr ""
+
+
+msgid "$(name)!\nStay determined..."
+msgstr ""
+
+
+msgid "Our fate rests upon you..."
+msgstr ""
+
+
+msgid "You're going to be alright!"
+msgstr ""
+
+
+msgid "Don't lose hope!"
+msgstr ""
+
+
+msgid "It cannot end now!"
+msgstr ""
+
+
+msgid "    * Escaped..."
+msgstr ""
+
+
+msgid "    * I'm outta here."
+msgstr ""
+
+
+msgid "    * I've got better to do."
+msgstr ""
+
+
+msgid "    * Don't slow me down."
+msgstr ""
+
+
+msgid "    * Ran away with $(x) EXP\n      and $(y)G."
+msgstr ""
+
+
+msgid "* Assist"
+msgstr ""
+
+
+msgid "* Flee"
+msgstr ""
+
+
+msgid "* Spare"
+msgstr ""
+
+
+msgid "<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G."
+msgstr ""
+
+
+msgid "<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.\n* Your LOVE increased."
+msgstr ""
+
+
+msgid "Clear File"
+msgstr ""
+
+
+msgid "Error"
+msgstr ""
+
+
+msgid "Notice"
+msgstr ""
+
+
+msgid "Open"
+msgstr ""
+
+
+msgid "SAVE files"
+msgstr ""
+
+
+msgid "Open File"
+msgstr ""
+
+
+msgid "Save"
+msgstr ""
+
+
+msgid "Save File"
+msgstr ""
+
+
+msgid "Invalid SAVE file access \"$(x)\""
+msgstr ""
+
+
+msgid "That file could not be parsed."
+msgstr ""
+
+
+msgid "The mod \"$(x)\" could not be loaded."
+msgstr ""
+
+
+msgid "OK"
+msgstr ""
+
+
+msgid "Cancel"
+msgstr ""
+
+
+msgid "Clear this file?"
+msgstr ""
+
+
+msgid "Your SAVE file from the\nOUTERTALE demo has been\nmoved to a timeline slot."
+msgstr ""
+
+
+msgid "Save this file?"
+msgstr ""
+
+
+msgid "Load this file?"
+msgstr ""
+
+
+msgid "§fill:#ff0§< DEVELOPER >§fill:#fff§"
+msgstr ""
+
+
+msgid "spacey_432"
+msgstr ""
+
+
+msgid "§fill:#ff0§< WRITER >§fill:#fff§"
+msgstr ""
+
+
+msgid "Balgamlı Kedi"
+msgstr ""
+
+
+msgid "Efe Kaya"
+msgstr ""
+
+
+msgid "Ghostly"
+msgstr ""
+
+
+msgid "My Cocoa"
+msgstr ""
+
+
+msgid "neo9174"
+msgstr ""
+
+
+msgid "Rise"
+msgstr ""
+
+
+msgid "ThatGuyWhoLikesFood"
+msgstr ""
+
+
+msgid "Turbulation"
+msgstr ""
+
+
+msgid "Zaxento The Greedy"
+msgstr ""
+
+
+msgid "§fill:#ff0§< TECHNICIAN >§fill:#fff§"
+msgstr ""
+
+
+msgid "Codetoil"
+msgstr ""
+
+
+msgid "§fill:#ff0§< BETA TESTER >§fill:#fff§"
+msgstr ""
+
+
+msgid "Alden"
+msgstr ""
+
+
+msgid "Aspey"
+msgstr ""
+
+
+msgid "brayjamin"
+msgstr ""
+
+
+msgid "ClamsyMoe"
+msgstr ""
+
+
+msgid "delta"
+msgstr ""
+
+
+msgid "Discarded Vessel"
+msgstr ""
+
+
+msgid "Dischnie"
+msgstr ""
+
+
+msgid "Dubituar"
+msgstr ""
+
+
+msgid "EvanGamesGoodman"
+msgstr ""
+
+
+msgid "Fired"
+msgstr ""
+
+
+msgid "FireWizard72X"
+msgstr ""
+
+
+msgid "FuLiNT"
+msgstr ""
+
+
+msgid "Funtermore"
+msgstr ""
+
+
+msgid "gardnaeden"
+msgstr ""
+
+
+msgid "Gon UT"
+msgstr ""
+
+
+msgid "Green Tea"
+msgstr ""
+
+
+msgid "ilovecookies"
+msgstr ""
+
+
+msgid "InvincibleRacoon"
+msgstr ""
+
+
+msgid "Jago128"
+msgstr ""
+
+
+msgid "Jojoton56"
+msgstr ""
+
+
+msgid "Kiwi \"Quinn\""
+msgstr ""
+
+
+msgid "lil tanski"
+msgstr ""
+
+
+msgid "MR. PETER"
+msgstr ""
+
+
+msgid "MSBen"
+msgstr ""
+
+
+msgid "Nanorasmus"
+msgstr ""
+
+
+msgid "NerNot1"
+msgstr ""
+
+
+msgid "Prezmop"
+msgstr ""
+
+
+msgid "prymus-agd"
+msgstr ""
+
+
+msgid "Quin"
+msgstr ""
+
+
+msgid "RadicalRic"
+msgstr ""
+
+
+msgid "Raelynn"
+msgstr ""
+
+
+msgid "retr22800"
+msgstr ""
+
+
+msgid "semi"
+msgstr ""
+
+
+msgid "Shaun Duz Stuffs"
+msgstr ""
+
+
+msgid "SHCyank"
+msgstr ""
+
+
+msgid "Soup Taels"
+msgstr ""
+
+
+msgid "spaceknife234"
+msgstr ""
+
+
+msgid "SquigglyWiggley"
+msgstr ""
+
+
+msgid "superkippy"
+msgstr ""
+
+
+msgid "Teecup"
+msgstr ""
+
+
+msgid "Tenbrooks"
+msgstr ""
+
+
+msgid "Wild Pasta"
+msgstr ""
+
+
+msgid "xNoodlePlayz"
+msgstr ""
+
+
+msgid "§fill:#ff0§< ARTIST >§fill:#fff§"
+msgstr ""
+
+
+msgid "Burge"
+msgstr ""
+
+
+msgid "Deskius"
+msgstr ""
+
+
+msgid "DESM.al"
+msgstr ""
+
+
+msgid "HolyOranges"
+msgstr ""
+
+
+msgid "major_memestar"
+msgstr ""
+
+
+msgid "MattSpriteMaster"
+msgstr ""
+
+
+msgid "PhyreFM"
+msgstr ""
+
+
+msgid "Pongy25"
+msgstr ""
+
+
+msgid "PoTheWinterCorder"
+msgstr ""
+
+
+msgid "ProctorDorkchop02"
+msgstr ""
+
+
+msgid "ScarletScaledDragon"
+msgstr ""
+
+
+msgid "Starkiteckt"
+msgstr ""
+
+
+msgid "supper12"
+msgstr ""
+
+
+msgid "Valor52"
+msgstr ""
+
+
+msgid "§fill:#ff0§< SPECIAL THANKS >§fill:#fff§"
+msgstr ""
+
+
+msgid "§fill:#808080§For being one of the friendliest\npeople I know, the first person\nto believe in my vision, and\ninspiring me to finish the game.§fill:#fff§"
+msgstr ""
+
+
+msgid "§fill:#808080§For being there for me when I\nneed someone to lean on, and\nteaching me life lessons that\nhave made me a better person.§fill:#fff§"
+msgstr ""
+
+
+msgid "§fill:#808080§For being a voice of reason when\nit comes to many aspects of the\ngame, and encouraging me to take\ntesting seriously.§fill:#fff§"
+msgstr ""
+
+
+msgid "§fill:#808080§For sticking with me at every\nstage of development, right from\nthe start. Regardless of the era,\nhe's always been there to help.§fill:#fff§"
+msgstr ""
+
+
+msgid "§fill:#808080§For being reliable, brutally\nhonest, giving me lots of\ncriticism and ideas, and being\ntrustworthy from the day we met.§fill:#fff§"
+msgstr ""
+
+
+msgid "§fill:#808080§For helping me write several\ncrucial parts of the game, and\nbeing as supportive as\npossible with my vision.§fill:#fff§"
+msgstr ""
+
+
+msgid "Brought to you by §fill:#ff0§The Mavis & Co.§fill:#fff§"
+msgstr ""
+
+
+msgid "(( CAST ))"
+msgstr ""
+
+
+msgid "FROGGIT"
+msgstr ""
+
+
+msgid "Pondering\nLife"
+msgstr ""
+
+
+msgid "Professional\nFrog"
+msgstr ""
+
+
+msgid "Pondering\nLove"
+msgstr ""
+
+
+msgid "Hopping In\nFear"
+msgstr ""
+
+
+msgid "FLUTTERLYTE"
+msgstr ""
+
+
+msgid "Learning To\nFly"
+msgstr ""
+
+
+msgid "Emboldening\nAviator"
+msgstr ""
+
+
+msgid "Searching The\nSkies"
+msgstr ""
+
+
+msgid "Evasively\nManeuvering"
+msgstr ""
+
+
+msgid "GELATINI"
+msgstr ""
+
+
+msgid "Toby Fox"
+msgstr ""
+
+
+msgid "Found A New\nSpace Station"
+msgstr ""
+
+
+msgid "Backup\nDancer"
+msgstr ""
+
+
+msgid "Exotic Jelly\nDancer"
+msgstr ""
+
+
+msgid "Found A New\nGalaxy"
+msgstr ""
+
+
+msgid "OCULOUX"
+msgstr ""
+
+
+msgid "Slightly\nBully-Like"
+msgstr ""
+
+
+msgid "Reformed\nBully"
+msgstr ""
+
+
+msgid "Slightly\nFlirtatious"
+msgstr ""
+
+
+msgid "SILENTE"
+msgstr ""
+
+
+msgid "Exceedingly\nAgreeable"
+msgstr ""
+
+
+msgid "Casually\nEnjoys Life"
+msgstr ""
+
+
+msgid "In Love From\nAfar"
+msgstr ""
+
+
+msgid "Endangerment\nDenier"
+msgstr ""
+
+
+msgid "MUSHY"
+msgstr ""
+
+
+msgid "Balgamlı Kedi & ScarletScaledDragon"
+msgstr ""
+
+
+msgid "Shooting\nBlanks"
+msgstr ""
+
+
+msgid "Quick-Draw\nMagician"
+msgstr ""
+
+
+msgid "Gunshot\nHeart-Throb"
+msgstr ""
+
+
+msgid "Spraying And\nPraying"
+msgstr ""
+
+
+msgid "?"
+msgstr ""
+
+
+msgid "Keeping To\nThemselves"
+msgstr ""
+
+
+msgid "Finally Held A\nConversation"
+msgstr ""
+
+
+msgid "Stoically\nUninvolved"
+msgstr ""
+
+
+msgid "STARDRAKE"
+msgstr ""
+
+
+msgid "Still Looking\nFor Laughs"
+msgstr ""
+
+
+msgid "Semi-Successful\nComedian"
+msgstr ""
+
+
+msgid "Popular With The\nGrown-Ups"
+msgstr ""
+
+
+msgid "CHILLDRAKE"
+msgstr ""
+
+
+msgid "Still Looking\nFor Supporters"
+msgstr ""
+
+
+msgid "Gained A Cult\nFollowing"
+msgstr ""
+
+
+msgid "Trades Kisses\nFor Supporters"
+msgstr ""
+
+
+msgid "Anti-Bullying\nActivist"
+msgstr ""
+
+
+msgid "ASTRO SERF"
+msgstr ""
+
+
+msgid "Thinking About\nIts Antenna"
+msgstr ""
+
+
+msgid "Radio Station\nSensation"
+msgstr ""
+
+
+msgid "Love Is On\nThe Air"
+msgstr ""
+
+
+msgid "Emergency\nBroadcaster"
+msgstr ""
+
+
+msgid "JERRY"
+msgstr ""
+
+
+msgid "Getting Ditched\nOn The Daily"
+msgstr ""
+
+
+msgid "On The Road To\nRedemption"
+msgstr ""
+
+
+msgid "WHIZKARAT"
+msgstr ""
+
+
+msgid "Zaxento The Greedy & semi"
+msgstr ""
+
+
+msgid "Having An\nIdentity Crisis"
+msgstr ""
+
+
+msgid "Newest Member Of\nMouse Society"
+msgstr ""
+
+
+msgid "Getting Frisky\nWith The Mice"
+msgstr ""
+
+
+msgid "Scurried Back To\nCat Society"
+msgstr ""
+
+
+msgid "DOGGO"
+msgstr ""
+
+
+msgid "Believes In The\nAlmighty Wrench"
+msgstr ""
+
+
+msgid "Found His Own\nSeeing-Eye Wolf"
+msgstr ""
+
+
+msgid "In Love With His\nSeeing-Eye Wolf"
+msgstr ""
+
+
+msgid "Running To His\nSeeing-Eye Wolf"
+msgstr ""
+
+
+msgid "CANIS MINOR"
+msgstr ""
+
+
+msgid "Searching For\nAffection"
+msgstr ""
+
+
+msgid "Found A Loving\nOwner"
+msgstr ""
+
+
+msgid "Found An Owning\nLover"
+msgstr ""
+
+
+msgid "Desperate For\nAffection"
+msgstr ""
+
+
+msgid "DOGAMY & DOGARESSA"
+msgstr ""
+
+
+msgid "Still Thinking\nAbout Fetch"
+msgstr ""
+
+
+msgid "Reigning Puppy-Dog\nEyes Champions"
+msgstr ""
+
+
+msgid "Caught In Each-\nOther's Gaze"
+msgstr ""
+
+
+msgid "CANIS MAJOR"
+msgstr ""
+
+
+msgid "Unaware Of\nLife's Changes"
+msgstr ""
+
+
+msgid "Excited By\nLife's Changes"
+msgstr ""
+
+
+msgid "Touched By\nLife's Changes"
+msgstr ""
+
+
+msgid "SKRUBBINGTON"
+msgstr ""
+
+
+msgid "Only 99.1\nPercent Clean"
+msgstr ""
+
+
+msgid "Power-Washing\nPowerhouse"
+msgstr ""
+
+
+msgid "Hot Tub\nManufacturer"
+msgstr ""
+
+
+msgid "Overpowered\nPressure Washer"
+msgstr ""
+
+
+msgid "GELATA"
+msgstr ""
+
+
+msgid "Looking For A\nBaby Sitter"
+msgstr ""
+
+
+msgid "Slime-Powered\nBarstool"
+msgstr ""
+
+
+msgid "Sexy Sitcom\nRegular"
+msgstr ""
+
+
+msgid "Glorified\nWrestling Prop"
+msgstr ""
+
+
+msgid "RADTILE"
+msgstr ""
+
+
+msgid "Balgamlı Kedi & Zaxento The Greedy"
+msgstr ""
+
+
+msgid "Wallowing In\nImperfection"
+msgstr ""
+
+
+msgid "Improving His\nSelf-Image"
+msgstr ""
+
+
+msgid "Dating His Own\nReflection"
+msgstr ""
+
+
+msgid "Headed For An\nUgly Future"
+msgstr ""
+
+
+msgid "SHYREN"
+msgstr ""
+
+
+msgid "Back To Taking\nPiano Lessons"
+msgstr ""
+
+
+msgid "Mettaton's\nNew Lead Singer"
+msgstr ""
+
+
+msgid "In Love With\nA Ghost"
+msgstr ""
+
+
+msgid "Raspier By\nThe Day"
+msgstr ""
+
+
+msgid "DOGE"
+msgstr ""
+
+
+msgid "Construction Site\nDrill Sergeant"
+msgstr ""
+
+
+msgid "Bought A Lifetime\nSpa Subscription"
+msgstr ""
+
+
+msgid "Felt Puppy Love\nFor The First Time"
+msgstr ""
+
+
+msgid "MUFFET"
+msgstr ""
+
+
+msgid "Looking For Her\nNext Payout"
+msgstr ""
+
+
+msgid "Caring For The\nSpider Clans"
+msgstr ""
+
+
+msgid "Picnic Date\nMatchmaker"
+msgstr ""
+
+
+msgid "HOTWIRE"
+msgstr ""
+
+
+msgid "Waiting For The\nBeat To Drop"
+msgstr ""
+
+
+msgid "Lightning-Fast\nRapper"
+msgstr ""
+
+
+msgid "Rapper Turned\nLove Song Writer"
+msgstr ""
+
+
+msgid "Rap Battling To\nThe Near-Death"
+msgstr ""
+
+
+msgid "TSUNDERIDEX"
+msgstr ""
+
+
+msgid "Flying Deeper\nInto Denial"
+msgstr ""
+
+
+msgid "Sneaking Up On\nYou At Warp Speed"
+msgstr ""
+
+
+msgid "Tsun To Be\nYour Dere-Dere"
+msgstr ""
+
+
+msgid "Finally Met\nIts Match"
+msgstr ""
+
+
+msgid "PERIGEE"
+msgstr ""
+
+
+msgid "Another Day,\nAnother Conflict"
+msgstr ""
+
+
+msgid "Interplanetary\nAmbassador"
+msgstr ""
+
+
+msgid "Encouraging Love\nIn Others"
+msgstr ""
+
+
+msgid "Showing Kindness\nThrough The Pain"
+msgstr ""
+
+
+msgid "RG 03 & RG 04"
+msgstr ""
+
+
+msgid "In Search Of\nChildhood Friends"
+msgstr ""
+
+
+msgid "Use Your\nImagination"
+msgstr ""
+
+
+msgid "Please Use Your\nImagination"
+msgstr ""
+
+
+msgid "Royal Guard\nRetirees"
+msgstr ""
+
+
+msgid "GLYDE"
+msgstr ""
+
+
+msgid "Not Your Ideal\nBusiness Partner"
+msgstr ""
+
+
+msgid "A Little Less\nShady Than Usual"
+msgstr ""
+
+
+msgid "Not Your Ideal\nBedfellow"
+msgstr ""
+
+
+msgid "BURGERPANTS"
+msgstr ""
+
+
+msgid "Running Hastily\nAt The Life Ahead"
+msgstr ""
+
+
+msgid "Looking Forward\nTo The Life Ahead"
+msgstr ""
+
+
+msgid "Finding Love\nIn The Life Ahead"
+msgstr ""
+
+
+msgid "COZMO"
+msgstr ""
+
+
+msgid "Looking For A\nDictionary"
+msgstr ""
+
+
+msgid "Famous\nMagician"
+msgstr ""
+
+
+msgid "Found A New Kind\nOf Magic"
+msgstr ""
+
+
+msgid "TERRESTRIA"
+msgstr ""
+
+
+msgid "In Search Of\nThe Past"
+msgstr ""
+
+
+msgid "Renowned\nHistorian"
+msgstr ""
+
+
+msgid "Has A Crush On\nThe Homeworld"
+msgstr ""
+
+
+msgid "FINAL FROGGIT"
+msgstr ""
+
+
+msgid "ScarletScaledDragon & PoTheWinterCorder"
+msgstr ""
+
+
+msgid "Keeping Its\nWisdom To Itself"
+msgstr ""
+
+
+msgid "Sharing Its\nWisdom Openly"
+msgstr ""
+
+
+msgid "Using Its Wisdom\nFor Love"
+msgstr ""
+
+
+msgid "Using Its Wisdom\nFor Survival"
+msgstr ""
+
+
+msgid "FLUTTERKNYTE"
+msgstr ""
+
+
+msgid "Still Working\nEvery Day"
+msgstr ""
+
+
+msgid "Finally Took\nA Break"
+msgstr ""
+
+
+msgid "Looking For Some\nPrivate Time"
+msgstr ""
+
+
+msgid "Working Harder\nOut Of Fear"
+msgstr ""
+
+
+msgid "EYEWALKER PRIME"
+msgstr ""
+
+
+msgid "Still A\nBig Bully"
+msgstr ""
+
+
+msgid "Domineering\nEye Doctor"
+msgstr ""
+
+
+msgid "Domineering\nLeather Tailor"
+msgstr ""
+
+
+msgid "SILENCIO"
+msgstr ""
+
+
+msgid "Balgamlı Kedi & spacey_432"
+msgstr ""
+
+
+msgid "Still A\nShameless Coward"
+msgstr ""
+
+
+msgid "A Little Less Of\nA Coward"
+msgstr ""
+
+
+msgid "In Love With\nItself"
+msgstr ""
+
+
+msgid "MUSHKETEER"
+msgstr ""
+
+
+msgid "ScarletScaledDragon & Ghostly"
+msgstr ""
+
+
+msgid "One Mushroom\nArmy"
+msgstr ""
+
+
+msgid "Hardened Warrior\nSeeking Peace"
+msgstr ""
+
+
+msgid "Defeated By The\nPower Of Love"
+msgstr ""
+
+
+msgid "Scared\nStraight"
+msgstr ""
+
+
+msgid "PAPYRUS"
+msgstr ""
+
+
+msgid "ProctorDorkchop02 & MattSpriteMaster"
+msgstr ""
+
+
+msgid "SANS"
+msgstr ""
+
+
+msgid "ProctorDorkchop02 & Fired"
+msgstr ""
+
+
+msgid "UNDYNE"
+msgstr ""
+
+
+msgid "ALPHYS"
+msgstr ""
+
+
+msgid "MEW MEW"
+msgstr ""
+
+
+msgid "NAPSTABLOOK"
+msgstr ""
+
+
+msgid "METTATON"
+msgstr ""
+
+
+msgid "supper12 & MattSpriteMaster"
+msgstr ""
+
+
+msgid "TORIEL"
+msgstr ""
+
+
+msgid "ASGORE"
+msgstr ""
+
+
+msgid "MONSTER KID"
+msgstr ""
+
+
+msgid "ASRIEL"
+msgstr ""
+
+
+msgid "THE END"
+msgstr ""
+
+
+msgid "Thank you for playing Outertale."
+msgstr ""
+
+
+msgid "Working on this project has been an honor,"
+msgstr ""
+
+
+msgid "and a pleasure on my part."
+msgstr ""
+
+
+msgid "When I started this journey, I never"
+msgstr ""
+
+
+msgid "thought I'd get this far, but here we"
+msgstr ""
+
+
+msgid "are anyway, at the end."
+msgstr ""
+
+
+msgid "For me, UNDERTALE was a life-changing"
+msgstr ""
+
+
+msgid "experience, and one that was very hard to"
+msgstr ""
+
+
+msgid "let go of after I first played it."
+msgstr ""
+
+
+msgid "So, with OUTERTALE, I wanted to give you"
+msgstr ""
+
+
+msgid "another chance to exist in a world like it,"
+msgstr ""
+
+
+msgid "as if it were your first time."
+msgstr ""
+
+
+msgid "I hope I've given you that chance."
+msgstr ""
+
+
+msgid "I hope you've come away satisfied with"
+msgstr ""
+
+
+msgid "the time you've spent in this world."
+msgstr ""
+
+
+msgid "No matter what you've done in your life,"
+msgstr ""
+
+
+msgid "your actions here speak volumes about the"
+msgstr ""
+
+
+msgid "kind of person you really are."
+msgstr ""
+
+
+msgid "It's because of you that the monsters were"
+msgstr ""
+
+
+msgid "set free, and nothing can take that"
+msgstr ""
+
+
+msgid "experience away from you."
+msgstr ""
+
+
+msgid "Despite your mistakes... you are awesome,"
+msgstr ""
+
+
+msgid "and you deserve love and attention."
+msgstr ""
+
+
+msgid "Remember that, okay?"
+msgstr ""
+
+
+msgid "Take care of yourself, $(x)."
+msgstr ""
+
+
+msgid "Quitting"
+msgstr ""
+
+
+msgid "Quitting."
+msgstr ""
+
+
+msgid "Quitting.."
+msgstr ""
+
+
+msgid "Restarting"
+msgstr ""
+
+
+msgid "Restarting."
+msgstr ""
+
+
+msgid "Restarting.."
+msgstr ""
+
+
+msgid "GAMEPAD SETUP"
+msgstr ""
+
+
+msgid "Use an input on your gamepad to assign\nit to the in-game action.\n\nUse the input again to confirm, or use\nother inputs to assign those as well."
+msgstr ""
+
+
+msgid "Inputs Assigned: $(x)"
+msgstr ""
+
+
+msgid "[Z OR ENTER] - Confirm"
+msgstr ""
+
+
+msgid "[X OR SHIFT] - Cancel"
+msgstr ""
+
+
+msgid "[C OR CTRL] - Menu (In-game)"
+msgstr ""
+
+
+msgid "[UP or W] - Move Up"
+msgstr ""
+
+
+msgid "[LEFT or A] - Move Left"
+msgstr ""
+
+
+msgid "[DOWN or S] - Move Down"
+msgstr ""
+
+
+msgid "[RIGHT or D] - Move Right"
+msgstr ""
+
+
+msgid "[F4] - Fullscreen"
+msgstr ""
+
+
+msgid "Setup complete.\nPress any button to continue."
+msgstr ""
+
+
+msgid "\nNote: On the browser, the gamepad may\nnot always be able to enter fullscreen."
+msgstr ""
+
+
+msgid "A gamepad has already been set up.\nPress any button to continue, or press\nany button three times in rapid\nsuccession to restart setup."
+msgstr ""
+
+
+msgid "Asriel"
+msgstr ""
+
+
+msgid "The Oblivion"
+msgstr ""
+
+
+msgid "DISABLED"
+msgstr ""
+
+
+msgid "ENABLED"
+msgstr ""
+
+
+msgid "Press [X] to Finish"
+msgstr ""
+
+
+msgid "Frisk"
+msgstr ""
+
+
+msgid "G"
+msgstr ""
+
+
+msgid "HP"
+msgstr ""
+
+
+msgid "INF"
+msgstr ""
+
+
+msgid "[PRESS Z OR ENTER]"
+msgstr ""
+
+
+msgid "LV"
+msgstr ""
+
+
+msgid "§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§"
+msgstr ""
+
+
+msgid "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
+msgstr ""
+
+
+msgid "No"
+msgstr ""
+
+
+msgid "§fill:#0f0§NOMINAL"
+msgstr ""
+
+
+msgid "$(x)%"
+msgstr ""
+
+
+msgid "player"
+msgstr ""
+
+
+msgid "Settings"
+msgstr ""
+
+
+msgid "XM"
+msgstr ""
+
+
+msgid "Yes"
+msgstr ""
+
+
+msgid "INVENTORY"
+msgstr ""
+
+
+msgid "BOX"
+msgstr ""
+
+
+msgid "KEYRING"
+msgstr ""
+
+
+msgid "Is this name correct?"
+msgstr ""
+
+
+msgid "A name has already\nbeen chosen."
+msgstr ""
+
+
+msgid "Go back"
+msgstr ""
+
+
+msgid "You must choose a name."
+msgstr ""
+
+
+msgid "No?"
+msgstr ""
+
+
+msgid "Hm...?"
+msgstr ""
+
+
+msgid "Maybe?"
+msgstr ""
+
+
+msgid "Yes?"
+msgstr ""
+
+
+msgid "Take heart.\nThere is nothing to be afraid of here."
+msgstr ""
+
+
+msgid "A light-hearted spirit will serve you well on your journey."
+msgstr ""
+
+
+msgid "Take heart.\nYour frustrations are behind you now."
+msgstr ""
+
+
+msgid "Take heart.\nThe story is yours, no matter what you feel."
+msgstr ""
+
+
+msgid "May tranquility come upon you as you embark on your journey."
+msgstr ""
+
+
+msgid "Take heart.\nYour story is as interesting as you make it."
+msgstr ""
+
+
+msgid "May your quality of speech translate to action on your journey."
+msgstr ""
+
+
+msgid "A courageous heart will serve you well on your journey."
+msgstr ""
+
+
+msgid "A sense of serenity will do you wonders on your journey."
+msgstr ""
+
+
+msgid "May your ingenuity surpass the challenges on your journey."
+msgstr ""
+
+
+msgid "A confident mindset will take you far on your journey."
+msgstr ""
+
+
+msgid "May your inginuity surpass the challanges on your journey."
+msgstr ""
+
+
+msgid "May balance come upon you as you embark on your journey."
+msgstr ""
+
+
+msgid "Take heart.\nThere is much to be learned on the road ahead."
+msgstr ""
+
+
+msgid "May the tapestry of chaos and order satisfy you on your journey."
+msgstr ""
+
+
+msgid "May your story gain meaning in this cocoon amidst the darkness."
+msgstr ""
+
+
+msgid "May the experience be as playful as you desire."
+msgstr ""
+
+
+msgid "May the experience be as excessive as you desire."
+msgstr ""
+
+
+msgid "Take heart.\nYou have nothing to feel ashamed of now."
+msgstr ""
+
+
+msgid "A temperate ego will take you far on your journey."
+msgstr ""
+
+
+msgid "May the experience provide the sustenance you require."
+msgstr ""
+
+
+msgid "May your story bring forth the emotion you strive to feel."
+msgstr ""
+
+
+msgid "May your choices be as effortless as they come."
+msgstr ""
+
+
+msgid "Take heart.\nThere is much companionship to be had here."
+msgstr ""
+
+
+msgid "May your fortune carry you forward on your journey."
+msgstr ""
+
+
+msgid "May the tapestry of chaos and order please you on your journey."
+msgstr ""
+
+
+msgid "Take heart.\nYour story is as uplifting as you make it."
+msgstr ""
+
+
+msgid "May your stability provide a solid foundation on your journey."
+msgstr ""
+
+
+msgid "May the experience only add to your state of satisfaction."
+msgstr ""
+
+
+msgid "May the experience be as comforting as you desire."
+msgstr ""
+
+
+msgid "May the experience provide the energy you require."
+msgstr ""
+
+
+msgid "May your overflowing energy power you through your journey."
+msgstr ""
+
+
+msgid "I am honored by your choice."
+msgstr ""
+
+
+msgid "Let the experiment begin."
+msgstr ""
+
+
+msgid "The true name."
+msgstr ""
+
+
+msgid "This name is incorrect."
+msgstr ""
+
+
+msgid "............\n(They're powerless to stop you.)"
+msgstr ""
+
+
+msgid "............\n(It's not much for conversation.)"
+msgstr ""
+
+
+msgid "Saddle up!"
+msgstr ""
+
+
+msgid "Well... I suppose that works..."
+msgstr ""
+
+
+msgid "I think you should think of your own name, my child."
+msgstr ""
+
+
+msgid "Really..."
+msgstr ""
+
+
+msgid "Nice try, idiot."
+msgstr ""
+
+
+msgid "Don't you mean \"Eyewalker?\""
+msgstr ""
+
+
+msgid "Check out my antenna!"
+msgstr ""
+
+
+msgid "Guh huh huh, nice one."
+msgstr ""
+
+
+msgid "Huh? What's that smell?"
+msgstr ""
+
+
+msgid "It's m-moving! I-I-It's shaking!"
+msgstr ""
+
+
+msgid "Jerry."
+msgstr ""
+
+
+msgid "(The dog jumped into your lap.)"
+msgstr ""
+
+
+msgid "(Pant pant)"
+msgstr ""
+
+
+msgid "I'LL ALLOW IT!!!!"
+msgstr ""
+
+
+msgid "ok."
+msgstr ""
+
+
+msgid "nope."
+msgstr ""
+
+
+msgid "what?"
+msgstr ""
+
+
+msgid "A \"stellar\" choice."
+msgstr ""
+
+
+msgid "A pleasing nomenclature, no?"
+msgstr ""
+
+
+msgid "I am not amused."
+msgstr ""
+
+
+msgid "Roar."
+msgstr ""
+
+
+msgid "Wah ha ha! Why not?"
+msgstr ""
+
+
+msgid "What. What! WHAT!"
+msgstr ""
+
+
+msgid "That's my name!!"
+msgstr ""
+
+
+msgid "Ahuhuhu~\nYou must have great taste, dearie~"
+msgstr ""
+
+
+msgid "Hey!\nOnly Skrubby gets to call me that!"
+msgstr ""
+
+
+msgid "Sorry, but you're a letter shy."
+msgstr ""
+
+
+msgid "...?"
+msgstr ""
+
+
+msgid "Clean name."
+msgstr ""
+
+
+msgid "hOI!"
+msgstr ""
+
+
+msgid "Ngah, fine."
+msgstr ""
+
+
+msgid "Get your OWN name!"
+msgstr ""
+
+
+msgid "Uh.... OK?"
+msgstr ""
+
+
+msgid "D-don't do that."
+msgstr ""
+
+
+msgid "You are really scraping the bottom of the barrel."
+msgstr ""
+
+
+msgid "Like, OK I guess."
+msgstr ""
+
+
+msgid "Bratty! Bratty! That's MY name!"
+msgstr ""
+
+
+msgid "A fellow wizard?"
+msgstr ""
+
+
+msgid "Slick choice, homeslice."
+msgstr ""
+
+
+msgid "I don't think so, darling."
+msgstr ""
+
+
+msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
+msgstr ""
+
+
+msgid "Is this name correct? ;)"
+msgstr ""
+
+
+msgid "Hot, but not hot enough."
+msgstr ""
+
+
+msgid "You don't have to do that..."
+msgstr ""
+
+
+msgid "You KNEW!?"
+msgstr ""
+
+
+msgid "Respect my AUTHORITY!"
+msgstr ""
+
+
+msgid "Ahh! Thank you~"
+msgstr ""
+
+
+msgid "Thanks for, uh, using my name."
+msgstr ""
+
+
+msgid "You can?"
+msgstr ""
+
+
+msgid "You cannot."
+msgstr ""
+
+
+msgid "..."
+msgstr ""
+
+
+msgid "twinkl"
+msgstr ""
+
+
+msgid "twinky"
+msgstr ""
+
+
+msgid "twnkly"
+msgstr ""
+
+
+msgid "toriel"
+msgstr ""
+
+
+msgid "sans"
+msgstr ""
+
+
+msgid "undyne"
+msgstr ""
+
+
+msgid "alphys"
+msgstr ""
+
+
+msgid "asgore"
+msgstr ""
+
+
+msgid "asriel"
+msgstr ""
+
+
+msgid "frisk"
+msgstr ""
+
+
+msgid "OUTERTALE V5.00 (c) 2024 SPACEY_432"
+msgstr ""
+
+
+msgid "* (HP fully restored.)"
+msgstr ""
+
+
+msgid "* (You recovered $(x) HP.)"
+msgstr ""
+
+
+msgid "* (You lost $(x) HP.)"
+msgstr ""
+
+
+msgid "* (HP fully depleted.)"
+msgstr ""
+
+
+msgid "USE"
+msgstr ""
+
+
+msgid "EQUIP"
+msgstr ""
+
+
+msgid "INFO"
+msgstr ""
+
+
+msgid "DROP"
+msgstr ""
+
+
+msgid "Continue"
+msgstr ""
+
+
+msgid "Observe"
+msgstr ""
+
+
+msgid "Reset"
+msgstr ""
+
+
+msgid "True Reset"
+msgstr ""
+
+
+msgid "Name the stranded human."
+msgstr ""
+
+
+msgid "Quit"
+msgstr ""
+
+
+msgid "Backspace"
+msgstr ""
+
+
+msgid "Done"
+msgstr ""
+
+
+msgid "A"
+msgstr ""
+
+
+msgid "B"
+msgstr ""
+
+
+msgid "C"
+msgstr ""
+
+
+msgid "D"
+msgstr ""
+
+
+msgid "E"
+msgstr ""
+
+
+msgid "F"
+msgstr ""
+
+
+msgid "H"
+msgstr ""
+
+
+msgid "I"
+msgstr ""
+
+
+msgid "J"
+msgstr ""
+
+
+msgid "K"
+msgstr ""
+
+
+msgid "L"
+msgstr ""
+
+
+msgid "M"
+msgstr ""
+
+
+msgid "N"
+msgstr ""
+
+
+msgid "O"
+msgstr ""
+
+
+msgid "P"
+msgstr ""
+
+
+msgid "Q"
+msgstr ""
+
+
+msgid "R"
+msgstr ""
+
+
+msgid "S"
+msgstr ""
+
+
+msgid "T"
+msgstr ""
+
+
+msgid "U"
+msgstr ""
+
+
+msgid "V"
+msgstr ""
+
+
+msgid "W"
+msgstr ""
+
+
+msgid "X"
+msgstr ""
+
+
+msgid "Y"
+msgstr ""
+
+
+msgid "Z"
+msgstr ""
+
+
+msgid "a"
+msgstr ""
+
+
+msgid "b"
+msgstr ""
+
+
+msgid "c"
+msgstr ""
+
+
+msgid "d"
+msgstr ""
+
+
+msgid "e"
+msgstr ""
+
+
+msgid "f"
+msgstr ""
+
+
+msgid "g"
+msgstr ""
+
+
+msgid "h"
+msgstr ""
+
+
+msgid "i"
+msgstr ""
+
+
+msgid "j"
+msgstr ""
+
+
+msgid "k"
+msgstr ""
+
+
+msgid "l"
+msgstr ""
+
+
+msgid "m"
+msgstr ""
+
+
+msgid "n"
+msgstr ""
+
+
+msgid "o"
+msgstr ""
+
+
+msgid "p"
+msgstr ""
+
+
+msgid "q"
+msgstr ""
+
+
+msgid "r"
+msgstr ""
+
+
+msgid "s"
+msgstr ""
+
+
+msgid "t"
+msgstr ""
+
+
+msgid "u"
+msgstr ""
+
+
+msgid "v"
+msgstr ""
+
+
+msgid "w"
+msgstr ""
+
+
+msgid "x"
+msgstr ""
+
+
+msgid "y"
+msgstr ""
+
+
+msgid "z"
+msgstr ""
+
+
+msgid "Return"
+msgstr ""
+
+
+msgid "File saved."
+msgstr ""
+
+
+msgid "SETTINGS"
+msgstr ""
+
+
+msgid "EXIT"
+msgstr ""
+
+
+msgid "SOUND FX"
+msgstr ""
+
+
+msgid "MUSIC"
+msgstr ""
+
+
+msgid "FANCY GRAPHICS"
+msgstr ""
+
+
+msgid "FLASHING IMAGERY"
+msgstr ""
+
+
+msgid "NORMAL"
+msgstr ""
+
+
+msgid "REDUCED"
+msgstr ""
+
+
+msgid "ALIGN CONTROLS"
+msgstr ""
+
+
+msgid "LEFT"
+msgstr ""
+
+
+msgid "RIGHT"
+msgstr ""
+
+
+msgid "DEADZONE"
+msgstr ""
+
+
+msgid "OPEN MOD FOLDER"
+msgstr ""
+
+
+msgid "ITEM"
+msgstr ""
+
+
+msgid "STAT"
+msgstr ""
+
+
+msgid "CELL"
+msgstr ""
+
+
+msgid "CONF"
+msgstr ""
+
+
+msgid "--- Instruction ---"
+msgstr ""
+
+
+msgid "[Z or ENTER] - Confirm"
+msgstr ""
+
+
+msgid "[X or SHIFT] - Cancel"
+msgstr ""
+
+
+msgid "[C or CTRL] - Menu (In-game)"
+msgstr ""
+
+
+msgid "[Hold ESC] - Restart"
+msgstr ""
+
+
+msgid "When HP is 0, you lose."
+msgstr ""
+
+
+msgid "Begin Game"
+msgstr ""
+
+
+msgid "AT"
+msgstr ""
+
+
+msgid "DF"
+msgstr ""
+
+
+msgid "WEAPON"
+msgstr ""
+
+
+msgid "ARMOR"
+msgstr ""
+
+
+msgid "GOLD"
+msgstr ""
+
+
+msgid "EXP"
+msgstr ""
+
+
+msgid "NEXT"
+msgstr ""
+
+
+msgid "§fill:#ff0§Warning:\nSAVE file\ninvalid."
+msgstr ""
+
+
+msgid "KILLS"
+msgstr ""
+
+
+msgid "BULLY"
+msgstr ""
+
+
+msgid "FLIRT"
+msgstr ""
+
+
+msgid "STATUS"
+msgstr ""
+
+
+msgid "Long ago, {^3}two species ruled the solar system: {^5}HUMANS and MONSTERS."
+msgstr ""
+
+
+msgid "As time passed, {^3}a war broke out between the two species."
+msgstr ""
+
+
+msgid "After the MONSTERS' home planet was destroyed, {^3}HUMANS declared victory."
+msgstr ""
+
+
+msgid "The remaining MONSTERS were banished to an abandoned outpost."
+msgstr ""
+
+
+msgid "A powerful force field was erected, {^3}and the MONSTERS were sealed in."
+msgstr ""
+
+
+msgid "Many years later.{^8}.{^8}."
+msgstr ""
+
+
+msgid "µµµµ EBOTT SECTOR µµµµ µµµµµµµµ 251X{^20}{}"
+msgstr ""
+
+
+msgid "Tales speak of a place from which spacecraft never return.{^20}{}"
+msgstr ""
+
+
+msgid "{^100}{}"
+msgstr ""
+
+
+msgid "{^50}{}"
+msgstr ""
+
+
+msgid "Resume Canon Timeline"
+msgstr ""
+
+
+msgid "Other Slots"
+msgstr ""
+
+
+msgid "Bisect"
+msgstr ""
+
+
+msgid "Delete"
+msgstr ""
+
+
+msgid "[ESC] to Cancel / [ENTER] to Confirm"
+msgstr ""
+
+
+msgid "Press any button on your gamepad to open the keyboard."
+msgstr ""
+
+
+msgid "Launch"
+msgstr ""
+
+
+msgid "Rename"
+msgstr ""
+
+
+msgid "Create New"
+msgstr ""
+
+
+msgid "Enter Timeline Name"
+msgstr ""
+
+
+msgid "Are You Sure?"
+msgstr ""
+
+

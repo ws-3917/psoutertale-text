@@ -1,0 +1,276 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-30 04:31+0000\n"
+"PO-Revision-Date: 2024-05-30 04:31+0000\n"
+"Last-Translator: WS3917 <inf.3917.restart@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime-cn/developer/zh_Hans/>\n"
+"Language: zh-hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+msgid "ERROR"
+msgstr "错误"
+
+msgid "DISMISS"
+msgstr "忽略"
+
+msgid "Click To Dismiss"
+msgstr "点击此处忽略错误"
+
+msgid "An error occured! Please send\nscreenshot to developer."
+msgstr ""
+"程序出现错误！\n"
+"请将屏幕截图发给开发者。"
+
+msgid "CONTROL"
+msgstr "控制"
+
+msgid "GENERAL"
+msgstr "常规"
+
+msgid "BATTLE"
+msgstr "战斗中"
+
+msgid "FixMusic"
+msgstr "音乐初始化"
+
+msgid "FixPlayer"
+msgstr "角色初始化"
+
+msgid "InfiniteG"
+msgstr "无限金钱"
+
+msgid "Interact"
+msgstr "允许角色交互"
+
+msgid "Input"
+msgstr "允许游戏输入"
+
+msgid "Movement"
+msgstr "允许角色移动"
+
+msgid "Noclip"
+msgstr "无视墙体"
+
+msgid "Save"
+msgstr "快速存档"
+
+msgid "SkipText"
+msgstr "跳过文本"
+
+msgid "Freecam"
+msgstr "自由镜头"
+
+msgid "CanAssist"
+msgstr "允许外援"
+
+msgid "ClearBox"
+msgstr "清除弹幕"
+
+msgid "Exit"
+msgstr "退出战斗"
+
+msgid "ResetBox"
+msgstr "重置框体大小"
+
+msgid "ResetMenu"
+msgstr "重置菜单"
+
+msgid "CanFlee"
+msgstr "允许逃跑"
+
+msgid "InfiniteHP"
+msgstr "无限HP"
+
+msgid "PacifyAll"
+msgstr "安抚敌方全体"
+
+msgid "Suicide"
+msgstr "自杀"
+
+msgid "WeakenAll"
+msgstr "削弱敌方全体"
+
+msgid "$(x) FPS"
+msgstr "$(x)帧"
+
+msgid "Halt"
+msgstr "停止"
+
+msgid "GAME SPEED"
+msgstr "游戏倍速"
+
+msgid "$(x)x"
+msgstr "$(x)x"
+
+msgid "More"
+msgstr "加速"
+
+msgid "Less"
+msgstr "减速"
+
+msgid "$(x)s/frame"
+msgstr "每帧$(x)秒"
+
+msgid "GODHOME"
+msgstr "测试"
+
+msgid "ROOM"
+msgstr "房间"
+
+msgid "Teleport"
+msgstr "传送"
+
+msgid "ENCOUNTER"
+msgstr "遭遇战"
+
+msgid "Start"
+msgstr "开始"
+
+msgid "ARMOR"
+msgstr "防具"
+
+msgid "WEAPON"
+msgstr "武器"
+
+msgid "INSPECT"
+msgstr "检查"
+
+msgid "LAYERS"
+msgstr "图层"
+
+msgid "TYPES"
+msgstr "类型"
+
+msgid "Base"
+msgstr "基层"
+
+msgid "Below"
+msgstr "下层"
+
+msgid "Main"
+msgstr "主层"
+
+msgid "Above"
+msgstr "上层"
+
+msgid "Menu"
+msgstr "菜单层"
+
+msgid "Hitbox"
+msgstr "碰撞箱"
+
+msgid "Sprite"
+msgstr "贴图"
+
+msgid "Text"
+msgstr "文本"
+
+msgid "EXPLORER"
+msgstr "浏览"
+
+msgid "Base (Explorer)"
+msgstr "基层"
+
+msgid "Below (Explorer)"
+msgstr "下层"
+
+msgid "Main (Explorer)"
+msgstr "主层"
+
+msgid "Above (Explorer)"
+msgstr "上层"
+
+msgid "Menu (Explorer)"
+msgstr "菜单层"
+
+msgid "A"
+msgstr "A"
+
+msgid "C"
+msgstr "C"
+
+msgid "R"
+msgstr "R"
+
+msgid "E"
+msgstr "E"
+
+msgid "H"
+msgstr "H"
+
+msgid "O"
+msgstr "O"
+
+msgid "P"
+msgstr "P"
+
+msgid "S"
+msgstr "S"
+
+msgid "T"
+msgstr "T"
+
+msgid "SAVEMOD"
+msgstr "存档"
+
+msgid "SAVE EDITOR"
+msgstr "存档编辑器"
+
+msgid "Data (Booleans)"
+msgstr "数据 (布尔型)"
+
+msgid "Data (Numbers)"
+msgstr "数据 (数值型)"
+
+msgid "Data (Strings)"
+msgstr "数据 (字符串型)"
+
+msgid "Flags (Booleans)"
+msgstr "节点 (布尔型)"
+
+msgid "Flags (Numbers)"
+msgstr "节点 (数值型)"
+
+msgid "Flags (Strings)"
+msgstr "节点 (字符串型)"
+
+msgid "NAVIGATION"
+msgstr "浏览"
+
+msgid "Prev"
+msgstr "上一页"
+
+msgid "Next"
+msgstr "下一页"
+
+msgid "Enter Value"
+msgstr "输入数值"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "STORAGE"
+msgstr "物品"
+
+msgid "STORAGE EDITOR"
+msgstr "物品库存编辑器"
+
+msgid "SELECTION"
+msgstr "选择容器"
+
+msgid "Inventory"
+msgstr "物品栏"
+
+msgid "Dim. Box A"
+msgstr "次元箱 A"
+
+msgid "Dim. Box B"
+msgstr "次元箱 B"

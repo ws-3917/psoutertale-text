@@ -1,0 +1,263 @@
+#
+msgid ""
+msgstr ""
+
+msgid "ERROR"
+msgstr ""
+
+msgid "DISMISS"
+msgstr ""
+
+msgid "Click To Dismiss"
+msgstr ""
+
+msgid ""
+"An error occured! Please send\n"
+"screenshot to developer."
+msgstr ""
+
+msgid "CONTROL"
+msgstr ""
+
+msgid "GENERAL"
+msgstr ""
+
+msgid "BATTLE"
+msgstr ""
+
+msgid "FixMusic"
+msgstr ""
+
+msgid "FixPlayer"
+msgstr ""
+
+msgid "InfiniteG"
+msgstr ""
+
+msgid "Interact"
+msgstr ""
+
+msgid "Input"
+msgstr ""
+
+msgid "Movement"
+msgstr ""
+
+msgid "Noclip"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "SkipText"
+msgstr ""
+
+msgid "Freecam"
+msgstr ""
+
+msgid "CanAssist"
+msgstr ""
+
+msgid "ClearBox"
+msgstr ""
+
+msgid "Exit"
+msgstr ""
+
+msgid "ResetBox"
+msgstr ""
+
+msgid "ResetMenu"
+msgstr ""
+
+msgid "CanFlee"
+msgstr ""
+
+msgid "InfiniteHP"
+msgstr ""
+
+msgid "PacifyAll"
+msgstr ""
+
+msgid "Suicide"
+msgstr ""
+
+msgid "WeakenAll"
+msgstr ""
+
+msgid "$(x) FPS"
+msgstr ""
+
+msgid "Halt"
+msgstr ""
+
+msgid "GAME SPEED"
+msgstr ""
+
+msgid "$(x)x"
+msgstr ""
+
+msgid "More"
+msgstr ""
+
+msgid "Less"
+msgstr ""
+
+msgid "$(x)s/frame"
+msgstr ""
+
+msgid "GODHOME"
+msgstr ""
+
+msgid "ROOM"
+msgstr ""
+
+msgid "Teleport"
+msgstr ""
+
+msgid "ENCOUNTER"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "ARMOR"
+msgstr ""
+
+msgid "WEAPON"
+msgstr ""
+
+msgid "INSPECT"
+msgstr ""
+
+msgid "LAYERS"
+msgstr ""
+
+msgid "TYPES"
+msgstr ""
+
+msgid "Base"
+msgstr ""
+
+msgid "Below"
+msgstr ""
+
+msgid "Main"
+msgstr ""
+
+msgid "Above"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "Hitbox"
+msgstr ""
+
+msgid "Sprite"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "EXPLORER"
+msgstr ""
+
+msgid "Base (Explorer)"
+msgstr ""
+
+msgid "Below (Explorer)"
+msgstr ""
+
+msgid "Main (Explorer)"
+msgstr ""
+
+msgid "Above (Explorer)"
+msgstr ""
+
+msgid "Menu (Explorer)"
+msgstr ""
+
+msgid "A"
+msgstr ""
+
+msgid "C"
+msgstr ""
+
+msgid "R"
+msgstr ""
+
+msgid "E"
+msgstr ""
+
+msgid "H"
+msgstr ""
+
+msgid "O"
+msgstr ""
+
+msgid "P"
+msgstr ""
+
+msgid "S"
+msgstr ""
+
+msgid "T"
+msgstr ""
+
+msgid "SAVEMOD"
+msgstr ""
+
+msgid "SAVE EDITOR"
+msgstr ""
+
+msgid "Data (Booleans)"
+msgstr ""
+
+msgid "Data (Numbers)"
+msgstr ""
+
+msgid "Data (Strings)"
+msgstr ""
+
+msgid "Flags (Booleans)"
+msgstr ""
+
+msgid "Flags (Numbers)"
+msgstr ""
+
+msgid "Flags (Strings)"
+msgstr ""
+
+msgid "NAVIGATION"
+msgstr ""
+
+msgid "Prev"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Enter Value"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "STORAGE"
+msgstr ""
+
+msgid "STORAGE EDITOR"
+msgstr ""
+
+msgid "SELECTION"
+msgstr ""
+
+msgid "Inventory"
+msgstr ""
+
+msgid "Dim. Box A"
+msgstr ""
+
+msgid "Dim. Box B"
+msgstr ""
