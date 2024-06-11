@@ -2,102 +2,102 @@
 
 const text = {
    battle: {
-      death0: ["{#p/human}（你深吸了一口氣。）", "（你充滿了決心。）"],
-      death1: ["現在還不能放棄...", "$(name)！\n保持你的決心..."],
-      death2: ["我們的命運都\n寄託於你...", "$(name)！\n保持你的決心..."],
-      death3: ["你會沒事的！", "$(name)！\n保持你的決心..."],
-      death4: ["別失去希望！", "$(name)！\n保持你的決心..."],
-      death5: ["現在還不能結束！", "$(name)！\n保持你的決心..."],
+      death0: ["{#p/human}(You take a deep breath.)", "(You're filled with determination.)"],
+      death1: ["You cannot give up just yet...", "$(name)!\nStay determined..."],
+      death2: ["Our fate rests upon you...", "$(name)!\nStay determined..."],
+      death3: ["You're going to be alright!", "$(name)!\nStay determined..."],
+      death4: ["Don't lose hope!", "$(name)!\nStay determined..."],
+      death5: ["It cannot end now!", "$(name)!\nStay determined..."],
 
-      flee1: "   * 先走一步...",
-      flee2: "   * 我先撤了。",
-      flee3: "   * 我還有別的事要做。",
-      flee4: "   * 別拖我後腿。",
-      flee5: "   * 你逃跑了，\n     你獲得了$(x) EXP和$(y)G。",
+      flee1: "    * Escaped...",
+      flee2: "    * I'm outta here.",
+      flee3: "    * I've got better to do.",
+      flee4: "    * Don't slow me down.",
+      flee5: "    * Ran away with $(x) EXP\n      and $(y)G.",
 
-      mercy_assist: "* 外援",
-      mercy_flee: "* 逃跑",
-      mercy_spare: "* 饒恕",
+      mercy_assist: "* Assist",
+      mercy_flee: "* Flee",
+      mercy_spare: "* Spare",
 
-      victory1: "<32>{#p/story}* 你勝利了！\n* 你獲得了$(x) EXP和$(y)G。",
-      victory2: "<32>{#p/story}* 你勝利了！\n* 你獲得了$(x) EXP和$(y)G。\n* 你的LOVE增加了。"
+      victory1: "<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.",
+      victory2: "<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.\n* Your LOVE increased."
    },
 
    developer: {
       console: {
-         header: "錯誤",
+         header: "ERROR",
          p_resume: {
-            header: "忽略",
-            resume: "點擊此處忽略錯誤"
+            header: "DISMISS",
+            resume: "Click To Dismiss"
          },
-         blurb: "程式出現錯誤！\n請將屏幕截圖發給開發者。"
+         blurb: "An error occured! Please send\nscreenshot to developer."
       },
       control: {
-         tab: "控制",
-         headers: ["常規", "戰鬥中"],
+         tab: "CONTROL",
+         headers: ["GENERAL", "BATTLE"],
          items: [
             [
-               "音樂初始化",
-               "角色初始化",
-               "無限金錢",
-               "允許角色互動",
-               "允許遊戲輸入",
-               "允許角色移動",
-               "無視牆體",
-               "快速存檔",
-               "跳過文本",
-               "自由鏡頭"
+               "FixMusic",
+               "FixPlayer",
+               "InfiniteG",
+               "Interact",
+               "Input",
+               "Movement",
+               "Noclip",
+               "Save",
+               "SkipText",
+               "Freecam"
             ],
             [
-               "允許外援",
-               "清除彈幕",
-               "退出戰鬥",
-               "重置框體大小",
-               "重置選單",
-               "允許逃跑",
-               "無限HP",
-               "安撫敵方全體",
-               "自殺",
-               "削弱敵方全體"
+               "CanAssist",
+               "ClearBox",
+               "Exit",
+               "ResetBox",
+               "ResetMenu",
+               "CanFlee",
+               "InfiniteHP",
+               "PacifyAll",
+               "Suicide",
+               "WeakenAll"
             ]
          ],
          p_speed: {
-            fps: "$(x)幀",
-            halt: "停止",
-            header: "遊戲倍速",
+            fps: "$(x) FPS",
+            halt: "Halt",
+            header: "GAME SPEED",
             multiplier: "$(x)x",
-            next: "加速",
-            prev: "減速",
-            sec: "每幀$(x)秒"
+            next: "More",
+            prev: "Less",
+            sec: "$(x)s/frame"
          }
       },
       godhome: {
-         tab: "測試",
+         tab: "GODHOME",
          p_teleport: {
-            header: "房間",
-            action: "傳送"
+            header: "ROOM",
+            action: "Teleport"
          },
          p_encounter: {
-            header: "遭遇戰",
-            action: "開始"
+            header: "ENCOUNTER",
+            action: "Start"
          },
          p_armor: {
-            header: "防具"
+            header: "ARMOR"
          },
          p_weapon: {
-            header: "武器"
+            header: "WEAPON"
          }
       },
       inspect: {
-         tab: "查看",
-         headers: ["圖層", "類型"],
+         tab: "INSPECT",
+         headers: ["LAYERS", "TYPES"],
          switches: [
-            ["基層", "下層", "主層", "上層", "選單層"],
-            ["碰撞箱", "貼圖", "文本"]
+            ["Base", "Below", "Main", "Above", "Menu"],
+            ["Hitbox", "Sprite", "Text"]
          ],
          p_explorer: {
-            header: "瀏覽",
-            layers: ["基層", "下層", "主層", "上層", "選單層"],
+            header: "EXPLORER",
+            layers: ["Base (Explorer)", "Below (Explorer)", "Main (Explorer)", "Above (Explorer)", "Menu (Explorer)"],
             letters: {
                animation: "A",
                character: "C",
@@ -110,135 +110,135 @@ const text = {
                text: "T"
             }
          },
-         debug_instructions: "按[TAB]鍵瀏覽調試信息",
+         debug_instructions: "Press [TAB] to cycle debug info",
          debug: {
             a: "A", 
             acceleration: "Acceleration",
-            active: "動態",
+            active: "Active",
             alpha: "Alpha",
             anchor: "Anchor",
             b: "B", 
             blend: "Blend",
             border: "Border",
-            charset: "字符集",
-            compute: "實際尺寸",
+            charset: "Charset",
+            compute: "Computed Size",
             content: "Content",
             crop: "Crop",
-            down: "下",
+            down: "Down",
             duration: "Duration",
             exp: "EXP",
             extent: "Extent",
             f: "F", 
-            face: "面部朝向",
-            false: "否",
-            fill: "填充顏色",
-            fontName: "字體名稱",
-            fontSize: "字體大小",
+            face: "Face",
+            false: "False",
+            fill: "Fill",
+            fontName: "Font Name",
+            fontSize: "Font Size",
             frames: "Frames",
             gravity: "Gravity",
-            group: "戰鬥組",
+            group: "Group",
             hp: "HP",
             index: "Index",
             inert: "Inert",
-            key: "名稱",
-            lastSavedTime: "上次存檔時間",
-            layer: "圖層編號",
+            key: "Key",
+            lastSavedTime: "Last Saved Time",
+            layer: "Layer",
             layers: "Layers",
-            left: "左",
-            metadata: "數據說明",
-            music: "音樂",
-            namespace: "命名空間",
+            left: "Left",
+            metadata: "Metadata",
+            music: "Music",
+            namespace: "Namespace",
             none1: "NONE",
             none2: "none",
-            objects: "對象數",
+            objects: "Objects",
             oversaver: "Oversaver",
             parallax: "Parallax",
-            position: "位置座標",
+            position: "Position",
             primed: "Primed",
             priority: "Priority",
-            registry: "存檔變量",
+            registry: "REGISTRY",
             renderer: "Renderer",
-            resources: "已使用資源",
+            resources: "Resources",
             reverse: "Reverse",
-            right: "右",
-            room: "房間",
-            roomState: "房間狀態",
+            right: "Right",
+            room: "Room",
+            roomState: "Room State",
             rotation: "Rotation",
             s: "S", 
-            scale: "縮放",
-            shopSelection: "當前選項（商店選單）",
-            size: "設定尺寸",
+            scale: "Scale",
+            shopSelection: "Shop Selection",
+            size: "Size",
             spacing: "Spacing",
             spin: "Spin",
             sprites: "Sprites",
             step: "Step",
             stroke: "Stroke",
             subcrop: "Subcrop",
-            talk: "正在說話",
+            talk: "Talk",
             target: "Target",
-            text: "文本",
+            text: "Text",
             tint: "Tint",
-            trackedAssets: "正在使用的資源",
-            true: "是",
+            trackedAssets: "Tracked Assets",
+            true: "True",
             unknown: "UNKNOWN",
-            up: "上",
-            vars: "變量",
+            up: "Up",
+            vars: "Vars",
             velocity: "Velocity",
             volatile: "Volatile"
          }
       },
       savemod: {
-         tab: "存檔",
-         header1: "存檔編輯器",
+         tab: "SAVEMOD",
+         header1: "SAVE EDITOR",
          domains: [
-            "數據 (布爾型)",
-            "數據 (數值型)",
-            "數據 (字符串型)",
-            "節點 (布爾型)",
-            "節點 (數值型)",
-            "節點 (字符串型)"
+            "Data (Booleans)",
+            "Data (Numbers)",
+            "Data (Strings)",
+            "Flags (Booleans)",
+            "Flags (Numbers)",
+            "Flags (Strings)"
          ],
          p_page: {
-            header: "瀏覽",
-            prev: "上一頁",
-            next: "下一頁"
+            header: "NAVIGATION",
+            prev: "Prev",
+            next: "Next"
          },
-         prompt: "輸入數值",
-         back: "返回"
+         prompt: "Enter Value",
+         back: "Back"
       },
       storage: {
-         tab: "物品",
-         header: "物品庫存編輯器",
-         p_container: { header: "選擇容器", prev: "上一頁", next: "下一頁" },
-         display: { inventory: "物品欄", dimboxA: "次元箱 A", dimboxB: "次元箱 B" }
+         tab: "STORAGE",
+         header: "STORAGE EDITOR",
+         p_container: { header: "SELECTION", prev: "Prev", next: "Next" },
+         display: { inventory: "Inventory", dimboxA: "Dim. Box A", dimboxB: "Dim. Box B" }
       }
    },
 
    dialog: {
-      dialog_clear_title: "刪除存檔",
-      dialog_error_title: "錯誤",
-      dialog_notice_title: "提示",
-      dialog_open: { buttonLabel: "打開", name: "存檔檔案", title: "打開存檔" },
-      dialog_save: { buttonLabel: "保存", name: "存檔檔案", title: "保存存檔" },
-      error_access: "存檔檔案無效：“$(x)”",
-      error_load: "無法解析存檔。",
-      error_mod: "模組“$(x)”無法加載。",
-      message_alert: ["確定"],
-      message_confirm: ["取消", "確定"],
-      prompt_clear: "刪除這個存檔嗎？",
-      prompt_demo: "已將您的OUTERTALE demo存檔\n移動到其他時間軸槽位中。",
-      prompt_save: "將存檔保存到其他位置嗎？",
-      prompt_save_alternate: "將下列文本\n複製到JSON檔案，\n並保存到設備中。",
-      prompt_open: "讀取這個存檔嗎？"
+      dialog_clear_title: "Clear File",
+      dialog_error_title: "Error",
+      dialog_notice_title: "Notice",
+      dialog_open: { buttonLabel: "Open", name: "SAVE files", title: "Open File" },
+      dialog_save: { buttonLabel: "Save", name: "SAVE files", title: "Save File" },
+      error_access: "Invalid SAVE file access \"$(x)\"",
+      error_load: "That file could not be parsed.",
+      error_mod: "The mod \"$(x)\" could not be loaded.",
+      message_alert: ["OK"],
+      message_confirm: ["Cancel", "OK"],
+      prompt_clear: "Clear this file?",
+      prompt_demo: "Your SAVE file from the\nOUTERTALE demo has been\nmoved to a timeline slot.",
+      prompt_save: "Save this file?",
+      prompt_save_alternate: "Copy the text below into\na JSON file to save it\nto your device.",
+      prompt_open: "Load this file?"
    },
 
    extra: {
       credits: [
          [
-            "§fill:#ff0§< 遊戲開發者 >§fill:#fff§",
+            "§fill:#ff0§< DEVELOPER >§fill:#fff§",
             "spacey_432",
             "",
-            "§fill:#ff0§< 文本編寫 >§fill:#fff§",
+            "§fill:#ff0§< WRITER >§fill:#fff§",
             "Balgamlı Kedi",
             "Bilge \"mnwary\"",
             "Efe Kaya",
@@ -251,11 +251,11 @@ const text = {
             "Zaxento The Greedy"
          ],
          [
-            "§fill:#ff0§< 技術助理 >§fill:#fff§",
+            "§fill:#ff0§< TECHNICIAN >§fill:#fff§",
             "Codetoil",
             "ws3917",
             "",
-            "§fill:#ff0§< 測試人員 >§fill:#fff§",
+            "§fill:#ff0§< BETA TESTER >§fill:#fff§",
             "Alden",
             "Aspey",
             "Balgamlı Kedi",
@@ -267,7 +267,7 @@ const text = {
             "Discarded Vessel"
          ],
          [
-            "§fill:#ff0§< 測試人員 >§fill:#fff§",
+            "§fill:#ff0§< BETA TESTER >§fill:#fff§",
             "Dischnie",
             "Dubituar",
             "Efe Kaya",
@@ -283,7 +283,7 @@ const text = {
             "Green Tea"
          ],
          [
-            "§fill:#ff0§< 測試人員 >§fill:#fff§",
+            "§fill:#ff0§< BETA TESTER >§fill:#fff§",
             "Huggies!",
             "ilovecookies",
             "InvincibleRacoon",
@@ -299,7 +299,7 @@ const text = {
             "Nanorasmus"
          ],
          [
-            "§fill:#ff0§< 測試人員 >§fill:#fff§",
+            "§fill:#ff0§< BETA TESTER >§fill:#fff§",
             "neo9174",
             "NerNot1",
             "petar3644",
@@ -315,7 +315,7 @@ const text = {
             "Shaun Duz Stuffs"
          ],
          [
-            "§fill:#ff0§< 測試人員 >§fill:#fff§",
+            "§fill:#ff0§< BETA TESTER >§fill:#fff§",
             "SHCyank",
             "sonicisawesome222",
             "Soup Taels",
@@ -331,7 +331,7 @@ const text = {
             "Zaxento The Greedy"
          ],
          [
-            "§fill:#ff0§< 美工 >§fill:#fff§",
+            "§fill:#ff0§< ARTIST >§fill:#fff§",
             "Balgamlı Kedi",
             "Burge",
             "Deskius",
@@ -347,7 +347,7 @@ const text = {
             "NerNot1"
          ],
          [
-            "§fill:#ff0§< 美工 >§fill:#fff§",
+            "§fill:#ff0§< ARTIST >§fill:#fff§",
             "PhyreFM",
             "Pongy25",
             "PoTheWinterCorder",
@@ -361,86 +361,40 @@ const text = {
             "Zaxento The Greedy"
          ],
          [
-            "§fill:#ff0§< 特別鳴謝 >§fill:#fff§",
+            "§fill:#ff0§< SPECIAL THANKS >§fill:#fff§",
             "My Cocoa",
-            "§fill:#808080§你是我認識的最暖心的人，\n是第一個支持我夢想的人。\n在你的激勵下，\n我才能完成這款遊戲。§fill:#fff§"
+            "§fill:#808080§For being one of the friendliest\npeople I know, the first person\nto believe in my vision, and\ninspiring me to finish the game.§fill:#fff§"
          ],
          [
-            "§fill:#ff0§< 特別鳴謝 >§fill:#fff§",
+            "§fill:#ff0§< SPECIAL THANKS >§fill:#fff§",
             "Alden",
-            "§fill:#808080§感謝你在我需要支持時陪伴我，\n教會我許多做人做事的道理，\n讓我變得更好。§fill:#fff§"
+            "§fill:#808080§For being there for me when I\nneed someone to lean on, and\nteaching me life lessons that\nhave made me a better person.§fill:#fff§"
          ],
          [
-            "§fill:#ff0§< 特別鳴謝 >§fill:#fff§",
+            "§fill:#ff0§< SPECIAL THANKS >§fill:#fff§",
             "Ghostly",
-            "§fill:#808080§感謝你在遊戲的許多方面\n給出了很棒的建議，\n鼓勵我認真對待測試工作。§fill:#fff§"
+            "§fill:#808080§For being a voice of reason when\nit comes to many aspects of the\ngame, and encouraging me to take\ntesting seriously.§fill:#fff§"
          ],
          [
-            "§fill:#ff0§< 特別鳴謝 >§fill:#fff§",
+            "§fill:#ff0§< SPECIAL THANKS >§fill:#fff§",
             "Balgamlı Kedi",
-            "§fill:#808080§感謝你從遊戲開發之初\n就一直陪伴我。\n不管什麼時候，你總會在\n我最需要幫助的時候支持我。§fill:#fff§"
+            "§fill:#808080§For sticking with me at every\nstage of development, right from\nthe start. Regardless of the era,\nhe's always been there to help.§fill:#fff§"
          ],
          [
-            "§fill:#ff0§< 特別鳴謝 >§fill:#fff§",
+            "§fill:#ff0§< SPECIAL THANKS >§fill:#fff§",
             "Zaxento The Greedy",
-            "§fill:#808080§感謝你直言不諱，\n給予我大量批評和建議。\n從認識的那天起\n你就非常值得信賴。§fill:#fff§"
+            "§fill:#808080§For being reliable, brutally\nhonest, giving me lots of\ncriticism and ideas, and being\ntrustworthy from the day we met.§fill:#fff§"
          ],
          [
-            "§fill:#ff0§< 特別鳴謝 >§fill:#fff§",
+            "§fill:#ff0§< SPECIAL THANKS >§fill:#fff§",
             "ThatGuyWhoLikesFood",
-            "§fill:#808080§感謝你幫助我完成了\n遊戲的幾個關鍵部分，\n並始終支持我的夢想。§fill:#fff§"
-         
-        ],
-         [
-            "§fill:#ff0§< 漢化組成員 >§fill:#fff§",
-            "",
-            "§fill:#ff7§【組長】§fill:#fff§",
-            "ws3917",
-            "§fill:#ff7§【程式】§fill:#fff§",
-            "ws3917",
-            "",
-            "§fill:#ff7§【文翻】§fill:#fff§",
-            "ws3917",
-            "Murder--Sans_MDR",
-            "1個渣渣",
-            "§fill:#ff7§【文校】§fill:#fff§",
-            "ws3917",
-            "曉曉_Akatsuki"
-        ],
-        [
-            "§fill:#ff0§< 漢化組成員 >§fill:#fff§",
-            "",
-            "§fill:#ff7§【美術】§fill:#fff§",
-            "曉曉_Akatsuki",
-            "屑moons月亮君",
-            "彳卸雲鬼_",
-            "mustad（邊框Mod）",
-            "",
-            "§fill:#ff7§【精神支持&推廣】§fill:#fff§",
-            "幻-_-風",
-            "Murder--Sans_MDR",
-            "AX暗星233",
-            "屑moons月亮君"
-        ],
-        [
-            "§fill:#ff0§< 漢化組成員 >§fill:#fff§",
-            "",
-            "§fill:#ff7§【漢化測試】§fill:#fff§",
-            "ws3917",
-            "Murder--Sans_MDR",
-            "雪理奈",
-            "（以及其他漢化組成員）",
-            "",
-            "感謝漢化組成員的努力付出！",
-            "同時，也感謝您對這款遊戲的喜愛！",
-            "",
-            "§fill:#808080§P.S. 漢化組正在為遊戲製作各種Mod！\n歡迎B站關注@ws3917\n瞭解最新Mod開發進度！§fill:#fff§"
-        ],
-["特別鳴謝 由 §fill:#ff0§Mavis與朋友們§fill:#fff§ 提供"]
+            "§fill:#808080§For helping me write several\ncrucial parts of the game, and\nbeing as supportive as\npossible with my vision.§fill:#fff§"
+         ],
+         ["Brought to you by §fill:#ff0§The Mavis & Co.§fill:#fff§"]
       ],
 
       final_frontier: {
-         header: "(( 演員表 ))",
+         header: "(( CAST ))",
          opponents: {
             froggit: {
                name: "FROGGIT",
@@ -839,12 +793,12 @@ const text = {
                author: "MattSpriteMaster"
             }
          },
-         end: "劇終"
+         end: "THE END"
       },
 
-      quitText1: "正在退出",
-      quitText2: "正在退出.",
-      quitText3: "正在退出..",
+      quitText1: "Quitting",
+      quitText2: "Quitting.",
+      quitText3: "Quitting..",
 
       real1: [
          [
@@ -881,166 +835,166 @@ const text = {
          ["Despite your mistakes... you are awesome,", "and you deserve love and attention.", "Remember that, okay?"]
       ],
       real2: "Take care of yourself, \"$(x).\"",
-      real3: "劇終",
+      real3: "THE END",
 
-      restartText1: "正在重啟",
-      restartText2: "正在重啟.",
-      restartText3: "正在重啟..",
+      restartText1: "Restarting",
+      restartText2: "Restarting.",
+      restartText3: "Restarting..",
 
       title: "OUTERTALE (BETA V23)"
    },
 
    gamepad: {
-      prompt: "手柄設定",
+      prompt: "GAMEPAD SETUP",
       prompt_desc:
-         "從遊戲手柄上選擇一個按鍵\n用來控制遊戲中的某個操作。\n\n按下相同的按鍵進行確認，\n或按下其他按鍵重新設定。\n\n按[ESC]跳過設定。",
-      prompt_counter: "輸入分配到：$(x)",
-      z: "[Z 或 ENTER] - 確認/互動",
-      x: "[X 或 SHIFT] - 取消",
-      c: "[C 或 CTRL] - 選單（遊戲內）",
-      u: "[↑ 或 W] - 上移",
-      l: "[← 或 A] - 左移",
-      d: "[↓ 或 S] - 下移",
-      r: "[→ 或 D] - 右移",
-      f: "[F4] - 全螢幕",
-      prompt_done: "設定完成。\n按任意鍵繼續。",
-      prompt_done_browser: "\n注意：在本平臺運行遊戲時，\n使用遊戲手柄可能無法全螢幕遊玩。",
+         "Use an input on your gamepad to assign\nit to the in-game action.\n\nUse the input again to confirm, or use\nother inputs to assign those as well.\n\nPress ESC to skip setup.",
+      prompt_counter: "Inputs Assigned: $(x)",
+      z: "[Z OR ENTER] - Confirm",
+      x: "[X OR SHIFT] - Cancel",
+      c: "[C OR CTRL] - Menu (In-game)",
+      u: "[UP or W] - Move Up",
+      l: "[LEFT or A] - Move Left",
+      d: "[DOWN or S] - Move Down",
+      r: "[RIGHT or D] - Move Right",
+      f: "[F4] - Fullscreen",
+      prompt_done: "Setup complete.\nPress any button to continue.",
+      prompt_done_browser: "\nNote: On this platform, the gamepad may\nnot always be able to enter fullscreen.",
       prompt_load:
-         "遊戲手柄設定完成，\n按任意鍵繼續。\n或者連按某個鍵三次\n重新設定手柄。"
+         "A gamepad has already been set up.\nPress any button to continue, or press\nany button three times in rapid\nsuccession to restart setup.\n\nPress ESC to skip setup."
    },
 
    general: {
       asriel: "Asriel",
       asriel_location: "The Oblivion",
-      disabled: "關閉",
-      enabled: "開啟",
-      finish: "按 [X] 返回",
+      disabled: "DISABLED",
+      enabled: "ENABLED",
+      finish: "Press [X] to Finish",
       g: "G",
       hp: "HP",
       inf: "INF",
-      landing1: "[按下 Z 或 ENTER]",
+      landing1: "[PRESS Z OR ENTER]",
       lv: "LV",
       mystery1: "§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§",
       mystery2: "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}",
       mystery2l: "{@mystify:abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}",
       mystery2u: "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify:}",
-      no: "否",
-      nominal: "§fill:#0f0§正常",
+      no: "No",
+      nominal: "§fill:#0f0§NOMINAL",
       percent: "$(x)%",
-      player: "玩家",
-      settings: "遊戲設定",
+      player: "player",
+      settings: "Settings",
       unknown: "?",
       xm: "XM",
-      yes: "是"
+      yes: "Yes"
    },
 
    menu: {
-      box1: "物品欄",
-      box2: "箱子",
-      key1: "鑰匙串",
+      box1: "INVENTORY",
+      box2: "BOX",
+      key1: "KEYRING",
 
-      confirm1: "確定要選擇這個名字嗎？",
-      confirm2: "已經選定了一個名字。",
-      confirm3: "返回",
+      confirm1: "Is this name correct?",
+      confirm2: "A name has already\nbeen chosen.",
+      confirm3: "Go back",
 
-      footer: "OUTERTALE V5.00 (c) 2024 SPACEY_432 繁體中文版 PSOT漢化組",
+      footer: "OUTERTALE V5.00 (c) 2024 SPACEY_432",
 
-      heal1: "* （HP已回滿。）",
-      heal2: "* （你回覆了$(x) HP。）",
-      heal3: "* （你失去了$(x) HP。）",
-      heal4: "* （HP已清零。）",
+      heal1: "* (HP fully restored.)",
+      heal2: "* (You recovered $(x) HP.)",
+      heal3: "* (You lost $(x) HP.)",
+      heal4: "* (HP fully depleted.)",
 
-      item1: "使用",
-      item2: "裝備",
-      item3: "信息",
-      item4: "丟棄",
+      item1: "USE",
+      item2: "EQUIP",
+      item3: "INFO",
+      item4: "DROP",
 
-      load1: "繼續",
-      load2: "旁觀",
-      load3: "重置",
-      load4: "真正的重置",
+      load1: "Continue",
+      load2: "Observe",
+      load3: "Reset",
+      load4: "True Reset",
 
-      name1: "為受困的人類命名：",
-      name2: "返回",
-      name3: "刪除",
-      name4: "確定",
-      name5: "§fill:#808080§鍵盤輸入，支持中文。\n\n[ENTER] - 確定\n[BACKSPACE] - 刪除\n[ESC] - 返回",
+      name1: "Name the stranded human.",
+      name2: "Quit",
+      name3: "Backspace",
+      name4: "Done",
+      name5: "§fill:#808080§ [ESC] - Quit / [ENTER] - Done",
 
-      save1: "保存",
-      save2: "返回",
-      save3: "進度已保存！",
+      save1: "Save",
+      save2: "Return",
+      save3: "File saved.",
 
-      settings1: "遊戲設定",
-      settings2: "返回",
-      settings3: "語言",
-      settings3a: "繁體中文",
-      settings4: "音效",
-      settings5: "音樂",
-      settings6: "精緻圖像",
-      settings7: "閃爍畫面",
-      settings7a: "默認",
-      settings7b: "削減",
-      settings8: "控制按鈕位置",
-      settings8a: "左",
-      settings8b: "右",
-      settings9: "搖桿死區",
-      settings10: "打開模組目錄",
+      settings1: "SETTINGS",
+      settings2: "EXIT",
+      settings3: "LANGUAGE",
+      settings3a: "ENGLISH",
+      settings4: "SOUND FX",
+      settings5: "MUSIC",
+      settings6: "FANCY GRAPHICS",
+      settings7: "FLASHING IMAGERY",
+      settings7a: "NORMAL",
+      settings7b: "REDUCED",
+      settings8: "ALIGN CONTROLS",
+      settings8a: "LEFT",
+      settings8b: "RIGHT",
+      settings9: "DEADZONE",
+      settings10: "OPEN MOD FOLDER",
 
-      sidebar1: "雜物",
-      sidebar2: "狀況",
-      sidebar3: "手機",
-      sidebar4: "設定",
+      sidebar1: "ITEM",
+      sidebar2: "STAT",
+      sidebar3: "CELL",
+      sidebar4: "CONF",
       sidebar5: "S",
 
       start1: [
-         "---- 操作介紹 ----",
-         "[Z 或 ENTER] - 確認/互動",
-         "[X 或 SHIFT] - 取消",
-         "[C 或 CTRL] - 選單（遊戲內）",
-         "[F4] - 全螢幕",
-         "[長按 ESC] - 重啟",
-         "當 HP 降至 0，你就輸了。"
+         "--- Instruction ---",
+         "[Z or ENTER] - Confirm",
+         "[X or SHIFT] - Cancel",
+         "[C or CTRL] - Menu (In-game)",
+         "[F4] - Fullscreen",
+         "[Hold ESC] - Restart",
+         "When HP is 0, you lose."
       ],
-      start2: "開始遊戲",
+      start2: "Begin Game",
 
-      stat1: "攻擊",
-      stat2: "防禦",
-      stat3: "武器",
-      stat4: "防具",
-      stat5: "金錢",
+      stat1: "AT",
+      stat2: "DF",
+      stat3: "WEAPON",
+      stat4: "ARMOR",
+      stat5: "GOLD",
       stat6: "EXP",
-      stat7: "下級",
-      stat8: "§fill:#ff0§警告：\n不是\n主時間軸。",
-      stat9: "擊殺",
-      stat10: "傷害",
-      stat11: "調情",
-      stat12: "狀態",
+      stat7: "NEXT",
+      stat8: "§fill:#ff0§Warning:\nNon-canon\ntimeline.",
+      stat9: "KILLS",
+      stat10: "BULLY",
+      stat11: "FLIRT",
+      stat12: "STATUS",
 
-      story1: ["{#i/x2}很久很久以前，{^3}太陽系中：{^5}\n人類與怪物兩大智慧種族{^1}\n統治其間。"],
-      story2: ["{#i/x2}隨著時間的步步推演，{^3}\n兩者間的緊張局勢{^1}\n終升級為一場星際戰爭。"],
-      story3: ["{#i/x2}戰火紛飛之際，{^3}\n最終以怪物族的母星\n遭受重創、崩潰告終，{^3}\n人類宣佈獲取勝利。"],
-      story4: ["{#i/x2}並將戰敗的怪物族群{^1}\n遷徙至一座{^1}\n荒廢的邊境前哨站。"],
-      story5: ["{#i/x2}隨即興建起{^3}\n一道強度非凡的力場。{^3}\n將其牢牢封鎖於內。"],
-      story6: ["{#i/x2}歷經\n漫長時日的沉寂.{^8}.{^8}."],
-      story7: ["µµµµµµ EBOTT區域 µµµµ\nµµµµµµµµ 251X{^20}{}"],
-      story8: ["{#i/x2}據古老傳說所述，{^3}\n在浩瀚宇宙的某個幽渺之境，{^1}\n存在著一艘艘航{^1}\n一去不復返的飛船。{^20}{}"],
+      story1: ["Long ago, {^3}two species ruled the solar system: {^5}HUMANS and MONSTERS."],
+      story2: ["As time passed, {^3}a war broke out between the two species."],
+      story3: ["After the MONSTERS' home planet was destroyed, {^3}HUMANS declared victory."],
+      story4: ["The remaining MONSTERS were banished to an abandoned outpost."],
+      story5: ["A powerful force field was erected, {^3}and the MONSTERS were sealed in."],
+      story6: ["Many years later.{^8}.{^8}."],
+      story7: ["µµµµ EBOTT SECTOR µµµµ µµµµµµµµ 251X{^20}{}"],
+      story8: ["Tales speak of a place from which spacecraft never return.{^20}{}"],
       story9: ["{^100}{}"],
       story10: ["{^100}{}"],
       story11: ["{^50}{}"]
    },
 
    timeline: {
-      main: "重返主時間軸",
-      timelines: "其它時間軸的位置",
-      bisect: "切分",
-      delete: "刪除",
-      instruction: "[ESC] 取消 / [ENTER] 確定",
-      instruction_gamepad: "按手柄上任意按鈕打開鍵盤。",
-      launch: "啟動",
-      rename: "重命名",
-      create: "新建",
-      placeholder: "輸入時間軸名稱",
-      confirm: "確定刪除嗎？"
+      main: "Resume Canon Timeline",
+      timelines: "Other Slots",
+      bisect: "Bisect",
+      delete: "Delete",
+      instruction: "[ESC] to Cancel / [ENTER] to Confirm",
+      instruction_gamepad: "Press any button on your gamepad to open the keyboard.",
+      launch: "Launch",
+      rename: "Rename",
+      create: "Create New",
+      placeholder: "Enter Timeline Name",
+      confirm: "Are You Sure?"
    }
 };
 
