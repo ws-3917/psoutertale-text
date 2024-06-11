@@ -3,279 +3,292 @@ msgid ""
 msgstr ""
 
 msgid "{#p/human}(You take a deep breath.)"
-msgstr ""
+msgstr "{#p/human}（你深吸了一口氣。）"
 
 msgid "(You're filled with determination.)"
-msgstr ""
+msgstr "（你充滿了決心。）"
 
 msgid "You cannot give up just yet..."
-msgstr ""
+msgstr "現在還不能放棄..."
 
 msgid ""
 "$(name)!\n"
 "Stay determined..."
 msgstr ""
+"$(name)！\n"
+"保持你的決心..."
 
 msgid "Our fate rests upon you..."
 msgstr ""
+"我們的命運都\n"
+"寄託於你..."
 
 msgid "You're going to be alright!"
-msgstr ""
+msgstr "你會沒事的！"
 
 msgid "Don't lose hope!"
-msgstr ""
+msgstr "別失去希望！"
 
 msgid "It cannot end now!"
-msgstr ""
+msgstr "現在還不能結束！"
 
 msgid "    * Escaped..."
-msgstr ""
+msgstr "   * 先走一步..."
 
 msgid "    * I'm outta here."
-msgstr ""
+msgstr "   * 我先撤了。"
 
 msgid "    * I've got better to do."
-msgstr ""
+msgstr "   * 我還有別的事要做。"
 
 msgid "    * Don't slow me down."
-msgstr ""
+msgstr "   * 別拖我後腿。"
 
 msgid ""
 "    * Ran away with $(x) EXP\n"
 "      and $(y)G."
 msgstr ""
+"   * 你逃跑了，\n"
+"     你獲得了$(x) EXP和$(y)G。"
 
 msgid "* Assist"
-msgstr ""
+msgstr "* 外援"
 
 msgid "* Flee"
-msgstr ""
+msgstr "* 逃跑"
 
 msgid "* Spare"
-msgstr ""
+msgstr "* 饒恕"
 
 msgid ""
 "<32>{#p/story}* YOU WON!\n"
 "* You earned $(x) EXP and $(y)G."
 msgstr ""
+"<32>{#p/story}* 你勝利了！\n"
+"* 你獲得了$(x) EXP和$(y)G。"
 
 msgid ""
 "<32>{#p/story}* YOU WON!\n"
 "* You earned $(x) EXP and $(y)G.\n"
 "* Your LOVE increased."
 msgstr ""
+"<32>{#p/story}* 你勝利了！\n"
+"* 你獲得了$(x) EXP和$(y)G。\n"
+"* 你的LOVE增加了。"
 
 msgid "ERROR"
-msgstr ""
+msgstr "錯誤"
 
 msgid "DISMISS"
-msgstr ""
+msgstr "忽略"
 
 msgid "Click To Dismiss"
-msgstr ""
+msgstr "點擊此處忽略錯誤"
 
 msgid ""
 "An error occured! Please send\n"
 "screenshot to developer."
 msgstr ""
+"程式出現錯誤！\n"
+"請將屏幕截圖發給開發者。"
 
 msgid "CONTROL"
-msgstr ""
+msgstr "控制"
 
 msgid "GENERAL"
-msgstr ""
+msgstr "常規"
 
 msgid "BATTLE"
-msgstr ""
+msgstr "戰鬥中"
 
 msgid "FixMusic"
-msgstr ""
+msgstr "音樂初始化"
 
 msgid "FixPlayer"
-msgstr ""
+msgstr "角色初始化"
 
 msgid "InfiniteG"
-msgstr ""
+msgstr "無限金錢"
 
 msgid "Interact"
-msgstr ""
+msgstr "允許角色互動"
 
 msgid "Input"
-msgstr ""
+msgstr "允許遊戲輸入"
 
 msgid "Movement"
-msgstr ""
+msgstr "允許角色移動"
 
 msgid "Noclip"
-msgstr ""
+msgstr "無視牆體"
 
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 msgid "SkipText"
-msgstr ""
+msgstr "跳過文本"
 
 msgid "Freecam"
-msgstr ""
+msgstr "自由鏡頭"
 
 msgid "CanAssist"
-msgstr ""
+msgstr "允許外援"
 
 msgid "ClearBox"
-msgstr ""
+msgstr "清除彈幕"
 
 msgid "Exit"
-msgstr ""
+msgstr "退出戰鬥"
 
 msgid "ResetBox"
-msgstr ""
+msgstr "重置框體大小"
 
 msgid "ResetMenu"
-msgstr ""
+msgstr "重置選單"
 
 msgid "CanFlee"
-msgstr ""
+msgstr "允許逃跑"
 
 msgid "InfiniteHP"
-msgstr ""
+msgstr "無限HP"
 
 msgid "PacifyAll"
-msgstr ""
+msgstr "安撫敵方全體"
 
 msgid "Suicide"
-msgstr ""
+msgstr "自殺"
 
 msgid "WeakenAll"
-msgstr ""
+msgstr "削弱敵方全體"
 
 msgid "$(x) FPS"
-msgstr ""
+msgstr "$(x)幀"
 
 msgid "Halt"
-msgstr ""
+msgstr "停止"
 
 msgid "GAME SPEED"
-msgstr ""
+msgstr "遊戲倍速"
 
 msgid "$(x)x"
-msgstr ""
+msgstr "$(x)x"
 
 msgid "More"
-msgstr ""
+msgstr "加速"
 
 msgid "Less"
-msgstr ""
+msgstr "減速"
 
 msgid "$(x)s/frame"
-msgstr ""
+msgstr "每幀$(x)秒"
 
 msgid "GODHOME"
-msgstr ""
+msgstr "測試"
 
 msgid "ROOM"
-msgstr ""
+msgstr "房間"
 
 msgid "Teleport"
-msgstr ""
+msgstr "傳送"
 
 msgid "ENCOUNTER"
-msgstr ""
+msgstr "遭遇戰"
 
 msgid "Start"
-msgstr ""
+msgstr "開始"
 
 msgid "ARMOR"
-msgstr ""
+msgstr "防具"
 
 msgid "WEAPON"
-msgstr ""
+msgstr "武器"
 
 msgid "INSPECT"
-msgstr ""
+msgstr "查看"
 
 msgid "LAYERS"
-msgstr ""
+msgstr "圖層"
 
 msgid "TYPES"
-msgstr ""
+msgstr "類型"
 
 msgid "Base"
-msgstr ""
+msgstr "基層"
 
 msgid "Below"
-msgstr ""
+msgstr "下層"
 
 msgid "Main"
-msgstr ""
+msgstr "主層"
 
 msgid "Above"
-msgstr ""
+msgstr "上層"
 
 msgid "Menu"
-msgstr ""
+msgstr "選單層"
 
 msgid "Hitbox"
-msgstr ""
+msgstr "碰撞箱"
 
 msgid "Sprite"
-msgstr ""
+msgstr "貼圖"
 
 msgid "Text"
-msgstr ""
+msgstr "文本"
 
 msgid "EXPLORER"
-msgstr ""
+msgstr "瀏覽"
 
 msgid "Base (Explorer)"
-msgstr ""
+msgstr "基層"
 
 msgid "Below (Explorer)"
-msgstr ""
+msgstr "下層"
 
 msgid "Main (Explorer)"
-msgstr ""
+msgstr "主層"
 
 msgid "Above (Explorer)"
-msgstr ""
+msgstr "上層"
 
 msgid "Menu (Explorer)"
-msgstr ""
+msgstr "選單層"
 
 msgid "A"
-msgstr ""
+msgstr "A"
 
 msgid "C"
-msgstr ""
+msgstr "C"
 
 msgid "R"
-msgstr ""
+msgstr "R"
 
 msgid "E"
-msgstr ""
+msgstr "E"
 
 msgid "H"
-msgstr ""
+msgstr "H"
 
 msgid "O"
-msgstr ""
+msgstr "O"
 
 msgid "P"
-msgstr ""
+msgstr "P"
 
 msgid "S"
-msgstr ""
+msgstr "S"
 
 msgid "T"
-msgstr ""
+msgstr "T"
 
 msgid "Press [TAB] to cycle debug info"
-msgstr ""
+msgstr "按[TAB]鍵瀏覽調試信息"
 
 msgid "Acceleration"
 msgstr ""
 
 msgid "Active"
-msgstr ""
+msgstr "動態"
 
 msgid "Alpha"
 msgstr ""
@@ -293,10 +306,10 @@ msgid "Border"
 msgstr ""
 
 msgid "Charset"
-msgstr ""
+msgstr "字符集"
 
 msgid "Computed Size"
-msgstr ""
+msgstr "實際尺寸"
 
 msgid "Content"
 msgstr ""
@@ -305,13 +318,13 @@ msgid "Crop"
 msgstr ""
 
 msgid "Down"
-msgstr ""
+msgstr "下"
 
 msgid "Duration"
 msgstr ""
 
 msgid "EXP"
-msgstr ""
+msgstr "EXP"
 
 msgid "Extent"
 msgstr ""
@@ -320,19 +333,19 @@ msgid "F"
 msgstr ""
 
 msgid "Face"
-msgstr ""
+msgstr "面部朝向"
 
 msgid "False"
-msgstr ""
+msgstr "否"
 
 msgid "Fill"
-msgstr ""
+msgstr "填充顏色"
 
 msgid "Font Name"
-msgstr ""
+msgstr "字體名稱"
 
 msgid "Font Size"
-msgstr ""
+msgstr "字體大小"
 
 msgid "Frames"
 msgstr ""
@@ -341,10 +354,10 @@ msgid "Gravity"
 msgstr ""
 
 msgid "Group"
-msgstr ""
+msgstr "戰鬥組"
 
 msgid "HP"
-msgstr ""
+msgstr "HP"
 
 msgid "Index"
 msgstr ""
@@ -353,28 +366,28 @@ msgid "Inert"
 msgstr ""
 
 msgid "Key"
-msgstr ""
+msgstr "名稱"
 
 msgid "Last Saved Time"
-msgstr ""
+msgstr "上次存檔時間"
 
 msgid "Layer"
-msgstr ""
+msgstr "圖層編號"
 
 msgid "Layers"
 msgstr ""
 
 msgid "Left"
-msgstr ""
+msgstr "左"
 
 msgid "Metadata"
-msgstr ""
+msgstr "數據說明"
 
 msgid "Music"
-msgstr ""
+msgstr "音樂"
 
 msgid "Namespace"
-msgstr ""
+msgstr "命名空間"
 
 msgid "NONE"
 msgstr ""
@@ -383,7 +396,7 @@ msgid "none"
 msgstr ""
 
 msgid "Objects"
-msgstr ""
+msgstr "對象數"
 
 msgid "Oversaver"
 msgstr ""
@@ -392,7 +405,7 @@ msgid "Parallax"
 msgstr ""
 
 msgid "Position"
-msgstr ""
+msgstr "位置座標"
 
 msgid "Primed"
 msgstr ""
@@ -401,37 +414,37 @@ msgid "Priority"
 msgstr ""
 
 msgid "REGISTRY"
-msgstr ""
+msgstr "存檔變量"
 
 msgid "Renderer"
 msgstr ""
 
 msgid "Resources"
-msgstr ""
+msgstr "已使用資源"
 
 msgid "Reverse"
 msgstr ""
 
 msgid "Right"
-msgstr ""
+msgstr "右"
 
 msgid "Room"
-msgstr ""
+msgstr "房間"
 
 msgid "Room State"
-msgstr ""
+msgstr "房間狀態"
 
 msgid "Rotation"
 msgstr ""
 
 msgid "Scale"
-msgstr ""
+msgstr "縮放"
 
 msgid "Shop Selection"
-msgstr ""
+msgstr "當前選項（商店選單）"
 
 msgid "Size"
-msgstr ""
+msgstr "設定尺寸"
 
 msgid "Spacing"
 msgstr ""
@@ -452,7 +465,7 @@ msgid "Subcrop"
 msgstr ""
 
 msgid "Talk"
-msgstr ""
+msgstr "正在說話"
 
 msgid "Target"
 msgstr ""
@@ -461,19 +474,19 @@ msgid "Tint"
 msgstr ""
 
 msgid "Tracked Assets"
-msgstr ""
+msgstr "正在使用的資源"
 
 msgid "True"
-msgstr ""
+msgstr "是"
 
 msgid "UNKNOWN"
 msgstr ""
 
 msgid "Up"
-msgstr ""
+msgstr "上"
 
 msgid "Vars"
-msgstr ""
+msgstr "變量"
 
 msgid "Velocity"
 msgstr ""
@@ -482,370 +495,375 @@ msgid "Volatile"
 msgstr ""
 
 msgid "SAVEMOD"
-msgstr ""
+msgstr "存檔"
 
 msgid "SAVE EDITOR"
-msgstr ""
+msgstr "存檔編輯器"
 
 msgid "Data (Booleans)"
-msgstr ""
+msgstr "數據 (布爾型)"
 
 msgid "Data (Numbers)"
-msgstr ""
+msgstr "數據 (數值型)"
 
 msgid "Data (Strings)"
-msgstr ""
+msgstr "數據 (字符串型)"
 
 msgid "Flags (Booleans)"
-msgstr ""
+msgstr "節點 (布爾型)"
 
 msgid "Flags (Numbers)"
-msgstr ""
+msgstr "節點 (數值型)"
 
 msgid "Flags (Strings)"
-msgstr ""
+msgstr "節點 (字符串型)"
 
 msgid "NAVIGATION"
-msgstr ""
+msgstr "瀏覽"
 
 msgid "Prev"
-msgstr ""
+msgstr "上一頁"
 
 msgid "Next"
-msgstr ""
+msgstr "下一頁"
 
 msgid "Enter Value"
-msgstr ""
+msgstr "輸入數值"
 
 msgid "Back"
-msgstr ""
+msgstr "返回"
 
 msgid "STORAGE"
-msgstr ""
+msgstr "物品"
 
 msgid "STORAGE EDITOR"
-msgstr ""
+msgstr "物品庫存編輯器"
 
 msgid "SELECTION"
-msgstr ""
+msgstr "選擇容器"
 
 msgid "Inventory"
-msgstr ""
+msgstr "物品欄"
 
 msgid "Dim. Box A"
-msgstr ""
+msgstr "次元箱 A"
 
 msgid "Dim. Box B"
-msgstr ""
+msgstr "次元箱 B"
 
 msgid "Clear File"
-msgstr ""
+msgstr "刪除存檔"
 
 msgid "Error"
-msgstr ""
+msgstr "錯誤"
 
 msgid "Notice"
-msgstr ""
+msgstr "提示"
 
 msgid "Open"
-msgstr ""
+msgstr "打開"
 
 msgid "SAVE files"
-msgstr ""
+msgstr "存檔檔案"
 
 msgid "Open File"
-msgstr ""
+msgstr "打開存檔"
 
 msgid "Save File"
-msgstr ""
+msgstr "保存存檔"
 
 msgid "Invalid SAVE file access \"$(x)\""
-msgstr ""
+msgstr "存檔檔案無效：“$(x)”"
 
 msgid "That file could not be parsed."
-msgstr ""
+msgstr "無法解析存檔。"
 
 msgid "The mod \"$(x)\" could not be loaded."
-msgstr ""
+msgstr "模組“$(x)”無法加載。"
 
 msgid "OK"
-msgstr ""
+msgstr "確定"
 
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 msgid "Clear this file?"
-msgstr ""
+msgstr "刪除這個存檔嗎？"
 
 msgid ""
 "Your SAVE file from the\n"
 "OUTERTALE demo has been\n"
 "moved to a timeline slot."
 msgstr ""
+"已將您的OUTERTALE demo存檔\n"
+"移動到其他時間軸槽位中。"
 
 msgid "Save this file?"
-msgstr ""
+msgstr "將存檔保存到其他位置嗎？"
 
 msgid ""
 "Copy the text below into\n"
 "a JSON file to save it\n"
 "to your device."
 msgstr ""
+"將下列文本\n"
+"複製到JSON檔案，\n"
+"並保存到設備中。"
 
 msgid "Load this file?"
-msgstr ""
+msgstr "讀取這個存檔嗎？"
 
 msgid "§fill:#ff0§< DEVELOPER >§fill:#fff§"
-msgstr ""
+msgstr "§fill:#ff0§< 遊戲開發者 >§fill:#fff§"
 
 msgid "spacey_432"
-msgstr ""
+msgstr "spacey_432"
 
 msgid "§fill:#ff0§< WRITER >§fill:#fff§"
-msgstr ""
+msgstr "§fill:#ff0§< 文本編寫 >§fill:#fff§"
 
 msgid "Balgamlı Kedi"
-msgstr ""
+msgstr "Balgamlı Kedi"
 
 msgid "Bilge \"mnwary\""
-msgstr ""
+msgstr "Bilge \"mnwary\""
 
 msgid "Efe Kaya"
-msgstr ""
+msgstr "Efe Kaya"
 
 msgid "Ghostly"
-msgstr ""
+msgstr "Ghostly"
 
 msgid "My Cocoa"
-msgstr ""
+msgstr "My Cocoa"
 
 msgid "neo9174"
-msgstr ""
+msgstr "neo9174"
 
 msgid "Rise"
-msgstr ""
+msgstr "Rise"
 
 msgid "ThatGuyWhoLikesFood"
-msgstr ""
+msgstr "ThatGuyWhoLikesFood"
 
 msgid "Turbulation"
-msgstr ""
+msgstr "Turbulation"
 
 msgid "Zaxento The Greedy"
-msgstr ""
+msgstr "Zaxento The Greedy"
 
 msgid "§fill:#ff0§< TECHNICIAN >§fill:#fff§"
-msgstr ""
+msgstr "§fill:#ff0§< 技術助理 >§fill:#fff§"
 
 msgid "Codetoil"
-msgstr ""
+msgstr "Codetoil"
 
 msgid "ws3917"
-msgstr ""
+msgstr "ws3917"
 
 msgid "§fill:#ff0§< BETA TESTER >§fill:#fff§"
-msgstr ""
+msgstr "§fill:#ff0§< 測試人員 >§fill:#fff§"
 
 msgid "Alden"
-msgstr ""
+msgstr "Alden"
 
 msgid "Aspey"
-msgstr ""
+msgstr "Aspey"
 
 msgid "blue"
-msgstr ""
+msgstr "blue"
 
 msgid "brayjamin"
-msgstr ""
+msgstr "brayjamin"
 
 msgid "ClamsyMoe"
-msgstr ""
+msgstr "ClamsyMoe"
 
 msgid "delta"
-msgstr ""
+msgstr "delta"
 
 msgid "Discarded Vessel"
-msgstr ""
+msgstr "Discarded Vessel"
 
 msgid "Dischnie"
-msgstr ""
+msgstr "Dischnie"
 
 msgid "Dubituar"
-msgstr ""
+msgstr "Dubituar"
 
 msgid "Emurry"
-msgstr ""
+msgstr "Emurry"
 
 msgid "EvanGamesGoodman"
-msgstr ""
+msgstr "EvanGamesGoodman"
 
 msgid "Fired"
-msgstr ""
+msgstr "Fired"
 
 msgid "FireWizard72X"
-msgstr ""
+msgstr "FireWizard72X"
 
 msgid "FuLiNT"
-msgstr ""
+msgstr "FuLiNT"
 
 msgid "Funtermore"
-msgstr ""
+msgstr "Funtermore"
 
 msgid "gardnaeden"
-msgstr ""
+msgstr "gardnaeden"
 
 msgid "Gon UT"
-msgstr ""
+msgstr "Gon UT"
 
 msgid "Green Tea"
-msgstr ""
+msgstr "Green Tea"
 
 msgid "Huggies!"
-msgstr ""
+msgstr "Huggies!"
 
 msgid "ilovecookies"
-msgstr ""
+msgstr "ilovecookies"
 
 msgid "InvincibleRacoon"
-msgstr ""
+msgstr "InvincibleRacoon"
 
 msgid "Jago128"
-msgstr ""
+msgstr "Jago128"
 
 msgid "Joe98912"
-msgstr ""
+msgstr "Joe98912"
 
 msgid "Jojoton56"
-msgstr ""
+msgstr "Jojoton56"
 
 msgid "Kiwi \"Quinn\""
-msgstr ""
+msgstr "Kiwi \"Quinn\""
 
 msgid "lil tanski"
-msgstr ""
+msgstr "lil tanski"
 
 msgid "MR. PETER"
-msgstr ""
+msgstr "MR. PETER"
 
 msgid "MSBen"
-msgstr ""
+msgstr "MSBen"
 
 msgid "Murder--Sans_MDR"
-msgstr ""
+msgstr "Murder--Sans_MDR"
 
 msgid "Nanorasmus"
-msgstr ""
+msgstr "Nanorasmus"
 
 msgid "NerNot1"
-msgstr ""
+msgstr "NerNot1"
 
 msgid "petar3644"
-msgstr ""
+msgstr "petar3644"
 
 msgid "PixelToons Jaafar"
-msgstr ""
+msgstr "PixelToons Jaafar"
 
 msgid "Prezmop"
-msgstr ""
+msgstr "Prezmop"
 
 msgid "prymus-agd"
-msgstr ""
+msgstr "prymus-agd"
 
 msgid "Quin"
-msgstr ""
+msgstr "Quin"
 
 msgid "RadicalRic"
-msgstr ""
+msgstr "RadicalRic"
 
 msgid "Raelynn"
-msgstr ""
+msgstr "Raelynn"
 
 msgid "retr22800"
-msgstr ""
+msgstr "retr22800"
 
 msgid "semi"
-msgstr ""
+msgstr "semi"
 
 msgid "Shaun Duz Stuffs"
-msgstr ""
+msgstr "Shaun Duz Stuffs"
 
 msgid "SHCyank"
-msgstr ""
+msgstr "SHCyank"
 
 msgid "sonicisawesome222"
-msgstr ""
+msgstr "sonicisawesome222"
 
 msgid "Soup Taels"
-msgstr ""
+msgstr "Soup Taels"
 
 msgid "spaceknife234"
-msgstr ""
+msgstr "spaceknife234"
 
 msgid "SquigglyWiggley"
-msgstr ""
+msgstr "SquigglyWiggley"
 
 msgid "superkippy"
-msgstr ""
+msgstr "superkippy"
 
 msgid "Teecup"
-msgstr ""
+msgstr "Teecup"
 
 msgid "Tenbrooks"
-msgstr ""
+msgstr "Tenbrooks"
 
 msgid "Wild Pasta"
-msgstr ""
+msgstr "Wild Pasta"
 
 msgid "xNoodlePlayz"
-msgstr ""
+msgstr "xNoodlePlayz"
 
 msgid "§fill:#ff0§< ARTIST >§fill:#fff§"
-msgstr ""
+msgstr "§fill:#ff0§< 美工 >§fill:#fff§"
 
 msgid "Burge"
-msgstr ""
+msgstr "Burge"
 
 msgid "Deskius"
-msgstr ""
+msgstr "Deskius"
 
 msgid "DESM.al"
-msgstr ""
+msgstr "DESM.al"
 
 msgid "HolyOranges"
-msgstr ""
+msgstr "HolyOranges"
 
 msgid "major_memestar"
-msgstr ""
+msgstr "major_memestar"
 
 msgid "MattSpriteMaster"
-msgstr ""
+msgstr "MattSpriteMaster"
 
 msgid "PhyreFM"
-msgstr ""
+msgstr "PhyreFM"
 
 msgid "Pongy25"
-msgstr ""
+msgstr "Pongy25"
 
 msgid "PoTheWinterCorder"
-msgstr ""
+msgstr "PoTheWinterCorder"
 
 msgid "ProctorDorkchop02"
-msgstr ""
+msgstr "ProctorDorkchop02"
 
 msgid "ScarletScaledDragon"
-msgstr ""
+msgstr "ScarletScaledDragon"
 
 msgid "Starkiteckt"
-msgstr ""
+msgstr "Starkiteckt"
 
 msgid "supper12"
-msgstr ""
+msgstr "supper12"
 
 msgid "Valor52"
-msgstr ""
+msgstr "Valor52"
 
 msgid "§fill:#ff0§< SPECIAL THANKS >§fill:#fff§"
-msgstr ""
+msgstr "§fill:#ff0§< 特別鳴謝 >§fill:#fff§"
 
 msgid ""
 "§fill:#808080§For being one of the friendliest\n"
@@ -853,6 +871,10 @@ msgid ""
 "to believe in my vision, and\n"
 "inspiring me to finish the game.§fill:#fff§"
 msgstr ""
+"§fill:#808080§你是我認識的最暖心的人，\n"
+"是第一個支持我夢想的人。\n"
+"在你的激勵下，\n"
+"我才能完成這款遊戲。§fill:#fff§"
 
 msgid ""
 "§fill:#808080§For being there for me when I\n"
@@ -860,6 +882,9 @@ msgid ""
 "teaching me life lessons that\n"
 "have made me a better person.§fill:#fff§"
 msgstr ""
+"§fill:#808080§感謝你在我需要支持時陪伴我，\n"
+"教會我許多做人做事的道理，\n"
+"讓我變得更好。§fill:#fff§"
 
 msgid ""
 "§fill:#808080§For being a voice of reason when\n"
@@ -867,6 +892,9 @@ msgid ""
 "game, and encouraging me to take\n"
 "testing seriously.§fill:#fff§"
 msgstr ""
+"§fill:#808080§感謝你在遊戲的許多方面\n"
+"給出了很棒的建議，\n"
+"鼓勵我認真對待測試工作。§fill:#fff§"
 
 msgid ""
 "§fill:#808080§For sticking with me at every\n"
@@ -874,6 +902,10 @@ msgid ""
 "the start. Regardless of the era,\n"
 "he's always been there to help.§fill:#fff§"
 msgstr ""
+"§fill:#808080§感謝你從遊戲開發之初\n"
+"就一直陪伴我。\n"
+"不管什麼時候，你總會在\n"
+"我最需要幫助的時候支持我。§fill:#fff§"
 
 msgid ""
 "§fill:#808080§For being reliable, brutally\n"
@@ -881,6 +913,10 @@ msgid ""
 "criticism and ideas, and being\n"
 "trustworthy from the day we met.§fill:#fff§"
 msgstr ""
+"§fill:#808080§感謝你直言不諱，\n"
+"給予我大量批評和建議。\n"
+"從認識的那天起\n"
+"你就非常值得信賴。§fill:#fff§"
 
 msgid ""
 "§fill:#808080§For helping me write several\n"
@@ -888,15 +924,18 @@ msgid ""
 "being as supportive as\n"
 "possible with my vision.§fill:#fff§"
 msgstr ""
+"§fill:#808080§感謝你幫助我完成了\n"
+"遊戲的幾個關鍵部分，\n"
+"並始終支持我的夢想。§fill:#fff§"
 
 msgid "Brought to you by §fill:#ff0§The Mavis & Co.§fill:#fff§"
-msgstr ""
+msgstr "特別鳴謝 由 §fill:#ff0§Mavis與朋友們§fill:#fff§ 提供"
 
 msgid "(( CAST ))"
-msgstr ""
+msgstr "(( 演員表 ))"
 
 msgid "FROGGIT"
-msgstr ""
+msgstr "FROGGIT"
 
 msgid ""
 "Pondering\n"
@@ -919,7 +958,7 @@ msgid ""
 msgstr ""
 
 msgid "FLUTTERLYTE"
-msgstr ""
+msgstr "FLUTTERLYTE"
 
 msgid ""
 "Learning To\n"
@@ -942,10 +981,10 @@ msgid ""
 msgstr ""
 
 msgid "GELATINI"
-msgstr ""
+msgstr "GELATINI"
 
 msgid "Toby Fox"
-msgstr ""
+msgstr "Toby Fox"
 
 msgid ""
 "Found A New\n"
@@ -968,7 +1007,7 @@ msgid ""
 msgstr ""
 
 msgid "OCULOUX"
-msgstr ""
+msgstr "OCULOUX"
 
 msgid ""
 "Slightly\n"
@@ -986,7 +1025,7 @@ msgid ""
 msgstr ""
 
 msgid "SILENTE"
-msgstr ""
+msgstr "SILENTE"
 
 msgid ""
 "Exceedingly\n"
@@ -1009,7 +1048,7 @@ msgid ""
 msgstr ""
 
 msgid "MUSHY"
-msgstr ""
+msgstr "MUSHY"
 
 msgid "Balgamlı Kedi & ScarletScaledDragon"
 msgstr ""
@@ -1035,7 +1074,7 @@ msgid ""
 msgstr ""
 
 msgid "?"
-msgstr ""
+msgstr "?"
 
 msgid ""
 "Keeping To\n"
@@ -1071,7 +1110,7 @@ msgid ""
 msgstr ""
 
 msgid "CHILLDRAKE"
-msgstr ""
+msgstr "CHILLDRAKE"
 
 msgid ""
 "Still Looking\n"
@@ -1094,7 +1133,7 @@ msgid ""
 msgstr ""
 
 msgid "ASTRO SERF"
-msgstr ""
+msgstr "ASTRO SERF"
 
 msgid ""
 "Thinking About\n"
@@ -1117,7 +1156,7 @@ msgid ""
 msgstr ""
 
 msgid "JERRY"
-msgstr ""
+msgstr "JERRY"
 
 msgid ""
 "Getting Ditched\n"
@@ -1130,10 +1169,10 @@ msgid ""
 msgstr ""
 
 msgid "WHIZKARAT"
-msgstr ""
+msgstr "WHIZKARAT"
 
 msgid "Zaxento The Greedy & semi"
-msgstr ""
+msgstr "Zaxento The Greedy & semi"
 
 msgid ""
 "Having An\n"
@@ -1156,7 +1195,7 @@ msgid ""
 msgstr ""
 
 msgid "DOGGO"
-msgstr ""
+msgstr "DOGGO"
 
 msgid ""
 "Believes In The\n"
@@ -1179,7 +1218,7 @@ msgid ""
 msgstr ""
 
 msgid "CANIS MINOR"
-msgstr ""
+msgstr "CANIS MINOR"
 
 msgid ""
 "Searching For\n"
@@ -1202,7 +1241,7 @@ msgid ""
 msgstr ""
 
 msgid "DOGAMY & DOGARESSA"
-msgstr ""
+msgstr "DOGAMY & DOGARESSA"
 
 msgid ""
 "Still Thinking\n"
@@ -1225,7 +1264,7 @@ msgid ""
 msgstr ""
 
 msgid "CANIS MAJOR"
-msgstr ""
+msgstr "CANIS MAJOR"
 
 msgid ""
 "Unaware Of\n"
@@ -1243,7 +1282,7 @@ msgid ""
 msgstr ""
 
 msgid "SKRUBBINGTON"
-msgstr ""
+msgstr "SKRUBBINGTON"
 
 msgid ""
 "Only 99.1\n"
@@ -1266,7 +1305,7 @@ msgid ""
 msgstr ""
 
 msgid "GELATA"
-msgstr ""
+msgstr "GELATA"
 
 msgid ""
 "Looking For A\n"
@@ -1289,10 +1328,10 @@ msgid ""
 msgstr ""
 
 msgid "RADTILE"
-msgstr ""
+msgstr "RADTILE"
 
 msgid "Balgamlı Kedi & Zaxento The Greedy"
-msgstr ""
+msgstr "Balgamlı Kedi & Zaxento The Greedy"
 
 msgid ""
 "Wallowing In\n"
@@ -1315,7 +1354,7 @@ msgid ""
 msgstr ""
 
 msgid "SHYREN"
-msgstr ""
+msgstr "SHYREN"
 
 msgid ""
 "Back To Taking\n"
@@ -1338,7 +1377,7 @@ msgid ""
 msgstr ""
 
 msgid "DOGE"
-msgstr ""
+msgstr "DOGE"
 
 msgid ""
 "Construction Site\n"
@@ -1356,7 +1395,7 @@ msgid ""
 msgstr ""
 
 msgid "MUFFET"
-msgstr ""
+msgstr "MUFFET"
 
 msgid ""
 "Looking For Her\n"
@@ -1374,7 +1413,7 @@ msgid ""
 msgstr ""
 
 msgid "HOTWIRE"
-msgstr ""
+msgstr "HOTWIRE"
 
 msgid ""
 "Waiting For The\n"
@@ -1397,7 +1436,7 @@ msgid ""
 msgstr ""
 
 msgid "TSUNDERIDEX"
-msgstr ""
+msgstr "TSUNDERIDEX"
 
 msgid ""
 "Flying Deeper\n"
@@ -1420,7 +1459,7 @@ msgid ""
 msgstr ""
 
 msgid "PERIGEE"
-msgstr ""
+msgstr "PERIGEE"
 
 msgid ""
 "Another Day,\n"
@@ -1443,7 +1482,7 @@ msgid ""
 msgstr ""
 
 msgid "RG 03 & RG 04"
-msgstr ""
+msgstr "RG 03 & RG 04"
 
 msgid ""
 "In Search Of\n"
@@ -1466,7 +1505,7 @@ msgid ""
 msgstr ""
 
 msgid "GLYDE"
-msgstr ""
+msgstr "GLYDE"
 
 msgid ""
 "Not Your Ideal\n"
@@ -1484,7 +1523,7 @@ msgid ""
 msgstr ""
 
 msgid "BURGERPANTS"
-msgstr ""
+msgstr "BURGERPANTS"
 
 msgid ""
 "Running Hastily\n"
@@ -1502,7 +1541,7 @@ msgid ""
 msgstr ""
 
 msgid "COZMO"
-msgstr ""
+msgstr "COZMO"
 
 msgid ""
 "Looking For A\n"
@@ -1520,7 +1559,7 @@ msgid ""
 msgstr ""
 
 msgid "TERRESTRIA"
-msgstr ""
+msgstr "TERRESTRIA"
 
 msgid ""
 "In Search Of\n"
@@ -1538,10 +1577,10 @@ msgid ""
 msgstr ""
 
 msgid "FINAL FROGGIT"
-msgstr ""
+msgstr "FINAL FROGGIT"
 
 msgid "ScarletScaledDragon & PoTheWinterCorder"
-msgstr ""
+msgstr "ScarletScaledDragon & PoTheWinterCorder"
 
 msgid ""
 "Keeping Its\n"
@@ -1564,7 +1603,7 @@ msgid ""
 msgstr ""
 
 msgid "FLUTTERKNYTE"
-msgstr ""
+msgstr "FLUTTERKNYTE"
 
 msgid ""
 "Still Working\n"
@@ -1587,7 +1626,7 @@ msgid ""
 msgstr ""
 
 msgid "EYEWALKER PRIME"
-msgstr ""
+msgstr "EYEWALKER PRIME"
 
 msgid ""
 "Still A\n"
@@ -1610,10 +1649,10 @@ msgid ""
 msgstr ""
 
 msgid "SILENCIO"
-msgstr ""
+msgstr "SILENCIO"
 
 msgid "Balgamlı Kedi & spacey_432"
-msgstr ""
+msgstr "Balgamlı Kedi & spacey_432"
 
 msgid ""
 "Still A\n"
@@ -1636,10 +1675,10 @@ msgid ""
 msgstr ""
 
 msgid "MUSHKETEER"
-msgstr ""
+msgstr "MUSHKETEER"
 
 msgid "ScarletScaledDragon & Ghostly"
-msgstr ""
+msgstr "ScarletScaledDragon & Ghostly"
 
 msgid ""
 "One Mushroom\n"
@@ -1662,58 +1701,58 @@ msgid ""
 msgstr ""
 
 msgid "PAPYRUS"
-msgstr ""
+msgstr "PAPYRUS"
 
 msgid "ProctorDorkchop02 & MattSpriteMaster"
-msgstr ""
+msgstr "ProctorDorkchop02 & MattSpriteMaster"
 
 msgid "SANS"
-msgstr ""
+msgstr "SANS"
 
 msgid "ProctorDorkchop02 & Fired"
-msgstr ""
+msgstr "ProctorDorkchop02 & Fired"
 
 msgid "UNDYNE"
-msgstr ""
+msgstr "UNDYNE"
 
 msgid "ALPHYS"
-msgstr ""
+msgstr "ALPHYS"
 
 msgid "MEW MEW"
-msgstr ""
+msgstr "MEW MEW"
 
 msgid "NAPSTABLOOK"
-msgstr ""
+msgstr "NAPSTABLOOK"
 
 msgid "METTATON"
-msgstr ""
+msgstr "METTATON"
 
 msgid "supper12 & MattSpriteMaster"
-msgstr ""
+msgstr "supper12 & MattSpriteMaster"
 
 msgid "TORIEL"
-msgstr ""
+msgstr "TORIEL"
 
 msgid "ASGORE"
-msgstr ""
+msgstr "ASGORE"
 
 msgid "MONSTER KID"
-msgstr ""
+msgstr "MONSTER KID"
 
 msgid "ASRIEL"
-msgstr ""
+msgstr "ASRIEL"
 
 msgid "THE END"
-msgstr ""
+msgstr "劇終"
 
 msgid "Quitting"
-msgstr ""
+msgstr "正在退出"
 
 msgid "Quitting."
-msgstr ""
+msgstr "正在退出."
 
 msgid "Quitting.."
-msgstr ""
+msgstr "正在退出.."
 
 msgid "Thank you for playing Outertale."
 msgstr ""
@@ -1791,19 +1830,19 @@ msgid "Take care of yourself, \"$(x).\""
 msgstr ""
 
 msgid "Restarting"
-msgstr ""
+msgstr "正在重啟"
 
 msgid "Restarting."
-msgstr ""
+msgstr "正在重啟."
 
 msgid "Restarting.."
-msgstr ""
+msgstr "正在重啟.."
 
 msgid "OUTERTALE (BETA V23)"
 msgstr ""
 
 msgid "GAMEPAD SETUP"
-msgstr ""
+msgstr "手柄設定"
 
 msgid ""
 "Use an input on your gamepad to assign\n"
@@ -1814,44 +1853,56 @@ msgid ""
 "\n"
 "Press ESC to skip setup."
 msgstr ""
+"從遊戲手柄上選擇一個按鍵\n"
+"用來控制遊戲中的某個操作。\n"
+"\n"
+"按下相同的按鍵進行確認，\n"
+"或按下其他按鍵重新設定。\n"
+"\n"
+"按[ESC]跳過設定。"
 
 msgid "Inputs Assigned: $(x)"
-msgstr ""
+msgstr "輸入分配到：$(x)"
 
 msgid "[Z OR ENTER] - Confirm"
-msgstr ""
+msgstr "[Z 或 ENTER] - 確認/互動"
 
 msgid "[X OR SHIFT] - Cancel"
-msgstr ""
+msgstr "[X 或 SHIFT] - 取消"
 
 msgid "[C OR CTRL] - Menu (In-game)"
-msgstr ""
+msgstr "[C 或 CTRL] - 選單（遊戲內）"
 
 msgid "[UP or W] - Move Up"
-msgstr ""
+msgstr "[↑ 或 W] - 上移"
 
 msgid "[LEFT or A] - Move Left"
-msgstr ""
+msgstr "[← 或 A] - 左移"
 
 msgid "[DOWN or S] - Move Down"
-msgstr ""
+msgstr "[↓ 或 S] - 下移"
 
 msgid "[RIGHT or D] - Move Right"
-msgstr ""
+msgstr "[→ 或 D] - 右移"
 
 msgid "[F4] - Fullscreen"
-msgstr ""
+msgstr "[F4] - 全螢幕"
 
 msgid ""
 "Setup complete.\n"
 "Press any button to continue."
 msgstr ""
+"設定完成。\n"
+"按任意鍵繼續。"
 
 msgid ""
 "\n"
 "Note: On this platform, the gamepad may\n"
 "not always be able to enter fullscreen."
 msgstr ""
+"\n"
+"注意：在本平臺運行遊戲時，\n"
+"使用遊戲手柄可能無法全螢幕遊玩。"
 
 msgid ""
 "A gamepad has already been set up.\n"
@@ -1861,319 +1912,357 @@ msgid ""
 "\n"
 "Press ESC to skip setup."
 msgstr ""
+"遊戲手柄設定完成，\n"
+"按任意鍵繼續。\n"
+"或者連按某個鍵三次\n"
+"重新設定手柄。"
 
 msgid "Asriel"
-msgstr ""
+msgstr "Asriel"
 
 msgid "The Oblivion"
 msgstr ""
 
 msgid "DISABLED"
-msgstr ""
+msgstr "關閉"
 
 msgid "ENABLED"
-msgstr ""
+msgstr "開啟"
 
 msgid "Press [X] to Finish"
-msgstr ""
+msgstr "按 [X] 返回"
 
 msgid "G"
-msgstr ""
+msgstr "G"
 
 msgid "INF"
-msgstr ""
+msgstr "INF"
 
 msgid "[PRESS Z OR ENTER]"
-msgstr ""
+msgstr "[按下 Z 或 ENTER]"
 
 msgid "LV"
-msgstr ""
+msgstr "LV"
 
 msgid ""
 "§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§"
 msgstr ""
+"§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§"
 
 msgid ""
 "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
 msgstr ""
+"{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
 
 msgid "{@mystify:abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
-msgstr ""
+msgstr "{@mystify:abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
 
 msgid "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify:}"
-msgstr ""
+msgstr "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify:}"
 
 msgid "No"
-msgstr ""
+msgstr "否"
 
 msgid "§fill:#0f0§NOMINAL"
-msgstr ""
+msgstr "§fill:#0f0§正常"
 
 msgid "$(x)%"
-msgstr ""
+msgstr "$(x)%"
 
 msgid "player"
-msgstr ""
+msgstr "玩家"
 
 msgid "Settings"
-msgstr ""
+msgstr "遊戲設定"
 
 msgid "XM"
-msgstr ""
+msgstr "XM"
 
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 msgid "INVENTORY"
-msgstr ""
+msgstr "物品欄"
 
 msgid "BOX"
-msgstr ""
+msgstr "箱子"
 
 msgid "KEYRING"
-msgstr ""
+msgstr "鑰匙串"
 
 msgid "Is this name correct?"
-msgstr ""
+msgstr "確定要選擇這個名字嗎？"
 
 msgid ""
 "A name has already\n"
 "been chosen."
-msgstr ""
+msgstr "已經選定了一個名字。"
 
 msgid "Go back"
-msgstr ""
+msgstr "返回"
 
 msgid "OUTERTALE V5.00 (c) 2024 SPACEY_432"
-msgstr ""
+msgstr "OUTERTALE V5.00 (c) 2024 SPACEY_432 繁體中文版 PSOT漢化組"
 
 msgid "* (HP fully restored.)"
-msgstr ""
+msgstr "* （HP已回滿。）"
 
 msgid "* (You recovered $(x) HP.)"
-msgstr ""
+msgstr "* （你回覆了$(x) HP。）"
 
 msgid "* (You lost $(x) HP.)"
-msgstr ""
+msgstr "* （你失去了$(x) HP。）"
 
 msgid "* (HP fully depleted.)"
-msgstr ""
+msgstr "* （HP已清零。）"
 
 msgid "USE"
-msgstr ""
+msgstr "使用"
 
 msgid "EQUIP"
-msgstr ""
+msgstr "裝備"
 
 msgid "INFO"
-msgstr ""
+msgstr "信息"
 
 msgid "DROP"
-msgstr ""
+msgstr "丟棄"
 
 msgid "Continue"
-msgstr ""
+msgstr "繼續"
 
 msgid "Observe"
-msgstr ""
+msgstr "旁觀"
 
 msgid "Reset"
-msgstr ""
+msgstr "重置"
 
 msgid "True Reset"
-msgstr ""
+msgstr "真正的重置"
 
 msgid "Name the stranded human."
-msgstr ""
+msgstr "為受困的人類命名："
 
 msgid "Quit"
-msgstr ""
+msgstr "返回"
 
 msgid "Backspace"
-msgstr ""
+msgstr "刪除"
 
 msgid "Done"
-msgstr ""
+msgstr "確定"
 
 msgid "§fill:#808080§ [ESC] - Quit / [ENTER] - Done"
 msgstr ""
+"§fill:#808080§鍵盤輸入，支持中文。\n"
+"\n"
+"[ENTER] - 確定\n"
+"[BACKSPACE] - 刪除\n"
+"[ESC] - 返回"
 
 msgid "Return"
-msgstr ""
+msgstr "返回"
 
 msgid "File saved."
-msgstr ""
+msgstr "進度已保存！"
 
 msgid "SETTINGS"
-msgstr ""
+msgstr "遊戲設定"
 
 msgid "EXIT"
-msgstr ""
+msgstr "返回"
 
 msgid "LANGUAGE"
-msgstr ""
+msgstr "語言"
 
 msgid "ENGLISH"
-msgstr ""
+msgstr "繁體中文"
 
 msgid "SOUND FX"
-msgstr ""
+msgstr "音效"
 
 msgid "MUSIC"
-msgstr ""
+msgstr "音樂"
 
 msgid "FANCY GRAPHICS"
-msgstr ""
+msgstr "精緻圖像"
 
 msgid "FLASHING IMAGERY"
-msgstr ""
+msgstr "閃爍畫面"
 
 msgid "NORMAL"
-msgstr ""
+msgstr "默認"
 
 msgid "REDUCED"
-msgstr ""
+msgstr "削減"
 
 msgid "ALIGN CONTROLS"
-msgstr ""
+msgstr "控制按鈕位置"
 
 msgid "LEFT"
-msgstr ""
+msgstr "左"
 
 msgid "RIGHT"
-msgstr ""
+msgstr "右"
 
 msgid "DEADZONE"
-msgstr ""
+msgstr "搖桿死區"
 
 msgid "OPEN MOD FOLDER"
-msgstr ""
+msgstr "打開模組目錄"
 
 msgid "ITEM"
-msgstr ""
+msgstr "雜物ゐ"
 
 msgid "STAT"
-msgstr ""
+msgstr "狀況ゐ"
 
 msgid "CELL"
-msgstr ""
+msgstr "手機ゐ"
 
 msgid "CONF"
-msgstr ""
+msgstr "設定"
 
 msgid "--- Instruction ---"
-msgstr ""
+msgstr "---- 操作介紹 ----"
 
 msgid "[Z or ENTER] - Confirm"
-msgstr ""
+msgstr "[Z 或 ENTER] - 確認/互動"
 
 msgid "[X or SHIFT] - Cancel"
-msgstr ""
+msgstr "[X 或 SHIFT] - 取消"
 
 msgid "[C or CTRL] - Menu (In-game)"
-msgstr ""
+msgstr "[C 或 CTRL] - 選單（遊戲內）"
 
 msgid "[Hold ESC] - Restart"
-msgstr ""
+msgstr "[長按 ESC] - 重啟"
 
 msgid "When HP is 0, you lose."
-msgstr ""
+msgstr "當 HP 降至 0，你就輸了。"
 
 msgid "Begin Game"
-msgstr ""
+msgstr "開始遊戲"
 
 msgid "AT"
-msgstr ""
+msgstr "攻擊"
 
 msgid "DF"
-msgstr ""
+msgstr "防禦"
 
 msgid "GOLD"
-msgstr ""
+msgstr "金錢"
 
 msgid "NEXT"
-msgstr ""
+msgstr "下級"
 
 msgid ""
 "§fill:#ff0§Warning:\n"
 "Non-canon\n"
 "timeline."
 msgstr ""
+"§fill:#ff0§警告：\n"
+"不是\n"
+"主時間軸。"
 
 msgid "KILLS"
-msgstr ""
+msgstr "擊殺"
 
 msgid "BULLY"
-msgstr ""
+msgstr "傷害"
 
 msgid "FLIRT"
-msgstr ""
+msgstr "調情"
 
 msgid "STATUS"
-msgstr ""
+msgstr "狀態"
 
 msgid ""
 "Long ago, {^3}two species ruled the solar system: {^5}HUMANS and MONSTERS."
 msgstr ""
+"{#i/x2}很久很久以前，{^3}太陽系中：{^5}\n"
+"人類與怪物兩大智慧種族{^1}\n"
+"統治其間。ゐ"
 
 msgid "As time passed, {^3}a war broke out between the two species."
 msgstr ""
+"{#i/x2}隨著時間的步步推演，{^3}\n"
+"兩者間的緊張局勢{^1}\n"
+"終升級為一場星際戰爭。ゐ"
 
 msgid ""
 "After the MONSTERS' home planet was destroyed, {^3}HUMANS declared victory."
 msgstr ""
+"{#i/x2}戰火紛飛之際，{^3}\n"
+"最終以怪物族的母星\n"
+"遭受重創、崩潰告終，{^3}\n"
+"人類宣佈獲取勝利。ゐ"
 
 msgid "The remaining MONSTERS were banished to an abandoned outpost."
 msgstr ""
+"{#i/x2}並將戰敗的怪物族群{^1}\n"
+"遷徙至一座{^1}\n"
+"荒廢的邊境前哨站。ゐ"
 
 msgid ""
 "A powerful force field was erected, {^3}and the MONSTERS were sealed in."
 msgstr ""
+"{#i/x2}隨即興建起{^3}\n"
+"一道強度非凡的力場。{^3}\n"
+"將其牢牢封鎖於內。ゐ"
 
 msgid "Many years later.{^8}.{^8}."
 msgstr ""
+"{#i/x2}歷經\n"
+"漫長時日的沉寂.{^8}.{^8}.ゐ"
 
 msgid "µµµµ EBOTT SECTOR µµµµ µµµµµµµµ 251X{^20}{}"
 msgstr ""
+"µµµµµµ EBOTT區域 µµµµ\n"
+"µµµµµµµµ 251X{^20}{}ゐ"
 
 msgid "Tales speak of a place from which spacecraft never return.{^20}{}"
 msgstr ""
+"{#i/x2}據古老傳說所述，{^3}\n"
+"在浩瀚宇宙的某個幽渺之境，{^1}\n"
+"存在著一艘艘{^1}\n"
+"一去不復返的飛船。{^20}{}ゐ"
 
 msgid "{^100}{}"
-msgstr ""
+msgstr "{^100}{}"
 
 msgid "{^50}{}"
-msgstr ""
+msgstr "{^50}{}"
 
 msgid "Resume Canon Timeline"
-msgstr ""
+msgstr "重返主時間軸"
 
 msgid "Other Slots"
-msgstr ""
+msgstr "其它時間軸的位置ゐ"
 
 msgid "Bisect"
-msgstr ""
+msgstr "切分"
 
 msgid "Delete"
-msgstr ""
+msgstr "刪除"
 
 msgid "[ESC] to Cancel / [ENTER] to Confirm"
-msgstr ""
+msgstr "[ESC] 取消 / [ENTER] 確定"
 
 msgid "Press any button on your gamepad to open the keyboard."
-msgstr ""
+msgstr "按手柄上任意按鈕打開鍵盤。"
 
 msgid "Launch"
-msgstr ""
+msgstr "啟動"
 
 msgid "Rename"
-msgstr ""
+msgstr "重命名"
 
 msgid "Create New"
-msgstr ""
+msgstr "新建"
 
 msgid "Enter Timeline Name"
-msgstr ""
+msgstr "輸入時間軸名稱"
 
 msgid "Are You Sure?"
-msgstr ""
+msgstr "確定刪除嗎？"
