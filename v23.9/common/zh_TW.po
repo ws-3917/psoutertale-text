@@ -120,7 +120,7 @@ msgid "<32>{#p/human}* (No response.)"
 msgstr "<32>{#p/human}* （沒有回應。）"
 
 msgid "<32>{#p/human}* (You've lost track of how long you've been here.)"
-msgstr "<32>{#p/human}* （你已經不記得在這裏度過了多久。）"
+msgstr "<32>{#p/human}* （你已經不記得在這裡度過了多久。）"
 
 msgid "<32>{#p/human}* (You can't tell if it's been weeks, months, or years.)"
 msgstr ""
@@ -148,7 +148,7 @@ msgid "<32>{#p/human}* (Without power, the Outpost will be uninhabitable.)"
 msgstr "<32>{#p/human}* （沒有了能量，前哨站將無法生存。）"
 
 msgid "<32>{#p/human}* (Somehow, you feel at peace.)"
-msgstr "<32>{#p/human}* （不知爲何，你感到平靜。）"
+msgstr "<32>{#p/human}* （不知為何，你感到平靜。）"
 
 msgid "<32>{#p/human}* (You've come to terms with your death.)"
 msgstr "<32>{#p/human}* （你平靜地接受了自己的死亡。）"
@@ -3310,7 +3310,7 @@ msgid "* Scream"
 msgstr "* 尖叫"
 
 msgid "* Secret"
-msgstr "* 祕密"
+msgstr "* 秘密"
 
 msgid "* Shout"
 msgstr "* 喊叫"
@@ -3458,7 +3458,7 @@ msgid "<32>{#p/basic}* The dummy grew tired of your aimless shenanigans."
 msgstr "<32>{#p/basic}* 人偶厭倦了你意味不明的把戲。"
 
 msgid "<32>{#p/basic}* The dummy is blushing... somehow."
-msgstr "<32>{#p/basic}* 人偶不知爲何... 臉紅了。"
+msgstr "<32>{#p/basic}* 人偶不知為何... 臉紅了。"
 
 msgid "* Dummy"
 msgstr "* Dummy"
@@ -4320,7 +4320,7 @@ msgid "<32>{#p/kidding}* Uh..."
 msgstr "<32>{#p/kidding}* 呃..."
 
 msgid "<32>* Why'd they vanish like that?"
-msgstr "<32>* 對手爲啥是這樣消失的呢？"
+msgstr "<32>* 對手為啥是這樣消失的呢？"
 
 msgid ""
 "<32>* Well, we WERE attacking them, so maybe they got scared and teleported "
@@ -4335,7 +4335,7 @@ msgstr "<32>{#p/kidding}* 又消失了？"
 
 msgid "<32>* Dang, why don't I get to have a cool teleporter!?"
 msgstr ""
-"<32>* 該死，爲啥我沒有\n"
+"<32>* 該死，為啥我沒有\n"
 "  這麼酷的傳送器呢！？"
 
 msgid "<32>{#p/kidding}* And they're gone..."
@@ -4348,7 +4348,7 @@ msgid "<25>{#p/kidd}{#f/4}* Uh..."
 msgstr "<25>{#p/kidd}{#f/4}* 呃..."
 
 msgid "<25>* Why'd they vanish like that?"
-msgstr "<25>* 對手爲啥是這樣消失的呢？"
+msgstr "<25>* 對手為啥是這樣消失的呢？"
 
 msgid "<25>{#f/1}* Well, we WERE attacking them, so..."
 msgstr "<25>{#f/1}* 嗯... 我們打了對手，所以..."
@@ -4363,7 +4363,7 @@ msgstr "<25>{#p/kidd}{#f/4}* 又消失了？"
 
 msgid "<25>{#f/1}* Dang, why don't I get to have a cool teleporter!?"
 msgstr ""
-"<25>{#f/1}* 該死，爲啥我沒有\n"
+"<25>{#f/1}* 該死，為啥我沒有\n"
 "  這麼酷的傳送器呢！？"
 
 msgid "<25>{#p/kidd}{#f/4}* And they're gone..."

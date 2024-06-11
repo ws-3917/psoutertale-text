@@ -77,14 +77,14 @@ const text = {
       nicecreamScoreReaction4b: [ "<32>{#p/basic}* 看起來你真的很擅長。" ],
       nicecreamScoreReaction5a: [ "<32>{#p/basic}* 你打破了你的紀錄...？" ],
       nicecreamScoreReaction5b: [ "<32>{#p/basic}* 看，新紀錄！" ],
-      nicecreamScoreReaction6a: [ "<32>{#p/basic}* 有那麼一瞬間，我以爲你打破了記錄..." ],
+      nicecreamScoreReaction6a: [ "<32>{#p/basic}* 有那麼一瞬間，我以為你打破了記錄..." ],
       nicecreamScoreReaction6b: [
          "<32>{#p/basic}* 哇喔，你差點就破紀錄了！\n* 你能堅持下去嗎？"
       ],
       nicecreamScoreReaction7a: [ "<32>{#p/basic}* 看起來你需要一些練習..." ],
       nicecreamScoreReaction7b: [ "<32>{#p/basic}* 看起來你需要一些練習。" ],
       nicecreamScoreReaction8a: [ "<32>{#p/basic}* 更好了..." ],
-      nicecreamScoreReaction8b: [ "<32>{#p/basic}* 這纔像話。" ],
+      nicecreamScoreReaction8b: [ "<32>{#p/basic}* 這才像話。" ],
       nicecreamScoreReaction9a: [
          "<32>{#p/basic}* 你第一次嘗試就打破了紀錄...？\n* 世界上竟然..."
       ],
@@ -111,7 +111,7 @@ const text = {
       jukebox1x1: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* （但是你不能放你不知道的音樂。）" ]
-            : [ "<32>{#p/basic}* 封面中一個詭異的DJ在人羣中演奏。\n* 你看不出來是什麼音樂。" ],
+            : [ "<32>{#p/basic}* 封面中一個詭異的DJ在人群中演奏。\n* 你看不出來是什麼音樂。" ],
       jukebox1x2: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* （但是你不能放你不知道的音樂。）" ]
@@ -135,7 +135,7 @@ const text = {
       ],
       jukebox3a1: [ "<32>{#p/basic}{#npc/a}* 這就對了！" ],
       jukebox3a2: [ "<32>{#p/basic}{#npc/a}* （我們都喜歡這種音樂。）" ],
-      jukebox3b: [ "<32>{#p/basic}{#npc/a}* 這音樂在舞蹈俱樂部裏面流行嗎？" ],
+      jukebox3b: [ "<32>{#p/basic}{#npc/a}* 這音樂在舞蹈俱樂部裡面流行嗎？" ],
       jukebox3c: [
          "<32>{#p/basic}* ...\n* ...\n* ...",
          "<32>{#npc/a}* Grillbz說他曾經在哪聽過這首歌。"
@@ -187,7 +187,7 @@ const text = {
       ],
       shockpapyrus2d: [ "<32>{#p/asriel2}* 戰鬥... 真是不二之選。", "<32>{#p/asriel2}* 嘻嘻嘻..." ],
       sansDeath1: [ "<15>{#p/papyrus}{#e/papyrus/27}SANS！\n你受傷了！" ],
-      sansDeath2: [ "<20>{#p/sans}papyrus，\n我不是讓你待在家裏嗎？", "{*}{#e/papyrus/21}{%}" ],
+      sansDeath2: [ "<20>{#p/sans}papyrus，\n我不是讓你待在家裡嗎？", "{*}{#e/papyrus/21}{%}" ],
       sansDeath3: [ "<20>{#p/sans}...別擔心，兄弟。\n這只是我最喜歡的\n番茄醬。", "{*}{#e/papyrus/26}{%}" ],
       sansDeath4: [ "<15>{#p/papyrus}{#e/papyrus/21}但你真的\n傷得很重..." ],
       sansDeath5: [
@@ -563,7 +563,7 @@ const text = {
          asriel26: () =>
             [
                [
-                  "<26>{#p/asriel2}{#f/3}* 好了，那羣蠢狗\n  已經全軍覆沒了。",
+                  "<26>{#p/asriel2}{#f/3}* 好了，那群蠢狗\n  已經全軍覆沒了。",
                   "<26>{#p/asriel2}{#f/4}* 再過一座橋，就到小鎮了。",
                   "<25>{#f/1}* ...跟我來。"
                ],
@@ -642,8 +642,8 @@ const text = {
             "<25>{#p/asriel2}{#f/9}* 不好意思，\n  剛不該叫你“爹”的，\n  Asgore。",
             "<25>{#f/1}* 真是抱歉。",
             "<25>{#p/asgore}{#f/3}* ...\n* 開玩笑吧...",
-            "<25>{#f/5}* 好好想想你的所作所爲，\n  這可不是爲了我們...",
-            "<25>{#f/6}* 是爲了你好！",
+            "<25>{#f/5}* 好好想想你的所作所為，\n  這可不是為了我們...",
+            "<25>{#f/6}* 是為了你好！",
             "<25>{#p/asriel2}{#f/8}* ...",
             "<25>{#p/asriel2}{#f/7}* ...讓我緩緩。",
             "<26>{#f/6}* 顯然你來這只是想氣我。",
@@ -664,7 +664,7 @@ const text = {
             "<18>{#f/5}應該是的吧？",
             "<18>{#f/32}捏...\nUNDYNE總算會...",
             "<18>{#p/papyrus}{#f/31}我能加入皇家衛隊了...",
-            "<18>{#f/5}你會以我爲榮的吧？",
+            "<18>{#f/5}你會以我為榮的吧？",
             "<25>{#p/asriel2}{#f/3}* 你騙不了自己的，Papyrus。\n* 他已經死了。",
             "<18>{|}{#p/papyrus}{#f/5}可是- {%}",
             "<25>{#p/asriel2}{#f/3}* 夠了。\n* 你再怎麼使勁呼喚，\n  他也聽不見的。", 
@@ -682,18 +682,18 @@ const text = {
             "<18>{#p/papyrus}{#f/3}他原話是\n“我想見見我兒子”。",
             "<18>{#f/7}...",
             "<18>{#f/7}我們的王子竟然\n殺了我兄弟，\n真是難以置信！",
-            "<25>{|}{#p/asriel2}{#f/8}* 其實你纔是我們原本想- {%}",
+            "<25>{|}{#p/asriel2}{#f/8}* 其實你才是我們原本想- {%}",
             "<18>{#p/papyrus}{#f/7}真是夠了！！",
             "<18>{#f/7}你出賣集體，背叛同胞！",
-            "<18>{#f/7}爲了啥呢！？",
-            "<18>{#f/7}就爲了取悅自己嗎？",
-            "<25>{#p/asriel2}{#f/16}* 對啊，Papyrus。\n* 就是因爲這麼做很爽。",
+            "<18>{#f/7}為了啥呢！？",
+            "<18>{#f/7}就為了取悅自己嗎？",
+            "<25>{#p/asriel2}{#f/16}* 對啊，Papyrus。\n* 就是因為這麼做很爽。",
             "<18>{#p/papyrus}{#f/7}真後悔還要聽你\n在這鬼話！",
             "<18>{#p/papyrus}{#f/4}還有你，人類...",
-            "<18>{#f/7}別以爲我不知道\n事態會怎麼發展。",
-            "<18>{#f/7}顯而易見，你纔是主謀。",
+            "<18>{#f/7}別以為我不知道\n事態會怎麼發展。",
+            "<18>{#f/7}顯而易見，你才是主謀。",
             "<25>{#p/asriel2}{#f/8}* 你真有眼力。",
-            "<25>{#f/7}* 眼下我們是不是該\n  就地投降纔好呢？",
+            "<25>{#f/7}* 眼下我們是不是該\n  就地投降才好呢？",
             "<18>{#p/papyrus}{#f/31}...",
             "<25>{#p/asriel2}{#f/4}* 先說明了，你這股努力的勁兒\n  確實令我佩服。",
             "<25>{#f/3}* 但我們自有打算。",
@@ -717,8 +717,8 @@ const text = {
                ? [ "<25>{#p/asriel2}{#f/6}* 沒門，不過我要是那麼做的話\n  她會很高興的。" ]
                : [ "<25>{#p/asriel2}{#f/6}* 沒門，反正她最後\n  也要跟著去見閻王。" ]),
             "<18>{#p/papyrus}{#f/31}可是，假如你真能\n回溯時間，抹掉過去...",
-            "<18>{#f/5}爲什麼不去試試呢？",
-            "<18>{#f/31}下一條時間軸裏，\n讓-讓我代他去死。",
+            "<18>{#f/5}為什麼不去試試呢？",
+            "<18>{#f/31}下一條時間軸裡，\n讓-讓我代他去死。",
             "<18>{#f/3}那樣，他就能活下來了，\n對吧？",
             "<25>{#p/asriel2}{#f/6}* ...\n* 跟你說，我早就看過\n  那條線了。",
             "<25>{#f/7}* 無聊至極。",
@@ -742,13 +742,13 @@ const text = {
             "<18>{#p/papyrus}{#f/3}ASRIEL。",
             "<25>{#p/asriel2}{#f/6}* Papyrus。",
             "<18>{#p/papyrus}{#f/31}...",
-            "<18>{#f/31}爲什麼？",
-            "<18>{#f/31}爲什麼你要這麼做？",
+            "<18>{#f/31}為什麼？",
+            "<18>{#f/31}為什麼你要這麼做？",
             "<18>{#f/3}一個怪物不應該\n會變成這樣啊...",
             "<18>{#f/5}你的愛去哪了？\n你的同情心去哪了？",
             "<18>{#f/31}你的... 仁慈...",
             "<25>{#p/asriel2}{#f/2}* ...\n* 喔，您可真是文曲星下凡啊...",
-            "<25>{#f/1}* 在我的靈魂中，\n  這些東西早就化爲烏有了。",
+            "<25>{#f/1}* 在我的靈魂中，\n  這些東西早就化為烏有了。",
             "<18>{#p/papyrus}{#f/31}但...\n我不明白...",
             "<18>{#f/5}一個有著這般\n純潔心靈的怪物...",
             "<18>{#f/31}...怎麼會\n徹底墮入黑暗呢？",
@@ -780,14 +780,14 @@ const text = {
             "<18>{#f/9}總算認清了{@fill:#f00}真相{@fill:#fff}。",
             "<25>{#p/asriel2}{#f/13}* 喔？\n* 真相是什麼呢？"
          ],
-         papyrusSolo4e: [ "<18>{#p/papyrus}{#f/34}你纔不是{@fill:#f00}ASRIEL{@fill:#fff}。" ],
+         papyrusSolo4e: [ "<18>{#p/papyrus}{#f/34}你才不是{@fill:#f00}ASRIEL{@fill:#fff}。" ],
          papyrusSolo4f: [
             "<18>{#f/5}{@fill:#f00}ASRIEL{@fill:#fff}絕不可能\n幹出這種事！",
-            "<18>{#f/31}因爲，{@fill:#f00}ASRIEL{@fill:#fff}心地善良，",
+            "<18>{#f/31}因為，{@fill:#f00}ASRIEL{@fill:#fff}心地善良，",
             "<18>{#f/5}信賴同胞...",
             "<18>{#f/31}比誰都相信人類！",
             "<18>{#f/4}而你呢...",
-            "<18>{#f/7}你不過是個爲了\n一己私慾利用人類的\n卑鄙小人！",
+            "<18>{#f/7}你不過是個為了\n一己私慾利用人類的\n卑鄙小人！",
             "<18>{#f/4}我告訴你，\n你愛說啥就說啥，\n我不在乎。",
             "<18>{#f/9}但是，我還相信著\n那個人類。",
             "<25>{#p/asriel2}{#f/8}* 哼，你要真這麼信任他...",
@@ -1226,7 +1226,7 @@ const text = {
             () =>
                world.genocide
                   ? [
-                       "<25>{#p/kidd}{#f/3}{#npc/a}* 剛纔，有個小孩走過來\n  往我腦袋裏插了什麼東西。",
+                       "<25>{#p/kidd}{#f/3}{#npc/a}* 剛才，有個小孩走過來\n  往我腦袋裡插了什麼東西。",
                        "<25>{#f/3}* 之後，他就去鑄廠了，\n  說要去“增強信號\"。",
                        "<25>{#f/4}* ...有些小孩真是奇怪。"
                     ]
@@ -2314,20 +2314,20 @@ const text = {
                ? [ "<32>{#p/human}* (But you didn't have any mail to send.)" ]
                : [
                     "<32>{#p/basic}* 郵箱上標註著“PAPYRUS”。",
-                    choicer.create("* （看裏邊嗎？）", "是", "否")
+                    choicer.create("* （看裡邊嗎？）", "是", "否")
                  ],
          papmail2: pager.create(
             0,
             () =>
                SAVE.data.n.plot === 72
                   ? [
-                       "<32>{#p/human}* （你往裏看了一眼...）",
+                       "<32>{#p/human}* （你往裡看了一眼...）",
                        world.runaway
                           ? "<32>{#p/basic}* It's even emptier than before."
                           : "<32>{#p/basic}* It's not empty?"
                     ]
                   : [
-                       "<32>{#p/human}* （你往裏看了一眼...）",
+                       "<32>{#p/human}* （你往裡看了一眼...）",
                        "<32>{#p/basic}* 是空的。",
                        ...(31 <= SAVE.data.n.plot &&
                        SAVE.data.n.plot_date < 0.1 &&
@@ -2341,12 +2341,12 @@ const text = {
             () =>
                SAVE.data.n.plot === 72
                   ? [
-                       "<32>{#p/human}* （你往裏看了一眼...）",
+                       "<32>{#p/human}* （你往裡看了一眼...）",
                        world.runaway
                           ? "<32>{#p/basic}* It's even emptier than before."
                           : "<32>{#p/basic}* It's not empty?"
                     ]
-                  : [ "<32>{#p/human}* （你往裏看了一眼...）", "<32>{#p/basic}* 是空的。" ]
+                  : [ "<32>{#p/human}* （你往裡看了一眼...）", "<32>{#p/basic}* 是空的。" ]
          ),
          papmail3: [ "<32>{#p/human}* (You decide not to look.)" ],
          puzzle3: () => [
@@ -2367,7 +2367,7 @@ const text = {
             "<32>{#p/human}* (You gaze upon the mouth- watering spaghetti.)",
             "<32>{#p/human}* (It appears to be just beyond your reach.)"
          ],
-         spagtable2: [ "<32>{#p/human}* （你拿走了意大利麪。）" ],
+         spagtable2: [ "<32>{#p/human}* （你拿走了意大利麵。）" ],
          spagtable2b: [ "<32>{#p/human}* (You're carrying too much to take that.)" ],
          spagtable3: () =>
             SAVE.data.b.svr
@@ -3495,7 +3495,7 @@ const text = {
          world.genocide
             ? [
                  "<23>失去至親的悲痛。",
-                 "<23>無能爲力的自責。",
+                 "<23>無能為力的自責。",
                  "<23>陰陽兩隔的懷念。",
                  "<23>這些情感..."
               ]
@@ -3682,7 +3682,7 @@ const text = {
             : "<32>* “最新圖案修改者：COOLSKELETON95”",
          ...(!world.goatbro || SAVE.flag.n.genocide_milestone < 5 || SAVE.flag.n.ga_asrielAlphysCom1++ > 0
             ? []
-            : [ "<25>{#p/asriel2}{#f/13}* 她真是沒完沒了地爲難我們..." ]),
+            : [ "<25>{#p/asriel2}{#f/13}* 她真是沒完沒了地為難我們..." ]),
          "<32>* “要查看圖案嗎？”",
          choicer.create("* （查看圖案嗎？）", "是", "否")
       ],
@@ -4368,7 +4368,7 @@ const text = {
                      ],
                      [ "<32>{#p/basic}* Like, maybe \"astronomical\" would be a better term for it." ],
                      [ "<33>{#p/basic}* Actually, no.\n* That term's reserved for the higher-ups at the royal lab." ],
-                     [ "<32>{#p/basic}* 嗯...\n* 萬一這個垃圾桶是黑洞僞裝的呢！" ],
+                     [ "<32>{#p/basic}* 嗯...\n* 萬一這個垃圾桶是黑洞偽裝的呢！" ],
                      [ "<32>{#p/basic}* A black hole trash can...\n* Would you risk it?" ],
                      [ "<32>{#p/basic}* That's a weird question." ],
                      [
@@ -4542,7 +4542,7 @@ const text = {
                : [
                     "<32>{#p/basic}* “氣味危險分級”",
                     "<32>* \"Silicone Smell - Robot\"\n* \"WHITE rating\"\n* \"Can become {@fill:#2f2f2f}BLACK{@fill:#fff} rating.\"",
-                    "<32>* “不可疑的氣味 - 小狗”\n* “等級：{@fill:#003cff}藍色{@fill:#fff}。”\n* “在地裏打滾的氣味。”",
+                    "<32>* “不可疑的氣味 - 小狗”\n* “等級：{@fill:#003cff}藍色{@fill:#fff}。”\n* “在地裡打滾的氣味。”",
                     world.runaway
                        ? "<32>* “古怪的氣味 - 人類”\n* “等級：{@fill:#00c000}綠色{@fill:#fff}。”\n* “一旦看到，立馬逃跑！”"
                        : SAVE.data.n.plot === 72
@@ -4663,9 +4663,9 @@ const text = {
                        "<32>{#p/basic}* “戰前，怪物每天都要學習魔法。”",
                        "<32>* “然而，大多數同胞都在戰爭中犧牲，\n  其中就包括許多教師。”",
                        "<32>* “面對這一問題，剩餘的怪物們\n  開始採用集體學習的方式。”",
-                       "<32>* “當時採用這一方式，是爲了讓我們\n  能在前哨站更好地生存。”",
+                       "<32>* “當時採用這一方式，是為了讓我們\n  能在前哨站更好地生存。”",
                        "<32>* “如今，人口不足的問題\n  幾乎不復存在。”",
-                       "<32>* “儘管如此，我們還是\n  堅持新的學習方式，因爲...”",
+                       "<32>* “儘管如此，我們還是\n  堅持新的學習方式，因為...”",
                        "<32>* “...我們懶得再改回去了。”",
                        "<32>{#p/human}* （你把書放回原處。）"
                     ],
@@ -4679,10 +4679,10 @@ const text = {
                        "<32>{#p/human}* （你取下了一本書...）",
                        "<32>{#p/basic}* “以前，\n  怪物使用多種貨幣進行交易。”",
                        "<32>* “主要流通的是珠寶和“克里”... \n  但它們只能在母星上使用。”",
-                       "<32>* “與人類進行貿易時，\n  就只能選擇金錢作爲貨幣。”",
-                       "<32>* “豐富的金礦資源\n  爲我們帶來了許多便利。”",
+                       "<32>* “與人類進行貿易時，\n  就只能選擇金錢作為貨幣。”",
+                       "<32>* “豐富的金礦資源\n  為我們帶來了許多便利。”",
                        "<32>* “但也因此導致\n  其他貨幣迅速貶值。”",
-                       "<32>* “如今，金錢成爲了\n  我們唯一的貨幣！”\n* “這就是怪物的作風。”",
+                       "<32>* “如今，金錢成為了\n  我們唯一的貨幣！”\n* “這就是怪物的作風。”",
                        "<32>{#p/human}* （你把書放回原處。）"
                     ],
             () =>
@@ -4718,7 +4718,7 @@ const text = {
                        "<32>{#p/human}* （你取下了一本書...）",
                        "<32>{#p/basic}* “‘域外網’，是國王與皇家科學員\n  共同打造的網絡平臺。”",
                        "<32>* “...不過，主要是皇家科學員的功勞。\n  國王僅僅寫了個歡迎致辭。”",
-                       "<32>* “言歸正傳，\n  域外網作爲一個‘虛擬廣場’，\n  將前哨站的居民聯繫在一起。”",
+                       "<32>* “言歸正傳，\n  域外網作為一個‘虛擬廣場’，\n  將前哨站的居民聯繫在一起。”",
                        "<32>* “想要創建賬戶，你只需要...”",
                        "<32>* “呃... 好吧...”",
                        "<32>* “這教程看著清楚，\n  寫的可是不清不楚。”",
@@ -4734,7 +4734,7 @@ const text = {
                        "<32>{#p/human}* （你取下了一本書...）",
                        "<32>{#p/basic}* “要是你想到前哨站各處逛逛的話，\n  呼叫旅人是你的不二之選。”",
                        "<32>* “不管你想去哪，他都可以載你一程。”",
-                       "<32>* “...因爲，你總可以\n  在最近的停靠站找到他。”",
+                       "<32>* “...因為，你總可以\n  在最近的停靠站找到他。”",
                        "<32>* “還有，說真的，\n  他說話有點不知所云。”",
                        "<33>* “‘狗子的公道’到底是個啥？”",
                        "<32>{#p/human}* （你把書放回原處。）"
@@ -4749,7 +4749,7 @@ const text = {
                        "<32>{#p/human}* （你取下了一本書...）",
                        "<32>{#p/basic}* “怪物們可以自由穿梭於\n  前哨站的各個區域。”",
                        "<32>* “只有首塔頂端的最終長廊\n  是禁區。”",
-                       "<32>* “除了皇家科學員，\n  任何居民都不得通過那裏。”",
+                       "<32>* “除了皇家科學員，\n  任何居民都不得通過那裡。”",
                        "<32>* “...我們仍不清楚其中的原因。”",
                        "<32>{#p/human}* （你把書放回原處。）"
                     ]
@@ -4769,7 +4769,7 @@ const text = {
                        "<32>{#p/basic}* 書架上標著“怪物生物學”。",
                        "<32>{#p/human}* （你取下了一本書...）",
                        "<32>{#p/basic}* “理論上講，\n  怪物的葬禮十分酷炫。”",
-                       "<32>* “當怪物老了，\n  然後翹辮子了，\n  他們就會化爲塵埃。”",
+                       "<32>* “當怪物老了，\n  然後翹辮子了，\n  他們就會化為塵埃。”",
                        "<32>* “在葬禮上，我們拿來這些塵埃，\n  灑在他生前最喜歡的東西上。”",
                        "<32>* “這樣一來，他的精神\n  就會留存在那件物品中...”",
                        "<32>* “唔，我湊夠字數了嗎？”\n* “我有點討厭寫這個。”",
@@ -4786,7 +4786,7 @@ const text = {
                        "<32>{#p/basic}* “怪物的軀體由魔法構成，\n  因此和靈魂密不可分。”",
                        "<32>* “如果一個怪物蓄意傷人，\n  還對此執迷不悟...”",
                        "<32>* “他就會變得異常強大。”",
-                       "<32>* “不過大多數我族同胞並不崇尚暴力，\n  至少不是打心底裏。”",
+                       "<32>* “不過大多數我族同胞並不崇尚暴力，\n  至少不是打心底裡。”",
                        "<32>* “可是，如果我們再次遭受襲擊，\n  能用於自衛的，只有一座前哨站...”",
                        "<32>* ...",
                        "<32>{#p/human}* （你不想再讀下去了。）"
@@ -4817,8 +4817,8 @@ const text = {
                   : [
                        "<32>{#p/basic}* 書架上標著“故園歷史”。",
                        "<32>{#p/human}* （你取下了一本書...）",
-                       "<32>{#p/basic}* “故園日夜，皆爲奇觀。”",
-                       "<32>* “晨曦初露，光塔劃空，天啓新篇。”",
+                       "<32>{#p/basic}* “故園日夜，皆為奇觀。”",
+                       "<32>* “晨曦初露，光塔劃空，天啟新篇。”",
                        "<32>* “至於白晝，光層共振，輝煌萬丈。”",
                        "<32>* “能量盡釋，夜幕悄然。”",
                        "<32>* “星辰降臨，魔力凝聚。”",
@@ -4838,7 +4838,7 @@ const text = {
                        "<32>* “我們的祖先每天漫無目的，\n  肆意嬉戲。”",
                        "<32>* “不敢相信！\n  那時的怪物甚至連衣服都不穿！”",
                        "<32>* “不過，隨著時間流逝，\n  我們有了新的追求，渴望進化。”",
-                       "<32>* “在那場偉大的復興運動中，\n  連魔法的本質都被擺上檯面，\n  成爲焦點。”",
+                       "<32>* “在那場偉大的復興運動中，\n  連魔法的本質都被擺上檯面，\n  成為焦點。”",
                        "<32>* “這些進步奠定了我們的社會結構，\n  乃至如今的生活方式。”",
                        "<32>* “...我還是不敢相信\n  長達兩千年的歷史中，\n  我們都在裸著亂跑。”",
                        "<32>* “哪有風度？”\n* “哪有時尚？”\n* “太不可思議了。”",
@@ -4868,7 +4868,7 @@ const text = {
                        "<32>{#p/human}* （你取下了一本書...）",
                        "<32>{#p/basic}* “Gerson曾說，\n  前哨站以前只是個小太空站。”",
                        "<32>* “在受了整整二十年苦之後，\n  有人將目光轉向了那道力場。\n  心想...”",
-                       "<32>* “‘這股強大的能量，\n  能否爲己所用呢？’”",
+                       "<32>* “‘這股強大的能量，\n  能否為己所用呢？’”",
                        "<32>* “這主意簡潔明瞭，\n  但又十分巧妙。”",
                        "<32>* “在這一想法的指引下，\n  核心最終建成，\n  我們因此有了穩定的能源。”",
                        "<32>* “時至今日，我們仍在使用它！”",
@@ -5183,7 +5183,7 @@ const text = {
                : [
                     "<32>{#p/basic}* It's a bookshelf.",
                     "<32>{#p/human}* （你取下了那本紅皮書...）",
-                    "<32>{#p/basic}* “人怪大戰進入到白熱化階段時，\n  皇家軍隊成立了一個祕密組織。”",
+                    "<32>{#p/basic}* “人怪大戰進入到白熱化階段時，\n  皇家軍隊成立了一個秘密組織。”",
                     "<32>{#p/basic}* “也就是所謂的‘特種武器’研發部，\n  專門用來搞實驗研究。”",
                     "<32>{#p/basic}* “他們造出了許多‘戰鬥利器’，\n  但實戰效果都是微乎其微。”",
                     "<32>{#p/basic}* “只有一個例外，\n  它就是被稱作‘頓悟’的魔法卷軸。”",
@@ -5203,7 +5203,7 @@ const text = {
                     ...(SAVE.data.b.oops ? [] : [ "<32>{#p/basic}* ... color me surprised." ])
                  ]
                : [
-                    "<32>{#p/basic}* （郵箱裏塞滿了未開封的垃圾郵件。）",
+                    "<32>{#p/basic}* （郵箱裡塞滿了未開封的垃圾郵件。）",
                     ...(SAVE.data.b.oops ? [] : [ "<32>{#p/basic}* ... he never reads the mail anyway." ])
                  ],
          s_sheddoor: () =>
@@ -5329,7 +5329,7 @@ const text = {
                ? [ "<32>{#p/human}* (The dog treats inside look to have been somewhat devoured.)" ]
                : SAVE.data.n.state_starton_doggo === 2 || SAVE.data.n.plot > 27
                ? SAVE.data.b.oops
-                  ? [ "<32>{#p/basic}* 裏面有一袋半空的狗糧。" ]
+                  ? [ "<32>{#p/basic}* 裡面有一袋半空的狗糧。" ]
                   : [ "<32>{#p/basic}* Inside is a pack of dog treats. It's half-full." ]
                : [
                     SAVE.data.n.state_starton_doggo === 3
@@ -5936,7 +5936,7 @@ const text = {
    b_opponent_lesserdog: {
       act_check: () =>
          world.goatbro
-            ? [ "<32>{#p/asriel2}* Canis Minor，一條蠢狗。\n* 估計他都不知道自己爲啥在這。" ]
+            ? [ "<32>{#p/asriel2}* Canis Minor，一條蠢狗。\n* 估計他都不知道自己為啥在這。" ]
             : [ "<32>{#p/story}* CANIS MINOR - ATK 12 DEF 2\n* Wields a shiny dogger made of fido-nium." ],
       act_check2: [
          "<32>{#p/story}* CANIS MINOR - ATK 12 DEF 2\n* Scarred for life, this puppy wants to turn tail and run."
@@ -6008,7 +6008,7 @@ const text = {
       ],
       petText7: () => [
          "<32>{#p/human}* （你得跳起來才摸得到狗子了。）",
-         ...(world.goatbro ? [ "<32>{#p/asriel2}* 我們不能以摸狗爲生。" ] : [])
+         ...(world.goatbro ? [ "<32>{#p/asriel2}* 我們不能以摸狗為生。" ] : [])
       ],
       petText8: () => [
          "<32>{#p/human}* （你想摸摸Canis Minor，\n  結果，連夠都夠不到。）",
@@ -6023,7 +6023,7 @@ const text = {
       petText10: () => [
          "<32>{#p/human}* （你摸了摸Canis Minor。）",
          "<32>{#p/basic}* Many small pets for a dog, one giant neck amongst dog-kind.",
-         ...(world.goatbro ? [ "<32>{#p/asriel2}* 爲啥要在這浪費時間？" ] : [])
+         ...(world.goatbro ? [ "<32>{#p/asriel2}* 為啥要在這浪費時間？" ] : [])
       ],
       petText11: () => [
          "<32>{#p/human}* （你呼喚著Canis Minor，\n然而它已經聽不到你說話了。）",
@@ -6177,7 +6177,7 @@ const text = {
       ],
       resmellText2: [
          "<32>{#p/human}* （你讓狗狗們再聞聞你。）",
-         "<32>* （在泥裏打了幾個滾後，\n  你的氣味正常了。）"
+         "<32>* （在泥裡打了幾個滾後，\n  你的氣味正常了。）"
       ],
       resmellText3: [
          "<32>{#p/human}* （你讓狗狗們再聞聞你，\n  但他們已經知道你的氣味正常了。）"
@@ -6191,16 +6191,16 @@ const text = {
             ? [ "<32>{#p/asriel2}* 你會把衣服弄髒的，$(name)。" ]
             : [ "<32>{#p/story}* 狗狗們也許想重新聞聞你。" ],
       rollText: () => [
-         "<32>{#p/human}* （你在泥裏打了幾個滾。）\n* （這泥好像是合成的。）",
+         "<32>{#p/human}* （你在泥裡打了幾個滾。）\n* （這泥好像是合成的。）",
          "<32>{#p/basic}* 你的氣味有變化了...",
          ...(world.goatbro ? [ "<32>{#p/asriel2}* 你在做什麼。" ] : [])
       ],
       rollText2: [
-         "<32>{#p/human}* （你在泥裏打了幾個滾。）\n* （這泥好像是合成的。）",
+         "<32>{#p/human}* （你在泥裡打了幾個滾。）\n* （這泥好像是合成的。）",
          "<33>{#p/basic}* 你的氣味已經變了。"
       ],
       rollTextLone: () => [
-         "<32>{#p/human}* （你在Dogaressa的塵埃裏打了幾個滾。）",
+         "<32>{#p/human}* （你在Dogaressa的塵埃裡打了幾個滾。）",
          "<32>{#p/basic}* Dogamy更頹喪了。",
          ...(world.goatbro ? [ "<32>{#p/asriel2}* ..." ] : [])
       ],
@@ -6284,7 +6284,7 @@ const text = {
          "<33>{#p/human}* (You encourage Dogaressa to sniff you, and she forcefully shoves her snout in your face.)"
       ],
       rollTextLone: () => [
-         "<32>{#p/human}* （你在Dogamy的塵埃裏打了幾個滾。）",
+         "<32>{#p/human}* （你在Dogamy的塵埃裡打了幾個滾。）",
          "<32>{#p/basic}* Dogarassa更瘋狂了。",
          ...(world.goatbro ? [ "<32>{#p/asriel2}* ..." ] : [])
       ],
@@ -6297,7 +6297,7 @@ const text = {
    b_opponent_greatdog: {
       act_check: () =>
          world.goatbro
-            ? [ "<33>{#p/asriel2}* Canis Major，一條傻狗。\n* 這羣狗裏面，\n  屬它頭腦簡單，四肢發達。" ]
+            ? [ "<33>{#p/asriel2}* Canis Major，一條傻狗。\n* 這群狗裡面，\n  屬它頭腦簡單，四肢發達。" ]
             : [ "<32>{#p/story}* CANIS MAJOR - ATK 15 DEF 8\n* It's so excited that it thinks fighting is just play." ],
       act_check2: [ "<32>{#p/story}* CANIS MAJOR - ATK 15 DEF 8\n* Desperate for some love and attention..." ],
       act_check3: [ "<32>{#p/story}* CANIS MAJOR - ATK 15 DEF 8\n* All tuckered out." ],
@@ -6317,7 +6317,7 @@ const text = {
          world.goatbro
             ? [
                  "<32>{#p/human}* （你扔出扳手。）\n* （Canis Major把它吸收進自己的身體，\n  然後若無其事地繼續玩耍。）",
-                 "<32>{#p/asriel2}* 呃... 這河裏嗎。"
+                 "<32>{#p/asriel2}* 呃... 這河裡嗎。"
               ]
             : [
                  "<32>{#p/human}* (You throw the spanner.)\n* (The dog runs to get it.)\n* (You play fetch for a while.)"
@@ -6744,7 +6744,7 @@ const text = {
       foodText: [ "<11>{#p/asgore}{#f/5}Is that..." ],
       idleText1: [ "<11>{#p/asgore}{#f/1}開玩笑吧..." ],
       idleText2: [ "<11>{#p/asgore}{#f/1}一定要\n訴諸暴力嗎？" ],
-      idleText3: [ "<11>{#p/asgore}{#f/1}爲什麼不能\n和平解決呢？" ],
+      idleText3: [ "<11>{#p/asgore}{#f/1}為什麼不能\n和平解決呢？" ],
       idleText4: [ "<11>{#p/asgore}{#f/1}真的有必要嗎？" ],
       stickText: [
          "<32>{#p/human}* （你朝Asgore扔出扳手。）\n* （扳手直接穿過了他的身體。）",
@@ -6771,7 +6771,7 @@ const text = {
             ? [ "<32>{#p/human}* （7 HP。）" ]
             : [ "<32>{#p/basic}* \"Exoberries\" Heals 7 HP\n* A small branch of semi-translucent berries." ],
       name: "洋梅",
-      use: [ "<32>{#p/human}* （你喫掉了洋梅。）" ]
+      use: [ "<32>{#p/human}* （你吃掉了洋梅。）" ]
    },
    i_blookpie: {
       battle: {
@@ -6794,7 +6794,7 @@ const text = {
             : [ "<32>{#p/basic}* “Exoberry Pie” 回覆 99 HP\n* 將新鮮洋梅浸潤在果凍中製作而成。" ],
       name: "洋梅果凍派",
       use: () => [
-         "<32>{#p/human}* （你喫掉了洋梅果凍派。）",
+         "<32>{#p/human}* （你吃掉了洋梅果凍派。）",
          ...(instance('main', 'blookishly') !== void 0 // NO-TRANSLATE
 
             ? game.room === '_frontier4' // NO-TRANSLATE
@@ -6857,14 +6857,14 @@ const text = {
    },
    i_fruit: {
       battle: {
-         description: "非歐幾何形狀的水果，\n裏頭比外表還大。",
+         description: "非歐幾何形狀的水果，\n裡頭比外表還大。",
          name: "幽靈水果"
       },
       drop: [ "<32>{#p/human}* (You fold the Ghost Fruit in on itself.)" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （15 HP。）" ]
-            : [ "<32>{#p/basic}* “幽靈水果” 回覆 15 HP\n* 非歐幾何形狀的水果，\n  裏頭比外表還大。" ],
+            : [ "<32>{#p/basic}* “幽靈水果” 回覆 15 HP\n* 非歐幾何形狀的水果，\n  裡頭比外表還大。" ],
       name: "幽靈水果",
       use: [ "<32>{#p/human}* (You unpacked the Ghost Fruit's many dimensions.)" ]
    },
@@ -7002,7 +7002,7 @@ const text = {
          name: "Spaghetti"
       },
       drop: () => [
-         "<32>{#p/human}* （你把意大利麪扔掉了。）",
+         "<32>{#p/human}* （你把意大利麵扔掉了。）",
          ...(!battler.active && SAVE.data.n.state_papyrus_spaghet !== 0
             ? SAVE.data.n.plot === 72 && game.room === 'c_asgore_kitchen' // NO-TRANSLATE
 
@@ -7060,7 +7060,7 @@ const text = {
             : [ "<32>{#p/basic}* \"Spaghetti\" Heals 16 HP\n* Silken spaghetti, finely aged in a time dilation unit." ],
       name: "Spaghetti",
       use: () => [
-         "<32>{#p/human}* （你喫光了意大利麪。）",
+         "<32>{#p/human}* （你吃光了意大利麵。）",
          ...(!battler.active && SAVE.data.n.state_papyrus_spaghet !== 0
             ? SAVE.data.n.plot === 72 && game.room === 'c_asgore_kitchen' // NO-TRANSLATE
 
@@ -7150,7 +7150,7 @@ const text = {
             ? [ "<32>{#p/human}* （22 HP。）" ]
             : [ "<32>{#p/basic}* “光彩漩渦” 回覆 22 HP\n* 一個五彩斑斕的發光瑞士捲。" ],
       name: "光彩漩渦",
-      use: [ "<32>{#p/human}* （你喫掉了光彩漩渦。）" ]
+      use: [ "<32>{#p/human}* （你吃掉了光彩漩渦。）" ]
    },
    i_voidy: {
       battle: {
@@ -7330,8 +7330,8 @@ const text = {
          world.scared_ghost
             ? [ "<32>{#p/basic}* There's no note here." ]
             : world.runaway
-            ? [ "<32>{#p/basic}* 這裏有一張字條。", "<32>{#p/napstablook}* \"we had no choice...\"" ]
-            : [ "<32>{#p/basic}* 這裏有一張字條。", "<32>{#p/napstablook}* “對不起，我得走了...”" ],
+            ? [ "<32>{#p/basic}* 這裡有一張字條。", "<32>{#p/napstablook}* \"we had no choice...\"" ]
+            : [ "<32>{#p/basic}* 這裡有一張字條。", "<32>{#p/napstablook}* “對不起，我得走了...”" ],
       sell1: () =>
          blookGone()
             ? [ "<30>{#p/human}* （你從櫃檯後面拿走了42G。）" ]
@@ -7619,10 +7619,10 @@ const text = {
          world.bulrun ? "<23>{#p/basic}* ...但是人們都逃走了。" : "<23>{#p/basic}* ...但是誰也沒有來。",
       note: () =>
          world.runaway
-            ? [ "<32>{#p/basic}* 這裏有一張字條。", "<32>{#p/basic}* \"Please don't come after us.\"" ]
+            ? [ "<32>{#p/basic}* 這裡有一張字條。", "<32>{#p/basic}* \"Please don't come after us.\"" ]
             : SAVE.data.n.plot === 72
-            ? [ "<32>{#p/basic}* 這裏有一張字條。", "<33>{#p/basic}* \"I'm sorry I couldn't come back.\"" ]
-            : [ "<32>{#p/basic}* 這裏有一張字條。", "<33>{#p/basic}* “請不要傷害我的家人。”" ],
+            ? [ "<32>{#p/basic}* 這裡有一張字條。", "<33>{#p/basic}* \"I'm sorry I couldn't come back.\"" ]
+            : [ "<32>{#p/basic}* 這裡有一張字條。", "<33>{#p/basic}* “請不要傷害我的家人。”" ],
       sell1: () =>
          world.population === 0 || world.runaway
             ? [ "<30>{#p/human}* （你從櫃檯後面拿走了758G。）" ]
@@ -11041,7 +11041,7 @@ const text = {
                : [ "<32>{#p/human}* (The starlight remains dim.)\n* (Somehow, this fills you with determination.)" ]
       },
       s_spaghetti: {
-         name: "星港 - 意麪樞紐",
+         name: "星港 - 意麵樞紐",
          text: () =>
             [
                [ "<32>{#p/human}* (A plate of spaghetti defying the laws of physics fills you with determination.)" ],

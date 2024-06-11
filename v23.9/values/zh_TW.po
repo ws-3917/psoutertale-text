@@ -126,7 +126,7 @@ msgid ""
 msgstr ""
 
 msgid "May your stability provide a solid foundation on your journey."
-msgstr "理智會爲你築牢這趟旅程的基石。"
+msgstr "理智會為你築牢這趟旅程的基石。"
 
 msgid "May the experience only add to your state of satisfaction."
 msgstr ""
@@ -242,7 +242,7 @@ msgid "Roar."
 msgstr ""
 
 msgid "Wah ha ha! Why not?"
-msgstr "哇哈哈！爲什麼不呢？"
+msgstr "哇哈哈！為什麼不呢？"
 
 msgid "What. What! WHAT!"
 msgstr "什麼，什麼！什麼！！！"

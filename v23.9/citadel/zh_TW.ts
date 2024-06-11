@@ -4042,14 +4042,14 @@ const text = {
                        "<32>{#p/basic}* 一個書架。",
                        "<32>{#p/human}* （你取下了一本書...）",
                        "<32>{#p/basic}* This book has been signed by \"Toriel Dreemurr.\"",
-                       "<32>{#p/basic}* “《Dreemurr家族的美味祕笈：蝸牛派》”",
+                       "<32>{#p/basic}* “《Dreemurr家族的美味秘笈：蝸牛派》”",
                        "<32>* “蝸牛派是Dreemurr家族的\n  一道風味獨特的傳統美食。”",
                        "<32>* “製作它其實非常簡單，\n  只需五個步驟：”",
                        "<32>* “首先，輕柔地展開酥脆的派底，\n  在烘焙盤中鋪平。”",
                        "<32>* “然後，將香濃的蒸發奶、\n  新鮮的雞蛋和選料香料\n  混合在一起，攪拌至絲滑細膩。”",
                        "<32>* “接著，小心地將幾隻新鮮活蝸牛\n  加入到之前調製好的香濃奶糊中。\n  確保它們完全浸入。”",
                        "<32>* “之後，將這層混合物\n  輕輕倒入準備好的派底，均勻鋪開。”",
-                       "<32>* “最後，將麪糰切成細條，\n  編織成優雅的格子形狀，\n  覆蓋在派面上。”",
+                       "<32>* “最後，將麵糰切成細條，\n  編織成優雅的格子形狀，\n  覆蓋在派面上。”",
                        "<32>* “現在，將派放到烤箱中，\n  烤至金黃酥脆。”",
                        "<32>* “出爐後，派面金黃誘人。\n  令其稍作冷卻，即可切片、上桌！”",
                        "<32>{#p/human}* (You put the book back on the shelf.)"
@@ -5314,13 +5314,13 @@ const text = {
       attackTalk1: [
          "<20>{*}{#p/asriel3}{#e/asriel/1}你... 怎麼可能...",
          "<20>{*}{#p/asriel3}{#e/asriel/3}...",
-         "<20>{*}{#p/asriel3}{#e/asriel/2}呵呵呵... 以爲自己很強\n強到可以超越神明，\n是嗎？",
+         "<20>{*}{#p/asriel3}{#e/asriel/2}呵呵呵... 以為自己很強\n強到可以超越神明，\n是嗎？",
          "<20>{*}{#p/asriel3}{#e/asriel/0}那，就來看看你\n能不能受得了這個！"
       ],
       attackTalk2: [
          "<20>{*}{#p/asriel3}{#e/asriel/3}...",
-         "<20>{*}{#p/asriel3}{#e/asriel/1}以爲區區這樣\n就能傷得了我？",
-         "<20>{*}{#p/asriel3}{#e/asriel/0}我纔是這裏的主宰！"
+         "<20>{*}{#p/asriel3}{#e/asriel/1}以為區區這樣\n就能傷得了我？",
+         "<20>{*}{#p/asriel3}{#e/asriel/0}我才是這裡的主宰！"
       ],
       attackTalk3: [
          "<20>{*}{#p/asriel3}{#e/asriel/2}...而且，\n就算你能打敗我...",
@@ -5346,7 +5346,7 @@ const text = {
          "<20>{*}{#p/asriel3}{#e/asriel/8}更重要的是...\n如果我被你打敗了...",
          "<20>{*}{#p/asriel3}{#e/asriel/7}我永遠，永遠\n都當不了你的對手了。",
          "<20>{*}{#p/asriel3}{#e/asriel/9}永遠也不會\n得到你的尊重！",
-         "<20>{*}{#p/asriel3}{#e/asriel/10}{#i/3}{@random:1.1,1.1}該死，$(name)...\n你他媽的爲什麼總要贏？"
+         "<20>{*}{#p/asriel3}{#e/asriel/10}{#i/3}{@random:1.1,1.1}該死，$(name)...\n你他媽的為什麼總要贏？"
       ],
       attackTalk7: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}..." ],
       attackTalk7x: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name)，我..." ],
@@ -6286,14 +6286,14 @@ const text = {
       drop: [ "<32>{#p/human}* (You throw away the Exoberries.)" ],
       info: [ "<32>{#p/human}* （3 HP。）" ],
       name: "洋梅",
-      use: [ "<32>{#p/human}* （你喫掉了洋梅。）" ]
+      use: [ "<32>{#p/human}* （你吃掉了洋梅。）" ]
    },
    i_archive_candy: {
       battle: { description: "4 HP。", name: "糖果" },
       drop: [ "<32>{#p/human}* (You throw away the Monster Candy.)" ],
       info: [ "<32>{#p/human}* （4 HP。）" ],
       name: "怪物糖果",
-      use: [ "<32>{#p/human}* （你喫掉了怪物糖果。）" ]
+      use: [ "<32>{#p/human}* （你吃掉了怪物糖果。）" ]
    },
    i_archive_rations: {
       battle: { description: "5 HP。", name: "Rations" },

@@ -2044,7 +2044,7 @@ msgid "True Reset"
 msgstr "真正的重置"
 
 msgid "Name the stranded human."
-msgstr "爲受困的人類命名："
+msgstr "為受困的人類命名："
 
 msgid "Quit"
 msgstr "返回"
@@ -2203,7 +2203,7 @@ msgstr ""
 
 msgid "The remaining MONSTERS were banished to an abandoned outpost."
 msgstr ""
-"{#i/x2}並將戰敗的怪物族羣{^1}\n"
+"{#i/x2}並將戰敗的怪物族群{^1}\n"
 "遷徙至一座{^1}\n"
 "荒廢的邊境前哨站。ゐ"
 
@@ -2256,7 +2256,7 @@ msgid "Press any button on your gamepad to open the keyboard."
 msgstr "按手柄上任意按鈕打開鍵盤。"
 
 msgid "Launch"
-msgstr "啓動"
+msgstr "啟動"
 
 msgid "Rename"
 msgstr "重命名"
