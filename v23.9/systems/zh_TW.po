@@ -33,23 +33,23 @@ msgid "It cannot end now!"
 msgstr "現在還不能結束！"
 
 msgid "    * Escaped..."
-msgstr "    * 先走一步..."
+msgstr "   * 先走一步..."
 
 msgid "    * I'm outta here."
-msgstr "    * 我先撤了。"
+msgstr "   * 我先撤了。"
 
 msgid "    * I've got better to do."
-msgstr "    * 我還有別的事要做。"
+msgstr "   * 我還有別的事要做。"
 
 msgid "    * Don't slow me down."
-msgstr "    * 別拖我後腿。"
+msgstr "   * 別拖我後腿。"
 
 msgid ""
 "    * Ran away with $(x) EXP\n"
 "      and $(y)G."
 msgstr ""
-"    * 你逃跑了，\n"
-"      你獲得了$(x) EXP和$(y)G。"
+"   * 你逃跑了，\n"
+"     你獲得了$(x) EXP和$(y)G。"
 
 msgid "* Assist"
 msgstr "* 外援"
@@ -618,9 +618,6 @@ msgstr "§fill:#ff0§< 遊戲開發者 >§fill:#fff§"
 
 msgid "spacey_432"
 msgstr "spacey_432"
-
-msgid ""
-msgstr ""
 
 msgid "§fill:#ff0§< WRITER >§fill:#fff§"
 msgstr "§fill:#ff0§< 文本編寫 >§fill:#fff§"

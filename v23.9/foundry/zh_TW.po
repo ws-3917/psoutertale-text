@@ -4084,7 +4084,7 @@ msgid ""
 "speak..."
 msgstr ""
 "<32>{#p/basic}* 有東西正在靠-靠-靠近我...\n"
-"   嚇-嚇-嚇死我了！"
+"  嚇-嚇-嚇死我了！"
 
 msgid ""
 "<32>{#p/undyne}* Doggo?\n"
