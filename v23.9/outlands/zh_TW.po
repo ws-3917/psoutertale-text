@@ -6061,7 +6061,7 @@ msgid ""
 msgstr ""
 "<32>* （假如你使出特別的{@fill:#ff0}放招{@fill:#fff}，\n"
 "  或是透過{@fill:#ff0}搏鬥{@fill:#fff}把它們打得\n"
-"  剩下一絲氣息...）ゐ"
+"  只剩下一絲氣息...）ゐ"
 
 msgid "<32>* (They might not want to battle you anymore.)"
 msgstr "<32>* （他們八成就無心再戰。）ゐ"
