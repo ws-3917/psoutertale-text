@@ -389,8 +389,54 @@ const text = {
             "§fill:#ff0§< 特別鳴謝 >§fill:#fff§",
             "ThatGuyWhoLikesFood",
             "§fill:#808080§感謝你幫助我完成了\n遊戲的幾個關鍵部分，\n並始終支持我的夢想。§fill:#fff§"
-         ],
-         ["特別鳴謝 由 §fill:#ff0§Mavis與朋友們§fill:#fff§ 提供"]
+         
+        ],
+         [
+            "§fill:#ff0§< 漢化組成員 >§fill:#fff§",
+            "",
+            "§fill:#ff7§【組長】§fill:#fff§",
+            "ws3917",
+            "§fill:#ff7§【程式】§fill:#fff§",
+            "ws3917",
+            "",
+            "§fill:#ff7§【文翻】§fill:#fff§",
+            "ws3917",
+            "Murder--Sans_MDR",
+            "1個渣渣",
+            "§fill:#ff7§【文校】§fill:#fff§",
+            "ws3917",
+            "曉曉_Akatsuki"
+        ],
+        [
+            "§fill:#ff0§< 漢化組成員 >§fill:#fff§",
+            "",
+            "§fill:#ff7§【美術】§fill:#fff§",
+            "曉曉_Akatsuki",
+            "屑moons月亮君",
+            "彳卸雲鬼_",
+            "mustad（邊框Mod）",
+            "",
+            "§fill:#ff7§【精神支持&推廣】§fill:#fff§",
+            "幻-_-風",
+            "Murder--Sans_MDR",
+            "AX暗星233",
+            "屑moons月亮君"
+        ],
+        [
+            "§fill:#ff0§< 漢化組成員 >§fill:#fff§",
+            "",
+            "§fill:#ff7§【漢化測試】§fill:#fff§",
+            "ws3917",
+            "Murder--Sans_MDR",
+            "雪理奈",
+            "（以及其他漢化組成員）",
+            "",
+            "感謝漢化組成員的努力付出！",
+            "同時，也感謝您對這款遊戲的喜愛！",
+            "",
+            "§fill:#808080§P.S. 漢化組正在為遊戲製作各種Mod！\n歡迎B站關注@ws3917\n瞭解最新Mod開發進度！§fill:#fff§"
+        ],
+["特別鳴謝 由 §fill:#ff0§Mavis與朋友們§fill:#fff§ 提供"]
       ],
 
       final_frontier: {
