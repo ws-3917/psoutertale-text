@@ -619,6 +619,9 @@ msgstr "§fill:#ff0§< 遊戲開發者 >§fill:#fff§"
 msgid "spacey_432"
 msgstr "spacey_432"
 
+msgid ""
+msgstr ""
+
 msgid "§fill:#ff0§< WRITER >§fill:#fff§"
 msgstr "§fill:#ff0§< 文本編寫 >§fill:#fff§"
 
@@ -2200,7 +2203,7 @@ msgstr ""
 
 msgid "The remaining MONSTERS were banished to an abandoned outpost."
 msgstr ""
-"{#i/x2}並將戰敗的怪物族群{^1}\n"
+"{#i/x2}並將戰敗的怪物族羣{^1}\n"
 "遷徙至一座{^1}\n"
 "荒廢的邊境前哨站。ゐ"
 

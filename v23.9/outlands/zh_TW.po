@@ -8007,7 +8007,7 @@ msgstr ""
 "<20>{#p/toriel}這個傢伙真是夠\n"
 "狠心的耶，對那麼弱小\n"
 "又需要幫忙的小孩子\n"
-"都能下得了手哦...ゐ"
+"都能下得了手喔...ゐ"
 
 msgid "<20>Have no fear, little one."
 msgstr "<20>不要害怕，孩子。"
@@ -9447,7 +9447,7 @@ msgid "Puzzle Help"
 msgstr "解謎提示"
 
 msgid "Insult"
-msgstr "谯罵ゐ"
+msgstr "譙罵ゐ"
 
 msgid "<25>{#p/toriel}{#f/1}* You want to know more about me...?"
 msgstr ""

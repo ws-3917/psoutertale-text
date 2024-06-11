@@ -4786,7 +4786,7 @@ msgid "Flirt"
 msgstr "放電ゐ"
 
 msgid "Insult"
-msgstr "谯罵ゐ"
+msgstr "譙罵ゐ"
 
 msgid "<32>{#s/phone}{#p/event}* Dialing..."
 msgstr "<32>{#s/phone}{#p/event}* 滴滴滴..."

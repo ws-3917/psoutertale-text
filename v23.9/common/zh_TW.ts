@@ -2136,7 +2136,7 @@ const text = {
       about_asgore: "來個自我介紹",
       dad: "叫他「爹地」",
       flirt_asgore: "放電",
-      insult_asgore: "谯罵"
+      insult_asgore: "譙罵"
    },
 
    c_call_common: {

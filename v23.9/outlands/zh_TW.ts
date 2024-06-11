@@ -3654,7 +3654,7 @@ const text = {
       ],
       twinkly17: [ "<20>{#v/1}那麼我們就直奔主題吧。", "<20>嘻嘻嘻..." ],
       twinkly18: [ "<20>{*}{#f/2}{@random:1.1,1.1}死吧。{^20}{%}" ],
-      twinkly19: [ "<20>{#p/toriel}這個傢伙真是夠\n狠心的耶，對那麼弱小\n又需要幫忙的小孩子\n都能下得了手哦..." ],
+      twinkly19: [ "<20>{#p/toriel}這個傢伙真是夠\n狠心的耶，對那麼弱小\n又需要幫忙的小孩子\n都能下得了手喔..." ],
       twinkly20: [
          "<20>不要害怕，孩子。",
          "<20>我是{@fill:#003cff}TORIEL{@fill:#000}，\n{@fill:#f00}外域{@fill:#000}的管理員。",
@@ -4139,7 +4139,7 @@ const text = {
       flirt: "放電",
       toriel: "Toriel的電話",
       puzzle: "解謎提示",
-      insult: "谯罵"
+      insult: "譙罵"
    },
 
    c_call_outlands: {
