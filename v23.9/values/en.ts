@@ -8,11 +8,13 @@ export default {
    itemInfoX_use: 4,
    itemDropX_equip: 0,
    itemDropX_use: 0,
+   loadLVX: 8,   // WS3917
+   loadTimeX: 0,  // WS3917
    loadContinueX: 0,
-   loadObserveX: 0,
-   loadResetX: 0,
-   loadSettingsX: 0,
-   loadTrueResetX: 0,
+   loadObserveX: 4,
+   loadResetX: 13,
+   loadSettingsX: 1,
+   loadTrueResetX: 16,
    // START-TRANSLATE
    nameChoiceCameos: {
       // no names
@@ -219,6 +221,8 @@ export default {
       艾斯利尓: '...',
       小羊: '...',
       艾斯利: '...',
+
+      游乐比: "umum↑umumumumm↑umumm↑\numumumumm↓\numumumm→umum"
    },
    // END-TRANSLATE
    nameChoiceRestrictions: [
@@ -243,20 +247,30 @@ export default {
       'undyne',
       '安戴因'
    ],
-   namePromptX: 0,
-   nameValueX: 0,
-   nameValueY: 0,
+   namePromptX: 16,
+   nameValueX: -6,
+   nameValueY: 36,
    nameLetterMap: [],
    nameLetterPosition: () => { },
    nameLetterValidation: (char: string) => {
       return /[A-Za-z]/g.test(char) || CosmosTextUtils.cjk(char);
    },
    nameQuitX: 0,
-   nameBackspaceX: 0,
-   nameDoneX: 0,
-   nameConfirmX: 0,
-   nameNoX: 0,
-   nameYesX: 0,
+   nameBackspaceX: 28,
+   nameDoneX: 14,
+   nameConfirmX: -4,
+   nameNoX: 4,
+   nameYesX: 3,
    nameGoBackX: 0,
-   settingsHeaderX: 0
+   settingsHeaderX: 0,
+
+   // WS3917
+   box1X: 9,
+   box2X: -2,
+   boxFinishX: 24,
+
+   // WS3917
+   saveLVX: 8,
+   saveX: 14,
+   saveReturnX: 18
 };

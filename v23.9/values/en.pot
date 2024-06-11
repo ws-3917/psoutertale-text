@@ -319,3 +319,9 @@ msgstr ""
 
 msgid "..."
 msgstr ""
+
+msgid ""
+"umum↑umumumumm↑umumm↑\n"
+"umumumumm↓\n"
+"umumumm→umum"
+msgstr ""

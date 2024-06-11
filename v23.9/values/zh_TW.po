@@ -2,9 +2,6 @@
 msgid ""
 msgstr ""
 
-msgid ""
-msgstr ""
-
 msgid "You must choose a name."
 msgstr "你必須選定一個名字。"
 
@@ -340,3 +337,12 @@ msgstr "不可以。"
 
 msgid "..."
 msgstr "..."
+
+msgid ""
+"umum↑umumumumm↑umumm↑\n"
+"umumumumm↓\n"
+"umumumm→umum"
+msgstr ""
+"嗯嗯↑嗯嗯嗯嗯嗯↑嗯嗯↑\n"
+"嗯嗯嗯嗯嗯嗯嗯↓\n"
+"嗯嗯嗯→嗯嗯"
