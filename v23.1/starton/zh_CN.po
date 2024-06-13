@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-12 13:19+0000\n"
-"PO-Revision-Date: 2024-06-13 14:58+0000\n"
+"PO-Revision-Date: 2024-06-13 16:12+0000\n"
 "Last-Translator: ws3917 <inf.3917.restart@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/2-starton/zh_Hans/>\n"
@@ -7533,59 +7533,54 @@ msgstr ""
 msgid ""
 "<25>{#p/sans}{#f/0}* huh?\n"
 "* what's with the face?"
-msgstr "<25>{#p/sans}{#f/0}* 你这表情是什么意思？"
+msgstr "<25>{#p/sans}{#f/0}* 嘿，干嘛露出这种表情？"
 
-#, fuzzy
 msgid "<25>{#p/sans}{#f/2}* ... didn't you like my whoopee cushion?"
-msgstr "<25>{#p/sans}{#f/2}* ... 你不喜欢我放屁垫的把戏吗?"
+msgstr "<25>{#p/sans}{#f/2}* ...不喜欢放屁垫的把戏吗？\n"
 
-#, fuzzy
 msgid ""
 "<25>{#f/0}* ... eh.\n"
 "* to each their own."
-msgstr ""
-"<25>{#f/0}* ... 这个东西嘛。\n"
-"* 每个人都有自己的看法。"
+msgstr "<25>{#f/0}* ...没关系，人各有志嘛。"
 
 msgid "<25>{#p/sans}{#f/4}* heheh... nothin' like a good whoopee cushion."
 msgstr ""
 
-#, fuzzy
 msgid "<25>{#f/0}* anyway, you're a human, right?"
 msgstr "<25>{#f/0}* 总之，你是个人类，对吧？"
 
 msgid "<25>{#f/5}* that's fantastic."
-msgstr "<25>{#f/5}* 那真的是酷毙了。"
+msgstr "<25>{#f/5}* 真酷。"
 
-#, fuzzy
 msgid ""
 "<25>{#f/0}* i'm sans.\n"
 "* sans the skeleton."
 msgstr ""
-"<25>{#f/0}* 我是sans.\n"
-"* 骷髅sans."
+"<25>{#f/0}* 我是sans。\n"
+"* 骷髅sans。"
 
 msgid "<25>{#f/3}* as a royal sentry, my job is to capture humans."
-msgstr "<25>{#f/3}* 作为一位皇家哨兵，我的职责是抓捕人类。"
+msgstr ""
+"<25>{#f/3}* 作为一名皇家哨兵，\n"
+"  现在我本该去抓捕人类的。"
 
-#, fuzzy
 msgid "<25>{#f/4}* but... y'know..."
-msgstr "<25>{#f/4}* 但是...你要知道..."
+msgstr "<25>{#f/4}* 不过呢..."
 
-#, fuzzy
 msgid "<25>{#f/2}* i don't really feel like doing much work today."
-msgstr "<25>{#f/2}* 我今天实在是懒得做这么多活了。"
+msgstr "<25>{#f/2}* 今天，我没心思干这事。"
 
-#, fuzzy
 msgid "<25>{#f/0}* as for my brother, well..."
-msgstr "<25>{#f/0}* 至于我的兄弟嘛..."
+msgstr "<25>{#f/0}* 不过，我的兄弟..."
 
-#, fuzzy
 msgid "<25>{#f/5}* he's OVERFLOWING with the stuff."
-msgstr "<25>{#f/5}* 他在成天捣鼓这件事。"
+msgstr "<25>{#f/5}* 他想抓个人类都快想疯了。"
 
 msgid "<25>{#f/0}* it took everything i had just to get him to stay home."
-msgstr "<25>{#f/0}* 我花了三辈子的功夫才让他留在家里。"
+msgstr ""
+"<25>{#f/0}* 所以，为了让他\n"
+"  能安心在家待着...\n"
+"  我整整费了三辈子工夫。"
 
 msgid "<25>{#f/2}* i've got better things to do."
 msgstr ""
@@ -7600,30 +7595,35 @@ msgid ""
 "<25>* i have an idea.\n"
 "* jump across that gap, will ya?"
 msgstr ""
-"<25>* 我有一个主意。\n"
-"* 要不跳过那个间隙？"
+"<25>* 我有个主意。\n"
+"* 跳过那个空隙。"
 
 msgid ""
 "<26>{#f/4}* yeah, jump right across.\n"
 "* my bro set the gravity too low to stop anyone."
 msgstr ""
-"<26>{#f/4}* 跳过去就行了。\n"
-"* 我的兄弟把重力调得太小了，谁都跳得过去。"
+"<26>{#f/4}* 别怕，直接跳过去就行。\n"
+"* 我兄弟把重力设得很小，\n"
+"  肯定掉不下去。"
 
 msgid "<25>{#p/sans}* well, here we are."
-msgstr "<25>{#p/sans}* 我们到了。"
+msgstr "<25>{#p/sans}* 到了。"
 
 msgid ""
 "<25>{#f/3}* i'm afraid there's not much else i can show you right now..."
-msgstr "<25>{#f/3}* 恐怕我当下无法展示太多东西了…"
+msgstr ""
+"<25>{#f/3}* 不过... \n"
+"  现在我没啥想给你看的。"
 
 msgid ""
 "<25>{#f/2}* but maybe i'll come up with something if you keep heading "
 "forward."
-msgstr "<25>{#f/2}* 不过如果你选择前行的话，我也许会给你展示一些东西。"
+msgstr "<25>{#f/2}* 我先在这待一会。"
 
 msgid "<25>{#f/0}* for now, i'll just hang around here."
 msgstr ""
+"<25>{#f/0}* 等你再往前走走，\n"
+"  说不定我就有灵感了。"
 
 msgid "<25>{#p/sans}* quick, to the gravometric inverter."
 msgstr ""
