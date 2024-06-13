@@ -3758,9 +3758,9 @@ const text = {
       robot11: [ "<32>{#p/basic}* Why did I give myself away so easily?" ],
       robot12: [ "<32>{#p/basic}* Begone!" ],
       sans1: [
-         "<99>{#p/darksans}{#i/4}* {@spacing:2.25,0}人類。",
-         "<99>* {@spacing:2.25,0}難道你不知道{@spacing:}\n  {@spacing:2.25,0}怎麼和新朋友{@spacing:}\n  {@spacing:2.25,0}打招呼嗎？",
-         "<99>* {@spacing:2.25,0}轉過身來{@spacing:}\n  {@spacing:2.25,0}和我握手。"
+         "<99>{#p/darksans}{#i/4}* {@spacing:4,0}{#x4}人類。",
+         "<99>* {@spacing:4,0}{#x4}難道你不知道{@spacing:}\n  {@spacing:4,0}{#x4}怎麼和新朋友{@spacing:}\n  {@spacing:4,0}{#x4}打招呼嗎？",
+         "<99>* {@spacing:4,0}{#x4}轉過身來{@spacing:}\n  {@spacing:4,0}{#x4}和我握手。"
       ],
       sans2: () => [
          ...(world.edgy
