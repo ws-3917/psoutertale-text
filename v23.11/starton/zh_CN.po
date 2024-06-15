@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-12 13:19+0000\n"
-"PO-Revision-Date: 2024-06-15 02:19+0000\n"
-"Last-Translator: onezhazha <1561536469@qq.com>\n"
+"PO-Revision-Date: 2024-06-15 09:41+0000\n"
+"Last-Translator: XieFishIsHere <3548744951@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/2-starton/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -929,13 +929,17 @@ msgstr ""
 msgid "<32>{#p/basic}* Nothing new back here."
 msgstr ""
 
+#, fuzzy
 msgid "<25>{#p/sans}* oh, hey there."
-msgstr ""
+msgstr "<25>{#p/sans}* 哦，你来了。"
 
+#, fuzzy
 msgid ""
 "<25>{#p/sans}{#f/2}* if you liked that last puzzle, just wait until you see "
 "this one."
 msgstr ""
+"<25>{#p/sans}{#f/2}* 如果你喜欢上一个谜题的话，\n"
+"  那你一定对这个满怀期待。"
 
 msgid "<18>{#p/papyrus}{#f/9}HUMAN!!"
 msgstr ""
@@ -946,13 +950,17 @@ msgstr ""
 msgid "<18>{#f/4}BUT WHAT YOU ARE ABOUT TO SEE IS..."
 msgstr ""
 
+#, fuzzy
 msgid ""
 "<26>{#p/sans}* no, really.\n"
 "* walk up and take a look."
 msgstr ""
+"<26>{#p/sans}* 其实也不需要了。\n"
+"* 走过来瞧瞧吧。"
 
+#, fuzzy
 msgid "<25>{#p/sans}* it's right there on the ground."
-msgstr ""
+msgstr "<25>{#p/sans}* 喏，它就在地上呢。"
 
 msgid ""
 "<18>{#p/papyrus}{#f/7}SANS!!\n"
@@ -970,24 +978,35 @@ msgstr ""
 msgid "<18>{#f/4}OKAY..."
 msgstr ""
 
+#, fuzzy
 msgid ""
 "<25>{#p/sans}* well, how was it?\n"
 "* ... too hot to handle?"
 msgstr ""
+"<25>{#p/sans}* 怎么样了？\n"
+"* …是不是谜题太烫了，\n"
+"  根本不能碰？"
 
 msgid "<25>{#p/sans}* can't even bring yourself to look at it, huh?"
 msgstr ""
 
+#, fuzzy
 msgid "<25>* i guess i shouldn't have expected much."
 msgstr ""
+"<25>* 我猜我可能本来就不用\n"
+"  太看好你。"
 
+#, fuzzy
 msgid ""
 "<26>{#f/3}* oh well.\n"
 "* maybe a kakuro puzzle would be easier for you."
 msgstr ""
+"<26>{#f/3}* 对了。\n"
+"* 也许一个数谜会更加适合你。"
 
+#, fuzzy
 msgid "<26>{#f/0}* but i digress."
-msgstr ""
+msgstr "<26>{#f/0}* 呃，我说离题了。"
 
 msgid ""
 "<18>{#p/papyrus}{#f/7}SANS!!!\n"
@@ -2279,26 +2298,37 @@ msgstr ""
 msgid "<25>{#p/kidd}{#f/3}* Have you ever lived on a planet?"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "<32>{#p/basic}* What's that smell?\n"
 "* (Where's that smell?)"
 msgstr ""
+"<32>{#p/basic}* 这是什么味道？\n"
+"* （哪里来的气味？）"
 
+#, fuzzy
 msgid ""
 "<32>* If you're a smell...\n"
 "* (... identify yoursmellf!)"
 msgstr ""
+"<32>* 如果你是这个味道…\n"
+"* （…证明你的气味！）"
 
+#, fuzzy
 msgid ""
 "<32>{#p/basic}* Hmmm...\n"
 "* Here's that weird smell."
 msgstr ""
+"<32>{#p/basic}* 嗯…\n"
+"* 这就是那个奇怪的味道。"
 
+#, fuzzy
 msgid "<32>* It makes me want to eliminate..."
-msgstr ""
+msgstr "<32>* 这气味令我想把它消灭掉。"
 
+#, fuzzy
 msgid "<32>* (... eliminate YOU!)"
-msgstr ""
+msgstr "<32>* （…把你消灭掉！）"
 
 msgid ""
 "<32>{#p/basic}* Dogs can pet other dogs???\n"
@@ -4582,13 +4612,18 @@ msgid ""
 "subtracting powers of ten.)"
 msgstr ""
 
+#, fuzzy
 msgid "<32>{#p/basic}* There are written instructions tacked onto the side..."
-msgstr ""
+msgstr "<32>{#p/basic}* 显示器侧面钉着一份说明…"
 
+#, fuzzy
 msgid ""
 "<33>* It's illegible chicken-scratch.\n"
 "* The only word you can make out is \"zero.\""
 msgstr ""
+"<33>* 上面的字迹全是狂草，你根本\n"
+"  看不清楚。\n"
+"* 除了一个字，“零”。"
 
 msgid "<32>{#p/human}* (But you already completed this puzzle beforehand.)"
 msgstr ""
@@ -6589,48 +6624,75 @@ msgstr ""
 msgid "<25>{#f/2}* i'll keep an eyesocket out for ya."
 msgstr ""
 
+#, fuzzy
 msgid ""
 "<18>{#p/papyrus}{#f/5}H-HUMAN?\n"
 "IS THAT YOU...?"
 msgstr ""
+"<18>{#p/papyrus}{#f/5}人…人类?\n"
+"你在那里吗…？"
 
+#, fuzzy
 msgid ""
 "<18>{#p/papyrus}{#f/1}OH MY GOD!!!\n"
 "IT REALLY IS YOU, ISN'T IT!?!?"
 msgstr ""
+"<15>{#p/papyrus}{#e/papyrus/20}我的天哪！\n"
+"肯定没错，\n"
+"就是你！"
 
+#, fuzzy
 msgid ""
 "<18>{#p/papyrus}{#f/0}I'VE BEEN EXCITED TO MEET YOU SINCE I HEARD ABOUT YOU!"
 msgstr ""
+"<18>{#p/papyrus}{#f/0}从我听到你来了之后，\n"
+"我朝思暮想的想见你一面！"
 
+#, fuzzy
 msgid "<18>{#p/papyrus}{#f/4}... AS FOR WHY I'M ONLY HERE NOW?"
-msgstr ""
+msgstr "<18>{#p/papyrus}{#f/4}…至于为什么我孤身一人？"
 
+#, fuzzy
 msgid "<18>{#p/papyrus}{#f/6}WELL, I HAVE REASON TO BELIEVE..."
-msgstr ""
+msgstr "<18>{#p/papyrus}{#f/6}因为，我仍然相信…"
 
+#, fuzzy
 msgid ""
 "<18>{#p/papyrus}{#f/5}... MY BROTHER HAS BEEN TRYING TO KEEP YOU FROM ME."
 msgstr ""
+"<18>{#p/papyrus}{#f/5}…我的兄弟一心想要让我远离\n"
+"你。"
 
+#, fuzzy
 msgid "<18>{#p/papyrus}{#f/7}TYPICAL!!!"
-msgstr ""
+msgstr "<18>{#p/papyrus}{#f/7}正在我意料之中！！！"
 
+#, fuzzy
 msgid ""
 "<18>{#p/papyrus}{#f/0}BUT OUR LITTLE ALLIANCE CAN BE OUR LITTLE SECRET."
 msgstr ""
+"<18>{#p/papyrus}{#f/0}但是呢，我们小小的友谊不会\n"
+"就此被打破。"
 
+#, fuzzy
 msgid "<18>{#p/papyrus}{#f/9}HE DOESN'T HAVE TO KNOW A -DAMN- THING ABOUT IT!"
 msgstr ""
+"<18>{#p/papyrus}{#f/9}他根本就不需要知道这件事的\n"
+"任何一个「细枝末节」！"
 
+#, fuzzy
 msgid "<18>{#p/papyrus}{#f/5}GUESS I BETTER GO BEFORE HE FINDS OUT I'M HERE."
 msgstr ""
+"<18>{#p/papyrus}{#f/5}我可能需要在他发现我之前尽\n"
+"快离开。"
 
+#, fuzzy
 msgid "<18>{|}{#p/papyrus}{#f/9}I'LL CATCH UP WITH YOU SOON, HU- {%}"
-msgstr ""
+msgstr "<18>{|}{#p/papyrus}{#f/9}我们会再见面的，人-­ {%}"
 
+#, fuzzy
 msgid "<32>{#p/without}* ... papyrus?"
-msgstr ""
+msgstr "<32>{#p/without}* … papyrus？"
 
 msgid "<18>{#f/4}YOU MAY HAVE PASSED MY OTHER CHALLENGES."
 msgstr ""
@@ -6938,14 +7000,23 @@ msgstr "<23>阴阳两隔的怀念。"
 msgid "<23>THESE FEELINGS..."
 msgstr "<23>这些情感..."
 
+#, fuzzy
 msgid "<23>THE STRESS OF KNOWING SO MANY PEOPLE HAVE BEEN KILLED."
 msgstr ""
+"<23>了解到众多苍生无辜离世时的\n"
+"压抑。"
 
+#, fuzzy
 msgid "<23>THE HOPELESSNESS OF THINKING YOU CAN'T DO ANYTHING TO STOP IT."
 msgstr ""
+"<23>意识到你无能为力去拯救时的\n"
+"无助。"
 
+#, fuzzy
 msgid "<23>THE DESIRE TO MAKE A CHANGE FOR THE BETTER."
 msgstr ""
+"<23>追求更加令人心驰神往的日子\n"
+"时的渴望。"
 
 msgid "<23>THE JOY OF FINDING ANOTHER PASTA LOVER."
 msgstr ""
@@ -8046,8 +8117,9 @@ msgstr ""
 msgid "<26>{#p/sans}{#f/0}* all sorts of attacks."
 msgstr ""
 
+#, fuzzy
 msgid "<25>{#p/sans}* by the way..."
-msgstr ""
+msgstr "<25>{#p/sans}* 顺便一提…"
 
 msgid "<25>* i know i've been harsh on you lately..."
 msgstr ""
@@ -8067,14 +8139,16 @@ msgstr ""
 msgid "<25>{#f/2}* it's something, right?"
 msgstr ""
 
+#, fuzzy
 msgid "<25>* if you happen to run into my brother..."
-msgstr ""
+msgstr "<25>* 如果你恰好碰到了我的兄弟…"
 
 msgid "<25>{#f/3}* ..."
 msgstr ""
 
+#, fuzzy
 msgid "<25>{*}{#p/darksans}{#f/1}{#i/5}{#s.stop}* Don't even try it."
-msgstr ""
+msgstr "<25>{*}{#p/darksans}{#f/1}{#i/5}{#s.stop}* 不要动他。"
 
 msgid "<25>* i know it's kind of silly at times..."
 msgstr ""
@@ -8426,8 +8500,9 @@ msgstr ""
 msgid "<32>{#p/human}* (The sign mentions an escape.)"
 msgstr ""
 
+#, fuzzy
 msgid "<32>{#p/basic}* \"It's taking a time-out.\""
-msgstr ""
+msgstr "<32>{#p/basic}* “它正在休息。”"
 
 msgid "<25>{#p/asriel2}{#f/15}* What."
 msgstr ""
@@ -11996,8 +12071,9 @@ msgstr "<32>{#p/asriel2}* 不堪一击。"
 msgid "<32>{#p/story}* The dogs' minds have been expanded."
 msgstr ""
 
+#, fuzzy
 msgid "<11>{#p/basic}{~}Paws off you smelly human."
-msgstr ""
+msgstr "<11>{#p/basic}{~}放开，你这个该死的人类。"
 
 msgid "<11>{#p/basic}{~}Paws off you weird puppy."
 msgstr ""
@@ -12650,8 +12726,9 @@ msgstr ""
 "<15>{#p/papyrus}{#f/27}不...\n"
 "不-不..."
 
+#, fuzzy
 msgid "<15>{#p/papyrus}{#f/21}WELL, THAT'S NOT WHAT I WAS EXPECTING..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/21}好吧，这并不是我想要的结果…"
 
 msgid "<15>{#p/papyrus}{#f/21}SANS, I..."
 msgstr "<15>{#p/papyrus}{#f/21}SANS，我..."
@@ -12659,8 +12736,9 @@ msgstr "<15>{#p/papyrus}{#f/21}SANS，我..."
 msgid "<15>{#f/33}{@random:1.1,1.1}I FAILED YOU..."
 msgstr "<15>{#f/33}{@random:1.1,1.1}我让你失望了..."
 
+#, fuzzy
 msgid "<15>{#p/papyrus}{#f/27}... A-AT LEAST I STILL HAVE MY HEAD!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/27}…至-至少我还有我的头！"
 
 msgid "<32>{#p/basic}* Cute."
 msgstr ""

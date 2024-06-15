@@ -31,6 +31,8 @@ msgid ""
 "Take heart.\n"
 "Your frustrations are behind you now."
 msgstr ""
+"打起精神來。\n"
+"讓不如意的事情隨風而去吧。"
 
 msgid ""
 "Take heart.\n"

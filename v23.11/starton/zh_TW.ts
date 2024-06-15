@@ -388,8 +388,8 @@ const text = {
       crossword0: () =>
          world.edgy
             ? [
-                 "<25>{#p/sans}* oh, hey there.",
-                 "<25>{#p/sans}{#f/2}* if you liked that last puzzle, just wait until you see this one."
+                 "<25>{#p/sans}* 喔，你來了。",
+                 "<25>{#p/sans}{#f/2}* 如果你喜歡上一個謎題的話，\n  那你一定對這個滿懷期待。"
               ]
             : [
                  "<18>{#p/papyrus}{#f/9}HUMAN!!",
@@ -399,8 +399,8 @@ const text = {
       crossword1: () =>
          world.edgy
             ? [
-                 "<26>{#p/sans}* no, really.\n* walk up and take a look.",
-                 "<25>{#p/sans}* it's right there on the ground."
+                 "<26>{#p/sans}* 其實也不需要了。\n* 走過來瞧瞧吧。",
+                 "<25>{#p/sans}* 喏，它就在地上呢。"
               ]
             : [
                  "<18>{#p/papyrus}{#f/7}SANS!!\nWHERE'S THE PUZZLE!?",
@@ -412,11 +412,11 @@ const text = {
          world.edgy
             ? [
                  check
-                    ? "<25>{#p/sans}* well, how was it?\n* ... too hot to handle?"
+                    ? "<25>{#p/sans}* 怎麼樣了？\n* …是不是謎題太燙了，\n  根本不能碰？"
                     : "<25>{#p/sans}* can't even bring yourself to look at it, huh?",
-                 "<25>* i guess i shouldn't have expected much.",
-                 "<26>{#f/3}* oh well.\n* maybe a kakuro puzzle would be easier for you.",
-                 "<26>{#f/0}* but i digress."
+                 "<25>* 我猜我可能本來就不用\n  太看好你。",
+                 "<26>{#f/3}* 對了。\n* 也許一個數謎會更加適合你。",
+                 "<26>{#f/0}* 呃，我說離題了。"
               ]
             : [
                  check
@@ -899,13 +899,13 @@ const text = {
                : [ "<25>{#p/kidd}{#f/3}* Have you ever lived on a planet?" ]
       ),
       marriage1: [
-         "<32>{#p/basic}* What's that smell?\n* (Where's that smell?)",
-         "<32>* If you're a smell...\n* (... identify yoursmellf!)"
+         "<32>{#p/basic}* 這是什麼味道？\n* （哪裡來的氣味？）",
+         "<32>* 如果你是這個味道…\n* （…證明你的氣味！）"
       ],
       marriage2: [
-         "<32>{#p/basic}* Hmmm...\n* Here's that weird smell.",
-         "<32>* It makes me want to eliminate...",
-         "<32>* (... eliminate YOU!)"
+         "<32>{#p/basic}* 嗯…\n* 這就是那個奇怪的味道。",
+         "<32>* 這氣味令我想把它消滅掉。",
+         "<32>* （…把你消滅掉！）"
       ],
       marriage3a: [
          "<32>{#p/basic}* Dogs can pet other dogs???\n* (A new world has opened up for us...)",
@@ -2269,8 +2269,8 @@ const text = {
                     "<32>{#p/human}* (The note describes reducing the total to zero by adding or subtracting powers of ten.)"
                  ]
                : [
-                    "<32>{#p/basic}* There are written instructions tacked onto the side...",
-                    "<33>* It's illegible chicken-scratch.\n* The only word you can make out is \"zero.\""
+                    "<32>{#p/basic}* 顯示器側面釘著一份說明…",
+                    "<33>* 上面的字跡全是狂草，你根本\n  看不清楚。\n* 除了一個字，“零”。"
                  ])
          ],
          ctower1: () =>
@@ -3360,22 +3360,22 @@ const text = {
          "<25>* don't sweat it, bud.",
          "<25>{#f/2}* i'll keep an eyesocket out for ya."
       ],
-      papyrus6x1: [ "<18>{#p/papyrus}{#f/5}H-HUMAN?\nIS THAT YOU...?" ],
+      papyrus6x1: [ "<18>{#p/papyrus}{#f/5}人…人類?\n你在那裡嗎…？" ],
       papyrus6x2: [
-         "<18>{#p/papyrus}{#f/1}OH MY GOD!!!\nIT REALLY IS YOU, ISN'T IT!?!?",
-         "<18>{#p/papyrus}{#f/0}I'VE BEEN EXCITED TO MEET YOU SINCE I HEARD ABOUT YOU!",
-         "<18>{#p/papyrus}{#f/4}... AS FOR WHY I'M ONLY HERE NOW?",
-         "<18>{#p/papyrus}{#f/6}WELL, I HAVE REASON TO BELIEVE...",
-         "<18>{#p/papyrus}{#f/5}... MY BROTHER HAS BEEN TRYING TO KEEP YOU FROM ME.",
-         "<18>{#p/papyrus}{#f/7}TYPICAL!!!",
-         "<18>{#p/papyrus}{#f/0}BUT OUR LITTLE ALLIANCE CAN BE OUR LITTLE SECRET.",
-         "<18>{#p/papyrus}{#f/9}HE DOESN'T HAVE TO KNOW A -DAMN- THING ABOUT IT!"
+         "<15>{#p/papyrus}{#e/papyrus/20}我的天哪！\n肯定沒錯，\n就是你！",
+         "<18>{#p/papyrus}{#f/0}從我聽到你來了之後，\n我朝思暮想的想見你一面！",
+         "<18>{#p/papyrus}{#f/4}…至於為什麼我孤身一人？",
+         "<18>{#p/papyrus}{#f/6}因為，我仍然相信…",
+         "<18>{#p/papyrus}{#f/5}…我的兄弟一心想要讓我遠離\n你。",
+         "<18>{#p/papyrus}{#f/7}正在我意料之中！！！",
+         "<18>{#p/papyrus}{#f/0}但是呢，我們小小的友誼不會\n就此被打破。",
+         "<18>{#p/papyrus}{#f/9}他根本就不需要知道這件事的\n任何一個「細枝末節」！"
       ],
       papyrus6x3: [
-         "<18>{#p/papyrus}{#f/5}GUESS I BETTER GO BEFORE HE FINDS OUT I'M HERE.",
-         "<18>{|}{#p/papyrus}{#f/9}I'LL CATCH UP WITH YOU SOON, HU- {%}"
+         "<18>{#p/papyrus}{#f/5}我可能需要在他發現我之前盡\n快離開。",
+         "<18>{|}{#p/papyrus}{#f/9}我們會再見面的，人-­ {%}"
       ],
-      papyrus6x4: [ "<32>{#p/without}* ... papyrus?" ],
+      papyrus6x4: [ "<32>{#p/without}* … papyrus？" ],
       papyrus6: [
          "<18>{#p/papyrus}{#f/9}HUMAN!!",
          "<18>{#f/4}YOU MAY HAVE PASSED MY OTHER CHALLENGES.",
@@ -3501,9 +3501,9 @@ const text = {
               ]
             : papreal()
             ? [
-                 "<23>THE STRESS OF KNOWING SO MANY PEOPLE HAVE BEEN KILLED.",
-                 "<23>THE HOPELESSNESS OF THINKING YOU CAN'T DO ANYTHING TO STOP IT.",
-                 "<23>THE DESIRE TO MAKE A CHANGE FOR THE BETTER.",
+                 "<23>瞭解到眾多蒼生無辜離世時的\n壓抑。",
+                 "<23>意識到你無能為力去拯救時的\n無助。",
+                 "<23>追求更加令人心馳神往的日子\n時的渴望。",
                  "<23>這些情感..."
               ]
             : [
@@ -3994,44 +3994,44 @@ const text = {
          world.edgy
             ? 6 <= world.population
                ? [
-                    "<25>{#p/sans}* by the way...",
+                    "<25>{#p/sans}* 順便一提…",
                     "<25>* i know i've been harsh on you lately...",
                     "<25>{#f/3}* but thanks for trying to be a better person.",
                     "<25>{#f/2}* keep it up, ok?"
                  ]
                : world.bullied
                ? [
-                    "<25>{#p/sans}* by the way...",
+                    "<25>{#p/sans}* 順便一提…",
                     "<25>* i know you're still going around hurting people...",
                     "<25>{#f/3}* but i appreciate the effort not to outright to kill them.",
                     "<25>{#f/2}* it's something, right?"
                  ]
                : [
-                    "<25>{#p/sans}* by the way...",
-                    "<25>* if you happen to run into my brother...",
+                    "<25>{#p/sans}* 順便一提…",
+                    "<25>* 如果你恰好碰到了我的兄弟…",
                     "<25>{#f/3}* ...",
-                    "<25>{*}{#p/darksans}{#f/1}{#i/5}{#s.stop}* Don't even try it.",
+                    "<25>{*}{#p/darksans}{#f/1}{#i/5}{#s.stop}* 不要動他。",
                     "{*}{#s.resume}{%}"
                  ]
             : 6 <= world.population
             ? [
-                 "<25>{#p/sans}* by the way...",
+                 "<25>{#p/sans}* 順便一提…",
                  "<25>* i know it's kind of silly at times...",
                  "<25>{#f/3}* but thanks for going along with my brother's crazy schemes.",
                  "<25>{#f/2}* you're a champion."
               ]
             : world.bullied
             ? [
-                 "<25>{#p/sans}* by the way...",
+                 "<25>{#p/sans}* 順便一提…",
                  "<25>* i know you've been going around hurting people...",
                  "<25>{#f/3}* but i appreciate the effort not to outright to kill them.",
                  "<25>{#f/2}* it's something, right?"
               ]
             : [
-                 "<25>{#p/sans}* by the way...",
-                 "<25>* if you happen to run into my brother...",
+                 "<25>{#p/sans}* 順便一提…",
+                 "<25>* 如果你恰好碰到了我的兄弟…",
                  "<25>{#f/3}* ...",
-                 "<25>{*}{#p/darksans}{#f/1}{#i/5}{#s.stop}* Don't even try it.",
+                 "<25>{*}{#p/darksans}{#f/1}{#i/5}{#s.stop}* 不要動他。",
                  "{*}{#s.resume}{%}"
               ],
       sentryPapyrus1: pager.create(
@@ -4236,7 +4236,7 @@ const text = {
                ? [ "<32>{#p/human}* (The sign mentions an escape.)" ]
                : SAVE.data.n.state_starton_trashprogress < 2 && SAVE.data.n.plot < 72
                ? [
-                    "<32>{#p/basic}* \"It's taking a time-out.\"",
+                    "<32>{#p/basic}* “它正在休息。”",
                     ...(world.goatbro && SAVE.flag.n.ga_asrielDog++ < 1 ? [ "<25>{#p/asriel2}{#f/15}* What." ] : [])
                  ]
                : [ "<32>{#p/basic}* \"It's escaped.\"" ],
@@ -6147,7 +6147,7 @@ const text = {
          world.goatbro
             ? [ "<32>{#p/asriel2}* 不堪一擊。" ]
             : [ "<32>{#p/story}* The dogs' minds have been expanded." ],
-      petTalk1: [ "<11>{#p/basic}{~}Paws off you smelly human." ],
+      petTalk1: [ "<11>{#p/basic}{~}放開，你這個該死的人類。" ],
       petTalk1x: [ "<11>{#p/basic}{~}Paws off you weird puppy." ],
       petTalk2: [ "<11>{#p/basic}{~}Wow!!!\nPet by another pup!!!" ],
       petTalk3: [ "<11>{#p/basic}{~}Stop!\nDon't touch her!" ],
@@ -6453,11 +6453,11 @@ const text = {
       death1: () =>
          world.genocide
             ? [ "<15>{#p/papyrus}{#f/27}不...\n不-不..." ]
-            : [ "<15>{#p/papyrus}{#f/21}WELL, THAT'S NOT WHAT I WAS EXPECTING..." ],
+            : [ "<15>{#p/papyrus}{#f/21}好吧，這並不是我想要的結果…" ],
       death2: () =>
          world.genocide
             ? [ "<15>{#p/papyrus}{#f/21}SANS，我...", "<15>{#f/33}{@random:1.1,1.1}我讓你失望了..." ]
-            : [ "<15>{#p/papyrus}{#f/27}... A-AT LEAST I STILL HAVE MY HEAD!" ],
+            : [ "<15>{#p/papyrus}{#f/27}…至-至少我還有我的頭！" ],
       dots: [ "<32>{#p/basic}* ..." ],
       flirt0: [ "<32>{#p/basic}* Cute." ],
       flirt1: [
