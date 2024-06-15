@@ -249,7 +249,7 @@ export default {
    ],
    namePromptX: 16,
    nameValueX: -6,
-   nameValueY: 36,
+   nameValueY: 0,
    nameLetterMap: [],
    nameLetterPosition: () => { },
    nameLetterValidation: (char: string) => {
