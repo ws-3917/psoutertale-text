@@ -156,30 +156,15 @@ const text = {
          
          if (SAVE.data.b.ubershortcut) {
             
-            /*
-               alphys joins royal guard!?
-            */
+            
          } else if (SAVE.data.b.ultrashortcut) {
             
-            /*
-               papyrus becomes a member of the royal guard (as an actual guard!)
-            */
+            
          } else if (world.bad_robot) {
             if (!undyneDead) {
                if (royals < 2) {
                   
-                  /*
-                     "Ring... Ring..."
-                     "ARRIGHT PUNK, LISTEN UP!"
-                     "You made a BIG mistake in sparing my life after what you've did."
-                     "Thanks to you, I've been granted absolute power over the Outpost!"
-                     - power was almost totally drained by MTT sigma, causing outpost-wide panic
-                     - power loss causes archive to shut down, releasing the humans in the process
-                     - undyne storms in and takes control of the situation
-                     - undyne blames you for killing asgore
-                     - undyne kills all the humans, takes their souls with her and goes after you in a shuttle
-                     - alphys goes with her and uses the call to trace your position (you fell for it)
-                  */
+                  
                   if (overreaction1) {
                      
                   }
@@ -188,18 +173,7 @@ const text = {
                   }
                } else {
                   
-                  /*
-                     - power was almost totally drained by MTT sigma, causing outpost-wide panic
-                     - power loss causes archive to shut down, releasing the humans in the process
-                     - undyne storms in and takes control of the situation
-                     - undyne blames you for killing asgore
-                     - undyne kills all the humans, puts their souls in storage
-                     - undyne wanted to go after you like lone captain variant, but royal guard advises against it
-                     - undyne also feels a responsibility to look after the guard, so doesn                     - undyne instead starts increasing outpost                     - also starts construction of a weapon replication facility (worse quality but high quantity)
-                     - outlands and other outskirts areas are taken over and militarized
-                     - alphys decides to quit her job and go back to catty and bratty (revealed at the end)
-                     - alphys acts apathetic and carefree now
-                  */
+                  
                   if (overreaction1) {
                      
                   }
@@ -210,167 +184,33 @@ const text = {
             } else if (overreaction1) {
                if (!papyrusDead) {
                   
-                  /*
-                     "* HELLO! THIS IS PAPYRUS!"
-                     "* I'VE GOT SOME SHOCKING NEWS FOR YOU!"
-                     "* I'M NOW THE KING OF THE OUTPOST!"
-                     "* AND..."
-                     "* I'VE NEVER FELT SO MISERABLE IN MY LIFE."
-                     "* I ONLY FELT THE NEED TO DO THIS BECAUSE NOBODY ELSE WAS."
-                     "* I FEEL BAD JUST TAKING OVER LIKE THIS, BUT IF I DON'T, THE OUTPOST WILL FALL INTO CHAOS!"
-                     "* I ALWAYS IMAGINED I'D HAVE TO WORK HARD FOR THIS, BUT NOW..."
-                     "* ... UGH, WHY CAN'T THINGS JUST BE SIMPLER!?"
-                     "* THIS FEELS SO UNDESERVED!"
-                     - some people storm the citadel and blame alphys for her bad decisions
-                     - the truth about humans is exposed, and humans are killed
-                     - some monsters panic and take the human souls that drop from them to leave the outpost
-                     - papyrus eventually arrives and protects the remaining human souls
-                     - gets everyone mostly calmed down and says he"ll hold fast to asgore"s agreement
-                  */
+                  
                } else if (!maddummyDead) {
                   
-                  /*
-                     - some people storm the citadel and blame alphys for her bad decisions
-                     - the truth about humans is exposed, and humans are killed
-                     - some monsters panic and take the human souls that drop from them to leave the outpost
-                     - mad dummy goes into the citadel amidst the chaos and absorbs bravery
-                     - rules with godlike power, becoming starfire version of mew mew
-                     - bravery goes along with the shenannigans and both mew mew and bravery have fun with it
-                  */
+                  
                   if (SAVE.data.n.state_wastelands_toriel === 0) {
                      
-                     /*
-                        - mad dummy takes integrity instead to become mew mew
-                        - tries to have fun, but integrity is always putting rules and boundaries around the fun stuff
-                        - for example, if they wanted to make 2 people do a cage match, integrity would make rules for it
-                     */
+                     
                   } else if (16 <= SAVE.data.n.kills_wastelands) {
                      
-                     /*
-                        - mad dummy takes kindness instead to become mew mew
-                        - tries to have fun, but kindness always suggests a more nice thing to do
-                     */
+                     
                   } else if (SAVE.data.n.state_foundry_maddummy === 3) {
                      
-                     /*
-                        - mad dummy takes patience instead to become mew mew
-                        - patience tries to temper mew mew                     */
+                     
                   } else {
                      
                   }
                } else {
                   
-                  /*
-                     - charles goes into the citadel amidst the chaos and absorbs kindness soul
-                     - secretly the best ending ever
-                     - hires the oni to become head chef of the outpost (turns out to be the greatest chef ever)
-                  */
+                  
                }
             } else if (royals < 2) {
                
-               /*
-                  - without a royal guard, alphys takes more control and implements technological security measures
-                  - humans don                  - with the help of integrity"s knowledge of dr. roman"s notes, alphys solves wormhole travel
-                  - they try wormholes to escape, but force field prevents em from forming (it blocks the connection)
-               */
+               
                if (!papyrusDead) {
                   if (royals === 1) {
                      
-                     /*
-                        "SO... IT'S BEEN A WHILE SINCE WE LAST CAUGHT UP, HASN'T IT?"
-                        "STARTON'S JUST HAD A POPULATION BOOST! SOME MONSTERS JUST CAME OUT OF NOWHERE!"
-                        "...THAT'S WHAT THEY SAID ABOUT ME AND SANS WHEN WE FIRST CAME HERE TOO, SO..."
-                        "...MAYBE WE'RE DESTINED TO BE GREAT FRIENDS?"
-                        "AH YES, I SHOULD ALSO TALK ABOUT WHAT NEW THINGS HAVE HAPPENED TO ME RECENTLY!"
-                        "IT'S ACTUALLY A FUNNY STORY! "
-                        "If Doggo was spared"
-                        "A STRANGE, BLIND DOG SLAMMED ITSELF ONTO MY DOOR ONE DAY..."
-                        "I WAS QUITE ANNOYED AT FIRST, BUT IT DIDN'T TAKE ME LONG TO MAKE SENSE OF WHY THEY DID."
-                        "THEY ASKED ME TO HELP LOOK FOR THEIR FRIENDS FROM THE CANINE UNIT, SINCE HE KNEW I WAS NO DISHONEST PRANKSTER!"
-                        "SO THUS, WE LOOKED ALL OVER! FAR AND WIDE! FROM THE FAR REACHES OF STARTON, TO..."
-                        "WELL, WE DIDN'T QUITE LOOK TOO FAR ACTUALLY."
-                        "BY THE TIME WE REACHED DOCTOR ALPHYS' LAB AND DECIDED TO ASK HER WHILE WE WERE STOPPING BY..."
-                        "SHE GAVE US SOME RATHER SHOCKING NEWS."
-                        "OUR FRIEND DIDN'T FEEL TOO GREAT AFTER THAT, BUT WE WORKED TOGETHER TO COMFORT THEM IN THEIR TIME OF NEED!"
-                        "I DON'T THINK I COULD HAVE BEEN ABLE TO DO THAT WITHOUT HER HELP, SO..."
-                        "THANK YOU, DOCTOR ALPHYS!"
-                        "If Canis Minor was spared"
-                        "A SHORT-NECKED DOG HAD BEEN SLAMMING IT'S HEAD ON MY DOOR LOUDLY UNTIL I OPENED IT TO FIND OUT WHAT WAS GOING ON..."
-                        "If Canis Major was spared"
-                        "A SAD LOOKING PUPPY HAD KNOCKED ON MY HOUSE ONE DAY..."
-                        "WELL, I SAY KNOCKED BUT..."
-                        "THEY JUST BARKED INCREDIBLY LOUDLY."
-                        "If Doge was spared"
-                        "I RECEIVED A RATHER DISTRESSING CALL FROM A MEMBER OF THE CANINE UNIT."
-                        "SHE ASKED ME TO MEET HER SOMEWHERE TO DISCUSS SOMETHING, SINCE I KNEW UNDYNE..."
-                        "IT WAS A BIT SCARY, SINCE THEY WERE A MEMER OF THE ROYAL GUARD YOU SEE!"
-                        "...BUT ALL SHE WISHED TO DO WAS TALK."
-                        "IT WAS A BIT STRANGE, SINCE SHE WOULDN'T TELL ME OF HER REASONS."
-                        "...BUT EVENTUALLY, I WAS ABLE TO CRACK THE CODE!"
-                        "SHE QUESTIONED THE VIABILITY OF HER PURPOSE, IN PROTECTING MONSTERKIND WHEN ALMOST THE ENTIRE GUARD WAS WIPED OUT BY JUST 1 HUMAN..."
-                        "AS SHE JOINED BECAUSE SHE BELIEVED IN THE DEFENSE OF MONSTERKIND..."
-                        "I WAS QUITE SURPRISED TO HEAR SHE WAS ONE OF THE FIRST TO JOIN THE ROYAL GUARD, ACTUALLY!"
-                        "If Terrestria was spared"
-                        "A RATHER LARGE KNIGHT OF THE ELITE SQUAD HAD GRACED ME WITH THEIR PRESENCE ON MY DOORSTEP!"
-                        "SHE SAID SOMETHING ABOUT HAVING THE WEIGHT OF HER SHOULDERS."
-                        "IT WAS A BIT AWKWARD THAT I COULDN'T WELCOME HER INSIDE OF MY HOME..."
-                        "SO I MOVED ALL OF MY FURNITURE OUTSIDE SO THAT SHE COULD FEEL COMFORTABLE!"
-                        "SHE FELT SAD ABOUT LIVING FOR A LONG TIME... SEEING ALL OF THE PEOPLE SHE CARES ABOUT FADING AWAY..."
-                        "IT SOUNDS QUITE AWFUL OF A CONUNDRUM! JUST THINKING ABOUT IT GIVES ME A BIG HEADACHE!"
-                        "If Cozmo was spared"
-                        "A STRANGE, MAGICAL MAN HAD TELEPORTED INTO MY ABODE WITHOUT PERMISSION..."
-                        "AND ASKED ME FOR THE MEANING OF LIFE."
-                        "WE... HAD TO SCALE THE CONVERSATION BACK QUITE A BIT TO SAY THE LEAST."
-                        "BUT AFTERWARDS, I LEARNED A LOT ABOUT THEM AND WHAT TROUBLES THEY HAD."
-                        "THEY ONCE WERE THE APPRENTICE OF AN OLD MONSTER CALLED TERRESTRIA..."
-                        "ONE THAT LIVED LONGER THAN ANYONE ELSE IN THE OUTPOST."
-                        "HE HAD BEEN WORKING HIS ENTIRE LIFE TO IMPRESS HER..."
-                        "HE SAID HE HAD NOT MANAGED TO DO ANYTHING THAT HE THOUGHT WAS SIGNIFICANT ENOUGH TO MAKE HER PROUD..."
-                        "BUT I DON'T BELIEVE THAT AT ALL! I'M SURE SHE'D JUST BE GLAD THAT HE'S STILL ALIVE!"
-                        "SINCE HE'S STILL HERE, HE CAN CHANGE THE WORLD FOR THE BETTER!"
-                        "HE SEEMED TO HAVE BEEN RATHER ENCHANTED BY OUR CONVERSATION, AND WE TALKED FOR HOURS!"
-                        "EVEN I'M IMPRESSED I WAS ABLE TO KEEP GOING FOR THAT LONG..."
-                        "ONCE WE WERE DONE, WE BOTH PARTED WAYS FEELING QUITE PLEASED!"
-                        "THOUGH... THEN I HAD TO GRAPPLE SOME EMOTIONS OF MY OWN AFTERWARDS."
-                        "Return to branch"
-                        "LOOKING BACK ON IT... IT'S CLEAR THAT YOU DID SOME REALLY BAD THINGS."
-                        "BUT THE ROYAL GUARDS WERE ALSO EXTREMELY AGAINST HUMANITY, THAT I KNOW NOW."
-                        "FOR THEM TO BE SO COMMITTED IN THEIR MISSION... IT LIKELY LEFT YOU NO OTHER CHOICE."
-                        "HAVING THE DEATH OF OTHERS ON YOUR HANDS IS NO EASY THING TO COME TO TERMS WITH."
-                        "PERHAPS IT WAS FOR THE BEST THAT I NEVER BECAME A REAL MEMBER OF THE ROYAL GUARD..."
-                        "OR ELSE MY LOVED ONES TOO, MAY ALSO BE GREATLY HURT BY MY LOSS FOR BEING JUST AS STUBBORN."
-                        "AFTER HAVING WORKED MY NOGGIN LIKE NEVER BEFORE, I WAS FEELING RATHER TIRED."
-                        "SO I TOOK A SNOOZE CRUISE DOWN TO DREAMTOWN!"
-                        "I FELT RATHER REFRESHED AFTER THAT, PERFECT TIMING AS I HEARD ANOTHER KNOCK ON MY DOOR THAT DAY!"
-                        "THEN I HEARD ONE THE DAY AFTER THAT! THEN TWO THE DAY AFTER! THEN THREE, THEN FIVE..."
-                        "THERE WAS... A LOT OF PEOPLE THAT ASKED FOR MY HELP..."
-                        "IT IS KIND OF STRANGE, I'M NOT USED TO THIS MUCH POPULARITY."
-                        "HOWEVER! THE GREAT PAPYRUS WILL DO ANYTHING TO HELP THOSE IN NEED!"
-                        "If Mettaton is alive:"
-                        "METTATON EVEN HAD ME APPEAR IN HIS SHOW FOR ONE OF THESE SESSIONS!"
-                        "IT DIDN'T GO VERY WELL THOUGH, THE OTHER MONSTER DIDN'T LOOK VERY HAPPY AFTERWARDS."
-                        "ME AND METTATON HAVEN'T REALLY TALKED MUCH SINCE EITHER..."
-                        "AHEM! MOVING PAST THAT..."
-                        "Return to branch..."
-                        "THANKS TO THIS NEWFOUND POPULARITY, I'VE BECAME A CELEBRITY OF SORTS!"
-                        "WITH HIS OWN COOL BUILDING AND A REALLY BIG SIGN!"
-                        "I EVEN CAME UP WITH A COOL SLOGAN FOR IT TO SAY!"
-                        ""HOW WOULD YOU LIKE A PAPEHRAPY SESSION WITH THERAPYRUS?""
-                        "QUITE CATCHY, IS IT NOT? I THOUGHT OF IT MYSELF! NYEHEHEHE!"
-                        "IT EVEN SHOWS ME ON A COMFY COUCH, WRITING NOTES... WEARING INCREDIBLY PROFESSIONAL SQUARE GLASSES."
-                        "OH YES AND SANS IS ALSO MY RECEPTIONIST!"
-                        "SINCE MY SCHEDULE IS SO BUSY, HE MAKES SURE I HAVE ENOUGH TIME FOR EVERYBODY!"
-                        "I'M QUITE SURPRISED THAT SANS WAS SO OPEN TO HELPING, BUT I DON'T MIND!"
-                        "YOU COULD EVEN SAY THAT..."
-                        "I'M PROUD???"
-                        "PERHAPS THIS IS OUR TRUE CALLING! THE THING THAT BRINGS OUT THE POTENTIAL OF ME AND MY BROTHER THE MOST!"
-                        "I HOPE YOU TOO ARE ABLE TO ATTAIN YOUR TRUE POTENTIAL AS WELL, EVEN DESPITE THE MISTAKES OF YOUR PAST."
-                        "WHEREVER YOU ARE OUT THERE, OUT IN SPACE."
-                        "IF YOU EVER NEED SOMEONE TO TALK TO..."
-                        "YOU KNOW WHO TO CALL!"
-                        - papyrus opens a therapy agency (therapyrus inc.) as the royal guard crumbles
-                        - last royal guard goes to this therapy agency instead
-                     */
+                     
                      if (!doggoDead) {
                         
                      } else if (!lesserdogDead) {
@@ -400,48 +240,14 @@ const text = {
                }
             } else if (!papyrusDead) {
                
-               /*
-                  - power was almost totally drained by MTT sigma, causing outpost-wide panic
-                  - sans goes to alphys and helps advise her, and motivated her to become the leader
-                  - power loss causes archive to shut down, releasing the humans in the process
-                  - humans are kept hidden away by sans and alphys
-                  - feeling responsible, alphys desperately tries to calm the public
-                  - toriel visits but returns to outlands and shuts herself off (she has a backup generator)
-                  - alphys maintains an uneasy relationship with the royal guard
-                  - papyrus suggests hiring more guards, one of which ends up being burgie
-                  - burgie joins due to being motivated by dark neutral events
-                  - forms a secret deal with justice, justice sacrifices themselves to burgie to combine souls
-                  - they escape as one being and use wormholes and return with way to break force field
-                  - turns out they killed a bunch of aliens and took their souls (alphys is mad like sisko at garak)
-                  - but they escape the force field
-                  - papyrus feels bad about how people died for their freedom
-               */
+               
             } else {
                
-               /*
-                  - power was almost totally drained by MTT sigma, causing outpost-wide panic
-                  - sans goes to alphys and helps advise her, and motivated her to become the leader
-                  - power loss causes archive to shut down, releasing the humans in the process
-                  - humans are kept hidden away by sans and alphys
-                  - feeling responsible, alphys desperately tries to calm the public
-                  - toriel visits but returns to outlands and shuts herself off (she has a backup generator)
-                  - alphys maintains an uneasy relationship with the royal guard
-               */
+               
             }
          } else if (world.bad_lizard > 1) {
             
-            /*
-               "Mettaton asked me to do a bunch of things, like combat upgrades"
-               - mettaton is happy you stopped killing, but still reinforces that you should keep being good
-               - mettaton gets upgrades for his body at alphys               - while researching upgrades, they also stumble on old royal science reports about a little white dog
-               - and the truth is revealed that canis maximus is the annoying dog and used to work at the lab!
-               #> pacifist on command variant (no kills after entering aerialis)
-                  - mettaton is very proud of you for how much you changed, even if you were awful at first
-                  - sans chimes in and says they might have just done it to see how people react, but MTT tells him to shut up
-               #> low kill count variant
-                  - mettaton begins to question if it was really necessary to threaten sigma
-                  - alphys sees that maybe she overreacted to you, and is glad nothing drastic was done in response
-            */
+            
             if (fearsome) {
                
             } else {
@@ -1157,53 +963,25 @@ const text = {
                }
             } else if (!muffetDead) {
                
-               /*
-                  - with undyne and toriel dead, and alphys having fled from the throne, muffet siezes the opportunity
-                  - muffet knows alphys is gone because one a spider spy spotted her with catty and bratty
-                  - humans in archive are released, and are made into slaves for the spider clans
-                  - the outpost becomes a dictatorship where people do what the queen demands or else
-                  - muffet uses hypnosis???
-               */
+               
                if (fearsome) {
                   
                }
             } else if (!papyrusDead) {
                
-               /*
-                  - with muffet also dead, a lot of time passes without there being an actual leader
-                  - without orders from above, the royal guard stops doing their job, and falls apart
-                  - sans soon realizes there isn                  - papyrus hears of this and decides to take matters into his hands
-                  - with papyrus in charge, the kingdom restructures itself around making friends!
-               */
+               
                if (fearsome) {
                   
                }
             } else if (royals !== 5 || doggoDead || lesserdogDead || dogsDead || greatdogDead || dogeDead) {
                
-               /*
-                  - when sans realizes there isn"t a leader, he"s not sure what to do except try to be king
-                  - the outpost becomes a very relaxed place, where it               */
+               
                if (fearsome) {
                   
                }
             } else {
                
-               /*
-                  "you've left one big mess behind since you left. almost everybody completely lost hope."
-                  "alphys especially has taken things pretty hard. she's completely shut herself out from the outside world."
-                  "i've tried to talk to her, but no dice."
-                  "with no real figureheads to turn to, the canine unit sort of formed a new government, a council of sorts."
-                  "they walk inside and sit at their usual table in grillby's wearing formal suits and uh..."
-                  "discuss some pretty out-there policies."
-                  "seems to be working pretty well, funny enough."
-                  "i get a treat and bellyrubs for doing good work, now i kinda see why dogs are a fan of this sorta thing."
-                  "they can make even a lazybones like me work my butt off."
-                  "almost makes you forget that not all is right with the world."
-                  "...but we both know things could be better than this, right?"
-                  - call begins with bark bark
-                  - doge takes over the outpost as leader, and forms the council of dogs
-                  - the humans are released from the archive and are treated like pets by the dogs
-                  - justice soul is doge               */
+               
                if (fearsome) {
                   
                }

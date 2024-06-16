@@ -1879,7 +1879,7 @@ const text = {
                     "<25>{#f/3}* be good, alright?"
                  ])
          ],
-         /* 10 sec gap after this text if 5b1 plays, 2.5 sec gap otherwise */
+         
          jspeech4: [
             "<25>{#p/darksans}* Now, you understand.",
             "<25>* It's time to begin your judgment.",

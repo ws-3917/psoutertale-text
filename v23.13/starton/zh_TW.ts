@@ -2938,11 +2938,7 @@ const text = {
          "<15>{#f/20}BUT EXPECTING A SECRET HERE IS TOTALLY UNREASONABLE!",
          "<15>{#f/20}TRY AGAIN!"
       ],
-      /*
-         TODO: interacting with heart!!! (replace whole interaction with this)
-         I KNOW DATES TYPICALLY INVOLVE A HEART-TO-HEART...
-         BUT I DON         AND ALAS, NOTHING IS SECRETIVE ABOUT THIS. TRY AGAIN!
-         */
+      
       papdate25g: [
          "<15>{#p/papyrus}{#f/20}AH YES, MY TOP-OF-THE-LINE SPORTSWEAR!",
          "<15>{#f/24}YOU WON'T FIND ANY SECRETS HERE, THOUGH, BECAUSE...",
