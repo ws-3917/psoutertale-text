@@ -227,7 +227,7 @@ export default {
       艾斯利: '...',
 
       游乐比: "umum↑umumumumm↑umumm↑\numumumumm↓\numumumm→umum",
-      ws3917: "6"
+      ws3917: "6."
    },
    // END-TRANSLATE
    nameChoiceRestrictions: [

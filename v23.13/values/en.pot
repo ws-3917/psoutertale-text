@@ -326,5 +326,5 @@ msgid ""
 "umumumm→umum"
 msgstr ""
 
-msgid "6"
+msgid "6."
 msgstr ""

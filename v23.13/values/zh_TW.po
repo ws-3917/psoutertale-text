@@ -352,5 +352,5 @@ msgstr ""
 "嗯嗯嗯嗯嗯嗯嗯↓\n"
 "嗯嗯嗯→嗯嗯"
 
-msgid "6"
-msgstr "6"
+msgid "6."
+msgstr "6。"
