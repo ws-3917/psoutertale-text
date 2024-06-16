@@ -1,0 +1,7891 @@
+#
+msgid ""
+msgstr ""
+
+msgid "The player did everything they could..."
+msgstr ""
+
+msgid "But alas, {^3}his fate was sealed, {^3}and..."
+msgstr ""
+
+msgid "No addendum to the story could unravel it."
+msgstr ""
+
+msgid "There was no scenario in which the player could truly be satisfied."
+msgstr ""
+
+msgid "Is this what they really deserve?"
+msgstr ""
+
+msgid "To live in bittersweet agony, {^3}knowing he could never be..."
+msgstr ""
+
+msgid ""
+"No...{^5}\n"
+"I will not allow it."
+msgstr ""
+
+msgid "If bending the fabric of spacetime is what it takes, then..."
+msgstr ""
+
+msgid "So be it."
+msgstr ""
+
+msgid "I will not rest until the task is done."
+msgstr ""
+
+msgid "<32>{#p/human}* (...)"
+msgstr "<32>{#p/human}* （...）"
+
+msgid "<32>{#p/human}* (You wake up.)"
+msgstr "<32>{#p/human}* （你醒了。）"
+
+msgid ""
+"<32>{#p/human}* (The outpost is the same as it was when you went to sleep.)"
+msgstr "<32>{#p/human}* （前哨站没有任何变化。）"
+
+msgid ""
+"<32>{#p/human}* (You explore every corner of the outpost for signs of life, "
+"but nobody comes.)"
+msgstr ""
+"<32>{#p/human}* （你找遍了每个角落，\n"
+"  希望能发现生命的迹象。）\n"
+"* （一无所获。）"
+
+msgid "<32>{#p/human}* (You search again, and again, and again...)"
+msgstr "<32>{#p/human}* （你找了一遍，一遍，又一遍...）"
+
+msgid "<32>{#p/human}* (But nobody comes.)"
+msgstr "<32>{#p/human}* （一无所获。）"
+
+msgid ""
+"<32>{#p/human}* (You search for the craft you arrived in.)\n"
+"* (It appears it was destroyed.)"
+msgstr ""
+"<32>{#p/human}* （你找到了之前乘坐的飞船。）\n"
+"* （它已经彻底被毁。）"
+
+msgid ""
+"<32>{#p/human}* (You search for other craft left behind by monsterkind.)"
+msgstr "<32>{#p/human}* （你试图寻找怪物留下的飞船。）"
+
+msgid "<32>{#p/human}* (It appears they have been taken from you.)"
+msgstr ""
+"<32>{#p/human}* （但似乎...\n"
+"  哪怕一艘，都没给你留下。）"
+
+msgid ""
+"<32>{#p/human}* (You visit the lab, and search for blueprints and "
+"shuttlecraft parts.)"
+msgstr ""
+"<32>{#p/human}* （你去了实验室，\n"
+"  希望能找到飞船的蓝图和部件。）"
+
+msgid ""
+"<32>{#p/human}* (The blueprints are available, and the parts are in "
+"storage...)"
+msgstr "<32>{#p/human}* （蓝图还在，部件也有剩余...）"
+
+msgid ""
+"<32>{#p/human}* (But the CORE's remaining energy will not be sufficient to "
+"launch the shuttle.)"
+msgstr ""
+"<32>{#p/human}* （然而，此时核心能量已所剩无几。\n"
+"  无法让你发射飞船。）"
+
+msgid ""
+"<32>{#p/human}* (You try to RESET your SAVE file.)\n"
+"* (Nothing happens.)"
+msgstr ""
+"<32>{#p/human}* （你试图重置。）\n"
+"* （什么都没发生。）"
+
+msgid "<32>{#p/human}* (You try again to RESET your SAVE file.)"
+msgstr "<32>{#p/human}* （你再次尝试重置。）"
+
+msgid "<32>{#p/human}* (Nothing happens.)"
+msgstr "<32>{#p/human}* （什么都没发生。）"
+
+msgid ""
+"<32>{#p/human}* (In desperation, you try to call Toriel's Phone.)\n"
+"* (No response.)"
+msgstr ""
+"<32>{#p/human}* （绝望之中，你拨了Toriel的号码。）\n"
+"* （没有回应。）"
+
+msgid "<32>{#p/human}* (You try to call Papyrus and Undyne.)"
+msgstr "<32>{#p/human}* （你又给Papyrus，Undyne打电话...）"
+
+msgid "<32>{#p/human}* (No response.)"
+msgstr "<32>{#p/human}* （没有回应。）"
+
+msgid "<32>{#p/human}* (You've lost track of how long you've been here.)"
+msgstr "<32>{#p/human}* （你已经不记得在这里度过了多久。）"
+
+msgid "<32>{#p/human}* (You can't tell if it's been weeks, months, or years.)"
+msgstr ""
+"<32>{#p/human}* （几个星期？几个月？几年？）\n"
+"* （无从得知。）"
+
+msgid ""
+"<32>{#p/human}* (You've configured the CORE to use as little energy as "
+"possible...)"
+msgstr "<32>{#p/human}* （你把核心的能量消耗调至最低...）"
+
+msgid "<32>{#p/human}* (But it can't last forever.)"
+msgstr "<32>{#p/human}* （即便如此，终有一天也会用尽。）"
+
+msgid "<32>{#p/human}* (The gravity disengages.)"
+msgstr "<32>{#p/human}* （重力逐渐消失。）"
+
+msgid "<32>{#p/human}* (The temperature begins to drop.)"
+msgstr "<32>{#p/human}* （温度开始下降。）"
+
+msgid "<32>{#p/human}* (The atmosphere is collapsing.)"
+msgstr "<32>{#p/human}* （大气层即将解体。）"
+
+msgid "<32>{#p/human}* (Without power, the Outpost will be uninhabitable.)"
+msgstr "<32>{#p/human}* （没有了能量，前哨站将无法生存。）"
+
+msgid "<32>{#p/human}* (Somehow, you feel at peace.)"
+msgstr "<32>{#p/human}* （不知为何，你感到平静。）"
+
+msgid "<32>{#p/human}* (You've come to terms with your death.)"
+msgstr "<32>{#p/human}* （你平静地接受了自己的死亡。）"
+
+msgid ""
+"<32>{#p/human}* (You realize there's no other way this could have gone.)"
+msgstr "<32>{#p/human}* （既然不可避免，那就随它去吧。）"
+
+msgid ""
+"<32>{#p/human}* (As the remaining air dissapates, you remember your journey "
+"one last time.)"
+msgstr ""
+"<32>{#p/human}* （空气即将消散。）\n"
+"* （最后一刻，你回忆起自己的旅程。）"
+
+msgid ""
+"<32>{#p/human}* (From the day of your exile, to the day monsterkind ran "
+"away.)"
+msgstr ""
+"<32>{#p/human}* （从你离开人类世界的那一天，\n"
+"  一直到怪物重获自由的那一天。）"
+
+msgid "<32>{#p/human}* (The air has run out now.)"
+msgstr "<32>{#p/human}* （空气彻底消失。）"
+
+msgid "<32>{#p/human}* (You begin to choke.)"
+msgstr "<32>{#p/human}* （你开始窒息。）"
+
+msgid "<32>{#p/human}* (You feel the life leaving your body.)"
+msgstr "<32>{#p/human}* （生命正在离你而去。）"
+
+msgid "<32>{#p/human}* (It would appear the end is...)"
+msgstr "<32>{#p/human}* （看来，终点就是...）"
+
+msgid "<32>{#s/phone}{#p/event}* Ring, ring..."
+msgstr "<32>{#s/phone}{#p/event}* 滴滴，滴滴..."
+
+msgid "w"
+msgstr ""
+
+msgid "s"
+msgstr ""
+
+msgid "f"
+msgstr ""
+
+msgid "a"
+msgstr ""
+
+msgid "Ring... Ring..."
+msgstr ""
+
+msgid "ARRIGHT PUNK, LISTEN UP!"
+msgstr ""
+
+msgid "You made a BIG mistake in sparing my life after what you've did."
+msgstr ""
+
+msgid "Thanks to you, I've been granted absolute power over the Outpost!"
+msgstr ""
+
+msgid "* HELLO! THIS IS PAPYRUS!"
+msgstr ""
+
+msgid "* I'VE GOT SOME SHOCKING NEWS FOR YOU!"
+msgstr ""
+
+msgid "* I'M NOW THE KING OF THE OUTPOST!"
+msgstr ""
+
+msgid "* AND..."
+msgstr ""
+
+msgid "* I'VE NEVER FELT SO MISERABLE IN MY LIFE."
+msgstr ""
+
+msgid "* I ONLY FELT THE NEED TO DO THIS BECAUSE NOBODY ELSE WAS."
+msgstr ""
+
+msgid ""
+"* I FEEL BAD JUST TAKING OVER LIKE THIS, BUT IF I DON'T, THE OUTPOST WILL "
+"FALL INTO CHAOS!"
+msgstr ""
+
+msgid "* I ALWAYS IMAGINED I'D HAVE TO WORK HARD FOR THIS, BUT NOW..."
+msgstr ""
+
+msgid "* ... UGH, WHY CAN'T THINGS JUST BE SIMPLER!?"
+msgstr ""
+
+msgid "* THIS FEELS SO UNDESERVED!"
+msgstr ""
+
+msgid "ll hold fast to asgore"
+msgstr ""
+
+msgid "s knowledge of dr. roman"
+msgstr ""
+
+msgid "SO... IT'S BEEN A WHILE SINCE WE LAST CAUGHT UP, HASN'T IT?"
+msgstr ""
+
+msgid ""
+"STARTON'S JUST HAD A POPULATION BOOST! SOME MONSTERS JUST CAME OUT OF "
+"NOWHERE!"
+msgstr ""
+
+msgid ""
+"...THAT'S WHAT THEY SAID ABOUT ME AND SANS WHEN WE FIRST CAME HERE TOO, "
+"SO..."
+msgstr ""
+
+msgid "...MAYBE WE'RE DESTINED TO BE GREAT FRIENDS?"
+msgstr ""
+
+msgid ""
+"AH YES, I SHOULD ALSO TALK ABOUT WHAT NEW THINGS HAVE HAPPENED TO ME "
+"RECENTLY!"
+msgstr ""
+
+msgid "IT'S ACTUALLY A FUNNY STORY! "
+msgstr ""
+
+msgid "If Doggo was spared"
+msgstr ""
+
+msgid "A STRANGE, BLIND DOG SLAMMED ITSELF ONTO MY DOOR ONE DAY..."
+msgstr ""
+
+msgid ""
+"I WAS QUITE ANNOYED AT FIRST, BUT IT DIDN'T TAKE ME LONG TO MAKE SENSE OF "
+"WHY THEY DID."
+msgstr ""
+
+msgid ""
+"THEY ASKED ME TO HELP LOOK FOR THEIR FRIENDS FROM THE CANINE UNIT, SINCE HE "
+"KNEW I WAS NO DISHONEST PRANKSTER!"
+msgstr ""
+
+msgid ""
+"SO THUS, WE LOOKED ALL OVER! FAR AND WIDE! FROM THE FAR REACHES OF STARTON, "
+"TO..."
+msgstr ""
+
+msgid "WELL, WE DIDN'T QUITE LOOK TOO FAR ACTUALLY."
+msgstr ""
+
+msgid ""
+"BY THE TIME WE REACHED DOCTOR ALPHYS' LAB AND DECIDED TO ASK HER WHILE WE "
+"WERE STOPPING BY..."
+msgstr ""
+
+msgid "SHE GAVE US SOME RATHER SHOCKING NEWS."
+msgstr ""
+
+msgid ""
+"OUR FRIEND DIDN'T FEEL TOO GREAT AFTER THAT, BUT WE WORKED TOGETHER TO "
+"COMFORT THEM IN THEIR TIME OF NEED!"
+msgstr ""
+
+msgid ""
+"I DON'T THINK I COULD HAVE BEEN ABLE TO DO THAT WITHOUT HER HELP, SO..."
+msgstr ""
+
+msgid "THANK YOU, DOCTOR ALPHYS!"
+msgstr ""
+
+msgid "If Canis Minor was spared"
+msgstr ""
+
+msgid ""
+"A SHORT-NECKED DOG HAD BEEN SLAMMING IT'S HEAD ON MY DOOR LOUDLY UNTIL I "
+"OPENED IT TO FIND OUT WHAT WAS GOING ON..."
+msgstr ""
+
+msgid "If Canis Major was spared"
+msgstr ""
+
+msgid "A SAD LOOKING PUPPY HAD KNOCKED ON MY HOUSE ONE DAY..."
+msgstr ""
+
+msgid "WELL, I SAY KNOCKED BUT..."
+msgstr ""
+
+msgid "THEY JUST BARKED INCREDIBLY LOUDLY."
+msgstr ""
+
+msgid "If Doge was spared"
+msgstr ""
+
+msgid "I RECEIVED A RATHER DISTRESSING CALL FROM A MEMBER OF THE CANINE UNIT."
+msgstr ""
+
+msgid ""
+"SHE ASKED ME TO MEET HER SOMEWHERE TO DISCUSS SOMETHING, SINCE I KNEW "
+"UNDYNE..."
+msgstr ""
+
+msgid ""
+"IT WAS A BIT SCARY, SINCE THEY WERE A MEMER OF THE ROYAL GUARD YOU SEE!"
+msgstr ""
+
+msgid "...BUT ALL SHE WISHED TO DO WAS TALK."
+msgstr ""
+
+msgid "IT WAS A BIT STRANGE, SINCE SHE WOULDN'T TELL ME OF HER REASONS."
+msgstr ""
+
+msgid "...BUT EVENTUALLY, I WAS ABLE TO CRACK THE CODE!"
+msgstr ""
+
+msgid ""
+"SHE QUESTIONED THE VIABILITY OF HER PURPOSE, IN PROTECTING MONSTERKIND WHEN "
+"ALMOST THE ENTIRE GUARD WAS WIPED OUT BY JUST 1 HUMAN..."
+msgstr ""
+
+msgid "AS SHE JOINED BECAUSE SHE BELIEVED IN THE DEFENSE OF MONSTERKIND..."
+msgstr ""
+
+msgid ""
+"I WAS QUITE SURPRISED TO HEAR SHE WAS ONE OF THE FIRST TO JOIN THE ROYAL "
+"GUARD, ACTUALLY!"
+msgstr ""
+
+msgid "If Terrestria was spared"
+msgstr ""
+
+msgid ""
+"A RATHER LARGE KNIGHT OF THE ELITE SQUAD HAD GRACED ME WITH THEIR PRESENCE "
+"ON MY DOORSTEP!"
+msgstr ""
+
+msgid "SHE SAID SOMETHING ABOUT HAVING THE WEIGHT OF HER SHOULDERS."
+msgstr ""
+
+msgid "IT WAS A BIT AWKWARD THAT I COULDN'T WELCOME HER INSIDE OF MY HOME..."
+msgstr ""
+
+msgid ""
+"SO I MOVED ALL OF MY FURNITURE OUTSIDE SO THAT SHE COULD FEEL COMFORTABLE!"
+msgstr ""
+
+msgid ""
+"SHE FELT SAD ABOUT LIVING FOR A LONG TIME... SEEING ALL OF THE PEOPLE SHE "
+"CARES ABOUT FADING AWAY..."
+msgstr ""
+
+msgid ""
+"IT SOUNDS QUITE AWFUL OF A CONUNDRUM! JUST THINKING ABOUT IT GIVES ME A BIG "
+"HEADACHE!"
+msgstr ""
+
+msgid "If Cozmo was spared"
+msgstr ""
+
+msgid ""
+"A STRANGE, MAGICAL MAN HAD TELEPORTED INTO MY ABODE WITHOUT PERMISSION..."
+msgstr ""
+
+msgid "AND ASKED ME FOR THE MEANING OF LIFE."
+msgstr ""
+
+msgid "WE... HAD TO SCALE THE CONVERSATION BACK QUITE A BIT TO SAY THE LEAST."
+msgstr ""
+
+msgid "BUT AFTERWARDS, I LEARNED A LOT ABOUT THEM AND WHAT TROUBLES THEY HAD."
+msgstr ""
+
+msgid "THEY ONCE WERE THE APPRENTICE OF AN OLD MONSTER CALLED TERRESTRIA..."
+msgstr ""
+
+msgid "ONE THAT LIVED LONGER THAN ANYONE ELSE IN THE OUTPOST."
+msgstr ""
+
+msgid "HE HAD BEEN WORKING HIS ENTIRE LIFE TO IMPRESS HER..."
+msgstr ""
+
+msgid ""
+"HE SAID HE HAD NOT MANAGED TO DO ANYTHING THAT HE THOUGHT WAS SIGNIFICANT "
+"ENOUGH TO MAKE HER PROUD..."
+msgstr ""
+
+msgid ""
+"BUT I DON'T BELIEVE THAT AT ALL! I'M SURE SHE'D JUST BE GLAD THAT HE'S STILL"
+" ALIVE!"
+msgstr ""
+
+msgid "SINCE HE'S STILL HERE, HE CAN CHANGE THE WORLD FOR THE BETTER!"
+msgstr ""
+
+msgid ""
+"HE SEEMED TO HAVE BEEN RATHER ENCHANTED BY OUR CONVERSATION, AND WE TALKED "
+"FOR HOURS!"
+msgstr ""
+
+msgid "EVEN I'M IMPRESSED I WAS ABLE TO KEEP GOING FOR THAT LONG..."
+msgstr ""
+
+msgid "ONCE WE WERE DONE, WE BOTH PARTED WAYS FEELING QUITE PLEASED!"
+msgstr ""
+
+msgid "THOUGH... THEN I HAD TO GRAPPLE SOME EMOTIONS OF MY OWN AFTERWARDS."
+msgstr ""
+
+msgid "Return to branch"
+msgstr ""
+
+msgid "LOOKING BACK ON IT... IT'S CLEAR THAT YOU DID SOME REALLY BAD THINGS."
+msgstr ""
+
+msgid ""
+"BUT THE ROYAL GUARDS WERE ALSO EXTREMELY AGAINST HUMANITY, THAT I KNOW NOW."
+msgstr ""
+
+msgid ""
+"FOR THEM TO BE SO COMMITTED IN THEIR MISSION... IT LIKELY LEFT YOU NO OTHER "
+"CHOICE."
+msgstr ""
+
+msgid ""
+"HAVING THE DEATH OF OTHERS ON YOUR HANDS IS NO EASY THING TO COME TO TERMS "
+"WITH."
+msgstr ""
+
+msgid ""
+"PERHAPS IT WAS FOR THE BEST THAT I NEVER BECAME A REAL MEMBER OF THE ROYAL "
+"GUARD..."
+msgstr ""
+
+msgid ""
+"OR ELSE MY LOVED ONES TOO, MAY ALSO BE GREATLY HURT BY MY LOSS FOR BEING "
+"JUST AS STUBBORN."
+msgstr ""
+
+msgid ""
+"AFTER HAVING WORKED MY NOGGIN LIKE NEVER BEFORE, I WAS FEELING RATHER TIRED."
+msgstr ""
+
+msgid "SO I TOOK A SNOOZE CRUISE DOWN TO DREAMTOWN!"
+msgstr ""
+
+msgid ""
+"I FELT RATHER REFRESHED AFTER THAT, PERFECT TIMING AS I HEARD ANOTHER KNOCK "
+"ON MY DOOR THAT DAY!"
+msgstr ""
+
+msgid ""
+"THEN I HEARD ONE THE DAY AFTER THAT! THEN TWO THE DAY AFTER! THEN THREE, "
+"THEN FIVE..."
+msgstr ""
+
+msgid "THERE WAS... A LOT OF PEOPLE THAT ASKED FOR MY HELP..."
+msgstr ""
+
+msgid "IT IS KIND OF STRANGE, I'M NOT USED TO THIS MUCH POPULARITY."
+msgstr ""
+
+msgid "HOWEVER! THE GREAT PAPYRUS WILL DO ANYTHING TO HELP THOSE IN NEED!"
+msgstr ""
+
+msgid "If Mettaton is alive:"
+msgstr ""
+
+msgid "METTATON EVEN HAD ME APPEAR IN HIS SHOW FOR ONE OF THESE SESSIONS!"
+msgstr ""
+
+msgid ""
+"IT DIDN'T GO VERY WELL THOUGH, THE OTHER MONSTER DIDN'T LOOK VERY HAPPY "
+"AFTERWARDS."
+msgstr ""
+
+msgid "ME AND METTATON HAVEN'T REALLY TALKED MUCH SINCE EITHER..."
+msgstr ""
+
+msgid "AHEM! MOVING PAST THAT..."
+msgstr ""
+
+msgid "Return to branch..."
+msgstr ""
+
+msgid "THANKS TO THIS NEWFOUND POPULARITY, I'VE BECAME A CELEBRITY OF SORTS!"
+msgstr ""
+
+msgid "WITH HIS OWN COOL BUILDING AND A REALLY BIG SIGN!"
+msgstr ""
+
+msgid "I EVEN CAME UP WITH A COOL SLOGAN FOR IT TO SAY!"
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid "QUITE CATCHY, IS IT NOT? I THOUGHT OF IT MYSELF! NYEHEHEHE!"
+msgstr ""
+
+msgid ""
+"IT EVEN SHOWS ME ON A COMFY COUCH, WRITING NOTES... WEARING INCREDIBLY "
+"PROFESSIONAL SQUARE GLASSES."
+msgstr ""
+
+msgid "OH YES AND SANS IS ALSO MY RECEPTIONIST!"
+msgstr ""
+
+msgid ""
+"SINCE MY SCHEDULE IS SO BUSY, HE MAKES SURE I HAVE ENOUGH TIME FOR "
+"EVERYBODY!"
+msgstr ""
+
+msgid ""
+"I'M QUITE SURPRISED THAT SANS WAS SO OPEN TO HELPING, BUT I DON'T MIND!"
+msgstr ""
+
+msgid "YOU COULD EVEN SAY THAT..."
+msgstr ""
+
+msgid "I'M PROUD???"
+msgstr ""
+
+msgid ""
+"PERHAPS THIS IS OUR TRUE CALLING! THE THING THAT BRINGS OUT THE POTENTIAL OF"
+" ME AND MY BROTHER THE MOST!"
+msgstr ""
+
+msgid ""
+"I HOPE YOU TOO ARE ABLE TO ATTAIN YOUR TRUE POTENTIAL AS WELL, EVEN DESPITE "
+"THE MISTAKES OF YOUR PAST."
+msgstr ""
+
+msgid "WHEREVER YOU ARE OUT THERE, OUT IN SPACE."
+msgstr ""
+
+msgid "IF YOU EVER NEED SOMEONE TO TALK TO..."
+msgstr ""
+
+msgid "YOU KNOW WHO TO CALL!"
+msgstr ""
+
+msgid "Mettaton asked me to do a bunch of things, like combat upgrades"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/4}* H-hiya..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/20}* Is anyone there?"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/11}* ... I hope it's not too much trouble..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/4}* I just... w-wanted to let you know how things are "
+"going out here."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/20}* So... after you left, the king sort of... "
+"d-disappeared."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/14}* When I broke the news, it... hurt the people's "
+"morale pretty badly."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/10}* Technically, as royal scientist, I was meant to "
+"replace him, but..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/4}* I didn't really feel like I'd be the best fit for the"
+" job."
+msgstr ""
+
+msgid ""
+"<26>{#p/alphys}{#f/20}* Well, Undyne approached me with an offer to take "
+"over, and..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/20}* I agreed, and appointed her as the queen."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to Papyrus's "
+"death..."
+msgstr ""
+
+msgid ""
+"<26>{#p/alphys}{#f/13}* ... not to mention the collapse of the guard..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/13}* ... not to mention the loss of those guards..."
+msgstr ""
+
+msgid ""
+"<26>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the collapse of"
+" the guard..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of "
+"those guards..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of "
+"Doggo..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of "
+"Canis Minor..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to those married "
+"dogs' deaths..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of "
+"Canis Major..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of "
+"Doge..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to 03 and 04's "
+"deaths..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of "
+"Cozmo..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of "
+"Terrestria..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the former "
+"queen's death..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the spider "
+"queen's death..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to those monsters'"
+" deaths..."
+msgstr ""
+
+msgid ""
+"<26>{#p/alphys}{#f/13}* ... I was worried she'd overreact to that death in "
+"the Outlands..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to that death in "
+"Starton..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to that death in "
+"the Foundry..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to that death in "
+"Aerialis..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to that death at "
+"the CORE..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/17}* But all she did was re- establish the royal guard "
+"and its forces."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/17}* But all she did was bolster the royal guard's "
+"forces."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/19}* And... make a speech about how humans are "
+"dishonorable warriors."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/19}* And... make a speech about how humans are "
+"backstabbing traitors."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/19}* And... make a speech about how humans are "
+"irredeemable killers."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/20}* A speech that only got people on her side..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/26}* ... after they were reminded of your bullying."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/20}* ... after she mentioned the circumstances of "
+"ASGORE's disappearance."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/20}* A speech that... actually got a lot of people on her"
+" side."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/26}* ... beating everyone up certainly didn't help your "
+"case."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/5}* ... monsters are pretty wary of humans these days "
+"because of that."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/10}* As for the actual humans still alive on the "
+"outpost...?"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/4}* Well, after what she said, I... didn't want to take "
+"any chances."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/20}* So... I had the archive moved to a spire house in "
+"Aerialis."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/20}* In secret."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/5}* ... Undyne saw the lack of humans, or... human SOULs,"
+" and..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/10}* Assumed they'd been lost, too."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/3}* I, ahah, tried to talk her out of announcing it in "
+"public, but..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/3}* ... there was nothing I could do...!"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/30}* ...\n"
+"* Everyone thinks we're back at square one now."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/31}* Many have lost hope that we'll... ever get out of "
+"here."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/31}* ..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/30}* People are angry.\n"
+"* They're scared, and they all want to leave."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/31}* I don't know how much longer I can keep this secret "
+"from everyone."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* hey, you still talking to yourself in there?"
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* c'mon, the humans are due for their daily checkup."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/20}* Uh... could you come in for just a moment?"
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* on it."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* ... and i'm here."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/20}* So... I'm not really talking to myself."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/19}* Actually, I'm leaving a message for the human.\n"
+"* It's recording now..."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* hmm... i see."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/2}* mind if i take over while you go look after the kids?"
+msgstr ""
+
+msgid "<26>{#p/alphys}{#f/5}* S-sure, I'll... go do that."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* ..."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* ok, look, i won't take up much of your time."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* to be honest, i just took over the phone so i could "
+"hang it up."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* alphys has a habit of making phone calls that stress "
+"her out."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* but... before i go."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* undyne's announcement wasn't the only bad news we "
+"received."
+msgstr ""
+
+msgid ""
+"<26>{#p/sans}{#f/3}* reports of the former queen's death hit people pretty "
+"hard, too."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* shops closed down, people quit their jobs..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* they're saying morale is the lowest it's ever been."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/2}* ... on the bright side, at least grillby's gets a lot "
+"of business now."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* but no amount of junk food can make up for the loss of "
+"my..."
+msgstr ""
+
+msgid "<26>{#p/sans}{#f/3}* ... well, i think you know who i mean."
+msgstr ""
+
+msgid "<26>{#p/sans}{#f/0}* ..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* humanity's reputation is honestly pretty terrible now."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* alphys and i will do our best to protect the next human"
+" who comes..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* but i wouldn't be surprised if they end up getting "
+"killed."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* ... that's just the way things are now."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/27}* Uh, hey, sorry to interrupt, but..."
+msgstr ""
+
+msgid "<26>{#p/alphys}{#f/20}* I think we may have a... b-bit of a problem."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* eh, i said all i wanted to, anyway."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* i'm hanging up the phone now."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* ... goodbye."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}EVERYONE EXCEPT FOR YOU, ME, AND MY BROTHER!"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/27}* Oh, hey Papyrus.\n"
+"* I take it the archive is still working?"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}INDEED IT IS!"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/9}I ALSO GAVE THE HUMANS THEIR DAILY CHECKUP!"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/10}* Awesome, thanks."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/10}* ... maybe... you'd like to say a few things to the "
+"human...?"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/5}* I'm leaving a message about what's happened since "
+"they left."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}OH, SURE THING!"
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}... HELLO, HUMAN.\n"
+"I TRUST YOU'RE DOING WELL."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}IT'S BEEN HARD KEEPING SECRETS FROM EVERYONE..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/6}ESPECIALLY WHEN THEY'RE ALL JUST SO SAD!!!"
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/5}ALL THOSE PEOPLE THINKING THEY'LL NEVER ESCAPE..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}WONDERING IF THEY STILL HAVE A FUTURE..."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}BUT HEY!!\n"
+"IT'LL BE ALRIGHT!!"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}ONE DAY, THEY'LL COME TO KNOW THE TRUTH..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}AND THE TRUTH WILL SET THEM FREE."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/8}* Papyrus, why don't you tell them about your new job?"
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}OH RIGHT!!\n"
+"HOW COULD I FORGET ABOUT THAT!?"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}... UNDYNE FINALLY LET ME JOIN THE ROYAL GUARD."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}TECHNICALLY, I'M THE GUARD'S MORALE OFFICER..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}BUT I STILL DO A VERY IMPORTANT JOB!"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}YOU SEE, A GUARD CAN'T DO THEIR BEST..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}IF THEY'RE DOWN IN THE DUMPS."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}SO... THAT'S WHERE I COME IN!"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}UM, METAPHORICALLY OF COURSE."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}I WOULDN'T ACTUALLY GO DOWN INTO A DUMP."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/7}... THERE'S ENOUGH PEOPLE DOING THAT ALREADY!!!"
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/5}IT'S STRANGE...\n"
+"THEY NEVER SEEM TO COME BACK."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/10}* Eheh, I wouldn't worry about that."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/3}* They must just be so obsessed with trash, they never "
+"leave!"
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}YEAH...\n"
+"THAT MUST BE IT."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}IT'S STILL KIND OF CONCERNING, THOUGH."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/31}* ... yeah."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* oh.\n"
+"* hey guys.\n"
+"* sorry i'm late..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/2}* the people on the floor below us want me to make "
+"breakfast."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/25}* Well aren't they just a needy bunch."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/7}UGH... LIVING IN A SPIRE HOUSE MUST BE SO ANNOYING!!"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}DO THEY NOT KNOW HOW TO COOK FOR THEMSELVES?"
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* i mean, i can't say i blame 'em."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* after undyne's announcement about our progress, and..."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* those reports of the former queen's death...?"
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* i'd probably want someone else to cook for me, too."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/2}* but hey.\n"
+"* that's why i have you."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}YEAH!!\n"
+"WHO NEEDS SOMEONE ELSE TO COOK..."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/9}... WHEN YOU HAVE THE ONE AND ONLY GREAT PAPYRUS!"
+msgstr ""
+
+msgid "<26>{#p/sans}{#f/0}* heh."
+msgstr ""
+
+msgid ""
+"<26>{#p/sans}{#f/0}* well, i should probably get started on that breakfast "
+"now."
+msgstr ""
+
+msgid "<26>{#p/sans}{#f/3}* papyrus, would you mind coming with me?"
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}OF COURSE!\n"
+"I'LL GO WITH YOU RIGHT AWAY!"
+msgstr ""
+
+msgid ""
+"<26>{#p/sans}{#f/0}* alrighty, then.\n"
+"* ... on we go!"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/17}* Have fun."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/17}* ..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/5}* I guess I should probably hang up the phone now."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/6}* Just, if this ever gets to you, then..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/14}* I hope you're doing better than we are right now."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/20}* ..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/20}* See you later."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/5}* F-fortunately, the former queen returned, and..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/5}* Managed to convince her not to make an announcement "
+"about it."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/10}* There was some tension between them at first, but..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/6}* ... things feel like they're kind of back to normal, "
+"now."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/4}* The only difference from before is..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/17}* ... I have to keep the archive a secret."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/20}* Well, I guess that's not really much of a "
+"difference."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/14}* It's just weird not having... anyone around to help "
+"anymore."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* didja forget about me?"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/2}* O-oh, uh, that's not what I meant!"
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* hey, i get it.\n"
+"* it's not the same as it was with asgore."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* but i'd like to think i do a good job."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/6}* Yeah... you do."
+msgstr ""
+
+msgid "<26>{#p/alphys}{#f/5}* I just miss having him around and stuff."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* ... by the way..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* you should probably go give the humans their daily "
+"checkup."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/2}* i can take over on the phone while you're gone."
+msgstr ""
+
+msgid ""
+"<26>{#p/alphys}{#f/6}* Sounds good.\n"
+"* I'll go do that now."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* so here we are, then."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* now, since you left, i've been asking myself..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* \"why would they go out of their way to kill just "
+"him?\""
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* and i'm not talking about asgore."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* i think we both know the reason."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* i think we both know it wasn't out of self- defense."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* come on.\n"
+"* let's be honest with ourselves here."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* you just did it to see what'd happen."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* to see what i'd have to say about it."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* well, congratulations!\n"
+"* you got your answer, bucko!"
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* i hope you're happy with the outcome."
+msgstr ""
+
+msgid ""
+"<27>{#p/sans}{#f/3}* just kidding.\n"
+"* i don't really hope that."
+msgstr ""
+
+msgid "<27>{#p/sans}{#f/0}* ..."
+msgstr ""
+
+msgid "<27>{#p/sans}{#f/0}* ... well, that's all."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* hey.\n"
+"* hope you're doing well."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* for the most part, we're doing well, too."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* people are still going about their lives, day after "
+"day..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* waiting for the next human to come along and set us "
+"free."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* ... i just wish i could say the same about my brother."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* and the other people you killed, for that matter."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* ... i just wish i could say the same about my brother."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* hmm...\n"
+"* what else should i mention?"
+msgstr ""
+
+msgid ""
+"<26>{#p/sans}{#f/0}* ... right.\n"
+"* new living arrangements."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* so, after the former queen returned..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* she and i recognized eachother and got to talking."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* one thing led to another, and..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* she agreed to move in with me to my house in starton "
+"town."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* ... sure.\n"
+"* there's a lot we were excited about."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* the books i gave her, the recipes she tried to teach "
+"me..."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* but... y'know..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* none of that stuff ever made up for what happened to "
+"papyrus."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* she still feels pretty bad about that."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* not just because she cares about me, but also..."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* because she cared about you."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* you can imagine how she felt when she realized what "
+"you'd done."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* spoiler alert.\n"
+"* not good."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* ... and the public at large doesn't seem to feel much "
+"better."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* at least in terms of your reputation."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* still.\n"
+"* could be worse."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* at the very least, alphys and i are confident..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* in our ability to escort the next human to safety."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* so that's something."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* welp.\n"
+"* looks like i'll have to cut this short."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* just... think about what i've said, ok?"
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* ..."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* ... well, that's all."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}YEAH!!\n"
+"THEY'RE REALLY NOT THAT BAD!"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}ASIDE FROM ALL THE SECRET-KEEPING."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}NOT A BIG FAN OF THAT PARTICULAR THING."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/11}* But if Undyne were to find out, then..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}YES, YES, I KNOW WHAT YOU'RE GOING TO SAY."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/4}SHE'LL GET UPSET AND TRY TO TAKE THE HUMANS' SOULS."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/7}YOU DON'T HAVE TO REMIND ME!!"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/23}* He's been arguing with me about this for a while."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}(SIGH...)"
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/5}I FEEL LIKE WE COULD CONVINCE HER IF WE JUST TRIED."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/3}* ... Papyrus, why don't you tell them about your new "
+"job?"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/9}I'M THE GUARD'S NEWEST TRAINING EXPERT!"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}SO... WHILE UNDYNE TRAINS THE OTHER GUARDS..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}I'M RESPONSIBLE FOR KEEPING THEM ALL MOTIVATED."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/9}TURNS OUT I'M PRETTY DARN GOOD AT IT, TOO!"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/2}HER WORDS -AND- MINE."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/5}* Sounds like fun.\n"
+"* Maybe I'll visit you on the job sometime."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}SURE, I'LL LET YOU VISIT."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}AFTER YOU AGREE TO TELL UNDYNE OUR SECRET."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}SO, HOW ABOUT IT?\n"
+"YOU, ME, UNDYNE, CONVINCING?"
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* ... huh?\n"
+"* what's this about?"
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* sorry i'm late, by the way."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/2}* the people on the floor above us want me to make "
+"dinner."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/4}AREN'T YOU GOING TO TELL HIM WHAT WE TALKED ABOUT?"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/32}* ..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/3}* Papyrus thinks we should tell Undyne the truth."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* you really think that'd go well, bro?"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}WELL, AS A MEMBER OF THE ROYAL GUARD..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}MY OPINION -SHOULD- CARRY SOME REAL WEIGHT!"
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* hmm... normally i'd say no to something like this, "
+"but..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* undyne does seem to have a certain respect for you."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* besides, i've been thinking about it too."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/22}* W-well, don't go saying anything unless I give the "
+"OK!"
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/2}* wouldn't dream of it."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}YEAH!!\n"
+"WE'LL JUST PICTURE IT IN OUR HEADS."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}UNLESS THAT ALSO COUNTS AS DREAMING."
+msgstr ""
+
+msgid ""
+"<26>{#p/sans}{#f/0}* well, i should probably get started on that dinner now."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/5}* To be honest..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/5}* It would be nice to not have to hide all of this "
+"anymore."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/6}* So... maybe, if there's really a chance this could "
+"succeed..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/6}* ..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/8}* I-I'll think about it after I hang up the phone."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/10}* ..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/16}* T-take care!!"
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* Hello?"
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/5}* This is... Toriel."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/1}* ... I know we did not part ways on the best of terms,"
+" but..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/5}* I feel that you should know what has happened since "
+"your departure."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* After you ran away from me, I reconsidered my own "
+"decisions."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/13}* I felt... guilty.\n"
+"* For trying to keep you in the Outlands."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/13}* For trying to keep ALL the humans there."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/9}* I decided I could stay there no longer."
+msgstr ""
+
+msgid ""
+"<26>{#p/toriel}{#f/13}* I worked up the courage to leave, and returned to "
+"the Citadel."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/18}* ... when I saw that the humans were trapped in those"
+" boxes..."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/13}* I released them without a second thought."
+msgstr ""
+
+msgid ""
+"<26>{#p/toriel}{#f/10}* I did not want them to be trapped any more than I "
+"wanted you to be."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* ... but this decision was not without its "
+"consequences."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/13}* Not only were the humans traumatized by ASGORE's "
+"archive..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/13}* But one of them ran off, and was discovered by the "
+"public."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/18}* I did not want to keep them here against their will,"
+" but..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* The death of the royal guard's captain, and loss of "
+"the king..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* ... placed humanity's reputation in a rather "
+"difficult position."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/13}* With the public knowing the truth about the "
+"humans..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* I had no choice but to do whatever I could to "
+"safeguard them."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/15}* Uh, not to interrupt, but... you have a visitor."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/10}* Let me guess.\n"
+"* Sans?"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/3}* ..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/0}* There is no need to be so formal when he is the one "
+"at the gate."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* System, unlock the gate, authorization Toriel "
+"PIE-1-1-0."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* ...\n"
+"* it's about time."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* you still on the phone with the human?"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/23}* On the WHAT!?"
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/0}* Yes, I thought it would be nice if they heard from "
+"you, Sans."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* Perhaps Alphys would like to join us as well?"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/21}* ..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/21}* No.\n"
+"* Alphys would not."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/21}* In fact, Alphys would like to leave now."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/24}* ... I'll be outside if you need me."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/5}* ..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* she's... still pretty upset about what happened to "
+"undyne."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* about what she's had to do as a result."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* she's... still pretty angry about what you did to "
+"undyne."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* and you know what?"
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* i really get it."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* i know what alphys must be going through right now."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* after all..."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* she's not the only one who lost someone."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* and while i wouldn't blame you for running away..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* and while i wouldn't blame you for trying to defend "
+"yourself..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* i can't help but wonder if there was a better way to go"
+" about things."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* if, maybe somehow, this all could have been avoided."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* but i digress."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* there's too much at stake in the present to worry about"
+" the past."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* it's been difficult without the royal guard to protect "
+"us."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* not that i was a big fan of those guys before, but..."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* at a time like this, it'd be nice to have them around."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/13}* Yes, sadly, I am inclined to agree."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/13}* It seems not a day goes by without an angered "
+"citizen at the gate."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/9}* But it cannot be helped."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* There are few who share my willingness to treat "
+"humans as individuals."
+msgstr ""
+
+msgid "<32>{#p/human}{#v/1}{@fill:#42fcff}* Toriel, are we in danger?"
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* ... oh, hello!"
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/0}* Do not worry, my child.\n"
+"* I will always be here to protect you."
+msgstr ""
+
+msgid "<32>{#p/human}{#v/1}{@fill:#42fcff}* ... thank you..."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/0}* Now, please go back and wait with the others."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/0}* I will be with you shortly."
+msgstr ""
+
+msgid "<32>{#p/human}{#v/1}{@fill:#42fcff}* Okay, I'll go..."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/10}* ... very good."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/9}* ..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/10}* I suppose I cannot judge the citizens too harshly..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* ... knowing the sorts of choices you made during your"
+" time here."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/13}* It was... difficult, even for me, to accept what you"
+" had done."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/13}* It is... an unfortunate situation we find ourselves "
+"in."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* y'know..."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* i wanted to go to grillby's the other day, but..."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* their entire stock got raided last week."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* turns out grillby was a pro-human supporter."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/13}* I am... sorry to hear that, Sans.\n"
+"* You liked going there."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* yeah, being pro-human is basically a death sentence "
+"these days."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* at least where your business is concerned."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/12}* ... this is not the only instance of this happening."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/11}* Many others have had the same fate."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* yeah, but you know what the worst part is?"
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* this isn't what monsters are supposed to be like."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* the homeworld was said to be peaceful, and even during "
+"the war..."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* at least we were still united as a species."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* now, it just feels like... people can't get along."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* i could really use my brother's encouragement right "
+"about now."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* and that really stinks."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/3}* Uh... guys?"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/3}* I think you need to come see this."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/3}* What is that rumbling?\n"
+"* Do you hear that?"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/23}* You need to look outside."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* toriel, did you lock the gate after i got through?"
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/2}* ..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/22}* Come outside, NOW!!"
+msgstr ""
+
+msgid ""
+"<25>{|}{#p/toriel}{#f/2}* I... I am sorry!\n"
+"* I have to- {%}"
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* at least we have the royal guard around to back us up."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* what's left of it, anyway."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/14}* It is fortunate we have their support."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/13}* I do not know how we would fare without it."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}{#v/2}{@fill:#ff993d}* Yeah!\n"
+"* That royal guard is awesome!"
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/2}* ... huh!?"
+msgstr ""
+
+msgid "<32>{#p/human}{#v/2}{@fill:#ff993d}* You'll see!"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}{#v/2}{@fill:#ff993d}* When I'm older, I'm gonna join them and"
+" protect everyone!"
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/0}* Hee hee.\n"
+"* Perhaps you will."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* Hmm..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/0}* For now, your orders are to return to and guard the "
+"others first."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}{#v/2}{@fill:#ff993d}* Aye aye, captain!\n"
+"* I'll do so right away!"
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/0}* Stay safe!"
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* heh.\n"
+"* don't push 'em too hard out there."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* they've... still got all that archive stuff to deal "
+"with."
+msgstr ""
+
+msgid "<26>{#p/toriel}{#f/5}* That IS true, however..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/0}* It does not mean they must focus on it all the time."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* They are still only children, are they not?"
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/2}* ... welp, you know more about these things than me."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/9}* I do still worry about the outpost overall."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/13}* The royal guard has helped to keep the outpost in "
+"check, but..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/18}* Many people still do not see the value in what we "
+"are doing."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/10}* Though, I suppose I cannot judge them too harshly..."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* the place was utterly full of protesters."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/13}* I am... sorry to hear that, Sans.\n"
+"* Was a guard not there?"
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* well, yeah, but it's not like they can kick 'em out."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* they WERE still paying customers."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/1}* ... that does not seem like an effective means of "
+"protest."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/6}* But I wish them well."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* yeah, i guess that's kinda funny.\n"
+"* but at the same time..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/27}* Uh, Toriel?\n"
+"* I think you left the security gate open."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/20}* Don't worry, I closed it for you... again."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* Oh, um, thank you..."
+msgstr ""
+
+msgid ""
+"<26>{#p/alphys}{#f/23}* Maybe don't do that\n"
+"  next time?\n"
+"* It's there for a reason."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* Perhaps now would be a good time to end this message."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* yeah, we can't talk to you forever, bucko."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* so... fly safe out there, i guess."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* or not.\n"
+"* i don't really care."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/0}* ...\n"
+"* This is Toriel."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/1}* I know it is not the kind of call we would normally "
+"have, but..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* Despite our calling arrangements, I could not help "
+"but worry."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/1}* I know the circumstances are not ideal at the moment,"
+" but..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* After our time in the Outlands, I could not help but "
+"worry."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/5}* I knew you were the last human ASGORE would have "
+"needed."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* Despite my fear of leaving the Outlands..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/5}* I knew I could not afford to remain there any longer."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* I ran to the Citadel as fast as I could to stop him "
+"from hurting you."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/10}* But when I got there..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* I realized I had been wrong about him this whole "
+"time."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/5}* He was not the killer I had made him out to be."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* ..."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* I had a talk with Alphys later that day."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* We discussed ASGORE, the humans..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/3}* As well as something about a \"Mew Mew Space "
+"Adventure?\""
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/4}* I still do not know what that means."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/0}* Anyhoo, to summarize... she wasn't ready to become "
+"the queen."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* And she agreed to appoint me instead."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/5}* Only then, did I hear about the royal guard captain's"
+" death..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* And the fact that, had you acted, you might have "
+"saved her."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/5}* I only have my own cowardice to blame, however."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/1}* If I had simply posessed the courage leave sooner..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/5}* I could have gone with you and pointed you in the "
+"right direction."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* And the fact that you were the one to have killed "
+"her."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* As well as the death of Sans's brother, Papyrus."
+msgstr ""
+
+msgid ""
+"<26>{#p/toriel}{#f/9}* As well as the deaths of the rest of the royal guard."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* As well as the deaths of other royal guard members."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/9}* As well as the death of her subordinate, Doggo."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* As well as the death of her subordinate, Canis Minor."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* As well as the death of her subordinates, Dogamy and "
+"Dogaressa."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* As well as the death of her subordinate, Canis Major."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/9}* As well as the death of her subordinate, Doge"
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* As well as the death of her subordinates, 03 and 04."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/9}* As well as the death of her subordinate, Cozmo."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* As well as the death of her subordinate, Terrestria."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/9}* As well as the deaths of many other monsters."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/9}* As well as the deaths of a few other monsters."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/9}* As well as the death of one other monster."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/5}* I could have gone with you and encouraged a more "
+"peaceful path."
+msgstr ""
+
+msgid "<26>{#p/toriel}{#f/9}* Alas, there was nothing more to be done."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/5}* As queen, I did not have time to dwell on such "
+"matters."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* The humans' safety was at stake, and I would not lose"
+" them again."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/10}* My first act as queen would be to increase their "
+"protection."
+msgstr ""
+
+msgid ""
+"<26>{#p/toriel}{#f/5}* Admittedly, this would be difficult, given the lack "
+"of a royal guard."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/5}* Admittedly, I was out of practice in handling these "
+"sorts of matters."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/1}* But with the help of an old friend, Gerson, and his "
+"contacts..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/1}* I was able to arrange a minimal security detail here "
+"in the Citadel."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/0}* It is not much, but the humans and their secret are "
+"safer now."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* Since then, life has carried on as usual..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/5}* Despite the loss of the king, and royal guard as a "
+"whole..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/5}* Despite the loss of the king, and former royal guard "
+"captain..."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* The people still have hope for their freedom."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/5}* Hope that... I will deliver it to them."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* In a way, I understand what ASGORE must have been "
+"going through now."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/10}* The weight of such outrageous demands being made of "
+"me..."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/9}* ... it is changing who I am as a person."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/5}* Earlier today, in fact."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/5}* When Sans came to reminisce about his brother, I..."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/9}* I declined out of a desire to be left alone."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/1}* He shrugged, and walked off like nothing was wrong..."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/5}* But I knew he must have been disappointed."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/5}* When Papyrus came to reminisce about Undyne, I..."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* He tried to act like nothing was wrong..."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/5}* But I knew he was probably upset."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* ... I felt guilty, but with all this pressure bearing"
+" down on me..."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/5}* I did not see myself having the energy to discuss "
+"such a topic."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/1}* Still.\n"
+"* I have not given up on our future."
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/1}* No matter what happens to me, or my own well-being..."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/0}* At least monsterkind will go free one day."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/1}* That is what matters now, is it not?"
+msgstr ""
+
+msgid ""
+"<25>{#p/toriel}{#f/9}* ... I suppose... it would be a good time to end the "
+"call now."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/9}* There is not much else for me to say."
+msgstr ""
+
+msgid "<25>{#p/toriel}{#f/5}* Goodbye, little one."
+msgstr ""
+
+msgid "t a leader, he"
+msgstr ""
+
+msgid ""
+"you've left one big mess behind since you left. almost everybody completely "
+"lost hope."
+msgstr ""
+
+msgid ""
+"alphys especially has taken things pretty hard. she's completely shut "
+"herself out from the outside world."
+msgstr ""
+
+msgid "i've tried to talk to her, but no dice."
+msgstr ""
+
+msgid ""
+"with no real figureheads to turn to, the canine unit sort of formed a new "
+"government, a council of sorts."
+msgstr ""
+
+msgid ""
+"they walk inside and sit at their usual table in grillby's wearing formal "
+"suits and uh..."
+msgstr ""
+
+msgid "discuss some pretty out-there policies."
+msgstr ""
+
+msgid "seems to be working pretty well, funny enough."
+msgstr ""
+
+msgid ""
+"i get a treat and bellyrubs for doing good work, now i kinda see why dogs "
+"are a fan of this sorta thing."
+msgstr ""
+
+msgid "they can make even a lazybones like me work my butt off."
+msgstr ""
+
+msgid "almost makes you forget that not all is right with the world."
+msgstr ""
+
+msgid "...but we both know things could be better than this, right?"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/8}* I just... w-wanted to let you know how things are "
+"going out here."
+msgstr ""
+
+msgid ""
+"<26>{#p/alphys}{#f/5}* Well, I had a talk with some of the royal guards, "
+"and..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/6}* We agreed Terrestria should be appointed as the queen"
+" instead."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/19}* Her first action was a little controversial, "
+"though..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/20}* Cutting the royal guard in half and loosening its "
+"policies."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/31}* Undyne wasn't happy about it at first, but..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/20}* She came around to it in the end."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/27}* Apparently she thinks not all humans are... bad now?"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/27}* ..."
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/17}* Are you kidding?\n"
+"* Of COURSE they're not all bad!!"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/10}* U-Undyne!?"
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/1}* That last human proved their kind CAN fight with "
+"honor."
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/1}* That they CAN show respect to their opponents in "
+"battle."
+msgstr ""
+
+msgid "<25>{#p/undyne}{#f/16}* ... and it's a good thing, too, because..."
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/14}* I doubt the royal guard'll expand again any time "
+"soon."
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/1}* Especially after the former queen returned, and..."
+msgstr ""
+
+msgid "<25>{#p/undyne}{#f/1}* ... gave the new one her full support."
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/14}* That last human proved their kind CAN in fact be... "
+"well, kind."
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/1}* That they CAN show mercy to their opponents in "
+"battle."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/31}* Undyne... wasn't happy about this at all."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/13}* She still blames you for what happened to the king, "
+"so..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/20}* It's... understandable why she'd be opposed to it."
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/16}* Yeah, it's a pretty stupid policy if you ask me."
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/17}* No matter HOW many nice humans come along, we CAN'T "
+"lower our guard!"
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/9}* ... but not many people would agree with me these "
+"days."
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/16}* With the former queen's return, and her support for "
+"the new one..."
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/9}* I doubt the royal guard will ever be as strong as it "
+"once was."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/5}* ...\n"
+"* About the former queen."
+msgstr ""
+
+msgid ""
+"<26>{#p/alphys}{#f/5}* By the time she returned, things were mostly back to "
+"normal..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/21}* And then she decided to reveal the truth about the "
+"humans."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/21}* Like... RIGHT after she found out herself."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/20}* ... eheh...\n"
+"* The people didn't react well at first."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/13}* They were more scared than anything..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/26}* A fact not helped by a certain human beating "
+"everyone up."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/20}* Thankfully, over time, Terrestria was able to calm "
+"them down..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/20}* ... by reminding them nobody had died."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/18}* I'm glad it worked.\n"
+"* I would have caused a riot saying that."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/8}* But... yeah, people are mostly positive about "
+"humanity now."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/15}* ... thankfully, this DIDN'T cause a mass uprising..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/17}* Though, I guess being so well-known helped her out "
+"with that."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/8}* In fact, people are mostly positive about humanity "
+"now."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/8}* So that's something."
+msgstr ""
+
+msgid "<26>{#p/undyne}{#f/16}* Heh, tell me about it..."
+msgstr ""
+
+msgid "<25>{#p/undyne}{#f/10}* It's a weird reality we live in now."
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/1}* By the way, did you mention all the new schools being"
+" built?"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/10}* Uh... yeah!\n"
+"* I totally... didn't."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/6}* Eheh...\n"
+"* The education system's doing well, too."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/1}* Suffice it to say, tuition prices have never been "
+"lower!"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/8}* There's been so many new students learning all sorts "
+"of things."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}... HEY GUYS!\n"
+"I JUST GOT BACK FROM MATH CLASS!!"
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/4}WHO KNEW FOLDING SPACETIME COULD BE SO COMPLICATED..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/10}* ... yep, Papyrus took a class on warp field theory."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/6}WHAT?? ARE YOU REFERRING TO ME IN THE THIRD PERSON??"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/17}* ... and a writing class, from the sounds of it."
+msgstr ""
+
+msgid "<25>{#p/undyne}{#f/12}* That's still a thing??"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}... WAIT..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/7}WHO ARE YOU TALKING TO ON THE PHONE!?"
+msgstr ""
+
+msgid "<25>{#p/undyne}{#f/1}* It's the human."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}OH!! OH!!\n"
+"LET ME TALK TO THEM!!"
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/14}* Be my guest.\n"
+"* I gotta get back to teaching my class."
+msgstr ""
+
+msgid ""
+"<25>{#p/undyne}{#f/17}* They've been struggling with the \"magical self- "
+"defense\" excersize."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}... HELLO HUMAN!!\n"
+"HOW HAVE -YOU- BEEN LATELY!?"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}I GUESS YOU CAN'T REALLY ANSWER THAT."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/6}BUT I HOPE YOU'RE DOING WELL!!"
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}I'VE BEEN THINKING ABOUT YOU SINCE OUR EPIC SHOWDOWN."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}I'VE BEEN THINKING ABOUT YOU SINCE THAT DATE WE HAD."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}I'VE BEEN THINKING ABOUT YOU SINCE WE HUNG OUT."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}I TOLD EVERYONE IN MY CLASS ABOUT YOU, AND..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}... ALL OF THEM WISHED YOU'D COME BACK SOMEDAY."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}... ALMOST ALL OF THEM, ANYWAY."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/5}ONE CLASSMATE WHO SITS NEXT TO ME SAYS THAT YOU..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}... UH, THEY SAY YOU BETRAYED THEM, SOMEHOW."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/6}BUT LISTEN!!\n"
+"IF YOU EVER -DO- COME BACK..."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}I'LL HELP THE TWO OF YOU GET BACK ON GOOD TERMS!!"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}ONE OF THEM EVEN WISHES THEY COULD GO WITH YOU!!"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}IT'S A CLASSMATE WHO SITS NEXT TO ME, ACTUALLY."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/6}THEY SAY THEY OWE YOU THEIR VERY LIFE!!"
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/4}... A HERO, EH?\n"
+"IF YOU EVER -DO- COME BACK..."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}I'LL BE SURE TO INVITE THEM TO YOUR RETURN PARTY."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/9}YOU HAVE MY PERSONAL PAPYRUS PROMISE! (TM)"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/27}* ... hey, isn't that one of Mettaton's lines?"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}IN THE PAST, MAYBE... BUT NOT NOW."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/5}APPARENTLY, HE'S DITCHING HIS OLD FORMAT ENTIRELY..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}ALL TO START THE \"MTT CINEMATIC UNIVERSE.\""
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/17}* Oh yeah, I heard a rumor about that."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/21}* They say he's doubling down on the whole \"villain\""
+" thing."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}... LIKE THAT'S NOT GOING TO BACKFIRE."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/22}* I KNOW, RIGHT!?!?"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/10}* The people aren't going to want a reminder of what "
+"the human was."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/26}* ... no offense."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/10}* People don't even dislike humans anymore, so..."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/3}* I don't really see the point in it."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/21}* They say he's doubling down on the whole \"killer "
+"robot\" thing."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}LIKE THAT'S NOT GOING TO BACKFIRE."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/10}* The people aren't going to want a reminder of the "
+"human's violence."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/10}* People are just trying to be positive nowadays, "
+"so..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}YEAH... EVERYONE'S JUST TRYING TO HAVE HOPE NOW."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/6}... INCLUDING MY BROTHER!!"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}AFTER THE ROYAL GUARD WAS REDUCED IN SIZE..."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}HE LEFT TO START A BUSINESS WITH BRATTY AND CATTY."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/4}A SECOND-HAND TRASH BUSINESS."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}I CAN'T SAY I APPROVE, BUT AT LEAST HE'S HAPPY."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* of course i'm happy.\n"
+"* selling trash is basically my calling."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/7}SANS!! STOP COMING OUT OF NOWHERE LIKE THAT!!"
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/2}* heh.\n"
+"* so how are ya, bucko?"
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* i hope my efforts to warn and protect you weren't in "
+"vain."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/9}I KNEW IT!!\n"
+"YOU WERE A MOLE- RAT ALL ALONG!"
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* true.\n"
+"* i did infiltrate the royal guard."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* but i'd like to think i made a positive influence."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/2}* after all, it was MY idea to put terrestria in charge."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/1}WHAT!?\n"
+"YOUR IDEA!?"
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/5}WOWIE..."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/3}* ... but that's all in the past now."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* the way i see it, i'm just glad things didn't end up "
+"worse."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/17}* I'm a little surprised you didn't come back to work "
+"at the lab."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/5}* You know, like you said you'd do when you were done "
+"with the guard."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* well, to be honest, i needed a break after all that "
+"serious stuff."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/2}* but hey, at least papyrus is doing a bang-up job, "
+"right?"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/6}* Eheh.\n"
+"* Yeah, he is."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/0}I TRY MY BEST!!"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/20}* ... though, there is this one thing that's been on "
+"my mind."
+msgstr ""
+
+msgid "<25>{#p/sans}{#f/0}* what is it?"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/27}* Well, according to the telescopes..."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/27}* Something strange happened to the stars a while "
+"back."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/6}STRANGE!?\n"
+"HOW CAN A STAR BE STRANGE!?"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/15}* Well, okay, it wasn't actually the STAR that was "
+"strange."
+msgstr ""
+
+msgid "<26>{#p/alphys}{#f/23}* It was the way it moved."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/20}* Or... didn't move?"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/20}* It was more like... a jump, of sorts.\n"
+"* A sudden shift."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/26}* As if time outside the forcefield just... lept ahead"
+" a few years."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/7}YEARS!?\n"
+"BUT THAT CAN'T BE RIGHT!!"
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/20}* Well I checked, and double- checked, and triple-"
+"checked..."
+msgstr ""
+
+msgid "<18>{#p/papyrus}{#f/6}BUT DID YOU QUADRUPLE-CHECK!?"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/21}* Of course I did."
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/5}* But it didn't change the result."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/0}* huh.\n"
+"* how strange."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/3}* whoops.\n"
+"* the recording's almost at its time limit now."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/17}* ... oh.\n"
+"* I guess we should wrap this up, then."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/6}* Well, I... I hope you're doing alright out there."
+msgstr ""
+
+msgid ""
+"<25>{#p/alphys}{#f/5}* If we managed to find happiness here, then... so can "
+"you."
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/0}WELL SAID, ALPHYS.\n"
+"WELL SAID."
+msgstr ""
+
+msgid ""
+"<25>{#p/sans}{#f/2}* heh.\n"
+"* take care, okay?"
+msgstr ""
+
+msgid ""
+"<18>{#p/papyrus}{#f/9}YEAH!!\n"
+"UNTIL NEXT TIME!!"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/8}* ... until next time."
+msgstr ""
+
+msgid "<32>{#s/equip}{#p/event}* Click..."
+msgstr "<32>{#s/equip}{#p/event}* 滴..."
+
+msgid ""
+"<32>{#p/napstablook}* oh...\n"
+"* hey frisk......"
+msgstr ""
+
+msgid "<32>* ..."
+msgstr "<32>* ..."
+
+msgid ""
+"<32>* ... huh?\n"
+"* what's with that look?"
+msgstr ""
+
+msgid "<32>* did i... get in your way?"
+msgstr ""
+
+msgid ""
+"<32>* oh......\n"
+"* i did, didn't i........."
+msgstr ""
+
+msgid "<32>* sorry..."
+msgstr ""
+
+msgid "<32>* force of habit......"
+msgstr ""
+
+msgid "<32>* i'll... just be out of your way now......"
+msgstr ""
+
+msgid ""
+"<32>* please......\n"
+"* forgive me............"
+msgstr ""
+
+msgid "<32>* they're still out there building the front door, so..."
+msgstr ""
+
+msgid "<32>* not much point in trying to go there, i guess"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You repeat the secret told to you by Napstablook in Archive"
+" Six.)"
+msgstr ""
+
+msgid "<32>{#p/napstablook}* a magic trick...?"
+msgstr ""
+
+msgid "<32>* wait..."
+msgstr ""
+
+msgid ""
+"<33>* i think i know what you mean...\n"
+"* let me try..."
+msgstr ""
+
+msgid ""
+"<32>{#p/napstablook}* heh...\n"
+"* i really appreciate everything you've done, frisk."
+msgstr ""
+
+msgid ""
+"<32>{#p/napstablook}* hey...\n"
+"* i really appreciate everything you've done, frisk."
+msgstr ""
+
+msgid "<32>* setting us free and all..."
+msgstr ""
+
+msgid ""
+"<32>* the truth is, my cousins and i started to think we'd never escape."
+msgstr ""
+
+msgid "<32>* it'd been so long since the last human arrived, and..."
+msgstr ""
+
+msgid "<32>* considering what we recently found out about the humans..."
+msgstr ""
+
+msgid "<32>* about how they all left the home galaxy..."
+msgstr ""
+
+msgid "<32>* it's a miracle you even came to the outpost at all."
+msgstr ""
+
+msgid "<32>{#p/napstablook}* oh yeah, about my cousins..."
+msgstr ""
+
+msgid "<32>* after the whole mettaton thing, it's been going pretty good."
+msgstr ""
+
+msgid "<32>* we've been talking it over, and..."
+msgstr ""
+
+msgid "<32>* ... we've decided to re-open the snail farm here on eurybia."
+msgstr ""
+
+msgid ""
+"<32>* mettaton's doing the advertising, while i and the others look after "
+"the snails."
+msgstr ""
+
+msgid "<32>* we even found a place we could stay once we get settled in..."
+msgstr ""
+
+msgid "<32>* a very kind house told us we could live there."
+msgstr ""
+
+msgid "<32>* apparently, it's the same one undyne used to live in..."
+msgstr ""
+
+msgid "<32>{#p/napstablook}* oh right... my cousins."
+msgstr ""
+
+msgid "<32>* i don't really know if i should be telling you this, but..."
+msgstr ""
+
+msgid ""
+"<32>* we sort of figured out that mettaton might be our long-lost cousin."
+msgstr ""
+
+msgid "<32>* the others and i tried to ask him about it, but..."
+msgstr ""
+
+msgid "<32>* ... it didn't really go the way we'd hoped."
+msgstr ""
+
+msgid "<32>* then, everyone was blaming each other for messing it up..."
+msgstr ""
+
+msgid "<32>* i... haven't felt like talking with them since."
+msgstr ""
+
+msgid "<32>* yeah... this was a bad topic"
+msgstr ""
+
+msgid "<32>{#p/napstablook}* ..."
+msgstr ""
+
+msgid "<32>* speaking of families..."
+msgstr ""
+
+msgid ""
+"<32>* hey...\n"
+"* even if my family's not doing to well..."
+msgstr ""
+
+msgid "<32>* yours is only just getting started."
+msgstr ""
+
+msgid "<32>* you might not have any new siblings, but..."
+msgstr ""
+
+msgid "<32>* even with those new siblings of yours..."
+msgstr ""
+
+msgid "<32>* even with that new sibling of yours..."
+msgstr ""
+
+msgid ""
+"<32>* i get the feeling asgore's going to take really good care of you."
+msgstr ""
+
+msgid "<32>* how do i know?"
+msgstr ""
+
+msgid ""
+"<32>* well, recently, i found out he was the hairy guy who came to our farm "
+"all the time."
+msgstr ""
+
+msgid "<32>* he'd always take such good care of the snails he purchased..."
+msgstr ""
+
+msgid ""
+"<32>* even healing them if they ever got hurt before dying of natural "
+"causes."
+msgstr ""
+
+msgid ""
+"<32>* if he cared that much for little space creatures, he'll care even more"
+" for you."
+msgstr ""
+
+msgid ""
+"<32>{#p/napstablook}* ... you know...\n"
+"* before the snail farm, and..."
+msgstr ""
+
+msgid "<33>* before the outpost..."
+msgstr ""
+
+msgid "<32>* my life on the old homeworld was a quiet one."
+msgstr ""
+
+msgid "<32>* that old homeworld..."
+msgstr ""
+
+msgid "<32>* it really was a special place."
+msgstr ""
+
+msgid "<32>* the way the sky set itself on fire every day..."
+msgstr ""
+
+msgid "<32>* how everyone who lived there was so at peace before the war..."
+msgstr ""
+
+msgid "<32>* back then, i didn't think anything of it."
+msgstr ""
+
+msgid "<32>* now... after nearly two hundred years of captivity......"
+msgstr ""
+
+msgid "<32>* i realized i'd been taking it all for granted."
+msgstr ""
+
+msgid ""
+"<32>{#p/napstablook}* well, anyway.\n"
+"* the old homeworld was great and all..."
+msgstr ""
+
+msgid "<32>* but the new one's got a lot going for it, too."
+msgstr ""
+
+msgid "<32>* like the wildlife."
+msgstr ""
+
+msgid "<32>* when i traveled the surface earlier, i ran into some of it..."
+msgstr ""
+
+msgid "<32>* and that's when i saw something interesting happen"
+msgstr ""
+
+msgid "<32>* the creatures... starting using magic."
+msgstr ""
+
+msgid ""
+"<32>* when i mentioned this to alphys, she said the planet didn't have any "
+"magic..."
+msgstr ""
+
+msgid "<32>* not according to the scans they took when we first arrived."
+msgstr ""
+
+msgid "<32>* has our arrival to this world..."
+msgstr ""
+
+msgid "<32>* ... given it something it didn't have before?"
+msgstr ""
+
+msgid "<32>{#p/napstablook}* ... heh."
+msgstr ""
+
+msgid "<32>* i've been rambling a lot, huh?"
+msgstr ""
+
+msgid "<32>* i appreciate you listening to me, though"
+msgstr ""
+
+msgid "<32>* it's really nice of you to do that for me, frisk."
+msgstr ""
+
+msgid "<32>* just wanted you to know that."
+msgstr ""
+
+msgid ""
+"<32>{#p/napstablook}* huh?\n"
+"* you still wanted to talk?"
+msgstr ""
+
+msgid "<32>* oh......"
+msgstr ""
+
+msgid "<32>* i guess i ran out of conversation topics"
+msgstr ""
+
+msgid "<32>* i doubt i'd have anything else of interest to say, so..."
+msgstr ""
+
+msgid "<32>* feel free to go do something else, now"
+msgstr ""
+
+msgid "<32>{#p/napstablook}* ... frisk, uh..."
+msgstr ""
+
+msgid "<32>* i'm not really sure what to talk about anymore"
+msgstr ""
+
+msgid "<32>* maybe... if you come back later today..."
+msgstr ""
+
+msgid "<33>* i'll think of something else..."
+msgstr ""
+
+msgid "<32>{#p/napstablook}* ... oh........."
+msgstr ""
+
+msgid ""
+"<32>* you're.........\n"
+"* still here........."
+msgstr ""
+
+msgid "<32>* even though i have nothing else to say........."
+msgstr ""
+
+msgid "<32>* well... i guess, if you just wanted my company... then..."
+msgstr ""
+
+msgid "<32>* feel free to stick around a while longer"
+msgstr ""
+
+msgid "<32>{#p/napstablook}* ... hmm..."
+msgstr ""
+
+msgid "<32>* actually..."
+msgstr ""
+
+msgid "<32>* ... would you like me to tell you a joke?"
+msgstr ""
+
+msgid "<32>* i don't have much of a sense of humor, but i can try..."
+msgstr ""
+
+msgid ""
+"<32>{#p/napstablook}* okay...\n"
+"* here goes..."
+msgstr ""
+
+msgid ""
+"<32>* if a ghost gets tired in the middle of the road, what does it do?"
+msgstr ""
+
+msgid "<32>* answer... it {@fill:#ff0}naps to block{@fill:#fff} you."
+msgstr ""
+
+msgid ""
+"<32>* get it?\n"
+"* napstablook?\n"
+"* naps to block?"
+msgstr ""
+
+msgid ""
+"<32>* yeah...\n"
+"* that was kinda bad"
+msgstr ""
+
+msgid "<32>{#p/napstablook}* ... you wanted me to tell you another joke?"
+msgstr ""
+
+msgid "<32>* hmm... let me think about it..."
+msgstr ""
+
+msgid "<32>{#p/napstablook}* okay, let's see..."
+msgstr ""
+
+msgid ""
+"<32>* if a ghost changed vessels so they could have a child, what would you "
+"call it?"
+msgstr ""
+
+msgid "<32>* answer... a {@fill:#ff0}trans-parent.{@fill:#fff}."
+msgstr ""
+
+msgid "<32>* ... heh."
+msgstr ""
+
+msgid "<32>{#p/napstablook}* ... you wanted me to tell you a third joke?"
+msgstr ""
+
+msgid "<32>* well... if you insist..."
+msgstr ""
+
+msgid ""
+"<32>{#p/napstablook}* okay.\n"
+"* i've got it."
+msgstr ""
+
+msgid ""
+"<32>* if a restaurant hires a ghost to taste test their food, what does that"
+" make the ghost?"
+msgstr ""
+
+msgid "<32>* answer... a {@fill:#ff0}food-in-spectre.{@fill:#fff}."
+msgstr ""
+
+msgid ""
+"<32>{#p/napstablook}* alright, alright.\n"
+"* maybe i got a little carried away with that one."
+msgstr ""
+
+msgid "<33>* but i hope you liked it anyway."
+msgstr ""
+
+msgid "<32>* oh..."
+msgstr ""
+
+msgid "<32>* ... i guess i'm at a loss for what to say."
+msgstr ""
+
+msgid ""
+"<32>* you've been such a good listener, i'd feel bad if i ran out of ideas."
+msgstr ""
+
+msgid "<32>* c'mon, blooky, think..."
+msgstr ""
+
+msgid "<32>* ... what can you talk about..."
+msgstr ""
+
+msgid "<32>{#p/napstablook}* wait, hold on"
+msgstr ""
+
+msgid "<32>* do you know anything about ghost food?"
+msgstr ""
+
+msgid "<32>* that last joke kind of got me thinking about it."
+msgstr ""
+
+msgid "<32>* you must be confused... it's not really explained anywhere."
+msgstr ""
+
+msgid "<32>* if you like, i can tell you about it..."
+msgstr ""
+
+msgid "<32>{#p/napstablook}* ... so, ghost food..."
+msgstr ""
+
+msgid "<32>* it's exactly like normal monster food, except..."
+msgstr ""
+
+msgid "<32>* when preparing it..."
+msgstr ""
+
+msgid ""
+"<32>* there's a special kind of spell you have to use to make it edible for "
+"ghosts."
+msgstr ""
+
+msgid "<32>* that's right... any monster food can become ghost food."
+msgstr ""
+
+msgid "<32>{#p/napstablook}* as it turns out, though..."
+msgstr ""
+
+msgid "<32>* certain kinds of food are easier to convert than others."
+msgstr ""
+
+msgid ""
+"<32>* like... standard fruit.\n"
+"* or milkshakes."
+msgstr ""
+
+msgid "<32>* but something like that exoberry pie you bought from me..."
+msgstr ""
+
+msgid "<32>* but something like that exoberry pie i had in my shop..."
+msgstr ""
+
+msgid "<32>* that... would take a lot of magical power to make."
+msgstr ""
+
+msgid ""
+"<32>* the more complicated the food, the more difficult it is to convert "
+"into ghost food."
+msgstr ""
+
+msgid ""
+"<32>{#p/napstablook}* this one time, my... er, mettaton made me a chocolate "
+"cake."
+msgstr ""
+
+msgid ""
+"<32>{#p/napstablook}* this one time, my cousin made me a chocolate cake."
+msgstr ""
+
+msgid "<32>* chocolate filling, chocolate icing... chocolate everything."
+msgstr ""
+
+msgid "<32>* if i didn't know any better, i'd think it was actual human food."
+msgstr ""
+
+msgid ""
+"<32>* but somehow, he managed to convert all of that into a ghost food..."
+msgstr ""
+
+msgid ""
+"<32>* not for a special occasion, but just because he wanted to see me "
+"smile."
+msgstr ""
+
+msgid ""
+"<32>* but somehow, they managed to convert all of that into a ghost food..."
+msgstr ""
+
+msgid ""
+"<32>* not for a special occasion, but just because they wanted to see me "
+"smile."
+msgstr ""
+
+msgid ""
+"<32>* well... i did.\n"
+"* and we ate the cake together."
+msgstr ""
+
+msgid "<32>* and i was happy."
+msgstr ""
+
+msgid ""
+"<32>* heh...\n"
+"* i think i'm gonna pretend to sleep for a while..."
+msgstr ""
+
+msgid "<32>* it helps me unwind after a long day like this one."
+msgstr ""
+
+msgid "<32>* ... wait, it's morning..."
+msgstr ""
+
+msgid "<32>* i guess that would make it a long night, then."
+msgstr ""
+
+msgid ""
+"<32>* days and nights...\n"
+"* that's going to take some getting used to."
+msgstr ""
+
+msgid "<32>* well... thanks for talking to me, frisk"
+msgstr ""
+
+msgid "<32>* feel free to lay down next to me... if you like......"
+msgstr ""
+
+msgid "<32>* Zzz... Zzz..."
+msgstr ""
+
+msgid "<32>{#p/napstablook}* Zzz... Zzz..."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* This ghost keeps saying 'z' out loud repeatedly, pretending "
+"to sleep."
+msgstr ""
+
+msgid "* (Lay down next to it?)"
+msgstr ""
+
+msgid "Yes"
+msgstr "是"
+
+msgid "No"
+msgstr "否"
+
+msgid "<32>{#p/basic}* The ghost is still here."
+msgstr ""
+
+msgid "<32>{#p/napstablook}* oooooooooooo......"
+msgstr ""
+
+msgid "<32>* this is really nice......"
+msgstr ""
+
+msgid "<32>* (You feel... something.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/napstablook}* oh, sorry... i should probably explain what this is..."
+msgstr ""
+
+msgid ""
+"<32>* ...\n"
+"* so, uh..."
+msgstr ""
+
+msgid ""
+"<32>* i took your body...\n"
+"* as a vessel..."
+msgstr ""
+
+msgid "<32>* and now...... we inhabit the same space......"
+msgstr ""
+
+msgid ""
+"<32>* i don't know why, but the last human who tried this... really liked "
+"it..."
+msgstr ""
+
+msgid "<32>* so..."
+msgstr ""
+
+msgid "<32>* maybe you will too..."
+msgstr ""
+
+msgid ""
+"<32>{#p/napstablook}* well, we can stay like this as long as you don't try "
+"to move."
+msgstr ""
+
+msgid ""
+"<32>* so...\n"
+"* only try to move around when you want it to end, i guess."
+msgstr ""
+
+msgid ""
+"<32>{#p/napstablook}* well...\n"
+"* i hope you liked that..."
+msgstr ""
+
+msgid "<32>* or at least found it kind of interesting..."
+msgstr ""
+
+msgid "<32>* or something..."
+msgstr ""
+
+msgid "* (Are you ready to go outside?)"
+msgstr ""
+
+msgid "<32>{#p/human}* (But you didn't feel like wasting your time here.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* The computer's offline, but there's an empty slot for a "
+"computer chip."
+msgstr ""
+
+msgid "* (Insert the Computer Chip?)"
+msgstr ""
+
+msgid "<32>{#p/human}* (You decide not to insert.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Ah!\n"
+"* Thank you!\n"
+"* Thank you so much!"
+msgstr ""
+
+msgid ""
+"<32>* You really took care of me!\n"
+"* You have found a computer very far away indeed!"
+msgstr ""
+
+msgid ""
+"<32>* I have established a link between this computer and my body on the "
+"outpost."
+msgstr ""
+
+msgid ""
+"<32>* I never could have imagined how it would feel to exist in two places "
+"at once!"
+msgstr ""
+
+msgid "<32>* It is... incredible..."
+msgstr ""
+
+msgid "<32>* I shall not forget this deed, fellow traveler!"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Thank you, fellow traveler.\n"
+"* I owe you my future."
+msgstr ""
+
+msgid "<25>{*}{#p/asgore}{#f/6}{#v/1}* This is emergency program one.{^20}{%}"
+msgstr ""
+
+msgid ""
+"<25>{*}{#p/asgore}{#f/6}{#v/1}* Initiating automated self-destruct "
+"protocol.{^20}{%}"
+msgstr ""
+
+msgid ""
+"<25>{*}{#p/asgore}{#f/6}{#v/1}* The self-destruct protocol has been "
+"terminated remotely.{^20}{%}"
+msgstr ""
+
+msgid "<25>{*}{#p/asgore}{#f/6}{#v/1}* Systems powering down.{^20}{%}"
+msgstr ""
+
+msgid "<32>{#p/human}{@fill:#f00}* ($(x) left.)"
+msgstr "<32>{#p/human}{@fill:#f00}* （还剩下$(x)个。）"
+
+msgid "<32>{#p/human}{@fill:#f00}* (Determination.)"
+msgstr "<32>{#p/human}{@fill:#f00}* （决心。）"
+
+msgid "<32>{#p/human}{@fill:#3f00ff}* ($(x) left.)"
+msgstr "<32>{#p/human}{@fill:#3f00ff}* （还剩下$(x)个。）"
+
+msgid "<32>{#p/human}{@fill:#3f00ff}* (Determination.)"
+msgstr "<32>{#p/human}{@fill:#3f00ff}* （决心。）"
+
+msgid ""
+"<32>{#p/basic}* Sorry, kiddo.\n"
+"* We're still out here building the front yard."
+msgstr ""
+
+msgid "<32>* And the front door."
+msgstr ""
+
+msgid "<32>* If you're looking for Asgore, he's out here with us."
+msgstr ""
+
+msgid "<32>* We'll be done in a few hours, so just sit tight for now."
+msgstr ""
+
+msgid "<32>{#p/basic}* Just a few more hours, kiddo."
+msgstr ""
+
+msgid "<32>* Then you can come out."
+msgstr ""
+
+msgid "<32>{#p/basic}* A few more hours."
+msgstr ""
+
+msgid "<32>{#p/basic}* So this is your room, huh?"
+msgstr ""
+
+msgid "<32>* Kind of strange..."
+msgstr ""
+
+msgid "<32>* ... but who am I kidding, this is you we're talking about."
+msgstr ""
+
+msgid "<32>* You'd sleep in a doggy bed if you had the choice."
+msgstr ""
+
+msgid "<32>* And you'd eat the dog food."
+msgstr ""
+
+msgid ""
+"<32>* And you'd like it if somebody tried to pet you whilst eating said dog "
+"food."
+msgstr ""
+
+msgid "<32>{#p/basic}* I'd offer you a treat, but..."
+msgstr ""
+
+msgid ""
+"<32>* Even with my new ability to appear visually, I'm still just a ghost."
+msgstr ""
+
+msgid "<32>* You'll have to settle for ghost dog treats, I'm afraid."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Oh, right.\n"
+"* My new ability."
+msgstr ""
+
+msgid ""
+"<32>* I tried showing myself to Asriel like before, but he couldn't see "
+"me..."
+msgstr ""
+
+msgid "<32>* So it looks like it only works for you right now."
+msgstr ""
+
+msgid ""
+"<32>* Still.\n"
+"* Better than nothing."
+msgstr ""
+
+msgid "<32>* At least you can actually walk up to and talk to me now."
+msgstr ""
+
+msgid "<32>{#p/basic}* Like that, for example."
+msgstr ""
+
+msgid "<32>{#p/basic}* Or that."
+msgstr ""
+
+msgid "<32>{#p/basic}* Or even that!"
+msgstr ""
+
+msgid "<32>{#p/basic}* ..."
+msgstr ""
+
+msgid "<32>{#p/basic}* You can stop now."
+msgstr ""
+
+msgid "<32>{#p/basic}* There's more to your room than me, isn't there?"
+msgstr ""
+
+msgid "<32>{#p/basic}* Maybe not."
+msgstr ""
+
+msgid "<32>{#p/basic}* Maybe I'm all you've got."
+msgstr ""
+
+msgid "<32>{#p/basic}* In which case..."
+msgstr ""
+
+msgid "<32>{#p/basic}* We'll be here for a long time."
+msgstr ""
+
+msgid "<32>{#p/basic}* A very long time."
+msgstr ""
+
+msgid "<32>{#p/basic}* A very, very long time."
+msgstr ""
+
+msgid "<32>{#p/basic}* A very, very long time indeed."
+msgstr ""
+
+msgid "<32>{#p/basic}* Don't you have anything better to do?"
+msgstr ""
+
+msgid "<32>{#p/basic}* Ah, the humble hallway."
+msgstr ""
+
+msgid ""
+"<32>* For Asriel and I, it was the starting point of countless adventures..."
+msgstr ""
+
+msgid "<33>* ... running dauntlessly across the various rooms of the house."
+msgstr ""
+
+msgid ""
+"<32>* I know, right?\n"
+"* So very adventurous."
+msgstr ""
+
+msgid ""
+"<32>* Sadly, we had to stop after the mirror got smashed in for the seven "
+"hundredth time."
+msgstr ""
+
+msgid "<32>* You wouldn't believe the excuses I'd come up with..."
+msgstr ""
+
+msgid ""
+"<33>* Like when I blamed a particle collider for shooting a stray atom from "
+"Earth to the outpost."
+msgstr ""
+
+msgid ""
+"<33>* And somehow only hitting the glass because it \"phased\" through the "
+"wall."
+msgstr ""
+
+msgid "<32>* Yeah... that one might've been a stretch."
+msgstr ""
+
+msgid "<32>{#p/basic}* Nowadays, though, hallways are just hallways."
+msgstr ""
+
+msgid "<32>* And excuses are just excuses."
+msgstr ""
+
+msgid ""
+"<32>* Is there a valuable life lesson in there somewhere?\n"
+"* Probably."
+msgstr ""
+
+msgid ""
+"<32>* I will say, there's a kind of symbolism to a ghost in a hallway..."
+msgstr ""
+
+msgid "<32>* With the whole \"between one place and another\" thing going on."
+msgstr ""
+
+msgid "<32>* Actually, that probably only applies to human ghosts."
+msgstr ""
+
+msgid "<32>* Monster ghosts are just born like that naturally..."
+msgstr ""
+
+msgid ""
+"<32>* So, if anything, they'd be in the room at the beginning of the "
+"hallway..."
+msgstr ""
+
+msgid "<32>* ... rather than standing in the middle of it."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Sorry.\n"
+"* Went on a tangent there."
+msgstr ""
+
+msgid ""
+"<32>* But what did you expect me to go on when you spoke to me in a boring "
+"hallway?"
+msgstr ""
+
+msgid ""
+"<33>* Boring hallway, boring tangent.\n"
+"* That makes sense, right?"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Or maybe it doesn't.\n"
+"* What do I know."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Apart from the fact that I've run out of things to say."
+msgstr ""
+
+msgid "<32>{#p/basic}* That, I know for sure."
+msgstr ""
+
+msgid "<32>{#p/basic}* But what can you do?"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* ... wait, I know!\n"
+"* We could go to a new room!"
+msgstr ""
+
+msgid "<32>{#p/basic}* Ooh... Asgore's room."
+msgstr ""
+
+msgid "<32>* The big guy sure loves his diaries, huh?"
+msgstr ""
+
+msgid ""
+"<32>* Even though he hasn't written anything into that one yet, I'm sure "
+"he'll do so soon."
+msgstr ""
+
+msgid "<32>* Reading them has always been a guilty pleasure of mine..."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* What?\n"
+"* Everyone's got some kind of guilty pleasure, don't they?"
+msgstr ""
+
+msgid "<32>* I wonder what yours would be..."
+msgstr ""
+
+msgid "<32>* Maybe I'll find out later."
+msgstr ""
+
+msgid "<32>{#p/basic}* For now, though, I'll just be hanging around."
+msgstr ""
+
+msgid "<32>* Watching, waiting..."
+msgstr ""
+
+msgid ""
+"<32>* ... ready to catch you the moment you do something you don't want me "
+"to see!"
+msgstr ""
+
+msgid "<32>{#p/basic}* Okay, maybe I wouldn't actually go that far."
+msgstr ""
+
+msgid "<33>{#p/basic}* Not while you're awake, anyway."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* I took a peek outside, and they're STILL working on "
+"construction."
+msgstr ""
+
+msgid "<32>* The whole front of the house is STILL a big mess."
+msgstr ""
+
+msgid "<32>* And Asgore's... STILL tending to the ground..."
+msgstr ""
+
+msgid ""
+"<32>* ... while the former CORE workers take their sweet, sweet time "
+"building the porch."
+msgstr ""
+
+msgid "<32>* I wonder what it'll look like when it's done..."
+msgstr ""
+
+msgid ""
+"<32>* Hopefully, with Asgore in charge, it'll look better than what we've "
+"had before."
+msgstr ""
+
+msgid "<32>{#p/basic}* Actually, Asgore's only in charge of the design."
+msgstr ""
+
+msgid ""
+"<32>* Since construction started yesterday, Doge has been the one giving the"
+" orders."
+msgstr ""
+
+msgid "<32>* I snuck outside then, too."
+msgstr ""
+
+msgid "<32>* She's strict, but she seems to know what she's doing."
+msgstr ""
+
+msgid ""
+"<32>* Which is great, because as much as I love Asgore for who he is..."
+msgstr ""
+
+msgid "<32>* He most certainly is NOT your ideal foreman."
+msgstr ""
+
+msgid ""
+"<33>{#p/basic}* Speaking of things being built, they finished the balcony "
+"earlier this morning."
+msgstr ""
+
+msgid ""
+"<32>* Monster Kid and Asriel are both outside...\n"
+"* ... sightseeing."
+msgstr ""
+
+msgid ""
+"<32>* They sure do that a lot together... they're probably waiting for you "
+"to join them."
+msgstr ""
+
+msgid ""
+"<32>* Once you're done taking in YOUR surroundings, you could go see them."
+msgstr ""
+
+msgid ""
+"<33>* Or you could just go back to your room.\n"
+"* Whatever floats your hoverboat."
+msgstr ""
+
+msgid "<32>{#p/basic}* Oh yeah, about boats..."
+msgstr ""
+
+msgid "<32>* I guess those aren't really needed around here."
+msgstr ""
+
+msgid ""
+"<32>* But... Frisk!\n"
+"* There are places on this world you can't be without one."
+msgstr ""
+
+msgid ""
+"<32>* Especially the bog basins.\n"
+"* All that murky water..."
+msgstr ""
+
+msgid "<32>* Just keep it in mind."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* And no, you can't just get by swimming in those kinds of "
+"places."
+msgstr ""
+
+msgid ""
+"<33>* Only some of them.\n"
+"* And only at a good time of day."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Mind you, do monsters even have a sense of the time of day?"
+msgstr ""
+
+msgid "<32>* Most WERE born in space..."
+msgstr ""
+
+msgid "<32>{#p/basic}* ... maybe that's a question for another time of day."
+msgstr ""
+
+msgid "<32>{#p/basic}* Three little chairs at the dining table..."
+msgstr ""
+
+msgid "<32>* One for you, one for Asriel, and one for Monster Kid."
+msgstr ""
+
+msgid ""
+"<32>* That's fine, really.\n"
+"* Asgore wouldn't know I'm here."
+msgstr ""
+
+msgid "<32>* Still..."
+msgstr ""
+
+msgid "<32>* It does feel strange not to have a place there."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Asriel and I loved to swap the chairs around when Mom wasn't"
+" looking."
+msgstr ""
+
+msgid ""
+"<32>* Even Asgore would get in on it sometimes.\n"
+"* She... wasn't impressed."
+msgstr ""
+
+msgid "<32>* But it was all in good fun."
+msgstr ""
+
+msgid ""
+"<32>* Heck, he used to check under Asriel's chair for space creatures when "
+"he sat down."
+msgstr ""
+
+msgid ""
+"<32>* I'll never forget that time Toriel sat down on the chair, which we "
+"swapped beforehand..."
+msgstr ""
+
+msgid "<33>* Asgore gave her the exact same treatment, and it was GLORIOUS."
+msgstr ""
+
+msgid ""
+"<32>* All of us were laughing... except for Toriel, who sat there in "
+"disbelief."
+msgstr ""
+
+msgid ""
+"<32>* Well.\n"
+"* She came around to it later."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* But, yeah... she wasn't much for the chicanery we got up to."
+msgstr ""
+
+msgid "<32>* And even if she won't be here all the time..."
+msgstr ""
+
+msgid "<32>* And although she probably won't visit here much at all..."
+msgstr ""
+
+msgid ""
+"<32>* It's a good thing Asriel's got someone like you to calm him down."
+msgstr ""
+
+msgid "<32>* When he gets excited, he gets REALLY excited."
+msgstr ""
+
+msgid "<32>* ... or, used to, anyway."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* I guess it's unfair to think of him as the same person he "
+"once was."
+msgstr ""
+
+msgid "<32>* With all that stuff he mentioned about trying to corrupt you..."
+msgstr ""
+
+msgid "<32>* With all that stuff he mentioned about hurting you..."
+msgstr ""
+
+msgid "<32>* He's probably a very different person by now."
+msgstr ""
+
+msgid "<32>* Not unlike myself."
+msgstr ""
+
+msgid "<32>* I just hope he can make the best of what he has, now."
+msgstr ""
+
+msgid "<32>* And that you'll be there for him when he needs you."
+msgstr ""
+
+msgid "<32>{#p/basic}* But I guess I'm starting to repeat myself."
+msgstr ""
+
+msgid ""
+"<32>* We've got a home, we've got sunlight... so there's no reason to "
+"complain!"
+msgstr ""
+
+msgid "<32>* ... or something like that."
+msgstr ""
+
+msgid "<32>{#p/basic}* Of course they put a microwave in here."
+msgstr ""
+
+msgid "<32>* Of course they did."
+msgstr ""
+
+msgid "<32>* No doubt that'll be Asriel's primary source of food."
+msgstr ""
+
+msgid "<32>* Yeah, he's what you'd call a \"microwave master.\""
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* I mean, it's bad enough that so many of our ingredients are "
+"replicated these days..."
+msgstr ""
+
+msgid ""
+"<32>* Formed with matter-energy conversion nonsense, rather than legitimate "
+"cooking."
+msgstr ""
+
+msgid "<32>* But at least that can still produce something palletable."
+msgstr ""
+
+msgid "<32>* Using the microwave is just..."
+msgstr ""
+
+msgid "<32>* It's wrong."
+msgstr ""
+
+msgid "<32>* It's so very wrong."
+msgstr ""
+
+msgid "<33>{#p/basic}* I mean, that's just my opinion."
+msgstr ""
+
+msgid ""
+"<32>* You can feel free to disagree, and knowing you, you probably do..."
+msgstr ""
+
+msgid "<32>* But some opinions..."
+msgstr ""
+
+msgid "<32>* Let's just say some opinions are more correct than others."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* All we can hope for is that Eurybia has a better selection "
+"of fresh ingredients."
+msgstr ""
+
+msgid ""
+"<32>* Considering Alphys was the one to seek out planets in the first "
+"place..."
+msgstr ""
+
+msgid "<32>* You can't blame me for being at least a little wary."
+msgstr ""
+
+msgid ""
+"<33>{#p/basic}* If Asriel's a microwave master, Alphys would be a microwave "
+"overlord."
+msgstr ""
+
+msgid "<32>* That's all I'm saying."
+msgstr ""
+
+msgid "<32>{#p/basic}* No, really."
+msgstr ""
+
+msgid "<32>* Won't say anything more."
+msgstr ""
+
+msgid "<32>{#p/basic}* Not in the kitchen, anyway."
+msgstr ""
+
+msgid "<32>{#p/basic}* The balcony's just outside..."
+msgstr ""
+
+msgid "<32>* I wonder if the birds are saying anything interesting."
+msgstr ""
+
+msgid ""
+"<33>* Like \"what a nice house!\"\n"
+"* Or \"the weather's great today.\""
+msgstr ""
+
+msgid ""
+"<32>* Maybe they don't like the house OR the weather.\n"
+"* That'd be... kind of sad."
+msgstr ""
+
+msgid ""
+"<32>* Maybe they're not even birds.\n"
+"* Who knows what kinds of sounds birds make here."
+msgstr ""
+
+msgid "<32>* Who knows if birds even exist here at all."
+msgstr ""
+
+msgid ""
+"<33>* For all we know, what we're hearing are the cries of the damned buried"
+" deep underground."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* After the monsters have lived here long enough, the planet "
+"might gain some form of magic."
+msgstr ""
+
+msgid "<32>* If that happens, would the animals be affected, too?"
+msgstr ""
+
+msgid ""
+"<32>* Would they become conscious?\n"
+"* Understand us?"
+msgstr ""
+
+msgid "<32>* Would we understand them?"
+msgstr ""
+
+msgid ""
+"<33>* If the sounds we're hearing really ARE cries of the damned, I'm not "
+"sure I'd want to know."
+msgstr ""
+
+msgid "<32>{#p/basic}* But yeah, planetary magic."
+msgstr ""
+
+msgid ""
+"<32>* I think that's what happened to Krios, when monsters first gained "
+"THEIR magic."
+msgstr ""
+
+msgid ""
+"<32>* Either that, or the planet already had magic, and gave it to them."
+msgstr ""
+
+msgid "<32>* We'd have to ask Terrestria about that sort of thing."
+msgstr ""
+
+msgid "<32>* She'd know."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Hey.\n"
+"* Don't be nervous about going out there, Frisk."
+msgstr ""
+
+msgid "<32>* I'm sure those two would be happy to see you there."
+msgstr ""
+
+msgid "<32>* And if my analysis of the position is right..."
+msgstr ""
+
+msgid "<32>* The planet itself will, too."
+msgstr ""
+
+msgid "<32>{#p/basic}* Don't quote me on that, though."
+msgstr ""
+
+msgid "<32>* I'm not much of a chess player."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* The smartest move I've ever played in a board game was a "
+"double-jump in checkers."
+msgstr ""
+
+msgid "<32>* It was downhill from there."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* And if we weren't buried in a jungle, it might be downhill "
+"from here, too."
+msgstr ""
+
+msgid "<32>* Not that I blame Asgore for choosing such a low-risk location."
+msgstr ""
+
+msgid "<32>* He's got two adopted children to think about now..."
+msgstr ""
+
+msgid "<32>* Not to mention his own son."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Mountainside living might be cool, but the jungle has its "
+"own appeal, too."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Righty-o.\n"
+"* The bathroom."
+msgstr ""
+
+msgid "<32>* The bathroom, the bathroom, the bathroom..."
+msgstr ""
+
+msgid "<32>* Bathroom bathroom bathroom bathroom bathroom."
+msgstr ""
+
+msgid "<32>* Bathroom."
+msgstr ""
+
+msgid "<32>* Bathroom!!!"
+msgstr ""
+
+msgid "<32>{#p/basic}* Okay... I will admit."
+msgstr ""
+
+msgid "<32>* It is pretty cool that you've got extra-fluffy shampoo."
+msgstr ""
+
+msgid "<32>* Even if it doesn't actually make sense for a human to have it."
+msgstr ""
+
+msgid "<32>* Unless... you ARE turning into a goat..."
+msgstr ""
+
+msgid "<32>* ... baaah?"
+msgstr ""
+
+msgid ""
+"<32>* There's a distinct possibility you are not the only one who uses this "
+"bathroom."
+msgstr ""
+
+msgid "<32>{#p/basic}* So this is Monster Kid and Asriel's room..."
+msgstr ""
+
+msgid "<32>* I don't have much to say."
+msgstr ""
+
+msgid "<32>* Though... that poster on the wall is pretty cool."
+msgstr ""
+
+msgid "<32>* The old homeworld..."
+msgstr ""
+
+msgid "<32>* Only now, it's in sepia tone."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* I'm honestly not surprised he made this room so much smaller"
+" than yours."
+msgstr ""
+
+msgid ""
+"<32>* He knows monsters very well.\n"
+"* If the bed's comfortable, who cares what room it's in?"
+msgstr ""
+
+msgid "<32>* Not monsters, that's who!"
+msgstr ""
+
+msgid ""
+"<32>* That must be why Asriel slept in your bed last night as opposed to "
+"his."
+msgstr ""
+
+msgid "<32>{#p/basic}* From what I can tell..."
+msgstr ""
+
+msgid ""
+"<32>* This room belonged to someone who spent a long time doing one specific"
+" thing."
+msgstr ""
+
+msgid "<32>* If I had that kind of free time, I have no idea what I'd do."
+msgstr ""
+
+msgid ""
+"<32>* I do know I wouldn't spend it on such a tedious and demoralizingly-"
+"large project."
+msgstr ""
+
+msgid ""
+"<32>* But I'm not them, so I wouldn't know what goes through their head."
+msgstr ""
+
+msgid "<32>{#p/human}* (And yet, despite the sight ahead of you...)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (... you can't help but feel as if there's something "
+"missing.)"
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/1}* Is THIS what living on a planet is like?\n"
+"* This is INCREDIBLE!"
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/3}* ... haha."
+msgstr ""
+
+msgid "<25>{#f/1}* I can't wait to..."
+msgstr ""
+
+msgid "<25>{#f/4}* ..."
+msgstr ""
+
+msgid "<25>{#f/1}* I can't wait to explore it!"
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/4}* Uh... are you okay?"
+msgstr ""
+
+msgid "<25>{#f/8}* I'm kinda worried about you, dude..."
+msgstr ""
+
+msgid "<25>{#f/7}* Is something wrong?"
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/7}* ... wait..."
+msgstr ""
+
+msgid "<25>{#f/1}* What if the two of us formed a group or something?"
+msgstr ""
+
+msgid ""
+"<25>{#f/6}* We'd explore everything here, and then go to other worlds..."
+msgstr ""
+
+msgid ""
+"<25>{#f/1}* Then, with Dr. Alphys's wormholes, we can even go to other "
+"galaxies!"
+msgstr ""
+
+msgid "<25>{#f/1}* When we're done, we'll have a map of the whole galaxy!"
+msgstr ""
+
+msgid ""
+"<26>{#f/13}* And we should TOTALLY have a secret handshake!\n"
+"* Like Gerson's!"
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/4}* (Man, I'm really getting worried now.)"
+msgstr ""
+
+msgid "<25>{#f/7}* Frisk, come on...!"
+msgstr ""
+
+msgid "<25>{#f/7}* You gotta say something to me, dude!"
+msgstr ""
+
+msgid "<25>{#f/8}* I didn't do anything wrong... did I?"
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/2}* Man, this is gonna be so cool..."
+msgstr ""
+
+msgid "<25>{#f/1}* You and I are gonna do EVERYTHING together!"
+msgstr ""
+
+msgid ""
+"<25>{#p/asriel1}{#f/10}* What?\n"
+"* A whole planet of this?"
+msgstr ""
+
+msgid ""
+"<25>{#f/20}* Pfft.\n"
+"* This is nothing..."
+msgstr ""
+
+msgid "<25>{#f/17}* Just past the forest, there's a giant mountain..."
+msgstr ""
+
+msgid "<25>{#f/17}* And a lake beyond that."
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/2}* That must be the lake with that slimy red goo..."
+msgstr ""
+
+msgid "<25>{#f/1}* Gross AND awesome!"
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/1}* ... I dare you to swim."
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/7}* ..."
+msgstr ""
+
+msgid ""
+"<25>{#f/13}* Deal.\n"
+"* But only if you swim WITH me!"
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/21}* Uh... I mean..."
+msgstr ""
+
+msgid "<25>{#f/20}* Maybe we'd be better off if we stuck to dune racing."
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/6}* You're not afraid of getting sticky red goo all over "
+"you, are you?"
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/8}* ... ugh, of course not, you idiot, I just-"
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/8}* ..."
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/25}* ... w-wait, I didn't m-mean to..."
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/4}* Asriel...?"
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/4}* Are you okay?"
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/13}* ... I..."
+msgstr ""
+
+msgid ""
+"<25>{#f/22}* I'm alright.\n"
+"* You didn't do anything wrong, okay?"
+msgstr ""
+
+msgid ""
+"<25>{#p/asriel1}{#f/21}* ... you WOULD just forgive me like that, wouldn't "
+"you..."
+msgstr ""
+
+msgid "<25>{#f/23}* You're just an innocent monster kid."
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/1}* That's my name!"
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/4}* So what were you saying?"
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/13}* ..."
+msgstr ""
+
+msgid ""
+"<25>{#f/13}* ... there are deserts, but the races would be done in the "
+"tubules."
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/7}* Tubules??\n"
+"* What the heck??"
+msgstr ""
+
+msgid ""
+"<25>{#p/asriel1}{#f/10}* Uh...\n"
+"* Haven't you read the geological surveys?"
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/1}* What's a geological survey?"
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/15}* ..."
+msgstr ""
+
+msgid "<25>{#f/15}* The tubules are a region made up of... uh, tubes."
+msgstr ""
+
+msgid ""
+"<26>{#f/17}* Large tubes form cliffs, medium tubes form hills, and small "
+"tubes, well..."
+msgstr ""
+
+msgid "<25>{#f/20}* They don't really do much, I guess."
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/1}* Oh!\n"
+"* That makes sense."
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/1}* Do you think there's other planets out there like this?"
+msgstr ""
+
+msgid "<25>{#f/2}* Will we explore those, too?"
+msgstr ""
+
+msgid ""
+"<25>{#p/asriel1}{#f/10}* Hmm...\n"
+"* No doubt there is..."
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/7}* Yo... what if we formed an exploration group!\n"
+"* To travel the stars!"
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/27}* ... huh."
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/6}* We'd start with this world, and find everything we "
+"can..."
+msgstr ""
+
+msgid ""
+"<26>{#p/kidd}{#f/1}* Then we'd visit more worlds, and make a huge map of the"
+" whole galaxy!"
+msgstr ""
+
+msgid ""
+"<26>{#p/kidd}{#f/13}* And we should TOTALLY have a secret handshake!\n"
+"* Like Gerson's!"
+msgstr ""
+
+msgid ""
+"<25>{#p/asriel1}{#f/13}* With any luck, we'll be hand-in-hand with other "
+"galaxies' races, too."
+msgstr ""
+
+msgid ""
+"<25>{#p/asriel1}{#f/13}* With any luck, we'll be making maps of other "
+"galaxies, too."
+msgstr ""
+
+msgid ""
+"<25>{#f/13}* Dr. Alphys's wormhole travel gives us the means to visit them."
+msgstr ""
+
+msgid "<25>{#f/17}* We'd be a pan-galactic exploration group."
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/17}* Woah, uh, slow down there kiddo..."
+msgstr ""
+
+msgid ""
+"<25>{#p/asriel1}{#f/17}* ... a secret handshake would be pretty cool, but..."
+msgstr ""
+
+msgid "<25>{#f/13}* ... as for exploring other planets..."
+msgstr ""
+
+msgid ""
+"<26>{#f/13}* It took us long enough just to make it here, let alone another "
+"world."
+msgstr ""
+
+msgid ""
+"<26>{#p/kidd}{#f/14}* Oh yeah, I totally forgot about that!\n"
+"* We've GOTTA try that!"
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/3}* Haha. Maybe.\n"
+"* But we could still totally explore it!"
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/17}* Just us, huh?"
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/1}* Totally, dude!\n"
+"* Just the three of us!"
+msgstr ""
+
+msgid "<32>{#p/basic}* ... uh, don't you mean \"the four of us?\""
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/25}* ...!"
+msgstr "<25>{#p/asriel1}{#f/25}* ...！"
+
+msgid "<25>{#f/25}* $(name)... you're..."
+msgstr ""
+
+msgid "<32>{#p/basic}* ... wait, NOW you can hear me?"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* I tried reaching out to you before, but... it didn't work."
+msgstr ""
+
+msgid "<32>* I wonder what changed..."
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/6}* Haha. If you're friends with him, then you're friends "
+"with me."
+msgstr ""
+
+msgid "<32>{#p/basic}* Wait, YOU can hear me?"
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/1}* Kind of hard not to when you're standing there, y'know."
+msgstr ""
+
+msgid "<32>{#p/basic}* YOU CAN SEE ME!?!?"
+msgstr ""
+
+msgid "<32>{#p/basic}* Oh... my god..."
+msgstr ""
+
+msgid ""
+"<33>{#p/basic}* Asriel, how did you not notice me standing here?\n"
+"* I'm not even hidden!"
+msgstr ""
+
+msgid "<26>{#p/asriel1}{#f/23}* ... $(name), I..."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Asriel, it's okay.\n"
+"* You don't have to be ashamed of it anymore."
+msgstr ""
+
+msgid "<32>* If you need to cry..."
+msgstr ""
+
+msgid "<32>* ... you can."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Having that extra SOUL inside of me must've made it hard to "
+"appear visually..."
+msgstr ""
+
+msgid "<32>* Back on the outpost, when I did finally manage to do it..."
+msgstr ""
+
+msgid "<32>* That very same SOUL was released shortly after."
+msgstr ""
+
+msgid "<32>* ... I guess this means I'll be visible all the time now?"
+msgstr ""
+
+msgid "<32>* To be honest, I'm not sure how to feel about that."
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/7}* Wait, are you a human too!?"
+msgstr ""
+
+msgid "<32>{#p/basic}* Excuse me?"
+msgstr ""
+
+msgid ""
+"<33>* I'm a human GHOST who wants their GOAT brother to be happy.\n"
+"* Get it right. Sheesh."
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/14}* ... Asriel is your BROTHER!?"
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/4}* This is too much..."
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/1}* But, uh, you guys are all cool as heck, which means "
+"I'll be okay."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Oh, I KNOW I'm cool.\n"
+"* I'm the coolest human ghost this side of the continent."
+msgstr ""
+
+msgid ""
+"<25>{#p/asriel1}{#f/15}* $(name), you're the only human ghost this side of "
+"the continent."
+msgstr ""
+
+msgid "<25>{#f/17}* And the planet."
+msgstr ""
+
+msgid "<25>{#f/20}* And the galaxy."
+msgstr ""
+
+msgid ""
+"<25>{#f/13}* And the future, since I won't be taking Frisk's SOUL any time "
+"soon."
+msgstr ""
+
+msgid ""
+"<25>{#f/15}* And then dying... and then meeting them a hundred years "
+"later..."
+msgstr ""
+
+msgid ""
+"<25>{#f/17}* Etcetera, etcetera, radical circumstances notwithstanding."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Pfft.\n"
+"* You're funny, Asriel."
+msgstr ""
+
+msgid ""
+"<32>* Being the only human ghost doesn't exclude you from being the coolest "
+"human ghost."
+msgstr ""
+
+msgid "<32>* A certain handsome skeleton would concur."
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/2}* $(name), huh?"
+msgstr ""
+
+msgid "<25>{#f/1}* That's a nice name."
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/6}* My name is Monster Kid."
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/15}* ... did you just..."
+msgstr ""
+
+msgid ""
+"<33>{#p/basic}* Asriel.\n"
+"* They said the thing."
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/10}* They really did..."
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/4}* What?\n"
+"* Did I say something wrong, or..."
+msgstr ""
+
+msgid ""
+"<33>{#p/basic}* No, no, you're fine.\n"
+"* You just... uh, reminded us of something."
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/1}* Oh.\n"
+"* I hope it was something good, then."
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/23}* ... it was."
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/3}* Hey... thanks for being here, guys."
+msgstr ""
+
+msgid "<25>{#f/1}* With friends like you, living here is gonna be the best!"
+msgstr ""
+
+msgid ""
+"<33>{#p/basic}* ... heh.\n"
+"* If we were just friends, maybe.\n"
+"* But we're more than that."
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/7}* ...?"
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/17}* We're your family."
+msgstr ""
+
+msgid ""
+"<25>{*}{#p/kidd}{#f/1}* Oh!\n"
+"* Oh!\n"
+"* Does that mean we can- {%}"
+msgstr ""
+
+msgid ""
+"<25>{*}{#f/1}* eat together and tell stories and go for nice walks in the "
+"park and- {%}"
+msgstr ""
+
+msgid "<25>{*}{#p/asriel1}{#f/20}* Yes, yes, of course- {%}"
+msgstr ""
+
+msgid ""
+"<25>{*}{#p/kidd}{#f/1}* We could have sleepovers at other people's houses "
+"and- {^999}"
+msgstr ""
+
+msgid ""
+"<25>{#p/asriel1}{#f/20}* This bed looks like it hasn't been washed in three "
+"years..."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You run your hands through the covers of the bed, and note "
+"the wear and tear.)"
+msgstr ""
+
+msgid "<33>{#p/basic}* This bed, albeit well-made, has seen a lot of use."
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/1}* Looks comfy! "
+msgstr ""
+
+msgid "<25>{#p/asriel1}{#f/20}* Whoever lives here must really like plushies."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You glance uninterestedly at the otherwise soft plushie.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* I see I'm not the only one who likes the soft things."
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/3}* Aw, cute."
+msgstr ""
+
+msgid ""
+"<25>{#p/asriel1}{#f/15}* I once dedicated myself to learning how to code..."
+msgstr ""
+
+msgid ""
+"<25>{#p/asriel1}{#f/16}* ... whoever wrote this stuff should reconsider "
+"their life choices."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You wonder if something like this could be the answer to "
+"your dissatisfaction.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Color-coded text fills the screen in a monospaced font."
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/1}* How OLD is this thing?"
+msgstr ""
+
+msgid ""
+"<25>{#p/asriel1}{#f/10}* Huh?\n"
+"* What sort of flower is this anyway?"
+msgstr ""
+
+msgid "<32>{#p/human}* (You wonder where these flowers could have come from.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* Flowers, the universal symbol for sentimentality."
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/1}* I don't think I've ever seen flowers like THESE "
+"before..."
+msgstr ""
+
+msgid "<32>{#p/human}* (You can tell it's going to be a day of some variety.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (You can tell it's going to be a nice day.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* It's the start of a new day."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (It's a cabinet full of clothes you feel indifferent about.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (It's a cabinet full of your favorite clothes.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* Various clothes can be found within the cabinet."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (It's a bed.)\n"
+"* (You wish you could just go back to sleep.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (It's a comfortable bed.)\n"
+"* (You had a good night's rest.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* It's brand new, just for you."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (It's a lamp.)\n"
+"* (It's just the right height for you to reach it.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* It's an oddly short lamp."
+msgstr ""
+
+msgid "<32>{#p/human}* (The toys are even less interesting than before.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (The toys appear to be rather interesting for once.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* Perhaps these toys aren't so bad after all..."
+msgstr ""
+
+msgid "<32>{#p/human}* (You stare into the drain.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (But your hands were already as clean as they could be.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (You wonder if your hands could be a little cleaner.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* It's a sink.\n"
+"* Don't sink too much time into thinking about it."
+msgstr ""
+
+msgid "<32>{#p/human}* (You ignore the toilet.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You tip up the toilet lid.)\n"
+"* (You then tip it back down.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* It's a toilet.\n"
+"* What else would it be."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You wonder if a warm bath would make you feel better.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (You look forward to taking your next warm bath.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* Everything in this room is fit exactly to your size..."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (As you stare into the mirror, you reflect on the journey "
+"you took to get here.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* No matter what happens, it'll always be you."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (The sign describes adjusting to life on a new planet.)"
+msgstr ""
+
+msgid ""
+"<33>{#p/basic}* It's a five-step guide on how to adjust to planet-bound life.\n"
+"* They all amount to \"have fun.\""
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (The sign outlines tasks that are yet to be completed.)"
+msgstr ""
+
+msgid ""
+"<33>{#p/basic}* It's a list of various pending tasks relating to building a "
+"new community."
+msgstr ""
+
+msgid "<32>{#p/human}* (You caress the plant and sigh as it sighs with you.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You caress the plant and smile as it smiles back at you.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* This plant will always be happy to see you."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You stare into the empty diary, wishing you could write "
+"your own story.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You stare into the empty diary, wondering what stories are "
+"yet to be told.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* It's a diary.\n"
+"* It's completely blank."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Asgore's favorite diary- writing chair must still be on the "
+"transport ship."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You wonder if any of these items could belong to you.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* The papers list various items that have yet to be taken in."
+msgstr ""
+
+msgid "<32>{#p/human}* (You can't make out what's in the trash...)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* There is a crumpled up recipe for Starling Flower Tea.\n"
+"* That's not his trash can..."
+msgstr ""
+
+msgid "<32>{#p/human}* (The bed still seems to be way too large for you.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* Despite everything, it's still a king-sized bed."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You poke the cactus.)\n"
+"* (It pokes back.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You poke the cactus.)\n"
+"* (The cactus is touched by your sense of affection.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* So she finally gave up her inner cactus, eh...?"
+msgstr ""
+
+msgid "<32>{#p/human}* (But you weren't in the mood to read a diary.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (The book contains the diary entries of Monster Kid.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* It's Monster Kid's diary."
+msgstr ""
+
+msgid "<32>{#p/human}* (You read the first and only entry...)"
+msgstr ""
+
+msgid ""
+"<32>{#p/kidding}* \"So asgores my dad now huh? Thats weird. But also "
+"AWESOME!\""
+msgstr ""
+
+msgid ""
+"<32>{#p/kidding}* \"Asgore said i should put on some new clothes so maybe "
+"ill do that later.\""
+msgstr ""
+
+msgid ""
+"<32>{#p/kidding}* \"He also said i should write a diary to keep track of "
+"things.\""
+msgstr ""
+
+msgid ""
+"<32>{#p/kidding}* \"Im pretty good at reading and writing so this should be "
+"really easy.\""
+msgstr ""
+
+msgid ""
+"<32>{#p/kidding}* \"And frisk can totally help me if i do something wrong!\""
+msgstr ""
+
+msgid ""
+"<32>{#p/kidding}* \"Frisk if youre reading this please tell me what i did "
+"wrong.\""
+msgstr ""
+
+msgid "<32>{#p/human}* (You close the diary.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You check under the covers to make sure it's safe to "
+"sleep.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* It's Monster Kid's bed."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You re-arrange the knick knacks to pass the time.)\n"
+"* (You hope nobody notices.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* It's a shelf full of various toys and knick knacks."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You pat the plushie.)\n"
+"* (It might just be you, but it seems a little happier.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* It's Asriel's bed.\n"
+"* It doesn't look like it's been used yet."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* \"EURYBIA GEOLOGICAL SURVEY\"\n"
+"* \"Authored by the Royal Science Division (RSD).\""
+msgstr ""
+
+msgid ""
+"<32>* \"Preliminary scans of the surface have revealed vast diversity in its"
+" ecosystems.\""
+msgstr ""
+
+msgid ""
+"<32>* \"Each section of this report will concentrate on biomes of a specific"
+" type.\""
+msgstr ""
+
+msgid "<32>* \"Sections are as follows.\""
+msgstr ""
+
+msgid ""
+"<32>* \"SECTION 001 - Subterranian\"\n"
+"* \"SECTION 002 - Oceanic\"\n"
+"* \"SECTION 003 - Structural\""
+msgstr ""
+
+msgid ""
+"<32>* \"SECTION 004 - Magnetic\"\n"
+"* \"SECTION 005 - Airborne\"\n"
+"* \"SECTION 006 - Forested\""
+msgstr ""
+
+msgid ""
+"<32>* \"SECTION 007 - Spired\"\n"
+"* \"SECTION 008 - Metallic\"\n"
+"* \"SECTION 009 - Crystalline\""
+msgstr ""
+
+msgid ""
+"<32>* Jeez, how many ARE there?\n"
+"* Let's just stop reading here."
+msgstr ""
+
+msgid "<32>{#p/basic}* \"Howdy, fellow gardeners.\""
+msgstr ""
+
+msgid ""
+"<32>* \"When it comes to starling flowers, the line between growth and "
+"stagnation...\""
+msgstr ""
+
+msgid "<32>* \"Is access to open space.\""
+msgstr ""
+
+msgid "<32>* \"That is why they were commonly grown in Aerialis...\""
+msgstr ""
+
+msgid "<32>* \"Though, on Eurybia, the best place to grow them is unknown.\""
+msgstr ""
+
+msgid "<32>* \"For the moment, it is recommended that they be grown in orbit.\""
+msgstr ""
+
+msgid "<32>* \"Space station five will be deployed on date K-615.12.\""
+msgstr ""
+
+msgid "<32>* \"If this date has not yet arrived, a shuttlecraft will suffice.\""
+msgstr ""
+
+msgid "<32>{#p/basic}* \"In the beginning, there was nothing.\""
+msgstr ""
+
+msgid "<32>* \"Then... the human appeared out of thin air.\""
+msgstr ""
+
+msgid "<32>* \"The human and the bunny gave each other a big, fluffy hug...\""
+msgstr ""
+
+msgid ""
+"<32>* \"But then...!\"\n"
+"* \"The human and the bunny could hug no longer.\""
+msgstr ""
+
+msgid ""
+"<32>* \"Shocking!\"\n"
+"* \"Their world views had been shaken to their cores.\""
+msgstr ""
+
+msgid ""
+"<32>* \"Later, after much time had passed, the human began working on a "
+"solution.\""
+msgstr ""
+
+msgid ""
+"<32>* \"Day by day, the human worked tirelessly, all so they could hug their"
+" bunny once again.\""
+msgstr ""
+
+msgid ""
+"<32>* \"Eventually... the human's work was complete, and the bunny was "
+"ready.\""
+msgstr ""
+
+msgid ""
+"<32>* \"The human opened their arms, waiting for the bunny to approach...\""
+msgstr ""
+
+msgid "<32>* \"Before they knew it, the bunny was already in their arms!\""
+msgstr ""
+
+msgid ""
+"<32>* \"And so it was that the human and the bunny lived fluffily ever "
+"after.\""
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* \"Wormhole experiment report!\"\n"
+"* \"From Dr. Alphys to Asgore\""
+msgstr ""
+
+msgid "<32>* \"Progress on my wormhole experiment is going smoothly!\""
+msgstr ""
+
+msgid ""
+"<32>* \"Ever since Frisk forwarded the professor's equations, I've made "
+"steady progress.\""
+msgstr ""
+
+msgid "<32>* \"I've even managed to send small objects through the aperture...\""
+msgstr ""
+
+msgid ""
+"<32>* \"In my next test, I'll send a tethered scanner through and see what "
+"it picks up.\""
+msgstr ""
+
+msgid "<32>* \"Wormholes for monster travel could be here as soon as K-616.05!\""
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* \"Wormhole experiment report.\"\n"
+"* \"From Dr. Alphys to Asgore\""
+msgstr ""
+
+msgid "<32>* \"Progress on my wormhole experiment has hit a snag.\""
+msgstr ""
+
+msgid ""
+"<32>* \"The professor's incomplete equations haven't been enough to get "
+"things working.\""
+msgstr ""
+
+msgid ""
+"<32>* \"I'll keep trying, but I can't go too fast without putting my life at"
+" risk.\""
+msgstr ""
+
+msgid ""
+"<32>* \"In my next experiment, I'll see if I can get the aperture to last a "
+"little longer...\""
+msgstr ""
+
+msgid "<32>* \"Wormholes for monster travel won't be coming any time soon.\""
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* \"You have received an invitation to the transport ship "
+"triumph!\""
+msgstr ""
+
+msgid ""
+"<32>* \"Events will be held from stem to stern, including hovercar races and"
+" dance raves!\""
+msgstr ""
+
+msgid ""
+"<32>* \"When we reach the homeworld, a final event will be held on the "
+"forward section lounge!\""
+msgstr ""
+
+msgid ""
+"<32>* \"This is an experience you won't want to miss, so get up and get loud"
+" while you can!\""
+msgstr ""
+
+msgid ""
+"<32>* \"Please note that this invitation expires upon reaching the "
+"homeworld.\""
+msgstr ""
+
+msgid "<32>* \"Can't wait to see you there!\""
+msgstr ""
+
+msgid "<32>{#p/basic}* \"Toriel's fur care guide, dated K-614.09.\""
+msgstr ""
+
+msgid ""
+"<32>* \"When shedding fur, one must always take great care to dispose "
+"properly.\""
+msgstr ""
+
+msgid ""
+"<32>* \"The trash can is the obvious choice, but I myself prefer the sink.\""
+msgstr ""
+
+msgid ""
+"<32>* \"If you shed often, consider investing in a sink with garbage "
+"disposal.\""
+msgstr ""
+
+msgid ""
+"<32>* \"Regarding softness, the side you sleep on will be the most "
+"affected.\""
+msgstr ""
+
+msgid ""
+"<32>* \"If you prefer your head or body fur to be soft, sleep on your "
+"side.\""
+msgstr ""
+
+msgid "<32>* \"To keep your arms and legs soft, sleep on your back.\""
+msgstr ""
+
+msgid ""
+"<32>* \"Thank you, dear readers.\"\n"
+"* \"That will be all.\""
+msgstr ""
+
+msgid "<32>{#p/human}* (But you weren't in the mood to read a book.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (The books on this bookshelf are capable of swapping their "
+"content on-demand.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* The books are all blank, but get filled with the text of the"
+" book you select."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You select a book from the control panel, and pick it out "
+"once it's ready...)"
+msgstr ""
+
+msgid "<32>{#p/human}* (You put the book back on the shelf.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You observe the end table, and the cup on top of it.)\n"
+"* (It seems disturbed.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You observe the end table.)\n"
+"* (It seems disturbed.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You observe the end table, and the cup on top of it.)\n"
+"* (It seems pleased.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You observe the end table.)\n"
+"* (It seems pleased.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* At last...\n"
+"* A remarkable end table."
+msgstr ""
+
+msgid ""
+"<33>{#p/basic}* It even has a cup of electro- dampening fluid on it.\n"
+"* Truly, a sippy you can rely on."
+msgstr ""
+
+msgid "<32>{#p/human}* (The chair strikes you as being where it belongs.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (The chair strikes you as being out of place.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* A comfy reading chair..."
+msgstr ""
+
+msgid "<32>* Doesn't seem like the right size for Asgore."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (Staring out the window, you wonder where you went wrong to "
+"deserve this feeling.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (Staring out the window, you feel nothing but excitement for"
+" the future ahead.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* The window accentuates the atmosphere outside."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (Staring out the window, you ask yourself why things had to "
+"end up this way.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (Staring out the window, you remind yourself of how long "
+"you've waited to get here.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* The window enhances the atmosphere inside."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You touch the plant lightly.)\n"
+"* (It understands your pain.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You touch the plant lightly.)\n"
+"* (It shakes and bobs, relieved that you were here.)"
+msgstr ""
+
+msgid "<33>{#p/basic}* A compassionate plant."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You touch the plant lightly.)\n"
+"* (It promises things will get better for you.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You touch the plant lightly.)\n"
+"* (It appreciates the gesture.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* An optimistic plant."
+msgstr ""
+
+msgid "<32>{#p/human}* (The sign doesn't appear to hold anything of note.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* It's a digital picture frame.\n"
+"* All it needs now are some good memories, in visual form."
+msgstr ""
+
+msgid "<32>{#p/human}* (You note the fairly large size of the dining chair.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* One of Asgore's dining chairs.\n"
+"* Fit for a mother."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* One of Asgore's dining chairs.\n"
+"* Not fit for anyone."
+msgstr ""
+
+msgid "<32>{#p/human}* (You note the small size of the dining chair.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* One of Asgore's dining chairs.\n"
+"* Fit for a brother."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You wonder if this chair is still fit for a little angel.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (You note the perfect size of the dining chair.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* It's fit just for you, Frisk."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* One of Asgore's dining chairs.\n"
+"* Still fit for a child."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You note the slightly small size of the dining chair.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* One of Asgore's dining chairs.\n"
+"* Fit for a sibling."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* One of Asgore's dining chairs.\n"
+"* Fit for a monster."
+msgstr ""
+
+msgid "<32>{#p/human}* (You note the exceptional size of the dining chair.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* One of Asgore's dining chairs.\n"
+"* Fit for a father."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* One of Asgore's dining chairs.\n"
+"* Still fit for a king."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You place your hands on the exterior of the fridge.)\n"
+"* (It groans harshly.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You place your hands on the exterior of the fridge.)\n"
+"* (It purrs gently.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* The fridge is mostly empty, save for a single glass of water"
+" from Undyne."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* The fridge is mostly empty, save for a single bottle of "
+"exoberry punch from Undyne."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* The fridge is mostly empty, save for a single mug of hot "
+"cocoa from Undyne."
+msgstr ""
+
+msgid "<32>* ... it's freezing cold by now."
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* The fridge is mostly empty, save for a single cup of "
+"starling tea from Undyne."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (Surprisingly, you can't find any residue in the sink.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* No fur, no hair...\n"
+"* Indeed, these are the wonders of technology."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You open the drawer, and pet the dog within for comfort.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (You open the drawer, and wave to the dog within.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* That dog, in that drawer...\n"
+"* Better not let Papyrus catch wind of this."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You wonder if the stove will burn this house down, too.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (You wonder what delicious meals will be made here.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* It's the same model as Undyne's stove..."
+msgstr ""
+
+msgid ""
+"<32>* We can only hope it came equipped with the appropriate safety measures"
+" this time."
+msgstr ""
+
+msgid "<32>{#p/human}* (The sign lists instructions to a certain recipe.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Tucca Zunasca, a new kind of soup for a new kind of world."
+msgstr ""
+
+msgid "<32>* In a pot, brown a sausage, adding spicy pepper flakes as needed."
+msgstr ""
+
+msgid "<32>* Add two Kriatas of basic stock, and bring the pot to a boil."
+msgstr ""
+
+msgid ""
+"<32>* For best results, apply fire magic. Otherwise, oxygenated flame will "
+"suffice."
+msgstr ""
+
+msgid ""
+"<32>* Dice one pound of Eurybian potatoes, and add them to the boiling pot."
+msgstr ""
+
+msgid ""
+"<32>* Once the mixture begins to sparkle, begin adding whipping cream and "
+"bar-bird broth."
+msgstr ""
+
+msgid ""
+"<32>* For now, source the cream from the giga-vine canopy. Other sources may"
+" be found later."
+msgstr ""
+
+msgid ""
+"<32>* Additionally, kale or kretaada may be added, and cooked at high "
+"intensity until soft."
+msgstr ""
+
+msgid "<32>* Once complete, your soup should be ready for the table!"
+msgstr ""
+
+msgid "Heartbreaker"
+msgstr ""
+
+msgid "Heart- breaker"
+msgstr ""
+
+msgid "the Yellow Kid"
+msgstr ""
+
+msgid "Yellow Kid"
+msgstr ""
+
+msgid "Kid"
+msgstr ""
+
+msgid "the Oncoming Storm"
+msgstr ""
+
+msgid "Oncoming Storm"
+msgstr ""
+
+msgid "Storm"
+msgstr ""
+
+msgid "Hyper Rage"
+msgstr ""
+
+msgid "Rage"
+msgstr ""
+
+msgid "Space Invader"
+msgstr ""
+
+msgid "Invader"
+msgstr ""
+
+msgid "* Activate"
+msgstr "* 激活"
+
+msgid "* Advice"
+msgstr "* 建议"
+
+msgid "* Agree"
+msgstr "* 认同"
+
+msgid "* Alphys"
+msgstr "* Alphys"
+
+msgid "* Analyze"
+msgstr ""
+
+msgid "* Annoy"
+msgstr "* 发火"
+
+msgid "* Appease"
+msgstr "* 安抚"
+
+msgid "* Approach"
+msgstr "* 靠近"
+
+msgid "* Asgore"
+msgstr "* Asgore"
+
+msgid "* Asriel"
+msgstr "* Asriel"
+
+msgid "§fill:#ff7f7f§§swirl:2,1,1.05,1§§hue§* Asriel Dreemurr"
+msgstr "§fill:#ff7f7f§§swirl:2,1,1.05,1§§hue§* Asriel Dreemurr"
+
+msgid "* Bathe"
+msgstr "* 洗澡"
+
+msgid "* Beckon"
+msgstr "* 招呼过来"
+
+msgid "* Bed Time"
+msgstr "* 睡觉时间"
+
+msgid "* Blind"
+msgstr ""
+
+msgid "* Boast"
+msgstr "* 自夸"
+
+msgid "* Boo"
+msgstr "* 喝倒彩"
+
+msgid "* Boost"
+msgstr "* 帮助"
+
+msgid "* Bow"
+msgstr "* 鞠躬"
+
+msgid "* Break"
+msgstr ""
+
+msgid "* Burn"
+msgstr ""
+
+msgid "* Carry"
+msgstr ""
+
+msgid "* Challenge"
+msgstr "* 挑战"
+
+msgid "* Charge"
+msgstr ""
+
+msgid "* Check"
+msgstr "* 查看"
+
+msgid "* Cheer"
+msgstr "* 鼓励"
+
+msgid "* Clean"
+msgstr "* 清洁"
+
+msgid "* Cocoa"
+msgstr ""
+
+msgid "* Comfort"
+msgstr "* 安抚"
+
+msgid "* Compliment"
+msgstr "* 称赞"
+
+msgid "* Compose"
+msgstr "* 作曲"
+
+msgid "* Conclude"
+msgstr ""
+
+msgid "* Console"
+msgstr ""
+
+msgid "* Counter"
+msgstr "* 反驳"
+
+msgid "* Create"
+msgstr "* 自己制作"
+
+msgid "* Criticize"
+msgstr "* 批评"
+
+msgid "* Cuddle"
+msgstr "* 拥抱"
+
+msgid "* Cut"
+msgstr ""
+
+msgid "* Dance"
+msgstr "* 跳舞"
+
+msgid "* Dream"
+msgstr "* 梦想"
+
+msgid "* Dinner Time"
+msgstr "* 晚餐时间"
+
+msgid "* Direct"
+msgstr ""
+
+msgid "* Disarm"
+msgstr "* 缴械"
+
+msgid "* Disown"
+msgstr ""
+
+msgid "* Diss"
+msgstr "* 贬损"
+
+msgid "* Distance"
+msgstr ""
+
+msgid "* Distract"
+msgstr ""
+
+msgid "* Ditch"
+msgstr "* 甩掉"
+
+msgid "* Dont Pick On"
+msgstr "* 不招惹"
+
+msgid "* Encourage"
+msgstr "* 鼓励"
+
+msgid "* Escort"
+msgstr "* 护送"
+
+msgid "* Flash"
+msgstr "* 闪光"
+
+msgid "* Flirt"
+msgstr "* 调情"
+
+msgid "* Grin"
+msgstr "* 微笑"
+
+msgid "* Guide"
+msgstr "* 引导"
+
+msgid "* Handshake"
+msgstr "* 握手"
+
+msgid "* Hang Out"
+msgstr "* 消遣"
+
+msgid "* Heckle"
+msgstr "* 责难"
+
+msgid "* Heel Turn"
+msgstr "* 翻脸"
+
+msgid "* High Five"
+msgstr ""
+
+msgid "* Home"
+msgstr "* 回家"
+
+msgid "* Hope"
+msgstr "* 希望"
+
+msgid "* Hug"
+msgstr "* 拥抱"
+
+msgid "* Hum"
+msgstr "* 哼唱"
+
+msgid "* Hypothesize"
+msgstr ""
+
+msgid "* Ignore"
+msgstr "* 无视"
+
+msgid "* Imitate"
+msgstr "* 模仿"
+
+msgid "* Inquire"
+msgstr "* 询问"
+
+msgid "* Insult"
+msgstr "* 辱骂"
+
+msgid "* Joke"
+msgstr "* 讲笑话"
+
+msgid "* Agreement"
+msgstr ""
+
+msgid "* Call"
+msgstr "* 电话"
+
+msgid "* Dinner"
+msgstr "* 晚餐"
+
+msgid "* Judgement"
+msgstr "* 审判"
+
+msgid "* Laugh"
+msgstr "* 大笑"
+
+msgid "* Lecture"
+msgstr ""
+
+msgid "* Leech"
+msgstr ""
+
+msgid "* Lesson"
+msgstr "* 教学"
+
+msgid "* Mislead"
+msgstr "* 误导"
+
+msgid "* Mix"
+msgstr "* 混音"
+
+msgid "* Mystify"
+msgstr "* 迷惑"
+
+msgid "* Notes"
+msgstr "* 笔记"
+
+msgid "* Object"
+msgstr "* 拒绝"
+
+msgid "* Papyrus"
+msgstr "* Papyrus"
+
+msgid "* Password"
+msgstr "* 密码"
+
+msgid "* Pat"
+msgstr "* 轻拍"
+
+msgid "* Pay"
+msgstr "* 付钱"
+
+msgid "* Perch"
+msgstr "* 栖息"
+
+msgid "* Pet"
+msgstr "* 抚摸"
+
+msgid "* Pick On"
+msgstr "* 招惹"
+
+msgid "* Play"
+msgstr "* 玩耍"
+
+msgid "* Play Dead"
+msgstr "* 装死"
+
+msgid "* Plead"
+msgstr "* 求饶"
+
+msgid "* Pluck"
+msgstr ""
+
+msgid "* Poke"
+msgstr "* 戳刺"
+
+msgid "* Pose"
+msgstr "* 摆姿势"
+
+msgid "* Praise"
+msgstr "* 称赞"
+
+msgid "* Promise"
+msgstr "* 许诺"
+
+msgid "* Punch"
+msgstr ""
+
+msgid "* Puzzle"
+msgstr "* 谜题"
+
+msgid "* Puzzle Help"
+msgstr "* 谜题求助"
+
+msgid "* Rap"
+msgstr "* 说唱"
+
+msgid "* Re-Assure"
+msgstr ""
+
+msgid "* Release"
+msgstr ""
+
+msgid "* Re-Sniff"
+msgstr "* 重新闻闻"
+
+msgid "* Rest"
+msgstr "* 休息"
+
+msgid "* Roll Around"
+msgstr "* 打滚"
+
+msgid "* Sample"
+msgstr "* 采样"
+
+msgid "* Sans"
+msgstr "* Sans"
+
+msgid "* Scream"
+msgstr "* 尖叫"
+
+msgid "* Secret"
+msgstr "* 秘密"
+
+msgid "* Shout"
+msgstr "* 喊叫"
+
+msgid "* Shove"
+msgstr ""
+
+msgid "* Siphon"
+msgstr "* 抽取"
+
+msgid "* Sit"
+msgstr "* 坐下"
+
+msgid "* Slap"
+msgstr "* 击打"
+
+msgid "* Smile"
+msgstr "* 微笑"
+
+msgid "* Someone else"
+msgstr "* 别的什么人"
+
+msgid "* Spark"
+msgstr "* 引燃"
+
+msgid "* Stare"
+msgstr "* 凝视"
+
+msgid "* Steal"
+msgstr "* 偷窃"
+
+msgid "* Story Time"
+msgstr "* 故事时间"
+
+msgid "* Suggest"
+msgstr ""
+
+msgid "* Talk"
+msgstr "* 交谈"
+
+msgid "* Taunt"
+msgstr "* 嘲讽"
+
+msgid "* Tea"
+msgstr ""
+
+msgid "* Tell Off"
+msgstr "* 批判"
+
+msgid "* Terrorize"
+msgstr "* 恐吓"
+
+msgid "* Binding"
+msgstr ""
+
+msgid "* Prosthesis"
+msgstr ""
+
+msgid "* Infusion"
+msgstr ""
+
+msgid "* Threaten"
+msgstr "* 威胁"
+
+msgid "* Tickle"
+msgstr ""
+
+msgid "* Topple"
+msgstr "* 推倒"
+
+msgid "* Toriel"
+msgstr "* Toriel"
+
+msgid "* Translate"
+msgstr "* 翻译"
+
+msgid "* Travel"
+msgstr ""
+
+msgid "* Trivia"
+msgstr "* 琐事"
+
+msgid "* Tug"
+msgstr "* 拽下"
+
+msgid "* Turn"
+msgstr ""
+
+msgid "* Undyne"
+msgstr "* Undyne"
+
+msgid "* Walk"
+msgstr "* 遛狗"
+
+msgid "* Water"
+msgstr "* 喝水"
+
+msgid "* Whisper"
+msgstr "* 耳语"
+
+msgid "* Whistle"
+msgstr "* 吹口哨"
+
+msgid "* Yell"
+msgstr ""
+
+msgid "* ... but everybody ran."
+msgstr "* ...但是人们都逃走了。"
+
+msgid "* ... but nobody came."
+msgstr "* ...但是谁也没有来。"
+
+msgid ""
+"<32>{#p/story}* DUMMY - ATK 0 DEF 0\n"
+"* A ghost within the shell, they hope you're doing well."
+msgstr ""
+"<32>{#p/story}* DUMMY - 攻击0 防御0\n"
+"* 壳中幽灵，祝君安宁。"
+
+msgid "<32>{#p/human}* (You flirt with the dummy.)"
+msgstr "<32>{#p/human}* （你向人偶调情。）"
+
+msgid "<32>{#p/basic}* It went exactly how you'd expect."
+msgstr "<32>{#p/basic}* 它的反应和你想的完全一样。"
+
+msgid "<32>* Toriel is trying not to laugh."
+msgstr "<32>* Toriel强忍住不笑。"
+
+msgid "<32>{#p/human}* (You hug the dummy.)"
+msgstr "<32>{#p/human}* （你抱了抱人偶。）"
+
+msgid "<32>{#p/human}* (You slap the dummy.)"
+msgstr "<32>{#p/human}* （你扇了人偶一巴掌。）"
+
+msgid "<32>{#p/human}* (You talk to the dummy.)"
+msgstr "<32>{#p/human}* （你和人偶说了会话。）"
+
+msgid "<32>{#p/basic}* It doesn't seem much for conversation."
+msgstr "<32>{#p/basic}* 它好像不怎么健谈。"
+
+msgid "<32>* Toriel is pleased with you."
+msgstr "<32>* Toriel看起来很高兴。"
+
+msgid "<32>{#p/basic}* The dummy grew tired of your aimless shenanigans."
+msgstr "<32>{#p/basic}* 人偶厌倦了你意味不明的把戏。"
+
+msgid "<32>{#p/basic}* The dummy is blushing... somehow."
+msgstr "<32>{#p/basic}* 人偶不知为何... 脸红了。"
+
+msgid "* Dummy"
+msgstr "* Dummy"
+
+msgid "<32>{#p/basic}* Suddenly...!"
+msgstr "<32>{#p/basic}* 突然...！"
+
+msgid "<32>{#p/story}* You encountered the dummy."
+msgstr "<32>{#p/story}* 你遭遇了训练人偶。"
+
+msgid "<32>{#p/story}* The dummy looks like it's already getting bored."
+msgstr "<32>{#p/story}* 人偶看起来有些厌倦了。"
+
+msgid "<32>{#p/story}* The dummy looks like it's lost in itself."
+msgstr ""
+
+msgid "<32>{#p/story}* The dummy looks like it's going to fall over."
+msgstr "<32>{#p/story}* 人偶好像要倒下了。"
+
+msgid "<09>{#p/basic}{#i/10}{~}....."
+msgstr "<09>{#p/basic}{#i/10}{~}....."
+
+msgid "<11>{#p/basic}{~}{#x3}Ugh, you're WASTING my time!"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Oh.. how strange."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* GLAD DUMMY - ATK 0 DEF 0\n"
+"* It's a dream come true!"
+msgstr ""
+"<32>{#p/story}* GLAD DUMMY - 攻击0 防御0\n"
+"* 它的梦想成真啦！"
+
+msgid ""
+"<32>{#p/story}* MAD DUMMY - ATK 30 DEF 255\n"
+"* Impervious to physical attacks."
+msgstr ""
+"<32>{#p/story}* MAD DUMMY - 攻击30 防御255\n"
+"* 免疫一切物理攻击。"
+
+msgid "<32>{#p/human}* (You flirt with Glad Dummy.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* They're too distracted with themselves to hear you."
+msgstr ""
+
+msgid "<32>{#p/human}* (You flirt with Mad Dummy.)"
+msgstr ""
+
+msgid "<32>* It went exactly how you'd expect."
+msgstr "<32>* 它的反应和你想的完全一样。"
+
+msgid "<32>{#p/human}* (You hug Glad Dummy.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (You hug Mad Dummy.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (You slap Glad Dummy.)"
+msgstr "<32>{#p/human}* （你扇了Glad Dummy一巴掌。）"
+
+msgid ""
+"<32>{#p/basic}* Glad Dummy exerts the better part of valor and gets out of "
+"your way."
+msgstr ""
+
+msgid "<32>{#p/human}* (You slap Mad Dummy.)"
+msgstr "<32>{#p/human}* （你扇了Mad Dummy一巴掌。）"
+
+msgid "<32>{#p/human}* (You talk to Glad Dummy.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (You talk to Mad Dummy.)"
+msgstr ""
+
+msgid "<32>* They don't seem much for conversation."
+msgstr ""
+
+msgid "<32>* Nobody is happy with this."
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x3}What the hell?"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x1}Why is NOTHING hap- pening?"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x4}Am I INVISIBLE to you or something??"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x4}..."
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x4}I CAN'T EVEN BE MAD AT YOU!!!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x4}You're so... INANIMATE!"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x4}JUST... GAHH!\n"
+"GET OUT OF MY LIFE!"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x4}GO LISTEN TO MUSIC WITH NAPSTABLOOK OR SOMETHING!"
+msgstr ""
+
+msgid "<32>{#p/story}* Mad Dummy is getting cotton all over the floor."
+msgstr ""
+
+msgid "<32>{#p/story}* Mechanical whirrs fill the room."
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x1}Foolish.\n"
+"Foolish!\n"
+"FOOLISH!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x3}Even if you attack my vessel..."
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x4}... you'll NEVER hurt ME!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x1}I'm still incor- poreal, you dummy!!!"
+msgstr ""
+
+msgid "<11>{#p/napstablook}{~}sorry, i interrupted you, didn't i..."
+msgstr ""
+
+msgid ""
+"<11>{#p/napstablook}{~}as soon as i came over, your friend immediately "
+"left..."
+msgstr ""
+
+msgid ""
+"<11>{#p/napstablook}{~}oh wait...\n"
+"didn't you attack me before..."
+msgstr ""
+
+msgid ""
+"<11>{#p/napstablook}{~}uhhh...\n"
+"that's awkward."
+msgstr ""
+
+msgid "<11>{#p/napstablook}{~}sorry..."
+msgstr ""
+
+msgid ""
+"<11>{#p/napstablook}{~}oh no...\n"
+"you guys looked like you were having fun..."
+msgstr ""
+
+msgid ""
+"<11>{#p/napstablook}{~}oh no...\n"
+"i just wanted to say hi..."
+msgstr ""
+
+msgid ""
+"<11>{#p/napstablook}{~}oh no......\n"
+"...........\n"
+"...........\n"
+"...........\n"
+"..........."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Thanks!"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Thank you!"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Great work!"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Bravo!"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}OK!"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}..."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}My haphe- phobia!"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}It's gone!"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Thank you.. human.."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}I've never felt so happy.."
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x4}Are you for REAL??"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x3}N-no..!\n"
+"I have haphe- phobia!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x4}Stop that!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x2}Knock it off!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x3}..."
+msgstr ""
+
+msgid "* Glad Dummy"
+msgstr ""
+
+msgid "* Mad Dummy"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x1}I'll defeat you and take your SOUL!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x1}I'll use your SOUL to break the force field!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x6}The other monsters will love me, praise me...!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x4}THEN EVERYTHING I WANT WILL BE MINE!"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x3}Huh?\n"
+"Yeah, I guess that'll avenge my cousin."
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x5}Do my other cousins care...?"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x4}Whatever.\n"
+"Whatever!\n"
+"WHATEVER!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x1}..."
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x1}DUMMY BOTS!\n"
+"MAGIC MISSILE!"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x3}DUMMY BOTS!\n"
+"TRY AGAIN!"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x5}DUMMY BOTS!\n"
+"You're awful???"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x4}DUMMY BOTS!\n"
+"FINAL ATTACK!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x2}OWWWW, you DUMMIES!!"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x1}Watch where you aim your {@fill:#f00}MAGIC{@fill:#000}"
+" attacks!"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x4}Hey!\n"
+"You!"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x3}Forget I said anything about "
+"{@fill:#f00}MAGIC{@fill:#000}."
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x4}HEY GUYS!"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x1}Dummies.\n"
+"Dummies!\n"
+"DUMMIES!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x3}Remember how I said NOT to shoot at me?"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x3}Well..."
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x4}FAILURES!\n"
+"YOU'RE FIRED!\n"
+"YOU'RE ALL BEING REPLACED!"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x4}Hahaha.\n"
+"Hahaha!\n"
+"HAHAHA!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x3}Now you'll see my true power..."
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x6}Relying on people that aren't garbage!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x3}N... no way!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x3}These guys are WORSE than the other guys!"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x1}Who cares.\n"
+"Who cares!\n"
+"WHO CARES!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x4}I DON'T NEED FRIENDS!!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x6}I'VE GOT KNIVES!!!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x3}I'm..."
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x3}Out of knives."
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x4}BUT IT DOESN'T MATTER!!!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x4}YOU CAN'T HURT ME AND I CAN'T HURT YOU!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x1}YOU'LL BE STUCK FIGHTING ME..."
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x1}Forever."
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x4}Forever!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x6}FOREVER!!!!"
+msgstr ""
+
+msgid ""
+"<11>{*}{#p/basic}{~}{#x6}AHAHAHAHA HAHAHAHAH AHAHAHAHA HAHAHAHAH "
+"AHAHAHAHA{%}"
+msgstr ""
+
+msgid ""
+"<11>{*}{#p/basic}{~}{#x2}Wh...\n"
+"What the heck is this!?{^20}{%}"
+msgstr ""
+
+msgid ""
+"<11>{*}{#p/basic}{~}{#x6}Ergh!\n"
+"Acid rain!?{^20}{%}"
+msgstr ""
+
+msgid ""
+"<11>{*}{#p/basic}{~}{#x4}Oh, FORGET IT!\n"
+"I'm OUTTA here!!{^20}{%}"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Mad Dummy is looking for the nearest airlock to throw you "
+"out of."
+msgstr ""
+
+msgid "<32>{#p/story}* Mad Dummy is bossing around its bullets."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Mad Dummy glares into a portal, then turns to you with the "
+"same expression."
+msgstr ""
+
+msgid "<32>{#p/story}* Mad Dummy is hopping mad."
+msgstr ""
+
+msgid "<32>{#p/story}* Smells like a textile factory."
+msgstr ""
+
+msgid "<32>{#p/story}* Glad Dummy is just happy to be here."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Glad Dummy thinks of all the wonderful things it's going to "
+"do."
+msgstr ""
+
+msgid "<32>{#p/story}* Glad Dummy seems content."
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x1}Futile.\n"
+"Futile!\n"
+"FUTILE!"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x1}Pitiful.\n"
+"Pitiful!\n"
+"PITIFUL!"
+msgstr ""
+
+msgid ""
+"<11>{#p/basic}{~}{#x1}Feeble.\n"
+"Feeble!\n"
+"FEEBLE!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x6}Why you little...!"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x4}Are you kidding me??"
+msgstr ""
+
+msgid "<11>{#p/basic}{~}{#x2}Come on!"
+msgstr ""
+
+msgid "<32>{#p/story}* Glad Dummy lets you go."
+msgstr ""
+
+msgid "<32>{#p/story}* Mad Dummy blocks the way!"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}\\x00*slime sounds*"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Squorch!"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}\\x00*erotic wiggle*"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}\\x00*happy wiggle*"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}\\x00*shakes in your arms*"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Final blorb."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}\\x00*shiny wiggle*"
+msgstr ""
+
+msgid ""
+"<32>{#p/asriel2}* Gelatini, the mindless mold.\n"
+"* What more can I say?"
+msgstr ""
+"<32>{#p/asriel2}* Gelatini，没脑子的粘球。\n"
+"* 有什么好说的？"
+
+msgid ""
+"<32>{#p/story}* GELATINI - ATK 6 DEF 0\n"
+"* Stereotypical: Curvaceously attractive, but no brains..."
+msgstr ""
+"<32>{#p/story}* GELATINI - 攻击6 防御0\n"
+"* 典型印象：身段妖娆气质好，\n"
+"  就是没大脑..."
+
+msgid ""
+"<32>{#p/story}* GELATINI - ATK 6 DEF 0\n"
+"* It's even more attractive in this season's colors."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* GELATINI - ATK 6 DEF 0\n"
+"* It's exactly your type.\n"
+"* It's \"stereo.\""
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* GELATINI - ATK 6 DEF 0\n"
+"* This mold supermodel appears to be past its prime."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You wiggle your hips.)\n"
+"* (Gelatini wiggles back.)"
+msgstr ""
+
+msgid "<33>{#p/basic}* What a meaningful conversation!"
+msgstr ""
+
+msgid ""
+"<33>{#p/human}* (You give Gelatini a nice pat.)\n"
+"* (Its body changes color...)"
+msgstr ""
+
+msgid "<32>{#p/basic}* It's Gelatini's happy color!"
+msgstr ""
+
+msgid "<32>{#p/human}* (You give Gelatini a big slap.)"
+msgstr "<32>{#p/human}* （你使劲地给了Galatini一巴掌。）"
+
+msgid "<32>{#p/basic}* Gelatini is jostled, but remains ultimately unfazed."
+msgstr ""
+
+msgid "<32>{#p/human}* (You deliver your mightiest slap to Gelatini.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* Gelatini is shaken to its core!"
+msgstr ""
+
+msgid "<32>{#p/basic}* Gelatini flees the scene!"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Blorb.."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Squorch.."
+msgstr ""
+
+msgid "* Gelatini"
+msgstr ""
+
+msgid "<32>{#p/kidding}* This can't be good..."
+msgstr ""
+
+msgid "<32>{#p/story}* Gelatini has started to rot."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}\\x00*sexy wiggle*"
+msgstr ""
+
+msgid "<32>{#p/asriel2}* Gelatini squared."
+msgstr ""
+
+msgid "<32>{#p/story}* It's a pair of Gelatinis."
+msgstr "<32>{#p/story}* 一对Gelatini跳了过来。"
+
+msgid "<32>{#p/asriel2}* Gelatini."
+msgstr ""
+
+msgid "<32>{#p/kidding}* Shh... it's thinking!"
+msgstr ""
+
+msgid "<32>{#p/story}* Gelatini blorbs quietly."
+msgstr ""
+
+msgid "<32>{#p/story}* Gelatini waits optimistically."
+msgstr ""
+
+msgid "<32>{#p/kidding}* A blorb here, a blorb there..."
+msgstr ""
+
+msgid "<32>{#p/story}* Gelatini is ruminating."
+msgstr ""
+
+msgid "<32>{#p/kidding}* I wonder what Gelatinis are actually made of."
+msgstr ""
+
+msgid "<32>{#p/story}* The aroma of lime gelatin wafts through."
+msgstr ""
+
+msgid "<32>{#p/story}* And then, there was one."
+msgstr ""
+
+msgid "<32>{#p/kidding}* Just us now!"
+msgstr ""
+
+msgid "<32>{#p/story}* Gelatini now blorbs solo."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}I can communi- cate else- where."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Warning broad- cast is well re- ceived!"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Ooh.. I like this kind of signal.."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}I'm on your wave- length now!"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}The signal.. is right on top of me.."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}I'm just a waste of band- width.."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}I'll wire you the cash right away!"
+msgstr ""
+
+msgid ""
+"<32>{#p/asriel2}* Astro Serf, the attention- seeking astronaut. Cares for "
+"nothing but its antenna."
+msgstr ""
+"<32>{#p/asriel2}* Astro Serf，宇航员，渴望引人注目。\n"
+"* 除了自己的天线，他什么都不在乎。"
+
+msgid ""
+"<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n"
+"* This teen wonders why it isn't named 'Radio Jack.'"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n"
+"* This teen seems to appreciate your sense of fashion."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n"
+"* This teen is getting ALL the right signals."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n"
+"* Attempting to hijack a public radio to call for help."
+msgstr ""
+
+msgid "<32>{#p/human}* (You inform Astro Serf that it has a great antenna.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (You flirt with Astro Serf.)"
+msgstr ""
+
+msgid ""
+"<08>{#p/basic}{~}DUH!\n"
+"Who DOESN'T know?"
+msgstr ""
+
+msgid ""
+"<08>{#p/basic}{~}Envious?\n"
+"TOO BAD!"
+msgstr ""
+
+msgid "<32>{#p/asriel2}* Astro Serf."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Astro Serf is secretly checking if you're looking at its "
+"antenna."
+msgstr ""
+
+msgid "<32>{#p/story}* Astro Serf is impressed."
+msgstr ""
+
+msgid ""
+"<09>{#p/basic}{~}HELLO???\n"
+"My antenna's up here."
+msgstr ""
+
+msgid ""
+"<08>{#p/basic}{~}What?\n"
+"What are you doing?"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}But.. it can't be..!"
+msgstr ""
+
+msgid ""
+"<08>{#p/basic}{~}Woah..\n"
+"How did you do that??"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}You're.. making your OWN antenna?"
+msgstr ""
+
+msgid "<32>{#p/human}* (You begin to fashion your own antenna.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* But... how?"
+msgstr ""
+
+msgid "<32>{#p/human}* (You finish the antenna, and proceed to put it on.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (You start on another antenna.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* Not knowing what to do, Astro Serf runs away."
+msgstr ""
+
+msgid "<32>{#p/story}* Astro Serf is not impressed by your attire."
+msgstr ""
+
+msgid "<32>{#p/story}* Astro Serf is in love."
+msgstr ""
+
+msgid ""
+"<08>{#p/basic}{~}No deal!\n"
+"Not without an antenna!"
+msgstr ""
+
+msgid ""
+"<08>{#p/basic}{~}W-what??\n"
+"Um..\n"
+"I..\n"
+"You.."
+msgstr ""
+
+msgid "<32>{#p/asriel2}* Almost dead."
+msgstr "<32>{#p/asriel2}* 离死不远了。"
+
+msgid "<32>{#p/story}* Astro Serf's suit is loose."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Where's YOUR antenna?"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Your head looks so ..NAKED"
+msgstr ""
+
+msgid ""
+"<08>{#p/basic}{~}What a great antenna!\n"
+"(Mine)"
+msgstr ""
+
+msgid "<09>{#p/basic}{~}It's signal feedback, not radi- ation"
+msgstr ""
+
+msgid ""
+"<08>{#p/basic}{~}I just looove my antenna.\n"
+"OK?"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}What have you done.."
+msgstr ""
+
+msgid "* Astro Serf"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Astro Serf also wants antennae for its other body parts."
+msgstr ""
+
+msgid "<32>{#p/story}* Astro Serf makes sure its antenna is still there."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Astro Serf is thinking about a certain article of clothing."
+msgstr ""
+
+msgid "<32>{#p/story}* Smells like lithium."
+msgstr ""
+
+msgid "<32>{#p/story}* Astro Serf struts into view."
+msgstr ""
+
+msgid ""
+"<08>{#p/basic}{~}I KNEW IT!!!\n"
+"THIEF!!"
+msgstr ""
+
+msgid ""
+"<08>{#p/basic}{~}HELP!!!\n"
+"FASHION POLICE!!"
+msgstr ""
+
+msgid ""
+"<33>{#p/human}* (You steal Astro Serf's antenna.)\n"
+"* (Its spacesuit falls off.)"
+msgstr ""
+
+msgid "<33>{#p/basic}* Looks like it was powered by lithium the whole time."
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You try stealing Astro Serf's antenna, but it hasn't been "
+"weakened enough.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/asriel2}* Lithium.\n"
+"* That's literally it."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* LITHIUM - ATK 1 DEF 0\n"
+"* Without its spacesuit..."
+msgstr ""
+
+msgid "<32>{#p/human}* (You inform Lithium that it still looks fine.)"
+msgstr ""
+
+msgid "<32>{#p/asriel2}* Lithium."
+msgstr ""
+
+msgid "<32>{#p/story}* Lithium doesn't mind its identity."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Yeah.. I like my body too."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}Hmm.. antennae are for posers."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}So I can still impress you?"
+msgstr ""
+
+msgid "<08>{#p/basic}{~}I wanted you to see me as cool."
+msgstr ""
+
+msgid ""
+"<32>{#p/asriel2}* Almost dead.\n"
+"* Again."
+msgstr "<32>{#p/asriel2}* 也要去见阎王了。"
+
+msgid "<32>{#p/story}* It's disintegrating."
+msgstr ""
+
+msgid ""
+"<08>{#p/basic}{~}I..\n"
+"I.."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}What can I say.."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}What's the point.."
+msgstr ""
+
+msgid "<08>{#p/basic}{~}So.. alone.."
+msgstr ""
+
+msgid "* Lithium"
+msgstr ""
+
+msgid "<32>{#p/story}* \"Astro Serf\" is no more."
+msgstr ""
+
+msgid "<32>{#p/story}* Smells like battery power."
+msgstr ""
+
+msgid ""
+"<25>{#p/kidd}{#f/4}* Is it just me, or does it seem kinda empty around "
+"here..."
+msgstr ""
+"<25>{#p/kidd}{#f/4}* 周围怎么一个人也没有，\n"
+"  是我的错觉吗..."
+
+msgid "<32>{#p/kidding}* Uh..."
+msgstr "<32>{#p/kidding}* 呃..."
+
+msgid "<32>* Why'd they vanish like that?"
+msgstr "<32>* 对手为啥是这样消失的呢？"
+
+msgid ""
+"<32>* Well, we WERE attacking them, so maybe they got scared and teleported "
+"away, haha."
+msgstr ""
+"<32>* 嗯... 我们打了对手。\n"
+"  估计太害怕，就传送走了。\n"
+"* 哈哈，肯定是的。"
+
+msgid "<32>{#p/kidding}* Another one?"
+msgstr "<32>{#p/kidding}* 又消失了？"
+
+msgid "<32>* Dang, why don't I get to have a cool teleporter!?"
+msgstr ""
+"<32>* 该死，为啥我没有\n"
+"  这么酷的传送器呢！？"
+
+msgid "<32>{#p/kidding}* And they're gone..."
+msgstr "<32>{#p/kidding}* 消失了..."
+
+msgid "<32>{#p/kidding}* ..."
+msgstr "<32>{#p/kidding}* ..."
+
+msgid "<25>{#p/kidd}{#f/4}* Uh..."
+msgstr "<25>{#p/kidd}{#f/4}* 呃..."
+
+msgid "<25>* Why'd they vanish like that?"
+msgstr "<25>* 对手为啥是这样消失的呢？"
+
+msgid "<25>{#f/1}* Well, we WERE attacking them, so..."
+msgstr "<25>{#f/1}* 嗯... 我们打了对手，所以..."
+
+msgid "<25>* Maybe they got scared and teleported away, haha."
+msgstr ""
+"<25>* 估计太害怕，就传送走了。\n"
+"* 哈哈，肯定是的。"
+
+msgid "<25>{#p/kidd}{#f/4}* Another one?"
+msgstr "<25>{#p/kidd}{#f/4}* 又消失了？"
+
+msgid "<25>{#f/1}* Dang, why don't I get to have a cool teleporter!?"
+msgstr ""
+"<25>{#f/1}* 该死，为啥我没有\n"
+"  这么酷的传送器呢！？"
+
+msgid "<25>{#p/kidd}{#f/4}* And they're gone..."
+msgstr "<25>{#p/kidd}{#f/4}* 消失了..."
+
+msgid "<25>{#p/kidd}{#f/4}* ..."
+msgstr "<25>{#p/kidd}{#f/4}* ..."
+
+msgid "<32>* They seemed really scared..."
+msgstr "<32>* 对手好像吓坏了..."
+
+msgid "<32>* I hope we didn't hurt them too badly or something..."
+msgstr "<32>* 希望我们下手没那么重..."
+
+msgid "<32>{#p/kidding}* That one too...!"
+msgstr "<32>{#p/kidding}* 那位也...！"
+
+msgid "<32>* Are we hitting them too hard...?"
+msgstr "<32>* 我们打得那么狠吗...？"
+
+msgid "<25>* They seemed really scared..."
+msgstr ""
+
+msgid "<25>* I hope we didn't hurt them too badly or something..."
+msgstr ""
+
+msgid "<25>{#p/kidd}{#f/7}* That one too...!"
+msgstr "<25>{#p/kidd}{#f/7}* 那位也...！"
+
+msgid "<25>{#f/4}* Are we hitting them too hard...?"
+msgstr "<25>{#f/4}* 我们打得那么狠吗...？"
+
+msgid "<25>{#p/kidd}{#f/4}* Hey..."
+msgstr "<25>{#p/kidd}{#f/4}* 嘿..."
+
+msgid "<25>{#p/kidd}{#f/1}* Where's everybody going?"
+msgstr "<25>{#p/kidd}{#f/1}* 大家都去哪了？"
+
+msgid "<32>{#p/kidding}* Yo... I don't know how to do any cool magic yet..."
+msgstr "<32>{#p/kidding}* 哟... 我还不会释放很酷的魔法..."
+
+msgid "<32>{#p/kidding}* But uh, I can heal you!"
+msgstr "<32>{#p/kidding}* 不过，嗯... 我可以帮你疗伤！"
+
+msgid "<32>{#p/kidding}* Healing spell!"
+msgstr "<32>{#p/kidding}* 治疗术！"
+
+msgid "<32>{#p/kidding}* Health be with you!"
+msgstr "<32>{#p/kidding}* 健康与你同在！"
+
+msgid "<32>{#p/kidding}* Take this!"
+msgstr "<32>{#p/kidding}* 看好了！"
+
+msgid "<32>{#p/kidding}* Just leave me out of it..."
+msgstr "<32>{#p/kidding}* 不要再让我战斗了..."
+
+msgid ""
+"<32>{#p/kidding}* Help, I've never been in a battle before!\n"
+"* What do I do!?"
+msgstr ""
+"<32>{#p/kidding}* 帮帮我，我从来没战斗过！\n"
+"* 我要怎么做！？"
+
+msgid "<32>{#p/kidding}* Uh... help!"
+msgstr "<32>{#p/kidding}* 呃... 帮我！"
+
+msgid "<32>{#p/kidding}* I... think I'm getting the hang of this."
+msgstr "<32>{#p/kidding}* 我... 我好像会了。"
+
+msgid "<32>{#p/kidding}* Oh! Oh!"
+msgstr "<32>{#p/kidding}* 哦！哦！"
+
+msgid "<32>* I know how ACTing works!"
+msgstr "<32>* 我知道要怎么行动！"
+
+msgid "<32>* Watch this...!"
+msgstr "<32>* 看好了...！"
+
+msgid ""
+"<32>{#p/kidding}* Are you sure...?\n"
+"* They don't seem to be happy about all this..."
+msgstr ""
+"<32>{#p/kidding}* 真的要这么做吗...？\n"
+"* 对手好像不喜欢这样..."
+
+msgid "<32>{#p/kidding}* Is this really a good idea...?"
+msgstr "<32>{#p/kidding}* 这么做真的好吗...？"
+
+msgid "<32>{#p/kidding}* Um..."
+msgstr "<32>{#p/kidding}* 嗯..."
+
+msgid "<32>{#p/kidding}* Er..."
+msgstr "<32>{#p/kidding}* 呃..."
+
+msgid ""
+"<32>{#p/story}* Monster Kid struggled in the web and made a scary face."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid struggled in the web and yelled."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid gave out a menacing laugh."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid sang a scary tune."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid yelled overly edgy lyrics."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid drummed loudly with their feet."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid pointed out the dirty floors."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid pointed out the leaky pipes."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid made a gross face."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid stared $(x) directly in the face."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid pointed at $(x) accusingly."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid circled around $(x) like a predator."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Monster Kid complimented Muffet on her eloquent taste in "
+"clothing."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Monster Kid told Muffet her pastries are the best known to "
+"monsterkind."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid said no webs are as strong as Muffet's."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid hummed a pretty melody."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid complimented Shyren's hair."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid complimented Shyren's voice."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Monster Kid called Skrubbington the cleanest monster on the "
+"block."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Monster Kid appreciated Skrubbington's efforts to freshen up"
+" the factory."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Monster Kid noted Skrubbington's committment to perfection."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid complimented Radtile's mirror."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid complimented Radtile's hat."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Monster Kid made sure to double-check Radtile's appearance."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid offered to keep $(x) company."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid told $(x) they'd be there if it'd help."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid stood on top of $(x)."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid tried asking Muffet about spider clans."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid tried asking Muffet about bakeries."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid tried asking Muffet about tea."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid debated about musical notation."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid spoke about music theory."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid discussed their favorite music genres."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid waxed poetic about proper hygiene."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid rapped about hazard safety."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid showed off their polished sewer pipe set."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid made an ugly face at Radtile."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid came near and inspected Radtile up close."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Monster Kid acted out as if they were a feral creature."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid wiggled around, mimicing $(x)."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid did a handstand, impressing $(x)."
+msgstr ""
+
+msgid "<32>{#p/story}* Monster Kid spun around, bewildering $(x)."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Monster Kid tried telling Muffet there's no point in all "
+"this!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Monster Kid claimed a spatial distortion was approaching "
+"fast!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Monster Kid claimed an airborne viral agent was on its way!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Monster Kid claimed the nearby pipes were leaking acid!"
+msgstr ""
+
+msgid "<32>{#p/story}* Nothing happened."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Skrubbington was grossed out!\n"
+"* Skrubbington's DEFENSE down!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Shyren felt uncomfortable!\n"
+"* Shyren's DEFENSE down!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Radtile felt uncomfortable!\n"
+"* Radtile's DEFENSE down!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* $(x) felt uncomfortable!\n"
+"* $(x)'s DEFENSE down!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Skrubbington felt flattered!\n"
+"* Skrubbington's ATTACK down!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Shyren felt flattered!\n"
+"* Shyren's ATTACK down!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Radtile felt respected!\n"
+"* Radtile's ATTACK down!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* $(x) felt respected!\n"
+"* $(x)'s ATTACK down!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Skrubbington and the others were distracted by Monster Kid "
+"and forgot their turn!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Skrubbington was distracted by Monster Kid and forgot their "
+"turn!"
+msgstr ""
+
+msgid "<32>{#p/story}* Distracted by Monster Kid, Shyren forgot her turn!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Entranced by Monster Kid, $(x) and the others forgot their "
+"turn!"
+msgstr ""
+
+msgid "<32>{#p/story}* Entranced by Monster Kid, Radtile forgot his turn!"
+msgstr ""
+
+msgid "<32>{#p/story}* Entranced by Monster Kid, $(x) forgot their turn!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Fearful for its life, Skrubbington panicked and left the "
+"battle!"
+msgstr ""
+
+msgid "<32>{#p/story}* The other monsters continue to fight you."
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Fearful for her life, Shyren panicked and left the battle!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Encouraged by her own performance, Shyren braved the threat!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Fearful for his life, Radtile panicked and left the battle!"
+msgstr ""
+
+msgid ""
+"<32>{#p/story}* Fearful for its life, $(x) panicked and left the battle!"
+msgstr ""
+
+msgid ""
+"<32>{#p/kidding}* Y... y-you want me to fight?\n"
+"* Are you sure?"
+msgstr ""
+"<32>{#p/kidding}* 你... 你-你让我战斗？\n"
+"* 真的吗？"
+
+msgid "* (Do you confirm?)"
+msgstr "* （确定战斗吗？）"
+
+msgid "<32>{#p/kidding}* Okay... here goes nothing..."
+msgstr "<32>{#p/kidding}* 好吧... 那我试试..."
+
+msgid "<32>{#p/kidding}* Oh, okay..."
+msgstr "<32>{#p/kidding}* 哦，好..."
+
+msgid "<32>* I'll just spare them, then!"
+msgstr "<32>* 那我就饶恕他们吧！"
+
+msgid "<32>* Ngh...!"
+msgstr "<32>* 呀哈...！"
+
+msgid "<32>* Hi-yah...!"
+msgstr "<32>* 嘿呀...！"
+
+msgid "<32>* Wa-POW!"
+msgstr "<32>* 我打！"
+
+msgid ""
+"<32>{#p/kidding}* Mercy?\n"
+"* Do I spare them?"
+msgstr ""
+"<32>{#p/kidding}* 仁慈？\n"
+"* 让我饶恕对手吗？"
+
+msgid "<32>{#p/kidding}* Haha, that's easy!"
+msgstr "<32>{#p/kidding}* 哈哈，容易！"
+
+msgid "* (What should Monster Kid do?)"
+msgstr "* （Monster Kid应该怎么做？）"
+
+msgid "Mercy"
+msgstr "仁慈"
+
+msgid "Act"
+msgstr "行动"
+
+msgid "Magic"
+msgstr "魔法"
+
+msgid "Fight"
+msgstr "战斗"
+
+msgid "Keyring"
+msgstr "钥匙串"
+
+msgid "Say Hello"
+msgstr "打招呼"
+
+msgid "About Yourself"
+msgstr "介绍下自己"
+
+msgid "Call Him \"Dad\""
+msgstr "叫他“爸爸”"
+
+msgid "Flirt"
+msgstr "调情"
+
+msgid "Insult"
+msgstr "辱骂"
+
+msgid "<32>{#s/phone}{#p/event}* Dialing..."
+msgstr "<32>{#s/phone}{#p/event}* 滴滴滴..."
+
+msgid "<32>{#p/human}* (Too much interference.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* ... but nobody came."
+msgstr "<32>{#p/basic}* ...但是谁也没有来。"
+
+msgid "<32>{#p/human}* (No connection.)"
+msgstr "<32>{#p/human}* （没有信号。）"
+
+msgid ""
+"<32>{#p/human}* (It sounds like a small, white dog is sleeping on the cell "
+"phone.)"
+msgstr ""
+
+msgid "<32>{#p/basic}* (Snore... snore...)"
+msgstr ""
+
+msgid "<32>* (Snore... snore...)"
+msgstr ""
+
+msgid "<32>{#p/basic}* (Snore... snore... snore...)"
+msgstr ""
+
+msgid "<32>* (Snore... snore... snore...)"
+msgstr ""
+
+msgid "<32>{#p/basic}* (Snore...!)"
+msgstr ""
+
+msgid "<32>* (Snore...!)"
+msgstr ""
+
+msgid "<32>{#p/basic}* (Snore...?)"
+msgstr ""
+
+msgid "<32>* (Snore...?)"
+msgstr ""
+
+msgid "<32>{#p/basic}* (Whimper.)"
+msgstr ""
+
+msgid "<32>* (Whine.)"
+msgstr ""
+
+msgid "<25>{#p/asgore}{#f/5}* About me?"
+msgstr ""
+
+msgid "<25>{#f/7}* ... oh, but where would I begin?"
+msgstr ""
+
+msgid "<25>{#f/6}* There is far too much to tell at once."
+msgstr ""
+
+msgid "<25>{#f/6}* Perhaps, over time, you will come to know me very well."
+msgstr ""
+
+msgid "<25>{#f/21}* It would be better than telling you everything at once."
+msgstr ""
+
+msgid ""
+"<25>{#p/asgore}{#f/5}* If you like, I can tell you something about myself "
+"later."
+msgstr ""
+
+msgid "<25>{#f/7}* How does that sound?"
+msgstr ""
+
+msgid "<25>{#p/asgore}{#f/20}* ..."
+msgstr "<25>{#p/asgore}{#f/20}* ..."
+
+msgid "<25>{#f/4}* Frisk."
+msgstr ""
+
+msgid "<25>{#f/6}* Surely there is someone more your age."
+msgstr ""
+
+msgid "<25>{#f/5}* I am not saying I cannot oblige, but..."
+msgstr ""
+
+msgid "<25>{#f/6}* There is a world of difference between \"can\" and \"should.\""
+msgstr ""
+
+msgid "<25>{#p/asgore}{#f/20}* Frisk."
+msgstr ""
+
+msgid "<25>{#f/20}* Perhaps when you are older, we may explore this further."
+msgstr ""
+
+msgid "<25>{#f/6}* But not now."
+msgstr ""
+
+msgid "<25>{#f/6}* You call me \"Dad,\" and then you flirt with me."
+msgstr ""
+
+msgid "<25>{#f/5}* I am not sure how to react to this."
+msgstr ""
+
+msgid "<25>{#p/asgore}{#f/21}* A greeting, you say?"
+msgstr ""
+
+msgid "<25>{#f/7}* Hmm..."
+msgstr ""
+
+msgid "<25>{#f/6}* I give you a \"Howdy!\""
+msgstr ""
+
+msgid "<25>{#p/asgore}{#f/5}* Another greeting?"
+msgstr ""
+
+msgid "<25>{#f/21}* I know..."
+msgstr ""
+
+msgid "<25>{#f/6}* \"How do you do!\""
+msgstr ""
+
+msgid "<25>{#p/asgore}{#f/5}* ..."
+msgstr "<25>{#p/asgore}{#f/5}* ..."
+
+msgid "<25>{#f/5}* At this rate, I am going to run out of greetings."
+msgstr ""
+
+msgid "<25>{#f/6}* Though, the birds outside may be more willing to oblige."
+msgstr ""
+
+msgid "<25>{#f/7}* Why not try with them?"
+msgstr ""
+
+msgid "<25>{#p/asgore}{#f/5}* ... howdy, little one."
+msgstr ""
+
+msgid "<25>{#f/6}* It is always nice to hear your voice."
+msgstr ""
+
+msgid "<25>{#p/asgore}{#f/6}* ..."
+msgstr "<25>{#p/asgore}{#f/6}* ..."
+
+msgid "<25>{#f/24}* ..."
+msgstr "<25>{#f/24}* ..."
+
+msgid "<25>{#f/21}* Of course."
+msgstr ""
+
+msgid "<25>{#f/6}* I suppose it is only natural you would call me that."
+msgstr ""
+
+msgid "<25>{#f/6}* You may call me \"Dad\" if you want, Frisk."
+msgstr ""
+
+msgid ""
+"<25>{#p/asgore}{#f/24}* ...\n"
+"* Goodness gracious."
+msgstr ""
+
+msgid "<25>{#f/6}* You seem very intent on me being your father."
+msgstr ""
+
+msgid "<25>{#f/21}* Fortunately, I had already planned to fill that role."
+msgstr ""
+
+msgid "<25>{#f/6}* You flirt with me, and then you call me \"Dad.\""
+msgstr ""
+
+msgid "<25>{#p/asgore}{#f/1}* ..."
+msgstr "<25>{#p/asgore}{#f/1}* ..."
+
+msgid "<25>{#f/1}* You seem very upset about something..."
+msgstr ""
+
+msgid ""
+"<25>{#f/6}* If you like, we may talk once construction has come to an end."
+msgstr ""
+
+msgid "<25>{#p/asgore}{#f/8}* ..."
+msgstr "<25>{#p/asgore}{#f/8}* ..."
+
+msgid ""
+"<26>{#f/6}* Ooh.\n"
+"* How dastardly of you."
+msgstr ""
+
+msgid ""
+"<25>{#f/21}* But do not worry...\n"
+"* I can tell you are only kidding with me."
+msgstr ""
+
+msgid ""
+"<25>{#p/asgore}{#f/6}* I will be available to talk with you soon, okay?"
+msgstr ""
+
+msgid ""
+"<25>{#p/asgore}{#f/21}* Now, now.\n"
+"* There is no need to be so brazen."
+msgstr ""
+
+msgid "Smells like Dihydrogen Monoxide."
+msgstr "它的气味很像一氧化二氢。"
+
+msgid "Water"
+msgstr "水"
+
+msgid "<32>{#p/human}* (You throw away the Water.)"
+msgstr ""
+
+msgid "<32>{#p/human}* (12 HP.)"
+msgstr "<32>{#p/human}* （12 HP。）"
+
+msgid ""
+"<32>{#p/basic}* \"Water\" Heals 12 HP\n"
+"* Smells like Di-Hydrogen Monoxide."
+msgstr ""
+"<32>{#p/basic}* “水” 回复 12 HP\n"
+"* 它的气味很像一氧化二氢。"
+
+msgid "<32>{#p/human}* (You drank the Water.)"
+msgstr ""
+
+msgid "<33>{#p/human}* (You're filled with hydration.)"
+msgstr "<33>{#p/human}* （你充满了一氧化二氢的力量。）"
+
+msgid "Deep Space"
+msgstr ""
+
+msgid "Your Room"
+msgstr ""
+
+msgid "<32>{#p/human}* (You're filled with determination.)"
+msgstr "<32>{#p/human}* （你充满了决心。）"
+
+msgid "Eurybia"
+msgstr ""
