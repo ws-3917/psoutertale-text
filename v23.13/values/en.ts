@@ -258,7 +258,7 @@ export default {
    nameLetterMap: [],
    nameLetterPosition: () => { },
    nameLetterValidation: (char: string) => {
-      return /[A-Za-z]/g.test(char) || CosmosTextUtils.cjk(char);
+      return /[A-Za-z0-9]/g.test(char) || CosmosTextUtils.cjk(char);
    },
    nameQuitX: 0,
    nameBackspaceX: 28,
