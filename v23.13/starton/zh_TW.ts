@@ -389,7 +389,7 @@ const text = {
          world.edgy
             ? [
                  "<25>{#p/sans}* 喔，你來了。",
-                 "<25>{#p/sans}{#f/2}* 如果你喜歡上一個謎題的話，\n  那你一定對這個滿懷期待。"
+                 "<25>{#p/sans}{#f/2}* 如果你喜歡上一個謎題\n  的話，\n  那你一定對這個滿懷期待。"
               ]
             : [
                  "<18>{#p/papyrus}{#f/9}HUMAN!!",
@@ -415,7 +415,7 @@ const text = {
                     ? "<25>{#p/sans}* 怎麼樣了？\n* …是不是謎題太燙了，\n  根本不能碰？"
                     : "<25>{#p/sans}* can't even bring yourself to look at it, huh?",
                  "<25>* 我猜我可能本來就不用\n  太看好你。",
-                 "<26>{#f/3}* 對了。\n* 也許一個數謎會更加適合你。",
+                 "<26>{#f/3}* 對了。\n* 也許一個數謎會更加\n  適合你。",
                  "<26>{#f/0}* 呃，我說離題了。"
               ]
             : [
@@ -467,13 +467,13 @@ const text = {
          "<25>{#f/0}* that just seems like the sort of thing you'd do, doesn't it?"
       ],
       crossword6b: [
-         "<25>{#p/sans}{#f/3}* i'm surprised.\n* i thought you'd walk right past it.",
-         "<25>{#f/2}* perhaps you're not so terrible after all."
+         "<25>{#p/sans}{#f/3}* 我挺驚訝的。\n* 我以為你會徑直走過去\n  的。",
+         "<25>{#f/2}* 也許，在你的心中，\n  你不是那麼差的人。"
       ],
       crossword6c: [ "<25>{#p/sans}{#f/2}* heheh, made you look." ],
       crossword6d: [
          "<25>{#p/sans}{#f/3}* i'm surprised.\n* i thought you weren't even interested.",
-         "<25>{#f/2}* perhaps you're not so terrible after all."
+         "<25>{#f/2}* 也許，在你的心中，\n  你不是那麼差的人。"
       ],
       doggo1: [
          "<32>{#p/basic}* 好像有啥動了下？\n* 是我的錯覺嗎？",
@@ -936,10 +936,10 @@ const text = {
          world.edgy
             ? [
                  "<25>{#p/sans}{#f/0}* 歡迎回來。",
-                 "<25>{#p/sans}{#f/3}* 很可惜papyrus不能到場，因為…",
-                 "<25>{#p/sans}{#f/2}* 他在這個謎題上花了很長一段時間。",
+                 "<25>{#p/sans}{#f/3}* 很可惜papyrus不能到場，\n  因為…",
+                 "<25>{#p/sans}{#f/2}* 他在這個謎題上花了\n  很長一段時間。",
                  "<25>{#p/sans}{#f/0}* 但是這並沒關係。",
-                 "<25>{#p/sans}{#f/0}* 我向他保證過了我會給你展示這個的，所以我激活它了。"
+                 "<25>{#p/sans}{#f/0}* 我向他保證過了我會\n  給你展示這個的，所以\n  我激活它了。"
               ]
             : [
                  "<18>{#p/papyrus}OHO, THE HUMAN ARRIVES!",
@@ -972,11 +972,11 @@ const text = {
          world.edgy
             ? [
                  "<25>{#p/sans}{#f/0}* 這是“火牆”。",
-                 "<25>{#p/sans}{#f/2}* 你要知道。\n* 這和電腦上的防火牆沒什麼區別。",
+                 "<25>{#p/sans}{#f/2}* 你要知道。\n* 這和電腦上的防火牆\n  沒什麼區別。",
                  "<25>{#p/sans}* 過關的方法就是到達對面。",
                  "<25>{#p/sans}* 很簡單，對吧？",
-                 "<25>{#p/sans}{#f/3}* 雖然說，我親自測試過這個機關，我還是不得不說…",
-                 "<25>{#p/sans}{#f/2}* 它可沒有看上去的那樣簡單。"
+                 "<25>{#p/sans}{#f/3}* 雖然說，我親自測試過\n  這個機關，我還是\n  不得不說…",
+                 "<25>{#p/sans}{#f/2}* 它可沒有看上去的那樣\n  簡單。"
               ]
             : [
                  "<18>{#p/papyrus}... ANYWAY, THE IDEA BEHIND THIS PUZZLE IS SIMPLE.",
@@ -1029,7 +1029,7 @@ const text = {
               ],
       maze9: () =>
          world.edgy
-            ? [ "<25>{#p/sans}{#f/0}* huh.\n* guess you're smarter than you look." ]
+            ? [ "<25>{#p/sans}{#f/0}* 呵呵。\n* 看起來你比我想象中的\n  更加激靈一些。" ]
             : [
                  "<18>{#p/papyrus}{#f/1}WHAT!?",
                  "<18>{#f/7}HOW DID YOU MANAGE TO DO THAT!?!?",
@@ -1041,7 +1041,7 @@ const text = {
             ? [
                  "<25>{#p/sans}{#f/0}* 好吧，就是這樣。",
                  "<25>{#p/sans}{#f/3}* …至少得感謝你的遊玩。",
-                 "<25>{#p/sans}{#f/0}* 同時，我還需要去準備另一個謎題。",
+                 "<25>{#p/sans}{#f/0}* 同時，我還需要去準備\n  另一個謎題。",
                  "<25>{#p/sans}{#f/2}* 我們待會見。"
               ]
             : [
@@ -3369,13 +3369,13 @@ const text = {
          "<18>{#p/papyrus}{#f/0}從我聽到你來了之後，\n我朝思暮想的想見你一面！",
          "<18>{#p/papyrus}{#f/4}…至於為什麼我孤身一人？",
          "<18>{#p/papyrus}{#f/6}因為，我仍然相信…",
-         "<18>{#p/papyrus}{#f/5}…我的兄弟一心想要讓我遠離\n你。",
+         "<18>{#p/papyrus}{#f/5}…我的兄弟一心想要讓我\n遠離你。",
          "<18>{#p/papyrus}{#f/7}正在我意料之中！！！",
-         "<18>{#p/papyrus}{#f/0}但是呢，我們小小的友誼不會\n就此被打破。",
-         "<18>{#p/papyrus}{#f/9}他根本就不需要知道這件事的\n任何一個「細枝末節」！"
+         "<18>{#p/papyrus}{#f/0}但是呢，我們小小的友誼\n不會就此被打破。",
+         "<18>{#p/papyrus}{#f/9}他根本就不需要知道這件\n事的任何一個\n「細枝末節」！"
       ],
       papyrus6x3: [
-         "<18>{#p/papyrus}{#f/5}我可能需要在他發現我之前盡\n快離開。",
+         "<18>{#p/papyrus}{#f/5}我可能需要在他發現我\n之前儘快離開。",
          "<18>{|}{#p/papyrus}{#f/9}我們會再見面的，人-­ {%}"
       ],
       papyrus6x4: [ "<32>{#p/without}* … papyrus？" ],
@@ -3715,12 +3715,12 @@ const text = {
             "<32>{#p/basic}* 你好。\n* 我是一個建築機器人。",
             "<32>* 我想去看整個星系...\n* 但是我動彈不得。",
             "<32>* 如果你善良的話，旅行者，請你...",
-            "<32>* 帶上我的一個電腦芯片然後把它帶到一個遙遠的地方。",
+            "<32>* 帶上我的一個電腦芯片，\n  然後把它帶到一個\n  遙遠的地方。",
             choicer.create("* （帶走一個芯片？）", "是", "否")
          ],
          [
             "<32>{#p/basic}* 如果你心地善良的話，旅行者，請你…",
-            "<32>* 帶上我的一個電腦芯片然後把它帶到一個遙遠的地方。",
+            "<32>* 帶上我的一個電腦芯片，\n  然後把它帶到一個\n  遙遠的地方。",
             choicer.create("* （帶走一個芯片？）", "是", "否")
          ]
       ),
@@ -3977,8 +3977,8 @@ const text = {
             () =>
                world.edgy
                   ? [
-                       "<25>{#p/sans}{#f/0}* i hope you liked that last puzzle i set for you.",
-                       "<25>{#f/3}* i was kind of in a hurry, but papyrus insisted i prepare it."
+                       "<25>{#p/sans}{#f/0}* 我希望你喜歡剛才的\n  那個謎題。",
+                       "<25>{#f/3}* 我的時間有些緊急，\n  但是papyrus堅持讓我\n  佈置完。"
                     ]
                   : world.killed5
                   ? [
@@ -3992,8 +3992,8 @@ const text = {
             () =>
                world.edgy
                   ? [
-                       "<25>{#p/sans}{#f/0}* what?\n* can you blame me?",
-                       "<25>{#f/3}* it's hard to get ANYTHING done when i have you to consider."
+                       "<25>{#p/sans}{#f/0}* 什麼？\n* 你要把這事怪在我頭上？",
+                       "<25>{#f/3}* 但凡事情涉及到你的話，\n  我就得畫大把時間去\n  考慮。"
                     ]
                   : world.killed5
                   ? [
@@ -4003,7 +4003,7 @@ const text = {
                   : [ "<25>{#p/sans}{#f/2}* oh, and maybe {@fill:#00a2e8}blue attacks{@fill:#fff}, too." ],
             () =>
                world.edgy
-                  ? [ "<25>{#p/sans}{#f/3}* oh well." ]
+                  ? [ "<25>{#p/sans}{#f/3}* 就是這樣。" ]
                   : world.killed5
                   ? [ "<25>{#p/sans}{#f/0}* am i wrong?" ]
                   : [ "<26>{#p/sans}{#f/0}* all sorts of attacks." ]
@@ -4027,7 +4027,7 @@ const text = {
                  ]
                : [
                     "<25>{#p/sans}* 順便一提…",
-                    "<25>* 如果你恰好碰到了我的兄弟…",
+                    "<25>* 如果你恰好碰到了我的\n  兄弟…",
                     "<25>{#f/3}* ...",
                     "<25>{*}{#p/darksans}{#f/1}{#i/5}{#s.stop}* 不要動他。",
                     "{*}{#s.resume}{%}"
@@ -4048,7 +4048,7 @@ const text = {
               ]
             : [
                  "<25>{#p/sans}* 順便一提…",
-                 "<25>* 如果你恰好碰到了我的兄弟…",
+                 "<25>* 如果你恰好碰到了我的\n  兄弟…",
                  "<25>{#f/3}* ...",
                  "<25>{*}{#p/darksans}{#f/1}{#i/5}{#s.stop}* 不要動他。",
                  "{*}{#s.resume}{%}"
@@ -6479,7 +6479,7 @@ const text = {
       death2: () =>
          world.genocide
             ? [ "<15>{#p/papyrus}{#f/21}SANS，我...", "<15>{#f/33}{@random:1.1,1.1}我讓你失望了..." ]
-            : [ "<15>{#p/papyrus}{#f/27}…至-至少我還有我的頭！" ],
+            : [ "<15>{#p/papyrus}{#f/27}…至-至少我還有\n我的頭！" ],
       dots: [ "<32>{#p/basic}* ..." ],
       flirt0: [ "<32>{#p/basic}* Cute." ],
       flirt1: [
@@ -11043,7 +11043,7 @@ const text = {
          text: () =>
             SAVE.data.n.plot < 29
                ? world.edgy
-                  ? [ "<32>{#p/human}* (本應該出現的骷髏兄弟讓你充滿了決心。)" ]
+                  ? [ "<32>{#p/human}* (本應該出現的骷髏兄弟讓你充滿了決\n  心。)" ]
                   : [ "<32>{#p/human}* (The skeleton brothers' antics fill you with determination.)" ]
                : papreal() || world.runaway
                ? [ "<32>{#p/human}* (The box is so lonely, it fills you with determination anyway.)" ]

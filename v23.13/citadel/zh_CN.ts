@@ -6450,17 +6450,17 @@ const text = {
    },
 
    s_save_citadel: {
-      c_elevator1: { name: "The Citadel", text: [] },
-      c_courtroom: { name: "Last Corridor", text: [] },
-      c_road2: { name: "Royal Annex", text: [] },
-      c_archive_start: { name: "64657465726d696e6174696f6e", text: [] },
-      c_archive_path1: { name: "50617469656e6365", text: [] },
-      c_archive_path2: { name: "42726176657279", text: [] },
-      c_archive_path3: { name: "496e74656772697479", text: [] },
-      c_archive_path4: { name: "5065727365766572616e6365", text: [] },
-      c_archive_path5: { name: "4b696e646e657373", text: [] },
-      c_archive_path6: { name: "4a757374696365", text: [] },
-      c_exit: { name: "The End", text: [] }
+      c_elevator1: { name: "首塔", text: [] },
+      c_courtroom: { name: "最终的长廊", text: [] },
+      c_road2: { name: "行宫", text: [] },
+      c_archive_start: { name: "e586b3e5bf83", text: [] },
+      c_archive_path1: { name: "e88090e5bf83", text: [] },
+      c_archive_path2: { name: "e58b87e6b094", text: [] },
+      c_archive_path3: { name: "e6ada3e79bb4", text: [] },
+      c_archive_path4: { name: "e6af85e58a9b", text: [] },
+      c_archive_path5: { name: "e59684e889af", text: [] },
+      c_archive_path6: { name: "e6ada3e4b989", text: [] },
+      c_exit: { name: "终点", text: [] }
    }
 };
 

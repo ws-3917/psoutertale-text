@@ -13222,9 +13222,6 @@ msgstr ""
 msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random:1.1,1.1}Goodbye..."
 msgstr ""
 
-msgid ""
-msgstr ""
-
 msgid "N/A"
 msgstr "無"
 
@@ -13403,34 +13400,34 @@ msgid "Given to you by Sans in the Last Corridor of the Citadel."
 msgstr ""
 
 msgid "The Citadel"
-msgstr ""
+msgstr "首塔"
 
 msgid "Last Corridor"
-msgstr ""
+msgstr "最終的長廊"
 
 msgid "Royal Annex"
-msgstr ""
+msgstr "行宮"
 
 msgid "64657465726d696e6174696f6e"
-msgstr ""
+msgstr "e586b3e5bf83"
 
 msgid "50617469656e6365"
-msgstr ""
+msgstr "e88090e5bf83"
 
 msgid "42726176657279"
-msgstr ""
+msgstr "e58b87e6b0a3ゐ"
 
 msgid "496e74656772697479"
-msgstr ""
+msgstr "e6ada3e79bb4"
 
 msgid "5065727365766572616e6365"
-msgstr ""
+msgstr "e6af85e58a9b"
 
 msgid "4b696e646e657373"
-msgstr ""
+msgstr "e59684e889af"
 
 msgid "4a757374696365"
-msgstr ""
+msgstr "e6ada3e7bea9ゐ"
 
 msgid "The End"
-msgstr ""
+msgstr "終點"
