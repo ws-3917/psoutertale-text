@@ -5949,7 +5949,7 @@ const text = {
       petTalk13: [ "<11>{#p/basic}{~}OH MY GOD, IT REALLY DOESN'T STOP!!" ],
       petTalk14: [ "<11>{#p/basic}{~}AHHHHHHH!!!" ],
       query1: [ "<11>{#p/basic}{~}No escape!" ],
-      query2: [ "<11>{*}{#p/basic}{~}哈！\n它动了！\n它不可能没有动！{^30}{%}" ],
+      query2: [ "<11>{*}{#p/basic}{~}哈！它动了！\n它不可能没动！{^30}{%}" ],
       query3: [ "<11>{#p/basic}{~}这次它还会动吗？" ],
       status1: () => (world.goatbro ? [ "<32>{#p/asriel2}* Doggo。" ] : [ "<32>{#p/story}* Doggo blocks the way!" ]),
       sussy: () =>
