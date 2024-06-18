@@ -6451,7 +6451,7 @@ const text = {
 
    s_save_citadel: {
       c_elevator1: { name: "首塔", text: [] },
-      c_courtroom: { name: "最终的长廊", text: [] },
+      c_courtroom: { name: "最终长廊", text: [] },
       c_road2: { name: "行宫", text: [] },
       c_archive_start: { name: "e586b3e5bf83", text: [] },
       c_archive_path1: { name: "e88090e5bf83", text: [] },

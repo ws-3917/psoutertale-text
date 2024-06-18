@@ -13403,7 +13403,7 @@ msgid "The Citadel"
 msgstr "首塔"
 
 msgid "Last Corridor"
-msgstr "最終的長廊"
+msgstr "最終長廊"
 
 msgid "Royal Annex"
 msgstr "行宮"
