@@ -3423,7 +3423,7 @@ export default {
                     "<32>{#p/basic}* There's a note attached to the teacup...",
                     "<32>{#p/basic}* \"Please, enjoy this cup of tea I have left for you.\"\n* \"Whoever you may be.\""
                  ],
-         tea1: [ "<32>{#p/human}* (You got the Starling Tea.)" ],
+         tea1: [ "<32>{#p/human}* （你帶走了星花茶。）" ],
          tea2: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You run your hand across the countertop.)" ]

@@ -7039,7 +7039,7 @@ msgid "<32>{#p/basic}* Rather symbolically, the trash can has been emptied."
 msgstr ""
 
 msgid "<32>{#p/basic}* There is a crumpled up recipe for Starling Tea."
-msgstr ""
+msgstr "<32>{#p/basic}* 裡面有一張揉皺的星花茶配方。"
 
 msgid "<32>{#p/human}* (You note the fairly large size of the dining chair.)"
 msgstr ""
@@ -7171,7 +7171,7 @@ msgstr "<32>{#p/basic}* “哈嘍，熱愛園藝的朋友們！”"
 msgid ""
 "<32>* \"When it comes to Starling flowers, the line between growth and "
 "stagnation...\""
-msgstr ""
+msgstr "<32>* “說到星花，它們生長與否的關鍵...”"
 
 msgid "<32>* \"Is access to open space.\""
 msgstr "<32>* “在於能否直接接觸到宇宙射線。”"
@@ -8207,7 +8207,7 @@ msgid "<20>Hee hee hee..."
 msgstr "<20>嘻嘻嘻..."
 
 msgid "<20>{*}{#f/2}{#v/1}{@random:1.1,1.1}DIE.{^20}{%}"
-msgstr ""
+msgstr "<20>{*}{#f/2}{#v/1}{@random:1.1,1.1}死吧。{^20}{%}"
 
 msgid ""
 "<20>{#p/toriel}What a terrible creature, torturing such a poor, innocent "

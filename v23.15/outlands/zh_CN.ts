@@ -3175,7 +3175,7 @@ export default {
                ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
                : SAVE.data.n.plot === 72
                ? [ "<32>{#p/basic}* Rather symbolically, the trash can has been emptied." ]
-               : [ "<32>{#p/basic}* There is a crumpled up recipe for Starling Tea." ],
+               : [ "<32>{#p/basic}* 里面有一张揉皱的星花茶配方。" ],
          
          w_tl_azzychair: () =>
             SAVE.data.b.svr
@@ -3231,7 +3231,7 @@ export default {
                        "<32>{#p/basic}* 一个书架。",
                        "<32>{#p/human}* （你取下了一本书...）",
                        "<32>{#p/basic}* “哈喽，热爱园艺的朋友们！”",
-                       "<32>* \"When it comes to Starling flowers, the line between growth and stagnation...\"",
+                       "<32>* “说到星花，它们生长与否的关键...”",
                        "<32>* “在于能否直接接触到宇宙射线。”",
                        "<32>* “所以它们多生长于空境。”",
                        "<32>* “毕竟在整个空间站中，\n  当属那里最为开阔。”",
@@ -3748,7 +3748,7 @@ export default {
          "<20>{#f/11}嘻嘻嘻..."
       ],
       twinkly17: [ "<20>{#v/1}那么我们就直奔主题吧。", "<20>嘻嘻嘻..." ],
-      twinkly18: [ "<20>{*}{#f/2}{#v/1}{@random:1.1,1.1}DIE.{^20}{%}" ],
+      twinkly18: [ "<20>{*}{#f/2}{#v/1}{@random:1.1,1.1}死吧。{^20}{%}" ],
       twinkly19: [ "<20>{#p/toriel}真是个残忍的家伙，\n居然折磨这么一个\n弱小无助的孩子..." ],
       twinkly20: [
          "<20>不要害怕，孩子。",

@@ -1,7 +1,20 @@
-#
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-24 12:19+0000\n"
+"PO-Revision-Date: 2024-06-24 14:19+0000\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/1-outlands/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.5.5\n"
 
+#
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
@@ -7038,7 +7051,7 @@ msgid "<32>{#p/basic}* Rather symbolically, the trash can has been emptied."
 msgstr ""
 
 msgid "<32>{#p/basic}* There is a crumpled up recipe for Starling Tea."
-msgstr ""
+msgstr "<32>{#p/basic}* 里面有一张揉皱的星花茶配方。"
 
 msgid "<32>{#p/human}* (You note the fairly large size of the dining chair.)"
 msgstr ""
@@ -7170,7 +7183,7 @@ msgstr "<32>{#p/basic}* “哈喽，热爱园艺的朋友们！”"
 msgid ""
 "<32>* \"When it comes to Starling flowers, the line between growth and "
 "stagnation...\""
-msgstr ""
+msgstr "<32>* “说到星花，它们生长与否的关键...”"
 
 msgid "<32>* \"Is access to open space.\""
 msgstr "<32>* “在于能否直接接触到宇宙射线。”"
@@ -8206,7 +8219,7 @@ msgid "<20>Hee hee hee..."
 msgstr "<20>嘻嘻嘻..."
 
 msgid "<20>{*}{#f/2}{#v/1}{@random:1.1,1.1}DIE.{^20}{%}"
-msgstr ""
+msgstr "<20>{*}{#f/2}{#v/1}{@random:1.1,1.1}死吧。{^20}{%}"
 
 msgid ""
 "<20>{#p/toriel}What a terrible creature, torturing such a poor, innocent "

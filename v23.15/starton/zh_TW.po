@@ -4975,9 +4975,6 @@ msgstr ""
 msgid "SAVE YOURSELVES..."
 msgstr ""
 
-msgid ""
-msgstr ""
-
 msgid "FAILED TO CONNECT..."
 msgstr ""
 
@@ -9277,7 +9274,7 @@ msgid ""
 "<32>* \"JEWEL and KRIOTAAN were the most prominent... but only on the home "
 "planet.\""
 msgstr ""
-"<32>* “主要流通的是珠寶和“克里”... \n"
+"<32>* “主要流通的是珠寶和‘克里’... \n"
 "  但它們只能在母星上使用。”"
 
 msgid ""
@@ -9332,7 +9329,7 @@ msgid ""
 "<32>* \"The past two centuries have been tough, but we grow ever-closer to "
 "freedom.\""
 msgstr ""
-"<32>* “過去的兩百年充滿坎坷，\n"
+"<32>* “過去兩百年間充滿坎坷，\n"
 "  但同時自由也離我們越來越近。”"
 
 msgid "<32>* \"The angel is coming...\""
@@ -9410,7 +9407,7 @@ msgstr ""
 
 msgid "<32>* \"Not gonna lie, the stuff they say seems kinda random.\""
 msgstr ""
-"<32>* “還有，說真的，\n"
+"<32>* “而且，說真的，\n"
 "  他說話有點不知所云。”"
 
 msgid "<33>* \"What's \"dog justice\" anyway?\""

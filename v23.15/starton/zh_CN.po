@@ -1,7 +1,20 @@
-#
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-25 09:19+0000\n"
+"PO-Revision-Date: 2024-06-25 09:29+0000\n"
+"Last-Translator: ws3917 <inf.3917.restart@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/2-starton/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.5.5\n"
 
+#
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
 msgstr ""
@@ -4975,9 +4988,6 @@ msgstr ""
 msgid "SAVE YOURSELVES..."
 msgstr ""
 
-msgid ""
-msgstr ""
-
 msgid "FAILED TO CONNECT..."
 msgstr ""
 
@@ -9277,7 +9287,7 @@ msgid ""
 "<32>* \"JEWEL and KRIOTAAN were the most prominent... but only on the home "
 "planet.\""
 msgstr ""
-"<32>* “主要流通的是珠宝和“克里”... \n"
+"<32>* “主要流通的是珠宝和‘克里’... \n"
 "  但它们只能在母星上使用。”"
 
 msgid ""
@@ -9332,7 +9342,7 @@ msgid ""
 "<32>* \"The past two centuries have been tough, but we grow ever-closer to "
 "freedom.\""
 msgstr ""
-"<32>* “过去的两百年充满坎坷，\n"
+"<32>* “过去两百年间充满坎坷，\n"
 "  但同时自由也离我们越来越近。”"
 
 msgid "<32>* \"The angel is coming...\""
@@ -9410,7 +9420,7 @@ msgstr ""
 
 msgid "<32>* \"Not gonna lie, the stuff they say seems kinda random.\""
 msgstr ""
-"<32>* “还有，说真的，\n"
+"<32>* “而且，说真的，\n"
 "  他说话有点不知所云。”"
 
 msgid "<33>* \"What's \"dog justice\" anyway?\""

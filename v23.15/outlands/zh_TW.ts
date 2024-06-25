@@ -3175,7 +3175,7 @@ export default {
                ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
                : SAVE.data.n.plot === 72
                ? [ "<32>{#p/basic}* Rather symbolically, the trash can has been emptied." ]
-               : [ "<32>{#p/basic}* There is a crumpled up recipe for Starling Tea." ],
+               : [ "<32>{#p/basic}* 裡面有一張揉皺的星花茶配方。" ],
          
          w_tl_azzychair: () =>
             SAVE.data.b.svr
@@ -3231,7 +3231,7 @@ export default {
                        "<32>{#p/basic}* 一個書架。",
                        "<32>{#p/human}* （你取下了一本書...）",
                        "<32>{#p/basic}* “哈嘍，熱愛園藝的朋友們！”",
-                       "<32>* \"When it comes to Starling flowers, the line between growth and stagnation...\"",
+                       "<32>* “說到星花，它們生長與否的關鍵...”",
                        "<32>* “在於能否直接接觸到宇宙射線。”",
                        "<32>* “所以它們多生長於空境。”",
                        "<32>* “畢竟在整個空間站中，\n  當屬那裡最為開闊。”",
@@ -3748,7 +3748,7 @@ export default {
          "<20>{#f/11}嘻嘻嘻..."
       ],
       twinkly17: [ "<20>{#v/1}那麼我們就直奔主題吧。", "<20>嘻嘻嘻..." ],
-      twinkly18: [ "<20>{*}{#f/2}{#v/1}{@random:1.1,1.1}DIE.{^20}{%}" ],
+      twinkly18: [ "<20>{*}{#f/2}{#v/1}{@random:1.1,1.1}死吧。{^20}{%}" ],
       twinkly19: [ "<20>{#p/toriel}這個傢伙真是夠\n狠心的耶，對那麼弱小\n又需要幫忙的小孩子\n都能下得了手喔..." ],
       twinkly20: [
          "<20>不要害怕，孩子。",
