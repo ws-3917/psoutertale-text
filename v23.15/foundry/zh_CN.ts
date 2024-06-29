@@ -125,7 +125,7 @@ export default {
          "<32>{#s/equip}{#p/event}* Click..."
       ],
       artifact1: [ "<32>{#p/human}* （你获得了传说中的神器。）" ],
-      artifact2: [ "<32>{#p/human}* (You're carrying too much to take that.)" ],
+      artifact2: [ "<32>{#p/human}* （你带的东西太多，装不下它了。）" ],
       artifact3: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (The inscription describes a riddle of ivories and melodies.)" ]
@@ -148,7 +148,7 @@ export default {
                     ? [ "<25>{#p/kidd}{#f/2}* Ooh... what's that?", "<25>{#f/1}* That thing must be, like, REALLY old." ]
                     : [])
               ],
-      tome2: [ "<32>{#p/human}* (You're carrying too much to take that.)" ],
+      tome2: [ "<32>{#p/human}* （你带的东西太多，装不下它了。）" ],
       tome3: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (The inscription speaks of peace and good intentions.)" ]
@@ -200,7 +200,7 @@ export default {
             ]
          ][SAVE.data.n.state_foundry_astrofood],
       astrofood2: [ "<32>{#p/human}* (You got the Space Tofu.)" ],
-      astrofood3: [ "<32>{#p/human}* (You're carrying too much.)" ],
+      astrofood3: [ "<32>{#p/human}* （你带的东西太多了。）" ],
       astrofood4: () => [ "<32>{#p/human}* (You decide not to take anything.)" ],
       astrofood5: () =>
          SAVE.data.b.svr
@@ -571,7 +571,7 @@ export default {
                : [ "<32>{#p/napstablook}* i wish i had more to say..." ]
       ),
       boots1: [ "<32>{#p/human}* （你捡到了一双悬浮靴。）", choicer.create("* （穿上悬浮靴吗？）", "是", "否") ],
-      boots2: [ "<32>{#p/human}* (You're carrying too much to take that.)" ],
+      boots2: [ "<32>{#p/human}* （你带的东西太多，装不下它了。）" ],
       bruh: [ "<32>{*}{#p/undyne}* 等会见。{^20}{%}" ],
       candy1: () =>
          SAVE.data.b.svr
@@ -587,7 +587,7 @@ export default {
       candy3: [ choicer.create("* （花$(x)G来买$(y)吗？）", "是", "否") ],
       candy4: [ "<32>{#p/human}* （你的钱不够。）" ],
       candy5: [ "<32>{#p/human}* (You decide not to buy.)" ],
-      candy6: [ "<32>{#p/human}* (You're carrying too much.)" ],
+      candy6: [ "<32>{#p/human}* （你带的东西太多了。）" ],
       candy7: [ "<32>{#p/human}* (You decide not to make anything.)" ],
       deathReaction: {
          f_bird: [ "<32>{#p/basic}* This small bird no longer wants to carry you across the gap." ],
@@ -627,43 +627,43 @@ export default {
       },
       dummy1a: () =>
          SAVE.data.n.state_wastelands_dummy === 2
-            ? [ "<32>{#p/basic}* HA!\n* Of course you'd run away.", "<32>* Whatever, DUMMY." ]
-            : [ "<32>{#p/basic}* You DARE enter my territory and WALK PAST me?", "<32>* FOOL!" ],
+            ? [ "<32>{#p/basic}* 呵。\n* 我就知道，你这懦夫\n  看到我指定得逃。", "<32>* 是不是啊，笨蛋？" ]
+            : [ "<32>{#p/basic}* 放肆！\n* 闯进我的地盘，\n  还把我当空气？", "<32>* 真是蠢到极点！" ],
       dummy1b: () =>
          SAVE.data.n.state_wastelands_dummy === 1
-            ? [ "<32>{#p/basic}* Too intimidated to fight...?", "<32>* I see how it is." ]
-            : [ "<32>{#p/basic}* You DARE enter my territory and STARE at me?", "<32>* FOOL!" ],
+            ? [ "<32>{#p/basic}* 看到我，吓破胆了？", "<32>* 你也就这点本事。" ]
+            : [ "<32>{#p/basic}* 放肆！\n* 闯进我的地盘，\n  还跟我大眼瞪小眼？", "<32>* 真是蠢到极点！" ],
       dummy1c: () =>
          SAVE.data.n.state_wastelands_dummy === 1
-            ? [ "<32>{#p/basic}* I thought you might do that.", "<32>* Predictable.\n* Predictable!\n* PREDICTABLE!!!" ]
+            ? [ "<32>{#p/basic}* 我就知道，\n  不揍我两下你心都痒痒。", "<32>* 迂腐。\n* 迂腐！\n* 迂腐！！！" ]
             : [
-                 "<32>{#p/basic}* Well well well, I see there's more to you than just talk.",
-                 "<32>* Not that it'll do you much good when I STOMP you!"
+                 "<32>{#p/basic}* 哎呀，看来你来这\n  可不只是想聊聊天。",
+                 "<32>* 不过，你那点小把戏\n  在我这屁用没有！\n* 看我不揍死你！"
               ],
       dummy2: () => [
-         "<32>{#p/basic}* Those ELITE bozos failed to take your SOUL, but they lack something I have in SPADES!",
-         "<32>* That's right, human...\n* I'm INCORPOREAL!",
-         "<32>* I am a ghost that lives inside a dummy!",
-         "<32>* My cousin also lived inside a dummy, UNTIL...!",
+         "<32>{#p/basic}* 那群饭桶没杀了你，\n  因为他们少一样看家本领——\n  没！有！实！体！",
+         "<32>* 没错，人类！\n* 有了这个，我就能\n  所向披靡，天下无敌！",
+         "<32>* 我是一只住在人偶里的幽灵！",
+         "<32>* 我的表亲以前也住在一个人偶里，\n  直到...！",
          ...(SAVE.data.n.state_wastelands_toriel === 0
             ? [
-                 "<32>* Until...!",
-                 "<32>* Until...",
-                 "<32>{#x1}* ... well, actually, they left it on their own accord...",
-                 "<32>* Apparently, this really nice woman decided to take care of them in the Outlands?",
-                 "<32>* They said a human helped her feel better.",
-                 "<32>* That was you, wasn't it?",
-                 "<32>* ... shucks.\n* I guess you can go peacefully..."
+                 "<32>* 直到...！",
+                 "<32>* 直到...",
+                 "<32>{#x1}* ...额，它其实是自己离开的...",
+                 "<32>* 肯定是那位善良的女士\n  在外域给它找到了新家，\n  贴心照顾着它。",
+                 "<32>* 我的表亲说，\n  有个人类让那位女士感到幸福。",
+                 "<32>* 那个人类就是你，对吧？",
+                 "<32>* ...该死。\n* 你走吧，我不打你了..."
               ]
             : [
-                 "<32>* YOU CAME ALONG!!!",
+                 "<32>* 直到你出现为止！！！",
                  ...(16 <= SAVE.data.n.kills_wastelands
                     ? [
-                         "<32>* Not only did YOUR actions cause them to leave their home...",
-                         "<32>* But now all of their neighbors are gone, too!",
-                         "<32>* Despicable.\n* Despicable!\n* DESPICABLE!!!",
-                         "<32>{#x1}* You're the worst person I've ever met!\n* I've NEVER been more mad!!!",
-                         "<32>* Guooooohhhh!!!\n* My mannequin levels are going OFF THE CHARTS!!!"
+                         "<32>* 你的所作所为\n  不光害它离开了自己的家...",
+                         "<32>* 还把它的邻居全吓跑了！",
+                         "<32>* 可恶。\n* 可恶！\n* 可恶！！！",
+                         "<32>{#x1}* 你个败类，人渣，废物！\n* 我快要气死了啊啊啊！！！",
+                         "<32>* 呀啊啊啊啊啊啊！！！\n* 我的人偶能量快要爆发了！！！"
                       ]
                     : SAVE.data.n.state_wastelands_dummy === 3
                     ? [
@@ -677,11 +677,11 @@ export default {
                     : SAVE.data.n.state_wastelands_dummy === 4
                     ? [
                          "<32>* YOU... you...",
-                         "<32>* Shucks!\n* You were really nice!",
-                         "<32>* So nice, in fact, that after your encounter, they developed a HUGGING addiction!!",
+                         "<32>* 该死！\n* 你人真的很好！",
+                         "<32>* 自然也有很强的个人魅力...\n  搞得我表亲见你一面就对拥抱上瘾了！",
                          "<32>* In desperation, they left their body, hoping to get their fix from me.",
-                         "<32>* They know I have haphephobia, but they won't quit asking me!\n* It's INFURIATING!",
-                         "<32>* You'll SUFFER for this, HUMAN!!!"
+                         "<32>* 它知道我有接触恐惧症，\n  但还是没完没了地来找我！\n* 真让人窝火！",
+                         "<32>* 人类，我要你付出代价！！！"
                       ]
                     : [
                          ...(SAVE.data.n.state_wastelands_dummy === 0
@@ -731,13 +731,13 @@ export default {
       ],
       dummy3: [
          "<32>{#p/basic}* ...？",
-         "<32>* This...\n* This feeling...?",
-         "<32>{#x3}* Eureka.\n* Eureka!\n* EUREKA!!!",
-         "<32>* Human.\n* That moment of unbridled emotion.",
-         "<32>* It allowed me to finally fuse with my body!",
-         "<32>* I'm fully corporeal now!\n* Am I... dreaming?\n* Is this real???",
-         "<32>* Well, in return, I guess I won't stomp you.",
-         "<32>* How's that sound?"
+         "<32>* 这...\n* 这种感觉...？",
+         "<32>{#x3}* 明白了。\n* 明白了！\n* 明白了！！！",
+         "<32>* 人类。\n* 刚刚我那彻底失控的情绪...",
+         "<32>* 让我终于可以完美地\n  和我的身体融为一体啦！",
+         "<32>* 我是有血有肉的存在了！\n* 我...我不是在做梦吧？\n* 这是真的吗？？？",
+         "<32>* 作为报答，\n  我不会再攻击你啦。",
+         "<32>* 怎么样？"
       ],
       dummy4: (mover: boolean) => [
          ...(mover
@@ -765,17 +765,17 @@ export default {
               ])
       ],
       dummypunch1: [
-         "<32>{#p/basic}* It's a training dummy.\n* Beat it up?",
-         choicer.create("* (Beat up the dummy?)", "是", "否")
+         "<32>{#p/basic}* 一个训练人偶。\n* 教训教训它吗？",
+         choicer.create("* （动手吗？）", "是", "否")
       ],
-      dummypunch2a: [ "<32>{#p/human}* (You decide not to do anything.)" ],
+      dummypunch2a: [ "<32>{#p/human}* （你不打算这么做。）" ],
       dummypunch2b: () =>
          world.genocide || world.trueKills > 9
-            ? [ "<32>{#p/human}* (You punched the dummy as hard as you could.)" ]
+            ? [ "<32>{#p/human}* （你使劲揍了人偶一拳。）" ]
             : SAVE.data.n.bully > 9
-            ? [ "<32>{#p/human}* (You punched the dummy.)" ]
-            : [ "<32>{#p/human}* (You poked the dummy.)" ],
-      dummypunch3: [ "<32>{#p/basic}* It's a beat-up training dummy." ],
+            ? [ "<32>{#p/human}* （你给人偶来了一拳。）" ]
+            : [ "<32>{#p/human}* （...你只是戳了戳人偶。）" ],
+      dummypunch3: [ "<32>{#p/basic}* 人偶被你教训了一顿。" ],
       epicreaction: () =>
          [
             [ "<25>{#p/kidd}{#f/7}* What was THAT!?" ],
@@ -1122,7 +1122,7 @@ export default {
          "<32>{#p/human}* （你捡到了一件飞行服。）",
          choicer.create("* （穿上飞行服吗？）", "是", "否")
       ],
-      jumpsuit2: [ "<32>{#p/human}* (You're carrying too much to take that.)" ],
+      jumpsuit2: [ "<32>{#p/human}* （你带的东西太多，装不下它了。）" ],
       kiddStatue: [
          "<25>{#p/kidd}{#f/1}* Yo, I remember this place!",
          "<25>{#f/3}* My, uh, Mom took me here one time, haha.",
@@ -2028,7 +2028,7 @@ export default {
                : geno()
                ? [
                     "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
-                    "<32>{#p/undyne}* 没听懂吗？那可不是什么\n  好对付的小混混...\n  趁现在快逃！不然下个遭殃的就是你！",
+                    "<32>{#p/undyne}* 没听懂吗？\n  那可不是什么好对付的小混混...\n  趁现在快逃！不然下个遭殃的就是你！",
                     "<32>{#p/basic}* 那家伙是谁我不在乎。\n* 我只在乎能不能履行职责，\n  保护好前哨站！",
                     "<32>{#p/basic}* 你不是很想揍人类一顿吗？\n  那你现在就过来啊！",
                     "<32>{#p/undyne}* Dogamy！！",
@@ -2107,11 +2107,11 @@ export default {
                ? [
                     "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
                     world.genocide
-                       ? "<32>{#p/basic}* Asriel and the human are on their way. I'll intercept them as soon as they come through."
-                       : "<32>{#p/basic}* The human's on their way.\n* I'll intercept them as soon as they come through.",
-                    "<32>{#p/undyne}* I trust you know what you're getting into, Doge.",
+                       ? "<32>{#p/basic}* 那人类跟Asriel快到这里了，\n* 只要发现他们，定将其一举歼灭！"
+                       : "<32>{#p/basic}* 那人类快到这里了，\n* 只要我发现了，定将其一举歼灭！",
+                    "<32>{#p/undyne}* Doge，你肯定知道\n  即将面对的是什么敌人。",
                     world.dead_canine
-                       ? "<32>{#p/basic}* They are responsible for my colleagues' deaths.\n* I will show no mercy!"
+                       ? "<32>{#p/basic}* 朋友的生命亲手葬送在敌人手里。\n* 我绝不会心慈手软！"
                        : dogex()
                        ? "<32>{#p/basic}* They are responsible for the deaths in Starton.\n* I will show no mercy!"
                        : "<32>{#p/basic}* This is the moment I have long prepared myself for.\n* I will not falter!",
@@ -2525,7 +2525,7 @@ export default {
                  "<32>* “我真的承担不了\n  照顾它的重任。”",
                  choicer.create("* （拿走芝士蛋糕吗？）", "是", "否")
               ],
-      quiche2: [ "<32>{#p/human}* (You're carrying too much.)" ],
+      quiche2: [ "<32>{#p/human}* （你带的东西太多了。）" ],
       quiche3: [ "<32>{#p/human}* （你拿走了芝士蛋糕。）" ],
       quiche4: () =>
          SAVE.data.b.svr
@@ -3357,7 +3357,7 @@ export default {
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The tablet contains the entire run of a science fiction anime.)" ]
                : world.darker
-               ? [ "<32>{#p/basic}* It's a video tablet.\n* You wouldn't be interested in the contents." ]
+               ? [ "<32>{#p/basic}* 这台平板上存了些视频。\n* 你对视频内容不感兴趣。" ]
                : [
                     "<32>{#p/basic}* It's an old video tablet for a science fiction anime.",
                     "<32>* The cover reads \"MEW MEW STARFIRE: COMPLETE COLLECTION.\""
@@ -4034,7 +4034,7 @@ export default {
       ],
       unddate13a2: [ "<25>{#p/undyne}{#f/1}* Ah... this should do nicely." ],
       unddate13a3: [ "<25>{#p/undyne}{#f/14}* All yours...\n* Fuhuhu." ],
-      unddate13a4a: [ "<32>{#p/human}* (You're carrying too much.)" ],
+      unddate13a4a: [ "<32>{#p/human}* （你带的东西太多了。）" ],
       unddate13a4b: [ "<32>{#p/human}* (You got the Odd Snack.)" ],
       unddate13a5: () =>
          SAVE.data.b.drop_snack
@@ -7481,7 +7481,7 @@ export default {
          "<09>{#p/tem}{#k/6}thanks PURCHASE!",
          "<09>{#p/tem}{#k/0}fdshfg",
          "<09>{#p/tem}{#k/2}you don hav da muns,",
-         "<10>{#p/human}(You're carrying too much.)"
+         "<10>{#p/human}* （你带的东西太多了。）"
       ],
       itemPurchasePrompt: (free: boolean) => (free || world.runaway ? "Take it?" : "花$(x)G\n买它吗？"),
       itemSellPrompt: "出$(x)G\n卖掉它吗？",
@@ -7629,13 +7629,13 @@ export default {
                  "<09>{#p/basic}{#k/1}...",
                  "<09>{#p/basic}{#k/1}Here we are.",
                  "<09>{#p/basic}{#k/3}Eh?\nYou can't afford it?",
-                 "<10>{#p/human}(You're carrying too much.)"
+                 "<10>{#p/human}* （你带的东西太多了。）"
               ]
             : [
                  "<09>{#p/basic}{#k/0}Thanks!\nWa ha ha.",
                  "<09>{#p/basic}{#k/2}Careful with that.",
                  "<09>{#p/basic}{#k/4}You're a bit short on cash.",
-                 "<10>{#p/human}(You're carrying too much.)"
+                 "<10>{#p/human}* （你带的东西太多了。）"
               ],
       itemPurchasePrompt: () => (world.runaway ? "Take it?" : "花$(x)G\n买它吗？"),
       menu: () =>

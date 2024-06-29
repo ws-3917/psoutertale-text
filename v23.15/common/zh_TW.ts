@@ -3347,13 +3347,13 @@ export default {
       act_flirt: () =>
          16 <= SAVE.data.n.kills_wastelands
             ? [
-                 "<32>{#p/human}* (You flirt with Glad Dummy.)",
+                 "<32>{#p/human}* （你向Glad Dummy調情。）",
                  "<32>{#p/basic}* They're too distracted with themselves to hear you."
               ]
             : [ "<32>{#p/human}* (You flirt with Mad Dummy.)", "<32>* 它的反應和你想的完全一樣。" ],
       act_hug: () =>
          16 <= SAVE.data.n.kills_wastelands
-            ? [ "<32>{#p/human}* (You hug Glad Dummy.)" ]
+            ? [ "<32>{#p/human}* （你抱了抱Glad Dummy。）" ]
             : [ "<32>{#p/human}* (You hug Mad Dummy.)" ],
       act_slap: () =>
          16 <= SAVE.data.n.kills_wastelands
@@ -3365,7 +3365,7 @@ export default {
       act_talk: () =>
          16 <= SAVE.data.n.kills_wastelands
             ? [
-                 "<32>{#p/human}* (You talk to Glad Dummy.)",
+                 "<32>{#p/human}* （你想和Glad Dummy說說話。）",
                  "<32>{#p/basic}* They're too distracted with themselves to hear you."
               ]
             : [
@@ -3406,10 +3406,10 @@ export default {
                  "<11>{#p/napstablook}{~}oh no......\n...........\n...........\n...........\n..........."
               ])
       ],
-      gladTalk1: [ "<08>{#p/basic}{~}Thanks!" ],
-      gladTalk2: [ "<08>{#p/basic}{~}Thank you!" ],
-      gladTalk3: [ "<08>{#p/basic}{~}Great work!" ],
-      gladTalk4: [ "<08>{#p/basic}{~}Bravo!" ],
+      gladTalk1: [ "<08>{#p/basic}{~}謝啦！" ],
+      gladTalk2: [ "<08>{#p/basic}{~}謝謝你！" ],
+      gladTalk3: [ "<08>{#p/basic}{~}你真棒！" ],
+      gladTalk4: [ "<08>{#p/basic}{~}幹得好哇！" ],
       gladTalk5: [ "<08>{#p/basic}{~}OK!" ],
       gladTalk6: [ "<08>{#p/basic}{~}..." ],
       hugTalk1: () =>
@@ -3417,8 +3417,8 @@ export default {
             ? [
                  "<08>{#p/basic}{~}My haphe- phobia!",
                  "<08>{#p/basic}{~}It's gone!",
-                 "<08>{#p/basic}{~}Thank you.. human..",
-                 "<08>{#p/basic}{~}I've never felt so happy.."
+                 "<08>{#p/basic}{~}人類...\n謝謝你...",
+                 "<08>{#p/basic}{~}我從未\n感到\n如此幸福..."
               ]
             : SAVE.data.n.state_wastelands_dummy === 4
             ? [ "<11>{#p/basic}{~}{#x4}Are you for REAL??" ]
@@ -3501,7 +3501,7 @@ export default {
       slapTalk4: [ "<11>{#p/basic}{~}{#x3}..." ],
       status1: () =>
          16 <= SAVE.data.n.kills_wastelands
-            ? [ "<32>{#p/story}* Glad Dummy lets you go." ]
+            ? [ "<32>{#p/story}* Glad Dummy 打算放你走。" ]
             : [ "<32>{#p/story}* Mad Dummy blocks the way!" ]
    },
    b_opponent_moldsmal: {
