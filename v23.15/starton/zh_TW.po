@@ -7536,7 +7536,7 @@ msgid ""
 msgstr ""
 
 msgid "* (Take another chip?)"
-msgstr "* （再帶走一個芯片？）"
+msgstr "* （再拿走一塊芯片？）"
 
 msgid "<32>{#p/basic}* Please be careful this time."
 msgstr ""

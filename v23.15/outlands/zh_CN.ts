@@ -1077,11 +1077,11 @@ export default {
       ],
       danger_puzzle5e: () =>
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
-            ? [ "<25>{#p/toriel}{#f/5}* ...", "<25>{#f/5}* I see." ]
+            ? [ "<25>{#p/toriel}{#f/5}* ...", "<25>{#f/5}* 知道了。" ]
             : [ "<25>{#p/toriel}{#f/0}* ...", "<25>{#f/0}* 这次的谜题，我替你解吧。" ],
       danger_puzzle6: () => [
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
-            ? "<25>{#p/toriel}{#f/5}* And... {#x1}there.\n* The pathway is clear."
+            ? "<25>{#p/toriel}{#f/5}* 还有... {#x1}这个。\n* ...可以继续前进了。"
             : "<25>{#p/toriel}* 还有... {#x1}这个！\n* 可以继续前进了。"
       ],
       danger_puzzle7: () => [
@@ -1138,14 +1138,14 @@ export default {
          "<25>{#f/0}* 只要你跑的够快，\n  什么都能避免。"
       ],
       dummy9: [ "<25>{#p/toriel}{#f/3}* ...", "<25>{#f/4}* ...", "<25>{#f/0}* 咱们去下一个房间吧。" ],
-      dummy9a: [ "<25>{#p/toriel}{#f/3}* ...", "<25>{#f/4}* ...", "<25>{#f/6}* The next room awaits." ],
+      dummy9a: [ "<25>{#p/toriel}{#f/3}* ...", "<25>{#f/4}* ...", "<25>{#f/6}* 咱们去下一个房间吧。" ],
       dummy10: [
          "<25>{#p/toriel}{#f/7}* 天哪，孩子...",
          "<25>{#f/0}* 我第一次看到\n  这么有爱的场面啊...",
          "<25>{#f/0}* 总之，你已经出色地掌握了\n  教给你的东西。",
          "<25>{#f/0}* 咱们去下一个房间吧。"
       ],
-      dummy11: [ "<25>{#p/toriel}* The next room awaits." ],
+      dummy11: [ "<25>{#p/toriel}* 咱们去下一个房间吧。" ],
       dummy12: [
          "<25>{#p/toriel}{#f/2}* 我的天哪，孩子！\n* 快住手！",
          "<25>{#f/1}* ...",
@@ -3743,7 +3743,7 @@ export default {
       ],
       twinkly16: [
          "<20>{#f/7}啧，你知道会发生什么，\n是不是？",
-         "<20>你只想好好折磨一下\n楚楚可怜的TWINKLY，\n是不是？",
+         "<20>你只想好好折磨一下\n楚楚可怜的Twinkly，\n是不是？",
          "<20>天啦噜...\n你知道你惹的是谁吗？",
          "<20>{#f/11}嘻嘻嘻..."
       ],

@@ -3752,7 +3752,7 @@ export default {
       robot6: [
          "<32>{#p/basic}* How am I doing?\n* By \"I\" I mean the chip I gave you...",
          "<32>* Huh? You lost it...?\n* ... I suppose I can give you another one...",
-         choicer.create("* （再带走一个芯片？）", "是", "否")
+         choicer.create("* （再拿走一块芯片？）", "是", "否")
       ],
       robot7: [
          "<32>{#p/basic}* Please be careful this time.",
