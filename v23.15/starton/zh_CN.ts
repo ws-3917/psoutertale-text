@@ -180,9 +180,9 @@ export default {
          "<32>{#p/asriel2}* 接着...！"
       ],
       shockpapyrus2c: [
-         "<32>{#p/asriel2}* 魔法，\n  是它让怪物们团结一心。",
+         "<32>{#p/asriel2}* 魔法，\n  它可化为纽带，\n  让怪物们团结一心。",
          "<32>{#p/asriel2}* 不过，反过来...",
-         "<33>{#p/asriel2}* 它也是劈碎他们的利刃。"
+         "<33>{#p/asriel2}* 它也能成为利刃，\n  刺穿他们的肉体。"
       ],
       shockpapyrus2d: [ "<32>{#p/asriel2}* 战斗... 真是不二之选。", "<32>{#p/asriel2}* 嘻嘻嘻..." ],
       sansDeath1: [ "<15>{#p/papyrus}{#e/papyrus/27}SANS！\n你受伤了！" ],
@@ -6080,7 +6080,7 @@ export default {
       ],
       petText10: () => [
          "<32>{#p/human}* （你摸了摸Canis Minor。）",
-         "<32>{#p/basic}* Many small pets for a dog, one giant neck amongst dog-kind.",
+         "<32>{#p/basic}* 不积跬步，无以至千里。\n  不积小摸，无以得巨狗。",
          ...(world.goatbro ? [ "<32>{#p/asriel2}* 为啥要在这浪费时间？" ] : [])
       ],
       petText11: () => [
