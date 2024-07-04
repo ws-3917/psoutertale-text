@@ -13,7 +13,7 @@ export default {
       flee2: "   * 我先撤了。",
       flee3: "   * 我还有别的事要做。",
       flee4: "   * 别拖我后腿。",
-      flee5: "   * 你逃跑了，\n     你获得了$(x) EXP和$(y)G。",
+      flee5: "   * 你逃跑了，\n   * 你获得了$(x) EXP和$(y)G。",
 
       mercy_assist: "* 外援",
       mercy_flee: "* 逃跑",
@@ -30,11 +30,11 @@ export default {
             header: "忽略",
             resume: "点击此处忽略错误"
          },
-         blurb: "程序出现错误！\n请将屏幕截图发给开发者。"
+         blurb: "程序出现错误！\n请将错误信息截图发给开发者。"
       },
       control: {
-         tab: "控制",
-         headers: [ "常规", "战斗中" ],
+         tab: "快捷功能",
+         headers: [ "主世界", "战斗中" ],
          items: [
             [
                "音乐初始化",
@@ -46,7 +46,7 @@ export default {
                "无视墙体",
                "快速存档",
                "跳过文本",
-               "自由镜头"
+               "自由视角"
             ],
             [
                "允许外援",
@@ -56,29 +56,29 @@ export default {
                "重置菜单",
                "允许逃跑",
                "无限HP",
-               "安抚敌方全体",
+               "安抚所有敌人",
                "自杀",
-               "削弱敌方全体"
+               "清空敌方血条"
             ]
          ],
          p_speed: {
             fps: "$(x)帧",
-            halt: "停止",
+            halt: "暂停",
             header: "游戏倍速",
-            multiplier: "$(x)x",
+            multiplier: "$(x)倍速",
             next: "加速",
             prev: "减速",
             sec: "每帧$(x)秒"
          }
       },
       godhome: {
-         tab: "测试",
+         tab: "传送/战斗",
          p_teleport: {
             header: "房间",
             action: "传送"
          },
          p_encounter: {
-            header: "遭遇战",
+            header: "战斗",
             action: "开始"
          },
          p_armor: {
@@ -89,7 +89,7 @@ export default {
          }
       },
       inspect: {
-         tab: "查看",
+         tab: "察看图层",
          headers: [ "图层", "类型" ],
          switches: [
             [ "基层", "下层", "主层", "上层", "菜单层" ],
@@ -99,20 +99,20 @@ export default {
             header: "浏览",
             layers: [ "基层", "下层", "主层", "上层", "菜单层" ],
             letters: {
-               animation: "A",
-               character: "C",
-               rectangle: "R",
-               entity: "E",
-               hitbox: "H",
-               object: "O",
-               player: "P",
-               sprite: "S",
-               text: "T"
+               animation: "动",
+               character: "NPC",
+               rectangle: "矩",
+               entity: "形",
+               hitbox: "箱",
+               object: "物",
+               player: "角",
+               sprite: "图",
+               text: "文"
             }
          },
          debug_instructions: "按[TAB]键浏览调试信息",
          debug: {
-            a: "A", 
+            a: "动", 
             acceleration: "Acceleration",
             active: "动态",
             alpha: "Alpha",
@@ -163,7 +163,7 @@ export default {
             room: "房间",
             roomState: "房间状态",
             rotation: "Rotation",
-            s: "S", 
+            s: "图", 
             scale: "缩放",
             shopSelection: "当前选项（商店菜单）",
             size: "设定尺寸",
@@ -187,7 +187,7 @@ export default {
          }
       },
       savemod: {
-         tab: "存档",
+         tab: "编辑存档",
          header1: "存档编辑器",
          domains: [
             "数据（布尔型）",
@@ -198,15 +198,15 @@ export default {
             "节点（字符串型）"
          ],
          p_page: {
-            header: "浏览",
+            header: "察看图层",
             prev: "上一页",
             next: "下一页"
          },
-         prompt: "输入数值",
+         prompt: "输入变量值",
          back: "返回"
       },
       storage: {
-         tab: "物品",
+         tab: "物品库存",
          header: "物品库存编辑器",
          p_container: { header: "选择容器", prev: "上一页", next: "下一页" },
          display: { inventory: "物品栏", dimboxA: "次元箱 A", dimboxB: "次元箱 B" }
@@ -217,17 +217,17 @@ export default {
       dialog_clear_title: "删除存档",
       dialog_error_title: "错误",
       dialog_notice_title: "提示",
-      dialog_open: { buttonLabel: "打开", name: "存档文件", title: "打开存档" },
-      dialog_save: { buttonLabel: "保存", name: "存档文件", title: "保存存档" },
+      dialog_open: { buttonLabel: "打开", name: "存档文件", title: "导入存档" },
+      dialog_save: { buttonLabel: "保存", name: "存档文件", title: "导出存档" },
       error_access: "存档文件无效：“$(x)”",
       error_load: "无法解析存档。",
-      error_mod: "模组“$(x)”无法加载。",
+      error_mod: "无法加载Mod：“$(x)”。",
       message_alert: [ "确定" ],
       message_confirm: [ "取消", "确定" ],
       prompt_clear: "删除这个存档吗？",
       prompt_demo: "已将您的OUTERTALE demo存档\n移动到其他时间线槽位中。",
       prompt_save: "将存档保存到其他位置吗？",
-      prompt_save_alternate: "将下列文本\n复制到JSON文件，\n并保存到设备中。",
+      prompt_save_alternate: "新建一个JSON文件，\n将下列内容复制进去\n并保存到设备中。",
       prompt_open: "读取这个存档吗？"
    },
 
@@ -373,7 +373,7 @@ export default {
          [
             "§fill:#ff0§< 特别鸣谢 >§fill:#fff§",
             "My Cocoa",
-            "§fill:#808080§你是我认识的最暖心的人，\n是第一个支持我梦想的人。\n在你的激励下，\n我才能完成这款游戏。§fill:#fff§"
+            "§fill:#808080§你是我认识的最暖心的人，\n也是第一个支持我梦想的人。\n在你的激励下，\n我才能完成这款游戏。§fill:#fff§"
          ],
          [
             "§fill:#ff0§< 特别鸣谢 >§fill:#fff§",
@@ -698,7 +698,7 @@ export default {
                }
             },
             rg: {
-               name: "RG 03 & RG 04",
+               name: "3号守卫 & 4号守卫",
                author: "semi",
                text: {
                   basic: "In Search Of\nChildhood Friends",
@@ -836,7 +836,7 @@ export default {
                author: "MattSpriteMaster"
             },
             monsterkid: {
-               name: "MONSTER KID",
+               name: "怪物小孩",
                author: "spacey_432"
             },
             asriel: {
@@ -902,7 +902,7 @@ export default {
          "从游戏手柄上选择一个按键\n用来控制游戏中的某个操作。\n\n按下相同的按键进行确认，\n或按下其他按键重新设置。\n\n按[ESC]跳过设置。",
       prompt_counter: "输入分配到：$(x)",
       z: "[Z 或 ENTER] - 确认/交互",
-      x: "[X 或 SHIFT] - 取消",
+      x: "[X 或 SHIFT] - 返回",
       c: "[C 或 CTRL] - 菜单（游戏内）",
       u: "[↑ 或 W] - 上移",
       l: "[← 或 A] - 左移",
@@ -910,7 +910,7 @@ export default {
       r: "[→ 或 D] - 右移",
       f: "[F4] - 全屏",
       prompt_done: "设置完成。\n按任意键继续。",
-      prompt_done_browser: "\n注意：在本平台运行游戏时，\n使用游戏手柄可能无法全屏游玩。",
+      prompt_done_browser: "\n注意：在本平台运行游戏时，\n可能无法用手柄开启全屏。",
       prompt_load:
          "游戏手柄设置完成，\n按任意键继续。\n或者连按某个键三次\n重新设置手柄。"
    },
@@ -924,7 +924,7 @@ export default {
       g: "G",
       hp: "HP",
       inf: "INF",
-      landing1: "[按下 Z 或 ENTER]",
+      landing1: "[按 Z 或 ENTER]",
       lv: "LV",
       mystery1: "§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§",
       mystery2: "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}",
@@ -982,26 +982,26 @@ export default {
       settings3a: "简体中文",
       settings4: "音效",
       settings5: "音乐",
-      settings6: "精致图像",
+      settings6: "高品质贴图",
       settings7: "闪烁画面",
       settings7a: "默认",
       settings7b: "削减",
-      settings8: "控制按钮位置",
-      settings8a: "左",
-      settings8b: "右",
+      settings8: "方向键位置",
+      settings8a: "左侧",
+      settings8b: "右侧",
       settings9: "摇杆死区",
-      settings10: "打开模组目录",
+      settings10: "打开Mod目录",
 
       sidebar1: "物品",
       sidebar2: "状态",
       sidebar3: "电话",
       sidebar4: "设置",
-      sidebar5: "S",
+      sidebar5: "图",
 
       start1: [
          "---- 操作介绍 ----",
          "[Z 或 ENTER] - 确认/交互",
-         "[X 或 SHIFT] - 取消",
+         "[X 或 SHIFT] - 返回",
          "[C 或 CTRL] - 菜单（游戏内）",
          "[F4] - 全屏",
          "[长按 ESC] - 重启",
@@ -1015,14 +1015,14 @@ export default {
       stat4: "防具",
       stat5: "金钱",
       stat6: "EXP",
-      stat7: "下级",
+      stat7: "升级需",
       stat8: "§fill:#ff0§警告：\n不是\n主时间线。",
       stat9: "击杀",
-      stat10: "伤害",
+      stat10: "击败",
       stat11: "调情",
       stat12: "状态",
 
-      story1: [ "{#i/x2}很久以前，{^3}太阳系由\n两个物种统治着：{^5}\n人类和怪物。" ],
+      story1: [ "{#i/x2}很久以前，{^3}太阳系\n由两个物种统治着：{^5}\n人类和怪物。" ],
       story2: [ "{#i/x2}随着时间的推移，{^3}\n两个物种之间爆发了战争。" ],
       story3: [ "{#i/x2}最终，\n怪物的母星被摧毁，\n人类宣布了胜利。{^5}" ],
       story4: [ "{#i/x2}他们将剩下的怪物流放到{^1}\n一个废弃的前哨站。{^5}" ],
@@ -1040,9 +1040,9 @@ export default {
       timelines: "其他时间线槽位",
       bisect: "切分",
       delete: "删除",
-      instruction: "[ESC] 取消 / [ENTER] 确定",
+      instruction: "[ESC]取消 / [ENTER]确定",
       instruction_gamepad: "按手柄上任意按钮打开键盘。",
-      launch: "启动",
+      launch: "进入",
       rename: "重命名",
       create: "新建",
       placeholder: "输入时间线名称",

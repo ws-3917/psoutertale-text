@@ -1956,7 +1956,7 @@ export default {
             ? [
                  early
                     ? "<25>{#p/toriel}{#g/torielTired}* ...出来了？"
-                    : "<25>{#p/toriel}{#g/torielTired}* ...待的不耐烦了？",
+                    : "<25>{#p/toriel}{#g/torielTired}* ...待得不耐烦了？",
                  "<25>{#f/9}* 没事，我已经猜到了。",
                  "<25>{#f/5}* 只是，提醒你一下，\n  外面有很多危险等着你...",
                  "<25>{#f/1}* 保护好自己，别受伤了。"

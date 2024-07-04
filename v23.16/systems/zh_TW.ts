@@ -13,7 +13,7 @@ export default {
       flee2: "   * 我先撤了。",
       flee3: "   * 我還有別的事要做。",
       flee4: "   * 別拖我後腿。",
-      flee5: "   * 你逃跑了，\n     你獲得了$(x) EXP和$(y)G。",
+      flee5: "   * 你逃跑了，\n   * 你獲得了$(x) EXP和$(y)G。",
 
       mercy_assist: "* 外援",
       mercy_flee: "* 逃跑",
@@ -30,11 +30,11 @@ export default {
             header: "忽略",
             resume: "點擊此處忽略錯誤"
          },
-         blurb: "程式出現錯誤！\n請將屏幕截圖發給開發者。"
+         blurb: "程式出現錯誤！\n請將錯誤資訊截圖發給開發者。"
       },
       control: {
-         tab: "控制",
-         headers: [ "常規", "戰鬥中" ],
+         tab: "快捷功能",
+         headers: [ "主世界", "戰鬥中" ],
          items: [
             [
                "音樂初始化",
@@ -46,7 +46,7 @@ export default {
                "無視牆體",
                "快速存檔",
                "跳過文本",
-               "自由鏡頭"
+               "自由視角"
             ],
             [
                "允許外援",
@@ -56,29 +56,29 @@ export default {
                "重置選單",
                "允許逃跑",
                "無限HP",
-               "安撫敵方全體",
+               "安撫所有敵人",
                "自殺",
-               "削弱敵方全體"
+               "清空敵方血條"
             ]
          ],
          p_speed: {
             fps: "$(x)幀",
-            halt: "停止",
+            halt: "暫停",
             header: "遊戲倍速",
-            multiplier: "$(x)x",
+            multiplier: "$(x)倍速",
             next: "加速",
             prev: "減速",
             sec: "每幀$(x)秒"
          }
       },
       godhome: {
-         tab: "測試",
+         tab: "傳送/戰鬥",
          p_teleport: {
             header: "房間",
             action: "傳送"
          },
          p_encounter: {
-            header: "遭遇戰",
+            header: "戰鬥",
             action: "開始"
          },
          p_armor: {
@@ -89,7 +89,7 @@ export default {
          }
       },
       inspect: {
-         tab: "查看",
+         tab: "察看圖層",
          headers: [ "圖層", "類別" ],
          switches: [
             [ "基層", "下層", "主層", "上層", "選單層" ],
@@ -99,20 +99,20 @@ export default {
             header: "瀏覽",
             layers: [ "基層", "下層", "主層", "上層", "選單層" ],
             letters: {
-               animation: "A",
-               character: "C",
-               rectangle: "R",
-               entity: "E",
-               hitbox: "H",
-               object: "O",
-               player: "P",
-               sprite: "S",
-               text: "T"
+               animation: "動",
+               character: "NPC",
+               rectangle: "矩",
+               entity: "形",
+               hitbox: "箱",
+               object: "物",
+               player: "角",
+               sprite: "圖",
+               text: "文"
             }
          },
          debug_instructions: "按[TAB]鍵瀏覽除錯資訊",
          debug: {
-            a: "A", 
+            a: "動", 
             acceleration: "Acceleration",
             active: "動態",
             alpha: "Alpha",
@@ -163,7 +163,7 @@ export default {
             room: "房間",
             roomState: "房間狀態",
             rotation: "Rotation",
-            s: "S", 
+            s: "圖", 
             scale: "縮放",
             shopSelection: "當前選項（商店選單）",
             size: "設定尺寸",
@@ -187,7 +187,7 @@ export default {
          }
       },
       savemod: {
-         tab: "存檔",
+         tab: "編輯存檔",
          header1: "存檔編輯器",
          domains: [
             "資料（布爾型）",
@@ -198,15 +198,15 @@ export default {
             "節點（字符串型）"
          ],
          p_page: {
-            header: "瀏覽",
+            header: "察看圖層",
             prev: "上一頁",
             next: "下一頁"
          },
-         prompt: "鍵入數值",
+         prompt: "鍵入變量值",
          back: "返回"
       },
       storage: {
-         tab: "物品",
+         tab: "物品庫存",
          header: "物品庫存編輯器",
          p_container: { header: "選擇容器", prev: "上一頁", next: "下一頁" },
          display: { inventory: "物品欄", dimboxA: "次元箱 A", dimboxB: "次元箱 B" }
@@ -217,17 +217,17 @@ export default {
       dialog_clear_title: "刪除存檔",
       dialog_error_title: "錯誤",
       dialog_notice_title: "提示",
-      dialog_open: { buttonLabel: "打開", name: "存檔檔案", title: "打開存檔" },
-      dialog_save: { buttonLabel: "儲存", name: "存檔檔案", title: "儲存存檔" },
+      dialog_open: { buttonLabel: "打開", name: "存檔檔案", title: "匯入存檔" },
+      dialog_save: { buttonLabel: "儲存", name: "存檔檔案", title: "匯出存檔" },
       error_access: "存檔檔案無效：“$(x)”",
       error_load: "無法解析存檔。",
-      error_mod: "模組“$(x)”無法加載。",
+      error_mod: "無法加載Mod：“$(x)”。",
       message_alert: [ "確定" ],
       message_confirm: [ "取消", "確定" ],
       prompt_clear: "刪除這個存檔嗎？",
       prompt_demo: "已將您的OUTERTALE demo存檔\n行動到其他時間軸槽位中。",
       prompt_save: "將存檔儲存到其他位置嗎？",
-      prompt_save_alternate: "將下列文本\n複製到JSON檔案，\n並儲存到裝置中。",
+      prompt_save_alternate: "新建一個JSON檔案，\n將下列內容複製進去\n並儲存到裝置中。",
       prompt_open: "讀取這個存檔嗎？"
    },
 
@@ -373,7 +373,7 @@ export default {
          [
             "§fill:#ff0§< 特別鳴謝 >§fill:#fff§",
             "My Cocoa",
-            "§fill:#808080§你是我認識的最暖心的人，\n是第一個支援我夢想的人。\n在你的激勵下，\n我才能完成這款遊戲。§fill:#fff§"
+            "§fill:#808080§你是我認識的最暖心的人，\n也是第一個支援我夢想的人。\n在你的激勵下，\n我才能完成這款遊戲。§fill:#fff§"
          ],
          [
             "§fill:#ff0§< 特別鳴謝 >§fill:#fff§",
@@ -698,7 +698,7 @@ export default {
                }
             },
             rg: {
-               name: "RG 03 & RG 04",
+               name: "3號守衛 & 4號守衛",
                author: "semi",
                text: {
                   basic: "In Search Of\nChildhood Friends",
@@ -836,7 +836,7 @@ export default {
                author: "MattSpriteMaster"
             },
             monsterkid: {
-               name: "MONSTER KID",
+               name: "怪物小孩",
                author: "spacey_432"
             },
             asriel: {
@@ -902,7 +902,7 @@ export default {
          "從遊戲手柄上選擇一個按鍵\n用來控制遊戲中的某個操作。\n\n按下相同的按鍵進行確認，\n或按下其他按鍵重新設定。\n\n按[ESC]跳過設定。",
       prompt_counter: "鍵入分配到：$(x)",
       z: "[Z 或 ENTER] - 確認/互動",
-      x: "[X 或 SHIFT] - 取消",
+      x: "[X 或 SHIFT] - 返回",
       c: "[C 或 CTRL] - 選單（遊戲內）",
       u: "[↑ 或 W] - 上移",
       l: "[← 或 A] - 左移",
@@ -910,7 +910,7 @@ export default {
       r: "[→ 或 D] - 右移",
       f: "[F4] - 全螢幕",
       prompt_done: "設定完成。\n按任意鍵繼續。",
-      prompt_done_browser: "\n注意：在本平臺執行遊戲時，\n使用遊戲手柄可能無法全螢幕遊玩。",
+      prompt_done_browser: "\n注意：在本平臺執行遊戲時，\n可能無法用手柄開啟全螢幕。",
       prompt_load:
          "遊戲手柄設定完成，\n按任意鍵繼續。\n或者連按某個鍵三次\n重新設定手柄。"
    },
@@ -924,7 +924,7 @@ export default {
       g: "G",
       hp: "HP",
       inf: "INF",
-      landing1: "[按下 Z 或 ENTER]",
+      landing1: "[按 Z 或 ENTER]",
       lv: "LV",
       mystery1: "§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§",
       mystery2: "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}",
@@ -982,26 +982,26 @@ export default {
       settings3a: "繁體中文",
       settings4: "音效",
       settings5: "音樂",
-      settings6: "精緻圖像",
+      settings6: "高品質貼圖",
       settings7: "閃爍畫面",
       settings7a: "預設",
       settings7b: "削減",
-      settings8: "控制按鈕位置",
-      settings8a: "左",
-      settings8b: "右",
+      settings8: "方向鍵位置",
+      settings8a: "左側",
+      settings8b: "右側",
       settings9: "搖桿死區",
-      settings10: "打開模組目錄",
+      settings10: "打開Mod目錄",
 
       sidebar1: "雜物",
       sidebar2: "狀況",
       sidebar3: "手機",
       sidebar4: "設定",
-      sidebar5: "S",
+      sidebar5: "圖",
 
       start1: [
          "---- 操作介紹 ----",
          "[Z 或 ENTER] - 確認/互動",
-         "[X 或 SHIFT] - 取消",
+         "[X 或 SHIFT] - 返回",
          "[C 或 CTRL] - 選單（遊戲內）",
          "[F4] - 全螢幕",
          "[長按 ESC] - 重啟",
@@ -1015,10 +1015,10 @@ export default {
       stat4: "防具",
       stat5: "金錢",
       stat6: "EXP",
-      stat7: "下級",
+      stat7: "升級需",
       stat8: "§fill:#ff0§警告：\n不是\n主時間軸。",
       stat9: "擊殺",
-      stat10: "傷害",
+      stat10: "擊敗",
       stat11: "調情",
       stat12: "狀態",
 
@@ -1040,9 +1040,9 @@ export default {
       timelines: "其它時間軸的位置",
       bisect: "切分",
       delete: "刪除",
-      instruction: "[ESC] 取消 / [ENTER] 確定",
+      instruction: "[ESC]取消 / [ENTER]確定",
       instruction_gamepad: "按手柄上任意按鈕打開鍵盤。",
-      launch: "啟動",
+      launch: "進入",
       rename: "重命名",
       create: "新建",
       placeholder: "鍵入時間軸名稱",

@@ -49,7 +49,7 @@ msgid ""
 "      and $(y)G."
 msgstr ""
 "   * 你逃跑了，\n"
-"     你獲得了$(x) EXP和$(y)G。"
+"   * 你獲得了$(x) EXP和$(y)G。"
 
 msgid "* Assist"
 msgstr "* 外援"
@@ -90,13 +90,13 @@ msgid ""
 "screenshot to developer."
 msgstr ""
 "程式出現錯誤！\n"
-"請將屏幕截圖發給開發者。"
+"請將錯誤資訊截圖發給開發者。"
 
 msgid "CONTROL"
-msgstr "控制"
+msgstr "快捷功能"
 
 msgid "GENERAL"
-msgstr "常規"
+msgstr "主世界"
 
 msgid "BATTLE"
 msgstr "戰鬥中"
@@ -129,7 +129,7 @@ msgid "SkipText"
 msgstr "跳過文本"
 
 msgid "Freecam"
-msgstr "自由鏡頭"
+msgstr "自由視角"
 
 msgid "CanAssist"
 msgstr "允許外援"
@@ -153,25 +153,25 @@ msgid "InfiniteHP"
 msgstr "無限HP"
 
 msgid "PacifyAll"
-msgstr "安撫敵方全體"
+msgstr "安撫所有敵人"
 
 msgid "Suicide"
 msgstr "自殺"
 
 msgid "WeakenAll"
-msgstr "削弱敵方全體"
+msgstr "清空敵方血條"
 
 msgid "$(x) FPS"
 msgstr "$(x)幀"
 
 msgid "Halt"
-msgstr "停止"
+msgstr "暫停"
 
 msgid "GAME SPEED"
 msgstr "遊戲倍速"
 
 msgid "$(x)x"
-msgstr "$(x)x"
+msgstr "$(x)倍速"
 
 msgid "More"
 msgstr "加速"
@@ -183,7 +183,7 @@ msgid "$(x)s/frame"
 msgstr "每幀$(x)秒"
 
 msgid "GODHOME"
-msgstr "測試"
+msgstr "傳送/戰鬥"
 
 msgid "ROOM"
 msgstr "房間"
@@ -192,7 +192,7 @@ msgid "Teleport"
 msgstr "傳送"
 
 msgid "ENCOUNTER"
-msgstr "遭遇戰"
+msgstr "戰鬥"
 
 msgid "Start"
 msgstr "開始"
@@ -204,7 +204,7 @@ msgid "WEAPON"
 msgstr "武器"
 
 msgid "INSPECT"
-msgstr "查看"
+msgstr "察看圖層"
 
 msgid "LAYERS"
 msgstr "圖層"
@@ -255,31 +255,31 @@ msgid "Menu (Explorer)"
 msgstr "選單層"
 
 msgid "A"
-msgstr "A"
+msgstr "動"
 
 msgid "C"
-msgstr "C"
+msgstr "NPC"
 
 msgid "R"
-msgstr "R"
+msgstr "矩"
 
 msgid "E"
-msgstr "E"
+msgstr "形"
 
 msgid "H"
-msgstr "H"
+msgstr "箱"
 
 msgid "O"
-msgstr "O"
+msgstr "物"
 
 msgid "P"
-msgstr "P"
+msgstr "角"
 
 msgid "S"
-msgstr "S"
+msgstr "圖"
 
 msgid "T"
-msgstr "T"
+msgstr "文"
 
 msgid "Press [TAB] to cycle debug info"
 msgstr "按[TAB]鍵瀏覽除錯資訊"
@@ -492,7 +492,7 @@ msgid "Volatile"
 msgstr ""
 
 msgid "SAVEMOD"
-msgstr "存檔"
+msgstr "編輯存檔"
 
 msgid "SAVE EDITOR"
 msgstr "存檔編輯器"
@@ -516,7 +516,7 @@ msgid "Flags (Strings)"
 msgstr "節點（字符串型）"
 
 msgid "NAVIGATION"
-msgstr "瀏覽"
+msgstr "察看圖層"
 
 msgid "Prev"
 msgstr "上一頁"
@@ -525,13 +525,13 @@ msgid "Next"
 msgstr "下一頁"
 
 msgid "Enter Value"
-msgstr "鍵入數值"
+msgstr "鍵入變量值"
 
 msgid "Back"
 msgstr "返回"
 
 msgid "STORAGE"
-msgstr "物品"
+msgstr "物品庫存"
 
 msgid "STORAGE EDITOR"
 msgstr "物品庫存編輯器"
@@ -564,10 +564,10 @@ msgid "SAVE files"
 msgstr "存檔檔案"
 
 msgid "Open File"
-msgstr "打開存檔"
+msgstr "匯入存檔"
 
 msgid "Save File"
-msgstr "儲存存檔"
+msgstr "匯出存檔"
 
 msgid "Invalid SAVE file access \"$(x)\""
 msgstr "存檔檔案無效：“$(x)”"
@@ -576,7 +576,7 @@ msgid "That file could not be parsed."
 msgstr "無法解析存檔。"
 
 msgid "The mod \"$(x)\" could not be loaded."
-msgstr "模組“$(x)”無法加載。"
+msgstr "無法加載Mod：“$(x)”。"
 
 msgid "OK"
 msgstr "確定"
@@ -603,8 +603,8 @@ msgid ""
 "a JSON file to save it\n"
 "to your device."
 msgstr ""
-"將下列文本\n"
-"複製到JSON檔案，\n"
+"新建一個JSON檔案，\n"
+"將下列內容複製進去\n"
 "並儲存到裝置中。"
 
 msgid "Load this file?"
@@ -797,7 +797,7 @@ msgid "Jojoton56"
 msgstr "Jojoton56"
 
 msgid "Jonkler"
-msgstr ""
+msgstr "Jonkler"
 
 msgid "lil tanski"
 msgstr "lil tanski"
@@ -894,7 +894,7 @@ msgid ""
 "inspiring me to finish the game.§fill:#fff§"
 msgstr ""
 "§fill:#808080§你是我認識的最暖心的人，\n"
-"是第一個支援我夢想的人。\n"
+"也是第一個支援我夢想的人。\n"
 "在你的激勵下，\n"
 "我才能完成這款遊戲。§fill:#fff§"
 
@@ -1495,7 +1495,7 @@ msgid ""
 msgstr ""
 
 msgid "RG 03 & RG 04"
-msgstr "RG 03 & RG 04"
+msgstr "3號守衛 & 4號守衛"
 
 msgid ""
 "In Search Of\n"
@@ -1750,7 +1750,7 @@ msgid "ASGORE"
 msgstr "ASGORE"
 
 msgid "MONSTER KID"
-msgstr "MONSTER KID"
+msgstr "怪物小孩"
 
 msgid "ASRIEL"
 msgstr "ASRIEL"
@@ -1884,7 +1884,7 @@ msgid "[Z OR ENTER] - Confirm"
 msgstr "[Z 或 ENTER] - 確認/互動"
 
 msgid "[X OR SHIFT] - Cancel"
-msgstr "[X 或 SHIFT] - 取消"
+msgstr "[X 或 SHIFT] - 返回"
 
 msgid "[C OR CTRL] - Menu (In-game)"
 msgstr "[C 或 CTRL] - 選單（遊戲內）"
@@ -1918,7 +1918,7 @@ msgid ""
 msgstr ""
 "\n"
 "注意：在本平臺執行遊戲時，\n"
-"使用遊戲手柄可能無法全螢幕遊玩。"
+"可能無法用手柄開啟全螢幕。"
 
 msgid ""
 "A gamepad has already been set up.\n"
@@ -1955,7 +1955,7 @@ msgid "INF"
 msgstr "INF"
 
 msgid "[PRESS Z OR ENTER]"
-msgstr "[按下 Z 或 ENTER]"
+msgstr "[按 Z 或 ENTER]"
 
 msgid "LV"
 msgstr "LV"
@@ -2104,7 +2104,7 @@ msgid "MUSIC"
 msgstr "音樂"
 
 msgid "FANCY GRAPHICS"
-msgstr "精緻圖像"
+msgstr "高品質貼圖"
 
 msgid "FLASHING IMAGERY"
 msgstr "閃爍畫面"
@@ -2116,19 +2116,19 @@ msgid "REDUCED"
 msgstr "削減"
 
 msgid "ALIGN CONTROLS"
-msgstr "控制按鈕位置"
+msgstr "方向鍵位置"
 
 msgid "LEFT"
-msgstr "左"
+msgstr "左側"
 
 msgid "RIGHT"
-msgstr "右"
+msgstr "右側"
 
 msgid "DEADZONE"
 msgstr "搖桿死區"
 
 msgid "OPEN MOD FOLDER"
-msgstr "打開模組目錄"
+msgstr "打開Mod目錄"
 
 msgid "ITEM"
 msgstr "雜物ゐ"
@@ -2149,7 +2149,7 @@ msgid "[Z or ENTER] - Confirm"
 msgstr "[Z 或 ENTER] - 確認/互動"
 
 msgid "[X or SHIFT] - Cancel"
-msgstr "[X 或 SHIFT] - 取消"
+msgstr "[X 或 SHIFT] - 返回"
 
 msgid "[C or CTRL] - Menu (In-game)"
 msgstr "[C 或 CTRL] - 選單（遊戲內）"
@@ -2173,7 +2173,7 @@ msgid "GOLD"
 msgstr "金錢"
 
 msgid "NEXT"
-msgstr "下級"
+msgstr "升級需"
 
 msgid ""
 "§fill:#ff0§Warning:\n"
@@ -2188,7 +2188,7 @@ msgid "KILLS"
 msgstr "擊殺"
 
 msgid "BULLY"
-msgstr "傷害"
+msgstr "擊敗"
 
 msgid "FLIRT"
 msgstr "調情"
@@ -2266,13 +2266,13 @@ msgid "Delete"
 msgstr "刪除"
 
 msgid "[ESC] to Cancel / [ENTER] to Confirm"
-msgstr "[ESC] 取消 / [ENTER] 確定"
+msgstr "[ESC]取消 / [ENTER]確定"
 
 msgid "Press any button on your gamepad to open the keyboard."
 msgstr "按手柄上任意按鈕打開鍵盤。"
 
 msgid "Launch"
-msgstr "啟動"
+msgstr "進入"
 
 msgid "Rename"
 msgstr "重命名"

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-29 20:19+0000\n"
-"PO-Revision-Date: 2024-07-04 06:04+0000\n"
+"PO-Revision-Date: 2024-07-04 15:01+0000\n"
 "Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/0-systems/zh_Hans/>\n"
@@ -62,7 +62,7 @@ msgid ""
 "      and $(y)G."
 msgstr ""
 "   * 你逃跑了，\n"
-"     你获得了$(x) EXP和$(y)G。"
+"   * 你获得了$(x) EXP和$(y)G。"
 
 msgid "* Assist"
 msgstr "* 外援"
@@ -103,13 +103,13 @@ msgid ""
 "screenshot to developer."
 msgstr ""
 "程序出现错误！\n"
-"请将屏幕截图发给开发者。"
+"请将错误信息截图发给开发者。"
 
 msgid "CONTROL"
-msgstr "控制"
+msgstr "快捷功能"
 
 msgid "GENERAL"
-msgstr "常规"
+msgstr "主世界"
 
 msgid "BATTLE"
 msgstr "战斗中"
@@ -142,7 +142,7 @@ msgid "SkipText"
 msgstr "跳过文本"
 
 msgid "Freecam"
-msgstr "自由镜头"
+msgstr "自由视角"
 
 msgid "CanAssist"
 msgstr "允许外援"
@@ -166,25 +166,25 @@ msgid "InfiniteHP"
 msgstr "无限HP"
 
 msgid "PacifyAll"
-msgstr "安抚敌方全体"
+msgstr "安抚所有敌人"
 
 msgid "Suicide"
 msgstr "自杀"
 
 msgid "WeakenAll"
-msgstr "削弱敌方全体"
+msgstr "清空敌方血条"
 
 msgid "$(x) FPS"
 msgstr "$(x)帧"
 
 msgid "Halt"
-msgstr "停止"
+msgstr "暂停"
 
 msgid "GAME SPEED"
 msgstr "游戏倍速"
 
 msgid "$(x)x"
-msgstr "$(x)x"
+msgstr "$(x)倍速"
 
 msgid "More"
 msgstr "加速"
@@ -196,7 +196,7 @@ msgid "$(x)s/frame"
 msgstr "每帧$(x)秒"
 
 msgid "GODHOME"
-msgstr "测试"
+msgstr "传送/战斗"
 
 msgid "ROOM"
 msgstr "房间"
@@ -205,7 +205,7 @@ msgid "Teleport"
 msgstr "传送"
 
 msgid "ENCOUNTER"
-msgstr "遭遇战"
+msgstr "战斗"
 
 msgid "Start"
 msgstr "开始"
@@ -217,7 +217,7 @@ msgid "WEAPON"
 msgstr "武器"
 
 msgid "INSPECT"
-msgstr "查看"
+msgstr "察看图层"
 
 msgid "LAYERS"
 msgstr "图层"
@@ -268,31 +268,31 @@ msgid "Menu (Explorer)"
 msgstr "菜单层"
 
 msgid "A"
-msgstr "A"
+msgstr "动"
 
 msgid "C"
-msgstr "C"
+msgstr "NPC"
 
 msgid "R"
-msgstr "R"
+msgstr "矩"
 
 msgid "E"
-msgstr "E"
+msgstr "形"
 
 msgid "H"
-msgstr "H"
+msgstr "箱"
 
 msgid "O"
-msgstr "O"
+msgstr "物"
 
 msgid "P"
-msgstr "P"
+msgstr "角"
 
 msgid "S"
-msgstr "S"
+msgstr "图"
 
 msgid "T"
-msgstr "T"
+msgstr "文"
 
 msgid "Press [TAB] to cycle debug info"
 msgstr "按[TAB]键浏览调试信息"
@@ -505,7 +505,7 @@ msgid "Volatile"
 msgstr ""
 
 msgid "SAVEMOD"
-msgstr "存档"
+msgstr "编辑存档"
 
 msgid "SAVE EDITOR"
 msgstr "存档编辑器"
@@ -529,7 +529,7 @@ msgid "Flags (Strings)"
 msgstr "节点（字符串型）"
 
 msgid "NAVIGATION"
-msgstr "浏览"
+msgstr "察看图层"
 
 msgid "Prev"
 msgstr "上一页"
@@ -538,13 +538,13 @@ msgid "Next"
 msgstr "下一页"
 
 msgid "Enter Value"
-msgstr "输入数值"
+msgstr "输入变量值"
 
 msgid "Back"
 msgstr "返回"
 
 msgid "STORAGE"
-msgstr "物品"
+msgstr "物品库存"
 
 msgid "STORAGE EDITOR"
 msgstr "物品库存编辑器"
@@ -577,10 +577,10 @@ msgid "SAVE files"
 msgstr "存档文件"
 
 msgid "Open File"
-msgstr "打开存档"
+msgstr "导入存档"
 
 msgid "Save File"
-msgstr "保存存档"
+msgstr "导出存档"
 
 msgid "Invalid SAVE file access \"$(x)\""
 msgstr "存档文件无效：“$(x)”"
@@ -589,7 +589,7 @@ msgid "That file could not be parsed."
 msgstr "无法解析存档。"
 
 msgid "The mod \"$(x)\" could not be loaded."
-msgstr "模组“$(x)”无法加载。"
+msgstr "无法加载Mod：“$(x)”。"
 
 msgid "OK"
 msgstr "确定"
@@ -616,8 +616,8 @@ msgid ""
 "a JSON file to save it\n"
 "to your device."
 msgstr ""
-"将下列文本\n"
-"复制到JSON文件，\n"
+"新建一个JSON文件，\n"
+"将下列内容复制进去\n"
 "并保存到设备中。"
 
 msgid "Load this file?"
@@ -810,7 +810,7 @@ msgid "Jojoton56"
 msgstr "Jojoton56"
 
 msgid "Jonkler"
-msgstr ""
+msgstr "Jonkler"
 
 msgid "lil tanski"
 msgstr "lil tanski"
@@ -907,7 +907,7 @@ msgid ""
 "inspiring me to finish the game.§fill:#fff§"
 msgstr ""
 "§fill:#808080§你是我认识的最暖心的人，\n"
-"是第一个支持我梦想的人。\n"
+"也是第一个支持我梦想的人。\n"
 "在你的激励下，\n"
 "我才能完成这款游戏。§fill:#fff§"
 
@@ -1508,7 +1508,7 @@ msgid ""
 msgstr ""
 
 msgid "RG 03 & RG 04"
-msgstr "RG 03 & RG 04"
+msgstr "3号守卫 & 4号守卫"
 
 msgid ""
 "In Search Of\n"
@@ -1763,7 +1763,7 @@ msgid "ASGORE"
 msgstr "ASGORE"
 
 msgid "MONSTER KID"
-msgstr "MONSTER KID"
+msgstr "怪物小孩"
 
 msgid "ASRIEL"
 msgstr "ASRIEL"
@@ -1897,7 +1897,7 @@ msgid "[Z OR ENTER] - Confirm"
 msgstr "[Z 或 ENTER] - 确认/交互"
 
 msgid "[X OR SHIFT] - Cancel"
-msgstr "[X 或 SHIFT] - 取消"
+msgstr "[X 或 SHIFT] - 返回"
 
 msgid "[C OR CTRL] - Menu (In-game)"
 msgstr "[C 或 CTRL] - 菜单（游戏内）"
@@ -1931,7 +1931,7 @@ msgid ""
 msgstr ""
 "\n"
 "注意：在本平台运行游戏时，\n"
-"使用游戏手柄可能无法全屏游玩。"
+"可能无法用手柄开启全屏。"
 
 msgid ""
 "A gamepad has already been set up.\n"
@@ -1968,7 +1968,7 @@ msgid "INF"
 msgstr "INF"
 
 msgid "[PRESS Z OR ENTER]"
-msgstr "[按下 Z 或 ENTER]"
+msgstr "[按 Z 或 ENTER]"
 
 msgid "LV"
 msgstr "LV"
@@ -1976,12 +1976,14 @@ msgstr "LV"
 msgid ""
 "§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§"
 msgstr ""
-"§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§"
+"§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:"
+"§"
 
 msgid ""
 "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
 msgstr ""
-"{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
+"{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystif"
+"y:}"
 
 msgid "{@mystify:abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
 msgstr "{@mystify:abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
@@ -2117,7 +2119,7 @@ msgid "MUSIC"
 msgstr "音乐"
 
 msgid "FANCY GRAPHICS"
-msgstr "精致图像"
+msgstr "高品质贴图"
 
 msgid "FLASHING IMAGERY"
 msgstr "闪烁画面"
@@ -2129,19 +2131,19 @@ msgid "REDUCED"
 msgstr "削减"
 
 msgid "ALIGN CONTROLS"
-msgstr "控制按钮位置"
+msgstr "方向键位置"
 
 msgid "LEFT"
-msgstr "左"
+msgstr "左侧"
 
 msgid "RIGHT"
-msgstr "右"
+msgstr "右侧"
 
 msgid "DEADZONE"
 msgstr "摇杆死区"
 
 msgid "OPEN MOD FOLDER"
-msgstr "打开模组目录"
+msgstr "打开Mod目录"
 
 msgid "ITEM"
 msgstr "物品"
@@ -2162,7 +2164,7 @@ msgid "[Z or ENTER] - Confirm"
 msgstr "[Z 或 ENTER] - 确认/交互"
 
 msgid "[X or SHIFT] - Cancel"
-msgstr "[X 或 SHIFT] - 取消"
+msgstr "[X 或 SHIFT] - 返回"
 
 msgid "[C or CTRL] - Menu (In-game)"
 msgstr "[C 或 CTRL] - 菜单（游戏内）"
@@ -2186,7 +2188,7 @@ msgid "GOLD"
 msgstr "金钱"
 
 msgid "NEXT"
-msgstr "下级"
+msgstr "升级需"
 
 msgid ""
 "§fill:#ff0§Warning:\n"
@@ -2201,7 +2203,7 @@ msgid "KILLS"
 msgstr "击杀"
 
 msgid "BULLY"
-msgstr "伤害"
+msgstr "击败"
 
 msgid "FLIRT"
 msgstr "调情"
@@ -2212,8 +2214,8 @@ msgstr "状态"
 msgid ""
 "Long ago, {^3}two species ruled the solar system: {^5}HUMANS and MONSTERS."
 msgstr ""
-"{#i/x2}很久以前，{^3}太阳系由\n"
-"两个物种统治着：{^5}\n"
+"{#i/x2}很久以前，{^3}太阳系\n"
+"由两个物种统治着：{^5}\n"
 "人类和怪物。"
 
 msgid "As time passed, {^3}a war broke out between the two species."
@@ -2272,13 +2274,13 @@ msgid "Delete"
 msgstr "删除"
 
 msgid "[ESC] to Cancel / [ENTER] to Confirm"
-msgstr "[ESC] 取消 / [ENTER] 确定"
+msgstr "[ESC]取消 / [ENTER]确定"
 
 msgid "Press any button on your gamepad to open the keyboard."
 msgstr "按手柄上任意按钮打开键盘。"
 
 msgid "Launch"
-msgstr "启动"
+msgstr "进入"
 
 msgid "Rename"
 msgstr "重命名"

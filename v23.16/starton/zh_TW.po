@@ -13176,6 +13176,8 @@ msgstr ""
 
 msgid "<15>{#p/papyrus}{#f/20}SPECIAL ATTACK, FORMATION ALPHA!!"
 msgstr ""
+"<15>{#p/papyrus}{#f/20}特殊攻擊，\n"
+"第一式！"
 
 msgid "<15>{#p/papyrus}{#f/20}SPECIAL ATTACK, FORMATION BETA!!"
 msgstr ""

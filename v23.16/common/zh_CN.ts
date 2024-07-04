@@ -3910,7 +3910,7 @@ export default {
       mkTurnFight3b: [ "<32>* 嘿呀...！" ],
       mkTurnFight3c: [ "<32>* 我打！" ],
       mkTurnMercy1: [ "<32>{#p/kidding}* 仁慈？\n* 让我饶恕对手吗？", "<32>{#p/kidding}* 哈哈，容易！" ],
-      mkTurnX: [ choicer.create("* （Monster Kid应该怎么做？）", "仁慈", "行动", "魔法", "战斗") ]
+      mkTurnX: [ choicer.create("* （怪物小孩应该怎么做？）", "仁慈", "行动", "魔法", "战斗") ]
    },
 
    c_name_common: {

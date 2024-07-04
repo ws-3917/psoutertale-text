@@ -4589,7 +4589,7 @@ msgid "<25>{#p/toriel}{#g/torielTired}* ... already?"
 msgstr "<25>{#p/toriel}{#g/torielTired}* ...出來了？"
 
 msgid "<25>{#p/toriel}{#g/torielTired}* ... feeling impatient?"
-msgstr "<25>{#p/toriel}{#g/torielTired}* ...待的不耐煩了？"
+msgstr "<25>{#p/toriel}{#g/torielTired}* ...待得不耐煩了？"
 
 msgid "<25>{#f/9}* I really should not be surprised."
 msgstr "<25>{#f/9}* 沒事，我已經猜到了。"

@@ -6634,7 +6634,7 @@ export default {
          "<15>{#f/20}NO HUMAN HAS EVER FACED MY {@fill:#f00}SPECIAL ATTACK{@fill:#000} BEFORE!",
          "<15>{#f/20}PREPARE TO BE CAPTURED, ONCE AND FOR ALL!"
       ],
-      turnTalk20: [ "<15>{#p/papyrus}{#f/20}SPECIAL ATTACK, FORMATION ALPHA!!" ],
+      turnTalk20: [ "<15>{#p/papyrus}{#f/20}特殊攻擊，\n第一式！" ],
       turnTalk21: [ "<15>{#p/papyrus}{#f/20}SPECIAL ATTACK, FORMATION BETA!!" ],
       turnTalk22: [ "<15>{#p/papyrus}{#f/20}SPECIAL ATTACK, FORMATION GAMMA!!" ],
       turnTalk23: [ "<15>{#p/papyrus}{#f/20}SPECIAL ATTACK, FORMATION DELTA!!" ],

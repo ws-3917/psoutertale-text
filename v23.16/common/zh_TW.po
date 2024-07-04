@@ -8634,7 +8634,7 @@ msgid "<32>{#p/kidding}* Haha, that's easy!"
 msgstr "<32>{#p/kidding}* 哈哈，容易！"
 
 msgid "* (What should Monster Kid do?)"
-msgstr "* （Monster Kid應該怎麼做？）"
+msgstr "* （怪物小孩應該怎麼做？）"
 
 msgid "Mercy"
 msgstr "伶俐ゐ"
