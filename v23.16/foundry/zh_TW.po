@@ -12994,10 +12994,10 @@ msgid "<32>{#p/story}* Smells like sushi."
 msgstr ""
 
 msgid "<32>{#p/story}* Undyne has a tear in her eye."
-msgstr ""
+msgstr "<32>{#p/story}* Undyne的眼角閃爍著淚光。"
 
 msgid "<32>{#p/story}* Undyne scowls at you."
-msgstr ""
+msgstr "<32>{#p/story}* Undyne沉著臉，死死瞪著你。"
 
 msgid ""
 "<32>{#p/story}* Undyne thinks of her friends and shatters the ground with "
@@ -13005,7 +13005,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/story}* Undyne isn't in the mood for games."
-msgstr ""
+msgstr "<32>{#p/story}* Undyne沒心情跟你胡鬧。"
 
 msgid "<32>{#p/story}* Smells like tuna salad."
 msgstr ""

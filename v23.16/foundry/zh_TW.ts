@@ -6407,10 +6407,10 @@ export default {
             : [ "<32>{#p/story}* Undyne thinks of her friends and pounds the ground with her fists." ],
       randStatus10: () =>
          respecc() ? [ "<32>{#p/story}* Smells like talapia." ] : [ "<32>{#p/story}* Smells like sushi." ],
-      papStatus1: [ "<32>{#p/story}* Undyne has a tear in her eye." ],
-      papStatus2: [ "<32>{#p/story}* Undyne scowls at you." ],
+      papStatus1: [ "<32>{#p/story}* Undyne的眼角閃爍著淚光。" ],
+      papStatus2: [ "<32>{#p/story}* Undyne沉著臉，死死瞪著你。" ],
       papStatus3: [ "<32>{#p/story}* Undyne thinks of her friends and shatters the ground with her body." ],
-      papStatus4: [ "<32>{#p/story}* Undyne isn't in the mood for games." ],
+      papStatus4: [ "<32>{#p/story}* Undyne沒心情跟你胡鬧。" ],
       papStatus5: [ "<32>{#p/story}* Smells like tuna salad." ],
       endStatus1: [ "<32>{#p/story}* Undyne's eye is twitching involuntarily." ],
       endStatus2: [ "<32>{#p/story}* Undyne is smashing spears on the ground." ],
