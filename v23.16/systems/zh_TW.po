@@ -3,10 +3,10 @@ msgid ""
 msgstr ""
 
 msgid "{#p/human}(You take a deep breath.)"
-msgstr "{#p/human}（你深吸了一口氣。）"
+msgstr "{#p/human}{#1/x2}（你深吸了一口氣。）"
 
 msgid "(You're filled with determination.)"
-msgstr "（你充滿了決心。）"
+msgstr "{#1/x2}（你充滿了決心。）"
 
 msgid "You cannot give up just yet..."
 msgstr "現在還不能放棄..."
@@ -498,22 +498,22 @@ msgid "SAVE EDITOR"
 msgstr "存檔編輯器"
 
 msgid "Data (Booleans)"
-msgstr "資料 (布爾型)"
+msgstr "資料（布爾型）"
 
 msgid "Data (Numbers)"
-msgstr "資料 (數值型)"
+msgstr "資料（數值型）"
 
 msgid "Data (Strings)"
-msgstr "資料 (字符串型)"
+msgstr "資料（字符串型）"
 
 msgid "Flags (Booleans)"
-msgstr "節點 (布爾型)"
+msgstr "節點（布爾型）"
 
 msgid "Flags (Numbers)"
-msgstr "節點 (數值型)"
+msgstr "節點（數值型）"
 
 msgid "Flags (Strings)"
-msgstr "節點 (字符串型)"
+msgstr "節點（字符串型）"
 
 msgid "NAVIGATION"
 msgstr "瀏覽"

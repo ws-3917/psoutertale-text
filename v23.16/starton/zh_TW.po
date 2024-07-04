@@ -8215,8 +8215,8 @@ msgstr ""
 
 msgid "<23>(\"NOTE: NOT YET A VERY FAMOUS ROYAL GUARDSMAN.\")"
 msgstr ""
-"<23>(“注：現在還只是\n"
-"超-有名皇家守衛的預備隊員。”)"
+"<23>（“注：現在還只是\n"
+"超-有名皇家守衛的預備隊員。”）"
 
 msgid "<25>{#p/sans}{#f/0}* admiring my bro's handiwork, are we?"
 msgstr ""

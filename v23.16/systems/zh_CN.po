@@ -1,27 +1,25 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-29 20:19+0000\n"
-"PO-Revision-Date: 2024-06-29 20:19+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"PO-Revision-Date: 2024-07-04 06:04+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/0-systems/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #
-
 msgid "{#p/human}(You take a deep breath.)"
-msgstr "{#p/human}（你深吸了一口气。）"
+msgstr "{#p/human}{#1/x2}（你深吸了一口气。）"
 
 msgid "(You're filled with determination.)"
-msgstr "（你充满了决心。）"
+msgstr "{#1/x2}（你充满了决心。）"
 
 msgid "You cannot give up just yet..."
 msgstr "现在还不能放弃..."
@@ -513,22 +511,22 @@ msgid "SAVE EDITOR"
 msgstr "存档编辑器"
 
 msgid "Data (Booleans)"
-msgstr "数据 (布尔型)"
+msgstr "数据（布尔型）"
 
 msgid "Data (Numbers)"
-msgstr "数据 (数值型)"
+msgstr "数据（数值型）"
 
 msgid "Data (Strings)"
-msgstr "数据 (字符串型)"
+msgstr "数据（字符串型）"
 
 msgid "Flags (Booleans)"
-msgstr "节点 (布尔型)"
+msgstr "节点（布尔型）"
 
 msgid "Flags (Numbers)"
-msgstr "节点 (数值型)"
+msgstr "节点（数值型）"
 
 msgid "Flags (Strings)"
-msgstr "节点 (字符串型)"
+msgstr "节点（字符串型）"
 
 msgid "NAVIGATION"
 msgstr "浏览"
@@ -630,7 +628,6 @@ msgstr "§fill:#ff0§< 游戏开发者 >§fill:#fff§"
 
 msgid "spacey_432"
 msgstr "spacey_432"
-
 
 msgid "§fill:#ff0§< WRITER >§fill:#fff§"
 msgstr "§fill:#ff0§< 文本编写 >§fill:#fff§"

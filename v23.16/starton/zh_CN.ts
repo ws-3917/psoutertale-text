@@ -4072,7 +4072,7 @@ export default {
                             "<23>“我敢说，肯定是出自那个\n超-有名的皇家守卫之手！”",
                             SAVE.data.n.plot === 72
                                ? "<32>{#p/basic}* The last line was crossed out."
-                               : "<23>(“注：现在还只是\n超-有名皇家守卫的预备队员。”)",
+                               : "<23>（“注：现在还只是\n超-有名皇家守卫的预备队员。”）",
                             ...(SAVE.data.n.plot < 19 && !world.edgy
                                ? [
                                     "<25>{#p/sans}{#f/0}* admiring my bro's handiwork, are we?",
@@ -4099,7 +4099,7 @@ export default {
                             "<23>“我敢说，肯定是出自那个\n超-有名的皇家守卫之手！”",
                             SAVE.data.n.plot === 72
                                ? "<32>{#p/basic}* The last line was crossed out.\n* That checks out."
-                               : "<23>(“注：现在还只是\n超-有名皇家守卫的预备队员。”)"
+                               : "<23>（“注：现在还只是\n超-有名皇家守卫的预备队员。”）"
                          ])
                  ]
       ),
