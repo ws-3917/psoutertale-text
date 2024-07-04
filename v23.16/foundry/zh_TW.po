@@ -9413,52 +9413,70 @@ msgid ""
 "<25>{#p/kidd}{#f/1}* Yo!\n"
 "* There she is!"
 msgstr ""
+"<25>{#p/kidd}{#f/1}* 喲！\n"
+"* 她就在那裡！"
 
 msgid "<25>{#p/kidd}{#f/7}* Wait... you're a human, aren't you?"
 msgstr ""
+"<25>{#p/kidd}{#f/7}* 等等…… 你是個人類，\n"
+"  對吧？"
 
 msgid "<25>{*}{#p/kidd}{#f/7}* RUUUUUUUUUUUN!{^20}{%}"
-msgstr ""
+msgstr "<25>{*}{#p/kidd}{#f/7}* 快跑啊啊啊啊啊！{^20}{%}"
 
 msgid "<25>{#p/kidd}{#f/2}* Phew..."
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/2}* 呼……"
 
 msgid "<25>{#p/kidd}{#f/1}* Uh, you can step off the platform now."
 msgstr ""
+"<25>{#p/kidd}{#f/1}* 呃，你可以從平臺上\n"
+"  下來了。"
 
 msgid "<25>{#p/kidd}{#f/4}* Where'd she go...?"
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/4}* 她去哪了……？"
 
 msgid "<25>{#p/kidd}{#f/7}* AH!{^10}{%}"
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/7}* 啊！{^10}{%}"
 
 msgid ""
 "<25>{#p/kidd}{#f/2}* Psst, I think we can sneak past her.\n"
 "* Come on!"
 msgstr ""
+"<25>{#p/kidd}{#f/2}* 噓，我感覺我們可以偷渡\n"
+"過去。\n"
+"* 快跟上我！"
 
 msgid "<25>{#p/kidd}{#f/4}* It's dark..."
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/4}* 這裡烏黑一片……"
 
 msgid "<25>{#p/kidd}{#f/7}* ... but we have to keep going forward!"
 msgstr ""
+"<25>{#p/kidd}{#f/7}* ……但是我們得保持\n"
+"  前進！"
 
 msgid "<25>{#p/kidd}{#f/7}* Quick, into the conveniently-placed plants!"
 msgstr ""
+"<25>{#p/kidd}{#f/7}* 快躲進那叢便於藏身\n"
+"  的植物裡！"
 
 msgid "<25>{#p/kidd}{#f/7}* She... she..."
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/7}* 她... 她..."
 
 msgid "<25>{#f/7}* She TOUCHED me!!"
-msgstr ""
+msgstr "<25>{#f/7}* 她摸到我了！！"
 
 msgid ""
 "<25>{#f/4}* ...\n"
 "* Guess we're BOTH lucky, then, huh?"
 msgstr ""
+"<25>{#f/4}* ...\n"
+"* 我們應該都算走運，\n"
+"  你說是吧？"
 
 msgid "<25>{#f/5}* Things could've gotten real bad if she saw you."
 msgstr ""
+"<25>{#f/5}* 如果她看見你，\n"
+"  那就大事不妙了。"
 
 msgid "<25>{#p/kidd}{#f/1}* She... she..."
 msgstr "<25>{#p/kidd}{#f/1}* 她... 她..."
@@ -9570,18 +9588,22 @@ msgstr "<25>{#p/kidd}{#f/1}* 出發吧！"
 
 msgid "<25>{#f/3}* Hey... I know we only just met, but..."
 msgstr ""
+"<25>{#f/3}* 嘿... 我知道我們剛\n"
+"  認識不久，但是..."
 
 msgid "<25>{#f/4}* I don't want Undyne to hurt you..."
 msgstr ""
+"<25>{#f/4}* 我，其實，並不想讓\n"
+"  Undyne傷害你..."
 
 msgid "<25>* ..."
 msgstr ""
 
 msgid "<25>{#f/2}* Why don't we stick together for a while?"
-msgstr ""
+msgstr "<25>{#f/2}* 要不然我們一起行動？"
 
 msgid "<25>{#f/1}* Come on, it'll be fun!"
-msgstr ""
+msgstr "<25>{#f/1}* 來吧，這會很有趣的！"
 
 msgid ""
 "<25>{#p/kidd}{#f/2}* Man, you shoulda SEEN her during human- chasing "
@@ -9596,7 +9618,7 @@ msgstr ""
 "  上億隻矛呢！"
 
 msgid "<25>{#f/1}* I'm right behind you!"
-msgstr ""
+msgstr "<25>{#f/1}* 我正在你身後呢！"
 
 msgid "<25>{#p/kidd}{#f/2}* And when the target was about to get away..."
 msgstr "<25>{#p/kidd}{#f/2}* 每當獵物快要逃脫..."
@@ -11753,6 +11775,8 @@ msgstr "<32>{#p/asriel2}* Doge。"
 
 msgid "<32>{#p/story}* Doge struts towards you."
 msgstr ""
+"<32>{#p/story}* Doge昂首闊步向你\n"
+"  走來。"
 
 msgid "<32>{#p/story}* Doge studies your stance, and deems it lacking."
 msgstr ""
@@ -11764,7 +11788,7 @@ msgid "<32>{#p/story}* Doge needs a good washdown."
 msgstr ""
 
 msgid "<32>{#p/story}* Doge double-checks her stance."
-msgstr ""
+msgstr "<32>{#p/story}* Doge一再檢查她的站姿。"
 
 msgid "<32>{#p/story}* Doge is dripping wet."
 msgstr ""
@@ -11785,7 +11809,7 @@ msgid "<32>{#p/story}* Doge ponders the meaning of her duty."
 msgstr ""
 
 msgid "<32>{#p/story}* Doge thinks of her friends."
-msgstr ""
+msgstr "<32>{#p/story}* Doge想起了她的朋友們。"
 
 msgid "<32>{#p/story}* Doge thinks of her honor."
 msgstr ""
@@ -11989,12 +12013,18 @@ msgstr ""
 
 msgid "<12>{#p/basic}{~}Doggo was the newest recruit to the canines."
 msgstr ""
+"<12>{#p/basic}{~}Doggo是狗狗守衛最新\n"
+"的成員。"
 
 msgid "<11>{#p/basic}{~}Some saw his blindness as a weakness..."
 msgstr ""
+"<11>{#p/basic}{~}有些人… 把他的視力\n"
+"當作一種空去鑽…"
 
 msgid "<11>{#p/basic}{~}But he had so much promise."
 msgstr ""
+"<11>{#p/basic}{~}但是他的前途\n"
+"那麼明朗。"
 
 msgid "<11>{#p/basic}{~}It would be wise for you to surrender."
 msgstr ""
@@ -12039,12 +12069,21 @@ msgstr ""
 
 msgid "<11>{#p/basic}{~}Canis Minor was Canis Major's underling."
 msgstr ""
+"<11>{#p/basic}{~}Canis Minor是\n"
+"Canis Major\n"
+"的直系下屬。"
 
 msgid "<11>{#p/basic}{~}Its unique perspective helped in unexpected ways..."
 msgstr ""
+"<11>{#p/basic}{~}它獨特的觀察\n"
+"方式幫了很\n"
+"多忙……"
 
 msgid "<11>{#p/basic}{~}Even if it was often mis- understood."
 msgstr ""
+"<11>{#p/basic}{~}即使這種行為\n"
+"常常被大家\n"
+"誤解。"
 
 msgid "<11>{#p/basic}{~}For life, you show nothing but contempt."
 msgstr ""
@@ -16382,9 +16421,13 @@ msgstr "鑄廠 - 邊檢站"
 msgid ""
 "<32>{#p/human}* (Somehow, the steam emitted by these vents is unsettling.)"
 msgstr ""
+"<32>{#p/human}* （不知怎地，通風口排出的\n"
+"  蒸汽令人不安。)"
 
 msgid "<32>{#p/human}* (Nonetheless, it fills you with determination.)"
 msgstr ""
+"<32>{#p/human}* （儘管如此，你充滿了\n"
+"  決心。）"
 
 msgid ""
 "<32>{#p/human}* (The hot, damp steam emitted by these vents fills you with "

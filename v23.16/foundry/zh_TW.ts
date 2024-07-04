@@ -4581,21 +4581,21 @@ export default {
               ]
             : [])
       ],
-      undyne1j: [ "<25>{#p/kidd}{#f/1}* Yo!\n* There she is!" ],
-      undyne1k: [ "<25>{#p/kidd}{#f/7}* Wait... you're a human, aren't you?" ],
-      undyne1l: [ "<25>{*}{#p/kidd}{#f/7}* RUUUUUUUUUUUN!{^20}{%}" ],
-      undyne1m: [ "<25>{#p/kidd}{#f/2}* Phew..." ],
-      undyne1n: [ "<25>{#p/kidd}{#f/1}* Uh, you can step off the platform now." ],
-      undyne1o: [ "<25>{#p/kidd}{#f/4}* Where'd she go...?" ],
-      undyne1p: [ "<25>{#p/kidd}{#f/7}* AH!{^10}{%}" ],
-      undyne1q: [ "<25>{#p/kidd}{#f/2}* Psst, I think we can sneak past her.\n* Come on!" ],
-      undyne1r: [ "<25>{#p/kidd}{#f/4}* It's dark...", "<25>{#p/kidd}{#f/7}* ... but we have to keep going forward!" ],
-      undyne1s: [ "<25>{#p/kidd}{#f/7}* Quick, into the conveniently-placed plants!" ],
+      undyne1j: [ "<25>{#p/kidd}{#f/1}* 喲！\n* 她就在那裡！" ],
+      undyne1k: [ "<25>{#p/kidd}{#f/7}* 等等…… 你是個人類，\n  對吧？" ],
+      undyne1l: [ "<25>{*}{#p/kidd}{#f/7}* 快跑啊啊啊啊啊！{^20}{%}" ],
+      undyne1m: [ "<25>{#p/kidd}{#f/2}* 呼……" ],
+      undyne1n: [ "<25>{#p/kidd}{#f/1}* 呃，你可以從平臺上\n  下來了。" ],
+      undyne1o: [ "<25>{#p/kidd}{#f/4}* 她去哪了……？" ],
+      undyne1p: [ "<25>{#p/kidd}{#f/7}* 啊！{^10}{%}" ],
+      undyne1q: [ "<25>{#p/kidd}{#f/2}* 噓，我感覺我們可以偷渡\n過去。\n* 快跟上我！" ],
+      undyne1r: [ "<25>{#p/kidd}{#f/4}* 這裡烏黑一片……", "<25>{#p/kidd}{#f/7}* ……但是我們得保持\n  前進！" ],
+      undyne1s: [ "<25>{#p/kidd}{#f/7}* 快躲進那叢便於藏身\n  的植物裡！" ],
       undyne2a: [
-         "<25>{#p/kidd}{#f/7}* She... she...",
-         "<25>{#f/7}* She TOUCHED me!!",
-         "<25>{#f/4}* ...\n* Guess we're BOTH lucky, then, huh?",
-         "<25>{#f/5}* Things could've gotten real bad if she saw you."
+         "<25>{#p/kidd}{#f/7}* 她... 她...",
+         "<25>{#f/7}* 她摸到我了！！",
+         "<25>{#f/4}* ...\n* 我們應該都算走運，\n  你說是吧？",
+         "<25>{#f/5}* 如果她看見你，\n  那就大事不妙了。"
       ],
       undyne2ax: () => [
          "<25>{#p/kidd}{#f/1}* 她... 她...",
@@ -4629,17 +4629,17 @@ export default {
       undyne2b: [ "<25>{#p/kidd}{#f/1}* 喲，還等什麼呢？" ],
       undyne2bx: [ "<25>{#p/kidd}{#f/1}* 出發吧！" ],
       undyne2c: [
-         "<25>{#f/3}* Hey... I know we only just met, but...",
-         "<25>{#f/4}* I don't want Undyne to hurt you...",
+         "<25>{#f/3}* 嘿... 我知道我們剛\n  認識不久，但是...",
+         "<25>{#f/4}* 我，其實，並不想讓\n  Undyne傷害你...",
          "<25>* ...",
-         "<25>{#f/2}* Why don't we stick together for a while?",
-         "<25>{#f/1}* Come on, it'll be fun!"
+         "<25>{#f/2}* 要不然我們一起行動？",
+         "<25>{#f/1}* 來吧，這會很有趣的！"
       ],
       undyne2cx: [
          "<25>{#p/kidd}{#f/2}* 老兄，我超推薦你們去看看\n  Undyne的人類追逐練習的！",
          "<25>{#f/1}* 她一秒就能扔出\n  上億隻矛呢！"
       ],
-      undyne2d: [ "<25>{#f/1}* I'm right behind you!" ],
+      undyne2d: [ "<25>{#f/1}* 我正在你身後呢！" ],
       undyne2dx: () => [
          "<25>{#p/kidd}{#f/2}* 每當獵物快要逃脫...",
          "<25>{#f/1}* 她總能在最後一刻精準命中！",
@@ -5740,13 +5740,13 @@ export default {
       petTextPost6: [ "<32>{#p/human}* (You pet Doge.)", "<32>{#p/basic}* It continues." ],
       petTextPost7: [ "<32>{#p/human}* (You pet Doge.)", "<32>{#p/basic}* ..." ],
       petTextSus: [ "<32>{#p/human}* (But Doge was too antsy to be pet.)" ],
-      status1: () => (world.goatbro ? [ "<32>{#p/asriel2}* Doge。" ] : [ "<32>{#p/story}* Doge struts towards you." ]),
+      status1: () => (world.goatbro ? [ "<32>{#p/asriel2}* Doge。" ] : [ "<32>{#p/story}* Doge昂首闊步向你\n  走來。" ]),
       turnStatus1: [ "<32>{#p/story}* Doge studies your stance, and deems it lacking." ],
       turnStatus2: () =>
          dogecon() ? [ "<32>{#p/story}* Doge fiddles with her spear." ] : [ "<32>{#p/story}* Doge needs a good washdown." ],
       turnStatus3: () =>
          dogecon()
-            ? [ "<32>{#p/story}* Doge double-checks her stance." ]
+            ? [ "<32>{#p/story}* Doge一再檢查她的站姿。" ]
             : battler.volatile[0].vars.bathe
             ? [ "<32>{#p/story}* Doge is dripping wet." ]
             : [ "<32>{#p/story}* Doge's hygiene remains unchanged, much to her dismay." ],
@@ -5760,7 +5760,7 @@ export default {
             : [ "<32>{#p/story}* Doge ponders the meaning of her duty." ],
       turnStatus5: () =>
          world.dead_canine
-            ? [ "<32>{#p/story}* Doge thinks of her friends." ]
+            ? [ "<32>{#p/story}* Doge想起了她的朋友們。" ]
             : dogex()
             ? [ "<32>{#p/story}* Doge thinks of her honor." ]
             : battler.volatile[0].vars.walk
@@ -5871,9 +5871,9 @@ export default {
               ]
             : world.dead_canine
             ? [
-                 "<12>{#p/basic}{~}Doggo was the newest recruit to the canines.",
-                 "<11>{#p/basic}{~}Some saw his blindness as a weakness...",
-                 "<11>{#p/basic}{~}But he had so much promise."
+                 "<12>{#p/basic}{~}Doggo是狗狗守衛最新\n的成員。",
+                 "<11>{#p/basic}{~}有些人… 把他的視力\n當作一種空去鑽…",
+                 "<11>{#p/basic}{~}但是他的前途\n那麼明朗。"
               ]
             : dogex()
             ? [ "<11>{#p/basic}{~}It would be wise for you to surrender.", "<11>{#p/basic}{~}Not that you know how." ]
@@ -5898,9 +5898,9 @@ export default {
               ]
             : world.dead_canine
             ? [
-                 "<11>{#p/basic}{~}Canis Minor was Canis Major's underling.",
-                 "<11>{#p/basic}{~}Its unique perspective helped in unexpected ways...",
-                 "<11>{#p/basic}{~}Even if it was often mis- understood."
+                 "<11>{#p/basic}{~}Canis Minor是\nCanis Major\n的直系下屬。",
+                 "<11>{#p/basic}{~}它獨特的觀察\n方式幫了很\n多忙……",
+                 "<11>{#p/basic}{~}即使這種行為\n常常被大家\n誤解。"
               ]
             : dogex()
             ? [
@@ -8176,8 +8176,8 @@ export default {
          text: () =>
             world.dead_skeleton || world.runaway
                ? [
-                    "<32>{#p/human}* (Somehow, the steam emitted by these vents is unsettling.)",
-                    "<32>{#p/human}* (Nonetheless, it fills you with determination.)"
+                    "<32>{#p/human}* （不知怎地，通風口排出的\n  蒸汽令人不安。)",
+                    "<32>{#p/human}* （儘管如此，你充滿了\n  決心。）"
                  ]
                : [ "<32>{#p/human}* (The hot, damp steam emitted by these vents fills you with determination.)" ]
       },

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-25 14:19+0000\n"
-"PO-Revision-Date: 2024-07-02 12:25+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"PO-Revision-Date: 2024-07-03 13:04+0000\n"
+"Last-Translator: XieFishIsHere <3548744951@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/3-foundry/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #
 msgid "<32>{#p/human}* (You decide not to equip.)"
@@ -9422,56 +9422,89 @@ msgstr ""
 msgid "<23>SOMETHING SEEMS... OFF."
 msgstr ""
 
+#, fuzzy
 msgid ""
 "<25>{#p/kidd}{#f/1}* Yo!\n"
 "* There she is!"
 msgstr ""
+"<25>{#p/kidd}{#f/1}* 哟！\n"
+"* 她就在那里！"
 
+#, fuzzy
 msgid "<25>{#p/kidd}{#f/7}* Wait... you're a human, aren't you?"
 msgstr ""
+"<25>{#p/kidd}{#f/7}* 等等…… 你是个人类，\n"
+"  对吧？"
 
+#, fuzzy
 msgid "<25>{*}{#p/kidd}{#f/7}* RUUUUUUUUUUUN!{^20}{%}"
-msgstr ""
+msgstr "<25>{*}{#p/kidd}{#f/7}* 快跑啊啊啊啊啊！{^20}{%}"
 
+#, fuzzy
 msgid "<25>{#p/kidd}{#f/2}* Phew..."
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/2}* 呼……"
 
+#, fuzzy
 msgid "<25>{#p/kidd}{#f/1}* Uh, you can step off the platform now."
 msgstr ""
+"<25>{#p/kidd}{#f/1}* 呃，你可以从平台上\n"
+"  下来了。"
 
+#, fuzzy
 msgid "<25>{#p/kidd}{#f/4}* Where'd she go...?"
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/4}* 她去哪了……？"
 
+#, fuzzy
 msgid "<25>{#p/kidd}{#f/7}* AH!{^10}{%}"
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/7}* 啊！{^10}{%}"
 
+#, fuzzy
 msgid ""
 "<25>{#p/kidd}{#f/2}* Psst, I think we can sneak past her.\n"
 "* Come on!"
 msgstr ""
+"<25>{#p/kidd}{#f/2}* 嘘，我感觉我们可以偷渡\n"
+"过去。\n"
+"* 快跟上我！"
 
+#, fuzzy
 msgid "<25>{#p/kidd}{#f/4}* It's dark..."
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/4}* 这里乌黑一片……"
 
+#, fuzzy
 msgid "<25>{#p/kidd}{#f/7}* ... but we have to keep going forward!"
 msgstr ""
+"<25>{#p/kidd}{#f/7}* ……但是我们得保持\n"
+"  前进！"
 
+#, fuzzy
 msgid "<25>{#p/kidd}{#f/7}* Quick, into the conveniently-placed plants!"
 msgstr ""
+"<25>{#p/kidd}{#f/7}* 快躲进那丛便于藏身\n"
+"  的植物里！"
 
+#, fuzzy
 msgid "<25>{#p/kidd}{#f/7}* She... she..."
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/7}* 她... 她..."
 
+#, fuzzy
 msgid "<25>{#f/7}* She TOUCHED me!!"
-msgstr ""
+msgstr "<25>{#f/7}* 她摸到我了！！"
 
+#, fuzzy
 msgid ""
 "<25>{#f/4}* ...\n"
 "* Guess we're BOTH lucky, then, huh?"
 msgstr ""
+"<25>{#f/4}* ...\n"
+"* 我们应该都算走运，\n"
+"  你说是吧？"
 
+#, fuzzy
 msgid "<25>{#f/5}* Things could've gotten real bad if she saw you."
 msgstr ""
+"<25>{#f/5}* 如果她看见你，\n"
+"  那就大事不妙了。"
 
 msgid "<25>{#p/kidd}{#f/1}* She... she..."
 msgstr "<25>{#p/kidd}{#f/1}* 她... 她..."
@@ -9581,20 +9614,28 @@ msgstr "<25>{#p/kidd}{#f/1}* 哟，还等什么呢？"
 msgid "<25>{#p/kidd}{#f/1}* Let's go!"
 msgstr "<25>{#p/kidd}{#f/1}* 出发吧！"
 
+#, fuzzy
 msgid "<25>{#f/3}* Hey... I know we only just met, but..."
 msgstr ""
+"<25>{#f/3}* 嘿... 我知道我们刚\n"
+"  认识不久，但是..."
 
+#, fuzzy
 msgid "<25>{#f/4}* I don't want Undyne to hurt you..."
 msgstr ""
+"<25>{#f/4}* 我，其实，并不想让\n"
+"  Undyne伤害你..."
 
 msgid "<25>* ..."
 msgstr ""
 
+#, fuzzy
 msgid "<25>{#f/2}* Why don't we stick together for a while?"
-msgstr ""
+msgstr "<25>{#f/2}* 要不然我们一起行动？"
 
+#, fuzzy
 msgid "<25>{#f/1}* Come on, it'll be fun!"
-msgstr ""
+msgstr "<25>{#f/1}* 来吧，这会很有趣的！"
 
 msgid ""
 "<25>{#p/kidd}{#f/2}* Man, you shoulda SEEN her during human- chasing "
@@ -9608,8 +9649,9 @@ msgstr ""
 "<25>{#f/1}* 她一秒就能扔出\n"
 "  上亿只矛呢！"
 
+#, fuzzy
 msgid "<25>{#f/1}* I'm right behind you!"
-msgstr ""
+msgstr "<25>{#f/1}* 我正在你身后呢！"
 
 msgid "<25>{#p/kidd}{#f/2}* And when the target was about to get away..."
 msgstr "<25>{#p/kidd}{#f/2}* 每当猎物快要逃脱..."
@@ -11764,8 +11806,11 @@ msgstr ""
 msgid "<32>{#p/asriel2}* Doge."
 msgstr "<32>{#p/asriel2}* Doge。"
 
+#, fuzzy
 msgid "<32>{#p/story}* Doge struts towards you."
 msgstr ""
+"<32>{#p/story}* Doge昂首阔步向你\n"
+"  走来。"
 
 msgid "<32>{#p/story}* Doge studies your stance, and deems it lacking."
 msgstr ""
@@ -11776,8 +11821,9 @@ msgstr ""
 msgid "<32>{#p/story}* Doge needs a good washdown."
 msgstr ""
 
+#, fuzzy
 msgid "<32>{#p/story}* Doge double-checks her stance."
-msgstr ""
+msgstr "<32>{#p/story}* Doge一再检查她的站姿。"
 
 msgid "<32>{#p/story}* Doge is dripping wet."
 msgstr ""
@@ -11797,8 +11843,9 @@ msgstr ""
 msgid "<32>{#p/story}* Doge ponders the meaning of her duty."
 msgstr ""
 
+#, fuzzy
 msgid "<32>{#p/story}* Doge thinks of her friends."
-msgstr ""
+msgstr "<32>{#p/story}* Doge想起了她的朋友们。"
 
 msgid "<32>{#p/story}* Doge thinks of her honor."
 msgstr ""
@@ -12000,14 +12047,23 @@ msgstr ""
 "如此邪恶至极，\n"
 "却将登基为王。"
 
+#, fuzzy
 msgid "<12>{#p/basic}{~}Doggo was the newest recruit to the canines."
 msgstr ""
+"<12>{#p/basic}{~}Doggo是狗狗守卫最新\n"
+"的成员。"
 
+#, fuzzy
 msgid "<11>{#p/basic}{~}Some saw his blindness as a weakness..."
 msgstr ""
+"<11>{#p/basic}{~}有些人… 把他的视力\n"
+"当作一种空去钻…"
 
+#, fuzzy
 msgid "<11>{#p/basic}{~}But he had so much promise."
 msgstr ""
+"<11>{#p/basic}{~}但是他的前途\n"
+"那么明朗。"
 
 msgid "<11>{#p/basic}{~}It would be wise for you to surrender."
 msgstr ""
@@ -12050,14 +12106,26 @@ msgstr ""
 "<11>{#p/basic}{~}...誓要剿灭\n"
 "我族所有同胞？"
 
+#, fuzzy
 msgid "<11>{#p/basic}{~}Canis Minor was Canis Major's underling."
 msgstr ""
+"<11>{#p/basic}{~}Canis Minor是\n"
+"Canis Major\n"
+"的直系下属。"
 
+#, fuzzy
 msgid "<11>{#p/basic}{~}Its unique perspective helped in unexpected ways..."
 msgstr ""
+"<11>{#p/basic}{~}它独特的观察\n"
+"方式帮了很\n"
+"多忙……"
 
+#, fuzzy
 msgid "<11>{#p/basic}{~}Even if it was often mis- understood."
 msgstr ""
+"<11>{#p/basic}{~}即使这种行为\n"
+"常常被大家\n"
+"误解。"
 
 msgid "<11>{#p/basic}{~}For life, you show nothing but contempt."
 msgstr ""
@@ -16392,12 +16460,18 @@ msgstr ""
 msgid "Foundry - Checkpoint"
 msgstr "铸厂 - 边检站"
 
+#, fuzzy
 msgid ""
 "<32>{#p/human}* (Somehow, the steam emitted by these vents is unsettling.)"
 msgstr ""
+"<32>{#p/human}* （不知怎地，通风口排出的\n"
+"  蒸汽令人不安。)"
 
+#, fuzzy
 msgid "<32>{#p/human}* (Nonetheless, it fills you with determination.)"
 msgstr ""
+"<32>{#p/human}* （尽管如此，你充满了\n"
+"  决心。）"
 
 msgid ""
 "<32>{#p/human}* (The hot, damp steam emitted by these vents fills you with "
