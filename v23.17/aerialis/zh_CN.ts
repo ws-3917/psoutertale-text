@@ -4414,7 +4414,7 @@ export default {
                     ][Math.min(asrielinter.labscope++, 2)]
                  ]
                : [
-                    "<32>{#p/basic}* A standard-issue CITADEL high- precision electron microscope, circa 261X.",
+                    "<32>{#p/basic}* 标准规格的精密电子显微镜，\n  皇家出品。\n* 261X年前后制成。",
                     ...(mtt
                        ? [
                             "<32>{#p/mettaton}* THESE ADVANCED MICROSCOPES WERE ONLY RELEASED A FEW YEARS AGO.",

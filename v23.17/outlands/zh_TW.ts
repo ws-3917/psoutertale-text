@@ -177,7 +177,7 @@ export default {
          ],
          d1: [ "<32>{#p/basic}* Asriel。" ],
          d2: [ "<25>{#p/asriel1}{#f/13}* ...Frisk？\n* 是你嗎...？" ],
-         d3: [ "<32>{#p/basic}* Asriel，是我啊...", "<32>{#p/basic}* 記得我嗎，你最好的朋友？" ],
+         d3: [ "<32>{#p/basic}* Asriel，是我啊，你最好的朋友...", "<32>{#p/basic}* 還記得我嗎？" ],
          d4: [
             "<25>{#p/asriel1}{#f/25}* ...！",
             "<25>{#f/25}* $(name)...？",
@@ -186,7 +186,7 @@ export default {
          ],
          d5: [ "<32>{#p/basic}* 死了？" ],
          d6: [
-            "<32>{#p/basic}* 呵。\n* 很長一段時間裡...\n  有時我真希望當時就死了。",
+            "<32>{#p/basic}* 呵。\n* 很長一段時間裡...\n  我真想一死了之。",
             "<32>{#p/basic}* 我對你做了那種事，我...\n  我就活該去死。"
          ],
          d7: [ "<25>{#p/asriel1}{#f/7}* 別這麼說， $(name)！", "<25>{#f/6}* ...你錯了！" ],
@@ -1980,14 +1980,14 @@ export default {
          "<25>{#f/0}* 我必須教給你一些本領。\n* 學會這些，\n  你才能在這裡生存下去。",
          "<25>{#f/1}* 首當其衝的...",
          "<25>{#f/0}* 當然是謎題了！",
-         "<25>{#f/0}* 我來給你快速地演示一下。"
+         "<25>{#f/0}* 我來給你快速演示一下。"
       ],
       lobby_puzzle2: [
-         "<25>{#p/toriel}{#f/1}* 你可能現在還覺得很奇怪，\n  但是在前哨站...",
-         "<25>{#f/0}* 解謎題是我們的家常便飯。",
+         "<25>{#p/toriel}{#f/1}* 現在，你可能還覺得很奇怪。\n* 不過...",
+         "<25>{#f/0}* 在前哨站，\n  解謎就是我們的家常便飯。",
          "<25>{#f/0}* 時間久了，再加上一點指導，\n  你就會逐漸習慣上的。"
       ],
-      lobby_puzzle3: [ "<25>{#p/toriel}* 等你準備好了，\n  我們就可以繼續前進了。" ],
+      lobby_puzzle3: [ "<25>{#p/toriel}* 等你準備好，\n  我們就可以繼續前進了。" ],
       loox: {
          a: [
             "<32>{#p/basic}{#n1}* I heard you're quite flirty, for a human.",
@@ -2753,7 +2753,7 @@ export default {
                  ]
                : [
                     "<32>{#p/basic}* 呱呱，呱呱。\n* （打擾一下，人類...）",
-                    "<32>* （我給你幾點戰鬥的建議。）",
+                    "<32>* （我想給你幾點戰鬥的建議。）",
                     "<32>* （假如你使出特別的{@fill:#ff0}放招{@fill:#fff}，\n  或是透過{@fill:#ff0}搏鬥{@fill:#fff}把它們打得\n  只剩下一絲氣息...）",
                     "<32>* （他們八成就無心再戰。）",
                     "<32>* （如果一個怪物不想搏鬥，\n  那麼...）",
@@ -3969,26 +3969,26 @@ export default {
          "<32>{#p/human}* (You challenge Mushy to a duel.)",
          "<33>{#p/story}* Mushy's SPEED up for this turn!"
       ],
-      act_check: [ "<32>{#p/story}* MUSHY - 攻擊6 防禦6\n* 對星際牛仔十分崇拜，\n  於是練就了一身好槍法。" ],
-      act_check2: [ "<32>{#p/story}* MUSHY - 攻擊6 防禦6\n* 星際牛仔的忠實粉絲。\n* 包括性感的那種。" ],
+      act_check: [ "<32>{#p/story}* MUSHY - 攻擊6 防禦6\n* 是星際牛仔的忠實粉絲。\n  也是一位槍術高手。" ],
+      act_check2: [ "<32>{#p/story}* MUSHY - 攻擊6 防禦6\n* 是星際牛仔的忠實粉絲。\n  尤其鍾愛性感牛仔。" ],
       act_check3: [ "<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* After giving it your all, this gunslinger is impressed." ],
-      act_flirt: [ "<32>{#p/human}* (你向Mushy調情。)" ],
-      act_taunt: [ "<32>{#p/human}* (你對著Mushy一通嘲諷)" ],
+      act_flirt: [ "<32>{#p/human}* （你向Mushy調情。）" ],
+      act_taunt: [ "<32>{#p/human}* （你對著Mushy一通嘲諷。）" ],
       challengeStatus: [ "<32>{#p/story}* Mushy awaits your next challenge." ],
       challengeTalk1: [ "<08>{#p/basic}{~}Let's see what you got." ],
       challengeTalk2: [ "<08>{#p/basic}{~}Think you can take me?" ],
       flirtStatus1: [ "<32>{#p/story}* Mushy既困惑又興奮。" ],
-      flirtTalk1: [ "<08>{#p/basic}{~}嘿，別-別鬧了！" ],
+      flirtTalk1: [ "<08>{#p/basic}{~}嘿，\n別-別鬧了！" ],
       hurtStatus: [ "<32>{#p/story}* Mushy準備拼死一搏。" ],
-      idleTalk1: [ "<08>{#p/basic}{~}砰!\n砰!\n砰!" ],
+      idleTalk1: [ "<08>{#p/basic}{~}砰！\n砰！\n砰！" ],
       idleTalk2: [ "<08>{#p/basic}{~}上馬！" ],
       idleTalk3: [ "<08>{#p/basic}{~}All in a day's." ],
       name: "* Mushy",
       spareStatus: [ "<32>{#p/story}* Mushy bows out of respect." ],
-      status1: [ "<32>{#p/story}* Mushy 如疾風般衝來！" ],
+      status1: [ "<32>{#p/story}* 剎那間，Mushy已至！" ],
       status2: [ "<32>{#p/story}* Mushy adjusts their stance." ],
       status3: [ "<32>{#p/story}* Mushy is preparing for a grand standoff." ],
-      status4: [ "<32>{#p/story}* Mushy 把手往槍套伸去。" ],
+      status4: [ "<32>{#p/story}* Mushy伸手向腰，直奔槍套。" ],
       status5: [ "<32>{#p/story}* Smells like petricore." ],
       tauntStatus1: [ "<32>{#p/story}* Mushy假裝對你的嘲諷漠不關心。" ],
       tauntTalk1: [ "<08>{#p/basic}{~}搞得好像這對我有用一樣。" ]
