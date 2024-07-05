@@ -398,12 +398,10 @@ export default {
         ],
          [
             "§fill:#ff0§< 漢化組成員 >§fill:#fff§",
-            "",
             "§fill:#ff7§【組長】§fill:#fff§",
             "ws3917",
             "§fill:#ff7§【程式】§fill:#fff§",
             "ws3917",
-            "",
             "§fill:#ff7§【文翻】§fill:#fff§",
             "ws3917",
             "Murder--Sans_MDR",
@@ -416,7 +414,6 @@ export default {
         ],
         [
             "§fill:#ff0§< 漢化組成員 >§fill:#fff§",
-            "",
             "§fill:#ff7§【美術】§fill:#fff§",
             "曉曉_Akatsuki",
             "屑moons月亮君",
