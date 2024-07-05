@@ -407,7 +407,7 @@ export default {
             "§fill:#ff7§【文翻】§fill:#fff§",
             "ws3917",
             "Murder--Sans_MDR",
-            "R.o.C.t.D./π/3.1415⑨"
+            "R.o.C.t.D./π/3.1415⑨",
             "1個渣渣",
             "§fill:#ff7§【文校】§fill:#fff§",
             "ws3917",
