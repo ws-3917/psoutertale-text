@@ -407,10 +407,12 @@ export default {
             "§fill:#ff7§【文翻】§fill:#fff§",
             "ws3917",
             "Murder--Sans_MDR",
+            "R.o.C.t.D./π/3.1415⑨"
             "1個渣渣",
             "§fill:#ff7§【文校】§fill:#fff§",
             "ws3917",
-            "曉曉_Akatsuki"
+            "R.o.C.t.D./π/3.1415⑨",
+            "曉曉_Akatsuki（前文校）"
         ],
         [
             "§fill:#ff0§< 漢化組成員 >§fill:#fff§",

@@ -2780,7 +2780,7 @@ export default {
          w_lobby1: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The sign speaks of strength of will in times of trouble.)" ]
-               : [ "<32>{#p/basic}* “即使腳步蹣跚，\n  也要在逆境中繪出\n  勝利的路徑。”" ],
+               : [ "<32>{#p/basic}* “縱使曲折難行，\n  亦當砥礪奮進。”" ],
          w_pacing_view: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You stare happily into the cosmos beyond...)" ]
@@ -3796,7 +3796,7 @@ export default {
       w_dummy1: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (You place your hands on the dummy.)\n* (It seems very worn out.)" ]
-            : [ "<32>{#p/basic}* A training dummy, circa 251X.\n* CITADEL standard-issue." ],
+            : [ "<32>{#p/basic}* 一個訓練人偶，大約於251X年製成。\n* 皇家標準規格。" ],
       wonder1: [
          "<32>{#p/basic}* Can you hear it?\n* The song of the stars?",
          "<32>* At certain places on the outpost, like this one... it's there.",
@@ -3836,7 +3836,7 @@ export default {
          "<32>{#p/human}* (You flirt with Froggit.)",
          "<32>{#p/basic}* Froggit doesn't understand what you said..."
       ],
-      act_translate0: [ "<32>{#p/human}* (But you haven't said anything to translate yet.)" ],
+      act_translate0: [ "<32>{#p/human}* (但你現在還沒有話需要翻譯。)" ],
       act_translate1: [
          "<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)",
          "<32>{#p/basic}* Froggit is flattered."
@@ -3970,28 +3970,28 @@ export default {
          "<33>{#p/story}* Mushy's SPEED up for this turn!"
       ],
       act_check: [ "<32>{#p/story}* MUSHY - 攻擊6 防禦6\n* 對星際牛仔十分崇拜，\n  於是練就了一身好槍法。" ],
-      act_check2: [ "<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* Huge fan of space cowboys.\n* Even the sexy ones." ],
+      act_check2: [ "<32>{#p/story}* MUSHY - 攻擊6 防禦6\n* 星際牛仔的忠實粉絲。\n* 包括性感的那種。" ],
       act_check3: [ "<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* After giving it your all, this gunslinger is impressed." ],
-      act_flirt: [ "<32>{#p/human}* (You flirt with Mushy.)" ],
-      act_taunt: [ "<32>{#p/human}* (You taunt Mushy.)" ],
+      act_flirt: [ "<32>{#p/human}* (你向Mushy調情。)" ],
+      act_taunt: [ "<32>{#p/human}* (你對著Mushy一通嘲諷)" ],
       challengeStatus: [ "<32>{#p/story}* Mushy awaits your next challenge." ],
       challengeTalk1: [ "<08>{#p/basic}{~}Let's see what you got." ],
       challengeTalk2: [ "<08>{#p/basic}{~}Think you can take me?" ],
-      flirtStatus1: [ "<32>{#p/story}* Mushy, the confused and the aroused." ],
-      flirtTalk1: [ "<08>{#p/basic}{~}H-hey, knock it off!" ],
+      flirtStatus1: [ "<32>{#p/story}* Mushy既困惑又興奮。" ],
+      flirtTalk1: [ "<08>{#p/basic}{~}嘿，別-別鬧了！" ],
       hurtStatus: [ "<32>{#p/story}* Mushy準備拼死一搏。" ],
-      idleTalk1: [ "<08>{#p/basic}{~}Bang!\nBang!\nBang!" ],
-      idleTalk2: [ "<08>{#p/basic}{~}Saddle up!" ],
+      idleTalk1: [ "<08>{#p/basic}{~}砰!\n砰!\n砰!" ],
+      idleTalk2: [ "<08>{#p/basic}{~}上馬！" ],
       idleTalk3: [ "<08>{#p/basic}{~}All in a day's." ],
       name: "* Mushy",
       spareStatus: [ "<32>{#p/story}* Mushy bows out of respect." ],
-      status1: [ "<32>{#p/story}* Mushy stormed in!" ],
+      status1: [ "<32>{#p/story}* Mushy 如疾風般衝來！" ],
       status2: [ "<32>{#p/story}* Mushy adjusts their stance." ],
       status3: [ "<32>{#p/story}* Mushy is preparing for a grand standoff." ],
-      status4: [ "<32>{#p/story}* Mushy reaches for their holster." ],
+      status4: [ "<32>{#p/story}* Mushy 把手往槍套伸去。" ],
       status5: [ "<32>{#p/story}* Smells like petricore." ],
-      tauntStatus1: [ "<32>{#p/story}* Mushy pretends they aren't bothered by your taunts." ],
-      tauntTalk1: [ "<08>{#p/basic}{~}As if that'll work on me." ]
+      tauntStatus1: [ "<32>{#p/story}* Mushy假裝對你的嘲諷漠不關心。" ],
+      tauntTalk1: [ "<08>{#p/basic}{~}搞得好像這對我有用一樣。" ]
    },
    b_opponent_napstablook: {
       act_check: [ "<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* It's Napstablook." ],

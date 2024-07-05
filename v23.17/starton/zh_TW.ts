@@ -21,7 +21,7 @@ import { CosmosKeyed, CosmosProvider, CosmosUtils } from '../../code/systems/sto
 export default {
    a_starton: {
       telescope1: () => [
-         ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 標準規格的CITADEL長焦望遠鏡，\n  251X年前後製成。" ]),
+         ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 標準規格的首塔長焦望遠鏡，\n  251X年前後製成。" ]),
          choicer.create("* （使用望遠鏡？）", "是", "否")
       ],
       telescopeMeetup1: [ "<25>{#p/kidd}{#f/2}* 你在看星星嗎？" ],
