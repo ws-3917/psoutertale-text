@@ -170,7 +170,7 @@ export default {
          c: [
             "<32>{#p/basic}* ...真的是他。",
             "<32>* ...\n* Frisk，如果你准备好了...",
-            "<32>* 如果你已见过每一位\n  重要的朋友，想见的人...",
+            "<32>* 如果你已见过每一位想见的人...",
             "<32>* ...",
             "<32>* 你知道该做什么。",
             "<32>* 否则，我会耐心等待。\n  直到你准备好。"
@@ -1985,7 +1985,7 @@ export default {
       lobby_puzzle2: [
          "<25>{#p/toriel}{#f/1}* 现在，你可能还觉得很奇怪。\n* 不过...",
          "<25>{#f/0}* 在前哨站，\n  解谜就是我们的家常便饭。",
-         "<25>{#f/0}* 时间久了，再加上一点指导，\n  你就会逐渐习惯上的。"
+         "<25>{#f/0}* 只要有人指导，\n  时间久了，解起谜来就能轻车熟路。"
       ],
       lobby_puzzle3: [ "<25>{#p/toriel}* 等你准备好，\n  我们就可以继续前进了。" ],
       loox: {
@@ -2753,8 +2753,8 @@ export default {
                  ]
                : [
                     "<32>{#p/basic}* 呱呱，呱呱。\n* （打扰一下，人类...）",
-                    "<32>* （我想给你几点战斗的建议。）",
-                    "<32>* （如果你用特定的方式{@fill:#ff0}行动{@fill:#fff}，\n  或用{@fill:#ff0}战斗{@fill:#fff}把他们打到残血...）",
+                    "<32>* （我想给你几点对战怪物的建议。）",
+                    "<32>* （如果你采取特定的{@fill:#ff0}行动{@fill:#fff}，\n  或用{@fill:#ff0}战斗{@fill:#fff}把他们揍到濒死...）",
                     "<32>* （他们估计就不想战斗了。）",
                     "<32>* （如果一个怪物不想战斗，\n  那么...）",
                     "<32>* （就对它{@fill:#ff0}仁慈{@fill:#fff}一点吧，人类。）\n* 呱呱。"
@@ -3556,7 +3556,7 @@ export default {
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The sign describes the qualities of a good relationship.)" ]
                : [
-                    "<32>{#p/basic}* “有了信任与善意，\n  良好关系方能维系。\n  携手共进，步调统一。\"",
+                    "<32>{#p/basic}* “有了信任与善意，\n  方能携手并进，共筑友谊。\"",
                     ...(world.goatbro && SAVE.flag.n.ga_asrielOutlands7++ < 1
                        ? [ "<26>{#p/asriel2}{#f/8}* 真是够矫情的。" ]
                        : [])
@@ -3836,7 +3836,7 @@ export default {
          "<32>{#p/human}* (You flirt with Froggit.)",
          "<32>{#p/basic}* Froggit doesn't understand what you said..."
       ],
-      act_translate0: [ "<32>{#p/human}* (但你现在还没有话需要翻译。)" ],
+      act_translate0: [ "<32>{#p/human}* （但你还什么都没说，没法翻译。）" ],
       act_translate1: [
          "<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)",
          "<32>{#p/basic}* Froggit is flattered."
@@ -3970,7 +3970,7 @@ export default {
          "<33>{#p/story}* Mushy's SPEED up for this turn!"
       ],
       act_check: [ "<32>{#p/story}* MUSHY - 攻击6 防御6\n* 是星际牛仔的忠实粉丝。\n  也是一位枪术高手。" ],
-      act_check2: [ "<32>{#p/story}* MUSHY - 攻击6 防御6\n* 是星际牛仔的忠实粉丝。\n  尤其钟爱性感牛仔。" ],
+      act_check2: [ "<32>{#p/story}* MUSHY - 攻击6 防御6\n* 是星际牛仔的忠实粉丝。\n  包括性感牛仔。" ],
       act_check3: [ "<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* After giving it your all, this gunslinger is impressed." ],
       act_flirt: [ "<32>{#p/human}* （你向Mushy调情。）" ],
       act_taunt: [ "<32>{#p/human}* （你对着Mushy一通嘲讽。）" ],
@@ -3990,8 +3990,8 @@ export default {
       status3: [ "<32>{#p/story}* Mushy is preparing for a grand standoff." ],
       status4: [ "<32>{#p/story}* Mushy伸手向腰，直奔枪套。" ],
       status5: [ "<32>{#p/story}* Smells like petricore." ],
-      tauntStatus1: [ "<32>{#p/story}* Mushy假装对你的嘲讽漠不关心。" ],
-      tauntTalk1: [ "<08>{#p/basic}{~}搞得好像这对我有用一样。" ]
+      tauntStatus1: [ "<32>{#p/story}* Mushy假装没听到你的嘲讽。" ],
+      tauntTalk1: [ "<08>{#p/basic}{~}雕虫小技，\n能奈我何？" ]
    },
    b_opponent_napstablook: {
       act_check: [ "<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* It's Napstablook." ],

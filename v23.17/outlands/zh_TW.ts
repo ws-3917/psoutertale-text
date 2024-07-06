@@ -170,7 +170,7 @@ export default {
          c: [
             "<32>{#p/basic}* ...真的是他。",
             "<32>* ...\n* Frisk，如果你準備好了...",
-            "<32>* 如果你已見過每一位\n  重要的朋友，想見的人...",
+            "<32>* 如果你已見過每一位想見的人...",
             "<32>* ...",
             "<32>* 你知道該做什麼。",
             "<32>* 否則，我會耐心等待。\n  直到你準備好。"
@@ -1985,7 +1985,7 @@ export default {
       lobby_puzzle2: [
          "<25>{#p/toriel}{#f/1}* 現在，你可能還覺得很奇怪。\n* 不過...",
          "<25>{#f/0}* 在前哨站，\n  解謎就是我們的家常便飯。",
-         "<25>{#f/0}* 時間久了，再加上一點指導，\n  你就會逐漸習慣上的。"
+         "<25>{#f/0}* 只要有人指導，\n  時間久了，解起謎來就能輕車熟路。"
       ],
       lobby_puzzle3: [ "<25>{#p/toriel}* 等你準備好，\n  我們就可以繼續前進了。" ],
       loox: {
@@ -2753,7 +2753,7 @@ export default {
                  ]
                : [
                     "<32>{#p/basic}* 呱呱，呱呱。\n* （打擾一下，人類...）",
-                    "<32>* （我想給你幾點戰鬥的建議。）",
+                    "<32>* （我想給你幾點對戰怪物的建議。）",
                     "<32>* （假如你使出特別的{@fill:#ff0}放招{@fill:#fff}，\n  或是透過{@fill:#ff0}搏鬥{@fill:#fff}把它們打得\n  只剩下一絲氣息...）",
                     "<32>* （他們八成就無心再戰。）",
                     "<32>* （如果一個怪物不想搏鬥，\n  那麼...）",
@@ -3556,7 +3556,7 @@ export default {
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The sign describes the qualities of a good relationship.)" ]
                : [
-                    "<32>{#p/basic}* “有了信任與善意，\n  良好關係方能維繫。\n  攜手共進，步調統一。\"",
+                    "<32>{#p/basic}* “有了信任與善意，\n  方能攜手並進，共築友誼。\"",
                     ...(world.goatbro && SAVE.flag.n.ga_asrielOutlands7++ < 1
                        ? [ "<26>{#p/asriel2}{#f/8}* 真是夠矯情的。" ]
                        : [])
@@ -3836,7 +3836,7 @@ export default {
          "<32>{#p/human}* (You flirt with Froggit.)",
          "<32>{#p/basic}* Froggit doesn't understand what you said..."
       ],
-      act_translate0: [ "<32>{#p/human}* (但你現在還沒有話需要翻譯。)" ],
+      act_translate0: [ "<32>{#p/human}* （但你還什麼都沒說，沒法翻譯。）" ],
       act_translate1: [
          "<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)",
          "<32>{#p/basic}* Froggit is flattered."
@@ -3970,7 +3970,7 @@ export default {
          "<33>{#p/story}* Mushy's SPEED up for this turn!"
       ],
       act_check: [ "<32>{#p/story}* MUSHY - 攻擊6 防禦6\n* 是星際牛仔的忠實粉絲。\n  也是一位槍術高手。" ],
-      act_check2: [ "<32>{#p/story}* MUSHY - 攻擊6 防禦6\n* 是星際牛仔的忠實粉絲。\n  尤其鍾愛性感牛仔。" ],
+      act_check2: [ "<32>{#p/story}* MUSHY - 攻擊6 防禦6\n* 是星際牛仔的忠實粉絲。\n  包括性感牛仔。" ],
       act_check3: [ "<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* After giving it your all, this gunslinger is impressed." ],
       act_flirt: [ "<32>{#p/human}* （你向Mushy調情。）" ],
       act_taunt: [ "<32>{#p/human}* （你對著Mushy一通嘲諷。）" ],
@@ -3990,8 +3990,8 @@ export default {
       status3: [ "<32>{#p/story}* Mushy is preparing for a grand standoff." ],
       status4: [ "<32>{#p/story}* Mushy伸手向腰，直奔槍套。" ],
       status5: [ "<32>{#p/story}* Smells like petricore." ],
-      tauntStatus1: [ "<32>{#p/story}* Mushy假裝對你的嘲諷漠不關心。" ],
-      tauntTalk1: [ "<08>{#p/basic}{~}搞得好像這對我有用一樣。" ]
+      tauntStatus1: [ "<32>{#p/story}* Mushy假裝沒聽到你的嘲諷。" ],
+      tauntTalk1: [ "<08>{#p/basic}{~}雕蟲小技，\n能奈我何？" ]
    },
    b_opponent_napstablook: {
       act_check: [ "<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* It's Napstablook." ],
