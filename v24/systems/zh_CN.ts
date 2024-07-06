@@ -988,7 +988,7 @@ export default {
       settings8: "方向键位置",
       settings8a: "左侧",
       settings8b: "右侧",
-      settings8c: "HIDDEN",
+      settings8c: "隐藏",
       settings9: "摇杆死区",
       settings10: "打开Mod目录",
 

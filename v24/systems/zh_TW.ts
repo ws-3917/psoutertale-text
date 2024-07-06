@@ -988,7 +988,7 @@ export default {
       settings8: "方向鍵位置",
       settings8a: "左側",
       settings8b: "右側",
-      settings8c: "HIDDEN",
+      settings8c: "隱藏",
       settings9: "搖桿死區",
       settings10: "打開Mod目錄",
 

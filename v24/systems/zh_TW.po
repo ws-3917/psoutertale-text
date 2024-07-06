@@ -2125,7 +2125,7 @@ msgid "RIGHT"
 msgstr "右側"
 
 msgid "HIDDEN"
-msgstr ""
+msgstr "隱藏"
 
 msgid "DEADZONE"
 msgstr "搖桿死區"
