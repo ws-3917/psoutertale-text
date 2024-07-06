@@ -3164,12 +3164,12 @@ export default {
                     [ "<25>{#p/asriel1}{#f/13}* It just wasn't meant to be, Frisk..." ]
                  ][Math.min(asrielinter.w_tk_stove++, 2)]
                : SAVE.data.n.state_wastelands_toriel === 2
-               ? [ "<32>{#p/basic}* It's just a stovetop.\n* No one is going to use it." ]
+               ? [ "<32>{#p/basic}* 只是个灶台。\n* 没人会再用它了。" ]
                : world.darker
-               ? [ "<32>{#p/basic}* It's just a stovetop." ]
+               ? [ "<32>{#p/basic}* 只是个灶台。" ]
                : SAVE.data.n.plot === 72
                ? [ "<32>{#p/basic}* The stovetop is very clean.\n* Toriel may not need a new one on the new world." ]
-               : [ "<32>{#p/basic}* The stovetop is very clean.\n* Toriel must use fire magic instead." ],
+               : [ "<32>{#p/basic}* 灶台非常干净。\n* Toriel肯定是用火魔法做饭的。" ],
          w_tk_trash: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
@@ -3796,7 +3796,7 @@ export default {
       w_dummy1: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (You place your hands on the dummy.)\n* (It seems very worn out.)" ]
-            : [ "<32>{#p/basic}* 一个训练人偶，大约于251X年制成。\n* 皇家标准规格。" ],
+            : [ "<32>{#p/basic}* 一个标准规格的训练人偶，皇家出品。\n* 大约于251X年制成。" ],
       wonder1: [
          "<32>{#p/basic}* Can you hear it?\n* The song of the stars?",
          "<32>* At certain places on the outpost, like this one... it's there.",
@@ -4350,14 +4350,14 @@ export default {
 
    i_candy: {
       battle: {
-         description: "Has a distinct, non-licorice flavor.",
+         description: "有一种独特的，非甘草的味道。",
          name: "怪物糖果"
       },
       drop: [ "<32>{#p/human}* （你把怪物糖果扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （10 HP。）" ]
-            : [ "<32>{#p/basic}* \"Monster Candy\" Heals 10 HP\n* Has a distinct, non-licorice flavor." ],
+            : [ "<32>{#p/basic}* “怪物糖果” 回复 10 HP\n* 有一种独特的，非甘草的味道。" ],
       name: "怪物糖果",
       use: [ "<32>{#p/human}* （你吃掉了怪物糖果。）" ]
    },
@@ -4384,14 +4384,14 @@ export default {
    },
    i_delta: {
       battle: {
-         description: "This substance is said to have highly relaxing properties.",
+         description: "据说它能让你“飘飘欲仙”。",
          name: "大麻素"
       },
       drop: [ "<32>{#p/human}* （你把大麻素扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (5 HP. You feel strangely about this item.)" ]
-            : [ "<32>{#p/basic}* \"Δ-9\" Heals 5 HP\n* This substance is said to have highly relaxing properties." ],
+            : [ "<32>{#p/basic}* “大麻素” 回复 5 HP\n* 据说它能让你“飘飘欲仙”。" ],
       name: "大麻素",
       use: [ "<32>{#p/human}* (You ingest the Δ-9.)" ]
    },
@@ -4492,16 +4492,16 @@ export default {
       },
       drop: () => [
          "<32>{#p/human}* （你扔掉了呲呲汽水。）",
-         ...(SAVE.data.b.svr || world.darker ? [] : [ "<32>{#p/basic}* Good riddance." ])
+         ...(SAVE.data.b.svr || world.darker ? [] : [ "<32>{#p/basic}* 谢天谢地。" ])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （8 HP。）" ]
-            : [ "<32>{#p/basic}* \"Fizzli Soda\" Heals 8 HP\n* A dark, sickly yellow liquid." ],
+            : [ "<32>{#p/basic}* “呲呲汽水” 回复 8 HP\n* 恶心的暗黄色液体。" ],
       name: "呲呲汽水",
       use: () => [
          "<32>{#p/human}* （你喝掉了呲呲汽水。）",
-         ...(SAVE.data.b.svr || world.darker ? [] : [ "<32>{#p/basic}* Yuck!" ])
+         ...(SAVE.data.b.svr || world.darker ? [] : [ "<32>{#p/basic}* 好恶心！" ])
       ]
    },
    i_spacesuit: {

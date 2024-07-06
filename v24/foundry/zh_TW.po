@@ -1182,7 +1182,7 @@ msgid "<32>{#p/human}* (You got the $(x).)"
 msgstr "<32>{#p/human}* （你買了$(x)。）"
 
 msgid "* (Buy the $(x) for $(y)G?)"
-msgstr "* （花$(x)G來買$(y)嗎？）"
+msgstr "* （花$(y)G來買$(x)嗎？）"
 
 msgid "<32>{#p/human}* (You don't have enough G.)"
 msgstr "<32>{#p/human}* （你的錢不夠。）"

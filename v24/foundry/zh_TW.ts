@@ -593,7 +593,7 @@ export default {
                  choicer.create("* (What will you make?)", "甘草糖", "Water", "口糧", "Nothing")
               ],
       candy2: [ "<32>{#p/human}* （你買了$(x)。）" ],
-      candy3: [ choicer.create("* （花$(x)G來買$(y)嗎？）", "是", "否") ],
+      candy3: [ choicer.create("* （花$(y)G來買$(x)嗎？）", "是", "否") ],
       candy4: [ "<32>{#p/human}* （你的錢不夠。）" ],
       candy5: [ "<32>{#p/human}* (You decide not to buy.)" ],
       candy6: [ "<32>{#p/human}* （你帶的東西太多了。）" ],
