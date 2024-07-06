@@ -3851,7 +3851,7 @@ msgid ""
 "<32>* Hey, don't underestimate the Royal Guard.\n"
 "* They're tough stuff!"
 msgstr ""
-"<32>* 嘿，別小瞧皇家衛隊！\n"
+"<32>* 嘿，別小瞧皇家守衛！\n"
 "* 他們各個都是驍勇善戰的猛士！"
 
 msgid "<32>* (Do you really think they can stop someone like that?)"
