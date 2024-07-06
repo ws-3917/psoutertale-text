@@ -7292,14 +7292,14 @@ export default {
    },
    i_rations: {
       battle: {
-         description: "口粮标准装，适合应急用。",
+         description: "皇家出品，救急精品。",
          name: "口粮"
       },
       drop: [ "<32>{#p/human}* （你把口粮扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (30 HP.)" ]
-            : [ "<32>{#p/basic}* “口粮” 回复 30 HP\n* 口粮标准装，适合应急用。" ],
+            : [ "<32>{#p/basic}* “口粮” 回复 30 HP\n* 皇家出品，救急精品。" ],
       name: "口粮",
       use: [ "<32>{#p/human}* (You consume the Rations.)" ]
    },
