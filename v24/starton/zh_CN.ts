@@ -899,7 +899,7 @@ export default {
       ),
       marriage1: [
          "<32>{#p/basic}* 这是什么味道？\n* （哪里来的气味？）",
-         "<32>* 如果你是这个味道…\n* （...证明你的气味！）"
+         "<32>* 如果你是这个味道...\n* （...证明你的气味！）"
       ],
       marriage2: [
          "<32>{#p/basic}* 嗯...\n* 这就是那个奇怪的味道。",
@@ -4593,7 +4593,7 @@ export default {
                ? [ "<32>{#p/human}* (The signed letter inside looks to have been ignored.)" ]
                : world.genocide
                ? [
-                    "<32>{#p/basic}* Inside, on the floor, is a signed Royal Guard letter about tactical retreat.",
+                    "<32>{#p/basic}* 地板上，是一封写着“果断撤离”的\n  皇家守卫签名信。",
                     "<32>{#p/basic}* 信上的“果”字几乎都被啃掉了..."
                  ]
                : [

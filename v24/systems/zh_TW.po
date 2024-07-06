@@ -3,10 +3,10 @@ msgid ""
 msgstr ""
 
 msgid "(You take a deep breath.)"
-msgstr ""
+msgstr "（你深吸了一口氣。）"
 
 msgid "(You're filled with determination.)"
-msgstr "{#1/x2}（你充滿了決心。）"
+msgstr "（你充滿了決心。）"
 
 msgid "You cannot give up just yet..."
 msgstr "現在還不能放棄..."
@@ -615,9 +615,6 @@ msgstr "§fill:#ff0§< 遊戲開發者 >§fill:#fff§"
 
 msgid "spacey_432"
 msgstr "spacey_432"
-
-msgid ""
-msgstr ""
 
 msgid "§fill:#ff0§< WRITER >§fill:#fff§"
 msgstr "§fill:#ff0§< 文本編寫 >§fill:#fff§"
@@ -2119,7 +2116,7 @@ msgid "REDUCED"
 msgstr "削減"
 
 msgid "TOUCH CONTROLS"
-msgstr ""
+msgstr "方向鍵位置"
 
 msgid "LEFT"
 msgstr "左側"
@@ -2205,6 +2202,9 @@ msgstr "狀態"
 msgid ""
 "Long ago, {^3}two species ruled the solar system: {^6}HUMANS and MONSTERS."
 msgstr ""
+"{#i/x2}很久以前，{^3}太陽系\n"
+"由兩個物種統治著：{^6}\n"
+"人類和怪物。"
 
 msgid "As time passed, {^3}a war broke out between the two species."
 msgstr ""

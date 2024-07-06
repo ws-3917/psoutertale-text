@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-06 04:50+0000\n"
+"PO-Revision-Date: 2024-07-06 04:50+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/2-starton/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
@@ -2305,7 +2320,7 @@ msgid ""
 "<32>* If you're a smell...\n"
 "* (... identify yoursmellf!)"
 msgstr ""
-"<32>* 如果你是这个味道…\n"
+"<32>* 如果你是这个味道...\n"
 "* （...证明你的气味！）"
 
 msgid ""
@@ -5002,8 +5017,6 @@ msgstr ""
 msgid "SAVE YOURSELVES..."
 msgstr ""
 
-msgid ""
-msgstr ""
 
 msgid "FAILED TO CONNECT..."
 msgstr ""
@@ -9098,6 +9111,8 @@ msgid ""
 "<32>{#p/basic}* Inside, on the floor, is a signed Royal Guard letter about "
 "tactical retreat."
 msgstr ""
+"<32>{#p/basic}* 地板上，是一封写着“果断撤离”的\n"
+"  皇家守卫签名信。"
 
 msgid "<32>{#p/basic}* The \"treat\" in \"retreat\" was nibbled off..."
 msgstr "<32>{#p/basic}* 信上的“果”字几乎都被啃掉了..."

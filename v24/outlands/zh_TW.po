@@ -2101,7 +2101,7 @@ msgstr ""
 "  一起分享故事...”"
 
 msgid "<25>{#f/0}* \"And they would play hide-and-go seek.\""
-msgstr ""
+msgstr "<25>{#f/0}* “還會一起捉迷藏。”"
 
 msgid ""
 "<25>{#f/1}* \"And when the human was tired, she would tuck them into "

@@ -701,7 +701,7 @@ export default {
                          "<32>* 該死，喜歡當老好人是吧？",
                          "<32>* 自己當老好人不要緊，\n  還讓我表親染上抱癮，\n  總想擁抱，戒不掉了！！！",
                          "<32>* 它丟掉了原本的身體，\n  每次發作時，就找我發洩自己的慾望。",
-                         "<32>* They know I'm afraid of hugs, but they won't quit asking me!\n* It's INFURIATING!",
+                         "<32>* 它明知道我患有接觸恐懼症，\n  還瘋了似的騷擾我。\n  我快被它煩死了！！！",
                          "<32>* 人類，我要讓你付出代價！"
                       ]
                     : [
@@ -797,7 +797,7 @@ export default {
          world.genocide || world.meanie
             ? [ "<32>{#p/human}* （你使勁揍了人偶一拳。）" ]
             : SAVE.data.n.exp > 0
-            ? [ "<32>{#p/human}* (You beat up the dummy.)" ]
+            ? [ "<32>{#p/human}* （你給人偶來了一拳。）" ]
             : SAVE.data.b.oops
             ? [ "<32>{#p/human}* （...你只是戳了戳人偶。）" ]
             : [ "<32>{#p/human}* (You hugged the dummy.)" ],
@@ -1750,7 +1750,7 @@ export default {
                ? [
                     "<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...",
                     "<32>{#p/basic}* （看來，我們註定要在這裡\n  度過餘生了...）",
-                    "<32>* Hey, don't underestimate the Royal Guard.\n* They're tough stuff!",
+                    "<32>* 嘿，別小瞧皇家衛隊！\n* 他們各個都是驍勇善戰的猛士！",
                     "<32>* （你有把握他們能阻止那人類嗎？）",
                     "<32>* 那個人類小孩嗎？\n* 我不確定，感覺難度挺大的。",
                     "<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。",
@@ -2025,7 +2025,7 @@ export default {
                        : [
                             "<32>{#p/basic}* 救命啊！\n* 我朋友Stardrake現在很危險！",
                             "<32>{#p/basic}* 他說自己看見個人類\n  四處遊蕩，屠殺怪物！",
-                            "<32>{#p/undyne}* Sit tight, kiddo.\n* The Royal Guard will take care of this."
+                            "<32>{#p/undyne}* 小子，別亂跑。\n* 皇家衛隊會將那人類\n  繩之以法的。"
                          ]),
                     "<32>{#p/basic}* 謝謝您... Undyne...",
                     "<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。",
@@ -2065,7 +2065,7 @@ export default {
                     ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd4
                        ? ((SAVE.data.b.f_state_dc_kidd4 = true),
                          [
-                            "<25>{#p/kidd}{#f/1}* Man, isn't the Royal Guard brave or what?",
+                            "<25>{#p/kidd}{#f/1}* 老兄，皇家衛隊真勇猛啊！",
                             "<25>{#f/3}* 有他們保護我們...\n  真是太好了！"
                          ])
                        : [])
@@ -5905,7 +5905,7 @@ export default {
               ]
             : world.dead_canine
             ? [
-                 "<12>{#p/basic}{~}Doggo是狗狗守衛最新\n的成員。",
+                 "<12>{#p/basic}{~}Doggo是狗衛隊\n最新成員。",
                  "<11>{#p/basic}{~}有些人… 把他的視力\n當作一種空去鑽…",
                  "<11>{#p/basic}{~}但是他的前途\n那麼明朗。"
               ]

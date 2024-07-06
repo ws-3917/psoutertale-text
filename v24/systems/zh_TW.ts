@@ -2,7 +2,7 @@
 
 export default {
    battle: {
-      death0: [ "(You take a deep breath.)", "{#1/x2}（你充滿了決心。）" ],
+      death0: [ "（你深吸了一口氣。）", "（你充滿了決心。）" ],
       death1: [ "現在還不能放棄...", "$(name)！\n保持你的決心..." ],
       death2: [ "我們的命運都\n寄託於你...", "$(name)！\n保持你的決心..." ],
       death3: [ "你會沒事的！", "$(name)！\n保持你的決心..." ],
@@ -985,7 +985,7 @@ export default {
       settings7: "閃爍畫面",
       settings7a: "預設",
       settings7b: "削減",
-      settings8: "TOUCH CONTROLS",
+      settings8: "方向鍵位置",
       settings8a: "左側",
       settings8b: "右側",
       settings8c: "HIDDEN",
@@ -1022,7 +1022,7 @@ export default {
       stat11: "調情",
       stat12: "狀態",
 
-      story1: [ "Long ago, {^3}two species ruled the solar system: {^6}HUMANS and MONSTERS." ],
+      story1: [ "{#i/x2}很久以前，{^3}太陽系\n由兩個物種統治著：{^6}\n人類和怪物。" ],
       story2: [ "{#i/x2}隨著時間的步步推演，{^3}\n兩者間的緊張局勢{^1}\n終升級為一場星際戰爭。" ],
       story3: [ "{#i/x2}戰火紛飛之際，{^3}\n最終以怪物族的母星\n遭受重創、崩潰告終，{^3}\n人類宣佈獲取勝利。" ],
       story4: [ "{#i/x2}並將戰敗的怪物族群{^1}\n遷徙至一座{^1}\n荒廢的邊境前哨站。" ],

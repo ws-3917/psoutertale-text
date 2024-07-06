@@ -2,7 +2,7 @@
 
 export default {
    battle: {
-      death0: [ "(You take a deep breath.)", "{#1/x2}（你充满了决心。）" ],
+      death0: [ "（你深吸了一口气。）", "（你充满了决心。）" ],
       death1: [ "现在还不能放弃...", "$(name)！\n保持你的决心..." ],
       death2: [ "我们的命运都\n寄托于你...", "$(name)！\n保持你的决心..." ],
       death3: [ "你会没事的！", "$(name)！\n保持你的决心..." ],
@@ -985,7 +985,7 @@ export default {
       settings7: "闪烁画面",
       settings7a: "默认",
       settings7b: "削减",
-      settings8: "TOUCH CONTROLS",
+      settings8: "方向键位置",
       settings8a: "左侧",
       settings8b: "右侧",
       settings8c: "HIDDEN",
@@ -1022,7 +1022,7 @@ export default {
       stat11: "调情",
       stat12: "状态",
 
-      story1: [ "Long ago, {^3}two species ruled the solar system: {^6}HUMANS and MONSTERS." ],
+      story1: [ "{#i/x2}很久以前，{^3}太阳系\n由两个物种统治着：{^6}\n人类和怪物。" ],
       story2: [ "{#i/x2}随着时间的推移，{^3}\n两个物种之间爆发了战争。" ],
       story3: [ "{#i/x2}最终，\n怪物的母星被摧毁，\n人类宣布了胜利。{^5}" ],
       story4: [ "{#i/x2}他们将剩下的怪物流放到{^1}\n一个废弃的前哨站。{^5}" ],
