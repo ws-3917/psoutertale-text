@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-06 04:50+0000\n"
-"PO-Revision-Date: 2024-07-06 08:04+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"PO-Revision-Date: 2024-07-07 04:04+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/1-outlands/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -4699,26 +4699,27 @@ msgstr ""
 "  我们就可以继续前进了。"
 
 msgid "<32>{#p/basic}{#n1}* I heard you're quite flirty, for a human."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* 我听说，作为人类的你很喜欢调情。"
 
 msgid ""
 "<32>* As you {@fill:#cf7fff}FLIRT{@fill:#fff} with different kinds of "
 "monsters, you'll see hearts next to their names."
-msgstr ""
+msgstr "<32>* 每当你对各式各样的怪物{@fill:#cf7fff}调情{@fill:#fff}时, "
+"他们名字的右上角会出现一颗心。"
 
 msgid ""
 "<32>* The more types of monsters you {@fill:#cf7fff}FLIRT{@fill:#fff} with, "
 "the more hearts you'll have."
-msgstr ""
+msgstr "<32>* 你{@fill:#cf7fff}调情{@fill:#fff}的怪物种类越多, 你获得的心也就越多。"
 
 msgid "<32>* I wonder..."
-msgstr ""
+msgstr "<32>* 我寻思着..."
 
 msgid "<32>* Just how far can you go?"
-msgstr ""
+msgstr "<32>* 你能在这条道上走多远呢？"
 
 msgid "<32>* Perhaps, my friend, you could even become... a legend."
-msgstr ""
+msgstr "<32>* 也许，我的朋友，你会成为一个...传奇。"
 
 msgid "<32>{#p/basic}{#n1}* Hey human, have you tried flirting yet?"
 msgstr ""
@@ -5881,10 +5882,10 @@ msgstr "<32>{#p/alphys}* 铸厂的流体网络又-又断了。"
 msgid ""
 "<32>* The workers have promised a short turnaround, but things are looking "
 "bleak."
-msgstr ""
+msgstr "<32>* 工人们承诺很快就会恢复正常，但真实情况看起来并不乐观。"
 
 msgid "<32>* Please, i-if anyone out there can help, we need you..."
-msgstr ""
+msgstr "<32>* 如-如果这附近现在有人，请赶紧过来帮忙..."
 
 msgid "<25>{#p/toriel}{#f/1}* Have you tried checking the terminal?"
 msgstr "<25>{#p/toriel}{#f/1}* 去看看那边的终端吧。"
@@ -8788,10 +8789,10 @@ msgid "<08>{#p/basic}{~}Swing your arms, baby~"
 msgstr ""
 
 msgid "<32>{#p/human}* (You challenge Mushy to a duel.)"
-msgstr ""
+msgstr "<32>{#p/human}* (你向Mushy发起决斗挑战)"
 
 msgid "<33>{#p/story}* Mushy's SPEED up for this turn!"
-msgstr ""
+msgstr "<33>{#p/story}* Mushy本回合的攻击速度加快！"
 
 msgid ""
 "<32>{#p/story}* MUSHY - ATK 6 DEF 6\n"
@@ -8823,10 +8824,10 @@ msgid "<32>{#p/human}* (You taunt Mushy.)"
 msgstr "<32>{#p/human}* （你对着Mushy一通嘲讽。）"
 
 msgid "<32>{#p/story}* Mushy awaits your next challenge."
-msgstr ""
+msgstr "<32>{#p/story}* Mushy正等着你的下个挑战。"
 
 msgid "<08>{#p/basic}{~}Let's see what you got."
-msgstr ""
+msgstr "<08>{#p/basic}{~}让我见识一下你有什么能耐。"
 
 msgid "<08>{#p/basic}{~}Think you can take me?"
 msgstr ""
@@ -8855,19 +8856,19 @@ msgid "<08>{#p/basic}{~}Saddle up!"
 msgstr "<08>{#p/basic}{~}上马！"
 
 msgid "<08>{#p/basic}{~}All in a day's."
-msgstr ""
+msgstr "<08>{#p/basic}{~}不足为惧。"
 
 msgid "* Mushy"
 msgstr ""
 
 msgid "<32>{#p/story}* Mushy bows out of respect."
-msgstr ""
+msgstr "<32>{#p/story}* Mushy浅鞠一躬，以表敬意。"
 
 msgid "<32>{#p/story}* Mushy stormed in!"
 msgstr "<32>{#p/story}* 刹那间，Mushy已至！"
 
 msgid "<32>{#p/story}* Mushy adjusts their stance."
-msgstr ""
+msgstr "<32>{#p/story}* Mushy稍微调整了一下姿势。"
 
 msgid "<32>{#p/story}* Mushy is preparing for a grand standoff."
 msgstr ""
@@ -9749,56 +9750,62 @@ msgid "<25>{#p/toriel}* This is Toriel."
 msgstr ""
 
 msgid "<25>{#f/1}* You only wanted to say hello...?"
-msgstr ""
+msgstr "<25>{#f/1}* 你只是想和我打声招呼...？"
 
 msgid ""
 "<25>{#f/0}* Well then.\n"
 "* \"Hello!\""
 msgstr ""
+"<25>{#f/0}* 那好吧。\n"
+"* \"你好！\""
 
 msgid ""
 "<25>{#f/0}* I hope that suffices.\n"
 "* Hee hee."
 msgstr ""
+"<25>{#f/0}* 希望这一句招呼就足够了。\n"
+"* 嘻嘻。"
 
 msgid "<25>{#f/1}* You wanted to say hello again?"
-msgstr ""
+msgstr "<25>{#f/1}* 你还想和我打声招呼吗？"
 
 msgid "<25>{#f/0}* \"Salutations\" it is!"
-msgstr ""
+msgstr "<25>{#f/0}* 那就，“向你致意”吧！"
 
 msgid "<25>{#f/1}* Is that enough?"
-msgstr ""
+msgstr "<25>{#f/1}* 足够了吗？"
 
 msgid "<25>{#p/toriel}{#f/1}* Are you bored?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* 你现在是觉得很无聊吗？"
 
 msgid ""
 "<25>{#f/0}* My apologies.\n"
 "* I should have given you something to do."
 msgstr ""
+"<25>{#f/0}* 对不起。\n"
+"* 我应该给你找些事情做的。"
 
 msgid "<25>{#f/1}* Why not use your imagination to distract yourself?"
-msgstr ""
+msgstr "<25>{#f/1}* 试着放空大脑尽情想象，来分散你的注意力，如何？"
 
 msgid "<25>{#f/0}* Pretend you are... a fighter pilot!"
-msgstr ""
+msgstr "<25>{#f/0}* 假装你是一名...战斗机飞行员！"
 
 msgid ""
 "<25>{#f/1}* Twisting and twirling, doing barrel rolls at light speed..."
-msgstr ""
+msgstr "<25>{#f/1}* 上下旋转，左右摇摆，以光速做着橫滚侧翻..."
 
 msgid "<25>{#f/1}* Can you do that for me?"
-msgstr ""
+msgstr "<25>{#f/1}* 能模仿我试着做一遍吗？"
 
 msgid "<25>{#p/toriel}{#f/5}* Hello, small one."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/5}* 你好，小家伙。"
 
 msgid "<25>{#f/9}* I am sorry, but I do not have much else to say."
-msgstr ""
+msgstr "<25>{#f/9}* 我很抱歉，因为我已经没什么东西可说了。"
 
 msgid "<25>{#f/1}* It was nice to hear your voice, though..."
-msgstr ""
+msgstr "<25>{#f/1}* 但我很高兴能听到你的声音..."
 
 msgid "<25>{#p/toriel}{#g/torielLowConcern}* Hello?"
 msgstr "<25>{#p/toriel}{#g/torielLowConcern}* 嗯？"
@@ -9938,7 +9945,7 @@ msgid "<32>{#p/human}* (You throw away the Δ-9.)"
 msgstr "<32>{#p/human}* （你把大麻素扔掉了。）"
 
 msgid "<32>{#p/human}* (5 HP. You feel strangely about this item.)"
-msgstr ""
+msgstr "<32>{#p/human}* (5 HP. 你觉得它非常的奇怪。)"
 
 msgid ""
 "<32>{#p/basic}* \"Δ-9\" Heals 5 HP\n"
@@ -9948,7 +9955,7 @@ msgstr ""
 "* 据说它能让你“飘飘欲仙”。"
 
 msgid "<32>{#p/human}* (You ingest the Δ-9.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你吸食了大麻素。）"
 
 msgid "A headband with its own gravity field."
 msgstr ""
@@ -10103,7 +10110,7 @@ msgid "<32>{#p/human}* (You eat the Fried Snails.)"
 msgstr "<32>{#p/human}* （你吃掉了焗蜗牛。）"
 
 msgid "A sickly, dark yellow liquid."
-msgstr ""
+msgstr "恶心的暗黄色液体。"
 
 msgid "Soda"
 msgstr "呲呲汽水"
@@ -10264,7 +10271,7 @@ msgid "<32>{#p/human}* (You read Super Starwalker 3.)"
 msgstr "<32>{#p/human}* （你看了看“超级星之行者3”。）"
 
 msgid "Questionable at best."
-msgstr ""
+msgstr "买它真是亏爆了。"
 
 msgid "Steak"
 msgstr "滋滋牛排"
@@ -10282,6 +10289,8 @@ msgid ""
 "<32>{#p/basic}* \"Sizzli Steak\" Heals 14 HP\n"
 "* Questionable."
 msgstr ""
+"<32>{#p/basic}* “滋滋牛排” 回复 14 HP\n"
+"* 质量存疑。"
 
 msgid "Sizzli Steak"
 msgstr "滋滋牛排"

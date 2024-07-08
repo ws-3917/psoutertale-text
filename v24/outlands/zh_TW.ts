@@ -1990,12 +1990,12 @@ export default {
       lobby_puzzle3: [ "<25>{#p/toriel}* 等你準備好，\n  我們就可以繼續前進了。" ],
       loox: {
          a: [
-            "<32>{#p/basic}{#n1}* I heard you're quite flirty, for a human.",
-            "<32>* As you {@fill:#cf7fff}FLIRT{@fill:#fff} with different kinds of monsters, you'll see hearts next to their names.",
-            "<32>* The more types of monsters you {@fill:#cf7fff}FLIRT{@fill:#fff} with, the more hearts you'll have.",
-            "<32>* I wonder...",
-            "<32>* Just how far can you go?",
-            "<32>* Perhaps, my friend, you could even become... a legend."
+            "<32>{#p/basic}{#n1}* 我聽說，作為人類的你很喜歡調情。",
+            "<32>* 每當你對各式各樣的怪物{@fill:#cf7fff}調情{@fill:#fff}時, 他們名字的右上角會出現一顆心。",
+            "<32>* 你{@fill:#cf7fff}調情{@fill:#fff}的怪物種類越多, 你獲得的心也就越多。",
+            "<32>* 我尋思著...",
+            "<32>* 你能在這條道上走多遠呢？",
+            "<32>* 也許，我的朋友，你會成為一個...傳奇。"
          ],
          b: [
             "<32>{#p/basic}{#n1}* Hey human, have you tried flirting yet?",
@@ -2009,11 +2009,11 @@ export default {
             "<32>{#p/basic}{#n1}* Hey human, now that you've started flirting...",
             "<32>* How does it feel?",
             "<32>* It's pretty great, right?",
-            "<32>* As you {@fill:#cf7fff}FLIRT{@fill:#fff} with different kinds of monsters, you'll see hearts next to their names.",
-            "<32>* The more types of monsters you {@fill:#cf7fff}FLIRT{@fill:#fff} with, the more hearts you'll have.",
-            "<32>* I wonder...",
-            "<32>* Just how far can you go?",
-            "<32>* Perhaps, my friend, you could even become... a legend."
+            "<32>* 每當你對各式各樣的怪物{@fill:#cf7fff}調情{@fill:#fff}時, 他們名字的右上角會出現一顆心。",
+            "<32>* 你{@fill:#cf7fff}調情{@fill:#fff}的怪物種類越多, 你獲得的心也就越多。",
+            "<32>* 我尋思著...",
+            "<32>* 你能在這條道上走多遠呢？",
+            "<32>* 也許，我的朋友，你會成為一個...傳奇。"
          ],
          d: [
             "<32>{#p/basic}{#n1}* I hear you're somewhat of a bully in these parts.",
@@ -2586,8 +2586,8 @@ export default {
                : [
                     "<32>{#p/human}* （你啟動了終端。）\n* （上面有一條新訊息。）",
                     "<32>{#p/alphys}* 鑄廠的流體網路又-又斷了。",
-                    "<32>* The workers have promised a short turnaround, but things are looking bleak.",
-                    "<32>* Please, i-if anyone out there can help, we need you..."
+                    "<32>* 工人們承諾很快就會恢復正常，但真實情況看起來並不樂觀。",
+                    "<32>* 如-如果這附近現在有人，請趕緊過來幫忙..."
                  ]
       },
       torieldanger: {
@@ -3966,27 +3966,27 @@ export default {
    },
    b_opponent_mushy: {
       act_challenge: [
-         "<32>{#p/human}* (You challenge Mushy to a duel.)",
-         "<33>{#p/story}* Mushy's SPEED up for this turn!"
+         "<32>{#p/human}* (你向Mushy發起決鬥挑戰)",
+         "<33>{#p/story}* Mushy本回合的攻擊速度加快！"
       ],
       act_check: [ "<32>{#p/story}* MUSHY - 攻擊6 防禦6\n* 是星際牛仔的忠實粉絲。\n  也是一位槍術高手。" ],
       act_check2: [ "<32>{#p/story}* MUSHY - 攻擊6 防禦6\n* 是星際牛仔的忠實粉絲。\n  包括性感牛仔。" ],
       act_check3: [ "<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* After giving it your all, this gunslinger is impressed." ],
       act_flirt: [ "<32>{#p/human}* （你向Mushy調情。）" ],
       act_taunt: [ "<32>{#p/human}* （你對著Mushy一通嘲諷。）" ],
-      challengeStatus: [ "<32>{#p/story}* Mushy awaits your next challenge." ],
-      challengeTalk1: [ "<08>{#p/basic}{~}Let's see what you got." ],
+      challengeStatus: [ "<32>{#p/story}* Mushy正等著你的下個挑戰。" ],
+      challengeTalk1: [ "<08>{#p/basic}{~}讓我見識一下你有什麼能耐。" ],
       challengeTalk2: [ "<08>{#p/basic}{~}Think you can take me?" ],
       flirtStatus1: [ "<32>{#p/story}* Mushy既困惑又興奮。" ],
       flirtTalk1: [ "<08>{#p/basic}{~}嘿，\n別-別鬧了！" ],
       hurtStatus: [ "<32>{#p/story}* Mushy準備拼死一搏。" ],
       idleTalk1: [ "<08>{#p/basic}{~}砰！\n砰！\n砰！" ],
       idleTalk2: [ "<08>{#p/basic}{~}上馬！" ],
-      idleTalk3: [ "<08>{#p/basic}{~}All in a day's." ],
+      idleTalk3: [ "<08>{#p/basic}{~}不足為懼。" ],
       name: "* Mushy",
-      spareStatus: [ "<32>{#p/story}* Mushy bows out of respect." ],
+      spareStatus: [ "<32>{#p/story}* Mushy淺鞠一躬，以表敬意。" ],
       status1: [ "<32>{#p/story}* 剎那間，Mushy已至！" ],
-      status2: [ "<32>{#p/story}* Mushy adjusts their stance." ],
+      status2: [ "<32>{#p/story}* Mushy稍微調整了一下姿勢。" ],
       status3: [ "<32>{#p/story}* Mushy is preparing for a grand standoff." ],
       status4: [ "<32>{#p/story}* Mushy伸手向腰，直奔槍套。" ],
       status5: [ "<32>{#p/story}* Smells like petricore." ],
@@ -4281,28 +4281,28 @@ export default {
       hello: [
          [
             "<25>{#p/toriel}* This is Toriel.",
-            "<25>{#f/1}* You only wanted to say hello...?",
-            "<25>{#f/0}* Well then.\n* \"Hello!\"",
-            "<25>{#f/0}* I hope that suffices.\n* Hee hee."
+            "<25>{#f/1}* 你只是想和我打聲招呼...？",
+            "<25>{#f/0}* 那好吧。\n* \"你好！\"",
+            "<25>{#f/0}* 希望這一句招呼就足夠了。\n* 嘻嘻。"
          ],
          [
             "<25>{#p/toriel}* This is Toriel.",
-            "<25>{#f/1}* You wanted to say hello again?",
-            "<25>{#f/0}* \"Salutations\" it is!",
-            "<25>{#f/1}* Is that enough?"
+            "<25>{#f/1}* 你還想和我打聲招呼嗎？",
+            "<25>{#f/0}* 那就，“向你致意”吧！",
+            "<25>{#f/1}* 足夠了嗎？"
          ],
          [
-            "<25>{#p/toriel}{#f/1}* Are you bored?",
-            "<25>{#f/0}* My apologies.\n* I should have given you something to do.",
-            "<25>{#f/1}* Why not use your imagination to distract yourself?",
-            "<25>{#f/0}* Pretend you are... a fighter pilot!",
-            "<25>{#f/1}* Twisting and twirling, doing barrel rolls at light speed...",
-            "<25>{#f/1}* Can you do that for me?"
+            "<25>{#p/toriel}{#f/1}* 你現在是覺得很無聊嗎？",
+            "<25>{#f/0}* 對不起。\n* 我應該給你找些事情做的。",
+            "<25>{#f/1}* 試著放空大腦盡情想象，來分散你的注意力，如何？",
+            "<25>{#f/0}* 假裝你是一名...戰鬥機飛行員！",
+            "<25>{#f/1}* 上下旋轉，左右搖擺，以光速做著橫滾側翻...",
+            "<25>{#f/1}* 能模仿我試著做一遍嗎？"
          ],
          [
-            "<25>{#p/toriel}{#f/5}* Hello, small one.",
-            "<25>{#f/9}* I am sorry, but I do not have much else to say.",
-            "<25>{#f/1}* It was nice to hear your voice, though..."
+            "<25>{#p/toriel}{#f/5}* 你好，小傢伙。",
+            "<25>{#f/9}* 我很抱歉，因為我已經沒什麼東西可說了。",
+            "<25>{#f/1}* 但我很高興能聽到你的聲音..."
          ]
       ],
       helloX: [ "<25>{#p/toriel}{#g/torielLowConcern}* 嗯？" ],
@@ -4390,10 +4390,10 @@ export default {
       drop: [ "<32>{#p/human}* （你把大麻素扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* (5 HP. You feel strangely about this item.)" ]
+            ? [ "<32>{#p/human}* (5 HP. 你覺得它非常的奇怪。)" ]
             : [ "<32>{#p/basic}* “大麻素” 回覆 5 HP\n* 據說它能讓你“飄飄欲仙”。" ],
       name: "大麻素",
-      use: [ "<32>{#p/human}* (You ingest the Δ-9.)" ]
+      use: [ "<32>{#p/human}* （你吸食了大麻素。）" ]
    },
    i_halo: {
       battle: {
@@ -4487,7 +4487,7 @@ export default {
    },
    i_soda: {
       battle: {
-         description: "A sickly, dark yellow liquid.",
+         description: "噁心的暗黃色液體。",
          name: "呲呲汽水"
       },
       drop: () => [
@@ -4586,7 +4586,7 @@ export default {
    },
    i_steak: {
       battle: {
-         description: "Questionable at best.",
+         description: "買它真是虧爆了。",
          name: "滋滋牛排"
       },
       drop: () => [
@@ -4598,7 +4598,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （14 HP。）" ]
-            : [ "<32>{#p/basic}* \"Sizzli Steak\" Heals 14 HP\n* Questionable." ],
+            : [ "<32>{#p/basic}* “滋滋牛排” 回覆 14 HP\n* 質量存疑。" ],
       name: "滋滋牛排",
       use: () => [
          "<32>{#p/human}* （你吃掉了滋滋牛排。）",

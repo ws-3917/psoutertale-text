@@ -4686,26 +4686,26 @@ msgstr ""
 "  我們就可以繼續前進了。"
 
 msgid "<32>{#p/basic}{#n1}* I heard you're quite flirty, for a human."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* 我聽說，作為人類的你很喜歡調情。"
 
 msgid ""
 "<32>* As you {@fill:#cf7fff}FLIRT{@fill:#fff} with different kinds of "
 "monsters, you'll see hearts next to their names."
-msgstr ""
+msgstr "<32>* 每當你對各式各樣的怪物{@fill:#cf7fff}調情{@fill:#fff}時, 他們名字的右上角會出現一顆心。"
 
 msgid ""
 "<32>* The more types of monsters you {@fill:#cf7fff}FLIRT{@fill:#fff} with, "
 "the more hearts you'll have."
-msgstr ""
+msgstr "<32>* 你{@fill:#cf7fff}調情{@fill:#fff}的怪物種類越多, 你獲得的心也就越多。"
 
 msgid "<32>* I wonder..."
-msgstr ""
+msgstr "<32>* 我尋思著..."
 
 msgid "<32>* Just how far can you go?"
-msgstr ""
+msgstr "<32>* 你能在這條道上走多遠呢？"
 
 msgid "<32>* Perhaps, my friend, you could even become... a legend."
-msgstr ""
+msgstr "<32>* 也許，我的朋友，你會成為一個...傳奇。"
 
 msgid "<32>{#p/basic}{#n1}* Hey human, have you tried flirting yet?"
 msgstr ""
@@ -5868,10 +5868,10 @@ msgstr "<32>{#p/alphys}* 鑄廠的流體網路又-又斷了。"
 msgid ""
 "<32>* The workers have promised a short turnaround, but things are looking "
 "bleak."
-msgstr ""
+msgstr "<32>* 工人們承諾很快就會恢復正常，但真實情況看起來並不樂觀。"
 
 msgid "<32>* Please, i-if anyone out there can help, we need you..."
-msgstr ""
+msgstr "<32>* 如-如果這附近現在有人，請趕緊過來幫忙..."
 
 msgid "<25>{#p/toriel}{#f/1}* Have you tried checking the terminal?"
 msgstr "<25>{#p/toriel}{#f/1}* 去看看那邊的終端吧。"
@@ -8777,10 +8777,10 @@ msgid "<08>{#p/basic}{~}Swing your arms, baby~"
 msgstr ""
 
 msgid "<32>{#p/human}* (You challenge Mushy to a duel.)"
-msgstr ""
+msgstr "<32>{#p/human}* (你向Mushy發起決鬥挑戰)"
 
 msgid "<33>{#p/story}* Mushy's SPEED up for this turn!"
-msgstr ""
+msgstr "<33>{#p/story}* Mushy本回合的攻擊速度加快！"
 
 msgid ""
 "<32>{#p/story}* MUSHY - ATK 6 DEF 6\n"
@@ -8812,10 +8812,10 @@ msgid "<32>{#p/human}* (You taunt Mushy.)"
 msgstr "<32>{#p/human}* （你對著Mushy一通嘲諷。）"
 
 msgid "<32>{#p/story}* Mushy awaits your next challenge."
-msgstr ""
+msgstr "<32>{#p/story}* Mushy正等著你的下個挑戰。"
 
 msgid "<08>{#p/basic}{~}Let's see what you got."
-msgstr ""
+msgstr "<08>{#p/basic}{~}讓我見識一下你有什麼能耐。"
 
 msgid "<08>{#p/basic}{~}Think you can take me?"
 msgstr ""
@@ -8844,19 +8844,19 @@ msgid "<08>{#p/basic}{~}Saddle up!"
 msgstr "<08>{#p/basic}{~}上馬！"
 
 msgid "<08>{#p/basic}{~}All in a day's."
-msgstr ""
+msgstr "<08>{#p/basic}{~}不足為懼。"
 
 msgid "* Mushy"
 msgstr ""
 
 msgid "<32>{#p/story}* Mushy bows out of respect."
-msgstr ""
+msgstr "<32>{#p/story}* Mushy淺鞠一躬，以表敬意。"
 
 msgid "<32>{#p/story}* Mushy stormed in!"
 msgstr "<32>{#p/story}* 剎那間，Mushy已至！"
 
 msgid "<32>{#p/story}* Mushy adjusts their stance."
-msgstr ""
+msgstr "<32>{#p/story}* Mushy稍微調整了一下姿勢。"
 
 msgid "<32>{#p/story}* Mushy is preparing for a grand standoff."
 msgstr ""
@@ -9738,56 +9738,62 @@ msgid "<25>{#p/toriel}* This is Toriel."
 msgstr ""
 
 msgid "<25>{#f/1}* You only wanted to say hello...?"
-msgstr ""
+msgstr "<25>{#f/1}* 你只是想和我打聲招呼...？"
 
 msgid ""
 "<25>{#f/0}* Well then.\n"
 "* \"Hello!\""
 msgstr ""
+"<25>{#f/0}* 那好吧。\n"
+"* \"你好！\""
 
 msgid ""
 "<25>{#f/0}* I hope that suffices.\n"
 "* Hee hee."
 msgstr ""
+"<25>{#f/0}* 希望這一句招呼就足夠了。\n"
+"* 嘻嘻。"
 
 msgid "<25>{#f/1}* You wanted to say hello again?"
-msgstr ""
+msgstr "<25>{#f/1}* 你還想和我打聲招呼嗎？"
 
 msgid "<25>{#f/0}* \"Salutations\" it is!"
-msgstr ""
+msgstr "<25>{#f/0}* 那就，“向你致意”吧！"
 
 msgid "<25>{#f/1}* Is that enough?"
-msgstr ""
+msgstr "<25>{#f/1}* 足夠了嗎？"
 
 msgid "<25>{#p/toriel}{#f/1}* Are you bored?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* 你現在是覺得很無聊嗎？"
 
 msgid ""
 "<25>{#f/0}* My apologies.\n"
 "* I should have given you something to do."
 msgstr ""
+"<25>{#f/0}* 對不起。\n"
+"* 我應該給你找些事情做的。"
 
 msgid "<25>{#f/1}* Why not use your imagination to distract yourself?"
-msgstr ""
+msgstr "<25>{#f/1}* 試著放空大腦盡情想象，來分散你的注意力，如何？"
 
 msgid "<25>{#f/0}* Pretend you are... a fighter pilot!"
-msgstr ""
+msgstr "<25>{#f/0}* 假裝你是一名...戰鬥機飛行員！"
 
 msgid ""
 "<25>{#f/1}* Twisting and twirling, doing barrel rolls at light speed..."
-msgstr ""
+msgstr "<25>{#f/1}* 上下旋轉，左右搖擺，以光速做著橫滾側翻..."
 
 msgid "<25>{#f/1}* Can you do that for me?"
-msgstr ""
+msgstr "<25>{#f/1}* 能模仿我試著做一遍嗎？"
 
 msgid "<25>{#p/toriel}{#f/5}* Hello, small one."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/5}* 你好，小傢伙。"
 
 msgid "<25>{#f/9}* I am sorry, but I do not have much else to say."
-msgstr ""
+msgstr "<25>{#f/9}* 我很抱歉，因為我已經沒什麼東西可說了。"
 
 msgid "<25>{#f/1}* It was nice to hear your voice, though..."
-msgstr ""
+msgstr "<25>{#f/1}* 但我很高興能聽到你的聲音..."
 
 msgid "<25>{#p/toriel}{#g/torielLowConcern}* Hello?"
 msgstr "<25>{#p/toriel}{#g/torielLowConcern}* 嗯？"
@@ -9927,7 +9933,7 @@ msgid "<32>{#p/human}* (You throw away the Δ-9.)"
 msgstr "<32>{#p/human}* （你把大麻素扔掉了。）"
 
 msgid "<32>{#p/human}* (5 HP. You feel strangely about this item.)"
-msgstr ""
+msgstr "<32>{#p/human}* (5 HP. 你覺得它非常的奇怪。)"
 
 msgid ""
 "<32>{#p/basic}* \"Δ-9\" Heals 5 HP\n"
@@ -9937,7 +9943,7 @@ msgstr ""
 "* 據說它能讓你“飄飄欲仙”。"
 
 msgid "<32>{#p/human}* (You ingest the Δ-9.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你吸食了大麻素。）"
 
 msgid "A headband with its own gravity field."
 msgstr ""
@@ -10092,7 +10098,7 @@ msgid "<32>{#p/human}* (You eat the Fried Snails.)"
 msgstr "<32>{#p/human}* （你吃掉了焗蝸牛。）"
 
 msgid "A sickly, dark yellow liquid."
-msgstr ""
+msgstr "噁心的暗黃色液體。"
 
 msgid "Soda"
 msgstr "呲呲汽水"
@@ -10253,7 +10259,7 @@ msgid "<32>{#p/human}* (You read Super Starwalker 3.)"
 msgstr "<32>{#p/human}* （你看了看“超級星之行者3”。）"
 
 msgid "Questionable at best."
-msgstr ""
+msgstr "買它真是虧爆了。"
 
 msgid "Steak"
 msgstr "滋滋牛排"
@@ -10271,6 +10277,8 @@ msgid ""
 "<32>{#p/basic}* \"Sizzli Steak\" Heals 14 HP\n"
 "* Questionable."
 msgstr ""
+"<32>{#p/basic}* “滋滋牛排” 回覆 14 HP\n"
+"* 質量存疑。"
 
 msgid "Sizzli Steak"
 msgstr "滋滋牛排"
