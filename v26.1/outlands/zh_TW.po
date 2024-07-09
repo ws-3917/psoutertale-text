@@ -8667,7 +8667,7 @@ msgid "<32>{#p/story}* Oculoux doesn't care about fighting anymore."
 msgstr ""
 
 msgid "<32>{#p/story}* A pair of Oculoux walked in!"
-msgstr ""
+msgstr "<32>{#p/story}* 一對Oculoux向你走來！"
 
 msgid "<32>{#p/story}* Oculoux is staring right through you."
 msgstr ""
@@ -9685,13 +9685,13 @@ msgid "Insult"
 msgstr "譙罵ゐ"
 
 msgid "<25>{#p/toriel}{#f/1}* You want to know more about me...?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* 你是想了解我的更多...對嗎？"
 
 msgid "<25>{#f/0}* Well, I am afraid there is not much to say."
-msgstr ""
+msgstr "<25>{#f/0}* 嗯，我怕我沒有什麼可以跟你講的。"
 
 msgid "<25>{#f/0}* I am but a silly old lady who worries too often!"
-msgstr ""
+msgstr "<25>{#f/0}* 我只不過是一位愛瞎操心的老阿姨罷了！"
 
 msgid "<25>{#p/toriel}{#f/1}* If you really want to know more about me..."
 msgstr "<25>{#p/toriel}{#f/1}* 如果你想深入瞭解我的話..."
@@ -9711,40 +9711,46 @@ msgid "<25>{#f/2}* You should think twice about insulting me over the phone!"
 msgstr "<25>{#f/2}* 之前就別在電話裡罵我！"
 
 msgid "<25>{#p/toriel}{#f/7}* ... huh?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/7}* ... 嗯?"
 
 msgid "<25>{#f/1}* Oh, heh... heh..."
-msgstr ""
+msgstr "<25>{#f/1}* 喔, 嘻... 嘻嘻..."
 
 msgid ""
 "<25>{#f/6}* Hahaha!\n"
 "* I could pinch your cheek!"
 msgstr ""
+"<25>{#f/6}* 哈哈哈！\n"
+"* 讓我捏捏你的小臉蛋！"
 
 msgid "<25>{#f/0}* You can certainly find better than an old woman like me."
-msgstr ""
+msgstr "<25>{#f/0}* 你肯定能找到比我這種老阿姨更好的人！"
 
 msgid ""
 "<25>{#p/toriel}{#f/7}* ...\n"
 "* Oh dear, are you serious...?"
 msgstr ""
+"<25>{#p/toriel}{#f/7}* ...\n"
+"* 喔親愛的, 你是認真的嗎...?"
 
 msgid "<25>{#f/1}* My child, I do not know if this is pathetic or endearing."
-msgstr ""
+msgstr "<25>{#f/1}* 我實在不知道是喜還是悲，我的孩子。"
 
 msgid "<25>{#f/5}* And after you called me \"Mother...\""
-msgstr ""
+msgstr "<25>{#f/5}* 先前你還叫我“媽媽”..."
 
 msgid ""
 "<25>{#f/1}* Well then.\n"
 "* You are a very \"interesting\" child."
 msgstr ""
+"<25>{#f/1}* 好吧。\n"
+"* 你可真是個“有趣”的孩子。"
 
 msgid "<25>{#p/toriel}{#f/4}* I cannot begin to understand you."
 msgstr "<25>{#p/toriel}{#f/4}* 我真是想不通你的腦回路。"
 
 msgid "<25>{#p/toriel}* This is Toriel."
-msgstr ""
+msgstr "<25>{#p/toriel}* 這裡是Toriel。"
 
 msgid "<25>{#f/1}* You only wanted to say hello...?"
 msgstr "<25>{#f/1}* 你只是想和我打聲招呼...？"
@@ -9814,34 +9820,46 @@ msgid ""
 "<25>{#f/7}* Huh?\n"
 "* Did you just call me \"Mom?\""
 msgstr ""
+"<25>{#f/7}* 嗯？\n"
+"* 你剛才是不是叫我“媽媽”了？"
 
 msgid ""
 "<25>{#f/1}* Well...\n"
 "* I suppose..."
 msgstr ""
+"<25>{#f/1}* 嗯...\n"
+"* 我想..."
 
 msgid "<25>{#f/1}* Would that make you happy?"
-msgstr ""
+msgstr "<25>{#f/1}* 你叫我“媽媽”..."
 
 msgid ""
 "<25>{#f/1}* To call me...\n"
 "* \"Mother?\""
 msgstr ""
+"<25>{#f/1}* 會不會讓你...\n"
+"* 開心一點？"
 
 msgid ""
 "<25>{#f/0}* Well then.\n"
 "* Call me whatever you like!"
 msgstr ""
+"<25>{#f/0}* 那就...\n"
+"* 隨你怎麼稱呼吧！"
 
 msgid ""
 "<25>{#p/toriel}{#f/7}* ...\n"
 "* Oh my... again?"
 msgstr ""
+"<25>{#p/toriel}{#f/7}* ...\n"
+"* 我的天... 又來?"
 
 msgid ""
 "<25>{#f/0}* Hee hee...\n"
 "* You are a very sweet child."
 msgstr ""
+"<25>{#f/0}* 嘻嘻嘻...\n"
+"* 你真是個小可愛。"
 
 msgid "<25>{#f/5}* And after you flirted with me..."
 msgstr ""
@@ -9873,7 +9891,7 @@ msgstr "<25>{#f/3}* 你有本事再說一遍？"
 
 msgid ""
 "<25>{#f/1}* My child... I do not think that means what you think it means."
-msgstr ""
+msgstr "<25>{#f/1}* 我的孩子... 我並不覺得這如你所說的那樣。"
 
 msgid "<25>{#p/toriel}{#f/15}* ..."
 msgstr "<25>{#p/toriel}{#f/15}* ..."
@@ -9907,24 +9925,26 @@ msgid "<32>{#p/human}* (You eat the Monster Candy.)"
 msgstr "<32>{#p/human}* （你吃掉了怪物糖果。）"
 
 msgid "Smells like Dihydrogen Monoxide."
-msgstr ""
+msgstr "它的氣味很像一氧化二氫。"
 
 msgid "<32>{#p/human}* (You throw away the Water.)"
 msgstr ""
 
 msgid "<32>{#p/human}* (12 HP.)"
-msgstr ""
+msgstr "<32>{#p/human}* （12 HP。）"
 
 msgid ""
 "<32>{#p/basic}* \"Water\" Heals 12 HP\n"
 "* Smells like Di-Hydrogen Monoxide."
 msgstr ""
+"<32>{#p/basic}* “水” 回覆 12 HP\n"
+"* 它的氣味很像一氧化二氫。"
 
 msgid "<32>{#p/human}* (You drank the Water.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你喝下了水。）"
 
 msgid "<33>{#p/human}* (You're filled with hydration.)"
-msgstr ""
+msgstr "<33>{#p/human}* （你充滿了一氧化二氫的力量。）"
 
 msgid "A well-deserved chocolate bar."
 msgstr ""

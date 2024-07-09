@@ -7214,28 +7214,28 @@ export default {
    i_goggles: {
       battle: {
          description: "Expand your reality!\nMakes you invincible longer.",
-         name: "Headset"
+         name: "AR眼镜"
       },
-      drop: [ "<32>{#p/human}* (You throw away the AR Headset.)" ],
+      drop: [ "<32>{#p/human}* （你把AR眼镜扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (6 DF.)" ]
-            : [ "<32>{#p/basic}* \"AR Headset\" (6 DF)\n* Expand your reality! Makes you invincible longer." ],
-      name: "AR Headset",
-      use: [ "<32>{#p/human}* (You wear the AR Headset.)" ]
+            : [ "<32>{#p/basic}* “AR眼镜” （6防御）\n* 超越现实！\n  能为你提供更长的喘息时间。" ],
+      name: "AR眼镜",
+      use: [ "<32>{#p/human}* （你戴上了AR眼镜。）" ]
    },
    i_goggles_x: {
       battle: {
          description: "Makes you invincible just a little longer.",
-         name: "Headset?"
+         name: "AR眼镜？"
       },
-      drop: [ "<32>{#p/human}* (You throw away the AR Headset.)" ],
+      drop: [ "<32>{#p/human}* （你把AR眼镜扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (4 DF.)" ]
-            : [ "<32>{#p/basic}* \"AR Headset?\" (4 DF)\n* Expand your reality! Makes you invincible a little longer." ],
-      name: "AR Headset?",
-      use: [ "<32>{#p/human}* (You wear the AR Headset.)" ]
+            : [ "<32>{#p/basic}* “AR眼镜？” （4防御）\n* 超越现实！\n  能为你提供稍长的喘息时间。" ],
+      name: "AR眼镜？",
+      use: [ "<32>{#p/human}* （你戴上了AR眼镜。）" ]
    },
    i_padd: {
       battle: {
@@ -7637,21 +7637,21 @@ export default {
             : [ "<32>{#p/basic}{#k/0}* Be careful out there, kid!" ],
       item: () =>
          world.runaway
-            ? [ "0G - Datapad?", "0G - AR Headset?", "0G - Nebula Tea", "0G - Tree Sap", "Exit" ]
+            ? [ "0G - Datapad?", "0G - AR眼镜？", "0G - Nebula Tea", "0G - Tree Sap", "Exit" ]
             : world.genocide || world.killed0 || SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
 
-            ? [ "45G - Datapad?", "45G - AR Headset?", "16G - Nebula Tea", "25G - Tree Sap", "Exit" ]
+            ? [ "45G - Datapad?", "45G - AR眼镜？", "16G - Nebula Tea", "25G - Tree Sap", "Exit" ]
             : SAVE.data.n.plot === 72
             ? [
                  SAVE.data.b.item_padd ? "25G - Datapad?" : "35G - Datapad",
-                 SAVE.data.b.item_goggles ? "25G - AR Headset?" : "35G - AR Headset",
+                 SAVE.data.b.item_goggles ? "25G - AR眼镜？" : "35G - AR眼镜",
                  "5G - Nebula Tea",
                  "5G - Tree Sap",
                  "Exit"
               ]
             : [
                  SAVE.data.b.item_padd ? "45G - Datapad?" : "55G - Datapad",
-                 SAVE.data.b.item_goggles ? "45G - AR Headset?" : "55G - AR Headset",
+                 SAVE.data.b.item_goggles ? "45G - AR眼镜？" : "55G - AR眼镜",
                  "16G - Nebula Tea",
                  "25G - Tree Sap",
                  "Exit"

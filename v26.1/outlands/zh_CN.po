@@ -1,7 +1,20 @@
-#
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-09 13:31+0000\n"
+"PO-Revision-Date: 2024-07-09 15:04+0000\n"
+"Last-Translator: \"R.o.C.t.D./π/3.1415⑨\" <3182034431@qq.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/1-outlands/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
 
+#
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
@@ -8665,7 +8678,7 @@ msgid "<32>{#p/story}* Oculoux doesn't care about fighting anymore."
 msgstr ""
 
 msgid "<32>{#p/story}* A pair of Oculoux walked in!"
-msgstr ""
+msgstr "<32>{#p/story}* 一对Oculoux向你走来！"
 
 msgid "<32>{#p/story}* Oculoux is staring right through you."
 msgstr ""
@@ -9683,13 +9696,13 @@ msgid "Insult"
 msgstr "辱骂"
 
 msgid "<25>{#p/toriel}{#f/1}* You want to know more about me...?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* 你是想了解我的更多...对吗？"
 
 msgid "<25>{#f/0}* Well, I am afraid there is not much to say."
-msgstr ""
+msgstr "<25>{#f/0}* 嗯，我怕我没有什么可以跟你讲的。"
 
 msgid "<25>{#f/0}* I am but a silly old lady who worries too often!"
-msgstr ""
+msgstr "<25>{#f/0}* 我只不过是一位爱瞎操心的老阿姨罢了！"
 
 msgid "<25>{#p/toriel}{#f/1}* If you really want to know more about me..."
 msgstr "<25>{#p/toriel}{#f/1}* 如果你想深入了解我的话..."
@@ -9709,40 +9722,46 @@ msgid "<25>{#f/2}* You should think twice about insulting me over the phone!"
 msgstr "<25>{#f/2}* 之前就别在电话里骂我！"
 
 msgid "<25>{#p/toriel}{#f/7}* ... huh?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/7}* ... 嗯?"
 
 msgid "<25>{#f/1}* Oh, heh... heh..."
-msgstr ""
+msgstr "<25>{#f/1}* 哦, 嘻... 嘻嘻..."
 
 msgid ""
 "<25>{#f/6}* Hahaha!\n"
 "* I could pinch your cheek!"
 msgstr ""
+"<25>{#f/6}* 哈哈哈！\n"
+"* 让我捏捏你的小脸蛋！"
 
 msgid "<25>{#f/0}* You can certainly find better than an old woman like me."
-msgstr ""
+msgstr "<25>{#f/0}* 你肯定能找到比我这种老阿姨更好的人！"
 
 msgid ""
 "<25>{#p/toriel}{#f/7}* ...\n"
 "* Oh dear, are you serious...?"
 msgstr ""
+"<25>{#p/toriel}{#f/7}* ...\n"
+"* 哦亲爱的, 你是认真的吗...?"
 
 msgid "<25>{#f/1}* My child, I do not know if this is pathetic or endearing."
-msgstr ""
+msgstr "<25>{#f/1}* 我实在不知道是喜还是悲，我的孩子。"
 
 msgid "<25>{#f/5}* And after you called me \"Mother...\""
-msgstr ""
+msgstr "<25>{#f/5}* 先前你还叫我“妈妈”..."
 
 msgid ""
 "<25>{#f/1}* Well then.\n"
 "* You are a very \"interesting\" child."
 msgstr ""
+"<25>{#f/1}* 好吧。\n"
+"* 你可真是个“有趣”的孩子。"
 
 msgid "<25>{#p/toriel}{#f/4}* I cannot begin to understand you."
 msgstr "<25>{#p/toriel}{#f/4}* 我真是想不通你的脑回路。"
 
 msgid "<25>{#p/toriel}* This is Toriel."
-msgstr ""
+msgstr "<25>{#p/toriel}* 这里是Toriel。"
 
 msgid "<25>{#f/1}* You only wanted to say hello...?"
 msgstr "<25>{#f/1}* 你只是想和我打声招呼...？"
@@ -9812,34 +9831,46 @@ msgid ""
 "<25>{#f/7}* Huh?\n"
 "* Did you just call me \"Mom?\""
 msgstr ""
+"<25>{#f/7}* 嗯？\n"
+"* 你刚才是不是叫我“妈妈”了？"
 
 msgid ""
 "<25>{#f/1}* Well...\n"
 "* I suppose..."
 msgstr ""
+"<25>{#f/1}* 嗯...\n"
+"* 我想..."
 
 msgid "<25>{#f/1}* Would that make you happy?"
-msgstr ""
+msgstr "<25>{#f/1}* 你叫我“妈妈”..."
 
 msgid ""
 "<25>{#f/1}* To call me...\n"
 "* \"Mother?\""
 msgstr ""
+"<25>{#f/1}* 会不会让你...\n"
+"* 开心一点？"
 
 msgid ""
 "<25>{#f/0}* Well then.\n"
 "* Call me whatever you like!"
 msgstr ""
+"<25>{#f/0}* 那就...\n"
+"* 随你怎么称呼吧！"
 
 msgid ""
 "<25>{#p/toriel}{#f/7}* ...\n"
 "* Oh my... again?"
 msgstr ""
+"<25>{#p/toriel}{#f/7}* ...\n"
+"* 我的天... 又来?"
 
 msgid ""
 "<25>{#f/0}* Hee hee...\n"
 "* You are a very sweet child."
 msgstr ""
+"<25>{#f/0}* 嘻嘻嘻...\n"
+"* 你真是个小可爱。"
 
 msgid "<25>{#f/5}* And after you flirted with me..."
 msgstr ""
@@ -9871,7 +9902,7 @@ msgstr "<25>{#f/3}* 你有本事再说一遍？"
 
 msgid ""
 "<25>{#f/1}* My child... I do not think that means what you think it means."
-msgstr ""
+msgstr "<25>{#f/1}* 我的孩子... 我并不觉得这如你所说的那样。"
 
 msgid "<25>{#p/toriel}{#f/15}* ..."
 msgstr "<25>{#p/toriel}{#f/15}* ..."
@@ -9905,24 +9936,26 @@ msgid "<32>{#p/human}* (You eat the Monster Candy.)"
 msgstr "<32>{#p/human}* （你吃掉了怪物糖果。）"
 
 msgid "Smells like Dihydrogen Monoxide."
-msgstr ""
+msgstr "它的气味很像一氧化二氢。"
 
 msgid "<32>{#p/human}* (You throw away the Water.)"
 msgstr ""
 
 msgid "<32>{#p/human}* (12 HP.)"
-msgstr ""
+msgstr "<32>{#p/human}* （12 HP。）"
 
 msgid ""
 "<32>{#p/basic}* \"Water\" Heals 12 HP\n"
 "* Smells like Di-Hydrogen Monoxide."
 msgstr ""
+"<32>{#p/basic}* “水” 回复 12 HP\n"
+"* 它的气味很像一氧化二氢。"
 
 msgid "<32>{#p/human}* (You drank the Water.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你喝下了水。）"
 
 msgid "<33>{#p/human}* (You're filled with hydration.)"
-msgstr ""
+msgstr "<33>{#p/human}* （你充满了一氧化二氢的力量。）"
 
 msgid "A well-deserved chocolate bar."
 msgstr ""

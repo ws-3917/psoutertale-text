@@ -3936,7 +3936,7 @@ export default {
       name: "* Oculoux",
       pickTalk1: [ "<08>{#p/basic}{~}How dare you question our way of life!" ],
       spareStatus: [ "<32>{#p/story}* Oculoux doesn't care about fighting anymore." ],
-      status1: [ "<32>{#p/story}* A pair of Oculoux walked in!" ],
+      status1: [ "<32>{#p/story}* 一对Oculoux向你走来！" ],
       status2: [ "<32>{#p/story}* Oculoux is staring right through you." ],
       status3: [ "<32>{#p/story}* Oculoux gnashes its teeth." ],
       status4: [ "<32>{#p/story}* Smells like eyedrops." ],
@@ -4255,9 +4255,9 @@ export default {
 
    c_call_outlands: {
       about1: [
-         "<25>{#p/toriel}{#f/1}* You want to know more about me...?",
-         "<25>{#f/0}* Well, I am afraid there is not much to say.",
-         "<25>{#f/0}* I am but a silly old lady who worries too often!"
+         "<25>{#p/toriel}{#f/1}* 你是想了解我的更多...对吗？",
+         "<25>{#f/0}* 嗯，我怕我没有什么可以跟你讲的。",
+         "<25>{#f/0}* 我只不过是一位爱瞎操心的老阿姨罢了！"
       ],
       about2: [
          "<25>{#p/toriel}{#f/1}* 如果你想深入了解我的话...",
@@ -4269,30 +4269,30 @@ export default {
          "<25>{#f/2}* 之前就别在电话里骂我！"
       ],
       flirt1: [
-         "<25>{#p/toriel}{#f/7}* ... huh?",
-         "<25>{#f/1}* Oh, heh... heh...",
-         "<25>{#f/6}* Hahaha!\n* I could pinch your cheek!",
-         "<25>{#f/0}* You can certainly find better than an old woman like me."
+         "<25>{#p/toriel}{#f/7}* ... 嗯?",
+         "<25>{#f/1}* 哦, 嘻... 嘻嘻...",
+         "<25>{#f/6}* 哈哈哈！\n* 让我捏捏你的小脸蛋！",
+         "<25>{#f/0}* 你肯定能找到比我这种老阿姨更好的人！"
       ],
       flirt2: [
-         "<25>{#p/toriel}{#f/7}* ...\n* Oh dear, are you serious...?",
-         "<25>{#f/1}* My child, I do not know if this is pathetic or endearing."
+         "<25>{#p/toriel}{#f/7}* ...\n* 哦亲爱的, 你是认真的吗...?",
+         "<25>{#f/1}* 我实在不知道是喜还是悲，我的孩子。"
       ],
       flirt3: [
-         "<25>{#p/toriel}{#f/7}* ...\n* Oh dear, are you serious...?",
-         "<25>{#f/5}* And after you called me \"Mother...\"",
-         "<25>{#f/1}* Well then.\n* You are a very \"interesting\" child."
+         "<25>{#p/toriel}{#f/7}* ...\n* 哦亲爱的, 你是认真的吗...?",
+         "<25>{#f/5}* 先前你还叫我“妈妈”...",
+         "<25>{#f/1}* 好吧。\n* 你可真是个“有趣”的孩子。"
       ],
       flirt4: [ "<25>{#p/toriel}{#f/3}* ...", "<25>{#p/toriel}{#f/4}* 我真是想不通你的脑回路。" ],
       hello: [
          [
-            "<25>{#p/toriel}* This is Toriel.",
+            "<25>{#p/toriel}* 这里是Toriel。",
             "<25>{#f/1}* 你只是想和我打声招呼...？",
             "<25>{#f/0}* 那好吧。\n* \"你好！\"",
             "<25>{#f/0}* 希望这一句招呼就足够了。\n* 嘻嘻。"
          ],
          [
-            "<25>{#p/toriel}* This is Toriel.",
+            "<25>{#p/toriel}* 这里是Toriel。",
             "<25>{#f/1}* 你还想和我打声招呼吗？",
             "<25>{#f/0}* 那就，“向你致意”吧！",
             "<25>{#f/1}* 足够了吗？"
@@ -4314,17 +4314,17 @@ export default {
       helloX: [ "<25>{#p/toriel}{#g/torielLowConcern}* 嗯？" ],
       mom1: [
          "<25>{#p/toriel}* ...",
-         "<25>{#f/7}* Huh?\n* Did you just call me \"Mom?\"",
-         "<25>{#f/1}* Well...\n* I suppose...",
-         "<25>{#f/1}* Would that make you happy?",
-         "<25>{#f/1}* To call me...\n* \"Mother?\"",
-         "<25>{#f/0}* Well then.\n* Call me whatever you like!"
+         "<25>{#f/7}* 嗯？\n* 你刚才是不是叫我“妈妈”了？",
+         "<25>{#f/1}* 嗯...\n* 我想...",
+         "<25>{#f/1}* 你叫我“妈妈”...",
+         "<25>{#f/1}* 会不会让你...\n* 开心一点？",
+         "<25>{#f/0}* 那就...\n* 随你怎么称呼吧！"
       ],
-      mom2: [ "<25>{#p/toriel}{#f/7}* ...\n* Oh my... again?", "<25>{#f/0}* Hee hee...\n* You are a very sweet child." ],
+      mom2: [ "<25>{#p/toriel}{#f/7}* ...\n* 我的天... 又来?", "<25>{#f/0}* 嘻嘻嘻...\n* 你真是个小可爱。" ],
       mom3: [
-         "<25>{#p/toriel}{#f/7}* ...\n* Oh my... again?",
+         "<25>{#p/toriel}{#f/7}* ...\n* 我的天... 又来?",
          "<25>{#f/5}* And after you flirted with me...",
-         "<25>{#f/1}* Well then.\n* You are a very \"interesting\" child."
+         "<25>{#f/1}* 好吧。\n* 你可真是个“有趣”的孩子。"
       ],
       mom4: [ "<25>{#p/toriel}{#f/5}* ..." ],
       puzzle1: [
@@ -4346,7 +4346,7 @@ export default {
             : [
                  "<25>{#p/toriel}{#f/0}* 喂？\n* 我是...",
                  "<25>{#f/2}* ...！",
-                 "<25>{#f/1}* My child... I do not think that means what you think it means."
+                 "<25>{#f/1}* 我的孩子... 我并不觉得这如你所说的那样。"
               ],
       insult2: (sus: boolean) =>
          sus
@@ -4369,18 +4369,18 @@ export default {
    },
    i_water: {
       battle: {
-         description: "Smells like Dihydrogen Monoxide.",
+         description: "它的气味很像一氧化二氢。",
          name: "水"
       },
       drop: [ "<32>{#p/human}* (You throw away the Water.)" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* (12 HP.)" ]
-            : [ "<32>{#p/basic}* \"Water\" Heals 12 HP\n* Smells like Di-Hydrogen Monoxide." ],
+            ? [ "<32>{#p/human}* （12 HP。）" ]
+            : [ "<32>{#p/basic}* “水” 回复 12 HP\n* 它的气味很像一氧化二氢。" ],
       name: "水",
       use: () => [
-         "<32>{#p/human}* (You drank the Water.)",
-         ...(SAVE.data.b.ufokinwotm8 ? [] : [ "<33>{#p/human}* (You're filled with hydration.)" ]) 
+         "<32>{#p/human}* （你喝下了水。）",
+         ...(SAVE.data.b.ufokinwotm8 ? [] : [ "<33>{#p/human}* （你充满了一氧化二氢的力量。）" ]) 
       ]
    },
    i_chocolate: {

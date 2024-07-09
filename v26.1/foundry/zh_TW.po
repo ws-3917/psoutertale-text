@@ -14588,10 +14588,10 @@ msgid ""
 msgstr ""
 
 msgid "Headset"
-msgstr ""
+msgstr "AR眼鏡"
 
 msgid "<32>{#p/human}* (You throw away the AR Headset.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把AR眼鏡扔掉了。）"
 
 msgid "<32>{#p/human}* (6 DF.)"
 msgstr ""
@@ -14600,18 +14600,21 @@ msgid ""
 "<32>{#p/basic}* \"AR Headset\" (6 DF)\n"
 "* Expand your reality! Makes you invincible longer."
 msgstr ""
+"<32>{#p/basic}* “AR眼鏡” （6防禦）\n"
+"* 超越現實！\n"
+"  能為你提供更長的喘息時間。"
 
 msgid "AR Headset"
-msgstr ""
+msgstr "AR眼鏡"
 
 msgid "<32>{#p/human}* (You wear the AR Headset.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你戴上了AR眼鏡。）"
 
 msgid "Makes you invincible just a little longer."
 msgstr ""
 
 msgid "Headset?"
-msgstr ""
+msgstr "AR眼鏡？"
 
 msgid "<32>{#p/human}* (4 DF.)"
 msgstr ""
@@ -14620,9 +14623,12 @@ msgid ""
 "<32>{#p/basic}* \"AR Headset?\" (4 DF)\n"
 "* Expand your reality! Makes you invincible a little longer."
 msgstr ""
+"<32>{#p/basic}* “AR眼鏡？” （4防禦）\n"
+"* 超越現實！\n"
+"  能為你提供稍長的喘息時間。"
 
 msgid "AR Headset?"
-msgstr ""
+msgstr "AR眼鏡？"
 
 msgid ""
 "A digital journal.\n"
@@ -15322,7 +15328,7 @@ msgid "0G - Datapad?"
 msgstr ""
 
 msgid "0G - AR Headset?"
-msgstr ""
+msgstr "0G - AR眼鏡？"
 
 msgid "0G - Nebula Tea"
 msgstr ""
@@ -15334,7 +15340,7 @@ msgid "45G - Datapad?"
 msgstr ""
 
 msgid "45G - AR Headset?"
-msgstr ""
+msgstr "45G - AR眼鏡？"
 
 msgid "16G - Nebula Tea"
 msgstr ""
@@ -15349,10 +15355,10 @@ msgid "35G - Datapad"
 msgstr ""
 
 msgid "25G - AR Headset?"
-msgstr ""
+msgstr "25G - AR眼鏡？"
 
 msgid "35G - AR Headset"
-msgstr ""
+msgstr "35G - AR眼鏡"
 
 msgid "5G - Nebula Tea"
 msgstr ""
@@ -15364,7 +15370,7 @@ msgid "55G - Datapad"
 msgstr ""
 
 msgid "55G - AR Headset"
-msgstr ""
+msgstr "55G - AR眼鏡"
 
 msgid ""
 "Weapon: 0AT\n"

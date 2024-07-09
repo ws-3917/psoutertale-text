@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-09 15:31+0000\n"
+"PO-Revision-Date: 2024-07-09 15:31+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/2-starton/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
@@ -21,12 +36,16 @@ msgid "<25>{#p/kidd}{#f/2}* You do stargazing??"
 msgstr "<25>{#p/kidd}{#f/2}* 你在看星星吗？"
 
 msgid "<25>{#p/kidd}{#f/1}* Yo... I bet you just saw something really cool."
-msgstr "<25>{#p/kidd}{#f/1}* 哟... 我打赌你肯定看到了很酷的东西。"
+msgstr ""
+"<25>{#p/kidd}{#f/1}* 哟... 我打赌\n"
+"  你肯定看到了很酷的东西。"
 
 msgid ""
 "<25>{#f/7}* The last time I looked in a telescope, I saw a freaking "
 "SUPERNOVA!"
-msgstr "<25>{#f/7}* 上次我用望远镜的时候，我甚至看到了一颗超新星！"
+msgstr ""
+"<25>{#f/7}* 上次我用望远镜的时候，\n"
+"  我甚至看到了一颗超新星！"
 
 msgid ""
 "<25>{#p/kidd}{#f/3}* Here.\n"
@@ -38,18 +57,24 @@ msgstr ""
 msgid ""
 "<32>{#s/equip}{#p/human}* (The Premium Membership Voucher was added to your "
 "keyring.)"
-msgstr "<32>{#s/equip}{#p/human}* （高级会员券被添加到了你的钥匙圈。）"
+msgstr ""
+"<32>{#s/equip}{#p/human}* （高级会员券\n"
+"  被添加到了你的钥匙圈。）"
 
 msgid ""
 "<25>{#p/kidd}{#f/7}* Now you can use ANY telescope, even the \"premium\" "
 "ones!"
-msgstr "<25>{#p/kidd}{#f/7}* 现在你可以使用任何望远镜了，连“最高级”的都能用！"
+msgstr ""
+"<25>{#p/kidd}{#f/7}* 现在你可以使用任何望远镜了，\n"
+"  连“最高级”的都能用！"
 
 msgid "<25>{#f/1}* That short skeleton gave me a bunch of these earlier."
 msgstr "<25>{#f/1}* 那个矮骷髅之前给了我好多这个。"
 
 msgid "<25>{#f/2}* He also gave me some digital thing with a lot of money..."
-msgstr "<25>{#f/2}* 他甚至花了很多钱送了我一些数字藏品..."
+msgstr ""
+"<25>{#f/2}* 他甚至花了很多钱\n"
+"  送了我一些数字藏品..."
 
 msgid "<25>{#f/1}* I guess he really likes me, haha."
 msgstr "<25>{#f/1}* 我猜他真的很喜欢我，哈哈。"
@@ -5196,8 +5221,6 @@ msgstr ""
 msgid "SAVE YOURSELVES..."
 msgstr ""
 
-msgid ""
-msgstr ""
 
 msgid "FAILED TO CONNECT..."
 msgstr ""

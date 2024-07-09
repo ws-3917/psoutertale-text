@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-09 14:04+0000\n"
+"PO-Revision-Date: 2024-07-09 14:04+0000\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/3-foundry/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "<32>{#p/human}* (You decide not to equip.)"
 msgstr "<32>{#p/human}* （你不打算这么做。）"
@@ -14588,10 +14603,10 @@ msgid ""
 msgstr ""
 
 msgid "Headset"
-msgstr ""
+msgstr "AR眼镜"
 
 msgid "<32>{#p/human}* (You throw away the AR Headset.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把AR眼镜扔掉了。）"
 
 msgid "<32>{#p/human}* (6 DF.)"
 msgstr ""
@@ -14600,18 +14615,21 @@ msgid ""
 "<32>{#p/basic}* \"AR Headset\" (6 DF)\n"
 "* Expand your reality! Makes you invincible longer."
 msgstr ""
+"<32>{#p/basic}* “AR眼镜” （6防御）\n"
+"* 超越现实！\n"
+"  能为你提供更长的喘息时间。"
 
 msgid "AR Headset"
-msgstr ""
+msgstr "AR眼镜"
 
 msgid "<32>{#p/human}* (You wear the AR Headset.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你戴上了AR眼镜。）"
 
 msgid "Makes you invincible just a little longer."
 msgstr ""
 
 msgid "Headset?"
-msgstr ""
+msgstr "AR眼镜？"
 
 msgid "<32>{#p/human}* (4 DF.)"
 msgstr ""
@@ -14620,9 +14638,12 @@ msgid ""
 "<32>{#p/basic}* \"AR Headset?\" (4 DF)\n"
 "* Expand your reality! Makes you invincible a little longer."
 msgstr ""
+"<32>{#p/basic}* “AR眼镜？” （4防御）\n"
+"* 超越现实！\n"
+"  能为你提供稍长的喘息时间。"
 
 msgid "AR Headset?"
-msgstr ""
+msgstr "AR眼镜？"
 
 msgid ""
 "A digital journal.\n"
@@ -15322,7 +15343,7 @@ msgid "0G - Datapad?"
 msgstr ""
 
 msgid "0G - AR Headset?"
-msgstr ""
+msgstr "0G - AR眼镜？"
 
 msgid "0G - Nebula Tea"
 msgstr ""
@@ -15334,7 +15355,7 @@ msgid "45G - Datapad?"
 msgstr ""
 
 msgid "45G - AR Headset?"
-msgstr ""
+msgstr "45G - AR眼镜？"
 
 msgid "16G - Nebula Tea"
 msgstr ""
@@ -15349,10 +15370,10 @@ msgid "35G - Datapad"
 msgstr ""
 
 msgid "25G - AR Headset?"
-msgstr ""
+msgstr "25G - AR眼镜？"
 
 msgid "35G - AR Headset"
-msgstr ""
+msgstr "35G - AR眼镜"
 
 msgid "5G - Nebula Tea"
 msgstr ""
@@ -15364,7 +15385,7 @@ msgid "55G - Datapad"
 msgstr ""
 
 msgid "55G - AR Headset"
-msgstr ""
+msgstr "55G - AR眼镜"
 
 msgid ""
 "Weapon: 0AT\n"
