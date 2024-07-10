@@ -996,7 +996,7 @@ export default {
       sidebar2: "状态",
       sidebar3: "电话",
       sidebar4: "设置",
-      sidebar5: "图",
+      sidebar5: "状态",
 
       start1: [
          "---- 操作介绍 ----",

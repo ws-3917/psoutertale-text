@@ -996,7 +996,7 @@ export default {
       sidebar2: "狀況",
       sidebar3: "手機",
       sidebar4: "設定",
-      sidebar5: "圖",
+      sidebar5: "狀態",
 
       start1: [
          "---- 操作介紹 ----",
