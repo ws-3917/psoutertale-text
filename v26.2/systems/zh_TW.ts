@@ -996,7 +996,7 @@ export default {
       sidebar2: "狀況",
       sidebar3: "手機",
       sidebar4: "設定",
-      sidebar5: "狀態",
+      sidebar5: "體徵",
 
       start1: [
          "---- 操作介紹 ----",
@@ -1020,7 +1020,7 @@ export default {
       stat9: "擊殺",
       stat10: "擊敗",
       stat11: "調情",
-      stat12: "狀態",
+      stat12: "生命體徵",
 
       story1: [ "{#i/x2}很久以前，{^3}太陽系\n由兩個物種統治著：{^6}\n人類和怪物。" ],
       story2: [ "{#i/x2}隨著時間的步步推演，{^3}\n兩者間的緊張局勢{^1}\n終升級為一場星際戰爭。" ],

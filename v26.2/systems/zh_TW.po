@@ -2197,7 +2197,7 @@ msgid "FLIRT"
 msgstr "調情"
 
 msgid "STATUS"
-msgstr "狀態"
+msgstr "生命體徵"
 
 msgid ""
 "Long ago, {^3}two species ruled the solar system: {^6}HUMANS and MONSTERS."

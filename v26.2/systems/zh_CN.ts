@@ -996,7 +996,7 @@ export default {
       sidebar2: "状态",
       sidebar3: "电话",
       sidebar4: "设置",
-      sidebar5: "状态",
+      sidebar5: "体征",
 
       start1: [
          "---- 操作介绍 ----",
@@ -1020,7 +1020,7 @@ export default {
       stat9: "击杀",
       stat10: "击败",
       stat11: "调情",
-      stat12: "状态",
+      stat12: "生命体征",
 
       story1: [ "{#i/x2}很久以前，{^3}太阳系\n由两个物种统治着：{^6}\n人类和怪物。" ],
       story2: [ "{#i/x2}随着时间的推移，{^3}\n两个物种之间爆发了战争。" ],
