@@ -1209,7 +1209,7 @@ export default {
             ...(SAVE.data.b.oops ? [] : [ "<32>{#p/basic}* This is absolutely bonkers." ])
          ],
          cooker13x: [ "<32>{#p/human}* (You activated the jetpack.)" ],
-         cooker14: ":$(x)",
+         cooker14: "$(x)",
          cooker15: "$(x)%",
          cooker16a: [ "<32>{#p/mettaton}* YOU DO REALIZE YOUR LIFE IS IN DANGER HERE... RIGHT?" ],
          cooker16b: [ "<32>* ..." ],
