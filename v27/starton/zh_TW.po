@@ -2581,6 +2581,8 @@ msgid ""
 "<25>{#p/sans}{#f/0}* whoops.\n"
 "* nice try, though."
 msgstr ""
+"<25>{#p/sans}{#f/0}* 哎呀，真可惜。\n"
+"* 不過別灰心。"
 
 msgid ""
 "<18>{#p/papyrus}NYEH HEH HEH!\n"
@@ -5202,9 +5204,6 @@ msgid "HOWDY!"
 msgstr ""
 
 msgid "SAVE YOURSELVES..."
-msgstr ""
-
-msgid ""
 msgstr ""
 
 msgid "FAILED TO CONNECT..."

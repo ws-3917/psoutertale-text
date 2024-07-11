@@ -1018,7 +1018,7 @@ export default {
       ],
       maze8: () =>
          world.edgy
-            ? [ "<25>{#p/sans}{#f/0}* whoops.\n* nice try, though." ]
+            ? [ "<25>{#p/sans}{#f/0}* 哎呀，真可惜。\n* 不过别灰心。" ]
             : [
                  "<18>{#p/papyrus}NYEH HEH HEH!\nWELL THEN.",
                  "<18>{#f/9}IT SEEMS YOU'VE BEEN JAPED BY THE GREAT PAPYRUS!",
