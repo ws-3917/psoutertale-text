@@ -209,6 +209,7 @@ export default {
       catty: "Bratty! Bratty! That's MY name!",
       cozmo: 'A fellow wizard?',
       glyde: 'Slick choice, homeslice.',
+      hapsta: "I don't think so, darling.",
       mettaton: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
       mett: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
       metta: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',

@@ -210,6 +210,7 @@ export default {
       catty: "Bratty！Bratty！\n那是我的名字！",
       cozmo: "一位巫师同伴？",
       glyde: "不错的选择，小伙子。",
+      hapsta: "I don't think so, darling.",
       mettaton: "哦！！！ \n你在推广我的品牌吗？",
       mett: "哦！！！ \n你在推广我的品牌吗？",
       metta: "哦！！！ \n你在推广我的品牌吗？",

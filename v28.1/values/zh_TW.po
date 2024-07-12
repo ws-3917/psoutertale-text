@@ -311,6 +311,9 @@ msgstr "一位巫師同伴？"
 msgid "Slick choice, homeslice."
 msgstr "不錯的選擇，小夥子。"
 
+msgid "I don't think so, darling."
+msgstr ""
+
 msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
 msgstr ""
 "喔！！！ \n"

@@ -290,6 +290,9 @@ msgstr ""
 msgid "Slick choice, homeslice."
 msgstr ""
 
+msgid "I don't think so, darling."
+msgstr ""
+
 msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
 msgstr ""
 
