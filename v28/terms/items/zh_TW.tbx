@@ -18,10 +18,6 @@
                 <langSet xml:lang="en"><tig><term>Rusty Spanner</term></tig></langSet>
                 <langSet xml:lang="zh_Hant"><tig><term>生鏽的扳手</term></tig></langSet>
             </termEntry>
-            <termEntry id="armor">
-                <langSet xml:lang="en"><tig><term>Broken Spacesuit</term></tig></langSet>
-                <langSet xml:lang="zh_Hant"><tig><term>破損的宇航服</term></tig></langSet>
-            </termEntry>
             <termEntry id="special">
                 <langSet xml:lang="en"><tig><term>Super Starwalker 1</term></tig></langSet>
                 <langSet xml:lang="zh_Hant"><tig><term>超級星之行者1</term></tig></langSet>
@@ -280,27 +276,27 @@
             </termEntry>
             <termEntry id="armor">
                 <langSet xml:lang="en"><tig><term>AR Headset?</term></tig></langSet>
-                <langSet xml:lang="zh_TW"><tig><term></term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term/></tig></langSet>
             </termEntry>
             <termEntry id="armor(short-name)">
                 <langSet xml:lang="en"><tig><term>Headset</term></tig></langSet>
-                <langSet xml:lang="zh_TW"><tig><term></term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term/></tig></langSet>
             </termEntry>
             <termEntry id="armor(short-name)">
                 <langSet xml:lang="en"><tig><term>Tem Armor</term></tig></langSet>
-                <langSet xml:lang="zh_TW"><tig><term></term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term/></tig></langSet>
             </termEntry>
             <termEntry id="armor">
                 <langSet xml:lang="en"><tig><term>Temmie Armor</term></tig></langSet>
-                <langSet xml:lang="zh_TW"><tig><term></term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term/></tig></langSet>
             </termEntry>
             <termEntry id="armor">
                 <langSet xml:lang="en"><tig><term>AR Headset</term></tig></langSet>
-                <langSet xml:lang="zh_TW"><tig><term></term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term/></tig></langSet>
             </termEntry>
             <termEntry id="armor(short-name)">
                 <langSet xml:lang="en"><tig><term>Headset?</term></tig></langSet>
-                <langSet xml:lang="zh_TW"><tig><term></term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term/></tig></langSet>
             </termEntry>
         </body>
     </text>

@@ -18,10 +18,6 @@
                 <langSet xml:lang="en"><tig><term>Rusty Spanner</term></tig></langSet>
                 <langSet xml:lang="zh_Hans"><tig><term>生锈的扳手</term></tig></langSet>
             </termEntry>
-            <termEntry id="armor">
-                <langSet xml:lang="en"><tig><term>Broken Spacesuit</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>破损的宇航服</term></tig></langSet>
-            </termEntry>
             <termEntry id="special">
                 <langSet xml:lang="en"><tig><term>Super Starwalker 1</term></tig></langSet>
                 <langSet xml:lang="zh_Hans"><tig><term>超级星之行者1</term></tig></langSet>

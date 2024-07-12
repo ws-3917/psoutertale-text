@@ -10203,7 +10203,7 @@ msgid ""
 msgstr ""
 
 msgid "Worn Spacesuit"
-msgstr ""
+msgstr "破损的宇航服"
 
 msgid ""
 "<33>{#p/human}* (After using its last heal-pak, the Worn Spacesuit fell "

@@ -205,6 +205,12 @@ export default {
       mett: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
       metta: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
       mtt: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
+      镁塔顿: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
+      慢吞吞: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
+      马婷婷: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
+      慢腾腾: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
+      马蹄铁: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
+      马桶套: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
 
       // notable NPCs
       aaron: 'Is this name correct? ;)',

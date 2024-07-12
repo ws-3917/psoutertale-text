@@ -4537,7 +4537,7 @@ export default {
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (20 HP. The last remaining fragment of a spacecraft flown in exile.)" ]
             : [ "<32>{#p/basic}* \"Worn Spacesuit\" Heals 20 HP\n* It came with the craft you crash-landed in." ],
-      name: "Worn Spacesuit",
+      name: "破损的宇航服",
       use: [ "<33>{#p/human}* (After using its last heal-pak, the Worn Spacesuit fell apart.)" ]
    },
    i_spanner: {
