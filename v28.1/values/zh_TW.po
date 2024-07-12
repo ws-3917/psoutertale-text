@@ -174,6 +174,9 @@ msgstr ""
 "............\n"
 "（他好像不怎麼健談。）"
 
+msgid "Hello."
+msgstr ""
+
 msgid "Saddle up!"
 msgstr "上馬！"
 
@@ -294,6 +297,9 @@ msgstr "你還真會挑別人剩下的。"
 msgid "Like, OK I guess."
 msgstr "嗯，我想行吧。"
 
+msgid "You like my name, little buddy?"
+msgstr ""
+
 msgid "Bratty! Bratty! That's MY name!"
 msgstr ""
 "Bratty！Bratty！\n"
@@ -304,9 +310,6 @@ msgstr "一位巫師同伴？"
 
 msgid "Slick choice, homeslice."
 msgstr "不錯的選擇，小夥子。"
-
-msgid "I don't think so, darling."
-msgstr "我覺得名字不對喔，親。"
 
 msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
 msgstr ""

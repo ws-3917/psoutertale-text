@@ -160,6 +160,9 @@ msgid ""
 "(It's not much for conversation.)"
 msgstr ""
 
+msgid "Hello."
+msgstr ""
+
 msgid "Saddle up!"
 msgstr ""
 
@@ -275,6 +278,9 @@ msgstr ""
 msgid "Like, OK I guess."
 msgstr ""
 
+msgid "You like my name, little buddy?"
+msgstr ""
+
 msgid "Bratty! Bratty! That's MY name!"
 msgstr ""
 
@@ -282,9 +288,6 @@ msgid "A fellow wizard?"
 msgstr ""
 
 msgid "Slick choice, homeslice."
-msgstr ""
-
-msgid "I don't think so, darling."
 msgstr ""
 
 msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
