@@ -3,34 +3,34 @@ msgid ""
 msgstr ""
 
 msgid "(You take a deep breath.)"
-msgstr "（你深吸了一口氣。）"
+msgstr "{#i/x2}（你深吸了一口氣。）"
 
 msgid "(You're filled with determination.)"
-msgstr "（你充滿了決心。）"
+msgstr "{#i/x2}（你充滿了決心。）"
 
 msgid "You cannot give up just yet..."
-msgstr "現在還不能放棄..."
+msgstr "{#i/x2}現在還不能放棄..."
 
 msgid ""
 "$(name)!\n"
 "Stay determined..."
 msgstr ""
-"$(name)！\n"
+"{#i/x2}$(name)！\n"
 "保持你的決心..."
 
 msgid "Our fate rests upon you..."
 msgstr ""
-"我們的命運都\n"
+"{#i/x2}我們的命運都\n"
 "寄託於你..."
 
 msgid "You're going to be alright!"
-msgstr "你會沒事的！"
+msgstr "{#i/x2}你會沒事的！"
 
 msgid "Don't lose hope!"
-msgstr "別失去希望！"
+msgstr "{#i/x2}別失去希望！"
 
 msgid "It cannot end now!"
-msgstr "現在還不能結束！"
+msgstr "{#i/x2}現在還不能結束！"
 
 msgid "    * Escaped..."
 msgstr "   * 先走一步..."
@@ -615,9 +615,6 @@ msgstr "§fill:#ff0§< 遊戲開發者 >§fill:#fff§"
 
 msgid "spacey_432"
 msgstr "spacey_432"
-
-msgid ""
-msgstr ""
 
 msgid "§fill:#ff0§< WRITER >§fill:#fff§"
 msgstr "§fill:#ff0§< 文本編寫 >§fill:#fff§"
@@ -1966,18 +1963,20 @@ msgstr "LV"
 msgid ""
 "§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§"
 msgstr ""
-"§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§"
+"§mystify:勤奮謙虛寬容堅韌樂觀溫和冷靜沉著自信果斷理性耐心細心勇敢熱情同情責任創新幽默坦誠獨立自律謹慎周到慷慨大方友善忠誠可靠積極善解善良誠實仁慈正義智慧公正無私堅持創造寬宏溝通洞察§新名字§mystify:§"
 
 msgid ""
 "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
 msgstr ""
-"{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
+"{@mystify:勤奮謙虛寬容堅韌樂觀溫和冷靜沉著自信果斷理性耐心細心勇敢熱情同情責任創新幽默坦誠獨立自律謹慎周到慷慨大方友善忠誠可靠積極善解善良誠實仁慈正義智慧公正無私堅持創造寬宏溝通洞察}新名字{@mystify:}"
 
 msgid "{@mystify:abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
-msgstr "{@mystify:abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
+msgstr ""
+"{@mystify:勤奮謙虛寬容堅韌樂觀溫和冷靜沉著自信果斷理性耐心細心勇敢熱情同情責任創新幽默坦誠獨立自律謹慎周到慷慨大方友善忠誠可靠積極善解善良誠實仁慈正義智慧公正無私堅持創造寬宏溝通洞察}新名字{@mystify:}"
 
 msgid "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify:}"
-msgstr "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify:}"
+msgstr ""
+"{@mystify:勤奮謙虛寬容堅韌樂觀溫和冷靜沉著自信果斷理性耐心細心勇敢熱情同情責任創新幽默坦誠獨立自律謹慎周到慷慨大方友善忠誠可靠積極善解善良誠實仁慈正義智慧公正無私堅持創造寬宏溝通洞察}新名字{@mystify:}"
 
 msgid "No"
 msgstr "否"

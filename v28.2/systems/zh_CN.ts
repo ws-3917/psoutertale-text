@@ -2,12 +2,12 @@
 
 export default {
    battle: {
-      death0: [ "（你深吸了一口气。）", "（你充满了决心。）" ],
-      death1: [ "现在还不能放弃...", "$(name)！\n保持你的决心..." ],
-      death2: [ "我们的命运都\n寄托于你...", "$(name)！\n保持你的决心..." ],
-      death3: [ "你会没事的！", "$(name)！\n保持你的决心..." ],
-      death4: [ "别失去希望！", "$(name)！\n保持你的决心..." ],
-      death5: [ "现在还不能结束！", "$(name)！\n保持你的决心..." ],
+      death0: [ "{#i/x2}（你深吸了一口气。）", "{#i/x2}（你充满了决心。）" ],
+      death1: [ "{#i/x2}现在还不能放弃...", "{#i/x2}$(name)！\n保持你的决心..." ],
+      death2: [ "{#i/x2}我们的命运都\n寄托于你...", "{#i/x2}$(name)！\n保持你的决心..." ],
+      death3: [ "{#i/x2}你会没事的！", "{#i/x2}$(name)！\n保持你的决心..." ],
+      death4: [ "{#i/x2}别失去希望！", "{#i/x2}$(name)！\n保持你的决心..." ],
+      death5: [ "{#i/x2}现在还不能结束！", "{#i/x2}$(name)！\n保持你的决心..." ],
 
       flee1: "   * 先走一步...",
       flee2: "   * 我先撤了。",
@@ -925,10 +925,10 @@ export default {
       inf: "INF",
       landing1: "[按 Z 或 ENTER]",
       lv: "LV",
-      mystery1: "§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§",
-      mystery2: "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}",
-      mystery2l: "{@mystify:abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}",
-      mystery2u: "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify:}",
+      mystery1: "§mystify:勤奋谦虚宽容坚韧乐观温和冷静沉着自信果断理性耐心细心勇敢热情同情责任创新幽默坦诚独立自律谨慎周到慷慨大方友善忠诚可靠积极善解善良诚实仁慈正义智慧公正无私坚持创造宽宏沟通洞察§新名字§mystify:§",
+      mystery2: "{@mystify:勤奋谦虚宽容坚韧乐观温和冷静沉着自信果断理性耐心细心勇敢热情同情责任创新幽默坦诚独立自律谨慎周到慷慨大方友善忠诚可靠积极善解善良诚实仁慈正义智慧公正无私坚持创造宽宏沟通洞察}新名字{@mystify:}",
+      mystery2l: "{@mystify:勤奋谦虚宽容坚韧乐观温和冷静沉着自信果断理性耐心细心勇敢热情同情责任创新幽默坦诚独立自律谨慎周到慷慨大方友善忠诚可靠积极善解善良诚实仁慈正义智慧公正无私坚持创造宽宏沟通洞察}新名字{@mystify:}",
+      mystery2u: "{@mystify:勤奋谦虚宽容坚韧乐观温和冷静沉着自信果断理性耐心细心勇敢热情同情责任创新幽默坦诚独立自律谨慎周到慷慨大方友善忠诚可靠积极善解善良诚实仁慈正义智慧公正无私坚持创造宽宏沟通洞察}新名字{@mystify:}",
       no: "否",
       nominal: "§fill:#0f0§正常",
       percent: "$(x)%",

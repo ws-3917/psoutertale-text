@@ -30,7 +30,7 @@ export default {
       ],
       hypertext: {
          count: "REBOOT IN $(x)",
-         death1: [ "{#p/human}（你深吸了一口气。）", "(You're filled with determination.)" ],
+         death1: [ "{#p/human}{#i/x2}（你深吸了一口气。）", "{#i/x2}（你充满了决心。）" ],
          death2: [
             "{#p/human}{#v/1}{@fill:#42fcff}It'll be alright in the end...",
             "{@fill:#42fcff}Just take it steady..."
@@ -48,7 +48,7 @@ export default {
          death7: [ "{#p/human}{#v/6}{@fill:#faff29}It's only a matter of time." ],
          cyan1: [
             "{*}{#p/human}{#v/6}{@fill:#faff29}A lost SOUL calls out to you.",
-            "{*}{@fill:#faff29}依靠{@mystify:耐心勇气正直毅力善良正义}耐心{@mystify:}，将会有望逃脱。",
+            "{*}{#i/x2}{@fill:#faff29}依靠{@wordify:耐心,勇气,正直,毅力,善良,正义}耐心{@wordify:}，将会有望逃脱。",
             "{*}{#p/human}{#v/1}{@fill:#42fcff}You must reach my Little Dipper...",
             "{*}{#p/human}(Press [Z] to teleport.)"
          ],
@@ -58,7 +58,7 @@ export default {
          ],
          orange1: [
             "{*}{#p/human}{#v/6}{@fill:#faff29}A lost SOUL calls out to you.",
-            "{*}{@fill:#faff29}凭借{@mystify:勇气正直毅力善良正义}勇气{@mystify:}，或将摆脱束缚。",
+            "{*}{#i/x2}{@fill:#faff29}凭借{@wordify:勇气,正直,毅力,善良,正义}勇气{@wordify:}，或将摆脱束缚。",
             "{*}{#p/human}{#v/2}{@fill:#ff993d}Don't leave without my Power Glove!",
             "{*}{#p/human}(Press [Z] to explode.)"
          ],
@@ -68,7 +68,7 @@ export default {
          ],
          blue1: [
             "{*}{#p/human}{#v/6}{@fill:#faff29}A lost SOUL calls out to you.",
-            "{*}{@fill:#faff29}坚守{@mystify:正直毅力善良正义}正直{@mystify:}，必定能够逃脱。",
+            "{*}{#i/x2}{@fill:#faff29}坚守{@wordify:正直,毅力,善良,正义}正直{@wordify:}，必定能够逃脱。",
             "{*}{#p/human}{#v/3}{@fill:#003cff}I'll need my trusty Hoverboots."
          ],
          blue2: [
@@ -77,7 +77,7 @@ export default {
          ],
          purple1: [
             "{*}{#p/human}{#v/6}{@fill:#faff29}A lost SOUL calls out to you.",
-            "{*}{@fill:#faff29}拥有{@mystify:毅力善良正义}毅力{@mystify:}，定可摆脱束缚。",
+            "{*}{#i/x2}{@fill:#faff29}拥有{@wordify:毅力,善良,正义}毅力{@wordify:}，定可摆脱束缚。",
             "{*}{#p/human}{#v/4}{@fill:#d535d9}A single Datapad can go a long way."
          ],
          purple2: [
@@ -86,7 +86,7 @@ export default {
          ],
          green1: [
             "{*}{#p/human}{#v/6}{@fill:#faff29}A lost SOUL calls out to you.",
-            "{*}{@fill:#faff29}心怀{@mystify:善良正义}善良{@mystify:}，终能冲破枷锁。",
+            "{*}{#i/x2}{@fill:#faff29}心怀{@wordify:善良,正义}善良{@wordify:}，终能冲破枷锁。",
             "{*}{#p/human}{#v/5}{@fill:#00c000}The Tablaphone will set me free!"
          ],
          green2: [
