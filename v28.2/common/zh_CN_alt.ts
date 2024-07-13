@@ -4808,7 +4808,7 @@ export default {
       approach: "* 靠近",
       asgore: "* 艾斯戈尔",
       asriel: "* 艾斯利尔",
-      asrieldreemurr: "§fill:#ff7f7f§§swirl:2,1,1.05,1§§hue§* 艾斯利尔 Dreemurr",
+      asrieldreemurr: "§fill:#ff7f7f§§swirl:2,1,1.05,1§§hue§* 艾斯利尔·逐梦",
       bathe: "* 洗澡",
       beckon: "* 招呼过来",
       bedtime: "* 睡觉时间",
