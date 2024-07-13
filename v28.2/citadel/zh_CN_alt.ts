@@ -5055,8 +5055,8 @@ export default {
       refuse: "{*}{#p/event}{#i/3}But it refused.",
       name: () =>
          battler.volatile[0].container.objects[0]?.metadata.power === true
-            ? "§fill:#ff7f7f§§swirl:2,1,1.05,1§§hue§* Asriel Dreemurr"
-            : "* Asriel Dreemurr",
+            ? "§fill:#ff7f7f§§swirl:2,1,1.05,1§§hue§* 艾斯利尔·逐梦"
+            : "* 艾斯利尔·逐梦",
       status0: pager.create(
          0,
          (power = false) =>

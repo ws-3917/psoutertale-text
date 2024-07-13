@@ -10861,10 +10861,10 @@ msgid "{*}{#p/event}{#i/3}But it refused."
 msgstr ""
 
 msgid "§fill:#ff7f7f§§swirl:2,1,1.05,1§§hue§* Asriel Dreemurr"
-msgstr ""
+msgstr "§fill:#ff7f7f§§swirl:2,1,1.05,1§§hue§* Asriel Dreemurr"
 
 msgid "* Asriel Dreemurr"
-msgstr ""
+msgstr "* Asriel Dreemurr"
 
 msgid "<32>{#p/story}* Asriel readies \"SUPER SKYBREAKER\""
 msgstr ""
@@ -13569,9 +13569,6 @@ msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/6}{@random:1.1,1.1}..."
 msgstr ""
 
 msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random:1.1,1.1}Goodbye..."
-msgstr ""
-
-msgid ""
 msgstr ""
 
 msgid "N/A"
