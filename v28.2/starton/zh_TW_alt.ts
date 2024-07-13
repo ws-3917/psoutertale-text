@@ -165,7 +165,7 @@ export default {
          [
             [
                "<32>{#p/asriel2}* 準備好了嗎，$(name)？",
-               choicer.create("* （艾斯利爾應該怎麼做？）", "伶俐", "放招", "魔法", "打鬥")
+               choicer.create("* （艾斯利爾應該怎麼做？）", "仁慈", "行動", "魔法", "戰鬥")
             ],
             [ "<32>{#p/asriel2}* 我們速戰速決吧。" ]
          ][Math.min(SAVE.flag.n.ga_asrielPapyrus, 1)],

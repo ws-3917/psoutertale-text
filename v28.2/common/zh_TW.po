@@ -12703,16 +12703,16 @@ msgid "* (What should Monster Kid do?)"
 msgstr "* （怪物小孩應該怎麼做？）"
 
 msgid "Mercy"
-msgstr "伶俐ゐ"
+msgstr "仁慈"
 
 msgid "Act"
-msgstr "放招ゐ"
+msgstr "行動"
 
 msgid "Magic"
 msgstr "魔法"
 
 msgid "Fight"
-msgstr "打鬥ゐ"
+msgstr "戰鬥"
 
 msgid "Keyring"
 msgstr "鑰匙串"
