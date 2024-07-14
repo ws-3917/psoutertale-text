@@ -204,7 +204,7 @@ export default {
          "<20>...",
          "<20>毕竟..."
       ],
-      sansDeath7: [ "<20>{|}{#p/sans}你可是...\n伟大的p-{^5}帕派瑞斯。" ],
+      sansDeath7: [ "<20>{|}{#p/sans}你可是...\n伟大的帕-{^5}帕派瑞斯。" ],
       sansDeath8: [ "<15>{#p/papyrus}{#e/papyrus/33}不-不...{^40}{%}" ],
       fast_food1: () => [
          SAVE.data.b.fryz
