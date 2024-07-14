@@ -5077,7 +5077,7 @@ export default {
             ? [
                  "<32>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* Legendary being made of every SOUL on the outpost."
               ]
-            : [ "<32>{#p/story}* <32>{#p/story}* ASRIEL DREEMURR\n  攻击{^2} \u221e{^1} 防御{^2} \u221e{^1}\n* ..." ],
+            : [ "<32>{#p/story}* ASRIEL DREEMURR\n  攻击{^2} \u221e{^1} 防御{^2} \u221e{^1}\n* ..." ],
       act_hope: [
          "<32>{#p/human}* (You hold onto your hopes. You feel your body being protected from within.)",
          "<32>{#p/story}* DEFENSE up for this turn!"
