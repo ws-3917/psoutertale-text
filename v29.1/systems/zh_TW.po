@@ -2097,7 +2097,7 @@ msgid "LANGUAGE"
 msgstr "語言"
 
 msgid "ENGLISH"
-msgstr "繁體中文"
+msgstr "繁體中文(人名不譯)"
 
 msgid "SOUND FX"
 msgstr "音效"

@@ -948,7 +948,7 @@ export default {
       confirm2: "已经选定了一个名字。",
       confirm3: "返回",
 
-      footer: "OUTERTALE V5.00 (c) 2024 SPACEY_432 简体中文(人名汉化)版 PSOT汉化组",
+      footer: "OUTERTALE V5.00 (c) 2024 SPACEY_432 简体中文版 PSOT汉化组",
 
       heal1: "* （HP已回满。）",
       heal2: "* （你回复了$(x) HP。）",
@@ -978,7 +978,7 @@ export default {
       settings1: "游戏设置",
       settings2: "返回",
       settings3: "语言",
-      settings3a: "简体中文(人名汉化)",
+      settings3a: "简体中文(人名不译)",
       settings4: "音效",
       settings5: "音乐",
       settings6: "高品质贴图",

@@ -2610,7 +2610,7 @@ export default {
       ),
       papcomputer2: [ "<32>{#p/human}* (You decide not to log in.)" ],
       papcomputer3: {
-         a: "COOLSKELETON95",
+         a: "酷炫骷髏95",
          b: "-2 FOLLOWERS",
          c: "THIS ACCOUNT\nIS OWNED BY\nTHE GREAT\nPAPYRUS.\nHIGH-QUALITY\nPOSTS ONLY!",
          d: "- NEWS -",
@@ -2649,7 +2649,7 @@ export default {
                  }
                : SAVE.data.n.plot === 72
                ? {
-                    a: "SYSTEM",
+                    a: "系統訊息",
                     b: "TODAY",
                     c: "The OuterNet is closed."
                  }
@@ -2693,31 +2693,31 @@ export default {
                  }
                : SAVE.data.n.plot < 34
                ? {
-                    a: "STRONGFISH91",
+                    a: "壯魚91",
                     b: "YESTERDAY",
                     c: "uh... dont you say that\nEVERY day, Papyrus?"
                  }
                : world.genocide
                ? {
-                    a: "STRONGFISH91",
+                    a: "壯魚91",
                     b: "TODAY",
                     c: "stay outta this blooky.\ni dont want you getting\nhurt too."
                  }
                : world.dead_skeleton
                ? {
-                    a: "STRONGFISH91",
+                    a: "壯魚91",
                     b: "TODAY",
                     c: "papyrus is gone blooky.\nthat human is going to\nPAY for what they did."
                  }
                : {
-                    a: "STRONGFISH91",
+                    a: "壯魚91",
                     b: "TODAY",
                     c: "well no...\nbut he did capture all of\nour hearts! FUHUHU!!"
                  },
          () =>
             world.runaway
                ? {
-                    a: "COOLSKELETON95",
+                    a: "酷炫骷髏95",
                     b: "TODAY",
                     c: "< message deleted >"
                  }
@@ -2729,7 +2729,7 @@ export default {
                  }
                : SAVE.data.n.plot < 34
                ? {
-                    a: "COOLSKELETON95",
+                    a: "酷炫骷髏95",
                     b: "YESTERDAY",
                     c: "TODAY'S THE DAY I FINALLY\nCAPTURE A HUMAN!\nI CAN FEEL IT IN MY BONES!"
                  }
@@ -5586,9 +5586,9 @@ export default {
       xtowerHiscoreNames: {
          kidd: "UNDYNEFAN10",
          napstablook: "NAPSTABLOOK22",
-         papyrus: "COOLSKELETON95",
+         papyrus: "酷炫骷髏95",
          sans: "lazybones.",
-         undyne: "STRONGFISH91",
+         undyne: "壯魚91",
          you: () => (49 <= SAVE.data.n.plot ? "ALPHYS2" : "(Unknown)")
       },
       xtowerMessage1: "New High Score!",

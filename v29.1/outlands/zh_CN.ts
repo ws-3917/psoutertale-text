@@ -1998,11 +1998,11 @@ export default {
       loox: {
          a: [
             "<32>{#p/basic}{#n1}* 我听说，作为人类的你很喜欢调情。",
-            "<32>* 每当你对各式各样的怪物{@fill:#cf7fff}调情{@fill:#fff}时, 他们名字的右上角会出现一颗心。",
-            "<32>* 你{@fill:#cf7fff}调情{@fill:#fff}的怪物种类越多, 你获得的心也就越多。",
+            "<32>* 每当你对各式各样的怪物{@fill:#cf7fff}调情{@fill:#fff}时, \n  他们名字的右上角会出现一颗心。",
+            "<32>* 你{@fill:#cf7fff}调情{@fill:#fff}的怪物种类越多, \n  你获得的心也就越多。",
             "<32>* 我寻思着...",
             "<32>* 你能在这条道上走多远呢？",
-            "<32>* 也许，我的朋友，你会成为一个...传奇。"
+            "<32>* 也许，我的朋友，\n  你会成为一个...传奇。"
          ],
          b: [
             "<32>{#p/basic}{#n1}* Hey human, have you tried flirting yet?",
@@ -2016,11 +2016,11 @@ export default {
             "<32>{#p/basic}{#n1}* Hey human, now that you've started flirting...",
             "<32>* How does it feel?",
             "<32>* It's pretty great, right?",
-            "<32>* 每当你对各式各样的怪物{@fill:#cf7fff}调情{@fill:#fff}时, 他们名字的右上角会出现一颗心。",
-            "<32>* 你{@fill:#cf7fff}调情{@fill:#fff}的怪物种类越多, 你获得的心也就越多。",
+            "<32>* 每当你对各式各样的怪物{@fill:#cf7fff}调情{@fill:#fff}时, \n  他们名字的右上角会出现一颗心。",
+            "<32>* 你{@fill:#cf7fff}调情{@fill:#fff}的怪物种类越多, \n  你获得的心也就越多。",
             "<32>* 我寻思着...",
             "<32>* 你能在这条道上走多远呢？",
-            "<32>* 也许，我的朋友，你会成为一个...传奇。"
+            "<32>* 也许，我的朋友，\n  你会成为一个...传奇。"
          ],
          d: [
             "<32>{#p/basic}{#n1}* I hear you're somewhat of a bully in these parts.",

@@ -5154,7 +5154,7 @@ msgid "<32>{#p/human}* (You decide not to log in.)"
 msgstr ""
 
 msgid "COOLSKELETON95"
-msgstr ""
+msgstr "酷炫骷髏95"
 
 msgid "-2 FOLLOWERS"
 msgstr ""
@@ -5223,7 +5223,7 @@ msgid "< message deleted >"
 msgstr ""
 
 msgid "SYSTEM"
-msgstr ""
+msgstr "系統訊息"
 
 msgid "The OuterNet is closed."
 msgstr ""
@@ -5260,7 +5260,7 @@ msgid ""
 msgstr ""
 
 msgid "STRONGFISH91"
-msgstr ""
+msgstr "壯魚91"
 
 msgid "YESTERDAY"
 msgstr ""
