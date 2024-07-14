@@ -978,7 +978,7 @@ export default {
       settings1: "游戏设置",
       settings2: "返回",
       settings3: "语言",
-      settings3a: "简体中文(人名不译)",
+      settings3a: "简体中文(人名翻译)",
       settings4: "音效",
       settings5: "音乐",
       settings6: "高品质贴图",
