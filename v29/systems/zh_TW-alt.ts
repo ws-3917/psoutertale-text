@@ -198,7 +198,7 @@ export default {
             "節點（字符串型）"
          ],
          p_page: {
-            header: "察看圖層",
+            header: "翻頁",
             prev: "上一頁",
             next: "下一頁"
          },
@@ -969,7 +969,7 @@ export default {
       name2: "返回",
       name3: "刪除",
       name4: "確定",
-      name5: "§fill:#808080§鍵盤鍵入，支援中文(人名漢化)。\n\n[ENTER] - 確定\n[BACKSPACE] - 刪除\n[ESC] - 返回",
+      name5: "§fill:#808080§鍵盤鍵入，支援中文。\n\n[ENTER] - 確定\n[BACKSPACE] - 刪除\n[ESC] - 返回",
 
       save1: "儲存",
       save2: "返回",

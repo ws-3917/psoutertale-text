@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-14 05:22+0000\n"
+"PO-Revision-Date: 2024-07-14 05:22+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/0-systems/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "(You take a deep breath.)"
 msgstr "{#i/x2}（你深吸了一口气。）"
@@ -516,7 +531,7 @@ msgid "Flags (Strings)"
 msgstr "节点（字符串型）"
 
 msgid "NAVIGATION"
-msgstr "察看图层"
+msgstr "翻页"
 
 msgid "Prev"
 msgstr "上一页"
@@ -616,8 +631,6 @@ msgstr "§fill:#ff0§< 游戏开发者 >§fill:#fff§"
 msgid "spacey_432"
 msgstr "spacey_432"
 
-msgid ""
-msgstr ""
 
 msgid "§fill:#ff0§< WRITER >§fill:#fff§"
 msgstr "§fill:#ff0§< 文本编写 >§fill:#fff§"

@@ -198,7 +198,7 @@ export default {
             "节点（字符串型）"
          ],
          p_page: {
-            header: "察看图层",
+            header: "翻页",
             prev: "上一页",
             next: "下一页"
          },

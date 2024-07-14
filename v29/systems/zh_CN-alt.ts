@@ -198,7 +198,7 @@ export default {
             "节点（字符串型）"
          ],
          p_page: {
-            header: "察看图层",
+            header: "翻页",
             prev: "上一页",
             next: "下一页"
          },
@@ -969,7 +969,7 @@ export default {
       name2: "返回",
       name3: "删除",
       name4: "确定",
-      name5: "§fill:#808080§键盘输入，支持中文(人名汉化)。\n\n[ENTER] - 确定\n[BACKSPACE] - 删除\n[ESC] - 返回",
+      name5: "§fill:#808080§键盘输入，支持中文。\n\n[ENTER] - 确定\n[BACKSPACE] - 删除\n[ESC] - 返回",
 
       save1: "保存",
       save2: "返回",

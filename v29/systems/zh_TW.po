@@ -516,7 +516,7 @@ msgid "Flags (Strings)"
 msgstr "節點（字符串型）"
 
 msgid "NAVIGATION"
-msgstr "察看圖層"
+msgstr "翻頁"
 
 msgid "Prev"
 msgstr "上一頁"
@@ -615,9 +615,6 @@ msgstr "§fill:#ff0§< 遊戲開發者 >§fill:#fff§"
 
 msgid "spacey_432"
 msgstr "spacey_432"
-
-msgid ""
-msgstr ""
 
 msgid "§fill:#ff0§< WRITER >§fill:#fff§"
 msgstr "§fill:#ff0§< 文本編寫 >§fill:#fff§"
