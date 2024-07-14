@@ -1963,7 +1963,7 @@ msgstr "LV"
 msgid ""
 "§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§"
 msgstr ""
-"§mystify:愛國敬業誠信友善勤奮謙虛寬容堅韌樂觀溫和冷靜沉著自信果斷理性耐心細心勇敢熱情同情責任創新謹慎慷慨積極善良仁慈正義智慧毅力§啥玩意§mystify:§"
+"{@mystify:愛國敬業誠信友善勤奮謙虛寬容堅韌樂觀溫和冷靜沉著自信果斷理性耐心細心勇敢熱情同情責任創新謹慎慷慨積極善良仁慈正義智慧毅力}啥玩意{@mystify:}"
 
 msgid ""
 "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
