@@ -5077,7 +5077,7 @@ export default {
             ? [
                  "<32>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* Legendary being made of every SOUL on the outpost."
               ]
-            : [ "<32>{#p/story}* ASRIEL DREEMURR\n  攻击{^2} \u221e{^1} 防御{^2} \u221e{^1}\n* ..." ],
+            : [ "<32>{#p/story}* ASRIEL DREEMURR\n  攻击{^2}\u221e{^1} 防御{^2}\u221e{^1}\n* ..." ],
       act_hope: [
          "<32>{#p/human}* (You hold onto your hopes. You feel your body being protected from within.)",
          "<32>{#p/story}* DEFENSE up for this turn!"
@@ -5345,7 +5345,7 @@ export default {
               ],
       act_check2: () =>
          SAVE.flag.b.pacifist_marker_save1 && SAVE.flag.b.pacifist_marker_save2 && SAVE.flag.b.pacifist_marker_save3
-            ? [ "<33>{#p/story}* ASRIEL DREEMURR\n  攻击{^2} \u221e{^1} 防御{^2} \u221e{^1}\n* ..." ]
+            ? [ "<33>{#p/story}* ASRIEL DREEMURR\n  攻击{^2}\u221e{^1} 防御{^2}\u221e{^1}\n* ..." ]
             : SAVE.data.b.oops
             ? [
                  "<33>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* The absolute GOD of hyperdeath!"
