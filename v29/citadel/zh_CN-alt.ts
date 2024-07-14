@@ -5077,7 +5077,7 @@ export default {
             ? [
                  "<32>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* Legendary being made of every SOUL on the outpost."
               ]
-            : [ "<32>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* ..." ],
+            : [ "<32>{#p/story}* <32>{#p/story}* 艾斯利尔·逐梦\n  攻击{^2} \u221e{^1} 防御{^2} \u221e{^1}\n* ..." ],
       act_hope: [
          "<32>{#p/human}* (You hold onto your hopes. You feel your body being protected from within.)",
          "<32>{#p/story}* DEFENSE up for this turn!"
@@ -5345,7 +5345,7 @@ export default {
               ],
       act_check2: () =>
          SAVE.flag.b.pacifist_marker_save1 && SAVE.flag.b.pacifist_marker_save2 && SAVE.flag.b.pacifist_marker_save3
-            ? [ "<33>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* ..." ]
+            ? [ "<33>{#p/story}* 艾斯利尔·逐梦\n  攻击{^2} \u221e{^1} 防御{^2} \u221e{^1}\n* ..." ]
             : SAVE.data.b.oops
             ? [
                  "<33>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* The absolute GOD of hyperdeath!"
@@ -6450,7 +6450,7 @@ export default {
             ? [ "<20>{#p/asriel1}Of course...", "<20>This is so much better than before." ]
             : [ "<20>{#p/asriel1}Finally.", "<20>I was so tired of being a star." ],
       friend91: [ "<20>{#p/asriel1}Howdy!", "<20>$(name), are you there?", "<20>It's me, your best friend." ],
-      friend92: "<99>{*}{#p/asriel3}{#v/1}{#i/12}ASRIEL DREEMURR{^10}{#p/event}{%}"
+      friend92: "<99>{*}{#p/asriel3}{#v/1}{#i/12}艾斯利尔·逐梦{^10}{#p/event}{%}"
    },
    b_opponent_finalasgore: {
       name: "* Asgore",

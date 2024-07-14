@@ -10887,6 +10887,9 @@ msgid ""
 "<32>{#p/story}* ASRIEL DREEMURR - ATK{^2}\\u221e{^1} DEF{^2}\\u221e{^1}\n"
 "* ..."
 msgstr ""
+"<32>{#p/story}* <32>{#p/story}* ASRIEL DREEMURR\n"
+"  攻擊{^2} \\u221e{^1} 防禦{^2} \\u221e{^1}\n"
+"* ..."
 
 msgid ""
 "<32>{#p/human}* (You hold onto your hopes. You feel your body being "
@@ -11396,6 +11399,9 @@ msgid ""
 "<33>{#p/story}* ASRIEL DREEMURR - ATK{^2}\\u221e{^1} DEF{^2}\\u221e{^1}\n"
 "* ..."
 msgstr ""
+"<33>{#p/story}* ASRIEL DREEMURR\n"
+"  攻擊{^2} \\u221e{^1} 防禦{^2} \\u221e{^1}\n"
+"* ..."
 
 msgid ""
 "<33>{#p/story}* ASRIEL DREEMURR - ATK{^2}\\u221e{^1} DEF{^2}\\u221e{^1}\n"
@@ -13545,7 +13551,7 @@ msgid "<20>It's me, your best friend."
 msgstr ""
 
 msgid "<99>{*}{#p/asriel3}{#v/1}{#i/12}ASRIEL DREEMURR{^10}{#p/event}{%}"
-msgstr ""
+msgstr "<99>{*}{#p/asriel3}{#v/1}{#i/12}ASRIEL DREEMURR{^10}{#p/event}{%}"
 
 msgid ""
 "<11>{*}{#p/asgore}{#e/asgore/1}{#v/1}{#i/5}{@random:1.1,1.1}... so that is "
@@ -13572,9 +13578,6 @@ msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/6}{@random:1.1,1.1}..."
 msgstr ""
 
 msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random:1.1,1.1}Goodbye..."
-msgstr ""
-
-msgid ""
 msgstr ""
 
 msgid "N/A"
