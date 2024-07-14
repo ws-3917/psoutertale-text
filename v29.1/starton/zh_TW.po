@@ -728,7 +728,7 @@ msgid "<32>{#p/human}{#s/equip}* (You got the Ice Dream.)"
 msgstr ""
 
 msgid "<32>{#p/human}* (...)"
-msgstr ""
+msgstr "<32>{#p/human}* (...)"
 
 msgid "<32>{#p/human}* (You're carrying too much to reach inside.)"
 msgstr ""
@@ -4752,7 +4752,7 @@ msgid "<32>* (Something's, like, different about you now.)"
 msgstr ""
 
 msgid "<32>* (...)"
-msgstr ""
+msgstr "<32>* (...)"
 
 msgid "<32>* (Yeah, you know, uh, I don't really like you anymore.)"
 msgstr ""
@@ -5205,9 +5205,6 @@ msgid "HOWDY!"
 msgstr ""
 
 msgid "SAVE YOURSELVES..."
-msgstr ""
-
-msgid ""
 msgstr ""
 
 msgid "FAILED TO CONNECT..."
@@ -12127,7 +12124,7 @@ msgid "<11>{#p/basic}{~}(Kettle whistle)"
 msgstr ""
 
 msgid "<11>{#p/basic}{~}(...)"
-msgstr ""
+msgstr "<11>{#p/basic}{~}(...)"
 
 msgid "<11>{#p/basic}{~}(Faraway bark)"
 msgstr ""

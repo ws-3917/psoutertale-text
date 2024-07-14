@@ -1931,7 +1931,7 @@ msgid "<32>{#p/human}* (More typing can be heard.)"
 msgstr ""
 
 msgid "<32>{#p/human}* (...)"
-msgstr ""
+msgstr "<32>{#p/human}* (...)"
 
 msgid "<32>{#p/human}* (The typing stops.)"
 msgstr ""
@@ -5323,9 +5323,6 @@ msgid "t'll "
 msgstr ""
 
 msgid "suck..."
-msgstr ""
-
-msgid ""
 msgstr ""
 
 msgid ""
@@ -15593,7 +15590,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{*}{#p/human}* (...){^30}{%}"
-msgstr ""
+msgstr "<32>{*}{#p/human}* (...){^30}{%}"
 
 msgid ""
 "<32>{*}{#p/human}* (The sound of an ancient song echoes through the "

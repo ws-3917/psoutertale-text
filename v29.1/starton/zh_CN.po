@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-14 07:46+0000\n"
+"PO-Revision-Date: 2024-07-14 07:46+0000\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/2-starton/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
@@ -728,7 +743,7 @@ msgid "<32>{#p/human}{#s/equip}* (You got the Ice Dream.)"
 msgstr ""
 
 msgid "<32>{#p/human}* (...)"
-msgstr ""
+msgstr "<32>{#p/human}* (...)"
 
 msgid "<32>{#p/human}* (You're carrying too much to reach inside.)"
 msgstr ""
@@ -4752,7 +4767,7 @@ msgid "<32>* (Something's, like, different about you now.)"
 msgstr ""
 
 msgid "<32>* (...)"
-msgstr ""
+msgstr "<32>* (...)"
 
 msgid "<32>* (Yeah, you know, uh, I don't really like you anymore.)"
 msgstr ""
@@ -5207,8 +5222,6 @@ msgstr ""
 msgid "SAVE YOURSELVES..."
 msgstr ""
 
-msgid ""
-msgstr ""
 
 msgid "FAILED TO CONNECT..."
 msgstr ""
@@ -12127,7 +12140,7 @@ msgid "<11>{#p/basic}{~}(Kettle whistle)"
 msgstr ""
 
 msgid "<11>{#p/basic}{~}(...)"
-msgstr ""
+msgstr "<11>{#p/basic}{~}(...)"
 
 msgid "<11>{#p/basic}{~}(Faraway bark)"
 msgstr ""

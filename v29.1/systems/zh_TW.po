@@ -261,7 +261,7 @@ msgid "C"
 msgstr "NPC"
 
 msgid "R"
-msgstr "矩"
+msgstr "方"
 
 msgid "E"
 msgstr "形"
@@ -273,7 +273,7 @@ msgid "O"
 msgstr "物"
 
 msgid "P"
-msgstr "角"
+msgstr "人"
 
 msgid "S"
 msgstr "圖"

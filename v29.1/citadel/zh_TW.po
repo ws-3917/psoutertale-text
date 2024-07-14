@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{*}{#p/human}* (...){^40}{%}"
-msgstr ""
+msgstr "<32>{*}{#p/human}* (...){^40}{%}"
 
 msgid ""
 "<32>{*}{#p/human}* (You take a deep breath, and ready yourself for the "
@@ -2897,7 +2897,7 @@ msgid "<25>{*}{#e/twinkly/16}Of course you are!"
 msgstr ""
 
 msgid "<25>{*}{#p/human}(...)"
-msgstr ""
+msgstr "<25>{*}{#p/human}(...)"
 
 msgid "<25>{*}(But still, the option remains.)"
 msgstr ""
@@ -5038,7 +5038,7 @@ msgid "<32>* Stay safe, alright?"
 msgstr ""
 
 msgid "<32>{#p/human}* (...)"
-msgstr ""
+msgstr "<32>{#p/human}* (...)"
 
 msgid ""
 "<25>{#p/asgore}{#f/12}* Hm...?\n"
@@ -11311,7 +11311,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>* (...)"
-msgstr ""
+msgstr "<32>* (...)"
 
 msgid "<32>* (... but...)"
 msgstr ""

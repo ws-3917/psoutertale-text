@@ -101,11 +101,11 @@ export default {
             letters: {
                animation: "動",
                character: "NPC",
-               rectangle: "矩",
+               rectangle: "方",
                entity: "形",
                hitbox: "箱",
                object: "物",
-               player: "角",
+               player: "人",
                sprite: "圖",
                text: "文"
             }
