@@ -11443,10 +11443,10 @@ msgid "<32>{#p/human}* (You continue to laugh at Stardrake's puns.)"
 msgstr ""
 
 msgid "* Chilldrake"
-msgstr ""
+msgstr "* Chilldrake"
 
 msgid "* Stardrake"
-msgstr ""
+msgstr "* Stardrake"
 
 msgid "<08>{#p/basic}{~}Only Starry can do that."
 msgstr ""
@@ -11620,7 +11620,7 @@ msgid "<08>{#p/basic}{~}Must be nice being HUMAN.."
 msgstr ""
 
 msgid "* Jerry"
-msgstr ""
+msgstr "* Jerry"
 
 msgid "<32>{#p/story}* Jerry is living care-free."
 msgstr ""
@@ -11765,7 +11765,7 @@ msgid "<08>{#p/basic}{~}Could you help me?"
 msgstr ""
 
 msgid "* Whizkarat"
-msgstr ""
+msgstr "* Whizkarat"
 
 msgid "<32>{#p/story}* Whizkarat fantasizes about getting down on all fours."
 msgstr ""
@@ -11868,7 +11868,7 @@ msgid "<32>{#p/story}* Doggo has lost sight of you."
 msgstr ""
 
 msgid "* Doggo"
-msgstr ""
+msgstr "* Doggo"
 
 msgid "<32>{#p/story}* Doggo loves fetch!"
 msgstr ""
@@ -12404,7 +12404,7 @@ msgid "<11>{#p/basic}{~}Shake."
 msgstr ""
 
 msgid "* Dogamy"
-msgstr ""
+msgstr "* Dogamy"
 
 msgid "<32>{#p/story}* Married dogs love fetch!"
 msgstr ""
@@ -13204,7 +13204,7 @@ msgid ""
 msgstr ""
 
 msgid "* Papyrus"
-msgstr ""
+msgstr "* Papyrus"
 
 msgid "<32>{#p/story}* Papyrus readies a bone attack."
 msgstr ""

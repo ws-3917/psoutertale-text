@@ -8489,7 +8489,7 @@ msgid "<32>{#p/story}* Froggit seems reluctant to fight you."
 msgstr ""
 
 msgid "* Froggit"
-msgstr ""
+msgstr "* Froggit"
 
 msgid ""
 "<08>{#p/basic}{~}(Shiver, shake.)\n"
@@ -8564,7 +8564,7 @@ msgid "<08>{#p/basic}{~}\\x00*sniff sniff*"
 msgstr ""
 
 msgid "* Flutterlyte"
-msgstr ""
+msgstr "* Flutterlyte"
 
 msgid "<32>{#p/story}* Flutterlyte is barely keeping itself in the air."
 msgstr ""
@@ -8664,7 +8664,7 @@ msgid "<08>{#p/basic}{~}How about a staring contest?"
 msgstr ""
 
 msgid "* Oculoux"
-msgstr ""
+msgstr "* Oculoux"
 
 msgid "<08>{#p/basic}{~}How dare you question our way of life!"
 msgstr ""
@@ -8764,7 +8764,7 @@ msgid "<08>{#p/basic}I DON'T CARE."
 msgstr ""
 
 msgid "* Silente"
-msgstr ""
+msgstr "* Silente"
 
 msgid "<32>{#p/story}* Silente refuses to give up."
 msgstr ""
@@ -8864,7 +8864,7 @@ msgid "<08>{#p/basic}{~}All in a day's."
 msgstr "<08>{#p/basic}{~}不足為懼。"
 
 msgid "* Mushy"
-msgstr ""
+msgstr "* Mushy"
 
 msgid "<32>{#p/story}* Mushy bows out of respect."
 msgstr "<32>{#p/story}* Mushy淺鞠一躬，以表敬意。"
@@ -9028,7 +9028,7 @@ msgid "<11>{#p/napstablook}{~}let it all out..."
 msgstr ""
 
 msgid "* Napstablook"
-msgstr ""
+msgstr "* Napstablook"
 
 msgid "<11>{#p/napstablook}{~}..."
 msgstr ""

@@ -5841,7 +5841,7 @@ export default {
          SAVE.data.b.s_state_chilldrake
             ? [ "<32>{#p/human}* (You double down on your agreement with Chilldrake.)" ]
             : [ "<32>{#p/human}* (You continue to laugh at Stardrake's puns.)" ],
-      name: () => (SAVE.data.b.s_state_chilldrake ? "* Chilldrake" : "* Stardrake"),
+      name: () => (SAVE.data.b.s_state_chilldrake ? "* Chilldrake" : "* 星铁龙"),
       punTalk1: () =>
          SAVE.data.b.s_state_chilldrake
             ? [ "<08>{#p/basic}{~}Only Starry can do that." ]
@@ -5940,7 +5940,7 @@ export default {
          SAVE.data.b.spared_jerry
             ? [ "<08>{#p/basic}{~}I love humans!" ]
             : [ "<08>{#p/basic}{~}Must be nice being HUMAN.." ],
-      name: "* Jerry",
+      name: "* 杰瑞",
       randStatus1: () =>
          SAVE.data.b.spared_jerry
             ? [ "<32>{#p/story}* Jerry is living care-free." ]
@@ -6052,7 +6052,7 @@ export default {
       flirt1: [ "<11>{#p/basic}{~}(Blushes uncontrol- lably)" ],
       invisStatus: () =>
          world.goatbro ? [ "<32>{#p/asriel2}* 不堪一击。" ] : [ "<32>{#p/story}* Doggo has lost sight of you." ],
-      name: "* Doggo",
+      name: "* 遁狗",
       fetchStatus: [ "<32>{#p/story}* Doggo loves fetch!" ],
       fetchpet: [ "<32>{#p/human}* (But the dog was too busy looking for the spanner to be pet.)" ],
       fetchflirt: [ "<32>{#p/human}* (But the dog was too busy looking for the spanner to hear you.)" ],
@@ -6309,7 +6309,7 @@ export default {
       loneTalk1: [ "<11>{#p/basic}{~}Whine." ],
       loneTalk2: [ "<11>{#p/basic}{~}Whimper." ],
       loneTalk3: [ "<11>{#p/basic}{~}Shake." ],
-      name: "* Dogamy",
+      name: "* 狗来米",
       fetchStatus: [ "<32>{#p/story}* Married dogs love fetch!" ],
       fetchStatusX: [ "<32>{#p/story}* The dogs' minds are expanding at an exponential rate." ],
       otherPet: [ "<11>{#p/basic}{~}..." ],
@@ -6671,7 +6671,7 @@ export default {
       insult2: [ "<15>{#p/papyrus}{#f/15}THERE'S NO NEED TO LIE TO YOURSELF!!!" ],
       insult3: [ "<32>{#p/human}* (You insult, but to no avail.)\n* (It seems acting won't escalate this battle.)" ],
       insult4: [ "<32>{#p/human}* (But Papyrus was too busy fighting to hear you.)" ],
-      name: "* Papyrus",
+      name: "* 帕派瑞斯",
       randomStatus1: [ "<32>{#p/story}* Papyrus readies a bone attack." ],
       randomStatus2: [ "<32>{#p/story}* Papyrus prepares a non-bone attack then spends a minute fixing his mistake." ],
       randomStatus3: [ "<32>{#p/story}* Papyrus is cooking." ],

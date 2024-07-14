@@ -10174,7 +10174,7 @@ msgid "<32>{#p/human}* (Alphys glances at it, but ultimately dismisses it.)"
 msgstr ""
 
 msgid "* Alphys"
-msgstr ""
+msgstr "* Alphys"
 
 msgid "<20>{*}{#p/alphys}{#e/alphys/19}Gotcha.{^30}{%}"
 msgstr ""
@@ -10546,7 +10546,7 @@ msgid "<20>{*}{#p/alphys}I'm sorry, Asgore.{^40}{%}"
 msgstr ""
 
 msgid "* Toriel"
-msgstr ""
+msgstr "* Toriel"
 
 msgid "* 546f7269656c"
 msgstr ""
@@ -10622,7 +10622,7 @@ msgid ""
 msgstr ""
 
 msgid "* Gerson"
-msgstr ""
+msgstr "* Gerson"
 
 msgid "* 476572736f6e"
 msgstr ""
@@ -10753,7 +10753,7 @@ msgid ""
 msgstr ""
 
 msgid "* Napstablook"
-msgstr ""
+msgstr "* Napstablook"
 
 msgid "* 4e6170737461626c6f6f6b"
 msgstr ""
@@ -10831,7 +10831,7 @@ msgid "<32>{#p/human}* (But your kind words fell on invisibly shy ears.)"
 msgstr ""
 
 msgid "* Asgore"
-msgstr ""
+msgstr "* Asgore"
 
 msgid "* 4173676f7265"
 msgstr ""

@@ -6482,7 +6482,7 @@ export default {
    },
 
    b_opponent_glyde: {
-      name: "* Glyde",
+      name: "* 老滑头",
       epiphaNOPE: [ "<11>{#p/basic}{~}{#e/glyde/10}Get that thing out of my face, will you?" ],
       act_check: [ "<32>{#p/story}* GLYDE - ATK YES DEF YES\n* Refuses to give more details about its statistics." ],
       act_secret: () =>
@@ -6648,7 +6648,7 @@ export default {
 
    b_opponent_mettaton1: {
       artifact: [ "<33>{#p/human}* (Mettaton shrugs at the sight.)" ],
-      name: "* Mettaton",
+      name: "* 镁塔顿",
       epiphaNOPE: [ "<20>{#p/mettaton}I DON'T THINK SO, DARLING..." ],
       old_gun_text: [ "<32>{#p/human}* (You fire the gun.)\n* (Mettaton absorbs its charge.)" ],
       old_bomb_text: [

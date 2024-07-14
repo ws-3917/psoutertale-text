@@ -10758,7 +10758,7 @@ msgid ""
 msgstr ""
 
 msgid "* Skrubbington"
-msgstr ""
+msgstr "* Skrubbington"
 
 msgid "<32>{#p/asriel2}* Skrubbington."
 msgstr ""
@@ -10963,7 +10963,7 @@ msgid ""
 msgstr ""
 
 msgid "* Gelata"
-msgstr ""
+msgstr "* Gelata"
 
 msgid "<08>{#p/basic}{~}Guoooh!"
 msgstr ""
@@ -11048,7 +11048,7 @@ msgid ""
 msgstr ""
 
 msgid "* Gelatini"
-msgstr ""
+msgstr "* Gelatini"
 
 msgid "<08>{#p/basic}{~}..."
 msgstr ""
@@ -11282,7 +11282,7 @@ msgid "<32>{#p/story}* Shyren's voice is raspy."
 msgstr ""
 
 msgid "* Shyren"
-msgstr ""
+msgstr "* Shyren"
 
 msgid "<32>{#p/story}* Shyren hums very faintly."
 msgstr ""
@@ -11449,7 +11449,7 @@ msgid ""
 msgstr ""
 
 msgid "* Radtile"
-msgstr ""
+msgstr "* Radtile"
 
 msgid "<32>{#p/asriel2}* Radtile."
 msgstr "<32>{#p/asriel2}* Radtile。"
@@ -11736,7 +11736,7 @@ msgid "<32>{#p/story}* Doge is trying desperately to pretend she's just fine."
 msgstr ""
 
 msgid "* Doge"
-msgstr ""
+msgstr "* Doge"
 
 msgid "<11>{#p/basic}{~}Ah..."
 msgstr ""
@@ -12412,7 +12412,7 @@ msgid "<32>{#p/human}* (But Muffet has already heard your argument.)"
 msgstr ""
 
 msgid "* Muffet"
-msgstr ""
+msgstr "* Muffet"
 
 msgid ""
 "<11>{#p/basic}{~}That's very kind, but we already have more than enough~"
@@ -12890,7 +12890,7 @@ msgid "* Undyne the Undying"
 msgstr ""
 
 msgid "* Undyne"
-msgstr ""
+msgstr "* Undyne"
 
 msgid "<32>{#p/story}* Undyne towers above you."
 msgstr ""

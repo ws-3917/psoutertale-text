@@ -6088,7 +6088,7 @@ export default {
       ],
       counterTextLate: [ "<32>{#p/human}* (You try to counter Muffet, but she's already made up her mind.)" ],
       counterTextPost: [ "<32>{#p/human}* (But Muffet has already heard your argument.)" ],
-      name: "* Muffet",
+      name: "* 玛菲特",
       payTalkPost: [ "<11>{#p/basic}{~}That's very kind, but we already have more than enough~" ],
       payText: [
          "<32>{#p/human}* (You try to pay Muffet.)",
@@ -6364,7 +6364,7 @@ export default {
             : respecc()
             ? [ "<32>{#p/story}* UNDYNE - ATK 25 DEF 10\n* Once your sworn enemy, now your unmatched equal!" ]
             : [ "<32>{#p/story}* UNDYNE - ATK 50 DEF 20\n* The heroine that NEVER gives up." ],
-      name: () => (world.genocide ? "* Undyne the Undying" : "* Undyne"),
+      name: () => (world.genocide ? "* Undyne the Undying" : "* 安黛因"),
       status1: () =>
          helmetdyne()
             ? [ "<32>{#p/story}* Undyne towers above you." ]
@@ -7016,7 +7016,7 @@ export default {
       neutralFinalStatus: [ "<32>{#p/story}* Undyne looks determined." ]
    },
    b_opponent_dateundyne: {
-      name: "* Undyne",
+      name: "* 安黛因",
       snacker: () =>
          SAVE.data.b.undyne_respecc
             ? [ "<20>{#p/undyne}{#e/undyne/13}Hope you like it, fuhuhu!" ]

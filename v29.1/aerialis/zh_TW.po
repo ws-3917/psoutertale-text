@@ -12481,7 +12481,7 @@ msgid "<32>{#p/story}* Eyewalker Prime takes charge of this battle!"
 msgstr ""
 
 msgid "* Glyde"
-msgstr ""
+msgstr "* Glyde"
 
 msgid "<11>{#p/basic}{~}{#e/glyde/10}Get that thing out of my face, will you?"
 msgstr ""
@@ -12838,7 +12838,7 @@ msgid "<33>{#p/human}* (Mettaton shrugs at the sight.)"
 msgstr ""
 
 msgid "* Mettaton"
-msgstr ""
+msgstr "* Mettaton"
 
 msgid "<20>{#p/mettaton}I DON'T THINK SO, DARLING..."
 msgstr ""
@@ -15287,7 +15287,7 @@ msgid "Incorrect"
 msgstr ""
 
 msgid "* Cozmo"
-msgstr ""
+msgstr "* Cozmo"
 
 msgid ""
 "<32>{#p/human}* (You brandish the spanner.)\n"
@@ -15572,7 +15572,7 @@ msgid "<32>{#p/story}* Cozmo is holding on."
 msgstr ""
 
 msgid "* Terrestria"
-msgstr ""
+msgstr "* Terrestria"
 
 msgid "<20>{#p/basic}{~}... this magic... is forbidden..."
 msgstr ""
@@ -16044,7 +16044,7 @@ msgid "<32>{#p/story}* Final Froggit stands its ground."
 msgstr ""
 
 msgid "* Flutterknyte"
-msgstr ""
+msgstr "* Flutterknyte"
 
 msgid "<08>{#p/basic}{~}Thank good- ness.."
 msgstr ""
@@ -16540,7 +16540,7 @@ msgid "<08>{#p/basic}Leave me alone."
 msgstr ""
 
 msgid "* Silencio"
-msgstr ""
+msgstr "* Silencio"
 
 msgid "<32>{#p/alphys}* Looks like it never wanted to do this to begin with."
 msgstr ""
@@ -16567,7 +16567,7 @@ msgid "<08>{#p/basic}{~}I'm outta here."
 msgstr ""
 
 msgid "* Mushketeer"
-msgstr ""
+msgstr "* Mushketeer"
 
 msgid "<08>{#p/basic}{~}It's only fair to spare you too!"
 msgstr ""
@@ -16818,7 +16818,7 @@ msgid "<08>{#p/basic}{~}It is what it is.."
 msgstr ""
 
 msgid "* Hotwire"
-msgstr ""
+msgstr "* Hotwire"
 
 msgid "<08>{#p/basic}{~}No need to worry, pal"
 msgstr ""
@@ -17110,7 +17110,7 @@ msgid "<32>{#p/story}* Hotwire is spiraling out of control."
 msgstr ""
 
 msgid "* Perigee"
-msgstr ""
+msgstr "* Perigee"
 
 msgid "<08>{#p/basic}{~}I shall be else- where."
 msgstr ""
@@ -17259,7 +17259,7 @@ msgid "<32>{#p/story}* Perigee's time is near."
 msgstr ""
 
 msgid "* Tsunderidex"
-msgstr ""
+msgstr "* Tsunderidex"
 
 msgid "<08>{#p/basic}{~}Y-yeah, I didn't want you around anyway!"
 msgstr ""

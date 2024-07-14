@@ -4754,7 +4754,7 @@ export default {
    },
    b_opponent_alphys: {
       artifact: [ "<32>{#p/human}* (Alphys glances at it, but ultimately dismisses it.)" ],
-      name: "* Alphys",
+      name: "* 艾菲斯",
       gotcha: [ "<20>{*}{#p/alphys}{#e/alphys/19}Gotcha.{^30}{%}" ],
       act_check: [ "<32>{#p/asriel2}* Alphys.\n* The royal scientist." ],
       act_asriel: (i: number) => [
@@ -4907,7 +4907,7 @@ export default {
          b ? [ "<20>{*}{#p/alphys}I never had a chance.{^40}{%}" ] : [ "<20>{*}{#p/alphys}I'm sorry, Asgore.{^40}{%}" ]
    },
    b_opponent_archive1: {
-      name: () => (battler.volatile[0].sparable ? "* Toriel" : "* 546f7269656c"),
+      name: () => (battler.volatile[0].sparable ? "* 托丽尔" : "* 546f7269656c"),
       status0: [ "<32>{#p/human}* (546f7269656c now stands before you.)" ],
       status1: [ "<32>{#p/human}* (546f7269656c seems intent on following a routine.)" ],
 
@@ -5000,7 +5000,7 @@ export default {
       act_notesN: [ "<32>{#p/human}* (And Professor Roman exchanged notes before fading away.)" ]
    },
    b_opponent_archive4: {
-      name: () => (battler.volatile[0].sparable ? "* Napstablook" : "* 4e6170737461626c6f6f6b"),
+      name: () => (battler.volatile[0].sparable ? "* 纳普斯特" : "* 4e6170737461626c6f6f6b"),
       status0: [ "<32>{#p/human}* (4e6170737461626c6f6f6b is here by their computer.)" ],
       status1: [ "<32>{#p/human}* (4e6170737461626c6f6f6b is looking for a new sound.)" ],
 
@@ -5039,7 +5039,7 @@ export default {
       act_praise: [ "<32>{#p/human}* (But your kind words fell on invisibly shy ears.)" ]
    },
    b_opponent_archive5: {
-      name: () => (battler.volatile[0].sparable ? "* Asgore" : "* 4173676f7265"),
+      name: () => (battler.volatile[0].sparable ? "* 艾斯戈尔" : "* 4173676f7265"),
       status0: [ "<32>{#p/human}* (4173676f7265 stands tall.)" ],
       status1: [ "<32>{#p/human}* (4173676f7265 only wants one thing from you.)" ],
 
@@ -6453,7 +6453,7 @@ export default {
       friend92: "<99>{*}{#p/asriel3}{#v/1}{#i/12}艾斯利尔·逐梦{^10}{#p/event}{%}"
    },
    b_opponent_finalasgore: {
-      name: "* Asgore",
+      name: "* 艾斯戈尔",
       death1: [
          "<11>{*}{#p/asgore}{#e/asgore/1}{#v/1}{#i/5}{@random:1.1,1.1}... so that is how it is...",
          "<11>{*}{#e/asgore/1}{#v/1}{#i/5}{@random:1.1,1.1}...",

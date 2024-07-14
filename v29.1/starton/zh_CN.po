@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-14 07:46+0000\n"
-"PO-Revision-Date: 2024-07-14 07:46+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"PO-Revision-Date: 2024-07-14 08:40+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/2-starton/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.6.2\n"
 
 #
-
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
 msgstr ""
@@ -5221,7 +5219,6 @@ msgstr ""
 
 msgid "SAVE YOURSELVES..."
 msgstr ""
-
 
 msgid "FAILED TO CONNECT..."
 msgstr ""
@@ -11459,10 +11456,10 @@ msgid "<32>{#p/human}* (You continue to laugh at Stardrake's puns.)"
 msgstr ""
 
 msgid "* Chilldrake"
-msgstr ""
+msgstr "* Chilldrake"
 
 msgid "* Stardrake"
-msgstr ""
+msgstr "* Stardrake"
 
 msgid "<08>{#p/basic}{~}Only Starry can do that."
 msgstr ""
@@ -11636,7 +11633,7 @@ msgid "<08>{#p/basic}{~}Must be nice being HUMAN.."
 msgstr ""
 
 msgid "* Jerry"
-msgstr ""
+msgstr "* Jerry"
 
 msgid "<32>{#p/story}* Jerry is living care-free."
 msgstr ""
@@ -11781,7 +11778,7 @@ msgid "<08>{#p/basic}{~}Could you help me?"
 msgstr ""
 
 msgid "* Whizkarat"
-msgstr ""
+msgstr "* Whizkarat"
 
 msgid "<32>{#p/story}* Whizkarat fantasizes about getting down on all fours."
 msgstr ""
@@ -11884,7 +11881,7 @@ msgid "<32>{#p/story}* Doggo has lost sight of you."
 msgstr ""
 
 msgid "* Doggo"
-msgstr ""
+msgstr "* Doggo"
 
 msgid "<32>{#p/story}* Doggo loves fetch!"
 msgstr ""
@@ -12420,7 +12417,7 @@ msgid "<11>{#p/basic}{~}Shake."
 msgstr ""
 
 msgid "* Dogamy"
-msgstr ""
+msgstr "* Dogamy"
 
 msgid "<32>{#p/story}* Married dogs love fetch!"
 msgstr ""
@@ -13220,7 +13217,7 @@ msgid ""
 msgstr ""
 
 msgid "* Papyrus"
-msgstr ""
+msgstr "* Papyrus"
 
 msgid "<32>{#p/story}* Papyrus readies a bone attack."
 msgstr ""
