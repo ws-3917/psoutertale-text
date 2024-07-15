@@ -2229,7 +2229,7 @@ msgstr ""
 msgid ""
 "<24>A powerful force field was erected, and the MONSTERS were sealed in."
 msgstr ""
-"隨後，建起一道強大的力場，\n"
+"<24>隨後，建起一道強大的力場，\n"
 "將怪物們封印在內。"
 
 msgid "<24>Many years later.{^8}.{^8}.{}"
