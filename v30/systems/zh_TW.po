@@ -2233,7 +2233,7 @@ msgstr ""
 "將怪物們封印在內。"
 
 msgid "<24>Many years later.{^8}.{^8}.{}"
-msgstr "<24>許多年後.{^8}.{^8}.{}"
+msgstr "<24>許多年後.{^16}.{^16}.{}"
 
 msgid "<#24>µµµµ EBOTT SECTOR µµµµ µµµµµµµµ 251X{^20}{}"
 msgstr ""
@@ -2244,7 +2244,7 @@ msgid "<24>Tales speak of a place from which spacecraft never return.{^20}{}"
 msgstr ""
 "<24>傳說，宇宙中有一個地方，\n"
 "發射到那裡的飛船\n"
-"都再也沒有返航。{^20}{}'"
+"都再也沒有返航。{^20}{}"
 
 msgid "<24>{^100}{}"
 msgstr "<24>{^100}{}"
