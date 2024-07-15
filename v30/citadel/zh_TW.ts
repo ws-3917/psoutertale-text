@@ -48,7 +48,7 @@ export default {
          death7: [ "{#p/human}{#v/6}{@fill:#faff29}It's only a matter of time." ],
          cyan1: [
             "<99>{*}{#p/human}{#v/6}{@fill:#faff29}A lost SOUL calls out to you.",
-            "<99>{*}{@fill:#faff29}With {@mystify:PATIENCE}PATIENCE{@mystify:}, they may escape.",
+            "<99>{*}{@fill:#faff29}依靠{@wordify:耐心,勇氣,正直,毅力,善良,正義}耐心{@wordify:}，將會有望逃脫。",
             "<99>{*}{#p/human}{#v/1}{@fill:#42fcff}You must reach my Little Dipper...",
             "<99>{*}{#p/human}(Press [Z] to teleport.)"
          ],
@@ -58,7 +58,7 @@ export default {
          ],
          orange1: [
             "<99>{*}{#p/human}{#v/6}{@fill:#faff29}A lost SOUL calls out to you.",
-            "<99>{*}{@fill:#faff29}With {@mystify:BRAVERY}BRAVERY{@mystify:}, they may escape.",
+            "<99>{*}{@fill:#faff29}憑藉{@wordify:勇氣,正直,毅力,善良,正義}勇氣{@wordify:}，或將擺脫束縛。",
             "<99>{*}{#p/human}{#v/2}{@fill:#ff993d}Don't leave without my Power Glove!",
             "<99>{*}{#p/human}(Press [Z] to explode.)"
          ],
@@ -68,7 +68,7 @@ export default {
          ],
          blue1: [
             "<99>{*}{#p/human}{#v/6}{@fill:#faff29}A lost SOUL calls out to you.",
-            "<99>{*}{@fill:#faff29}With {@mystify:INTEGRITY}INTEGRITY{@mystify:}, they can escape.",
+            "<99>{*}{@fill:#faff29}堅守{@wordify:正直,毅力,善良,正義}正直{@wordify:}，必定能夠逃脫。",
             "<99>{*}{#p/human}{#v/3}{@fill:#003cff}I'll need my trusty Hoverboots."
          ],
          blue2: [
@@ -77,7 +77,7 @@ export default {
          ],
          purple1: [
             "<99>{*}{#p/human}{#v/6}{@fill:#faff29}A lost SOUL calls out to you.",
-            "<99>{*}{@fill:#faff29}With {@mystify:PERSEVERANCE}PERSEVERANCE{@mystify:}, they can escape.",
+            "<99>{*}{@fill:#faff29}擁有{@wordify:毅力,善良,正義}毅力{@wordify:}，定可擺脫束縛。",
             "<99>{*}{#p/human}{#v/4}{@fill:#d535d9}A single Datapad can go a long way."
          ],
          purple2: [
@@ -86,7 +86,7 @@ export default {
          ],
          green1: [
             "<99>{*}{#p/human}{#v/6}{@fill:#faff29}A lost SOUL calls out to you.",
-            "<99>{*}{@fill:#faff29}With {@mystify:KINDNESS}KINDNESS{@mystify:}, they can escape.",
+            "<99>{*}{@fill:#faff29}心懷{@wordify:善良,正義}善良{@wordify:}，終能衝破枷鎖。",
             "<99>{*}{#p/human}{#v/5}{@fill:#00c000}The Tablaphone will set me free!"
          ],
          green2: [

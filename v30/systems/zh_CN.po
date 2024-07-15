@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-15 05:58+0000\n"
+"PO-Revision-Date: 2024-07-15 05:58+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/0-systems/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "(You take a deep breath.)"
 msgstr "（你深吸了一口气。）"
@@ -616,8 +631,6 @@ msgstr "§fill:#ff0§< 游戏开发者 >§fill:#fff§"
 msgid "spacey_432"
 msgstr "spacey_432"
 
-msgid ""
-msgstr ""
 
 msgid "§fill:#ff0§< WRITER >§fill:#fff§"
 msgstr "§fill:#ff0§< 文本编写 >§fill:#fff§"
@@ -2208,35 +2221,52 @@ msgid ""
 "<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and"
 " MONSTERS."
 msgstr ""
+"<24>{#p/storyteller}很久以前，太阳系\n"
+"由两个物种统治着：\n"
+"人类和怪物。"
 
 msgid "<24>As time passed, a war broke out between the two species."
 msgstr ""
+"<24>随着时间的推移，\n"
+"两个物种之间爆发了战争。"
 
 msgid ""
 "<24>After the MONSTERS' home planet was destroyed, HUMANS declared victory."
 msgstr ""
+"<24>最终，\n"
+"怪物的母星被摧毁，\n"
+"人类宣布了胜利。"
 
 msgid "<24>The remaining MONSTERS were banished to an abandoned outpost."
 msgstr ""
+"<24>他们将剩下的怪物\n"
+"流放到一个废弃的前哨站。"
 
 msgid ""
 "<24>A powerful force field was erected, and the MONSTERS were sealed in."
 msgstr ""
+"随后，建起一道强大的力场，\n"
+"将怪物们封印在内。"
 
 msgid "<24>Many years later.{^8}.{^8}.{}"
-msgstr ""
+msgstr "<24>许多年后.{^8}.{^8}.{}"
 
 msgid "<#24>µµµµ EBOTT SECTOR µµµµ µµµµµµµµ 251X{^20}{}"
 msgstr ""
+"<#24>µµµµµµµ EBOTT区 µµµµ \n"
+"µµµµµµµµ 251X{^20}{}"
 
 msgid "<24>Tales speak of a place from which spacecraft never return.{^20}{}"
 msgstr ""
+"<24>传说，宇宙中有一个地方，\n"
+"发射到那里的飞船\n"
+"都再也没有返航。{^20}{}'"
 
 msgid "<24>{^100}{}"
-msgstr ""
+msgstr "<24>{^100}{}"
 
 msgid "<24>{^50}{}"
-msgstr ""
+msgstr "<24>{^50}{}"
 
 msgid "Resume Canon Timeline"
 msgstr "重返主时间线"
