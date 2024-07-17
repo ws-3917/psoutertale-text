@@ -616,9 +616,6 @@ msgstr "§fill=#ff0§< 遊戲開發者 >§fill=#fff§"
 msgid "spacey_432"
 msgstr "spacey_432"
 
-msgid ""
-msgstr ""
-
 msgid "§fill=#ff0§< WRITER >§fill=#fff§"
 msgstr "§fill=#ff0§< 文本編寫 >§fill=#fff§"
 
@@ -1762,7 +1759,7 @@ msgid "THE END"
 msgstr "劇終"
 
 msgid "[UP or DOWN] to Select / [ENTER] to Confirm"
-msgstr ""
+msgstr "[↑ 或 ↓] 選擇語言 / [ENTER] 確定"
 
 msgid "Quitting"
 msgstr "正在退出"
