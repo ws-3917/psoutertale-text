@@ -48,7 +48,7 @@ export default {
       ],
       darktoriel4a: [
          "<32>{#s/phone}{#p/event}* 撥號中...",
-         "<25>{#p/toriel}{#f/3}* ... 喔，好吧。\n* 我的手機在這裡會出點問題。"
+         "<25>{#p/toriel}{#f/3}* ...喔，好吧。\n* 我的手機在這裡會出點問題。"
       ],
       darktoriel4b: [
          "<25>{#f/4}* 我得自己去找他。",
@@ -4613,14 +4613,14 @@ export default {
             : [])
       ],
       undyne1j: ["<25>{#p/kidd}{#f/1}* 喲！\n* 她就在那裡！"],
-      undyne1k: ["<25>{#p/kidd}{#f/7}* 等等…… 你是個人類，\n  對吧？"],
+      undyne1k: ["<25>{#p/kidd}{#f/7}* 等等... 你是個人類，\n  對吧？"],
       undyne1l: ["<25>{*}{#p/kidd}{#f/7}* 快跑啊啊啊啊啊！{^20}{%}"],
-      undyne1m: ["<25>{#p/kidd}{#f/2}* 呼……"],
+      undyne1m: ["<25>{#p/kidd}{#f/2}* 呼..."],
       undyne1n: ["<25>{#p/kidd}{#f/1}* 呃，你可以從平臺上\n  下來了。"],
-      undyne1o: ["<25>{#p/kidd}{#f/4}* 她去哪了……？"],
+      undyne1o: ["<25>{#p/kidd}{#f/4}* 她去哪了...？"],
       undyne1p: ["<25>{#p/kidd}{#f/7}* 啊！{^10}{%}"],
       undyne1q: ["<25>{#p/kidd}{#f/2}* 噓，我感覺我們可以偷渡\n過去。\n* 快跟上我！"],
-      undyne1r: ["<25>{#p/kidd}{#f/4}* 這裡烏黑一片……", "<25>{#p/kidd}{#f/7}* ……但是我們得保持\n  前進！"],
+      undyne1r: ["<25>{#p/kidd}{#f/4}* 這裡烏黑一片...", "<25>{#p/kidd}{#f/7}* ...但是我們得保持\n  前進！"],
       undyne1s: ["<25>{#p/kidd}{#f/7}* 快躲進那叢便於藏身\n  的植物裡！"],
       undyne2a: [
          "<25>{#p/kidd}{#f/7}* 她... 她...",
@@ -4983,10 +4983,10 @@ export default {
          "<25>{#f/5}* I'll show you how determined monsters truly are!",
          "<25>{#f/17}* Come on!\n* Step forward and let's end this!"
       ],
-      undynefinal2c1: ["<32>* ...", "<32>* Forget it."],
+      undynefinal2c1: ["<32>* ...", "<32>* 罷了。"],
       undynefinal2c2: () => [
-         "<25>{#f/16}{#x1}* Look.",
-         "<25>* Papyrus didn't come to his meeting today.",
+         "<25>{#f/16}{#x1}* 聽好了。",
+         "<25>* 帕派瑞斯今天沒來\n  向我報到。",
          "<25>{#f/19}* ...",
          "<25>{#x2}* Say what you want about him.",
          "<25>{#f/18}* He's weird, he's naive, he's self-absorbed...",
@@ -5905,7 +5905,7 @@ export default {
                : world.dead_canine
                   ? [
                      "<12>{#p/basic}{~}遁狗是狗衛隊\n最新成員。",
-                     "<11>{#p/basic}{~}有些人… 把他的視力\n當作一種空去鑽…",
+                     "<11>{#p/basic}{~}有些人... 把他的視力\n當作一種空去鑽...",
                      "<11>{#p/basic}{~}但是他的前途\n那麼明朗。"
                   ]
                   : battler.volatile[0].vars.walk
@@ -5935,7 +5935,7 @@ export default {
                : world.dead_canine
                   ? [
                      "<11>{#p/basic}{~}小犬座是\n大犬座\n的直系下屬。",
-                     "<11>{#p/basic}{~}它獨特的觀察\n方式幫了很\n多忙……",
+                     "<11>{#p/basic}{~}它獨特的觀察\n方式幫了很\n多忙...",
                      "<11>{#p/basic}{~}即使這種行為\n常常被大家\n誤解。"
                   ]
                   : battler.volatile[0].vars.walk

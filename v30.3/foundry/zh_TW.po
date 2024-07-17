@@ -64,7 +64,7 @@ msgid ""
 "<25>{#p/toriel}{#f/3}* ... oh, right.\n"
 "* My phone does not work very well here."
 msgstr ""
-"<25>{#p/toriel}{#f/3}* ... 喔，好吧。\n"
+"<25>{#p/toriel}{#f/3}* ...喔，好吧。\n"
 "* 我的手機在這裡會出點問題。"
 
 msgid "<25>{#f/4}* I will have to go up there and talk to him myself."
@@ -9510,14 +9510,14 @@ msgstr ""
 
 msgid "<25>{#p/kidd}{#f/7}* Wait... you're a human, aren't you?"
 msgstr ""
-"<25>{#p/kidd}{#f/7}* 等等…… 你是個人類，\n"
+"<25>{#p/kidd}{#f/7}* 等等... 你是個人類，\n"
 "  對吧？"
 
 msgid "<25>{*}{#p/kidd}{#f/7}* RUUUUUUUUUUUN!{^20}{%}"
 msgstr "<25>{*}{#p/kidd}{#f/7}* 快跑啊啊啊啊啊！{^20}{%}"
 
 msgid "<25>{#p/kidd}{#f/2}* Phew..."
-msgstr "<25>{#p/kidd}{#f/2}* 呼……"
+msgstr "<25>{#p/kidd}{#f/2}* 呼..."
 
 msgid "<25>{#p/kidd}{#f/1}* Uh, you can step off the platform now."
 msgstr ""
@@ -9525,7 +9525,7 @@ msgstr ""
 "  下來了。"
 
 msgid "<25>{#p/kidd}{#f/4}* Where'd she go...?"
-msgstr "<25>{#p/kidd}{#f/4}* 她去哪了……？"
+msgstr "<25>{#p/kidd}{#f/4}* 她去哪了...？"
 
 msgid "<25>{#p/kidd}{#f/7}* AH!{^10}{%}"
 msgstr "<25>{#p/kidd}{#f/7}* 啊！{^10}{%}"
@@ -9539,11 +9539,11 @@ msgstr ""
 "* 快跟上我！"
 
 msgid "<25>{#p/kidd}{#f/4}* It's dark..."
-msgstr "<25>{#p/kidd}{#f/4}* 這裡烏黑一片……"
+msgstr "<25>{#p/kidd}{#f/4}* 這裡烏黑一片..."
 
 msgid "<25>{#p/kidd}{#f/7}* ... but we have to keep going forward!"
 msgstr ""
-"<25>{#p/kidd}{#f/7}* ……但是我們得保持\n"
+"<25>{#p/kidd}{#f/7}* ...但是我們得保持\n"
 "  前進！"
 
 msgid "<25>{#p/kidd}{#f/7}* Quick, into the conveniently-placed plants!"
@@ -10336,16 +10336,18 @@ msgid ""
 msgstr ""
 
 msgid "<32>* Forget it."
-msgstr ""
+msgstr "<32>* 罷了。"
 
 msgid "<25>{#f/16}{#x1}* Look."
-msgstr ""
+msgstr "<25>{#f/16}{#x1}* 聽好了。"
 
 msgid "<25>* Papyrus didn't come to his meeting today."
 msgstr ""
+"<25>* Papyrus今天沒來\n"
+"  向我報到。"
 
 msgid "<25>{#f/19}* ..."
-msgstr ""
+msgstr "<25>{#f/19}* ..."
 
 msgid "<25>{#x2}* Say what you want about him."
 msgstr ""
@@ -12116,8 +12118,8 @@ msgstr ""
 
 msgid "<11>{#p/basic}{~}Some saw his blindness as a weakness..."
 msgstr ""
-"<11>{#p/basic}{~}有些人… 把他的視力\n"
-"當作一種空去鑽…"
+"<11>{#p/basic}{~}有些人... 把他的視力\n"
+"當作一種空去鑽..."
 
 msgid "<11>{#p/basic}{~}But he had so much promise."
 msgstr ""
@@ -12175,7 +12177,7 @@ msgid "<11>{#p/basic}{~}Its unique perspective helped in unexpected ways..."
 msgstr ""
 "<11>{#p/basic}{~}它獨特的觀察\n"
 "方式幫了很\n"
-"多忙……"
+"多忙..."
 
 msgid "<11>{#p/basic}{~}Even if it was often mis- understood."
 msgstr ""

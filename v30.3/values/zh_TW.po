@@ -286,7 +286,7 @@ msgid "Get your OWN name!"
 msgstr "找個你自己的名字去！"
 
 msgid "Uh.... OK?"
-msgstr "額...行吧？"
+msgstr "額... 行吧？"
 
 msgid "D-don't do that."
 msgstr "別-別這麼做。"

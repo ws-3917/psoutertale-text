@@ -280,8 +280,8 @@ export default {
          d30: ["<25>{#p/asriel1}{#f/15}* ...？"],
          d31: ["<32>{#p/basic}* ...是你，Asriel。", "<32>* 是你一直在支撐我活下去。"],
          d32: [
-            "<32>{#p/basic}* 像是一種...沒有兌現的承諾。",
-            "<32>* 懷恨在心...像我一樣想著你...",
+            "<32>{#p/basic}* 像是一種... 沒有兌現的承諾。",
+            "<32>* 懷恨在心... 像我一樣想著你...",
             "<32>* 知道我本可以為你付出比最終更多的努力。",
             "<32>* 一直以來，這就是阻止我前進的原因。"
          ],
@@ -303,9 +303,9 @@ export default {
          ],
          d42: ["<32>{#p/basic}* 這一切開始有意義了。", "<32>* 我知道我該怎麼做。"],
          d43: ["<25>{*}{#p/asriel1}{#f/25}* 哈？\n* 你要... {^60}{%}"],
-         d44: ["<25>{*}{#f/25}* 不...！{^60}{%}", "<25>{*}{#f/26}* 讓...讓我走！{^60}{%}"],
+         d44: ["<25>{*}{#f/25}* 不...！{^60}{%}", "<25>{*}{#f/26}* 讓... 讓我走！{^60}{%}"],
          d45: ["<32>{*}{#p/basic}* 呵...{^60}{%}", "<32>{*}* ...替我照顧好爸爸媽媽，好嗎？{^60}{%}"],
-         d46: ["<25>{#p/asriel1}{#f/25}* Frisk，你在那裡嗎？", "<25>{#f/22}* 拜託了...醒來吧..."],
+         d46: ["<25>{#p/asriel1}{#f/25}* Frisk，你在那裡嗎？", "<25>{#f/22}* 拜託了... 醒來吧..."],
          d47: ["<25>{#p/asriel1}{#f/23}* 我...\n* 我也不想失去你..."],
          d48: ["<25>{#p/asriel1}{#f/17}* ... there you are."],
          d49: [
@@ -1540,31 +1540,31 @@ export default {
          "<25>{#f/9}* 回去吧。"
       ],
       exit2: [
-         "<25>{#p/toriel}{#f/13}* Every human that ends up here meets the same fate.",
-         "<25>{#f/9}* I have seen it repeat time and time again.",
-         "<25>{#f/13}* They come.",
-         "<25>{#f/13}* They leave.",
-         "<25>{#f/9}* ... they die.",
+         "<25>{#p/toriel}{#f/13}* 每個來到這裡的人類\n  最終的命運都一模一樣。",
+         "<25>{#f/9}* 我已經見證了一次又一次。",
+         "<25>{#f/13}* 他們到來。",
+         "<25>{#f/13}* 他們離開。",
+         "<25>{#f/9}* ...他們死去。",
          "<25>{#f/13}* 我的孩子...",
-         "<25>{#f/13}* If you leave the Outlands...",
-         "<25>{#f/9}* They...\n* {@fill=#f00}ASGORE{@fill=#fff}...\n* Will take your SOUL."
+         "<25>{#f/13}* 如果你離開外域...",
+         "<25>{#f/9}* 那個人...\n* {@fill=#f00}ASGORE{@fill=#fff}...\n* 會取走你的靈魂。"
       ],
       exit3: [
          "<25>{#p/toriel}{#f/9}* ...",
-         "<25>{#f/13}* I did not want to say this, but...",
-         "<25>{#f/11}* I cannot allow you to continue this way.",
-         "<25>{#f/9}* For your own sake, child...",
-         "<25>{#f/9}* Do not follow me into the next room."
+         "<25>{#f/13}* 我雖然不想這麼說，但...",
+         "<25>{#f/11}* 我不能允許你繼續往前走。",
+         "<25>{#f/9}* 這都是為了你好，孩子...",
+         "<25>{#f/9}* 不要跟著我進下一個房間。"
       ],
       exit4: [
          "<25>{#p/toriel}{#p/toriel}{#f/13}* ...",
-         "<25>{#f/10}* ... of course.",
-         "<25>{#f/9}* Perhaps it was always meant to come to this.",
-         "<25>{#f/9}* Perhaps I was foolish to think you would be any different.",
+         "<25>{#f/10}* ...果然。",
+         "<25>{#f/9}* 也許事情總是註定\n  要走到這一步。",
+         "<25>{#f/9}* 也許我就是愚蠢到\n  覺得你和他們不一樣。",
          "<25>{#f/9}* ...",
-         "<25>{#f/13}* I am afraid there is little choice now.",
-         "<25>{#f/13}* Forgive me, my child...",
-         "<25>{#f/11}* But I cannot allow you to leave."
+         "<25>{#f/13}* 恐怕現在我沒什麼\n  選擇的餘地了。",
+         "<25>{#f/13}* 請原諒我，我的孩子...",
+         "<25>{#f/11}* 我不能讓你離開。"
       ],
       exitfail1: (lateleave: boolean, sleep: boolean) =>
          world.postnoot
@@ -1795,21 +1795,21 @@ export default {
       ],
       goodbye4: ["<25>{#p/toriel}{#f/1}* Be good, alright?"],
       goodbye5a: [
-         "<25>{#p/toriel}{#f/5}* ... hmm?\n* You changed your mind?",
+         "<25>{#p/toriel}{#f/5}* ...嗯？\n* 你改變主意了嗎？",
          "<25>{#f/9}* ...",
          "<25>{#f/10}* Perhaps you really are different from the others.",
          "<25>{#f/0}* ... well then.",
-         "<25>{#f/0}* I will finish up here, and meet you back at the house.",
-         "<25>{#f/0}* Thank you for listening, my child.",
+         "<25>{#f/0}* 我把這裡的事處理完，\n  然後回房間見你喔。",
+         "<25>{#f/0}* 謝謝你聽我的話，\n  我的孩子。",
          "<25>{#f/0}* It means a lot to me."
       ],
       goodbye5b: [
-         "<25>{#p/toriel}{#f/5}* ... hmm?\n* You changed your mind?",
-         "<25>{#f/10}* ...\n* Forgive me, my child.",
-         "<25>{#f/9}* I might have lost it there for a moment.",
-         "<25>{#f/0}* ... no matter.",
-         "<25>{#f/0}* I will finish up here, and meet you back at the house.",
-         "<25>{#f/0}* Thank you for listening, my child.",
+         "<25>{#p/toriel}{#f/5}* ...嗯？\n* 你改變主意了嗎？",
+         "<25>{#f/10}* ...\n* 請原諒我，我的孩子。",
+         "<25>{#f/9}* 我可能一時情緒失控了。",
+         "<25>{#f/0}* ...沒關係了。",
+         "<25>{#f/0}* 我把這裡的事處理完，\n  然後回房間見你喔。",
+         "<25>{#f/0}* 謝謝你聽我的話，\n  我的孩子。",
          "<25>{#f/0}* It means a lot to me."
       ],
       halo: {
@@ -2002,7 +2002,7 @@ export default {
             "<32>* 你{@fill=#cf7fff}調情{@fill=#fff}的怪物種類越多，\n  你獲得的心也就越多。",
             "<32>* 我尋思著...",
             "<32>* 你能在這條道上走多遠呢？",
-            "<32>* 也許，我的朋友，\n  你會成為一個...傳奇。"
+            "<32>* 也許，我的朋友，\n  你會成為一個... 傳奇。"
          ],
          b: [
             "<32>{#p/basic}{#n1}* 嘿，人類！\n  你有嘗試過調情嗎？",
@@ -2020,7 +2020,7 @@ export default {
             "<32>* 你{@fill=#cf7fff}調情{@fill=#fff}的怪物種類越多，\n  你獲得的心也就越多。",
             "<32>* 我尋思著...",
             "<32>* 你能在這條道上走多遠呢？",
-            "<32>* 也許，我的朋友，\n  你會成為一個...傳奇。"
+            "<32>* 也許，我的朋友，\n  你會成為一個... 傳奇。"
          ],
          d: [
             "<32>{#p/basic}{#n1}* 我聽說你在這一帶\n  有點霸道。",
@@ -2048,7 +2048,7 @@ export default {
                         "<32>{#p/basic}{#n1}* 我聽說你現在是這一帶的大英雄。",
                         "<32>* 大家都很喜歡你，嗯？"
                      ]),
-               "<32>* 嗯...僅我個人觀點，\n  我覺得你的空閒時間太多了。"
+               "<32>* 嗯... 僅我個人觀點，\n  我覺得你的空閒時間太多了。"
             ],
             ["<32>{#p/basic}{#n1}* 怎麼？\n* 我說錯了嗎？"]
          )
@@ -2469,7 +2469,7 @@ export default {
                      "<32>* 相信我，親，\n  這可就跟以前的東西\n  完全不一樣了 ;)",
                      "<32>* 這東西可是貨真價實的喲 ;)",
                      "<32>* 會有一點貴，希望你不要介意 ;)",
-                     "<32>* 那麼...稍微看看我們這的東西吧？ ;)"
+                     "<32>* 那麼... 稍微看看我們這的東西吧？ ;)"
                   ]
                   : [
                      "<32>{#p/basic}{#n1}* 您好，親 ;)",
@@ -2555,7 +2555,7 @@ export default {
          ],
          c3: ["<32>{*}{#p/basic}* 喔，好棒 ;){^30}{%}"],
          c4: ["<32>{*}{#p/basic}* 高潮要來了！{^30}{%}"],
-         c5: ["<32>{*}{#p/basic}* 哇喔，真是...有點東西啊。{^30}{%}"],
+         c5: ["<32>{*}{#p/basic}* 哇喔，真是... 有點東西啊。{^30}{%}"],
          d: [
             "<32>{#p/napstablook}* 是啊，是有點東西",
             "<32>{#p/napstablook}* 喔好吧...\n* 我可能讓你們覺得無聊了...",
@@ -2948,7 +2948,7 @@ export default {
                         "<32>* If this was at Asgore's house, they'd be in perfect shape."
                      ]
                      : [
-                        "<32>{#p/basic}* 一盒星際飛船模型！\n* 以及...玻璃碎片？",
+                        "<32>{#p/basic}* 一盒星際飛船模型！\n* 以及... 玻璃碎片？",
                         "<32>* 看起來應該有人把小飛船摔碎了。"
                      ],
          w_ta_cabinet: () =>
@@ -3257,7 +3257,7 @@ export default {
                         ? ["<32>{#p/basic}* Toriel的一把餐椅。\n* 比較適合王子。"]
                         : SAVE.data.b.oops
                            ? ["<32>{#p/basic}* Toriel的一把餐椅。\n* 比較適合小孩子。\n* 像你一樣！"]
-                           : ["<32>{#p/basic}* Toriel的一把餐椅。\n* 比較適合...小天使。\n* 像你一樣！"],
+                           : ["<32>{#p/basic}* Toriel的一把餐椅。\n* 比較適合... 小天使。\n* 像你一樣！"],
          w_tl_table: () =>
             SAVE.data.b.svr
                ? ["<32>{#p/human}* (The plant appears to be decorative in nature.)"]
@@ -4025,7 +4025,7 @@ export default {
       consoleTalk2: ["<11>{#p/napstablook}{~}不信..."],
       consoleTalk3: ["<11>{#p/napstablook}{~}你並不感到\n抱歉..."],
       deadTalk: [
-         "<11>{#p/napstablook}{~}嗯...你知道\n你沒辦法殺死\n鬼魂，對吧...",
+         "<11>{#p/napstablook}{~}嗯... 你知道\n你沒辦法殺死\n鬼魂，對吧...",
          "<11>{~}我們沒有實體\n之類的",
          "<11>{~}我降低我的hp\n只是不希望我\n顯得太粗魯",
          "<11>{~}對不起...\n我把事情變得\n更尷尬了...",
@@ -4038,7 +4038,7 @@ export default {
       flirt4: ["<32>{#p/human}* （你向Napstablook表露\n  你對它的感覺。）"],
       flirtTalk1: ["<11>{#p/napstablook}{~}我只會\n拖累你"],
       flirtTalk2: ["<11>{#p/napstablook}{~}喔.....\n我聽過這個....."],
-      flirtTalk3: ["<11>{#p/napstablook}{~}呃...你真\n這樣想嗎？"],
+      flirtTalk3: ["<11>{#p/napstablook}{~}呃... 你真\n這樣想嗎？"],
       flirtTalk4: ["<11>{#p/napstablook}{~}喔，你是\n認真的...", "<11>{~}喔不....."],
       idleTalk1: ["<11>{#p/napstablook}{~}我很好，謝謝"],
       idleTalk2: ["<11>{#p/napstablook}{~}再堅持下..."],
@@ -4050,7 +4050,7 @@ export default {
       name: "* Napstablook",
       silentTalk: ["<11>{#p/napstablook}{~}..."],
       sincere: ["<32>{#p/human}* （你對Napstablook的大禮帽\n  發表了曖昧的評論。）"],
-      sincereTalk: ["<11>{#p/napstablook}{~}嘿...謝謝"],
+      sincereTalk: ["<11>{#p/napstablook}{~}嘿... 謝謝"],
       status1: ["<32>{#p/story}* Napstablook來了。"],
       status2: ["<32>{#p/story}* Napstablook看起來好受了一點。"],
       status3: ["<32>{#p/story}* Napstablook想給你展示些什麼。"],
@@ -4221,7 +4221,7 @@ export default {
          "<11>{#f/9}也許我應該\n讓你走。"
       ],
       spareTalk28c: ["<11>{#p/toriel}{#f/17}...？", "<11>{#f/17}你為什麼喊\n“$(name)”\n的名字呢？"],
-      status1: ["<32>{#p/story}* Toriel now stands before you."],
+      status1: ["<32>{#p/story}* Toriel現在正站在你面前。"],
       status2: ["<32>{#p/story}* Toriel prepares a magical attack."],
       status3: ["<32>{#p/story}* Toriel is acting aloof."],
       status4: ["<32>{#p/story}* Toriel is looking through you."],
@@ -4270,7 +4270,7 @@ export default {
          "<25>{#f/2}* 之前就別在電話裡罵我！"
       ],
       flirt1: [
-         "<25>{#p/toriel}{#f/7}* ... 嗯？",
+         "<25>{#p/toriel}{#f/7}* ...嗯？",
          "<25>{#f/1}* 喔，嘻... 嘻嘻...",
          "<25>{#f/6}* 哈哈哈！\n* 讓我捏捏你的小臉蛋！",
          "<25>{#f/0}* 你肯定能找到\n  比我這種老阿姨更好的人！"
@@ -4451,14 +4451,14 @@ export default {
    },
    i_pie: {
       battle: {
-         description: "Homemade butterscotch-cinnamon pie, one slice.",
+         description: "一片自家做的奶油糖肉桂派。",
          name: "派"
       },
       drop: ["<32>{#p/human}* （你把奶油糖肉桂派扔掉了。）"],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? ["<32>{#p/human}* （99 HP。）"]
-            : ["<32>{#p/basic}* \"Butterscotch Pie\" Heals 99 HP\n* Homemade butterscotch-cinnamon pie, one slice."],
+            : ["<32>{#p/basic}* “奶油糖肉桂派” 回復 99 HP\n* 一片自家做的奶油糖肉桂派。"],
       name: "奶油糖肉桂派",
       use: ["<32>{#p/human}* （你吃掉了奶油糖肉桂派。）"]
    },
@@ -4497,14 +4497,14 @@ export default {
    },
    i_snails: {
       battle: {
-         description: "A plate of fried snails.\nFor breakfast, of course.",
+         description: "一盤焗蝸牛。\n當然，是當做早餐的。",
          name: "焗蝸牛"
       },
       drop: ["<32>{#p/human}* （你把焗蝸牛扔掉了。）"],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? ["  <32>{#p/human}* （19 HP。）"]
-            : ["<32>{#p/basic}* \"Fried Snails\" Heals 19 HP\n* A plate of fried snails.\n* For breakfast, of course."],
+            : ["<32>{#p/basic}* “焗蝸牛” 治癒 19 HP\n* 一盤焗蝸牛。\n* 當然，是當做早餐的。"],
       name: "焗蝸牛",
       use: ["<32>{#p/human}* （你吃掉了焗蝸牛。）"]
    },
@@ -4529,7 +4529,7 @@ export default {
    },
    i_spacesuit: {
       battle: {
-         description: "It came with the craft you crash-landed in.",
+         description: "在你墜毀的飛船上找到的。",
          name: "宇航服"
       },
       drop: ["<32>{#p/human}* (You throw away the Worn Spacesuit.)"],
