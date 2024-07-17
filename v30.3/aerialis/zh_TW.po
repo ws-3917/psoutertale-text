@@ -91,7 +91,7 @@ msgid "<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* We'll take it!!"
 msgstr ""
 
 msgid "<32>{#p/human}* (You decide not to equip.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你打算不這麼做。）"
 
 msgid "<32>{#p/human}* (You feel the nearby monster presence dwindling.)"
 msgstr "<32>{#p/human}* （你感覺周圍的怪物越來越少了。）"
@@ -5323,9 +5323,6 @@ msgid "t'll "
 msgstr ""
 
 msgid "suck..."
-msgstr ""
-
-msgid ""
 msgstr ""
 
 msgid ""

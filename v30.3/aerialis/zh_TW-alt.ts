@@ -77,7 +77,7 @@ export default {
          "<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* We'll take it!!",
          "<32>{#s/equip}{#p/event}* Click..."
       ],
-      noequip: ["<32>{#p/human}* (You decide not to equip.)"],
+      noequip: ["<32>{#p/human}* （你打算不這麼做。）"],
       evac: ["<32>{#p/human}* （你感覺周圍的怪物越來越少了。）"],
       endo: ["<32>{#p/human}* (You note the poor quality of this table.)"],
       businessKILLER: [

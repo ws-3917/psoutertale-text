@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-16 22:04+0000\n"
-"PO-Revision-Date: 2024-07-16 23:04+0000\n"
+"PO-Revision-Date: 2024-07-17 03:54+0000\n"
 "Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/3-foundry/zh_Hans/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #
 msgid "<32>{#p/human}* (You decide not to equip.)"
-msgstr "<32>{#p/human}* （你不打算这么做。）"
+msgstr "<32>{#p/human}* （你打算不这么做。）"
 
 msgid "<32>{#p/human}* (You grab Toriel's hand.)"
 msgstr "<32>{#p/human}* （你抓住了Toriel的手。）"
@@ -1723,7 +1723,7 @@ msgid "* (Hug the dummy?)"
 msgstr ""
 
 msgid "<32>{#p/human}* (You decide not to do anything.)"
-msgstr "<32>{#p/human}* （你不打算这么做。）"
+msgstr "<32>{#p/human}* （你打算不这么做。）"
 
 msgid "<32>{#p/human}* (You punched the dummy as hard as you could.)"
 msgstr "<32>{#p/human}* （你使劲揍了人偶一拳。）"

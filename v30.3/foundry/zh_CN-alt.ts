@@ -26,7 +26,7 @@ import { SAVE } from '../../code/systems/save';
 
 export default {
    a_foundry: {
-      noequip: ["<32>{#p/human}* （你不打算这么做。）"],
+      noequip: ["<32>{#p/human}* （你打算不这么做。）"],
       darktoriel1: [
          "<32>{#p/human}* （你抓住了托丽尔的手。）",
          "<25>{#p/toriel}{#f/2}* 噢天哪...！\n* 弗-弗里斯克，是你吗？",
@@ -793,7 +793,7 @@ export default {
                choicer.create("* （动手吗？）", "是", "否")
             ]
             : ["<32>{#p/basic}* It's a training dummy.\n* Hug it?", choicer.create("* (Hug the dummy?)", "是", "否")],
-      dummypunch2a: ["<32>{#p/human}* （你不打算这么做。）"],
+      dummypunch2a: ["<32>{#p/human}* （你打算不这么做。）"],
       dummypunch2b: () =>
          world.genocide || world.meanie
             ? ["<32>{#p/human}* （你使劲揍了人偶一拳。）"]

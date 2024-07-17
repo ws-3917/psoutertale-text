@@ -3780,26 +3780,34 @@ msgstr ""
 
 msgid "<25>{#p/toriel}{#f/13}* You wish to return \"home,\" do you not?"
 msgstr ""
+"<25>{#p/toriel}{#f/13}* 你想要回“家”，\n"
+"  對嗎？"
 
 msgid "<25>{#f/9}* ..."
-msgstr ""
+msgstr "<25>{#f/9}* ..."
 
 msgid "<25>{#f/9}* If you leave here, I will not be able to protect you."
 msgstr ""
+"<25>{#f/9}* 如果你離開這裡，\n"
+"  我就沒辦法保護你了。"
 
 msgid ""
 "<25>{#f/9}* I will not be able to save you from the dangers that lie ahead."
 msgstr ""
+"<25>{#f/9}* 我就沒辦法\n"
+"  在你直面危險的時候\n"
+"  拯救你了。"
 
 msgid "<25>{#f/13}* So, please, little one..."
-msgstr ""
+msgstr "<25>{#f/13}* 所以，拜託了，孩子..."
 
 msgid "<25>{#f/9}* Go back the other way."
-msgstr ""
+msgstr "<25>{#f/9}* 回去吧。"
 
 msgid ""
 "<25>{#p/toriel}{#f/13}* Every human that ends up here meets the same fate."
 msgstr ""
+"<25>{#p/toriel}{#f/13}* Every human that ends up here meets the same fate."
 
 msgid "<25>{#f/9}* I have seen it repeat time and time again."
 msgstr ""

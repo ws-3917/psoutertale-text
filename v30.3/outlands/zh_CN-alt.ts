@@ -1532,12 +1532,12 @@ export default {
          "<25>{#f/5}{#v/0}* I'll be waiting."
       ],
       exit1: [
-         "<25>{#p/toriel}{#f/13}* You wish to return \"home,\" do you not?",
+         "<25>{#p/toriel}{#f/13}* 你想要回“家”，\n  对吗？",
          "<25>{#f/9}* ...",
-         "<25>{#f/9}* If you leave here, I will not be able to protect you.",
-         "<25>{#f/9}* I will not be able to save you from the dangers that lie ahead.",
-         "<25>{#f/13}* So, please, little one...",
-         "<25>{#f/9}* Go back the other way."
+         "<25>{#f/9}* 如果你离开这里，\n  我就没办法保护你了。",
+         "<25>{#f/9}* 我就没办法\n  在你直面危险的时候\n  拯救你了。",
+         "<25>{#f/13}* 所以，拜托了，孩子...",
+         "<25>{#f/9}* 回去吧。"
       ],
       exit2: [
          "<25>{#p/toriel}{#f/13}* Every human that ends up here meets the same fate.",

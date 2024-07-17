@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/human}* (You decide not to equip.)"
-msgstr "<32>{#p/human}* （你不打算這麼做。）"
+msgstr "<32>{#p/human}* （你打算不這麼做。）"
 
 msgid "<32>{#p/human}* (You grab Toriel's hand.)"
 msgstr "<32>{#p/human}* （你抓住了Toriel的手。）"
@@ -1710,7 +1710,7 @@ msgid "* (Hug the dummy?)"
 msgstr ""
 
 msgid "<32>{#p/human}* (You decide not to do anything.)"
-msgstr "<32>{#p/human}* （你不打算這麼做。）"
+msgstr "<32>{#p/human}* （你打算不這麼做。）"
 
 msgid "<32>{#p/human}* (You punched the dummy as hard as you could.)"
 msgstr "<32>{#p/human}* （你使勁揍了人偶一拳。）"
