@@ -3903,7 +3903,7 @@ export default {
                "<25>{#p/sans}{#f/2}* ...不喜欢放屁垫的把戏吗？",
                "<25>{#f/0}* ...没关系，人各有志嘛。"
             ]
-            : ["<25>{#p/sans}{#f/4}* heheh... nothin' like a good whoopee cushion."]),
+            : ["<25>{#p/sans}{#f/4}* 嘿嘿... 没有什么能比\n  一个放屁垫把戏更好的了。"]),
          "<25>{#f/0}* 总之，你是个人类，对吧？",
          "<25>{#f/5}* 真酷。",
          "<25>{#f/0}* 我是衫斯。\n* 骷髅衫斯。",
@@ -3917,10 +3917,10 @@ export default {
                "<25>{#f/0}* 所以，为了让他\n  能安心在家待着...\n  我整整费了三辈子工夫。"
             ]
             : [
-               "<25>{#f/2}* i've got better things to do.",
+               "<25>{#f/2}* 我有更好的事情要去忙。",
                "<25>{#f/0}* 不过，我的兄弟...",
-               "<25>{#f/5}* despite not being an actual sentry, he sure ACTS like one.",
-               "<25>{#f/0}* in fact, i think that's him over there."
+               "<25>{#f/5}* 尽管他不是个真正的哨兵，\n  但他确实表现得像个哨兵。",
+               "<25>{#f/0}* 实际上，我觉得\n  那边那个就是他了。"
             ]),
          "<25>* 我有个主意。\n* 跳过那个空隙。",
          "<26>{#f/4}* 别怕，直接跳过去就行。\n* 我兄弟把重力设得很小，\n  肯定掉不下去。"
@@ -3933,7 +3933,7 @@ export default {
                "<25>{#f/2}* 我先在这待一会。",
                "<25>{#f/0}* 等你再往前走走，\n  说不定我就有灵感了。"
             ]
-            : ["<25>{#p/sans}* quick, to the gravometric inverter."],
+            : ["<25>{#p/sans}* 快，到重力转换器\n  那里去。"],
       sans4: ["<25>{#p/sans}* 'sup, bro?"],
       sans5: [
          "<18>{#p/papyrus}{#x2}{#f/7}YOU KNOW WHAT \"SUP,\" BROTHER!",

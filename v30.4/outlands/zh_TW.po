@@ -2585,17 +2585,15 @@ msgid "<32>{#s/equip}{#p/human}* (You got the Super Starwalker 3.)"
 msgstr "<32>{#s/equip}{#p/human}* （你獲得了《超級星之行者3》。）"
 
 msgid "<32>{#p/human}* A world not bound by association..."
-msgstr "<32>{#p/human}* 一片未被凡俗關聯所羈絆的宇宙..."
+msgstr "<32>{#p/human}* 一片未被凡俗所羈絆的宇宙..."
 
 msgid "<32>* Existing purely for the sake of its own beauty..."
 msgstr ""
-"<32>* 僅為了那純潔無瑕的美，\n"
+"<32>* 僅為了那純潔無瑕之美，\n"
 "  而存在於斯..."
 
 msgid "<32>* There's something special about that."
-msgstr ""
-"<32>* 在這裡，\n"
-"  某種特別之物，獨自閃耀。"
+msgstr "<32>* 某種特別之物，於此獨自閃耀。"
 
 msgid "<32>* Tell me..."
 msgstr "<32>* 告訴我..."
@@ -3244,31 +3242,39 @@ msgid "<25>{#f/5}{#v/0}* I bet you feel really great."
 msgstr "<25>{#f/5}{#v/0}* 我打賭你覺得很棒。"
 
 msgid "<25>{#f/2}{#v/1}* But what will you do if you meet a serial murderer?"
-msgstr "<25>{#f/2}{#v/1}* 但如果你遇到了一個"
+msgstr ""
+"<25>{#f/2}{#v/1}* 但如果你遇到了一個\n"
+"  連環殺人犯呢？"
 
 msgid "<25>{#f/9}{#v/0}* You'll die, and you'll die, and you'll die..."
 msgstr ""
+"<25>{#f/9}{#v/0}* 你除了死，還是死，\n"
+"  還是死。"
 
 msgid "<25>{#f/5}{#v/0}* Eventually, you'll tire of trying."
-msgstr ""
+msgstr "<25>{#f/5}{#v/0}* 最後，你會疲於嘗試。"
 
 msgid "<25>{#f/11}{#v/0}* What then, huh?"
 msgstr ""
+"<25>{#f/11}{#v/0}* 那時候你該怎麼辦呢，\n"
+"  嗯哼？"
 
 msgid "<25>{#f/2}{#v/1}* Will you KILL out of frustration?"
 msgstr ""
+"<25>{#f/2}{#v/1}* 你會因為沮喪而\n"
+"  大開殺戒嗎？"
 
 msgid "<25>{#f/14}{#v/1}* Or will you simply GIVE UP?"
-msgstr ""
+msgstr "<25>{#f/14}{#v/1}* 或者只是單純地放棄呢？"
 
 msgid "<25>{#f/11}{#v/0}* Hee hee hee..."
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* 嘻嘻嘻..."
 
 msgid "<25>{#f/7}{#v/0}* This is gonna be SO much fun."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* 那一定會很有趣的。"
 
 msgid "<25>{#f/9}{#v/0}* I'll be watching!"
-msgstr ""
+msgstr "<25>{#f/9}{#v/0}* 我會好好看著的！"
 
 msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of a few measly "
@@ -6475,7 +6481,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* It's a DJ set."
-msgstr "<32>{#p/basic}* 一臺DJ打碟機。"
+msgstr "<32>{#p/basic}* 一臺打碟機。"
 
 msgid ""
 "<32>{#p/basic}* A fancy DJ set, which is surprisingly not in use right now."
@@ -6875,8 +6881,8 @@ msgid ""
 "<32>{#p/basic}* \"Be sure to catch a slice of Glyde's Signature Steak (TM) "
 "in the activities room!\""
 msgstr ""
-"<32>{#p/basic}* “請務必前往活動室品嚐\n"
-"  Glyde的招牌牛排(TM)！”"
+"<32>{#p/basic}* “趕緊前往活動室品嚐\n"
+"  Glyde的招牌牛排(TM)吧！”"
 
 msgid ""
 "<25>{#p/asriel1}{#f/20}* Yeah... Toriel was never one to keep these in one "

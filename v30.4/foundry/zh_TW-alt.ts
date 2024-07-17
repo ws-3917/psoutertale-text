@@ -6565,21 +6565,21 @@ export default {
       turnTalkA5: () =>
          SAVE.data.n.state_starton_papyrus === 1
             ? [
-               "<20>{#p/undyne}{#e/undyne/3}And when I lost my eye in a training accident...",
-               "<20>{#p/undyne}{#e/undyne/2}I felt like I had nobody to turn to."
+               "<20>{#p/undyne}{#e/undyne/3}後來，\n在一場訓練事故中，\n我瞎了左眼...",
+               "<20>{#p/undyne}{#e/undyne/2}那時就感覺\n  自己成了孤家寡人。"
             ]
             : ["<20>{#p/undyne}{#e/undyne/5}NGAHHH!\nEnough warming up!"],
       turnTalkA6a: () =>
          SAVE.data.n.state_starton_papyrus === 1
             ? [
-               "<20>{#p/undyne}{#e/undyne/11}Howling in pain, I dragged myself across the floor...",
+               "<20>{#p/undyne}{#e/undyne/11}我拖著身子四處走動...",
                "<20>{#e/undyne/3}Hoping someone would hear me."
             ]
             : ["<20>{#p/undyne}{#e/undyne/20}Well... you're tough!"],
       turnTalkA6b: () =>
          SAVE.data.n.state_starton_papyrus === 1
             ? [
-               "<20>{#p/undyne}{#e/undyne/11}Howling in pain, I dragged myself across the floor...",
+               "<20>{#p/undyne}{#e/undyne/11}我拖著身子四處走動...",
                "<20>{#e/undyne/3}Hoping someone would hear me."
             ]
             : respecc()

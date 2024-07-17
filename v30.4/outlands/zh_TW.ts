@@ -1030,9 +1030,9 @@ export default {
       },
       goner: {
          a1: [
-            "<32>{#p/human}* 一片未被凡俗關聯所羈絆的宇宙...",
-            "<32>* 僅為了那純潔無瑕的美，\n  而存在於斯...",
-            "<32>* 在這裡，\n  某種特別之物，獨自閃耀。"
+            "<32>{#p/human}* 一片未被凡俗所羈絆的宇宙...",
+            "<32>* 僅為了那純潔無瑕之美，\n  而存在於斯...",
+            "<32>* 某種特別之物，於此獨自閃耀。"
          ],
          a2: ["<32>* 告訴我...", "<32>* 此情此景... 可曾引起過你的好奇？"]
       },
@@ -1280,15 +1280,15 @@ export default {
             ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you made it through without killing anyone."
             : "<25>{#p/twinkly}{#f/6}{#v/0}* 所以你放過了\n  每一個你遇到的人。",
          "<25>{#f/5}{#v/0}* 我打賭你覺得很棒。",
-         "<25>{#f/2}{#v/1}* 但如果你遇到了一個",
-         "<25>{#f/9}{#v/0}* You'll die, and you'll die, and you'll die...",
-         "<25>{#f/5}{#v/0}* Eventually, you'll tire of trying.",
-         "<25>{#f/11}{#v/0}* What then, huh?",
-         "<25>{#f/2}{#v/1}* Will you KILL out of frustration?",
-         "<25>{#f/14}{#v/1}* Or will you simply GIVE UP?",
-         "<25>{#f/11}{#v/0}* Hee hee hee...",
-         "<25>{#f/7}{#v/0}* This is gonna be SO much fun.",
-         "<25>{#f/9}{#v/0}* I'll be watching!"
+         "<25>{#f/2}{#v/1}* 但如果你遇到了一個\n  連環殺人犯呢？",
+         "<25>{#f/9}{#v/0}* 你除了死，還是死，\n  還是死。",
+         "<25>{#f/5}{#v/0}* 最後，你會疲於嘗試。",
+         "<25>{#f/11}{#v/0}* 那時候你該怎麼辦呢，\n  嗯哼？",
+         "<25>{#f/2}{#v/1}* 你會因為沮喪而\n  大開殺戒嗎？",
+         "<25>{#f/14}{#v/1}* 或者只是單純地放棄呢？",
+         "<25>{#f/11}{#v/0}* 嘻嘻嘻...",
+         "<25>{#f/7}{#v/0}* 那一定會很有趣的。",
+         "<25>{#f/9}{#v/0}* 我會好好看著的！"
       ],
       endtwinklyBB1: () => [
          SAVE.data.b.w_state_lateleave
@@ -1344,7 +1344,7 @@ export default {
          "<25>{#f/7}{#v/0}* That used to be MY power, you know.",
          "<25>{#f/6}{#v/0}* Seems YOUR desires for this world override MINE.",
          "<25>{#f/5}{#v/0}* Well then.\n* Enjoy that power while you can.",
-         "<25>{#f/9}{#v/0}* I'll be watching!"
+         "<25>{#f/9}{#v/0}* 我會好好看著的！"
       ],
       endtwinklyC: [
          "<25>{#f/7}{#v/0}* After all, this used to be MY power.",
@@ -1353,7 +1353,7 @@ export default {
          "<25>{#f/6}{#v/0}* I thought I was the only one who could do that.",
          "<25>{#f/6}{#v/0}* Seems YOUR desires for this world override MINE.",
          "<25>{#f/5}{#v/0}* Well then.\n* Enjoy that power while you can.",
-         "<25>{#f/9}{#v/0}* I'll be watching!"
+         "<25>{#f/9}{#v/0}* 我會好好看著的！"
       ],
       endtwinklyD: [
          "<25>{#p/twinkly}{#f/11}{#v/0}* You're one hell of a tease, huh?",
@@ -1361,9 +1361,9 @@ export default {
          "<25>{#f/7}{#v/0}* What will you do if a monster doesn't WANT your mercy?",
          "<25>{#f/6}{#v/0}* Will you snuff the light out of their eyes?",
          "<25>{#f/5}{#v/0}* Or will you realize your faulty \"pacifism\" is for nothing?",
-         "<25>{#f/11}{#v/0}* Hee hee hee...",
-         "<25>{#f/7}{#v/0}* This is gonna be SO much fun.",
-         "<25>{#f/9}{#v/0}* I'll be watching!"
+         "<25>{#f/11}{#v/0}* 嘻嘻嘻...",
+         "<25>{#f/7}{#v/0}* 那一定會很有趣的。",
+         "<25>{#f/9}{#v/0}* 我會好好看著的！"
       ],
       endtwinklyE: [
          "<25>{#p/twinkly}{#f/7}{#v/0}* Wow, you're utterly repulsive.",
@@ -1476,11 +1476,11 @@ export default {
          "<25>{#f/7}{#v/0}* Sooner or later, you'll be forced to realize that.",
          "<25>{#f/11}{#v/0}* And when that time comes...",
          "<25>{#f/5}{#v/0}* Well, let's just say I'm interested to see what happens.",
-         "<25>{#f/11}{#v/0}* Hee hee hee...",
+         "<25>{#f/11}{#v/0}* 嘻嘻嘻...",
          "<25>{#f/9}{#v/0}* Good luck!"
       ],
       endtwinklyKB: [
-         "<25>{#f/11}{#v/0}* Hee hee hee...",
+         "<25>{#f/11}{#v/0}* 嘻嘻嘻...",
          "<25>{#f/7}{#v/0}* Maybe that's why you killed that one monster.",
          "<25>{#f/8}{#v/0}* I mean, you went almost the whole way without killing anyone...",
          "<25>{#f/6}{#v/0}* But somewhere along the line, you screwed up.",
@@ -1489,7 +1489,7 @@ export default {
          "<25>{#f/11}{#v/0}* What a joke!"
       ],
       endtwinklyKC: [
-         "<25>{#f/11}{#v/0}* Hee hee hee...",
+         "<25>{#f/11}{#v/0}* 嘻嘻嘻...",
          "<25>{#f/7}{#v/0}* Maybe that's why you killed those other monsters.",
          "<25>{#f/8}{#v/0}* I mean, you had a good run, but...",
          "<25>{#f/6}{#v/0}* What's the point in mercy if it doesn't mean anything?",
@@ -1516,7 +1516,7 @@ export default {
          "<25>{#f/6}{#v/0}* I dunno.",
          "<25>{#f/5}{#v/0}* There is one thing, though...",
          "<25>{#f/5}{#v/0}* One thing I KNOW you haven't done yet.",
-         "<25>{#f/11}{#v/0}* Hee hee hee...",
+         "<25>{#f/11}{#v/0}* 嘻嘻嘻...",
          "<25>{#f/7}{#v/0}* That's right.",
          "<25>{#f/7}{#v/0}* You haven't killed everyone here in one run yet.",
          "<25>{#f/11}{#v/0}* Aren't you at least a LITTLE curious?",
@@ -2746,7 +2746,7 @@ export default {
             SAVE.data.b.svr
                ? ["<32>{#p/human}* (You touch the DJ set.)\n* (It makes an oddly satisfying scratching sound.)"]
                : world.darker
-                  ? ["<32>{#p/basic}* 一臺DJ打碟機。"]
+                  ? ["<32>{#p/basic}* 一臺打碟機。"]
                   : SAVE.data.n.plot === 72
                      ? ["<32>{#p/basic}* 一臺花哨的打碟機。\n  現在沒人在用，有點出人意料。"]
                      : ["<32>{#p/basic}* 一臺花哨的打碟機，\n  裝有各式各樣的旋鈕與滑塊。"],
@@ -2925,7 +2925,7 @@ export default {
             SAVE.data.b.svr
                ? ["<32>{#p/human}* (The sign appears to be an advertisement for a now- defunct steak sale.)"]
                : [
-                  "<32>{#p/basic}* “請務必前往活動室品嚐\n  Glyde的招牌牛排(TM)！”"
+                  "<32>{#p/basic}* “趕緊前往活動室品嚐\n  Glyde的招牌牛排(TM)吧！”"
                ],
          w_ta_box: () =>
             SAVE.data.b.svr

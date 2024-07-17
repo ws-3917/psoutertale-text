@@ -7859,6 +7859,8 @@ msgstr "<25>{#f/0}* ...沒關係，人各有志嘛。"
 
 msgid "<25>{#p/sans}{#f/4}* heheh... nothin' like a good whoopee cushion."
 msgstr ""
+"<25>{#p/sans}{#f/4}* 嘿嘿... 沒有什麼能比\n"
+"  一個放屁墊把戲更好的了。"
 
 msgid "<25>{#f/0}* anyway, you're a human, right?"
 msgstr "<25>{#f/0}* 總之，你是個人類，對吧？"
@@ -7897,13 +7899,17 @@ msgstr ""
 "  我整整費了三輩子工夫。"
 
 msgid "<25>{#f/2}* i've got better things to do."
-msgstr ""
+msgstr "<25>{#f/2}* 我有更好的事情要去忙。"
 
 msgid "<25>{#f/5}* despite not being an actual sentry, he sure ACTS like one."
 msgstr ""
+"<25>{#f/5}* 儘管他不是個真正的哨兵，\n"
+"  但他確實表現得像個哨兵。"
 
 msgid "<25>{#f/0}* in fact, i think that's him over there."
 msgstr ""
+"<25>{#f/0}* 實際上，我覺得\n"
+"  那邊那個就是他了。"
 
 msgid ""
 "<25>* i have an idea.\n"
@@ -7941,6 +7947,8 @@ msgstr ""
 
 msgid "<25>{#p/sans}* quick, to the gravometric inverter."
 msgstr ""
+"<25>{#p/sans}* 快，到重力轉換器\n"
+"  那裡去。"
 
 msgid "<25>{#p/sans}* 'sup, bro?"
 msgstr ""
