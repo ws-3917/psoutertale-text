@@ -170,7 +170,7 @@ export default {
       secret2: ["<32>{#p/human}* （你使用了秘密鑰匙。）"],
       exit: [choicer.create("* （離開外域嗎？）", "是", "否")],
       nosleep: ["<32>{#p/human}* （好像有什麼打擾了你休息。）"],
-      noequip: ["<32>{#p/human}* （你不打算這麼做。）"],
+      noequip: ["<32>{#p/human}* （你打算不這麼做。）"],
       finaltext: {
          a: ["<32>{#p/basic}* 他肯定就在附近..."],
          b: ["<32>{#p/basic}* 等等...？", "<32>{#p/basic}* 那邊站著的...\n* 是他嗎？"],
@@ -715,8 +715,8 @@ export default {
          ]
       },
       midsleep: [
-         "<32>{#p/human}* (If you sleep here now, you may miss something important.)",
-         choicer.create("* (Go to sleep?)", "是", "否")
+         "<32>{#p/human}* （如果你現在睡覺，\n  你可能會錯過一些重要的事情。）",
+         choicer.create("* （要睡覺嗎？）", "是", "否")
       ],
       bedfailToriel: [
          "<25>{#p/toriel}{#f/5}* Oh dear.",
@@ -1598,7 +1598,7 @@ export default {
             ][Math.min(SAVE.flag.n.postnoot_exitfail++, 4)]
             : [
                sleep
-                  ? "<32>{#p/basic}* After you sleep at Toriel's home, she destroys the bridge to the outpost."
+                  ? "<32>{#p/basic}* 當你在Toriel的家裡睡下後，\n  她摧毀了通往前哨站的橋。"
                   : "<32>{#p/basic}* 在你回到Toriel家後，\n  她隨即摧毀了離開外域\n  唯一的出口。",
                ...(outlandsKills() > 10
                   ? [
@@ -2430,7 +2430,7 @@ export default {
          "<32>{#p/human}* （抽屜裡好像藏著一把鑰匙。）",
          choicer.create("* （拿走鑰匙嗎？）", "是", "否")
       ],
-      socks4: ["<32>{#p/human}* （你打算什麼都不做。）"],
+      socks4: ["<32>{#p/human}* （你打算不這麼做。）"],
       socks5: () =>
          SAVE.flag.b.$svr
             ? ["<32>{#p/human}* (But you got the sense that it'd be a bad idea.)"]

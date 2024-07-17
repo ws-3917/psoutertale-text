@@ -419,7 +419,7 @@ export default {
             "§fill=#ff7§【美術】§fill=#fff§",
             "曉曉_Akatsuki",
             "屑moons月亮君",
-            "彳卸雲鬼_",
+            "御魂_",
             "mustad（邊框Mod）",
             "§fill=#ff7§【精神支援&推廣】§fill=#fff§",
             "幻-_-風",
