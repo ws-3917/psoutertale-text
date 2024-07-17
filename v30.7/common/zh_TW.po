@@ -387,9 +387,6 @@ msgstr ""
 msgid "<25>{#p/basic}(Congratulations and goodbyes!)"
 msgstr ""
 
-msgid ""
-msgstr ""
-
 msgid "dark_death"
 msgstr ""
 
@@ -11321,7 +11318,7 @@ msgid "* Asriel"
 msgstr "* Asriel"
 
 msgid "§fill=#ff7f7f§§swirl=2/1/1.05§§hue§* Asriel Dreemurr"
-msgstr ""
+msgstr "§fill=#ff7f7f§§swirl=2/1/1.05§§hue§* Asriel Dreemurr"
 
 msgid "* Bathe"
 msgstr "* 洗澡"

@@ -4922,7 +4922,7 @@ export default {
       approach: "* 靠近",
       asgore: "* 艾斯戈爾",
       asriel: "* 艾斯利爾",
-      asrieldreemurr: "§fill=#ff7f7f§§swirl=2/1/1.05§§hue§* Asriel Dreemurr",
+      asrieldreemurr: "§fill=#ff7f7f§§swirl=2/1/1.05§§hue§* 艾斯利爾·逐夢",
       bathe: "* 洗澡",
       beckon: "* 招呼過來",
       bedtime: "* 睡覺時間",
