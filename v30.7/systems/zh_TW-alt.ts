@@ -846,7 +846,7 @@ export default {
          end: "劇終"
       },
 
-      langPrompt: "[↑ 或 ↓] 選擇語言 / [ENTER] 確定",
+      langPrompt: "[↑或↓] 選擇語言 / [ENTER] 確定",
 
       quitText1: "正在退出",
       quitText2: "正在退出.",

@@ -1759,7 +1759,7 @@ msgid "THE END"
 msgstr "劇終"
 
 msgid "[UP or DOWN] to Select / [ENTER] to Confirm"
-msgstr "[↑ 或 ↓] 選擇語言 / [ENTER] 確定"
+msgstr "[↑或↓] 選擇語言 / [ENTER] 確定"
 
 msgid "Quitting"
 msgstr "正在退出"
