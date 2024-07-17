@@ -387,6 +387,9 @@ msgstr ""
 msgid "<25>{#p/basic}(Congratulations and goodbyes!)"
 msgstr ""
 
+msgid ""
+msgstr ""
+
 msgid "dark_death"
 msgstr ""
 

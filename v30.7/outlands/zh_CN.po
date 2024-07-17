@@ -7904,7 +7904,7 @@ msgstr ""
 "  会说什么呢？”"
 
 msgid "<32>* \"Answer: I've got a BONE to pick with you...\""
-msgstr "<32>* “答案：你可别小看我的胆量...”"
+msgstr "<32>* “答案：我得好好从你骨里挑刺了...”"
 
 msgid ""
 "<32>{#p/basic}* Seriously?\n"
@@ -10371,7 +10371,7 @@ msgid ""
 "<25>{#f/1}* Twisting and twirling, doing barrel rolls at light speed..."
 msgstr ""
 "<25>{#f/1}* 上下旋转，左右摇摆，\n"
-"  以光速做着橫滚侧翻..."
+"  以光速做着横滚侧翻..."
 
 msgid "<25>{#f/1}* Can you do that for me?"
 msgstr "<25>{#f/1}* 能为我试着做一遍吗？"

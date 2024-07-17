@@ -13618,6 +13618,9 @@ msgstr ""
 msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random=1.1/1.1}Goodbye..."
 msgstr ""
 
+msgid ""
+msgstr ""
+
 msgid "N/A"
 msgstr "無"
 

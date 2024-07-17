@@ -7905,7 +7905,7 @@ msgstr ""
 "  會說什麼呢？”"
 
 msgid "<32>* \"Answer: I've got a BONE to pick with you...\""
-msgstr "<32>* “答案：你可別小看我的膽量...”"
+msgstr "<32>* “答案：我得好好從你骨裡挑刺了...”"
 
 msgid ""
 "<32>{#p/basic}* Seriously?\n"
