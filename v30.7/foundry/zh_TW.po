@@ -11881,9 +11881,7 @@ msgid "<32>{#p/asriel2}* Doge."
 msgstr "<32>{#p/asriel2}* Doge。"
 
 msgid "<32>{#p/story}* Doge struts towards you."
-msgstr ""
-"<32>{#p/story}* Doge昂首闊步向你\n"
-"  走來。"
+msgstr "<32>{#p/story}* Doge昂首闊步向你走來。"
 
 msgid "<32>{#p/story}* Doge studies your stance, and deems it lacking."
 msgstr ""

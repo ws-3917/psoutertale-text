@@ -5771,7 +5771,7 @@ export default {
       petTextPost6: [ "<32>{#p/human}* (You pet Doge.)", "<32>{#p/basic}* It continues." ],
       petTextPost7: [ "<32>{#p/human}* (You pet Doge.)", "<32>{#p/basic}* ..." ],
       petTextSus: [ "<32>{#p/human}* (But Doge was too antsy to be pet.)" ],
-      status1: () => (world.goatbro ? [ "<32>{#p/asriel2}* Doge。" ] : [ "<32>{#p/story}* Doge昂首阔步向你\n  走来。" ]),
+      status1: () => (world.goatbro ? [ "<32>{#p/asriel2}* Doge。" ] : [ "<32>{#p/story}* Doge昂首阔步向你走来。" ]),
       turnStatus1: [ "<32>{#p/story}* Doge studies your stance, and deems it lacking." ],
       turnStatus2: () =>
          dogecon() ? [ "<32>{#p/story}* Doge fiddles with her spear." ] : [ "<32>{#p/story}* Doge needs a good washdown." ],
