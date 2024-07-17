@@ -3450,8 +3450,8 @@ export default {
                   "<32>{#p/basic}* ...\n* 我沒話可說了。"
                ],
                [
-                  "<32>{#p/human}* (You look to the final paragraph.)",
-                  "<32>{#p/basic}* Huh?\n* This one's not a joke...",
+                  "<32>{#p/human}* （你看向書中最後的段落。）",
+                  "<32>{#p/basic}* 嗯？\n* 這一段居然不是笑話...",
                   "<32>{#p/toriel}{#f/21}* \"A human has arrived in the Outlands today.\"",
                   "<32>* \"I do trust that Sans would look after them, but...\"",
                   "<32>* \"I would rather not force him to do so.\"",

@@ -7904,15 +7904,17 @@ msgstr ""
 "* 我沒話可說了。"
 
 msgid "<32>{#p/human}* (You look to the final paragraph.)"
-msgstr "<32>{#p/human}* (You look to the final paragraph.)"
+msgstr "<32>{#p/human}* （你看向書中最後的段落。）"
 
 msgid ""
 "<32>{#p/basic}* Huh?\n"
 "* This one's not a joke..."
 msgstr ""
+"<32>{#p/basic}* 嗯？\n"
+"* 這一段居然不是笑話..."
 
 msgid "<32>{#p/toriel}{#f/21}* \"A human has arrived in the Outlands today.\""
-msgstr ""
+msgstr "<32>{#p/toriel}{#f/21}* \"A human has arrived in the Outlands today.\""
 
 msgid "<32>* \"I do trust that Sans would look after them, but...\""
 msgstr ""
