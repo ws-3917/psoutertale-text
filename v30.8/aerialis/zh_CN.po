@@ -18377,9 +18377,6 @@ msgstr ""
 msgid "<32>{#p/basic}* Would you quit waving that thing around?"
 msgstr ""
 
-msgid "f_napstablook"
-msgstr ""
-
 msgid "<32>{#p/basic}* You have a replica of Alphys's Mew Mew doll too, mew!?"
 msgstr ""
 

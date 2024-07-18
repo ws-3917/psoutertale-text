@@ -276,33 +276,33 @@
             </termEntry>
             <termEntry id="armor">
                 <langSet xml:lang="en"><tig><term>AR Headset?</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>AR眼鏡？</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>AR眼鏡？</term></tig></langSet>
             </termEntry>
             <termEntry id="armor(short-name)">
                 <langSet xml:lang="en"><tig><term>Headset</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>AR眼鏡</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>AR眼鏡</term></tig></langSet>
             </termEntry>
             <termEntry id="armor(short-name)">
                 <langSet xml:lang="en"><tig><term>Tem Armor</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>Tem盔甲</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>Tem盔甲</term></tig></langSet>
                 <note from="translator">人名不譯版</note>
             </termEntry>
             <termEntry id="armor">
                 <langSet xml:lang="en"><tig><term>Temmie Armor</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>Temmie盔甲</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>Temmie盔甲</term></tig></langSet>
                 <note from="translator">人名不譯版</note>
             </termEntry>
             <termEntry id="armor">
                 <langSet xml:lang="en"><tig><term>AR Headset</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>AR眼鏡</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>AR眼鏡</term></tig></langSet>
             </termEntry>
             <termEntry id="armor(short-name)">
                 <langSet xml:lang="en"><tig><term>Headset?</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>AR眼鏡？</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>AR眼鏡？</term></tig></langSet>
             </termEntry>
             <termEntry id="armor">
                 <langSet xml:lang="en"><tig><term>Worn Spacesuit</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>破損的宇航服</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>破損的宇航服</term></tig></langSet>
             </termEntry>
         </body>
     </text>

@@ -1762,7 +1762,7 @@ msgid "THE END"
 msgstr "劇終"
 
 msgid "[UP or DOWN] to Select / [Z or ENTER] to Confirm"
-msgstr ""
+msgstr "[↑或↓] 選擇語言 / [Z 或 ENTER] 確定"
 
 msgid "Quitting"
 msgstr "正在退出"

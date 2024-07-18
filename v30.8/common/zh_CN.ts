@@ -1,7 +1,7 @@
-import { pms } from '../../code/common/extras';
-import { music } from '../../code/systems/assets';
-import { battler, choicer, iFancyYourVilliany, pager, phone, player, world } from '../../code/systems/framework';
-import { SAVE } from '../../code/systems/save';
+import { pms } from '../../../code/common/extras';
+import { music } from '../../../code/systems/assets';
+import { battler, choicer, iFancyYourVilliany, pager, phone, player, world } from '../../../code/systems/framework';
+import { SAVE } from '../../../code/systems/save';
 
 // START-TRANSLATE
 
@@ -277,7 +277,8 @@ export default {
             if (!dundyne) {
                if (royals < 2) {
                   d = true;
-                  k = "dark_death";
+                  k = 'dark_death'; // NO-TRANSLATE
+
                   m = music.youscreweduppal;
                   
                   addB([
@@ -365,7 +366,8 @@ export default {
                      ]);
                   }
                } else {
-                  k = "dark_undyne";
+                  k = 'dark_undyne'; // NO-TRANSLATE
+
                   
                   addA([
                      "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
@@ -489,7 +491,8 @@ export default {
                }
             } else if (royals < 2) {
                if (!dpapyrus || royals === 1) {
-                  k = "dark_alphys";
+                  k = 'dark_alphys'; // NO-TRANSLATE
+
                   
                   addA([
                      "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
@@ -563,7 +566,8 @@ export default {
                         "<18>{#p/papyrus}{#f/5}..."
                      ]);
                      if (royals === 1) {
-                        k = "dark_alphys_therapy";
+                        k = 'dark_alphys_therapy'; // NO-TRANSLATE
+
                         addB([
                            "<18>{#p/papyrus}{#f/5}THERE'S... A STORY I'D LIKE TO TELL YOU, ACTUALLY.",
                            "<15>{#f/6}IT'LL EXPLAIN THE WHOLE \"FOR A WHILE\" THING.",
@@ -839,7 +843,8 @@ export default {
                            "<18>{#p/papyrus}{#f/7}ANYWAY, YOU KNOW WHO TO CALL!!!"
                         ]);
                      } else {
-                        k = "dark_alphys_virtual";
+                        k = 'dark_alphys_virtual'; // NO-TRANSLATE
+
                         addB([
                            "<18>{#p/papyrus}{#f/5}I KEEP THINKING... ABOUT THOSE WHO'VE DISAPPEARED.",
                            "<18>{#p/papyrus}{#f/6}ASGORE, WHO I'D SWAP STORIES WITH SOMETIMES...",
@@ -1098,7 +1103,8 @@ export default {
                      ]);
                   }
                } else if (SAVE.data.n.state_wastelands_toriel !== 0 && SAVE.data.n.kills_wastelands < 16) {
-                  k = "dark_mew";
+                  k = 'dark_mew'; // NO-TRANSLATE
+
                   m = music.wrongenemy;
                   
                   addA([
@@ -1159,7 +1165,8 @@ export default {
                      "<32>{#s/equip}{#p/event}* 滴..."
                   ]);
                } else {
-                  k = "dark_charles";
+                  k = 'dark_charles'; // NO-TRANSLATE
+
                   m = music.letsmakeabombwhydontwe;
                   
                   addA([
@@ -1208,7 +1215,8 @@ export default {
                }
             } else {
                
-               k = "dark_generic";
+               k = 'dark_generic'; // NO-TRANSLATE
+
                addA([
                   "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
                   "<25>{#p/sans}{#f/0}* heya.",
@@ -1369,7 +1377,8 @@ export default {
                ]);
             }
          } else if (SAVE.data.b.ubershortcut || world.bad_lizard > 1) {
-            k = "dark_aborted";
+            k = 'dark_aborted'; // NO-TRANSLATE
+
             
             if (dmettaton) {
                addA([
@@ -1592,7 +1601,8 @@ export default {
                ]);
             }
          } else if (SAVE.data.b.ultrashortcut) {
-            k = "light_ultra";
+            k = 'light_ultra'; // NO-TRANSLATE
+
             m = music.sansdate;
             
             addA([
@@ -1763,7 +1773,8 @@ export default {
             ]);
          } else if (SAVE.data.n.exp > 0 || SAVE.data.n.state_foundry_undyne === 1) {
             if (!dundyne) {
-               k = "light_undyne";
+               k = 'light_undyne'; // NO-TRANSLATE
+
                
                addA([
                   "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
@@ -2124,7 +2135,8 @@ export default {
                }
             } else if (!dtoriel) {
                if (SAVE.data.b.w_state_lateleave) {
-                  k = "light_runaway";
+                  k = 'light_runaway'; // NO-TRANSLATE
+
                   
                   addA([
                      "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
@@ -2343,7 +2355,8 @@ export default {
                      addB([ "<32>{#s/equip}{#p/event}* 滴..." ]);
                   }
                } else {
-                  k = "light_toriel";
+                  k = 'light_toriel'; // NO-TRANSLATE
+
                   
                   if (SAVE.data.n.state_wastelands_toriel === 0) {
                      addA([
@@ -2526,7 +2539,8 @@ export default {
                   ]);
                }
             } else if (royals === 5 && !ddoggo && !dlesserdog && !ddogs && !dgreatdog && !ddoge) {
-               k = "light_dog";
+               k = 'light_dog'; // NO-TRANSLATE
+
                m = music.dogsong;
                
                addA([
@@ -2750,7 +2764,8 @@ export default {
                   "<32>{#s/equip}{#p/event}* 滴..."
                ]);
             } else if (!dmuffet) {
-               k = "light_muffet";
+               k = 'light_muffet'; // NO-TRANSLATE
+
                m = music.spiderboss;
                
                addA([
@@ -2967,7 +2982,8 @@ export default {
                   ]);
                }
             } else if (!dpapyrus) {
-               k = "light_papyrus";
+               k = 'light_papyrus'; // NO-TRANSLATE
+
                m = music.papyrus;
                
                addA([
@@ -3092,7 +3108,8 @@ export default {
                   "<32>{#s/equip}{#p/event}* 滴..."
                ]);
             } else {
-               k = "light_sans";
+               k = 'light_sans'; // NO-TRANSLATE
+
                m = music.papyrusLow;
                
                addA([
@@ -3152,7 +3169,8 @@ export default {
                ]);
             }
          } else {
-            k = "light_generic";
+            k = 'light_generic'; // NO-TRANSLATE
+
             
             addA([
                "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",

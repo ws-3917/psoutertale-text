@@ -1,6 +1,6 @@
-import { asrielinter } from '../../code/common';
-import { blookGone, dateready, papreal, roomready, solo } from '../../code/starton/extras';
-import { game, renderer } from '../../code/systems/core';
+import { asrielinter } from '../../../code/common';
+import { blookGone, dateready, papreal, roomready, solo } from '../../../code/starton/extras';
+import { game, renderer } from '../../../code/systems/core';
 import {
    battler,
    calcHP,
@@ -12,9 +12,9 @@ import {
    player,
    roomKills,
    world
-} from '../../code/systems/framework';
-import { SAVE } from '../../code/systems/save';
-import { CosmosKeyed, CosmosProvider, CosmosUtils } from '../../code/systems/storyteller';
+} from '../../../code/systems/framework';
+import { SAVE } from '../../../code/systems/save';
+import { CosmosKeyed, CosmosProvider, CosmosUtils } from '../../../code/systems/storyteller';
 
 // START-TRANSLATE
 
@@ -811,9 +811,12 @@ export default {
       doggonopoggo: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (But there was nobody here.)" ]
-            : (game.room === "s_doggo" && SAVE.data.n.state_starton_doggo === 2) ||
-              (game.room === "s_dogs" && SAVE.data.n.state_starton_dogs === 2) ||
-              (game.room === "s_pacing" && SAVE.data.n.state_starton_lesserdog === 2)
+            : (game.room === 's_doggo' && SAVE.data.n.state_starton_doggo === 2) || // NO-TRANSLATE
+
+              (game.room === 's_dogs' && SAVE.data.n.state_starton_dogs === 2) || // NO-TRANSLATE
+
+              (game.room === 's_pacing' && SAVE.data.n.state_starton_lesserdog === 2) // NO-TRANSLATE
+
             ? [ "<32>{#p/basic}* ...但是誰也沒有來。" ]
             : [ "<32>{#p/basic}* Nobody's home." ],
       housebloc: () =>

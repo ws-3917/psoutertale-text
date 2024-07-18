@@ -2,6 +2,9 @@
 msgid ""
 msgstr ""
 
+msgid "en_US"
+msgstr "zh_TW"
+
 msgid ""
 msgstr ""
 
@@ -151,14 +154,8 @@ msgstr "讓實驗開始吧。"
 msgid "The true name."
 msgstr "真正的名字。"
 
-msgid "The true name..?"
-msgstr "...真正的名字？"
-
 msgid "This name is incorrect."
 msgstr "這名字不對。"
-
-msgid "This name is incorrect..?"
-msgstr "這名字... 不對吧？"
 
 msgid ""
 "............\n"
@@ -222,17 +219,11 @@ msgstr ""
 msgid "I'LL ALLOW IT!!!!"
 msgstr "我準了！！！"
 
-msgid "I DON'T THINK IT'S INAPPROPRIATE!!"
-msgstr "這沒啥不合適的！！"
-
 msgid "ok."
 msgstr "好。"
 
 msgid "nope."
 msgstr "沒門。"
-
-msgid "what?"
-msgstr "啥？"
 
 msgid "A \"stellar\" choice."
 msgstr ""
@@ -311,7 +302,7 @@ msgstr "一位巫師同伴？"
 msgid "Slick choice, homeslice."
 msgstr "不錯的選擇，小夥子。"
 
-msgid "I don't think so, darling."
+msgid "Now you're just being rude, darling."
 msgstr ""
 
 msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
@@ -348,15 +339,3 @@ msgstr "不可以。"
 
 msgid "..."
 msgstr "..."
-
-msgid ""
-"umum↑umumumumm↑umumm↑\n"
-"umumumumm↓\n"
-"umumumm→umum"
-msgstr ""
-"嗯嗯↑嗯嗯嗯嗯嗯↑嗯嗯↑\n"
-"嗯嗯嗯嗯嗯嗯嗯↓\n"
-"嗯嗯嗯→嗯嗯"
-
-msgid "6."
-msgstr "6。"

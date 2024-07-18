@@ -369,9 +369,6 @@ msgstr ""
 msgid ""
 msgstr ""
 
-msgid "dark_death"
-msgstr ""
-
 msgid "<32>{#s/phone}{#p/event}* Ring, ring..."
 msgstr ""
 
@@ -662,9 +659,6 @@ msgid ""
 msgstr ""
 
 msgid "<25>{*}{#x0}{#p/undyne}{#f/7}* I've got you now.{^40}{%}"
-msgstr ""
-
-msgid "dark_undyne"
 msgstr ""
 
 msgid "<25>{#p/alphys}{#f/33}* ... shh, shh, I think this is them."
@@ -1021,9 +1015,6 @@ msgstr ""
 msgid "<32>{#s/equip}{#p/event}* Click..."
 msgstr ""
 
-msgid "dark_alphys"
-msgstr ""
-
 msgid "<25>{#p/sans}{#f/0}* heya."
 msgstr ""
 
@@ -1201,9 +1192,6 @@ msgid "<18>{#p/papyrus}{#f/4}IT SURE HAS BEEN A WHILE..."
 msgstr ""
 
 msgid "<18>{#p/papyrus}{#f/5}..."
-msgstr ""
-
-msgid "dark_alphys_therapy"
 msgstr ""
 
 msgid ""
@@ -1928,9 +1916,6 @@ msgstr ""
 msgid "<18>{#p/papyrus}{#f/7}ANYWAY, YOU KNOW WHO TO CALL!!!"
 msgstr ""
 
-msgid "dark_alphys_virtual"
-msgstr ""
-
 msgid ""
 "<18>{#p/papyrus}{#f/5}I KEEP THINKING... ABOUT THOSE WHO'VE DISAPPEARED."
 msgstr ""
@@ -2522,9 +2507,6 @@ msgid ""
 "<25>{#p/sans}{#f/3}* ... no reason to keep this phone call going any longer."
 msgstr ""
 
-msgid "dark_mew"
-msgstr ""
-
 msgid "<25>{#p/sans}{#f/4}* is anyone there?"
 msgstr ""
 
@@ -2708,9 +2690,6 @@ msgstr ""
 msgid "<25>{#p/sans}{#f/0}* she would surely- {%}"
 msgstr ""
 
-msgid "dark_charles"
-msgstr ""
-
 msgid ""
 "<25>{#p/sans}{#f/0}* so, after you left, things weren't too great at first."
 msgstr ""
@@ -2824,9 +2803,6 @@ msgstr ""
 msgid ""
 "<25>{#p/sans}{#f/2}* heh.\n"
 "* we can only hope."
-msgstr ""
-
-msgid "dark_generic"
 msgstr ""
 
 msgid ""
@@ -3136,9 +3112,6 @@ msgid "<25>{#p/alphys}{#f/24}* On his behalf..."
 msgstr ""
 
 msgid "<25>{#p/alphys}{#f/16}* I hope you fall into a black hole and die."
-msgstr ""
-
-msgid "dark_aborted"
 msgstr ""
 
 msgid "<32>{#p/napstablook}* hey"
@@ -3682,9 +3655,6 @@ msgstr ""
 msgid "<32>{#p/mettaton}* WHAT A SHAME..."
 msgstr ""
 
-msgid "light_ultra"
-msgstr ""
-
 msgid "<25>{#p/sans}{#f/0}* sooo... where to begin?"
 msgstr ""
 
@@ -4008,9 +3978,6 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/sans}{#f/3}* see ya 'round."
-msgstr ""
-
-msgid "light_undyne"
 msgstr ""
 
 msgid "<25>{#p/alphys}{#f/4}* H-hiya..."
@@ -4982,9 +4949,6 @@ msgstr ""
 msgid "<25>{#p/alphys}{#f/16}* T-take care!!"
 msgstr ""
 
-msgid "light_runaway"
-msgstr ""
-
 msgid "<25>{#p/toriel}{#f/1}* Hello?"
 msgstr ""
 
@@ -5516,9 +5480,6 @@ msgstr ""
 msgid "<25>{#p/sans}{#f/0}* fly safe out there, will ya?"
 msgstr ""
 
-msgid "light_toriel"
-msgstr ""
-
 msgid ""
 "<25>{#p/toriel}{#f/0}* ...\n"
 "* This is Toriel."
@@ -5854,9 +5815,6 @@ msgid "<25>{#p/toriel}{#f/9}* There is not much else for me to say."
 msgstr ""
 
 msgid "<25>{#p/toriel}{#f/5}* Goodbye, little one."
-msgstr ""
-
-msgid "light_dog"
 msgstr ""
 
 msgid ""
@@ -6329,9 +6287,6 @@ msgstr ""
 msgid ""
 "<32>{#p/basic}* OK already!\n"
 "* Quit rushing me!!"
-msgstr ""
-
-msgid "light_muffet"
 msgstr ""
 
 msgid "<32>{#p/basic}{#s/spiderLaugh}* Oh, hello, dearie~"
@@ -6843,9 +6798,6 @@ msgstr ""
 msgid "<25>{#p/alphys}{#f/17}* Weird."
 msgstr ""
 
-msgid "light_papyrus"
-msgstr ""
-
 msgid "<18>{#p/papyrus}{#f/4}IS THIS THING EVEN WORKING?"
 msgstr ""
 
@@ -7130,9 +7082,6 @@ msgstr ""
 msgid "<18>{#p/papyrus}{#f/0}... THAT'S ME!!!"
 msgstr ""
 
-msgid "light_sans"
-msgstr ""
-
 msgid "<25>{#p/sans}{#f/0}* after you left, the king vanished into thin air."
 msgstr ""
 
@@ -7255,9 +7204,6 @@ msgstr ""
 msgid ""
 "<25>{*}{#x0}{#p/darksans}{#f/1}{#i/5}* ... maybe you're just a dirty brother"
 " killer."
-msgstr ""
-
-msgid "light_generic"
 msgstr ""
 
 msgid "<25>{#p/alphys}{#f/8}* Hiya..."

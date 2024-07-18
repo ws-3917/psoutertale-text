@@ -1,4 +1,4 @@
-import { asrielinter, helmetdyne, helmetdyneAttack } from '../../code/common/api';
+import { asrielinter, helmetdyne, helmetdyneAttack } from '../../../code/common/api';
 import {
    armorprice,
    badSpider,
@@ -8,8 +8,8 @@ import {
    ghostpartyCondition,
    respecc,
    temgone
-} from '../../code/foundry/extras';
-import { game, rng } from '../../code/systems/core';
+} from '../../../code/foundry/extras';
+import { game, rng } from '../../../code/systems/core';
 import {
    antiAteThreshold,
    battler,
@@ -19,8 +19,8 @@ import {
    player,
    roomKills,
    world
-} from '../../code/systems/framework';
-import { SAVE } from '../../code/systems/save';
+} from '../../../code/systems/framework';
+import { SAVE } from '../../../code/systems/save';
 
 // START-TRANSLATE
 export default {
@@ -409,7 +409,10 @@ export default {
       blooksorryY: [ '<32>{#p/napstablook}* ...' ],
       blooktouch1: () =>
          world.sad_ghost
-            ? [ '<32>{#p/napstablook}* what do you want......', choicer.create('* (What do you say?)', 'Sorry', 'Nothing') ]
+            ? [
+                 '<32>{#p/napstablook}* what do you want......',
+                 choicer.create('* (What do you say?)', 'Sorry', 'Nothing')
+              ]
             : [
                  '<32>{#p/napstablook}* oh, do you need anything?',
                  choicer.create('* (What do you say?)', 'Hug', 'Sleep', 'Music', 'Nothing')
@@ -3901,9 +3904,9 @@ export default {
       unddate0x: () =>
          world.trueKills > 0 || SAVE.data.n.state_foundry_undyne > 0
             ? [
-               "<18>{#p/papyrus}{#f/0}UNDYNE'S NOT HERE RIGHT NOW.",
-               "<18>{#p/papyrus}{#f/4}YOU'LL HAVE TO WAIT FOR HER LIKE I ALWAYS DO."
-            ]
+                 "<18>{#p/papyrus}{#f/0}UNDYNE'S NOT HERE RIGHT NOW.",
+                 "<18>{#p/papyrus}{#f/4}YOU'LL HAVE TO WAIT FOR HER LIKE I ALWAYS DO."
+              ]
             : [
                  '<18>{#p/papyrus}{#f/0}OKAY!\nALL READIED UP TO HANG OUT?',
                  choicer.create('* (Befriend Undyne?)', 'Yes', 'No')

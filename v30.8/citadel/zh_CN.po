@@ -6894,7 +6894,7 @@ msgstr ""
 msgid "<18>{#p/papyrus}{#f/9}WE'LL HAVE ALL THE TIME IN THE GALAXY TO DECIDE!"
 msgstr ""
 
-msgid "<18>{#p/papyrus}{#f/0} ... I WONDER WHAT I'LL DO FIRST."
+msgid "<18>{#p/papyrus}{#f/0}... I WONDER WHAT I'LL DO FIRST."
 msgstr ""
 
 msgid ""

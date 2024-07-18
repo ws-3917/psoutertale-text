@@ -6,11 +6,11 @@ import {
    corefriendly,
    glade,
    iRespeccYourVilliany
-} from '../../code/aerialis/extras';
-import { asrielinter } from '../../code/common';
-import { pms } from '../../code/common/extras';
-import { music } from '../../code/systems/assets';
-import { game, renderer } from '../../code/systems/core';
+} from '../../../code/aerialis/extras';
+import { asrielinter } from '../../../code/common';
+import { pms } from '../../../code/common/extras';
+import { music } from '../../../code/systems/assets';
+import { game, renderer } from '../../../code/systems/core';
 import {
    ateThreshold,
    battler,
@@ -22,8 +22,8 @@ import {
    roomKills,
    shopper,
    world
-} from '../../code/systems/framework';
-import { SAVE } from '../../code/systems/save';
+} from '../../../code/systems/framework';
+import { SAVE } from '../../../code/systems/save';
 
 // START-TRANSLATE
 
@@ -9404,7 +9404,8 @@ export default {
                       SAVE.data.n.plot !== 47.2 &&
                       !SAVE.data.b.a_state_napstadecline
                     ? [ "<32>{#p/napstablook}* oh............" ]
-                    : game.room === "f_napstablook" &&
+                    : game.room === 'f_napstablook' && // NO-TRANSLATE
+
                       SAVE.data.n.plot === 72 &&
                       SAVE.data.b.a_state_hapstablook &&
                       !SAVE.data.b.svr &&

@@ -1,25 +1,27 @@
-import { content } from '../../code/systems/assets';
-import { CosmosFont, CosmosKeyed, CosmosTextUtils } from '../../code/systems/storyteller';
+import { content } from '../../../code/systems/assets';
+import { CosmosFont, CosmosKeyed } from '../../../code/systems/storyteller';
+
+// START-TRANSLATE
+export const LANGUAGE = 'en_US';
 
 export default {
-   cellInventoryX: 9,
-   cellBoxX: -2,
-   cellFinishX: 24,
+   cellInventoryX: 0,
+   cellBoxX: 0,
+   cellFinishX: 0,
    footerX: 0,
    itemEquipX: 0,
    itemUseX: 0,
-   itemInfoX_equip: -3,
-   itemInfoX_use: 4,
+   itemInfoX_equip: 0,
+   itemInfoX_use: 0,
    itemDropX_equip: 0,
    itemDropX_use: 0,
    loadContinueX: 0,
-   loadObserveX: 4,
-   loadLVX: 8,
-   loadResetX: 13,
-   loadSettingsX: 1,
+   loadLVX: 0,
+   loadObserveX: 0,
+   loadResetX: 0,
+   loadSettingsX: 0,
    loadTimeX: 0,
-   loadTrueResetX: 16,
-   // START-TRANSLATE
+   loadTrueResetX: 0,
    nameChoiceCameos: <CosmosKeyed<string>>{
       // no names
       '': 'You must choose a name.',
@@ -110,14 +112,7 @@ export default {
 
       // humans
       chara: 'The true name.',
-      查拉: 'The true name.',
-      猹: 'The true name..?',
-      卡拉: 'The true name..?',
-      恰拉: 'The true name..?',
       frisk: 'This name is incorrect.',
-      弗里斯克: 'This name is incorrect.',
-      福: 'This name is incorrect..?',
-      福瑞斯克: 'This name is incorrect..?',
 
       // outlands
       blooky: "............\n(They're powerless to stop you.)",
@@ -126,16 +121,10 @@ export default {
       mushy: 'Saddle up!',
       napsta: "............\n(They're powerless to stop you.)",
       torie: 'Well... I suppose that works...',
-      羊妈: 'Well... I suppose that works...',
-      托丽: 'Well... I suppose that works...',
       toriel: 'I think you should think of your own name, my child.',
-      托丽尔: 'I think you should think of your own name, my child.',
       twink: 'Really...',
       twinkl: 'Nice try, idiot.',
       twinky: 'Nice try, idiot.',
-      twinkly: 'Nice try, idiot.',
-      twnkly: 'Nice try, idiot.',
-      闪闪: 'Nice try, idiot.',
       walker: 'Don\'t you mean "Eyewalker?"',
 
       // starton
@@ -149,26 +138,8 @@ export default {
       minor: '(Pant pant)',
       papyrs: "I'LL ALLOW IT!!!!",
       papyru: "I'LL ALLOW IT!!!!",
-      papyrus: "I DON'T THINK IT'S INAPPROPRIATE!!",
-      帕: "I'LL ALLOW IT!!!!",
-      帕帕: "I'LL ALLOW IT!!!!",
-      帕派肉丝: "I'LL ALLOW IT!!!!",
-      帕帕肉丝: "I'LL ALLOW IT!!!!",
-      帕派瑞: "I'LL ALLOW IT!!!!",
-      帕派瑞斯: "I DON'T THINK IT'S INAPPROPRIATE!!",
-      阿派瑞斯: "I'LL ALLOW IT!!!!",
       san: 'ok.',
-      杉: 'ok.',
-      衫: 'ok.',
-      杉哥: 'ok.',
-      衫哥: 'ok.',
       sans: 'nope.',
-      杉斯: 'nope.',
-      衫斯: 'nope.',
-      snas: 'what?',
-      鳝丝: 'what?',
-      衫衫: 'what?',
-      杉杉: 'what?',
       sdrake: 'A "stellar" choice.',
       serf: 'Check out my antenna!',
       starry: 'A "stellar" choice.',
@@ -183,7 +154,6 @@ export default {
       monkid: "That's my name!!",
       muffet: 'Ahuhuhu~\nYou must have great taste, dearie~',
       raddy: 'Hey!\nOnly Skrubby gets to call me that!',
-      radtile: "Sorry, but you're a letter shy.",
       radtie: "Sorry, but you're a letter shy.",
       radtil: "Sorry, but you're a letter shy.",
       shyren: '...?',
@@ -192,42 +162,26 @@ export default {
       tem: 'hOI!',
       temmie: 'hOI!',
       undyn: 'Ngah, fine.',
-      鱼姐: 'Ngah, fine.',
-      安戴: 'Ngah, fine.',
       undyne: 'Get your OWN name!',
-      安戴因: 'Get your OWN name!',
 
       // aerialis
       alphy: 'Uh.... OK?',
-      宅龙: 'Uh.... OK?',
-      艾菲: 'Uh.... OK?',
       alphys: "D-don't do that.",
-      艾菲斯: "D-don't do that.",
       bpants: 'You are really scraping the bottom of the barrel.',
       bratty: 'Like, OK I guess.',
       burgie: 'You like my name, little buddy?',
       catty: "Bratty! Bratty! That's MY name!",
       cozmo: 'A fellow wizard?',
       glyde: 'Slick choice, homeslice.',
-      hapsta: "I don't think so, darling.",
-      mettaton: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
+      hapsta: "Now you're just being rude, darling.",
       mett: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
       metta: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
       mtt: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
-      meta: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
-      镁塔: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
-      镁塔顿: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
-      慢吞吞: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
-      马婷婷: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
-      慢腾腾: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
-      马蹄铁: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
-      马桶套: 'OOOOH!!! ARE YOU PROMOTING MY BRAND?',
 
       // notable NPCs
       aaron: 'Is this name correct? ;)',
       grillb: 'Hot, but not hot enough.',
       grilly: 'Hot, but not hot enough.',
-      grillby: 'Hot, but not hot enough.',
       gyft: "You don't have to do that...",
       heats: 'You KNEW!?',
       kabakk: 'Respect my AUTHORITY!',
@@ -236,83 +190,64 @@ export default {
 
       // citadel
       asgor: 'You can?',
-      羊爸: 'You can?',
-      艾斯戈: 'You can?',
       asgore: 'You cannot.',
-      艾斯戈尓: 'You cannot.',
-      asriel: '...',
-      艾斯利尓: '...',
-      小羊: '...',
-      艾斯利: '...',
-
-      游乐比: "umum↑umumumumm↑umumm↑\numumumumm↓\numumumm→umum",
-      ws3917: "6."
+      asriel: '...'
    },
+
    // END-TRANSLATE
    nameChoiceFonts: {
-      san: [content.fComicSans, 16],
-      sans: [content.fComicSans, 16],
-      snas: [content.fComicSans, 16],
-      杉: [content.fComicSans, 16],
-      衫: [content.fComicSans, 16],
-      杉哥: [content.fComicSans, 16],
-      衫哥: [content.fComicSans, 16],
-      杉斯: [content.fComicSans, 16],
-      衫斯: [content.fComicSans, 16],
-      鳝丝: [content.fComicSans, 16],
-      衫衫: [content.fComicSans, 16],
-      杉杉: [content.fComicSans, 16],
-      papyrs: [content.fPapyrus, 16],
-      papyru: [content.fPapyrus, 16],
-      papyrus: [content.fPapyrus, 16],
-      帕: [content.fPapyrus, 16],
-      帕帕: [content.fPapyrus, 16],
-      帕派肉丝: [content.fPapyrus, 16],
-      帕帕肉丝: [content.fPapyrus, 16],
-      帕派瑞: [content.fPapyrus, 16],
-      帕派瑞斯: [content.fPapyrus, 16],
-      阿派瑞斯: [content.fPapyrus, 16],
+      san: [ content.fComicSans, 16 ],
+      sans: [ content.fComicSans, 16 ],
+      papyrs: [ content.fPapyrus, 16 ],
+      papyru: [ content.fPapyrus, 16 ]
    } as Partial<CosmosKeyed<[CosmosFont, number]>>,
    nameChoiceRestrictions: [
       '',
       'alphys',
-      '艾菲斯',
       'asgore',
-      '艾斯戈尓',
       'asriel',
-      '艾斯利尓',
       'frisk',
-      '弗里斯克',
       'sans',
-      '杉斯',
-      '衫斯',
       'toriel',
-      '托丽尔',
       'twinkl',
       'twinky',
       'twnkly',
-      '闪闪',
-      'undyne',
-      '安戴因'
+      'undyne'
    ],
-   namePromptX: 16,
-   nameValueX: -6,
+   namePromptX: 0,
    nameValueY: 0,
-   nameLetterMap: [],
-   nameLetterPosition: () => { },
+   nameLetterMap: [
+      [ 'A', 'B', 'C', 'D', 'E', 'F', 'G' ],
+      [ 'H', 'I', 'J', 'K', 'L', 'M', 'N' ],
+      [ 'O', 'P', 'Q', 'R', 'S', 'T', 'U' ],
+      [ 'V', 'W', 'X', 'Y', 'Z' ],
+      [ 'a', 'b', 'c', 'd', 'e', 'f', 'g' ],
+      [ 'h', 'i', 'j', 'k', 'l', 'm', 'n' ],
+      [ 'o', 'p', 'q', 'r', 's', 't', 'u' ],
+      [ 'v', 'w', 'x', 'y', 'z' ]
+   ],
+   nameLetterPosition: (index: number) => {
+      const x = (index % 26) % 7;
+      const y = Math.floor((index % 26) / 7);
+      if (index < 26) {
+         return { x: 120 + x * 64, y: 158 + y * 28 };
+      } else {
+         return { x: 120 + x * 64, y: 278 + y * 28 };
+      }
+   },
    nameLetterValidation: (char: string) => {
-      return /[A-Za-z0-9]/g.test(char) || CosmosTextUtils.cjk(char);
+      return /[A-Za-z]/g.test(char);
    },
    nameQuitX: 0,
-   nameBackspaceX: 28,
-   nameDoneX: 14,
-   nameConfirmX: -4,
-   nameNoX: 4,
-   nameYesX: 3,
+   nameBackspaceX: 0,
+   nameDoneX: 0,
+   nameConfirmX: 0,
+   nameNoX: 0,
+   nameYesX: 0,
    nameGoBackX: 0,
-   saveLVX: 8,
-   saveReturnX: 18,
-   saveSaveX: 14,
+   saveLVX: 0,
+   saveReturnX: 0,
+   saveSaveX: 0,
    settingsHeaderX: 0,
-   statBoxSizeX: 22.5
+   statBoxSizeX: 0
 };

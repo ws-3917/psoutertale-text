@@ -1,6 +1,6 @@
-import { asrielinter } from '../../code/common';
-import { toriCheck, toriSV } from '../../code/outlands/extras';
-import { game } from '../../code/systems/core';
+import { asrielinter } from '../../../code/common';
+import { toriCheck, toriSV } from '../../../code/outlands/extras';
+import { game } from '../../../code/systems/core';
 import {
    battler,
    choicer,
@@ -11,9 +11,9 @@ import {
    resetThreshold,
    roomKills,
    world
-} from '../../code/systems/framework';
-import { SAVE } from '../../code/systems/save';
-import { CosmosKeyed, CosmosProvider } from '../../code/systems/storyteller';
+} from '../../../code/systems/framework';
+import { SAVE } from '../../../code/systems/save';
+import { CosmosKeyed, CosmosProvider } from '../../../code/systems/storyteller';
 
 // START-TRANSLATE
 

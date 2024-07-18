@@ -1858,15 +1858,6 @@ msgstr ""
 msgid "<32>{#p/human}* (But there was nobody here.)"
 msgstr ""
 
-msgid "s_doggo"
-msgstr ""
-
-msgid "s_dogs"
-msgstr ""
-
-msgid "s_pacing"
-msgstr ""
-
 msgid "<32>{#p/basic}* Nobody's home."
 msgstr ""
 
