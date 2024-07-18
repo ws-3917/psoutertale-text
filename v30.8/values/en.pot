@@ -144,7 +144,13 @@ msgstr ""
 msgid "The true name."
 msgstr ""
 
+msgid "The true name..?"
+msgstr ""
+
 msgid "This name is incorrect."
+msgstr ""
+
+msgid "This name is incorrect..?"
 msgstr ""
 
 msgid ""
@@ -202,10 +208,16 @@ msgstr ""
 msgid "I'LL ALLOW IT!!!!"
 msgstr ""
 
+msgid "I DON'T THINK IT'S INAPPROPRIATE!!"
+msgstr ""
+
 msgid "ok."
 msgstr ""
 
 msgid "nope."
+msgstr ""
+
+msgid "what?"
 msgstr ""
 
 msgid "A \"stellar\" choice."
@@ -281,7 +293,7 @@ msgstr ""
 msgid "Slick choice, homeslice."
 msgstr ""
 
-msgid "Now you're just being rude, darling."
+msgid "I don't think so, darling."
 msgstr ""
 
 msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
@@ -315,4 +327,13 @@ msgid "You cannot."
 msgstr ""
 
 msgid "..."
+msgstr ""
+
+msgid ""
+"umum↑umumumumm↑umumm↑\n"
+"umumumumm↓\n"
+"umumumm→umum"
+msgstr ""
+
+msgid "6."
 msgstr ""

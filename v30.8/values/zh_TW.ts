@@ -1,28 +1,28 @@
 import { content } from '../../../code/systems/assets';
-import { CosmosFont, CosmosKeyed } from '../../../code/systems/storyteller';
+import { CosmosFont, CosmosKeyed, CosmosTextUtils } from '../../../code/systems/storyteller';
 
 // START-TRANSLATE
 
 export const LANGUAGE = "zh_TW";
 
 export default {
-   cellInventoryX: 0,
-   cellBoxX: 0,
-   cellFinishX: 0,
+   cellInventoryX: 9,
+   cellBoxX: -2,
+   cellFinishX: 24,
    footerX: 0,
    itemEquipX: 0,
    itemUseX: 0,
-   itemInfoX_equip: 0,
-   itemInfoX_use: 0,
+   itemInfoX_equip: -3,
+   itemInfoX_use: 4,
    itemDropX_equip: 0,
    itemDropX_use: 0,
    loadContinueX: 0,
-   loadLVX: 0,
-   loadObserveX: 0,
-   loadResetX: 0,
-   loadSettingsX: 0,
+   loadObserveX: 4,
+   loadLVX: 8,
+   loadResetX: 13,
+   loadSettingsX: 1,
    loadTimeX: 0,
-   loadTrueResetX: 0,
+   loadTrueResetX: 16,
    nameChoiceCameos: <CosmosKeyed<string>>{
       
       "": "你必須選定一個名字。",
@@ -113,7 +113,14 @@ export default {
 
       
       chara: "真正的名字。",
+      查拉: "真正的名字。",
+      猹: "The true name..?",
+      卡拉: "The true name..?",
+      恰拉: "The true name..?",
       frisk: "這名字不對。",
+      弗里斯克: "這名字不對。",
+      福: "This name is incorrect..?",
+      福瑞斯克: "This name is incorrect..?",
 
       
       blooky: "............\n（它無力阻止你。）",
@@ -122,10 +129,16 @@ export default {
       mushy: "上馬！",
       napsta: "............\n（它無力阻止你。）",
       torie: "嗯... 我想這個名字可以...",
+      羊妈: "嗯... 我想這個名字可以...",
+      托丽: "嗯... 我想這個名字可以...",
       toriel: "我覺得，\n你應該想個自己的名字。\n我的孩子。",
+      托丽尔: "我覺得，\n你應該想個自己的名字。\n我的孩子。",
       twink: "真的嗎...",
       twinkl: "想得美，蠢貨。",
       twinky: "想得美，蠢貨。",
+      twinkly: "想得美，蠢貨。",
+      twnkly: "想得美，蠢貨。",
+      闪闪: "想得美，蠢貨。",
       walker: "你是指“眼行家”？",
 
       
@@ -139,8 +152,26 @@ export default {
       minor: "(Pant pant)",
       papyrs: "我準了！！！",
       papyru: "我準了！！！",
+      papyrus: "I DON'T THINK IT'S INAPPROPRIATE!!",
+      帕: "我準了！！！",
+      帕帕: "我準了！！！",
+      帕派肉丝: "我準了！！！",
+      帕帕肉丝: "我準了！！！",
+      帕派瑞: "我準了！！！",
+      帕派瑞斯: "I DON'T THINK IT'S INAPPROPRIATE!!",
+      阿派瑞斯: "我準了！！！",
       san: "好。",
+      杉: "好。",
+      衫: "好。",
+      杉哥: "好。",
+      衫哥: "好。",
       sans: "沒門。",
+      杉斯: "沒門。",
+      衫斯: "沒門。",
+      snas: "what?",
+      鳝丝: "what?",
+      衫衫: "what?",
+      杉杉: "what?",
       sdrake: "A \"stellar\" choice.",
       serf: "快看看我的天線吶！",
       starry: "A \"stellar\" choice.",
@@ -155,6 +186,7 @@ export default {
       monkid: "那是我的名字！！",
       muffet: "Ahuhuhu~\nYou must have great taste, dearie~",
       raddy: "嘿！\n只有Skrubby才能這樣叫我！",
+      radtile: "Sorry, but you're a letter shy.",
       radtie: "Sorry, but you're a letter shy.",
       radtil: "Sorry, but you're a letter shy.",
       shyren: "...？",
@@ -163,26 +195,42 @@ export default {
       tem: "你吼！！",
       temmie: "你吼！！",
       undyn: "哈啊，行行行。",
+      鱼姐: "哈啊，行行行。",
+      安戴: "哈啊，行行行。",
       undyne: "找個你自己的名字去！",
+      安戴因: "找個你自己的名字去！",
 
       
       alphy: "額... 行吧？",
+      宅龙: "額... 行吧？",
+      艾菲: "額... 行吧？",
       alphys: "別-別這麼做。",
+      艾菲斯: "別-別這麼做。",
       bpants: "你還真會挑別人剩下的。",
       bratty: "嗯，我想行吧。",
       burgie: "You like my name, little buddy?",
       catty: "Bratty！Bratty！\n那是我的名字！",
       cozmo: "一位巫師同伴？",
       glyde: "不錯的選擇，小夥子。",
-      hapsta: "Now you're just being rude, darling.",
+      hapsta: "I don't think so, darling.",
+      mettaton: "喔！！！ \n你在推廣我的品牌嗎？",
       mett: "喔！！！ \n你在推廣我的品牌嗎？",
       metta: "喔！！！ \n你在推廣我的品牌嗎？",
       mtt: "喔！！！ \n你在推廣我的品牌嗎？",
+      meta: "喔！！！ \n你在推廣我的品牌嗎？",
+      镁塔: "喔！！！ \n你在推廣我的品牌嗎？",
+      镁塔顿: "喔！！！ \n你在推廣我的品牌嗎？",
+      慢吞吞: "喔！！！ \n你在推廣我的品牌嗎？",
+      马婷婷: "喔！！！ \n你在推廣我的品牌嗎？",
+      慢腾腾: "喔！！！ \n你在推廣我的品牌嗎？",
+      马蹄铁: "喔！！！ \n你在推廣我的品牌嗎？",
+      马桶套: "喔！！！ \n你在推廣我的品牌嗎？",
 
       
       aaron: "你確定是這個名字嗎？ ;)",
       grillb: "Hot, but not hot enough.",
       grilly: "Hot, but not hot enough.",
+      grillby: "Hot, but not hot enough.",
       gyft: "沒必要這樣...",
       heats: "你知道！？",
       kabakk: "Respect my AUTHORITY!",
@@ -191,66 +239,85 @@ export default {
 
       
       asgor: "可以？",
+      羊爸: "可以？",
+      艾斯戈: "可以？",
       asgore: "不可以。",
-      asriel: "..."
-   },
+      艾斯戈尓: "不可以。",
+      asriel: "...",
+      艾斯利尓: "...",
+      小羊: "...",
+      艾斯利: "...",
 
+      游乐比: "umum↑umumumumm↑umumm↑\numumumumm↓\numumumm→umum",
+      ws3917: "6."
+   },
    
 
 // END-TRANSLATE
    nameChoiceFonts: {
-      san: [ content.fComicSans, 16 ],
-      sans: [ content.fComicSans, 16 ],
-      papyrs: [ content.fPapyrus, 16 ],
-      papyru: [ content.fPapyrus, 16 ]
+      san: [content.fComicSans, 16],
+      sans: [content.fComicSans, 16],
+      snas: [content.fComicSans, 16],
+      杉: [content.fComicSans, 16],
+      衫: [content.fComicSans, 16],
+      杉哥: [content.fComicSans, 16],
+      衫哥: [content.fComicSans, 16],
+      杉斯: [content.fComicSans, 16],
+      衫斯: [content.fComicSans, 16],
+      鳝丝: [content.fComicSans, 16],
+      衫衫: [content.fComicSans, 16],
+      杉杉: [content.fComicSans, 16],
+      papyrs: [content.fPapyrus, 16],
+      papyru: [content.fPapyrus, 16],
+      papyrus: [content.fPapyrus, 16],
+      帕: [content.fPapyrus, 16],
+      帕帕: [content.fPapyrus, 16],
+      帕派肉丝: [content.fPapyrus, 16],
+      帕帕肉丝: [content.fPapyrus, 16],
+      帕派瑞: [content.fPapyrus, 16],
+      帕派瑞斯: [content.fPapyrus, 16],
+      阿派瑞斯: [content.fPapyrus, 16],
    } as Partial<CosmosKeyed<[CosmosFont, number]>>,
    nameChoiceRestrictions: [
       '',
       'alphys',
+      '艾菲斯',
       'asgore',
+      '艾斯戈尓',
       'asriel',
+      '艾斯利尓',
       'frisk',
+      '弗里斯克',
       'sans',
+      '杉斯',
+      '衫斯',
       'toriel',
+      '托丽尔',
       'twinkl',
       'twinky',
       'twnkly',
-      'undyne'
+      '闪闪',
+      'undyne',
+      '安戴因'
    ],
-   namePromptX: 0,
+   namePromptX: 16,
+   nameValueX: -6,
    nameValueY: 0,
-   nameLetterMap: [
-      [ 'A', 'B', 'C', 'D', 'E', 'F', 'G' ],
-      [ 'H', 'I', 'J', 'K', 'L', 'M', 'N' ],
-      [ 'O', 'P', 'Q', 'R', 'S', 'T', 'U' ],
-      [ 'V', 'W', 'X', 'Y', 'Z' ],
-      [ 'a', 'b', 'c', 'd', 'e', 'f', 'g' ],
-      [ 'h', 'i', 'j', 'k', 'l', 'm', 'n' ],
-      [ 'o', 'p', 'q', 'r', 's', 't', 'u' ],
-      [ 'v', 'w', 'x', 'y', 'z' ]
-   ],
-   nameLetterPosition: (index: number) => {
-      const x = (index % 26) % 7;
-      const y = Math.floor((index % 26) / 7);
-      if (index < 26) {
-         return { x: 120 + x * 64, y: 158 + y * 28 };
-      } else {
-         return { x: 120 + x * 64, y: 278 + y * 28 };
-      }
-   },
+   nameLetterMap: [],
+   nameLetterPosition: () => { },
    nameLetterValidation: (char: string) => {
-      return /[A-Za-z]/g.test(char);
+      return /[A-Za-z0-9]/g.test(char) || CosmosTextUtils.cjk(char);
    },
    nameQuitX: 0,
-   nameBackspaceX: 0,
-   nameDoneX: 0,
-   nameConfirmX: 0,
-   nameNoX: 0,
-   nameYesX: 0,
+   nameBackspaceX: 28,
+   nameDoneX: 14,
+   nameConfirmX: -4,
+   nameNoX: 4,
+   nameYesX: 3,
    nameGoBackX: 0,
-   saveLVX: 0,
-   saveReturnX: 0,
-   saveSaveX: 0,
+   saveLVX: 8,
+   saveReturnX: 18,
+   saveSaveX: 14,
    settingsHeaderX: 0,
-   statBoxSizeX: 0
+   statBoxSizeX: 22.5
 };
