@@ -12374,7 +12374,7 @@ msgstr ""
 msgid "<32>{#p/human}* (You inform Astro Serf that it has a great antenna.)"
 msgstr ""
 "<32>{#p/human}* （你告訴Astro Serf說它\n"
-"  有一根很棒的天線。)"
+"  有一根很棒的天線。）"
 
 msgid "<32>{#p/human}* (You flirt with Astro Serf.)"
 msgstr ""

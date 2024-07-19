@@ -916,7 +916,7 @@ export default {
          "<25>{#f/9}* “但她已經連說話\n  都十分困難。”",
          "<25>{#f/1}* “‘來吧，人類。’\n  她低聲說道...”",
          "<25>{#f/1}* “‘讓我帶你去找\n  約會對象吧。’”",
-         "<25>{#f/5}* “‘我年歲大了，而且很忙，\n  沒空操心這些。'\n  人類這樣回答。”",
+         "<25>{#f/5}* “‘我年歲大了，而且很忙，\n  沒空操心這些。’\n  人類這樣回答。”",
          "<25>{#f/1}* “‘我只是想找個\n  今晚過夜的地方...’”",
          "<25>{#f/5}* “‘對不起，’怪物說，\n  ‘但我沒有適合你的床。’”",
          "<25>{#f/5}* “‘我還是太窮了，\n  連一張床都買不起。’”",
@@ -932,7 +932,7 @@ export default {
          "<25>{#f/10}* “‘我哪兒也不想去了，’\n  人類說。”",
          "<26>{#f/5}* “‘我找不到約會對象了，\n  我認識的人都不在了。’”",
          "<25>{#f/10}* “‘我不需要什麼約會了。’”",
-         "<25>{#f/5}* “我身體很虛弱，\n  你也不能睡在我身上了。’”",
+         "<25>{#f/5}* “‘我身體很虛弱，\n  你也不能睡在我身上了。’”",
          "<25>{#f/10}* “‘我不需要多少休息了。’”",
          "<25>{#f/5}* “‘我很抱歉，’怪物嘆息道。”",
          "<25>{#f/5}* “‘我希望我還能為你做什麼，\n  但我已經一無所有。’”",
@@ -2131,7 +2131,7 @@ export default {
          ][Math.min(roomKills().w_puzzle4++, 2)],
       afrogX: (k: number) =>
          [
-            [ "<32>{#p/basic}{#n1}* 如... \n  如果你再-再那麼做的話... \n  我-我會站出來阻止你的！" ],
+            [ "<32>{#p/basic}{#n1}* 如... \n* 如果你再-再那麼做的話... \n  我-我會站出來阻止你的！" ],
             [ "<32>{#p/basic}{#n1}* 住-住手...\n* 別傷害他們了..." ]
          ][k],
       patron: {
@@ -2422,7 +2422,7 @@ export default {
                     ? []
                     : [
                          "<32>{#p/human}* （不知為何，\n  你覺得這裡會有什麼東西...）",
-                         "<32>{#p/human}* （...）\n* （抽屜裡好像藏著一把鑰匙。）",
+                         "<32>{#p/human}* (...)\n* （抽屜裡好像藏著一把鑰匙。）",
                          choicer.create("* （拿走鑰匙嗎？）", "是", "否")
                       ])
               ],
@@ -2488,10 +2488,10 @@ export default {
          b: () => [
             SAVE.data.b.napsta_performance
                ? world.darker
-                  ? "<32>{#p/basic}{#n1!}* “滋滋牛排”售價40G。"
+                  ? "<32>{#p/basic}{#n1!}* “滋滋牛排” - 售價40G。"
                   : "<32>{#p/basic}{#n1!}* 上面寫著“滋滋牛排”，售價40G。\n* 聞起來過於誇張。"
                : world.darker
-               ? "<32>{#p/basic}{#n1!}* “滋滋牛排”售價20G。"
+               ? "<32>{#p/basic}{#n1!}* “滋滋牛排” - 售價20G。"
                : "<32>{#p/basic}{#n1!}* 上面寫著“滋滋牛排”，售價20G。\n* 聞起來很誇張。",
             choicer.create("* （要買它嗎？）", "是", "否")
          ],
@@ -2500,10 +2500,10 @@ export default {
          c: () => [
             SAVE.data.b.napsta_performance
                ? world.darker
-                  ? "<32>{#p/basic}{#n1!}* “呲呲汽水”售價10G。"
+                  ? "<32>{#p/basic}{#n1!}* “呲呲汽水” - 售價10G。"
                   : "<32>{#p/basic}{#n1!}* 上面寫著“呲呲汽水”，售價10G。\n* 究竟誰會去買這種東西啊？"
                : world.darker
-               ? "<32>{#p/basic}{#n1!}* “呲呲汽水”，售價5G。"
+               ? "<32>{#p/basic}{#n1!}* “呲呲汽水” - 售價5G。"
                : "<32>{#p/basic}{#n1!}* 上面寫著“呲呲汽水”，售價5G。\n* 誰會去買這種東西啊？",
             choicer.create("* （要買它嗎？）", "是", "否")
          ],
@@ -3445,7 +3445,7 @@ export default {
                [
                   "<32>{#p/human}* （你看了看另一段。）",
                   "<32>{#p/basic}* 我們的腦細胞要不夠用了...",
-                  "<32>{#p/toriel}{#f/21}* “‘有什麼鳥事嗎？’ \n  一位骷髏問。”",
+                  "<32>{#p/toriel}{#f/21}* “‘有什麼鳥事嗎？’\n  一位骷髏問。”",
                   "<32>* “... 鳥沒有回答。”",
                   "<32>{#p/basic}* ...\n* 我沒話可說了。"
                ],
@@ -3454,7 +3454,7 @@ export default {
                   "<32>{#p/basic}* 嗯？\n* 這一段居然不是笑話...",
                   "<32>{#p/toriel}{#f/21}* “就在今天，\n  一位人類抵達了外域。”",
                   "<32>* 我相信Sans能照看好\n  這位人類，但是...“",
-                  "<32>* \"我寧願不強迫他這麼做。\"",
+                  "<32>* “我寧願不強迫他這麼做。”",
                   "<32>* “再說了，區區一位皇家哨兵\n  真的有能力保護人類不受其他\n  前哨站的攻擊嗎？",
                   "<32>* “希望這些疑慮隨時間\n  煙消雲散吧。”",
                   "<32>{#p/basic}* ..."
@@ -3563,7 +3563,7 @@ export default {
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The sign describes the qualities of a good relationship.)" ]
                : [
-                    "<32>{#p/basic}* “有了信任與善意，\n  方能攜手並進，共築友誼。\"",
+                    "<32>{#p/basic}* “有了信任與善意，\n  方能攜手並進，共築友誼。”",
                     ...(world.goatbro && SAVE.flag.n.ga_asrielOutlands7++ < 1
                        ? [ "<26>{#p/asriel2}{#f/8}* 真是夠矯情的。" ]
                        : [])
@@ -3872,7 +3872,7 @@ export default {
       idleText4: [ "<08>{#p/basic}{~}喵。" ],
       mercyStatus: [ "<32>{#p/story}* Froggit似乎不願意和你戰鬥了。" ],
       name: "* Froggit",
-      meanText: [ "<08>{#p/basic}{~}(縮縮，\n抖抖。)\n呱呱.." ],
+      meanText: [ "<08>{#p/basic}{~}（縮縮，\n抖抖。）\n呱呱.." ],
       niceText: [ "<08>{#p/basic}{~}（臉微微\n泛紅。）\n呱呱.." ],
       perilStatus: [ "<32>{#p/story}* Froggit正試圖逃跑。" ],
       status1: [ "<32>{#p/story}* Froggit蹦了過來！" ],
@@ -3884,7 +3884,7 @@ export default {
       act_check: [ "<32>{#p/story}* FLUTTERLYTE - 攻擊5 防禦0\n* 這隻怪物才剛學會飛..." ],
       act_check2: [ "<32>{#p/story}* FLUTTERLYTE - ATK 5 DEF 0\n* This monster wishes it had stayed on the ground." ],
       act_console: [
-         "<32>{#p/human}* （你幫Flutterlyte飛得更高。)",
+         "<32>{#p/human}* （你幫Flutterlyte飛得更高。）",
          "<32>{#p/basic}* Flutterlyte很感謝你，\n  然後飛走了..."
       ],
       act_flirt: [
@@ -3917,7 +3917,7 @@ export default {
       act_check3: [ "<32>{#p/story}* OCULOUX - 攻擊6 防禦6\n* 這隻怪物很榮幸\n  能出現在你的視線裡。" ],
       act_dontpick: [
          "<32>{#p/human}* （你緊盯著Oculoux。）\n* （Oculoux更緊地向你盯了回去。）",
-         "<32>{#p/human}* (Oculoux的眼睛越盯越緊，\n  最後它...）",
+         "<32>{#p/human}* （Oculoux的眼睛越盯越緊，\n  最後它...）",
          "<32>{#p/human}* （...承受不住，屈服了。）"
       ],
       act_flirt: [ "<32>{#p/human}* （你對Oculoux調情。）" ],
@@ -3972,7 +3972,7 @@ export default {
    },
    b_opponent_mushy: {
       act_challenge: [
-         "<32>{#p/human}* (你向Mushy發起決鬥挑戰。)",
+         "<32>{#p/human}* （你向Mushy發起決鬥挑戰。）",
          "<33>{#p/story}* Mushy本回合的攻擊速度加快！"
       ],
       act_check: [ "<32>{#p/story}* MUSHY - 攻擊6 防禦6\n* 是星際牛仔的忠實粉絲。\n  也是一位槍術高手。" ],
@@ -4032,7 +4032,7 @@ export default {
          "<11>{~}喔喔喔喔喔"
       ],
       flirt1: [ "<32>{#p/human}* （你對Napstablook調情。）" ],
-      flirt2: [ "<32>{#p/human}* （你向Napstablook用\n  最好的方式搭訕。)" ],
+      flirt2: [ "<32>{#p/human}* （你向Napstablook用\n  最好的方式搭訕。）" ],
       flirt3: [ "<32>{#p/human}* （你由衷地誇讚Napstablook。）" ],
       flirt4: [ "<32>{#p/human}* （你向Napstablook表露\n  你對它的感覺。）" ],
       flirtTalk1: [ "<11>{#p/napstablook}{~}我只會\n拖累你" ],
@@ -4231,7 +4231,7 @@ export default {
       talk3: [ "<32>{#p/human}* （你求Toriel停下。）\n* （她猶豫了。）" ],
       talk4: [
          "<32>{#p/human}* （你再次求Toriel停下。）",
-         "<32>{#p/basic}* ... 也許這麼做對她來說風險太大了。"
+         "<32>{#p/basic}* ...也許這麼做對她來說風險太大了。"
       ],
       talk5: [ "<32>{#p/human}* （你衝Toriel大喊。）\n* （她閉上眼睛，做了個深呼吸。）" ],
       talk6: [
@@ -4288,7 +4288,7 @@ export default {
          [
             "<25>{#p/toriel}* 這裡是Toriel。",
             "<25>{#f/1}* 你只是想和我打聲招呼...？",
-            "<25>{#f/0}* 那好吧。\n* \"你好！\"",
+            "<25>{#f/0}* 那好吧。\n* “你好！”",
             "<25>{#f/0}* 希望這一句招呼就足夠了。\n* 嘻嘻。"
          ],
          [
@@ -4346,7 +4346,7 @@ export default {
             : [
                  "<25>{#p/toriel}{#f/0}* 喂？\n* 我是...",
                  "<25>{#f/2}* ...！",
-                 "<25>{#f/1}* 我的孩子... \n  我覺得並不如\n  你所說的那樣。"
+                 "<25>{#f/1}* 我的孩子... \n  我覺得並不如你所說的那樣。"
               ],
       insult2: (sus: boolean) =>
          sus
@@ -4363,7 +4363,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （10 HP。）" ]
-            : [ "<32>{#p/basic}* “怪物糖果” 回復 10 HP\n* 有一種獨特的，非甘草的味道。" ],
+            : [ "<32>{#p/basic}* “怪物糖果” 回復10 HP\n* 有一種獨特的，非甘草的味道。" ],
       name: "怪物糖果",
       use: [ "<32>{#p/human}* （你吃掉了怪物糖果。）" ]
    },
@@ -4376,7 +4376,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （12 HP。）" ]
-            : [ "<32>{#p/basic}* “水” 回復 12 HP\n* 它的氣味很像一氧化二氫。" ],
+            : [ "<32>{#p/basic}* “水” 回復12 HP\n* 它的氣味很像一氧化二氫。" ],
       name: "水",
       use: () => [
          "<32>{#p/human}* （你喝下了水。）",
@@ -4413,7 +4413,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （5 HP. 你覺得它非常的奇怪。）" ]
-            : [ "<32>{#p/basic}* “大麻素” 回復 5 HP\n* 據說它能讓你“飄飄欲仙”。" ],
+            : [ "<32>{#p/basic}* “大麻素” 回復5 HP\n* 據說它能讓你“飄飄欲仙”。" ],
       name: "大麻素",
       use: [ "<32>{#p/human}* （你吸食了大麻素。）" ]
    },
@@ -4444,7 +4444,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （3攻擊。）" ]
-            : [ "<32>{#p/basic}* “小熊座” （攻擊3）\n* 一個巨大的勺子。" ],
+            : [ "<32>{#p/basic}* “小熊座” （3攻擊）\n* 一個巨大的勺子。" ],
       name: "小熊座",
       use: [ "<32>{#p/human}* （你裝備上了小熊座。）" ]
    },
@@ -4457,7 +4457,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （99 HP。）" ]
-            : [ "<32>{#p/basic}* “奶油糖肉桂派” 回復 99 HP\n* 一片自家做的奶油糖肉桂派。" ],
+            : [ "<32>{#p/basic}* “奶油糖肉桂派” 回復99 HP\n* 一片自家做的奶油糖肉桂派。" ],
       name: "奶油糖肉桂派",
       use: [ "<32>{#p/human}* （你吃掉了奶油糖肉桂派。）" ]
    },
@@ -4490,7 +4490,7 @@ export default {
          name: "糊派"
       },
       drop: [ "<32>{#p/human}* （你把烤糊的派隨手扔在一邊，\n  置之不理。）" ],
-      info: [ "<32>{#p/basic}* “糊派” 回復 39 HP\n* 真是惡有惡報..." ],
+      info: [ "<32>{#p/basic}* “糊派” 回復39 HP\n* 真是惡有惡報..." ],
       name: "糊派",
       use: [ "<32>{#p/human}* （你把烤糊的派吃掉了。）" ]
    },
@@ -4519,7 +4519,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （8 HP。）" ]
-            : [ "<32>{#p/basic}* “呲呲汽水” 回復 8 HP\n* 噁心的暗黃色液體。" ],
+            : [ "<32>{#p/basic}* “呲呲汽水” 回復8 HP\n* 噁心的暗黃色液體。" ],
       name: "呲呲汽水",
       use: () => [
          "<32>{#p/human}* （你喝掉了呲呲汽水。）",
@@ -4535,7 +4535,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (20 HP. The last remaining fragment of a spacecraft flown in exile.)" ]
-            : [ "<32>{#p/basic}* “破損的宇航服” 回復 20 HP\n* 在你墜毀的飛船上找到的。" ],
+            : [ "<32>{#p/basic}* “破損的宇航服” 回復20 HP\n* 在你墜毀的飛船上找到的。" ],
       name: "破損的宇航服",
       use: [ "<33>{#p/human}* （在用完最後一個治療包後，\n  破損的宇航服散架了。）" ]
    },
@@ -4620,7 +4620,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （14 HP。）" ]
-            : [ "<32>{#p/basic}* “滋滋牛排” 回復 14 HP\n* 質量存疑。" ],
+            : [ "<32>{#p/basic}* “滋滋牛排” 回復14 HP\n* 質量存疑。" ],
       name: "滋滋牛排",
       use: () => [
          "<32>{#p/human}* （你吃掉了滋滋牛排。）",

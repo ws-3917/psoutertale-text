@@ -1055,7 +1055,7 @@ export default {
                  "<18>{|}{#p/papyrus}{#f/1}呃...\n是這樣沒錯，但- {%}",
                  "<25>{#p/sans}* 媽呀，我都不知道\n  原來你對我的評價這麼高。",
                  "<18>{#p/papyrus}{#f/4}啥。",
-                 "<25>{|}{#p/sans}* 就是說，\n如果連她都解不了，\n那- {%}",
+                 "<25>{|}{#p/sans}* 就是說，\n  如果連她都解不了，\n  那- {%}",
                  "<18>{#p/papyrus}{#f/7}{#x3}我懂你的意思了！！"
               ],
       maze11: [ "<18>{#p/papyrus}{#f/7}SANS，\n我們還有謎題要準備呢！！", "<18>快來吧！" ],
@@ -1215,7 +1215,7 @@ export default {
                world.genocide
                   ? [
                        "<25>{#p/kidd}{#f/3}{#npc/a}* 剛才，有個小孩走過來\n  往我腦袋裡插了什麼東西。",
-                       "<25>{#f/3}* 之後，他就去鑄廠了，\n  說要去“增強信號\"。",
+                       "<25>{#f/3}* 之後，他就去鑄廠了，\n  說要去“增強信號”。",
                        "<25>{#f/4}* ...有些小孩真是奇怪。"
                     ]
                   : [
@@ -4675,7 +4675,7 @@ export default {
                ? [ "<32>{#p/human}* (The sign rates the danger level of certain smells.)" ]
                : [
                     "<32>{#p/basic}* “氣味危險分級”",
-                    "<32>* “硅膠的氣味 - 機器人”\n* “白色等級。”\n* “也可以變成{@fill=#2f2f2f}黑色{@fill=#fff}等級。\"",
+                    "<32>* “硅膠的氣味 - 機器人”\n* “白色等級。”\n* “也可以變成{@fill=#2f2f2f}黑色{@fill=#fff}等級。”",
                     "<32>* “不可疑的氣味 - 小狗”\n* “{@fill=#003cff}藍色{@fill=#fff}等級。”\n* “在地裡打滾的氣味。”",
                     world.runaway
                        ? "<32>* “古怪的氣味 - 人類”\n* “{@fill=#00c000}綠色{@fill=#fff}等級。”\n* “一旦看到，立馬逃跑！”"
@@ -6203,7 +6203,7 @@ export default {
          ...(world.goatbro ? [ "<32>{#p/asriel2}* 為啥要在這浪費時間？" ] : [])
       ],
       petText11: () => [
-         "<32>{#p/human}* （你呼喚著Canis Minor，\n然而它已經聽不到你說話了。）",
+         "<32>{#p/human}* （你呼喚著Canis Minor，\n  然而它已經聽不到你說話了。）",
          ...(world.goatbro ? [ "<32>{#p/asriel2}* 這下好了。\n* 再也別想夠著它了。" ] : [])
       ],
       petText12: () => [ "<32>{#p/basic}* ...", ...(world.goatbro ? [ "<32>{#p/asriel2}* ？？？" ] : []) ],
@@ -6970,7 +6970,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （99 HP。）" ]
-            : [ "<32>{#p/basic}* “Exoberry Pie” 回復 99 HP\n* 將新鮮洋梅浸潤在果凍中製作而成。" ],
+            : [ "<32>{#p/basic}* “Exoberry Pie” 回復99 HP\n* 將新鮮洋梅浸潤在果凍中製作而成。" ],
       name: "洋梅果凍派",
       use: () => [
          "<32>{#p/human}* （你吃掉了洋梅果凍派。）",
@@ -7048,7 +7048,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （15 HP。）" ]
-            : [ "<32>{#p/basic}* “幽靈水果” 回復 15 HP\n* 非歐幾何形狀的水果，\n  裡頭比外表還大。" ],
+            : [ "<32>{#p/basic}* “幽靈水果” 回復15 HP\n* 非歐幾何形狀的水果，\n  裡頭比外表還大。" ],
       name: "幽靈水果",
       use: [ "<32>{#p/human}* (You unpacked the Ghost Fruit's many dimensions.)" ]
    },
@@ -7087,7 +7087,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （18 HP。）" ]
-            : [ "<32>{#p/basic}* “奶昔” 回復 18 HP\n* 由白如珍珠的不明物質製成。" ],
+            : [ "<32>{#p/basic}* “奶昔” 回復18 HP\n* 由白如珍珠的不明物質製成。" ],
       name: "奶昔",
       use: () => [
          "<32>{#p/human}* (You swallowed every last drop of the Milkshake.)",
@@ -7165,7 +7165,7 @@ export default {
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （11 HP。）" ]
             : [
-                 "<33>{#p/basic}* “渦旋棒棒糖” 回復 11 HP\n* 可改變主觀時間流速。\n* 僅在戰鬥中有效。"
+                 "<33>{#p/basic}* “渦旋棒棒糖” 回復11 HP\n* 可改變主觀時間流速。\n* 僅在戰鬥中有效。"
               ],
       name: "渦旋棒棒糖",
       use: () => [
@@ -7379,7 +7379,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （22 HP。）" ]
-            : [ "<32>{#p/basic}* “光彩漩渦” 回復 22 HP\n* 一個五彩斑斕的發光瑞士捲。" ],
+            : [ "<32>{#p/basic}* “光彩漩渦” 回復22 HP\n* 一個五彩斑斕的發光瑞士捲。" ],
       name: "光彩漩渦",
       use: [ "<32>{#p/human}* （你吃掉了光彩漩渦。）" ]
    },
@@ -7530,9 +7530,9 @@ export default {
               ],
       itemInfo: [
          "特殊物品：\n傳送到\n某個\n隱藏房間。",
-         "回復 99HP\n在黑暗中\n發出\n幽幽熒光。",
-         "回復 15HP\n非歐幾何的\n產物。",
-         "回復 18HP\n也許含有\n靈質。"
+         "回復99 HP\n在黑暗中\n發出\n幽幽熒光。",
+         "回復15 HP\n非歐幾何的\n產物。",
+         "回復18 HP\n也許含有\n靈質。"
       ],
       itemPrompt: "<09>{#p/napstablook}{#k/3}see anything you like?",
       itemPurchase: [
@@ -7835,8 +7835,8 @@ export default {
          SAVE.data.b.item_eye
             ? "防具：5防禦\n(當前防禦$(x))\n有力防禦，\n仿製品。"
             : "防具：7防禦\n(當前防禦$(x))\n有力防禦。",
-         "回復 11HP\n可改變\n主觀時間\n流速。",
-         "回復 22HP\n她的\n獨家配方。"
+         "回復11 HP\n可改變\n主觀時間\n流速。",
+         "回復22 HP\n她的\n獨家配方。"
       ],
       itemPrompt: "<09>{#p/basic}{#k/0}What would you like to buy?",
       itemPurchase: [

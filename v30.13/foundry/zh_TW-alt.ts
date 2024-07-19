@@ -4622,7 +4622,7 @@ export default {
       undyne1n: [ "<25>{#p/kidd}{#f/1}* 呃，你可以從平臺上\n  下來了。" ],
       undyne1o: [ "<25>{#p/kidd}{#f/4}* 她去哪了...？" ],
       undyne1p: [ "<25>{#p/kidd}{#f/7}* 啊！{^10}{%}" ],
-      undyne1q: [ "<25>{#p/kidd}{#f/2}* 噓，我感覺我們可以偷渡\n過去。\n* 快跟上我！" ],
+      undyne1q: [ "<25>{#p/kidd}{#f/2}* 噓...\n  我感覺我們可以偷渡過去。\n* 快跟上我！" ],
       undyne1r: [ "<25>{#p/kidd}{#f/4}* 這裡烏黑一片...", "<25>{#p/kidd}{#f/7}* ...但是我們得保持\n  前進！" ],
       undyne1s: [ "<25>{#p/kidd}{#f/7}* 快躲進那叢便於藏身\n  的植物裡！" ],
       undyne2a: [
@@ -7243,7 +7243,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (24 HP.)" ]
-            : [ "<32>{#p/basic}* “甘草糖” 回復 24 HP\n* 牙口不好的別吃。" ],
+            : [ "<32>{#p/basic}* “甘草糖” 回復24 HP\n* 牙口不好的別吃。" ],
       name: "甘草糖",
       use: [ "<32>{#p/human}* (You gnawed at the Licorice.)" ]
    },
@@ -7397,7 +7397,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (30 HP.)" ]
-            : [ "<32>{#p/basic}* “口糧” 回復 30 HP\n* 皇家出品，救急精品。" ],
+            : [ "<32>{#p/basic}* “口糧” 回復30 HP\n* 皇家出品，救急精品。" ],
       name: "口糧",
       use: [ "<32>{#p/human}* (You consume the Rations.)" ]
    },
@@ -8273,7 +8273,7 @@ export default {
          text: () =>
             world.dead_skeleton || world.runaway
                ? [
-                    "<32>{#p/human}* （不知怎地，通風口排出的\n  蒸汽令人不安。)",
+                    "<32>{#p/human}* （不知怎地，通風口排出的\n  蒸汽令人不安。）",
                     "<32>{#p/human}* （儘管如此，你充滿了\n  決心。）"
                  ]
                : [ "<32>{#p/human}* (The hot, damp steam emitted by these vents fills you with determination.)" ]

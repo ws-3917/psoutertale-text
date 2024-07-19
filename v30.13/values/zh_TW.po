@@ -319,7 +319,7 @@ msgstr ""
 
 msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
 msgstr ""
-"喔！！！ \n"
+"喔！！！\n"
 "你在推廣我的品牌嗎？"
 
 msgid "Is this name correct? ;)"

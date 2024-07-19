@@ -5372,7 +5372,7 @@ export default {
       act_check4: [
          "<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n* Attempting to hijack a public radio to call for help."
       ],
-      act_compliment: [ "<32>{#p/human}* （你告诉Astro Serf说它\n  有一根很棒的天线。)" ],
+      act_compliment: [ "<32>{#p/human}* （你告诉Astro Serf说它\n  有一根很棒的天线。）" ],
       act_flirt: [ "<32>{#p/human}* (You flirt with Astro Serf.)" ],
       complimentTalk1: [ "<08>{#p/basic}{~}DUH!\nWho DOESN'T know?" ],
       complimentTalk2: [ "<08>{#p/basic}{~}嫉妒了？\n真糟！" ],
