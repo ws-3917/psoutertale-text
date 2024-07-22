@@ -2435,7 +2435,7 @@ export default {
       socks5: () =>
          SAVE.flag.b.$svr
             ? [ "<32>{#p/human}* (But you got the sense that it'd be a bad idea.)" ]
-            : [ "<32>{#s/equip}{#p/human}* （你把秘密钥匙\n  挂到了你的钥匙扣上。）" ],
+            : [ "<32>{#s/equip}{#p/human}* （秘密钥匙被添加到了\n  你的钥匙串上。）" ],
       socks6: [ "<32>{#p/human}* （你决定什么也不拿。）" ],
       socks7: () =>
          SAVE.data.b.svr

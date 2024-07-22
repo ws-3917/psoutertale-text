@@ -5822,8 +5822,8 @@ msgstr ""
 
 msgid "<32>{#s/equip}{#p/human}* (The Secret Key was added to your keyring.)"
 msgstr ""
-"<32>{#s/equip}{#p/human}* （你把秘密鑰匙\n"
-"  掛到了你的鑰匙扣上。）"
+"<32>{#s/equip}{#p/human}* （秘密鑰匙被添加到了\n"
+"  你的鑰匙串上。）"
 
 msgid ""
 "<32>{#p/human}* (You stare into the sock drawer, recalling the long journey "

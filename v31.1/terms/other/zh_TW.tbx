@@ -38,6 +38,10 @@
                 <langSet xml:lang="en"><tig><term>boss monster</term></tig></langSet>
                 <langSet xml:lang="zh_Hans"><tig><term>王級怪物</term></tig></langSet>
             </termEntry>
+            <termEntry id="cell">
+                <langSet xml:lang="en"><tig><term>Keyring</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term></term></tig></langSet>
+            </termEntry>
         </body>
     </text>
 </martif>

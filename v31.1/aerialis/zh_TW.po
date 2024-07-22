@@ -2559,7 +2559,7 @@ msgid "<32>{#p/basic}* This is absolutely bonkers."
 msgstr ""
 
 msgid ":$(x)"
-msgstr ":$(x)"
+msgstr " $(x)"
 
 msgid "$(x)%"
 msgstr "$(x)%"

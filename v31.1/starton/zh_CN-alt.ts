@@ -31,7 +31,7 @@ export default {
       ],
       telescopeMeetup3: [
          "<25>{#p/kidd}{#f/3}* 给。\n* 拿上这个。",
-         "<32>{#s/equip}{#p/human}* （高级会员券\n  被添加到了你的钥匙圈。）",
+         "<32>{#s/equip}{#p/human}* （高级会员券被添加到了\n  你的钥匙串上。）",
          "<25>{#p/kidd}{#f/7}* 现在你可以使用\n  任何望远镜了，\n  连“最高级”的都能用！",
          "<25>{#f/1}* 那个矮骷髅之前\n  给了我好多这个。",
          "<25>{#f/2}* 他甚至花了很多钱\n  送了我一些数字藏品...",
@@ -380,8 +380,8 @@ export default {
       candy5: [ "<32>{#p/human}* （你打算先不买。）" ],
       capstation1: [
          "<32>{#p/human}* (You look behind the station and find a key.)",
-         "<32>{#s/equip}{#p/human}* (The Rusty Key was added to your keyring.)",
-         "<32>* (Check your CELL to see all acquired keys.)"
+         "* （生锈的钥匙被添加到了\n  你的钥匙串上。）",
+         "<32>* （打开“电话”来检查\n  所有获得的钥匙。）"
       ],
       capstation2: [ "<32>{#p/human}* (You look behind the station.)", "<32>{#p/basic}* Nothing new back here." ],
       crossword0: () =>
@@ -891,7 +891,7 @@ export default {
                  ]
                : [
                     "<25>{#p/kidd}{#f/7}* 等下，你也读书的吗！？",
-                    "<25>{#p/kidd}{#f/1}* That librarby taught me everything I know about monster history!",
+                    "<25>{#p/kidd}{#f/1}* 那个图书悺教会了我所有\n  关于怪物历史的知识！",
                     "<25>{#p/kidd}{#f/3}* I can't even imagine what living on a planet is like..."
                  ],
          () =>
@@ -1959,8 +1959,8 @@ export default {
                        "<32>* Usually one of those dogs chases my little Cinnamon around."
                     ]
                   : [
-                       "<32>{#p/basic}{#npc/a}* Isn't my little Cinnamon just the cutest?",
-                       "<32>* Bun-buns are so adorable...\n* Tee hee!"
+                       "<32>{#p/basic}{#npc/a}* 我的小肉桂是最可爱的！",
+                       "<32>* 小兔兔真的太可爱了...\n* 嘻嘻！"
                     ],
             () =>
                SAVE.data.n.plot === 72
@@ -1969,7 +1969,7 @@ export default {
                   ? [ "<32>{#p/basic}{#npc/a}* I wonder what could have happened..." ]
                   : papreal() || world.dead_canine
                   ? [ "<32>{#p/basic}{#npc/a}* I wonder where they are..." ]
-                  : [ "<32>{#p/basic}{#npc/a}* Bun-bun-bun-bun-bun..." ]
+                  : [ "<32>{#p/basic}{#npc/a}* 兔-兔-兔-兔-兔..." ]
          ),
          t_icewolf: () =>
             SAVE.data.n.plot === 72
@@ -2062,7 +2062,7 @@ export default {
                SAVE.data.n.plot === 72
                   ? world.population < 4
                      ? [
-                          "<32>{#p/basic}{#npc/a}* HEY!",
+                          "<32>{#p/basic}{#npc/a}* 嘿！",
                           "<32>* ... you're pretty weird.",
                           "<32>* You put us through hell, then went through hell to save us all.",
                           "<32>* I don't really know why.",
@@ -2071,7 +2071,7 @@ export default {
                           "<32>* I DON'T KNOW HOW TO HANDLE TO THIS SITUATION!\n* YEAH!"
                        ]
                      : [
-                          "<32>{#p/basic}{#npc/a}* HEY!",
+                          "<32>{#p/basic}{#npc/a}* 嘿！",
                           "<32>* ... you're pretty cool.",
                           "<32>* Thanks for going through hell to save us all back there.",
                           "<32>* That was a real stand-up move.",
@@ -2081,27 +2081,27 @@ export default {
                        ]
                   : world.meanie
                   ? [
-                       "<32>{#p/basic}{#npc/a}* HEY!",
+                       "<32>{#p/basic}{#npc/a}* 嘿！",
                        "<32>* What you been up to, huh KID?",
                        "<32>* You've got an awfully criminal look on your FACE...",
                        "<32>* ...",
                        "<32>* ...",
-                       "<32>* Respect my AUTHORITY!\n* YEAH!"
+                       "<32>* 尊重我的权威！\n* 耶!"
                     ]
                   : [
-                       "<32>{#p/basic}{#npc/a}* HEY!",
-                       "<32>* You think you can just stand there and stare at ME?",
-                       "<32>* Well, I've got some bad news for you, PAL.",
-                       "<32>* I'm an officer of the LAW.",
-                       "<32>* So, UH...",
-                       "<32>* Respect my AUTHORITY!\n* YEAH!"
+                       "<32>{#p/basic}{#npc/a}* 嘿！",
+                       "<32>* 你以为你能站在那\n  盯着我看吗？",
+                       "<32>* 行吧，我告诉你个坏消息，\n  伙计。",
+                       "<32>* 我是个执法人员。",
+                       "<32>* 所以，呃...",
+                       "<32>* 尊重我的权威！\n* 耶!"
                     ],
             () =>
                SAVE.data.n.plot === 72
                   ? world.population < 4
                      ? [ "<32>{#p/basic}{#npc/a}* ..." ]
                      : [ "<32>{#p/basic}{#npc/a}* HAIL it, PAL." ]
-                  : [ "<32>{#p/basic}{#npc/a}* Respect it, PAL." ]
+                  : [ "<32>{#p/basic}{#npc/a}* 尊重下吧，伙计。" ]
          ),
          t_loverboy: pager.create(
             0,
@@ -2203,8 +2203,8 @@ export default {
                        "<32>* At this rate... we'll be back to having that same problem."
                     ]
                   : [
-                       "<32>{#p/basic}{#npc/a}* Long ago, I heard they split the town into two halves.",
-                       "<32>* I wonder what it looked like before...?"
+                       "<32>{#p/basic}{#npc/a}* 很久以前，\n  我听说他们把小镇\n  一分为二了。",
+                       "<32>* 我想知道这里原来\n  是什么样子的...？"
                     ],
             () =>
                SAVE.data.n.plot === 72
@@ -2213,7 +2213,7 @@ export default {
                   ? [ "<32>{#p/basic}{#npc/a}* It's too bad we can't just magically bring them back." ]
                   : papreal()
                   ? [ "<32>{#p/basic}{#npc/a}* It's too bad we can't just magically fix these things." ]
-                  : [ "<32>{#p/basic}{#npc/a}* We may never know." ]
+                  : [ "<32>{#p/basic}{#npc/a}* 我们可能永远都\n  无从得知了。" ]
          ),
          t_smileguy: pager.create(
             0,
@@ -2301,7 +2301,7 @@ export default {
          t_zorren: pager.create(
             0,
             () => [
-               "<32>{#p/basic}{#npc/a}* (Oh, hey, it's me, Zorren.)",
+               "<32>{#p/basic}{#npc/a}* （哦，嘿，是我，Zorren。）",
                ...(SAVE.data.n.plot === 72
                   ? world.population < 4
                      ? [
@@ -2323,7 +2323,7 @@ export default {
                           "<32>* (I'd take back they key I gave you, if only I could.)"
                        ]
                      : [
-                          "<32>* (You uh, got a problem with our, uh, police force, or...?)",
+                          "<32>* （你是，呃，对我们的警察，\n  呃，有意见，还是...？）",
                           "<32>* (...)",
                           "<32>* (Yeah, you know, uh, I don't really like you all that much.)",
                           "<32>* (There's just, something off, particularly about you.)"
@@ -2331,8 +2331,8 @@ export default {
                   : [
                        ...(SAVE.data.b.oops
                           ? [
-                               "<32>* (You uh, got a problem with our, uh, police force, or...?)",
-                               "<32>* (No?)\n* (Hey, thanks for uh, not doing that.)"
+                               "<32>* （你是，呃，对我们的警察，\n  呃，有意见，还是...？）",
+                               "<32>* （没有吗？）\n* （嘿，还好你呃，没有。）"
                             ]
                           : [
                                "<32>* (Y'know, you seem like someone who likes to show respect.)",
@@ -2342,20 +2342,20 @@ export default {
                           ? []
                           : ((SAVE.data.b.s_state_capstation = true),
                             [
-                               "<32>* (In fact...)",
-                               "<32>* (Here, kid.)\n* (Have a key, on us.)",
-                               "<32>{#s/equip}{#p/human}* (The Rusty Key was added to your keyring.)",
-                               "<32>* (Check your CELL to see all acquired keys.)",
-                               "<32>{#p/basic}{#npc/a}* (We've, uh, got an armory somewhere, I think.)"
+                               "<32>* （实际上...）",
+                               "<32>* （给你，孩子。）\n* （我们手里，有个钥匙。）",
+                               "* （生锈的钥匙被添加到了\n  你的钥匙串上。）",
+                               "<32>* （打开“电话”来检查\n  所有获得的钥匙。）",
+                               "<32>{#p/basic}{#npc/a}* （我想，呃，我们应该\n  在什么地方有个军火库。）"
                             ])),
                        ...(SAVE.data.b.oops
                           ? [
-                               "<32>* (Psst...)\n* (Just between us, Kabakk and I built this station ourselves.)",
-                               "<32>* (Pretty cool, huh?)"
+                               "<32>* （嘘...）\n* （就是，我和Kabakk两个人\n  自己建的。）",
+                               "<32>* （很酷，是吧？）"
                             ]
                           : [
-                               "<32>* (Psst...)\n* (Just between us, Kabakk and I built this station ourselves.)",
-                               "<32>* (Pretty cool, huh?)"
+                               "<32>* （嘘...）\n* （就是，我和Kabakk两个人\n  自己建的。）",
+                               "<32>* （很酷，是吧？）"
                             ])
                     ])
             ],
@@ -2367,7 +2367,7 @@ export default {
                   : world.meanie
                   ? [ "<32>{#p/basic}{#npc/a}* (Get outta here.)" ]
                   : SAVE.data.b.oops
-                  ? [ "<32>{#p/basic}{#npc/a}* (Yeah, we're not real police.)" ]
+                  ? [ "<32>{#p/basic}{#npc/a}* （没错，我们不是真警察。）" ]
                   : [
                        "<32>{#p/basic}{#npc/a}* (We may not be real police, but people like you are worth protecting and serving.)"
                     ]
@@ -5468,7 +5468,7 @@ export default {
                     ]
                   : [
                        "<32>{#p/basic}* 这个人畜无害的树状结构，\n  其实是一个文明的家园。",
-                       "<32>* On the brink of extinction, they migrated here to save their species."
+                       "<32>* 在濒临灭绝之时，\n  它们迁徙到这里\n  来拯救自己的种族。"
                     ],
             () =>
                SAVE.data.b.svr
@@ -5491,7 +5491,7 @@ export default {
                   ? [ "<32>{#p/basic}* ..." ]
                   : SAVE.data.n.plot === 72
                   ? [ "<32>{#p/basic}* Don't worry.\n* They'll find their own way." ]
-                  : [ "<32>{#p/basic}* Pro tip...\n* Don't shake the innocent tree- like structure." ]
+                  : [ "<32>{#p/basic}* 专家建议...\n* 不要摇晃这人畜无害的树状结构。" ]
          ),
          doginfo: () =>
             SAVE.data.b.svr
@@ -7658,12 +7658,12 @@ export default {
                     "<32>{#k/3}* so... thanks."
                  ]
                : [
-                    "<32>{#p/napstablook}{#k/2}* 你想了解关于幽灵的事吗？",
-                    "<32>{#k/0}* well, the only ghosts i know are myself, my three cousins...",
-                    "<32>{#k/3}* and the one behind you, of course",
-                    "<32>{#k/1}* aside from that, there's not much to say",
-                    "<32>{#k/0}* without a fused host body, we just sorta... exist",
-                    "<32>{#k/0}* yeah, i know...\n* very interesting stuff..."
+                    "<32>{#p/napstablook}{#k/2}* 你想了解关于幽灵的一些事吗？",
+                    "<32>{#k/0}* 嗯，我所知道的幽灵只有我自己\n  和我的三个表亲...",
+                    "<32>{#k/3}* 当然，还有你背后的那一个",
+                    "<32>{#k/1}* 除此之外，我就没什么可以说了",
+                    "<32>{#k/0}* 没有宿体融合的我们，只能勉强... 维持存在。",
+                    "<32>{#k/0}* 嗯, 我懂...\n* 这特质确实很有趣..."
                  ],
          () =>
             SAVE.data.n.plot === 72
@@ -7763,7 +7763,7 @@ export default {
                  ]
                : SAVE.data.b.napsta_performance
                ? [
-                    "<32>{#p/napstablook}{#k/1}* yeah, i make music sometimes",
+                    "<32>{#p/napstablook}{#k/1}* 嗯, 我有时会创作音乐",
                     "<32>{#k/0}* people say it's great, but i know they're just lying to make me feel better...",
                     "<32>{#k/4}* thanks for coming to my little show, though...",
                     "<32>{#k/3}* seeing you made me happy..."
