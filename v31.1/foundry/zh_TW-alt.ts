@@ -1312,14 +1312,14 @@ export default {
             "酷炫骷髏95",
             "酷炫骷髏95",
             SAVE.data.n.plot === 72 ? "_Sp4ceAdv3ntur3r_" : "_K1ll3rMann3qu1n_",
-            "ALPHYS",
-            "lazybones.",
-            "(Unknown)"
+            "艾菲斯",
+            "懶骨.",
+            "（遊客）"
          ]
       },
       napcomputer4: {
          a: () => [ "Ghost Rave.kwac", "Spooktune Mashup.kwac" ],
-         b: () => [ "NAPSTABLOOK22", "NAPSTABLOOK22" ]
+         b: () => [ "納普斯特22", "納普斯特22" ]
       },
       noTem: [ "<32>{#p/tem}* oh no, it's a... FISHES!!!" ],
       noShroom: [ "<32>{#p/basic}* Watch out\n* Watch out\n* There's a fish running about" ],

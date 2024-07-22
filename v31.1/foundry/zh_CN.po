@@ -3104,13 +3104,13 @@ msgid "_K1ll3rMann3qu1n_"
 msgstr ""
 
 msgid "ALPHYS"
-msgstr ""
+msgstr "ALPHYS"
 
 msgid "lazybones."
-msgstr ""
+msgstr "懒骨."
 
 msgid "(Unknown)"
-msgstr ""
+msgstr "（游客）"
 
 msgid "Ghost Rave.kwac"
 msgstr ""
@@ -3119,7 +3119,7 @@ msgid "Spooktune Mashup.kwac"
 msgstr ""
 
 msgid "NAPSTABLOOK22"
-msgstr ""
+msgstr "NAPSTABLOOK22"
 
 msgid "<32>{#p/tem}* oh no, it's a... FISHES!!!"
 msgstr ""

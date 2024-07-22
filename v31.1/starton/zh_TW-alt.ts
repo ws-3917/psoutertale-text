@@ -2646,7 +2646,7 @@ export default {
          () =>
             world.runaway
                ? {
-                    a: "ALPHYS",
+                    a: "艾菲斯",
                     b: "TODAY",
                     c: "< message deleted >"
                  }
@@ -2658,24 +2658,24 @@ export default {
                  }
                : SAVE.data.n.plot < 34
                ? {
-                    a: "NAPSTABLOOK22",
+                    a: "納普斯特22",
                     b: "TODAY",
                     c: "this is why i never go\nonline anymore... nothing\nmeaningful ever happens"
                  }
                : world.genocide
                ? {
-                    a: "NAPSTABLOOK22",
+                    a: "納普斯特22",
                     b: "TODAY",
                     c: "but i'm a ghost..."
                  }
                : world.dead_skeleton
                ? {
-                    a: "NAPSTABLOOK22",
+                    a: "納普斯特22",
                     b: "TODAY",
                     c: "umm... i'll just keep\nworking on this mix..."
                  }
                : {
-                    a: "lazybones.",
+                    a: "懶骨.",
                     b: "TODAY",
                     c: "let's just hope he\ndoesn't capture our SOULs~\n*finger guns*",
                     d: true
@@ -2683,14 +2683,14 @@ export default {
          () =>
             world.runaway
                ? {
-                    a: "lazybones.",
+                    a: "懶骨.",
                     b: "TODAY",
                     c: "< message deleted >",
                     d: true
                  }
                : SAVE.data.n.plot === 72
                ? {
-                    a: "ALPHYS",
+                    a: "艾菲斯",
                     b: "TODAY",
                     c: "whoops, i forgot to shut\noff the server"
                  }
@@ -2738,12 +2738,12 @@ export default {
                  }
                : world.genocide
                ? {
-                    a: "NAPSTABLOOK22",
+                    a: "納普斯特22",
                     b: "TODAY",
                     c: "umm... is there anything\ni can do to help? things\nare getting worse..."
                  }
                : {
-                    a: "NAPSTABLOOK22",
+                    a: "納普斯特22",
                     b: "TODAY",
                     c: "so... did papyrus capture\na human yet? or..."
                  }
@@ -5588,9 +5588,9 @@ export default {
       xtowerHiscoreHeader: "排行榜",
       xtowerHiscoreNames: {
          kidd: "UNDYNEFAN10",
-         napstablook: "NAPSTABLOOK22",
+         napstablook: "納普斯特22",
          papyrus: "酷炫骷髏95",
-         sans: "lazybones.",
+         sans: "懶骨.",
          undyne: "壯魚91",
          you: "（遊客）"
       },

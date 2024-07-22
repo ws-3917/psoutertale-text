@@ -5456,7 +5456,7 @@ msgid "SHARE YOUR THOUGHTS..."
 msgstr ""
 
 msgid "ALPHYS"
-msgstr ""
+msgstr "ALPHYS"
 
 msgid "TODAY"
 msgstr ""
@@ -5471,7 +5471,7 @@ msgid "The OuterNet is closed."
 msgstr ""
 
 msgid "NAPSTABLOOK22"
-msgstr ""
+msgstr "NAPSTABLOOK22"
 
 msgid ""
 "this is why i never go\n"
@@ -5488,7 +5488,7 @@ msgid ""
 msgstr ""
 
 msgid "lazybones."
-msgstr ""
+msgstr "懒骨."
 
 msgid ""
 "let's just hope he\n"

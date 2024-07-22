@@ -10037,7 +10037,7 @@ export default {
                SAVE.data.n.state_foundry_undyne === 1
                   ? "NAPSTABLOOK22"
                   : SAVE.data.n.state_starton_papyrus === 0
-                  ? "COOLSKELETON95"
+                  ? "酷炫骷髏95"
                   : "ALPHYS",
             pm: () =>
                SAVE.data.n.state_foundry_undyne === 1
@@ -10111,7 +10111,7 @@ export default {
             pm: "Your private message history was successfully cleared."
          },
          alphysX1: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "just to be on the safe side."
          },
          alphysX2: {
@@ -10119,7 +10119,7 @@ export default {
             pm: "yeah just cleared it out now"
          },
          alphysX3: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "heh... remember that time he showed off the new gravity plating?"
          },
          alphysX4: {
@@ -10127,7 +10127,7 @@ export default {
             pm: "and the whole set just started floating into the sky? OMG YES LMAO"
          },
          alphysX5: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "pfft, he really thought that would work, huh?"
          },
          alphysX6: {
@@ -10139,7 +10139,7 @@ export default {
             pm: "man what a day\ni really miss working with you sans"
          },
          alphysX8: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "i know you do.\nbut i've got a different job to dddd"
          },
          alphysX9: {
@@ -10147,11 +10147,11 @@ export default {
             pm: "...\nhello?"
          },
          alphysY1: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "sorry, a human just showed up, totally caught me off guard."
          },
          alphysY2: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "no pun intended."
          },
          alphysY3: {
@@ -10159,7 +10159,7 @@ export default {
             pm: "right... wait really?"
          },
          alphysY4: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "i wouldn't lie about making a pun, would i?"
          },
          alphysY5: {
@@ -10167,7 +10167,7 @@ export default {
             pm: "you know what i mean."
          },
          alphysY6: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "don't worry, alphys.\ni've got this under control."
          },
          alphysY7: {
@@ -10186,7 +10186,7 @@ export default {
                   : "papyrus and the human just fought and it was kinda weird"
          },
          alphysY7A3: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: () => (SAVE.data.n.state_papyrus_capture < 3 ? "what?\nis he okay?" : "what?\nwhat happened?")
          },
          alphysY7A4: {
@@ -10197,7 +10197,7 @@ export default {
                   : "well papyrus kept beating them and they kept coming back and..."
          },
          alphysY7A5: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: () =>
                SAVE.data.n.state_papyrus_capture < 3
                   ? "heh... i could feel it from here.\nhe must've really given it his all."
@@ -10208,7 +10208,7 @@ export default {
             pm: () => (SAVE.data.n.state_papyrus_capture < 3 ? "yeah thats one way of putting it" : "hes okay.")
          },
          alphysY7A7: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: () =>
                SAVE.data.n.state_papyrus_capture < 3
                   ? "guess i'll have to congratulate him when he gets back home."
@@ -10219,7 +10219,7 @@ export default {
             pm: "no... doggo..."
          },
          alphysYdoggo2: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "huh? what happened?"
          },
          alphysYdoggo3: {
@@ -10235,7 +10235,7 @@ export default {
             pm: "he would always leave with a big smile on his face. but now..."
          },
          alphysYdoggo6: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "i see."
          },
          alphysY8A1: {
@@ -10259,7 +10259,7 @@ export default {
             pm: "its not just doggo theyre after"
          },
          alphysY8A2: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "i know. i'm doing my best to get people out before it's too late."
          },
          alphysY8A3: {
@@ -10279,7 +10279,7 @@ export default {
             pm: "what am i supposed to tell her now?"
          },
          alphysYdrake4: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "you tell her that you'll do the best you can in your position."
          },
          alphysYdrake5: {
@@ -10287,7 +10287,7 @@ export default {
             pm: "yeah... i guess thats all i really can tell her huh"
          },
          alphysYdrake6: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "it's better than nothing."
          },
          alphysY8A4: {
@@ -10295,7 +10295,7 @@ export default {
             pm: "that was close"
          },
          alphysY8A5: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "yeah... guess i shouldn't have doubted my bro, heh."
          },
          alphysY8A6: {
@@ -10307,7 +10307,7 @@ export default {
             pm: "never mind the human is back to killing again"
          },
          alphysY8A8: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "welp."
          },
          alphysY8B1: {
@@ -10323,11 +10323,11 @@ export default {
             pm: "please tell me youre there"
          },
          alphysY8B4a: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "i'm here. and i should've kept a closer eye on him."
          },
          alphysY8B4b: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "i'm here. and i shouldn't have left him alone out there."
          },
          alphysY8B5: {
@@ -10335,11 +10335,11 @@ export default {
             pm: "what are you gonna do now?"
          },
          alphysY8B6: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "honestly, alphys?"
          },
          alphysY8B7: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "i don't feel like doing anything."
          },
          alphysY8B8: {
@@ -10347,7 +10347,7 @@ export default {
             pm: "sans..."
          },
          alphysY8B9: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "it's not your fault.\nthis would always have happened."
          },
          alphysY8B10: {
@@ -10355,11 +10355,11 @@ export default {
             pm: "what do you mean?"
          },
          alphysY8B11: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "you know how papyrus can be."
          },
          alphysY8B12: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "he's just too damn good to stand by and watch as people die."
          },
          alphysY8B13: {
@@ -10367,7 +10367,7 @@ export default {
             pm: "unlike us right?"
          },
          alphysY8B14: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "yeah."
          },
          alphysY8B15: {
@@ -10379,7 +10379,7 @@ export default {
             pm: "things arent getting any better"
          },
          alphysY8B17: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "let me guess, they're going after people in the foundry now?"
          },
          alphysY8B18: {
@@ -10387,7 +10387,7 @@ export default {
             pm: "yeah but youre gonna help me evacuate right?"
          },
          alphysY8B19: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "i can't make any promises.\nbut i'll try."
          },
          alphysY8B20: {
@@ -10411,11 +10411,11 @@ export default {
             pm: "its the human... theyre killing everybody down there"
          },
          alphysY8C3a: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "well, it was nice while it lasted.\nyou gonna start evacuating people?"
          },
          alphysY8C3b: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "well, aren't you gonna start evacuating people?"
          },
          alphysY8C4: {
@@ -10427,7 +10427,7 @@ export default {
             pm: "gotta go"
          },
          alphysY8C6: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "good luck, alphys.\ni'll help evacuate if i can."
          },
          alphysY8C7: {
@@ -10459,11 +10459,11 @@ export default {
             pm: "but like really scared at the same time"
          },
          alphysY8C12a: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "don't you think you should do something about it?"
          },
          alphysY8C12b: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "didn't you say you were trying to avoid this earlier?"
          },
          alphysY8C13a: {
@@ -10475,7 +10475,7 @@ export default {
             pm: "if the human got this far they can make it past her"
          },
          alphysY8C14: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "well, okay.\nif you say so, i guess."
          },
          alphysY8D1: {
@@ -10511,7 +10511,7 @@ export default {
             pm: "that cant be good"
          },
          alphysY8D1c2: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "what happened?"
          },
          alphysY8D1c3: {
@@ -10527,11 +10527,11 @@ export default {
             pm: "okay they spared her"
          },
          alphysY8D2a: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "i'm sorry, alphys. i wish i could do something, but i can't."
          },
          alphysY8D2b: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "i guess there's nothing you can do, then. i'm sorry, alphys."
          },
          alphysY8D2x: {
@@ -10558,14 +10558,14 @@ export default {
             pm: "its probably safer just to leave the lab anyway."
          },
          alphysY8D4: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: () =>
                world.bad_lizard < 2
                   ? "maybe it'd be best if you took some time off for a while."
                   : "yeah, you do that.\ni'll try to keep tabs on 'em though."
          },
          alphysY8D4x: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "you can leave the lab if you want.\ni'll try to keep tabs on 'em though."
          },
          alphysY8D5: {
@@ -10576,7 +10576,7 @@ export default {
                   : "ok but dont get too close. they could kill someone at any moment"
          },
          alphysY8D6: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: () =>
                world.bad_lizard < 2
                   ? "sounds good. just be sure to get a phone that works outside the lab."
@@ -10587,7 +10587,7 @@ export default {
             pm: "oh yeah i almost forgot thanks"
          },
          alphysY8D8: {
-            author: "lazybones.",
+            author: "懶骨.",
             pm: "oh, and be sure to clear the message history while you're at it."
          },
          alphysY8D9: {

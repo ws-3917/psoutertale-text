@@ -1313,8 +1313,8 @@ export default {
             "酷炫骷髅95",
             SAVE.data.n.plot === 72 ? "_Sp4ceAdv3ntur3r_" : "_K1ll3rMann3qu1n_",
             "ALPHYS",
-            "lazybones.",
-            "(Unknown)"
+            "懒骨.",
+            "（游客）"
          ]
       },
       napcomputer4: {

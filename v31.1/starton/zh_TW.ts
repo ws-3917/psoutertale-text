@@ -2675,7 +2675,7 @@ export default {
                     c: "umm... i'll just keep\nworking on this mix..."
                  }
                : {
-                    a: "lazybones.",
+                    a: "懶骨.",
                     b: "TODAY",
                     c: "let's just hope he\ndoesn't capture our SOULs~\n*finger guns*",
                     d: true
@@ -2683,7 +2683,7 @@ export default {
          () =>
             world.runaway
                ? {
-                    a: "lazybones.",
+                    a: "懶骨.",
                     b: "TODAY",
                     c: "< message deleted >",
                     d: true
@@ -5590,7 +5590,7 @@ export default {
          kidd: "UNDYNEFAN10",
          napstablook: "NAPSTABLOOK22",
          papyrus: "酷炫骷髏95",
-         sans: "lazybones.",
+         sans: "懶骨.",
          undyne: "壯魚91",
          you: "（遊客）"
       },

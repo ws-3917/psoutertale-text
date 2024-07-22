@@ -19199,7 +19199,7 @@ msgid "i finally started watching the last season and its actually good WTF"
 msgstr ""
 
 msgid "NAPSTABLOOK22"
-msgstr ""
+msgstr "NAPSTABLOOK22"
 
 msgid "alphys... can you please respond to my private messages..."
 msgstr ""
@@ -19208,7 +19208,7 @@ msgid "we did... that one time..."
 msgstr ""
 
 msgid "COOLSKELETON95"
-msgstr ""
+msgstr "酷炫骷髏95"
 
 msgid "i'm... getting worried"
 msgstr ""
@@ -19303,7 +19303,7 @@ msgid "Your private message history was successfully cleared."
 msgstr ""
 
 msgid "lazybones."
-msgstr ""
+msgstr "懶骨."
 
 msgid "just to be on the safe side."
 msgstr ""
