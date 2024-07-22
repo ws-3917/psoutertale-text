@@ -15893,9 +15893,9 @@ msgstr ""
 
 msgid "<09>{#p/napstablook}{#k/1}oh, you wanna chat?"
 msgstr ""
-"<09>{#p/napstablook}{#k/1}喔, 想和\n"
-"我聊天嗎\n"
-"？"
+"<09>{#p/napstablook}{#k/1}喔, \n"
+"想和我\n"
+"聊天嗎？"
 
 msgid "<32>{#p/napstablook}{#k/3}* oh, hey..."
 msgstr "<32>{#p/napstablook}{#k/3}* 喔，你好啊..."

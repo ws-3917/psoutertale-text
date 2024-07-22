@@ -7614,7 +7614,7 @@ export default {
                     : "你的生活",
                  "離開"
               ],
-      talkPrompt: "<09>{#p/napstablook}{#k/1}喔, 想和\n我聊天嗎\n？",
+      talkPrompt: "<09>{#p/napstablook}{#k/1}喔, \n想和我\n聊天嗎？",
       talkText: [
          () =>
             SAVE.data.n.plot === 72
