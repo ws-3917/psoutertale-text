@@ -15868,7 +15868,7 @@ msgid "The Future"
 msgstr ""
 
 msgid "Ghosts"
-msgstr ""
+msgstr "幽灵"
 
 msgid "Family"
 msgstr ""
@@ -15972,7 +15972,7 @@ msgid "<32>{#k/3}* so... thanks."
 msgstr ""
 
 msgid "<32>{#p/napstablook}{#k/2}* you wanna know about ghosts?"
-msgstr ""
+msgstr "<32>{#p/napstablook}{#k/2}* 你想了解关于幽灵的事吗？"
 
 msgid ""
 "<32>{#k/0}* well, the only ghosts i know are myself, my three cousins..."

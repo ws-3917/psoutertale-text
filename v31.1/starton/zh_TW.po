@@ -5590,7 +5590,7 @@ msgid "SETTINGS"
 msgstr "聊天設定"
 
 msgid "LOG OUT"
-msgstr "退出登錄"
+msgstr "登出"
 
 msgid "<32>{#p/human}* (You can't seem to find anything in the couch.)"
 msgstr ""
@@ -15868,7 +15868,7 @@ msgid "The Future"
 msgstr ""
 
 msgid "Ghosts"
-msgstr ""
+msgstr "幽靈"
 
 msgid "Family"
 msgstr ""
@@ -15972,7 +15972,7 @@ msgid "<32>{#k/3}* so... thanks."
 msgstr ""
 
 msgid "<32>{#p/napstablook}{#k/2}* you wanna know about ghosts?"
-msgstr ""
+msgstr "<32>{#p/napstablook}{#k/2}* 你想了解關於幽靈的事嗎？"
 
 msgid ""
 "<32>{#k/0}* well, the only ghosts i know are myself, my three cousins..."

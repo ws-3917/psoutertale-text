@@ -2753,7 +2753,7 @@ export default {
             ? [ "FRISK", "DON'T YOU", "DARE COME", "AFTER US" ]
             : SAVE.data.n.plot === 72
             ? [ "SORRY", "BUT WE'RE", "OFFLINE", "LMAO" ]
-            : [ "刷新頁面", "查看訊息", "聊天設定", "退出登錄" ],
+            : [ "刷新頁面", "查看訊息", "聊天設定", "登出" ],
       papcouch0: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (You can't seem to find anything in the couch.)" ]
@@ -7595,7 +7595,7 @@ export default {
             ? [ "打招呼", "What Happened", name, "The Future", "離開" ]
             : [
                  "打招呼",
-                 "Ghosts",
+                 "幽靈",
                  "Sanctuary",
                  65 <= SAVE.data.n.plot
                     ? SAVE.data.b.a_state_hapstablook && 68 <= SAVE.data.n.plot
@@ -7658,7 +7658,7 @@ export default {
                     "<32>{#k/3}* so... thanks."
                  ]
                : [
-                    "<32>{#p/napstablook}{#k/2}* you wanna know about ghosts?",
+                    "<32>{#p/napstablook}{#k/2}* 你想了解關於幽靈的事嗎？",
                     "<32>{#k/0}* well, the only ghosts i know are myself, my three cousins...",
                     "<32>{#k/3}* and the one behind you, of course",
                     "<32>{#k/1}* aside from that, there's not much to say",

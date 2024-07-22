@@ -7595,7 +7595,7 @@ export default {
             ? [ "打招呼", "What Happened", name, "The Future", "离开" ]
             : [
                  "打招呼",
-                 "Ghosts",
+                 "幽灵",
                  "Sanctuary",
                  65 <= SAVE.data.n.plot
                     ? SAVE.data.b.a_state_hapstablook && 68 <= SAVE.data.n.plot
@@ -7658,7 +7658,7 @@ export default {
                     "<32>{#k/3}* so... thanks."
                  ]
                : [
-                    "<32>{#p/napstablook}{#k/2}* you wanna know about ghosts?",
+                    "<32>{#p/napstablook}{#k/2}* 你想了解关于幽灵的事吗？",
                     "<32>{#k/0}* well, the only ghosts i know are myself, my three cousins...",
                     "<32>{#k/3}* and the one behind you, of course",
                     "<32>{#k/1}* aside from that, there's not much to say",
