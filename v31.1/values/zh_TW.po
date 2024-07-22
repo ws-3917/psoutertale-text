@@ -199,7 +199,7 @@ msgid "Nice try, idiot."
 msgstr "想得美，蠢貨。"
 
 msgid "Don't you mean \"Eyewalker?\""
-msgstr "你是指“眼行家”？"
+msgstr "你是指「眼行家」？"
 
 msgid "Check out my antenna!"
 msgstr "快看看我的天線吶！"

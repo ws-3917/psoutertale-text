@@ -139,7 +139,7 @@ export default {
       twinkly: "想得美，蠢貨。",
       twnkly: "想得美，蠢貨。",
       闪闪: "想得美，蠢貨。",
-      walker: "你是指“眼行家”？",
+      walker: "你是指「眼行家」？",
 
       
       astro: "快看看我的天線吶！",

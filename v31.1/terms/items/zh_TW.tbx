@@ -192,7 +192,7 @@
             </termEntry>
             <termEntry id="consumable">
                 <langSet xml:lang="en"><tig><term>Computer Chip</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>“芯”型薯片</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term>「芯」型薯片</term></tig></langSet>
             </termEntry>
             <termEntry id="consumable">
                 <langSet xml:lang="en"><tig><term>Ghost Fruit</term></tig></langSet>
@@ -244,7 +244,7 @@
             </termEntry>
             <termEntry id="consumable(short-name)">
                 <langSet xml:lang="en"><tig><term>Chip</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>“芯”型薯片</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term>「芯」型薯片</term></tig></langSet>
             </termEntry>
             <termEntry id="consumable(short-name)">
                 <langSet xml:lang="en"><tig><term>Swirl</term></tig></langSet>

@@ -908,13 +908,13 @@ export default {
             "<25>{#p/kidd}{#f/4}* 怎麼了？",
             "<25>{#p/asgore}{#f/6}* 呃... 沒事。\n* 我不該拿這事打攪你的。",
             "<25>{#f/3}* 而你，人類...",
-            "<25>{#f/2}* 你和離開的那位“朋友”\n  闖了不少禍。",
+            "<25>{#f/2}* 你和離開的那位「朋友」\n  闖了不少禍。",
             "<25>{#f/1}* 許許多多怪物都...\n  哎，你知道我要說什麼。",
             "<25>{#p/kidd}{#f/4}* ...到底怎麼了？",
             "<25>{#p/asgore}{#f/7}* 沒事，沒事。\n* 我只是覺得...",
             "<25>{#f/5}* 相比... 我剛說的，\n  你還可以做點更有意義的事。",
             "<25>{#f/5}* 說不上來為什麼，不過...\n  也許Papyrus沒說錯。",
-            "<25>{#f/6}* 既然你的“朋友”\n  已經拋下了你...",
+            "<25>{#f/6}* 既然你的「朋友」\n  已經拋下了你...",
             "<25>* 那你就有機會重新來過了。",
             "<25>{#p/kidd}{#f/1}* 我會幫忙的！",
             "<25>{#p/asgore}{#f/6}* 哈哈，小傢伙，\n  說不定你真能幫上忙。\n* 真說不定呢。",
@@ -950,7 +950,7 @@ export default {
             "<26>{#p/asriel2}{#f/8}* 切。\n* 這慫樣，才像我認識的\n  Asgore嘛。",
             "<26>{#f/6}* 只會裝作啥～事兒\n  都沒有的樣子，\n* 我說得沒錯吧？",
             "<26>{#f/7}* 老東西，你猜怎麼著？\n* 現在想亡羊補牢，已經晚嘍。",
-            "<26>{#f/8}* （要不是你拿這該死的\n  全息影像糊弄我，現在就可以\n  好好“開導開導”你。）",
+            "<26>{#f/8}* （要不是你拿這該死的\n  全息影像糊弄我，現在就可以\n  好好「開導開導」你。）",
             "<26>{#p/asgore}{#f/12}* ...",
             "<26>{#p/asriel2}{#f/8}* ...",
             "<26>{#p/asgore}{#f/15}* 你知道嗎？我常常在想...\n  自己為何淪落到如此地步。",
@@ -2558,7 +2558,7 @@ export default {
               ]
             : [
                  "<32>{#p/basic}* 這放著一塊芝士蛋糕，\n  上面粘著一張字條。",
-                 "<32>* “我真的承擔不了\n  照顧它的重任。”",
+                 "<32>* 「我真的承擔不了\n  照顧它的重任。」",
                  choicer.create("* （拿走芝士蛋糕嗎？）", "是", "否")
               ],
       quiche2: [ "<32>{#p/human}* （你帶的東西太多了。）" ],
@@ -5618,7 +5618,7 @@ export default {
       ],
       act_check: () =>
          world.goatbro
-            ? [ "<32>{#p/asriel2}* Radtile，自詡“酷斃”的鱷魚。\n* 真是可笑至極，\n  瞧瞧這個二貨到底有多土。" ]
+            ? [ "<32>{#p/asriel2}* Radtile，自詡「酷斃」的鱷魚。\n* 真是可笑至極，\n  瞧瞧這個二貨到底有多土。" ]
             : [ "<32>{#p/story}* RADTILE - ATK 24 DEF 12\n* A stargazer in starglasses.\n* Favorite genre: Kriobeat" ],
       act_check2: [ "<32>{#p/story}* RADTILE - ATK 24 DEF 12\n* Things aren't looking so hot for this cool crocodile." ],
       act_check3: [ "<33>{#p/story}* RADTILE - ATK 24 DEF 12\n* This cool crocodile is on fire." ],
@@ -6950,7 +6950,7 @@ export default {
       genoCutscene10: [ "<08>{#e/kidd/8}{#p/kidding}..." ],
       genoCutscene11: [ "<20>{#p/undyne}{#e/undyne/5}Alphys博士會照顧好你的。", "<20>{#e/undyne/6}逃啊！" ],
       genoCutscene12a: [
-         "<20>{#p/undyne}{#e/undyne/7}...呵...\n“沒什麼大不了的...”",
+         "<20>{#p/undyne}{#e/undyne/7}...呵...\n「沒什麼大不了的...」",
          "<20>...才怪。不知怎麼，\n只是那麼一擊..."
       ],
       genoCutscene12b: [ "<20>我就...", "<20>就..." ],
@@ -7262,7 +7262,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (24 HP.)" ]
-            : [ "<32>{#p/basic}* “甘草糖” 回復24 HP\n* 牙口不好的別吃。" ],
+            : [ "<32>{#p/basic}* 「甘草糖」 回復24 HP\n* 牙口不好的別吃。" ],
       name: "甘草糖",
       use: [ "<32>{#p/human}* (You gnawed at the Licorice.)" ]
    },
@@ -7288,7 +7288,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (6 DF.)" ]
-            : [ "<32>{#p/basic}* “AR眼鏡” （6防禦）\n* 超越現實！\n  能為你提供更長的喘息時間。" ],
+            : [ "<32>{#p/basic}* 「AR眼鏡」 （6防禦）\n* 超越現實！\n  能為你提供更長的喘息時間。" ],
       name: "AR眼鏡",
       use: [ "<32>{#p/human}* （你戴上了AR眼鏡。）" ]
    },
@@ -7301,7 +7301,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (4 DF.)" ]
-            : [ "<32>{#p/basic}* “AR眼鏡？” （4防禦）\n* 超越現實！\n  能為你提供稍長的喘息時間。" ],
+            : [ "<32>{#p/basic}* 「AR眼鏡？」 （4防禦）\n* 超越現實！\n  能為你提供稍長的喘息時間。" ],
       name: "AR眼鏡？",
       use: [ "<32>{#p/human}* （你戴上了AR眼鏡。）" ]
    },
@@ -7378,7 +7378,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (45 HP.)" ]
-            : [ "<32>{#p/basic}* “芝士蛋糕” 回復45 HP\n* 甜蜜的零食背後，\n  是一份甜蜜的責任。" ],
+            : [ "<32>{#p/basic}* 「芝士蛋糕」 回復45 HP\n* 甜蜜的零食背後，\n  是一份甜蜜的責任。" ],
       name: "芝士蛋糕",
       use: () => [
          "<32>{#p/human}* （你吃掉了芝士蛋糕。）",
@@ -7416,7 +7416,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (30 HP.)" ]
-            : [ "<32>{#p/basic}* “口糧” 回復30 HP\n* 皇家出品，救急精品。" ],
+            : [ "<32>{#p/basic}* 「口糧」 回復30 HP\n* 皇家出品，救急精品。" ],
       name: "口糧",
       use: [ "<32>{#p/human}* (You consume the Rations.)" ]
    },
@@ -7503,7 +7503,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (7 AT.)" ]
-            : [ "<32>{#p/basic}* “懸浮靴” （7攻擊）\n* 靈活但輕浮，\n  想取代飛行器，有點懸。" ],
+            : [ "<32>{#p/basic}* 「懸浮靴」 （7攻擊）\n* 靈活但輕浮，\n  想取代飛行器，有點懸。" ],
       name: "懸浮靴",
       use: [ "<32>{#p/human}* （你穿上了懸浮靴。）" ]
    },
@@ -7516,7 +7516,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (10 DF.)" ]
-            : [ "<32>{#p/basic}* “飛行服” （10防禦）\n* 膽小鬼別穿。" ],
+            : [ "<32>{#p/basic}* 「飛行服」 （10防禦）\n* 膽小鬼別穿。" ],
       name: "飛行服",
       use: [ "<32>{#p/human}* （你穿上了飛行服。）" ]
    },

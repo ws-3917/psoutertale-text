@@ -570,13 +570,13 @@ msgid "Save File"
 msgstr "匯出存檔"
 
 msgid "Invalid SAVE file access \"$(x)\""
-msgstr "存檔檔案無效：“$(x)”"
+msgstr "存檔檔案無效：「$(x)」"
 
 msgid "That file could not be parsed."
 msgstr "無法解析存檔。"
 
 msgid "The mod \"$(x)\" could not be loaded."
-msgstr "無法加載Mod：“$(x)”。"
+msgstr "無法加載Mod：「$(x)」。"
 
 msgid "OK"
 msgstr "確定"
