@@ -4517,6 +4517,8 @@ msgid ""
 "<32>{#p/basic}{#npc/a}* Ice Wolf is wondering why Ice Wolf is Ice Wolf when "
 "there is no ice to throw around."
 msgstr ""
+"<32>{#p/basic}{#npc/a}* Ice Wolf is wondering why Ice Wolf is Ice Wolf when "
+"there is no ice to throw around."
 
 msgid "<32>* Ice Wolf is confused."
 msgstr ""
@@ -4685,7 +4687,7 @@ msgid "<32>{#p/basic}{#npc/a}* Maybe it's just my imagination."
 msgstr ""
 
 msgid "<32>{#p/basic}{#npc/a}* Or maybe I'm just crazy."
-msgstr ""
+msgstr "<32>{#p/basic}{#npc/a}* 也許是我瘋了吧。"
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* I heard the king revealed the truth about the humans"

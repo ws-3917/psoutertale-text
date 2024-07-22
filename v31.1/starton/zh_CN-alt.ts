@@ -2136,7 +2136,7 @@ export default {
                      : [ "<32>{#p/basic}{#npc/a}* I love you...!" ]
                   : papreal() || world.dead_canine || SAVE.data.b.killed_mettaton
                   ? [ "<32>{#p/basic}{#npc/a}* Maybe it's just my imagination." ]
-                  : [ "<32>{#p/basic}{#npc/a}* Or maybe I'm just crazy." ]
+                  : [ "<32>{#p/basic}{#npc/a}* 也许是我疯了吧。" ]
          ),
          t_politics: pager.create(
             0,
