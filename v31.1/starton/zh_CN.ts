@@ -2010,7 +2010,7 @@ export default {
                     "<32>* Ice Wolf is concerned."
                  ]
                : [
-                    "<32>{#p/basic}{#npc/a}* Ice Wolf is wondering why Ice Wolf is Ice Wolf when there is no ice to throw around.",
+                    "<32>{#p/basic}{#npc/a}* Ice Wolf在他没有冰块可扔的时候会思考为什么他被称作Ice Wolf",
                     "<32>* Ice Wolf is confused."
                  ],
          t_imafraidjumitebeinagang: pager.create(
