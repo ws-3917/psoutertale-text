@@ -5686,7 +5686,7 @@ export default {
       keyring: "鑰匙串",
       hello_asgore: "打招呼",
       about_asgore: "來個自我介紹",
-      dad: "叫他「爹地」",
+      dad: "叫他“爹地”",
       flirt_asgore: "放電",
       insult_asgore: "辱罵"
    },

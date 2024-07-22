@@ -13068,7 +13068,7 @@ msgid "About Yourself"
 msgstr "來個自我介紹ゐ"
 
 msgid "Call Him \"Dad\""
-msgstr "叫他「爹地」ゐ"
+msgstr "叫他“爹地”ゐ"
 
 msgid "Flirt"
 msgstr "放電ゐ"

@@ -211,7 +211,7 @@ export default {
             ? "<32>{#p/human}{#npc}* (You got the Flamin' Grillby.)"
             : "<32>{#p/human}{#npc}* (You got the Sliders.)"
       ],
-      fast_food2: [ "<32>{#p/human}{#npc}* (You're carrying too much.)" ],
+      fast_food2: [ "<32>{#p/human}{#npc}* （你帶的東西太多了。）" ],
       aussie: pager.create(
          0,
          () =>
@@ -297,7 +297,7 @@ export default {
             : "<32>{#p/human}* （你帶的東西太多了。）"
       ],
       cream_get: [ "<32>{#p/human}* (You got the Ice Dream.)" ],
-      cream_deny: [ "<32>{#p/basic}* 空無一物。" ],
+      cream_deny: [ "<32>{#p/basic}* 什麼都沒有。" ],
       cream_full: [ "<32>{#p/human}* （你帶的東西太多了。）" ],
       cream_get_archive: [
          "<32>{#p/human}* (You reach into the cart.)",
@@ -311,8 +311,8 @@ export default {
             SAVE.data.n.plot === 72
                ? [ "<32>{#p/basic}* Mom says that we're going to a new homeworld soon.", "<32>* ... what's a homeworld?" ]
                : [
-                    "<32>{#p/basic}* Mom says that sleeping could recover your health {@fill=#ff0}above your maximum HP{@fill=#fff}.",
-                    "<32>* ... what's maximum HP?"
+                    "<32>{#p/basic}* 媽媽說，睡覺可以把你的\n  生命值恢復到{@fill=#ff0}HP上限以上{@fill=#fff}。",
+                    "<32>* ...HP上限是什麼啊？"
                  ],
          () =>
             SAVE.data.n.plot === 72
@@ -365,8 +365,8 @@ export default {
          "<32>* Well, that's the story."
       ],
       bedbook6: [ "<32>{#p/basic}* Well, if you ever want me to read it, let me know." ],
-      beddoor1: [ "<32>{#p/basic}{#npc/a}* If you want a room, you'll need to ask me first." ],
-      beddoor2: [ "<32>{#p/basic}{#npc/a}* If you want a room again, you'll need to ask me first." ],
+      beddoor1: [ "<32>{#p/basic}{#npc/a}* 如果你想訂房間，\n  你得先問我一聲。" ],
+      beddoor2: [ "<32>{#p/basic}{#npc/a}* 如果你還想訂房間，\n  你得先問我一聲。" ],
       beddoor3: [ "<32>{#p/basic}{#npc/a}* Sorry, munchkin!\n* No more vacancies left here!" ],
       candy1: () => [
          SAVE.data.b.svr
@@ -824,23 +824,23 @@ export default {
       innkeep1a: pager.create(
          0,
          [
-            "<32>{#p/basic}{#npc/a}* Welcome to Starred Inn!\n* Starton's premier hotel!",
-            "<32>* One night will cost you 60G.",
-            choicer.create("* (Get a room?)", "是", "否")
+            "<32>{#p/basic}{#npc/a}* 歡迎來到星光旅館！\n* 星港的一流旅館！",
+            "<32>* 每住宿一晚花費60G。",
+            choicer.create("* （訂一間房嗎？）", "是", "否")
          ],
          [
-            "<32>{#p/basic}{#npc/a}* Changed your mind?",
-            "<32>* Remember, one night is 60G.",
-            choicer.create("* (Get a room?)", "是", "否")
+            "<32>{#p/basic}{#npc/a}* 改變主意了嗎？",
+            "<32>* 記住了，一個晚上60G。",
+            choicer.create("* （訂一間房嗎？）", "是", "否")
          ]
       ),
       innkeep1b: pager.create(
          0,
          [
-            "<32>{#p/basic}{#npc/a}* Back again?\n* Remember, one night is 60G.",
+            "<32>{#p/basic}{#npc/a}* 又回來了嗎？\n* 記住，一個晚上60G。",
             choicer.create("* (Get a room again?)", "是", "否")
          ],
-         [ "<32>{#p/basic}{#npc/a}* Changed your mind?", choicer.create("* (Get a room again?)", "是", "否") ]
+         [ "<32>{#p/basic}{#npc/a}* 改變主意了嗎？", choicer.create("* (Get a room again?)", "是", "否") ]
       ),
       innkeep1c: pager.create(
          0,
@@ -848,20 +848,20 @@ export default {
             "<33>{#p/basic}{#npc/a}* Back again?\n* Well, stay as long as you like!",
             choicer.create("* (Get a room again?)", "是", "否")
          ],
-         [ "<32>{#p/basic}{#npc/a}* Changed your mind?", choicer.create("* (Get a room again?)", "是", "否") ]
+         [ "<32>{#p/basic}{#npc/a}* 改變主意了嗎？", choicer.create("* (Get a room again?)", "是", "否") ]
       ),
       innkeep2a: [
          "<32>{#p/basic}{#npc/a}* ... you don't even have 60G?",
          "<32>* Oh! You poor thing.\n* I can only imagine what you've been through.",
          "<32>* One of the rooms upstairs is empty, you can sleep there for free, okay?"
       ],
-      innkeep2b: [ "<32>{#p/basic}{#npc/a}* Here's your room key.\n* Remember to bundle up!" ],
+      innkeep2b: [ "<32>{#p/basic}{#npc/a}* 這是你的房間鑰匙。\n* 小心彆著涼！" ],
       innkeep2c: [ "<32>{#p/basic}{#npc/a}* Sorry, you don't have enough G..." ],
-      innkeep3a: [ "<32>{#p/basic}{#npc/a}* Hiya!\n* You look like you had a great sleep." ],
-      innkeep3b: [ "<32>* Which is incredible...\n* ... considering you were only up there for a few minutes." ],
+      innkeep3a: [ "<32>{#p/basic}{#npc/a}* 您好呀！\n* 您看起來睡得很舒服。" ],
+      innkeep3b: [ "<32>* 挺不可思議的...\n* ...因為您在上面\n  只待了幾分鐘。" ],
       innkeep3c: [ "<32>* Feel free to come back if you get tired." ],
-      innkeep3d: [ "<32>* Here's your money back.\n* You can pay me if you're going to stay overnight." ],
-      innkeep4: [ "<32>{#p/basic}{#npc/a}* Not in a sleepy mood?\n* Well, I'll always be here if you need me!" ],
+      innkeep3d: [ "<32>* 我把錢退給您。\n* 想過夜的話，可以再付給我喔。" ],
+      innkeep4: [ "<32>{#p/basic}{#npc/a}* 現在還不困？\n* 沒關係，只要您需要，\n  我隨時為您服務！" ],
       innkeep5: [
          "<32>{#p/basic}{#npc/a}* Hello!\n* Sorry, no time for a nap...",
          "<32>* Starred Inn is shutting down so we can leave to find a new homeworld."
@@ -2126,8 +2126,8 @@ export default {
                        "<32>* Did something happen?"
                     ]
                   : [
-                       "<32>{#p/basic}{#npc/a}* Hey hey, nothing's ever going to change in my life!",
-                       "<32>* Ha... ha..."
+                       "<32>{#p/basic}{#npc/a}* 嘿嘿，什麼東西都無法改變\n  我的生活！",
+                       "<32>* 哈... 哈..."
                     ],
             () =>
                SAVE.data.n.plot === 72
@@ -2235,18 +2235,18 @@ export default {
                   : papreal() || SAVE.data.b.killed_mettaton
                   ? [ "<32>{#p/basic}{#npc/a}* Just now, I felt my smile falter for a moment.", "<32>* What's wrong?" ]
                   : [
-                       "<32>{#p/basic}{#npc/a}* We all know things haven't gone how we'd hoped, but we smile anyway.",
-                       "<32>* Why?",
-                       "<32>* This is our reality, so why be morose about it?"
+                       "<32>{#p/basic}{#npc/a}* 我們都知道事情不盡人意，\n  但我們仍舊保持微笑。",
+                       "<32>* 你問為什麼？",
+                       "<32>* 我們面對著的是現實，\n  所以何必鬱鬱寡歡呢？"
                     ],
             () =>
                SAVE.data.n.plot === 72
                   ? world.population < 2
-                     ? [ "<32>{#p/basic}{#npc/a}* Smile smile." ]
-                     : [ "<32>{#p/basic}{#npc/a}* Smile smile!" ]
+                     ? [ "<32>{#p/basic}{#npc/a}* 笑一笑吧。" ]
+                     : [ "<32>{#p/basic}{#npc/a}* 笑一笑吧！" ]
                   : papreal() || SAVE.data.b.killed_mettaton
-                  ? [ "<32>{#p/basic}{#npc/a}* Smile smile?" ]
-                  : [ "<32>{#p/basic}{#npc/a}* Smile smile." ]
+                  ? [ "<32>{#p/basic}{#npc/a}* 笑一笑？" ]
+                  : [ "<32>{#p/basic}{#npc/a}* 笑一笑吧。" ]
          ),
          t_wisconsin: pager.create(
             0,
@@ -2274,9 +2274,9 @@ export default {
                        "<32>* Like everything is getting worse, and worse...\n* And worse."
                     ]
                   : [
-                       "<32>{#p/basic}{#npc/a}* Everyone is always laughing and cracking jokes, trying to forget our modern crises...",
-                       "<32>* Dreariness.\n* Crowding.\n* Lack of a homeworld.",
-                       "<32>* I would join them, but I just don't feel like being funny."
+                       "<32>{#p/basic}{#npc/a}* 每個人都在歡笑、講笑話，\n  試圖忘記我們的現代危機...",
+                       "<32>* 死氣沉沉。\n* 人口過剩。\n* 無家可歸。",
+                       "<32>* 我也想加入他們，\n  但我並不有趣。"
                     ],
             () =>
                SAVE.data.n.plot === 72
@@ -2288,7 +2288,7 @@ export default {
                        ]
                   : world.dead_dog || world.dead_skeleton || world.population < 6 || SAVE.data.b.killed_mettaton
                   ? [ "<32>{#p/basic}{#npc/a}* And worse..." ]
-                  : [ "<32>{#p/basic}{#npc/a}* At least I'm not making puns." ],
+                  : [ "<32>{#p/basic}{#npc/a}* 至少，我不講雙關笑話。" ],
             () =>
                SAVE.data.n.plot === 72
                   ? world.population < 2
@@ -2296,7 +2296,7 @@ export default {
                      : [ "<32>{#p/basic}{#npc/a}* Yes.\n* That was a pun.\n* I'm a pun mouse now." ]
                   : world.dead_dog || world.dead_skeleton || world.population < 6 || SAVE.data.b.killed_mettaton
                   ? [ "<32>{#p/basic}{#npc/a}* And worse still..." ]
-                  : [ "<32>{#p/basic}{#npc/a}* For now." ]
+                  : [ "<32>{#p/basic}{#npc/a}* 暫時吧。" ]
          ),
          t_zorren: pager.create(
             0,
@@ -4118,13 +4118,13 @@ export default {
                        "<25>{#p/sans}{#f/0}* thankfully, i have someone who cares about my well-being.",
                        "<25>{#f/2}* no matter what happens, i know he'll be there for me."
                     ]
-                  : [ "<25>{#p/sans}{#f/2}* oh, and maybe {@fill=#00a2e8}blue attacks{@fill=#fff}, too." ],
+                  : [ "<25>{#p/sans}{#f/2}* 喔，也許還得加上{@fill=#00a2e8}藍色{@fill=#fff}攻擊。" ],
             () =>
                world.edgy
                   ? [ "<25>{#p/sans}{#f/3}* 就是這樣。" ]
                   : world.killed5
-                  ? [ "<25>{#p/sans}{#f/0}* am i wrong?" ]
-                  : [ "<26>{#p/sans}{#f/0}* all sorts of attacks." ]
+                  ? [ "<25>{#p/sans}{#f/0}* 是我錯了？" ]
+                  : [ "<26>{#p/sans}{#f/0}* 各種攻擊也是。" ]
          )
       },
       sansbredgey: () =>
@@ -6563,7 +6563,7 @@ export default {
          world.goatbro
             ? [ "<32>{#p/asriel2}* Canis Major。" ]
             : [ "<32>{#p/story}* 有股鮮榨小狗汁的味道。" ],
-      waitText: [ "<32>{#p/basic}* Canis Major moves closer." ]
+      waitText: [ "<32>{#p/basic}* Canis Major逐漸向你靠近。" ]
    },
    b_opponent_papyrus: {
       act_flirt: [ "<32>{#p/human}* （你向Papyrus調情。）" ],
@@ -7093,7 +7093,7 @@ export default {
    },
    i_nice_cream: {
       battle: {
-         description: "Instead of a joke, the wrapper says something fantastical.",
+         description: "包裝紙上印的不是笑話，\n而是一些天馬行空的想象。",
          name: "Ice Dream"
       },
       drop: [ "<32>{#p/human}* (You throw away the Ice Dream.)" ],
@@ -7536,7 +7536,7 @@ export default {
          "<09>{#p/napstablook}{#k/3}heh... thank you...",
          "<09>{#p/napstablook}{#k/0}you don't have to buy it...",
          "<09>{#p/napstablook}{#k/0}sorry... not enough g...",
-         "<10>{#p/human}(You're carrying too much.)"
+         "<10>{#p/human}（你帶的\n東西\n太多了。）"
       ],
       itemPurchasePrompt: () => (blookGone() ? "Take it?" : "花$(x)G\n買它嗎？"),
       itemUnavailable: () =>
@@ -7600,7 +7600,7 @@ export default {
                  65 <= SAVE.data.n.plot
                     ? SAVE.data.b.a_state_hapstablook && 68 <= SAVE.data.n.plot
                        ? "Family"
-                       : "Your Life"
+                       : "你的生活"
                     : 63 <= SAVE.data.n.plot && SAVE.data.b.a_state_hapstablook
                     ? "Mettaton"
                     : 60 <= SAVE.data.n.plot
@@ -7611,7 +7611,7 @@ export default {
                     ? "DJ Blooky?"
                     : SAVE.data.n.state_wastelands_napstablook === 0
                     ? "Dapper Blook?"
-                    : "Your Life",
+                    : "你的生活",
                  "離開"
               ],
       talkPrompt: "<09>{#p/napstablook}{#k/1}oh, you wanna chat?",
@@ -7802,7 +7802,7 @@ export default {
       zeroPrompt: "<09>{#p/basic}..."
    },
    n_shop_hare: {
-      exit: [ "<32>{#p/basic}{#k/11}* Bye now!\n* Come again sometime!" ],
+      exit: [ "<32>{#p/basic}{#k/11}* 再見！\n* 有空常來啊！" ],
       item: () =>
          world.population === 0 || world.runaway
             ? [
@@ -7835,20 +7835,20 @@ export default {
          "回復11 HP\n可改變\n主觀時間\n流速。",
          "回復22 HP\n她的\n獨家配方。"
       ],
-      itemPrompt: "<09>{#p/basic}{#k/0}What would you like to buy?",
+      itemPrompt: "<09>{#p/basic}{#k/0}想買點\n什麼？",
       itemPurchase: [
-         "<09>{#p/basic}{#k/4}Thanks for your purchase.",
-         "<09>{#p/basic}{#k/7}Just looking?",
+         "<09>{#p/basic}{#k/4}謝謝惠顧。",
+         "<09>{#p/basic}{#k/7}只是\n看看？",
          "<09>{#p/basic}{#k/5}That's not enough money.",
-         "<10>{#p/human}(You're carrying too much.)"
+         "<10>{#p/human}（你帶的\n東西\n太多了。）"
       ],
       itemPurchasePrompt: () => (world.population === 0 || world.runaway ? "Take it?" : "花$(x)G\n買它嗎？"),
       menu: () =>
          world.population === 0 || world.runaway
             ? [ "拿取", "偷竊", "閱讀", "離開" ]
             : [ "購買", world.meanie ? "偷竊" : "出售", "交談", "離開" ],
-      menuPrompt1: "<23>{#p/basic}{#k/0}* Hello, traveler.\n* How can I help you?",
-      menuPrompt2: "<23>{#p/basic}{#k/0}* Take your time.",
+      menuPrompt1: "<23>{#p/basic}{#k/0}* 你好啊，旅行者。\n* 想來點什麼嗎？",
+      menuPrompt2: "<23>{#p/basic}{#k/0}* 慢慢挑。",
       menuPrompt3: () =>
          world.bulrun ? "<23>{#p/basic}* ...但是人們都逃走了。" : "<23>{#p/basic}* ...但是誰也沒有來。",
       note: () =>
@@ -7867,9 +7867,9 @@ export default {
                  "<30>{#k/12}* No exceptions."
               ]
             : [
-                 "<30>{#p/basic}{#k/6}* Huh?\n* Sell somethin'?\n* Does this look like a pawn shop?",
-                 "<30>{#k/3}* I don't know how it works where you come from... but...",
-                 "<30>* If I started spending money on old wrenches and used spacesuits, I'd be out of business in a jiffy!"
+                 "<30>{#p/basic}{#k/6}* 哈？\n* 你想賣東西？\n* 這裡看起來像當鋪嗎？",
+                 "<30>{#k/3}* 我不知道在你家鄉是\n  什麼樣子的... 但是...",
+                 "<30>* 如果我開始花錢買\n  舊扳手和穿過的太空服，\n  我生意就做不下去了！"
               ],
       sell2: () =>
          world.population === 0 || world.runaway
@@ -7883,8 +7883,8 @@ export default {
       talk: () =>
          SAVE.data.n.plot === 72
             ? [ "打招呼", "What Happened", "外域", "The Future", "離開" ]
-            : [ "打招呼", "What To Do Here", "Town History", "Your Life", "離開" ],
-      talkPrompt: "<09>{#p/basic}{#k/0}Care to chat?",
+            : [ "打招呼", "這裡可以幹什麼", "小鎮的歷史", "你的生活", "離開" ],
+      talkPrompt: "<09>{#p/basic}{#k/0}想聊聊\n天嗎？",
       talkText: [
          () =>
             SAVE.data.n.plot === 72
@@ -7895,9 +7895,9 @@ export default {
                     "<32>{#k/4}* Still.\n* Can't help but get a little excited, now can we?"
                  ]
                : [
-                    "<32>{#p/basic}{#k/4}* Hiya! Welcome to Starton!\n* I can't remember the last time I saw a fresh face around here.",
-                    "<32>{#k/8}* Where did you come from?\n* The Citadel?",
-                    "<32>{#k/7}* You don't look like a tourist.\n* Are you here by yourself?"
+                    "<32>{#p/basic}{#k/4}* 你好呀！歡迎來到星港！\n* 我都記不得上次看到新面孔\n  是什麼時候的事情了。",
+                    "<32>{#k/8}* 你是從哪裡來的？\n* 首塔嗎？",
+                    "<32>{#k/7}* 你看起來不像是遊客。\n* 你是自己來的嗎？"
                  ],
          () =>
             SAVE.data.n.plot === 72
@@ -7913,13 +7913,13 @@ export default {
                     "<32>{#k/9}* After that, we woke up, and the force field was gone."
                  ]
                : [
-                    "<32>{#p/basic}{#k/8}* You want to know what to do here in Starton?",
-                    "<32>{#k/9}* Grillby's has food, and the librarby has information...",
-                    "<32>{#k/2}* If you're tired, you can take a nap at the inn.\n* It's right nextdoor, my sister runs it.",
-                    "<32>{#k/0}* And if you're bored, you can sit outside and watch those wacky skeletons do their thing.",
-                    "<32>* There's two of 'em...\n* Brothers, I think.\n* They've been here for as long as I can remember.",
-                    "<32>{#k/9}* Oh, I almost forgot.\n* Recently, a ghost fella decided to open a store on the south side of town.",
-                    "<32>{#k/11}* It's not much, but if you drop by, be sure to say hello.\n* They could use the company."
+                    "<32>{#p/basic}{#k/8}* 你想知道在星港可以\n  幹什麼？",
+                    "<32>{#k/9}* 你可以去Grillby's用餐，\n  可以去圖書悺獲取資訊...",
+                    "<32>{#k/2}* 如果你累了，\n  你可以去旅館打個盹。\n* 就在隔壁，我姐妹開的。",
+                    "<32>{#k/0}* 你要是覺得無聊了，\n  可以坐在外面，\n  看那兩個古怪的骷髏\n  做他們的事情。",
+                    "<32>* 他們兩個...\n* 我覺得，應該是兄弟。\n* 從我記事的時候，\n  他們就在這裡了。",
+                    "<32>{#k/9}* 喔，我差點忘了。\n* 最近，有個小鬼兒決定\n  在小鎮的南邊開一家商店。",
+                    "<32>{#k/11}* 雖然事情不算大，\n  但如果你路過，\n  一定要打聲招呼。\n* 那傢伙很需要陪伴的。"
                  ],
          () =>
             SAVE.data.n.plot === 72
@@ -7930,11 +7930,11 @@ export default {
                     "<32>{#k/10}* I'm sure she was even more surprised than we were to find out the humans were alive."
                  ]
                : [
-                    "<32>{#p/basic}{#k/9}* Think back to your history class...",
-                    "<32>{#k/0}* A long time ago, monsters lived in what we now call the Foundry.",
-                    "<32>* After a while, we invented the technology to build new areas onto the outpost.",
-                    "<32>* The first of those areas was Starton, and they figured it'd be a good place for a town.",
-                    "<32>{#k/10}* It's quaint, but I kinda like that, you know?"
+                    "<32>{#p/basic}{#k/9}* 回想一下你的歷史課...",
+                    "<32>{#k/0}* 很久以前，怪物們住在\n  我們現在稱之為鑄廠的地方。",
+                    "<32>* 過了一段時間，\n  我們發明了在前哨站\n  建造新區域的技術。",
+                    "<32>* 首當其衝建造出來的就是星港，\n  他們認為這是一個\n  建小鎮的好地方。",
+                    "<32>{#k/10}* 聽起來很古怪，\n  但我還挺喜歡的，\n  你懂嗎?"
                  ],
          () =>
             SAVE.data.n.plot === 72
@@ -7943,11 +7943,11 @@ export default {
                     "<32>{#k/4}* ... haven't planned much more than that, I'm afraid."
                  ]
                : [
-                    "<32>{#p/basic}* Life is the same as usual.",
-                    "<32>{#k/5}* A little lonely...",
-                    "<32>{#k/10}* But... we all know deep down that freedom is coming, don't we?",
-                    "<32>{#k/9}* As long as we got that hope, we can grit our teeth and face the same struggles, day after day...",
-                    "<32>{#k/0}* That's life, ain't it?"
+                    "<32>{#p/basic}* 生活總是一成不變。",
+                    "<32>{#k/5}* 雖然有點孤單...",
+                    "<32>{#k/10}* 但是... 在我們內心深處\n  都知道自由即將到來，\n  不是嗎？",
+                    "<32>{#k/9}* 只要我們心存希望，\n  我們就能咬緊牙關，\n  日復一日地面對\n  同樣的困難...",
+                    "<32>{#k/0}* 這就是生活啊，不是嗎？"
                  ]
       ],
       zeroPrompt: "<09>{#p/basic}..."

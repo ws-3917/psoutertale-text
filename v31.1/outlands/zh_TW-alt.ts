@@ -4247,7 +4247,7 @@ export default {
    c_name_outlands: {
       hello: "打招呼",
       about: "來個自我介紹",
-      mom: "叫她「媽咪」",
+      mom: "叫她“媽咪”",
       flirt: "放電",
       toriel: "托麗爾的手機",
       puzzle: "解謎提示",

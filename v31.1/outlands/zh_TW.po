@@ -10228,7 +10228,7 @@ msgid "About Yourself"
 msgstr "來個自我介紹ゐ"
 
 msgid "Call Her \"Mom\""
-msgstr "叫她「媽咪」ゐ"
+msgstr "叫她“媽咪”ゐ"
 
 msgid "Flirt"
 msgstr "放電ゐ"
