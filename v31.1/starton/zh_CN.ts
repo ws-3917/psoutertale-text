@@ -892,13 +892,13 @@ export default {
                : [
                     "<25>{#p/kidd}{#f/7}* 等下，你也读书的吗！？",
                     "<25>{#p/kidd}{#f/1}* 那个图书悺教会了我所有\n  关于怪物历史的知识！",
-                    "<25>{#p/kidd}{#f/3}* I can't even imagine what living on a planet is like..."
+                    "<25>{#p/kidd}{#f/3}* 我无法想象在一颗星球上\n  生活会怎么样..."
                  ],
          () =>
             game.room === 's_town1' // NO-TRANSLATE
 
-               ? [ "<25>{#p/kidd}{#f/1}* I wonder if that short skeleton is an adult or a kid." ]
-               : [ "<25>{#p/kidd}{#f/3}* Have you ever lived on a planet?" ]
+               ? [ "<25>{#p/kidd}{#f/1}* 我寻思着那个矮个子骷髅\n  有没有成年。" ]
+               : [ "<25>{#p/kidd}{#f/3}* 你有在星球上生活过吗？" ]
       ),
       marriage1: [
          "<32>{#p/basic}* 这是什么味道？\n* （哪里来的气味？）",
@@ -1539,8 +1539,8 @@ export default {
                : papreal()
                ? [ "<32>{#p/basic}{#npc/a}* Papyrus?\n* Is that you?\n* Come on..." ]
                : [
-                    "<32>{#p/basic}{#npc/a}* I'm thinking of letting my hair grow out a little to show off my personality.",
-                    "<32>* It makes a statement like \"Give me a big, soft hug and cuddle me, please.\""
+                    "<32>{#p/basic}{#npc/a}* 我在考虑把头发留长一点，\n  来彰显我的个性。",
+                    "<32>* 它代表着：“请给我一个\n  大大的、温柔的拥抱，\n  搂搂我。”"
                  ],
          g_grillby: () =>
             SAVE.data.b.killed_mettaton
@@ -1573,8 +1573,8 @@ export default {
                  ]
                : [
                     "<32>{#p/basic}* ...\n* ...\n* ...",
-                    "<32>{#npc/a}* Grillbz said he found his new colors in an e-magazine.",
-                    "<32>* Personally, I prefer Grillbz' natural orange color.\n* But that's just me."
+                    "<32>{#npc/a}* Grillbz说他是在一本\n  电子杂志上找到他的\n  新颜色的。",
+                    "<32>* 我个人还是更喜欢Grillbz\n  原始的那个橘色。\n* 仅个人观点。"
                  ],
          g_punkhamster: pager.create(
             0,
@@ -1746,13 +1746,13 @@ export default {
             () =>
                SAVE.data.n.plot === 72
                   ? [
-                       "<32>{#p/basic}{#npc/a}* Welcome to the librarby.",
+                       "<32>{#p/basic}{#npc/a}* 欢迎来到图书倌。",
                        ...(world.population === 0
                           ? [ "<32>* If you beat up anyone else, you'll be really sorry." ]
                           : [ "<32>* This is the last day we'll be open, so make as much noise as you want." ])
                     ]
                   : [
-                       "<32>{#p/basic}{#npc/a}* Welcome to the librarby.\n* Actually, that name started as a spelling mistake.",
+                       "<32>{#p/basic}{#npc/a}* 欢迎来到图书倌。\n* 老实说，这名字来源于一次拼写错误。",
                        "<32>* Now everybody calls it that..."
                     ],
             () =>
@@ -2147,7 +2147,7 @@ export default {
                        "<32>* Everyone felt so bad that they didn't know.\n* They all gave him a big hug.",
                        "<32>* Then they took the humans and adopted them for themselves.",
                        "<32>* Now the humans will get to live their lives with us.",
-                       "<32>* Thaaaaaat's politics!"
+                       "<32>* 这-就-是-政治啊！"
                     ]
                   : SAVE.data.b.killed_mettaton
                   ? [
@@ -2168,21 +2168,21 @@ export default {
                   ? [
                        "<32>{#p/basic}{#npc/a}* This town has no mayor.",
                        "<32>* But, if anything happens, a skeleton will tell a fish lady about it.",
-                       "<32>* Thaaaaaat's politics!"
+                       "<32>* 这-就-是-政治啊！"
                     ]
                   : [
-                       "<32>{#p/basic}{#npc/a}* This town is always so dreary.",
-                       "<32>* But, if things keep going the way they are, maybe that'll change.",
-                       "<32>* Is that politics?"
+                       "<32>{#p/basic}{#npc/a}* 这个小镇总是那么沉闷。",
+                       "<32>* 但是，如果事情\n  继续这样发展下去的话，\n  也许这种情况会改变。",
+                       "<32>* 这就是政治吧？"
                     ],
             () =>
                SAVE.data.n.plot === 72
                   ? [ "<32>{#p/basic}{#npc/a}* You see?\n* Politics isn't all bad..." ]
                   : SAVE.data.b.killed_mettaton || papreal() || world.popmax(0) - world.population > 4
-                  ? [ "<32>{#p/basic}{#npc/a}* Politics..." ]
+                  ? [ "<32>{#p/basic}{#npc/a}* 政治..." ]
                   : world.trueKills > 0 || SAVE.data.n.bully > 0
-                  ? [ "<32>{#p/basic}{#npc/a}* Politics." ]
-                  : [ "<32>{#p/basic}{#npc/a}* Politics?" ]
+                  ? [ "<32>{#p/basic}{#npc/a}* 政治。" ]
+                  : [ "<32>{#p/basic}{#npc/a}* 政治？" ]
          ),
          t_rabbit: pager.create(
             0,
@@ -4382,17 +4382,17 @@ export default {
                : world.darker
                ? [ "<32>{#p/basic}* 一株植物。" ]
                : [
-                    "<32>{#p/basic}* It's not just a plant...\n* It's a NEON plant.",
-                    "<32>* What difference does it make?\n* None, none at all."
+                    "<32>{#p/basic}* 这不仅仅是一株植物...\n* 这是一株霓虹植物。",
+                    "<32>* 这有什么区别吗？\n* 没有，完全没有。"
                  ],
          librarbywindow1: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (But there was nothing of real interest to see here.)" ]
-               : [ "<32>{#p/basic}* There's a plant in the window.\n* How interesting." ],
+               : [ "<32>{#p/basic}* 窗户里面有一株植物。\n* 真有趣。" ],
          librarbywindow2: () =>
             SAVE.data.b.svr
-               ? [ "<32>{#p/human}* (You reach up to the window and put your hands on it.)" ]
-               : [ "<32>{#p/human}* (You reach up to the window and put your hands on it.)\n* (You can't see inside.)" ],
+               ? [ "<32>{#p/human}* （你够到了窗户边缘，并将双手\n  搭在了窗户上。）" ]
+               : [ "<32>{#p/human}* （你够到了窗户边缘，并将双手\n  搭在了窗户上。）\n* （但你看不见里面的任何东西。）" ],
          papwindow: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You peer into the window, but you couldn't see anybody inside.)" ]
@@ -4421,9 +4421,9 @@ export default {
                : world.runaway || world.population === 0
                ? [ "<32>{#p/basic}* ...但是人们都逃走了。" ]
                : SAVE.data.n.plot < 72
-               ? [ "<32>{#p/basic}* It's playing a game of poker against itself.", "<32>* It appears to be losing..." ]
+               ? [ "<32>{#p/basic}* 它正在跟自己玩一种\n  扑克牌游戏。", "<32>* 感觉它要输了..." ]
                : [
-                    "<32>{#p/basic}* It's playing a game of poker against itself.",
+                    "<32>{#p/basic}* 它正在跟自己玩一种\n  扑克牌游戏。",
                     "<32>* It appears to be winning...\n* Somehow."
                  ],
          s_backrooms_lesstable: () =>
@@ -4738,7 +4738,7 @@ export default {
                ? [ "<32>{#p/basic}* A few of the beverages on this shelf have been used up." ]
                : [
                     "<32>{#p/basic}* 柜子上摆满了\n  五花八门的派对酒水和恶心的液体。",
-                    "<32>{#p/basic}* 唯一一瓶水上贴有“当心明火”的标签。"
+                    "<32>{#p/basic}* 唯一一瓶水上贴有\n  “当心明火”的标签。"
                  ],
          s_grillbys_sidestool: () =>
             SAVE.data.b.svr
@@ -7764,9 +7764,9 @@ export default {
                : SAVE.data.b.napsta_performance
                ? [
                     "<32>{#p/napstablook}{#k/1}* 嗯, 我有时会创作音乐",
-                    "<32>{#k/0}* people say it's great, but i know they're just lying to make me feel better...",
-                    "<32>{#k/4}* thanks for coming to my little show, though...",
-                    "<32>{#k/3}* seeing you made me happy..."
+                    "<32>{#k/0}* 人们觉得我的音乐很棒，但我明白\n  这只是他们为了激励我而撒的谎言\n  罢了...",
+                    "<32>{#k/4}* 不过，感谢你来我的小演出捧场...",
+                    "<32>{#k/3}* 见到你，我很高兴..."
                  ]
                : [
                     [

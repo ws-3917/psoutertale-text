@@ -40,7 +40,7 @@
             </termEntry>
             <termEntry id="cell">
                 <langSet xml:lang="en"><tig><term>Keyring</term></tig></langSet>
-                <langSet xml:lang="zh_TW"><tig><term></term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>鑰匙串</term></tig></langSet>
             </termEntry>
         </body>
     </text>

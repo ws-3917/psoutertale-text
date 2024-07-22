@@ -3321,7 +3321,7 @@ export default {
                   ? [ "<32>{#p/basic}* It's offline." ]
                   : [ "<32>{#p/basic}* Anonymity at last." ]
                : [ "<32>{#p/basic}* It's probably best not to question how this works." ],
-         labdisplay: "人類實時資料\nEXP　$(x)\nHP 　$(y)\n金錢 $(z)\n距離 $(w)格",
+         labdisplay: "-人類實時資料-\nEXP　$(x)\nHP 　$(y)\n金錢 $(z)\n距離 $(w)",
          exofountain1: () => [
             SAVE.data.b.svr
                ? "<32>{#p/human}* (You feel the urge to drink from a fountain of punch.)"
