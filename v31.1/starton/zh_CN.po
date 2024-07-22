@@ -4516,10 +4516,13 @@ msgstr ""
 msgid ""
 "<32>{#p/basic}{#npc/a}* Ice Wolf is wondering why Ice Wolf is Ice Wolf when "
 "there is no ice to throw around."
-msgstr "<32>{#p/basic}{#npc/a}* Ice Wolf在他没有冰块可扔的时候会思考为什么他被称作Ice Wolf"
+msgstr ""
+"<32>{#p/basic}{#npc/a}* Ice Wolf在思考为什么自己没有冰\n"
+"  可扔的时候，Ice Wolf还叫\n"
+"  Ice Wolf。"
 
 msgid "<32>* Ice Wolf is confused."
-msgstr ""
+msgstr "<32>* Ice Wolf很疑惑。"
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* I asked Papyrus about his floss collection, and he "
@@ -5578,16 +5581,16 @@ msgid "LMAO"
 msgstr ""
 
 msgid "REFRESH"
-msgstr ""
+msgstr "刷新页面"
 
 msgid "MESSAGES"
-msgstr ""
+msgstr "查看消息"
 
 msgid "SETTINGS"
-msgstr "游戏设置"
+msgstr "聊天设置"
 
 msgid "LOG OUT"
-msgstr ""
+msgstr "退出登录"
 
 msgid "<32>{#p/human}* (You can't seem to find anything in the couch.)"
 msgstr ""
@@ -15638,10 +15641,10 @@ msgid "Acquired at the \"police station\" on the north side of Starton town."
 msgstr ""
 
 msgid "<32>{#p/napstablook}{#k/0}* oh... you're leaving..."
-msgstr ""
+msgstr "<32>{#p/napstablook}{#k/0}* 哦... 你要走了..."
 
 msgid "<32>{#k/1}* well, cya next time i guess..."
-msgstr ""
+msgstr "<32>{#k/1}* 行，下次再见，也许吧..."
 
 msgid "§fill=#808080§--- UNAVAILABLE ---"
 msgstr "§fill=#808080§---- 售罄 ----"
@@ -15771,7 +15774,7 @@ msgid "Talk"
 msgstr "交谈"
 
 msgid "<23>{#p/napstablook}{#k/3}* have a look around..."
-msgstr ""
+msgstr "<23>{#p/napstablook}{#k/3}* 来随便看看吧..."
 
 msgid "<23>{#p/napstablook}{#k/3}* i hope you find what you're looking for..."
 msgstr ""
@@ -15780,12 +15783,17 @@ msgid ""
 "<23>{#p/napstablook}{#k/3}* have a look around... or not... it's your "
 "choice..."
 msgstr ""
+"<23>{#p/napstablook}{#k/3}* 来随便看看吧...\n"
+"  不想也行...\n"
+"  一切由你..."
 
 msgid "<23>{#p/napstablook}{#k/3}* have a look around, i guess..."
 msgstr ""
+"<23>{#p/napstablook}{#k/3}* 来随便看看...\n"
+"* 也许吧..."
 
 msgid "<23>{#p/napstablook}{#k/0}* feel free to leave at any time..."
-msgstr ""
+msgstr "<23>{#p/napstablook}{#k/0}* 你可以随时离开这里... "
 
 msgid "<23>{#p/basic}* ... but everybody ran."
 msgstr "<23>{#p/basic}* ...但是人们都逃走了。"
@@ -15824,10 +15832,13 @@ msgid "<30>{#k/0}* i'm so sorry... i don't have much to give..."
 msgstr ""
 
 msgid "<30>{#p/napstablook}{#k/2}* oh... you wanted to sell something"
-msgstr ""
+msgstr "<30>{#p/napstablook}{#k/2}* 哦... 你是想卖掉一些东西吗"
 
 msgid "<30>{#k/0}* i don't know if i can afford to buy anything... sorry..."
 msgstr ""
+"<30>{#k/0}* 我不清楚我能不能买下\n"
+"  所有东西...\n"
+"  抱歉..."
 
 msgid "<30>{#p/basic}* Nothing left."
 msgstr "<30>{#p/basic}* 空无一物。"
@@ -15845,7 +15856,7 @@ msgid ""
 msgstr ""
 
 msgid "<30>{#k/0}* they live with undyne, i think"
-msgstr ""
+msgstr "<30>{#k/0}* 我想它应该和Undyne住在一块"
 
 msgid "Say Hello"
 msgstr "打招呼"
@@ -15882,9 +15893,12 @@ msgstr ""
 
 msgid "<09>{#p/napstablook}{#k/1}oh, you wanna chat?"
 msgstr ""
+"<09>{#p/napstablook}{#k/1}哦, 想和\n"
+"我聊天吗\n"
+"？"
 
 msgid "<32>{#p/napstablook}{#k/3}* oh, hey..."
-msgstr ""
+msgstr "<32>{#p/napstablook}{#k/3}* 哦，你好啊..."
 
 msgid "<32>{#k/0}* i think everybody dissappeared for a while..."
 msgstr ""
@@ -15913,7 +15927,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#k/4}* what have you been up to?"
-msgstr ""
+msgstr "<32>{#k/4}* 最近在忙些什么呀？"
 
 msgid ""
 "<32>{#p/napstablook}{#k/0}* oh...\n"

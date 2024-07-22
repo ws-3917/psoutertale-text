@@ -2010,8 +2010,8 @@ export default {
                     "<32>* Ice Wolf is concerned."
                  ]
                : [
-                    "<32>{#p/basic}{#npc/a}* Ice Wolf在他沒有冰塊可扔的時候會思考為什麼他被稱作Ice Wolf",
-                    "<32>* Ice Wolf is confused."
+                    "<32>{#p/basic}{#npc/a}* Ice Wolf在思考為什麼自己沒有冰\n  可扔的時候，Ice Wolf還叫\n  Ice Wolf。",
+                    "<32>* Ice Wolf很疑惑。"
                  ],
          t_imafraidjumitebeinagang: pager.create(
             0,
@@ -2753,7 +2753,7 @@ export default {
             ? [ "FRISK", "DON'T YOU", "DARE COME", "AFTER US" ]
             : SAVE.data.n.plot === 72
             ? [ "SORRY", "BUT WE'RE", "OFFLINE", "LMAO" ]
-            : [ "REFRESH", "MESSAGES", "遊戲設定", "LOG OUT" ],
+            : [ "刷新頁面", "查看訊息", "聊天設定", "退出登錄" ],
       papcouch0: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (You can't seem to find anything in the couch.)" ]
@@ -7500,7 +7500,7 @@ export default {
    },
 
    n_shop_blook: {
-      exit: [ "<32>{#p/napstablook}{#k/0}* oh... you're leaving...", "<32>{#k/1}* well, cya next time i guess..." ],
+      exit: [ "<32>{#p/napstablook}{#k/0}* 喔... 你要走了...", "<32>{#k/1}* 行，下次再見，也許吧..." ],
       item: () =>
          blookGone()
             ? [
@@ -7545,13 +7545,13 @@ export default {
          blookGone() ? [ "拿取", "偷竊", "閱讀", "離開" ] : [ "購買", world.meanie ? "偷竊" : "出售", "交談", "離開" ],
       menuPrompt1: () =>
          [
-            "<23>{#p/napstablook}{#k/3}* have a look around...",
+            "<23>{#p/napstablook}{#k/3}* 來隨便看看吧...",
             "<23>{#p/napstablook}{#k/3}* i hope you find what you're looking for...",
-            "<23>{#p/napstablook}{#k/3}* have a look around... or not... it's your choice...",
-            "<23>{#p/napstablook}{#k/3}* have a look around, i guess...",
-            "<23>{#p/napstablook}{#k/3}* have a look around... or not... it's your choice..."
+            "<23>{#p/napstablook}{#k/3}* 來隨便看看吧...\n  不想也行...\n  一切由你...",
+            "<23>{#p/napstablook}{#k/3}* 來隨便看看...\n* 也許吧...",
+            "<23>{#p/napstablook}{#k/3}* 來隨便看看吧...\n  不想也行...\n  一切由你..."
          ][Math.min(SAVE.data.n.state_wastelands_napstablook, 4)],
-      menuPrompt2: "<23>{#p/napstablook}{#k/0}* feel free to leave at any time...",
+      menuPrompt2: "<23>{#p/napstablook}{#k/0}* 你可以隨時離開這裡... ",
       menuPrompt3: () =>
          world.bulrun ? "<23>{#p/basic}* ...但是人們都逃走了。" : "<23>{#p/basic}* ...但是誰也沒有來。",
       note: () =>
@@ -7575,8 +7575,8 @@ export default {
                     : "<30>{#k/0}* i'm so sorry... i don't have much to give..."
               ]
             : [
-                 "<30>{#p/napstablook}{#k/2}* oh... you wanted to sell something",
-                 "<30>{#k/0}* i don't know if i can afford to buy anything... sorry..."
+                 "<30>{#p/napstablook}{#k/2}* 喔... 你是想賣掉一些東西嗎",
+                 "<30>{#k/0}* 我不清楚我能不能買下\n  所有東西...\n  抱歉..."
               ],
       sell2: () =>
          blookGone()
@@ -7588,7 +7588,7 @@ export default {
               ]
             : [
                  "<30>{#p/napstablook}{#k/5}* um... you could ask my cousin about selling...",
-                 "<30>{#k/0}* they live with undyne, i think"
+                 "<30>{#k/0}* 我想它應該和安黛因住在一塊"
               ],
       talk: (name: string) =>
          SAVE.data.n.plot === 72
@@ -7614,12 +7614,12 @@ export default {
                     : "你的生活",
                  "離開"
               ],
-      talkPrompt: "<09>{#p/napstablook}{#k/1}oh, you wanna chat?",
+      talkPrompt: "<09>{#p/napstablook}{#k/1}喔, 想和\n我聊天嗎\n？",
       talkText: [
          () =>
             SAVE.data.n.plot === 72
                ? [
-                    "<32>{#p/napstablook}{#k/3}* oh, hey...",
+                    "<32>{#p/napstablook}{#k/3}* 喔，你好啊...",
                     "<32>{#k/0}* i think everybody dissappeared for a while...",
                     "<32>{#k/1}* but when they woke up, they all knew your name...",
                     "<32>{#k/3}* so... you're frisk, huh?",
@@ -7630,12 +7630,12 @@ export default {
                : SAVE.data.n.state_wastelands_napstablook < 2
                ? [
                     [
-                       "<32>{#p/napstablook}{#k/3}* oh, hey...",
+                       "<32>{#p/napstablook}{#k/3}* 喔，你好啊...",
                        "<32>{#p/napstablook}{#k/3}* oh, nice to see you again..."
                     ][SAVE.data.n.state_wastelands_napstablook],
                     ...(world.meanie
                        ? [ "<32>{#k/0}* what's that look for?\n* have i done something wrong..." ]
-                       : [ "<32>{#k/4}* what have you been up to?" ])
+                       : [ "<32>{#k/4}* 最近在忙些什麼呀？" ])
                  ]
                : SAVE.data.n.state_wastelands_napstablook < 5
                ? [
