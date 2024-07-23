@@ -3736,22 +3736,22 @@ export default {
          "<18>{#f/4}谁知道成为好朋友..."
       ],
       papyrusFinal4c1: [
-         "<18>{#f/0}WAS TO GIVE PEOPLE AWFUL PUZZLES AND THEN FIGHT THEM?",
-         "<18>YOU TAUGHT ME A LOT, HUMAN.",
-         "<18>{#f/9}I HEREBY GRANT YOU PERMISSION TO PASS THROUGH!",
-         "<18>{#f/0}AND I'LL GIVE YOU DIRECTIONS TO THE EXIT."
+         "<18>{#f/0}就是要给别人出\n烂透了的谜题\n再跟他们打架呢？",
+         "<18>你教会了我很多，\n人类。",
+         "<18>{#f/9}我特此\n允许你通过！",
+         "<18>{#f/0}我会引导你\n离开这里。"
       ],
       papyrusFinal4c2: [
-         "<18>CONTINUE FORWARD UNTIL YOU REACH THE CITADEL.",
-         "<18>THEN, HOP IN A CRAFT AND CROSS THE {@fill=#ff0}FORCE FIELD{@fill=#fff}.",
-         "<18>{#f/4}THAT'S THE THING TRAPPING US ALL ON THE OUTPOST.",
-         "<18>ANYONE CAN ENTER THROUGH IT, BUT NOBODY CAN EXIT...",
-         "<18>{#f/9}... EXCEPT SOMEONE WITH A POWERFUL SOUL.",
-         "<18>{#f/0}LIKE YOU!!!"
+         "<18>继续前进，\n直到你到达首塔。",
+         "<18>然后，\n跳进一艘飞船，\n穿过{@fill=#ff0}力场{@fill=#fff}。",
+         "<18>{#f/4}那就是把我们\n困在前哨站的\n东西。",
+         "<18>任何人都可以\n从力场进来，\n但谁都出不去...",
+         "<18>{#f/9}...除非拥有一个\n强大的灵魂。",
+         "<18>{#f/0}就比如你！！！"
       ],
       papyrusFinal4d: [
-         "<18>{#f/4}OH, I ALMOST FORGOT TO MENTION.",
-         "<18>TO REACH THE EXIT, YOU WILL HAVE TO PASS...",
+         "<18>{#f/4}哦，我差点\n忘记说了。",
+         "<18>你要到达出口，\n就必须要通过...",
          "<18>{#f/7}BY {@fill=#ff0}THE KING{@fill=#fff}.",
          "<18>{@fill=#ff0}THE KING OF ALL MONSTERS...",
          "<18>{@fill=#ff0}HE IS...",

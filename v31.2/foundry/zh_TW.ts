@@ -8209,7 +8209,7 @@ export default {
          ]
       },
       f_battle: {
-         name: "Foundry - Bridge",
+         name: "鑄廠 - 鋼索橋",
          text: () =>
             SAVE.data.n.state_foundry_undyne > 0 || world.runaway
                ? [ "<32>{#p/human}* (The starlight dims, filling you with determination.)" ]

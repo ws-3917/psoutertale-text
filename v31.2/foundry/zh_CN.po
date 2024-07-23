@@ -16715,7 +16715,7 @@ msgid "<32>{#p/human}* (This sense of limbo fills you with determination.)"
 msgstr ""
 
 msgid "Foundry - Bridge"
-msgstr ""
+msgstr "铸厂 - 钢索桥"
 
 msgid "<32>{#p/human}* (The starlight dims, filling you with determination.)"
 msgstr ""

@@ -8210,44 +8210,70 @@ msgid "<18>{#f/4}WHO KNEW THAT ALL I HAD TO DO..."
 msgstr "<18>{#f/4}谁知道成为好朋友..."
 
 msgid "<18>{#f/0}WAS TO GIVE PEOPLE AWFUL PUZZLES AND THEN FIGHT THEM?"
-msgstr "<18>{#f/0}WAS TO GIVE PEOPLE AWFUL PUZZLES AND THEN FIGHT THEM?"
+msgstr ""
+"<18>{#f/0}就是要给别人出\n"
+"烂透了的谜题\n"
+"再跟他们打架呢？"
 
 msgid "<18>YOU TAUGHT ME A LOT, HUMAN."
 msgstr ""
+"<18>你教会了我很多，\n"
+"人类。"
 
 msgid "<18>{#f/9}I HEREBY GRANT YOU PERMISSION TO PASS THROUGH!"
 msgstr ""
+"<18>{#f/9}我特此\n"
+"允许你通过！"
 
 msgid "<18>{#f/0}AND I'LL GIVE YOU DIRECTIONS TO THE EXIT."
 msgstr ""
+"<18>{#f/0}我会引导你\n"
+"离开这里。"
 
 msgid "<18>CONTINUE FORWARD UNTIL YOU REACH THE CITADEL."
 msgstr ""
+"<18>继续前进，\n"
+"直到你到达首塔。"
 
 msgid ""
 "<18>THEN, HOP IN A CRAFT AND CROSS THE {@fill=#ff0}FORCE FIELD{@fill=#fff}."
 msgstr ""
+"<18>然后，\n"
+"跳进一艘飞船，\n"
+"穿过{@fill=#ff0}力场{@fill=#fff}。"
 
 msgid "<18>{#f/4}THAT'S THE THING TRAPPING US ALL ON THE OUTPOST."
 msgstr ""
+"<18>{#f/4}那就是把我们\n"
+"困在前哨站的\n"
+"东西。"
 
 msgid "<18>ANYONE CAN ENTER THROUGH IT, BUT NOBODY CAN EXIT..."
 msgstr ""
+"<18>任何人都可以\n"
+"从力场进来，\n"
+"但谁都出不去..."
 
 msgid "<18>{#f/9}... EXCEPT SOMEONE WITH A POWERFUL SOUL."
 msgstr ""
+"<18>{#f/9}...除非拥有一个\n"
+"强大的灵魂。"
 
 msgid "<18>{#f/0}LIKE YOU!!!"
-msgstr ""
+msgstr "<18>{#f/0}就比如你！！！"
 
 msgid "<18>{#f/4}OH, I ALMOST FORGOT TO MENTION."
 msgstr ""
+"<18>{#f/4}哦，我差点\n"
+"忘记说了。"
 
 msgid "<18>TO REACH THE EXIT, YOU WILL HAVE TO PASS..."
 msgstr ""
+"<18>你要到达出口，\n"
+"就必须要通过..."
 
 msgid "<18>{#f/7}BY {@fill=#ff0}THE KING{@fill=#fff}."
-msgstr ""
+msgstr "<18>{#f/7}BY {@fill=#ff0}THE KING{@fill=#fff}."
 
 msgid "<18>{@fill=#ff0}THE KING OF ALL MONSTERS..."
 msgstr ""
