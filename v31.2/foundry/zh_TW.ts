@@ -1318,7 +1318,7 @@ export default {
          ]
       },
       napcomputer4: {
-         a: () => [ "鬼怪舞曲.kwac", "鬼怪混音集" ],
+         a: () => [ "鬼怪舞曲.kwac", "鬼怪混音集.kwac" ],
          b: () => [ "NAPSTABLOOK22", "NAPSTABLOOK22" ]
       },
       noTem: [ "<32>{#p/tem}* oh no, it's a... FISHES!!!" ],

@@ -3116,7 +3116,7 @@ msgid "Ghost Rave.kwac"
 msgstr "鬼怪舞曲.kwac"
 
 msgid "Spooktune Mashup.kwac"
-msgstr "鬼怪混音集"
+msgstr "鬼怪混音集.kwac"
 
 msgid "NAPSTABLOOK22"
 msgstr "NAPSTABLOOK22"
