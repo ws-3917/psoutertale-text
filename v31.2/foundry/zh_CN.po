@@ -10430,7 +10430,7 @@ msgid "<25>{#f/18}* What did you do to him?"
 msgstr "<25>{#f/18}* 告诉我，你把他怎么了？"
 
 msgid "<25>{#f/11}{#x8}* What did you DO TO HIM?"
-msgstr "<25>{#f/11}{#x8}* 你把他 怎{^4} 么{^4} 了{^4}？"
+msgstr "<25>{#f/11}{#x8}* 你把他{^6} 怎{^6} 么{^6} 了{^6}？"
 
 msgid "<25>{#f/16}{#x9}* And those missing members of the guard..."
 msgstr ""

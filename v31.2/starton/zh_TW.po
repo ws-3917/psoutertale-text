@@ -8354,33 +8354,47 @@ msgstr ""
 "抓捕你了。"
 
 msgid "<18>{#f/5}WOULD YOU LIKE TO PASS THROUGH..."
-msgstr "<18>{#f/5}WOULD YOU LIKE TO PASS THROUGH..."
+msgstr ""
+"<18>{#f/5}我們要不要就\n"
+"不戰鬥了..."
 
 msgid "<18>{#f/5}... WITHOUT A BATTLE?"
 msgstr ""
+"<18>{#f/5}...我直接\n"
+"放你走呢？"
 
 msgid ""
 "<18>{#p/papyrus}{#f/31}...\n"
 "OKAY..."
 msgstr ""
+"<18>{#p/papyrus}{#f/31}...\n"
+"好..."
 
 msgid "<18>{#f/3}I GUESS I'LL ACCEPT MY FAILURE."
 msgstr ""
+"<18>{#f/3}我想，我會接受\n"
+"我的失敗的。"
 
 msgid "<18>{#p/papyrus}{#f/4}WELL, IF YOU SAY SO, THEN..."
 msgstr ""
+"<18>{#p/papyrus}{#f/4}嗯，既然你都\n"
+"這樣說了，那..."
 
 msgid "<18>{#f/9}BY ALL MEANS!!!"
 msgstr ""
+"<18>{#f/9}我就\n"
+"奉陪到底！！！"
 
 msgid "<18>{#p/papyrus}{#f/1}AGAIN??"
-msgstr ""
+msgstr "<18>{#p/papyrus}{#f/1}還來？？？"
 
 msgid "<18>{#f/4}... WELL, OKAY..."
-msgstr ""
+msgstr "<18>{#f/4}...那，好吧..."
 
 msgid "<18>{#f/9}WILL YOU FORGO THE BATTLE THIS TIME??"
 msgstr ""
+"<18>{#f/9}你這次要\n"
+"放棄戰鬥嗎？？"
 
 msgid "<18>{#p/papyrus}{#f/0}OKAY, HERE WE GO!"
 msgstr ""

@@ -5020,7 +5020,7 @@ export default {
          "<25>{#f/22}{#x7}* 他的兄弟，也失踪了。",
          "<25>* ...",
          "<25>{#f/18}* 告诉我，你把他怎么了？",
-         "<25>{#f/11}{#x8}* 你把他 怎{^4} 么{^4} 了{^4}？",
+         "<25>{#f/11}{#x8}* 你把他{^6} 怎{^6} 么{^6} 了{^6}？",
          ...((SAVE.data.n.state_foundry_doge === 1 ? 1 : 0) +
             (SAVE.data.n.state_starton_doggo === 2 ? 1 : 0) +
             (SAVE.data.n.state_starton_dogs === 2 ? 2 : 0) +

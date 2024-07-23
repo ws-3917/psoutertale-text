@@ -3798,16 +3798,16 @@ export default {
          "<18>{#f/6}我...",
          "<18>{#f/31}我覺得我不能和\n這樣覺得的人\n戰鬥。",
          "<18>{#f/4}更不用說，\n我已經有點不想\n抓捕你了。",
-         "<18>{#f/5}WOULD YOU LIKE TO PASS THROUGH...",
-         "<18>{#f/5}... WITHOUT A BATTLE?",
+         "<18>{#f/5}我們要不要就\n不戰鬥了...",
+         "<18>{#f/5}...我直接\n放你走呢？",
          choicer.create("* （你要怎麼回答？）", "是", "否")
       ],
-      papyrusFinal7a: [ "<18>{#p/papyrus}{#f/31}...\nOKAY...", "<18>{#f/3}I GUESS I'LL ACCEPT MY FAILURE." ],
-      papyrusFinal7b: [ "<18>{#p/papyrus}{#f/4}WELL, IF YOU SAY SO, THEN...", "<18>{#f/9}BY ALL MEANS!!!" ],
+      papyrusFinal7a: [ "<18>{#p/papyrus}{#f/31}...\n好...", "<18>{#f/3}我想，我會接受\n我的失敗的。" ],
+      papyrusFinal7b: [ "<18>{#p/papyrus}{#f/4}嗯，既然你都\n這樣說了，那...", "<18>{#f/9}我就\n奉陪到底！！！" ],
       papyrusFinal8: [
-         "<18>{#p/papyrus}{#f/1}AGAIN??",
-         "<18>{#f/4}... WELL, OKAY...",
-         "<18>{#f/9}WILL YOU FORGO THE BATTLE THIS TIME??",
+         "<18>{#p/papyrus}{#f/1}還來？？？",
+         "<18>{#f/4}...那，好吧...",
+         "<18>{#f/9}你這次要\n放棄戰鬥嗎？？",
          choicer.create("* （你要怎麼回答？）", "是", "否")
       ],
       papyrusFinal8a: [ "<18>{#p/papyrus}{#f/0}OKAY, HERE WE GO!" ],
