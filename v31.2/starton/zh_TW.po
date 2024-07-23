@@ -8354,7 +8354,7 @@ msgstr ""
 "抓捕你了。"
 
 msgid "<18>{#f/5}WOULD YOU LIKE TO PASS THROUGH..."
-msgstr ""
+msgstr "<18>{#f/5}WOULD YOU LIKE TO PASS THROUGH..."
 
 msgid "<18>{#f/5}... WITHOUT A BATTLE?"
 msgstr ""

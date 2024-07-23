@@ -114,7 +114,7 @@ msgid "Interact"
 msgstr "允許角色互動"
 
 msgid "Input"
-msgstr "允許遊戲鍵入"
+msgstr "允許遊戲輸入"
 
 msgid "Movement"
 msgstr "允許角色行動"
@@ -525,7 +525,7 @@ msgid "Next"
 msgstr "下一頁"
 
 msgid "Enter Value"
-msgstr "鍵入變量值"
+msgstr "輸入變量值"
 
 msgid "Back"
 msgstr "返回"
@@ -1884,7 +1884,7 @@ msgstr ""
 "按 [ESC] 跳過設定。"
 
 msgid "Inputs Assigned: $(x)"
-msgstr "鍵入分配到：$(x)"
+msgstr "輸入分配到：$(x)"
 
 msgid "[Z or ENTER] - Confirm"
 msgstr "[Z 或 ENTER] - 確認/互動"
@@ -2081,7 +2081,7 @@ msgstr "確定"
 
 msgid "§fill=#808080§ [ESC] - Quit / [ENTER] - Done"
 msgstr ""
-"§fill=#808080§鍵盤鍵入，支援中文。\n"
+"§fill=#808080§鍵盤輸入，支援中文。\n"
 "\n"
 "[ENTER] - 確定\n"
 "[BACKSPACE] - 刪除\n"
@@ -2280,7 +2280,7 @@ msgid "Create New"
 msgstr "新建"
 
 msgid "Enter Timeline Name"
-msgstr "鍵入時間軸名稱"
+msgstr "輸入時間軸名稱"
 
 msgid "Are You Sure?"
 msgstr "確定刪除嗎？"

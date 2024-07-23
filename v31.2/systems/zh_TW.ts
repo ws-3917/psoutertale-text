@@ -41,7 +41,7 @@ export default {
                "角色初始化",
                "無限金錢",
                "允許角色互動",
-               "允許遊戲鍵入",
+               "允許遊戲輸入",
                "允許角色行動",
                "無視牆體",
                "快速存檔",
@@ -202,7 +202,7 @@ export default {
             prev: "上一頁",
             next: "下一頁"
          },
-         prompt: "鍵入變量值",
+         prompt: "輸入變量值",
          back: "返回"
       },
       storage: {
@@ -901,7 +901,7 @@ export default {
       prompt: "控制器設定",
       prompt_desc:
          "從遊戲控制器上選擇一個按鍵\n用來控制遊戲中的某個操作。\n\n按下相同的按鍵進行確認，\n或按下其他按鍵重新設定。\n\n按 [ESC] 跳過設定。",
-      prompt_counter: "鍵入分配到：$(x)",
+      prompt_counter: "輸入分配到：$(x)",
       z: "[Z 或 ENTER] - 確認/互動",
       x: "[X 或 SHIFT] - 返回",
       c: "[C 或 CTRL] - 選單（遊戲內）",
@@ -971,7 +971,7 @@ export default {
       name2: "返回",
       name3: "刪除",
       name4: "確定",
-      name5: "§fill=#808080§鍵盤鍵入，支援中文。\n\n[ENTER] - 確定\n[BACKSPACE] - 刪除\n[ESC] - 返回",
+      name5: "§fill=#808080§鍵盤輸入，支援中文。\n\n[ENTER] - 確定\n[BACKSPACE] - 刪除\n[ESC] - 返回",
 
       save1: "儲存",
       save2: "返回",
@@ -1048,7 +1048,7 @@ export default {
       launch: "進入",
       rename: "重命名",
       create: "新建",
-      placeholder: "鍵入時間軸名稱",
+      placeholder: "輸入時間軸名稱",
       confirm: "確定刪除嗎？"
    }
 };
