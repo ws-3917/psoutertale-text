@@ -8251,76 +8251,107 @@ msgstr ""
 
 msgid "<18>{#p/papyrus}{#f/5}OH, WHERE COULD THAT HUMAN HAVE GONE..."
 msgstr ""
+"<18>{#p/papyrus}{#f/5}哦，那个人类\n"
+"到哪里去了呢..."
 
 msgid ""
 "<18>{#f/4}...\n"
 "WAIT."
 msgstr ""
+"<18>{#f/4}...\n"
+"等等。"
 
 msgid "<18>{#f/1}IT'S RIGHT IN FRONT OF ME!!!"
-msgstr ""
+msgstr "<18>{#f/1}就在我面前！！！"
 
 msgid "<18>{#f/0}HELLO! I WAS WORRIED THAT YOU HAD GOTTEN LOST!"
 msgstr ""
+"<18>{#f/0}你好啊！\n"
+"我还在担心你\n"
+"是不是迷路了呢！"
 
 msgid "<18>IT SURE IS A RELIEF TO SEE THAT YOU'RE HERE..."
 msgstr ""
+"<18>看到你了，我就\n"
+"可以松口气了..."
 
 msgid ""
 "<18>{#f/7}...\n"
 "WAIT A SECOND!!!"
 msgstr ""
+"<18>{#f/7}...\n"
+"等一下！！！"
 
 msgid "<18>YOU'RE NOT SUPPOSED TO ESCAPE!!!"
-msgstr ""
+msgstr "<18>你不应该逃走的！！！"
 
 msgid "<18>GET BACK THERE!!!"
-msgstr ""
+msgstr "<18>快回来！！！"
 
 msgid "<18>{#p/papyrus}{#f/4}BACK AGAIN, EH?"
-msgstr ""
+msgstr "<18>{#p/papyrus}{#f/4}又回来了，嗯？"
 
 msgid "<18>{#f/5}I SUPPOSE IT'S MY FAULT..."
 msgstr ""
+"<18>{#f/5}我觉得应该是\n"
+"我的问题..."
 
 msgid "<18>I TOLD YOU BEFORE THAT I WOULD MAKE YOU SPAGHETTI."
 msgstr ""
+"<18>我之前答应过你，\n"
+"我会给你做意面。"
 
 msgid "<18>IT'S ONLY NATURAL THAT YOU WOULD WANT TO SEE ME..."
 msgstr ""
+"<18>你想见我的原因\n"
+"不言自明..."
 
 msgid "<18>IN THE DIRE HOPE THAT I WOULD MAKE YOU SOME."
 msgstr ""
+"<18>就是让我给你\n"
+"做一点吃。"
 
 msgid "<18>{#f/0}WELL... I UNDERSTAND."
-msgstr ""
+msgstr "<18>{#f/0}好... 我懂了。"
 
 msgid "<18>{#f/0}PAPYRUS IS HUNGRY, TOO!"
-msgstr ""
+msgstr "<18>{#f/0}PAPYRUS也很饥渴！"
 
 msgid "<18>{#f/7}HUNGRY FOR JUSTICE!"
 msgstr ""
+"<18>{#f/7}对正义的\n"
+"如饥似渴！"
 
 msgid "<18>{#p/papyrus}{#f/1}YOU'RE BACK AGAIN!?!?"
-msgstr ""
+msgstr "<18>{#p/papyrus}{#f/1}你又回来了！？！？"
 
 msgid "<18>{#f/4}I FINALLY REALIZE THE TRUE REASON WHY."
 msgstr ""
+"<18>{#f/4}我终于知道\n"
+"为什么了。"
 
 msgid "<18>{#f/5}YOU..."
-msgstr ""
+msgstr "<18>{#f/5}你..."
 
 msgid "<18>YOU JUST MISS SEEING MY FACE SO MUCH..."
 msgstr ""
+"<18>你就是太想\n"
+"看到我的脸了..."
 
 msgid "<18>{#f/6}I..."
-msgstr ""
+msgstr "<18>{#f/6}我..."
 
 msgid "<18>{#f/31}I'M NOT SURE I CAN FIGHT SOMEONE WHO FEELS THIS WAY."
 msgstr ""
+"<18>{#f/31}我觉得我不能和\n"
+"这样觉得的人\n"
+"战斗。"
 
 msgid "<18>{#f/4}NOT TO MENTION, I'M GETTING TIRED OF CAPTURING YOU."
 msgstr ""
+"<18>{#f/4}更不用说，\n"
+"我已经有点不想\n"
+"抓捕你了。"
 
 msgid "<18>{#f/5}WOULD YOU LIKE TO PASS THROUGH..."
 msgstr ""

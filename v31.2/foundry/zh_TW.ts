@@ -1133,8 +1133,8 @@ export default {
                : [ "<25>{#p/asriel2}{#f/10}* ..." ])
          ],
          kiddFinal4: [ "<32>{#p/asriel2}{#f/6}* 她在那。" ],
-         kiddFinal5: [ "<32>{#f/6}* 就是現在。", "<32>{#f/7}* ..." ],
-         kiddFinal6: [ "<32>{*}{#p/asriel2}{#f/14}{@random=1.1/1.1}{@fill=#f00}* 給我上。{%100}" ],
+         kiddFinal5: [ "<32>{#f/6}* 給我上。", "<32>{#f/7}* ..." ],
+         kiddFinal6: [ "<32>{*}{#p/asriel2}{#f/14}{@random=1.1/1.1}{@fill=#f00}* 還不快去。{%100}" ],
          kiddFinal7: [
             "<25>{#p/kidd}{#f/12}* ...",
             "<25>{#p/undyne}{#f/13}* 搞什麼？\n* 你來這幹嘛！？",

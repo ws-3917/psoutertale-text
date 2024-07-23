@@ -2684,13 +2684,13 @@ msgid "<32>{#p/asriel2}{#f/6}* There she is."
 msgstr "<32>{#p/asriel2}{#f/6}* 她在那。"
 
 msgid "<32>{#f/6}* Now."
-msgstr "<32>{#f/6}* 就是现在。"
+msgstr "<32>{#f/6}* 给我上。"
 
 msgid "<32>{#f/7}* ..."
 msgstr "<32>{#f/7}* ..."
 
 msgid "<32>{*}{#p/asriel2}{#f/14}{@random=1.1/1.1}{@fill=#f00}* Do it.{%100}"
-msgstr "<32>{*}{#p/asriel2}{#f/14}{@random=1.1/1.1}{@fill=#f00}* 给我上。{%100}"
+msgstr "<32>{*}{#p/asriel2}{#f/14}{@random=1.1/1.1}{@fill=#f00}* 还不快去。{%100}"
 
 msgid "<25>{#p/kidd}{#f/12}* ..."
 msgstr "<25>{#p/kidd}{#f/12}* ..."
