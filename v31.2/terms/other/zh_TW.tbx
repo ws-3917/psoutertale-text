@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE martif PUBLIC "ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN" "TBXcdv04.dtd">
+<martif type="TBX" xml:lang="en">
+    <martifHeader>
+        <fileDesc>
+            <sourceDesc>
+                <p>Translate Toolkit</p>
+            </sourceDesc>
+        </fileDesc>
+    </martifHeader>
+    <text>
+        <body>
+            <termEntry id="Undyne's laughter">
+                <langSet xml:lang="en"><tig><term>Fuhuhu</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term>呋呼呼</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Twinkly/Chaotic Asriel說的+Paps在場務必按這個翻，其它情況若能保證通順也儘量按這個翻">
+                <langSet xml:lang="en"><tig><term>idiot</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term>蠢貨</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Monster Kid">
+                <langSet xml:lang="en"><tig><term>Yo</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term>喲</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Signal Star</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term>訊星</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Gerson's laughter">
+                <langSet xml:lang="en"><tig><term>Wa ha ha</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term>哇哈哈</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Outernet</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term>域外網</term></tig></langSet>
+            </termEntry>
+            <termEntry id="term">
+                <langSet xml:lang="en"><tig><term>boss monster</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term>王級怪物</term></tig></langSet>
+            </termEntry>
+            <termEntry id="cell">
+                <langSet xml:lang="en"><tig><term>Keyring</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>鑰匙串</term></tig></langSet>
+            </termEntry>
+        </body>
+    </text>
+</martif>
