@@ -5016,7 +5016,7 @@ export default {
          "<25>{#f/18}{#x4}* 而且，不管几点钟\n  给他打电话...",
          "<25>{#f/20}{#x5}* 他都绝不会\n  响铃两次还不接。",
          "<25>* ...",
-         "<25>{#f/18}{#x6}* 现在，他死了。",
+         "<25>{#f/18}{#x6}* 现在，他不在了。",
          "<25>{#f/22}{#x7}* 他的兄弟，也失踪了。",
          "<25>* ...",
          "<25>{#f/18}* 告诉我，你把他怎么了？",
@@ -6412,7 +6412,7 @@ export default {
       earlyChallenge: () =>
          SAVE.data.n.state_starton_papyrus === 1
             ? [
-                 "<20>{#p/undyne}{#e/undyne/3}想{@fill=#f00}硬碰硬{@fill=#000}，是吗？",
+                 "<20>{#p/undyne}{#e/undyne/3}想跟我{@fill=#f00}硬碰硬{@fill=#000}，是吗？",
                  "<20>{#e/undyne/2}成全你。"
               ]
             : respecc()
@@ -6462,7 +6462,7 @@ export default {
          respecc() ? [ "<32>{#p/story}* Smells like talapia." ] : [ "<32>{#p/story}* Smells like sushi." ],
       papStatus1: [ "<32>{#p/story}* Undyne的眼角闪烁着泪光。" ],
       papStatus2: [ "<32>{#p/story}* Undyne沉着脸，死死瞪着你。" ],
-      papStatus3: [ "<32>{#p/story}* Undyne想到了她的朋友，\n  用尽全身力气向地猛击。" ],
+      papStatus3: [ "<32>{#p/story}* Undyne想到了她的朋友，\n  用尽全力向地猛击。" ],
       papStatus4: [ "<32>{#p/story}* Undyne没心情跟你胡闹。" ],
       papStatus5: [ "<32>{#p/story}* 金枪鱼沙拉的味道扑面而来。" ],
       endStatus1: [ "<32>{#p/story}* Undyne's eye is twitching involuntarily." ],
@@ -6565,15 +6565,15 @@ export default {
             : [ "<20>{#p/undyne}{#e/undyne/1}Not bad!\nThen how about THIS!?" ],
       turnTalkA2: () =>
          SAVE.data.n.state_starton_papyrus === 1
-            ? [ "<20>{#p/undyne}{#e/undyne/2}我给你讲个故事吧。" ]
+            ? [ "<20>{#p/undyne}{#e/undyne/2}给你讲个故事吧。" ]
             : respecc()
             ? [ "<20>{#p/undyne}{#e/undyne/0}It's been a long time since I've met a warrior like you..." ]
             : [ "<20>{#p/undyne}{#e/undyne/0}For years, we've dreamed of a happy ending..." ],
       turnTalkA3: () =>
          SAVE.data.n.state_starton_papyrus === 1
             ? [
-                 "<20>{#p/undyne}{#e/undyne/2}在我小的时候，\n我努力训练，\n梦想成为一名\n皇家守卫...",
-                 "<20>{#p/undyne}{#e/undyne/2}然而，事情并非\n一帆风顺。"
+                 "<20>{#p/undyne}{#e/undyne/2}在我小的时候，\n我努力训练，\n梦想成为一名皇家守卫...",
+                 "<20>{#p/undyne}{#e/undyne/2}然而，\n事情并非一帆风顺。"
               ]
             : respecc()
             ? [ "<20>{#p/undyne}{#e/undyne/0}And now, I've got the chance to do battle with one!" ]
@@ -6595,14 +6595,14 @@ export default {
          SAVE.data.n.state_starton_papyrus === 1
             ? [
                  "<20>{#p/undyne}{#e/undyne/11}重重困难将我击垮，\n每一步，都异常艰难。",
-                 "<20>{#e/undyne/3}我哀嚎着，多么渴望\n有人能听到我的心声。"
+                 "<20>{#e/undyne/3}我哀嚎着，多么希望\n有人能听到我的心声。"
               ]
             : [ "<20>{#p/undyne}{#e/undyne/20}Well... you're tough!" ],
       turnTalkA6b: () =>
          SAVE.data.n.state_starton_papyrus === 1
             ? [
                  "<20>{#p/undyne}{#e/undyne/11}重重困难将我击垮，\n每一步，都异常艰难。",
-                 "<20>{#e/undyne/3}我哀嚎着，多么渴望\n有人能听到我的心声。"
+                 "<20>{#e/undyne/3}我哀嚎着，多么希望\n有人能听到我的心声。"
               ]
             : respecc()
             ? [ "<20>{#p/undyne}{#e/undyne/9}Come on!\nHit me already!", "<20>{#e/undyne/7}Don't just stand there!" ]
@@ -6680,7 +6680,7 @@ export default {
          SAVE.data.n.state_starton_papyrus === 1
             ? [
                  "<20>{#p/undyne}{#e/undyne/4}即便我拥有再大的胆识，\n再多的力量...",
-                 "<20>{#e/undyne/11}我也无法像他那样，\n拥有纯洁无瑕的心灵。"
+                 "<20>{#e/undyne/11}也无法像他那样，\n拥有纯洁无瑕的心灵。"
               ]
             : respecc()
             ? [ "<20>{#p/undyne}{#e/undyne/5}Anyone else would've GIVEN UP by now!" ]
@@ -6709,7 +6709,7 @@ export default {
                  world.trueKills > 9
                     ? "<20>{#p/undyne}{#e/undyne/11}With him and so many others gone..."
                     : "<20>{#p/undyne}{#e/undyne/11}你斩碎了他的头颅之时，\n也斩碎了仅存的仁慈。",
-                 "<20>{#p/undyne}{#e/undyne/2}而我能给你的\n全部“仁慈”....",
+                 "<20>{#p/undyne}{#e/undyne/2}而我能给你的\n全部“仁慈”...",
                  "<20>{#p/undyne}{#e/undyne/1}就是让你死得痛快点！"
               ]
             : respecc()
@@ -6724,7 +6724,7 @@ export default {
                  world.trueKills > 9
                     ? "<20>{#p/undyne}{#e/undyne/11}With him and so many others gone..."
                     : "<20>{#p/undyne}{#e/undyne/11}你斩碎了他的头颅之时，\n也斩碎了仅存的仁慈。",
-                 "<20>{#p/undyne}{#e/undyne/2}而我能给你的\n全部“仁慈”....",
+                 "<20>{#p/undyne}{#e/undyne/2}而我能给你的\n全部“仁慈”...",
                  "<20>{#p/undyne}{#e/undyne/1}就是让你死得痛快点！"
               ]
             : respecc()
