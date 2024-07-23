@@ -1301,12 +1301,12 @@ export default {
       napcomputer2: [ "<32>{#p/human}* (You decide not to look.)" ],
       napcomputer3: {
          a: () => [
-            "MTT Tunes - Solarwave.kwac",
-            "MTT Tunes - Planetary.kwac",
-            SAVE.data.n.plot === 72 ? "Parting of Ways.kwac" : "Bad Wolf.kwac",
-            "MMSA - Main Theme.kwac",
-            !world.genocide && SAVE.data.n.state_starton_papyrus === 1 ? "papyrus tribute.kwac" : "funny autotune.kwac",
-            "Song of the Stars.kwac"
+            "镁塔静听 - 日光涟漪.kwac",
+            "镁塔静听 - 星河渡歌.kwac",
+            SAVE.data.n.plot === 72 ? "缘聚缘散.kwac" : "恶狼.kwac",
+            "喵喵航天行 - 主题曲.kwac",
+            !world.genocide && SAVE.data.n.state_starton_papyrus === 1 ? "帕派瑞斯求包养.kwac" : "滑腔动调.kwac",
+            "群星之歌.kwac"
          ],
          b: () => [
             "酷炫骷髅95",
@@ -1318,7 +1318,7 @@ export default {
          ]
       },
       napcomputer4: {
-         a: () => [ "Ghost Rave.kwac", "Spooktune Mashup.kwac" ],
+         a: () => [ "鬼怪舞曲.kwac", "鬼怪混音集" ],
          b: () => [ "纳普斯特22", "纳普斯特22" ]
       },
       noTem: [ "<32>{#p/tem}* oh no, it's a... FISHES!!!" ],

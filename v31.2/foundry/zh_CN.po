@@ -3071,28 +3071,28 @@ msgid "<32>{#p/human}* (You decide not to look.)"
 msgstr ""
 
 msgid "MTT Tunes - Solarwave.kwac"
-msgstr ""
+msgstr "MTT静听 - 日光涟漪.kwac"
 
 msgid "MTT Tunes - Planetary.kwac"
-msgstr ""
+msgstr "MTT静听 - 星河渡歌.kwac"
 
 msgid "Parting of Ways.kwac"
-msgstr ""
+msgstr "缘聚缘散.kwac"
 
 msgid "Bad Wolf.kwac"
-msgstr ""
+msgstr "恶狼.kwac"
 
 msgid "MMSA - Main Theme.kwac"
-msgstr ""
+msgstr "喵喵航天行 - 主题曲.kwac"
 
 msgid "papyrus tribute.kwac"
-msgstr ""
+msgstr "papyrus求包养.kwac"
 
 msgid "funny autotune.kwac"
-msgstr ""
+msgstr "滑腔动调.kwac"
 
 msgid "Song of the Stars.kwac"
-msgstr ""
+msgstr "群星之歌.kwac"
 
 msgid "COOLSKELETON95"
 msgstr "酷炫骷髅95"
@@ -3113,10 +3113,10 @@ msgid "(Unknown)"
 msgstr "（游客）"
 
 msgid "Ghost Rave.kwac"
-msgstr ""
+msgstr "鬼怪舞曲.kwac"
 
 msgid "Spooktune Mashup.kwac"
-msgstr ""
+msgstr "鬼怪混音集"
 
 msgid "NAPSTABLOOK22"
 msgstr "NAPSTABLOOK22"

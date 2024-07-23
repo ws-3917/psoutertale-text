@@ -898,9 +898,9 @@ export default {
    },
 
    gamepad: {
-      prompt: "手柄設定",
+      prompt: "控制器設定",
       prompt_desc:
-         "從遊戲手柄上選擇一個按鍵\n用來控制遊戲中的某個操作。\n\n按下相同的按鍵進行確認，\n或按下其他按鍵重新設定。\n\n按 [ESC] 跳過設定。",
+         "從遊戲控制器上選擇一個按鍵\n用來控制遊戲中的某個操作。\n\n按下相同的按鍵進行確認，\n或按下其他按鍵重新設定。\n\n按 [ESC] 跳過設定。",
       prompt_counter: "鍵入分配到：$(x)",
       z: "[Z 或 ENTER] - 確認/互動",
       x: "[X 或 SHIFT] - 返回",
@@ -911,9 +911,9 @@ export default {
       r: "[→ 或 D] - 右移",
       f: "[F4] - 全螢幕",
       prompt_done: "設定完成。\n按任意鍵繼續。",
-      prompt_done_browser: "\n注意：在本平臺執行遊戲時，\n可能無法用手柄開啟全螢幕。",
+      prompt_done_browser: "\n注意：在本平臺執行遊戲時，\n可能無法用控制器開啟全螢幕。",
       prompt_load:
-         "遊戲手柄設定完成，\n按任意鍵繼續。\n或者連按某個鍵三次\n重新設定手柄。"
+         "遊戲控制器設定完成，\n按任意鍵繼續。\n或者連按某個鍵三次\n重新設定控制器。"
    },
 
    general: {
@@ -1044,7 +1044,7 @@ export default {
       bisect: "切分",
       delete: "刪除",
       instruction: "[ESC]取消 / [ENTER]確定",
-      instruction_gamepad: "按手柄上任意按鈕打開鍵盤。",
+      instruction_gamepad: "按控制器上任意按鈕打開鍵盤。",
       launch: "進入",
       rename: "重命名",
       create: "新建",
