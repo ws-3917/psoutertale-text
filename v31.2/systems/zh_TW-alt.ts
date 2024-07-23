@@ -30,7 +30,7 @@ export default {
             header: "忽略",
             resume: "點擊此處忽略錯誤"
          },
-         blurb: "程式出現錯誤！\n請將錯誤資訊截圖發給開發者。"
+         blurb: "程式出現錯誤！\n請將錯誤資訊截圖傳送給開發者。"
       },
       control: {
          tab: "快捷功能",
@@ -900,7 +900,7 @@ export default {
    gamepad: {
       prompt: "手柄設定",
       prompt_desc:
-         "從遊戲手柄上選擇一個按鍵\n用來控制遊戲中的某個操作。\n\n按下相同的按鍵進行確認，\n或按下其他按鍵重新設定。\n\n按[ESC]跳過設定。",
+         "從遊戲手柄上選擇一個按鍵\n用來控制遊戲中的某個操作。\n\n按下相同的按鍵進行確認，\n或按下其他按鍵重新設定。\n\n按 [ESC] 跳過設定。",
       prompt_counter: "鍵入分配到：$(x)",
       z: "[Z 或 ENTER] - 確認/互動",
       x: "[X 或 SHIFT] - 返回",
@@ -1039,7 +1039,7 @@ export default {
 
    timeline: {
       main: "重返主時間軸",
-      main_ex: "Start Canon Timeline",
+      main_ex: "開啟主時間軸",
       timelines: "其它時間軸的位置",
       bisect: "切分",
       delete: "刪除",

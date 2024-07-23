@@ -900,7 +900,7 @@ export default {
    gamepad: {
       prompt: "手柄设定",
       prompt_desc:
-         "从游戏手柄上选择一个按键\n用来控制游戏中的某个操作。\n\n按下相同的按键进行确认，\n或按下其他按键重新设置。\n\n按[ESC]跳过设置。",
+         "从游戏手柄上选择一个按键\n用来控制游戏中的某个操作。\n\n按下相同的按键进行确认，\n或按下其他按键重新设置。\n\n按 [ESC] 跳过设置。",
       prompt_counter: "输入分配到：$(x)",
       z: "[Z 或 ENTER] - 确认/交互",
       x: "[X 或 SHIFT] - 返回",
@@ -1039,7 +1039,7 @@ export default {
 
    timeline: {
       main: "重返主时间线",
-      main_ex: "Start Canon Timeline",
+      main_ex: "开启主时间线",
       timelines: "其他时间线槽位",
       bisect: "切分",
       delete: "删除",

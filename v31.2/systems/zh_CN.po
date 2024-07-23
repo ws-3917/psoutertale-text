@@ -1881,7 +1881,7 @@ msgstr ""
 "按下相同的按键进行确认，\n"
 "或按下其他按键重新设置。\n"
 "\n"
-"按[ESC]跳过设置。"
+"按 [ESC] 跳过设置。"
 
 msgid "Inputs Assigned: $(x)"
 msgstr "输入分配到：$(x)"
@@ -2253,7 +2253,7 @@ msgid "Resume Canon Timeline"
 msgstr "重返主时间线"
 
 msgid "Start Canon Timeline"
-msgstr ""
+msgstr "开启主时间线"
 
 msgid "Other Slots"
 msgstr "其他时间线槽位"
