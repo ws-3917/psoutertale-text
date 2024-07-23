@@ -10462,7 +10462,7 @@ msgid ""
 "<25>{#f/16}{#x10}* Go ahead.\n"
 "* Prepare however you want."
 msgstr ""
-"<25>{#f/16}{#x10}* 向前進，隨你。\n"
+"<25>{#f/16}{#x10}* 想前進，隨你。\n"
 "* 我給你準備的時間。"
 
 msgid "<25>{#f/20}* But when you step forward..."

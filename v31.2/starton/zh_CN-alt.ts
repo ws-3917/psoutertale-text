@@ -2445,8 +2445,8 @@ export default {
                        SAVE.data.n.plot_date < 0.1 &&
                        SAVE.data.n.state_starton_papyrus !== 1
                           ? [
-                               "<18>{#p/papyrus}{#f/0}HOW NICE OF YOU TO CHECK MY MAIL!",
-                               "<18>{#p/papyrus}{#f/4}THANKFULLY, I'VE ALREADY COLLECTED IT ALL."
+                               "<18>{#p/papyrus}{#f/0}谢谢你你能来\n检查我的邮件！",
+                               "<18>{#p/papyrus}{#f/4}谢天谢地，\n我已经全部都\n整理好了。"
                             ]
                           : [])
                     ],
@@ -2791,10 +2791,10 @@ export default {
       paproom5: [ "<18>{#p/papyrus}{#f/4}(SIGH...)" ],
       papdate0: () => [
          SAVE.data.b.flirt_papyrus
-            ? "<18>{#p/papyrus}{#f/5}WOWIE, YOU'RE SO EAGER TO DATE..."
+            ? "<18>{#p/papyrus}{#f/5}哇，你真的\n好渴望约会啊..."
             : "<18>{#p/papyrus}{#f/5}WOWIE, YOU'RE SO EAGER TO HANG OUT WITH ME...",
-         "<18>{#f/5}THAT YOU'RE TRYING TO GO IN MY HOUSE AHEAD OF ME!",
-         "<18>{#f/6}THAT'S DEDICATION!"
+         "<18>{#f/5}甚至要抢在\n我前面进我家！",
+         "<18>{#f/6}你真的\n很重视啊！"
       ],
       papdate1x: pager.create(
          0,
@@ -2808,8 +2808,8 @@ export default {
       ),
       papdate1: () => [
          SAVE.data.b.flirt_papyrus
-            ? "<18>{#p/papyrus}SO YOU CAME BACK TO HAVE A DATE WITH ME!"
-            : "<18>{#p/papyrus}SO YOU CAME BACK TO SEE ME!",
+            ? "<18>{#p/papyrus}所以你回来\n跟我约会了！"
+            : "<18>{#p/papyrus}所以你回来\n看我了！",
          ...(world.dead_dog || world.population < 6
             ? [
                  "<18>{#f/0}太好了！！",
@@ -2818,14 +2818,14 @@ export default {
                  "<18>{#f/0}BUT YOU'RE STILL HERE!!",
                  "<18>{#f/0}THAT MEANS SOMETHING, RIGHT??"
               ]
-            : [ "<18>{#f/4}YOU MUST BE REALLY SERIOUS ABOUT THIS..." ]),
-         "<18>{#f/5}I'LL HAVE TO TAKE YOU SOMEPLACE REALLY SPECIAL...",
-         "<18>{#f/0}A PLACE I LIKE TO SPEND A LOT OF TIME!!!"
+            : [ "<18>{#f/4}你肯定非常\n看重这件事..." ]),
+         "<18>{#f/5}我会带你去一个\n很特别的地方...",
+         "<18>{#f/0}一个我愿意花大把\n时间流连忘返的\n地方！！！"
       ],
-      papdate2: [ "<18>{#p/papyrus}MY HOUSE!!!" ],
+      papdate2: [ "<18>{#p/papyrus}我家！！！" ],
       papdate3: pager.create(
          0,
-         [ "<18>{#p/papyrus}WELCOME TO SCENIC MY HOUSE!", "<18>ENJOY AND TAKE YOUR TIME!!!" ],
+         [ "<18>{#p/papyrus}欢迎来我豪华的\n家里做客！", "<18>好好享受，\n慢慢参观！！！" ],
          [ "<18>{#p/papyrus}WHEN YOU'RE DONE, HEAD UPSTAIRS TO MY ROOM!" ]
       ),
       papdate3a: [ "<18>{#p/papyrus}{#f/6}WOW! BEING A GOOD HOST IS A REAL WORKOUT!" ],
@@ -3752,24 +3752,24 @@ export default {
       papyrusFinal4d: [
          "<18>{#f/4}哦，我差点\n忘记说了。",
          "<18>你要到达出口，\n就必须要通过...",
-         "<18>{#f/7}BY {@fill=#ff0}THE KING{@fill=#fff}.",
-         "<18>{@fill=#ff0}THE KING OF ALL MONSTERS...",
-         "<18>{@fill=#ff0}HE IS...",
-         "<18>{@fill=#ff0}{#f/6}... WELL..."
+         "<18>{#f/7}{@fill=#ff0}国王{@fill=#fff}那关。",
+         "<18>{@fill=#ff0}所有怪物的王...",
+         "<18>{@fill=#ff0}他是...",
+         "<18>{@fill=#ff0}{#f/6}...呃..."
       ],
       papyrusFinal4e: [
-         "<18>{#f/0}HE'S A BIG FUZZY PUSHOVER!!!",
-         "<18>EVERYBODY LOVES THAT GUY.",
-         "<18>{#f/4}I AM CERTAIN IF YOU JUST SAY...",
-         "<18>\"EXCUSE ME, MR. DREEMURR... CAN I PLEASE GO HOME?\"",
-         "<18>{#f/0}HE'LL GUIDE YOU OVER TO THE LAUNCH BAY HIMSELF!",
-         "<18>{#f/9}ANYWAY!!!\nTHAT'S ENOUGH TALKING!!!",
-         "<18>{#f/0}I'LL BE AT HOME BEING A COOL FRIEND."
+         "<18>{#f/0}他是个毛茸茸的\n好好先生！！！",
+         "<18>大家都很喜欢他。",
+         "<18>{#f/4}我很相信，\n只要你跟他说...",
+         "<18>“不好意思，\n逐梦先生...\n我可以回家吗？”",
+         "<18>{#f/0}他就会亲自带你\n去发射舱的！",
+         "<18>{#f/9}总之！！！\n闲话少叙！！！",
+         "<18>{#f/0}我会在家里\n当一个酷酷的朋友。"
       ],
-      papyrusFinal4f1: [ "<18>{#f/9}FEEL FREE TO COME BY AND HANG OUT!!!" ],
-      papyrusFinal4f2: [ "<18>{#f/9}FEEL FREE TO COME BY AND HAVE THAT DATE!!!" ],
-      papyrusFinal4f3: [ "<18>{#f/9}FEEL FREE TO COME BY AND SAY HELLO!!!" ],
-      papyrusFinal4g: [ "<18>NYEH HEH HEH HEH HEH HEH HEH!!!" ],
+      papyrusFinal4f1: [ "<18>{#f/9}欢迎过来\n跟我一起玩！！！" ],
+      papyrusFinal4f2: [ "<18>{#f/9}欢迎过来\n跟我约会！！！" ],
+      papyrusFinal4f3: [ "<18>{#f/9}欢迎过来\n跟我打个招呼！！！" ],
+      papyrusFinal4g: [ "<18>捏嘿嘿嘿\n嘿嘿嘿！！！" ],
       papyrusFinal5: [
          "<18>{#p/papyrus}{#f/5}哦，那个人类\n到哪里去了呢...",
          "<18>{#f/4}...\n等等。",
@@ -11301,7 +11301,7 @@ export default {
             ][SAVE.data.n.state_starton_spaghetti]
       },
       s_town1: {
-         name: "星港 - 镇上",
+         name: "星港 - 小镇",
          text: () =>
             SAVE.data.b.svr
                ? [

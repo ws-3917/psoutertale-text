@@ -5287,9 +5287,14 @@ msgstr "<32>{#p/basic}* 是空的。"
 
 msgid "<18>{#p/papyrus}{#f/0}HOW NICE OF YOU TO CHECK MY MAIL!"
 msgstr ""
+"<18>{#p/papyrus}{#f/0}谢谢你你能来\n"
+"检查我的邮件！"
 
 msgid "<18>{#p/papyrus}{#f/4}THANKFULLY, I'VE ALREADY COLLECTED IT ALL."
 msgstr ""
+"<18>{#p/papyrus}{#f/4}谢天谢地，\n"
+"我已经全部都\n"
+"整理好了。"
 
 msgid "<32>{#p/human}* (You decide not to look.)"
 msgstr ""
@@ -5802,15 +5807,21 @@ msgstr ""
 
 msgid "<18>{#p/papyrus}{#f/5}WOWIE, YOU'RE SO EAGER TO DATE..."
 msgstr ""
+"<18>{#p/papyrus}{#f/5}哇，你真的\n"
+"好渴望约会啊..."
 
 msgid "<18>{#p/papyrus}{#f/5}WOWIE, YOU'RE SO EAGER TO HANG OUT WITH ME..."
 msgstr ""
 
 msgid "<18>{#f/5}THAT YOU'RE TRYING TO GO IN MY HOUSE AHEAD OF ME!"
 msgstr ""
+"<18>{#f/5}甚至要抢在\n"
+"我前面进我家！"
 
 msgid "<18>{#f/6}THAT'S DEDICATION!"
 msgstr ""
+"<18>{#f/6}你真的\n"
+"很重视啊！"
 
 msgid "<18>{#p/papyrus}{#f/0}HELLO, HUMAN!"
 msgstr ""
@@ -5829,9 +5840,13 @@ msgstr ""
 
 msgid "<18>{#p/papyrus}SO YOU CAME BACK TO HAVE A DATE WITH ME!"
 msgstr ""
+"<18>{#p/papyrus}所以你回来\n"
+"跟我约会了！"
 
 msgid "<18>{#p/papyrus}SO YOU CAME BACK TO SEE ME!"
 msgstr ""
+"<18>{#p/papyrus}所以你回来\n"
+"看我了！"
 
 msgid "<18>{#f/5}TRUTH BETOLD, IT'S BEEN A LITTLE LONELY TODAY..."
 msgstr ""
@@ -5847,21 +5862,32 @@ msgstr ""
 
 msgid "<18>{#f/4}YOU MUST BE REALLY SERIOUS ABOUT THIS..."
 msgstr ""
+"<18>{#f/4}你肯定非常\n"
+"看重这件事..."
 
 msgid "<18>{#f/5}I'LL HAVE TO TAKE YOU SOMEPLACE REALLY SPECIAL..."
 msgstr ""
+"<18>{#f/5}我会带你去一个\n"
+"很特别的地方..."
 
 msgid "<18>{#f/0}A PLACE I LIKE TO SPEND A LOT OF TIME!!!"
 msgstr ""
+"<18>{#f/0}一个我愿意花大把\n"
+"时间流连忘返的\n"
+"地方！！！"
 
 msgid "<18>{#p/papyrus}MY HOUSE!!!"
-msgstr ""
+msgstr "<18>{#p/papyrus}我家！！！"
 
 msgid "<18>{#p/papyrus}WELCOME TO SCENIC MY HOUSE!"
 msgstr ""
+"<18>{#p/papyrus}欢迎来我豪华的\n"
+"家里做客！"
 
 msgid "<18>ENJOY AND TAKE YOUR TIME!!!"
 msgstr ""
+"<18>好好享受，\n"
+"慢慢参观！！！"
 
 msgid "<18>{#p/papyrus}WHEN YOU'RE DONE, HEAD UPSTAIRS TO MY ROOM!"
 msgstr ""
@@ -8273,51 +8299,72 @@ msgstr ""
 "就必须要通过..."
 
 msgid "<18>{#f/7}BY {@fill=#ff0}THE KING{@fill=#fff}."
-msgstr "<18>{#f/7}BY {@fill=#ff0}THE KING{@fill=#fff}."
+msgstr "<18>{#f/7}{@fill=#ff0}国王{@fill=#fff}那关。"
 
 msgid "<18>{@fill=#ff0}THE KING OF ALL MONSTERS..."
-msgstr ""
+msgstr "<18>{@fill=#ff0}所有怪物的王..."
 
 msgid "<18>{@fill=#ff0}HE IS..."
-msgstr ""
+msgstr "<18>{@fill=#ff0}他是..."
 
 msgid "<18>{@fill=#ff0}{#f/6}... WELL..."
-msgstr ""
+msgstr "<18>{@fill=#ff0}{#f/6}...呃..."
 
 msgid "<18>{#f/0}HE'S A BIG FUZZY PUSHOVER!!!"
 msgstr ""
+"<18>{#f/0}他是个毛茸茸的\n"
+"好好先生！！！"
 
 msgid "<18>EVERYBODY LOVES THAT GUY."
-msgstr ""
+msgstr "<18>大家都很喜欢他。"
 
 msgid "<18>{#f/4}I AM CERTAIN IF YOU JUST SAY..."
 msgstr ""
+"<18>{#f/4}我很相信，\n"
+"只要你跟他说..."
 
 msgid "<18>\"EXCUSE ME, MR. DREEMURR... CAN I PLEASE GO HOME?\""
 msgstr ""
+"<18>“不好意思，\n"
+"DREEMURR先生...\n"
+"我可以回家吗？”"
 
 msgid "<18>{#f/0}HE'LL GUIDE YOU OVER TO THE LAUNCH BAY HIMSELF!"
 msgstr ""
+"<18>{#f/0}他就会亲自带你\n"
+"去发射舱的！"
 
 msgid ""
 "<18>{#f/9}ANYWAY!!!\n"
 "THAT'S ENOUGH TALKING!!!"
 msgstr ""
+"<18>{#f/9}总之！！！\n"
+"闲话少叙！！！"
 
 msgid "<18>{#f/0}I'LL BE AT HOME BEING A COOL FRIEND."
 msgstr ""
+"<18>{#f/0}我会在家里\n"
+"当一个酷酷的朋友。"
 
 msgid "<18>{#f/9}FEEL FREE TO COME BY AND HANG OUT!!!"
 msgstr ""
+"<18>{#f/9}欢迎过来\n"
+"跟我一起玩！！！"
 
 msgid "<18>{#f/9}FEEL FREE TO COME BY AND HAVE THAT DATE!!!"
 msgstr ""
+"<18>{#f/9}欢迎过来\n"
+"跟我约会！！！"
 
 msgid "<18>{#f/9}FEEL FREE TO COME BY AND SAY HELLO!!!"
 msgstr ""
+"<18>{#f/9}欢迎过来\n"
+"跟我打个招呼！！！"
 
 msgid "<18>NYEH HEH HEH HEH HEH HEH HEH!!!"
 msgstr ""
+"<18>捏嘿嘿嘿\n"
+"嘿嘿嘿！！！"
 
 msgid "<18>{#p/papyrus}{#f/5}OH, WHERE COULD THAT HUMAN HAVE GONE..."
 msgstr ""
@@ -23146,7 +23193,7 @@ msgid "<32>{#p/human}* (The spaghetti is no more.)"
 msgstr ""
 
 msgid "Starton - Town"
-msgstr "星港 - 镇上"
+msgstr "星港 - 小镇"
 
 msgid "<32>{#p/human}* (The town may be abandoned, but its cuteness remains.)"
 msgstr ""
