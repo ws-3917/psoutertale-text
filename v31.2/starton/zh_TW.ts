@@ -2826,12 +2826,12 @@ export default {
       papdate3: pager.create(
          0,
          [ "<18>{#p/papyrus}歡迎來我豪華的\n家裡做客！", "<18>好好享受，\n慢慢參觀！！！" ],
-         [ "<18>{#p/papyrus}WHEN YOU'RE DONE, HEAD UPSTAIRS TO MY ROOM!" ]
+         [ "<18>{#p/papyrus}如果你看完了，\n就上樓來我的房間！" ]
       ),
-      papdate3a: [ "<18>{#p/papyrus}{#f/6}WOW! BEING A GOOD HOST IS A REAL WORKOUT!" ],
+      papdate3a: [ "<18>{#p/papyrus}{#f/6}哇！當個好主人\n可真是個體力活！" ],
       papdate3b: [
-         "<18>{#p/papyrus}{#f/5}WOWIE, I CAN'T FEEL MY LEGS...",
-         "<18>{#f/0}THAT MUST MEAN I'M BEING A GREAT HOST!!!"
+         "<18>{#p/papyrus}{#f/5}哇，我感覺不到\n我的腿了...",
+         "<18>{#f/0}那肯定證明了\n我是個好主人！！！"
       ],
       papdate4: pager.create(
          0,
@@ -4459,15 +4459,15 @@ export default {
                     "<32>{#p/human}* (The content of the notes attached to this pile of socks does not surprise you at all.)"
                  ]
                : [
-                    "<32>{#p/basic}* It's a dirty cotton ball with a series of notes on it.",
-                    "<23>{#p/papyrusnt}\"SANS!\"\n\"PLEASE PICK UP YOUR COTTON BALL!\"",
-                    "<32>{#p/without}* \"ok.\"",
-                    "<23>{#p/papyrusnt}\"DON'T PUT IT BACK DOWN!\"\n\"MOVE IT!\"",
-                    "<32>{#p/without}* \"ok.\"",
-                    "<23>{#p/papyrusnt}\"YOU MOVED IT TWO MICRONS!\"\n\"MOVE IT TO YOUR ROOM!\"",
-                    "<32>{#p/without}* \"ok.\"",
+                    "<32>{#p/basic}* 這是個髒髒的棉球，\n  上面附著好幾張便條。",
+                    "<23>{#p/papyrusnt}「SANS！」\n「把你的棉球撿起來！」",
+                    "<32>{#p/without}* 「好的。」",
+                    "<23>{#p/papyrusnt}「別把它放回去！」\n「把它挪走！」",
+                    "<32>{#p/without}* 「好的。」",
+                    "<23>{#p/papyrusnt}「你就挪了兩微米！」\n「把它拿回你的房間！」",
+                    "<32>{#p/without}* 「好的。」",
                     "<23>{#p/papyrusnt}\"AND DON'T BRING IT BACK!\"",
-                    "<32>{#p/without}* \"ok.\"",
+                    "<32>{#p/without}* 「好的。」",
                     "<23>{#p/papyrusnt}\"IT'S STILL HERE!\"",
                     "<32>{#p/without}* \"didn't you just say not to bring it back to my room?\"",
                     "<23>{#p/papyrusnt}\"FORGET IT!\""

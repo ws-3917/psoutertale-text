@@ -5891,15 +5891,23 @@ msgstr ""
 
 msgid "<18>{#p/papyrus}WHEN YOU'RE DONE, HEAD UPSTAIRS TO MY ROOM!"
 msgstr ""
+"<18>{#p/papyrus}如果你看完了，\n"
+"就上楼来我的房间！"
 
 msgid "<18>{#p/papyrus}{#f/6}WOW! BEING A GOOD HOST IS A REAL WORKOUT!"
 msgstr ""
+"<18>{#p/papyrus}{#f/6}哇！当个好主人\n"
+"可真是个体力活！"
 
 msgid "<18>{#p/papyrus}{#f/5}WOWIE, I CAN'T FEEL MY LEGS..."
 msgstr ""
+"<18>{#p/papyrus}{#f/5}哇，我感觉不到\n"
+"我的腿了..."
 
 msgid "<18>{#f/0}THAT MUST MEAN I'M BEING A GREAT HOST!!!"
 msgstr ""
+"<18>{#f/0}那肯定证明了\n"
+"我是个好主人！！！"
 
 msgid "<18>{#p/papyrus}THAT'S MY ROOM!"
 msgstr ""
@@ -9869,24 +9877,32 @@ msgstr ""
 
 msgid "<32>{#p/basic}* It's a dirty cotton ball with a series of notes on it."
 msgstr ""
+"<32>{#p/basic}* 这是个脏脏的棉球，\n"
+"  上面附着好几张便条。"
 
 msgid ""
 "<23>{#p/papyrusnt}\"SANS!\"\n"
 "\"PLEASE PICK UP YOUR COTTON BALL!\""
 msgstr ""
+"<23>{#p/papyrusnt}“SANS！”\n"
+"“把你的棉球捡起来！”"
 
 msgid "<32>{#p/without}* \"ok.\""
-msgstr ""
+msgstr "<32>{#p/without}* “好的。”"
 
 msgid ""
 "<23>{#p/papyrusnt}\"DON'T PUT IT BACK DOWN!\"\n"
 "\"MOVE IT!\""
 msgstr ""
+"<23>{#p/papyrusnt}“别把它放回去！”\n"
+"“把它挪走！”"
 
 msgid ""
 "<23>{#p/papyrusnt}\"YOU MOVED IT TWO MICRONS!\"\n"
 "\"MOVE IT TO YOUR ROOM!\""
 msgstr ""
+"<23>{#p/papyrusnt}“你就挪了两微米！”\n"
+"“把它拿回你的房间！”"
 
 msgid "<23>{#p/papyrusnt}\"AND DON'T BRING IT BACK!\""
 msgstr ""

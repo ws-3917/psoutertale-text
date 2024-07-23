@@ -13821,7 +13821,7 @@ msgid "<20>{#e/undyne/4}Warrior."
 msgstr ""
 
 msgid "<20>{#p/undyne}Ngahhh..."
-msgstr ""
+msgstr "<20>{#p/undyne}哈啊..."
 
 msgid ""
 "<21>I thought...\n"
@@ -14003,22 +14003,22 @@ msgid "<20>{*}{#p/undyne}{#i/4}{@random=1.1/1.1}NGAHHHHHHHH!!!{^10}{%}"
 msgstr "<20>{*}{#p/undyne}{#i/4}{@random=1.1/1.1}哈啊啊啊啊！！！{^10}{%}"
 
 msgid "<20>{*}{#p/undyne}{#i/5}{#v/1}{@random=1.1/1.1}I WON'T DIE!{^15}{%}"
-msgstr "<20>{*}{#p/undyne}{#i/10}{#v/1}{@random=1.1/1.1}我不能死！{^15}{%}"
+msgstr "<20>{*}{#p/undyne}{#i/5}{#v/1}{@random=1.1/1.1}我不能死！{^15}{%}"
 
 msgid "<20>{*}{#p/undyne}{#i/5}{#v/2}{@random=1.1/1.1}I WON'T DIE!{^15}{%}"
-msgstr "<20>{*}{#p/undyne}{#i/12}{#v/2}{@random=1.1/1.1}我不能死！{^15}{%}"
+msgstr "<20>{*}{#p/undyne}{#i/5}{#v/2}{@random=1.1/1.1}我不能死！{^15}{%}"
 
 msgid "<20>{*}{#p/undyne}{#i/5}{#v/3}{@random=1.1/1.1}I WON'T DIE!{^15}{%}"
-msgstr "<20>{*}{#p/undyne}{#i/13}{#v/3}{@random=1.1/1.1}我不能死！{^15}{%}"
+msgstr "<20>{*}{#p/undyne}{#i/6}{#v/3}{@random=1.1/1.1}我不能死！{^15}{%}"
 
 msgid "<20>{*}{#p/undyne}{#i/6}{#v/4}{@random=1.1/1.1}I{^10} WON'T{^30}{%}"
-msgstr "<20>{*}{#p/undyne}{#i/15}{#v/4}{@random=1.1/1.1}我{^10}不{^10}能{^30}{%}"
+msgstr "<20>{*}{#p/undyne}{#i/8}{#v/4}{@random=1.1/1.1}我{^10}不{^10}能{^30}{%}"
 
 msgid "<32>{#p/story}* Undyne is smiling as if nothing is wrong."
 msgstr "<32>{#p/story}* Undyne笑著，強裝自己沒事。"
 
 msgid "<32>{#p/story}* Undyne's body is wavering."
-msgstr "<32>{#p/story}* Undyne的身體開始融化。"
+msgstr "<32>{#p/story}* Undyne的身體正一點一點融化。"
 
 msgid "<32>{#p/story}* Undyne's body is losing its shape."
 msgstr ""
@@ -14474,7 +14474,7 @@ msgid "<20>{#f/3}Good luck..."
 msgstr ""
 
 msgid "<32>{#p/story}* Undyne looks determined."
-msgstr ""
+msgstr "<32>{#p/story}* Undyne充滿了決心。"
 
 msgid "<20>{#p/undyne}{#e/undyne/13}Hope you like it, fuhuhu!"
 msgstr ""

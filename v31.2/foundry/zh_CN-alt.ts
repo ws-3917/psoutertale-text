@@ -6809,13 +6809,13 @@ export default {
       death1: () =>
          respecc()
             ? [
-                 "<20>{#p/undyne}Ngahhh...",
+                 "<20>{#p/undyne}哈啊...",
                  "<21>I thought...\nYou were different...",
                  "<20>But then...\n... you actually...\n... urgh...",
                  "<20>..."
               ]
             : [
-                 "<20>{#p/undyne}Ngahhh...",
+                 "<20>{#p/undyne}哈啊...",
                  "<20>我没想到...\n你... 居然这么强...",
                  "<20>看来...\n这里...\n...就是我的葬身之地...",
                  "<20>..."
@@ -6879,12 +6879,12 @@ export default {
          "<20>{#e/undyne/48}我不能死！"
       ],
       death7: [ "<20>{*}{#p/undyne}{#i/4}{@random=1.1/1.1}哈啊啊啊啊！！！{^10}{%}" ],
-      death8a: [ "<20>{*}{#p/undyne}{#i/10}{#v/1}{@random=1.1/1.1}我不能死！{^15}{%}" ],
-      death8b: [ "<20>{*}{#p/undyne}{#i/12}{#v/2}{@random=1.1/1.1}我不能死！{^15}{%}" ],
-      death8c: [ "<20>{*}{#p/undyne}{#i/13}{#v/3}{@random=1.1/1.1}我不能死！{^15}{%}" ],
-      death9: [ "<20>{*}{#p/undyne}{#i/15}{#v/4}{@random=1.1/1.1}我{^10}不{^10}能{^30}{%}" ],
+      death8a: [ "<20>{*}{#p/undyne}{#i/5}{#v/1}{@random=1.1/1.1}我不能死！{^15}{%}" ],
+      death8b: [ "<20>{*}{#p/undyne}{#i/5}{#v/2}{@random=1.1/1.1}我不能死！{^15}{%}" ],
+      death8c: [ "<20>{*}{#p/undyne}{#i/6}{#v/3}{@random=1.1/1.1}我不能死！{^15}{%}" ],
+      death9: [ "<20>{*}{#p/undyne}{#i/8}{#v/4}{@random=1.1/1.1}我{^10}不{^10}能{^30}{%}" ],
       deterStatus1: [ "<32>{#p/story}* 安黛因笑着，强装自己没事。" ],
-      deterStatus2: [ "<32>{#p/story}* 安黛因的身体开始融化。" ],
+      deterStatus2: [ "<32>{#p/story}* 安黛因的身体正一点一点融化。" ],
       deterStatus3: [ "<32>{#p/story}* 安黛因的身体已经化得\n  看不出形状了。" ],
       deterStatus4: [ "<32>{#p/story}* 安黛因深吸了一口气。" ],
       deterStatus5: [ "<32>{#p/story}* 安黛因闭上了眼睛。" ],
@@ -7035,7 +7035,7 @@ export default {
          "<20>{#f/4}It's up to you to point your attacks towards them.",
          "<20>{#f/3}Good luck..."
       ],
-      neutralFinalStatus: [ "<32>{#p/story}* Undyne looks determined." ]
+      neutralFinalStatus: [ "<32>{#p/story}* 安黛因充满了决心。" ]
    },
    b_opponent_dateundyne: {
       name: "* 安黛因",
