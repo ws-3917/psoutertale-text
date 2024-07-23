@@ -3688,35 +3688,35 @@ export default {
                  "<18>{#p/papyrus}{#f/9}I'LL EVEN GIVE YOU DIRECTIONS TO THE EXIT!"
               ]
             : [
-                 "<18>{#p/papyrus}{#f/5}NYOO HOO HOO...",
+                 "<18>{#p/papyrus}{#f/5}扭嗚呼呼...",
                  ...(b
-                    ? [ "<18>I WASN'T STRONG ENOUGH TO STOP YOU..." ]
-                    : [ "<18>I CAN'T EVEN STOP SOMEONE AS WEAK AS YOU..." ]),
-                 "<18>{#f/7}UNDYNE'S GOING TO BE DISAPPOINTED!",
-                 "<18>{#f/5}I'LL NEVER JOIN THE ROYAL GUARD... AND...",
-                 "<18>{#f/7}MY FRIEND QUANTITY WILL REMAIN STAGNANT!",
-                 "<32>{#p/human}* (How will you respond?){!}\nµµµµµµµLet's beµµµµµµµµWhat a\nµµµµµµµfriendsµµµµµµµµµloser{#c/0/7/7}"
+                    ? [ "<18>我沒有足夠的力量\n阻止你..." ]
+                    : [ "<18>連像你這樣\n弱小的人\n我都阻止不了..." ]),
+                 "<18>{#f/7}UNDYNE一定會\n對我非常失望的！",
+                 "<18>{#f/5}我也永遠不能\n加入皇家守衛了...\n並且...",
+                 "<18>{#f/7}我的粉絲數也會\n就這樣停滯不前！",
+                 "<32>{#p/human}* （你該怎麼回答？）{!}\nµµµµµµµ我們做µµµµµµµµµµ真是個\nµµµµµµµ朋友吧µµµµµµµµµµ失敗者{#c/0/7/7}"
               ],
       papyrusFinal4a1: (b: boolean) =>
          b
             ? [
-                 "<18>{#p/papyrus}{#f/5}A-ARE YOU SURE?\nYOU WANT TO BE FRIENDS WITH ME?",
-                 "<18>{#f/6}EVEN AFTER THAT???",
-                 "<18>{#f/0}WELL, OKAY THEN!!\nLET'S BE FRIENDS!!"
+                 "<18>{#p/papyrus}{#f/5}真-真的嗎？\n你想跟我做朋友？",
+                 "<18>{#f/6}即使發生了\n那樣的事情？？？",
+                 "<18>{#f/0}那，好吧！！\n我們做朋友吧！！"
               ]
             : [
-                 "<18>{#p/papyrus}{#f/1}REALLY!?\nYOU WANT TO BE FRIENDS WITH ME???",
-                 "<18>{#f/6}WELL THEN...\nI GUESS...",
-                 "<18>{#f/0}I CAN MAKE AN ALLOWANCE FOR YOU!"
+                 "<18>{#p/papyrus}{#f/1}真的嗎！？\n你想跟我做朋友？？？",
+                 "<18>{#f/6}那...\n我覺得...",
+                 "<18>{#f/0}我可以給你\n一個照應了！"
               ],
       papyrusFinal4a2: (b: boolean) =>
          b
             ? [
-                 "<18>{#p/papyrus}{#f/5}HUH? ARE YOU... TRYING TO BERATE ME???",
-                 "<18>{#f/6}YOU THINK I'M NOT STRONG ENOUGH TO BE YOUR FRIEND?",
-                 "<18>{#f/5}... N-NO...",
-                 "<18>{#f/7}NO, WHAT AM I SAYING!!\nOF COURSE I AM!",
-                 "<18>{#f/9}AND... I'LL PROVE IT BY BEING YOUR FRIEND ANYWAY!"
+                 "<18>{#p/papyrus}{#f/5}嗯？你是...\n想責備我嗎？？？",
+                 "<18>{#f/6}你覺得我還不能\n強大到可以成為\n你的朋友嗎？",
+                 "<18>{#f/5}...才-才不是...",
+                 "<18>{#f/7}啊，我在說什麼啊！！\n我當然很強大！",
+                 "<18>{#f/9}總之... 我會\n通過跟你交朋友\n證明給你看！"
               ]
             : [
                  "<18>{#p/papyrus}{#f/1}HUH? WHY WOULD YOU BERATE YOURSELF SO LOUDLY???",
@@ -3725,15 +3725,15 @@ export default {
                  "<18>{#f/9}NO, YOU'RE GREAT!\nI'LL BE YOUR FRIEND!!!"
               ],
       papyrusFinal4b1: [
-         "<18>{#f/0}WOWIE!!",
-         "<18>I FOUND A NEW FRIEND!!!",
+         "<18>{#f/0}好耶！！",
+         "<18>我找到了\n一個新朋友！！！",
          "<18>{#f/4}AND WHO KNEW THAT ALL I NEEDED TO DO IT..."
       ],
       papyrusFinal4b2: [
-         "<18>{#f/0}WOWIE!!",
-         "<18>{#f/0}WE HAVEN'T EVEN HAD OUR FIRST DATE...",
-         "<18>{#f/0}AND I'VE ALREADY MANAGED TO HIT THE FRIEND ZONE!!!",
-         "<18>{#f/4}WHO KNEW THAT ALL I HAD TO DO..."
+         "<18>{#f/0}好耶！！",
+         "<18>{#f/0}我們還沒有進行\n我們的第一次\n約會...",
+         "<18>{#f/0}就已經成為\n好朋友了！！！",
+         "<18>{#f/4}誰知道成為好朋友..."
       ],
       papyrusFinal4c1: [
          "<18>{#f/0}WAS TO GIVE PEOPLE AWFUL PUZZLES AND THEN FIGHT THEM?",
@@ -3810,7 +3810,7 @@ export default {
          "<18>{#f/9}你這次要\n放棄戰鬥嗎？？",
          choicer.create("* （你要怎麼回答？）", "是", "否")
       ],
-      papyrusFinal8a: [ "<18>{#p/papyrus}{#f/0}OKAY, HERE WE GO!" ],
+      papyrusFinal8a: [ "<18>{#p/papyrus}{#f/0}那麼，\n咱們開始吧！" ],
       puzzle3: () => [
          "<32>{#p/human}* （你看了下終端。）",
          "<32>{#p/basic}* 屏幕上顯示著一條歷史修改記錄。",

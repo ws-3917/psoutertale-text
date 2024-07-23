@@ -9847,39 +9847,47 @@ msgstr ""
 "* 是是是。"
 
 msgid "<32>{#p/undyne}* Seven."
-msgstr ""
+msgstr "<32>{#p/undyne}* 七个。"
 
 msgid "<32>* Seven human SOULs, and..."
-msgstr ""
+msgstr "<32>* 七个人类灵魂。"
 
 msgid ""
 "<32>* Seven human SOULs, and {@fill=#f00}King ASGORE{@fill=#fff} will become"
 " a god."
 msgstr ""
+"<32>* 有了七个灵魂，\n"
+"  {@fill=#f00}ASGORE国王{@fill=#fff}就能成为神。"
 
 msgid "<32>{#x1}* Six."
-msgstr ""
+msgstr "<32>{#x1}* 六个。"
 
 msgid "<32>{#x1}* That's how many we have collected thus far."
-msgstr ""
+msgstr "<32>{#x1}* 我们已经有了六个。"
 
 msgid "<32>{#x1}* Understand?"
-msgstr ""
+msgstr "<32>{#x1}* 懂了吗？"
 
 msgid ""
 "<32>{#x1}* Through your seventh and final SOUL, monsters will finally go "
 "free."
 msgstr ""
+"<32>{#x1}* 只要有了你这最后一个灵魂，\n"
+"  怪物们就能重获自由。"
 
 msgid ""
 "<32>{#x3}* First, however, as is customary for those who make it this far..."
 msgstr ""
+"<32>{#x3}* 不过在这之前，\n"
+"  我应该遵循前辈们立下的规矩..."
 
 msgid "<32>{#x4}* I must tell you the tragic tale of our people."
 msgstr ""
+"<32>{#x4}* 向你讲述一段\n"
+"  我族人民的悲惨历史。"
 
 msgid "<32>{#x5}* It all began long ago, when..."
-msgstr ""
+msgstr "<32>{#x5}* 一切，都要从很久以前说起..."
 
 msgid "<32>{#p/undyne}* No..."
 msgstr ""
@@ -10454,7 +10462,7 @@ msgid ""
 "<25>{#f/16}{#x10}* Go ahead.\n"
 "* Prepare however you want."
 msgstr ""
-"<25>{#f/16}{#x10}* 继续吧。\n"
+"<25>{#f/16}{#x10}* 向前进，随你。\n"
 "* 我给你准备的时间。"
 
 msgid "<25>{#f/20}* But when you step forward..."
@@ -10482,7 +10490,7 @@ msgid "<25>{#f/17}* No more running away!"
 msgstr ""
 
 msgid "<25>{#f/7}{*}* HERE I COME!!!!!!!{#x1}{^999}"
-msgstr ""
+msgstr "<25>{#f/7}{*}* 去死吧！！！{#x1}{^999}"
 
 msgid "<32>{#p/human}* (You can't seem to find a way in.)"
 msgstr ""
@@ -13002,6 +13010,8 @@ msgid ""
 "<32>{#p/story}* UNDYNE - ATK 50 DEF 20\n"
 "* The heroine that NEVER gives up."
 msgstr ""
+"<32>{#p/story}* UNDYNE - 攻击50 防御20\n"
+"* 永不放弃的英雄。"
 
 msgid "* Undyne the Undying"
 msgstr ""
@@ -13016,7 +13026,7 @@ msgid "<32>{#p/story}* Undyne takes you head-on!"
 msgstr ""
 
 msgid "<32>{#p/story}* Undyne attacks!"
-msgstr ""
+msgstr "<32>{#p/story}* Undyne来袭！"
 
 msgid "<20>{*}{#p/undyne}Ready yourself."
 msgstr "<20>{*}{#p/undyne}准备迎战吧。"
@@ -13085,7 +13095,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/story}* Things are about to get spicy."
-msgstr ""
+msgstr "<32>{#p/story}* 战斗局势开始升温。"
 
 msgid "<32>{#p/story}* Undyne points dramatically towards space."
 msgstr ""
@@ -13825,24 +13835,29 @@ msgid ""
 msgstr ""
 
 msgid "<20>..."
-msgstr ""
+msgstr "<20>..."
 
 msgid ""
 "<20>You were stronger...\n"
 "Than I thought..."
 msgstr ""
+"<20>我没想到...\n"
+"你... 居然这么强..."
 
 msgid ""
 "<20>So then...\n"
 "... this is where...\n"
 "... it ends..."
 msgstr ""
+"<20>看来...\n"
+"这里...\n"
+"...就是我的葬身之地..."
 
 msgid "<20>{#p/undyne}{#e/undyne/31}..."
-msgstr ""
+msgstr "<20>{#p/undyne}{#e/undyne/31}..."
 
 msgid "<20>{#p/undyne}{#e/undyne/31}No..."
-msgstr ""
+msgstr "<20>{#p/undyne}{#e/undyne/31}不..."
 
 msgid "<20>{#p/undyne}{#e/undyne/46}... no."
 msgstr ""
@@ -13851,10 +13866,10 @@ msgid "<20>{#e/undyne/43}Not yet."
 msgstr ""
 
 msgid "<20>{#p/undyne}{#e/undyne/32}NO!"
-msgstr ""
+msgstr "<20>{#p/undyne}{#e/undyne/32}不！"
 
 msgid "<20>I won't die!"
-msgstr ""
+msgstr "<20>我不能死！"
 
 msgid ""
 "<20>This betrayal...\n"
@@ -13868,43 +13883,52 @@ msgid ""
 "<20>{#e/undyne/36}Alphys...\n"
 "Asgore..."
 msgstr ""
+"<20>{#e/undyne/36}Alphys...\n"
+"Asgore..."
 
 msgid ""
 "<20>{#e/undyne/36}Alphys...\n"
 "Asgore...\n"
 "Papyrus..."
 msgstr ""
+"<20>{#e/undyne/36}Alphys...\n"
+"Asgore...\n"
+"Papyrus..."
 
 msgid "<20>{#e/undyne/32}Everyone is counting on me to protect them!"
-msgstr ""
+msgstr "<20>{#e/undyne/32}大家，都需要我来守护！"
 
 msgid "<20>{#e/undyne/32}NNNNGAH!"
-msgstr ""
+msgstr "<20>{#e/undyne/32}哈啊啊啊！！"
 
 msgid "<20>{#e/undyne/45}Not while you're still breathing."
 msgstr ""
 
 msgid "<20>{#p/undyne}{#e/undyne/32}Human!"
-msgstr ""
+msgstr "<20>{#p/undyne}{#e/undyne/32}人类！"
 
 msgid "<20>{#e/undyne/36}In the name of a good and fair fight..."
 msgstr ""
 
 msgid "<20>{#e/undyne/36}In the name of everybody's hopes and dreams..."
-msgstr ""
+msgstr "<20>{#e/undyne/36}以希望与梦想起誓..."
 
 msgid "<20>{#e/undyne/32}I WILL DEFEAT YOU!"
-msgstr ""
+msgstr "<20>{#e/undyne/32}我定会击败你！"
 
 msgid "<20>{#p/undyne}{#e/undyne/32}Come on, is that all you've got!?"
 msgstr ""
+"<20>{#p/undyne}{#e/undyne/32}来啊，\n"
+"你就这点能耐吗？"
 
 msgid "<20>{#p/undyne}{#e/undyne/32}... pathetic."
-msgstr ""
+msgstr "<20>{#p/undyne}{#e/undyne/32}...真是可悲。"
 
 msgid ""
 "<20>{#p/undyne}{#e/undyne/32}You're going to have to try harder than that!"
 msgstr ""
+"<20>{#p/undyne}{#e/undyne/32}就你那点力气，\n"
+"还想打败我？"
 
 msgid "<20>{#p/undyne}{#e/undyne/34}W-where's your fighting spirit now, huh?"
 msgstr ""
@@ -13913,81 +13937,99 @@ msgid ""
 "<20>{#p/undyne}{#e/undyne/34}S-see how strong we are when we believe in "
 "ourselves?"
 msgstr ""
+"<20>{#p/undyne}{#e/undyne/34}当我们相信自己时，\n"
+"爆发出的力量有多强，\n"
+"你见-见识到了吧？"
 
 msgid "<20>{#p/undyne}{#e/undyne/35}H... heh..."
 msgstr ""
+"<20>{#p/undyne}{#e/undyne/35}呵... \n"
+"呵呵..."
 
 msgid "<20>{#e/undyne/34}Had enough yet?"
-msgstr ""
+msgstr "<20>{#e/undyne/34}闹够了没有？"
 
 msgid "<20>{#p/undyne}{#e/undyne/34}..."
-msgstr ""
+msgstr "<20>{#p/undyne}{#e/undyne/34}..."
 
 msgid ""
 "<20>{#p/undyne}{#e/undyne/35}... I won't...\n"
 "...\n"
 "give up..."
 msgstr ""
+"<20>{#p/undyne}{#e/undyne/35}...我不能...\n"
+"...\n"
+"放弃..."
 
 msgid "<20>{#p/undyne}{#e/undyne/43}..."
-msgstr ""
+msgstr "<20>{#p/undyne}{#e/undyne/43}..."
 
 msgid ""
 "<20>{#p/undyne}{#e/undyne/47}Ha...\n"
 "Ha..."
 msgstr ""
+"<20>{#p/undyne}{#e/undyne/47}哈...\n"
+"哈..."
 
 msgid ""
 "<20>{#e/undyne/44}...\n"
 "Alphys..."
 msgstr ""
+"<20>{#e/undyne/44}...\n"
+"Alphys..."
 
 msgid "<20>This is what I was afraid of..."
 msgstr ""
+"<20>知道为什么\n"
+"我一直没对你说..."
 
 msgid "<20>{#e/undyne/49}This is why I never told you..."
-msgstr ""
+msgstr "<20>{#e/undyne/49}因为我怕..."
 
 msgid ""
 "<20>{#p/undyne}{#e/undyne/44}No...\n"
 "No!"
 msgstr ""
+"<20>{#p/undyne}{#e/undyne/44}不...\n"
+"不！"
 
 msgid "<20>{#e/undyne/34}Not yet!"
-msgstr ""
+msgstr "<20>{#e/undyne/34}还没完！"
 
 msgid "<20>{#e/undyne/48}I won't die!"
-msgstr ""
+msgstr "<20>{#e/undyne/48}我不能死！"
 
 msgid "<20>{*}{#p/undyne}{#i/4}{@random=1.1/1.1}NGAHHHHHHHH!!!{^10}{%}"
-msgstr ""
+msgstr "<20>{*}{#p/undyne}{#i/4}{@random=1.1/1.1}哈啊啊啊啊！！！{^10}{%}"
 
 msgid "<20>{*}{#p/undyne}{#i/5}{#v/1}{@random=1.1/1.1}I WON'T DIE!{^15}{%}"
-msgstr ""
+msgstr "<20>{*}{#p/undyne}{#i/10}{#v/1}{@random=1.1/1.1}我不能死！{^15}{%}"
 
 msgid "<20>{*}{#p/undyne}{#i/5}{#v/2}{@random=1.1/1.1}I WON'T DIE!{^15}{%}"
-msgstr ""
+msgstr "<20>{*}{#p/undyne}{#i/12}{#v/2}{@random=1.1/1.1}我不能死！{^15}{%}"
 
 msgid "<20>{*}{#p/undyne}{#i/5}{#v/3}{@random=1.1/1.1}I WON'T DIE!{^15}{%}"
-msgstr ""
+msgstr "<20>{*}{#p/undyne}{#i/13}{#v/3}{@random=1.1/1.1}我不能死！{^15}{%}"
 
 msgid "<20>{*}{#p/undyne}{#i/6}{#v/4}{@random=1.1/1.1}I{^10} WON'T{^30}{%}"
-msgstr ""
+msgstr "<20>{*}{#p/undyne}{#i/15}{#v/4}{@random=1.1/1.1}我{^10}不{^10}能{^30}{%}"
 
 msgid "<32>{#p/story}* Undyne is smiling as if nothing is wrong."
-msgstr ""
+msgstr "<32>{#p/story}* Undyne笑着，强装自己没事。"
 
 msgid "<32>{#p/story}* Undyne's body is wavering."
-msgstr ""
+msgstr "<32>{#p/story}* Undyne的身体开始融化。"
 
 msgid "<32>{#p/story}* Undyne's body is losing its shape."
 msgstr ""
+"<32>{#p/story}* Undyne的身体已经化得\n"
+"  看不出形状了。"
 
 msgid "<32>{#p/story}* Undyne takes a deep breath."
-msgstr ""
+msgstr "<32>{#p/story}* Undyne深吸了一口气。"
 
 msgid "<32>{#p/story}* Undyne closes her eyes."
-msgstr ""
+msgstr "<32>{#p/story}* Undyne闭上了眼睛。"
 
 msgid ""
 "<32>{#p/human}* (You tell Undyne her attacks are too easy.)\n"
@@ -14005,6 +14047,8 @@ msgstr ""
 
 msgid "<32>{#p/human}* (You tell Undyne she should give you a REAL fight.)"
 msgstr ""
+"<32>{#p/human}* （你告诉Undyne，\n"
+"  你想来一场真正的对决。）"
 
 msgid "<32>{#p/basic}* Undyne can't go any faster."
 msgstr ""

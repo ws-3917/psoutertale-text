@@ -4715,17 +4715,17 @@ export default {
       ],
       undynefinal1a: () =>
          respecc()
-            ? [ "<32>{#p/undyne}* Seven.", "<32>* Seven human SOULs, and...", "<32>* ..." ]
+            ? [ "<32>{#p/undyne}* 七个。", "<32>* 七个人类灵魂。", "<32>* ..." ]
             : [
-                 "<32>{#p/undyne}* Seven.",
-                 "<32>* Seven human SOULs, and {@fill=#f00}King ASGORE{@fill=#fff} will become a god.",
-                 "<32>{#x1}* Six.",
-                 "<32>{#x1}* That's how many we have collected thus far.",
-                 "<32>{#x1}* Understand?",
-                 "<32>{#x1}* Through your seventh and final SOUL, monsters will finally go free.",
-                 "<32>{#x3}* First, however, as is customary for those who make it this far...",
-                 "<32>{#x4}* I must tell you the tragic tale of our people.",
-                 "<32>{#x5}* It all began long ago, when..."
+                 "<32>{#p/undyne}* 七个。",
+                 "<32>* 有了七个灵魂，\n  {@fill=#f00}ASGORE国王{@fill=#fff}就能成为神。",
+                 "<32>{#x1}* 六个。",
+                 "<32>{#x1}* 我们已经有了六个。",
+                 "<32>{#x1}* 懂了吗？",
+                 "<32>{#x1}* 只要有了你这最后一个灵魂，\n  怪物们就能重获自由。",
+                 "<32>{#x3}* 不过在这之前，\n  我应该遵循前辈们立下的规矩...",
+                 "<32>{#x4}* 向你讲述一段\n  我族人民的悲惨历史。",
+                 "<32>{#x5}* 一切，都要从很久以前说起..."
               ],
       undynefinal1b: () => (respecc() ? [ "<32>{#p/undyne}* No..." ] : [ "<32>{#p/undyne}* You know what?" ]),
       undynefinal1c: () =>
@@ -5036,7 +5036,7 @@ export default {
                  "<25>{#f/19}* 尽管我早知道他傻到\n  不会去伤害任何人..."
               ]),
          "<25>* ...",
-         "<25>{#f/16}{#x10}* 继续吧。\n* 我给你准备的时间。",
+         "<25>{#f/16}{#x10}* 向前进，随你。\n* 我给你准备的时间。",
          "<25>{#f/20}* 但只要你再往前踏出一步...",
          "<25>{#f/11}{#x11}* 我就会杀了你。"
       ],
@@ -5049,7 +5049,7 @@ export default {
             ? [ "<25>{#p/undyne}{#f/1}* That's it, then...!", "<25>{#f/17}* It's time you met your one true equal!" ]
             : [ "<25>{#p/undyne}{#f/1}* That's it, then...!", "<25>{#f/17}* No more running away!" ])
       ],
-      undynefinal3x: [ "<25>{#f/7}{*}* HERE I COME!!!!!!!{#x1}{^999}" ],
+      undynefinal3x: [ "<25>{#f/7}{*}* 去死吧！！！{#x1}{^999}" ],
       undynehouse1: [ "<32>{#p/basic}* 锁住了。" ],
       undynehouse2: () =>
          SAVE.data.b.svr || world.runaway
@@ -6385,14 +6385,14 @@ export default {
             ? [ "<32>{#p/story}* UNDYNE - ATK 40 DEF 100\n* Captain of the Royal Guard.\n* Relentless." ]
             : respecc()
             ? [ "<32>{#p/story}* UNDYNE - ATK 25 DEF 10\n* Once your sworn enemy, now your unmatched equal!" ]
-            : [ "<32>{#p/story}* UNDYNE - ATK 50 DEF 20\n* The heroine that NEVER gives up." ],
+            : [ "<32>{#p/story}* UNDYNE - 攻击50 防御20\n* 永不放弃的英雄。" ],
       name: () => (world.genocide ? "* Undyne the Undying" : "* Undyne"),
       status1: () =>
          helmetdyne()
             ? [ "<32>{#p/story}* Undyne towers above you." ]
             : respecc()
             ? [ "<32>{#p/story}* Undyne takes you head-on!" ]
-            : [ "<32>{#p/story}* Undyne attacks!" ],
+            : [ "<32>{#p/story}* Undyne来袭！" ],
       intro1: () =>
          SAVE.data.n.state_starton_papyrus === 1
             ? [ "<20>{*}{#p/undyne}准备迎战吧。" ]
@@ -6426,7 +6426,7 @@ export default {
                  "<20>{#p/undyne}{#e/undyne/17}So, you wanna do this the {@fill=#f00}hard way{@fill=#000}, huh?",
                  "<20>{#e/undyne/1}FINE BY ME!\nFUHUHU!"
               ],
-      earlyChallengeStatus: [ "<32>{#p/story}* Things are about to get spicy." ],
+      earlyChallengeStatus: [ "<32>{#p/story}* 战斗局势开始升温。" ],
       randStatus1: () =>
          respecc()
             ? [ "<32>{#p/story}* Undyne points dramatically towards space." ]
@@ -6816,78 +6816,78 @@ export default {
               ]
             : [
                  "<20>{#p/undyne}Ngahhh...",
-                 "<20>You were stronger...\nThan I thought...",
-                 "<20>So then...\n... this is where...\n... it ends...",
+                 "<20>我没想到...\n你... 居然这么强...",
+                 "<20>看来...\n这里...\n...就是我的葬身之地...",
                  "<20>..."
               ],
       death2: () =>
-         helmetdyneAttack() ? [ "<20>{#p/undyne}{#e/undyne/31}..." ] : [ "<20>{#p/undyne}{#e/undyne/31}No..." ],
+         helmetdyneAttack() ? [ "<20>{#p/undyne}{#e/undyne/31}..." ] : [ "<20>{#p/undyne}{#e/undyne/31}不..." ],
       death3: () =>
          helmetdyneAttack()
             ? [ "<20>{#p/undyne}{#e/undyne/46}... no.", "<20>{#e/undyne/43}Not yet." ]
             : [
-                 "<20>{#p/undyne}{#e/undyne/32}NO!",
-                 "<20>I won't die!",
+                 "<20>{#p/undyne}{#e/undyne/32}不！",
+                 "<20>我不能死！",
                  ...(respecc()
                     ? [ "<20>This betrayal...\nThis... dishonor...", "<20>I won't let you get away with it!" ]
                     : [
                          SAVE.data.n.state_starton_papyrus === 1
                             ? "<20>{#e/undyne/36}Alphys...\nAsgore..."
                             : "<20>{#e/undyne/36}Alphys...\nAsgore...\nPapyrus...",
-                         "<20>{#e/undyne/32}Everyone is counting on me to protect them!"
+                         "<20>{#e/undyne/32}大家，都需要我来守护！"
                       ]),
-                 "<20>{#e/undyne/32}NNNNGAH!"
+                 "<20>{#e/undyne/32}哈啊啊啊！！"
               ],
       death4: () =>
          helmetdyneAttack()
             ? [ "<20>{#e/undyne/45}Not while you're still breathing." ]
             : [
-                 "<20>{#p/undyne}{#e/undyne/32}Human!",
+                 "<20>{#p/undyne}{#e/undyne/32}人类！",
                  respecc()
                     ? "<20>{#e/undyne/36}In the name of a good and fair fight..."
-                    : "<20>{#e/undyne/36}In the name of everybody's hopes and dreams...",
-                 "<20>{#e/undyne/32}I WILL DEFEAT YOU!"
+                    : "<20>{#e/undyne/36}以希望与梦想起誓...",
+                 "<20>{#e/undyne/32}我定会击败你！"
               ],
       determination1: () =>
-         helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/32}Come on, is that all you've got!?" ],
-      determination2: () => (helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/32}... pathetic." ]),
+         helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/32}来啊，\n你就这点能耐吗？" ],
+      determination2: () => (helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/32}...真是可悲。" ]),
       determination3: () =>
-         helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/32}You're going to have to try harder than that!" ],
+         helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/32}就你那点力气，\n还想打败我？" ],
       determination4: () =>
          helmetdyneAttack()
             ? []
             : respecc()
             ? [ "<20>{#p/undyne}{#e/undyne/34}W-where's your fighting spirit now, huh?" ]
-            : [ "<20>{#p/undyne}{#e/undyne/34}S-see how strong we are when we believe in ourselves?" ],
+            : [ "<20>{#p/undyne}{#e/undyne/34}当我们相信自己时，\n爆发出的力量有多强，\n你见-见识到了吧？" ],
       determination5: () =>
-         helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/35}H... heh...", "<20>{#e/undyne/34}Had enough yet?" ],
+         helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/35}呵... \n呵呵...", "<20>{#e/undyne/34}闹够了没有？" ],
       determination6: () => (helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/34}..." ]),
       determination7: () =>
-         helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/35}... I won't...\n...\ngive up..." ],
+         helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/35}...我不能...\n...\n放弃..." ],
       determination8: () => (helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/34}..." ]),
       death5: () => [
          helmetdyneAttack() ? "<20>{#p/undyne}{#e/undyne/43}..." : "<20>{#p/undyne}{#e/undyne/34}...",
-         "<20>{#p/undyne}{#e/undyne/47}Ha...\nHa...",
+         "<20>{#p/undyne}{#e/undyne/47}哈...\n哈...",
          "<20>{#e/undyne/44}...\nAlphys...",
-         "<20>This is what I was afraid of...",
-         "<20>{#e/undyne/49}This is why I never told you...",
+         "<20>知道为什么\n我一直没对你说...",
+         "<20>{#e/undyne/49}因为我怕...",
          "<20>..."
       ],
       death6: () => [
-         "<20>{#p/undyne}{#e/undyne/44}No...\nNo!",
-         "<20>{#e/undyne/34}Not yet!",
-         "<20>{#e/undyne/48}I won't die!"
+         "<20>{#p/undyne}{#e/undyne/44}不...\n不！",
+         "<20>{#e/undyne/34}还没完！",
+         "<20>{#e/undyne/48}我不能死！"
       ],
-      death7: [ "<20>{*}{#p/undyne}{#i/4}{@random=1.1/1.1}NGAHHHHHHHH!!!{^10}{%}" ],
-      death8a: [ "<20>{*}{#p/undyne}{#i/5}{#v/1}{@random=1.1/1.1}I WON'T DIE!{^15}{%}" ],
-      death8b: [ "<20>{*}{#p/undyne}{#i/5}{#v/2}{@random=1.1/1.1}I WON'T DIE!{^15}{%}" ],
-      death8c: [ "<20>{*}{#p/undyne}{#i/5}{#v/3}{@random=1.1/1.1}I WON'T DIE!{^15}{%}" ],
-      death9: [ "<20>{*}{#p/undyne}{#i/6}{#v/4}{@random=1.1/1.1}I{^10} WON'T{^30}{%}" ],
-      deterStatus1: [ "<32>{#p/story}* Undyne is smiling as if nothing is wrong." ],
-      deterStatus2: [ "<32>{#p/story}* Undyne's body is wavering." ],
-      deterStatus3: [ "<32>{#p/story}* Undyne's body is losing its shape." ],
-      deterStatus4: [ "<32>{#p/story}* Undyne takes a deep breath." ],
-      deterStatus5: [ "<32>{#p/story}* Undyne closes her eyes." ],
+      death7: [ "<20>{*}{#p/undyne}{#i/4}{@random=1.1/1.1}哈啊啊啊啊！！！{^10}{%}" ],
+      death8a: [ "<20>{*}{#p/undyne}{#i/10}{#v/1}{@random=1.1/1.1}我不能死！{^15}{%}" ],
+      death8b: [ "<20>{*}{#p/undyne}{#i/12}{#v/2}{@random=1.1/1.1}我不能死！{^15}{%}" ],
+      death8c: [ "<20>{*}{#p/undyne}{#i/13}{#v/3}{@random=1.1/1.1}我不能死！{^15}{%}" ],
+      death9: [ "<20>{*}{#p/undyne}{#i/15}{#v/4}{@random=1.1/1.1}我{^10}不{^10}能{^30}{%}" ],
+      deterStatus1: [ "<32>{#p/story}* Undyne笑着，强装自己没事。" ],
+      deterStatus2: [ "<32>{#p/story}* Undyne的身体开始融化。" ],
+      deterStatus3: [ "<32>{#p/story}* Undyne的身体已经化得\n  看不出形状了。" ],
+      deterStatus4: [ "<32>{#p/story}* Undyne深吸了一口气。" ],
+      deterStatus5: [ "<32>{#p/story}* Undyne闭上了眼睛。" ],
       challengeText1: [ "<32>{#p/human}* (You tell Undyne her attacks are too easy.)\n* (She doesn't care.)" ],
       challengeText2: [
          "<32>{#p/human}* (You tell Undyne her attacks are too easy.)",
@@ -6897,7 +6897,7 @@ export default {
          "<32>{#p/human}* (You tell Undyne her attacks are too easy.)",
          "<32>{#p/basic}* The bullets get ridiculous."
       ],
-      challengeText4: [ "<32>{#p/human}* (You tell Undyne she should give you a REAL fight.)" ],
+      challengeText4: [ "<32>{#p/human}* （你告诉Undyne，\n  你想来一场真正的对决。）" ],
       challengeText5: [
          "<32>{#p/human}* (You tell Undyne her attacks are too easy.)",
          "<32>{#p/basic}* Undyne can't go any faster."
