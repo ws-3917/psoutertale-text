@@ -1467,7 +1467,7 @@ export default {
                ? [ "<32>{#p/basic}{#npc/a}* Where's Sans...\n* He's supposed to give me a pat on the head..." ]
                : [
                     "<32>{#p/basic}{#npc/a}* 你最好盯緊了你坐的地方，\n  孩子。",
-                    "<32>* 那個大傢伙隨時都會\n  跳到你的大腿上，\n  給你滿滿的愛和跟隨。"
+                    "<32>* 那個大傢伙隨時都會\n  跳到你的大腿上，\n  給你滿滿的愛和關注。"
                  ],
          g_dogaressa: () =>
             SAVE.data.b.killed_mettaton
@@ -2532,7 +2532,7 @@ export default {
          () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The books on this bookshelf consist of puzzler's guides and children's stories.)" ]
-               : [ "<32>{#p/basic}* Complex manuals and children's books." ]
+               : [ "<32>{#p/basic}* 複雜的手冊和兒童讀物。" ]
       ),
       papbooks2: pager.create(
          1,
@@ -2595,7 +2595,7 @@ export default {
             ...(roomready()
                ? [
                     "<18>{#p/papyrus}域外網！\n我在那上面\n超有人氣的。",
-                    "<18>{#f/4}再有12個跟隨...",
+                    "<18>{#f/4}再有12個關注...",
                     "<18>{#f/0}我的粉絲數\n就到兩位數了！"
                  ]
                : []),
@@ -2868,8 +2868,8 @@ export default {
       papdate5b: [ "<18>{#p/papyrus}慢慢看，不著急。\n我會等你的。" ],
       papdate6: () => [
          SAVE.data.b.flirt_papyrus
-            ? "<32>{#p/story}µµµµµµµµµµ 約會 µµ 開始！"
-            : "<32>{#p/story}µµµµµµµµµµ 消遣 µµ 開始！"
+            ? "<32>{#p/story}µµµµµµµµ DATING µµ START!"
+            : "<32>{#p/story}µµµµµµµµ HANGOUT µ START!"
       ],
       papdate7: () => [
          "<15>{#p/papyrus}{#f/10}我們！！",
@@ -3706,7 +3706,7 @@ export default {
                  "<18>{#f/7}UNDYNE一定會\n對我非常失望的！",
                  "<18>{#f/5}我也永遠不能\n加入皇家守衛了...\n並且...",
                  "<18>{#f/7}我的粉絲數也會\n就這樣停滯不前！",
-                 "<32>{#p/human}* （你該怎麼回答？）{!}\nµµµµµµµ我們做µµµµµµµµµµ真是個\nµµµµµµµ朋友吧µµµµµµµµµµ失敗者{#c/0/7/7}"
+                 "<32>{#p/human}* (How will you respond?){!}\nµµµµµµµLet's beµµµµµµµµWhat a\nµµµµµµµfriendsµµµµµµµµµloser{#c/0/7/7}"
               ],
       papyrusFinal4a1: (b: boolean) =>
          b
@@ -4005,7 +4005,7 @@ export default {
          "<25>{#f/2}* 它們和papyrus差不多，\n  人畜無害。"
       ],
       sansbook0: [ "<32>{#p/human}* (It appears this joke book has no clear ending.)" ],
-      sansbook1: [ "<32>{#p/basic}* 這是本關於非歐幾里德幾何的書。\n* 寫著「ALPHYS」的名字。" ],
+      sansbook1: [ "<32>{#p/basic}* 這是本關於非歐幾何的書。\n* 寫著「ALPHYS」的名字。" ],
       sansbook2: [ choicer.create("* （要看看裡面嗎？）", "是", "否") ],
       sansbook3: [ "<32>{#p/human}* （你往書裡面看...）" ],
       sansbook4: [ "<32>{#p/basic}* 幾何學書裡面夾著一本\n  笑話書。" ],
@@ -4480,7 +4480,7 @@ export default {
                     "<23>{#p/papyrusnt}「不要再把它\n拿回來了！」",
                     "<32>{#p/without}* 「好的。」",
                     "<23>{#p/papyrusnt}「它還在這！」",
-                    "<32>{#p/without}* 「你剛才不是說\n不要把它拿回來\n我的房間嗎？」",
+                    "<32>{#p/without}* 「你剛才不是說\n  不要把它拿回來\n  我的房間嗎？」",
                     "<23>{#p/papyrusnt}「算了！」"
                  ],
          s_paptrash: pager.create(
@@ -4521,7 +4521,7 @@ export default {
                      [
                         "<32>{#p/basic}* 我覺得你現在就可以說，\n  都是因為這個垃圾桶，\n  我思緒完全「升空」了。"
                      ],
-                     [ "<32>{#p/basic}* You might even say I'm feeling... rather otherwordly." ],
+                     [ "<32>{#p/basic}* 你甚至可以說，\n  我感覺要... 羽化登仙了。" ],
                      [ "<32>{#p/basic}* ...\n* 你當我最後一句沒說。" ],
                      [ "<32>{#p/basic}* 實際上，你還是\n  把我說的最後九句全忘了吧。\n  算上這句。" ],
                      [ "<32>{#p/basic}* 說白了...\n* 這個垃圾桶只能用\n  一個形容詞來形容。" ],
@@ -4557,7 +4557,7 @@ export default {
                                "<18>{#f/0}請隨意參觀我的\n烹飪藝術展。"
                             ]
                           : []),
-                       "<32>{#p/basic}* 冰箱的一半都堆滿了\n標有「義大利麵」的容器。",
+                       "<32>{#p/basic}* 冰箱的一半都堆滿了\n  標有「義大利麵」的容器。",
                        "<32>* 另一半瓶子裡只有\n  一瓶橙汁蘇打水。"
                     ],
             () =>
@@ -5249,7 +5249,7 @@ export default {
                        [ "<25>{#p/asriel1}{#f/20}* Totally worth it." ]
                     ][Math.min(asrielinter.s_pr_papposter++, 3)]
                   : [
-                       "<32>{#p/basic}* 一面旗幟，\n上面畫著一個嚇人的骷髏。",
+                       "<32>{#p/basic}* 一面旗幟，\n  上面畫著一個嚇人的骷髏。",
                        ...(roomready()
                           ? [
                                "<18>{#p/papyrus}很漂亮的海報吧？",
@@ -5271,7 +5271,7 @@ export default {
                        ],
                        [ "<25>{#p/asriel1}{#f/20}* Totally worth it." ]
                     ][Math.min(asrielinter.s_pr_papposter++, 3)]
-                  : [ "<32>{#p/basic}* 一面旗幟，\n上面畫著一個嚇人的骷髏。" ]
+                  : [ "<32>{#p/basic}* 一面旗幟，\n  上面畫著一個嚇人的骷髏。" ]
          ),
          s_pr_paptable: pager.create(
             0,
@@ -5355,7 +5355,7 @@ export default {
                     "<23>「所以我現在\n只能做成一個\n很爛的箭頭形狀了！！！」",
                     "<23>「（另外，這個謎題\n需要你自己完成。）」",
                     "<23>「但不用擔心！」\n「你肯定做得到的，人類！」",
-                    "<#23>µ - 「非常相信著你的，」\nµ PAPYRUS"
+                    "<#23>µ - \"WITH THE UTMOST FAITH,\"\nµ PAPYRUS"
                  ],
          s_redbook: () =>
             SAVE.data.b.svr
@@ -5413,7 +5413,7 @@ export default {
                     "<23>（「你會忙著吃它...」）",
                     "<23>（「然後就不會意識到\n自己毫無進展！！」）",
                     "<23>（「再次徹底被\n偉大的PAPYRUS戲弄！！！ 」）",
-                    "<#23>µ - 「捏嘿嘿，」\nµ PAPYRUS"
+                    "<#23>µ - \"NYEH-HEH-HEH,\"\nµ PAPYRUS"
                  ],
          s_town_camera1: () =>
             SAVE.data.b.svr
@@ -5432,7 +5432,7 @@ export default {
                   "<23>{#p/papyrus}{#f/30}「抱歉，到UNDYNE來之前，\n我得把你鎖在客房裡。」",
                   "<23>「把這裡當自己家\n一樣吧！！！」",
                   "<22>「已提供茶點和住宿。」",
-                  "<#23>µ - 「你的捏嘿嘿的，」\nµ PAPYRUS"
+                  "<#23>µ - \"NYEHFULLY YOURS,\"\nµ PAPYRUS"
                ],
                [
                   "<32>{#p/basic}* 這是張Papyrus留的字條...",
@@ -6657,7 +6657,7 @@ export default {
          "<15>你又能做什麼\n來回報我的\n愛意呢？？？"
       ],
       flirt2: [
-         "<32>{#p/human}* （你的回復是？）{!}µµµ我沒有\nµµµµ我會做µµµµµµµµ任何\nµµµµ義大利麵µµµµµµ可取之處{#c/0/4/2}"
+         "<32>{#p/human}* (Your reply?){!}µµµI have\nµµµµI can makeµµµµzero redeeming\nµµµµspaghettiµµµµµqualities{#c/0/4/2}"
       ],
       flirt3a: [ "<15>{#p/papyrus}{#f/24}這種\n自信的品格... \n讓我想到了..." ],
       flirt3b: [ "<15>{#p/papyrus}{#f/24}這種\n謙遜的品格...\n讓我想到了..." ],
@@ -6708,8 +6708,8 @@ export default {
       spaghetti2: [ "<32>{#p/basic}* If Papyrus wasn't so busy fighting, he might've noticed that." ],
       specialStatus1: [ "<32>{#p/story}* 特殊攻擊。" ],
       specialStatus2: [ "<32>{#p/story}* Papyrus正全力以赴。" ],
-      specialStatus3: [ "<32>{#p/story}* Papyrus將所有思緒都拋之腦後。" ],
-      specialStatus4: [ "<32>{#p/story}* Papyrus發覺自己有些缺乏思緒，\n又把它帶回來了。" ],
+      specialStatus3: [ "<32>{#p/story}* Papyrus將所有邏輯都拋之腦後。" ],
+      specialStatus4: [ "<32>{#p/story}* Papyrus發覺自己有些缺乏邏輯，\n又把它撈回來了。" ],
       specialStatus5: [ "<32>{#p/story}* Papyrus汗流浹背。" ],
       specialStatus6: [ "<32>{#p/story}* Papyrus已經束手無策了。" ],
       status1: [ "<32>{#p/story}* Papyrus正在饒恕你。" ],
@@ -7774,7 +7774,7 @@ export default {
                  ]
                : SAVE.data.b.napsta_performance
                ? [
-                    "<32>{#p/napstablook}{#k/1}* 嗯, 我有時會創作音樂",
+                    "<32>{#p/napstablook}{#k/1}* 嗯，我有時會創作音樂",
                     "<32>{#k/0}* 人們覺得我的音樂很棒，\n  但我明白這只是他們\n  為了激勵我說的謊\n  罷了...",
                     "<32>{#k/4}* 不過，感謝你來我的小演出捧場...",
                     "<32>{#k/3}* 見到你，我很高興..."
@@ -8841,15 +8841,15 @@ export default {
          () =>
             SAVE.data.n.plot_date < 1.1
                ? [
-                    "<18>{#p/papyrus}WOW, IT ONLY TOOK YOU FOUR SECONDS TO CALL ME!",
-                    "<18>YOU MUST BE VERY DESPERATE FOR MY HELP!!!",
-                    "<18>{#f/9}BUT DO NOT FEAR.\nTHIS IS PAPYRUS'S HOTFUL HELPLINE!",
-                    "<18>{#f/9}JUST DESCRIBE YOUR LOCATION, AND...",
+                    "<18>{#p/papyrus}哇，你只花了四秒鐘\n就給我打電話了！",
+                    "<18>你一定非常需要\n我的幫助！！！",
+                    "<18>{#f/9}但不要害怕。\n這是PAPYRUS的\n熱線電話！",
+                    "<18>{#f/9}只需要描述一下\n你的位置，然後...",
                     "<18>{#f/4}... WAIT.",
-                    "<18>{#f/6}YOU'RE STILL IN MY ROOM??",
+                    "<18>{#f/6}你還在我的\n房間裡？？",
                     "<18>{#f/5}...",
-                    "<18>{#f/5}HAVE YOU HEARD OF SOMETHING CALLED A... DOOR?",
-                    "<18>{#f/6}DON'T WORRY!!\nI'LL DRAW A DIAGRAM FOR YOU!"
+                    "<18>{#f/5}你有沒有聽說過一種\n叫做... 門的東西？",
+                    "<18>{#f/6}別著急！！\n我會給你畫個\n圖解的！"
                  ]
                : SAVE.data.n.plot_date < 1.2
                ? [
@@ -8872,7 +8872,7 @@ export default {
                  ],
          () =>
             SAVE.data.n.plot_date < 1.1
-               ? [ "<18>{#p/papyrus}{#f/6}HOLD UP!\nI'M STILL DRAWING!" ]
+               ? [ "<18>{#p/papyrus}{#f/6}堅持住！\n我還在畫！" ]
                : SAVE.data.n.plot_date < 1.2
                ? [ "<18>{#p/papyrus}{#f/1}DO -I- KNOW WHO PAPYRUS IS!?!?" ]
                : [

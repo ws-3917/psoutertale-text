@@ -5289,16 +5289,16 @@ export default {
       ],
       act_check0: [ "<32>{#p/asriel2}* Gelatini，沒腦子的粘球。\n* 有什麼好說的？" ],
       act_check: [ "<32>{#p/story}* GELATINI - 攻擊6 防禦0\n* 典型印象：身段妖嬈氣質好，\n  就是沒大腦..." ],
-      act_check2: [ "<32>{#p/story}* GELATINI - ATK 6 DEF 0\n* It's even more attractive in this season's colors." ],
-      act_check3: [ "<32>{#p/story}* GELATINI - ATK 6 DEF 0\n* It's exactly your type.\n* It's \"stereo.\"" ],
-      act_check4: [ "<32>{#p/story}* GELATINI - ATK 6 DEF 0\n* This mold supermodel appears to be past its prime." ],
+      act_check2: [ "<32>{#p/story}* GELATINI - 攻擊6 防禦0\n* 應季的色彩令它更為迷人。" ],
+      act_check3: [ "<32>{#p/story}* GELATINI - 攻擊6 防禦0\n* 與你所喜歡的類別相同。\n* 刻板印象的那種。" ],
+      act_check4: [ "<32>{#p/story}* GELATINI - 攻擊6 防禦0\n* 這位超級模特早已輝煌不再。" ],
       act_flirt: [
-         "<32>{#p/human}* (You wiggle your hips.)\n* (Gelatini wiggles back.)",
-         "<33>{#p/basic}* What a meaningful conversation!"
+         "<32>{#p/human}* （你扭動著你的臀部。）\n* （Gelatini用扭動回應你。）",
+         "<33>{#p/basic}* 真是有意義的交流！"
       ],
       act_imitate: [
-         "<33>{#p/human}* (You give Gelatini a nice pat.)\n* (Its body changes color...)",
-         "<32>{#p/basic}* It's Gelatini's happy color!"
+         "<33>{#p/human}* （你輕輕地拍了拍Gelatini。）\n* （它的身體變色了。）",
+         "<32>{#p/basic}* 這是Gelatini高興時的顏色！"
       ],
       act_slap: [
          "<32>{#p/human}* （你使勁地給了Galatini一巴掌。）",
@@ -5312,8 +5312,8 @@ export default {
          "<32>{#p/human}* (You deliver your mightiest slap to Gelatini.)",
          "<32>{#p/basic}* Gelatini逃離了現場！"
       ],
-      idleTalk1: [ "<08>{#p/basic}{~}Blorb.." ],
-      idleTalk2: [ "<08>{#p/basic}{~}Squorch.." ],
+      idleTalk1: [ "<08>{#p/basic}{~}吐泡泡.." ],
+      idleTalk2: [ "<08>{#p/basic}{~}擠擠.." ],
       idleTalk3: [ "<08>{#p/basic}{~}\x00*slime sounds*" ],
       name: "* Gelatini",
       perilStatus: () =>
