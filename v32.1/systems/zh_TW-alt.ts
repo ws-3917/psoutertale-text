@@ -2,12 +2,12 @@
 
 export default {
    battle: {
-      death0: ["（你深吸了一口氣。）", "（你充滿了決心。）"],
-      death1: ["現在還不能放棄...", "$(name)！\n保持你的決心..."],
-      death2: ["我們的命運都\n寄託於你...", "$(name)！\n保持你的決心..."],
-      death3: ["你會沒事的！", "$(name)！\n保持你的決心..."],
-      death4: ["別失去希望！", "$(name)！\n保持你的決心..."],
-      death5: ["現在還不能結束！", "$(name)！\n保持你的決心..."],
+      death0: [ "（你深吸了一口氣。）", "（你充滿了決心。）" ],
+      death1: [ "現在還不能放棄...", "$(name)！\n保持你的決心..." ],
+      death2: [ "我們的命運都\n寄託於你...", "$(name)！\n保持你的決心..." ],
+      death3: [ "你會沒事的！", "$(name)！\n保持你的決心..." ],
+      death4: [ "別失去希望！", "$(name)！\n保持你的決心..." ],
+      death5: [ "現在還不能結束！", "$(name)！\n保持你的決心..." ],
 
       flee1: "   * 先走一步...",
       flee2: "   * 我先撤了。",
@@ -19,8 +19,8 @@ export default {
       mercy_flee: "* 逃跑",
       mercy_spare: "* 饒恕",
 
-      victory1: "{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.",
-      victory2: "{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.\n* Your LOVE increased."
+      victory1: "<32>{#p/story}* 你勝利了！\n* 你獲得了$(x) EXP和$(y)G。",
+      victory2: "<32>{#p/story}* 你勝利了！\n* 你獲得了$(x) EXP和$(y)G。\n* 你的LOVE增加了。"
    },
 
    developer: {
@@ -34,7 +34,7 @@ export default {
       },
       control: {
          tab: "快捷功能",
-         headers: ["主世界", "戰鬥中"],
+         headers: [ "主世界", "戰鬥中" ],
          items: [
             [
                "音樂初始化",
@@ -90,14 +90,14 @@ export default {
       },
       inspect: {
          tab: "察看圖層",
-         headers: ["圖層", "類別"],
+         headers: [ "圖層", "類別" ],
          switches: [
-            ["基層", "下層", "主層", "上層", "選單層"],
-            ["碰撞箱", "貼圖", "文本"]
+            [ "基層", "下層", "主層", "上層", "選單層" ],
+            [ "碰撞箱", "貼圖", "文本" ]
          ],
          p_explorer: {
             header: "瀏覽",
-            layers: ["基層", "下層", "主層", "上層", "選單層"],
+            layers: [ "基層", "下層", "主層", "上層", "選單層" ],
             letters: {
                animation: "動",
                character: "NPC",
@@ -220,8 +220,8 @@ export default {
       dialog_save: { buttonLabel: "儲存", name: "存檔檔案", title: "匯出存檔" },
       error_access: "存檔檔案無效：「$(x)」",
       error_load: "無法解析存檔。",
-      message_alert: ["確定"],
-      message_confirm: ["取消", "確定"],
+      message_alert: [ "確定" ],
+      message_confirm: [ "取消", "確定" ],
       prompt_clear: "刪除這個存檔嗎？",
       prompt_demo: "已將您的OUTERTALE demo存檔\n行動到其他時間軸槽位中。",
       prompt_save: "將存檔儲存到其他位置嗎？",
@@ -438,7 +438,7 @@ export default {
             "",
             "§fill=#808080§P.S. 漢化組正在為遊戲製作各種Mod！\n歡迎B站跟隨@ws3917\n瞭解最新Mod開發進度！§fill=#fff§"
         ],
-["特別鳴謝 由§fill=#ff0§Mavis與朋友們§fill=#fff§提供"]
+[ "特別鳴謝 由§fill=#ff0§Mavis與朋友們§fill=#fff§提供" ]
       ],
 
       final_frontier: {
@@ -856,7 +856,7 @@ export default {
             "Working on this project has been an honor,",
             "and a pleasure on my part."
          ],
-         ["When I started this journey, I never", "thought I'd get this far, but here we", "are anyway, at the end."],
+         [ "When I started this journey, I never", "thought I'd get this far, but here we", "are anyway, at the end." ],
          [
             "For me, UNDERTALE was a life-changing",
             "experience, and one that was very hard to",
@@ -882,7 +882,7 @@ export default {
             "you did, and nothing can take that",
             "experience away from you."
          ],
-         ["Despite your mistakes... you are awesome,", "and you deserve love and attention.", "Remember that, okay?"]
+         [ "Despite your mistakes... you are awesome,", "and you deserve love and attention.", "Remember that, okay?" ]
       ],
       real2: "Take care of yourself, \"$(x).\"",
       real3: "劇終",
@@ -993,7 +993,7 @@ export default {
       settings10: "打開Mod目錄",
 
       sidebar1: "物品",
-      sidebar2: "狀態",
+      sidebar2: "狀況",
       sidebar3: "手機",
       sidebar4: "設定",
       sidebar5: "體徵",
@@ -1023,17 +1023,17 @@ export default {
       stat12: "生命體徵",
       stat13: "\"$(x)\"",
 
-      story1: ["<24>{#p/storyteller}很久以前，\n太陽系由兩個物種統治著：\n人類和怪物。"],
-      story2: ["<24>隨著時間的推移，\n兩個物種之間爆發了戰爭。"],
-      story3: ["<24>最終，\n怪物的母星被摧毀，\n人類宣佈了勝利。"],
-      story4: ["<24>他們將剩下的怪物\n流放到一個廢棄的前哨站。"],
-      story5: ["<24>隨後，建起一道強大的力場，\n將怪物們封印在內。"],
-      story6: ["<24>許多年後.{^16}.{^16}.{}"],
-      story7: ["<#24>µµµµµµµ EBOTT區 µµµµ \nµµµµµµµµ 251X{^20}{}"],
-      story8: ["<24>傳說，宇宙中有一個地方，\n發射到那裡的飛船\n都再也沒有返航。{^20}{}"],
-      story9: ["<24>{^100}{}"],
-      story10: ["<24>{^100}{}"],
-      story11: ["<24>{^50}{}"]
+      story1: [ "<24>{#p/storyteller}很久以前，\n太陽系由兩個物種統治著：\n人類和怪物。" ],
+      story2: [ "<24>隨著時間的推移，\n兩個物種之間爆發了戰爭。" ],
+      story3: [ "<24>最終，\n怪物的母星被摧毀，\n人類宣佈了勝利。" ],
+      story4: [ "<24>他們將剩下的怪物\n流放到一個廢棄的前哨站。" ],
+      story5: [ "<24>隨後，建起一道強大的力場，\n將怪物們封印在內。" ],
+      story6: [ "<24>許多年後.{^16}.{^16}.{}" ],
+      story7: [ "<#24>µµµµµµµ EBOTT區 µµµµ \nµµµµµµµµ 251X{^20}{}" ],
+      story8: [ "<24>傳說，宇宙中有一個地方，\n發射到那裡的飛船\n都再也沒有返航。{^20}{}" ],
+      story9: [ "<24>{^100}{}" ],
+      story10: [ "<24>{^100}{}" ],
+      story11: [ "<24>{^50}{}" ]
    },
 
    timeline: {
