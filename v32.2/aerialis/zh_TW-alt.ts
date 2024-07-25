@@ -3658,7 +3658,7 @@ export default {
          recycler: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You can't make out what's in the recycle bin...)" ]
-               : [ "<32>{#p/basic}* It's a recycle bin." ],
+               : [ "<32>{#p/basic}* 這是個資源回收桶。" ],
          recyclerX: [ "<32>{#p/human}* (You discarded the electro- dampening fluid.)" ],
          ingredient1: () =>
             iFancyYourVilliany()

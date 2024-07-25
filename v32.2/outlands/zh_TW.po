@@ -2009,6 +2009,9 @@ msgid ""
 "<25>{#f/1}* ...\n"
 "* If you like, I can read you this book..."
 msgstr ""
+"<25>{#f/1}* ...\n"
+"* 如果你喜歡的話，\n"
+"  我可以給你讀這本書..."
 
 msgid ""
 "<25>{#f/0}* It is called \"Generous Monster\" and it was written by a human."
@@ -4146,7 +4149,7 @@ msgstr "<25>{#f/1}* 供氣系統好像壞掉了。"
 
 msgid ""
 "<25>{#f/1}* If you begin to feel weak, do not hesitate to return to bed."
-msgstr "<25>{#f/1}* 要是覺得困，就再多睡一會吧。"
+msgstr "<25>{#f/1}* 要是覺得困，就再睡一會吧。"
 
 msgid "<26>{#f/0}* ... anywho."
 msgstr "<26>{#f/0}* ...順便一提..."
@@ -6009,7 +6012,7 @@ msgstr "<32>* 看起來你對我們的商品情有獨鍾 ;)"
 
 msgid "<32>* Say, if- no, when you meet the boss-man... tell him this ;)"
 msgstr ""
-"<32>* 如果——\n"
+"<32>* 如果-\n"
 "* 不，當你見到我們上司的時候...\n"
 "  記得和他說一聲 ;)"
 
@@ -6577,10 +6580,12 @@ msgid "<32>* Tends to be a great way to channel your inner thoughts."
 msgstr ""
 
 msgid "<32>{#p/basic}* It's a view of outer space."
-msgstr ""
+msgstr "<32>{#p/basic}* 這是外太空的一景。"
 
 msgid "<32>* Certainly no shortage of those around here, is there?"
 msgstr ""
+"<32>* 這附近肯定不缺這種東西，\n"
+"  是吧？"
 
 msgid "<26>{#p/toriel}{#f/1}* Patience, my child!"
 msgstr "<26>{#p/toriel}{#f/1}* 再等等就好，我的孩子！"
@@ -7145,7 +7150,7 @@ msgid "<32>{#p/basic}* This plant is not very happy to see you."
 msgstr "<32>{#p/basic}* 這株植物不想見到你。"
 
 msgid "<32>{#p/basic}* This plant is happy to see you."
-msgstr ""
+msgstr "<32>{#p/basic}* 這株植物很開心見到你。"
 
 msgid "<32>{#p/basic}* This plant is ecstatic about seeing you!"
 msgstr "<32>{#p/basic}* 這株植物見到你非常激動！"
@@ -7546,6 +7551,8 @@ msgstr ""
 
 msgid "<32>{#p/basic}* A decorative plant on Toriel's dining table."
 msgstr ""
+"<32>{#p/basic}* Toriel餐桌上的\n"
+"  一株觀賞植物。"
 
 msgid ""
 "<25>{#p/asriel1}{#f/20}* $(name) used to pretend these things were musical "
@@ -7801,7 +7808,7 @@ msgid "<32>{#p/basic}* It's a reading chair."
 msgstr "<32>{#p/basic}* 一把靠椅。"
 
 msgid "<32>{#p/basic}* Toriel's dedicated reading chair..."
-msgstr ""
+msgstr "<32>{#p/basic}* Toriel的專用閱讀椅..."
 
 msgid "<32>* ... at least until Asgore decides he'd like it instead."
 msgstr ""
@@ -7812,7 +7819,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* Toriel's dedicated reading chair."
-msgstr ""
+msgstr "<32>{#p/basic}* Toriel的專用閱讀椅。"
 
 msgid "<32>* Smells like lazy bones."
 msgstr ""
@@ -8049,6 +8056,8 @@ msgstr ""
 
 msgid "<32>{#p/basic}* It's Toriel's private trash can, containing..."
 msgstr ""
+"<32>{#p/basic}* 這是Toriel的私人垃圾桶，\n"
+"  裡面有..."
 
 msgid "<32>* Snails."
 msgstr "<32>* 蝸牛。"
@@ -8058,6 +8067,9 @@ msgstr "<32>* 更多的蝸牛。"
 
 msgid "<32>{#p/basic}* Maybe this is how snails live past their expiry date."
 msgstr ""
+"<32>{#p/basic}* 也許這就是蝸牛\n"
+"  過了保質期後的\n"
+"  生存方式。"
 
 msgid "<32>{#p/basic}* And nothing BUT snails."
 msgstr "<32>{#p/basic}* 除了蝸牛就沒別的了。"
@@ -8084,7 +8096,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* Oodles and oodles of snails."
-msgstr ""
+msgstr "<32>* 更多的蝸牛。"
 
 msgid "<32>{#p/human}* (You stare excitedly into the cosmos beyond...)"
 msgstr ""
@@ -8725,7 +8737,7 @@ msgid "<32>{#p/story}* The trio has become a duo."
 msgstr "<32>{#p/story}* 三人組變成兩人組了。"
 
 msgid "<32>{#p/story}* Only one remains."
-msgstr ""
+msgstr "<32>{#p/story}* 現在，變成單人組（？）了。"
 
 msgid "<32>{#p/story}* Silente and company present themselves!"
 msgstr "<32>{#p/story}* Silente和他的同夥一同現身了！"
@@ -10494,7 +10506,7 @@ msgid "Smells like Dihydrogen Monoxide."
 msgstr "它的氣味很像一氧化二氫。"
 
 msgid "<32>{#p/human}* (You throw away the Water.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把水倒掉了。）"
 
 msgid "<32>{#p/human}* (12 HP.)"
 msgstr "<32>{#p/human}* （12 HP。）"
@@ -10513,24 +10525,26 @@ msgid "<33>{#p/human}* (You're filled with hydration.)"
 msgstr "<33>{#p/human}* （你充滿了一氧化二氫的力量。）"
 
 msgid "A well-deserved chocolate bar."
-msgstr ""
+msgstr "這巧克力棒是你應得的。"
 
 msgid "Chocolate"
 msgstr "巧克力棒"
 
 msgid "<32>{#p/human}* (You threw away the Chocolate Bar.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把巧克力棒扔掉了。）"
 
 msgid "<32>{#p/basic}* ... oh well."
-msgstr ""
+msgstr "<32>{#p/basic}* ...唉，行吧。"
 
 msgid "<32>{#p/human}* (19 HP. This item seems to remind you of someone.)"
-msgstr "<32>{#p/human}* （19 HP。它讓你想到了某個人。）"
+msgstr "<32>{#p/human}* （19 HP。它讓你想起了某個人。）"
 
 msgid ""
 "<32>{#p/basic}* \"Chocolate Bar\" Heals 19 HP\n"
 "* It's a well-deserved treat."
 msgstr ""
+"<32>{#p/basic}* 「巧克力棒」 回復19 HP\n"
+"* 辛勞一路，犒勞下自己吧。"
 
 msgid "Chocolate Bar"
 msgstr "巧克力棒"
@@ -10540,6 +10554,8 @@ msgstr "<32>{#p/human}* （你吃掉了巧克力棒。）"
 
 msgid "<32>{#p/basic}* Toriel recognizes the scent and smiles a little."
 msgstr ""
+"<32>{#p/basic}* Toriel也聞到了巧克力的香味，\n"
+"  露出了微笑。"
 
 msgid "This substance is said to have highly relaxing properties."
 msgstr "據說它能讓你「飄飄欲仙」。"
@@ -10561,13 +10577,15 @@ msgid "<32>{#p/human}* (You ingest the Δ-9.)"
 msgstr "<32>{#p/human}* （你吸食了大麻素。）"
 
 msgid "A headband with its own gravity field."
-msgstr ""
+msgstr "一條頭帶，自帶重力場。"
 
 msgid "Halo"
 msgstr "光環"
 
 msgid "<32>{#p/human}* (You fling the Halo away like a frisbee.)"
 msgstr ""
+"<32>{#p/human}* （你像丟飛盤一般\n"
+"  把光環扔得老遠。）"
 
 msgid "<32>{#p/human}* (3 DF.)"
 msgstr "<32>{#p/human}* （3防禦。）"
@@ -10576,15 +10594,17 @@ msgid ""
 "<32>{#p/basic}* \"Halo\" (3 DF)\n"
 "* A headband with its own gravity field."
 msgstr ""
+"<32>{#p/basic}* 「光環」 （3防禦）\n"
+"* 一條頭帶，自帶重力場。"
 
 msgid "<32>{#p/human}* (You don the Halo.)"
 msgstr "<32>{#p/human}* （你戴上了光環。）"
 
 msgid "<25>{#p/asriel1}{#f/20}* I think it suits you."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/20}* 我覺得，它和你蠻配的。"
 
 msgid "A whacking spoon."
-msgstr "一個巨大的勺子。"
+msgstr "一把大勺子。"
 
 msgid "Dipper"
 msgstr "小熊座"
@@ -10600,7 +10620,7 @@ msgid ""
 "* A whacking spoon."
 msgstr ""
 "<32>{#p/basic}* 「小熊座」 （3攻擊）\n"
-"* 一個巨大的勺子。"
+"* 一把大勺子。"
 
 msgid "Little Dipper"
 msgstr "小熊座"
@@ -11665,6 +11685,8 @@ msgstr ""
 
 msgid "<25>{#f/0}* I left a chocolate bar in the fridge for you."
 msgstr ""
+"<25>{#f/0}* 我在冰箱裡給你留了條\n"
+"  巧克力棒。"
 
 msgid "<25>{#f/0}* I hear it is... an old favorite of humans."
 msgstr ""
@@ -12299,13 +12321,16 @@ msgstr ""
 
 msgid "<32>{#p/human}* (This cute little home fills you with determination.)"
 msgstr ""
-"<32>{#p/human}* （這所溫馨的小房子\n"
-"  使你充滿了決心。）"
+"<32>{#p/human}* （面前是一座溫馨的小房子，\n"
+"  這使你充滿了決心。）"
 
 msgid ""
 "<32>{#p/human}* (A house amidst the metallic walls fills you with "
 "determination.)"
 msgstr ""
+"<32>{#p/human}* （面前是一座被金屬圍牆\n"
+"  緊緊包圍的房子，\n"
+"  這使你充滿了決心。）"
 
 msgid "Outlands - Entrance"
 msgstr "外域 - 入口"

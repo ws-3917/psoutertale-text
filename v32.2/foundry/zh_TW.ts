@@ -2320,7 +2320,7 @@ export default {
                        "<32>* These signal stars may be the least of our worries..."
                     ]
                   : [
-                       "<32>{#p/basic}{#npc/a}* This is a signal star.\n* When it picks up a signal, it repeats it over and over..."
+                       "<32>{#p/basic}{#npc/a}* 這是一臺訊星。\n* 它會重複它剛剛接收到的訊息，\n  一遍又一遍..."
                     ],
             () =>
                SAVE.data.n.plot === 72
@@ -2371,16 +2371,16 @@ export default {
                        "<25>{#f/1}* Did that short skeleton make everyone laugh again?"
                     ]
                   : [
-                       "<25>{#p/kidd}{#npc/a}{#f/2}* Yo, are you here to see her too?",
-                       "<25>{#f/1}* Haha.\n* She's the coolest!!",
-                       "<25>{#f/2}* I wanna be just like her when I grow up..."
+                       "<25>{#p/kidd}{#npc/a}{#f/2}* 喲，你也是來這看她的嗎？",
+                       "<25>{#f/1}* 哈哈。\n* 她最酷了！！",
+                       "<25>{#f/2}* 我長大了要成為她那樣..."
                     ],
             () =>
                world.genocide
                   ? [ "<25>{#p/kidd}{#npc/a}{#f/4}* ..." ]
                   : SAVE.data.n.plot === 33
                   ? [ "<25>{#p/kidd}{#npc/a}{#f/3}* He always gets kicked out for pulling awful pranks." ]
-                  : [ "<25>{#p/kidd}{#npc/a}{#f/1}* You go on ahead.", "<25>{#f/1}* I'll catch up with you soon!" ]
+                  : [ "<25>{#p/kidd}{#npc/a}{#f/1}* 你先走吧。", "<25>{#f/1}* 我隨後就來！" ]
          ),
          f_longsy: pager.create(
             0,
@@ -8295,7 +8295,7 @@ export default {
                     "<32>{#p/human}* （不知怎地，通風口排出的\n  蒸汽令人不安。）",
                     "<32>{#p/human}* （儘管如此，你充滿了\n  決心。）"
                  ]
-               : [ "<32>{#p/human}* (The hot, damp steam emitted by these vents fills you with determination.)" ]
+               : [ "<32>{#p/human}* （通風口冒出的溼熱蒸汽使你\n  充滿了決心。）" ]
       },
       f_shyren: {
          name: "鑄廠 - 售貨機",

@@ -5302,14 +5302,14 @@ export default {
       ],
       act_slap: [
          "<32>{#p/human}* （你使勁地給了Galatini一巴掌。）",
-         "<32>{#p/basic}* Gelatini is jostled, but remains ultimately unfazed."
+         "<32>{#p/basic}* Gelatini身體發生凹陷，\n  但不久便恢復原形。"
       ],
       act_slap2: [
-         "<32>{#p/human}* (You deliver your mightiest slap to Gelatini.)",
-         "<32>{#p/basic}* Gelatini is shaken to its core!"
+         "<32>{#p/human}* （你用盡全身力氣扇了Gelatini\n  一巴掌。）",
+         "<32>{#p/basic}* Gelatini的根基被動搖了！"
       ],
       act_slap3: [
-         "<32>{#p/human}* (You deliver your mightiest slap to Gelatini.)",
+         "<32>{#p/human}* （你用盡全身力氣扇了Gelatini\n  一巴掌。）",
          "<32>{#p/basic}* Gelatini逃離了現場！"
       ],
       idleTalk1: [ "<08>{#p/basic}{~}吐泡泡.." ],
@@ -5318,16 +5318,16 @@ export default {
       name: "* Gelatini",
       perilStatus: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* This can't be good..." ]
+            ? [ "<32>{#p/kidding}* 這可不是什麼好事..." ]
             : [ "<32>{#p/story}* Gelatini已經開始腐爛了。" ],
-      sexyChat: [ "<08>{#p/basic}{~}\x00*sexy wiggle*" ],
+      sexyChat: [ "<08>{#p/basic}{~}\x00*性感\n扭動*" ],
       status1: () =>
          world.goatbro ? [ "<32>{#p/asriel2}* Gelatini把身體挺成正方形。" ] : [ "<32>{#p/story}* 一對Gelatini跳了過來。" ],
       status2: () =>
          world.goatbro
             ? [ "<32>{#p/asriel2}* Gelatini。" ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* Shh... it's thinking!" ]
+            ? [ "<32>{#p/kidding}* 噓... 它在思考！" ]
             : [ "<32>{#p/story}* Gelatini靜靜地凝結著。" ],
       status3: () =>
          world.goatbro ? [ "<32>{#p/asriel2}* Gelatini。" ] : [ "<32>{#p/story}* Gelatini樂觀地等待著。" ],
@@ -5335,8 +5335,8 @@ export default {
          world.goatbro
             ? [ "<32>{#p/asriel2}* Gelatini。" ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* A blorb here, a blorb there..." ]
-            : [ "<32>{#p/story}* Gelatini is ruminating." ],
+            ? [ "<32>{#p/kidding}* 這裡一個泡泡，那裡一個泡泡..." ]
+            : [ "<32>{#p/story}* Gelatini正在沉思。" ],
       status5: () =>
          world.goatbro
             ? [ "<32>{#p/asriel2}* Gelatini。" ]
@@ -5697,7 +5697,7 @@ export default {
       nobody0: [ "<32>{#p/human}* (Too much interference.)" ],
       nobody1: [ "<32>{#p/human}* （沒有回應。）" ],
       nobody2: [ "<32>{#p/basic}* ...但是誰也沒有來。" ],
-      nobody3: [ "<32>{#p/human}* （沒有信號。）" ],
+      nobody3: [ "<32>{#p/human}* （沒有訊號。）" ],
       nobody4: [
          "<32>{#p/human}* (It sounds like a small, white dog is sleeping on the cell phone.)",
          "<32>{#p/basic}* (Snore... snore...)",

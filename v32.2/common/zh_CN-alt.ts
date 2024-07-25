@@ -5302,14 +5302,14 @@ export default {
       ],
       act_slap: [
          "<32>{#p/human}* （你使劲地给了Galatini一巴掌。）",
-         "<32>{#p/basic}* Gelatini is jostled, but remains ultimately unfazed."
+         "<32>{#p/basic}* Gelatini身体发生凹陷，\n  但不久便恢复原形。"
       ],
       act_slap2: [
-         "<32>{#p/human}* (You deliver your mightiest slap to Gelatini.)",
-         "<32>{#p/basic}* Gelatini is shaken to its core!"
+         "<32>{#p/human}* （你用尽全身力气扇了Gelatini\n  一巴掌。）",
+         "<32>{#p/basic}* Gelatini的根基被动摇了！"
       ],
       act_slap3: [
-         "<32>{#p/human}* (You deliver your mightiest slap to Gelatini.)",
+         "<32>{#p/human}* （你用尽全身力气扇了Gelatini\n  一巴掌。）",
          "<32>{#p/basic}* Gelatini逃离了现场！"
       ],
       idleTalk1: [ "<08>{#p/basic}{~}吐泡泡.." ],
@@ -5318,16 +5318,16 @@ export default {
       name: "* Gelatini",
       perilStatus: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* This can't be good..." ]
+            ? [ "<32>{#p/kidding}* 这可不是什么好事..." ]
             : [ "<32>{#p/story}* Gelatini已经开始腐烂了。" ],
-      sexyChat: [ "<08>{#p/basic}{~}\x00*sexy wiggle*" ],
+      sexyChat: [ "<08>{#p/basic}{~}\x00*性感\n扭动*" ],
       status1: () =>
          world.goatbro ? [ "<32>{#p/asriel2}* Gelatini把身体挺成正方形。" ] : [ "<32>{#p/story}* 一对Gelatini跳了过来。" ],
       status2: () =>
          world.goatbro
             ? [ "<32>{#p/asriel2}* Gelatini。" ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* Shh... it's thinking!" ]
+            ? [ "<32>{#p/kidding}* 嘘... 它在思考！" ]
             : [ "<32>{#p/story}* Gelatini静静地凝结着。" ],
       status3: () =>
          world.goatbro ? [ "<32>{#p/asriel2}* Gelatini。" ] : [ "<32>{#p/story}* Gelatini乐观地等待着。" ],
@@ -5335,8 +5335,8 @@ export default {
          world.goatbro
             ? [ "<32>{#p/asriel2}* Gelatini。" ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* A blorb here, a blorb there..." ]
-            : [ "<32>{#p/story}* Gelatini is ruminating." ],
+            ? [ "<32>{#p/kidding}* 这里一个泡泡，那里一个泡泡..." ]
+            : [ "<32>{#p/story}* Gelatini正在沉思。" ],
       status5: () =>
          world.goatbro
             ? [ "<32>{#p/asriel2}* Gelatini。" ]

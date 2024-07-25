@@ -828,7 +828,7 @@ export default {
       chair1d: [ "<25>{#p/toriel}{#n1}* 如果改变主意的话\n  随时告诉我哦。" ],
       chair1e: [
          "<25>{#p/toriel}{#f/1}{#n1}* 睡不着吗？",
-         "<25>{#f/1}* ...\n* If you like, I can read you this book...",
+         "<25>{#f/1}* ...\n* 如果你喜欢的话，\n  我可以给你读这本书...",
          "<25>{#f/0}* 书名叫《慷慨的怪物》，\n  是一个人类写的。",
          choicer.create("{#n1!}* （要听吗？）", "听", "不听")
       ],
@@ -1689,7 +1689,7 @@ export default {
 
                     ? "<25>{#f/1}* 供气系统应该还没修好。"
                     : "<25>{#f/1}* 供气系统好像坏掉了。",
-                 "<25>{#f/1}* 要是觉得困，就再多睡一会吧。",
+                 "<25>{#f/1}* 要是觉得困，就再睡一会吧。",
                  "<26>{#f/0}* ...顺便一提..."
               ]
             : [
@@ -1725,7 +1725,7 @@ export default {
 
                     ? "<25>{#f/1}* 供气系统应该还没修好。"
                     : "<25>{#f/1}* 供气系统好像坏掉了。",
-                 "<25>{#f/1}* 要是觉得困，就再多睡一会吧。",
+                 "<25>{#f/1}* 要是觉得困，就再睡一会吧。",
                  "<26>{#f/0}* ...顺便一提..."
               ]
             : [ "<25>{#p/toriel}* 早上好，小家伙。" ]),
@@ -1749,7 +1749,7 @@ export default {
 
                     ? "<25>{#f/1}* 供气系统应该还没修好。"
                     : "<25>{#f/1}* 供气系统好像坏掉了。",
-                 "<25>{#f/1}* 要是觉得困，就再多睡一会吧。"
+                 "<25>{#f/1}* 要是觉得困，就再睡一会吧。"
               ]
             : [ "<25>{#p/toriel}* 早上好，小家伙。" ]),
          "<25>{#f/5}* ...",
@@ -2535,7 +2535,7 @@ export default {
          i: [
             "<32>{#p/basic}{#n1}* 顺便说下，我们缺货了 ;)",
             "<32>* 看起来你对我们的商品情有独钟 ;)",
-            "<32>* 如果——\n* 不，当你见到我们上司的时候...\n  记得和他说一声 ;)",
+            "<32>* 如果-\n* 不，当你见到我们上司的时候...\n  记得和他说一声 ;)",
             "<32>{#p/human}{#n1!}* （Aaron在你耳边低语了几句。）",
             "<32>{#p/basic}{#n1}* 一路顺风，亲 ;)"
          ]
@@ -2778,8 +2778,8 @@ export default {
                     "<32>* Tends to be a great way to channel your inner thoughts."
                  ]
                : [
-                    "<32>{#p/basic}* It's a view of outer space.",
-                    "<32>* Certainly no shortage of those around here, is there?"
+                    "<32>{#p/basic}* 这是外太空的一景。",
+                    "<32>* 这附近肯定不缺这种东西，\n  是吧？"
                  ],
          w_kitchenwall: () =>
             SAVE.data.n.plot === 9
@@ -3068,7 +3068,7 @@ export default {
                : world.darker
                ? [ "<32>{#p/basic}* 这株植物不想见到你。" ]
                : SAVE.data.b.oops
-               ? [ "<32>{#p/basic}* This plant is happy to see you." ]
+               ? [ "<32>{#p/basic}* 这株植物很开心见到你。" ]
                : [ "<32>{#p/basic}* 这株植物见到你非常激动！" ],
          w_th_sausage: () =>
             SAVE.data.b.svr
@@ -3264,7 +3264,7 @@ export default {
                ? [ "<32>{#p/human}* (The plant appears to be decorative in nature.)" ]
                : world.darker
                ? [ "<32>{#p/basic}* 一株观赏植物。\n* 仅此而已。" ]
-               : [ "<32>{#p/basic}* A decorative plant on Toriel's dining table." ],
+               : [ "<32>{#p/basic}* 托丽尔餐桌上的\n  一株观赏植物。" ],
          w_tl_tools: () =>
             SAVE.data.b.svr
                ? [
@@ -3403,11 +3403,11 @@ export default {
                ? [ "<32>{#p/basic}* 一把靠椅。" ]
                : SAVE.data.n.plot === 72
                ? [
-                    "<32>{#p/basic}* Toriel's dedicated reading chair...",
+                    "<32>{#p/basic}* 托丽尔的专用阅读椅...",
                     "<32>* ... at least until Asgore decides he'd like it instead.",
                     "<32>* He's always wanted this chair.\n* I'd be surprised if he didn't take it with him."
                  ]
-               : [ "<32>{#p/basic}* Toriel's dedicated reading chair.", "<32>* Smells like lazy bones." ],
+               : [ "<32>{#p/basic}* 托丽尔的专用阅读椅。", "<32>* Smells like lazy bones." ],
          w_tt_diary: pager.create(
             0,
             ...[
@@ -3514,7 +3514,7 @@ export default {
                   : SAVE.data.n.plot === 72
                   ? [ "<32>{#p/basic}* The snails are beginning to smell... ghostly.", "<32>* ... what could this mean?" ]
                   : [
-                       "<32>{#p/basic}* It's Toriel's private trash can, containing...",
+                       "<32>{#p/basic}* 这是托丽尔的私人垃圾桶，\n  里面有...",
                        "<32>* 蜗牛。",
                        "<32>* 更多的蜗牛。"
                     ],
@@ -3526,7 +3526,7 @@ export default {
                      : world.darker
                      ? [ "<32>{#p/basic}* 蜗牛。" ]
                      : SAVE.data.n.plot === 72
-                     ? [ "<32>{#p/basic}* Maybe this is how snails live past their expiry date." ]
+                     ? [ "<32>{#p/basic}* 也许这就是蜗牛\n  过了保质期后的\n  生存方式。" ]
                      : [ "<32>{#p/basic}* 除了蜗牛就没别的了。" ],
                () =>
                   SAVE.data.b.svr
@@ -3551,7 +3551,7 @@ export default {
                      ? [ "<32>{#p/basic}* 蜗牛。" ]
                      : SAVE.data.n.plot === 72
                      ? [ "<32>{#p/basic}* Oh, right.\n* The meaning of the snails' newfound ghostly scent." ]
-                     : [ "<32>{#p/basic}* Oodles and oodles of snails." ]
+                     : [ "<32>* 更多的蜗牛。" ]
             )
          ),
          w_tutorial_view: () =>
@@ -3818,7 +3818,7 @@ export default {
       froggitWhimsun2b: [ "<32>{#p/story}* 星际飞虫...？" ],
       looxMigospWhimsun: [ "<32>{#p/story}* 挑事三人组来了！" ],
       looxMigospWhimsun2: [ "<32>{#p/story}* 三人组变成两人组了。" ],
-      looxMigospWhimsun3: [ "<32>{#p/story}* Only one remains." ],
+      looxMigospWhimsun3: [ "<32>{#p/story}* 现在，变成单人组（？）了。" ],
       moldsmalMigosp: [ "<32>{#p/story}* Silente和他的同伙一同现身了！" ]
    },
 
@@ -4373,7 +4373,7 @@ export default {
          description: "它的气味很像一氧化二氢。",
          name: "水"
       },
-      drop: [ "<32>{#p/human}* (You throw away the Water.)" ],
+      drop: [ "<32>{#p/human}* （你把水倒掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （12 HP。）" ]
@@ -4386,22 +4386,22 @@ export default {
    },
    i_chocolate: {
       battle: {
-         description: "A well-deserved chocolate bar.",
+         description: "这巧克力棒是你应得的。",
          name: "巧克力棒"
       },
       drop: () => [
-         "<32>{#p/human}* (You threw away the Chocolate Bar.)",
-         ...(SAVE.data.b.svr || world.darker ? [] : [ "<32>{#p/basic}* ... oh well." ])
+         "<32>{#p/human}* （你把巧克力棒扔掉了。）",
+         ...(SAVE.data.b.svr || world.darker ? [] : [ "<32>{#p/basic}* ...唉，行吧。" ])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* （19 HP。它让你想到了某个人。）" ]
-            : [ "<32>{#p/basic}* \"Chocolate Bar\" Heals 19 HP\n* It's a well-deserved treat." ],
+            ? [ "<32>{#p/human}* （19 HP。它让你想起了某个人。）" ]
+            : [ "<32>{#p/basic}* “巧克力棒” 回复19 HP\n* 辛劳一路，犒劳下自己吧。" ],
       name: "巧克力棒",
       use: () => [
          "<32>{#p/human}* （你吃掉了巧克力棒。）",
          ...(battler.active && battler.targetCurrent?.opponent.metadata.reactChocolate
-            ? [ "<32>{#p/basic}* Toriel recognizes the scent and smiles a little." ]
+            ? [ "<32>{#p/basic}* 托丽尔也闻到了巧克力的香味，\n  露出了微笑。" ]
             : [])
       ]
    },
@@ -4420,32 +4420,32 @@ export default {
    },
    i_halo: {
       battle: {
-         description: "A headband with its own gravity field.",
+         description: "一条头带，自带重力场。",
          name: "光环"
       },
-      drop: [ "<32>{#p/human}* (You fling the Halo away like a frisbee.)" ],
+      drop: [ "<32>{#p/human}* （你像丢飞盘一般\n  把光环扔得老远。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （3防御。）" ]
-            : [ "<32>{#p/basic}* \"Halo\" (3 DF)\n* A headband with its own gravity field." ],
+            : [ "<32>{#p/basic}* “光环” （3防御）\n* 一条头带，自带重力场。" ],
       name: "光环",
       use: () => [
          "<32>{#p/human}* （你戴上了光环。）",
          ...(SAVE.data.b.svr && !SAVE.data.b.freedom && asrielinter.i_halo_use++ < 1
-            ? [ "<25>{#p/asriel1}{#f/20}* I think it suits you." ]
+            ? [ "<25>{#p/asriel1}{#f/20}* 我觉得，它和你蛮配的。" ]
             : [])
       ]
    },
    i_little_dipper: {
       battle: {
-         description: "一个巨大的勺子。",
+         description: "一把大勺子。",
          name: "小熊座"
       },
       drop: [ "<32>{#p/human}* （你把小熊座扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （3攻击。）" ]
-            : [ "<32>{#p/basic}* “小熊座” （3攻击）\n* 一个巨大的勺子。" ],
+            : [ "<32>{#p/basic}* “小熊座” （3攻击）\n* 一把大勺子。" ],
       name: "小熊座",
       use: [ "<32>{#p/human}* （你装备上了小熊座。）" ]
    },
@@ -4985,7 +4985,7 @@ export default {
               ],
       w_toriel_kitchen: [
          "<25>{#p/toriel}{#f/1}* The kitchen...?",
-         "<25>{#f/0}* I left a chocolate bar in the fridge for you.",
+         "<25>{#f/0}* 我在冰箱里给你留了条\n  巧克力棒。",
          "<25>{#f/0}* I hear it is... an old favorite of humans.",
          "<25>{#f/1}* 希望你能喜欢它..."
       ],
@@ -5308,8 +5308,8 @@ export default {
                        : "<32>{#p/human}* (Even when visiting, this house fills you with determination.)"
                  ]
                : 6 <= world.population
-               ? [ "<32>{#p/human}* （这所温馨的小房子\n  使你充满了决心。）" ]
-               : [ "<32>{#p/human}* (A house amidst the metallic walls fills you with determination.)" ]
+               ? [ "<32>{#p/human}* （面前是一座温馨的小房子，\n  这使你充满了决心。）" ]
+               : [ "<32>{#p/human}* （面前是一座被金属围墙\n  紧紧包围的房子，\n  这使你充满了决心。）" ]
       },
       w_entrance: {
          name: "外域 - 入口",

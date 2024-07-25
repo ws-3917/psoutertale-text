@@ -283,15 +283,15 @@ export default {
             : [ "<32>{#p/basic}* 锁住了。" ],
       sansdoor2: [ "<32>{#p/human}* (You use the Skeleton Key.)" ],
       sanscab1: () => [
-         ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* There's an odd remote inside of this envelope." ]),
-         "<32>{#s/equip}{#p/human}* (The Gravometric Inverter Remote was added to your keyring.)"
+         ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 信封里有个奇怪的遥控器。" ]),
+         "<32>{#s/equip}{#p/human}* （重力转换器遥控器被添加到了\n  你的钥匙串上。）"
       ],
       sanscab2: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (But you already emptied the envelope of its contents.)" ]
-            : [ "<32>{#p/basic}* It's just an empty envelope." ],
+            : [ "<32>{#p/basic}* 只是个空信封。" ],
       sanscab3: () => [
-         ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* There's an odd... item, inside of this envelope." ]),
+         ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 信封里有个奇怪的... 东西。" ]),
          SAVE.storage.inventory.size < 8
             ? "<32>{#s/equip}{#p/human}* (You got the Corn Dog Sword.)"
             : "<32>{#p/human}* （你带的东西太多了。）"
@@ -3066,7 +3066,7 @@ export default {
       ],
       papdate25i: [
          "<15>{#p/papyrus}{#f/14}你认真吗？？",
-         "<15>{#f/19}我没想就这么\n“告诉”你\n秘密的...",
+         "<15>{#f/19}我没想就这么\n【告诉】你\n秘密的...",
          "<15>{#f/20}你还必须得\n再加把劲！"
       ],
       papdate25j: () =>
@@ -3155,7 +3155,7 @@ export default {
          "<15>{#f/14}但-但是...\n啊哈！\n看我的反击！",
          "<15>{#f/15}I'LL OPEN THE PRESENT MYSELF!!"
       ],
-      papdate29: [ "<15>{#p/papyrus}{#f/20}你知道这是\n什么吗？" ],
+      papdate29: [ "<15>{#p/papyrus}{#f/20}你知道【这】是\n什么吗？" ],
       papdate30: [ choicer.create("* （你知道这是什么吗？）", "当然知道", "不知道") ],
       papdate31a: [
          "<15>{#p/papyrus}{#f/26}意大利面。",
@@ -3212,7 +3212,7 @@ export default {
                "<15>{#f/24}我以为你之前\n说要分享...",
                "<15>{#f/20}你会至少想自己\n尝一小口。",
                "<15>{#f/27}但你不是\n这样的，\n你都留给我了...",
-               "<15>{#f/12}你想让我，\n让我来，\n全都吃掉！！！"
+               "<15>{#f/12}你想让我，\n让【我】来，\n全都吃掉！！！"
             ],
             [
                "<15>{#f/21}即使你之前\n说过...",
@@ -3324,7 +3324,7 @@ export default {
          "<18>{#f/0}下一个谜题\n是我最喜欢的\n谜题之一。",
          "<18>{#f/4}这就像我兄弟的\n棉球收藏一样...",
          "<18>{#f/0}不论哪个地方\n都让人满意！",
-         "<18>{#f/9}我尽量不告诉你\n解决方法。"
+         "<18>{#f/9}我【尽量】不告诉你\n解决方法。"
       ],
       pappuzzle1a: [ "<18>{#p/papyrus}{#f/0}试试吧！" ],
       pappuzzle1b: [
@@ -3359,7 +3359,7 @@ export default {
          "<18>{#p/papyrus}{#f/9}厉害吧？\n我增加了水槽的高度。",
          "<18>{#f/0}现在我可以在下边\n放更多骨头了！\n你快看看！"
       ],
-      papsink2: [ "<18>{#p/papyrus}{#f/8}不-，是那条狗！" ],
+      papsink2: [ "<18>{#p/papyrus}{#f/8}不！是那条狗！" ],
       papsink3: [ "<18>{#p/papyrus}{#f/31}哦，好可怜\n好可怜的小狗狗...", "<18>{#f/9}给你，尝尝我的\n特殊攻击！" ],
       papsink4: [ "<18>{#p/papyrus}哇！！！\n它喜欢诶！！！" ],
       papsink5: [ "<18>{#p/papyrus}{#f/7}衫斯！", "<18>别再用配乐\n打扰我的生活了！！" ],
@@ -3467,7 +3467,7 @@ export default {
          "<18>{#f/7}你在撒谎！！",
          "<25>{#p/sans}{#f/2}* 抱歉，我是想说\n  “全息投影形状的人类”。",
          "<18>{#p/papyrus}{#f/0}...衫斯，我们\n终于做到了！",
-         "<18>{#f/9}安黛因现在必定会让我\n加入皇家守卫了！！！",
+         "<18>{#f/9}安黛因现在【必定】会让我\n加入皇家守卫了！！！",
          "<18>{#f/6}我们只需要...",
          "<18>{#f/5}去...",
          "<18>{#f/4}...",
@@ -3498,7 +3498,7 @@ export default {
          "<18>{#p/papyrus}{#f/5}...他好像\n刻意想让我躲着你。",
          "<18>{#p/papyrus}{#f/7}真不愧是他！！！",
          "<18>{#p/papyrus}{#f/0}但是，\n只要你不说，我不说～",
-         "<18>{#p/papyrus}{#f/9}那懒骨头\n就甭想知道一丁点\n咱们的“地下情谊”！"
+         "<18>{#p/papyrus}{#f/9}那懒骨头\n就甭想知道【一丁点】\n咱们的“地下情谊”！"
       ],
       papyrus6x3: [
          "<18>{#p/papyrus}{#f/5}不过，我现在得走了。\n绝不能让他发现\n我偷偷溜出来了。",
@@ -5097,42 +5097,42 @@ export default {
                        ? [ "<32>{#p/basic}* ... makes you wonder why they're still in the way of the closet." ]
                        : [ "<32>{#p/basic}* ... makes you wonder where the rest of Sans's junk went." ])
                  ],
-         s_sr_treadmill: [ "<32>{#p/basic}* It's a treadmill.", "<32>{#p/basic}* It's at its highest setting." ],
+         s_sr_treadmill: [ "<32>{#p/basic}* 这是一台跑步机。", "<32>{#p/basic}* 这是它的最高设定了。" ],
          s_sr_lamp: [
-            "<32>{#p/basic}* It's a lamp with a large note hanging inside.",
-            "<23>{#p/papyrusnt}\"SORRY, BUT I TOOK BACK THE FLASHLIGHT YOU WERE USING HERE.\"",
-            "<23>{#p/papyrusnt}\"IT'S NOT THAT I MIND YOU USING MY PROPERTY...\"",
-            "<23>{#p/papyrusnt}\"BUT USING IT IN SUCH AN IMPROPER WAY IS ENTIRELY UNJUSTIFIED!\"",
-            "<23>{#p/papyrusnt}\"I DON'T KNOW ABOUT YOU, BUT THE LAST TIME I CHECKED...\"",
-            "<23>{#p/papyrusnt}\"A FLASHLIGHT DID NOT COUNT AS NOT A LIGHTBULB!!\""
+            "<32>{#p/basic}* 这是一盏台灯，\n  里面挂着一张大字条。",
+            "<23>{#p/papyrusnt}“抱歉，我把你在这里用的\n手电筒拿回去了。”",
+            "<23>{#p/papyrusnt}“不是说我介意你用\n我的东西...”",
+            "<23>{#p/papyrusnt}“但你用这种不正常的\n方式用就完全没有\n道理了！”",
+            "<23>{#p/papyrusnt}“我不知道你是怎么想的，\n但据我所知...”",
+            "<23>{#p/papyrusnt}“手电筒算不上灯泡！！”"
          ],
          s_sc_book: [
-            "<32>{#p/basic}* It's an old logbook from the Royal Lab.",
-            "<32>{#p/human}* (You turn to the opened page...)",
-            "<32>{#p/basic}* \"Activity log, K-615.07\"",
-            "<32>* \"An ideal subject has been picked from the grove.\"",
-            "<32>* \"Preparations for the test substance are due to conclude in the coming days.\"",
-            "<32>* \"Soon, the subject will be injected with it.\"",
+            "<32>{#p/basic}* 这是皇家实验室的旧日志。",
+            "<32>{#p/human}* （你翻到了打开的那页...）",
+            "<32>{#p/basic}* “活动日志，克历615年7月”",
+            "<32>* “我们已经从树林中\n  挑选到了理想的对象。”",
+            "<32>* “试验物质的准备工作\n  将在未来几天结束。”",
+            "<32>* “很快，实验对象就会\n  进行注射。”",
             "<32>* \"With this, our freedom could be closer than ever...\""
          ],
          s_sc_drawer: [
-            "<32>{#p/basic}* There's a photo album inside the drawer.",
-            "<32>{#p/basic}* Inside the album, there are photos of Sans and Alphys at the Royal Lab.",
-            "<32>{#p/basic}* Running experiments, binge-watching old sci-fi anime...",
-            "<32>{#p/basic}* They look happy."
+            "<32>{#p/basic}* 抽屉里有一本相册。",
+            "<32>{#p/basic}* 相册里有衫斯和艾菲斯\n  在皇家实验室的照片。",
+            "<32>{#p/basic}* 有的照片中在做实验，\n  有的在沉迷看科幻动画...",
+            "<32>{#p/basic}* 他们看起来很开心。"
          ],
          s_sc_diagram: () => [
-            "<32>{#p/basic}* On the table, there's a blueprint for a forcefield-draining weapon.",
-            "<32>{#p/basic}* On the wall, there are diagrams of various other concepts...",
-            "<33>{#p/basic}* A forcefield polarity inverter, a wormhole aperture stabilizer, and a monster-bound human SOUL.",
+            "<32>{#p/basic}* 桌子上有一份\n  力场削弱武器的蓝图。",
+            "<32>{#p/basic}* 墙上还有其他\n  各种各样的概念图...",
+            "<33>{#p/basic}* 一个力场极性逆变器，\n  一个虫洞孔径稳定器，\n  还有个被怪物灵魂绑定的人类灵魂。",
             ...(!SAVE.data.b.s_state_charasker
                ? ((SAVE.data.b.s_state_charasker = true),
                  [
-                    "<32>{#p/basic}* ... is that possible?\n* A monster SOUL surviving within a human SOUL...?",
-                    "<32>{#p/basic}* But the identity of the monster SOUL's owner would be lost...",
+                    "<32>{#p/basic}* ...这是可能的吗？\n* 一个人类灵魂和一个\n  怪物灵魂共生？",
+                    "<32>{#p/basic}* 但是怪物灵魂主人的身份\n  将会丢失...",
                     "<32>{#p/basic}* ..."
                  ])
-               : [ "<32>{#p/basic}* ... hmm..." ])
+               : [ "<32>{#p/basic}* ... 嗯..." ])
          ],
          s_pr_papbed: pager.create(
             0,
@@ -6792,7 +6792,7 @@ export default {
          "<15>{#p/papyrus}{#f/14}BUT THEN... WHY WON'T YOU ACCEPT MY MERCY AND LEAVE ME?"
       ],
       secretFlirt3: [
-         "<15>{#p/papyrus}{#f/25}呃，我们还没到\n-那么-浓情蜜意的\n地步吧...",
+         "<15>{#p/papyrus}{#f/25}呃，我们还没到\n【那么】浓情\n蜜意的地步吧...",
          "<15>{#p/papyrus}{#f/15}...但事后\n我们可以继续！"
       ],
       secretFlirt3x: [ "<15>{#p/papyrus}{#f/27}WAIT, ARE -YOU- THE ONE WHO'S TRYING TO TEAR OUR LOVE APART?" ],
@@ -6879,7 +6879,7 @@ export default {
          "<15>{#p/papyrus}{#f/20}那个“艾斯利尔”好像\n也喜欢骂人蠢货！",
          "<15>{#p/papyrus}{#f/24}也就是说...",
          "<15>{#p/papyrus}{#f/22}你刚说的“星辰”\n肯定就是指他！",
-         "<15>{#p/papyrus}{#f/19}他肯定干了啥，\n害-我-表现得\n像个蠢货！"
+         "<15>{#p/papyrus}{#f/19}他肯定干了啥，\n害【我】表现得\n像个蠢货！"
       ],
       secretInsult6x: [
          "<15>{#p/papyrus}{#f/10}OH... OH!",
@@ -7495,11 +7495,11 @@ export default {
    },
 
    k_inverter: {
-      name: "Gravometric Inverter Remote",
+      name: "重力转换器遥控器",
       description: () =>
          SAVE.data.b.s_state_inverter
             ? "Used to operate the eponymous Gravometric Inverter."
-            : "Acquired from the unsealed envelope in Sans's room."
+            : "从衫斯房间里没有密封的信封里\n找到的。"
    },
 
    k_security: {
@@ -8611,11 +8611,11 @@ export default {
       s_town1: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}STARTON TOWN: THE NORTH SIDE!",
-            "<18>{#f/5}A SIDE I DON'T SPEND MUCH TIME ON.",
-            "<18>{#f/4}SANS, ON THE OTHER HAND...",
+            "<18>{#p/papyrus}星港小镇：\n南侧！",
+            "<18>{#f/5}是我不会花很多\n时间的一侧。",
+            "<18>{#f/4}然而，衫斯就...",
             ...(solo()
-               ? [ "<18>{#f/4}... WELL, YOU CAN PROBABLY GUESS WHY HE DOES." ]
+               ? [ "<18>{#f/4}...好吧，你可以\n大概猜一下他为什么\n喜欢这里。" ]
                : [
                     "<25>{#p/undyne}{#f/14}* ... enjoys the new and improved food they're selling at Grillby's!",
                     "<18>{#p/papyrus}{#f/4}NEW AND IMPROVED, YOU SAY?",
@@ -8625,7 +8625,7 @@ export default {
          ],
          () =>
             solo()
-               ? [ "<18>{#p/papyrus}{#f/0}IT HAS SOMETHING TO DO WITH GRILLBY'S." ]
+               ? [ "<18>{#p/papyrus}{#f/0}跟烤尔比是\n有关系的哦。" ]
                : [
                     "<18>{#p/papyrus}{#f/5}IF ONLY HE APPRECIATED WHAT I DO FOR HIM.",
                     "<18>{#p/papyrus}{#f/6}BROTHERS, AM I RIGHT?"
@@ -8636,16 +8636,16 @@ export default {
          () => [
             ...(SAVE.data.n.plot < 65
                ? [
-                    "<18>{#p/papyrus}{#f/0}IS THE TAXI OUT YET TODAY?",
-                    "<18>{#f/5}HMM... IT TENDS TO COME OUT IN THE LATER HOURS."
+                    "<18>{#p/papyrus}{#f/0}今天出租车\n还开吗？",
+                    "<18>{#f/5}嗯... 一般来说\n晚些时候会\n过来的。"
                  ]
                : [
                     "<18>{#f/0}I HEARD THE TAXI IS FINALLY OUT!",
                     "<18>{#f/5}HMM... THAT MUST MEAN WE'RE IN THE LATER HOURS."
                  ]),
-            "<18>{#f/6}AS FOR HOW TO TELL THE LATER HOURS FROM EARLIER ONES?",
+            "<18>{#f/6}至于如何分辨\n“早些时候”和\n“晚些时候”...",
             ...(solo()
-               ? [ "<18>{#f/4}... I'LL GET BACK TO YOU ON THAT." ]
+               ? [ "<18>{#f/4}...我回头再\n跟你讲。" ]
                : [
                     "<25>{#p/undyne}{#f/12}* Uh... I think you just made those up.",
                     "<25>{#p/undyne}{#f/17}* There ARE no \"later hours\" on the outpost.",
@@ -8657,7 +8657,7 @@ export default {
          ],
          () =>
             solo()
-               ? [ "<18>{#p/papyrus}{#f/6}EVENTUALLY!!!" ]
+               ? [ "<18>{#p/papyrus}{#f/6}会讲的！！！" ]
                : [
                     "<18>{#p/papyrus}{#f/4}FOR OUR FIRST REVOLUTION MEETING...",
                     "<18>{#f/0}WE'LL NEED TO AGREE ON A SPECIFIC TIME.",
@@ -8671,9 +8671,9 @@ export default {
       s_town2: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}STARTON TOWN: THE SOUTH SIDE!",
-            "<18>{#f/4}OR AS I LIKE TO CALL IT...",
-            "<18>{#f/9}THE BEST SIDE IN THE COSMOS!",
+            "<18>{#p/papyrus}星港小镇：\n北侧！",
+            "<18>{#f/4}或者我也喜欢\n叫做...",
+            "<18>{#f/9}宇宙中最好的\n一侧！",
             ...(solo()
                ? []
                : [
@@ -8683,9 +8683,9 @@ export default {
                  ])
          ],
          [
-            "<18>{#p/papyrus}{#f/4}IT'S NO WONDER A FRIENDLY GHOST SET UP SHOP HERE...",
-            "<18>{#f/9}WHO WOULDN'T WANT TO BE IN PROXIMITY OF SUCH GREATNESS?",
-            "<18>{#f/0}I CERTAINLY COULDN'T RESIST."
+            "<18>{#p/papyrus}{#f/4}难怪会有一个\n友好的幽灵\n在这里开店...",
+            "<18>{#f/9}谁不想接近\n这伟大的一边呢？",
+            "<18>{#f/0}我肯定是\n没法抗拒的。"
          ]
       ),
       s_battle: pager.create(
@@ -8744,9 +8744,9 @@ export default {
       s_grillbys: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/5}SO... GRILLBY'S.",
-            "<18>{#f/5}IS IT TRUE THEY INSTALLED A YAMOK SAUCE MACHINE...",
-            "<18>{#f/6}JUST TO SATISFY MY BROTHER'S OUTRAGEOUS WHIMS?",
+            "<18>{#p/papyrus}{#f/5}所以...\n这里是烤尔比。",
+            "<18>{#f/5}他们真的安了台\n雅莫万能酱\n喷酱机吗...",
+            "<18>{#f/6}就只是为了满足\n我兄弟奇怪的\n念头？",
             ...(solo()
                ? []
                : [
@@ -8755,10 +8755,10 @@ export default {
                     "<18>{#p/papyrus}{#f/4}YOU KNOW, TO DISPENSE YAMOK SAUCE."
                  ]),
             "<18>{#f/4}...",
-            "<18>{#f/4}I NORMALLY HAVE HOPE FOR OUR KIND, BUT...",
-            "<18>{#f/4}NOT WHEN IT COMES TO THINGS LIKE THIS.",
-            "<18>{#f/5}... STILL.",
-            "<18>{#f/5}IT'S NICE THAT THEY FINALLY FIXED THE JUKEBOX.",
+            "<18>{#f/4}我通常都对\n我们一族\n抱有希望的，但...",
+            "<18>{#f/4}遇到这种事\n就不行了。",
+            "<18>{#f/5}...不过。",
+            "<18>{#f/5}还好他们把点唱机\n修好了。",
             ...(solo()
                ? []
                : [
@@ -8767,19 +8767,19 @@ export default {
                  ])
          ],
          () => [
-            "<18>{#p/papyrus}{#f/0}TRACK THREE IS MY PERSONAL FAVORITE.",
+            "<18>{#p/papyrus}{#f/0}第三首是我个人\n最喜欢的。",
             ...(solo() ? [] : [ "<25>{#p/undyne}{#f/1}* Mine's track four!" ])
          ]
       ),
       s_backrooms: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/4}SINCE THEY STARTED USING REPLICATORS HERE...",
-            "<18>{#f/5}I HAVEN'T BEEN SURE HOW TO FEEL ABOUT IT.",
-            "<18>{#f/0}ON ONE HAND, THE NEW FOOD IS WAY MORE HEALTHY.",
-            "<18>{#f/7}ON THE OTHER HAND, THEY'VE ABANDONED COOKING ENTIRELY!",
-            "<18>{#f/4}SEE THIS ROOM YOU'RE STANDING IN RIGHT NOW?",
-            "<18>{#f/7}GUESS WHAT THIS USED TO BE!",
+            "<18>{#p/papyrus}{#f/4}自从他们在这里\n使用复制器开始...",
+            "<18>{#f/5}我就不知道\n怎么看待这件事\n才算好了。",
+            "<18>{#f/0}一方面，\n这种新食物\n确实健康。",
+            "<18>{#f/7}但另一方面，\n他们完全把烹饪\n放弃掉了！",
+            "<18>{#f/4}看到你现在\n所在的这个\n房间了吗？",
+            "<18>{#f/7}猜猜它过去\n是干什么的吧！",
             ...(solo()
                ? []
                : [
@@ -8797,7 +8797,7 @@ export default {
          ],
          () =>
             solo()
-               ? [ "<18>{#p/papyrus}{#f/4}SOME \"KITCHEN...\"", "<18>{#f/5}NOW THEY JUST USE IT FOR PRIVATE CARD GAMES." ]
+               ? [ "<18>{#p/papyrus}{#f/4}是某种“厨房”...", "<18>{#f/5}现在他们只把这里\n当成玩私人纸牌\n游戏的地方了。" ]
                : [
                     "<18>{#p/papyrus}{#f/4}IF THEY'RE NOT GOING TO USE THIS AS A KITCHEN...",
                     "<18>{#p/papyrus}{#f/5}PERHAPS A HEADPAT MACHINE WOULD BE A BETTER INVESTMENT."
@@ -8806,10 +8806,10 @@ export default {
       s_bonehouse: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/0}WHAT BETTER PLACE TO BE THAN MY HOUSE!",
-            "<18>{#p/papyrus}{#f/0}WE'VE GOT EXTRA- TALL SINKS...\nPET MOON ROCKS...",
-            "<18>{#p/papyrus}{#f/9}AND EVEN A BALCONY, PRIME FOR OUTDOOR LIVING!",
-            "<18>{#f/0}IT'S PRACTICALLY THE ONLY PLACE I FEEL AT HOME.",
+            "<18>{#p/papyrus}{#f/0}还有什么地方能\n比我家更好呢！",
+            "<18>{#p/papyrus}{#f/0}我们有超高水槽...\n还有宠物月岩...",
+            "<18>{#p/papyrus}{#f/9}甚至还有个阳台，\n多适合户外生活！",
+            "<18>{#f/0}我基本只有在这\n才会有家的感觉。",
             ...(solo()
                ? []
                : [
@@ -8825,8 +8825,8 @@ export default {
                  ])
          ],
          () => [
-            "<18>{#p/papyrus}{#f/0}I WONDER WHAT HUMANS CALL HOME THESE DAYS.",
-            "<18>{#p/papyrus}{#f/4}LAST I HEARD, THEY WERE STILL LIVING ON EARTH...",
+            "<18>{#p/papyrus}{#f/0}不知道现在\n人类是怎么称呼\n“家”的。",
+            "<18>{#p/papyrus}{#f/4}据我所知，\n他们还生活在\n地球上...",
             ...(solo()
                ? []
                : [
@@ -8853,9 +8853,9 @@ export default {
                  ]
                : SAVE.data.n.plot_date < 1.2
                ? [
-                    "<18>{#p/papyrus}{#f/1}WHAT??\nI THOUGHT YOU'D LEFT MY ROOM!!",
-                    "<18>{#f/4}WE'LL HAVE TO START OVER FROM SQUARE ONE...",
-                    "<18>{#f/5}FIRST, DO YOU KNOW WHO PAPYRUS IS!?"
+                    "<18>{#p/papyrus}{#f/1}啥？？\n我以为你早就\n离开我房间了！！",
+                    "<18>{#f/4}看来我们得\n从头开始了...",
+                    "<18>{#f/5}首先，你还知道\n帕派瑞斯是\n谁吗！？"
                  ]
                : [
                     "<18>{#p/papyrus}{#f/5}SO YOU CAME BACK TO MY ROOM, HUH?",
@@ -8874,7 +8874,7 @@ export default {
             SAVE.data.n.plot_date < 1.1
                ? [ "<18>{#p/papyrus}{#f/6}坚持住！\n我还在画！" ]
                : SAVE.data.n.plot_date < 1.2
-               ? [ "<18>{#p/papyrus}{#f/1}DO -I- KNOW WHO PAPYRUS IS!?!?" ]
+               ? [ "<18>{#p/papyrus}{#f/1}【我】还知道\n帕派瑞斯是\n谁吗！？！？" ]
                : [
                     ...(solo()
                        ? [
@@ -8889,10 +8889,10 @@ export default {
       s_innterior: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}THE INN'S A GREAT PLACE TO STAY.",
-            "<18>{#p/papyrus}THE BEDS ARE NICE, AND THE INN KEEPER IS EVEN NICER.",
-            "<18>{#f/5}BUT MOST OF ALL, I LIKE THE PHOTO ON THE WALL...",
-            "<18>{#f/0}IT'S A REMINDER OF WHAT MONSTERS ARE TRULY CAPABLE OF.",
+            "<18>{#p/papyrus}旅馆是个好地方。",
+            "<18>{#p/papyrus}床很舒服，\n旅馆的老板娘\n人就更好了。",
+            "<18>{#f/5}但我最喜欢的，\n还是墙上的那个\n照片...",
+            "<18>{#f/0}它时刻提醒我们\n怪物的真正能耐\n是怎样的。",
             ...(solo()
                ? []
                : [
@@ -8909,7 +8909,7 @@ export default {
          ],
          () =>
             solo()
-               ? [ "<18>{#p/papyrus}{#f/5}IF ONLY WE COULD TRAVEL BACK IN TIME..." ]
+               ? [ "<18>{#p/papyrus}{#f/5}要是我们能回到\n过去就好了..." ]
                : [
                     "<18>{#p/papyrus}{#f/5}I SUPPOSE, FOR THE TIME BEING...",
                     "<18>{#p/papyrus}{#f/4}TELLING EACH OTHER BEDTIME STORIES WILL HAVE TO DO.",
@@ -8923,10 +8923,10 @@ export default {
       s_beddinng: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}ONCE IN A WHILE, SANS WILL READ ME A BEDTIME STORY.",
-            "<18>{#f/5}HAVE YOU EVER HEARD OF \"GENEROUS MONSTER?\"",
-            "<18>{#f/6}SANS READ IT TO ME LAST NIGHT, AND...",
-            "<18>{#f/8}... AUGH!\nI JUST COULDN'T STOP CRYING!",
+            "<18>{#p/papyrus}有的时候，\n衫斯会给我读一个\n睡前故事。",
+            "<18>{#f/5}你听说过\n《伟大的怪物》吗？",
+            "<18>{#f/6}衫斯昨晚给我讲了\n这个故事，然后...",
+            "<18>{#f/8}...呃啊！\n我就哭得\n停不下来了！",
             ...(solo()
                ? []
                : [
@@ -8939,22 +8939,22 @@ export default {
                  ])
          ],
          [
-            "<18>{#p/papyrus}{#f/4}NEXT TIME, I'M HAVING SANS READ A HAPPY STORY.",
-            "<18>{#f/6}WITH AN -ACTUAL- HAPPY ENDING!",
-            "<18>{#f/5}WHERE EVERYBODY COMES AWAY SATISFIED!!",
-            "<18>{#f/7}AND WHERE NOBODY HAS TO DIE OR SAY GOODBYE!!!"
+            "<18>{#p/papyrus}{#f/4}下一次，我就让\n衫斯讲一个\n开心的故事了。",
+            "<18>{#f/6}要有一个\n【真正】意义上的\n幸福结局！",
+            "<18>{#f/5}每个人都该\n适得其所！！",
+            "<18>{#f/7}每个人都不用\n失去性命，\n不用道别！！！"
          ]
       ),
       s_librarby: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/6}SHH...\n(NO PHONE CALLS IN THE LIBRARBY!)",
-            "<18>{#p/papyrus}{#f/0}(YOU CAN CALL ME BACK WHEN YOU'RE OUT, THOUGH!)",
+            "<18>{#p/papyrus}{#f/6}嘘...\n（图书倌里是不能\n打电话的！）",
+            "<18>{#p/papyrus}{#f/0}（不过可以等你出来\n之后再给我打\n电话！）",
             ...(solo() ? [] : [ "<25>{|}{#p/undyne}{#f/8}* YEAHHHH MAKE SOME NOI- {%}" ])
          ],
          () =>
             solo()
-               ? [ "<18>{#p/papyrus}{#f/4}(REALLY...)" ]
+               ? [ "<18>{#p/papyrus}{#f/4}（你认真的吗...）" ]
                : [
                     "<18>{#p/papyrus}{#f/4}(YES, I HUNG UP TO STOP UNDYNE FROM DISTURBING YOU.)",
                     "<25>{|}{#p/undyne}{#f/8}* YEA- {%}"

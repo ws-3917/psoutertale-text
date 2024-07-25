@@ -7605,7 +7605,7 @@ msgid "<32>{#p/human}* (You can't make out what's in the recycle bin...)"
 msgstr ""
 
 msgid "<32>{#p/basic}* It's a recycle bin."
-msgstr ""
+msgstr "<32>{#p/basic}* 这是个回收站。"
 
 msgid "<32>{#p/human}* (You discarded the electro- dampening fluid.)"
 msgstr ""

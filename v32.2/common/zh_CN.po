@@ -12254,12 +12254,16 @@ msgstr "<32>{#p/human}* （你使劲地给了Galatini一巴掌。）"
 
 msgid "<32>{#p/basic}* Gelatini is jostled, but remains ultimately unfazed."
 msgstr ""
+"<32>{#p/basic}* Gelatini身体发生凹陷，\n"
+"  但不久便恢复原形。"
 
 msgid "<32>{#p/human}* (You deliver your mightiest slap to Gelatini.)"
 msgstr ""
+"<32>{#p/human}* （你用尽全身力气扇了Gelatini\n"
+"  一巴掌。）"
 
 msgid "<32>{#p/basic}* Gelatini is shaken to its core!"
-msgstr ""
+msgstr "<32>{#p/basic}* Gelatini的根基被动摇了！"
 
 msgid "<32>{#p/basic}* Gelatini flees the scene!"
 msgstr "<32>{#p/basic}* Gelatini逃离了现场！"
@@ -12274,13 +12278,15 @@ msgid "* Gelatini"
 msgstr "* Gelatini"
 
 msgid "<32>{#p/kidding}* This can't be good..."
-msgstr ""
+msgstr "<32>{#p/kidding}* 这可不是什么好事..."
 
 msgid "<32>{#p/story}* Gelatini has started to rot."
 msgstr "<32>{#p/story}* Gelatini已经开始腐烂了。"
 
 msgid "<08>{#p/basic}{~}\\x00*sexy wiggle*"
 msgstr ""
+"<08>{#p/basic}{~}\\x00*性感\n"
+"扭动*"
 
 msgid "<32>{#p/asriel2}* Gelatini squared."
 msgstr "<32>{#p/asriel2}* Gelatini把身体挺成正方形。"
@@ -12292,7 +12298,7 @@ msgid "<32>{#p/asriel2}* Gelatini."
 msgstr "<32>{#p/asriel2}* Gelatini。"
 
 msgid "<32>{#p/kidding}* Shh... it's thinking!"
-msgstr ""
+msgstr "<32>{#p/kidding}* 嘘... 它在思考！"
 
 msgid "<32>{#p/story}* Gelatini blorbs quietly."
 msgstr "<32>{#p/story}* Gelatini静静地凝结着。"
@@ -12301,10 +12307,10 @@ msgid "<32>{#p/story}* Gelatini waits optimistically."
 msgstr "<32>{#p/story}* Gelatini乐观地等待着。"
 
 msgid "<32>{#p/kidding}* A blorb here, a blorb there..."
-msgstr ""
+msgstr "<32>{#p/kidding}* 这里一个泡泡，那里一个泡泡..."
 
 msgid "<32>{#p/story}* Gelatini is ruminating."
-msgstr ""
+msgstr "<32>{#p/story}* Gelatini正在沉思。"
 
 msgid "<32>{#p/kidding}* I wonder what Gelatinis are actually made of."
 msgstr ""
