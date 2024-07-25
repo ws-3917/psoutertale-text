@@ -6903,7 +6903,7 @@ msgid ""
 "align{@fill=#fff}.\""
 msgstr ""
 "<32>{#p/basic}* 「風平浪靜，{@fill=#00a2e8}靜待{@fill=#fff}暗流湧動，\n"
-"  波湧潮啟，{@fill=#00a2e8}啟程{@fill=#fff}無垠長空。」"
+"   波湧潮啟，{@fill=#ff993d}啟程{@fill=#fff}無垠長空。」"
 
 msgid "<32>{#p/human}* (You stare reflectively into the cosmos beyond...)"
 msgstr ""

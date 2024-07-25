@@ -2912,7 +2912,7 @@ export default {
                  ]
                : [
                     "<32>{#p/basic}* 「浩渺長空，恰似深邃海洋。」",
-                    "<32>{#p/basic}* 「風平浪靜，{@fill=#00a2e8}靜待{@fill=#fff}暗流湧動，\n  波湧潮啟，{@fill=#00a2e8}啟程{@fill=#fff}無垠長空。」"
+                    "<32>{#p/basic}* 「風平浪靜，{@fill=#00a2e8}靜待{@fill=#fff}暗流湧動，\n   波湧潮啟，{@fill=#ff993d}啟程{@fill=#fff}無垠長空。」"
                  ],
          w_puzzle3_view: () =>
             SAVE.data.b.svr
