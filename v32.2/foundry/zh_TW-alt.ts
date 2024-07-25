@@ -283,7 +283,7 @@ export default {
          "<32>{#p/napstablook}* after a great meal i like to lie on the ground and feel like garbage...",
          "<32>* it's a family tradition...",
          "<32>* do you want...\n* ... to join me...?",
-         choicer.create("* (What do you say?)", "是", "否")
+         choicer.create("* （你要怎麼回答？）", "是", "否")
       ],
       blookdate6a: [ "<32>{#p/napstablook}* okay...\n* follow my lead..." ],
       blookdate6b: [ "<32>{#p/napstablook}* oh......................", "<32>* i'll just be outside then" ],
@@ -394,14 +394,14 @@ export default {
          "<32>{#p/napstablook}* ...？",
          "<32>* you...\n* you're...",
          "<32>* ... are you sure?",
-         choicer.create("* (What do you say?)", "是", "否")
+         choicer.create("* （你要怎麼回答？）", "是", "否")
       ],
       blooksorry2: [
          "<32>{#p/napstablook}* i...",
          "<32>* i never thought you'd...",
          "<32>* ... um...",
          "<32>* ... are you absolutely sure?",
-         choicer.create("* (What do you say?)", "是", "否")
+         choicer.create("* （你要怎麼回答？）", "是", "否")
       ],
       blooksorry3: [
          "<32>{#p/napstablook}* you...",
@@ -416,11 +416,11 @@ export default {
          world.sad_ghost
             ? [
                  "<32>{#p/napstablook}* what do you want......",
-                 choicer.create("* (What do you say?)", "Sorry", "Nothing")
+                 choicer.create("* （你要怎麼回答？）", "Sorry", "Nothing")
               ]
             : [
                  "<32>{#p/napstablook}* oh, do you need anything?",
-                 choicer.create("* (What do you say?)", "Hug", "Sleep", "Music", "Nothing")
+                 choicer.create("* （你要怎麼回答？）", "Hug", "Sleep", "Music", "Nothing")
               ],
       blooktouch2a1: [
          "<32>{#p/napstablook}* you... want to...\n* umm...",
@@ -453,17 +453,17 @@ export default {
          "<32>* maybe...\n* i could show you a new song i've been working on...",
          "<32>* it's way different than my usual stuff...",
          "<32>* do you want to hear it?",
-         choicer.create("* (What do you say?)", "是", "否")
+         choicer.create("* （你要怎麼回答？）", "是", "否")
       ],
       blooktouch2c2x: [
          "<32>{#p/napstablook}* want to hear my new song?",
-         choicer.create("* (What do you say?)", "是", "否")
+         choicer.create("* （你要怎麼回答？）", "是", "否")
       ],
       blooktouch2c3a: [ "<32>{#p/napstablook}* oh...\n* well, let me know if you change your mind..." ],
       blooktouch2c3b: [ "<32>{#p/napstablook}* okay...\n* let me put it on..." ],
       blooktouch2c4: [
          "<32>{#p/napstablook}* so... what did you think",
-         choicer.create("* (What do you say?)", "Good", "Bad")
+         choicer.create("* （你要怎麼回答？）", "Good", "Bad")
       ],
       blooktouch2c5a: [
          "<32>{#p/napstablook}* it's... not bad?",
@@ -1356,12 +1356,12 @@ export default {
          "<32>* Processing...\n* Processing...\n* Processing...",
          "<32>* Hello, stranger.\n* I am eight-six, the all- purpose delivery bot.",
          "<32>* It is far from my intended function, but would you like to complete a survey today?",
-         choicer.create("* (What do you say?)", "是", "否")
+         choicer.create("* （你要怎麼回答？）", "是", "否")
       ],
       npc86b: [
          "<32>{#p/basic}{#npc/a}* Thank you.\n* The question is as follows.",
          "<32>* \"Out of the colors red, green, and blue, which do you prefer?\"",
-         choicer.create("* (What do you say?)", "Red", "Green", "Blue", "Not sure")
+         choicer.create("* （你要怎麼回答？）", "Red", "Green", "Blue", "Not sure")
       ],
       npc86c: [
          "<32>{#p/basic}* Thank you.\n* Your choice will be inscribed deeply into my memory bank.",
@@ -1376,7 +1376,7 @@ export default {
             : "<32>* Last interaction... survey taken.",
          "<32>* Processing...\n* Processing...\n* Processing...",
          "<32>* Hello again, acquaintance.\n* How is your day today?",
-         choicer.create("* (What do you say?)", "Good", "Bad", "Neutral", "Not sure")
+         choicer.create("* （你要怎麼回答？）", "Good", "Bad", "Neutral", "Not sure")
       ],
       npc86e: () => [
          ...[
@@ -1401,7 +1401,7 @@ export default {
          ][SAVE.data.n.state_foundry_npc86_mood - 1],
          "<32>* It appears you have a great deal of interest towards me.",
          "<32>* What emotion do you most commonly feel about me?",
-         choicer.create("* (What do you say?)", "Love", "Disgust", "None", "Not sure")
+         choicer.create("* （你要怎麼回答？）", "Love", "Disgust", "None", "Not sure")
       ],
       npc86g: () =>
          [
@@ -1621,10 +1621,10 @@ export default {
                  ]
                : [
                     "<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...",
-                    "<32>{#p/basic}* Skrubby of foundry crew.\n* Need u to check pipe for leak.",
-                    "<32>{#p/alphys}* Oh- uh... s-sorry, ah!\n* I'm a little busy at the moment!",
-                    "<32>{#p/basic}* Okie.\n* I ask Raddy instead.\n* Thx for nothing.",
-                    "<32>{#p/alphys}* Y-you're welcome??",
+                    "<32>{#p/basic}* 我是鑄廠員工Skrubby。\n* 麻煩你檢查一下管道有無洩露。",
+                    "<32>{#p/alphys}* 喔—— 呃... 抱——抱歉哈！\n* 我現在稍微有點忙！",
+                    "<32>{#p/basic}* 好吧。\n* 我去叫Raddy來幫忙。\n* 真是謝謝您了。",
+                    "<32>{#p/alphys}* 不——不用謝？？",
                     "<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。"
                  ],
          f_echo2: () =>
@@ -2325,7 +2325,7 @@ export default {
             () =>
                SAVE.data.n.plot === 72
                   ? [ "<32>{#p/basic}{#npc/a}* Hopefully the stars out there are more honest." ]
-                  : [ "<32>{#p/basic}{#npc/a}* Never trust a star.", "<32>* Dishonesty is their one defining trait." ]
+                  : [ "<32>{#p/basic}{#npc/a}* 絕對不要相信一顆星星。", "<32>* 它們最典型的特質就是欺詐。" ]
          ),
          f_echoLobby: () =>
             world.runaway
@@ -2759,15 +2759,15 @@ export default {
       spookydate1: pager.create(
          0,
          [
-            "<25>{#p/sans}* hey, i heard you made up with my bro.\n* the great papyrus.",
-            "<25>{#f/2}* well... i consider that a {@fill=#ff0}great victory{@fill=#fff}.",
-            "<26>{#f/0}* whaddya say we celebrate the occasion at grillby's?",
-            "<26>{#f/3}* getting in papyrus's good books earns you a spot in mine.",
-            choicer.create("* (What do you say?)", "Yeah", "Nah")
+            "<25>{#p/sans}* 嘿，我聽說你和我的兄弟和好了。\n* 就是那個偉大的帕派瑞斯。",
+            "<25>{#f/2}* 嗯... \n  我覺得這也是一場\n  {@fill=#ff0}偉大的勝利{@fill=#fff}。",
+            "<26>{#f/0}* 我們去烤爾比那慶祝一番，咋樣？",
+            "<26>{#f/3}* 獲得了帕派瑞斯的好感，你就\n  在我內心有了一席之地。",
+            choicer.create("* （你要怎麼回答？）", "走吧", "不了")
          ],
-         [ "<25>{#p/sans}* my offer remains.\n* grillby's?", choicer.create("* (What do you say?)", "Yeah", "Nah") ]
+         [ "<25>{#p/sans}* my offer remains.\n* grillby's?", choicer.create("* （你要怎麼回答？）", "走吧", "不了") ]
       ),
-      spookydate2a: () => [ "<25>{#p/sans}* alrighty then, just for you, i'll pry myself away from my work..." ],
+      spookydate2a: () => [ "<25>{#p/sans}* 那行，我會特意為你從工作中\n  抽身的..." ],
       spookydate2b: () => [
          "<25>{#p/sans}* well, suit yourself.",
          ...(SAVE.data.n.sans_doge_warning++ < 1
@@ -2777,14 +2777,14 @@ export default {
               ]
             : [])
       ],
-      spookydate3: [ "<25>{#p/sans}* over here.\n* i know a shortcut." ],
-      spookydate4: [ "<25>{#p/sans}* fast shortcut, huh?" ],
-      spookydate5: [ "<25>{#p/sans}* hey everyone." ],
-      spookydate6: [ "<32>{#p/basic}* Greetings, Sans.\n{#x1}* Hiya, Sansy~" ],
-      spookydate7: [ "<32>{#p/basic}* Hey, Sans.\n{#x1}* (Hi, Sans.)" ],
-      spookydate8: [ "<32>{#p/basic}* I once heard you set the bar on fire with a flamin' grillby, is that true?" ],
+      spookydate3: [ "<25>{#p/sans}* 這裡。\n* 我知道一條捷徑。" ],
+      spookydate4: [ "<25>{#p/sans}* 很快的捷徑，不是嗎？" ],
+      spookydate5: [ "<25>{#p/sans}* 嘿，各位。" ],
+      spookydate6: [ "<32>{#p/basic}* 好啊，衫斯。\n{#x1}* 嘿呀，衫衫~" ],
+      spookydate7: [ "<32>{#p/basic}* 嘿，衫斯。\n{#x1}* （嗨，衫斯。）" ],
+      spookydate8: [ "<32>{#p/basic}* 我聽說你用燃著的燒烤架把酒吧\n  給燒了，是這樣嗎？" ],
       spookydate9: [
-         "<25>{#p/sans}{#f/3}* huh?\n* nah, those things are totally harmless.",
+         "<25>{#p/sans}{#f/3}* 嗯?\n* 不，那些東西根本就沒有",
          "<25>{#f/2}* the only thing to ever set THIS bar on fire are my hilarious jokes."
       ],
       spookydate9x: [ "<25>{#p/sans}{#f/3}* gee grillby, where'd everybody go?" ],
@@ -2805,7 +2805,7 @@ export default {
       spookydate12b: [ "<25>{#p/sans}* grillby, we'll have two sets of sliders." ],
       spookydate13: [
          "<25>{#p/sans}* so, what'd you think of my brother's attacks?",
-         choicer.create("* (What do you say?)", "Easy", "Hard")
+         choicer.create("* （你要怎麼回答？）", "Easy", "Hard")
       ],
       spookydate14a: [
          "<25>{#p/sans}* easy?\n* get outta here.",
@@ -2835,7 +2835,7 @@ export default {
       spookydate17: [ "<25>{#p/sans}* oh yeah, there's something i've been meaning to ask ya." ],
       spookydate18: [
          "<25>{#p/sans}{#f/3}* have you ever heard of a {@fill=#ff0}talking star{@fill=#fff}?",
-         choicer.create("* (What do you say?)", "是", "否")
+         choicer.create("* （你要怎麼回答？）", "是", "否")
       ],
       spookydate19a: [
          "<25>{#p/sans}* so you know all about it, then.",
@@ -2873,9 +2873,9 @@ export default {
                ? "<25>{#f/2}* but, with that premium membership voucher, you can use it early."
                : "<25>{#f/2}* but, since i know you, you can use it early.",
             "<25>{#f/0}* howzzabout it?",
-            choicer.create("* (What do you say?)", "是", "否")
+            choicer.create("* （你要怎麼回答？）", "是", "否")
          ],
-         [ "<25>{#p/sans}{#f/2}* wanna try my telescope?", choicer.create("* (What do you say?)", "是", "否") ]
+         [ "<25>{#p/sans}{#f/2}* wanna try my telescope?", choicer.create("* （你要怎麼回答？）", "是", "否") ]
       ),
       telescopeY: () =>
          SAVE.data.b.voucher
@@ -4005,14 +4005,14 @@ export default {
                          "<25>* To humiliate me even further?"
                       ]),
                  "<25>{#f/4}* IS THAT IT?",
-                 choicer.create("* (What do you say?)", "是", "否")
+                 choicer.create("* （你要怎麼回答？）", "是", "否")
               ],
       unddate11a: [
          "<25>{#p/undyne}{#f/11}* Then why are you here?",
          "<25>{#f/1}* Wait, I get it.",
          "<25>* You think that I'm gonna be friends with you, huh?",
          "<25>{#f/17}* Right???",
-         choicer.create("* (What do you say?)", "是", "否")
+         choicer.create("* （你要怎麼回答？）", "是", "否")
       ],
       unddate11a1a: [
          "<25>{#p/undyne}{#f/14}* Really?\n* How delightful!\n* I accept!",
@@ -4062,7 +4062,7 @@ export default {
          SAVE.data.b.undyne_respecc
             ? "<25>{#p/undyne}{#f/1}* Need anything?"
             : "<25>{#p/undyne}{#f/14}* Need anything?",
-         choicer.create("* (What do you say?)", "Hungry", "Book", "Home", "Nothing")
+         choicer.create("* （你要怎麼回答？）", "Hungry", "Book", "Home", "Nothing")
       ],
       unddate13a1: [
          "<25>{#p/undyne}{#f/1}* You want a snack or something?",
