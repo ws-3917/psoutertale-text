@@ -3,9 +3,6 @@ msgid ""
 msgstr ""
 
 msgid ""
-msgstr ""
-
-msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
 msgstr ""
 "<32>{#p/basic}* 標準規格的長焦望遠鏡，皇家出品。\n"
@@ -5679,6 +5676,9 @@ msgid "HOWDY!"
 msgstr "哈囉！"
 
 msgid "SAVE YOURSELVES..."
+msgstr ""
+
+msgid ""
 msgstr ""
 
 msgid "FAILED TO CONNECT..."
