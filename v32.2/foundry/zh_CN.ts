@@ -2782,10 +2782,10 @@ export default {
       spookydate5: [ "<25>{#p/sans}* 嘿，各位。" ],
       spookydate6: [ "<32>{#p/basic}* 好啊，Sans。\n{#x1}* 嘿呀，Sansy~" ],
       spookydate7: [ "<32>{#p/basic}* 嘿，Sans。\n{#x1}* （嗨，Sans。）" ],
-      spookydate8: [ "<32>{#p/basic}* 我听说你用燃着的烧烤架把酒吧\n  给烧了，是这样吗？" ],
+      spookydate8: [ "<32>{#p/basic}* 我听说你用烈焰烧烤把酒吧\n  给烧了，是这样吗？" ],
       spookydate9: [
-         "<25>{#p/sans}{#f/3}* 嗯?\n* 不，那些东西根本就没有",
-         "<25>{#f/2}* the only thing to ever set THIS bar on fire are my hilarious jokes."
+         "<25>{#p/sans}{#f/3}* 嗯?\n* 不，那东西完全无害。",
+         "<25>{#f/2}* 能让这酒吧燃起来的\n  只有我的招牌幽默笑话。"
       ],
       spookydate9x: [ "<25>{#p/sans}{#f/3}* gee grillby, where'd everybody go?" ],
       spookydate9y: [
@@ -2793,75 +2793,75 @@ export default {
          "<32>* ... Grillbz doesn't mention customers, but says seeing you is a nice relief."
       ],
       spookydate9z: [ "<25>{#p/sans}{#f/0}* how strange." ],
-      spookydate10: [ "<25>{#p/sans}* bud, why don't you come up here and take a seat?" ],
+      spookydate10: [ "<25>{#p/sans}* 为什么不过来做一下呢，伙计？" ],
       spookydate11: [
-         "<25>{#p/sans}* whoops, watch where you sit down in here.",
-         "<25>{#f/2}* some weirdo musta put a whoopee cushion on the seat.",
-         "<25>{#f/0}* ... anyway, let's order.\n* whaddya want?",
+         "<25>{#p/sans}* 嗷哟，小心你坐的地方。",
+         "<25>{#f/2}* 有些怪咖会把屁垫\n  放在座位上。",
+         "<25>{#f/0}* ... 那么，来点餐吧。\n* 你呲点啥？",
          "<32>{#p/human}* (What do you say?){!}\nµµµµµµµµFlamin'\nµµµµµµµµGrillbysµµµµµµµSliders{#c/0/8/7}",
-         "<26>{#p/sans}{#f/2}* hey, that's pretty good."
+         "<26>{#p/sans}{#f/2}* 嘿，听上去挺不错。"
       ],
-      spookydate12a: [ "<25>{#p/sans}* grillby, we'll have two flamin' versions of yourself." ],
-      spookydate12b: [ "<25>{#p/sans}* grillby, we'll have two sets of sliders." ],
+      spookydate12a: [ "<25>{#p/sans}* grillby，给我们来两份\n  烈焰的你。" ],
+      spookydate12b: [ "<25>{#p/sans}* grillby，给我们来两份汉堡。" ],
       spookydate13: [
-         "<25>{#p/sans}* so, what'd you think of my brother's attacks?",
-         choicer.create("* （你要怎么回答？）", "Easy", "Hard")
+         "<25>{#p/sans}* 那么，你觉得我兄弟的攻击咋样？",
+         choicer.create("* （你要怎么回答？）", "简单", "难爆")
       ],
       spookydate14a: [
-         "<25>{#p/sans}* easy?\n* get outta here.",
-         "<25>{#f/3}* papyrus's attacks are anything BUT easy.",
-         "<25>{#f/0}* you'd be surprised how long he spent working on 'em.",
-         "<26>{#f/0}* oh well.\n* at least he took breaks.",
-         "<25>{#f/2}* and by that, i mean he brought his attack manuals outside."
+         "<25>{#p/sans}* 简单？\n* 不会吧。",
+         "<25>{#f/3}* papyrus的攻击远没有那么\n  简单。",
+         "<25>{#f/0}* 你会为他制作这些攻击的时长\n  而感到惊讶。",
+         "<26>{#f/0}* 哦，好吧。\n* 至少他休息了。",
+         "<25>{#f/2}* 我是说，他把他的攻击手册\n  带出来了。"
       ],
       spookydate14b: [
-         "<25>{#p/sans}{#f/0}* tell me about it.",
-         "<25>{#f/3}* once, after a particularly long day of attack revisions...",
-         "<25>{#f/0}* papyrus revealed all that he'd been working on up to that point.",
-         "<25>{#f/0}* i gotta say, i was impressed by what i saw.",
-         "<25>{#f/2}* maybe one day, i'll even design an attack of my own."
+         "<25>{#p/sans}{#f/0}* 跟我说说看。",
+         "<25>{#f/3}* 一次，在经过了漫长一天的\n  攻击修改后...",
+         "<25>{#f/0}* papyrus向我透露了他先前的\n  所有制作成果。",
+         "<25>{#f/0}* 说实话，在看到的那一刻，\n  我大受震撼。",
+         "<25>{#f/2}* 也许有朝一日，我会设计\n  独属于我的攻击。"
       ],
-      spookydate15: [ "<25>{#p/sans}* here comes the grub." ],
+      spookydate15: [ "<25>{#p/sans}* 吃的来了。" ],
       spookydate16: [
-         "<25>{#p/sans}* regardless, you have to agree he goes above and beyond.",
-         "<25>{#f/0}* matter of fact, those attack designs of his are a good example.",
-         "<25>{#f/3}* not too long ago, papyrus visited the captain of the guard...",
-         "<25>{#f/0}* and begged her to let him be in it.",
-         "<25>{#f/3}* well, she shut the door on him.\n* classic undyne move.",
-         "<25>{#f/0}* but when papyrus came back with his designs, a few hours later...",
-         "<25>{#f/0}* undyne was impressed, and decided she'd give him...",
-         "<25>{#f/2}* ... well, let's just call it \"warrior training.\""
+         "<25>{#p/sans}* 不管怎样，有一点你得承认：\n  他成功地超越了自我",
+         "<25>{#f/0}* 他的那些攻击设计就是很好的\n  例子。",
+         "<25>{#f/3}* 不久前，papyrus去拜访了皇家卫队\n  队长...",
+         "<25>{#f/0}* 并恳求她让他加入皇家卫队。",
+         "<25>{#f/3}* 唉，她直接当着他的面把门\n  摔上了。\n* 经典的undyne式作风。",
+         "<25>{#f/0}* 但几个小时后，当papyrus带着他的设计归来时...",
+         "<25>{#f/0}* undyne大受震撼，所以她决\n  定给予他...",
+         "<25>{#f/2}* ... 好吧，咱姑且叫做“军人般的训练”。"
       ],
-      spookydate17: [ "<25>{#p/sans}* oh yeah, there's something i've been meaning to ask ya." ],
+      spookydate17: [ "<25>{#p/sans}* 哦对了，我想问你点事来着。" ],
       spookydate18: [
-         "<25>{#p/sans}{#f/3}* have you ever heard of a {@fill=#ff0}talking star{@fill=#fff}?",
+         "<25>{#p/sans}{#f/3}* 你曾听说过一种{@fill=#ff0}会说话的星星{@fill=#fff}\n  吗?",
          choicer.create("* （你要怎么回答？）", "是", "否")
       ],
       spookydate19a: [
-         "<25>{#p/sans}* so you know all about it, then.",
-         "<25>{#p/sans}* the {@fill=#003cff}signal star{@fill=#fff}."
+         "<25>{#p/sans}* 原来你都知道啊。",
+         "<25>{#p/sans}* {@fill=#003cff}讯星{@fill=#fff}。"
       ],
-      spookydate19b: [ "<25>{#p/sans}* well, lemme tell ya.\n* it's called the {@fill=#003cff}signal star{@fill=#fff}." ],
+      spookydate19b: [ "<25>{#p/sans}* 那么，我来告诉你吧\n* 它叫{@fill=#003cff}讯星{@fill=#fff}。" ],
       spookydate20: [
-         "<25>* they're all over the factory.",
-         "<25>* once they pick up a signal, they'll repeat it over and over...",
-         "<25>{#f/3}* what about it?",
-         "<25>{#f/0}* well, papyrus told me something interesting the other day.",
-         "<25>* sometimes, when no one else is around...",
-         "<25>* a star appears from the heavens and whispers things to him.",
-         "<25>* flattery...\n* advice...\n* encouragement...",
-         "<25>{#f/3}* ... predictions.",
-         "<25>{#f/0}* weird, huh?",
-         "<25>* someone must be using a signal star to play a trick on him.",
-         "<25>* keep an eye out, ok?",
-         "<25>* thanks."
+         "<25>* 工厂到处都是。",
+         "<25>* 如果它们接收到一条讯息，就\n  会一遍又一遍地重复着...",
+         "<25>{#f/3}* 怎样？",
+         "<25>{#f/0}* 其实，有一天，papyrus对我\n  讲了一些有趣的事。",
+         "<25>* 有些时候，当四下无人...",
+         "<25>* 一颗星星就会从天上飞下来，\n  对他说悄悄话。",
+         "<25>* 有赞扬...\n* 有建议...\n* 有鼓励...",
+         "<25>{#f/3}* ... 也有预言。",
+         "<25>{#f/0}* 很诡异，对么？",
+         "<25>* 肯定是谁用了讯星对他玩了\n  什么诡计。",
+         "<25>* 帮我留意一下，行吗？",
+         "<25>* 谢了。"
       ],
-      spookydate21: [ "<25>{#p/sans}* ... er, grillby.\n* would you mind passing me the yamok sauce?" ],
-      spookydate22: [ "<25>{#p/sans}{#f/8}* delicious." ],
+      spookydate21: [ "<25>{#p/sans}* ... 呃，grillby。\n* 能帮忙把雅莫万用酱\n  递给我吗？" ],
+      spookydate22: [ "<25>{#p/sans}{#f/8}* 真是美味啊。" ],
       spookydate23: [
-         "<25>{#p/sans}{#f/8}* well, i'll be at my station...",
-         "<25>{#f/8}* be sure to grab your food on the way out.",
-         "<25>{#f/9}* you might need it soon."
+         "<25>{#p/sans}{#f/8}* 行吧，我要回到我的岗位上\n  了...",
+         "<25>{#f/8}* 记得把吃的带上再出门。",
+         "<25>{#f/9}* 后面可能会用上。"
       ],
       telescopeX: pager.create(
          0,

@@ -11864,6 +11864,8 @@ msgstr ""
 
 msgid "<32>* \"With this, our freedom could be closer than ever...\""
 msgstr ""
+"<32>* “这样一来，我们就比以往任何时候\n"
+"  都更接近自由...”"
 
 msgid "<32>{#p/basic}* There's a photo album inside the drawer."
 msgstr "<32>{#p/basic}* 抽屉里有一本相册。"
@@ -19304,11 +19306,16 @@ msgstr ""
 
 msgid "<18>{#p/papyrus}{#f/9}STANDING AT THE SITE OF OUR LEGENDARY BATTLE?"
 msgstr ""
+"<18>{#p/papyrus}{#f/9}你正站在我们\n"
+"传奇的战场上？"
 
 msgid ""
 "<18>{#f/0}NO, NO, GO AHEAD.\n"
 "IT'S A PLACE OF HISTORICAL VALUE."
 msgstr ""
+"<18>{#f/0}不不，更新一下。\n"
+"这是个具有历史\n"
+"价值的地方。"
 
 msgid "<25>{#p/undyne}{#f/1}* Don't admire the view for too long, punk!"
 msgstr ""
@@ -19325,6 +19332,9 @@ msgstr ""
 
 msgid "<18>{#p/papyrus}{#f/4}THEY'LL HAVE TO PUT IT IN A MUSEUM SOMEDAY..."
 msgstr ""
+"<18>{#p/papyrus}{#f/4}总有一天他们会\n"
+"把这件事放进\n"
+"博物馆的..."
 
 msgid "<25>{#p/undyne}{#f/1}* Regardless of what happens now..."
 msgstr ""
@@ -19339,9 +19349,13 @@ msgstr ""
 
 msgid "<18>{#p/papyrus}{#f/4}CAREFUL NOW..."
 msgstr ""
+"<18>{#p/papyrus}{#f/4}你现在得\n"
+"小心点..."
 
 msgid "<18>{#f/0}THAT DOOR THERE IS THE ENTRANCE TO THE FOUNDRY."
 msgstr ""
+"<18>{#f/0}那边那扇门是\n"
+"铸厂的入口。"
 
 msgid "<18>{#f/5}ONLY DARKNESS AWAITS YOU IN SUCH A PLACE."
 msgstr ""

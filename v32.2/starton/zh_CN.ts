@@ -5113,7 +5113,7 @@ export default {
             "<32>* “我们已经从树林中\n  挑选到了理想的对象。”",
             "<32>* “试验物质的准备工作\n  将在未来几天结束。”",
             "<32>* “很快，实验对象就会\n  进行注射。”",
-            "<32>* \"With this, our freedom could be closer than ever...\""
+            "<32>* “这样一来，我们就比以往任何时候\n  都更接近自由...”"
          ],
          s_sc_drawer: [
             "<32>{#p/basic}* 抽屉里有一本相册。",
@@ -8691,8 +8691,8 @@ export default {
       s_battle: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/9}STANDING AT THE SITE OF OUR LEGENDARY BATTLE?",
-            "<18>{#f/0}NO, NO, GO AHEAD.\nIT'S A PLACE OF HISTORICAL VALUE.",
+            "<18>{#p/papyrus}{#f/9}你正站在我们\n传奇的战场上？",
+            "<18>{#f/0}不不，更新一下。\n这是个具有历史\n价值的地方。",
             ...(solo()
                ? []
                : [
@@ -8704,7 +8704,7 @@ export default {
          ],
          () =>
             solo()
-               ? [ "<18>{#p/papyrus}{#f/4}THEY'LL HAVE TO PUT IT IN A MUSEUM SOMEDAY..." ]
+               ? [ "<18>{#p/papyrus}{#f/4}总有一天他们会\n把这件事放进\n博物馆的..." ]
                : [
                     "<25>{#p/undyne}{#f/1}* Regardless of what happens now...",
                     "<25>{#f/7}* You better not have a battle more legendary than OURS!",
@@ -8714,8 +8714,8 @@ export default {
       s_exit: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/4}CAREFUL NOW...",
-            "<18>{#f/0}THAT DOOR THERE IS THE ENTRANCE TO THE FOUNDRY.",
+            "<18>{#p/papyrus}{#f/4}你现在得\n小心点...",
+            "<18>{#f/0}那边那扇门是\n铸厂的入口。",
             "<18>{#f/5}ONLY DARKNESS AWAITS YOU IN SUCH A PLACE.",
             ...(solo()
                ? []
