@@ -2825,8 +2825,8 @@ msgstr "<25>{#p/toriel}{#f/0}* 谜面是个问题。"
 
 msgid "<25>{#p/toriel}{#f/1}* \"What's baked like a cake and rhymes with 'lie?'\""
 msgstr ""
-"<25>{#p/toriel}{#f/1}* “什么东西，做起来像蛋糕，\n"
-"   读起来像小麦？\n"
+"<25>{#p/toriel}{#f/1}* “源自小麦，圆圆不赖。\n"
+"   名字带水，小孩最爱。\n"
 "   （打一单字食物名）”"
 
 msgid ""
@@ -2976,7 +2976,9 @@ msgstr ""
 
 msgid ""
 "<25>{#f/0}* ... thereby giving me a chance to sort out the conflict for you."
-msgstr "<25>{#f/0}* ...好给我机会出面解决冲突。"
+msgstr ""
+"<25>{#f/0}* ...好给我机会\n"
+"  出面解决冲突。"
 
 msgid "<25>{#p/toriel}* To start, you may practice talking with the dummy."
 msgstr ""
