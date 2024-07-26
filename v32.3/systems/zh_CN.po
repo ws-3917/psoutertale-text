@@ -2231,6 +2231,8 @@ msgstr "<24>许多年后.{^16}.{^16}.{}"
 
 msgid "<#24>µµµµ EBOTT SECTOR µµµµ µµµµµµµµ 251X{^20}{}"
 msgstr ""
+"<#24>     EBOTT区      \n"
+"      251X{^20}{}"
 
 msgid "<24>Tales speak of a place from which spacecraft never return.{^20}{}"
 msgstr ""
