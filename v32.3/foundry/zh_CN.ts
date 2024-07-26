@@ -2744,12 +2744,12 @@ export default {
          [ "<25>{#p/sans}{#f/2}* keep it up, and i might even even take you out for dinner." ]
       ),
       spookydate0y: [
-         "<32>{#p/basic}* There's a pair of eyes painted on the back of Sans's head.",
-         "<32>{#p/basic}* They don't seem very convincing."
+         "<32>{#p/basic}* Snas的后脑勺上\n  画着一双眼睛。",
+         "<32>{#p/basic}* 感觉不太可靠的样子。"
       ],
       spookydate0z: [
-         "<32>{#p/basic}* Surprisingly, there are no ears painted on the side of Sans's head.",
-         "<33>{#p/basic}* Makes a change from the back..."
+         "<32>{#p/basic}* 令人惊讶的是，\n  Sans脑袋的侧面\n  没有画耳朵。",
+         "<33>{#p/basic}* 去后面看看..."
       ],
       spookydate0: pager.create(
          0,
@@ -3091,8 +3091,8 @@ export default {
                        : [])
                  ]
                : [
-                    "<32>{#p/basic}* This dog appears to be asleep, yet its stance is one of ultra battle-readiness.",
-                    "<33>{#p/basic}* Quite the para-dogs!"
+                    "<32>{#p/basic}* 这只狗看起来像是睡着了，\n  但它的姿势是一种极度的\n  战备状态。",
+                    "<33>{#p/basic}* 不愧是空降犬！"
                  ],
          napstacouch: pager.create(
             0,
@@ -3119,7 +3119,7 @@ export default {
          f_armor_sign: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The sign warns of dogs who appear to be asleep.)" ]
-               : [ "<32>{#p/basic}* \"Be wary of sleeping dogs.\"" ],
+               : [ "<32>{#p/basic}* “小心睡觉的狗。”" ],
          f_backsign: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The sign speaks of strength of will in times of uncertainty.)" ]
@@ -3152,18 +3152,18 @@ export default {
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The sign details the difference in power between human and monster SOULs.)" ]
                : [
-                    "<32>{#p/basic}* \"Why did the humans attack?\"\n* \"Indeed, it seemed that they had nothing to fear.\"",
-                    "<32>* \"Humans are unbelievably strong. It would take the SOUL of nearly every monster...\"",
-                    "<32>* \"... just to equal the power of a single human SOUL.\""
+                    "<32>{#p/basic}* “人类为什么要进攻？”\n* “诚然，他们似乎无所畏惧。”",
+                    "<32>* “人类非常强大。\n   所有怪物的灵魂加起来...”",
+                    "<32>* “...才能和一个人类灵魂的\n   力量相当。”"
                  ],
          f_doge3: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The sign outlines a key weakness of human SOULs and its consequences.)" ]
                : [
-                    "<32>{#p/basic}* \"But humans have one weakness. Ironically, it is the strength of their SOUL.\"",
-                    "<32>* \"Its power allows it to persist outside the human body, even after death.\"",
-                    "<32>* \"If a monster defeats a human, they can take its SOUL.\"",
-                    "<32>* \"A monster with a human SOUL... a cosmic being with unfathomable power.\"",
+                    "<32>{#p/basic}* “但人类有一个弱点。\n   讽刺的是，\n   这正是他们灵魂的力量。”",
+                    "<32>* “他们的灵魂即使在他们死后\n   也可以在人体之外持续存在。”",
+                    "<32>* “如果一个怪物打败了一个人类，\n   怪物就可以取走人类的灵魂。”",
+                    "<32>* “一个有着人类灵魂的怪物...\n   一个拥有深不可测的力量的\n   宇宙生物。”",
                     ...(world.goatbro && SAVE.flag.n.ga_asrielBeast++ < 1
                        ? [ "<25>{#p/asriel2}{#f/15}* Cosmic doesn't even BEGIN to cover it..." ]
                        : [])
@@ -3172,8 +3172,8 @@ export default {
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The sign depicts something the likes of which you've never seen before.)" ]
                : [
-                    "<32>{#p/basic}* It's an illustration of a harrowing space creature...",
-                    "<32>* There's something very unsettling about this drawing.",
+                    "<32>{#p/basic}* 这是一幅悲惨的\n  太空生物的插画...",
+                    "<32>* 这幅画有点让人不安。",
                     ...(world.goatbro && SAVE.flag.n.ga_asrielDrawing++ < 1
                        ? [
                             "<25>{#p/asriel2}{#f/5}* Look, $(name)!\n* It's us!\n* ... sort of.",

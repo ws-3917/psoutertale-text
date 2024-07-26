@@ -1238,8 +1238,8 @@ export default {
                     ]
                   : SAVE.data.n.plot === 33
                   ? [
-                       "<32>{#p/basic}{#npc/a}* It's surprising to see Sans back here after what happened last time.",
-                       "<32>* ... actually, perhaps that's not too surprising."
+                       "<32>{#p/basic}{#npc/a}* 上次發生那樣的事之後，\n  Sans又回來了，\n  真讓人驚訝。",
+                       "<32>* ...實際上，可能也\n  沒那麼讓人驚訝。"
                     ]
                   : SAVE.data.n.plot === 72
                   ? [
@@ -1268,8 +1268,8 @@ export default {
                     ]
                   : SAVE.data.n.plot === 33
                   ? [
-                       "<32>{#p/basic}{#npc/a}* You're talking to me like you want the inside scoop.",
-                       "<32>{#p/basic}{#npc/a}* Sorry kid.\n* Guess you'll just have to wait for the next news update."
+                       "<32>{#p/basic}{#npc/a}* 你跟我說話的口氣\n  好像你想知道\n  內幕訊息似的。",
+                       "<32>{#p/basic}{#npc/a}* 抱歉孩子。\n* 看來你只能等下一條新聞了。"
                     ]
                   : SAVE.data.n.plot === 72
                   ? [
@@ -1286,7 +1286,7 @@ export default {
                SAVE.data.b.killed_mettaton
                   ? [ "<32>{#p/basic}{#npc/a}* Here's hoping another cutie like him comes along..." ]
                   : SAVE.data.n.plot === 33
-                  ? [ "<32>{#p/basic}{#npc/a}* Don't tell me you don't have an OuterNet account..." ]
+                  ? [ "<32>{#p/basic}{#npc/a}* 你該不會沒有\n  域外網賬戶吧..." ]
                   : SAVE.data.n.plot === 72
                   ? [ "<32>{#p/basic}{#npc/a}* What's an onionsan, anyway?" ]
                   : papreal()
@@ -1305,7 +1305,7 @@ export default {
                     ]
                   : SAVE.data.n.plot === 33
                   ? [
-                       "<32>{#p/basic}{#npc/a}* Sans has been a regular here since day one.",
+                       "<32>{#p/basic}{#npc/a}* Sans從第一天起\n  就是這裡的常客了。",
                        ...(papreal()
                           ? [
                                "<32>* He usually orders the worst item off the menu...",
@@ -1314,10 +1314,10 @@ export default {
                                "<32>* That's something, right?"
                             ]
                           : [
-                               "<32>* He always orders the worst item off the menu, and he never pays his tab.",
-                               "<32>* But because he attracts so many other customers...",
-                               "<32>* Grillby even gave him special arrangements.",
-                               "<32>* ... what's a \"yamok\" anyway?"
+                               "<32>* 他總是點選單上最難吃的菜，\n  而且從不付賬。",
+                               "<32>* 不過看在他吸引了\n  這麼多其他顧客的份上...",
+                               "<32>* Grillby甚至給他特別\n  安排了點東西。",
+                               "<32>* ...所以「雅莫萬用醬」\n  到底是什麼東西？"
                             ])
                     ]
                   : SAVE.data.n.plot === 72
@@ -1357,7 +1357,7 @@ export default {
                              "<32>{#p/basic}{#npc/a}* Come to think of it, that's not the only off-putting thing to have happened today..."
                           ]
                         : [ "<32>{#p/basic}{#npc/a}* How strange." ]
-                     : [ "<32>{#p/basic}{#npc/a}* We're blessed to have such a character in our midst." ]
+                     : [ "<32>{#p/basic}{#npc/a}* 我們身邊有這樣的人，\n  真是太幸運了。" ]
                   : SAVE.data.n.plot === 72
                   ? world.population < 4
                      ? [
@@ -1377,7 +1377,7 @@ export default {
                   : SAVE.data.n.plot === 33
                   ? papreal()
                      ? [ "<32>{#p/basic}{#npc/a}* How strange." ]
-                     : [ "<32>{#p/basic}{#npc/a}* How delightful." ]
+                     : [ "<32>{#p/basic}{#npc/a}* 真令人愉快。" ]
                   : SAVE.data.n.plot === 72
                   ? world.population < 4
                      ? [ "<32>{#p/basic}{#npc/a}* How... unexpected." ]
@@ -1396,8 +1396,8 @@ export default {
                     ]
                   : SAVE.data.n.plot === 33
                   ? [
-                       "<32>{#p/basic}{#npc/a}* Sansyyyy...\n* Come back and sit with me...!",
-                       "<32>* Everything's so f-f-fun when you're around..."
+                       "<32>{#p/basic}{#npc/a}* Sansyyyy...\n* 快回來坐我旁邊...！",
+                       "<32>* 有你在的時候，\n  一切都那麼有-有-有趣..."
                     ]
                   : SAVE.data.n.plot === 72
                   ? [
@@ -1446,7 +1446,7 @@ export default {
                        : "<32>{#p/basic}{#npc/a}* I just wish Sans would come back and give us more of his headpats."
                  ]
                : SAVE.data.n.plot === 33
-               ? [ "<32>{#p/basic}{#npc/a}* Shoot, I was hoping Sans came to give us a pat on the head." ]
+               ? [ "<32>{#p/basic}{#npc/a}* 噓，我在期待Sans\n  能過來摸摸我們的頭。" ]
                : SAVE.data.n.plot === 72
                ? world.population < 2
                   ? [
@@ -1476,7 +1476,7 @@ export default {
                     "<32>{#p/basic}{#npc/a}* (Mettaton's death was tragic, but he's just a guy on TV!)"
                  ]
                : SAVE.data.n.plot === 33
-               ? [ "<32>{#p/basic}{#npc/a}* (I like Sans.)\n* (Sometimes he feeds us scraps of food under the table.)" ]
+               ? [ "<32>{#p/basic}{#npc/a}* （我喜歡Sans。）\n* （有的時候他會在桌子底下\n  餵我們一些殘羹剩飯。）" ]
                : SAVE.data.n.plot === 72
                ? world.population < 2
                   ? [
@@ -1511,9 +1511,9 @@ export default {
                  ]
                : SAVE.data.n.plot === 33
                ? [
-                    "<32>{#p/basic}{#npc/a}* Huh?\n* Since when did you and Sans become friends...?",
-                    "<32>* I'm not the biggest fan of that guy...",
-                    "<32>* He loves to appear without moving."
+                    "<32>{#p/basic}{#npc/a}* 嗯？\n* 你和Sans什麼時候\n  成為朋友了？",
+                    "<32>* 我不太喜歡那傢伙...",
+                    "<32>* 他喜歡一動不動地出現。"
                  ]
                : SAVE.data.n.plot === 72
                ? [
@@ -1553,8 +1553,8 @@ export default {
                ? SAVE.data.b.item_fast_food
                   ? [
                        "<32>{#p/basic}* ...\n* ...\n* ...",
-                       "<32>{#npc/a}* Grillbz said he only lets Sans eat for free because he pulls in other customers.",
-                       "<32>* I can't exactly disagree..."
+                       "<32>{#npc/a}* Grillbz說他只讓Sans\n  免費吃飯，因為他幫著吸引了\n  其他顧客。",
+                       "<32>* 我感覺硬說的話\n  好像還真是這麼回事..."
                     ]
                   : [
                        "<32>{#p/basic}* ...\n* ...\n* ...",
@@ -1586,8 +1586,8 @@ export default {
                     ]
                   : SAVE.data.n.plot === 33
                   ? [
-                       "<32>{#p/basic}{#npc/a}* Sans certainly knows how to make you laugh, huh?",
-                       "<32>* Good thing, too.\n* That skeleton practically pays the bills here."
+                       "<32>{#p/basic}{#npc/a}* Sans當然知道該怎麼逗你笑，\n  對吧？",
+                       "<32>* 那是肯定的。\n* 這裡的賬單幾乎都是\n  那個骷髏付的。"
                     ]
                   : SAVE.data.n.plot === 72
                   ? world.population < 2
@@ -1617,7 +1617,7 @@ export default {
                SAVE.data.b.killed_mettaton
                   ? [ "<33>{#p/basic}{#npc/a}* I'm semi-conflicted about this." ]
                   : SAVE.data.n.plot === 33
-                  ? [ "<32>{#p/basic}{#npc/a}* Regular?\n* Who, me?\n* Nah, I'm only semi-regular." ]
+                  ? [ "<32>{#p/basic}{#npc/a}* 常客？\n* 你說誰，我嗎？\n* 不至於，我只能算半個常客。" ]
                   : SAVE.data.n.plot === 72
                   ? world.population < 2
                      ? [
@@ -8983,10 +8983,10 @@ export default {
       f_sans: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/0}MY BROTHER HAS A STATION HERE.",
-            "<18>{#f/4}INDEED, HE MANS TWO STATIONS AT THE SAME TIME.",
-            "<18>{#f/0}AMAZING, ISN'T HE?",
-            "<18>{#f/0}HE SLACKS OFF TWICE AS MUCH AS NORMAL!!",
+            "<18>{#p/papyrus}{#f/0}我兄弟在這\n有一個工作站。",
+            "<18>{#f/4}事實上，\n他同時管理兩個站點。",
+            "<18>{#f/0}很驚人，是吧？",
+            "<18>{#f/0}他偷懶的次數\n是平時的兩倍！！",
             ...(solo()
                ? []
                : [
@@ -8999,7 +8999,7 @@ export default {
          ],
          () =>
             solo()
-               ? [ "<18>{#p/papyrus}{#f/5}WE WAKEFUL FOLK COULD ONLY DREAM OF SUCH SLOTH..." ]
+               ? [ "<18>{#p/papyrus}{#f/5}我們醒著的人只能\n夢想擁有這樣的\n懶惰..." ]
                : [
                     "<18>{#p/papyrus}{#f/5}EVEN UNDYNE'S BEEN CAUGHT IN SANS'S BAD HABITS...",
                     "<25>{#p/undyne}{#f/17}* I have NOT!!",
@@ -9010,9 +9010,9 @@ export default {
       f_corridor: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}WHAT'S IN YOUR DIMENSIONAL BOX?",
-            "<18>{#f/4}ACTUALLY, DON'T TELL ME.",
-            "<18>{#f/7}THAT'D BE A BLATANT VIOLATION OF YOUR PRIVACY!",
+            "<18>{#p/papyrus}你的次元箱裡\n有什麼？",
+            "<18>{#f/4}實際上，\n不用告訴我。",
+            "<18>{#f/7}不然就是公然\n侵犯你的隱私了！",
             ...(solo()
                ? []
                : SAVE.data.b.undyne_respecc
@@ -9029,7 +9029,7 @@ export default {
          ],
          () =>
             solo()
-               ? [ "<18>{#p/papyrus}{#f/4}... AT LEAST TELL ME IT'S NOT \"DOG RESIDUE.\"" ]
+               ? [ "<18>{#p/papyrus}{#f/4}...至少告訴我\n不是「狗剩」就行。" ]
                : [
                     "<18>{#p/papyrus}{#f/4}JUST BETWEEN YOU AND I...",
                     "<18>{#f/0}UNDYNE DOESN'T ACTUALLY WANT TO STEAL YOUR STUFF.",
@@ -9045,10 +9045,10 @@ export default {
       f_doge: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/4}THEY SAY IT'S BEST TO LET SLEEPING DOGS LIE...",
-            "<18>{#f/7}BUT, TRUTHFULLY, I DISAGREE!",
-            "<18>{#f/5}AFTER ALL...",
-            "<18>{#f/6}A GOOD DOG SHOULD VALUE HONESTY ABOVE ALL ELSE!",
+            "<18>{#p/papyrus}{#f/4}大家都說最好不要\n惹那條睡覺的狗...",
+            "<18>{#f/7}但是，說真的，\n我不同意！",
+            "<18>{#f/5}畢竟...",
+            "<18>{#f/6}一條好狗應該把\n誠實看得比什麼\n都重要！",
             ...(solo()
                ? []
                : [
@@ -9064,7 +9064,7 @@ export default {
          ],
          () =>
             solo()
-               ? [ "<18>{#p/papyrus}{#f/4}IF ONLY THE DOG UNDER MY SINK HAD SUCH PRIORITIES..." ]
+               ? [ "<18>{#p/papyrus}{#f/4}要是我水槽下面的\n那條狗有這樣的\n優先權就好了..." ]
                : [ "<18>{#p/papyrus}{#f/0}WHEN IN DOUBT, JUST TALK IT OUT.", "<18>{#p/papyrus}{#f/9}WORKS EVERY TIME!" ]
       ),
       f_puzzle1: pager.create(
@@ -9091,9 +9091,9 @@ export default {
       f_quiche: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/5}MY BROTHER CAME BY HERE THE OTHER DAY...",
-            "<18>{#f/5}SAYING HE HAD TO DROP SOMETHING OFF.",
-            "<18>{#f/5}I ASKED HIM ABOUT IT, AND HE ISSUED ME A CHALLENGE...",
+            "<18>{#p/papyrus}{#f/5}我哥哥前幾天\n來過這裡...",
+            "<18>{#f/5}說他得送點\n東西過來。",
+            "<18>{#f/5}我問他要送什麼，",
             "<18>{#f/4}A RIDDLE ABOUT A VERY \"CHEESY\" JOKE.",
             ...(solo()
                ? []

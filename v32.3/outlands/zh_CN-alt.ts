@@ -3742,7 +3742,7 @@ export default {
          "<20>{*}{#f/12}搞什... \n你是脑残还是怎么着？？",
          "<20>{*}{#x2}给{^4} 我{^4} 撞{^4} 子弹！！！{^20}{*}{#x1}{^999}"
       ],
-      twinkly14: "给{^4} 我{^4} 撞{^4} 幸福碎片～",
+      twinkly14: "给 我 撞 幸福碎片～",
       twinkly15: [
          "<20>{#v/1}嘻嘻嘻...",
          "<20>在这个世界中...\n不是杀人就是被杀。",
@@ -3877,7 +3877,7 @@ export default {
       niceText: [ "<08>{#p/basic}{~}（脸微微\n泛红。）\n呱呱.." ],
       perilStatus: [ "<32>{#p/story}* 蛙吉特正试图逃跑。" ],
       status1: [ "<32>{#p/story}* 蛙吉特蹦了过来！" ],
-      status2: [ "<32>{#p/story}* The battlefield is filled with the smell of crystherium utilia." ],
+      status2: [ "<32>{#p/story}* 战场弥漫着曜菊的芬芳。" ],
       status3: [ "<32>{#p/story}* 蛙吉特看起来并不知道\n  自己为什么在这里。" ],
       status4: [ "<32>{#p/story}* 蛙吉特跳来跳去。" ]
    },
@@ -3900,7 +3900,7 @@ export default {
       idleTalk2: [ "<08>{#p/basic}{~}请帮帮\n我.." ],
       idleTalk3: [ "<08>{#p/basic}{~}我好怕.." ],
       idleTalk4: [ "<08>{#p/basic}{~}我做\n不到..." ],
-      idleTalk5: [ "<08>{#p/basic}{~}\x00*sniff sniff*" ],
+      idleTalk5: [ "<08>{#p/basic}{~}\x00*呜呜*\n*呜呜*" ],
       name: "* Flutterlyte",
       perilStatus: [ "<32>{#p/story}* Flutterlyte快要从空中掉下来了。" ],
       status1: [ "<32>{#p/story}* Flutterlyte飘飘悠悠地飞了过来！" ],
@@ -4017,7 +4017,7 @@ export default {
       cheerTalk2: [ "<11>{#p/napstablook}{~}嘿嘿..." ],
       cheerTalk3: [
          "<11>{*}{#p/napstablook}{~}让我{#x1}试试...{^20}{#x2}{^20}{%}",
-         "<11>{*}{#p/napstablook}{~}我管这个叫{#x3}\n'dapper blook'{^40}{%}",
+         "<11>{*}{#p/napstablook}{~}我管这个叫{#x3}\n'纳普斯文'{^40}{%}",
          "<11>{*}{#p/napstablook}{~}你喜欢吗？{^40}{%}"
       ],
       cheerTalk4: [ "<11>{#p/napstablook}{~}哦天啊....." ],
@@ -4067,8 +4067,8 @@ export default {
       threat: [ "<32>{#p/human}* （你威胁纳普斯特。）" ]
    },
    b_opponent_toriel: {
-      spannerText: [ "<32>{#p/human}* (You throw the spanner.)\n* (Toriel picks it up and returns it to you.)" ],
-      spannerTalk: [ "<11>{#p/toriel}{#f/3}That will accomplish nothing, my child." ],
+      spannerText: [ "<32>{#p/human}* （你把扳手丢了出去。）\n* （托丽尔捡起扳手，还给了你。）" ],
+      spannerTalk: [ "<11>{#p/toriel}{#f/3}孩子，扔扳手\n解决不了\n任何问题。" ],
       spannerTalkRepeat: [ "<11>{#p/toriel}{#f/4}..." ],
       act_check: [ "<32>{#p/story}* 托丽尔 - 攻击80 防御80\n* 最了解你的人。" ],
       act_check2: [ "<32>{#p/story}* 托丽尔 - 攻击80 防御80\n* 看起来有所克制。" ],
@@ -4153,32 +4153,32 @@ export default {
          "<25>{#p/toriel}{#f/14}* ... goodbye, $(name)."
       ],
       death1: [
-         "<11>{#p/toriel}{#f/21}{#v/1}{#i/3}{#x1}{@random=1.1/1.1}呃啊...",
-         "<11>{#v/1}{#i/6}{#x1}{@random=1.1/1.1}趁我\n毫无防备时\n将我杀死...",
+         "<11>{#p/toriel}{#f/21}{#v/1}{#i/6}{#x1}{@random=1.1/1.1}呃啊...",
+         "<11>{#v/1}{#i/6}{#x1}{@random=1.1/1.1}趁我\n毫无防备时\n杀了我...",
          "<11>{#v/1}{#i/6}{#x1}{@random=1.1/1.1}...",
          "<11>{#v/2}{#i/9}{#x2}{@random=1.1/1.1}哈...\n哈...",
          "<11>{#v/2}{#i/9}{#x2}{@random=1.1/1.1}现在看来，\n年轻人...",
          "<11>{#v/3}{#i/12}{#x2}{@random=1.2/1.2}一路上一直\n相信你的我，\n才是真正的\n傻子啊..."
       ],
       death2: [
-         "<11>{#p/toriel}{#f/21}{#v/1}{#i/3}{#x1}{@random=1.1/1.1}呃啊...",
-         "<11>{#v/1}{#i/6}{#x3}{@random=1.1/1.1}本以为，自己\n努力保护的人，\n是你...",
+         "<11>{#p/toriel}{#f/21}{#v/1}{#i/6}{#x1}{@random=1.1/1.1}呃啊...",
+         "<11>{#v/1}{#i/6}{#x3}{@random=1.1/1.1}本以为，\n自己努力\n保护的人，\n是你...",
          "<11>{#v/1}{#i/6}{#x4}{@random=1.1/1.1}...",
          "<11>{#v/2}{#i/9}{#x2}{@random=1.1/1.1}哈...\n哈...",
          "<11>{#v/2}{#i/9}{#x1}{@random=1.1/1.1}现在看来，\n年轻人...",
-         "<11>{#v/3}{#i/12}{#x2}{@random=1.2/1.2}我真正保护的，\n是他们啊..."
+         "<11>{#v/3}{#i/12}{#x2}{@random=1.2/1.2}我真正\n保护的，\n是他们啊..."
       ],
       death3: [
-         "<11>{#p/toriel}{#f/21}{#v/1}{#i/3}{#x1}{@random=1.1/1.1}呃啊...",
-         "<11>{#v/1}{#i/3}{#x1}{@random=1.1/1.1}You are stronger than I thought...",
-         "<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}Listen to me, young one...",
-         "<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}In a few moments, I will turn to dust...",
-         "<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}When that happens, you must take my SOUL...",
-         "<11>{#v/1}{#i/3}{#x1}{@random=1.1/1.1}It is the only real way you can escape this place.",
-         "<11>{#v/2}{#i/4}{#x3}{@random=1.1/1.1}You cannot... allow ASGORE's plan to... succeed...",
-         "<11>{#v/2}{#i/4}{#x1}{@random=1.1/1.1}...",
-         "<11>{#v/3}{#i/5}{#x2}{@random=1.2/1.2}我的孩子...",
-         "<11>{#v/3}{#i/5}{#x4}{@random=1.2/1.2}Be good... won't you?"
+         "<11>{#p/toriel}{#f/21}{#v/1}{#i/6}{#x1}{@random=1.1/1.1}呃啊...",
+         "<11>{#v/1}{#i/6}{#x1}{@random=1.1/1.1}没想到，\n你这么强...",
+         "<11>{#v/1}{#i/6}{#x3}{@random=1.1/1.1}听我说，\n孩子...",
+         "<11>{#v/1}{#i/6}{#x3}{@random=1.1/1.1}很快，\n我就会变成\n一堆灰烬...",
+         "<11>{#v/1}{#i/6}{#x3}{@random=1.1/1.1}到那时，\n请你... \n马上吸收\n我的灵魂。",
+         "<11>{#v/1}{#i/6}{#x1}{@random=1.1/1.1}只有这样...\n你才能\n逃出这里。",
+         "<11>{#v/2}{#i/9}{#x3}{@random=1.1/1.1}绝不能...\n让... \n艾斯戈尔...\n计划得逞...",
+         "<11>{#v/2}{#i/9}{#x1}{@random=1.1/1.1}...",
+         "<11>{#v/3}{#i/12}{#x2}{@random=1.2/1.2}孩子...",
+         "<11>{#v/3}{#i/12}{#x4}{@random=1.2/1.2}要乖啊... \n好吗？"
       ],
       magic1: [ "<20>{#p/asriel2}{#f/3}我们出发。" ],
       name: "* 托丽尔",
@@ -4281,7 +4281,7 @@ export default {
       ],
       flirt3: [
          "<25>{#p/toriel}{#f/7}* ...\n* 哦亲爱的，你是认真的吗...？",
-         "<25>{#f/5}* 先前你还叫我“妈妈”来着...",
+         "<25>{#f/5}* 先前你还叫我\n  “妈妈”来着...",
          "<25>{#f/1}* 好吧。\n* 你可真是个“有趣”的孩子。"
       ],
       flirt4: [ "<25>{#p/toriel}{#f/3}* ...", "<25>{#p/toriel}{#f/4}* 我真是想不通你的脑回路。" ],
@@ -4302,7 +4302,7 @@ export default {
             "<25>{#p/toriel}{#f/1}* 你现在是觉得很无聊吗？",
             "<25>{#f/0}* 对不起。\n* 我应该给你找些事情做的。",
             "<25>{#f/1}* 试着放空大脑尽情想象，\n  来分散你的注意力，\n  如何？",
-            "<25>{#f/0}* 假装你是一名... 战斗机飞行员！",
+            "<25>{#f/0}* 假装你是一名...\n  战斗机飞行员！",
             "<25>{#f/1}* 上下旋转，左右摇摆，\n  以光速做着横滚侧翻...",
             "<25>{#f/1}* 能为我试着做一遍吗？"
          ],
@@ -4315,7 +4315,7 @@ export default {
       helloX: [ "<25>{#p/toriel}{#g/torielLowConcern}* 嗯？" ],
       mom1: [
          "<25>{#p/toriel}* ...",
-         "<25>{#f/7}* 嗯？\n* 你刚才是不是叫我“妈妈”了？",
+         "<25>{#f/7}* 嗯？\n* 你刚才是不是叫我\n  “妈妈”了？",
          "<25>{#f/1}* 嗯...\n* 我想...",
          "<25>{#f/1}* 你叫我“妈妈”...",
          "<25>{#f/1}* 会不会让你...\n* 开心一点？",
@@ -4329,13 +4329,13 @@ export default {
       ],
       mom4: [ "<25>{#p/toriel}{#f/5}* ..." ],
       puzzle1: [
-         "<25>{#p/toriel}{#f/1}* Help with a puzzle...?",
-         "<25>{#f/1}* You have not left the room yet, have you?",
-         "<25>{#f/0}* Wait for me to return, and we can solve it together."
+         "<25>{#p/toriel}{#f/1}* 被谜题难住了吗？",
+         "<25>{#f/1}* 你还在那个房间，对吧？",
+         "<25>{#f/0}* 再等我几分钟，\n  等我回去了，咱们一起解开它。"
       ],
       puzzle2: [
-         "<25>{#p/toriel}{#f/1}* Help with a puzzle...?",
-         "<25>{#f/23}* ... something tells me you do not sincerely need my help."
+         "<25>{#p/toriel}{#f/1}* 被谜题难住了吗？",
+         "<25>{#f/23}* ...我感觉你应该不需要\n  我的帮助。"
       ],
       insult1: (sus: boolean) =>
          sus
@@ -4347,7 +4347,7 @@ export default {
             : [
                  "<25>{#p/toriel}{#f/0}* 喂？\n* 我是...",
                  "<25>{#f/2}* ...！",
-                 "<25>{#f/1}* 我的孩子... \n  我觉得并不如你所说的那样。"
+                 "<25>{#f/1}* 我的孩子... \n  我觉得那不是你的本意。"
               ],
       insult2: (sus: boolean) =>
          sus
@@ -4413,7 +4413,7 @@ export default {
       drop: [ "<32>{#p/human}* （你把大麻素扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* （5 HP. 你觉得它非常的奇怪。）" ]
+            ? [ "<32>{#p/human}* （5 HP. 你觉得它非常地奇怪。）" ]
             : [ "<32>{#p/basic}* “大麻素” 回复5 HP\n* 据说它能让你“飘飘欲仙”。" ],
       name: "大麻素",
       use: [ "<32>{#p/human}* （你吸食了大麻素。）" ]
@@ -4471,19 +4471,19 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （99 HP。）" ]
-            : [ "<32>{#p/basic}* \"Snail Pie\" Heals 99 HP\n* Classic family recipe." ],
+            : [ "<32>{#p/basic}* “蜗牛派” 回复99 HP\n* 一道传统家常美食。" ],
       name: "蜗牛派",
       use: [ "<32>{#p/human}* （你吃掉了蜗牛派。）" ]
    },
    i_pie3: {
       battle: {
-         description: "Despite being soup-ified, the pie remains delicious.",
+         description: "变粥的派，也还是周到的派。",
          name: "派粥"
       },
-      drop: [ "<32>{#p/human}* (You dump the Pie Soup and the spoon that came with it.)" ],
-      info: [ "<32>{#p/basic}* \"Pie Soup\" Heals 49 HP\n* Despite being soup-ified, the pie remains delicious." ],
+      drop: [ "<32>{#p/human}* （你把派粥全倒掉了，\n  勺子也一起扔了。）" ],
+      info: [ "<32>{#p/basic}* “派粥” 回复49 HP\n* 变{@fill=#ff0}粥{@fill=#fff}的派，也还是{@fill=#ff0}周{@fill=#fff}到的派。" ],
       name: "派粥",
-      use: [ "<32>{#p/human}* (You consume the Pie Soup with the provided spoon.)" ]
+      use: [ "<32>{#p/human}* （你用附带的勺子喝光了派粥。）" ]
    },
    i_pie4: {
       battle: {
@@ -4532,7 +4532,7 @@ export default {
          description: "在你坠毁的飞船上找到的。",
          name: "宇航服"
       },
-      drop: [ "<32>{#p/human}* (You throw away the Worn Spacesuit.)" ],
+      drop: [ "<32>{#p/human}* （你把破损的宇航服扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (20 HP. The last remaining fragment of a spacecraft flown in exile.)" ]
@@ -4549,12 +4549,12 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (A trusty tool forged from beyond the galaxy's edge.)" ]
-            : [ "<32>{#p/basic}* A rusty old wrench." ],
+            : [ "<32>{#p/basic}* 一把生锈的旧扳手。" ],
       name: "生锈的扳手",
       use: () => [
          ...(battler.active && battler.targetCurrent?.opponent.metadata.reactSpanner
             ? []
-            : [ "<32>{#p/human}* (You toss the spanner into the air.)\n* (Nothing happens.)" ])
+            : [ "<32>{#p/human}* （你把扳手抛向了空中。）\n* （什么都没发生。）" ])
       ]
    },
    i_starbertA: {
@@ -4568,7 +4568,7 @@ export default {
             ? [ "<32>{#p/human}* (It seems like the beginning of a journey.)" ]
             : [ "<32>{#p/basic}* 限量版《超级星之行者》连载漫画。\n* 共有3期，这是第1期。" ],
       name: "《超级星之行者1》",
-      use: () => (battler.active ? [ "<32>{#p/human}* （你看了看《超级星之行者1》。）", "<32>* (Nothing happens.)" ] : [])
+      use: () => (battler.active ? [ "<32>{#p/human}* （你看了看《超级星之行者1》。）", "<32>* （什么都没发生。）" ] : [])
    },
    i_starbertB: {
       battle: {
@@ -4586,10 +4586,10 @@ export default {
             ? [
                  "<32>{#p/human}* （你看了看《超级星之行者2》。）",
                  ...(SAVE.data.b.stargum
-                    ? [ "<32>* (Nothing happens.)" ]
+                    ? [ "<32>* （什么都没发生。）" ]
                     : [
-                         "<32>* (You found a piece of gum taped to the comic strip.)",
-                         choicer.create("* (Use the gum?)", "是", "否")
+                         "<32>* （你发现漫画上\n  “附赠”了一块口香糖...）",
+                         choicer.create("* （嚼它吗？）", "嚼", "不嚼")
                       ])
               ]
             : []
@@ -4605,7 +4605,7 @@ export default {
             ? [ "<32>{#p/human}* (It seems like the end of a journey... or is it a new beginning?)" ]
             : [ "<32>{#p/basic}* 限量版《超级星之行者》连载漫画。\n* 共有3期，这是最后一期。" ],
       name: "《超级星之行者3》",
-      use: () => (battler.active ? [ "<32>{#p/human}* （你看了看《超级星之行者3》。）", "<32>* (Nothing happens.)" ] : [])
+      use: () => (battler.active ? [ "<32>{#p/human}* （你看了看《超级星之行者3》。）", "<32>* （什么都没发生。）" ] : [])
    },
    i_steak: {
       battle: {
@@ -4616,7 +4616,7 @@ export default {
          "<32>{#p/human}* （你把牛排扔掉了。）",
          ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
             ? []
-            : [ "<32>{#p/basic}* Well, that won't be missed." ])
+            : [ "<32>{#p/basic}* 哼，没人会稀罕它的。" ])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
@@ -4625,7 +4625,7 @@ export default {
       name: "滋滋牛排",
       use: () => [
          "<32>{#p/human}* （你吃掉了滋滋牛排。）",
-         ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8 ? [] : [ "<32>{#p/basic}* Gross!" ])
+         ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8 ? [] : [ "<32>{#p/basic}* 真难吃！" ])
       ]
    },
 
@@ -4633,8 +4633,8 @@ export default {
       name: "秘密钥匙",
       description: () =>
          SAVE.data.b.w_state_secret
-            ? "Used to access a hidden room in the Outlands."
-            : "在托丽尔房间的袜子抽屉里\n找到的。"
+            ? "用它解锁了外域的隐藏房间。"
+            : "在托丽尔房间的袜子抽屉中\n找到的。"
    },
 
    c_call_toriel: <Partial<CosmosKeyed<CosmosProvider<string[]>, string>>>{
