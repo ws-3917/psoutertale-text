@@ -119,7 +119,7 @@ export default {
       quicksolve7: [ "<32>{#p/human}* (You decide not to enter.)" ],
       quicksolve8: [ "<32>{#p/basic}* Well, that's a mercy." ],
       escape: [
-         "<32>{#p/event}* Ring, ring...",
+         "<32>{#p/event}* 鈴鈴，鈴鈴...",
          "<32>{#p/alphys}* H-hey... are you there?",
          "<32>* I know you want to keep going forward, but...",
          "<32>* If you do, she'll... try to kill you...",
@@ -175,7 +175,7 @@ export default {
          choicer.create(
             "* (What do you intend to do?)",
             "Spare",
-            world.meanie ? "Bully" : world.flirt > 9 ? "放電" : SAVE.data.b.oops ? "Befriend" : "Hug",
+            world.meanie ? "Bully" : world.flirt > 9 ? "調情" : SAVE.data.b.oops ? "Befriend" : "Hug",
             "Kill",
             "Take Gold"
          )
@@ -815,13 +815,13 @@ export default {
             : [ "<32>{#p/basic}* It's a happy hugging dummy." ],
       epicreaction: () =>
          [
-            [ "<25>{#p/kidd}{#f/7}* What was THAT!?" ],
-            [ "<25>{#p/kidd}{#f/7}* Ack!!" ],
-            [ "<25>{#p/kidd}{#f/7}* Not again!" ],
-            [ "<25>{#p/kidd}{#f/7}* How many of those things are there!" ],
-            [ "<25>{#p/kidd}{#f/7}* Seriously!?" ],
-            [ "<25>{#p/kidd}{#f/7}* Jeez!!" ],
-            [ "<25>{#p/kidd}{#f/4}* We've gotta find a way outta here..." ],
+            [ "<25>{#p/kidd}{#f/7}* 那是什麼！？" ],
+            [ "<25>{#p/kidd}{#f/7}* 呃啊！！" ],
+            [ "<25>{#p/kidd}{#f/7}* 別再來了啊！" ],
+            [ "<25>{#p/kidd}{#f/7}* 那東西到底有多少啊！" ],
+            [ "<25>{#p/kidd}{#f/7}* 認真的嗎！？" ],
+            [ "<25>{#p/kidd}{#f/7}* 天啊！！" ],
+            [ "<25>{#p/kidd}{#f/4}* 我們得想辦法\n  從這裡出去..." ],
             [ "<25>{#p/kidd}{#f/4}* ..." ]
          ][Math.min(SAVE.data.n.state_foundry_kiddreaction++, 7)],
       fallenfish: [ "<33>{#p/basic}* Electricity permeates the body." ],
@@ -1166,7 +1166,7 @@ export default {
          "<25>{#f/1}* If we both stand on a switch, it lights up.\n* Isn't that awesome!?"
       ],
       kitchencall: () => [
-         "<32>{#p/event}* Ring, ring...",
+         "<32>{#p/event}* 鈴鈴，鈴鈴...",
          "<18>{#p/papyrus}HUMAN!\nI WAS THINKING.",
          ...(SAVE.data.n.plot_date < 1
             ? [
@@ -1657,10 +1657,10 @@ export default {
                  ]
                : [
                     "<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...",
-                    "<32>{#s/phone}* Ring, ring...",
-                    "<32>{#p/basic}* Hey kiddo!\n* Just wanted to check in on how that new shop of yours is.",
-                    "<32>* I hear you're doin' pretty well!",
-                    "<32>* (...)\n* (It's kinda hard for me to talk right now.)",
+                    "<32>{#s/phone}* 鈴鈴，鈴鈴...",
+                    "<32>{#p/basic}* 嘿，孩子!\n* 我就是想問問你的新店\n  怎麼樣了。",
+                    "<32>* 我聽說開得挺不錯呢！",
+                    "* （...）\n* （我現在有點不方便講話。）",
                     "<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。"
                  ],
          f_echo3: () =>
@@ -1693,10 +1693,10 @@ export default {
                  ]
                : [
                     "<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...",
-                    "<32>{#p/basic}* Huh?\n* What's the problem?",
-                    "<32>* (... don't you know?)",
-                    "<32>* Wait...",
-                    "<32>* (It's THAT menace.)",
+                    "<32>{#p/basic}* 嗯？\n* 發生什麼了？",
+                    "<32>* （...你不知道嗎？）",
+                    "<32>* 等一下...",
+                    "<32>* （就是那種的威脅。）",
                     "<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。"
                  ],
          f_echo4: () =>
@@ -1729,10 +1729,10 @@ export default {
                  ]
                : [
                     "<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...",
-                    "<32>{#p/basic}* ... wa ha ha.\n* It's the fella who goes around selling steak, ain't it?",
-                    "<32>* (What am I gonna do!)",
-                    "<32>* Shhhh.\n* It's alright, kiddo.\n* That shop's got a backdoor!",
-                    "<32>* (It does!?!?)",
+                    "<32>{#p/basic}* ...哇哈哈。\n* 是那個到處賣牛排的傢伙，\n  對吧？",
+                    "<32>* （我該怎麼辦！）",
+                    "<32>* 噓...\n* 沒事的，孩子。\n* 那家商店是有個後門的！",
+                    "<32>* （真的有嗎！？！？）",
                     "<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。"
                  ],
          f_echo5: () =>
@@ -1768,10 +1768,10 @@ export default {
                  ]
                : [
                     "<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...",
-                    "<32>{#p/basic}* (Woah...)\n* (This door leads to a balcony on the outside!)",
-                    "<32>{#p/basic}* (I swear the stars have never looked this bright...)",
-                    "<32>* Huh.\n* Must be a distortion field or something.",
-                    "<32>* Take a minute, and enjoy it while ya can!",
+                    "<32>{#p/basic}* （哇...）\n* （這扇門通往外面的陽臺！）",
+                    "<32>{#p/basic}* （我真的感覺星星\n  從來沒有這麼明亮過...）",
+                    "<32>* 哈。\n* 肯定是有個扭曲力場\n  什麼的。",
+                    "<32>* 稍微等一下，\n  就盡情享受吧！",
                     "<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。"
                  ],
          f_echo6: () =>
@@ -1812,7 +1812,7 @@ export default {
                  ]
                : [
                     "<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...",
-                    "<32>{#s/phone}* Ring, ring...",
+                    "<32>{#s/phone}* 鈴鈴，鈴鈴...",
                     "<32>{#p/basic}* Sorry about that, the phone signal here isn't the greatest.",
                     "<32>* You seen anything interesting so far?",
                     "<32>* (... well...)",
@@ -2534,7 +2534,7 @@ export default {
             ? [ "<32>{#p/human}* (You can't seem to use the switch anymore.)" ]
             : world.darker
             ? [ "<32>{#p/basic}* It's stuck, like always." ]
-            : [ "<32>{#p/basic}* The switch, quite shockingly, is stuck.", "<32>* What a turn of events!" ],
+            : [ "<32>{#p/basic}* 令人震驚的是，\n  開關卡住了。", "<32>* 變化真大！" ],
       puzzle2switch: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (You can't seem to use the switch anymore.)" ]
@@ -2688,7 +2688,7 @@ export default {
                     : [ "<32>{#p/basic}* It's a series of notes on time travel." ])
               ],
       secretcallA: [
-         "<32>{#s/phone}{#p/event}* Ring, ring...",
+         "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
          "<18>{#p/papyrus}{#f/9}PSST, THIS IS PAPYRUS!",
          "<18>{#f/0}AT THE MOMENT, I AM STILL HIDING IN MY SAFE PLACE.",
          "<18>{#f/4}I HOPE YOU'RE NOT GETTING INTO TROUBLE...",
@@ -2701,7 +2701,7 @@ export default {
          "<32>{#s/equip}{#p/event}* Click..."
       ],
       secretcallB: [
-         "<32>{#s/phone}{#p/event}* Ring, ring...",
+         "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
          "<18>{#p/papyrus}{#f/0}PSST, IT'S PAPYRUS AGAIN.",
          "<18>{#f/5}WOWIE... IT MUST BE GETTING LATE BY NOW.",
          "<18>{#f/6}ARE YOU WELL?\nHAS ANYONE ELSE BEEN... KILLED?",
@@ -2961,7 +2961,7 @@ export default {
               ])
       ],
       sanscall2: () => [
-         "<32>{#s/phone}{#p/event}* Ring, ring...",
+         "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
          "<25>{#p/sans}{#f/0}* hey, you there?",
          ...(SAVE.data.n.state_foundry_muffet === 1
             ? [
@@ -3131,7 +3131,7 @@ export default {
                ? [ "<32>{#p/basic}* 幻象罷了。" ]
                : SAVE.data.n.plot === 72
                ? [ "<32>{#p/basic}* Despite being holographic, it looks like a small slice of cheese was taken..." ]
-               : [ "<32>{#p/basic}* Holographic cheese.", "<32>{#p/basic}* The table is holographic, too." ],
+               : [ "<32>{#p/basic}* 全息奶酪。", "<32>{#p/basic}* 桌子也是全息的。" ],
          f_creamsign: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The sign declares the monsters' ownership of the outpost.)" ]
@@ -3212,7 +3212,7 @@ export default {
                     "<32>{#p/basic}* \"Backward - Snail Preserve\""
                  ],
          f_lobbywindow: [
-            "<32>{#p/human}* (You feel like you've already seen a window like this from another perspective.)"
+            "<32>{#p/human}* （你覺得你已經從另一個角度\n  看到過這樣的窗戶了。）"
          ],
          f_shinycab: () =>
             SAVE.data.b.svr
@@ -3283,7 +3283,7 @@ export default {
 
                ? [ "<32>{#p/basic}* \"Walk right into the next room if you don't mind.\"\n* \"And ignore the switch.\"" ]
                : [
-                    "<32>{#p/basic}* \"Move the pylons to guide the laser into the receiver.\"\n* \"Then press the switch.\""
+                    "<32>{#p/basic}* 「行動塔架，\n   引導激光射向接收器。」\n  「然後按下開關。」"
                  ],
          f_puzzle2_sign: () =>
             SAVE.data.b.svr
@@ -3307,7 +3307,7 @@ export default {
                : world.postnoot && world.nootflags.has('f_puzzle2') // NO-TRANSLATE
 
                ? [ "<32>{#p/basic}* \"Honestly, who cares about this puzzle?\"\n* \"It's not worth it.\"" ]
-               : [ "<32>{#p/basic}* \"All pylons must be used in the puzzle solution.\"" ],
+               : [ "<32>{#p/basic}* 「所有的塔架都必須\n   套用在解謎中。」" ],
          f_puzzle3_sign: () =>
             SAVE.data.b.svr
                ? [
@@ -4593,37 +4593,37 @@ export default {
       undroom4: () => [ "<25>{#p/undyne}{#f/17}* Stop doing that!" ],
       undroom5: () => [ "<25>{#p/undyne}{#f/17}* ..." ],
       undyne1a: [
-         "<23>{#p/papyrus}{#f/30}H... HI, UNDYNE!\nI'M HERE WITH MY DAILY REPORT...",
-         "<23>UHHH... REGARDING THAT HUMAN I CALLED YOU ABOUT EARLIER..."
+         "<23>{#p/papyrus}{#f/30}嗨... 嗨，安黛因！\n我是來做我的每日報告的...",
+         "<23>呃... 關於我之前跟你\n說過的那個人類..."
       ],
-      undyne1b: [ "<23>{#p/papyrus}{#f/30}... HUH?\nDID I FIGHT THEM?" ],
+      undyne1b: [ "<23>{#p/papyrus}{#f/30}...嗯？\n我有沒有跟人類戰鬥？" ],
       undyne1c: () =>
          
          world.edgy || (world.population_area('s') < 6 && !world.bullied_area('s')) // NO-TRANSLATE
 
             ? [ "<23>{#p/papyrusnt}UH...", "<23>I-IT'S COMPLICATED!" ]
-            : [ "<23>{#p/papyrusnt}Y-YES!\nOF COURSE I DID!", "<23>I FOUGHT THEM VALIANTLY!" ],
-      undyne1d: [ "<23>{#p/papyrus}{#f/30}... WHAT?\nDID I CAPTURE THEM...?" ],
-      undyne1e: [ "<23>{#p/papyrus}{#f/30}W-W-WELL...", "<23>NO..." ],
+            : [ "<23>{#p/papyrusnt}當-當然了！\n我當然跟人類戰鬥了！", "<23>我英勇地和那個人類\n戰鬥過了！" ],
+      undyne1d: [ "<23>{#p/papyrus}{#f/30}...什麼？\n我有沒有把人類抓住...？" ],
+      undyne1e: [ "<23>{#p/papyrus}{#f/30}這-這-這個...", "<23>沒有..." ],
       undyne1f: () =>
          world.edgy || (world.population_area('s') < 6 && !world.bullied_area('s')) // NO-TRANSLATE
 
             ? [ "<23>{#p/papyrus}{#f/30}L-LIKE I SAID, IT'S COMPLICATED!" ]
-            : [ "<23>{#p/papyrus}{#f/30}I-I MEAN, I TRIED VERY HARD TO, B-BUT, IN THE END..." ],
+            : [ "<23>{#p/papyrus}{#f/30}我-我是說，\n我真的很努力了，\n但-但是，最終..." ],
       undyne1g: () => [
-         "<23>{#p/papyrus}{#f/30}... W-WHAT?",
+         "<23>{#p/papyrus}{#f/30}...什-什麼？",
          ...(SAVE.data.n.state_foundry_doge === 1
             ? [ "<23>THEY'VE ALREADY KILLED AN ELITE SQUAD MEMBER??", "<23>N-NO... THEY WOULDN'T DO THAT, WOULD THEY?" ]
-            : [ "<23>YOU'RE GOING TO TAKE THE HUMAN'S SOUL YOURSELF??" ])
+            : [ "<23>你要親自去取走那個\n人類的靈魂？？" ])
       ],
       undyne1h: () =>
          SAVE.data.n.state_foundry_doge === 1
             ? [ "<23>{#p/papyrus}{#f/30}SURELY THERE MUST BE ANOTHER WAY!", "<23>SURELY..." ]
-            : [ "<23>{#p/papyrus}{#f/30}BUT UNDYNE, YOU DON'T H-HAVE TO DESTROY THEM! YOU SEE...", "<23>YOU SEE..." ],
+            : [ "<23>{#p/papyrus}{#f/30}但是安黛因，你不-\n不一定要把人類殺掉的！\n你看...", "<23>你看..." ],
       undyne1i: () => [
-         "<23>{#p/papyrus}{#f/30}I...",
-         "<23>... I UNDERSTAND.",
-         "<23>I'LL HELP YOU IN ANY WAY I CAN.",
+         "<23>{#p/papyrus}{#f/30}我...",
+         "<23>...我明白了。",
+         "<23>我會盡力幫你的。",
          ...(world.postnoot
             ? [
                  "<23>BY THE WAY... YOU NEED TO DOUBLE-CHECK THE ATMOSPHERIC SYSTEM.",
@@ -4639,7 +4639,7 @@ export default {
       undyne1n: [ "<25>{#p/kidd}{#f/1}* 呃，你可以從平臺上\n  下來了。" ],
       undyne1o: [ "<25>{#p/kidd}{#f/4}* 她去哪了...？" ],
       undyne1p: [ "<25>{#p/kidd}{#f/7}* 啊！{^10}{%}" ],
-      undyne1q: [ "<25>{#p/kidd}{#f/2}* 噓...\n  我感覺我們可以偷渡過去。\n* 快跟上我！" ],
+      undyne1q: [ "<25>{#p/kidd}{#f/2}* 噓...\n  我感覺我們可以偷偷溜過去。\n* 快跟上我！" ],
       undyne1r: [ "<25>{#p/kidd}{#f/4}* 這裡烏黑一片...", "<25>{#p/kidd}{#f/7}* ...但是我們得保持\n  前進！" ],
       undyne1s: [ "<25>{#p/kidd}{#f/7}* 快躲進那叢便於藏身\n  的植物裡！" ],
       undyne2a: [
@@ -4690,7 +4690,7 @@ export default {
          "<25>{#p/kidd}{#f/2}* 老兄，我超推薦你們去看看\n  安黛因的人類追逐練習的！",
          "<25>{#f/1}* 她一秒就能扔出\n  上億隻矛呢！"
       ],
-      undyne2d: [ "<25>{#f/1}* 我正在你身後呢！" ],
+      undyne2d: [ "<25>{#f/1}* 你來帶路吧！" ],
       undyne2dx: () => [
          "<25>{#p/kidd}{#f/2}* 每當獵物快要逃脫...",
          "<25>{#f/1}* 她總能在最後一刻精準命中！",
@@ -5203,19 +5203,19 @@ export default {
    b_group_foundry: {
       moldsmalMoldbygg1: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* Holy moldy!" ]
+            ? [ "<32>{#p/kidding}* 呃啊，黴臭味！" ]
             : [ "<32>{#p/story}* It's a gelatin festival!" ],
       moldsmalMoldbygg2a: () =>
          world.goatbro
             ? [ "<32>{#p/asriel2}* 只剩一個了。" ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* Just us now!" ]
+            ? [ "<32>{#p/kidding}* 只剩我們了！" ]
             : [ "<32>{#p/story}* Gelata is all alone now." ],
       moldsmalMoldbygg2b: () =>
          world.goatbro
             ? [ "<32>{#p/asriel2}* 只剩一個了。" ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* Just us now!" ]
+            ? [ "<32>{#p/kidding}* 只剩我們了！" ]
             : [ "<32>{#p/story}* Gelatini now blorbs solo." ],
       woshuaMoldbygg2: () =>
          world.goatbro
@@ -5227,13 +5227,13 @@ export default {
          world.goatbro
             ? [ "<32>{#p/asriel2}* 只剩一個了。" ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* Just us now!" ]
+            ? [ "<32>{#p/kidding}* 只剩我們了！" ]
             : [ "<32>{#p/story}* Gelata is all alone now." ],
       woshuaMoldbygg2b: () =>
          world.goatbro
             ? [ "<32>{#p/asriel2}* 只剩一個了。" ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* Just us now!" ]
+            ? [ "<32>{#p/kidding}* 只剩我們了！" ]
             : [ "<32>{#p/story}* Skrubbington is not sure how to feel anymore." ]
    },
    b_opponent_woshua: {
@@ -5384,7 +5384,7 @@ export default {
          world.goatbro
             ? [ "<32>{#p/asriel2}* Gelata." ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* I wonder what would happen if I hugged it." ]
+            ? [ "<32>{#p/kidding}* 我好奇我要是抱抱它\n  會發生什麼。" ]
             : [ "<32>{#p/story}* Gelata wobbles anxiously." ],
       randStatus3: () =>
          world.goatbro
@@ -8249,7 +8249,7 @@ export default {
          name: "鑄廠 - 暗區",
          text: () =>
             SAVE.data.n.plot < 39
-               ? [ "<32>{#p/human}* (Wandering deeper into the factory fills you with determination.)" ]
+               ? [ "<32>{#p/human}* （在鑄廠的深處漫步，\n  使你充滿了決心。）" ]
                : SAVE.data.n.state_foundry_muffet === 1
                ? [ "<32>{#p/human}* (Thinking of the friends you corrupted along the way fills you with determination.)" ]
                : SAVE.data.b.f_state_kidd_betray
@@ -8279,8 +8279,8 @@ export default {
                  ]
                : SAVE.data.n.plot < 48
                ? [
-                    "<32>{#p/human}* (Pylon puzzles, signal stars, and vintage vents...)",
-                    "<32>{#p/human}* (These fickle frivolities fill you with determination.)"
+                    "<32>{#p/human}* （塔架謎題、訊星，\n  還有老式通風口...)",
+                    "<32>{#p/human}* （如同變幻莫測的滑稽劇一般，\n  使你充滿了決心。）"
                  ]
                : [
                     "<32>{#p/human}* (A bridge now sits amidst the surroundings.)",

@@ -2542,7 +2542,7 @@ export default {
             "<32>* 「每個玩家都有探索、前進\n   和完成既定任務的\n   內在動力。」",
             "<32>* 「那些具有挑戰性、能夠\n   吸引這些動力的謎題...」",
             "<32>* 「能夠確保玩家始終\n   專注於任務，直到最後一刻。」",
-            "<32>{#p/human}* （你把書放回原處。）"
+            "<32>{#p/human}* （你把書放回了原處。）"
          ],
          [
             "<32>{#p/human}* （你取下了一本書...）",
@@ -2553,7 +2553,7 @@ export default {
             "<32>* 「它很想哭，\n   覺得自己被永遠拋棄了...」",
             "<32>* 「但後來，人類又出現了，\n   世界又恢復了正常。」",
             "<32>* 「人類和兔子給了彼此\n   一個大大的、毛茸茸的擁抱。」",
-            "<32>{#p/human}* （你把書放回原處。）"
+            "<32>{#p/human}* （你把書放回了原處。）"
          ],
          () =>
             world.runaway
@@ -2565,7 +2565,7 @@ export default {
                     "<23>\"WE'RE ALL LEAVING RIGHT AWAY, BEFORE THEY WAKE UP.\"",
                     "<23>\"STILL, A PART HOPES THEY FIND THEIR WAY OFF THE OUTPOST, TOO.\"",
                     "<23>\"EVERYONE ELSE JUST SEEMS CONTENT LEAVING THEM TO DIE.\"",
-                    "<32>{#p/human}* （你把書放回原處。）"
+                    "<32>{#p/human}* （你把書放回了原處。）"
                  ]
                : SAVE.data.n.plot === 72
                ? [
@@ -2576,7 +2576,7 @@ export default {
                     "<23>\"MAYBE THIS IS WHAT'LL INSPIRE SANS TO MOVE UP IN THE WORLD.\"",
                     "<23>\"I ONLY MENTION IT BECAUSE, I NEVER KNEW HIS SENTRY JOB...\"",
                     "<23>\"MEANT DOING SO LITTLE ACTUAL WORK.\"",
-                    "<32>{#p/human}* （你把書放回原處。）"
+                    "<32>{#p/human}* （你把書放回了原處。）"
                  ]
                : [
                     "<32>{#p/human}* （你取下了一本書...）",
@@ -2586,7 +2586,7 @@ export default {
                     "<23>「算了，\n我就不去追問什麼了。」",
                     "<23>「事實上，我為他感到\n非常驕傲！！！」",
                     "<23>「只有時間才能證明\n這會帶來什麼\n偉大的事情。」",
-                    "<32>{#p/human}* （你把書放回原處。）"
+                    "<32>{#p/human}* （你把書放回了原處。）"
                  ]
       ),
       papcomputer1: pager.create(
@@ -4812,7 +4812,7 @@ export default {
                        "<32>* 「如今，人口不足的問題\n   幾乎不復存在。」",
                        "<32>* 「儘管如此，我們還是\n   堅持新的學習方式，因為...」",
                        "<32>* 「...我們懶得再改回去了。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ],
             () =>
                SAVE.data.b.svr
@@ -4828,7 +4828,7 @@ export default {
                        "<32>* 「豐富的金礦資源\n   為我們帶來了許多便利。」",
                        "<32>* 「但也因此導致\n   其他貨幣迅速貶值。」",
                        "<32>* 「如今，金錢成為了\n   我們唯一的貨幣！」\n* 「這就是怪物的作風。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ],
             () =>
                SAVE.data.b.svr
@@ -4844,7 +4844,7 @@ export default {
                        "<32>* 「過去兩百年間充滿坎坷，\n   但同時自由也離我們越來越近。」",
                        "<32>* 「天使即將降臨...」",
                        "<32>* 「...我們猜想，或許他已經到來，\n   此刻正讀著這本書。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ]
          ),
          s_librarby_desk: () =>
@@ -4867,7 +4867,7 @@ export default {
                        "<32>* 「想要創建賬戶，你只需要...」",
                        "<32>* 「呃... 好吧...」",
                        "<32>* 「這教程看著清楚，\n   寫的可是不清不楚。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ],
             () =>
                SAVE.data.b.svr
@@ -4882,7 +4882,7 @@ export default {
                        "<32>* 「...因為，你總可以\n   在最近的停靠站找到他。」",
                        "<32>* 「而且，說真的，\n   他說話有點不知所云。」",
                        "<33>* 「『狗子的公道』到底是個啥？」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ],
             () =>
                SAVE.data.b.svr
@@ -4896,7 +4896,7 @@ export default {
                        "<32>* 「只有首塔頂端的最終長廊\n   是禁區。」",
                        "<32>* 「除了皇家科學員，\n   任何居民都不得通過那裡。」",
                        "<32>* 「...我們仍不清楚其中的原因。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ]
          ),
          s_librarby_ladder: () =>
@@ -4918,7 +4918,7 @@ export default {
                        "<32>* 「在葬禮上，我們拿來這些塵埃，\n   灑在他生前最喜歡的東西上。」",
                        "<32>* 「這樣一來，他的精神\n   就會留存在那件物品中...」",
                        "<32>* 「唔，我湊夠字數了嗎？」\n* 「我有點討厭寫這個。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ],
             () =>
                SAVE.data.b.svr
@@ -4951,7 +4951,7 @@ export default {
                        "<32>* 「也永遠不能\n   使用隱藏術和鷹眼術玩捉迷藏...」",
                        "<32>* 「更無法拿電魔法\n   辦一場炫酷燈光秀！」",
                        "<32>* 「太可憐了。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ]
          ),
          s_librarby_purpleBooks: pager.create(
@@ -4970,7 +4970,7 @@ export default {
                        "<32>* 「日光之能，盡數落地，歸於塵寰。」",
                        "<32>* 「直至光塔重升，耀眼如初。」",
                        "<32>* 「此乃晝夜，永恆循環，主宰光陰。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ],
             () =>
                SAVE.data.b.svr
@@ -4987,7 +4987,7 @@ export default {
                        "<32>* 「這些進步奠定了我們的社會結構，\n   乃至如今的生活方式。」",
                        "<32>* 「...我還是不敢相信\n   長達兩千年的歷史中，\n   我們都在裸著亂跑。」",
                        "<32>* 「哪有風度？」\n* 「哪有時尚？」\n* 「太不可思議了。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ],
             () =>
                SAVE.data.b.svr
@@ -5000,7 +5000,7 @@ export default {
                        "<32>* 「但隨著Erogot壽終正寢...\n   這一切都一去不復返了。」",
                        "<32>* 「Erogot有能力維持兩族長久和平，\n   而王子卻難以承襲此功。」",
                        "<32>* 「於是，一場大戰將在所難免...\n   實在令人痛心。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ]
          ),
          s_librarby_yellowBooks: pager.create(
@@ -5017,7 +5017,7 @@ export default {
                        "<32>* 「這主意簡潔明瞭，\n   但又十分巧妙。」",
                        "<32>* 「在這一想法的指引下，\n   核心最終建成，\n   我們因此有了穩定的能源。」",
                        "<32>* 「時至今日，我們仍在使用它！」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ],
             () =>
                SAVE.data.b.svr
@@ -5030,7 +5030,7 @@ export default {
                        "<32>* 「自從建築機器人K-541.12出了事之後，\n   我們就徹底放棄了研發\n   有自我意識的AI。」",
                        "<32>* 「王后甚至下令，\n   禁止任何人開發新的AI程式。」",
                        "<32>* 「現在，還有能力與資源去搞AI的，\n   只剩一個怪物了。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ],
             () =>
                SAVE.data.b.svr
@@ -5043,7 +5043,7 @@ export default {
                        "<32>* 「其中之一，\n   就是先進的重力控制系統。」",
                        "<32>* 「如今，前哨站的每一個角落，\n   不論大小，都安裝了\n   使用這一技術的裝置。」",
                        "<32>* 「現在正在看書的你，\n   可能就站在其中一個裝置上面。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ]
          ),
          s_math_sign: () =>
@@ -5372,7 +5372,7 @@ export default {
                     "<32>{#p/basic}* 「傳說，有人把它送上了\n   開往前哨站的運輸船。」",
                     "<32>{#p/basic}* 「如果傳說屬實，\n   那麼它現在位於何處？」\n* 「又該如何解開枷鎖？」",
                     "<32>{#p/basic}* 「但願，以上疑問永埋塵土之下，\n   湮沒無聞。」",
-                    "<32>{#p/human}* （你把書放回原處。）"
+                    "<32>{#p/human}* （你把書放回了原處。）"
                  ],
          s_sansbox: () =>
             SAVE.data.b.svr
@@ -5611,7 +5611,7 @@ export default {
       xtowerSans: () =>
          world.genocide
             ? [
-                 "<32>{#p/event}* 滴滴，滴滴...",
+                 "<32>{#p/event}* 鈴鈴，鈴鈴...",
                  "<32>{#p/alphys}* So... killing him wasn't g-good enough, huh?",
                  "<32>* You just had to go and beat his score on my... stupid m-minigame...",
                  "<32>* Ehehe...",
@@ -5633,7 +5633,7 @@ export default {
                     : [])
               ]
             : [
-                 "<32>{#p/event}* 滴滴，滴滴...",
+                 "<32>{#p/event}* 鈴鈴，鈴鈴...",
                  "<25>{#p/sans}* didja seriously just put in all that effort tryna beat my score?",
                  "<25>{#f/3}* wow.\n* you're even more stubborn than my bro.",
                  ...(SAVE.data.n.state_starton_papyrus === 1
@@ -7111,7 +7111,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （15 HP。）" ]
-            : [ "<32>{#p/basic}* \"Ice Dream\" 回復15 HP\n* 包裝紙上印的不是笑話，\n  而是一些天馬行空的想象。" ],
+            : [ "<32>{#p/basic}* 「冰意靈」 回復15 HP\n* 包裝紙上印的不是笑話，\n  而是一些天馬行空的想象。" ],
       name: "Ice Dream",
       use: pager.create(
          2,
@@ -7491,7 +7491,7 @@ export default {
       description: () =>
          SAVE.data.b.f_state_voucher
             ? "Used in tandem with your nonexistent premium telescope subscription."
-            : "在使用過星港的望遠鏡之後，\nMonster Kid給你的東西。"
+            : "在使用過星港的望遠鏡之後，\n怪物小孩給你的東西。"
    },
 
    k_inverter: {
@@ -9070,11 +9070,11 @@ export default {
       f_puzzle1: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/0}WATCH OUT FOR THE ANCIENT HUMAN PYLON PUZZLES!",
-            "<18>{#f/4}THOUGH RUDIMENTARY IN THEIR METHOD OF CONSTRUCTION...",
-            "<18>{#f/6}THEIR DESIGN IS NOTHING SHORT OF PERPLEXING!",
+            "<18>{#p/papyrus}{#f/0}小心古人的\n塔架謎題！",
+            "<18>{#f/4}雖然他們的建造方法\n很簡陋...",
+            "<18>{#f/6}但是設計卻很複雜！",
             ...(solo()
-               ? [ "<18>{#f/5}IT'S A WONDER WE MONSTERS CAN SOLVE THEM AT ALL." ]
+               ? [ "<18>{#f/5}我們這些怪物\n能解決這些謎題\n可真是個奇蹟。" ]
                : [
                     "<25>{#p/undyne}{#f/1}* That makes sense.\n* Humans themselves are the same way...",
                     "<25>{#p/undyne}{#f/16}* Waging that perplexing war over something so stupidly simple.",
@@ -9085,7 +9085,7 @@ export default {
          ],
          () =>
             solo()
-               ? [ "<18>{#p/papyrus}{#f/0}I WONDER IF HUMANS STRUGGLE WITH MONSTER PUZZLES." ]
+               ? [ "<18>{#p/papyrus}{#f/0}我好奇人類會不會\n被怪物的謎題難住。" ]
                : [ "<18>{#p/papyrus}{#f/0}HEH! NOT ALL HUMANS ARE BAD!" ]
       ),
       f_quiche: pager.create(
@@ -9093,8 +9093,8 @@ export default {
          () => [
             "<18>{#p/papyrus}{#f/5}我哥哥前幾天\n來過這裡...",
             "<18>{#f/5}說他得送點\n東西過來。",
-            "<18>{#f/5}我問他要送什麼，",
-            "<18>{#f/4}A RIDDLE ABOUT A VERY \"CHEESY\" JOKE.",
+            "<18>{#f/5}我問他要送什麼，\n  他給了我一個挑戰...",
+            "<18>{#f/4}說要讓我想\n  一「支世」俗的笑話。",
             ...(solo()
                ? []
                : [
@@ -9106,16 +9106,16 @@ export default {
                     "<18>{#p/papyrus}{#f/4}A PIECE OF CAKE..."
                  ])
          ],
-         [ "<18>{#p/papyrus}{#f/6}I'LL GET BACK TO YOU WITH THE ANSWER SOON!" ]
+         [ "<18>{#p/papyrus}{#f/6}等我想到答案了\n很快就來找你！" ]
       ),
       f_puzzle2: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/0}MORE OFTEN THAN NOT, A PUZZLE MAY BE UNSOLVABLE...",
-            "<18>{#f/5}IF YOU DON'T TAKE THE TIME TO READ THE SIGNS.",
-            "<18>{#f/6}YOU'D THINK INTUITION WOULD BE ENOUGH, BUT... NO!",
+            "<18>{#p/papyrus}{#f/0}通常情況下，\n如果你沒花時間\n好好讀標牌的話...",
+            "<18>{#f/5}你可能是解不開\n謎題的。",
+            "<18>{#f/6}你以為僅憑直覺就\n可以了，但是...\n完全不夠！",
             ...(solo()
-               ? [ "<18>{#f/5}... I'VE BEEN EMBARRASSED THIS WAY MANY TIMES..." ]
+               ? [ "<18>{#f/5}...我已經沒少\n因為這個尷尬了..." ]
                : [
                     "<25>{#p/undyne}{#f/14}* Yeah, having to read signs kinda stinks.",
                     "<25>{#p/undyne}{#f/8}* I just throw spears at the receiver and call it a day!",
@@ -9128,10 +9128,10 @@ export default {
          () =>
             solo()
                ? [
-                    "<18>{#p/papyrus}{#f/0}I'VE SAID IT BEFORE, AND I'LL SAY IT AGAIN.",
-                    "<18>{#p/papyrus}{#f/9}READ!\nTHOSE!!\nSIGNS!!!",
-                    "<18>{#p/papyrus}{#f/4}AND DO NOTE THE RISING EXCLAMATION POINT COUNT.",
-                    "<18>{#p/papyrus}{#f/7}IT MEANS IT'S VERY IMPORTANT!!!!"
+                    "<18>{#p/papyrus}{#f/0}我以前說過，\n我還要再說一遍。",
+                    "<18>{#p/papyrus}{#f/9}讀！\n標！！\n牌！！！",
+                    "<18>{#p/papyrus}{#f/4}注意我的感嘆號\n用得越來越多。",
+                    "<18>{#p/papyrus}{#f/7}意思就是說這\n非常重要！！！！"
                  ]
                : [
                     "<18>{#p/papyrus}{#f/4}WELL, YOU KNOW WHAT THEY SAY...",
@@ -9142,9 +9142,9 @@ export default {
       f_story1: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/0}SIGNAL STARS ARE PRETTY NEAT, HUH?",
-            "<18>{#f/5}THOUGH, THEY ONLY RESET PERIODICALLY.",
-            "<18>{#f/4}UNTIL THEN, ONLY A SINGLE MESSAGE IS SAVED...",
+            "<18>{#p/papyrus}{#f/0}訊星真的很厲害，\n對吧？",
+            "<18>{#f/5}不過，它們會\n週期性地重置。",
+            "<18>{#f/4}在重置之前，\n只能保留一條訊息...",
             ...(solo()
                ? []
                : [
@@ -9161,7 +9161,7 @@ export default {
                     "<25>{#f/12}* I guess I'll have to come up with something else, then."
                  ])
          ],
-         [ "<18>{#p/papyrus}{#f/4}THIS PHONE CALL -PROBABLY- WON'T BE RECORDED." ]
+         [ "<18>{#p/papyrus}{#f/4}這通電話\n【應該】不會被\n錄下來吧。" ]
       ),
       f_prechase: pager.create(
          0,
@@ -9170,9 +9170,9 @@ export default {
                ? []
                : SAVE.data.n.plot < 48
                ? [
-                    "<18>{#p/papyrus}THERE USED TO BE A BRIDGE HERE, BUT IT COLLAPSED.",
-                    "<18>{#f/5}HOPEFULLY THEY'LL BUILD A NEW ONE SOON...",
-                    "<18>{#f/6}RIDING ON A FLIMSY FLOATING PLATFORM IS FEAR-INDUCING!"
+                    "<18>{#p/papyrus}這裡以前有一座橋的，\n但是橋塌了。",
+                    "<18>{#f/5}希望他們很快能\n建一座新橋...",
+                    "<18>{#f/6}站在一個脆弱的\n浮動平臺上\n太嚇人了！"
                  ]
                : [
                     "<18>{#p/papyrus}I HEARD THE WORKERS HERE BUILT A BRIDGE.",
@@ -9192,17 +9192,17 @@ export default {
                          ])
                  ],
          [
-            "<18>{#p/papyrus}{#f/0}NOTHING QUITE LIKE THE SAFETY AND SECURITY...",
-            "<18>{#f/0}OF A SOLID, STABLE, SOUNDLY- DESIGNED BRIDGE.",
-            "<18>{#f/9}A TRUE TESTAMENT TO SUPERB ENGINEERING!!"
+            "<18>{#p/papyrus}{#f/0}沒有什麼比一座...",
+            "<18>{#f/0}既堅固，又穩定，\n設計又合理的橋\n更安全的了。",
+            "<18>{#f/9}這是對一流工程\n技術的真正證明！！"
          ]
       ),
       f_chase: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/0}THE FIRST TIME I SAW THIS ROOM, I WAS TRULY AMAZED.",
-            "<18>{#f/4}SO MUCH SO, THAT I COULDN'T FIND MY WAY OUT.",
-            "<18>{#f/6}... NOT TO MENTION THE TRAPS!",
+            "<18>{#p/papyrus}{#f/0}當我第一次看到\n這個房間時，\n我真的很驚訝。",
+            "<18>{#f/4}驚訝到，我找不到\n出去的路了。",
+            "<18>{#f/6}...就更別說這裡的\n陷阱了！",
             ...(solo()
                ? []
                : [
@@ -9220,7 +9220,7 @@ export default {
          ],
          () =>
             solo()
-               ? [ "<18>{#p/papyrus}{#f/5}I FIND IT BEST TO STEER CLEAR OF SCARY MAZE GAMES." ]
+               ? [ "<18>{#p/papyrus}{#f/5}我覺得還是避開\n恐怖的迷宮遊戲\n比較好。" ]
                : [
                     "<25>{#p/undyne}{#f/1}* There used to be a lot more, actually.\n* It's not what it was.",
                     "<18>{#p/papyrus}{#f/6}HOW MUCH MORE?",
@@ -9234,9 +9234,9 @@ export default {
       f_entrance: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/0}YOU'RE AT THE ENTRANCE TO WHAT'S KNOWN AS...",
-            "<18>{#f/9}THE \"DARK ZONE.\"",
-            "<18>{#f/4}YOU WOULDN'T BELIEVE HOW IT GOT ITS NAME...",
+            "<18>{#p/papyrus}{#f/0}你現在在一個叫做...",
+            "<18>{#f/9}「暗區」的地方。",
+            "<18>{#f/4}你肯定想不到\n它名字的來歷的...",
             ...(solo()
                ? []
                : [
@@ -9252,19 +9252,19 @@ export default {
          ],
          () =>
             solo()
-               ? [ "<18>{#p/papyrus}{#f/4}SPOILER ALERT...", "<18>{#p/papyrus}{#f/4}... IT'S VERY DARK INSIDE." ]
+               ? [ "<18>{#p/papyrus}{#f/4}劇透警告...", "<18>{#p/papyrus}{#f/4}...因為裡面非常暗。" ]
                : [ "<18>{#p/papyrus}{#f/0}AREN'T THINGS BETTER WHEN YOU UNDERSTAND THEM?" ]
       ),
       f_lobby: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/6}I TOTALLY... CAN'T REACH YOU... AT THE MOMENT!",
-            "<18>{#f/6}THE CALL... IT'S DEFINITELY... GLITCHING OUT!",
+            "<18>{#p/papyrus}{#f/6}我現在... 完全...\n聯繫不上你！",
+            "<18>{#f/6}手機... 絕對...\n出故障了！",
             ...(solo()
                ? [
                     "<18>{#f/6}...",
-                    "<18>{#f/4}OKAY, I ADMIT IT'S NOT REALLY DOING THAT.",
-                    "<18>{#f/0}... BUT THAT TABLE CERTAINLY IS!"
+                    "<18>{#f/4}好吧，我承認其實\n並沒有故障。",
+                    "<18>{#f/0}...但那臺桌子肯定\n故障了！"
                  ]
                : [
                     "<25>{#p/undyne}{#f/1}* So would you say the call's getting \"sliced\" or \"shredded?\"",
@@ -10015,8 +10015,8 @@ export default {
       f_story2: pager.create(
          0,
          () => [
-            "<18>{#p/papyrus}{#f/0}SIGNAL STARS ARE PRETTY NEAT, HUH?",
-            "<18>{#f/5}THOUGH, THEY ONLY RESET PERIODICALLY.",
+            "<18>{#p/papyrus}{#f/0}訊星真的很厲害，\n對吧？",
+            "<18>{#f/5}不過，它們會\n週期性地重置。",
             "<18>{#f/4}UNTIL THEN...",
             "<18>{#f/6}WAIT, ISN'T THERE A ROOM LIKE THIS SOMEWHERE ELSE!?",
             ...(solo()

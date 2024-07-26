@@ -391,7 +391,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#s/phone}{#p/event}* Ring, ring..."
-msgstr "<32>{#s/phone}{#p/event}* 滴滴，滴滴..."
+msgstr "<32>{#s/phone}{#p/event}* 铃铃，铃铃..."
 
 msgid "<26>{#p/undyne}{#f/7}* ARRIGHT PUNK, LISTEN UP!"
 msgstr ""
@@ -12314,18 +12314,20 @@ msgstr "<32>{#p/story}* Gelatini正在沉思。"
 
 msgid "<32>{#p/kidding}* I wonder what Gelatinis are actually made of."
 msgstr ""
+"<32>{#p/kidding}* 你知道，\n"
+"  Gelatini到底是用什么做的吗？"
 
 msgid "<32>{#p/story}* The aroma of lime gelatin wafts through."
-msgstr ""
+msgstr "<32>{#p/story}* 空气中飘来阵阵青柠果冻的清香。"
 
 msgid "<32>{#p/story}* And then, there was one."
 msgstr "<32>{#p/story}* 现在，只剩一个了。"
 
 msgid "<32>{#p/kidding}* Just us now!"
-msgstr ""
+msgstr "<32>{#p/kidding}* 只剩我们仨啦！"
 
 msgid "<32>{#p/story}* Gelatini now blorbs solo."
-msgstr ""
+msgstr "<32>{#p/story}* 这只Gelatini只能独自吐泡泡了。"
 
 msgid "<08>{#p/basic}{~}I can communi- cate else- where."
 msgstr ""

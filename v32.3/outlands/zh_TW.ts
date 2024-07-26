@@ -581,112 +581,112 @@ export default {
       asriel4: [ "<25>{#p/asriel2}{#f/4}* 我會等你準備好的。" ],
       asrielDiary: [
          [
-            "<32>{#p/human}* (You turn to the first page... you can barely make out the words.)",
-            "<32>{#p/asriel1}{#v/2}* \"i am starting a dairy Cuz mommy said it wood be fun.\"",
-            "<32>* \"today i lerned how to put seeds in daddys garden\"",
-            "<32>* \"he says they will grow up soon But it wil take a long tiem.\"",
-            "<32>* \"mommy is gona make a snail pie tonite And im exsited\"",
-            "<32>* \"other then that im having a good day.\""
+            "<32>{#p/human}* （你翻到第一頁...）\n* （上面的字歪歪扭扭，難以辨認。）",
+            "<32>{#p/asriel1}{#v/2}* 「今天 我要ㄎㄞ始 寫日計了\n   ㄧㄣ為 媽咪說 寫日計 狠好玩。」",
+            "<32>* 「今天 爹地叫我\n   怎麼 在花園 播ㄓㄨㄥˋ」",
+            "<32>* 「爹地說 花會長的高高的\n   但是要等 好久好久。」",
+            "<32>* 「媽咪 今天晚上要\n   給我做 ㄍㄨㄚ牛ㄆㄞˋ\n   我高ㄒㄧㄥˋ的 不的了」",
+            "<32>* 「今天過的 很ㄎㄞ心。」"
          ],
          [
-            "<32>{#p/human}* (You turn to the second page...)",
-            "<32>{#p/asriel1}{#v/2}* \"azzys dairy, k-504\"",
-            "<32>* \"mommy said i shood rite down the date So folks can no when i rote it.\"",
-            "<32>* \"my starling flower stil hasnt grown yet but daddy promises it wil be soon\"",
-            "<32>* \"i wish there was a window on my room but daddy said there is pluming here.\"",
-            "<32>* \"they said they wood put a window in the front room tho\"",
-            "<32>* \"i am having a nice day today as wel.\""
+            "<32>{#p/human}* （你翻到第二頁...）",
+            "<32>{#p/asriel1}{#v/2}* 「azzy的日計 克ㄌㄧˋ504年」",
+            "<32>* 「媽咪說 我ㄧㄥ該 把日期 寫在上面\n   不然 其他人 不知到\n   我 那天寫的 日計。」",
+            "<32>* 「我的星星花 還是沒有ㄎㄞ\n   但是 爹地說 馬上就會ㄎㄞ的」",
+            "<32>* 「我想 在我的ㄈㄤˊ間\n   安一ㄕㄢˋ 窗戶 可是 爹地說\n   有ㄍㄨㄢˇ子 就安不了。」",
+            "<32>* 「但是 可以在 客ㄊㄧㄥ\n   為我 安一ㄕㄢˋ 窗戶」",
+            "<32>* 「今天也 很ㄎㄞ心。」"
          ],
          [
-            "<32>{#p/human}* (You turn to the third page... seems a couple years went by.)",
-            "<32>{#p/asriel1}{#v/2}* \"Azzys Diary, K-506.03\"",
-            "<32>* \"My old diary was in a box of toys And i wanted to put more in it.\"",
-            "<32>* \"Looks like I only rote the first part of The date last time.\"",
-            "<32>* \"By the way the Starling flower I planted before grew up.\"",
-            "<32>* \"But I got in a fite with a frend The other day and we havent talked since that.\"",
-            "<32>* \"Im worryed about them... i hope theyre not still mad.\""
+            "<32>{#p/human}* （你翻到第三頁...）\n* （看起來，兩年過去了。）",
+            "<32>{#p/asriel1}{#v/2}* 「Azzy的日記，克曆506年3月」",
+            "<32>* 「我今天在番玩具的時候\n   找到了日記 打算多寫一點。」",
+            "<32>* 「好像上一次 我忘記在日記裡\n   寫上日期了。」",
+            "<32>* 「對了 我之前播ㄓㄨㄥˋ的 星星花\n   長出來一點了。」",
+            "<32>* 「但是今天 我和朋友打架了 從那之後\n   我們再沒有ㄐㄧㄤˇ過話。」",
+            "<32>* 「我很ㄉㄢ心...\n   希望朋友不要生氣。」"
          ],
          [
-            "<32>{#p/human}* (You turn to the fourth page...)",
-            "<32>{#p/asriel1}{#v/2}* \"Azzys Diary, K-506.03\"",
-            "<32>* \"i talked with my frend, they say theyre not upset anymore, so thats good\"",
-            "<32>* \"Mommy and I were watching the sky out side And we saw a shooting star.\"",
-            "<32>* \"She said to make a wish... I wished that one day a human wood come down.\"",
-            "<32>* \"Mommy and Daddy tell so many storys about them...\"",
-            "<32>* \"They cant all be bad rite?\""
+            "<32>{#p/human}* （你翻到第四頁...）",
+            "<32>{#p/asriel1}{#v/2}* 「Azzy的日記，克曆506年3月」",
+            "<32>* 「我和朋友 聊了一下，\n   朋友不生我的氣了\n   太好了。」",
+            "<32>* 「今天 媽咪和我 到外面看星空\n   我們看到了流星。」",
+            "<32>* 「媽咪讓我許個原...\n   我希望 有一天\n   我能在這裡見到人ㄌㄟˋ。」",
+            "<32>* 「爹地和媽咪給我ㄐㄧㄤˇ了\n   很多他們的故事...」",
+            "<32>* 「他們 不都是壞人 對吧？」"
          ],
          [
-            "<32>{#p/human}* (You turn to the fifth page...)",
-            "<32>{#p/asriel1}{#v/2}* \"Azzys Diary, K-506.03\"",
-            "<32>* \"Not alot to say today.\"",
-            "<32>* \"Maybe this diary idea is silly.\"",
-            "<32>* \"Mom saw me riting in it the other day and said she was proud of me.\"",
-            "<32>* \"Is it realy that importint?\""
+            "<32>{#p/human}* （你翻到了第五頁...）",
+            "<32>{#p/asriel1}{#v/2}* 「Azzy的日記，克曆506年3月」",
+            "<32>* 「今天沒什麼想寫的。」",
+            "<32>* 「感覺寫日記 這個點子\n   有點 ㄔㄨㄣˇ ㄔㄨㄣˇ 的。」",
+            "<32>* 「媽咪前兩天 看到我寫日記\n   她說 她很高興。」",
+            "<32>* 「寫日記 真的重要嗎？」"
          ],
          [
-            "<32>{#p/human}* (You turn to the sixth page... seems like a few more years went by.)",
-            "<32>{#p/asriel1}{#v/1}* \"Azzy's Diary, K-510.08\"",
-            "<32>* \"Seems I cant write in this thing for too long at once.\"",
-            "<32>* \"But today I saw the book again and chose to write some more in it.\"",
-            "<32>* \"The past few years have been good, I went to school and learned lots of things.\"",
-            "<32>* \"Like how to add numbers.\"\n* \"And how to use a computer.\"",
-            "<32>* \"Mom said Im too young to make an online acount tho.\"",
-            "<32>* \"Maybe one day when Im older I can have one.\""
+            "<32>{#p/human}* （你翻到了第六頁...）\n* （看起來，又過去了好幾年。）",
+            "<32>{#p/asriel1}{#v/1}* 「Azzy的日記，克歷510年8月」",
+            "<32>* 「感覺自己寫日記，\n   總是寫不了多久就放棄了。」",
+            "<32>* 「今天偶然間又翻出了日記本，\n   打算再多寫一點。」",
+            "<32>* 「過去幾年，過的都挺不錯的。\n   我上了學，學到了很多知識。」",
+            "<32>* 「我學會了加減乘除，\n   學會了打字上網。」",
+            "<32>* 「不過，媽媽說我現在還太小。\n   不能住冊自己的賬戶。」",
+            "<32>* 「等我再大一點，\n   應該就能有自己的賬戶了。」"
          ],
          [
-            "<32>{#p/human}* (You turn to the seventh page...)",
-            "<32>{#p/asriel1}{#v/1}* \"Azzy's Diary, K-510.08.\"",
-            "<32>* \"That smart guy visited again today. He said he had a bad dream about a human.\"",
-            "<32>* \"Oh, did I mention him? He is the science person dad talks to alot.\"",
-            "<32>* \"He invented alot of things that we use now.\"",
-            "<32>* \"Like the replicaters and fabricaters and gravity plate things.\"",
-            "<32>* \"But he looked at me really odd Like I was so scary.\"",
-            "<32>* \"Did I do somthing wrong?\""
+            "<32>{#p/human}* （你翻到了第七頁...）",
+            "<32>{#p/asriel1}{#v/1}* 「Azzy的日記，克歷510年8月」",
+            "<32>* 「那個天才今天又來我家串門了，\n   他說，自己剛做了個惡夢，\n   一個關於人類的惡夢。」",
+            "<32>* 「喔，忘了介紹他了。\n   他是一名皇家科學員，\n   經常和爸爸聊天。」",
+            "<32>* 「物質複製儀、鈉米構造機、\n   重力模擬器... \n   這些裝置，我們每天都要用到。」",
+            "<32>* 「而它們，都出自這位天才之手。」",
+            "<32>* 「但是今天，\n   他卻用一種很異樣的眼神看著我，\n   彷彿見了鬼一樣。」",
+            "<32>* 「我做了什麼錯事嗎？」"
          ],
          [
-            "<32>{#p/human}* (You turn to the eighth page...)",
-            "<32>{#p/asriel1}{#v/1}* \"Azzy's Diary, K-510.08.\"",
-            "<32>* \"A new star appeared in the sky today.\"",
-            "<32>* \"A really brite one.\"",
-            "<32>* \"I wonder why more stars dont appear like that all the time.\"",
-            "<32>* \"Also we are gonna move to the new citadel soon.\"",
-            "<32>* \"I saw it in the distance, it looks amazing so far!\"",
-            "<32>* \"It will be alot better than living in the factory too.\""
+            "<32>{#p/human}* （你翻到了第八頁...）",
+            "<32>{#p/asriel1}{#v/1}* 「Azzy的日記，克歷510年8月」",
+            "<32>* 「今天，天空中突然出現\n   一顆很耀眼的星星。」",
+            "<32>* 「超級耀眼。」",
+            "<32>* 「我很奇怪，為什麼大部分星星\n   平時都沒有那麼亮呢？」",
+            "<32>* 「對了，我們馬上就要搬到\n   首塔的新家了。」",
+            "<32>* 「我在這裡就能遠遠看到首塔，\n   那裡真漂亮啊！」",
+            "<32>* 「住在那裡，\n   肯定比住廠房舒服多了。」"
          ],
          [
-            "<32>{#p/human}* (You turn to the ninth page... seems a day was skipped.)",
-            "<32>{#p/asriel1}{#v/1}* \"Azzy's Diary, K-510.09.\"",
-            "<32>* \"I met a real human yesterday. They crashed in the trash area near our house.\"",
-            "<32>* \"I helped them out of the reck and they said thanks.\"",
-            "<32>* \"I didnt think it would ever happen, but here they are.\"",
-            "<32>* \"And they are actually he{#p/basic}f{#p/asriel1}{#v/1}h{#p/basic}sj haha azzy is a stinky butt and he{#p/asriel1}{#v/1}vh{#p/basic}v{#p/asriel1}{#v/1}j{#p/basic}a{#p/asriel1}{#v/1}s\"",
-            "<32>* \"Okay so Im actually hiding under the covers so $(name) cant mess up what Im writing.\"",
-            "<32>* \"They can be a bit mean some times, but thats ok.\"",
-            "<32>* \"Mom did that battle thing with them and there heart was red and upside down.\"",
-            "<32>* \"Its really nice to have someone else to talk to everyday.\""
+            "<32>{#p/human}* （你翻到了第九頁...\n   看起來，又過去了兩天。）",
+            "<32>{#p/asriel1}{#v/1}* 「Azzy的日記，克歷510年9月」",
+            "<32>* 「昨天，我見到了真正的人類。\n   那人類的飛船一頭撞到了\n   我家附近的垃圾站。」",
+            "<32>* 「我將其從廢墟中拉了出來，\n   那人類對我道了謝。」",
+            "<32>* 「我都沒想到有一天\n   居然真的見到了人類。」",
+            "<32>* 「而且，人類{#p/basic}隞亥{#p/asriel1}{#v/1}儘{#p/basic}隤哈哈哈azzy\n   你真是個大混球閗睃{#p/asriel1}{#v/1}憛{#p/basic}烾{#p/asriel1}{#v/1}鈭蝣{#p/basic}摮{#p/asriel1}{#v/1}㛖」",
+            "<32>* 「好，現在我躲到被窩裡\n   $(name)應該沒法再亂寫亂畫了。」",
+            "<32>* 「有時，$(name)會稍微有點淘氣，\n   不過我不介意。」",
+            "<32>* 「媽媽讓$(name)進入戰鬥，\n   發現$(name)的心心是紅色的，\n   方向也是反的。」",
+            "<32>* 「多個能每天陪我聊天的夥伴\n   真是太棒了。」"
          ],
          [
-            "<32>{#p/human}* (You turn to the tenth page...)",
-            "<32>{#p/asriel1}{#v/1}* \"Azzy's Diary, K-510.09.\"",
-            "<32>* \"Mom said shes gonna adopt $(name) into the family.\"",
-            "<32>* \"I dont know what adopt means but she said I will be like their brother.\"",
-            "<32>* \"But thats good Cuz then I can spend more time with them.\"",
-            "<32>* \"Me and $(name) are gonna do everything together!\"",
-            "<32>* \"Also they said sorry for what happend in the last diary page.\"",
-            "<32>* \"I didnt tell them yet but, I forgive them.\"",
+            "<32>{#p/human}* （你翻到了第十頁...）",
+            "<32>{#p/asriel1}{#v/1}* 「Azzy的日記，克歷510年9月」",
+            "<32>* 「媽媽說，她決定收養$(name)，\n   把$(name)當成自己的孩子。」",
+            "<32>* 「我還不太懂『收養』是什麼意思，\n   但媽媽說，$(name)現在就是\n   我的兄弟了。」",
+            "<32>* 「太好了，我可以和$(name)\n   待得更久啦。」",
+            "<32>* 「無論做什麼，去哪裡，\n   我倆都要在一起！」",
+            "<32>* 「喔對了，昨天亂寫亂畫的事，\n   $(name)跟我道了歉。」",
+            "<32>* 「我嘴上沒說，\n   但心裡已經原諒了。」",
             "<32>{#p/basic}* ..."
          ],
          [
-            "<32>{#p/human}* (You turn to the eleventh page.)",
-            "<32>{#p/asriel1}* \"Asriel's Diary, K-515.09\"",
-            "<32>* \"$(name) said it's time for the plan.\"",
-            "<32>* \"I was scared, but they said I could do it.\"",
-            "<32>* \"After this entry, I'll wait for them to fall down...\"",
-            "<32>* \"And then we can save everyone together.\"",
-            "<32>* \"If something goes wrong, and you're reading this later...\"",
-            "<32>* \"I want you to know that you're the best, $(name).\"",
+            "<32>{#p/human}* （你翻到了第十一頁。）",
+            "<32>{#p/asriel1}* 「Asriel的日記，克歷515年9月」",
+            "<32>* 「$(name)說，是時候執行計劃了。」",
+            "<32>* 「我很害怕，\n   但$(name)相信我能行的。」",
+            "<32>* 「寫完這段，\n   我就只需要等$(name)『隕落』...」",
+            "<32>* 「然後，我們一起拯救所有怪物。」",
+            "<32>* 「但是，$(name)。\n   如果真出了事，計劃失敗了...\n   如果你看到了這篇日記...」",
+            "<32>* 「我想對你說，你是最棒的。」",
             "<32>{#p/basic}* ...",
-            "<32>{#p/human}* (It sounds like someone is crying...)"
+            "<32>{#p/human}* （你聽到有人在哭...）"
          ]
       ],
       backdesk: {
@@ -1172,9 +1172,9 @@ export default {
          "<32>{#p/basic}{#n1}* 喜歡我們的產品嗎，親？ ;)"
       ],
       endtwinkly2: [
-         "<32>{#p/basic}* Who does he think he is?",
-         "<32>* You've been nothing but kind to everyone we've met.",
-         "<32>* That talking star really needs to get a life..."
+         "<32>{#p/basic}* 那星星是不是覺得\n  自己可了不起了？",
+         "<32>* 你明明對每個怪物都那麼友好，\n  一點錯事都沒做。",
+         "<32>* 他真能多管閒事..."
       ],
       endtwinklyA1: [
          "<25>{#p/twinkly}{#f/12}* 你個蠢貨...",
@@ -1785,7 +1785,7 @@ export default {
          "<25>{#f/9}* 我早就該明白我沒辦法\n  一直把你留在這裡。",
          "<25>{#f/5}* ...不過，如果你想\n  找人聊天的話...",
          "<25>{#f/1}* 歡迎你隨時打電話給我。",
-         "<25>{#f/0}* As long as my phone can reach you, I will be there to pick up."
+         "<25>{#f/0}* 只要電話訊號能覆蓋到，\n  我肯定會接的。"
       ],
       goodbye3: [
          "<25>{#p/toriel}{#f/5}* 我很抱歉讓你\n  經歷了這麼多，\n  小傢伙。",
@@ -1797,20 +1797,20 @@ export default {
       goodbye5a: [
          "<25>{#p/toriel}{#f/5}* ...嗯？\n* 你改變主意了嗎？",
          "<25>{#f/9}* ...",
-         "<25>{#f/10}* Perhaps you really are different from the others.",
-         "<25>{#f/0}* ... well then.",
-         "<25>{#f/0}* 我把這裡的事處理完，\n  然後回房間見你喔。",
-         "<25>{#f/0}* 謝謝你聽我的話，\n  我的孩子。",
-         "<25>{#f/0}* It means a lot to me."
+         "<25>{#f/10}* 看來你這孩子真挺奇怪的。",
+         "<25>{#f/0}* ...罷了。",
+         "<25>{#f/0}* 我把這裡的事處理完，\n  然後回房間見你。",
+         "<25>{#f/0}* 謝謝你願意聽話，孩子。",
+         "<25>{#f/0}* 這下好辦多了。"
       ],
       goodbye5b: [
          "<25>{#p/toriel}{#f/5}* ...嗯？\n* 你改變主意了嗎？",
-         "<25>{#f/10}* ...\n* 請原諒我，我的孩子。",
+         "<25>{#f/10}* ...\n* 對不起，孩子。",
          "<25>{#f/9}* 我可能一時情緒失控了。",
-         "<25>{#f/0}* ...沒關係了。",
-         "<25>{#f/0}* 我把這裡的事處理完，\n  然後回房間見你喔。",
-         "<25>{#f/0}* 謝謝你聽我的話，\n  我的孩子。",
-         "<25>{#f/0}* It means a lot to me."
+         "<25>{#f/0}* ...別擔心我。",
+         "<25>{#f/0}* 我把這裡的事處理完，\n  然後回房間見你。",
+         "<25>{#f/0}* 謝謝你願意聽話，孩子。",
+         "<25>{#f/0}* 這下好辦多了。"
       ],
       halo: {
          a: [ "<32>{#p/human}* （你撿起了光環。）", choicer.create("* （戴上光環嗎？）", "是", "否") ],
@@ -1889,7 +1889,7 @@ export default {
       ],
       indie5: [
          [
-            "<32>{#s/phone}{#p/event}* 鈴鈴...",
+            "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
             "<25>{#p/toriel}* 嗨！\n* 我是Toriel。",
             "<25>* My errands are taking longer than I thought they would.",
             "<25>* You must wait a little longer.",
@@ -1897,7 +1897,7 @@ export default {
             "<25>{#f/0}* You are very good."
          ],
          [
-            "<32>{#s/phone}{#p/event}* 鈴鈴...",
+            "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
             "<25>{#p/toriel}* 嗨...\n* 我是Toriel。",
             "<25>{#f/1}* I found what I was looking for...",
             "<25>{#f/0}* But a small, white puppy snatched it away!\n* How odd.",
@@ -1907,7 +1907,7 @@ export default {
             "<25>{#f/1}* Thank you again for being so patient..."
          ],
          [
-            "<32>{#s/phone}{#p/event}* 鈴鈴...",
+            "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
             "<32>{#p/basic}* (...)",
             "<32>{#p/human}* (You hear heavy panting on the other end of the phone.)",
             "<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!",
@@ -1917,7 +1917,7 @@ export default {
             "<25>{#p/toriel}{#f/1}* Come back here with my cell phone!"
          ],
          [
-            "<32>{#s/phone}{#p/event}* 鈴鈴...",
+            "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
             "<32>{#p/basic}* (...)",
             "<32>{#p/human}* (It sounds like a small, white dog is sleeping on the phone.)",
             "<32>{#p/basic}* (Snore... snore...)",
@@ -1930,7 +1930,7 @@ export default {
             "<32>{#p/human}* (The snoring resumes.)"
          ],
          [
-            "<32>{#s/phone}{#p/event}* 鈴鈴...",
+            "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
             "<32>{#p/basic}* (...)",
             "<32>{#p/basic}* (Achoo!)",
             "<32>{#p/human}* (It sounds like a small, white dog sneezing in its sleep.)",
@@ -1941,7 +1941,7 @@ export default {
             "<25>{#p/toriel}{#f/8}* Hee hee, there is no escape!"
          ],
          [
-            "<32>{#s/phone}{#p/event}* 鈴鈴...",
+            "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
             "<32>{#p/human}* (You hear a distant voice.)",
             "<25>{#p/toriel}{#f/1}* 嗨...\n* 我是... Toriel...",
             "<32>{#s/bark}{#p/event}* 汪！\n* 汪！",
@@ -1958,7 +1958,7 @@ export default {
          ]
       ],
       indie6: (early: boolean) => [
-         "<32>{#s/phone}{#p/event}* 鈴鈴...",
+         "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
          ...([ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
             ? [
                  early
@@ -2182,7 +2182,7 @@ export default {
             : [ "<32>{#p/human}* （你撿起了奶油糖肉桂派。）" ],
       plot_call: {
          a: () => [
-            "<32>{#p/event}* 滴滴，滴滴...",
+            "<32>{#p/event}* 鈴鈴，鈴鈴...",
             3 <= SAVE.data.n.cell_insult
                ? "<25>{#p/toriel}* 孩子，你好。"
                : "<25>{#p/toriel}* 喂？\n* 我是Toriel。",
@@ -2194,7 +2194,7 @@ export default {
                : "<25>{#p/toriel}* 喔，我知道了！\n* 十分感謝！"
          ],
          b: () => [
-            "<32>{#p/event}* 滴滴，滴滴...",
+            "<32>{#p/event}* 鈴鈴，鈴鈴...",
             3 <= SAVE.data.n.cell_insult
                ? "<25>{#p/toriel}* 孩子，你好。"
                : "<25>{#p/toriel}* 喂？\n* 我是Toriel。",
@@ -2221,13 +2221,13 @@ export default {
                : "<25>{#f/0}* 我會回頭再打給你的，\n  孩子。"
          ],
          c: [
-            "<32>{#p/event}* 滴滴，滴滴...",
+            "<32>{#p/event}* 鈴鈴，鈴鈴...",
             "<25>{#p/toriel}{#f/1}* 你沒什麼過敏的東西吧？",
             "<25>{#f/5}* ...",
             "<25>{#f/0}* 呃... 沒事。\n* 剛問的別放在心上！"
          ],
          d: [
-            "<32>{#p/event}* 滴滴，滴滴...",
+            "<32>{#p/event}* 鈴鈴，鈴鈴...",
             "<25>{#p/toriel}{#f/1}* 嗨，小傢伙。",
             "<25>{#f/0}* 我想起來\n  好久沒收拾這地方了。",
             "<25>{#f/1}* 所以，這裡可能\n  四處散落著各種東西。",
@@ -2689,7 +2689,7 @@ export default {
                "<25>{#f/15}* Nothing was ever found... not even their SOUL.",
                "<25>{#f/15}* So... I can't help but wonder if they're... still out there.",
                "<32>{#p/basic}* ...",
-               "<32>{#p/human}* (It sounds like someone is crying...)"
+               "<32>{#p/human}* （你聽到有人在哭...）"
             ],
             [
                "<25>{#p/asriel1}{#f/17}* Frisk, thank you for listening to me.",
@@ -3208,7 +3208,7 @@ export default {
                        "<32>* 「蝸牛的 {^5}說 {^5}話 {^5}速 {^5}度 {^5}很 {^5}慢。」",
                        "<32>* 「開玩笑的，它們才不會說話。」",
                        "<32>* 「你能想象，在某個世界，\n   那裡的蝸牛會說話嗎？」\n* 「反正我是想象不出來。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ],
             () =>
                SAVE.data.b.svr
@@ -3228,7 +3228,7 @@ export default {
                        "<32>* 「最後，將麵糰切成細條，\n   編織成優雅的格子形狀，\n   覆蓋在派面上。」",
                        "<32>* 「現在，將派放到烤箱中，\n   烤至金黃酥脆。」",
                        "<32>* 「出爐後，派面金黃誘人。\n   令其稍作冷卻，即可切片、上桌！」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ],
             () =>
                SAVE.data.b.svr
@@ -3243,7 +3243,7 @@ export default {
                        "<32>* 「在於能否直接接觸到宇宙射線。」",
                        "<32>* 「所以它們多生長於空境。」",
                        "<32>* 「畢竟在整個空間站中，\n   當屬那裡最為開闊。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ]
          ),
          
@@ -3353,7 +3353,7 @@ export default {
                        "<32>* 「強大到可以對人類\n   造成實質威脅的地步嗎？」",
                        "<32>* 「不管真相如何，\n   此時我們已經走投無路，陷入絕境。」",
                        "<32>* 「唯有投降，才有一絲生的希望。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ],
             () =>
                SAVE.data.b.svr
@@ -3369,7 +3369,7 @@ export default {
                        "<32>* 「靠著這條紐帶，王級怪物\n   獲得自己的靈魂，他的父母則會\n   隨著孩子成長而逐漸衰老。」",
                        "<32>* 「成年王級怪物的靈魂，\n   具有怪物界最強大的力量。」",
                        "<32>* 「強大到足以在肉體死後\n   仍能短暫存續。」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ],
             () =>
                SAVE.data.b.svr
@@ -3385,7 +3385,7 @@ export default {
                        "<33>* 「但卻很少想過，倘若同胞自相殘殺，\n   又該如何應對。",
                        "<32>* 「即使聯合起來，能否徹底平息叛亂，\n   仍是個未知數。」",
                        "<32>* 「不過此等擔憂，\n   或許只是杞人憂天？」",
-                       "<32>{#p/human}* （你把書放回原處。）"
+                       "<32>{#p/human}* （你把書放回了原處。）"
                     ]
          ),
          w_tt_cactus: () =>
@@ -3774,33 +3774,33 @@ export default {
       ],
       twinkly22: [ "<25>{#f/0}* 跟我來。" ],
       w_coffin0: () => [
-         "<32>{#p/human}* (You feel it would be best to leave this be.)",
+         "<32>{#p/human}* （你覺得還是不要再看了。）",
          ...(SAVE.data.b.svr ? [ "<25>{#p/asriel1}{#f/13}* ..." ] : [])
       ],
       w_coffin1: () => [
-         "<32>{#p/basic}* This coffin is very old.\n* There is nothing remarkable about it.",
+         "<32>{#p/basic}* 一口很舊的棺材，沒什麼特別的。",
          ...(world.goatbro && SAVE.flag.n.ga_asrielCoffin++ < 1
             ? [
-                 "<25>{#p/asriel2}{#f/13}* Oh, look at that.\n* They made one just for you, $(name).",
-                 "<25>{#p/asriel2}{#f/5}* How touching."
+                 "<25>{#p/asriel2}{#f/13}* 喔，快看。\n* 他們還專門給你\n  做了口棺材呢，$(name)。",
+                 "<25>{#p/asriel2}{#f/5}* 真感動。"
               ]
             : [])
       ],
       w_coffin2: pager.create(
          0,
          [
-            "<32>{#p/basic}* This coffin dates back to December 251X.",
-            "<32>* There is an old record-keeping manifest stashed next to it...",
-            choicer.create("* (Access the manifest?)", "是", "否")
+            "<32>{#p/basic}* 這是一口早在251X年12月\n  就做好的棺材。",
+            "<32>* 在它旁邊，藏著一本\n  像是日記的小冊子...",
+            choicer.create("* （翻閱一下嗎？）", "是", "否")
          ],
          [
-            "<32>{#p/human}* (You once again pick up the manifest.)",
-            choicer.create("* (Access the manifest?)", "是", "否")
+            "<32>{#p/human}* （你又撿起了那本小冊子。）",
+            choicer.create("* （翻閱一下嗎？）", "是", "否")
          ]
       ),
-      w_coffin3: [ choicer.create("* (Read the next page?)", "是", "否") ],
-      w_coffin4: [ "<32>{#p/human}* (But there were no further pages to be read.)" ],
-      w_coffin5: [ "<32>{#p/human}* (You put the manifest back where it belongs.)" ],
+      w_coffin3: [ choicer.create("* （看下一頁？）", "是", "否") ],
+      w_coffin4: [ "<32>{#p/human}* （然而，這頁之後什麼都沒有了。）" ],
+      w_coffin5: [ "<32>{#p/human}* （你把冊子放回了原處。）" ],
       w_dummy1: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (You place your hands on the dummy.)\n* (It seems very worn out.)" ]
@@ -3818,7 +3818,7 @@ export default {
       froggitWhimsun2b: [ "<32>{#p/story}* 星際飛蟲...？" ],
       looxMigospWhimsun: [ "<32>{#p/story}* 挑事三人組來了！" ],
       looxMigospWhimsun2: [ "<32>{#p/story}* 三人組變成兩人組了。" ],
-      looxMigospWhimsun3: [ "<32>{#p/story}* 現在，變成單人組（？）了。" ],
+      looxMigospWhimsun3: [ "<32>{#p/story}* 現在，只剩一個了。" ],
       moldsmalMigosp: [ "<32>{#p/story}* Silente和他的同夥一同現身了！" ]
    },
 
@@ -4099,58 +4099,58 @@ export default {
       criminal2: [ "<20>{#p/asriel2}{#f/3}歡迎回來，$(name)。", "<20>{#f/4}準備好繼續了嗎？" ],
       criminal3: [ "<20>{#p/asriel2}{#f/3}那麼...", "<20>{#f/4}...", "<20>{#f/4}我們繼續吧。" ],
       cutscene1: [
-         "<32>{#p/basic}* Maybe because I'm the only one you'll listen to.",
-         "<25>{#p/toriel}{#f/16}* ...!?",
-         "<32>{#p/basic}* But what do I know, huh?\n* I'm just a sweet, innocent little child."
+         "<32>{#p/basic}* 也許是因為...\n  只有我說的話，你才聽得進去吧。",
+         "<25>{#p/toriel}{#f/16}* ...！？",
+         "<32>{#p/basic}* 但我一個天真懵懂的小孩，\n  能講出什麼大道理呢？"
       ],
       cutscene2: [
          "<25>{#p/toriel}{#f/3}* ...",
-         "<25>{#p/toriel}{#f/4}* This is impossible...",
-         "<25>{#f/0}* I must be dreaming.\n* Or hallucinating.\n* Or maybe...",
-         "<32>{#p/basic}* No.",
-         "<32>{#p/basic}* This is real.",
-         "<25>{#p/toriel}{#f/5}* But you died, $(name).",
-         "<25>{#f/5}* You cannot possibly be speaking to me.",
-         "<32>{#p/basic}* Pretend it's a dream, then.",
-         "<32>{#p/basic}* If that works for you.",
+         "<25>{#p/toriel}{#f/4}* 不可能...",
+         "<25>{#f/0}* 我是不是沒睡醒，\n  還是出現幻覺了？\n* 或者...",
+         "<32>{#p/basic}* 不。",
+         "<32>{#p/basic}* 這裡，就是現實。",
+         "<25>{#p/toriel}{#f/5}* 但你不是早就死了嗎，\n  $(name)？",
+         "<25>{#f/5}* 你絕對不可能\n  像這樣開口說話。",
+         "<32>{#p/basic}* 你要是還接受不了...",
+         "<32>{#p/basic}* 就把這當成一場夢吧。",
          "<25>{#p/toriel}{#f/5}* ...",
-         "<25>{#p/toriel}{#f/9}* What do you want?",
+         "<25>{#p/toriel}{#f/9}* 你想說什麼？",
          "<32>{#p/basic}* Toriel...",
-         "<32>{#p/basic}* You know how I feel about humanity, don't you?",
-         "<25>{#p/toriel}{#f/13}* Right.",
-         "<32>{#p/basic}* Wrong.",
-         "<32>{#p/basic}* ... not about this human.",
-         "<32>* Ever since they got here, I've been following them...",
-         "<32>* And now they're asking me to reach out to you.",
-         "<32>* What do you think that means?",
+         "<32>{#p/basic}* 你應該知道\n  我對人類是什麼態度吧？",
+         "<25>{#p/toriel}{#f/13}* 知道。",
+         "<32>{#p/basic}* 你不知道。",
+         "<32>{#p/basic}* ...我對這個人類\n  可不是那態度。",
+         "<32>* 自從這個孩子墜落於此，\n  我就一直跟著...",
+         "<32>* 剛剛，這孩子求我幫忙，\n  讓我說服你。",
+         "<32>* 你明白，這意味著什麼嗎？",
          "<25>{#p/toriel}{#f/13}* ...",
-         "<32>{#p/basic}* It means you have to let them go.",
-         "<25>{#p/toriel}{#f/12}* ... do you not understand what is at stake?",
-         "<25>{#f/11}* If I let them go, they will surely die.",
-         "<32>{#p/basic}* ... come on.",
-         "<32>{#p/basic}* That's not really why you're doing this, is it?",
-         "<25>{#p/toriel}{#f/12}* With that attitude, perhaps you really are $(name).",
-         "<25>{#p/toriel}{#f/11}* You always did question my authority.",
-         "<32>{#p/basic}* I think I have every right to.",
-         "<32>{#p/basic}* You wish to keep them here because you are afraid of what lies beyond the Outlands.",
-         "<33>{#p/basic}* But things aren't the same as they were a hundred years ago.",
-         "<33>{#p/basic}* You're only ignorant about it because you're too afraid to go see for yourself.",
+         "<32>{#p/basic}* 這意味著\n  你應該馬上放這孩子走。",
+         "<25>{#p/toriel}{#f/12}* ...你不知道外面有多危險嗎？",
+         "<25>{#f/11}* 我要是心軟，\n  那孩子肯定會死在外頭。",
+         "<32>{#p/basic}* ...好好想想。",
+         "<32>{#p/basic}* 你根本不是因為這個\n  才不讓他走，對吧？",
+         "<25>{#p/toriel}{#f/12}* 這股叛逆的勁\n  倒真像$(name)。",
+         "<25>{#p/toriel}{#f/11}* 你老是愛挑戰我的權威。",
+         "<32>{#p/basic}* 因為我夠格。",
+         "<32>{#p/basic}* 你是自己害怕外域之外的未知，\n  所以才想把那孩子留在這，對吧？",
+         "<33>{#p/basic}* 但是，過了一百年，\n  外面的世界早就不一樣了。",
+         "<33>{#p/basic}* 你不敢走出去看看，畫地為牢。\n  才對這些視而不見。",
          "<25>{#p/toriel}{#f/13}* ...",
-         "<25>{#p/toriel}{#f/13}* ... but if I let them go, I won't be able to...",
-         "<32>{#p/basic}* Be there for them?",
-         "<32>{#p/basic}* Hey, I know the feeling.",
-         "<32>{#p/basic}* But keeping them here would be dooming them to death anyway.",
-         "<32>{#p/basic}* What's a life if it doesn't get to do anything worth living for?",
+         "<25>{#p/toriel}{#f/13}* ...但我要是放這孩子走，我就沒法...",
+         "<32>{#p/basic}* 陪伴他，保護他了？",
+         "<32>{#p/basic}* 呵，我明白那是什麼滋味。",
+         "<32>{#p/basic}* 但是，把那孩子\n  強行束縛在這一畝三分地，\n  他也會活不下去。",
+         "<32>{#p/basic}* 不做點有意義的事，\n  那活著還有什麼意義？",
          "<25>{#p/toriel}{#f/13}* ...",
-         "<25>{#p/toriel}{#f/13}* $(name), I...",
-         "<32>{#p/basic}* You gave them a spare cell phone, remember?",
-         "<32>{#p/basic}* Keep the line open, and maybe they'll give you a call.",
-         "<25>{#p/toriel}{#f/9}* ... and what about you?",
-         "<32>{#p/basic}* Look.\n* I'll be alright.",
-         "<32>{#p/basic}* All I ask is that you don't forget about THEM after they're gone.",
+         "<25>{#p/toriel}{#f/13}* $(name)，我...",
+         "<32>{#p/basic}* 你之前不是給過這孩子\n  一部手機嗎？",
+         "<32>{#p/basic}* 別切斷聯絡，保持電話暢通。\n  那孩子會給你打電話的。",
+         "<25>{#p/toriel}{#f/9}* ...那你呢？",
+         "<32>{#p/basic}* 別擔心我。\n* 我沒事的。",
+         "<32>{#p/basic}* 我只希望，\n  那孩子走後，\n  一定，一定不要忘了他。",
          "<25>{#p/toriel}{#f/13}* ...",
-         "<32>{#p/basic}* Goodbye, Toriel.",
-         "<25>{#p/toriel}{#f/14}* ... goodbye, $(name)."
+         "<32>{#p/basic}* 再見，Toriel。",
+         "<25>{#p/toriel}{#f/14}* ...再見，$(name)。"
       ],
       death1: [
          "<11>{#p/toriel}{#f/21}{#v/1}{#i/6}{#x1}{@random=1.1/1.1}呃啊...",
@@ -4234,7 +4234,7 @@ export default {
          "<32>{#p/human}* （你再次求Toriel停下。）",
          "<32>{#p/basic}* ...也許這麼做對她來說風險太大了。"
       ],
-      talk5: [ "<32>{#p/human}* （你衝Toriel大喊。）\n* （她閉上眼睛，做了個深呼吸。）" ],
+      talk5: [ "<32>{#p/human}* （你衝Toriel大喊。）\n* （她閉上眼睛，深吸一口氣。）" ],
       talk6: [
          "<32>{#p/human}* （你再次衝Toriel大喊。）",
          "<32>{#p/basic}* ...或許交談並不能有什麼進展。"
@@ -4248,7 +4248,7 @@ export default {
       hello: "打招呼",
       about: "來個自我介紹",
       mom: "叫她「媽咪」",
-      flirt: "放電",
+      flirt: "調情",
       toriel: "Toriel的手機",
       puzzle: "解謎提示",
       insult: "辱罵"

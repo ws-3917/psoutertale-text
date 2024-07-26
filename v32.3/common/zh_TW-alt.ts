@@ -282,7 +282,7 @@ export default {
                   m = music.youscreweduppal;
                   
                   addB([
-                     "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                     "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                      "<26>{#p/undyne}{#f/7}* ARRIGHT PUNK, LISTEN UP!",
                      "<25>{#p/undyne}{#f/4}* You made a BIG mistake sparing my life after what you've done.",
                      "<25>{#p/undyne}{#f/5}* Thanks to you, I've got the power to do what I ALWAYS wanted, and...",
@@ -370,7 +370,7 @@ export default {
 
                   
                   addA([
-                     "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                     "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                      "<25>{#p/alphys}{#f/33}* ... shh, shh, I think this is them.",
                      "<25>{#p/alphys}{#f/1}* Hiya!\n* I'm Dr. Alphys.",
                      "<25>{#p/alphys}{#f/17}* Head of the royal pain- in-the-butt society.",
@@ -495,7 +495,7 @@ export default {
 
                   
                   addA([
-                     "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                     "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                      "<25>{#p/sans}{#f/0}* heya.",
                      "<25>{#p/sans}{#f/3}* it's been a while, huh?"
                   ]);
@@ -1108,7 +1108,7 @@ export default {
                   m = music.wrongenemy;
                   
                   addA([
-                     "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                     "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                      "<25>{#p/sans}{#f/0}* heya.",
                      "<25>{#p/sans}{#f/4}* is anyone there?",
                      "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
@@ -1170,7 +1170,7 @@ export default {
                   m = music.letsmakeabombwhydontwe;
                   
                   addA([
-                     "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                     "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                      "<25>{#p/sans}{#f/0}* heya.",
                      "<25>{#p/sans}{#f/4}* is anyone there?",
                      "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
@@ -1218,7 +1218,7 @@ export default {
                k = 'dark_generic'; // NO-TRANSLATE
 
                addA([
-                  "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                  "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                   "<25>{#p/sans}{#f/0}* heya.",
                   "<25>{#p/sans}{#f/3}* it's been a while, huh?"
                ]);
@@ -1382,7 +1382,7 @@ export default {
             
             if (dmettaton) {
                addA([
-                  "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                  "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                   "<32>{#p/napstablook}* hey",
                   "<32>{#p/napstablook}* is anyone there?",
                   "<32>{#p/napstablook}* i think... there's something i need to tell you.",
@@ -1460,7 +1460,7 @@ export default {
                ]);
             } else {
                addA([
-                  "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                  "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                   "<32>{#p/mettaton}* EXCUSE ME, HUMAN...",
                   "<32>{#p/mettaton}* THERE'S A FEW THINGS I'D LIKE TO SAY TO YOU.",
                   "<32>{#p/mettaton}* ARE YOU THERE?",
@@ -1606,7 +1606,7 @@ export default {
             m = music.sansdate;
             
             addA([
-               "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+               "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                "<25>{#p/sans}{#f/0}* heya.",
                "<25>{#p/sans}{#f/4}* is anyone there?",
                "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
@@ -1777,7 +1777,7 @@ export default {
 
                
                addA([
-                  "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                  "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                   "<25>{#p/alphys}{#f/4}* H-hiya...",
                   "<25>{#p/alphys}{#f/20}* Is anyone there?",
                   "<25>{#p/alphys}{#f/11}* ... I hope it's not too much trouble...",
@@ -2139,7 +2139,7 @@ export default {
 
                   
                   addA([
-                     "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                     "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                      "<25>{#p/toriel}{#f/1}* Hello?",
                      "<25>{#p/toriel}{#f/5}* This is... Toriel.",
                      "<25>{#p/toriel}{#f/1}* ... I know we did not part ways on the best of terms, but...",
@@ -2360,7 +2360,7 @@ export default {
                   
                   if (SAVE.data.n.state_wastelands_toriel === 0) {
                      addA([
-                        "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                        "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                         "<25>{#p/toriel}{#f/1}* Hello?",
                         "<25>{#p/toriel}{#f/0}* ...\n* This is Toriel.",
                         "<25>{#p/toriel}{#f/1}* I know it is not the kind of call we would normally have, but...",
@@ -2369,7 +2369,7 @@ export default {
                      addB([ "<25>{#p/toriel}{#f/9}* Despite our calling arrangements, I could not help but worry." ]);
                   } else {
                      addA([
-                        "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                        "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                         "<25>{#p/toriel}{#f/1}* Hello?",
                         "<25>{#p/toriel}{#f/0}* ...\n* This is Toriel.",
                         "<25>{#p/toriel}{#f/1}* The circumstances may not be ideal at the moment, but...",
@@ -2544,7 +2544,7 @@ export default {
                m = music.dogsong;
                
                addA([
-                  "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                  "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                   "<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!",
                   "<32>{#p/basic}* (And yet, there is much to say!)\n* (Much to be excited for!)",
                   "<32>{#s/bark}{#p/event}* Bark!",
@@ -2769,7 +2769,7 @@ export default {
                m = music.spiderboss;
                
                addA([
-                  "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                  "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                   "<32>{#p/basic}{#s/spiderLaugh}* Oh, hello, dearie~",
                   "<32>{#p/basic}* Are you doing well?",
                   "<32>{#p/basic}* Oh, who am I kidding~\n* It's not like I cared about you anyway~",
@@ -2987,7 +2987,7 @@ export default {
                m = music.papyrus;
                
                addA([
-                  "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                  "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                   "<18>{#p/papyrus}{#f/4}IS THIS THING EVEN WORKING?",
                   "<18>{#p/papyrus}{#f/0}OH! OH!\nIT JUST WENT TO VOICE-MAIL!",
                   "<18>{#p/papyrus}{#f/6}NO WONDER I WAS SO CONFUSED!",
@@ -3113,7 +3113,7 @@ export default {
                m = music.papyrusLow;
                
                addA([
-                  "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+                  "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                   "<25>{#p/sans}{#f/0}* heya.",
                   "<25>{#p/sans}{#f/3}* it's been a while, huh?"
                ]);
@@ -3173,7 +3173,7 @@ export default {
 
             
             addA([
-               "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+               "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
                "<25>{#p/alphys}{#f/8}* Hiya...",
                "<25>{#p/alphys}{#f/6}* Is anyone there?",
                "<25>{#p/alphys}{#f/10}* I hope it's not too much trouble...",
@@ -3482,7 +3482,7 @@ export default {
          "<32>{#s/equip}{#p/event}* 滴..."
       ],
       neutral2: [
-         "<32>{#s/phone}{#p/event}* 滴滴，滴滴...",
+         "<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...",
          "<25>{#p/asgore}{#f/1}* ...",
          "<25>{#p/asgore}{#f/1}* Howdy, young one.",
          "<25>{#p/asgore}{#f/1}* I do not know if this message will reach you, or if you are alive.",
@@ -5341,13 +5341,13 @@ export default {
          world.goatbro
             ? [ "<32>{#p/asriel2}* Gelatini。" ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* I wonder what Gelatinis are actually made of." ]
-            : [ "<32>{#p/story}* The aroma of lime gelatin wafts through." ],
+            ? [ "<32>{#p/kidding}* 你知道，\n  Gelatini到底是用什麼做的嗎？" ]
+            : [ "<32>{#p/story}* 空氣中飄來陣陣青檸果凍的清香。" ],
       status6: [ "<32>{#p/story}* 現在，只剩一個了。" ],
       status8: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* Just us now!" ]
-            : [ "<32>{#p/story}* Gelatini now blorbs solo." ]
+            ? [ "<32>{#p/kidding}* 只剩我們仨啦！" ]
+            : [ "<32>{#p/story}* 這隻Gelatini只能獨自吐泡泡了。" ]
    },
    b_opponent_spacetop: {
       epiphany: [
@@ -5687,7 +5687,7 @@ export default {
       hello_asgore: "打招呼",
       about_asgore: "來個自我介紹",
       dad: "叫他「爹地」",
-      flirt_asgore: "放電",
+      flirt_asgore: "調情",
       insult_asgore: "辱罵"
    },
 
