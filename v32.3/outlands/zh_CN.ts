@@ -1278,17 +1278,17 @@ export default {
       endtwinklyBA: () => [
          SAVE.data.n.state_wastelands_napstablook === 5
             ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you made it through without killing anyone."
-            : "<25>{#p/twinkly}{#f/6}{#v/0}* 所以你放过了\n  每一个你遇到的人。",
+            : "<25>{#p/twinkly}{#f/6}{#v/0}* 所以你放过了\n  每一只你遇到的怪物。",
          "<25>{#f/5}{#v/0}* 我打赌你觉得很棒。",
          "<25>{#f/2}{#v/1}* 但如果你遇到了一个\n  连环杀人犯呢？",
          "<25>{#f/9}{#v/0}* 你除了死，还是死，\n  还是死。",
          "<25>{#f/5}{#v/0}* 最后，你会疲于尝试。",
          "<25>{#f/11}{#v/0}* 那时候你该怎么办呢，\n  嗯哼？",
-         "<25>{#f/2}{#v/1}* 你会因为沮丧而\n  大开杀戒吗？",
+         "<25>{#f/2}{#v/1}* 你会因为沮丧\n  而大开杀戒吗？",
          "<25>{#f/14}{#v/1}* 或者只是单纯地放弃呢？",
          "<25>{#f/11}{#v/0}* 嘻嘻嘻...",
-         "<25>{#f/7}{#v/0}* 那一定会很有趣的。",
-         "<25>{#f/9}{#v/0}* 我会好好看着的！"
+         "<25>{#f/7}{#v/0}* 那一定会很好玩的。",
+         "<25>{#f/9}{#v/0}* 我会好好看你的好戏的！"
       ],
       endtwinklyBB1: () => [
          SAVE.data.b.w_state_lateleave
@@ -1344,7 +1344,7 @@ export default {
          "<25>{#f/7}{#v/0}* That used to be MY power, you know.",
          "<25>{#f/6}{#v/0}* Seems YOUR desires for this world override MINE.",
          "<25>{#f/5}{#v/0}* Well then.\n* Enjoy that power while you can.",
-         "<25>{#f/9}{#v/0}* 我会好好看着的！"
+         "<25>{#f/9}{#v/0}* 我会好好看你的好戏的！"
       ],
       endtwinklyC: [
          "<25>{#f/7}{#v/0}* After all, this used to be MY power.",
@@ -1353,7 +1353,7 @@ export default {
          "<25>{#f/6}{#v/0}* I thought I was the only one who could do that.",
          "<25>{#f/6}{#v/0}* Seems YOUR desires for this world override MINE.",
          "<25>{#f/5}{#v/0}* Well then.\n* Enjoy that power while you can.",
-         "<25>{#f/9}{#v/0}* 我会好好看着的！"
+         "<25>{#f/9}{#v/0}* 我会好好看你的好戏的！"
       ],
       endtwinklyD: [
          "<25>{#p/twinkly}{#f/11}{#v/0}* You're one hell of a tease, huh?",
@@ -1362,8 +1362,8 @@ export default {
          "<25>{#f/6}{#v/0}* Will you snuff the light out of their eyes?",
          "<25>{#f/5}{#v/0}* Or will you realize your faulty \"pacifism\" is for nothing?",
          "<25>{#f/11}{#v/0}* 嘻嘻嘻...",
-         "<25>{#f/7}{#v/0}* 那一定会很有趣的。",
-         "<25>{#f/9}{#v/0}* 我会好好看着的！"
+         "<25>{#f/7}{#v/0}* 那一定会很好玩的。",
+         "<25>{#f/9}{#v/0}* 我会好好看你的好戏的！"
       ],
       endtwinklyE: [
          "<25>{#p/twinkly}{#f/7}{#v/0}* Wow, you're utterly repulsive.",
@@ -1781,14 +1781,14 @@ export default {
       goodbye1a: [ "<25>{#p/toriel}{#f/10}* ...", "<25>{#f/20}{|}* 过来- {%}" ],
       goodbye1b: [ "<25>{#p/toriel}{#f/9}* ...", "<25>{#f/19}{|}* 过来- {%}" ],
       goodbye2: [
-         "<25>{#p/toriel}{#f/5}* 我很抱歉让你\n  经历了这么多，\n  小家伙。",
+         "<25>{#p/toriel}{#f/5}* 我很抱歉让你遭这些罪，\n  孩子。",
          "<25>{#f/9}* 我早就该明白我没办法\n  一直把你留在这里。",
-         "<25>{#f/5}* ...不过，如果你想\n  找人聊天的话...",
+         "<25>{#f/5}* ...不过，\n  如果你想找人聊天的话...",
          "<25>{#f/1}* 欢迎你随时打电话给我。",
          "<25>{#f/0}* 只要电话信号能覆盖到，\n  我肯定会接的。"
       ],
       goodbye3: [
-         "<25>{#p/toriel}{#f/5}* 我很抱歉让你\n  经历了这么多，\n  小家伙。",
+         "<25>{#p/toriel}{#f/5}* 我很抱歉让你遭这些罪，\n  孩子。",
          "<25>{#f/9}* 我早就该明白我没办法\n  一直把你留在这里。",
          "<25>{#f/10}* ...",
          "<25>{#f/14}* 要乖啊，好吗？"
@@ -3264,7 +3264,7 @@ export default {
                ? [ "<32>{#p/human}* (The plant appears to be decorative in nature.)" ]
                : world.darker
                ? [ "<32>{#p/basic}* 一株观赏植物。\n* 仅此而已。" ]
-               : [ "<32>{#p/basic}* Toriel餐桌上的\n  一株观赏植物。" ],
+               : [ "<32>{#p/basic}* 一株摆在Toriel餐桌上的\n  观赏植物。" ],
          w_tl_tools: () =>
             SAVE.data.b.svr
                ? [
@@ -3407,7 +3407,7 @@ export default {
                     "<32>* ... at least until Asgore decides he'd like it instead.",
                     "<32>* He's always wanted this chair.\n* I'd be surprised if he didn't take it with him."
                  ]
-               : [ "<32>{#p/basic}* Toriel的专用阅读椅。", "<32>* Smells like lazy bones." ],
+               : [ "<32>{#p/basic}* Toriel的专用阅读椅。", "<32>* 懒骨头的味道扑面而来。" ],
          w_tt_diary: pager.create(
             0,
             ...[
@@ -4119,13 +4119,13 @@ export default {
          "<32>{#p/basic}* 你应该知道\n  我对人类是什么态度吧？",
          "<25>{#p/toriel}{#f/13}* 知道。",
          "<32>{#p/basic}* 你不知道。",
-         "<32>{#p/basic}* ...我对这个人类\n  可不是那态度。",
-         "<32>* 自从这个孩子坠落于此，\n  我就一直跟着...",
+         "<32>{#p/basic}* ...我对这个人类可不是那态度。",
+         "<32>* 自从这个孩子坠落于此，\n  我就一直跟着他...",
          "<32>* 刚刚，这孩子求我帮忙，\n  让我说服你。",
          "<32>* 你明白，这意味着什么吗？",
          "<25>{#p/toriel}{#f/13}* ...",
          "<32>{#p/basic}* 这意味着\n  你应该马上放这孩子走。",
-         "<25>{#p/toriel}{#f/12}* ...你不知道外面有多危险吗？",
+         "<25>{#p/toriel}{#f/12}* ...你不知道外面多危险吗？",
          "<25>{#f/11}* 我要是心软，\n  那孩子肯定会死在外头。",
          "<32>{#p/basic}* ...好好想想。",
          "<32>{#p/basic}* 你根本不是因为这个\n  才不让他走，对吧？",
@@ -4136,7 +4136,7 @@ export default {
          "<33>{#p/basic}* 但是，过了一百年，\n  外面的世界早就不一样了。",
          "<33>{#p/basic}* 你不敢走出去看看，画地为牢。\n  才对这些视而不见。",
          "<25>{#p/toriel}{#f/13}* ...",
-         "<25>{#p/toriel}{#f/13}* ...但我要是放这孩子走，我就没法...",
+         "<25>{#p/toriel}{#f/13}* ...但我要是放这孩子走，\n  就没法...",
          "<32>{#p/basic}* 陪伴他，保护他了？",
          "<32>{#p/basic}* 呵，我明白那是什么滋味。",
          "<32>{#p/basic}* 但是，把那孩子\n  强行束缚在这一亩三分地，\n  他也会活不下去。",
@@ -4147,7 +4147,7 @@ export default {
          "<32>{#p/basic}* 别切断联络，保持电话畅通。\n  那孩子会给你打电话的。",
          "<25>{#p/toriel}{#f/9}* ...那你呢？",
          "<32>{#p/basic}* 别担心我。\n* 我没事的。",
-         "<32>{#p/basic}* 我只希望，\n  那孩子走后，\n  一定，一定不要忘了他。",
+         "<32>{#p/basic}* 我只希望，那孩子走后，\n  一定，一定不要忘了他。",
          "<25>{#p/toriel}{#f/13}* ...",
          "<32>{#p/basic}* 再见，Toriel。",
          "<25>{#p/toriel}{#f/14}* ...再见，$(name)。"
