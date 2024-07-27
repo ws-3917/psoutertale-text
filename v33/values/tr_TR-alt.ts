@@ -375,6 +375,7 @@ export default {
             .replace(/\n\*/g, '{^5}\n*')
             .replace(/([.?!。？！])([\n ])/g, '$1{^5}$2')
             .replace(/:([\n ])/g, ':{^6}$1')
+            .replace(/([-、])/g, '$1{^2}')
             .replace(/：/g, '：{^6}');
    },
    textLength(text: string) {
