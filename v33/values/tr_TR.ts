@@ -215,13 +215,13 @@ export default {
       托丽尔: "I think you should think of your own name, my child.",
       闪闪: "Nice try, idiot.",
 
-      papyrus: "I'LL ALLOW IT!!!!",
+      papyrus: "I DON'T THINK IT'S INAPPROPRIATE!!",
       帕: "I'LL ALLOW IT!!!!",
       帕帕: "I'LL ALLOW IT!!!!",
       帕派肉丝: "I'LL ALLOW IT!!!!",
       帕帕肉丝: "I'LL ALLOW IT!!!!",
       帕派瑞: "I'LL ALLOW IT!!!!",
-      帕派瑞斯: "I'LL ALLOW IT!!!!",
+      帕派瑞斯: "I DON'T THINK IT'S INAPPROPRIATE!!",
       阿派瑞斯: "I'LL ALLOW IT!!!!",
       杉: "ok.",
       衫: "ok.",
@@ -368,7 +368,6 @@ export default {
          : output
             .replace(cjk2latin, '$1{#i/x0.5}$2')
             .replace(latin2cjk, '$1{#i/x2}$2')
-            .replace(/-/g, '-{^2}')
             .replace(/,([\n ])/g, ',{^3}$1')
             .replace(/，/g, '，{^4}')
             .replace(/~([\n ])/g, '~{^4}$1')

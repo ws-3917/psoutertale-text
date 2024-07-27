@@ -215,13 +215,13 @@ export default {
       托丽尔: "我覺得，\n你應該想個自己的名字。\n我的孩子。",
       闪闪: "想得美，蠢貨。",
 
-      papyrus: "我準了！！！",
+      papyrus: "I DON'T THINK IT'S INAPPROPRIATE!!",
       帕: "我準了！！！",
       帕帕: "我準了！！！",
       帕派肉丝: "我準了！！！",
       帕帕肉丝: "我準了！！！",
       帕派瑞: "我準了！！！",
-      帕派瑞斯: "我準了！！！",
+      帕派瑞斯: "I DON'T THINK IT'S INAPPROPRIATE!!",
       阿派瑞斯: "我準了！！！",
       杉: "好。",
       衫: "好。",
@@ -368,7 +368,6 @@ export default {
          : output
             .replace(cjk2latin, '$1{#i/x0.5}$2')
             .replace(latin2cjk, '$1{#i/x2}$2')
-            .replace(/-/g, '-{^2}')
             .replace(/,([\n ])/g, ',{^3}$1')
             .replace(/，/g, '，{^4}')
             .replace(/~([\n ])/g, '~{^4}$1')

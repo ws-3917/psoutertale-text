@@ -346,6 +346,9 @@ msgstr ""
 msgid "This name is... incorrect?"
 msgstr ""
 
+msgid "I DON'T THINK IT'S INAPPROPRIATE!!"
+msgstr ""
+
 msgid "what?"
 msgstr "啥？"
 
