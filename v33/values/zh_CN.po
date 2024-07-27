@@ -1,0 +1,346 @@
+#
+msgid ""
+msgstr ""
+
+msgid "en_US"
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid "你必须选定一个名字。"
+msgstr ""
+
+msgid "No?"
+msgstr ""
+
+msgid "嗯...？"
+msgstr ""
+
+msgid "Maybe?"
+msgstr ""
+
+msgid "Yes?"
+msgstr ""
+
+msgid ""
+"打起精神来。\n"
+"这儿没什么好怕的。"
+msgstr ""
+
+msgid "轻装上阵，你的旅途将会更加顺利。"
+msgstr ""
+
+msgid ""
+"打起精神来。\n"
+"让不如意的事情随风而去吧。"
+msgstr ""
+
+msgid ""
+"打起精神来。\n"
+"不管你心情如何，讲你自己的故事。"
+msgstr ""
+
+msgid "May tranquility come upon you as you embark on your journey."
+msgstr ""
+
+msgid ""
+"打起精神来。\n"
+"只要你想，那就必然能书写趣味人生。"
+msgstr ""
+
+msgid "May your quality of speech translate to action on your journey."
+msgstr ""
+
+msgid "A courageous heart will serve you well on your journey."
+msgstr ""
+
+msgid "A sense of serenity will do you wonders on your journey."
+msgstr ""
+
+msgid "May your ingenuity surpass the challenges on your journey."
+msgstr ""
+
+msgid "A confident mindset will take you far on your journey."
+msgstr ""
+
+msgid "May your inginuity surpass the challanges on your journey."
+msgstr ""
+
+msgid "May balance come upon you as you embark on your journey."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"There is much to be learned on the road ahead."
+msgstr ""
+
+msgid "May the tapestry of chaos and order satisfy you on your journey."
+msgstr ""
+
+msgid "May your story gain meaning in this cocoon amidst the darkness."
+msgstr ""
+
+msgid "May the experience be as playful as you desire."
+msgstr ""
+
+msgid "May the experience be as excessive as you desire."
+msgstr ""
+
+msgid ""
+"打起精神来。\n"
+"没什么好惭愧的。"
+msgstr ""
+
+msgid "A temperate ego will take you far on your journey."
+msgstr ""
+
+msgid "May the experience provide the sustenance you require."
+msgstr ""
+
+msgid "May your story bring forth the emotion you strive to feel."
+msgstr ""
+
+msgid "May your choices be as effortless as they come."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"There is much companionship to be had here."
+msgstr ""
+
+msgid "May your fortune carry you forward on your journey."
+msgstr ""
+
+msgid "May the tapestry of chaos and order please you on your journey."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"Your story is as uplifting as you make it."
+msgstr ""
+
+msgid "理智会为你筑牢这趟旅程的基石。"
+msgstr ""
+
+msgid "May the experience only add to your state of satisfaction."
+msgstr ""
+
+msgid "May the experience be as comforting as you desire."
+msgstr ""
+
+msgid "May the experience provide the energy you require."
+msgstr ""
+
+msgid "May your overflowing energy power you through your journey."
+msgstr ""
+
+msgid "你选择了我，让我深感荣幸。"
+msgstr ""
+
+msgid "让实验开始吧。"
+msgstr ""
+
+msgid "真正的名字。"
+msgstr ""
+
+msgid "...真正的名字？"
+msgstr ""
+
+msgid "这名字不对。"
+msgstr ""
+
+msgid "这名字... 不对吧？"
+msgstr ""
+
+msgid ""
+"............\n"
+"（它无力阻止你。）"
+msgstr ""
+
+msgid ""
+"............\n"
+"（他好像不怎么健谈。）"
+msgstr ""
+
+msgid "Hello."
+msgstr ""
+
+msgid "上马！"
+msgstr ""
+
+msgid "嗯... 我想这个名字可以..."
+msgstr ""
+
+msgid ""
+"我觉得，\n"
+"你应该想个自己的名字。\n"
+"我的孩子。"
+msgstr ""
+
+msgid "真的吗..."
+msgstr ""
+
+msgid "想得美，蠢货。"
+msgstr ""
+
+msgid "你是指“眼行家”？"
+msgstr ""
+
+msgid "快看看我的天线呐！"
+msgstr ""
+
+msgid "哈哈哈，不错嘛。"
+msgstr ""
+
+msgid "嗯？这什么味道？"
+msgstr ""
+
+msgid "It's m-moving! I-I-It's shaking!"
+msgstr ""
+
+msgid "Jerry。"
+msgstr ""
+
+msgid "(The dog jumped into your lap.)"
+msgstr ""
+
+msgid "(Pant pant)"
+msgstr ""
+
+msgid "我准了！！！"
+msgstr ""
+
+msgid "这没啥不合适的！！"
+msgstr ""
+
+msgid "好。"
+msgstr ""
+
+msgid "没门。"
+msgstr ""
+
+msgid "啥？"
+msgstr ""
+
+msgid "A \"stellar\" choice."
+msgstr ""
+
+msgid "这名字挺棒的，不是吗？"
+msgstr ""
+
+msgid "这不好笑。"
+msgstr ""
+
+msgid "Roar."
+msgstr ""
+
+msgid "哇哈哈！为什么不呢？"
+msgstr ""
+
+msgid "什么，什么！什么！！！"
+msgstr ""
+
+msgid "那是我的名字！！"
+msgstr ""
+
+msgid ""
+"Ahuhuhu~\n"
+"You must have great taste, dearie~"
+msgstr ""
+
+msgid ""
+"嘿！\n"
+"只有Skrubby才能这样叫我！"
+msgstr ""
+
+msgid "Sorry, but you're a letter shy."
+msgstr ""
+
+msgid "...？"
+msgstr ""
+
+msgid "干净的名字。"
+msgstr ""
+
+msgid "你吼！！"
+msgstr ""
+
+msgid "哈啊，行行行。"
+msgstr ""
+
+msgid "找个你自己的名字去！"
+msgstr ""
+
+msgid "额... 行吧？"
+msgstr ""
+
+msgid "别-别这么做。"
+msgstr ""
+
+msgid "你还真会挑别人剩下的。"
+msgstr ""
+
+msgid "嗯，我想行吧。"
+msgstr ""
+
+msgid "You like my name, little buddy?"
+msgstr ""
+
+msgid ""
+"Bratty！Bratty！\n"
+"那是我的名字！"
+msgstr ""
+
+msgid "一位巫师同伴？"
+msgstr ""
+
+msgid "不错的选择，小伙子。"
+msgstr ""
+
+msgid "I don't think so, darling."
+msgstr ""
+
+msgid ""
+"哦！！！\n"
+"你在推广我的品牌吗？"
+msgstr ""
+
+msgid "你确定是这个名字吗？ ;)"
+msgstr ""
+
+msgid "Hot, but not hot enough."
+msgstr ""
+
+msgid "没必要这样..."
+msgstr ""
+
+msgid "你知道！？"
+msgstr ""
+
+msgid "Respect my AUTHORITY!"
+msgstr ""
+
+msgid "啊！谢谢你～"
+msgstr ""
+
+msgid "Thanks for, uh, using my name."
+msgstr ""
+
+msgid "可以？"
+msgstr ""
+
+msgid "不可以。"
+msgstr ""
+
+msgid "..."
+msgstr "..."
+
+msgid ""
+"嗯嗯↑嗯嗯嗯嗯嗯↑嗯嗯↑\n"
+"嗯嗯嗯嗯嗯嗯嗯↓\n"
+"嗯嗯嗯→嗯嗯"
+msgstr ""
+
+msgid "6。"
+msgstr ""
