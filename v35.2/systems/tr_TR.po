@@ -2044,10 +2044,10 @@ msgid "EXIT"
 msgstr ""
 
 msgid "LANGUAGE"
-msgstr ""
+msgstr "DİL"
 
 msgid "ENGLISH"
-msgstr ""
+msgstr "TÜRKÇE"
 
 msgid "SOUND FX"
 msgstr ""
