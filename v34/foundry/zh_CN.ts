@@ -1,0 +1,8340 @@
+import { asrielinter, helmetdyne, helmetdyneAttack } from '../../../code/common/api';
+import {
+   armorprice,
+   badSpider,
+   dogecon,
+   dogex,
+   geno,
+   ghostpartyCondition,
+   respecc,
+   temgone
+} from '../../../code/foundry/extras';
+import { game, rng } from '../../../code/systems/core';
+import {
+   antiAteThreshold,
+   battler,
+   choicer,
+   fetchCharacters,
+   pager,
+   player,
+   postSIGMA,
+   roomKills,
+   world
+} from '../../../code/systems/framework';
+import { SAVE } from '../../../code/systems/save';
+
+// START-TRANSLATE
+
+export default {
+   a_foundry: {
+      locketseller: [ "<32>{#p/basic}* ...", "<32>{#p/basic}* I'm going to pretend you didn't just sell that locket." ],
+      noequip: [ "<32>{#p/human}* （你打算不这么做。）" ],
+      darktoriel1: [
+         "<32>{#p/human}* （你抓住了Toriel的手。）",
+         "<25>{#p/toriel}{#f/2}* 噢天哪...！\n* F-frisk，是你吗？",
+         "<25>{#f/1}* 在这里见到你真不容易..."
+      ],
+      darktoriel2: [
+         "<25>{#p/toriel}{#f/9}* 我向你道歉。你肯定在到处找我。",
+         "<25>{#f/9}* If you tried to call me, I had my phone turned off.",
+         "<25>{#f/13}* ...",
+         "<25>{#f/13}* 我为我所做的道歉，小家伙。",
+         "<25>{#f/13}* 即使你原谅我，我也很难接受。",
+         "<25>{#f/9}* 我才刚刚开始接受我的所作所为。",
+         "<25>{#f/10}* ...",
+         "<25>{#f/10}* 总之，很高兴见到你。"
+      ],
+      darktoriel3: [
+         "<25>{#p/toriel}{#f/5}* ...嗯？\n* 你想让我叫... Sans？",
+         "<25>{#f/1}* Let me turn it on..."
+      ],
+      darktoriel4a: [
+         "<32>{#s/phone}{#p/event}* 拨号中...",
+         "<25>{#p/toriel}{#f/3}* ...哦，好吧。\n* 我的手机在这里会出点问题。"
+      ],
+      darktoriel4b: [
+         "<25>{#f/4}* 我得自己去找他。",
+         "<25>{#f/5}* 呃... 我会的。\n* 但不是现在。",
+         "<25>{#f/5}* ..."
+      ],
+      darktoriel5a: [
+         "<25>{#p/toriel}{#f/5}* ...嗯？\n* 你还有话要跟我说？",
+         "<32>{#p/human}* （你重复Toriel在Archive Six中\n  给你的建议。）",
+         "<25>{#p/toriel}{#f/2}* ...",
+         "<25>{#f/1}* 这些话...",
+         "<25>{#f/1}* 你怎么可能听过...？",
+         "<25>{#f/0}* 我上次那么说已经是一个世纪前了。",
+         "<25>{#f/5}* ...",
+         "<25>{#f/1}* 好吧...\n* 我会记住你说的话的。"
+      ],
+      darktoriel5b: [ "<25>{#p/toriel}{#f/1}* 嗯，现在该走了。" ],
+      darktoriel6: [
+         "<25>{#f/5}* 运输船快出发了，我不能错过。",
+         "<25>{#f/9}* 然而，现在，我必须收集我的想法。",
+         "<25>{#f/1}* ...谢谢你的好意，Frisk。\n* 你是最棒的。"
+      ],
+      darktoriel7: () =>
+         SAVE.data.b.c_state_secret1_used
+            ? [
+                 "<25>{#p/toriel}{#f/10}* 别担心，Frisk。\n* 我会没事的。",
+                 "<25>{#f/1}* 运输船上见。\n* 好吗？"
+              ]
+            : [
+                 "<25>{#p/toriel}{#f/5}* Frisk，你得给我时间处理一下。",
+                 "<25>{#f/1}* 运输船上见。\n* 好吗？"
+              ],
+      ghostpartymusic1: [
+         "<32>{#p/finalghost}* Ah, the classic.\n* Not just \"a\" spooktune, but \"the\" spooktune.",
+         "<32>* The original, you might say."
+      ],
+      ghostpartymusic2: [
+         "<32>{#p/mettaton}{#e/mettaton/9}* NOW THIS IS SOMETHING I CAN REALLY \"VIBE\" TO, AS BLOOKY WOULD SAY.",
+         "<32>{#e/mettaton/36}* IT'S GOT JUST THE RIGHT MIX OF ELEMENTS...",
+         "<32>{#e/mettaton/8}* AND THE BREAKDOWN?",
+         "<32>{#e/mettaton/9}* NOT WHAT I WOULD HAVE GONE FOR, BUT DECENT NONETHELESS."
+      ],
+      ghostpartymusic3: [
+         "<32>{#p/basic}{#e/maddummy/1}* I always thought this one felt really slow, you know?",
+         "<32>* Just... super... duper... slow.",
+         "<32>{#e/maddummy/0}* But that's just me."
+      ],
+      evac: [ "<32>{#p/human}* （你感觉周围的怪物越来越少了。）" ],
+      shopclosed: [ "<32>{#p/human}* （但是没什么可做的了。）" ],
+      starKILLER: [ "<32>{#p/basic}{#npc/a}* The grass is fading faster than I had thought." ],
+      quicksolve3: () =>
+         world.runaway || postSIGMA()
+            ? [ "<32>{#p/basic}* It's out of service." ]
+            : SAVE.data.b.svr
+            ? [ "<32>{#p/human}* (The terminal appears to have been powered off.)" ]
+            : [
+                 "<32>{#p/human}* (You activate the terminal.)",
+                 "<32>{#p/basic}* “通路已打开！”\n* “不必再进行任何操作。”"
+              ],
+      quicksolve4: [ "<32>{#p/human}* (You activate the terminal.)", "<32>{#p/basic}* \"Enter override code!\"" ],
+      quicksolve5: [
+         "<32>{#p/basic}* ...",
+         "<32>{#p/basic}* If only you knew a puzzle officionado who could tell you what that code might be."
+      ],
+      quicksolve6: [ "<32>{#p/basic}* ...", choicer.create("* (Enter the code?)", "是", "否") ],
+      quicksolve7: [ "<32>{#p/human}* (You decide not to enter.)" ],
+      quicksolve8: [ "<32>{#p/basic}* Well, that's a mercy." ],
+      escape: [
+         "<32>{#p/event}* 铃铃，铃铃...",
+         "<32>{#p/alphys}* H-hey... are you there?",
+         "<32>* I know you want to keep going forward, but...",
+         "<32>* If you do, she'll... try to kill you...",
+         "<32>* I tried to stop her... b-but she wouldn't listen to me!",
+         "<32>* Now she's...",
+         "<32>* ...",
+         "<32>* But, uh, it's okay!\n* Because...",
+         "<32>* B-because there's another way to get past her!",
+         "<32>* I know it'd be kind of...\n* Inconvenient...",
+         "<32>* But it's the only way you'll make it out alive...!",
+         "<32>* T-trust me... okay?",
+         "<32>* Go back to the balcony j-just before the pylon puzzle.",
+         "<32>* If you don't, I...",
+         "<32>* I...",
+         "<32>* I'll... let you go now.\n* Good luck...",
+         "<32>{#s/equip}{#p/event}* Click..."
+      ],
+      artifact1: [ "<32>{#p/human}* （你获得了传说中的神器。）" ],
+      artifact2: [ "<32>{#p/human}* （你带的东西太多，装不下它了。）" ],
+      artifact3: () =>
+         SAVE.data.b.svr
+            ? [ "<32>{#p/human}* (The inscription describes a riddle of ivories and melodies.)" ]
+            : [
+                 "<32>{#p/basic}* 底座上刻着铭文。",
+                 "<32>* “雅乐喈喈，分为二别。”",
+                 "<32>* “左居王子，右居者谁？”",
+                 "<32>* “奏其旋律，訇然谜解。”"
+              ],
+      tome0: () =>
+         SAVE.data.b.svr
+            ? [ "<32>{#p/human}* (It seems there's something missing here.)" ]
+            : [ "<32>{#p/basic}* 这册书牢牢地固定在底座上。" ],
+      tome1: () =>
+         SAVE.data.b.svr
+            ? [ "<32>{#p/human}* (But the tome seems to have been taken.)" ]
+            : [
+                 "<32>{#p/human}* (You acquired The Epiphany.)",
+                 ...(world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+                    ? [ "<25>{#p/kidd}{#f/2}* Haha.", "<25>{#f/2}* That thing must be REALLY old." ]
+                    : [])
+              ],
+      tome2: [ "<32>{#p/human}* （你带的东西太多，装不下它了。）" ],
+      tome3: () =>
+         SAVE.data.b.svr
+            ? [ "<32>{#p/human}* (The inscription speaks of peace and good intentions.)" ]
+            : [
+                 "<32>{#p/basic}* There is a writ inscribed on the pedastal.",
+                 "<32>* \"To those who are worthy, to those who are kind.\"",
+                 "<32>* \"To those who wish well, in both heart and mind.\"",
+                 "<32>* \"May peace follow you on your journey home.\""
+              ],
+      tome4: () => [
+         choicer.create(
+            "* (What do you intend to do?)",
+            "Spare",
+            world.meanie ? "Bully" : world.flirt > 9 ? "调情" : SAVE.data.b.oops ? "Befriend" : "拥抱",
+            "Kill",
+            "Take Gold"
+         )
+      ],
+      tome5a: "<32>{#p/human}* (You focus your mind on the intent to spare.)",
+      tome5b: () =>
+         world.meanie
+            ? "<32>{#p/human}* (You focus your mind on the intent to bully.)"
+            : world.flirt > 9
+            ? "<32>{#p/human}* (You focus your mind on the intent to flirt.)"
+            : SAVE.data.b.oops
+            ? "<32>{#p/human}* (You focus your mind on the intent to befriend.)"
+            : "<32>{#p/human}* (You focus your mind on the intent to hug.)",
+      tome5c: "<32>{#p/human}* (You focus your mind on the intent to kill.)",
+      tome5d: "<32>{#p/human}* (You focus your mind on the intent to take gold.)",
+      tome5e: "<32>{#p/basic}* Suddenly...!",
+      tome5f: "\n* (Nothing happens.)",
+      astrofood0: [
+         "<32>{#p/human}* (You can't make out what's in the box...)",
+         choicer.create("* (Take something out?)", "是", "否")
+      ],
+      astrofood1: () =>
+         [
+            [
+               "<32>{#p/basic}* 箱子里有三份太空豆腐。",
+               choicer.create("* （拿一个吗？）", "是", "否")
+            ],
+            [
+               "<32>{#p/basic}* There are two portions of Space Tofu left in the box.",
+               choicer.create("* （拿一个吗？）", "是", "否")
+            ],
+            [
+               "<32>{#p/basic}* There is one portion of Space Tofu left in the box.",
+               choicer.create("* (Take it?)", "是", "否")
+            ]
+         ][SAVE.data.n.state_foundry_astrofood],
+      astrofood2: [ "<32>{#p/human}* （你得到了太空豆腐。）" ],
+      astrofood3: [ "<32>{#p/human}* （你带的东西太多了。）" ],
+      astrofood4: () => [ "<32>{#p/human}* (You decide not to take anything.)" ],
+      astrofood5: () =>
+         SAVE.data.b.svr
+            ? [ "<32>{#p/human}* (But you couldn't find anything inside.)" ]
+            : [ "<32>{#p/basic}* 箱子是空的。" ],
+      bird1: () => [
+         ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 这只小鸟想带你\n  穿过这道沟。" ]),
+         choicer.create("* （接受小鸟的好意吗？）", "是", "否")
+      ],
+      blookdate1: () =>
+         world.sad_ghost || world.population === 0
+            ? [
+                 "<32>{#p/napstablook}* oh...\n* hi there...",
+                 "<32>* 对不起，我...\n* 没想到你会跟我过来。",
+                 "<32>* uh...\n* make yourself at home...?"
+              ]
+            : [
+                 "<32>{#p/napstablook}* 哦...\n* 你真的来了...",
+                 "<32>* 对不起，我...\n* 没想到你会来。",
+                 "<32>* 虽然比较寒酸，\n  但是不要太拘束哦。"
+              ],
+      blookdate2: () => [
+         ...(world.sad_ghost || world.population === 0
+            ? [ "<32>{#p/napstablook}* oh... you want my food...", "<32>* let me see what i have..." ]
+            : SAVE.data.b.f_state_ghostsleep
+            ? [ "<32>{#p/napstablook}* okay, so...", "<32>* let me show you what's in the fridge" ]
+            : [ "<32>{#p/napstablook}* 你饿了吗？", "<32>* 我冰箱里应该有点吃的..." ])
+      ],
+      blookdate2x: pager.create(
+         0,
+         () =>
+            SAVE.data.b.svr
+               ? [
+                    "<32>{#p/human}* (You inspect the fridge.)\n* (It doesn't seem like you can exactly see the contents.)"
+                 ]
+               : [
+                    "<32>{#p/human}* （你看了下冰箱里头。）",
+                    "<32>{#p/basic}* 很难说里面到底有些什么。",
+                    ...(ghostpartyCondition()
+                       ? [
+                            "<32>{#p/mettaton}{#e/mettaton/8}* THERE'S PROBABLY NOTHING BUT GHOST FOOD IN THERE, DARLING.",
+                            "<32>{#p/mettaton}{#e/mettaton/9}* IF YOU TRIED TO EAT IT, IT'D JUST PHASE THROUGH YOU."
+                         ]
+                       : [])
+                 ],
+         () =>
+            SAVE.data.b.svr
+               ? [
+                    "<32>{#p/human}* (You inspect the fridge.)\n* (It doesn't seem like you can exactly see the contents.)"
+                 ]
+               : [
+                    "<32>{#p/human}* （你看了下冰箱里头。）",
+                    "<32>{#p/basic}* 很难说里面到底有些什么。"
+                 ]
+      ),
+      blookdate3: [
+         "<32>{#p/napstablook}* 这是一份幽灵三明治...",
+         "<32>* 你想尝尝吗...",
+         choicer.create("* （咬一口吗？）", "是", "否")
+      ],
+      blookdate4a: [
+         "<32>{#p/human}* （你试着咬了一口幽灵三明治。）",
+         "<32>{#p/human}* （你的身体穿过了它。）",
+         "<32>{#p/napstablook}* 哦...",
+         "<32>* 当做什么都没发生吧..."
+      ],
+      blookdate4b: [ "<32>{#p/napstablook}* 哦..........." ],
+      blookdate5: [
+         "<32>{#p/napstablook}* 美餐一顿后，\n  我喜欢躺在地上，\n  感觉自己像是垃圾一样...",
+         "<32>* 这是个家族传统...",
+         "<32>* 你想不想...\n* ...也来试试...？",
+         choicer.create("* （你要怎么回答？）", "是", "否")
+      ],
+      blookdate6a: [ "<32>{#p/napstablook}* 好...\n* 跟我来做..." ],
+      blookdate6b: [ "<32>{#p/napstablook}* 哦......................", "<32>* i'll just be outside then" ],
+      blookdate7: [
+         "<32>{#p/napstablook}* 我们开始吧...\n* 一直躺着不要动就好。",
+         "<32>* 所以...\n* 你要想起来了的话，\n  动起来就好，大概。"
+      ],
+      blookdate8: [ "<32>{#p/napstablook}* 嗨，感觉不错...", "<32>* 谢谢你..." ],
+      blookdate8x: [ "<32>{#p/napstablook}* well, that was fast......", "<32>* thanks for trying, though......" ],
+      blookdate8y: [ "<32>{#p/napstablook}* well, that was that", "<32>* ............" ],
+      blookdate9: [
+         "<32>{#p/napstablook}* 我先出去一下...\n* 你可以跟我来...\n* 不来也可以...",
+         "<32>* 由你来决定..."
+      ],
+      blookmusic0: [ "<32>{#p/basic}* It's out of service." ],
+      blookmusic1: () => [
+         SAVE.data.b.svr
+            ? "<32>{#p/human}* (You reach for the sound system...)"
+            : "<32>{#p/basic}* 现在没有播放音乐。",
+         choicer.create("* （放一首吗？）", "鬼怪旋律", "鬼怪音波", "鬼怪华尔兹", "取消")
+      ],
+      blookmusic1y: [ "<32>{*}{#p/human}* （你转动旋钮...）{^40}{%}" ],
+      blookmusic2: () => [
+         SAVE.data.b.svr
+            ? "<32>{#p/human}* (It sounds like a song is currently playing.)"
+            : [
+                 "<32>{#p/basic}* 正在播放《鬼怪旋律》",
+                 "<32>{#p/basic}* 正在播放《鬼怪音波》",
+                 "<32>{#p/basic}* 正在播放《鬼怪华尔兹》"
+              ][SAVE.data.n.state_foundry_blookmusic - 1],
+         choicer.create("* （停止播放吗？）", "是", "否")
+      ],
+      blookmusic3a: [
+         "<32>{#p/napstablook}* 哦...\n* 一首经典诡异单曲...",
+         "<32>* 他们现在已经不做\n  这种歌了..."
+      ],
+      blookmusic3b: [ "<32>{#p/napstablook}* 天，这氛围...", "<32>* 让我全身都开始颤抖" ],
+      blookmusic3c: [
+         "<32>{#p/napstablook}* 这首稍微有点慢...",
+         "<32>* 但一旦你听进状态，\n  就会感觉很好听"
+      ],
+      blookmusic3d: [
+         "<32>{#p/napstablook}* 嘿...\n* 你真的很喜欢听\n  那个旧歌单，嗯",
+         "<32>* 我是说......\n* 我从那次以后，\n  做了些更好的东西.....",
+         "<32>* 不过，我还是很感激",
+         "<32>* 所以... 谢谢你，嘿"
+      ],
+      blooksnail1: pager.create(
+         0,
+         [
+            "<32>{#p/napstablook}* 你想玩个游戏吗？\n* 它叫做“雷霆蜗牛”。",
+            "<32>* 几只蜗牛会赛跑，\n  然后如果黄色的蜗牛赢了，\n  你就赢了。",
+            "<32>* 玩一次需要10G。",
+            choicer.create("* （玩游戏吗？）", "是", "否")
+         ],
+         [ "<32>{#p/napstablook}* 你改变主意了吗？", choicer.create("* （玩游戏吗？）", "是", "否") ]
+      ),
+      blooksnail1i: [
+         "<32>{#p/napstablook}* 你想再玩一次吗？",
+         choicer.create("* （玩游戏吗？）", "是", "否")
+      ],
+      blooksnail2a: [
+         "<32>{#p/napstablook}* um...\n* you don't have enough money......",
+         "<32>* n-no, you can still play, don't worry about it..."
+      ],
+      blooksnail2b: [ "<32>{#p/napstablook}* 哦..........." ],
+      blooksnail2b0: [ "<32>{#p/napstablook}* 好吧..........." ],
+      blooksnail3: [ "<32>{#p/napstablook}* 好...\n* 重复按[Z]为你的蜗牛加油。", "<32>* 准备好了吗？" ],
+      blooksnail3i: [ "<32>{#p/napstablook}* 好的...\n* 记住，你随时可以为你的蜗牛\n  加油。", "<32>* 准备好了吗？" ],
+      blooksnail4a: [
+         "<32>{#p/napstablook}* 你赢了... 恭喜。",
+         "<32>* 希望奖励对你来说足够了...",
+         "<32>{#s/equip}{#p/human}* （你得到了20G。）"
+      ],
+      blooksnail4b: [
+         "<32>{#p/napstablook}* 你的蜗牛差一点点\n  就能赢了。",
+         "<32>* 等一下...\n* 蜗牛以为是自己赢了...",
+         "<32>* 哦不... 蜗牛会很伤心的...",
+         "<32>* 那么，我就给你一些钱吧...\n* 表现得像你赢了的样子...",
+         "<32>{#s/equip}{#p/human}* （你得到了40G。）"
+      ],
+      blooksnail4c: [
+         "<32>{#p/napstablook}* 哦...........\n* 你们都尽力了...",
+         "<32>* 那只蜗牛看起来很气馁...",
+         "<32>* 我觉得她应该还没有\n  发挥到最好...",
+         "<32>* 哦..........."
+      ],
+      blooksnail4d: [
+         "<32>{#p/napstablook}* 哦...........\n* 看起来你为你的蜗牛\n  加油有点过头了...",
+         "<32>* 你给她施加的压力...\n* 真的让它吃不消...",
+         "<32>* 哦..........."
+      ],
+      blooksnail4e: [
+         "<32>{#p/napstablook}* 哦...........\n* 看起来你为你的蜗牛\n  加油过头了...",
+         "<32>* 她甚至都不看你了...",
+         "<32>* 哦..........."
+      ],
+      blooksnail4f: [
+         "<32>{#p/napstablook}* 哦...........\n* 看起来你为你的蜗牛\n  加油实在太过头了...",
+         "<32>* 现在她... 直接消失了...",
+         "<32>* 哦..........."
+      ],
+      blooksnailX: {
+         a: "3...",
+         b: "2...",
+         c: "1...",
+         d: "开始!",
+         e: "比赛结束"
+      },
+      blooksorry1: [
+         "<32>{#p/napstablook}* ...？",
+         "<32>* you...\n* you're...",
+         "<32>* ... are you sure?",
+         choicer.create("* （你要怎么回答？）", "是", "否")
+      ],
+      blooksorry2: [
+         "<32>{#p/napstablook}* i...",
+         "<32>* i never thought you'd...",
+         "<32>* ... um...",
+         "<32>* ... are you absolutely sure?",
+         choicer.create("* （你要怎么回答？）", "是", "否")
+      ],
+      blooksorry3: [
+         "<32>{#p/napstablook}* you...",
+         "<32>* you really mean it, don't you?",
+         "<32>* ...\n* heh...",
+         "<32>* okay...",
+         "<32>* i'll try to forget about what you did before..."
+      ],
+      blooksorryX: [ "<32>{#p/napstablook}* 哦...........\n* ...........\n* ..........." ],
+      blooksorryY: [ "<32>{#p/napstablook}* ..." ],
+      blooktouch1: () =>
+         world.sad_ghost
+            ? [
+                 "<32>{#p/napstablook}* what do you want......",
+                 choicer.create("* （你要怎么回答？）", "Sorry", "放弃")
+              ]
+            : [
+                 "<32>{#p/napstablook}* 哦，你需要什么吗？",
+                 choicer.create("* （你要怎么回答？）", "拥抱", "睡觉", "音乐", "放弃")
+              ],
+      blooktouch2a1: [
+         "<32>{#p/napstablook}* 你... 想要...\n* 嗯...",
+         "<32>* 你想让我抱抱你？",
+         "<32>* 好...\n* 如果能让你开心的话...",
+         "<32>{#p/basic}* Napstablook试着抱了抱你。",
+         "<32>* 它直接穿过了你。",
+         "<32>{#p/napstablook}* 哦...........",
+         "<32>* 我感觉...........\n* 我做不到..........."
+      ],
+      blooktouch2a2: [
+         "<32>{#p/napstablook}* 你真的想要抱抱，\n  是吗...",
+         "<32>* 抱歉...\n* 我也希望我可以..."
+      ],
+      blooktouch2b1: [
+         "<32>{#p/napstablook}* 你想找个地方睡觉吗？",
+         "<32>* 嗯... 我这里其实没有床...",
+         "<32>* 嗯...",
+         "<32>* 去冰箱看看有没有吃的...",
+         "<32>* 吃完之后，我们就可以\n  在地上躺一躺...",
+         "<32>* 你到时候就知道了..."
+      ],
+      blooktouch2b2: [ "<32>{#p/napstablook}* 冰箱..." ],
+      blooktouch2c1: [
+         "<32>{#p/napstablook}* 如果你想听音乐，\n  我的音响里有一些...",
+         "<32>* 可以随便看看...\n* 不看也可以..."
+      ],
+      blooktouch2c2: [
+         "<32>{#p/napstablook}* 音响里的...\n* ...你不喜欢听吗...",
+         "<32>* 或许...\n* 我可以给你听一首\n  我还在做的歌曲...",
+         "<32>* 跟我平常的风格很不一样...",
+         "<32>* 你想听听吗？",
+         choicer.create("* （你要怎么回答？）", "是", "否")
+      ],
+      blooktouch2c2x: [
+         "<32>{#p/napstablook}* want to hear my new song?",
+         choicer.create("* （你要怎么回答？）", "是", "否")
+      ],
+      blooktouch2c3a: [ "<32>{#p/napstablook}* oh...\n* well, let me know if you change your mind..." ],
+      blooktouch2c3b: [ "<32>{#p/napstablook}* 好...\n* 让我播放一下..." ],
+      blooktouch2c4: [
+         "<32>{#p/napstablook}* 所以... 你感觉怎么样",
+         choicer.create("* （你要怎么回答？）", "好听", "不好听")
+      ],
+      blooktouch2c5a: [
+         "<32>{#p/napstablook}* 听起来... 还不错？",
+         "<32>* 哦-\n* 嗯... 谢谢你...",
+         "<32>* 等...\n* 等我做完之后我会告诉你的！"
+      ],
+      blooktouch2c5b: [ "<32>{#p/napstablook}* 哦.........\n* 你应该是对的........." ],
+      blooktouch2d1: [ "<32>{#p/napstablook}* sorry...\n* that's all the music i have for now..." ],
+      blooktouch2d2: [ "<32>{#p/napstablook}* sorry...\n* i'll try to make something better next time..." ],
+      blookyard1: pager.create(
+         0,
+         () =>
+            SAVE.storage.inventory.contents.includes('tvm_mewmew') // NO-TRANSLATE
+
+               ? [
+                    "<32>{#p/napstablook}* you can keep your mew mew doll",
+                    "<32>{#p/napstablook}* thanks for...\n* not being helpful, i guess"
+                 ]
+               : 65 <= SAVE.data.n.plot
+               ? SAVE.data.b.a_state_hapstablook
+                  ? 68 <= SAVE.data.n.plot
+                     ? [
+                          "<32>{#p/napstablook}* hey, mettaton came by a little while ago.",
+                          "<32>* we talked for a bit about what we've been up to...",
+                          "<32>* about the family...",
+                          "<32>* well, i don't think i've ever been this happy before.",
+                          "<32>* what you did for us back there... it means a lot."
+                       ]
+                     : [
+                          "<32>{#p/napstablook}* hey... sorry things didn't work out the way we hoped...",
+                          "<32>* it was nice to have you there, though......"
+                       ]
+                  : [
+                       "<32>{#p/napstablook}* with every day that goes by, i feel a little farther away from happiness......"
+                    ]
+               : 63 <= SAVE.data.n.plot && SAVE.data.b.a_state_hapstablook
+               ? [ "<32>* oh...\n* hey......", "<32>* i just came back here to keep an eye on the snails......" ]
+               : 60 <= SAVE.data.n.plot
+               ? [
+                    "<32>{#p/napstablook}* being a contestant on one of mettaton's shows was a dream come true...",
+                    "<32>* i wonder if i'll ever get to do it again"
+                 ]
+               : 49 <= SAVE.data.n.plot
+               ? [
+                    "<32>{#p/napstablook}* dang, you sure get around",
+                    "<32>* i mean...",
+                    "<32>* i guess i do too...",
+                    "<32>* but, i'm kind of incorporeal, so it's not that impressive for me"
+                 ]
+               : [
+                    "<32>{#p/napstablook}* 欢迎来到幽灵家族的\n  蜗牛农场...",
+                    "<32>* ...是的。\n* 我是这里唯一的员工。",
+                    ...(world.killed0
+                       ? [
+                            "<32>* hey, that's weird...",
+                            "<32>* my snails disappeared...",
+                            "<32>* maybe they were picked up by that guy with a beard..."
+                         ]
+                       : [
+                            "<32>* 这个地方原先生意\n  很红火的...",
+                            "<32>* 但有一天我们的主顾\n  突然不来了...",
+                            "<32>* 现在只有一个毛茸茸的家伙\n  会偶尔出现..."
+                         ])
+                 ],
+         () =>
+            SAVE.storage.inventory.contents.includes('tvm_mewmew') // NO-TRANSLATE
+
+               ? [ "<32>{#p/napstablook}* ............" ]
+               : 65 <= SAVE.data.n.plot
+               ? SAVE.data.b.a_state_hapstablook
+                  ? 68 <= SAVE.data.n.plot
+                     ? [ "<32>{#p/napstablook}* hopefully next time you won't have to risk your life." ]
+                     : [ "<32>{#p/napstablook}* it is what it is..." ]
+                  : [ "<32>{#p/napstablook}* it is what it is..." ]
+               : 63 <= SAVE.data.n.plot && SAVE.data.b.a_state_hapstablook
+               ? [ "<33>{#p/napstablook}* don't worry, they're alright...", "<32>* at least, i hope so......" ]
+               : 60 <= SAVE.data.n.plot
+               ? [ "<32>{#p/napstablook}* hopefully next time he's a little nicer to the contestants........." ]
+               : 49 <= SAVE.data.n.plot
+               ? [
+                    "<32>{#p/napstablook}* oh yeah, i saw you on that talent show earlier...",
+                    ...(SAVE.data.n.state_aerialis_talentfails === 0
+                       ? [
+                            "<32>{#p/napstablook}* that was quite a performance... you didn't even mess up once",
+                            "<32>* i don't think i've ever someone do that before......"
+                         ]
+                       : SAVE.data.n.state_aerialis_talentfails < 15
+                       ? [
+                            "<32>{#p/napstablook}* even if your performance wasn't perfect, you did pretty good",
+                            "<32>* most of mettaton's contestants don't even make it halfway...",
+                            "<32>* including me......"
+                         ]
+                       : [
+                            "<32>{#p/napstablook}* even if your performance wasn't the greatest, i could tell you were trying your best",
+                            "<32>* and besides, you made it to the end...",
+                            "<32>* unlike me......"
+                         ])
+                 ]
+               : world.killed0
+               ? [
+                    "<32>{#p/napstablook}* oh hey...\n* that rhymed, didn't it...",
+                    "<32>* i guess i could make a song about this... or not..."
+                 ]
+               : [
+                    "<32>{#p/napstablook}* a friend of mine recently told me it was the king...",
+                    "<32>* but that can't be true\n* he wouldn't even know me..."
+                 ],
+         () =>
+            SAVE.storage.inventory.contents.includes('tvm_mewmew') // NO-TRANSLATE
+
+               ? [ "<32>{#p/napstablook}* ............" ]
+               : 65 <= SAVE.data.n.plot
+               ? SAVE.data.b.a_state_hapstablook && 68 <= SAVE.data.n.plot
+                  ? [ "<32>{#p/napstablook}* i wish i had more to say..." ]
+                  : [ "<32>{#p/napstablook}* it is what it is..." ]
+               : 60 <= SAVE.data.n.plot
+               ? [ "<32>{#p/napstablook}* ........." ]
+               : 49 <= SAVE.data.n.plot
+               ? SAVE.data.n.state_aerialis_talentfails === 0
+                  ? [ "<32>{#p/napstablook}* congratulations, i guess" ]
+                  : [ "<32>{#p/napstablook}* ......" ]
+               : [ "<32>{#p/napstablook}* i wish i had more to say..." ]
+      ),
+      boots1: [ "<32>{#p/human}* （你捡到了一双悬浮靴。）", choicer.create("* （穿上悬浮靴吗？）", "是", "否") ],
+      boots2: [ "<32>{#p/human}* （你带的东西太多，装不下它了。）" ],
+      bruh: [ "<32>{*}{#p/undyne}* 等会见。{^20}{%}" ],
+      candy1: () =>
+         world.runaway || postSIGMA()
+            ? [ "<32>{#p/basic}* It's out of service." ]
+            : SAVE.data.b.svr
+            ? [
+                 "<32>{#p/human}* (You approach the vending machine.)",
+                 choicer.create("* （你想合成什么呢？）", "甘草糖", "Chisps", "口粮", "放弃")
+              ]
+            : [
+                 "<32>{#p/basic}* 要用这台机器合成什么呢？",
+                 choicer.create("* （你想合成什么呢？）", "甘草糖", "Chisps", "口粮", "放弃")
+              ],
+      candy2: [ "<32>{#p/human}* （你买了$(x)。）" ],
+      candy3: [ choicer.create(" * （花$(y)G来买$(x)吗？）", "是", "否") ],
+      candy4: [ "<32>{#p/human}* （你的钱不够。）" ],
+      candy5: [ "<32>{#p/human}* （你决定不买。）" ],
+      candy6: [ "<32>{#p/human}* （你带的东西太多了。）" ],
+      candy7: [ "<32>{#p/human}* （你打算什么也不合成。）" ],
+      deathReaction: {
+         f_bird: [ "<32>{#p/basic}* This small bird no longer wants to carry you across the gap." ],
+         
+         f_blooky: [
+            "<32>{#p/basic}{#npc/a}* Did you hear about Undyne?",
+            "<32>{#p/basic}{#npc/a}* Oh, not at all!",
+            "<32>{#p/basic}{#npc/a}* I heard she's doing well.",
+            "<32>{#p/basic}{#npc/a}* Sounds good to me!",
+            "<32>{#p/basic}{#npc/a}* Undyne will never die.",
+            "<32>{#p/basic}{#npc/a}* Indeed not!"
+         ],
+         f_dummy: [
+            "<32>{#p/basic}{#npc/a}* Fatal energy signature detected.",
+            "<32>* Name... Undyne.",
+            "<32>* Relationship status... \"BESTIES!!!\"",
+            "<32>* Last interaction... asked about humans.",
+            "<32>* Time to compensate for loss...",
+            "<32>* Indeterminate."
+         ],
+         f_hub: [
+            "<32>{#p/basic}{#npc/a}* Wh...\n* What've you done!?",
+            "<32>* Ole' Gerson's not gonna be a happy camper after that..."
+         ],
+         f_snail: () => [
+            "<32>{#p/basic}* ...",
+            SAVE.data.b.f_state_thundersnail_win
+               ? "<32>* I'll make sure you NEVER win another game of electrosnail."
+               : "<32>* I'll make sure you NEVER win a game of electrosnail."
+         ],
+         f_undyne: [
+            "<32>{#p/basic}* No.\n* No!\n* NO!!!",
+            "<32>* What. Have. You. DONE???",
+            "<32>* She was...",
+            "<32>* She was my FAVORITE bully!\n* How dare you take her away from me like that!?"
+         ]
+      },
+      dummy1x: () =>
+         SAVE.data.n.state_wastelands_dummy === 4
+            ? [
+                 "<32>{#p/basic}* Gah!\n* I just KNEW you were going to do that!!",
+                 "<32>* What an IMBECILE!!!\n* You just hugged someone with haphephobia!!!!",
+                 "<32>* Guooohh, you're gonna PAY."
+              ]
+            : [
+                 "<32>{#p/basic}* Gah!\n* Why would you EVER do that!?",
+                 "<32>* Don't you know who I am!?!?\n* You just hugged someone with haphephobia!!!!",
+                 "<32>* Guooohh, you're gonna PAY."
+              ],
+      dummy1a: () =>
+         SAVE.data.n.state_wastelands_dummy === 2
+            ? [ "<32>{#p/basic}* 呵。\n* 我就知道，你这懦夫\n  看到我指定得逃。", "<32>* 是不是啊，笨蛋？" ]
+            : [ "<32>{#p/basic}* 放肆！\n* 闯进我的地盘，\n  还把我当空气？", "<32>* 真是蠢到极点！" ],
+      dummy1b: () =>
+         SAVE.data.n.state_wastelands_dummy === 1
+            ? [ "<32>{#p/basic}* 看到我，吓破胆了？", "<32>* 你也就这点本事。" ]
+            : [ "<32>{#p/basic}* 放肆！\n* 闯进我的地盘，\n  还跟我大眼瞪小眼？", "<32>* 真是蠢到极点！" ],
+      dummy1c: () =>
+         SAVE.data.n.state_wastelands_dummy === 1
+            ? [ "<32>{#p/basic}* 我就知道，\n  不揍我两下你心都痒痒。", "<32>* 迂腐。\n* 迂腐！\n* 迂腐！！！" ]
+            : [
+                 "<32>{#p/basic}* 哎呀，看来你来这\n  可不只是想聊聊天。",
+                 "<32>* 不过，你那点小把戏\n  在我这屁用没有！\n* 看我不揍死你！"
+              ],
+      dummy2: () => [
+         "<32>{#p/basic}* 那群饭桶没杀了你，\n  因为他们少一样看家本领-\n  没！有！实！体！",
+         "<32>* 没错，人类！\n* 有了这个，我就能\n  所向披靡，天下无敌！",
+         "<32>* 我是一只住在人偶里的幽灵！",
+         "<32>* 我的表亲以前也住在一个人偶里，\n  直到...！",
+         ...(SAVE.data.n.state_wastelands_toriel === 0
+            ? [
+                 "<32>* 直到...！",
+                 "<32>* 直到...",
+                 "<32>{#x1}* ...额，它其实是自己离开的...",
+                 "<32>* 肯定是那位善良的女士\n  在外域给它找到了新家，\n  贴心照顾着它。",
+                 "<32>* 我的表亲说，\n  有个人类让那位女士感到幸福。",
+                 "<32>* 那个人类就是你，对吧？",
+                 "<32>* ...该死。\n* 你走吧，我不打你了..."
+              ]
+            : [
+                 "<32>* 直到你出现为止！！！",
+                 ...(16 <= SAVE.data.n.kills_wastelands
+                    ? [
+                         "<32>* 你的所作所为\n  不光害它离开了自己的家...",
+                         "<32>* 还把它的邻居全吓跑了！",
+                         "<32>* 可恶。\n* 可恶！\n* 可恶！！！",
+                         "<32>{#x1}* 你个败类，人渣，废物！\n* 我快要气死了啊啊啊！！！",
+                         "<32>* 呀啊啊啊啊啊啊！！！\n* 我的人偶能量快要爆发了！！！"
+                      ]
+                    : SAVE.data.n.state_wastelands_dummy === 3
+                    ? [
+                         "<32>* YOU... you...",
+                         "<32>* Shucks!\n* You were really boring!",
+                         "<32>* They got annoyed and flew away like any self-respecting spectre.",
+                         "<32>* Well then.\n* Well then!\n* WELL THEN!",
+                         "<32>* I guess I'll just have to entertain MYSELF!",
+                         "<32>* Buckle up, sleepyhead!\n* It's time to put on a show!"
+                      ]
+                    : SAVE.data.n.state_wastelands_dummy === 4
+                    ? [
+                         "<32>* YOU... you...",
+                         "<32>* 该死，喜欢当老好人是吧？",
+                         "<32>* 自己当老好人不要紧，\n  还让我表亲染上抱瘾，\n  总想拥抱，戒不掉了！！！",
+                         "<32>* 它丢掉了原本的身体，\n  每次发作时，就找我发泄自己的欲望。",
+                         "<32>* 它明知道我患有接触恐惧症，\n  还疯了似的骚扰我。\n  我快被它烦死了！！！",
+                         "<32>* 人类，我要让你付出代价！"
+                      ]
+                    : [
+                         ...(SAVE.data.n.state_wastelands_dummy === 0
+                            ? [
+                                 "<32>* 当你和它聊天的时候，\n  它本来希望能好好聊聊...",
+                                 "<32>* 但看看你都说了些什么...！",
+                                 "<32>* 真是可怕。\n* 叫人震惊！\n* 难以置信！",
+                                 "<32>* 你把他从人偶里\n  吓了出来！",
+                                 "<32>* 呃啊啊..."
+                              ]
+                            : SAVE.data.n.state_wastelands_dummy === 1
+                            ? [
+                                 "<32>* Us ghosts spend our whole lives looking for a proper vessel.",
+                                 "<32>* Slowly, slowly, we grow closer to our new bodies, until one day...",
+                                 "<32>* We too maybe become corporeal beings, able to laugh, love, and dance like any other.",
+                                 "<32>* But YOU!!!\n* My cousin's future...\n* You snatched it all away!",
+                                 "<32>* Uraaahhhhh!!!"
+                              ]
+                            : SAVE.data.n.state_wastelands_dummy === 2
+                            ? [
+                                 "<32>* They were a shy sort.\n* Living a lonely life in the Outlands...",
+                                 "<32>* They saw you and HOPED you might TALK to them.",
+                                 "<32>* But NO!\n* You ran away!",
+                                 "<32>* Pathetic.\n* Pathetic!\n* PATHETIC!!!",
+                                 "<32>* Nobody breaks my cousin's HEART and GETS AWAY with it!"
+                              ]
+                            : SAVE.data.n.state_wastelands_dummy === 5
+                            ? [
+                                 "<32>* When you first showed up, they were so excited to talk...",
+                                 "<32>* And then you went and SLAPPED them in the FACE!",
+                                 "<32>* Not just once.\n* Not just twice!",
+                                 "<32>* But THREE TIMES!!",
+                                 "<32>* How AWFUL do you have to BE!?"
+                              ]
+                            : SAVE.data.n.state_wastelands_dummy === 6
+                            ? [
+                                 "<32>* My cousin is a nice fellow.",
+                                 "<32>* But that doesn't mean you can just GO AROUND and FLIRT with them!",
+                                 "<32>* Your stupid advances weirded them out SO MUCH...",
+                                 "<32>* ... they just couldn't take it anymore!!",
+                                 "<32>* Disgusting.\n* Disgusting!\n* DISGUSTING!!!"
+                              ]
+                            : []),
+                         "<32>* 你会为此而死的，人类！！！！"
+                      ])
+              ])
+      ],
+      dummy3: [
+         "<32>{#p/basic}* ...？",
+         "<32>* 这...\n* 这种感觉...？",
+         "<32>{#x3}* 明白了。\n* 明白了！\n* 明白了！！！",
+         "<32>* 人类。\n* 刚刚我那彻底失控的情绪...",
+         "<32>* 让我终于可以完美地\n  和我的身体融为一体啦！",
+         "<32>* 我是有血有肉的存在了！\n* 我... 我不是在做梦吧？\n* 这是真的吗？？？",
+         "<32>* 作为报答，\n  我不会再攻击你啦。",
+         "<32>* 怎么样？"
+      ],
+      dummy4: (mover: boolean) => [
+         ...(mover
+            ? [
+                 SAVE.data.n.state_foundry_maddummy === 1
+                    ? "<32>{#p/napstablook}* hey...\n* i thought i heard someone being attacked..."
+                    : "<32>{#p/napstablook}* hey...\n* i thought i heard someone yelling...",
+                 "<32>{#p/napstablook}* but i guess you're alright",
+                 "<32>* i was actually about to head home..."
+              ]
+            : [ "<32>{#p/napstablook}* 嗯...\n* 我现在要回家了..." ]),
+         ...(world.sad_ghost || world.population === 0
+            ? [
+                 "<32>* just warning you...",
+                 "<32>* so you don't accidentally follow me to my house...",
+                 "<32>* you probably wouldn't like that..."
+              ]
+            : [
+                 "<32>* 所以... 嗯...\n* 如果你想“附”约的话...\n  随时都可以...",
+                 "<32>* 但别有压力...",
+                 "<32>* 如果你忙，我能理解...",
+                 "<32>* 没关系的...",
+                 "<32>* 不用担心...",
+                 "<32>* 只是想说我先邀请一下..."
+              ])
+      ],
+      dummypunch1: () =>
+         SAVE.data.b.oops
+            ? [
+                 "<32>{#p/basic}* 一个训练人偶。\n* 教训教训它吗？",
+                 choicer.create("* （动手吗？）", "是", "否")
+              ]
+            : [ "<32>{#p/basic}* It's a training dummy.\n* Hug it?", choicer.create("* (Hug the dummy?)", "是", "否") ],
+      dummypunch2a: [ "<32>{#p/human}* （你打算不这么做。）" ],
+      dummypunch2b: () =>
+         world.genocide || world.meanie
+            ? [ "<32>{#p/human}* （你使劲揍了人偶一拳。）" ]
+            : SAVE.data.n.exp > 0
+            ? [ "<32>{#p/human}* （你给人偶来了一拳。）" ]
+            : SAVE.data.b.oops
+            ? [ "<32>{#p/human}* （...你只是戳了戳人偶。）" ]
+            : [ "<32>{#p/human}* (You hugged the dummy.)" ],
+      dummypunch3: () =>
+         SAVE.data.b.f_state_dummypunch
+            ? [ "<32>{#p/basic}* 人偶被你教训了一顿。" ]
+            : [ "<32>{#p/basic}* It's a happy hugging dummy." ],
+      epicreaction: () =>
+         [
+            [ "<25>{#p/kidd}{#f/7}* 那是什么！？" ],
+            [ "<25>{#p/kidd}{#f/7}* 呃啊！！" ],
+            [ "<25>{#p/kidd}{#f/7}* 别再来了啊！" ],
+            [ "<25>{#p/kidd}{#f/7}* 那东西到底有多少啊！" ],
+            [ "<25>{#p/kidd}{#f/7}* 认真的吗！？" ],
+            [ "<25>{#p/kidd}{#f/7}* 天啊！！" ],
+            [ "<25>{#p/kidd}{#f/4}* 我们得想办法\n  从这里出去..." ],
+            [ "<25>{#p/kidd}{#f/4}* ..." ]
+         ][Math.min(SAVE.data.n.state_foundry_kiddreaction++, 7)],
+      fallenfish: [ "<33>{#p/basic}* Electricity permeates the body." ],
+      fallenfish2: [ "<32>{#p/basic}* She's fallen down." ],
+      fallenfish3: [ "<32>{#p/basic}* ... but nothing happened." ],
+      finalfish1: [ "<25>{#p/undyne}{#f/19}* Ngah..." ],
+      finalfish2: [ "<25>{#p/undyne}{#f/19}* Stupid...\n* Interference..." ],
+      finalpre: [ choicer.create("* (Continue to Aerialis?)", "是", "否") ],
+      genotext: {
+         asgoreFinal1: () =>
+            SAVE.flag.n.genocide_milestone < 5
+               ? SAVE.flag.n.ga_asrielStutter < 1
+                  ? [
+                       "<25>{#p/asgore}{#f/15}* 你到底还是选择\n  与他为伍啊...",
+                       "<25>{#p/asriel2}{#f/7}* Asgore，谁都不能分割\n  我和$(name)之间的纽带。\n* 你不是不知道。",
+                       "<25>{#p/asgore}{#f/15}* $(name)... 当-当然了。\n* 那... 你-你们带着那个孩子\n  在干什么呢？",
+                       "<25>{#p/asriel2}{#f/8}* 真是的，关你什么事。",
+                       "<25>{#p/asgore}{#f/15}* （呃... 我早该料到的...）",
+                       "<25>{#p/asriel2}{#f/6}* 不过呢，总的来说...\n* 我们只是在这旅行。",
+                       "<25>{#f/6}* 就我们三个。\n* 哎呀，我们没邀请你呢，\n  意不意外。",
+                       "<25>{#p/asgore}{#f/15}* 你看我-我像是\n  想受你邀请的样子吗？？",
+                       "<25>{#p/asriel2}{#f/6}* 你说呢？",
+                       "<25>{#p/asgore}{#f/15}* 呃，我只是想看看\n  你怎么样了。\n* 没别的。",
+                       "<26>{#p/asriel2}{#f/10}{#x1}* ...\n* 不对劲。",
+                       "<25>{#p/asriel2}{#f/10}* Alphys博士？\n* ...是你吧？"
+                    ]
+                  : [
+                       "<25>{#p/asgore}{#f/15}* 你到底还是选择\n  与他为伍啊...",
+                       "<25>{#p/asriel2}{#f/8}* ALPHYS，没人能分割\n  我和$(name)间的纽带。",
+                       "<25>{#p/asriel2}{#f/7}* 不过你对这事完全没数吧。"
+                    ]
+               : [
+                    "<25>{#p/asgore}{#f/15}* 你到底还是选择\n  与他为伍啊...",
+                    "<25>{#p/asriel2}{#f/8}* ALPHYS，没人能分割\n  我和$(name)间的纽带。",
+                    ...(SAVE.flag.n.ga_asrielQuestion < 1
+                       ? [ "<25>{#p/asriel2}{#f/7}* Like I don't already know you're planning to kill us." ]
+                       : [ "<25>{#p/asriel2}{#f/7}* 真以为你能阻止我们？" ])
+                 ],
+         asgoreFinal2: () =>
+            SAVE.flag.n.genocide_milestone < 5
+               ? [
+                    "<25>{#p/alphys}{#g/alphysThatSucks}* ...骗不过你，嗯？",
+                    "<25>{#p/asriel2}{#f/3}* 的确。",
+                    "<25>{#p/alphys}{#g/alphysGarbo}* ...\n* 倒还算说了句实话。",
+                    "<25>{#p/asriel2}{#f/13}* 看着好友死去，\n  你肯定急疯了...",
+                    "<25>{#p/asriel2}{#f/16}* 没法和你感同身受呢。",
+                    "<25>{#p/alphys}{#g/alphysIDK}* ...",
+                    "<25>{#p/alphys}{#g/alphysNeutralSweat}* ...",
+                    "<25>{#p/alphys}{#g/alphysNeutralSweat}* 这主意糟透了。",
+                    "<25>{|}{#p/asriel2}{#f/8}* 你不会又想- {%}"
+                 ]
+               : [
+                    "<25>{#p/alphys}{#g/alphysOhGodNo}* 你说什么？",
+                    "<25>* 我...\n* 面对你，我-我哪来的胜算！",
+                    ...(SAVE.flag.n.ga_asrielQuestion < 1
+                       ? [ "<25>{#p/asriel2}{#f/10}* ...当真？", "<25>{#p/alphys}{#g/alphysIDK}* ..." ]
+                       : [ "<25>{#p/asriel2}{#f/7}* ..." ]),
+                    "<25>{#p/alphys}{#g/alphysNeutralSweat}* ...",
+                    "<25>{#p/alphys}{#g/alphysNeutralSweat}* 这主意糟透了。"
+                 ],
+         asgoreFinal3: () =>
+            SAVE.flag.n.genocide_milestone < 5
+               ? [ "<25>{#p/asriel2}{#f/7}* 真是个胆小鬼。" ]
+               : [
+                    [ "<25>{#p/asriel2}{#f/15}* 呵... 看来我话说太早了。" ],
+                    [ "<25>{#p/asriel2}{#f/15}* 行吧。" ]
+                 ][Math.min(SAVE.flag.n.ga_asrielQuestion++, 1)],
+         asgoreMK1: [
+            "<25>{#p/kidd}{#f/7}* 哇，那是...\n  我在做梦吧...",
+            "<25>{#f/1}* 真的是国王欸！",
+            "<25>* Asgore国王！\n* 您来这做啥呢！？",
+            "<25>{#p/asgore}{#f/3}* ...",
+            "<25>{#f/3}* 这事... 说来话长啊。",
+            "<25>{#p/kidd}{#f/4}* 噢...",
+            "<25>{#f/1}* 没事，您跟我说说吧！",
+            "<25>{#p/asgore}{#f/7}* 呃...\n* 对不起，我不能说。",
+            "<25>{#f/6}* 不过，我有个事想问你。",
+            "<25>{#p/kidd}{#f/3}* ...？",
+            "<25>{#p/asgore}{#f/7}* 这个人类是你的好朋友吗？",
+            "<25>{#p/kidd}{#f/1}* 嗯... 对呀！",
+            "<25>{#f/4}* 可是，之前跟我们在一块的\n  另一个小孩...",
+            "<25>{#f/8}* ...我很害怕他。",
+            "<25>{#p/asgore}{#f/1}* 看来就是他了。\n* 都是因为他...",
+            "<25>{#p/kidd}{#f/4}* 怎么了？",
+            "<25>{#p/asgore}{#f/6}* 呃... 没事。\n* 我不该拿这事打搅你的。",
+            "<25>{#f/3}* 而你，人类...",
+            "<25>{#f/2}* 你和离开的那位“朋友”\n  闯了不少祸。",
+            "<25>{#f/1}* 许许多多怪物都...\n  哎，你知道我要说什么。",
+            "<25>{#p/kidd}{#f/4}* ...到底怎么了？",
+            "<25>{#p/asgore}{#f/7}* 没事，没事。\n* 我只是觉得...",
+            "<25>{#f/5}* 相比... 我刚说的，\n  你还可以做点更有意义的事。",
+            "<25>{#f/5}* 说不上来为什么，不过...\n  也许Papyrus没说错。",
+            "<25>{#f/6}* 既然你的“朋友”\n  已经抛下了你...",
+            "<25>* 那你就有机会重新来过了。",
+            "<25>{#p/kidd}{#f/1}* 我会帮忙的！",
+            "<25>{#p/asgore}{#f/6}* 哈哈，小家伙，\n  说不定你真能帮上忙。\n* 真说不定呢。",
+            "<25>{#f/5}* 我们上次见面之后，\n  我就努力在想... \n  这一切究竟是怎么回事。",
+            "<25>{#f/2}* 真的不想承认，可...\n* 他实在陷得太深了。",
+            "<25>{#f/2}* 我的儿子...\n  再也回不来了。",
+            "<25>{#p/kidd}{#f/4}* 你们聊吧，我先不插嘴了...",
+            "<25>{#p/asgore}{#f/1}* 没关系，没关系。\n  我快说完了。",
+            "<25>{#f/1}* 人类，我刚说的话\n  往心里去吧。",
+            "<25>{#f/1}* 这我唯一的请求了。"
+         ],
+         asgoreMK2: [
+            "<25>{#p/kidd}{#f/2}* 哇... 他好厉害！",
+            "<25>{#f/1}* 之前听别人说过国王的演讲。\n  但亲眼见到，真的酷毙了！",
+            "<25>{#f/3}* 他要是我爹该多好啊..."
+         ],
+         asriel32: [
+            "<25>{#p/asgore}{#f/15}* ...",
+            "<25>{#f/16}* 看来我的话\n  你一个字都没听进去。",
+            "<25>{#p/asriel2}{#f/3}* 那肯定的。",
+            "<25>{#p/asgore}{#f/1}* ...",
+            "<25>{#f/16}* 你知道吗...\n  有件事一直困扰着我。",
+            "<25>{#f/16}* 现在你不认我这个爹，\n  可你就是我的儿子啊...",
+            "<25>{#f/15}* 尽管那是很久以前的事了。",
+            "<25>{#p/asriel2}{#f/10}* 你到底想说啥？",
+            "<25>{#p/asgore}{#f/12}* ...",
+            "<25>{#p/asgore}{#f/12}* 唉... 究竟怎么了？",
+            "<25>{#f/12}* 为什么... 我面前的这个你... \n  看着这么陌生？",
+            "<26>{#p/asriel2}{#f/6}* 你真想知道吗？",
+            "<26>{#p/asgore}{#f/7}* ...",
+            "<26>{#p/asriel2}{#f/7}* 说实话。",
+            "<26>{#p/asgore}{#f/1}* ...\n* 呃，不...\n* 我不太确定...",
+            "<26>{#p/asriel2}{#f/8}* 切。\n* 这怂样，才像我认识的\n  Asgore嘛。",
+            "<26>{#f/6}* 只会装作啥～事儿\n  都没有的样子，\n* 我说得没错吧？",
+            "<26>{#f/7}* 老东西，你猜怎么着？\n* 现在想亡羊补牢，已经晚喽。",
+            "<26>{#f/8}* （要不是你拿这该死的\n  全息影像糊弄我，现在就可以\n  好好“开导开导”你。）",
+            "<26>{#p/asgore}{#f/12}* ...",
+            "<26>{#p/asriel2}{#f/8}* ...",
+            "<26>{#p/asgore}{#f/15}* 你知道吗？我常常在想...\n  自己为何沦落到如此地步。",
+            "<25>{#f/16}* 家园被毁，爱子离去，\n  只能被束缚在这片土地之上...",
+            "<25>{#f/15}* 如今，前哨站危在旦夕，\n  我却只能眼睁睁地看着。",
+            "<25>{#p/asriel2}{#f/15}* 您老这是在向我寻求\n  独到见解吗？\n* 真是可悲...",
+            "<25>{#f/16}* 就让我给你个小小的忠告吧：\n* 下辈子，别再挑起战争了。",
+            "<25>{#p/asgore}{#f/2}* ...",
+            "<25>{#f/4}* 你...",
+            "<25>{#f/2}* ...",
+            "<25>{#f/6}* Asriel，你猜怎么着？\n* 我想通了。",
+            "<25>{#f/7}* 你说的都对。",
+            "<25>{#f/5}* 跟你讲理，完全是浪费时间。",
+            "<25>{#p/asriel2}{#f/15}* ...哇。\n* 您可终于开窍了。",
+            "<25>{#f/16}* 真令我刮目相看啊。",
+            "<25>{#p/asgore}{#f/1}* ...",
+            "<25>{#p/asriel2}{#f/10}* 然后呢？\n* 这位英明的国王\n  要怎么行动呢？",
+            "<25>{#p/asgore}{#f/15}* 你认真的？",
+            "<25>{#f/15}* ...",
+            "<25>{#f/16}* 我不知道，Asriel。"
+         ],
+         asriel33: [ "<25>{#p/asriel2}{#f/10}* ...他这是要发火了？" ],
+         
+         asriel34: [
+            "<25>{#p/asriel2}{#f/3}* 我去处理点事，\n  你俩先作个伴。",
+            "<25>{#p/kidd}{#f/3}* 你一会还回来吗？\n* 还想听你讲更多\n  Undyne 的轶事呢...",
+            "<25>{#p/asriel2}{#f/4}* 说到做到。",
+            "<25>{#f/1}* 别担心，我去去就回。",
+            "<25>{#p/kidd}{#f/4}* 好吧..."
+         ],
+         asriel34x: [ "<25>{#p/asriel2}{#f/3}* 停一下。" ],
+         asriel35: () =>
+            SAVE.flag.n.undying > 0
+               ? [
+                    [
+                       "<25>{#p/asriel2}{#f/6}* Well, here we are again, $(name).",
+                       "<25>{#f/7}* ... look, I know Undyne won't die when the kid attacks her.",
+                       "<25>{#f/15}* From what I can see, though, it's our best way forward for now.",
+                       "<25>{#f/16}* Let's just stick to the script, okay?"
+                    ],
+                    []
+                 ][Math.min(SAVE.flag.n.ga_asrielUndying++, 1)]
+               : [
+                    [
+                       "<25>{#p/asriel2}{#f/1}* 哈喽，$(name)。",
+                       "<25>{#f/13}* 想我了没？",
+                       "<25>{#f/4}* 唉，对不起。\n* 刚才我有事得办，\n  又把你抛下了。",
+                       "<25>{#f/3}* 不过我可没空手而归。",
+                       "<25>{#f/13}* $(name)，我看到你那小伙伴\n  和你告别了...",
+                       "<25>{#f/16}* 我想，你肯定\n  感觉老～孤单了。\n  没说错吧？"
+                    ],
+                    []
+                 ][Math.min(SAVE.flag.n.ga_asriel35++, 1)],
+         asriel37: () => [
+            "<25>{#p/asriel2}{#f/1}* 所以呢...\n  我把他请回来了！",
+            "<25>{#f/17}* 不管我们想做啥，\n  你都会帮忙的，对吧？",
+            "<25>{#p/kidd}{#f/9}* 嗯..."
+         ],
+         asriel38: () => [
+            ...[
+               [
+                  
+                  "<25>{#p/asriel2}{#f/17}* 唔，不错吧？",
+                  "<25>{#f/16}* 你要知道，\n  这小家伙可不好管。",
+                  ...(SAVE.data.n.state_foundry_muffet === 1
+                     ? [
+                          "<25>{#f/15}* 他总说他想被遗忘...",
+                          "<25>{#f/10}* 天呐，$(name)。\n* 我不在的时候，\n  你对他干了些什么啊？"
+                       ]
+                     : [
+                          "<25>{#f/15}* 他一直问我你去哪了...",
+                          "<25>{#f/10}* 天呐，$(name)。\n* 我不在的时候，\n  你俩一起干了些啥啊？"
+                       ]),
+                  "<25>{#f/3}* 呃，不用回答我。\n* 反正他回来了，\n  过去的事不重要。"
+               ],
+               [ "<25>{#p/asriel2}{#f/3}* Well, at least that's outta the way now." ]
+            ][Math.min(SAVE.flag.n.ga_asriel38++, 1)]
+         ],
+         asriel39: [
+            "<25>{#p/asriel2}{#f/8}* 等等。\n* 小家伙，能帮我个忙吗？",
+            "<25>{#p/kidd}{#f/9}* ...？",
+            "<25>{#p/asriel2}{#f/6}* 解开这个谜题。"
+         ],
+         asriel40: () =>
+            SAVE.flag.n.ga_asriel40++ < 1
+               ? [
+                    "<25>{#p/asriel2}{#f/10}* 完活了？\n* 天呐，这么快...",
+                    "<25>{#f/3}* 看看呐，$(name)。\n  有些怪物总是为情感所困。",
+                    "<25>{#f/16}* 像什么希望，恐惧，同理心...\n  只能葬送他们的潜能，毫无价值。",
+                    "<25>{#f/15}* Imagine how much better they'd be if they were all like this."
+                 ]
+               : [ "<25>{#p/asriel2}{#f/4}* Right on schedule." ],
+         asriel41: [ "<25>{#p/asriel2}{#f/3}* 回来吧，小家伙。" ],
+         asriel42: [ "<25>{#p/asriel2}{#f/4}* If we keep this up, we'll be over and done with in no time." ],
+         asriel43: () =>
+            [
+               [
+                  "<25>{#p/asriel2}{#f/16}* $(name)，结束了...",
+                  "<25>{#f/3}* 我们做到了。",
+                  "<25>{#f/2}* 皇家卫队的队长...",
+                  "<25>{#f/15}* 不会真觉得她有胜算吧？",
+                  SAVE.flag.n.undying > 2
+                     ? "<25>{#f/8}* 她的确逼我们\n  回溯了几次时间线..."
+                     : SAVE.flag.n.undying > 1
+                     ? "<25>{#f/8}* 她的确逼我们\n  回溯了一次时间线..."
+                     : "<25>{#f/8}* 敢和我们对着干，她的确很英勇...",
+                  "<25>{#f/7}* 不过嘛，你我都清楚，\n  她最终落得个什么下场。"
+               ],
+               [
+                  "<25>{#p/asriel2}{#f/3}* ...这趟胜利的滋味，\n  要是能有第一次\n  那般甘甜就好了。",
+                  "<25>{#f/4}* 唉，好吧。"
+               ],
+               [ "<25>{#p/asriel2}{#f/6}* Killing Undyne is quickly becoming our hobby." ],
+               [ "<25>{#p/asriel2}{#f/6}* ..." ]
+            ][Math.min(SAVE.flag.n.ga_asriel43++, 3)],
+         asriel44: [ "<25>{#p/asriel2}{#f/13}* Uh, you can take the lead, $(name)." ],
+         asriel45: [
+            "<25>{#p/asriel2}{#f/13}* Well, well, well...{%40}",
+            "<25>{#f/16}* I can't express how grateful I am for all your help.{%40}",
+            "<25>{#f/1}* This body might not be perfect, but for what it's worth...?{%40}",
+            "<25>{#f/2}* I won't miss being a stupid talking star.{%40}"
+         ],
+         asrielHug1: [ "<25>{#p/asriel2}{#f/13}* ..." ],
+         asrielHug2: [ "<25>{*}{#p/asriel2}{#f/13}* $(name)...{^100}{%}" ],
+         asrielHug3: [ "<25>{#p/asriel2}{#f/13}* 呃...\n* 谢谢你，$(name)。" ],
+         bombshell1: [
+            "<32>{*}{#p/alphys}* 会说话的... 星星...？",
+            "<32>{*}* 但那个实验...\n  不-不是失败了吗...",
+            "<32>{*}* 莫非..."
+         ],
+         bombshell2: [ "<32>{*}* 不...", "<32>{*}{@random=1.1/1.1}* 不..." ],
+         bombshell3: [
+            "<32>{*}{@random=1.1/1.1}* Toriel...\n* Sans...\n* Papyrus...",
+            "<32>{*}{@random=1.1/1.1}* Undyne...",
+            "<32>{*}{@random=1.1/1.1}* 都-都怪我...",
+            "<32>{*}{@random=1.1/1.1}{#i/4}* 啊... 天-天呐..."
+         ],
+         bombshell4: [ "<32>{*}{@random=1.1/1.1}{#i/5}* 是我害死了你们..." ],
+         kidd1: [
+            "<25>{#p/kidd}{#f/4}* 他叫你什么来着？\n* $(name)... 是吧？",
+            "<25>{#f/3}* 好，$(name)。\n  这话可别告诉他哦，\n  跟他在一块...",
+            "<25>{#f/4}* 我觉得很不自在。"
+         ],
+         kiddFinal1: [
+            "<25>{#p/kidd}{#f/11}* ...！",
+            "<25>{#p/asriel2}{#f/5}* 我就知道。\n* 看到Undyne你很激动吧？",
+            "<25>{#p/kidd}{#f/9}* ...",
+            "<25>{|}{#f/12}* 我没有- {%}",
+            "<25>{#p/asriel2}{#f/4}* 不用说了。\n* 没关系的。",
+            "<25>{#p/asriel2}{#f/3}* 别忘了我们来干嘛的就好。"
+         ],
+         kiddFinal2: () => [
+            "<25>{#p/kidd}{#f/9}* Undyne...",
+            "<25>{#p/asriel2}{#f/10}* ...？",
+            "<25>{#f/6}* 我猜... 你还有顾虑？",
+            "<25>{|}{#p/kidd}{#f/12}* 对不起，我- {%}",
+            "<25>{#p/asriel2}{#f/13}* Undyne, schmundyne...\n* She's not the hero you take her for.",
+            "<25>{#p/asriel2}{#f/4}* 不... 我是说真英雄\n  可都是些会动脑子的人。",
+            SAVE.flag.n.genocide_milestone < 5
+               ? SAVE.flag.n.ga_asrielKiddFinal1++ < 1
+                  ? "<26>{#f/15}* 比如...\n* 呃，不像她的人。"
+                  : "<25>{#f/15}* 她可算不上。"
+               : "<26>{#f/3}* 比如Alphys。",
+            "<25>{#p/kidd}{#f/12}* 她... 真的..."
+         ],
+         kiddFinal3: () => [
+            "<25>{#p/kidd}{#f/10}* ...",
+            "<25>{#f/10}* Undyne不会死的。",
+            "<25>* 就算让我去，她...",
+            "<25>* She'll be fine.\n* She'll be strong...",
+            ...(SAVE.flag.n.ga_asrielKiddFinal3a < 1
+               ? [ "<25>{#p/asriel2}{#f/8}* （对，尽管说，好让你好受点...）" ]
+               : []),
+            "<25>{#p/kidd}{#f/9}* 因为...\n* 她... 比其他怪物都强...",
+            "<25>{#f/12}* 她充满了{@fill=#ff0}决心{@fill=#fff}...",
+            ...(SAVE.flag.n.ga_asrielKiddFinal3a++ < 1
+               ? [ "<25>{#p/asriel2}{#f/10}* 呃... 没事吧？\n* （我的天，这小家伙\n  说什么胡话呢？）" ]
+               : SAVE.flag.n.undying > 0 && SAVE.flag.n.ga_asrielKiddFinal3b++ < 1
+               ? [ "<25>{#p/asriel2}{#f/8}* （他怎么知道？）" ]
+               : [ "<25>{#p/asriel2}{#f/10}* ..." ])
+         ],
+         kiddFinal4: [ "<32>{#p/asriel2}{#f/6}* 她在那。" ],
+         kiddFinal5: [ "<32>{#f/6}* 给我上。", "<32>{#f/7}* ..." ],
+         kiddFinal6: [ "<32>{*}{#p/asriel2}{#f/14}{@random=1.1/1.1}{@fill=#f00}* 还不快去。{%100}" ],
+         kiddFinal7: [
+            "<25>{#p/kidd}{#f/12}* ...",
+            "<25>{#p/undyne}{#f/13}* 搞什么？\n* 你来这干嘛！？",
+            "<25>{|}{#f/13}* 还有，你眼睛怎么- {%}"
+         ]
+      },
+      goatreaction: () =>
+         [
+            [ "<25>{#p/asriel2}{#f/15}* 小心点，$(name)。" ],
+            [ "<25>{#p/asriel2}{#f/15}* $(name)..." ],
+            [ "<25>{#p/asriel2}{#f/15}* 开玩笑吗？" ],
+            [ "<25>{#p/asriel2}{#f/15}* 我们可不想死在这，\n  $(name)..." ],
+            [ "<25>{#p/asriel2}{#f/16}* 我有点担心了。" ],
+            [ "<25>{#p/asriel2}{#f/8}* 你是眼瞎还是有什么毛病？" ],
+            [ "<25>{#p/asriel2}{#f/7}* 别闹了！" ],
+            [ "<25>{#p/asriel2}{#f/7}* ..." ]
+         ][Math.min(SAVE.flag.n.ga_asrielEpic++, 7)],
+      hapstadoor1: () =>
+         SAVE.data.b.svr ? [ "<32>{#p/human}* (But you didn't have the key.)" ] : [ "<32>{#p/basic}* 锁住了。" ],
+      hapstadoor2: [ "<32>{#p/human}* (You use the Mystery Key.)" ],
+      jumpsuit1: [
+         "<32>{#p/human}* （你捡到了一件飞行服。）",
+         choicer.create("* （穿上飞行服吗？）", "是", "否")
+      ],
+      jumpsuit2: [ "<32>{#p/human}* （你带的东西太多，装不下它了。）" ],
+      kiddStatue: [
+         "<25>{#p/kidd}{#f/1}* 哟，我记得这个地方！",
+         "<25>{#f/3}* 我，呃，我妈妈带我\n  来过一次，哈哈。",
+         "<25>{#f/1}* 如果我们一人站在一边的\n  开关上，灯就会亮起来。\n* 很厉害吧！？"
+      ],
+      kitchencall: () => [
+         "<32>{#p/event}* 铃铃，铃铃...",
+         "<18>{#p/papyrus}HUMAN!\nI WAS THINKING.",
+         ...(SAVE.data.n.plot_date < 1
+            ? [
+                 SAVE.data.b.flirt_papyrus
+                    ? "<18>WE SHOULD TOTALLY DATE SOMETIME!"
+                    : "<18>WE SHOULD TOTALLY HANG OUT SOMETIME!",
+                 "<18>{#f/5}AND BESIDES... I HAVEN'T SEEN YOU IN A WHILE.",
+                 "<18>{#f/0}IT'LL BE GOOD TO CATCH UP!",
+                 "<18>{#f/0}WELL, MEET ME AT MY HOUSE WHEN YOU'RE READY."
+              ]
+            : [
+                 "<18>SO, YOU KNOW HOW WE SPENT TIME TOGETHER?",
+                 "<18>{#f/5}WELL... I THINK UNDYNE NEEDS TO DO THE SAME.",
+                 "<18>{#f/4}BESIDES, I BET YOU TWO WOULD BE GREAT FRIENDS...",
+                 SAVE.data.b.flirt_papyrus ? "<18>{#f/6}... JUST FRIENDS!" : "<18>{#f/0}JUST LIKE WE WERE!",
+                 "<18>{#f/0}WELL, MEET ME AT UNDYNE'S HOUSE WHEN YOU'RE READY."
+              ]),
+         "<18>{#f/9}THIS IS GOING TO BE FANTASTIC!",
+         "<32>{#s/equip}{#p/event}* Click..."
+      ],
+      madfish1: () => [
+         ...(SAVE.flag.n.ga_asrielUndyneX++ < 1
+            ? [ "<25>{#p/asriel2}{#f/8}* 接下来，又到了\n  听高谈阔论的时间了..." ]
+            : []),
+         "<32>{#p/undyne}* 站住。",
+         "<32>{#x1}* 真以为自己能\n  大摇大摆地滥杀无辜，\n  没人管得了你们？",
+         "<32>* 我告诉你，两个小混蛋：",
+         "<32>* 你们的死期到了！",
+         "<32>{#x2}* 以为自己勉勉强强\n  过了Doge这关就了不起了？\n  听好了...",
+         "<32>{#x3}* 只要剩下的特战队成员\n  逮到你们，就等着受苦吧。"
+      ],
+      madfish2: () =>
+         SAVE.flag.n.genocide_milestone < 5
+            ? [
+                 "<32>* 无话可说？\n* 呵。",
+                 "<32>{#x4}* 眼下，我可没闲工夫陪你们玩。\n  我得去帮Alphys疏散民众。",
+                 "<32>{#x5}* 呋呼呼...\n* 在临死之前好好挣扎吧。\n* 你活不长的。"
+              ]
+            : [
+                 "<32>* 无话可说？\n* 呵。",
+                 "<32>{#x4}{|}* 眼下，我可没\n  闲工夫陪你们玩。\n  我得去帮Alphys- {%}",
+                 "<25>{#x5}{#p/asriel2}{#f/8}* 跟你说，\n  Alphys可比你强多了。",
+                 "<25>{#f/2}* 我早就知道\n  这条时间线的后续发展了。",
+                 "<25>{#f/1}* 和她比起来，\n  你的攻击屁都不是。",
+                 "<32>{#p/undyne}* 真的吗？",
+                 "<32>* ...好吧。\n* 即便如此，你还是得先过我这一关。",
+                 "<32>{#p/asriel2}{#f/6}* 哦，相信我。\n* 我们肯定能打败你。",
+                 "<32>{#p/undyne}* 走着瞧。"
+              ],
+      madfish3: () =>
+         SAVE.flag.n.genocide_milestone < 5
+            ? SAVE.flag.n.ga_asrielMadfish++ < 1
+               ? [ "<25>{#p/asriel2}{#f/8}* 她爱咋咋地。" ]
+               : [ "<25>{#p/asriel2}{#f/8}* ..." ]
+            : [ "<25>{#p/asriel2}{#f/8}* 切。" ],
+      muffet1: () =>
+         badSpider()
+            ? [ "<32>{#p/basic}* 啊哈哈哈哈...", "<32>* Tell her she should increase my payout next time." ]
+            : SAVE.data.b.flirt_muffet
+            ? [ "<32>{#p/basic}* 啊哈哈哈哈...", "<32>* Let's just pretend this never happened, shall we, dearies?" ]
+            : [ "<32>{#p/basic}* 啊哈哈哈哈...", "<32>* 刚才很有趣哦！\n* 下次再见，亲！" ],
+      muffet2: () =>
+         badSpider()
+            ? [ "<25>{#p/kidd}{#f/4}* Yo... that was weird..." ]
+            : SAVE.data.b.flirt_muffet
+            ? [ "<25>{#p/kidd}{#f/4}* Yo... at least it's over now?" ]
+            : [ "<25>{#p/kidd}{#f/4}* 哟...\n  一点都不好玩。" ],
+      muffetGeno1: () =>
+         SAVE.data.n.state_foundry_kidddeath < 1
+            ? [ "<25>{#p/kidd}{#f/4}* 哟...\n* 刚发生什么了？", "<25>* 她是... {%}" ]
+            : [
+                 "<25>{#p/kidd}{#f/4}* 哟... 她又...",
+                 "<25>* 为什么怪物都这么消失呢？{%}"
+              ],
+      muffetGeno1x: [ "<32>{#p/basic}* 她死了。" ],
+      muffetGeno2: [
+         "<25>{#p/kidd}{#f/7}* 不-不...\n* 我不是故意...",
+         "<25>{#f/7}* 她-她没... 不会的...\n* 她...",
+         "<25>{#f/4}* 不，这...\n* 这不可-可能...",
+         "<25>{#f/4}* 她只是...",
+         "<25>{#f/8}* 只是..."
+      ],
+      muffetGeno3: [ "<25>{#f/8}* ...", "<25>{#f/8}* ...我干了什么..." ],
+      mushroomdance1: [ "<32>{#p/basic}* 蘑菇舞\n* 蘑菇舞\n* 管它什么意义" ],
+      mushroomdance2: () =>
+         SAVE.data.n.plot === 72
+            ? SAVE.data.b.f_state_mushroomdanceEpilogue
+               ? [ "<32>{#p/basic}* It means the future is very uncertain indeed." ]
+               : SAVE.data.b.f_state_mushroomdanceGeno
+               ? [
+                    "<32>{#p/basic}* It means I'm going free.\n* They're going to transplant me to the new homeworld.",
+                    "<32>* But why should you care?\n* Unless...",
+                    "<32>* ... unless you have absolved yourself of sin?"
+                 ]
+               : [
+                    "<32>{#p/basic}* It means I'm going free.\n* They're going to transplant me to the new homeworld.",
+                    "<32>{#p/basic}* Goodbye, old outpost, for you have been my abode..."
+                 ]
+            : world.meanie || SAVE.data.s.state_foundry_deathroom === 'f_village' // NO-TRANSLATE
+
+            ? SAVE.data.b.f_state_mushroomdanceGeno
+               ? [ "<32>{#p/basic}* It means... don't talk to me." ]
+               : [
+                    "<32>{#p/basic}* It means you've lived a life of sin.",
+                    ...(SAVE.data.b.f_state_mushroomdance ? [ "<32>* Wait.\n* Weren't you nicer before?" ] : [])
+                 ]
+            : SAVE.data.b.f_state_mushroomdance
+            ? [
+                 "<32>{#p/basic}* 要是我能看到远处的星系，\n  就好了。",
+                 "<32>* 但哪怕力场被摧毁了，\n  我要怎么离开呢...？"
+              ]
+            : [
+                 "<32>{#p/basic}* 它代表了我被菌丝困在这里，\n  所产生的内心的痛楚。",
+                 "<32>* 我奋力地挣扎着。\n* 我竭力地想挣脱。\n* 可惜啊，无济于事。"
+              ],
+      musicbox: [
+         "<18>{#p/asriel1}{#i/4}听上去像是从这附近\n传来的声音...",
+         "<18>啊！你的飞船坠毁了，\n是吗...",
+         "<18>你还好吗？",
+         "<18>来，我扶你起来...",
+         "<18>...",
+         "<18>$(name)，是吗？",
+         "<18>这名字真好听。",
+         "<18>{*}{#x1}{#p/asriel3}{#i/18}\x00My name is   {%}"
+      ],
+      napcomputer1: () =>
+         world.runaway || postSIGMA()
+            ? [ "<32>{#p/basic}* It's out of service." ]
+            : [
+                 SAVE.data.b.svr
+                    ? "<32>{#p/human}* (You move towards the computer...)"
+                    : "<32>{#p/basic}* 电脑上打开了一个音乐分享软件。",
+                 choicer.create("* （看一眼吗？）", "是", "否")
+              ],
+      napcomputer2: [ "<32>{#p/human}* （你不想看。）" ],
+      napcomputer3: {
+         a: () => [
+            "MTT静听 - 日光涟漪.kwac",
+            "MTT静听 - 星河渡歌.kwac",
+            SAVE.data.n.plot === 72 ? "缘聚缘散.kwac" : "恶狼.kwac",
+            "喵喵航天行 - 主题曲.kwac",
+            !world.genocide && SAVE.data.n.state_starton_papyrus === 1 ? "papyrus求包养.kwac" : "滑腔动调.kwac",
+            "群星之歌.kwac"
+         ],
+         b: () => [
+            "酷炫骷髅95",
+            "酷炫骷髅95",
+            SAVE.data.n.plot === 72 ? "_Sp4ceAdv3ntur3r_" : "_摋掱亾耦_",
+            "ALPHYS",
+            "懒骨.",
+            "（游客）"
+         ]
+      },
+      napcomputer4: {
+         a: () => [ "鬼怪舞曲.kwac", "鬼怪混音集.kwac" ],
+         b: () => [ "NAPSTABLOOK22", "NAPSTABLOOK22" ]
+      },
+      noTem: [ "<32>{#p/tem}* oh no, it's a... FISHES!!!" ],
+      noShroom: [ "<32>{#p/basic}* Watch out\n* Watch out\n* There's a fish running about" ],
+      noTortoise: () =>
+         world.population === 0 ? [ "<32>{#p/basic}* Wa ha ha..." ] : [ "<32>{#p/basic}* Run while ya still can, kid!" ],
+      npc86x: () =>
+         SAVE.data.b.svr
+            ? [ "<32>{#p/human}* (The robot appears to be asleep.)" ]
+            : [ "<32>{#p/basic}* It's in sleep mode." ],
+      npc86z: () =>
+         [
+            [
+               "<32>{#p/basic}{#npc/a}* Familiar energy signature detected in combat.",
+               "<32>{#p/basic}* Recommended action... run."
+            ],
+            [
+               "<32>{#p/basic}{#npc/a}* Familiar energy signature detected in combat.",
+               "<32>{#p/basic}* Recommended action... stand still."
+            ],
+            [
+               "<32>{#p/basic}{#npc/a}* Familiar energy signature detected in combat.",
+               "<32>{#p/basic}* Recommended action... unknown."
+            ],
+            [
+               "<32>{#p/basic}{#npc/a}* Familiar energy signature detected in combat.",
+               "<32>{#p/basic}* Recommended action... hide."
+            ]
+         ][(SAVE.data.n.state_foundry_npc86_feelings || 3) - 1],
+      npc86a: () => [
+         "<32>{#p/basic}{#npc/a}* 检测到陌生的能量信号。",
+         "<32>* 姓名... 未知。",
+         "<32>* 关系状态... 陌生人。",
+         SAVE.data.n.plot < 42.1 ? "<32>* 上次互动... 暂无。" : "<32>* Last interaction... observed in battle.",
+         "<32>* 处理中...\n* 处理中...\n* 处理中...",
+         "<32>* 您好，陌生人。\n* 我叫8-6，是个\n  万能送货机器人。",
+         "<32>* 这与我的预期功能相去甚远，\n  但您现在愿意完成\n  一份调查吗？",
+         choicer.create("* （你要怎么回答？）", "是", "否")
+      ],
+      npc86b: [
+         "<32>{#p/basic}{#npc/a}* 谢谢您。\n* 问题如下。",
+         "<32>* “在红色、绿色、蓝色\n  三种颜色中，\n  你更喜欢哪一种？”",
+         choicer.create("* （你要怎么回答？）", "红色", "绿色", "蓝色", "不确定")
+      ],
+      npc86c: [
+         "<32>{#p/basic}* 谢谢您。\n* 您的选择将深深地\n  铭刻在我的内存中。",
+         "<32>{#p/basic}{#npc/a}* 您的关系状态现已被\n  设置为“熟人”。"
+      ],
+      npc86d: () => [
+         "<32>{#p/basic}{#npc/a}* 检测到熟悉的能量信号。",
+         "<32>* 姓名... 未知。",
+         "<32>* 关系状态... 熟人。",
+         SAVE.data.n.state_foundry_npc86 === 1
+            ? "<32>* 上次互动... 拒绝调查。"
+            : "<32>* 上次互动... 接受调查。",
+         "<32>* 处理中...\n* 处理中...\n* 处理中...",
+         "<32>* 欢迎回来，熟人。\n* 您今天过得怎样？",
+         choicer.create("* （你要怎么回答？）", "好听", "不好听", "一般", "不确定")
+      ],
+      npc86e: () => [
+         ...[
+            [ "<32>{#p/basic}{#npc/a}* 很好？\n* 很高兴听您这么说。" ],
+            [ "<32>{#p/basic}{#npc/a}* 不好？\n* 希望事情会好起来。" ],
+            [ "<32>{#p/basic}{#npc/a}* 一般？\n* 可以理解。" ],
+            [ "<32>{#p/basic}{#npc/a}* 不确定？\n* 这... 可以理解。" ]
+         ][choicer.result],
+         "<32>{#p/basic}{#npc/a}* 您的关系状态现已被\n  设置为“朋友”。"
+      ],
+      npc86f: () => [
+         "<32>{#p/basic}{#npc/a}* 检测到熟悉的能量信号。",
+         "<32>* 姓名... 未知。",
+         "<32>* 关系状态... 朋友。",
+         "<32>* 上次互动... 关于心情的询问。",
+         "<32>* 处理中...\n* 处理中...\n* 处理中...",
+         [
+            "<32>* 欢迎回来，朋友。\n* 我希望自从上一次互动后，\n  您的心情仍旧很好如初。",
+            "<32>* 欢迎回来，朋友。\n* 我希望自从上一次互动后，\n  您的心情好转了很多。",
+            "<32>* 您好，朋友。\n* 基于上一次互动...",
+            "<32>* 您好，朋友。\n* 基于上一次互动..."
+         ][SAVE.data.n.state_foundry_npc86_mood - 1],
+         "<32>* 看来您对我很感兴趣。",
+         "<32>* 您对我最常见的情感是什么？",
+         choicer.create("* （你要怎么回答？）", "爱", "恶心", "暂无", "不确定")
+      ],
+      npc86g: () =>
+         [
+            [
+               "<32>{#p/basic}{#npc/a}* ...",
+               "<32>* 您的关系状态现已被\n  设置为“挚友”。",
+               "<32>* 我也爱您，挚友。"
+            ],
+            [
+               "<32>{#p/basic}{#npc/a}* ...",
+               "<32>* 您的关系状态现已被\n  设置为“敌人”。",
+               "<32>* 我已经不需要您了，敌人。"
+            ],
+            [
+               "<32>{#p/basic}{#npc/a}* ...",
+               "<32>* 您的关系状态现已被\n  设置为“熟人”。",
+               "<32>* 这个回答可能不太好，熟人。"
+            ],
+            [
+               "<32>{#p/basic}{#npc/a}* ...",
+               "<32>* 您的关系状态保持不变。",
+               ...(SAVE.data.n.state_foundry_npc86 === 5 && SAVE.data.n.state_foundry_npc86_feelings === 4
+                  ? [ "<32>* 对所有问题的预期回答\n  现已被设置为“不确定”。" ]
+                  : [])
+            ]
+         ][choicer.result],
+      npc86h: () => [
+         "<32>{#p/basic}{#npc/a}* 检测到熟悉的能量信号。",
+         "<32>* 姓名... 未知。",
+         [
+            "<32>* 关系状态... 挚友。",
+            "<32>* 关系状态... 敌人。",
+            "<32>* 关系状态... 熟人。",
+            "<32>* 关系状态... 朋友。"
+         ][SAVE.data.n.state_foundry_npc86_feelings - 1],
+         SAVE.data.b.f_state_done86
+            ? [
+                 "<32>* 上次互动... 表达赞美。",
+                 "<32>* 上次互动... 拒绝对话。",
+                 "<32>* 上次互动... 闲聊。",
+                 "<32>* 上次互动... 给予建议。"
+              ][SAVE.data.n.state_foundry_npc86_feelings - 1]
+            : "<32>* 上次互动... 询问感受。",
+         "<32>* 处理中...\n* 处理中...\n* 处理中...",
+         [
+            [
+               "<32>* 欢迎回来，挚友。\n* 我希望您一切都好。",
+               "<32>* 欢迎回来，挚友。\n* 我很爱您。",
+               "<32>* 欢迎回来，挚友。\n* 今天见到您很高兴。"
+            ],
+            [
+               "<32>* ...\n* 请不要再跟我说话了。",
+               "<32>* ...\n* 请不要再跟我说话了。",
+               "<32>* ...\n* 请不要再跟我说话了。"
+            ],
+            [
+               "<32>* 欢迎回来，熟人。\n* 工厂今天有点霉味。",
+               "<32>* 欢迎回来，熟人。\n* 今天星光闪烁。",
+               "<32>* 欢迎回来，熟人。\n* 今天蒸汽很潮湿。"
+            ],
+            [
+               "<32>* 欢迎回来，朋友。\n* 记得吃点东西。",
+               "<32>* 欢迎回来，朋友。\n* 记得休息一下。",
+               "<32>* 欢迎回来，朋友。\n* 记得把事情说出来。"
+            ]
+         ][SAVE.data.n.state_foundry_npc86_feelings - 1][rng.dialogue.int(3)]
+      ],
+      npcinter: {
+         grandmuffdarkened: pager.create(
+            0,
+            () =>
+               SAVE.data.n.state_foundry_muffet === 2
+                  ? [
+                       ...(world.population < 6 && world.bullied
+                          ? [
+                               "<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* No matter how many monsters you've bullied, your payment to me is all that matters~"
+                            ]
+                          : [
+                               "<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* Your payment to me means more than you can possibly imagine~"
+                            ]),
+                       "<32>* Thank you for your generous donation, dearie~",
+                       "<32>* If you or your little armless friend need anything, you just let me know~"
+                    ]
+                  : [
+                       "<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* It's a shame I wasn't able to capture you the first time around~",
+                       ...(world.population < 6 && world.bullied
+                          ? [ "<32>* A little bully like you would have been a wonderful prize~" ]
+                          : [ "<32>* Oh well~\n* Now that the force field's gone, I won't have to~" ])
+                    ],
+            [
+               "<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* Oh, dearie~\n* When the spider clans arrive on the new homeworld...",
+               "<32>* There'll be so many natural resouces to exploit~",
+               "<32>* We're going to build the largest tea empire this new world has ever seen~"
+            ],
+            [
+               "<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* Oh, and if I can help it...",
+               "<32>* It'll be the only tea empire this new world will ever see~\n* Ahuhuhu~"
+            ],
+            [ "<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* Ahuhuhu~" ]
+         ),
+         f_dogenpc: pager.create(
+            0,
+            () =>
+               SAVE.data.n.state_foundry_doge === 2
+                  ? [
+                       ...(world.population < 6 && world.bullied
+                          ? [
+                               "<32>{#p/basic}{#npc/a}* I know you have been violent, but I appreciate the compassion you have shown me."
+                            ]
+                          : [ "<32>{#p/basic}{#npc/a}* Thank you for the compassion you have shown me." ]),
+                       "<32>* It is what I needed to see the error in my choice of career.",
+                       "<33>* Still, I'm keeping the uniform.\n* It suits me well."
+                    ]
+                  : [
+                       "<32>{#p/basic}{#npc/a}* I regretted letting you get past me, but after what you've done, I'm fine with that.",
+                       ...(world.population < 6 && world.bullied
+                          ? [ "<32>* I shall overlook your rather... violent tendencies for the moment." ]
+                          : [ "<32>* I shall recall your name for many centuries to come." ])
+                    ],
+            [
+               "<32>{#p/basic}{#npc/a}* I do apologize for mis- judging you, Frisk.",
+               "<32>* As a member of the ELITE squad, it was difficult for me to see the good in you."
+            ],
+            [
+               "<32>* Well.\n* There is much for me to reflect on, now.",
+               "<32>* I would appreciate if you gave me the time and space to do so.",
+               "<33>* Thank you for the conversation."
+            ],
+            [ "<32>{#p/basic}{#npc/a}* Until next time." ]
+         ),
+         f_clamgirl: pager.create(
+            0,
+            () =>
+               SAVE.data.n.plot === 72
+                  ? [
+                       "<32>{#p/basic}{#npc/a}* How silly...\n* As soon as I choose to stay somewhere, we all have to go.",
+                       "<32>* The irony of the situation has not escaped me.\n* Still, it is for the best.",
+                       "<32>* On our new homeworld...\n* I'm sure to find lots of new neighbors for myself."
+                    ]
+                  : SAVE.data.n.plot === 47.2
+                  ? [ "<32>{#p/basic}{#npc/a}* Er, she's still after you..." ]
+                  : SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
+
+                  ? [ "<32>{#p/basic}{#npc/a}* You should never have come." ]
+                  : SAVE.data.n.state_foundry_undyne === 1
+                  ? [
+                       "<32>{#p/basic}{#npc/a}* I sense a disturbance in the nearby aura...",
+                       "<32>* You really shouldn't have left that girl alone."
+                    ]
+                  : SAVE.data.n.state_foundry_undyne === 2
+                  ? [
+                       "<32>{#p/basic}{#npc/a}* I sense a disturbance in the nearby aura...",
+                       "<32>* You really should have left that girl alone."
+                    ]
+                  : 2 <= SAVE.data.n.plot_date
+                  ? [
+                       "<32>{#p/basic}{#npc/a}* I sense a disturbance in the nearby aura...",
+                       "<32>* You and my new neighbor are getting along, I see."
+                    ]
+                  : SAVE.data.n.plot > 47.2 && SAVE.data.n.plot_date > 1
+                  ? world.trueKills > 0
+                     ? [ "<32>{#p/basic}{#npc/a}* Papyrus is waiting nearby.", "<32>* Isn't he brave?" ]
+                     : [ "<32>{#p/basic}{#npc/a}* Papyrus is waiting nearby.", "<32>* Won't you meet my new neighbor?" ]
+                  : [
+                       "<32>{#p/basic}{#npc/a}* 话说，我是从首塔过来\n  铸厂这里游览的。",
+                       "<32>* 我在那几乎不认识任何人，\n  但在这，我已经遇到了\n  几个友好的邻居。",
+                       "<32>* 我觉得我短期内\n  不会离开这里。"
+                    ],
+            () =>
+               SAVE.data.n.plot === 72
+                  ? [ "<32>{#p/basic}{#npc/a}* Won't that be splendid?" ]
+                  : SAVE.data.n.plot === 47.2
+                  ? [ "<32>{#p/basic}{#npc/a}* Er, she's still after you..." ]
+                  : SAVE.data.n.state_foundry_undyne > 0
+                  ? [ "<32>{#p/basic}{#npc/a}* ..." ]
+                  : 2 <= SAVE.data.n.plot_date
+                  ? [ "<32>{#p/basic}{#npc/a}* Good neighbors have been quite difficult to find." ]
+                  : SAVE.data.n.plot > 47.2 && SAVE.data.n.plot_date > 1
+                  ? world.trueKills > 0
+                     ? [ "<32>{#p/basic}{#npc/a}* ..." ]
+                     : [
+                          "<32>{#p/basic}{#npc/a}* Go on. She won't bite.\n* She might throw a few spears at you, though."
+                       ]
+                  : [ "<32>{#p/basic}{#npc/a}* 有邻居就是好。" ]
+         ),
+         f_echo1: () =>
+            world.runaway
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/undyne}* Citizens of the Foundry...",
+                    "<32>* ... you should all know what happened to you by now.",
+                    "<32>* It's time to go, and you damn well know it.",
+                    "<32>* So let's get going.",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/undyne}* Listen up, everyone!\n* The force field's gone!\n* We can all go home!",
+                    "<32>* If you're still down there dawdling by the time we leave...",
+                    "<32>* Then... we'll probably just come back for you later.",
+                    "<32>* But don't make us do that!",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/undyne}* 铸厂居民听好！\n* 趁现在，快给我逃！",
+                    world.genocide
+                       ? "<32>* 有杀人狂到达铸厂，还未落网！\n  你要是碰着了，就是死路一条！"
+                       : "<32>* 有杀人狂到达铸厂，还未落网！\n  你要是碰着了，就是死路一条！",
+                    "<32>* 不听劝，后果自负！！",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(world.goatbro && SAVE.flag.n.ga_asrielEcho1++ < 1
+                       ? [ "<25>{#p/asriel2}{#f/2}* 谢了，Undyne。\n* 要是还动不动碰上怪物，\n  我就真吃不消了。" ]
+                       : [])
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* 我是铸厂员工Skrubby。\n* 麻烦你检查一下管道有无泄漏。",
+                    "<32>{#p/alphys}* 哦- 呃... 抱-抱歉哈！\n* 我现在稍微有点忙！",
+                    "<32>{#p/basic}* 好吧。\n* 我去叫Raddy来帮忙。\n* 真是谢谢您了。",
+                    "<32>{#p/alphys}* 不-不用谢？？",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echo2: () =>
+            world.runaway
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* Hey... everything's gonna be okay, kiddo.",
+                    "<32>* (Gerson?)\n* (Is that you again?)",
+                    "<32>* Oh, I dunno.\n* Is that really you, Burgie?\n* Wa ha ha.",
+                    "<32>* (Yeah, yeah.)\n* (I'm just a little scared... like everyone else.)",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* Well, you heard her!\n* Time for us to go, kiddo!",
+                    "<32>{#p/basic}* ... wa ha ha.\n* In truth, we've still got the rest of the day.",
+                    "<32>{#p/basic}* (Yeah, I'm gonna hang out here for a bit longer.)",
+                    "<32>{#p/basic}* (Who knows?)\n* (Maybe Frisk'll come by.)",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* 嘿，小子。\n  听到广播里的警告了吗？",
+                    "<32>* （小点声！）\n* （...所以说，\n  有个人类什么的过来了，是吗？）",
+                    "<32>* 毫无疑问，是的。",
+                    "<32>* （难怪呢，\n  不过强制疏散真的很烦人。）",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#s/phone}* 铃铃，铃铃...",
+                    "<32>{#p/basic}* 嘿，孩子!\n* 我就是想问问你的新店\n  怎么样了。",
+                    "<32>* 我听说开得挺不错呢！",
+                    "* （...）\n* （我现在有点不方便讲话。）",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echo3: () =>
+            world.runaway
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* I hear ya.\n* Hey, maybe it'd help if ya told me what ya saw.",
+                    "<32>* From your point of view.",
+                    "<32>* (Well...)\n* (It all started when...)",
+                    "<32>* (I was at the force field with a bunch of others.)",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* That'd be a treat!\n* I know I'd sure as hell like to see 'em.",
+                    "<32>{#p/basic}* It's kind of hard to imagine, isn't it?\n* Being saved by a human?",
+                    "<32>{#p/basic}* (I know, right?)\n* (And those other humans... they're alive, too.)",
+                    "<32>{#p/basic}* (What a crazy day it's been.)",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* 撤离？没门！\n* 我敢保证，待在原地，也没人来伤你。",
+                    "<32>* （呃...）\n* （你明知道我正身处危险之中，\n  为什么还这么说？）",
+                    "<32>* 或许处境确实不利，\n  但是，我碰巧知道有个东西...",
+                    "<32>* 它能保护我们这些小商贩免受危险。",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* 嗯？\n* 发生什么了？",
+                    "<32>* （...你不知道吗？）",
+                    "<32>* 等一下...",
+                    "<32>* （就是那种的威胁。）",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echo4: () =>
+            world.runaway
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* (We were all there to see the force field be taken down.)",
+                    "<32>* (We'd been told something like that could happen, but when we got there...)",
+                    "<32>* (The same talking star who told us to go there was holding monsters hostage.)",
+                    "<32>* Little star, huh?\n* I have heard stories of a little yellow star...",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* (I wonder what we'll do when we arrive on the new homeworld.)",
+                    "<32>{#p/basic}* (Maybe the two of us could open a shop together!)\n* (You'd sell the trinkets...)",
+                    "<32>{#p/basic}* And you'd sell the food.\n* I like the way you think about it, kiddo!",
+                    "<32>{#p/basic}* But it'd likely be better if one of us sells, and the other tracks the finances.",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* （啥？）\n* （蠢到家了。）",
+                    "<32>* 这可是真事！\n* 想听的话，现在就给你\n  好好讲讲它的来龙去脉！",
+                    "<32>* （呃，不-不必了！）\n* （我相信你，老-老人家！）",
+                    "<32>* 哇哈哈！\n* 每天都能收获新知，挺不错的吧！",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* ...哇哈哈。\n* 是那个到处卖牛排的家伙，\n  对吧？",
+                    "<32>* （我该怎么办！）",
+                    "<32>* 嘘...\n* 没事的，孩子。\n* 那家商店是有个后门的！",
+                    "<32>* （真的有吗！？！？）",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echo5: () =>
+            world.runaway
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* (Well, he's real.)\n* (And we thought we'd helped the human beat him...)",
+                    "<32>* (But he just ended up taking everyone's SOULs anyway.)",
+                    "<32>* That must've been the bright light I saw...\n* I just couldn't shake it.",
+                    "<32>* (Yeah, and it was even brighter at the source.)\n* (We didn't stand a chance.)",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* (Ha. We'll take turns, then.)",
+                    "<32>{#p/basic}* (Doing the same thing all the time would get boring, don't you think?)",
+                    "<32>{#p/basic}* Wa ha ha.\n* Maybe I'm just old, but I don't mind doing finances.",
+                    "<32>{#p/basic}* You can have the fun job all to yourself, kiddo!",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* （看来，我们注定要在这里\n  度过余生了...）",
+                    "<32>* 嘿，别小瞧皇家守卫！\n* 他们各个都是骁勇善战的猛士！",
+                    "<32>* （你有把握他们能阻止那人类吗？）",
+                    "<32>* 那个人类小孩吗？\n* 我不确定，感觉难度挺大的。",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(world.goatbro && SAVE.flag.n.ga_asrielEcho4++ < 1
+                       ? [ "<25>{#p/asriel2}{#f/5}* 嘻嘻嘻..." ]
+                       : [])
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* （哇...）\n* （这扇门通往外面的阳台！）",
+                    "<32>{#p/basic}* （我真的感觉星星\n  从来没有这么明亮过...）",
+                    "<32>* 哈。\n* 肯定是有个扭曲力场\n  什么的。",
+                    "<32>* 稍微等一下，\n  就尽情享受吧！",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echo6: () =>
+            world.runaway
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* So what happened next?",
+                    "<32>* (Well, you should know.)\n* (This is the part that everyone knows.)",
+                    "<32>* (From our perspective, we saw a human fending off attacks...)",
+                    "<32>* (Whatever that star turned himself into was relentlessly attacking the human.)",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* I do feel like a part of me's going to miss this old place.",
+                    "<32>{#p/basic}* We really made it our own.",
+                    "<32>{#p/basic}* (You're kidding, right?)\n* (I won't miss this old dump for a second.)",
+                    "<32>{#p/basic}* (But I guess I've also had it pretty bad up here.)",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* Bad news, kiddo.\n* The human came through not too long ago.",
+                    ...(world.genocide
+                       ? [
+                            "<32>{#p/basic}* ... they had a partner with 'em, too.",
+                            "<32>{#p/basic}* (What?)\n* (Who was it?)",
+                            "<32>{#p/basic}* Wa ha ha...\n* You wouldn't believe me."
+                         ]
+                       : [
+                            "<32>{#p/basic}* (Are they on their way here?)",
+                            "<32>{#p/basic}* Sure, but it'll be a while until ya see 'em.\n* Not to mention Undyne...",
+                            "<32>{#p/basic}* (Yeah, she'll stop them.)\n* (She's in charge of the Royal Guard, after all...)"
+                         ]),
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#s/phone}* 铃铃，铃铃...",
+                    "<32>{#p/basic}* Sorry about that, the phone signal here isn't the greatest.",
+                    "<32>* You seen anything interesting so far?",
+                    "<32>* (... well...)",
+                    "<32>* (How about a shooting star?)",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echo7: () =>
+            world.runaway
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* (Eventually, though, the human mustered some kind of power...)",
+                    "<32>* (And then...)",
+                    "<32>* (... IT... happened.)",
+                    "<32>* Yeah... that.\n* The moment where it all turned upside-down, huh?",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* Hey, it's alright.",
+                    "<32>{#p/basic}* On a new homeworld... you'll be able to go wherever you want.",
+                    "<32>{#p/basic}* (Really? I thought I was going to settle down with you.)",
+                    "<32>{#p/basic}* Oh, did you now?\n* Wa ha ha.",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    ...(world.genocide
+                       ? [
+                            "<32>{#p/basic}* (So you're telling me this kid's been resurrected from the dead?)",
+                            "<32>{#p/basic}* (Wow.)\n* (I knew you were a crazy old coot, but this is something!)",
+                            "<32>{#p/basic}* ... would I lie to you?",
+                            "<32>{#p/basic}* (Well... knowing you... I guess... probably not.)\n* (Hmph.)"
+                         ]
+                       : [
+                            "<32>{#p/basic}* (So what are we supposed to do in the meantime?)",
+                            "<32>{#p/basic}* Oh, y'know, just the usual jiggery-pokery, I'd guess.",
+                            "<32>{#p/basic}* (You and your weird sayings.)",
+                            "<32>{#p/basic}* Wa ha ha, you know it!"
+                         ]),
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* Oh!\n* Make a wish, kiddo!",
+                    "<32>* (...)\n* (It'd never come true.)",
+                    "<32>* ... freedom, huh?\n* Wa ha ha... I might have some good news for you.",
+                    "<32>* I saw a human come through just a little while ago.",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echo8: () =>
+            world.runaway
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* I remember that bit.\n* The power changed hands... the human was in control.",
+                    "<32>* (Yeah, and then they started attacking us!)\n* (I thought we were all...)",
+                    "<32>* Going to die?",
+                    "<32>* (Yeah, and it's like I could feel their fear.)\n* (Everyone was so afraid.)",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* (Who else am I gonna go to?)\n* (The girls?)",
+                    "<32>{#p/basic}* Hmm...\n* I see your point.",
+                    "<32>{#p/basic}* (You're the only one I feel like I can rely on, old buddy.)",
+                    "<32>{#p/basic}* (Using this shop to make fun of Mettaton was a blast, but it's time for a change.)",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* (Hey... if we ever manage to get out of this...)",
+                    "<32>* (Maybe... we could go for some lunch together?)",
+                    "<32>* Huh?\n* Sure, kiddo!\n* I don't see why not!",
+                    "<32>* It'll give us somethin' to look forward to.",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* (So it's true...)\n* (Freedom really is coming.)",
+                    "<32>* One would assume.",
+                    "<32>* (Guess it's all up to the king, then, huh?)",
+                    "<32>* ... if it comes to that.",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echo9: () =>
+            world.runaway
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* Yeah... I remember.",
+                    "<32>* (Look, whatever happens...)\n* (I'm just glad you're safe, ya fat old mole-rat.)",
+                    "<32>* Wa ha ha... that's my boy.",
+                    "<32>* (... when we get to the new homeworld, would you... like to go out for dinner?)",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* That robot... I don't know if he'll be able to stay popular on the new homeworld.",
+                    "<32>{#p/basic}* But hey, if he gets poor, we can always remind him how much better off we are.",
+                    "<32>{#p/basic}* (Jeez, you're even more ruthless than I am when it comes to him!)",
+                    "<32>{#p/basic}* (... if he comes to our shop, we'll charge him double.)",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* (Thanks, old buddy...)\n* (... for a second there, I'd forgotten our troubles.)",
+                    "<32>* Wa ha ha...\n* Glad I could help out.",
+                    "<32>* And even if we never do make it outta here...",
+                    "<32>* ... maybe we could go for lunch anyway.",
+                    "<32>* (Yeah...)\n* (That'd be nice.)",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* (If it comes to that...?)\n* (What's the alternative, let them go free?)",
+                    "<32>* I dunno.\n* I wish I had all the answers.",
+                    "<32>* (Wait...)\n* (Is there something the king hasn't been telling us!?)",
+                    "<32>* Wa ha ha...\n* Talk to ya later, kiddo.",
+                    "<32>* (... huh!?!?)",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echoAbyss1: () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* I don't know where I am...",
+                    "<32>* I was just doing my laundry, but then there was this bright light...",
+                    "<32>* Now it's like... I'm in some kind of limbo...",
+                    "<32>* Please... help me...",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(SAVE.data.b.svr ? [ "<25>{#p/asriel1}{#f/13}* ..." ] : [])
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* 有东西正在靠-靠-靠近我...\n  吓-吓-吓死我了！",
+                    "<32>{#p/undyne}* Doggo？\n* 是你吗？",
+                    "<32>{#p/basic}* 是... 那玩意要过来了...\n* 啊！",
+                    "<32>{#p/basic}* （咳咳）\n* 好像有啥动了下？\n* 是我的错觉吗？",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/radio}{#v/1}* 大-家-好哇！\n* 欢迎收听《午夜狂奔》！",
+                    "<32>{#p/alphys}* （我嘞个-）\n* （这是什么啊！？）",
+                    "<32>{#p/radio}{#v/1}* 今天是2000年9月15日，\n  还算幸运，没有发生什么大事。",
+                    "<32>{#p/alphys}* （某种通讯系统...\n  肯定已经休眠了几百年了！）",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echoAbyss2: () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* Gosh, where could I be...",
+                    "<32>* We were out hunting for trash, but then this bright white light came in.",
+                    "<32>* Catty thinks we're in some sort of shared dream...",
+                    "<32>* But, like, wouldn't we be able to wake ourselves up?",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(SAVE.data.b.svr ? [ "<25>{#p/asriel1}{#f/15}* ..." ] : [])
+                 ]
+               : world.genocide
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<23>{#p/papyrusnt}UNDYNE，在吗？\n我兄弟他...\n他...",
+                    "<33>{#p/undyne}* 他怎么了，Papyrus？",
+                    "<23>{#p/papyrusnt}...",
+                    "<32>{#p/undyne}* Papyrus？",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/sans}{#f/7}* hey, not to bother ya, but you should probably have starton evacuated.",
+                    "<32>{#p/undyne}* Huh?\n* What's this about?",
+                    "<32>{#p/sans}{#f/7}* ...",
+                    "<32>{#p/undyne}* Not... particularly liking the silent treatment...",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/radio}{#v/0}* 你说没发生什么大事！？\n* 你简直是疯了。",
+                    "<32>{#p/alphys}* （嗯...）",
+                    "<32>{#p/radio}{#v/0}* 来自邻近星球的外星人\n  今天就要到达了！",
+                    "<32>{#p/alphys}* （我还是让它播下去吧。\n  啊哈哈。）",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd2
+                       ? ((SAVE.data.b.f_state_dc_kidd2 = true),
+                         [
+                            "<25>{#p/kidd}{#f/7}* 临近星球？\n* 不会是说...",
+                            "<25>{#f/2}* ...不-不可能。"
+                         ])
+                       : [])
+                 ],
+         f_echoAbyss3: () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/toriel}{#f/21}* My child... are you there?",
+                    "<32>* That Twinkly...",
+                    "<32>* I should have known he'd cause some sort of trouble, but...",
+                    "<32>* Once again... I've failed to see the reality that lay right in front of me...",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(SAVE.data.b.svr ? [ "<25>{#p/asriel1}{#f/16}* ..." ] : [])
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    ...(SAVE.data.b.s_state_chilldrake
+                       ? [
+                            "<32>{#p/basic}* 救命啊！\n* 我朋友Stardrake失踪了...",
+                            "<32>{#p/basic}* 他出门去找新笑话灵感，\n  结果到现在也没回家！",
+                            "<32>{#p/undyne}* 小子，别乱跑。\n* 我马上派搜救队去找你朋友。"
+                         ]
+                       : [
+                            "<32>{#p/basic}* 救命啊！\n* 我朋友Stardrake现在很危险！",
+                            "<32>{#p/basic}* 他说自己看见个人类\n  四处游荡，屠杀怪物！",
+                            "<32>{#p/undyne}* 小子，别乱跑。\n* 皇家卫队会将那人类\n  绳之以法的。"
+                         ]),
+                    "<32>{#p/basic}* 谢谢您... Undyne...",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd3
+                       ? ((SAVE.data.b.f_state_dc_kidd3 = true),
+                         [ "<25>{#p/kidd}{#f/3}* 呃...\n  听起来怪吓人的，哈哈...", "<25>{#f/4}* ..." ])
+                       : [])
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/radio}{#v/1}* 好了，不要慌！\n* 我们不会让他们欺负我们的，\n  对吧？",
+                    "<32>{#v/0}* 你说得还挺一本正经的。",
+                    "<32>{#v/1}* 如果我真的是认真说的呢？",
+                    "<32>{#v/0}* 我觉得，这些外星人\n  有可能是很好的盟友。\n* 他们看起来人不错的。",
+                    "<32>{#v/0}* 他们甚至带来了翻译领域的东西，\n  这样我们就能理解他们了！",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echoAbyss4: () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<23>{#p/papyrusnt}HUH? WHAT'S WRONG WITH THINKING EVERYTHING'S JUST FINE?",
+                    "<33>{#p/without}* well, the way i see it...",
+                    "<32>{#p/without}* you're just a-{@fill=#ff0}void{@fill=#fff}-ing the problem.",
+                    "<23>{#p/papyrusnt}UGH... MAYBE YOU'RE RIGHT. THINGS DO SEEM PRETTY... {@fill=#ff0}DARK{@fill=#fff}.",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(SAVE.data.b.svr ? [ "<25>{#p/asriel1}{#f/23}* ..." ] : [])
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/undyne}* 没听懂吗？\n  那可不是什么好对付的小混混...\n  趁现在快逃！不然下个遭殃的就是你！",
+                    "<32>{#p/basic}* 那家伙是谁我不在乎。\n* 我只在乎能不能履行职责，\n  保护好前哨站！",
+                    "<32>{#p/basic}* 你不是很想揍人类一顿吗？\n  那你现在就过来啊！",
+                    "<32>{#p/undyne}* Dogamy！！",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd4
+                       ? ((SAVE.data.b.f_state_dc_kidd4 = true),
+                         [
+                            "<25>{#p/kidd}{#f/1}* 老兄，皇家卫队真勇猛啊！",
+                            "<25>{#f/3}* 有他们保护我们...\n  真是太好了！"
+                         ])
+                       : [])
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/radio}{#v/1}* 是啊，是啊...\n* 如果我们要在这里\n  和外星人卿卿我我...",
+                    "<32>{#v/1}* 我们就得做得更好，\n  而不光是走上去说句“哈喽”。",
+                    "<32>{#v/0}* ...这不是Erogot喜欢的\n  打招呼方式吗？",
+                    "<32>{#v/0}* 那家伙肯定喜欢看西部电影，\n  毫无疑问。",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd4
+                       ? ((SAVE.data.b.f_state_dc_kidd4 = true),
+                         [ "<25>{#p/kidd}{#f/1}* Erogot？", "<25>{#f/1}* Erogot国王！？", "<25>{#f/3}* 天..." ])
+                       : [])
+                 ],
+         f_echoAbyss5: () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/kidding}* Yo... what is this place?",
+                    "<32>* It's really dark, and I can't see anything in here...",
+                    "<32>* I'm scared...",
+                    "<32>* Is anyone there?\n* Please... someone help me...",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(SAVE.data.b.svr ? [ "<25>{#p/asriel1}{#f/22}* ..." ] : [])
+                 ]
+               : world.genocide
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/alphys}* 新身体用着怎么样？",
+                    "<32>{#p/mettaton}* 真的很不错。\n* 我再看看有没有故障零件。",
+                    "<32>{#p/alphys}* 那-那就好。\n* 我研究研究\n  怎么优化能量分配。",
+                    "<32>{#p/mettaton}* 博士，别担心。\n* 我们还有的是时间。",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/alphys}* 难道我...\n  我就只能袖手旁观吗？",
+                    "<32>{#p/mettaton}* 唉... 还有别的可做吗？\n* 战斗？你可不擅长。",
+                    "<32>{#p/mettaton}* 你要是现在冲上去，\n  很可能会丧命。\n  怪物们也会失去一员大将。",
+                    "<32>{#p/alphys}* 为什么...\n  为什么我总遇到这种事...",
+                    "<32>{#p/mettaton}* ...平心而论，\n  你还是第一次看到怪物死吧。",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<33>{#p/radio}{#v/0}* 你别跟别人说，\n  我觉得他们有些人还挺可爱的。",
+                    "<32>{#v/1}* 呃... 你什么意思？",
+                    "<32>{#v/0}* 什么？\n* 我不是那种意思。\n* 我就是单纯觉得可爱。",
+                    "<32>{#v/0}* 就像宠物的那种。",
+                    "<32>{#v/1}* ...\n* 有一个听众给我们电台\n  打电话过来了。",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echoAbyss6: () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/alphys}* How strange...",
+                    "<32>* So our SOULs have been absorbed into another being.",
+                    "<32>* This could be a kind of \"separate plane\" where we're held before...",
+                    "<32>* ... wait.\n* There m-might be a way I could contact the others!",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(SAVE.data.b.svr ? [ "<25>{#p/asriel1}{#f/10}* ..." ] : [])
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    world.genocide
+                       ? "<32>{#p/basic}* 那人类跟Asriel快到这里了，\n* 只要发现他们，定将其一举歼灭！"
+                       : "<32>{#p/basic}* 那人类快到这里了，\n* 只要我发现了，定将其一举歼灭！",
+                    "<32>{#p/undyne}* Doge，你肯定知道\n  即将面对的是什么敌人。",
+                    dogex()
+                       ? "<32>{#p/basic}* They are responsible for the deaths in Starton.\n* I will show no mercy!"
+                       : world.dead_canine
+                       ? "<32>{#p/basic}* 朋友的生命亲手葬送在敌人手里。\n* 我绝不会心慈手软！"
+                       : "<32>{#p/basic}* This is the moment I have long prepared myself for.\n* I will not falter!",
+                    "<32>{#p/undyne}* Yeah!! Get out there and show 'em what the ELITE squad are all about!!",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/radio}{#v/0}* 您好啊，亲爱的听众，\n  欢迎致电《午夜狂奔》。\n* 您有带来什么消息吗？",
+                    "<32>{#p/human}* 是的，我有几句话要说。\n* 实际上，我们人类还没有\n  准备好这种事情呢。",
+                    "<32>{#p/radio}{#v/0}* 所以你什么意思？\n* 我们太笨了理解不了\n  外星人的概念吗？",
+                    "<32>{#p/human}* ...你太天真了。\n* 我真正担心的不是我们，\n  而是... 外星人他们。",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echoAbyss7: () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* Where am I?\n* What is this... place?",
+                    "<32>{#p/alphys}* Hello?\n* I'm Dr. Alphys, and I'm... t-trying something!",
+                    "<32>{#p/basic}* Dr. Alphys!\n* I'm here, can you hear me?",
+                    "<32>{#p/alphys}* Yes... yes!\n* I just have to think about them... and I'm there!",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(SAVE.data.b.svr ? [ "<25>{#p/asriel1}{#f/21}* ..." ] : [])
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* 我是铸厂员工Skrubby。\n* 就人类一事，我深感担忧。",
+                    "<32>{#p/alphys}* 呃...\n* Undyne应该帮得上忙...\n  她远比我能干...",
+                    "<32>{#p/basic}* 赞成。\n* 您的确啥忙也帮不上。",
+                    "<32>{#p/alphys}* 没-没礼貌...",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/radio}{#v/1}* 唉，得了吧。\n* 我们对他们来说算不上威胁。\n* 他们掌握着全部的主动权呢！",
+                    "<32>{#p/human}* 话是这么说，\n  但你看到他们的行为方式了吗？\n* 他们真的很好...",
+                    "<32>* 我知道你们俩不会伤害他们，\n  但总有人类会利用这一点的。",
+                    "<32>{#p/radio}{#v/1}* 是啊... 唉...",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echoAbyss8: () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* My name is Thomas Roman.\n* Royal scientist, and trusted associate of the crown.",
+                    "<32>{#p/alphys}* Professor Roman?\n* But you're...",
+                    "<32>{#p/basic}* My name is Thomas Roman.\n* Royal scientist, and trusted associate of the crown.",
+                    "<32>{#p/alphys}* He's repeating...\n* It must just be the professor in everyone's memory.",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(SAVE.data.b.svr ? [ "<25>{#p/asriel1}{#f/3}* ..." ] : [])
+                 ]
+               : world.genocide
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<23>{#p/papyrusnt}我是PAPYRUS。\n听到提示音后尽管留言！",
+                    "<33>{#p/undyne}* 该死...",
+                    "<33>{#p/undyne}* Papyrus，我真不该让你遭这种罪。",
+                    "<33>{#p/undyne}* 你们兄弟俩命不该如此。",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/undyne}* ... and even Doge has failed to capture the human.",
+                    "<32>{#p/sans}{#f/7}* i'll be honest, this doesn't sound good.\n* evacuate the foundry?",
+                    "<33>{#p/undyne}* At this point, everyone knows about what's going on.\n* They'll evacuate.",
+                    "<32>{#p/sans}{#f/7}* i feel like it's better to be safe than sorry.\n* but what do i know.",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/radio}{#v/0}* 嘿，振作起来。\n* 别让那个家伙把你弄得这么失落，\n  好吗？",
+                    "<32>{#v/1}* 但他说得有道理...\n* 对大多数人来说，\n  这个情况都让人不知所措。",
+                    "<32>* 并不是每个人的想法都像你...\n  还有你当做宠物般的那种痴迷...\n  那样的纯洁。",
+                    "<32>{#v/0}* 先等一下！",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_echoAbyss9: () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/alphys}* Yeah, just think of who you'd like to see, and you'll be with them.",
+                    "<32>{#p/asgore}* Asriel... are you there?",
+                    "<32>{#p/alphys}* Huh, it's not working...\n* Maybe there's not enough of him left in us?",
+                    "<32>{#p/asgore}* Please... come back...",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(SAVE.data.b.svr ? [ "<25>{#p/asriel1}{#f/25}* ..." ] : [])
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/undyne}* Mind if I ask you a favor?",
+                    "<32>{#p/basic}* Ahuhuhu~\n* Anything for the one who now occupies the old nest~",
+                    world.genocide
+                       ? "<33>{#p/undyne}* Track down the human and their accomplice. Take them to me.\n* Biggest payout you've ever had."
+                       : "<33>{#p/undyne}* Track down the human and take them to me.\n* Biggest payout you've ever had.",
+                    "<32>{#p/basic}* Hmmm...\n* I'll see what I can do~",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd9
+                       ? ((SAVE.data.b.f_state_dc_kidd9 = true), [ "<25>{#p/kidd}{#f/4}* Not THAT spider..." ])
+                       : [])
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/radio}{#v/1}* 好了，好了。\n* 承认自己喜欢什么并不丢人。",
+                    "<32>{#v/0}* 我不是那个意思！",
+                    "<32>{#v/1}* 说到爱，让我们来听听\n  俱乐部里流行的那种\n  爵士乐吧...",
+                    "<32>{#v/1}* 《和外星人结婚》！",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd9
+                       ? ((SAVE.data.b.f_state_dc_kidd9 = true),
+                         [ "<25>{#p/kidd}{#f/2}* 噗，只有人类能想出来\n  这种标题吧。" ])
+                       : [])
+                 ],
+         f_echoAbyss10: () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/undyne}* I can't keep holding on...",
+                    "<32>{#p/undyne}* The others... have already slipped away...",
+                    "<32>{#p/undyne}* It's like they don't know who they are anymore...",
+                    "<32>{#p/undyne}* No... no!\n* Not like this...\n* I can't forget who I am!",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(SAVE.data.b.svr ? [ "<25>{#p/asriel1}{#f/21}* ..." ] : [])
+                 ]
+               : world.genocide
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/mettaton}* 博士啊...",
+                    "<32>{#p/mettaton}* 我该料到你会就这么逃跑的...",
+                    "<32>{#p/mettaton}* ...\n* 该死...",
+                    "<32>{#p/mettaton}* 你不明白吗？",
+                    "<32>{#p/mettaton}* 没有你，我没法完善\n  那些防御部件啊...",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : geno()
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/mettaton}* 唉，他们马上就到了。\n* 不知道你会怎么应对这种场面，\n  不过...",
+                    "<32>{#p/mettaton}* 不管你在这坚守阵地，\n  还是打了退堂鼓...",
+                    "<33>{#p/mettaton}* 我都会全力支持你。",
+                    "<32>{#p/alphys}* ... ehehe...",
+                    "<33>* The same goes to you, Mettaton.",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/alphys}* 等下等下！\n* 这首放在我和Undyne的约会\n  应该很完美...",
+                    "<32>{#p/mettaton}* 哦真的吗？",
+                    "<32>{#p/alphys}* Mettaton！？\n* 你是从哪...\n* ...我没说要跟谁约会！",
+                    "<32>{#p/mettaton}* 哦，你别担心。\n* 我会保守你的秘密的。\n* ...大概吧。",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。",
+                    ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd10
+                       ? ((SAVE.data.b.f_state_dc_kidd10 = true),
+                         [
+                            "<25>{#p/kidd}{#f/1}* Alphys想跟UNDYNE\n  结婚！？",
+                            "<25>{#f/6}* 真是每天都能学到\n  新东西啊..."
+                         ])
+                       : [])
+                 ],
+         f_echodude: pager.create(
+            0,
+            () =>
+               SAVE.data.n.plot === 72
+                  ? [
+                       "<32>{#p/basic}{#npc/a}* With a new world comes new kinds of stars.",
+                       "<32>* These signal stars may be the least of our worries..."
+                    ]
+                  : [
+                       "<32>{#p/basic}{#npc/a}* 这是一台讯星。\n* 它会重复它刚刚接收到的讯息，\n  一遍又一遍..."
+                    ],
+            () =>
+               SAVE.data.n.plot === 72
+                  ? [ "<32>{#p/basic}{#npc/a}* Hopefully the stars out there are more honest." ]
+                  : [ "<32>{#p/basic}{#npc/a}* 绝对不要相信一颗星星。", "<32>* 它们最典型的特质就是欺诈。" ]
+         ),
+         f_echoLobby: () =>
+            world.runaway
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* Raddy of the foundry crew.\n* We've no time to keep running the show here.",
+                    "<32>* Don't worry about pipes, unless you're slidin' through em to escape!",
+                    "<32>* Got it, Skrubby?\n* Large lata?\n* My teeny tini?",
+                    "<32>* We've gotta go, right away.",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* Raddy of the foundry crew.\n* Everyone, you've done a real great job so far.",
+                    "<32>* Now that we're free, we can all give it a rest!",
+                    "<32>* Ya hear that, Skrubby?\n* Large lata?\n* My teeny tini?",
+                    "<32>* It's time for a totally tubular celebration!",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ]
+               : [
+                    "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...",
+                    "<32>{#p/basic}* 我是铸厂员工Skrubby。\n* 向您报告我和Raddy的维修成果。",
+                    geno()
+                       ? "<32>{#p/alphys}* 那真是... 太-太好了...\n* 因为，我-我现在没空修复它，\n  所以只能..."
+                       : "<32>{#p/alphys}* 呃... 很-很高兴\n  你们修好了它！",
+                    "<32>{#p/basic}* 没事。\n* 您啥忙都没帮上，\n  但我还是谢谢您嘞。",
+                    "<32>{#p/alphys}* ...不客气。",
+                    "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
+                 ],
+         f_kidd: pager.create(
+            0,
+            () =>
+               world.genocide
+                  ? [
+                       "<25>{#p/kidd}{#npc/a}{#f/3}* 呃... 嘿...",
+                       "<25>{#p/asriel2}{#f/15}{#npc}* 怪胎。",
+                       "<25>{#p/kidd}{#npc/a}{#f/1}* 嗯... 你好！\n* 哈哈哈！"
+                    ]
+                  : SAVE.data.n.plot === 33
+                  ? [
+                       "<25>{#p/kidd}{#npc/a}{#f/1}* How was lunch?",
+                       "<25>{#f/1}* Did that short skeleton make everyone laugh again?"
+                    ]
+                  : [
+                       "<25>{#p/kidd}{#npc/a}{#f/2}* 哟，你也是来这看她的吗？",
+                       "<25>{#f/1}* 哈哈。\n* 她最酷了！！",
+                       "<25>{#f/2}* 我长大了要成为她那样..."
+                    ],
+            () =>
+               world.genocide
+                  ? [ "<25>{#p/kidd}{#npc/a}{#f/4}* ..." ]
+                  : SAVE.data.n.plot === 33
+                  ? [ "<25>{#p/kidd}{#npc/a}{#f/3}* He always gets kicked out for pulling awful pranks." ]
+                  : [ "<25>{#p/kidd}{#npc/a}{#f/1}* 你先走吧。", "<25>{#f/1}* 我随后就来！" ]
+         ),
+         f_longsy: pager.create(
+            0,
+            () =>
+               SAVE.data.n.plot === 72
+                  ? [
+                       "<32>{#p/basic}{#npc/a}* My friend Shortsy and I plan to become the new world's premiere architects.",
+                       "<32>* We'll build bridges, spires, space stations... if you can imagine it, we can build it!",
+                       "<32>* As always, I'll be in charge of carrying the tools."
+                    ]
+                  : SAVE.data.n.plot < 48
+                  ? [
+                       "<32>{#p/basic}{#npc/a}* 我和我的朋友Shortsy\n  打算建一座桥。",
+                       "<32>* 他倒是有自己的想法。\n* 但就我而言，我只是不想再用\n  那个不稳定的木筏了。",
+                       "<32>* 希望我们能做得\n  比之前更好吧。"
+                    ]
+                  : [
+                       "<32>{#p/basic}{#npc/a}* How'd you like our bridge?\n* Was it stable?\n* Was it gravitationally secure?",
+                       "<32>* Well, Shortsy said it's fine, and they're kinda the expert here.",
+                       "<32>* I'm mostly just here to carry around the tools!"
+                    ],
+            () =>
+               SAVE.data.n.plot === 72
+                  ? [ "<32>{#p/basic}{#npc/a}* Shortsy told me about a new kind of tool recently..." ]
+                  : SAVE.data.n.plot < 48
+                  ? [ "<32>{#p/basic}{#npc/a}* 情绪不稳定，\n  和其他人合不来。\n* 这就是我。" ]
+                  : [
+                       "<32>{#p/basic}{#npc/a}* Don't get it twisted.\n* I'm a fantastic tool-toter.\n* That's just what I do."
+                    ]
+         ),
+         f_shortsy: pager.create(
+            0,
+            () =>
+               SAVE.data.n.plot === 72
+                  ? [
+                       "<32>{#p/basic}{#npc/a}* 我和我的伙伴Longsy\n  想成为全职建筑师。",
+                       "<32>* I've invented a brand new tool for Longsy to use...",
+                       "<32>* ... called the builder's wand."
+                    ]
+                  : SAVE.data.n.plot < 48
+                  ? [
+                       "<32>{#p/basic}{#npc/a}* 我和我的伙伴Longsy\n  想造座桥给国王看看。",
+                       "<32>* 这会是你见过的最笔直、\n  最坚固的桥。",
+                       "<32>* 我向你保证！"
+                    ]
+                  : [
+                       "<32>{#p/basic}{#npc/a}* Take a look at our newest bridge.",
+                       "<32>* Longsy and I figure this will be enough to impress the king...",
+                       "<32>* It needs to be if we're going to work alongside him!"
+                    ],
+            () =>
+               SAVE.data.n.plot === 72
+                  ? [ "<32>{#p/basic}{#npc/a}* With enough power, it could create anything you can imagine..." ]
+                  : SAVE.data.n.plot < 48
+                  ? [ "<32>{#p/basic}{#npc/a}* 不遗余力，\n  将事情做到最好。\n* 这就是我。" ]
+                  : [
+                       "<32>{#p/basic}{#npc/a}* No need to thank us, it's only a community service.\n* That's just what I do."
+                    ]
+         ),
+         f_snail1: () =>
+            SAVE.data.n.plot === 72
+               ? [ "<32>{#p/basic}{#npc/a}* (Snail snail...)\n* Everyone's leaving, it seems." ]
+               : [ "<32>{#p/basic}{#npc/a}* （蜗牛蜗牛...）\n* 每一天都要乐观..." ],
+         f_snail2: () =>
+            SAVE.data.n.plot === 72
+               ? [ "<32>{#p/basic}{#npc/a}* (Snail snail...)\n* It's time for us to go." ]
+               : [ "<32>{#p/basic}{#npc/a}* （蜗牛蜗牛...）\n* 结局好，一切都好..." ],
+         f_starkiller: pager.create(
+            0,
+            () =>
+               SAVE.data.n.plot === 72
+                  ? [
+                       "<32>{#p/basic}{#npc/a}* The smell of grass grows ever closer now...",
+                       "<33>* Soon, I will see it for myself."
+                    ]
+                  : SAVE.data.n.state_foundry_undyne !== 0
+                  ? [ "<32>{#p/basic}{#npc/a}* I feel the grass has faded.", "<32>* Don't you...?" ]
+                  : roomKills().f_telescope > 0
+                  ? [ "<32>{#p/basic}{#npc/a}* The grass may already be too far gone.", "<32>* Or am I wrong...?" ]
+                  : [
+                       "<32>{#p/basic}{#npc/a}* 草是什么？",
+                       ...(world.genocide
+                          ? [ "<32>* 它能找到你吗？", "<32>* 它能吃掉你吗？", "<32>* 它能杀掉你吗？" ]
+                          : [ "<32>* 你能找到它吗？", "<32>* 你能吃掉它吗？", "<32>* 你能杀掉它吗？" ]),
+                       "<32>* ...",
+                       "<32>* 你是用草做成的吗？"
+                    ],
+            () =>
+               SAVE.data.n.plot === 72
+                  ? [
+                       "<32>{#p/basic}{#npc/a}* The grass may not always be greener, but who says it has to be?",
+                       "<32>* A new world may have any number of colors in its grass."
+                    ]
+                  : [ "<32>{#p/basic}{#npc/a}* 这草望着那草绿。" ]
+         ),
+         f_temmie1: () =>
+            SAVE.data.n.plot === 72
+               ? [ "<32>{#p/tem}{#npc/a}* woa... tem hear news...\n* VERY GOODS!!!" ]
+               : [ "<32>{#p/tem}{#npc/a}* 吼！！\n* 我素temmie！！！", "<32>* 介素我盆友...\n* temmie！！！" ],
+         f_temmie2: () =>
+            SAVE.data.n.plot === 72
+               ? [ "<32>{#p/tem}{#npc/a}* yaYA!!!\n* tems can go free!!" ]
+               : [ "<32>{#p/tem}{#npc/a}* 吼！！\n* 我素temmie！！！", "<32>* 介素我盆友...\n* temmie！！！" ],
+         f_temmie3: () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#p/tem}{#npc/a}* woa...\n* if tems can go to new homeworld, can make,",
+                    "<32>{#p/tem}{#npc/a}* LOT OF TEMS HISTORY!!!"
+                 ]
+               : [ "<32>{#p/tem}{#npc/a}* 吼！！\n* 我素temmie！！！", "<32>* 别忘辣我盆友！" ],
+         f_temmie4: () =>
+            SAVE.data.n.plot === 72
+               ? [ "<32>{#p/tem}{#npc/a}* A pleasing development, no?" ]
+               : world.genocide || 10 <= world.trueKills
+               ? [
+                    [ "<32>{*}{#p/tem}{#i/5}{#s.stop}* I know what you did.", "{*}{#s.resume}{%}" ],
+                    [ "<32>{#p/tem}{#npc/a}* 嘿。", "<32>* 我是Bob。" ]
+                 ][Math.min(SAVE.flag.n._bob++, 1)]
+               : SAVE.data.n.plot === 47.2
+               ? [ "<32>{#p/tem}{#npc/a}* 嘿。", "<32>* I'm afraid for your life." ]
+               : [ "<32>{#p/tem}{#npc/a}* 嘿。", "<32>* 我是Bob。" ],
+         f_temmie5: () =>
+            SAVE.data.n.plot === 72
+               ? [ "<32>{#p/tem}{#npc/a}* 啊哇哦哇哦哇哦！！", "<32>* 银类...\n* 炒鸡...", "<32>* HEROES!!!!" ]
+               : [ "<32>{#p/tem}{#npc/a}* 啊哇哦哇哦哇哦！！", "<32>* 银类...\n* 炒鸡...", "<32>* 萌呆呆！！！！" ],
+         f_temmie6: () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#p/tem}{#npc/a}* everyones go free...\n* BUT TEM!!!",
+                    "<32>* TEM NOT LEAV!!!\n* TEM WATCH EG!!!",
+                    "<32>* tem will be happily fambily,"
+                 ]
+               : [
+                    "<32>{#p/tem}{#npc/a}* tem...\n* 看蛋！！！",
+                    "<32>* 蛋... 会孵！！！",
+                    "<32>* tem... 骄嗷父母！！"
+                 ]
+      },
+      punchcard0: () =>
+         SAVE.data.b.svr ? [ "<32>{#p/human}* (But the box was empty.)" ] : [ "<32>{#p/basic}* 箱子是空的。" ],
+      punchcard1: [ "<32>{#p/basic}* 箱子里有一张明信片。" ],
+      punchcard2: [ "<32>{#p/basic}* 箱子里有好几张明信片。" ],
+      punchcard3: [ choicer.create("* （拿一张明信片吗？）", "是", "否") ],
+      punchcard4: [ "<32>{#p/human}* （你获得了一张明信片。）" ],
+      punchcardX: [
+         "<32>{#p/human}* (You can't make out what's in the box...)",
+         choicer.create("* (Take something out?)", "是", "否")
+      ],
+      puzzle1switch: () =>
+         SAVE.data.b.svr
+            ? [ "<32>{#p/human}* (You can't seem to use the switch anymore.)" ]
+            : world.darker
+            ? [ "<32>{#p/basic}* It's stuck, like always." ]
+            : [ "<32>{#p/basic}* 令人震惊的是，\n  开关卡住了。", "<32>* 变化真大！" ],
+      puzzle2switch: () =>
+         SAVE.data.b.svr
+            ? [ "<32>{#p/human}* (You can't seem to use the switch anymore.)" ]
+            : world.darker
+            ? [ "<32>{#p/basic}* It's stuck, like always." ]
+            : [ "<32>{#p/basic}* The switch is stuck.\n* Naturally." ],
+      puzzle3switch: () =>
+         SAVE.data.b.svr
+            ? [ "<32>{#p/human}* (You can't seem to use the switch anymore.)" ]
+            : world.darker
+            ? [ "<32>{#p/basic}* It's stuck, like always." ]
+            : [
+                 "<32>{#p/basic}* 不论你信不信...",
+                 "<32>* The switch isn't stuck, it's just out of service.\n* Oh wait."
+              ],
+      quiche1: () =>
+         SAVE.data.b.svr
+            ? [
+                 "<32>{#p/human}* (The note attached to this cheesecake describes how it was abandoned.)",
+                 choicer.create("* （拿走芝士蛋糕吗？）", "是", "否")
+              ]
+            : [
+                 "<32>{#p/basic}* 这放着一块芝士蛋糕，\n  上面粘着一张字条。",
+                 "<32>* “我真的承担不了\n   照顾它的重任。”",
+                 choicer.create("* （拿走芝士蛋糕吗？）", "是", "否")
+              ],
+      quiche2: [ "<32>{#p/human}* （你带的东西太多了。）" ],
+      quiche3: [ "<32>{#p/human}* （你拿走了芝士蛋糕。）" ],
+      quiche4: () =>
+         SAVE.data.b.svr
+            ? [
+                 [
+                    "<25>{#p/asriel1}{#f/24}* Before we moved out, $(name) used to sit here all the time...",
+                    "<25>{#f/23}* We'd swap stories about our hopes and our dreams...",
+                    "<25>{#f/22}* And bring the telescope out and watch for stars sometimes.",
+                    "<25>{#f/13}* Even as a star...\n* I wished I could return to those moments..."
+                 ],
+                 [
+                    "<25>{#p/asriel1}{#f/23}* Look at me, getting all sentimental over a random bench.",
+                    "<25>{#f/17}* But hey.\n* At least it's sturdy.",
+                    "<25>{#f/3}* Heck, even Asgore's tremendous figure couldn't break it.",
+                    "<25>{#f/4}* Back when we all lived here, I mean."
+                 ],
+                 [
+                    "<25>{#p/asriel1}{#f/13}* It's kind of funny to think about...",
+                    "<25>{#f/13}* The house we used to live in is now lived in by Undyne.",
+                    "<25>{#f/17}* Or was, until the force field was destroyed.",
+                    "<25>{#f/13}* And... it's not your usual kind of house.\n* It's a monster."
+                 ],
+                 [ "<25>{#p/asriel1}{#f/15}* ... all the other monster homes were lost in the war." ]
+              ][Math.min(asrielinter.quiche4++, 3)]
+            : world.darker
+            ? [ "<32>{#p/basic}* It's a bench." ]
+            : SAVE.data.n.plot === 72
+            ? [ "<32>{#p/basic}* Coming back to give a lonely bench some company...\n* The gesture is appreciated." ]
+            : [ "<32>{#p/basic}* 只是工厂中央的一张\n  孤独的长椅。\n* 没什么好奇怪的！" ],
+      quiche5: [ "<32>{#p/human}* (You decide not to take anything.)" ],
+      run1: [ "<32>{*}{#p/undyne}* 逃吧。{^20}{%}" ],
+      run2a1: [ "<32>{#p/undyne}* ...", "<32>{#p/undyne}* I'll go check." ],
+      run2b1: [ "<32>{#p/undyne}* (Stupid spiders...)" ],
+      run2a2: [ "<32>{#p/undyne}* ...", "<32>{#p/undyne}* I'm a little busy right now." ],
+      run2b2: [ "<32>{#p/undyne}* (Ugh...)" ],
+      run3: [ "<25>{*}{#p/kidd}{#f/13}{#x1}* 我来救你！{#x2}{^20}{%}" ],
+      run4: [ "<25>{*}{#p/kidd}{#f/1}{#x1}* 抱歉，我，呃...\n   我不知道怎么着陆啊！{#x2}{^20}{%}" ],
+      run5: [ "<25>{*}{#p/kidd}{#f/7}{#x1}* 我嘞个...{#x2}{^20}{%}" ],
+      run6: [ "<25>{*}{#p/kidd}{#f/7}{#x1}* 救命啊！！！{#x2}{^20}{%}" ],
+      run6a: [
+         "<25>{*}{#p/kidd}{#f/7}{#x1}* 别{@fill=#ff0}呆呆站着{@fill=#fff}了，\n  快{@fill=#ff0}过来帮我{@fill=#fff}啊，伙计！！！{#x2}{^20}{%}"
+      ],
+      run6b: [ "<25>{*}{#p/kidd}{#f/7}{#x1}* 快来救我啊！！！{#x2}{^20}{%}" ],
+      run6c: [ "<25>{*}{#p/kidd}{#f/7}{#x1}* 我...\n* 我-我停不下来...！{#x2}{^20}{%}" ],
+      run6d: [
+         "<25>{*}{#p/kidd}{#f/7}{#x1}* 你在干什么啊！？{#x2}{^20}{%}",
+         "<25>{*}{#p/kidd}{#f/7}{#x1}* 啊...！{#x2}{^20}{%}"
+      ],
+      run7: [
+         "<25>{#p/kidd}{#f/4}* 呃... 哟... 哟... 伙计...",
+         "<25>* 如...\n* 如果你打算伤害\n  我的朋友...",
+         "<25>* 你必须先通过我这关，\n  才行。"
+      ],
+      run8: [
+         "<25>{#p/kidd}{#f/3}* 她走掉了...",
+         "<25>{#f/1}* 哟，你真是救了我一命。",
+         "<25>{#f/3}* 虽然我本来是想\n  来救你的啦。",
+         "<25>{#f/2}* 哈哈。",
+         "<25>{#f/3}* ...老兄，\n  我感觉好累啊...",
+         "<25>{#f/4}* 我觉得我该回家了。",
+         "<25>{#f/7}* I...\n* I bet my parents are worried sick about me!"
+      ],
+      run9: [ "<25>{#p/kidd}{#f/13}* L... later, dude!" ],
+      run10: [
+         "<32>{#p/kidd}* Undyne...\n* You....\n* You saved me!",
+         "<32>* Huh?\n* They ran away?",
+         "<32>* Yo, you're wrong...",
+         "<32>* They went to get help!",
+         "<32>* They'll be back any second!!",
+         "<32>* ...",
+         "<32>* O-okay, I'll go home..."
+      ],
+      run11: (charged: boolean) => [
+         "<32>{#p/kidd}* Undyne...",
+         "<32>* You saved me...?",
+         "<32>* Yo... I...\n* I thought I was a goner.\n* Haha...",
+         "<32>* ... wait, are you okay?\n* It looks like you hit the ceiling pretty hard...",
+         "<32>* Th-this is my fault.\n* I should have stayed away from them, like you said.",
+         charged
+            ? "<32>* They just went straight to fight you instead of helping me..."
+            : "<32>* They just stood there...\n* Watching...\n* Waiting for me to disappear.",
+         "<32>* I was so scared, and you...",
+         "<32>* What?\n* You're gonna go fight them now?",
+         "<32>* But you look hurt...\n* You should rest, haha...",
+         "<32>* ...",
+         "<32>* W-warriors don't rest, huh?",
+         "<32>* Undyne...\n* You're really cool."
+      ],
+      sansSentry: () =>
+         SAVE.data.b.svr
+            ? [ "<32>{#p/human}* (This sentry station strikes you as rather unnecessary.)" ]
+            : world.darker
+            ? [ "<32>{#p/basic}* 一个哨站。" ]
+            : [ "<32>{#p/basic}* Sans's second sentry station...", "<32>* As if the first one wasn't already enough." ],
+      sansSentryBack: () =>
+         !world.genocide && SAVE.data.n.state_starton_papyrus === 1
+            ? [ "<32>{#p/human}* (You look under the shelf...)", "<32>{#p/basic}* It's a box of bones." ]
+            : [
+                 "<32>{#p/human}* (You look under the shelf...)",
+                 ...(SAVE.data.b.svr
+                    ? [
+                         [
+                            "<25>{#p/asriel1}{#f/13}* The notes in here are actually really interesting.",
+                            "<25>{#f/17}* Don't you know anything about time travel?",
+                            "<25>{#f/15}* I had a theory that my power to RESET was time travel...",
+                            "<25>{#f/13}* ... but I never did prove it."
+                         ],
+                         [
+                            "<25>{#p/asriel1}{#f/13}* There's a lot of different theories I've tried to prove.",
+                            "<25>{#f/13}* Quantum gravity, simulation theory, the Skasis paradigm...",
+                            "<25>{#f/17}* In hindsight, I might have spent a little too much time on them.",
+                            "<25>{#f/20}* Not that it made it any less interesting!"
+                         ],
+                         [
+                            "<25>{#p/asriel1}{#f/16}* I am surprised that Sans even keeps this around.",
+                            "<25>{#f/3}* He used to work at the lab, though, so...",
+                            "<25>{#f/4}* I guess it could just be a sentimental thing."
+                         ],
+                         [
+                            "<25>{#p/asriel1}{#f/13}* I never used to understand why monsters are so sentimental...",
+                            "<25>{#f/17}* ... but my years as a star changed that forever."
+                         ]
+                      ][Math.min(asrielinter.sansSentryBack++, 3)]
+                    : [ "<32>{#p/basic}* It's a series of notes on time travel." ])
+              ],
+      secretcallA: [
+         "<32>{#s/phone}{#p/event}* 铃铃，铃铃...",
+         "<18>{#p/papyrus}{#f/9}PSST, THIS IS PAPYRUS!",
+         "<18>{#f/0}AT THE MOMENT, I AM STILL HIDING IN MY SAFE PLACE.",
+         "<18>{#f/4}I HOPE YOU'RE NOT GETTING INTO TROUBLE...",
+         "<18>{#f/4}BECAUSE IF YOU ARE...",
+         "<19>{#f/9}I'D HAVE TO COME OVER THERE AND DO SOMETHING ABOUT IT!",
+         "<18>{#f/6}... WHICH I CAN'T DO, BECAUSE OF THE CURRENT SITUATION.",
+         "<18>{#f/7}SO DON'T GET INTO ANY TROUBLE!",
+         "<18>{#f/5}...",
+         "<18>{#f/5}PAPYRUS OUT...",
+         "<32>{#s/equip}{#p/event}* Click..."
+      ],
+      secretcallB: [
+         "<32>{#s/phone}{#p/event}* 铃铃，铃铃...",
+         "<18>{#p/papyrus}{#f/0}PSST, IT'S PAPYRUS AGAIN.",
+         "<18>{#f/5}WOWIE... IT MUST BE GETTING LATE BY NOW.",
+         "<18>{#f/6}ARE YOU WELL?\nHAS ANYONE ELSE BEEN... KILLED?",
+         "<18>{#f/5}THESE ARE THE QUESTIONS I ASK MYSELF EVERY DAY.",
+         "<18>{#f/4}GRANTED, I'VE ONLY BEEN IN HIDING FOR A SHORT TIME.",
+         "<18>{#f/7}BUT STILL!!!",
+         "<18>{#f/5}...",
+         "<18>{#f/4}... YOU MUST BE NEARLY OUT OF THE FOUNDRY BY NOW.",
+         "<18>{#f/5}I WISH I COULD DO MORE TO HELP, BUT ALAS...",
+         "<18>{#f/3}IT WOULD BE UNSAFE FOR ME TO RETURN RIGHT NOW.",
+         "<18>{#f/9}S-STILL!!!\nI KNOW YOU WON'T LET ME DOWN!",
+         "<18>{#f/5}...",
+         "<18>{#f/5}PAPYRUS OUT...",
+         "<32>{#s/equip}{#p/event}* Click..."
+      ],
+      spider1: () => [ "<32>{#p/basic}* ...嗯？" ],
+      spider2: () =>
+         badSpider()
+            ? [ "<32>{#p/basic}* 黑暗中，有东西在前进。" ]
+            : [ "<32>{#p/basic}* 黑暗中，有人在走动。" ],
+      spider3: () => (badSpider() ? [ "<32>{#p/basic}* 它十分强大..." ] : [ "<32>{#p/basic}* 那人十分好奇..." ]),
+      spider4: () =>
+         badSpider() ? [ "<32>{#p/basic}* 它极其危险..." ] : [ "<32>{#p/basic}* 那人神神秘秘..." ],
+      spider5: () => (badSpider() ? [ "<32>{#p/basic}* 它..." ] : [ "<32>{#p/basic}* 那人..." ]),
+      spider6: () =>
+         badSpider()
+            ? [
+                 "<32>{#p/basic}* ...将会葬身于此。",
+                 "<32>* 你以为能轻易逃得掉吗，亲？",
+                 "<32>* 啊哈哈~\n* 你欠下的血债，可有的还！"
+              ]
+            : [
+                 "<32>{#p/basic}* ...会被我在此拦住。",
+                 "<32>* 你以为过了特战队那关，\n  就万事大吉了，亲？",
+                 "<32>* 啊哈哈~\n* 你可真是天真！"
+              ],
+      spookydate0x: pager.create(
+         0,
+         [ "<25>{#p/sans}* hey, i respect what you did back there.", "<25>{#f/3}* thanks." ],
+         [ "<25>{#p/sans}{#f/2}* keep it up, and i might even even take you out for dinner." ]
+      ),
+      spookydate0y: [
+         "<32>{#p/basic}* Snas的后脑勺上\n  画着一双眼睛。",
+         "<32>{#p/basic}* 感觉不太可靠的样子。"
+      ],
+      spookydate0z: [
+         "<32>{#p/basic}* 令人惊讶的是，\n  Sans脑袋的侧面\n  没有画耳朵。",
+         "<33>{#p/basic}* 去后面看看..."
+      ],
+      spookydate0: pager.create(
+         0,
+         [ "<25>{#p/sans}* 谢谢你请我吃饭，\n  伙计。", "<25>* 很高兴能畅聊一番。" ],
+         [ "<25>{#p/sans}{#f/2}* 也许我们过会还可以\n  一起去吃个晚饭。" ]
+      ),
+      spookydate1: pager.create(
+         0,
+         [
+            "<25>{#p/sans}* 嘿，我听说你和我的兄弟\n  和好了。\n* 就是那个伟大的papyrus。",
+            "<25>{#f/2}* 嗯... \n  我觉得这也是一场\n  {@fill=#ff0}伟大的胜利{@fill=#fff}。",
+            "<25>{#f/0}* 我们去grillby's那庆祝一番，\n  咋样？",
+            "<25>{#f/3}* 获得了papyrus的好感，你就\n  在我内心有了一席之地。",
+            choicer.create("* （你要怎么回答？）", "走吧", "不了")
+         ],
+         [ "<25>{#p/sans}* my offer remains.\n* grillby's?", choicer.create("* （你要怎么回答？）", "走吧", "不了") ]
+      ),
+      spookydate2a: () => [ "<25>{#p/sans}* 那行，我会特意为你从工作中\n  抽身的..." ],
+      spookydate2b: () => [
+         "<25>{#p/sans}* 那行，随你便了。",
+         ...(SAVE.data.n.sans_doge_warning++ < 1
+            ? [
+                 "<25>{#p/sans}* just don't complain if you get in a fight and get hurt...",
+                 "<25>{#p/sans}* ... all because you forgot to eat something."
+              ]
+            : [])
+      ],
+      spookydate3: [ "<25>{#p/sans}* 这里。\n* 我知道一条捷径。" ],
+      spookydate4: [ "<25>{#p/sans}* 很快的捷径，不是吗？" ],
+      spookydate5: [ "<25>{#p/sans}* 嘿，各位。" ],
+      spookydate6: [ "<32>{#p/basic}* 好啊，Sans。\n{#x1}* 嘿呀，Sansy~" ],
+      spookydate7: [ "<32>{#p/basic}* 嘿，Sans。\n{#x1}* （嗨，Sans。）" ],
+      spookydate8: [ "<32>{#p/basic}* 我听说你用烈焰烧烤把酒吧\n  给点燃了，是这样吗？" ],
+      spookydate9: [
+         "<25>{#p/sans}{#f/3}* 嗯?\n* 不，那东西完全无害。",
+         "<25>{#f/2}* 能让这酒吧燃起来的\n  只有我的招牌幽默笑话。"
+      ],
+      spookydate9x: [ "<25>{#p/sans}{#f/3}* gee grillby, where'd everybody go?" ],
+      spookydate9y: [
+         "<32>{#p/basic}{#npc/a}* ...\n* ...\n* ...",
+         "<32>* ... Grillbz doesn't mention customers, but says seeing you is a nice relief."
+      ],
+      spookydate9z: [ "<25>{#p/sans}{#f/0}* how strange." ],
+      spookydate10: [ "<25>{#p/sans}* 为什么不过来坐一下呢，\n  伙计？" ],
+      spookydate11: [
+         "<25>{#p/sans}* 嗷哟，小心你坐的地方。",
+         "<25>{#f/2}* 有些怪咖会把放屁垫\n  放在座位上。",
+         "<25>{#f/0}* ... 那么，来点餐吧。\n* 你呲点啥？",
+         "<99>{#p/human}* （你要怎么回答？）{!}\n§shift=64§烈焰\n§shift=64§Grillbys§shift=56§汉堡{#c/0/8/7}",
+         "<26>{#p/sans}{#f/2}* 嘿，听上去挺不错。"
+      ],
+      spookydate12a: [ "<25>{#p/sans}* grillby，给我们来两份\n  烈焰的你。" ],
+      spookydate12b: [ "<25>{#p/sans}* grillby，给我们来两份汉堡。" ],
+      spookydate13: [
+         "<25>{#p/sans}* 那么，你觉得我兄弟的攻击\n  咋样？",
+         choicer.create("* （你要怎么回答？）", "简单", "难爆")
+      ],
+      spookydate14a: [
+         "<25>{#p/sans}* 简单？\n* 不会吧。",
+         "<25>{#f/3}* papyrus的攻击远没有那么\n  简单。",
+         "<25>{#f/0}* 你会为他制作这些攻击的时长\n  而感到惊讶。",
+         "<26>{#f/0}* 哦，好吧。\n* 至少他休息了。",
+         "<25>{#f/2}* 我是说，他把他的攻击手册\n  带出来了。"
+      ],
+      spookydate14b: [
+         "<25>{#p/sans}{#f/0}* 跟我说说看。",
+         "<25>{#f/3}* 有一次，在经过了\n  漫长一天的攻击修改后...",
+         "<25>{#f/0}* papyrus向我透露了\n  他先前的所有制作成果。",
+         "<25>{#f/0}* 说实话，在看到的那一刻，\n  我大受震撼。",
+         "<25>{#f/2}* 也许有朝一日，我会设计\n  独属于我的攻击。"
+      ],
+      spookydate15: [ "<25>{#p/sans}* 吃的来了。" ],
+      spookydate16: [
+         "<25>{#p/sans}* 不管怎样，有一点你得承认：\n  他成功地超越了自我。",
+         "<25>{#f/0}* 他的那些攻击设计就是\n  很好的例子。",
+         "<25>{#f/3}* 不久前，papyrus去拜访了\n  皇家守卫队队长...",
+         "<25>{#f/0}* 并恳求她让他加入\n  皇家守卫。",
+         "<25>{#f/3}* 唉，她直接当着他的面把门\n  摔上了。\n* 经典的undyne式作风。",
+         "<25>{#f/0}* 但几个小时后，当papyrus\n  带着他的设计归来时...",
+         "<25>{#f/0}* undyne大受震撼，所以她\n  决定给予他...",
+         "<25>{#f/2}* ... 好吧，咱姑且叫做\n  “军人般的训练”。"
+      ],
+      spookydate17: [ "<25>{#p/sans}* 哦对了，我想问你点事来着。" ],
+      spookydate18: [
+         "<25>{#p/sans}{#f/3}* 你曾听说过一种\n  {@fill=#ff0}会说话的星星{@fill=#fff}吗？",
+         choicer.create("* （你要怎么回答？）", "是", "否")
+      ],
+      spookydate19a: [
+         "<25>{#p/sans}* 原来你都知道啊。",
+         "<25>{#p/sans}* {@fill=#003cff}讯星{@fill=#fff}。"
+      ],
+      spookydate19b: [ "<25>{#p/sans}* 那么，我来告诉你吧\n* 它叫{@fill=#003cff}讯星{@fill=#fff}。" ],
+      spookydate20: [
+         "<25>* 工厂到处都是。",
+         "<25>* 如果它们接收到一条讯息，\n  就会一遍又一遍地重复着...",
+         "<25>{#f/3}* 怎样？",
+         "<25>{#f/0}* 其实，有一天，papyrus\n  对我讲了一些有趣的事。",
+         "<25>* 有些时候，当四下无人...",
+         "<25>* 一颗星星就会从天上飞下来，\n  对他说悄悄话。",
+         "<25>* 有赞扬...\n* 有建议...\n* 有鼓励...",
+         "<25>{#f/3}* ...也有预言。",
+         "<25>{#f/0}* 很诡异，对吗？",
+         "<25>* 肯定是谁用了讯星对他玩了\n  什么诡计。",
+         "<25>* 帮我留意一下，行吗？",
+         "<25>* 谢了。"
+      ],
+      spookydate21: [ "<25>{#p/sans}* ...呃，grillby。\n* 能帮忙把雅莫万用酱\n  递给我吗？" ],
+      spookydate22: [ "<25>{#p/sans}{#f/8}* 真是美味啊。" ],
+      spookydate23: [
+         "<25>{#p/sans}{#f/8}* 行吧，我要回到我的\n  岗位上了。",
+         "<25>{#f/8}* 对了，\n  记得把吃的带上再出门。",
+         "<25>{#f/9}* 后面可能会用上。"
+      ],
+      telescopeX: pager.create(
+         0,
+         () => [
+            "<25>{#p/sans}* 我在考虑经营\n  望远镜生意。",
+            "<25>{#f/3}* 放在我旁边的\n  就是所谓\n  高级望远镜。",
+            "<25>{#f/3}* 我本打算明天再\n  开放给公众...",
+            SAVE.data.b.voucher
+               ? "<25>{#f/2}* 但因为你有那张\n  高级会员券，\n  所以你可以提前用。"
+               : "<25>{#f/2}* 但咱俩很熟，\n  所以你可以提前用。",
+            "<25>{#f/0}* 肿么样？",
+            choicer.create("* （你要怎么回答？）", "是", "否")
+         ],
+         [ "<25>{#p/sans}{#f/2}* 要试试\n  我的望远镜吗？", choicer.create("* （你要怎么回答？）", "是", "否") ]
+      ),
+      telescopeY: () =>
+         SAVE.data.b.voucher
+            ? ((SAVE.data.b.f_state_voucher = true),
+              [
+                 "<25>{#p/sans}* 让我猜猜...\n* 是坏掉了吗？",
+                 "<25>{#f/3}* 哦，抱歉，\n  我以为你知道呢。",
+                 "<25>{#f/2}* 高级会员是需要\n  付费订阅的。",
+                 ...(world.kiddo
+                    ? [
+                         "<25>{#p/kidd}{#f/2}* 你在开玩笑，对吧？",
+                         "<25>{#p/sans}{#f/0}* 没。\n* 付费订阅。",
+                         "<25>{#p/kidd}{#f/1}* 可恶！"
+                      ]
+                    : [])
+              ])
+            : [
+                 "<25>{#p/sans}* 让我猜猜...\n* 是坏掉了吗？",
+                 "<25>{#f/3}* 哦，抱歉，\n  我以为你知道呢。",
+                 "<25>{#f/2}* 要使用高级望远镜\n  需要你具有\n  高级会员资格。",
+                 ...(world.kiddo
+                    ? [
+                         "<25>{#p/kidd}{#f/1}* 如果我拿出会员券呢？",
+                         "<25>{#p/sans}{#f/0}* 哦。\n* 这个嘛，就需要\n  付费订阅了。",
+                         "<25>{#p/kidd}{#f/1}* 可恶！"
+                      ]
+                    : [])
+              ],
+      telescopeZ: [ "<25>{#p/sans}{#f/2}* 哎呀..." ],
+      temmiepat1: [
+         "<32>{#p/tem}{#npc/a}* 求...\n* tem听说银类喜翻\n  摸摸tem...",
+         "<32>* 尼想...\n* 摸摸嘛？？？",
+         choicer.create("{#npc}* （你要怎么回答？）", "素的。", "卜要！")
+      ],
+      temmiepat2a: [ "<32>{#p/human}* （你摸了摸temmie。）", "<32>{#p/tem}{#npc/a}* 呜哇哦哇哦哇哦....." ],
+      temmiepat2b: [ "<32>{#p/tem}{#npc/a}* ...", "<32>{#p/tem}{#npc/a}* Go away." ],
+      temmiepat3a: [ "<32>{#p/human}* （你继续摸temmie。）", "<32>{#p/tem}{#npc/a}* 呜哇哦哇哦哇哦....." ],
+      temmiepat3b: [ "<32>{#p/tem}{#npc/a}* ..." ],
+      temstatue: () =>
+         SAVE.data.b.svr
+            ? [
+                 "<32>{#p/human}* (You flip the switch behind the statue.)",
+                 "<32>{#p/human}* (The riddle here describes a statue like this one and hints at a sequence of notes.)",
+                 "<32>{#p/human}* (It also mentions bringing an item to a specific opposing room.)"
+              ]
+            : [
+                 "<32>{#p/human}* (You flip the switch behind the statue.)",
+                 "<32>{#p/basic}* ... there's a riddle here.",
+                 "<32>* \"Flip the switch and bring a friend to a place you've been before again...\"",
+                 "<32>* \"A figure not unlike my own, a statue carved and set in stone.\"",
+                 "<32>* \"Follow the sequence of notes divined, to unlock the path to the other side...\"",
+                 "<32>* \"Bring the item to the room nextdoor, and all the power will be yours.\""
+              ],
+      temstatueAftuh: () =>
+         SAVE.data.b.svr
+            ? [
+                 "<32>{#p/human}* (The riddle here describes a statue like this one and hints at a sequence of notes.)",
+                 "<32>{#p/human}* (It also mentions bringing an item to a specific area.)"
+              ]
+            : [
+                 "<32>{#p/basic}* \"Flip the switch and bring a friend to a place you've been before again...\"",
+                 "<32>* \"A figure not unlike my own, a statue carved and set in stone.\"",
+                 "<32>* \"Follow the sequence of notes divined, to unlock the path to the other side...\"",
+                 "<32>* \"Bring the item to the room nextdoor, and all the power will be yours.\"",
+                 "<32>* ... the switch back here has already been pulled."
+              ],
+      temstatueNormuh: () =>
+         SAVE.data.b.svr
+            ? [ "<32>{#p/human}* (The sign emphasizes the fame of the statue.)" ]
+            : [ "<32>{#p/basic}* “tem的雕像... 超级著民”\n* “超级！！！！！！！！！”" ],
+      shard1: [ "<32>{#p/basic}* A pile of glass shards." ],
+      shard2: [ choicer.create("* (Stomp on them?)", "是", "否") ],
+      shard3: [ "<32>{#p/human}* (You decide not to stomp.)" ],
+      shard4: [ "<32>{#p/basic}* With the might of your indomitable soles, you charged up the ultimate power move!" ],
+      shard5: () => [
+         "<32>{#p/basic}* The shards have been scattered across the room.",
+         "<25>{#p/undyne}{#f/8}* PFFT-\n* OH MY GOD!!!",
+         ...(SAVE.data.b.undyne_respecc
+            ? [ "<25>{#p/undyne}{#f/1}* That's the kind of attitude I like to see!" ]
+            : [
+                 "<25>{#p/undyne}{#f/17}* I mean, uh, I mean, how could you do that to my kitchen...!",
+                 "<25>{#p/undyne}{#f/4}* ..."
+              ])
+      ],
+      sanscall2: () => [
+         "<32>{#s/phone}{#p/event}* 铃铃，铃铃...",
+         "<25>{#p/sans}{#f/0}* 嘿，你在吗？",
+         ...(SAVE.data.n.state_foundry_muffet === 1
+            ? [
+                 "<25>{#f/3}* it's been a while since i heard from you.",
+                 "<25>{#f/2}* didja fall into a wormhole or something?"
+              ]
+            : [
+                 "<25>{#f/3}* 有个孩子好像等不及\n  想再见到你了。",
+                 "<25>{#f/2}* 你是等我走了之后\n  交了个新朋友吗？"
+              ]),
+         "<25>{#f/0}* ...哈。",
+         "<25>{#f/0}* 我猜你现在还好。",
+         "<25>{#f/3}* 我真的很想密切关注你，\n  但是...",
+         "<25>{#f/0}* 出于某些原因，\n  这台昂贵的望远镜\n  没法透过墙壁看到东西。",
+         "<25>{#f/2}* 我被骗了。\n* 我得打电话给我的\n  保费欺诈代理人。",
+         ...(world.population === 0
+            ? [
+                 "<25>{#f/0}* 现在，\n  你应该不会有事的。",
+                 "<25>{#f/3}* the area ahead of you seems pretty empty, by my estimate.",
+                 "<25>{#f/2}* but hey.\n* i could be wrong."
+              ]
+            : world.killed5
+            ? [
+                 "<25>{#f/0}* in the meantime, you shouldn't have too much more trouble.",
+                 "<25>{#f/3}* the area ahead of you will be evacuated soon.",
+                 "<25>{#f/2}* hmm... i wonder if anyone will still be out there."
+              ]
+            : geno()
+            ? [
+                 "<25>{#f/0}* in the meantime, just be careful what you do next.",
+                 "<25>{#f/3}* it'd be a shame if we had to evacuate the foundry as well."
+              ]
+            : antiAteThreshold()
+            ? [
+                 "<25>{#f/0}* in the meantime, just be careful who you talk to.",
+                 "<25>{#f/3}* rumor has it, someone's been roughhousing folks in the factory."
+              ]
+            : [
+                 "<25>{#f/0}* in the meantime, just be careful who you talk to.",
+                 "<25>{#f/3}* 有传言说，\n  有谁在垃圾处理站附近\n  大搞破坏。"
+              ]),
+         "<32>{#s/equip}{#p/event}* Click..."
+      ],
+      trivia: {
+         f_bbox: [
+            "<32>{#p/basic}* A bastion box.\n* There's a human inside...",
+            "<32>{#p/basic}* Seems this one was adopted by Gerson."
+         ],
+         ghostparty1: pager.create(
+            0,
+            () => [
+               "<32>{#p/finalghost}* Hello there.\n* I still remember the first time we met...",
+               ...[
+                  [
+                     "<32>{#p/finalghost}* Toriel was so proud of you for talking to me.",
+                     "<32>* Personally, I don't think too much about how I talk to people, so...",
+                     "<32>* I'm not sure what else to say about that."
+                  ],
+                  [
+                     "<32>{#p/finalghost}* ... much to my dismay.",
+                     "<32>* Being forced out of your dummy outright is kind of annoying."
+                  ],
+                  [
+                     "<32>{#p/finalghost}* It was rather silly how you ran away from me.",
+                     "<32>* Toriel had every right to be worried about you running from an inanimate object."
+                  ],
+                  [
+                     "<32>{#p/finalghost}* ... not that I have any right to.",
+                     "<32>* I mean, how could you actually be that boring?\n* It must be a skill."
+                  ],
+                  [
+                     "<32>{#p/finalghost}* ... ha...",
+                     "<32>* ... maybe, when I get another vessel, the two of us can... do our thing again.",
+                     "<32>* You remember, don't you?"
+                  ],
+                  [
+                     "<32>{#p/finalghost}* ... much to my dismay.",
+                     "<32>* Being forced to move after such a long period of blissful inanimateness...",
+                     "<32>* It was very uncomfortable."
+                  ],
+                  [
+                     "<32>{#p/finalghost}* Toriel was so taken aback by your flirtatious ways.",
+                     "<32>* Personally, I thought it was hilarious.",
+                     "<32>* I was laughing on the inside."
+                  ]
+               ][SAVE.data.n.state_wastelands_dummy],
+               "<32>* Anyway...",
+               "<32>* We all decided to hang out at Blooky's before leaving for the new homeworld.",
+               "<32>* I will say, Blooky sure had some \"interesting\" music queued for download here...",
+               "<32>* What's a \"Hyper Rage\" anyway?",
+               "<32>{#p/basic}* A song I wish I hadn't made.",
+               "<32>{#p/finalghost}* Oh?\n* You made this?",
+               "<32>{#p/basic}* Unfortunately, mew.",
+               "<32>{#p/finalghost}* I can see why you would want to forget about it."
+            ],
+            [ "<32>{#p/finalghost}* She's looking to move past her violent ways." ]
+         ),
+         ghostparty2: pager.create(
+            0,
+            [
+               "<32>{#p/basic}* So, being an angry dummy got boring after a while.",
+               "<32>* Then I asked Alphys to make me a replica of her favorite Mew Mew doll, mew!",
+               "<32>* Wow.\n* Wow!\n* WOW!!",
+               "<32>* I haven't felt this happy in a long time."
+            ],
+            [ "<32>{#p/basic}* Sometimes all it takes is the right vessel, mew!!" ]
+         ),
+         ghostparty3: pager.create(
+            0,
+            [
+               "<32>{#p/mettaton}{#e/mettaton/9}* WHILE BLOOKY'S BUSY AT THE SHOP, WE DECIDED WE'D LOOK AFTER THEIR FARM ONCE MORE.",
+               "<32>{#e/mettaton/8}* OF COURSE, IT'S ONLY FOR A DAY BEFORE WE LEAVE THE OUTPOST.\n* BUT STILL.",
+               "<32>{#e/mettaton/36}* THINKING BACK, I'VE BEEN PRETTY OVER-DRAMATIC ABOUT THE WHOLE THING.",
+               "<32>{#e/mettaton/36}* BLOOKY NEVER DID -THAT- MUCH WRONG... I GUESS I JUST DIDN'T WANT TO ADMIT I WAS BORED.",
+               "<32>{#e/mettaton/8}* BUT MAYBE THAT'S WHAT MAKES ME SUCH A GREAT ACTOR.",
+               "<32>{#e/mettaton/37}* IT'S NOT ACTING IF YOU CAN'T PUT TOO MUCH EMOTION INTO IT!",
+               "<32>{#e/mettaton/9}* ... OR SOMETHING LIKE THAT."
+            ],
+            [ "<32>{#p/mettaton}{#e/mettaton/9}* IF YOU EVER NEED AN ACTOR, YOU KNOW WHO TO CALL." ]
+         ),
+         sleepingdogs: () =>
+            world.darker
+               ? [
+                    "<32>{#p/basic}* 一只站得笔挺的狗子睡得正香。",
+                    ...(world.goatbro && SAVE.flag.n.ga_asrielDogepoke++ < 1
+                       ? [ "<25>{#p/asriel2}{#f/10}* 不得不说，她就是这种货色。" ]
+                       : [])
+                 ]
+               : [
+                    "<32>{#p/basic}* 这只狗看起来像是睡着了，\n  但它的姿势是一种极度的\n  战备状态。",
+                    "<33>{#p/basic}* 不愧是空降犬！"
+                 ],
+         napstacouch: pager.create(
+            0,
+            () =>
+               SAVE.data.b.svr
+                  ? [ "<32>{#p/human}* (The couch appears to be new, but something tells you it's not.)" ]
+                  : [
+                       "<32>{#p/basic}* This couch looks just as worn as it does brand-new.",
+                       ...(ghostpartyCondition()
+                          ? [
+                               "<32>{#p/basic}* We're ghosts, so we don't really need a couch, mew.",
+                               "<32>* We just thought the room looked better with one in it!",
+                               "<32>{#p/mettaton}* OF COURSE.\n* ANY GOOD LIVING SPACE REQUIRES AT LEAST ONE COUCH!",
+                               "<32>{#p/mettaton}* PREFERABLY MTT-BRAND.",
+                               "<32>{#p/finalghost}* This seems like an entirely pointless requirement."
+                            ]
+                          : [])
+                    ],
+            () =>
+               SAVE.data.b.svr
+                  ? [ "<32>{#p/human}* (The couch appears to be new, but something tells you it's not.)" ]
+                  : [ "<32>{#p/basic}* This couch looks just as worn as it does brand-new." ]
+         ),
+         f_armor_sign: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The sign warns of dogs who appear to be asleep.)" ]
+               : [ "<32>{#p/basic}* “小心睡觉的狗。”" ],
+         f_backsign: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The sign speaks of strength of will in times of uncertainty.)" ]
+               : [ "<32>{#p/basic}* \"Even when you're lost, the will to find yourself shows through.\"" ],
+         f_cheesetable: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (Something about this cheese doesn't sit right with you.)" ]
+               : world.darker
+               ? [ "<32>{#p/basic}* 幻象罢了。" ]
+               : SAVE.data.n.plot === 72
+               ? [ "<32>{#p/basic}* Despite being holographic, it looks like a small slice of cheese was taken..." ]
+               : [ "<32>{#p/basic}* 全息奶酪。", "<32>{#p/basic}* 桌子也是全息的。" ],
+         f_creamsign: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The sign declares the monsters' ownership of the outpost.)" ]
+               : world.population_area('s') < 6 || world.genocide || SAVE.data.n.plot === 72 // NO-TRANSLATE
+
+               ? [ "<32>{#p/basic}* \"We claim this outpost as our own, never to be taken prisoner again.\"" ]
+               : [ "<32>{#p/basic}* 象形文字被21种不同的口味\n  涂盖住了。" ],
+         f_doge_sign: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The sign derides boxes for their lack of real-time utility.)" ]
+               : [
+                    "<32>{#p/basic}* “这是一个箱子。”",
+                    "<32>* “你可以把物品放进去\n   或者拿出来。”",
+                    "<32>* “但你为什么要那么做？”\n* “东西放在箱子里的时候，\n   你又用不了。”",
+                    "<32>* “谨上，一个箱子批评者。”"
+                 ],
+         f_doge1: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The sign details the difference in power between human and monster SOULs.)" ]
+               : [
+                    "<32>{#p/basic}* “人类为什么要进攻？”\n* “诚然，他们似乎无所畏惧。”",
+                    "<32>* “人类非常强大。\n   所有怪物的灵魂加起来...”",
+                    "<32>* “...才能和一个人类灵魂的\n   力量相当。”"
+                 ],
+         f_doge3: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The sign outlines a key weakness of human SOULs and its consequences.)" ]
+               : [
+                    "<32>{#p/basic}* “但人类有一个弱点。\n   讽刺的是，\n   这正是他们灵魂的力量。”",
+                    "<32>* “他们的灵魂即使在他们死后\n   也可以在人体之外持续存在。”",
+                    "<32>* “如果一个怪物打败了一个人类，\n   怪物就可以取走人类的灵魂。”",
+                    "<32>* “一个有着人类灵魂的怪物...\n   一个拥有深不可测的力量的\n   宇宙生物。”",
+                    ...(world.goatbro && SAVE.flag.n.ga_asrielBeast++ < 1
+                       ? [ "<25>{#p/asriel2}{#f/15}* Cosmic doesn't even BEGIN to cover it..." ]
+                       : [])
+                 ],
+         f_doge5: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The sign depicts something the likes of which you've never seen before.)" ]
+               : [
+                    "<32>{#p/basic}* 这是一幅悲惨的\n  太空生物的插画...",
+                    "<32>* 这幅画有点让人不安。",
+                    ...(world.goatbro && SAVE.flag.n.ga_asrielDrawing++ < 1
+                       ? [
+                            "<25>{#p/asriel2}{#f/5}* Look, $(name)!\n* It's us!\n* ... sort of.",
+                            "<26>{#f/4}* ... is that really how they think we looked?"
+                         ]
+                       : [])
+                 ],
+         f_gersonshop: () =>
+            SAVE.data.b.svr
+               ? [
+                    [
+                       "<25>{#p/asriel1}{#f/17}* To think he'd been running that store for this long...",
+                       "<25>{#f/20}* I wonder what other things he's sold over the years.",
+                       "<25>{#f/15}* Remember, in this timeline, I've only been here two weeks.",
+                       "<25>{#f/13}* My guess is, he's mainly been selling trinkets...",
+                       "<25>{#f/16}* Either from the early outpost days, or the old homeworld."
+                    ],
+                    [
+                       "<25>{#p/asriel1}{#f/13}* I did hear something about a certain artifact...",
+                       "<25>{#f/15}* One so dangerous, its use was banned in the war.",
+                       "<25>{#f/16}* I'm not sure if Gerson ever sold it, though.",
+                       "<25>{#f/13}* Even he might not be old enough to know if it exists."
+                    ],
+                    [
+                       "<25>{#p/asriel1}{#f/15}* Knowledge about that artifact's existence...",
+                       "<25>{#f/13}* It'd have to be within someone who was born even before the war.",
+                       "<25>{#f/16}* Someone like that would know all about that sort of thing."
+                    ]
+                 ][Math.min(asrielinter.f_gersonshop++, 2)]
+               : [ "<32>{#p/basic}* \"Gerson's Bits 'n' Bobs!\"\n* \"A humble store for all your factory life needs!\"" ],
+         f_hub_sign: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The sign lists off what lies in each direction.)" ]
+               : [
+                    "<32>{#p/basic}* “向左 - 暗区”\n* “向前 - Undyne的家”\n* “向右 - Gerson的商店”",
+                    "<32>{#p/basic}* “向后 - 蜗牛保护区”"
+                 ],
+         f_lobbywindow: [
+            "<32>{#p/human}* （你觉得你已经从另一个角度\n  看到过这样的窗户了。）"
+         ],
+         f_shinycab: () =>
+            SAVE.data.b.svr
+               ? [
+                    [
+                       "<25>{#p/asriel1}{#f/13}* Looks like it already cleaned out the room...",
+                       "<25>{#f/17}* No trash here!"
+                    ],
+                    [
+                       "<25>{#p/asriel1}{#f/15}* Unless you consider yourself a piece of trash.",
+                       "<25>{#f/16}* Knowing you, that wouldn't surprise me.",
+                       "<25>{#f/31}* You'd probably be proud of it or something."
+                    ],
+                    [
+                       "<25>{#p/asriel1}{#f/13}* ... come on.",
+                       "<25>{#f/17}* You don't REALLY believe you're a piece of trash, do you?"
+                    ]
+                 ][Math.min(asrielinter.f_shinycab++, 2)]
+               : world.darker
+               ? [ "<32>{#p/basic}* 一台垃圾处理器。" ]
+               : [
+                    "<32>{#p/basic}* 一个垃圾处理箱。\n* 当它启动时，极热的气体\n  会充斥整个房间。",
+                    "<32>{#p/basic}* 你活不下来的。"
+                 ],
+         f_path1: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The sign describes how a being can leave the force field.)" ]
+               : [
+                    "<32>{#p/basic}* “当人类把我们困住时，\n   他们用力场把我们\n   封印在了这里。”",
+                    "<32>* “唯有拥有强大灵魂的存在\n   才能离开。”"
+                 ],
+         f_path2: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The sign describes how the force field can be broken.)" ]
+               : [
+                    "<32>{#p/basic}* “只有一种方法能把我们\n   解放出来。”",
+                    "<32>* “如果有一股强大的，\n   相当于七个人类灵魂的力量，\n   施加到力场上...”",
+                    "<32>* “力场就会被摧毁。”"
+                 ],
+         f_path3: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (It appears this sign was very wrong indeed.)" ]
+               : [
+                    "<32>{#p/basic}* “但这个被诅咒的地方\n   甚至不在太阳系里。”",
+                    "<32>* “人类根本不可能找到这里。”",
+                    "<32>* “我们将永远被困在这里。”"
+                 ],
+         f_puzzle1_sign: () =>
+            SAVE.data.b.svr
+               ? world.postnoot && world.nootflags.has('f_puzzle1') // NO-TRANSLATE
+
+                  ? [
+                       "<32>{#p/human}* (The sign tells you to ignore the puzzle outright.)",
+                       ...[
+                          [
+                             "<25>{#p/asriel1}{#f/15}* Whoever wrote that must've had a bad sense of humor...",
+                             "<25>{#f/17}* You'd have to be REALLY bored to ignore a puzzle this simple."
+                          ],
+                          [
+                             "<25>{#p/asriel1}{#f/9}* What are you looking at me for?\n* I love puzzles.",
+                             "<25>{#f/4}* Big ol' puzzle lover right here."
+                          ],
+                          [ "<25>{#p/asriel1}{#f/15}* ..." ]
+                       ][Math.min(asrielinter.f_puzzle1_sign++, 2)]
+                    ]
+                  : [ "<32>{#p/human}* (The sign informs you on how to solve the puzzle.)" ]
+               : world.postnoot && world.nootflags.has('f_puzzle1') // NO-TRANSLATE
+
+               ? [ "<32>{#p/basic}* \"Walk right into the next room if you don't mind.\"\n* \"And ignore the switch.\"" ]
+               : [
+                    "<32>{#p/basic}* “移动塔架，\n   引导激光射向接收器。”\n  “然后按下开关。”"
+                 ],
+         f_puzzle2_sign: () =>
+            SAVE.data.b.svr
+               ? world.postnoot && world.nootflags.has('f_puzzle2') // NO-TRANSLATE
+
+                  ? [
+                       "<32>{#p/human}* (The sign claims nobody would care about this puzzle.)",
+                       ...[
+                          [
+                             "<25>{#p/asriel1}{#f/13}* Yeah, puzzles like this just solve themselves sometimes...",
+                             "<25>{#f/17}* What else can I say?"
+                          ],
+                          [
+                             "<25>{#p/asriel1}{#f/10}* Huh?\n* You think I solved this one for you...?",
+                             "<25>{#f/20}* No way.\n* Puzzles barely interest me at all."
+                          ],
+                          [ "<25>{#p/asriel1}{#f/15}* ..." ]
+                       ][Math.min(asrielinter.f_puzzle2_sign++, 2)]
+                    ]
+                  : [ "<32>{#p/human}* (The sign informs you on how to solve the puzzle.)" ]
+               : world.postnoot && world.nootflags.has('f_puzzle2') // NO-TRANSLATE
+
+               ? [ "<32>{#p/basic}* \"Honestly, who cares about this puzzle?\"\n* \"It's not worth it.\"" ]
+               : [ "<32>{#p/basic}* “所有的塔架都必须\n   应用在解谜中。”" ],
+         f_puzzle3_sign: () =>
+            SAVE.data.b.svr
+               ? [
+                    "<32>{#p/human}* (The sign declares the decided unfairness of this puzzle as the reason it was shut down.)"
+                 ]
+               : !world.genocide && world.trueKills < 30
+               ? [ "<32>{#p/basic}* “谜题公会以该谜题不公平为由\n   关闭了这个谜题。”" ]
+               : world.postnoot && world.nootflags.has('f_puzzle3') // NO-TRANSLATE
+
+               ? [
+                    "<32>{#p/basic}* The contents of this sign have been crossed out...",
+                    "<32>* ... and crossed out again?"
+                 ]
+               : [
+                    "<32>{#p/basic}* The contents of this sign have been crossed out...",
+                    "<32>* ... with a distinct sense of illegible chicken-scratch."
+                 ],
+         f_statue_kidd: () =>
+            SAVE.data.b.svr
+               ? [ "<26>{#p/asriel1}{#f/20}* Er, try standing the other switch." ]
+               : [ "<25>{#p/kidd}{#f/1}* 站在另一个开关上吧！" ],
+         f_telescope: () =>
+            SAVE.data.b.svr
+               ? [
+                    [ "<25>{#p/asriel1}{#f/15}* Frisk.\n* It's no use.\n* Don't even bother." ],
+                    [
+                       "<25>{#p/asriel1}{#f/13}* Even if you COULD get a premium subscription...",
+                       "<25>{#p/asriel1}{#f/15}* You'd never be able to cancel it."
+                    ],
+                    [ "<25>{#p/asriel1}{#f/16}* There's just too many premium hoops to jump through here." ]
+                 ][Math.min(asrielinter.f_telescope++, 2)]
+               : world.darker
+               ? [ "<32>{#p/basic}* 一架望远镜。" ]
+               : [ "<32>{#p/basic}* 这是一架“高级”望远镜。" ],
+         f_temhistory: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The painting depicts a tale of a nondescript nature.)" ]
+               : world.darker
+               ? [ "<32>{#p/basic}* The history of Tem." ]
+               : SAVE.data.n.plot === 72
+               ? [ "<32>{#p/basic}* Tem history.\n* May its richness and deepness never be forgotten." ]
+               : [ "<32>{#p/basic}* Tem的历史。\n* 银河系中最深远\n  最丰富的历史。" ],
+         f_temhole: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (Through the hole, you stare into the rumbling underbelly of the factory.)" ]
+               : world.runaway ||
+                 SAVE.data.s.state_foundry_deathroom === 'f_village' || // NO-TRANSLATE
+
+                 world.genocide ||
+                 30 <= world.trueKills
+               ? [ "<32>{#p/basic}* It's a hole." ]
+               : [ "<32>{#p/basic}* 有个temmie在洞里。\n* tem洞。" ],
+         f_trash: pager.create(
+            1,
+            [ "<32>{#p/basic}* 是垃圾。" ],
+            () => (world.darker ? [ "<32>{#p/basic}* 是垃圾。" ] : [ "<32>{#p/basic}* 还是垃圾。" ]),
+            () => (world.darker ? [ "<32>{#p/basic}* 是垃圾。" ] : [ "<32>{#p/basic}* 只是些垃圾..." ]),
+            () => (world.darker ? [ "<32>{#p/basic}* 是垃圾。" ] : [ "<32>{#p/basic}* 垃圾就是垃圾。" ]),
+            () => (world.darker ? [ "<32>{#p/basic}* 是垃圾。" ] : [ "<32>{#p/basic}* 垃圾形状的垃圾。" ]),
+            () => (world.darker ? [ "<32>{#p/basic}* 是垃圾。" ] : [ "<32>{#p/basic}* 真意外，这是垃圾。" ]),
+            () => (world.darker ? [ "<32>{#p/basic}* 是垃圾。" ] : [ "<32>{#p/basic}* 垃圾！！！！！！！！" ])
+         ),
+         f_trash1: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The tablet seems to describe the lifecycle of a particular kind of flower.)" ]
+               : world.darker
+               ? [ "<32>{#p/basic}* 这台平板上的数据没什么重要的。" ]
+               : [
+                    "<33>{#p/basic}* 这是台旧平板电脑。\n* 数据基本都损坏了...",
+                    "<32>* “一朵来自远方的花...\n  第二次生命...\n  星星的形状...”",
+                    "<32>* 你能认出来的就是这些。"
+                 ],
+         f_trash2: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The tablet describes various uses for wormholes.)" ]
+               : world.darker
+               ? [ "<32>{#p/basic}* 这台平板上只记了些毫无意义的琐事。" ]
+               : [
+                    "<32>{#p/basic}* 这是一台关于虫洞旅行的\n  平板电脑。",
+                    "<32>* 另外一章节提到了\n  虫洞武器的危险..."
+                 ],
+         f_trash3: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The tablet contains the entire run of a science fiction anime.)" ]
+               : world.darker
+               ? [ "<32>{#p/basic}* 这台平板上存了些视频。\n* 你对视频内容不感兴趣。" ]
+               : [
+                    "<32>{#p/basic}* 这是一台上面有\n  科幻动漫的旧平板电脑。",
+                    "<32>* 封面上写着\n  “喵喵星火：全集”。"
+                 ],
+         f_undynedummy: () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#p/basic}* I've been thinking of finding a new identity...",
+                    "<32>* The \"Mad Dummy\" shtick just doesn't suit me anymore.",
+                    "<32>* I wonder if Alphys could make me a new body...",
+                    "<32>* Something like... a robo-girl, or... a digi-woman...",
+                    "<32>* Or even a sci-fi doll?"
+                 ]
+               : SAVE.data.b.killed_mettaton
+               ? []
+               : SAVE.data.s.state_foundry_deathroom === 'f_undyne' // NO-TRANSLATE
+
+               ? [
+                    "<32>{#p/basic}* No.\n* No!\n* NO!!",
+                    "<32>* You killed my only training partner.",
+                    "<32>* How DARE you kill the only person who knows how to hit me properly!?",
+                    ...(SAVE.data.n.bad_lizard < 2 && 49 <= SAVE.data.n.plot
+                       ? [ "<32>* No matter how many dumb game shows I agree to be in to try and distract myself..." ]
+                       : [ "<32>* No matter what lame excuse I come up with..." ]),
+                    "<32>* I'll never be able to replace her!"
+                 ]
+               : world.goatbro
+               ? [
+                    "<32>{#p/basic}* Seriously.\n* Seriously?\n* SERIOUSLY!?",
+                    "<32>{#p/basic}* You guys are genuinely adorable.",
+                    ...(SAVE.flag.n.ga_asrielDummy++ < 1
+                       ? [ "<25>{#p/asriel2}{#f/13}* Are we... really...", "<25>{#p/asriel2}{#f/16}* ..." ]
+                       : [])
+                 ]
+               : SAVE.data.n.plot_date > 1.3 && SAVE.data.n.plot_date < 2.1
+               ? SAVE.data.n.state_wastelands_toriel === 0
+                  ? [ "<32>{#p/basic}* Don't worry.\n* Everything is fine.\n* This happens all the time." ]
+                  : [ "<32>{#p/basic}* What.\n* What?\n* WHAT!?", "<32>{#p/basic}* This happens all the time." ]
+               : SAVE.storage.inventory.contents.includes('tvm_mewmew') // NO-TRANSLATE
+
+               ? [
+                    "<32>{#p/basic}* Yeah, you're so cool with that Mew Mew doll of yours, huh?",
+                    "<32>{#p/basic}* You think it's so adorable and lovable and...",
+                    "<32>{#p/basic}* W-what!?\n* I'm not blushing!"
+                 ]
+               : 65 <= SAVE.data.n.plot
+               ? SAVE.data.b.a_state_hapstablook
+                  ? 68 <= SAVE.data.n.plot
+                     ? [ "<32>{#p/basic}* You did it, human.", "<32>{#p/basic}* I'm sorry I ever doubted you." ]
+                     : [
+                          "<32>{#p/basic}* Well.\n* Well!\n* WELL!",
+                          "<32>* You certainly know how to choose your battles."
+                       ]
+                  : [ "<32>{#p/basic}* Ugh.\n* Ugh!\n* UGH!", "<33>{#p/basic}* My life really sucks right now." ]
+               : 63 <= SAVE.data.n.plot && SAVE.data.b.a_state_hapstablook
+               ? [
+                    "<32>{#p/basic}* Hey, aren't you supposed to be in Mettaton's next show?",
+                    "<32>* What are you doing way back here?",
+                    "<32>* Come on.\n* Come on!\n* COME ON!!",
+                    "<32>* Get back in the spotlight so we can go forward with our plan!"
+                 ]
+               : SAVE.data.n.bad_lizard < 2 && 49 <= SAVE.data.n.plot
+               ? [
+                    "<32>{#p/basic}* So.\n* So!\n* SO!",
+                    "<32>* You're a TV star now, huh?",
+                    "<32>* Yeah, Mettaton usually has that effect on people."
+                 ]
+               : SAVE.data.n.plot === 47.2
+               ? [ "<32>{#p/basic}* Ready or not, here she comes!!" ]
+               : SAVE.data.n.state_wastelands_toriel === 0
+               ? [ "<32>{#p/basic}* Hello again!" ]
+               : SAVE.data.b.f_state_dummypunch
+               ? [
+                    "<32>{#p/basic}* 嘿。\n* 嘿！\n* 嘿-！",
+                    ...(SAVE.data.b.f_state_dummypunch_meanie
+                       ? [
+                            "<32>* You don't hit too bad for a dummy.",
+                            "<32>* It's a pity...",
+                            "<32>* BECAUSE I'M ALREADY TAKEN!",
+                            "<32>* Go find your own dummy and get the hell outta my face!"
+                         ]
+                       : [
+                            "<32>* Hands off the goods!\n* I ain't rated \"E\" for everyone, you know!",
+                            "<32>* Wimpy strikes like yours will never compare to those of Undyne!"
+                         ])
+                 ]
+               : SAVE.data.b.f_state_dummyhug
+               ? [
+                    "<32>{#p/basic}* 嘿。\n* 嘿！\n* 嘿-！",
+                    "<32>* ... you're...\n* Actually a pretty good hugger.",
+                    "<32>* So... even though I have my fear... I still appreciate the attempt."
+                 ]
+               : SAVE.data.b.f_state_dummytalk
+               ? [
+                    "<32>{#p/basic}* 嘿。\n* 嘿！\n* 嘿-！",
+                    ...(SAVE.data.b.f_state_dummytalk_meanie
+                       ? [
+                            "<32>* You've got quite the intimidating stare.",
+                            "<32>* It's a shame you wasted it on me...",
+                            "<32>* BECAUSE I COULDN'T CARE LESS!"
+                         ]
+                       : [
+                            "<32>* 把你的眼睛从我身上挪开！\n* 我又不是人人都能评价的，\n  你又不是不知道！",
+                            "<32>* 像你这样软弱的凝视\n  永远比不上Undyne那\n  凶狠的凝视！"
+                         ])
+                 ]
+               : [ "<32>{#p/basic}* What.\n* What?\n* WHAT!?", "<32>{#p/basic}* It's a living." ],
+         f_view: [ "<25>{#p/kidd}{#f/14}* Awesome..." ],
+         f_village_egg: () => [ "<32>{#p/basic}* 已经煮得过熟了。" ],
+         f_village_sign1: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The sign welcomes you to the area.)" ]
+               : [ "<32>{#p/tem}* “你吼！！”\n* “欢银来...”\n* “TEM村庄！！！”" ],
+         f_village_sign2: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The sign implores you to check the nearby shop.)" ]
+               : [ "<32>{#p/tem}* “你吼！！”\n* “尼赢改看看...”\n* “TEM百嚯店！！！”" ],
+         f_village_sign3: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The sign agrees with another sign imploring you to check the nearby shop.)" ]
+               : [ "<32>{#p/tem}* “嚎吖！！窝通噫！！”\n* “赢改看看...”\n* “TEM百嚯店！！！”" ],
+         fstatue: () =>
+            SAVE.data.b.svr
+               ? [
+                    [ "<25>{#p/asriel1}{#f/13}* This statue...", "<25>{#f/15}* Is this supposed to be of me...?" ],
+                    [
+                       "<25>{#p/asriel1}{#f/13}* I don't remember this being built...",
+                       "<25>{#f/23}* Must've been after I...",
+                       "<25>{#f/22}* ..."
+                    ],
+                    [ "<25>{#p/asriel1}{#f/22}* ..." ]
+                 ][Math.min(asrielinter.fstatue++, 2)]
+               : [ "<32>{#p/basic}* 这是座古老的、废弃的雕像。" ],
+         hapstabed: () =>
+            SAVE.data.b.svr
+               ? [
+                    [
+                       "<25>{#p/asriel1}{#f/15}* I doubt even WE'D sleep very well in this bed.",
+                       "<25>{#f/23}* No matter how comfortable that might sound."
+                    ],
+                    [
+                       "<25>{#p/asriel1}{#f/13}* Yeah.\n* This is a ghost bed, Frisk.",
+                       "<25>{#f/13}* Ghosts have different sorts of needs than... well, not ghosts.",
+                       "<25>{#f/13}* And I'm not just talking about their sleeping arrangements."
+                    ],
+                    [
+                       "<26>{#p/asriel1}{#f/13}* Ghosts, more than any other kind of monster...",
+                       "<25>{#f/13}* Seem to focus more on the world around them.",
+                       "<25>{#f/15}* It's like they never let what's in front of them...",
+                       "<25>{#f/13}* Distract them from the bigger picture for long.",
+                       "<25>{#f/17}* On second thought, maybe that's why Mettaton loves TV.",
+                       "<25>{#f/16}* Getting the \"bigger picture\" is basically the whole idea..."
+                    ],
+                    [ "<26>{#p/asriel1}{#f/20}* Mettaton and his TV shows, am I right?" ]
+                 ][Math.min(asrielinter.hapstabed++, 3)]
+               : world.darker
+               ? [ "<32>{#p/basic}* It's a ghost bed." ]
+               : SAVE.data.n.plot === 72
+               ? [ "<32>{#p/basic}* Just because you saved the galaxy doesn't mean you can sleep on a ghost bed." ]
+               : [ "<32>{#p/basic}* It's a ghost bed.\n* You'd sleep right through it." ],
+         hapstabook1: () => [
+            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* It's a voicebook." ]),
+            "<32>{#p/human}* (You pick up the voicebook and open to the only recorded section.)",
+            "<32>{#p/hapstablook}* Dear diary, volume one...",
+            "<32>* Humans dream of so many fantastical stories, yet when I look out my window...",
+            "<32>* ... all I can see is a wall.",
+            "<32>* Is it right that we monsters have become used to this sad state of living?",
+            "<32>* Is it right that only the youngest children seem to be truly alive?",
+            "<32>* Our sense of wonder has been beaten out of us...",
+            "<32>* There's no denying it now.",
+            "<32>{#p/human}* (You put the book back down.)",
+            ...(SAVE.data.b.svr || SAVE.data.b.oops || SAVE.data.n.state_foundry_hapstacom1++ > 0
+               ? []
+               : [
+                    "<32>{#p/basic}* ... he was always like this in the early days...",
+                    "<32>{#p/basic}* Always wanting everyone to be as happy as he was.",
+                    "<32>{#p/basic}* Especially me."
+                 ])
+         ],
+         hapstabook2: () => [
+            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* It's a voicebook." ]),
+            "<32>{#p/human}* (You pick up the voicebook and open to the only recorded section.)",
+            "<32>{#p/hapstablook}* Dear diary, volume two...",
+            "<32>* I've been binge-watching old human television series.",
+            "<32>* These people aren't like what I've been told... in fact, they're a lot like us.",
+            "<32>* Living, laughing, loving...\n* Hurting and crying.\n* Doing what they believe in.",
+            "<32>* They say humanity is a species that should be feared.",
+            "<32>* But the more I see of them... the more I grow tired of that idea.",
+            "<32>* Monsters aren't all starlight and roses, either.",
+            "<32>{#p/human}* (You put the book back down.)",
+            ...(SAVE.data.b.svr || SAVE.data.b.oops || SAVE.data.n.state_foundry_hapstacom2++ > 0
+               ? []
+               : [
+                    "<32>{#p/basic}* I remember how, when we first met, he was the first one to open up to me.",
+                    "<32>{#p/basic}* It wasn't long before I opened up, too..."
+                 ])
+         ],
+         hapstabook3: () => [
+            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* It's a voicebook." ]),
+            "<32>{#p/human}* (You pick up the voicebook and open to the only recorded section.)",
+            "<32>{#p/hapstablook}* Dear diary, volume three...",
+            "<32>* It's been a hard day at the farm for Blooky and me.",
+            "<32>* Two of the snails we'd been looking after escaped, and we couldn't find them.",
+            "<32>* No matter what I do, something like this always happens.",
+            "<32>* Blooky says it's fine, of course, but they say that about everything.",
+            "<32>* And I wonder why I still bother working here.",
+            "<32>{#p/human}* (You put the book back down.)",
+            ...(SAVE.data.b.svr || SAVE.data.b.oops || SAVE.data.n.state_foundry_hapstacom3++ > 0
+               ? []
+               : [
+                    "<32>{#p/basic}* I tried to help the family out, but with the way things were...",
+                    "<32>{#p/basic}* There wasn't much I could do."
+                 ])
+         ],
+         hapstabook4: () => [
+            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* It's a voicebook." ]),
+            "<32>{#p/human}* (You pick up the voicebook and open to the only recorded section.)",
+            "<32>{#p/hapstablook}* Dear diary, volume four...",
+            "<32>* I was at the store today when I ran into a girl... Alphys, I think?",
+            "<32>* Apparently, she's next in line to be the royal scientist.\n* Who would've thought?",
+            "<32>* Anyway, her and I have become fast friends due to our shared love of humanity.",
+            "<33>* Funny... the previous royal scientist was sympathetic, too.",
+            "<32>* I wonder why that is.",
+            "<32>{#p/human}* (You put the book back down.)",
+            ...(SAVE.data.b.svr || SAVE.data.b.oops || SAVE.data.n.state_foundry_hapstacom4++ > 0
+               ? []
+               : [ "<32>{#p/basic}* Oh, if only you knew..." ])
+         ],
+         hapstabook5: () => [
+            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* It's a voicebook." ]),
+            "<32>{#p/human}* (You pick up the voicebook and open to the only recorded section.)",
+            "<32>{#p/hapstablook}* Dear diary, volume five...",
+            "<32>* Alphys and I have started work on a new project.",
+            "<32>* We'll be taking inspiration from those imaginative humans...",
+            "<32>* ... by starting a new, public- broadcast television series!",
+            "<32>* I've already written numerous elaborate scripts.",
+            "<32>* If this doesn't lift the public's spirits, then I don't know what will!",
+            "<32>* Haha... let's just say things could get \"explosive.\"",
+            "<32>{#p/human}* (You put the book back down.)",
+            ...(SAVE.data.b.svr || SAVE.data.b.oops || SAVE.data.n.state_foundry_hapstacom5++ > 0
+               ? []
+               : [ "<32>{#p/basic}* All he ever wanted to do was make them happy..." ])
+         ],
+         hapstabook6: () => [
+            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* It's a voicebook." ]),
+            "<32>{#p/human}* (You pick up the voicebook and open to the only recorded section.)",
+            "<32>{#p/hapstablook}* Dear diary, volume six...",
+            "<32>* That Alphys... shes done something I never could have imagined.",
+            "<32>* Thanks to her, my future seems brighter than ever...",
+            "<32>* ... I only hope the others come to understand my choice.",
+            "<32>* No matter what happens to me next, a part of me will always miss being with you.",
+            "<32>* Please... never forget that.\n* Even if I myself do.",
+            "<32>{#p/human}* (You put the book back down.)",
+            ...(SAVE.data.b.svr || SAVE.data.b.oops || SAVE.data.n.state_foundry_hapstacom6++ > 0
+               ? []
+               : SAVE.data.n.plot < 68
+               ? [
+                    "<32>{#p/basic}* Sentimental as ever, eh?",
+                    "<32>{#p/basic}* Well.\n* With any luck, you'll be re- united on better terms soon."
+                 ]
+               : [
+                    "<32>{#p/basic}* Sentimental as ever, eh?",
+                    "<32>{#p/basic}* Heh.\n* I'm just glad you got to re- unite with them in the end."
+                 ])
+         ],
+         hapstacouch: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (But you knew you still had a little farther to go before you could rest.)" ]
+               : world.darker
+               ? [ "<32>{#p/basic}* It's just a couch." ]
+               : SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#p/basic}* Another couch, another temptation... you're so tired after all this traveling.",
+                    "<32>{#p/basic}* ... but you can't stay here forever!"
+                 ]
+               : [
+                    "<32>{#p/basic}* Another couch, another temptation... you're so tired after all this traveling.",
+                    "<32>{#p/basic}* ... but you have to keep going!"
+                 ],
+         hapstaposter: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The caption on this poster describes a love story.)" ]
+               : [ "<32>{#p/basic}* \"Two star-crossed lovers fall into a digital abyss...\"" ],
+         hapstatv: () =>
+            SAVE.data.b.svr
+               ? [
+                    [
+                       "<25>{#p/asriel1}{#f/13}* This thing must be centuries old...",
+                       "<25>{#f/17}* Makes you wonder how it got here from Earth so quickly."
+                    ],
+                    [
+                       "<25>{#p/asriel1}{#f/13}* You do realize Earth is thousands of lightyears from here, right?",
+                       "<25>{#f/15}* The odds of this being here are so slim...",
+                       "<25>{#f/16}* That part of me thinks it wasn't an accident.",
+                       "<25>{#f/10}* But why would the humans send us their centuries-old junk?"
+                    ],
+                    [
+                       "<25>{#p/asriel1}{#f/17}* My theory is that some human was... secretly on our side.",
+                       "<25>{#f/13}* They couldn't send us modern technology, that'd be detected.",
+                       "<25>{#f/1}* But if they sent us ancient technology...",
+                       "<25>{#f/2}* Well, the other humans might not have noticed.",
+                       "<25>{#f/3}* But that's just a theory."
+                    ],
+                    [ "<25>{#p/asriel1}{#f/21}* Sure would've been nice to have an extra ally out there..." ]
+                 ][Math.min(asrielinter.hapstatv++, 3)]
+               : [ "<32>{#p/basic}* An old earth television set." ],
+         hapstawindow: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (Through the window, you gaze long into the wall on the other side.)" ]
+               : world.darker
+               ? [ "<32>{#p/basic}* There's nothing to see here." ]
+               : [ "<32>{#p/basic}* A beautiful view... of the outside foundry wall." ],
+         k_bonedrawer: pager.create(
+            0,
+            () => [
+               "<25>{#p/undyne}{#f/1}* I'll be honest...",
+               "<25>{#f/14}* It's been a long time since I've seen the bottom of that drawer.",
+               SAVE.data.b.oops
+                  ? "<32>{#p/basic}* Nothing but bones."
+                  : "<32>{#p/basic}* It's a drawer reserved just for Papyrus.\n* I like this."
+            ],
+            () => [
+               SAVE.data.b.oops
+                  ? "<32>{#p/basic}* Nothing but bones."
+                  : "<32>{#p/basic}* It's a drawer reserved just for Papyrus.\n* I like this."
+            ]
+         ),
+         k_broadsword: pager.create(
+            0,
+            () => [
+               "<25>{#p/undyne}{#f/1}* Humans can be awful, but their history... kinda rules.",
+               "<25>{#f/1}* Case in point, this giant energy saber!",
+               "<25>{#f/1}* Historically, humans wielded sabers up to ten times their size.",
+               "<25>{#f/15}* Not to mention their inter-dimensional portals...",
+               "<25>{#f/15}* Colossal parsec-length battleships...",
+               "<25>{#f/1}* When I first heard about it, I immediately wanted my own!",
+               "<25>{#f/14}* That's why Alphys and I built a giant replica saber together.",
+               "<25>{#f/12}* She even figured out all the specs herself!",
+               SAVE.data.b.oops
+                  ? "<32>{#p/basic}* This weapon seems to have quite a storied past."
+                  : "<32>{#p/basic}* I once saw a saber just like this... except it was real, and a lot smaller."
+            ],
+            () => [
+               SAVE.data.b.oops
+                  ? "<32>{#p/basic}* This weapon seems to have quite a storied past."
+                  : "<32>{#p/basic}* I once saw a saber just like this... except it was real, and a lot smaller."
+            ]
+         ),
+         k_closet: pager.create(
+            0,
+            () => [
+               "<25>{#p/undyne}{#f/1}* That's my snack closet.",
+               "<25>{#f/17}* What, you thought I had a bedroom back there or something?",
+               "<25>{#f/8}* Pfft, hah!\n* Everyone knows I sleep on a cold, hard floor.",
+               SAVE.data.b.oops
+                  ? "<32>{#p/basic}* 锁住了。"
+                  : "<32>{#p/basic}* I get the feeling there's more to this \"closet\" than snacks."
+            ],
+            () => [
+               SAVE.data.b.oops
+                  ? "<32>{#p/basic}* 锁住了。"
+                  : "<32>{#p/basic}* I get the feeling there's more to this \"closet\" than snacks."
+            ]
+         ),
+         k_fridge: pager.create(
+            0,
+            () => [
+               "<25>{#p/undyne}{#f/11}* Cold food and I don't really get along.",
+               "<25>{#f/14}* Luckily, Alphys modded my fridge so it heats up food instead!",
+               "<25>{#f/1}* Neat, huh?",
+               SAVE.data.b.oops
+                  ? "<32>{#p/basic}* There are several pre-heated plates of spaghetti inside."
+                  : "<32>{#p/basic}* A hot fridge would have done wonders back home."
+            ],
+            () => [
+               SAVE.data.b.oops
+                  ? "<32>{#p/basic}* There are several pre-heated plates of spaghetti inside."
+                  : "<32>{#p/basic}* A hot fridge would have done wonders back home."
+            ]
+         ),
+         k_otherdrawer: pager.create(
+            0,
+            () => [
+               SAVE.data.b.undyne_respecc
+                  ? "<26>{#p/undyne}{#f/12}* Careful with that stuff."
+                  : "<25>{#p/undyne}{#f/17}* Steal anything from that drawer, and you're DEAD.",
+               "<32>{#p/basic}* There's a silverware drawer.\n* It has forks, spoons, knives...",
+               "<32>* ... tiny cosmo-spears, plasma sabers, dimensional axes, anti-grav boomerangs..."
+            ],
+            [
+               "<32>{#p/basic}* There's a silverware drawer.\n* It has forks, spoons, knives...",
+               "<32>* ... tiny cosmo-spears, plasma sabers, dimensional axes, anti-grav boomerangs..."
+            ]
+         ),
+         k_piano: pager.create(
+            0,
+            [
+               "<25>{#p/undyne}{#f/1}* That's my piano.",
+               "<25>{#f/16}* Say what you want about humans, they have great taste in acoustics!",
+               "<32>{#p/basic}* Smells... scientific."
+            ],
+            [ "<32>{#p/basic}* Smells... scientific." ]
+         ),
+         k_sink: pager.create(
+            0,
+            [
+               "<25>{#p/undyne}{#f/1}* I once forgot to turn the sink off before heading out to work.",
+               "<25>{#f/17}* When I got back home, the house was completely flooded...",
+               "<25>{#f/8}* Not that it was a problem for ME!\n* Fuhuhu!",
+               "<32>{#p/basic}* The drain is eerily clean of any fur or hair."
+            ],
+            [ "<32>{#p/basic}* The drain is eerily clean of any fur or hair." ]
+         ),
+         k_stove: pager.create(
+            0,
+            [
+               "<25>{#p/undyne}{#f/1}* This stove is supposed to be some top-of-the- line MTT thing.",
+               "<25>* But, as much as technology advances...",
+               "<25>* Nothing will ever beat food home-cooked with fire magic.",
+               "<32>{#p/basic}* The stove has seen an average amount of use."
+            ],
+            [ "<32>{#p/basic}* The stove has seen an average amount of use." ]
+         ),
+         k_window: pager.create(
+            0,
+            () => [
+               "<25>{#p/undyne}{#f/16}* Yeah.",
+               "<25>{#f/14}* Papyrus tends to go the \"scenic route.\"",
+               "<32>{#p/basic}* He flew out so fast, it triggered a sonic boom."
+            ],
+            [ "<32>{#p/basic}* He flew out so fast, it triggered a sonic boom." ]
+         ),
+         plankstop: () =>
+            SAVE.data.b.svr
+               ? [
+                    [ "<25>{#p/asriel1}{#f/13}* Seems like a dead end." ],
+                    [ "<25>{#p/asriel1}{#f/15}* We're not just stand here all day, right?" ],
+                    [ "<25>{#p/asriel1}{#f/10}* What are we even doing out here." ],
+                    [ "<25>{#p/asriel1}{#f/10}* ..." ]
+                 ][Math.min(asrielinter.plankstop++, 3)]
+               : world.darker || SAVE.data.n.plot < 42.1
+               ? []
+               : [ "<32>{#p/basic}* 无尽的宇宙深渊，\n  唯有远处工厂的边缘\n  可以映入演练。" ],
+         wallsign4: () =>
+            SAVE.data.b.svr
+               ? [ "<32>{#p/human}* (The sign labels its location.)" ]
+               : [ "<32>{#p/basic}* \"Left - Maintenance Shaft\"\n* \"Right - Foundry Exit\"" ]
+      },
+      truetext: {
+         doge1: [ "<32>{#p/basic}* ... well, that went better than I expected." ],
+         muffet: [ "<32>{#p/basic}* ... that was too close." ],
+         preundyne: [
+            "<32>{#p/basic}* ...",
+            "<32>* To doubt you after everything you've done...",
+            "<32>* ... no.\n* I know you'll find a way to get through to her.",
+            "<32>* You just have to believe in yourself... right?",
+            "<32>* ...\n* Go on, step forward.",
+            "<32>* Show her the kindness she needs to see."
+         ],
+         unddate: () => [
+            "<32>{#p/basic}* So.\n* One second, we're running for our lives from her...",
+            "<32>* And the next?",
+            "<32>* We're cooking spaghetti with her.\n* And burning her house down.",
+            "<32>{#p/human}* (You hear a small giggle.)",
+            ...(SAVE.data.n.plot > 64.1
+               ? [
+                    "<32>{#p/basic}* Jeez.\n* We've come a long way since you first arrived, huh?",
+                    "<32>* Even if there's not much left to see now...",
+                    "<32>* I still appreciate the time I've spent with you."
+                 ]
+               : [
+                    "<32>{#p/basic}* Oh, uh, sorry!\n* I...",
+                    "<32>* It's been a while since I've felt... happy like this.",
+                    "<32>* With you here, things never seem to go wrong."
+                 ]),
+            "<32>* So... you just keep doing what you're doing, alright?",
+            "<32>* And I'll...",
+            "<32>* I'll be here for you."
+         ],
+         undyne1: [
+            "<32>{#p/basic}* We did it.\n* We really did it!",
+            "<32>* I mean, uh, you did it.",
+            "<32>* Yeah...",
+            "<32>* ... at least it'll be nice to finally have her off your back.",
+            "<32>* At least for now.",
+            "<32>* Heh.\n* Well done, partner.",
+            "<32>* I don't think anyone's going to replicate THAT stunt again."
+         ],
+         view1: [
+            "<32>{#p/basic}* Look at that...",
+            "<32>* ...\n* It's the Citadel.",
+            "<32>* It's where this journey's been taking us.",
+            "<32>* The silver city, nestled in the twin arches of Aradon...",
+            "<32>* ...\n* I'm getting ahead of myself.",
+            "<32>* We've still got a ways to go before we get there, so...",
+            "<32>* For now, let's just admire the view before us."
+         ]
+      },
+      unddate0: () =>
+         world.trueKills > 0 && SAVE.data.n.state_foundry_undyne === 0
+            ? [
+                 "<18>{#p/papyrus}SO YOU'RE HERE.",
+                 "<18>{#f/5}UNDYNE... ISN'T READY TO BEFRIEND YOU RIGHT NOW.",
+                 SAVE.data.b.undyne_respecc
+                    ? "<18>{#f/5}SHE BLAMES HERSELF FOR TRUSTING YOU..."
+                    : "<18>{#f/5}SHE BLAMES HERSELF FOR LETTING YOU GET AWAY...",
+                 "<18>{#f/6}AND THAT YOU... DESERVE TO DIE??",
+                 "<18>{#f/7}WELL, I DISAGREE!",
+                 "<18>{#f/0}BUT THAT'S OKAY.",
+                 "<18>{#f/0}I'LL JUST WAIT HERE UNTIL SHE RETURNS."
+              ]
+            : [
+                 "<18>{#p/papyrus}OHO, THE HUMAN ARRIVES!",
+                 ...(SAVE.data.n.state_foundry_undyne > 0
+                    ? [
+                         "<18>{#f/4}... THOUGH, I'M NOT QUITE SURE WHERE UNDYNE IS.",
+                         "<18>{#f/5}SHE ISN'T NORMALLY OUT THIS LONG...",
+                         "<18>{#f/6}AND SHE WON'T EVEN ANSWER THE PHONE!",
+                         "<18>{#f/0}WELL, I'LL JUST WAIT HERE UNTIL SHE RETURNS."
+                      ]
+                    : [
+                         "<18>{#f/4}ARE YOU UP FOR THE DAUNTING TASK...",
+                         "<18>{#f/1}OF BEFRIENDING THE CAPTAIN OF THE ROYAL GUARD!?!?",
+                         choicer.create("* (Befriend Undyne?)", "是", "否")
+                      ])
+              ],
+      unddate0x: () =>
+         world.trueKills > 0 || SAVE.data.n.state_foundry_undyne > 0
+            ? [
+                 "<18>{#p/papyrus}{#f/0}UNDYNE'S NOT HERE RIGHT NOW.",
+                 "<18>{#p/papyrus}{#f/4}YOU'LL HAVE TO WAIT FOR HER LIKE I ALWAYS DO."
+              ]
+            : [
+                 "<18>{#p/papyrus}{#f/0}OKAY!\nALL READIED UP TO HANG OUT?",
+                 choicer.create("* (Befriend Undyne?)", "是", "否")
+              ],
+      
+      unddate1a: [ "<18>{#p/papyrus}{#f/0}OKAY!\nSTAND BEHIND ME!" ],
+      unddate1b: pager.create(
+         0,
+         [ "<18>{#p/papyrus}{#f/4}HMM... STILL GETTING READY?", "<18>{#f/0}WELL, TAKE YOUR TIME!" ],
+         [ "<18>{#p/papyrus}{#f/0}TAKE YOUR TIME!" ]
+      ),
+      unddate2a: [ "<18>{#p/papyrus}{#f/4}PSST...\nGIVE HER THIS." ],
+      unddate2b: [ "<18>{#f/0}SHE LOVES THESE!" ],
+      unddate3: [
+         "<25>{#p/undyne}{#f/14}* Hi, Papyrus!",
+         "<25>{#f/1}* Ready for your extra- private, one-on-one training?",
+         "<18>{#p/papyrus}YOU BET I AM!",
+         "<18>{#f/9}AND I BROUGHT A FRIEND!"
+      ],
+      unddate4: () =>
+         SAVE.data.b.undyne_respecc
+            ? [
+                 "<25>{#p/undyne}{#f/1}* Hi, I don't think we've...",
+                 "<25>{#f/8}* ... OH MY GOD!!!",
+                 "<18>{#p/papyrus}{#f/6}... UNDYNE?",
+                 "<25>{#p/undyne}{#f/12}* Pfft, I can't believe you actually brought THEM here.",
+                 "<18>{#p/papyrus}{#f/5}...",
+                 "<25>{#p/undyne}{#f/1}* Come on, get inside!"
+              ]
+            : [
+                 "<25>{#p/undyne}{#f/1}* Hi, I don't think we've...",
+                 "<25>{#f/4}* ...",
+                 "<18>{#p/papyrus}...",
+                 "<25>{#p/undyne}{#f/5}* ...",
+                 "<18>{#p/papyrus}{#f/5}...",
+                 "<25>{#p/undyne}{#f/17}* Why don't.\n* You two.\n* Come in?"
+              ],
+      
+      unddate5: [ "<18>{#p/papyrus}HERE, UNDYNE.", "<18>MY FRIEND WANTED YOU TO HAVE THIS!" ],
+      unddate5x: [
+         "<25>{#p/undyne}{#f/17}* There you are!",
+         "<25>{#f/1}* We've been waiting here FOREVER for you!",
+         "<18>{#p/papyrus}{#f/4}AND, DON'T WORRY, I ALREADY SHOWED UNDYNE YOUR GIFT.",
+         "<18>{#f/0}SHE LOVED IT!",
+         "<25>{#p/undyne}{#f/14}* Yeah, uh...",
+         "<25>{#f/12}* I sure did!"
+      ],
+      unddate6: [ "<25>{#p/undyne}{#f/1}* Uhhh... thanks." ],
+      unddate7: [ "<25>{#f/14}* I'll, uh, put it with the others." ],
+      unddate8: [ "<25>* So are we ready to start?" ],
+      unddate9: [
+         "<18>{#p/papyrus}{#f/1}WHOOPSY DOOPSY!\nI JUST REMEMBERED!",
+         "<18>{#f/0}I HAVE TO CHECK ON MY BROTHER!!",
+         "<18>{#f/9}YOU TWO HAVE FUN!!!"
+      ],
+      unddate10: () =>
+         SAVE.data.b.undyne_respecc
+            ? [
+                 SAVE.data.b.f_state_undynecheck
+                    ? "<26>{#p/undyne}{#f/17}* If it isn't the human who tried to break into my house IN FRONT OF ME."
+                    : "<25>{#p/undyne}{#f/1}* Well then.\n* Look who's come crawling back for more.",
+                 "<25>{#f/16}* To be honest, though, I dunno if I'm in the mood for another fight.",
+                 "<25>{#f/12}* Still, I can get you something to drink in the meantime!",
+                 "<25>{#f/1}* Have a seat, and I'll see what I can do."
+              ]
+            : [
+                 "<25>{#p/undyne}{#f/11}* ...",
+                 ...(SAVE.data.b.f_state_undynecheck
+                    ? [
+                         "<25>* So why were YOU so desperate to break into my house earlier?",
+                         "<25>* Is this some kind of humilation tactic?",
+                         "<25>* To parade into my house and act like you OWN the place?"
+                      ]
+                    : [
+                         "<25>* So why are YOU here?",
+                         "<25>* To rub your victory in my face?",
+                         "<25>* To humiliate me even further?"
+                      ]),
+                 "<25>{#f/4}* IS THAT IT?",
+                 choicer.create("* （你要怎么回答？）", "是", "否")
+              ],
+      unddate11a: [
+         "<25>{#p/undyne}{#f/11}* Then why are you here?",
+         "<25>{#f/1}* Wait, I get it.",
+         "<25>* You think that I'm gonna be friends with you, huh?",
+         "<25>{#f/17}* Right???",
+         choicer.create("* （你要怎么回答？）", "是", "否")
+      ],
+      unddate11a1a: [
+         "<25>{#p/undyne}{#f/14}* Really?\n* How delightful!\n* I accept!",
+         "<25>{#f/8}* Let's all frolick in the fields of friendship!",
+         "<25>{#f/7}* ... NOT!",
+         "<25>{#f/1}* You're the enemy of everyone's hopes and dreams!",
+         "<25>* If you weren't my houseguest, I'd kick you out right now!",
+         "<25>{#f/5}* ..."
+      ],
+      unddate11a1b: [
+         "<25>{#p/undyne}{#f/15}* Then again...",
+         "<25>{#f/17}* ...",
+         "<25>{#f/4}* WHAT ARE YOU LOOKING AT?",
+         "<25>{#f/5}* I WOULDN'T MAKE FRIENDS WITH YOU JUST TO IMPRESS SOMEONE???",
+         "<25>{#f/12}* Not at all!",
+         "<25>{#f/1}* In fact, my sudden change of mind...",
+         "<25>{#f/7}* Comes from nothing but a burning passion for VENGEANCE!"
+      ],
+      unddate11a2: [
+         "<25>{#p/undyne}{#f/13}* ...",
+         "<25>{#f/11}* So... let me get this straight.",
+         "<25>* First, you parade into my house.",
+         "<25>{#f/7}* And then you don't give me a reason WHY??",
+         "<25>{#f/4}* You little BRAT!\n* If you weren't my houseguest, I'd...!",
+         "<25>{#f/5}* ...",
+         "<25>{#f/4}* ... no, you know what?",
+         "<25>{#f/7}* I'll prove you WRONG.",
+         "<25>{#f/1}* And we aren't JUST going to be friends."
+      ],
+      unddate11b: [
+         "<25>{#p/undyne}{#f/4}* Oh-ho-ho.",
+         "<25>{#f/7}* Well, I've got news for you, BRAT.",
+         "<25>{#f/1}* You're on MY battlefield now!",
+         "<25>{#f/7}* And you AREN'T going to humiliate me.",
+         "<25>{#f/11}* No.\n* I'll TELL you what's going to happen.",
+         "<25>{#f/17}* We're going to hang out.",
+         "<25>{#f/17}* We're going to have a good time.",
+         "<25>{#f/7}* We're going to be \"friends.\""
+      ],
+      unddate12a: [
+         "<25>{#f/1}* I'll make you like me so much...",
+         "<25>{#f/7}* You won't be able to think of anyone else!"
+      ],
+      unddate12b: [ "<25>{#f/8}* Fuhuhuhu!\n* It's the PERFECT REVENGE!!" ],
+      unddate12c: [ "<25>{#f/12}* Err... why don't you have a seat?" ],
+      unddate13: () => [
+         SAVE.data.b.undyne_respecc
+            ? "<25>{#p/undyne}{#f/1}* Need anything?"
+            : "<25>{#p/undyne}{#f/14}* Need anything?",
+         choicer.create("* （你要怎么回答？）", "Hungry", "Book", "Home", "放弃")
+      ],
+      unddate13a1: [
+         "<25>{#p/undyne}{#f/1}* You want a snack or something?",
+         "<25>{#f/1}* Let me see what I have in the closet."
+      ],
+      unddate13a2: [ "<25>{#p/undyne}{#f/1}* Ah... this should do nicely." ],
+      unddate13a3: [ "<25>{#p/undyne}{#f/14}* All yours...\n* Fuhuhu." ],
+      unddate13a4a: [ "<32>{#p/human}* （你带的东西太多了。）" ],
+      unddate13a4b: [ "<32>{#p/human}* (You got the Odd Snack.)" ],
+      unddate13a5: () =>
+         SAVE.data.b.drop_snack
+            ? [
+                 "<25>{#p/undyne}{#f/17}* I know dropping food is fun, but I can't let it all go to waste.",
+                 "<25>{#p/undyne}{#f/12}* Sorry."
+              ]
+            : SAVE.data.b.undyne_respecc
+            ? [
+                 "<25>{#p/undyne}{#f/17}* Just because you're my friend doesn't mean you can have two snacks!",
+                 "<25>{#p/undyne}{#f/1}* Maybe some other time."
+              ]
+            : [
+                 "<25>{#p/undyne}{#f/11}* Listen punk, it's one snack per person here.",
+                 "<25>* Get with the program or get lost."
+              ],
+      unddate13b: pager.create(
+         0,
+         () => [
+            "<25>{#p/undyne}{#f/13}* A book???\n* Does this look like a librarby to you?",
+            "<25>{#f/1}* The only books you'll find in the kitchen are cookbooks!",
+            "<25>{#f/4}* Which I don't use, because cooking is supposed to be an ART.",
+            "<25>{#f/7}* Not some bogged-down process with rules and regulations.",
+            "<25>{#f/5}* Why does nobody seem to get that???",
+            SAVE.data.b.undyne_respecc
+               ? "<25>{#f/1}* ... let me know if you need anything else."
+               : "<25>{#f/14}* Well, let me know if you need anything else!"
+         ],
+         [
+            "<25>{#p/undyne}{#f/1}* Look, there's a librarby in Starton.",
+            "<25>{#f/1}* If you really want to read a book, that's your best bet.",
+            "<25>{#f/7}* But not right now!!!",
+            "<25>{#f/14}* ... let me know if you need anything else."
+         ]
+      ),
+      unddate13c: pager.create(
+         0,
+         () => [
+            "<25>{#p/undyne}{#f/3}* ...",
+            "<25>{#f/17}* This IS home.",
+            "<25>{#f/17}* You're already HERE.",
+            "<25>{#f/16}* Unless you mean the home planet...",
+            "<25>{#f/9}* ...",
+            "<25>{#f/19}* But nothing can bring that back.",
+            SAVE.data.b.undyne_respecc
+               ? "<25>{#f/1}* ... I'll be here if you need anything else."
+               : "<25>{#f/14}* Well, let me know if you need anything else!"
+         ],
+         () => [
+            "<25>{#p/undyne}{#f/16}* I'd give a description of that place if I could, y'know.",
+            "<25>{#f/16}* But I was born here, on the outpost...",
+            "<25>{#f/9}* The memory of our world seems to fade more and more every day.",
+            SAVE.data.b.undyne_respecc
+               ? "<25>{#f/1}* ... let me know if you need anything else."
+               : "<25>{#f/12}* ... let me know if you need anything else."
+         ]
+      ),
+      unddate13d: () => [
+         SAVE.data.b.undyne_respecc
+            ? "<25>{#p/undyne}{#f/1}* Well, alright.\n* Remember, I'm here if you change your mind."
+            : "<25>{#p/undyne}{#f/14}* Well, alright.\n* Remember, I'm here if you change your mind!"
+      ],
+      unddate14: [ choicer.create("* (Sit down?)", "是", "否") ],
+      unddate15a: () => [
+         "<25>{#p/undyne}{#f/14}* Comfortable?",
+         SAVE.data.b.undyne_respecc
+            ? "<25>{#f/1}* I'll get you something to drink."
+            : "<25>{#f/14}* I'll get you something to drink."
+      ],
+      unddate15b: () => [
+         "<25>{#p/undyne}{#f/14}* Comfortable?",
+         SAVE.data.b.undyne_respecc
+            ? "<25>{#f/1}* I'll get you something to..."
+            : "<25>{#f/14}* I'll get you something to...",
+         "<25>{#f/17}* ...",
+         "<25>{#f/17}* What are you still doing with a cup of dampening fluid?",
+         "<25>{#f/17}* Throw that thing away!"
+      ],
+      unddate15c: () => [
+         "<32>{#p/human}* (You discarded the electro- dampening fluid.)",
+         SAVE.data.b.undyne_respecc ? "<25>{#p/undyne}{#f/1}* Thanks." : "<25>{#p/undyne}{#f/14}* Much appreciated."
+      ],
+      unddate16: () => [
+         SAVE.data.b.undyne_respecc
+            ? "<25>{#p/undyne}{#f/1}* All set!\n* Take your pick!"
+            : "<25>{#p/undyne}{#f/14}* All set!\n* What would you like?"
+      ],
+      unddate17: () => [
+         "<25>{#p/undyne}{#f/17}* HEY!\n* DON'T GET UP!",
+         ...(SAVE.data.b.undyne_respecc
+            ? [ "<25>{#f/10}* ...", "<25>{#f/16}* Sorry, reflex.\n* I seriously gotta stop doing that..." ]
+            : [ "<25>{#f/17}* YOU'RE THE GUEST!\n* SIT DOWN AND ENJOY YOURSELF!", "<25>{#f/17}* ..." ])
+      ],
+      unddate18: () =>
+         SAVE.data.b.undyne_respecc
+            ? [ "<25>{#p/undyne}{#f/1}* Um, why not just point to what you want?", "<25>{#f/16}* You can use the spear." ]
+            : [
+                 "<25>{#p/undyne}{#f/12}* Um, why not just point to what you want?",
+                 "<25>{#f/12}* You can use the spear!"
+              ],
+      unddate19x: "* Move left and right to aim.\n* Select with [Z].",
+      unddate19y: () => [
+         SAVE.data.b.undyne_respecc ? "* Undyne\n* Awesome fish lady." : "* Undyne\n* Mad fish lady.",
+         "* Snack Closet\n* Tons of goodies in there!",
+         "* Water\n* The smart choice.",
+         "* Sugar\n* Great for sweetening tea.",
+         "* Exoberry Punch\n* Made locally... or so they say.",
+         "* Hot Cocoa\n* It's a blue cylinder.",
+         "* Tea\n* Blatantly correct choice?",
+         "* Fridge\n* Too much for one meal.",
+         "* Energy Saber\n* Legendary human weapon."
+      ],
+      unddate20: [
+         pager.create(0, [ "<25>{#p/undyne}{#f/13}* Are you...\n* Hitting on me???" ], [ "<25>{#p/undyne}{#f/13}* ?????" ]),
+         pager.create(
+            0,
+            [
+               "<25>{#p/undyne}{#f/17}* You're supposed to be choosing a drink??",
+               "<25>{#f/1}* There's nothing in that closet but snacks."
+            ],
+            [ "<25>{#p/undyne}{#f/1}* Really, it's all just snacks in there.\n* Nothing more!" ],
+            [ "<25>{#p/undyne}{#f/1}* Really!" ]
+         ),
+         pager.create(
+            0,
+            [
+               "<25>{#p/undyne}{#f/13}* You want WATER?",
+               "<25>{#f/11}* Just... water.",
+               "<25>{#f/11}* With no added flavors or sugars or anything.",
+               "<25>{#f/11}* ..."
+            ],
+            [ "<25>{#p/undyne}{#f/11}* ..." ]
+         ),
+         pager.create(
+            0,
+            [
+               "<25>{#p/undyne}{#f/12}* That sugar's only there for the tea.",
+               "<25>{#f/7}* I'm not gonna give you a cup of sugar!"
+            ],
+            () =>
+               SAVE.data.b.undyne_respecc
+                  ? [ "<25>{#p/undyne}{#f/1}* No sugar, sweetheart." ]
+                  : [ "<25>{#p/undyne}{#f/14}* The sugar's for the tea, mmm'kay?" ]
+         ),
+         pager.create(
+            0,
+            [
+               "<25>{#p/undyne}{#f/1}* Ah... exoberry punch.",
+               "<25>{#f/14}* Well, Papyrus loves this stuff, so I guess it's alright."
+            ],
+            [ "<25>{#p/undyne}{#f/17}* You gonna pick something or what?" ]
+         ),
+         pager.create(
+            0,
+            [ "<25>{#p/undyne}{#f/14}* Nothing like a good cup of hot cocoa." ],
+            [ "<25>{#p/undyne}{#f/17}* Hot cocoa, right?" ]
+         ),
+         pager.create(0, [ "<25>{#p/undyne}{#f/14}* Tea, huh?" ], [ "<25>{#p/undyne}{#f/12}* So it's tea, right?" ]),
+         pager.create(
+            0,
+            [
+               "<25>{#p/undyne}{#f/4}* The fridge!?\n* You want to have the entire fridge!?",
+               "<25>{#p/undyne}{#f/17}* No!"
+            ],
+            [ "<25>{#p/undyne}{#f/17}* I said no!" ],
+            [ "<25>{#p/undyne}{#f/17}* No means no!" ],
+            [ "<25>{#p/undyne}{#f/17}* Do you not know what the word \"no\" means?" ],
+            [ "<25>{#p/undyne}{#f/17}* ... clearly not!" ],
+            [ "<25>{#p/undyne}{#f/17}* ..." ]
+         ),
+         pager.create(
+            0,
+            [
+               "<25>{#p/undyne}{#f/1}* The energy saber...",
+               "<25>{#p/undyne}{#f/12}* That's the weapon the humans wielded against us in the war.",
+               "<25>{#p/undyne}{#f/16}* ... one of them, anyway."
+            ],
+            [ "<25>{#p/undyne}{#f/17}* It's not for sale." ]
+         )
+      ],
+      unddate21: [ choicer.create("* (Choose this drink?)", "是", "否") ],
+      unddate22: [
+         [ "<25>{#p/undyne}{#f/16}* Okay, I guess..." ],
+         [ "<25>{#p/undyne}{#f/1}* Let's fruit-punch your ticket to hydration!" ],
+         [ "<25>{#p/undyne}{#f/14}* No time like hot cocoa time!" ],
+         [ "<25>{#p/undyne}{#f/14}* Tea, coming right up." ]
+      ],
+      unddate22x: [ "<25>{#p/undyne}{#f/12}* It'll take a moment for the water to boil." ],
+      unddate22y: () => [
+         SAVE.data.b.undyne_respecc ? "<25>{#p/undyne}{#f/1}* There." : "<25>{#p/undyne}{#f/12}* All done!"
+      ],
+      unddate23: [ "<25>{#p/undyne}{#f/1}* Here we are." ],
+      unddate24: [
+         [ "<25>{#p/undyne}{#f/12}* Enjoy...?" ],
+         [ "<25>{#p/undyne}{#f/12}* Careful, it's sour." ],
+         [ "<25>{#p/undyne}{#f/14}* Careful, it's hot." ],
+         [ "<25>{#p/undyne}{#f/14}* Careful, it's hot." ]
+      ],
+      unddate25: [
+         () => [
+            "<25>{#p/undyne}{#f/17}* Seriously?\n* Just drink it already!",
+            "<32>{#p/human}{#s/heal}* (You take a sip of the water.)",
+            "<32>{#p/basic}* It, uh... yeah, it's water.\n* So it tasted fine.",
+            SAVE.data.b.undyne_respecc
+               ? "<25>{#p/undyne}{#f/1}* Heh.\n* At least you're happy."
+               : "<25>{#p/undyne}{#f/12}* Well, you look like you're satisfied."
+         ],
+         [
+            "<25>{#p/undyne}{#f/17}* What's the holdup?\n* Just drink it already!",
+            "<32>{#p/human}{#s/heal}* (You take a sip of the punch.)",
+            "<32>{#p/basic}* It's so sour, your lips are already puckered up..."
+         ],
+         [
+            "<25>{#p/undyne}{#f/17}* It's not that hot!!\n* Just drink it already!",
+            "<32>{#p/human}{#s/heal}* (You take a sip of the hot cocoa.)",
+            "<32>{#p/basic}* It's burning..."
+         ],
+         [
+            "<25>{#p/undyne}{#f/17}* It's not that hot!!\n* Just drink it already!",
+            "<32>{#p/human}{#s/heal}* (You take a sip of the tea.)",
+            "<32>{#p/basic}* It's burning..."
+         ]
+      ],
+      unddate25x: () => [
+         "<32>* But other than that, it's pretty good.",
+         ...(SAVE.data.b.undyne_respecc
+            ? [ "<25>{#p/undyne}{#f/1}* Heh.\n* I'm glad you like it." ]
+            : [
+                 "<25>{#p/undyne}{#f/12}* It's good, right?",
+                 "<25>{#f/8}* Nothing but the best for my ABSOLUTELY SPECIAL FRIEND!"
+              ])
+      ],
+      unddate27: [
+         [
+            "<25>{#p/undyne}{#f/12}* You know, it's kinda funny you chose THAT drink...",
+            "<25>{#f/12}* Water, I mean.",
+            "<25>{#f/1}* Asgore and I once joked about how humans are made of it...",
+            "<25>{#f/8}* And that if we drank it, we'd be CONSUMING humanity!!!",
+            "<25>{#f/16}* ... well, he didn't really find it funny.",
+            "<25>{#f/16}* The guy's got a soft spot for just about everyone..."
+         ],
+         [
+            "<25>{#p/undyne}{#f/12}* You know, it's kinda neat you picked out THAT drink...",
+            "<25>{#f/12}* Exoberry punch...",
+            "<25>{#f/1}* Alphys and Papyrus sort of \"invented\" it together.",
+            "<25>{#f/16}* I wasn't the biggest fan, but when I showed it to Asgore...",
+            "<25>{#f/12}* Well, let's just say he had it put into mass- production."
+         ],
+         [
+            "<25>{#p/undyne}{#f/12}* You know, it's kinda cool you went with THAT drink...",
+            "<25>{#f/12}* Hot cocoa...",
+            "<25>{#f/16}* This one time, after the CORE malfunctioned...",
+            "<25>{#f/16}* They had to reboot the entire atmospheric system.",
+            "<25>{#f/10}* No heat, very little air... it got colder, and colder...",
+            "<25>{#f/1}* Then, Asgore came over and offered me a hot cocoa.",
+            "<25>{#f/12}* We sat together in this very room..."
+         ],
+         [
+            "<25>{#p/undyne}{#f/12}* You know, it's kinda weird you ended up liking THAT tea...",
+            "<25>{#f/12}* Starling flower tea...",
+            "<25>{#f/1}* That's always been Asgore's favorite kind."
+         ]
+      ],
+      unddate28: () => [
+         "<25>{#p/undyne}{#f/14}* Actually, now that I think about it...",
+         "<25>{#f/12}* You kinda remind me of him.",
+         ...(SAVE.data.b.undyne_respecc
+            ? [
+                 "<25>{#f/17}* I mean, your fighting styles are TOTALLY different, but...",
+                 "<25>{#f/1}* You're the only two people who've actually managed to beat me!",
+                 "<25>{#f/9}* ... in a sense."
+              ]
+            : [ "<25>{#f/8}* You're both TOTAL weenies!", "<25>{#f/9}* ... sort of." ])
+      ],
+      unddate29: [
+         "<25>{#p/undyne}{#f/16}* The thing is, I was a pretty hot-headed kid.",
+         "<25>* Once, to prove I was the strongest, I tried to fight Asgore.",
+         "<25>{#f/17}* Emphasis on TRIED.",
+         "<25>{#f/1}* I could barely land a single blow on him!",
+         "<25>* And worse, the whole time, he refused to fight back!",
+         "<25>{#f/9}* I was so humiliated...",
+         "<25>{#f/16}* Afterwards, he apologized and said something goofy...",
+         "<25>* \"Excuse me, do you want to know how to beat me?\"",
+         "<25>{#f/1}* I said yes, and from then on, he trained me.",
+         "<25>{#f/16}* One day, during practice, I finally knocked him down.",
+         "<25>{#f/9}* I felt... bad.",
+         "<25>{#f/12}* But he was beaming...",
+         "<25>{#f/1}* I had never seen someone more proud to get their butt kicked.",
+         "<25>* Anyway, long story short, after completing my training...",
+         "<25>{#f/14}* I took up leadership of the Royal Guard!",
+         "<25>{#f/8}* So I'm the one who gets to train dorks to fight!",
+         "<25>{#f/1}* ... like, uh, Papyrus."
+      ],
+      unddate30: [
+         "<25>{#f/16}* But, um, to be honest...",
+         "<25>{#f/16}* ... I don't know if...",
+         "<25>{#f/9}* I can ever let Papyrus into the Royal Guard.",
+         "<25>{#f/17}* Don't tell him I said that!",
+         "<25>{#f/10}* He's just...\n* Well...",
+         "<25>{#f/9}* I mean, it's not that he's stupid.",
+         "<25>{#f/17}* His attack designs are actually pretty freaking wild!",
+         "<25>{#f/10}* It's just that...\n* He's...",
+         "<25>{#f/17}* He's too innocent and nice!!!",
+         "<25>{#f/16}* I mean, look, he was SUPPOSED to capture you...",
+         "<25>{#f/11}* And he ended up being FRIENDS with you instead.",
+         "<25>{#f/4}* I could NEVER send him into battle!",
+         "<25>{#f/9}* He'd get ripped into little smiling shreds.",
+         "<25>{#f/12}* That's part of why...",
+         "<25>{#f/12}* I started teaching him how to cook, you know?",
+         "<25>{#f/9}* So, um, maybe he can do something else with his life."
+      ],
+      unddate31: () => [
+         SAVE.data.b.undyne_respecc
+            ? "<25>{#p/undyne}{#f/1}* Oh, sorry, I was talking for so long..."
+            : "<25>{#p/undyne}{#f/12}* Oh, sorry, I was talking for so long..."
+      ],
+      unddate32: [
+         [ "<25>{#f/12}* You're out of water, aren't you?" ],
+         [ "<25>{#f/12}* You're out of punch, aren't you?" ],
+         [ "<25>{#f/12}* You're out of cocoa, aren't you?" ],
+         [ "<25>{#f/12}* You're out of tea, aren't you?" ]
+      ],
+      unddate33: () => [
+         SAVE.data.b.undyne_respecc
+            ? "<25>{#p/undyne}{#f/1}* Heh, don't worry.\n* I'll get you some more."
+            : "<25>{#p/undyne}{#f/12}* Heh, don't worry.\n* I'll get you some more."
+      ],
+      unddate34: [ "<25>{#p/undyne}{#f/17}* Wait a second...", "<25>{#f/17}* Papyrus...\n* His cooking lesson..." ],
+      unddate35: [
+         "<25>{#p/undyne}{#f/17}* HE WAS SUPPOSED TO HAVE THAT RIGHT NOW!!!",
+         "<25>{#f/11}* And if HE's not here to have it...",
+         "<25>{#f/7}* YOU'LL HAVE TO HAVE IT FOR HIM!"
+      ],
+      unddate36: () =>
+         SAVE.data.b.undyne_respecc
+            ? [
+                 "<25>{#f/1}* That's right!",
+                 "<25>{#f/1}* NOTHING has brought Papyrus and I closer than cooking!",
+                 "<25>{#f/17}* Heheh, if you thought we were friends before...",
+                 "<25>{#f/8}* JUST WAIT UNTIL YOU SEE US AFTER THIS!"
+              ]
+            : [
+                 "<25>{#f/1}* That's right!",
+                 "<25>{#f/1}* NOTHING has brought Papyrus and I closer than cooking!",
+                 "<25>{#f/17}* Which means that if I give you his lesson...",
+                 "<25>{#f/8}* WE'LL BECOME CLOSER THAN YOU CAN EVER IMAGINE!"
+              ],
+      unddate37: [ "<25>{#f/1}* First, let's start with the sauce!!" ],
+      unddate38: [
+         "<25>{#f/1}* Envision these veggies as your mortal enemy!",
+         "<25>{#f/7}* Now, pound them to bits with your fists!!",
+         choicer.create("* (What will you do?)", "Pet", "Pound")
+      ],
+      unddate39a: () => [
+         "<32>{#p/human}* (You pet the vegetables in an affectionate manner.)",
+         SAVE.data.b.undyne_respecc
+            ? "<99>{#p/undyne}{#f/17}* OH MY GOD!!!\n* NOW I -KNOW- YOU'RE\n  JUST SCREWING WITH ME!!!"
+            : "<25>{#p/undyne}{#f/17}* OH MY GOD!!!\n* STOP PETTING THE ENEMY!!!",
+         "<25>{#x1}{#f/7}* I'll show you how it's done!",
+         "<25>{#f/4}* NGAHHH!"
+      ],
+      unddate39b: () =>
+         world.meanie
+            ? [ "<32>{#p/human}* (You punch the vegetables with all your might.)" ]
+            : [
+                 "<32>{#p/human}* (You punch the vegetables with all your might.)\n* (You knock over a tomato.)",
+                 "<25>{#p/undyne}{#f/1}* YEAH!\n* YEAH!",
+                 "<25>{#f/1}* Our minds are uniting against these healthy ingredients!",
+                 "<25>{#x1}{#f/7}* NOW IT'S MY TURN!",
+                 "<25>{#f/4}* NGAHHH!"
+              ],
+      unddate40: (res: number) => [
+         ...(world.meanie && res === 1
+            ? [
+                 SAVE.data.b.undyne_respecc
+                    ? "<25>{#p/undyne}{#f/2}* YEAH!!!\n* THAT'S THE WARRIOR I KNOW!!!"
+                    : "<25>{#p/undyne}{#f/6}* Feisty today, huh?",
+                 "<25>{#f/6}* Heh, we'll just scrape this into a bowl later."
+              ]
+            : [ "<25>{#p/undyne}{#f/6}* Uh, we'll just scrape this into a bowl later." ]),
+         "<25>{#f/2}* But for NOW!"
+      ],
+      unddate41: [
+         "<25>{#p/undyne}{#f/1}* We add the noodles!",
+         "<25>{#f/1}* Homemade noodles are the best, so I always keep some around."
+      ],
+      unddate41x: [ "<25>{#p/undyne}{#f/12}* Uhh, you can come over here now, kiddo." ],
+      unddate41y: [
+         "<25>{#p/undyne}{#f/1}* Anyway, you see these noodles here, right?",
+         "<25>{#f/1}* Well...",
+         "<25>{#f/17}* DISH 'EM OUT!",
+         choicer.create("* (What will your approach be?)", "Careful", "Fierce")
+      ],
+      unddate42a: [
+         "<32>{#p/human}* (You carefully place each spaghetti strand in one at a time.)",
+         "<32>* The noodles clank against the empty bottom.",
+         "<25>{#p/undyne}{#f/17}* I mean, that works???",
+         "<25>{#f/1}* Well, now it's time to stir the pasta!"
+      ],
+      unddate42b: [
+         "<32>{#p/human}* (You throw everything into the pot, including the box.)",
+         "<32>* The box and the noodles clank against the empty bottom.",
+         "<25>{#p/undyne}{#f/17}* YEAH!!\n* I'M INTO IT!!",
+         "<25>{#f/1}* Alright!\n* Now it's time to stir the pasta!"
+      ],
+      unddate43: [
+         "<25>{#p/undyne}{#f/1}* As a general rule of thumb, the more you stir...",
+         "<25>{#f/17}* The better it tastes!"
+      ],
+      unddate44: [ "<25>{#p/undyne}{#f/17}* Ready?", "<25>{#f/1}* Let's do it!" ],
+      unddate45: "* Press [Z] repeatedly to stir!",
+      unddate46: [ "<25>{*}{#p/undyne}{#f/17}* Stir harder!{^20}{%}" ],
+      unddate46x: [ "<25>{*}{#p/undyne}{#f/17}* Don't just stand there!{^20}{%}" ],
+      unddate47: [ "<25>{*}{#p/undyne}{#f/7}* HARDER!{^20}{%}" ],
+      unddate47x: [ "<25>{*}{#p/undyne}{#f/7}* STIR, DAMN IT!{^20}{%}" ],
+      unddate48: [ "<25>{*}{#p/undyne}{#f/8}* HARDER!!!{^20}{%}" ],
+      unddate48x: [ "<25>{*}{#p/undyne}{#f/8}* STIR!!!{^20}{%}" ],
+      unddate49: [ "<25>{*}{#p/undyne}{#f/8}* Ugh, let me do it-{^10}{%}" ],
+      unddate50: [ "<25>{#p/undyne}{#f/8}* Fuhuhuhu!\n* That's the stuff!" ],
+      unddate51: [
+         "<25>{#p/undyne}{#f/1}* Alright, now for the final step...",
+         "<25>{#f/17}* TURN UP THE HEAT!",
+         "<25>{#f/1}* Let the stovetop symbolize your passion!",
+         "<25>{#f/1}* Let your hopes and dreams turn into burning fire!",
+         "<25>{#f/8}* And of course, don't hold anything back!!!"
+      ],
+      unddate52: [ "<25>{#p/undyne}{#f/17}* Ready?", "<25>{#f/1}* Here we go!" ],
+      unddate53: "* Hold [RIGHT] to crank it up!",
+      unddate53x: [ "<25>{*}{#p/undyne}{#f/8}* You fool!\n* This burner only goes ONE WAY!!!{^20}{%}" ],
+      unddate54: [ "<25>{*}{#p/undyne}{#f/17}* Make it hotter!{^20}{%}" ],
+      unddate54x: [ "<25>{*}{#p/undyne}{#f/17}* What are you doing?{^20}{%}" ],
+      unddate55: [ "<25>{*}{#p/undyne}{#f/7}* HOTTER!{^20}{%}" ],
+      unddate55x: [ "<25>{*}{#p/undyne}{#f/7}* STOP HESITATING!{^20}{%}" ],
+      unddate56: [ "<25>{*}{#p/undyne}{#f/8}* HOTTER!!!{^20}{%}" ],
+      unddate56x: [ "<25>{*}{#p/undyne}{#f/8}* JUST DO IT!!!{^20}{%}" ],
+      unddate57a: [ "<25>{*}{#p/undyne}{#f/17}* Ugh, let me do it...{^10}{%}" ],
+      unddate57b: [ "<25>{*}{#p/undyne}{#f/17}* See, this is how you-{^20}{%}" ],
+      unddate58: [ "<25>{*}{#p/undyne}{#f/17}* No, wait, that's too-{^10}{%}" ],
+      unddate59: [ "<25>{#p/undyne}{#f/14}* Ah." ],
+      unddate60: [ "<25>{#p/undyne}{#f/14}* Man, no wonder Papyrus isn't improving at cooking anymore." ],
+      unddate61: [ "<25>{#p/undyne}{#f/12}* So what's next?\n* Trash hunting?\n* Entanglement bracelets?" ],
+      unddate62: () =>
+         SAVE.data.b.undyne_respecc
+            ? [
+                 "<25>{#p/undyne}{#f/10}* ...",
+                 "<25>{#f/9}* ... who am I kidding...",
+                 "<25>{#f/16}* I really let this get outta hand, didn't I...?",
+                 "<25>{#f/16}* Heh..."
+              ]
+            : [
+                 "<25>{#p/undyne}{#f/10}* ...",
+                 "<25>{#f/9}* ... who am I kidding...",
+                 "<25>{#f/16}* I really screwed this up, didn't I...?",
+                 "<25>{#f/16}* Heh..."
+              ],
+      unddate63: () =>
+         SAVE.data.b.undyne_respecc
+            ? [
+                 "<25>{#f/16}* Y'know what?",
+                 "<25>{#f/9}* I'm not ready to give up on this just yet.",
+                 "<25>{#f/1}* So I failed to teach you how to cook.\n* Big whoop.",
+                 "<25>{#f/14}* There's still something we can do to salvage this mess.",
+                 "<26>{#f/1}* And that something is..."
+              ]
+            : [
+                 "<25>{#f/16}* I can't force you to like me, human.",
+                 "<25>{#f/9}* Some people just don't easily get along.",
+                 "<25>{#f/16}* I'd understand if you felt that way about me...",
+                 "<25>{#f/9}* And if we can't be friends... that's okay.",
+                 "<25>{#f/9}* Because...\n* If we're not gonna be friends..."
+              ],
+      unddate64: () =>
+         SAVE.data.b.undyne_respecc
+            ? [ "<25>{#p/undyne}{#f/17}* ONE LAST DUEL TO SHOW THE GALAXY WHAT WE'RE MADE OF!!!" ]
+            : [ "<25>{#p/undyne}{#f/17}* THEN I CAN DESTROY YOU WITHOUT REGRET!!!" ],
+      unddate65: () => [
+         "<25>{#p/undyne}{#f/12}* Well, that was fun, huh?",
+         SAVE.data.b.undyne_respecc
+            ? "<25>{#f/8}* We'll have to spar again another time!"
+            : "<25>{#f/8}* We'll have to hang out again another time!",
+         "<25>{#f/9}* But, uh, somewhere else, I guess.",
+         ...(world.postnoot
+            ? [
+                 "<25>{#f/1}* By the way, have you noticed something weird in the air?",
+                 ...(world.nootflags.has('papyrus') // NO-TRANSLATE
+
+                    ? [ "<25>{#f/13}* Even Papyrus mentioned it earlier..." ]
+                    : [ "<25>{#f/13}* It seems like it just started recently..." ]),
+                 "<25>{#f/16}* ... maybe it's nothing, but I swear I feel weaker than usual."
+              ]
+            : []),
+         ...(SAVE.data.n.plot < 68.1 || SAVE.data.b.a_state_hapstablook
+            ? [
+                 "<25>{#f/1}* In the meantime, I'll be at the rec center with Papyrus.",
+                 "<25>{#f/12}* I look forward to seeing you there!",
+                 "<25>{#f/1}* Until then, you can give Papyrus a ring on your phone.",
+                 "<25>{#f/8}* Since we're in the same place, I'll be able to talk too!"
+              ]
+            : [
+                 "<25>{#f/1}* In the meantime, I'll be at the rec center.",
+                 "<25>{#f/12}* I look forward to seeing you there!",
+                 "<25>{#f/1}* Oh, and uh, Papyrus said he has to go do something.",
+                 "<25>{#f/14}* Just letting you know, since he won't be available on the phone."
+              ])
+      ],
+      unddate66: () =>
+         SAVE.data.b.undyne_respecc
+            ? [ "<25>{#f/1}* Well, see ya later, pal!!" ]
+            : [ "<25>{#f/14}* Well, see ya later, punk!!" ],
+      undroom1: () => [ "<25>{#p/undyne}{#f/17}* Huh?\n* The heck was THAT?" ],
+      undroom2: () => [
+         SAVE.data.b.undyne_respecc
+            ? "<25>{#p/undyne}{#f/1}* Maybe don't do that right now."
+            : "<25>{#p/undyne}{#f/12}* We're trying to be friends here."
+      ],
+      undroom3: () => [
+         SAVE.data.b.undyne_respecc
+            ? "<25>{#p/undyne}{#f/11}* This is some kind of weird battle tactic, isn't it?"
+            : "<25>{#p/undyne}{#f/11}* So that's your way of making friends?"
+      ],
+      undroom4: () => [ "<25>{#p/undyne}{#f/17}* Stop doing that!" ],
+      undroom5: () => [ "<25>{#p/undyne}{#f/17}* ..." ],
+      undyne1a: [
+         "<23>{#p/papyrus}{#f/30}嗨... 嗨，UNDYNE！\n我是来做我的每日报告的...",
+         "<23>呃... 关于我之前跟你\n说过的那个人类..."
+      ],
+      undyne1b: [ "<23>{#p/papyrus}{#f/30}...嗯？\n我有没有跟人类战斗？" ],
+      undyne1c: () =>
+         
+         world.edgy || (world.population_area('s') < 6 && !world.bullied_area('s')) // NO-TRANSLATE
+
+            ? [ "<23>{#p/papyrusnt}UH...", "<23>I-IT'S COMPLICATED!" ]
+            : [ "<23>{#p/papyrusnt}当-当然了！\n我当然跟人类战斗了！", "<23>我英勇地和那个人类\n战斗过了！" ],
+      undyne1d: [ "<23>{#p/papyrus}{#f/30}...什么？\n我有没有把人类抓住...？" ],
+      undyne1e: [ "<23>{#p/papyrus}{#f/30}这-这-这个...", "<23>没有..." ],
+      undyne1f: () =>
+         world.edgy || (world.population_area('s') < 6 && !world.bullied_area('s')) // NO-TRANSLATE
+
+            ? [ "<23>{#p/papyrus}{#f/30}L-LIKE I SAID, IT'S COMPLICATED!" ]
+            : [ "<23>{#p/papyrus}{#f/30}我-我是说，\n我真的很努力了，\n但-但是，最终..." ],
+      undyne1g: () => [
+         "<23>{#p/papyrus}{#f/30}...什-什么？",
+         ...(SAVE.data.n.state_foundry_doge === 1
+            ? [ "<23>THEY'VE ALREADY KILLED AN ELITE SQUAD MEMBER??", "<23>N-NO... THEY WOULDN'T DO THAT, WOULD THEY?" ]
+            : [ "<23>你要亲自去取走那个\n人类的灵魂？？" ])
+      ],
+      undyne1h: () =>
+         SAVE.data.n.state_foundry_doge === 1
+            ? [ "<23>{#p/papyrus}{#f/30}SURELY THERE MUST BE ANOTHER WAY!", "<23>SURELY..." ]
+            : [ "<23>{#p/papyrus}{#f/30}但是UNDYNE，你不-\n不一定要把人类杀掉的！\n你看...", "<23>你看..." ],
+      undyne1i: () => [
+         "<23>{#p/papyrus}{#f/30}我...",
+         "<23>...我明白了。",
+         "<23>我会尽力帮你的。",
+         ...(world.postnoot
+            ? [
+                 "<23>BY THE WAY... YOU NEED TO DOUBLE-CHECK THE ATMOSPHERIC SYSTEM.",
+                 "<23>WHAT WAS IT CALLED?\nTHE WIDE-AREA TROPE-A- SPHERE FRAMEWORK?",
+                 "<23>SOMETHING SEEMS... OFF."
+              ]
+            : [])
+      ],
+      undyne1j: [ "<25>{#p/kidd}{#f/1}* 哟！\n* 她就在那里！" ],
+      undyne1k: [ "<25>{#p/kidd}{#f/7}* 等等... 你是个人类，\n  对吧？" ],
+      undyne1l: [ "<25>{*}{#p/kidd}{#f/7}* 快跑啊啊啊啊啊！{^20}{%}" ],
+      undyne1m: [ "<25>{#p/kidd}{#f/2}* 呼..." ],
+      undyne1n: [ "<25>{#p/kidd}{#f/1}* 呃，你可以从平台上\n  下来了。" ],
+      undyne1o: [ "<25>{#p/kidd}{#f/4}* 她去哪了...？" ],
+      undyne1p: [ "<25>{#p/kidd}{#f/7}* 啊！{^10}{%}" ],
+      undyne1q: [ "<25>{#p/kidd}{#f/2}* 嘘...\n  我感觉我们可以偷偷溜过去。\n* 快跟上我！" ],
+      undyne1r: [ "<25>{#p/kidd}{#f/4}* 这里乌黑一片...", "<25>{#p/kidd}{#f/7}* ...但是我们得保持\n  前进！" ],
+      undyne1s: [ "<25>{#p/kidd}{#f/7}* 快躲进那丛便于藏身\n  的植物里！" ],
+      undyne2a: [
+         "<25>{#p/kidd}{#f/7}* 她... 她...",
+         "<25>{#f/7}* 她摸到我了！！",
+         "<25>{#f/4}* ...\n* 我们应该都算走运，\n  你说是吧？",
+         "<25>{#f/5}* 如果她看见你，\n  那就大事不妙了。"
+      ],
+      undyne2ax: () => [
+         "<25>{#p/kidd}{#f/1}* 她... 她...",
+         "<25>{#f/1}* 哪儿都找不到她！！",
+         "<25>{#f/3}* 你俩看到她了没有？",
+         "<25>{#p/asriel2}{#f/3}* 谁呀，Undyne吗？",
+         "<25>{#p/kidd}{#f/1}* 对呀！\n* 我找她找了好久！",
+         "<25>{#p/asriel2}{#f/2}* （嘻嘻嘻...）",
+         "<25>{#p/kidd}{#f/4}* 嗯？？",
+         "<25>{#p/asriel2}{#f/4}* 没事。",
+         "<25>{#f/13}* 话说，想跟我们一块走吗？",
+         "<25>{#p/kidd}{#f/3}* 你... 想让我跟着你们？",
+         "<25>{#p/asriel2}{#f/4}* 当然喽，快来吧。\n* 超有趣的。",
+         "<25>{#p/kidd}{#f/4}* 呃...\n* 我...",
+         ...(SAVE.flag.n.genocide_milestone < 5
+            ? [
+                 "<25>{#p/asriel2}{#f/15}* 嘿，你知道Alphys博士\n  喜欢Undyne的事吗？",
+                 "<25>* 就是... 呃...\n  那种很亲密的喜欢。"
+              ]
+            : [
+                 "<25>{#p/asriel2}{#f/9}* 嘿，你知道Alphys博士\n  其实比Undyne还强吗？",
+                 "<25>{#f/5}* 只是她胆子太小，不敢动手！"
+              ]),
+         "<25>{#p/kidd}{#f/7}* 什么？\n* 怎么可能...",
+         "<25>{#p/asriel2}{#f/1}* 呵，关于她俩...\n  我知道的还不止这些呢。",
+         "<25>{#p/kidd}{#f/7}* 快告诉我！",
+         "<25>{#p/asriel2}{#f/5}* 当然，当然...\n* 不过你得跟$(name)和我走\n  我才告诉你。",
+         "<25>{#p/kidd}{#f/1}* 成交！\n* 哈哈。",
+         "<25>{#f/2}* ..."
+      ],
+      undyne2b: [ "<25>{#p/kidd}{#f/1}* 哟，还等什么呢？" ],
+      undyne2bx: [ "<25>{#p/kidd}{#f/1}* 出发吧！" ],
+      undyne2c: [
+         "<25>{#f/3}* 嘿... 我知道我们刚\n  认识不久，但是...",
+         "<25>{#f/4}* 我，其实，并不想让\n  Undyne伤害你...",
+         "<25>* ...",
+         "<25>{#f/2}* 要不然我们一起行动？",
+         "<25>{#f/1}* 来吧，这会很有趣的！"
+      ],
+      undyne2cx: [
+         "<25>{#p/kidd}{#f/2}* 老兄，我超推荐你们去看看\n  Undyne的人类追逐练习的！",
+         "<25>{#f/1}* 她一秒就能扔出\n  上亿只矛呢！"
+      ],
+      undyne2d: [ "<25>{#f/1}* 你来带路吧！" ],
+      undyne2dx: () => [
+         "<25>{#p/kidd}{#f/2}* 每当猎物快要逃脱...",
+         "<25>{#f/1}* 她总能在最后一刻精准命中！",
+         ...(SAVE.flag.n.ga_asrielKidd2++ < 1
+            ? [ "<25>{#p/asriel2}{#f/6}* 她可真棒啊。", "<25>{#p/kidd}{#f/1}* 是吧！！" ]
+            : [])
+      ],
+      undyne2ex: [
+         "<25>{#p/kidd}{#f/4}* 等等...",
+         "<25>* 如果Undyne不在这，\n  谁来痛扁那些坏蛋，\n  保护大家呢？",
+         "<25>{|}{#f/8}* 就是那些- {%}",
+         "<25>{#p/asriel2}{#f/4}* 没啥好担心的。",
+         "<25>{#f/3}* 而且，如果Undyne真像\n  你说的那么多谋善断...",
+         "<25>{#f/4}* 那她就不会无缘无故离开，\n  对吧？\n* 她多聪明啊。",
+         "<25>{#p/kidd}{#f/4}* 确实...\n* 你说得对...",
+         "<25>{#p/kidd}{#f/2}* 对了，谢谢你们带上我。",
+         "<25>{#p/asriel2}{#f/10}* 是吗...？\n* 我们还没走两步呢...",
+         "<25>{#p/kidd}{#f/3}* 嗯，我很开心...\n* 不过，我还没怎么\n  离开过爹娘，所以...",
+         "<25>{#p/asriel2}{#f/8}* 你还有爹娘？\n* 真新奇。",
+         "<25>{#p/kidd}{#f/7}* 呃，我-我当然有啊，\n  谁没爹娘啊？？",
+         "<25>{#p/asriel2}{#f/16}* ...\n* 是是是。"
+      ],
+      undynefinal1a: () =>
+         respecc()
+            ? [ "<32>{#p/undyne}* 七个。", "<32>* 七个人类灵魂。", "<32>* ..." ]
+            : [
+                 "<32>{#p/undyne}* 七个。",
+                 "<32>* 有了七个灵魂，\n  {@fill=#f00}ASGORE国王{@fill=#fff}就能成为神。",
+                 "<32>{#x1}* 六个。",
+                 "<32>{#x1}* 我们已经有了六个。",
+                 "<32>{#x1}* 懂了吗？",
+                 "<32>{#x1}* 只要有了你这最后一个灵魂，\n  怪物们就能重获自由。",
+                 "<32>{#x3}* 不过在这之前，\n  我应该遵循前辈们立下的规矩...",
+                 "<32>{#x4}* 向你讲述一段\n  我族人民的悲惨历史。",
+                 "<32>{#x5}* 一切，都要从很久以前说起..."
+              ],
+      undynefinal1b: () => (respecc() ? [ "<32>{#p/undyne}* No..." ] : [ "<32>{#p/undyne}* You know what?" ]),
+      undynefinal1c: () =>
+         respecc() ? [ "<32>{*}{#p/undyne}{#i/2}* NO!!{^999}" ] : [ "<32>{*}{#p/undyne}{#i/2}* SCREW IT!!{^999}" ],
+      undynefinal1d: () =>
+         respecc()
+            ? [ "<32>{*}{#p/undyne}{#i/1}* HOW COULD I TALK DOWN TO YOU LIKE THAT!!{^999}" ]
+            : [ "<32>{*}{#p/undyne}{#i/1}* WHY SHOULD I TELL YOU THAT STORY!!{^999}" ],
+      undynefinal1e: () =>
+         respecc()
+            ? [ "<32>{*}{#p/undyne}{#i/1}* AFTER YOU'VE FOUGHT SO HONORABLY!!{^999}" ]
+            : [ "<32>{*}{#p/undyne}{#i/1}* WHEN YOU'RE ABOUT TO DIE!!{^999}" ],
+      undynefinal1f: [ "<32>{*}{#p/undyne}{#i/2}* NGAHHHHHHHHHHHH!!!{^999}" ],
+      undynefinal1g: () =>
+         respecc()
+            ? [
+                 "<25>{#p/undyne}{#f/1}* LISTEN UP!",
+                 "<25>* I like the way you fight.",
+                 "<25>{#f/16}* Like any good warrior, you fight until your enemy's been crushed...",
+                 "<25>{#f/17}* ... and then you spare them, so they can live to tell the tale!",
+                 "<25>{#f/10}* What courage..."
+              ]
+            : [
+                 "<25>{#p/undyne}{#f/1}* HUMAN!",
+                 "<25>* YOU'RE standing in the way of EVERYBODY's hopes and dreams!",
+                 "<25>{#f/11}* Alphys's history films made me think humans were cool...",
+                 "<25>{#f/16}* ... with their living spacecraft and inter- dimensional portals.",
+                 "<25>{#f/4}* But YOU???"
+              ],
+      undynefinal2a: () =>
+         respecc()
+            ? [
+                 "<25>{#f/1}* I guess I should apologize for how I acted back there.",
+                 "<25>{#f/16}* You and your friend were just standing up for each other, right?",
+                 "<25>{#f/1}* Well, I can respect that sort of thing.",
+                 "<25>{#f/17}* And then there's the local ELITE squad!",
+                 "<25>{#f/9}* I'll admit, I was impressed...",
+                 ...(SAVE.data.n.state_foundry_doge === 2 && SAVE.data.n.state_foundry_muffet === 2
+                    ? [
+                         "<25>* The way you managed to not only get past them...",
+                         "<25>{#f/10}* But BEFRIEND them???",
+                         "<25>{#f/1}* I guess I shouldn't be surprised, though.\n* They'd like your style."
+                      ]
+                    : SAVE.data.n.state_foundry_doge === 3 && SAVE.data.n.state_foundry_muffet === 3
+                    ? [
+                         "<25>{#f/10}* The way you managed to EMBARRASS them?",
+                         "<25>{#f/11}* I don't think I've ever seen those two so red-faced."
+                      ]
+                    : [
+                         "<25>{#f/10}* Even when faced with their blades, you still held your nerve?",
+                         "<25>{#f/1}* I guess you really are something special!"
+                      ]),
+                 "<25>{#f/8}* ... BUT GETTING BACK TO MY POINT!",
+                 "<25>{#f/1}* So, normally, I'd just try to kill you and take your SOUL.",
+                 "<25>{#f/11}* However, after seeing the way you fight...",
+                 "<25>{#f/8}* THERE'S NO WAY I'D GO SO EASY ON YOU!!!",
+                 "<25>{#f/1}* No... I want you to show me what you're REALLY made of!",
+                 "<25>{#f/4}* And only once I've beaten you fair and square...",
+                 "<25>{#f/5}* Will I finally claim the freedom that's rightfully ours!",
+                 "<25>{#f/16}* But, if you manage to beat me...",
+                 "<25>{#f/9}* I'll let you through.",
+                 "<25>{#f/8}* ... IF you actually manage to beat me!!!",
+                 "<25>{#f/1}* Step forward when you're ready!\n* Fuhuhuhu!"
+              ]
+            : [
+                 "<25>{#f/7}* You're just a COWARD!",
+                 ...(SAVE.data.b.f_state_kidd_betray
+                    ? [
+                         "<25>{#f/16}* Remember that friend of yours from earlier?",
+                         "<25>{#f/17}* The one you ABANDONED?",
+                         "<25>{#f/13}* Even when their life was in danger, you didn't bat an eye.",
+                         ...(world.trueKills === 0 && SAVE.data.n.bully > 9
+                            ? [
+                                 "<25>{#f/9}* Maybe if you had, your fighting style would've earned my respect.",
+                                 "<25>{#f/16}* But it'd be naive to think you've got any sort of honor NOW."
+                              ]
+                            : [ "<25>{#f/16}* Typical human.\n* Always quick to stab people in the back." ]),
+                         "<25>{#f/4}* But that's fine...\n* I didn't need you to be some kind of saint...",
+                         "<25>{#f/7}* ALL THAT MATTERS IS SOUL!"
+                      ]
+                    : [
+                         "<25>* Hiding behind that kid so you could run away from me again!",
+                         "<25>{#f/9}* I'll admit, I was impressed...",
+                         ...(SAVE.data.n.state_foundry_doge === 2 && SAVE.data.n.state_foundry_muffet === 2
+                            ? [
+                                 "<25>* The way you managed to not only get past the local ELITE squad...",
+                                 "<25>{#f/10}* But BEFRIEND them???",
+                                 "<25>{#f/11}* You've got cojones, punk.",
+                                 "<25>{#f/8}* ... NOT THAT IT ACTUALLY MATTERS!"
+                              ]
+                            : SAVE.data.n.state_foundry_doge === 3 && SAVE.data.n.state_foundry_muffet === 3
+                            ? [
+                                 "<25>{#f/10}* The way you managed to EMBARRASS the local ELITE squad?",
+                                 "<25>{#f/11}* I don't think I've ever seen those two so red-faced.",
+                                 "<25>{#f/8}* ... AS IF THAT'D WORK ON ME!"
+                              ]
+                            : [
+                                 "<25>{#f/10}* The way you've managed to get through without killing anyone?",
+                                 "<25>{#f/11}* Congratulations, punk.\n* You're a little nicer than the average human.",
+                                 "<25>{#f/8}* ... AS IF I CARE!"
+                              ]),
+                         "<25>{#f/4}* You know what would be more valuable to everyone?",
+                         "<25>{#f/7}* IF YOU WERE DEAD!"
+                      ]),
+                 "<25>{#f/17}* Your life is all that stands between us and our freedom!",
+                 "<25>{#f/1}* Right now, I can feel everyone's minds racing together!",
+                 "<25>* Everyone's been waiting their whole lives for this moment!",
+                 "<25>{#f/9}* But we're not nervous at all.",
+                 "<25>{#f/17}* When everyone puts their minds together, they can't lose!",
+                 "<25>{#f/1}* Now, human!\n* Let's end this, right here, right now!",
+                 "<25>{#f/17}* I'll show you how determined monsters can truly be!",
+                 "<25>{#f/1}* Step forward when you're ready!\n* Fuhuhuhu!"
+              ],
+      undynefinal2b1: [ "<25>{#f/7}* You're just a ruthless MURDERER!" ],
+      undynefinal2b1a: [ "<25>{#f/11}* Self-defense?\n* Please." ],
+      undynefinal2b1b: [
+         "<25>{#f/11}* What? You thought I'd overlook what you were up to in the Outlands?",
+         "<25>{#f/1}* Fuhuhu... think again."
+      ],
+      undynefinal2b2: () => [
+         world.trueKills === 1
+            ? "<25>{#f/9}* You didn't kill that monster because you had to."
+            : "<25>{#f/9}* You didn't kill those monsters because you had to.",
+         "<25>{#f/11}* You did it because it was EASY for you.\n* Because it was FUN.",
+         "<25>{#f/16}* Do you think it was fun when I found out?"
+      ],
+      undynefinal2b2a: [
+         "<25>{#f/9}* The canine unit.\n* The local ELITE squad.\n* And many others, too...",
+         "<25>* Almost everyone I know and love, dead just like that."
+      ],
+      undynefinal2b2b: [
+         "<25>{#f/9}* The canine unit, AND the local ELITE squad...",
+         "<25>* People I've served with for years, gone in the blink of an eye."
+      ],
+      undynefinal2b2c: [
+         "<26>{#f/9}* The local ELITE squad, who dedicated their lives to service...",
+         "<25>* Gone in one fell swoop."
+      ],
+      undynefinal2b2d: [
+         "<25>{#f/9}* The canine unit, who protected that little town for years...",
+         "<25>* Gone without a trace."
+      ],
+      undynefinal2b2e: [
+         "<26>{#f/9}* That ghost, who wanted nothing more than to fuse with their dummy...",
+         "<25>* Erased in a mere moment."
+      ],
+      undynefinal2b2f: [
+         "<25>{#f/9}* That spider, who only wanted to protect and care for the clans...",
+         "<25>* Not only is she dead, but spiders' lives are in jeopardy."
+      ],
+      undynefinal2b2g: [
+         "<25>{#f/9}* Doge, who had a strong and unwavering sense of duty...",
+         "<25>* Even if putting her life at risk was her job, she's still dead."
+      ],
+      undynefinal2b2h: [
+         "<25>{#f/9}* That big dog, one of the kindest and sweetest dogs ever...",
+         "<25>* Eliminated before his time."
+      ],
+      undynefinal2b2i: [
+         "<25>{#f/9}* Those two dogs, caring for each other through thick and thin...",
+         "<25>* Their love and legacy, ripped away in an instant."
+      ],
+      undynefinal2b2j: [
+         "<25>{#f/9}* That little dog who wanted nothing more than to be pet...",
+         "<25>* Only to be met with a ruthless attack."
+      ],
+      undynefinal2b2k: [
+         "<25>{#f/9}* Doggo, who I PERSONALLY looked after for some time...",
+         "<25>* Now dead thanks to the whims of a single human."
+      ],
+      undynefinal2b2l: [
+         "<25>{#f/9}* That woman in the Outlands... I didn't know her, but...",
+         "<25>* She hasn't been seen since you arrived in Starton."
+      ],
+      undynefinal2b2m: [
+         "<25>{#f/9}* Every. Single. Monster. who spent their lives in the factory...",
+         "<25>* Only to have it all snatched away."
+      ],
+      undynefinal2b2n: [
+         "<25>{#f/9}* Every. Single. Monster. who lived peacefully in Starton...",
+         "<25>* Only to meet an untimely end."
+      ],
+      undynefinal2b2o: [
+         "<25>{#f/9}* Those monsters who spent their lives here in the factory...",
+         "<25>* Only to have it all be undone."
+      ],
+      undynefinal2b2p: [
+         "<25>{#f/9}* Those monsters who lived peacefully in Starton...",
+         "<25>* Slaughtered in cold blood."
+      ],
+      undynefinal2b2q1: [
+         "<25>{#f/9}* One monster dead from each area thus far...",
+         "<25>{#f/13}* It's like you have some kind of per-area kill quota."
+      ],
+      undynefinal2b2q2: [
+         "<25>{#f/9}* Two monsters dead from each area thus far...",
+         "<25>{#f/13}* It's like you have some kind of per-area kill quota."
+      ],
+      undynefinal2b2q3: [
+         "<25>{#f/9}* Three monsters dead from each area thus far...",
+         "<25>{#f/13}* It's like you have some kind of per-area kill quota."
+      ],
+      undynefinal2b2q4: [
+         "<25>{#f/9}* Four monsters dead from each area thus far...",
+         "<25>{#f/13}* It's like you have some kind of per-area kill quota."
+      ],
+      undynefinal2b2q5: [
+         "<25>{#f/9}* Five monsters dead from each area thus far...",
+         "<25>{#f/13}* It's like you have some kind of per-area kill quota."
+      ],
+      undynefinal2b2r: () => [
+         world.trueKills === 1
+            ? "<26>{#f/9}* That monster in the Outlands... I didn't really know them, but..."
+            : "<26>{#f/9}* Those monsters in the Outlands... I didn't really know them, but...",
+         "<25>* Thanks to you, they're dead now."
+      ],
+      undynefinal2b2s: [
+         "<25>{#f/9}* Even if it was just one monster...",
+         "<25>* That's still one less SOUL that'll get to see the stars one day."
+      ],
+      
+      undynefinal2b2t: [
+         "<25>{#f/9}* At least two monsters left home for the last time today.",
+         "<25>* Thanks to you, their families will never see them again."
+      ],
+      undynefinal2b2u1: [
+         "<25>{#f/9}* That big dog, who enjoyed the company of his comrades...",
+         "<25>* Awakening to find them dead."
+      ],
+      undynefinal2b2u2: [
+         "<25>{#f/9}* Those two dogs, always looking out for the other canines...",
+         "<25>* Only to discover there's nobody to look out for anymore."
+      ],
+      undynefinal2b2u3: [
+         "<25>{#f/9}* That little dog who mostly kept to itself...",
+         "<26>* The other dogs' deaths might not bother it now, but they will someday."
+      ],
+      undynefinal2b2u4: [
+         "<25>{#f/9}* Doggo, who spent years to find a home in the canine unit...",
+         "<25>* Only to have it all ripped away again."
+      ],
+      undynefinal2b2v1: [
+         "<25>{#f/9}* That big dog, as well as Dogamy and Dogaressa...",
+         "<25>* All wiped from the face of Starton."
+      ],
+      undynefinal2b2v2: [
+         "<25>{#f/9}* Both the big dog, and the little dog...",
+         "<25>{#f/13}* So, according to you, only the average-sized dogs get to live."
+      ],
+      undynefinal2b2v3: [
+         "<25>{#f/9}* That big dog, along with Doggo, too...",
+         "<25>* Both dead thanks to the whims of a single human."
+      ],
+      undynefinal2b2v4: [
+         "<25>{#f/9}* Those two dogs, always looking out for the other canines...",
+         "<25>* Not only are THEY dead, but a little dog they looked after is, too."
+      ],
+      undynefinal2b2v5: [
+         "<25>{#f/9}* Those two dogs, always looking out for the other canines...",
+         "<25>* They, along with Doggo who they looked after, are all dead."
+      ],
+      undynefinal2b2v6: [
+         "<25>{#f/9}* That little dog, as well as its comrade Doggo...",
+         "<25>* Both dead thanks to the whims of a single human."
+      ],
+      undynefinal2b3: () => [
+         "<25>{#f/11}* Do you think that's FUN?",
+         "<25>* ...",
+         "<25>{#f/17}* Well guess what, punk.",
+         ...(SAVE.data.n.state_foundry_muffet === 1
+            ? [ "<25>* No phone call's gonna save you THIS time." ]
+            : [ "<25>* Your time is UP." ]),
+         "<25>{#f/4}* All the pain you inflicted on the fallen...",
+         "<25>{#f/7}* Every hope, every dream you've turned to dust...",
+         "<25>{#f/1}* This hero's gonna send it all right back through her spear!",
+         "<25>{#f/4}* NGAHHH!!!",
+         "<25>{#f/5}* I'll show you how determined monsters truly are!",
+         "<25>{#f/17}* Come on!\n* Step forward and let's end this!"
+      ],
+      undynefinal2c1: [ "<32>* ...", "<32>* 罢了。" ],
+      undynefinal2c2: () => [
+         "<25>{#f/16}{#x1}* 听好了。",
+         "<25>* Papyrus今天没来报到。",
+         "<25>{#f/19}* ...",
+         "<25>{#x2}* 你怎么想他都无所谓。",
+         "<25>{#f/18}* 没错，Papyrus是很古怪，\n  很天真，很自恋...",
+         "<25>{#f/20}{#x3}* 可是，他绝不会\n  错过任何一次报到。",
+         "<25>{#f/18}{#x4}* 而且，不管几点钟\n  给他打电话...",
+         "<25>{#f/20}{#x5}* 他都绝不会\n  响铃两次还不接。",
+         "<25>* ...",
+         "<25>{#f/18}{#x6}* 现在，他不在了。",
+         "<25>{#f/22}{#x7}* 他的兄弟，也失踪了。",
+         "<25>* ...",
+         "<25>{#f/18}* 告诉我，你把他怎么了？",
+         "<25>{#f/11}{#x8}* 你把他{^6} 怎{^6} 么{^6} 了{^6}？",
+         ...((SAVE.data.n.state_foundry_doge === 1 ? 1 : 0) +
+            (SAVE.data.n.state_starton_doggo === 2 ? 1 : 0) +
+            (SAVE.data.n.state_starton_dogs === 2 ? 2 : 0) +
+            (SAVE.data.n.state_starton_greatdog === 2 ? 1 : 0) +
+            (SAVE.data.n.state_starton_lesserdog === 2 ? 1 : 0) >
+         1
+            ? [
+                 "<25>{#f/16}{#x9}* 不仅如此，好几名卫队成员\n  也接连失踪...",
+                 "<25>{#f/13}* 他们，是不是也被你杀了？"
+              ]
+            : [
+                 "<25>{#f/16}{#x9}* Papyrus，我每天\n  都会亲自训练他...",
+                 "<25>{#f/19}* 尽管我早知道他傻到\n  不会去伤害任何人..."
+              ]),
+         "<25>* ...",
+         "<25>{#f/16}{#x10}* 想前进，随你。\n* 我给你准备的时间。",
+         "<25>{#f/20}* 但只要你再往前踏出一步...",
+         "<25>{#f/11}{#x11}* 我就会杀了你。"
+      ],
+      undynefinal3: () => [
+         ...(SAVE.data.n.state_starton_papyrus === 1
+            ? [ "<25>{#p/undyne}{#f/21}* 那好。", "<25>{#f/19}* ..." ]
+            : world.trueKills > 1
+            ? [ "<25>{#p/undyne}{#f/11}* 混蛋，你自找的。", "<25>{#f/9}* Ready or not..." ]
+            : respecc()
+            ? [ "<25>{#p/undyne}{#f/1}* That's it, then...!", "<25>{#f/17}* It's time you met your one true equal!" ]
+            : [ "<25>{#p/undyne}{#f/1}* That's it, then...!", "<25>{#f/17}* No more running away!" ])
+      ],
+      undynefinal3x: [ "<25>{#f/7}{*}* 去死吧！！！{#x1}{^999}" ],
+      undynehouse1: [ "<32>{#p/basic}* 锁住了。" ],
+      undynehouse2: () =>
+         SAVE.data.b.svr || world.runaway
+            ? [ "<32>{#p/human}* (You can't seem to find a way in.)" ]
+            : SAVE.data.n.plot === 72
+            ? [
+                 "<32>{#p/basic}* First, the goat family...\n* Then, the spider queen...",
+                 "<32>* And now, the fish lady...",
+                 "<32>* I'll miss her... just like I'm going to miss being here...",
+                 "<32>* But maybe... I've inhabited this house for too long...",
+                 "<32>* Maybe I'll be happier if I spend time... somewhere new..."
+              ]
+            : [ "<32>{#p/basic}* It's literally on fire.\n* You're not getting in there." ],
+      walktext: {
+         bird: () => [
+            "<25>{#p/kidd}{#f/4}* 没路了...",
+            world.genocide
+               ? "<25>{#f/3}* 那只小鸟肯定忙着\n  带他去另一边了，哈哈。"
+               : "<25>{#f/3}* 那只小鸟现在肯定很忙，\n  哈哈。"
+         ],
+         birdx: [ "<32>{#p/basic}* ...但是谁也没有来。" ],
+         path1: () =>
+            SAVE.data.n.state_foundry_muffet === 1
+               ? [
+                    "<25>{#p/kidd}{#f/8}* I feel like I'm gonna puke...",
+                    SAVE.data.n.state_foundry_kidddeath > 5
+                       ? "<25>* We killed so many monsters..."
+                       : SAVE.data.n.state_foundry_kidddeath > 1
+                       ? "<25>* We killed other monsters..."
+                       : "<25>* We killed a monster..."
+                 ]
+               : [
+                    "<25>{#p/kidd}{#f/1}* 我有跟你说过我们是\n  怎么上航天飞机\n  驾驶课的吗！？",
+                    "<25>{#p/kidd}{#f/7}* 真的超级壮观！"
+                 ],
+         path2: () =>
+            SAVE.data.n.state_foundry_muffet === 1
+               ? [
+                    SAVE.data.b.f_state_kidd_fight
+                       ? "<25>{#p/kidd}{#f/4}* 虽然... 你让我攻击他们..."
+                       : "<25>{#p/kidd}{#f/4}* 虽然... 一直是你在攻击他们...",
+                    "<25>{#p/kidd}{#f/8}* 但你真的...\n* ...真的打-打心里想...\n* ...那么做吗...？"
+                 ]
+               : [
+                    "<25>{#p/kidd}{#f/2}* 有一天，那个矮个子骷髅\n  和他的兄弟来代课...",
+                    "<25>{#p/kidd}{#f/2}* 还有，虽然是个秘密，\n  但是...",
+                    "<25>{#f/1}* 他们让我自己一个人\n  绕着前哨站飞！！"
+                 ],
+         path3: () =>
+            SAVE.data.n.state_foundry_muffet === 1
+               ? [
+                    "<25>{#p/kidd}{#f/4}* 我从没想伤害任何人，\n  我只是...\n* 我...",
+                    "<25>{#p/kidd}{#f/8}* 我只是想醒过来...\n* 好希望... 这只是场噩梦..."
+                 ]
+               : [
+                    "<25>{#p/kidd}{#f/1}* 也许有一天我会成为\n  一名真正的飞行员，\n  拥有自己的星际飞船。",
+                    "<25>{#p/kidd}{#f/1}* 侧面画着火焰，\n  还有巨大的翅膀，\n  还有...",
+                    "<25>{#p/kidd}{#f/6}* 天啊，肯定超酷的..."
+                 ],
+         path4: () =>
+            SAVE.data.n.state_foundry_muffet === 1
+               ? [ "<25>{#p/kidd}{#f/8}* I...", "<25>{#f/8}* 我...", "<25>{#f/5}* 我... \n* ...我会住嘴的。" ]
+               : [
+                    "<25>{#p/kidd}{#f/2}* 我们可以去宇宙的\n  任何地方，伙计...",
+                    "<25>{#p/kidd}{#f/1}* 最好的事情呢？\n* 莫不如，不用，上学！"
+                 ],
+         path5: [ "<25>{#p/kidd}{#f/4}* 等等..." ],
+         path6: () =>
+            SAVE.data.n.state_foundry_muffet === 1
+               ? [
+                    "<25>{#p/kidd}{#f/8}* 你一个人是过不去的...",
+                    "<25>{#p/kidd}{#f/8}* ...",
+                    "<25>{#p/kidd}{#f/5}* ...我帮你。"
+                 ]
+               : [
+                    "<25>{#p/kidd}{#f/2}* 你确定你能跨过\n  那个空隙吗？",
+                    "<25>{#p/kidd}{#f/1}* 哟，我来帮你！"
+                 ],
+         path7: () =>
+            SAVE.data.n.state_foundry_muffet === 1
+               ? [ "<25>{#p/kidd}{#f/8}* 爬上来。" ]
+               : [ "<25>{#p/kidd}{#f/1}* 爬上来！" ],
+         path8: () =>
+            SAVE.data.n.state_foundry_muffet === 1
+               ? [
+                    "<25>{#p/kidd}{#f/4}* ...\n* 唉...",
+                    "<25>{#f/8}* 要是以后你再也见不到我了...\n* 告诉我父母...",
+                    "<25>{#f/5}* ...\n* 就当没生过我吧。"
+                 ]
+               : [ "<25>{#p/kidd}{#f/1}* 别担心，伙计！\n* 我肯定能找条路过去的！" ],
+         prechase: [
+            "<25>{#p/kidd}{#f/4}* 嘿... 呃...\n* 我感觉这地方有点吓人...",
+            "<25>{#f/3}* 要不咱们回去吧？"
+         ],
+         rescue1: () => [
+            "<25>{#p/kidd}{#f/7}* Undyne，不要！\n* 那是我的朋友！",
+            geno()
+               ? "<32>{#p/undyne}* No, they're not.\n* You really shouldn't be with them, kiddo."
+               : "<32>{#p/undyne}* 回家吧，孩子。\n* 你跟这家伙不是一路人。"
+         ],
+         rescue2: [ "<25>{*}{#p/kidd}{#f/8}* Undyne...{#x1}{^20}{%}" ],
+         rescue3: [
+            "<25>{*}{#p/kidd}{#f/13}* 我保证，我...\n  我-我会回来找你的！{^20}{%}",
+            "<25>{*}{#p/kidd}{#f/13}* 你可千万别死，好吗？{^20}{%}"
+         ],
+         snailcom: [
+            "<25>{#p/kidd}{#f/9}* That ghost and I played electrosnail here one time...",
+            "<25>* Have you ever...?",
+            "<25>{#p/asriel2}{#f/10}* Um... no?",
+            "<25>{#f/4}* Not in this timeline, anyway.",
+            "<25>{#p/kidd}{#f/9}* Timeline?"
+         ],
+         trashcom: [
+            "<25>{#p/asriel2}{#f/13}* Oh, hey...\n* This is where we...",
+            "<25>{#f/13}* Where you...",
+            "<25>{#f/15}* ...",
+            "<25>{#f/16}* Oh, $(name)...",
+            "<25>{#p/kidd}{#f/9}* ...？",
+            "<25>{#p/asriel2}{#f/6}* It's nothing.",
+            "<25>{#f/7}* Just a little reminder, that's all.",
+            "<25>{#p/kidd}{#f/9}* Oh..."
+         ],
+         undynecom: [
+            "<25>{#p/kidd}{#f/11}* Oh, it's...\n* This is Undyne's house...!",
+            "<25>{#p/asriel2}{#f/8}* Thankfully, Undyne's not here right now.",
+            "<25>{#f/6}* If all goes to plan, she never will be again."
+         ]
+      },
+      watercooler1: () => [
+         ...(SAVE.data.b.svr
+            ? [ "<32>{#p/human}* (The label describes using this fluid only in a specific kind of emergency.)" ]
+            : [
+                 "<32>{#p/basic}* It's a cooler full of electro- dampening fluid with an oddly specific warning label.",
+                 "<32>{#p/basic}* \"Use only to negate electro- static interference with portable jetpacks.\""
+              ]),
+         choicer.create("* (Get a cup?)", "是", "否")
+      ],
+      watercooler2a: [ "<32>{#p/human}* (You now hold a cup of the electro-dampening fluid.)" ],
+      watercooler2b: [ "<32>{#p/human}* (You decide not to get a cup.)" ],
+      watercooler3: () => [
+         ...(SAVE.data.b.svr
+            ? [ "<32>{#p/human}* (The label describes using this fluid only in a specific kind of emergency.)" ]
+            : [
+                 "<32>{#p/basic}* It's a cooler full of electro- dampening fluid with an oddly specific warning label.",
+                 "<32>{#p/basic}* \"Use only to negate electro- static interference with portable jetpacks.\""
+              ]),
+         "<32>{#p/human}* (You already have a cup.)"
+      ]
+   },
+
+   b_group_foundry: {
+      moldsmalMoldbygg1: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* 呃啊，霉臭味！" ]
+            : [ "<32>{#p/story}* It's a gelatin festival!" ],
+      moldsmalMoldbygg2a: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* 只剩一个了。" ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* 只剩我们了！" ]
+            : [ "<32>{#p/story}* Gelata is all alone now." ],
+      moldsmalMoldbygg2b: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* 只剩一个了。" ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* 只剩我们了！" ]
+            : [ "<32>{#p/story}* Gelatini now blorbs solo." ],
+      woshuaMoldbygg2: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* 矛盾二人组。" ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* 哇，你好..." ]
+            : [ "<32>{#p/story}* Skrubbington straddles up.\n* Much to its dismay, Gelata is also here..." ],
+      woshuaMoldbygg2a: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* 只剩一个了。" ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* 只剩我们了！" ]
+            : [ "<32>{#p/story}* Gelata is all alone now." ],
+      woshuaMoldbygg2b: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* 只剩一个了。" ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* 只剩我们了！" ]
+            : [ "<32>{#p/story}* Skrubbington is not sure how to feel anymore." ]
+   },
+   b_opponent_woshua: {
+      tweet: "tweet",
+      epiphany: [
+         [ "<08>{#p/basic}{~}Skrubby accepts your mercy." ],
+         () =>
+            world.meanie
+               ? [ "<08>{#p/basic}{~}Skrubby will retreat now..", "<08>{#p/basic}{~}Thx for warning!" ]
+               : world.flirt > 9
+               ? [ "<08>{#p/basic}{~}Skrub u entire body..", "<08>{#p/basic}{~}Special service just for you!" ]
+               : SAVE.data.b.oops
+               ? [
+                    "<08>{#p/basic}{~}Even if u get dirty sometimes..",
+                    "<08>{#p/basic}{~}Skrubby will be there to clean u."
+                 ]
+               : [ "<08>{#p/basic}{~}Skrubby accepts hug..", "<08>{#p/basic}{~}Regard- less if u are clean or dirty." ],
+         [ "<08>{#p/basic}{~}Skrubby knows what must be done.", "<08>{#p/basic}{~}Thx for showing me the way." ],
+         [ "<08>{#p/basic}{~}Okie.\nTake u G." ]
+      ],
+      act_check: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Skrubbington，洁癖狂魔。\n* 眼里容不下半点灰尘。" ]
+            : [
+                 "<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n* This humble germophobe seeks to cleanse the whole galaxy."
+              ],
+      act_check2: [
+         "<33>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n* This humble germophobe wants to go home to wash its wounds."
+      ],
+      act_check3: [
+         "<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n* One wheel closer to a cleaner future for monsterkind."
+      ],
+      act_check4: [
+         "<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n* This humble germophobe's love story is as soapy as it gets."
+      ],
+      name: "* Skrubbington",
+      status1: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Skrubbington." ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* Skrubby来了！" ]
+            : [ "<32>{#p/story}* Skrubbington strolls in." ],
+      idleTalk1a: [ "<08>{#p/basic}{~}Skrub u SOUL" ],
+      idleTalk1b: [ "<08>{#p/basic}{~}Skrub u hands" ],
+      idleTalk1c: [ "<08>{#p/basic}{~}Skrub u face" ],
+      idleTalk1d: [ "<08>{#p/basic}{~}Skrub u hair" ],
+      idleTalk1e: [ "<08>{#p/basic}{~}Skrub u feet" ],
+      idleTalk2a: [ "<08>{#p/basic}{~}Skrub a dub-dubs" ],
+      idleTalk2b: [ "<08>{#p/basic}{~}Oops, I meant..\nSkrub a sub-SUBS" ],
+      idleTalk2c: [ "<08>{#p/basic}{~}Skrub a sub-subs" ],
+      idleTalk3: () =>
+         world.trueKills > 0 ? [ "<08>{#p/basic}{~}Your SOUL is unclean." ] : [ "<08>{#p/basic}{~}\x00*whistle whistle*" ],
+      cleanTalk: [ "<08>{#p/basic}{~}Green means clean" ],
+      jokeTalk1: [ "<08>{#p/basic}{~}NO. THAT JOKE'S TOO.. DIRTY" ],
+      jokeTalk2: [ "<08>{#p/basic}{~}EUGH.. I CAN'T BELIEVE THIS" ],
+      randStatus1: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* Look at the little bird!" ]
+            : [ "<32>{#p/story}* Skrubbington is friends with a little bird." ],
+      randStatus2: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* You should've SEEN when it tried to clean my school lunch off." ]
+            : [ "<32>{#p/story}* Skrubbington is rinsing off a saucer." ],
+      randStatus3: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<33>{#p/kidding}* We should go spacesuit-shining with this one." ]
+            : [ "<32>{#p/story}* Skrubbington is looking for some good clean fun." ],
+      randStatus4: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* Squeaky clean?\n* This is gonna be FREAKY clean." ]
+            : [ "<32>{#p/story}* Smells like detergent." ],
+      randStatus5: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* You do NOT wanna get dirty around this one, dude." ]
+            : [ "<32>{#p/story}* Skrubbington wonders if stardust is sanitary." ],
+      hurtStatus: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* 一切... 还好吗？" ]
+            : [ "<32>{#p/story}* Skrubbington is revolted at its own wounds." ],
+      jokeText1: [ "<32>{#p/human}* (You tell a joke about a rusty piece of space junk.)" ],
+      jokeText2: [ "<32>{#p/human}* (You tell a joke about atmospheric pollution.)" ],
+      jokeText3: [ "<32>{#p/human}* (You tell a joke about two starships that got stuck in a trash barge.)" ],
+      touchText0: [
+         "<32>{#p/human}* (You give Skrubbington a friendly pat.)",
+         "<32>{#p/basic}* Skrubbington can't stand your slime-covered hands and runs away!"
+      ],
+      touchText1: [
+         "<32>{#p/human}* (You give Skrubbington a friendly pat.)",
+         "<32>{#p/basic}* Skrubbington recoils from your touch."
+      ],
+      touchText2: [
+         "<32>{#p/human}* (You give Skrubbington a friendly pat.)",
+         "<32>{#p/basic}* Skrubbington is flattered."
+      ],
+      cleanText1: [
+         "<32>{#p/human}* (You ask Skrubbington to clean you.)",
+         "<32>{#p/basic}* Skrubbington hops around excitedly."
+      ],
+      flirtTalk1: [ "<08>{#p/basic}{~}No!\nUnclean romance!" ],
+      flirtTalk2: [ "<08>{#p/basic}{~}Sparkle and shine!" ],
+      cleanText2: [
+         "<32>{#p/human}* (You ask Skrubbington to clean you.)",
+         "<32>{#p/basic}* Skrubbington resumes cleaning."
+      ]
+   },
+   b_opponent_moldbygg: {
+      sexyChat: [ "<08>{#p/basic}{~}\x00*sexy shuffle*" ],
+      epiphany: [
+         [ "<08>{#p/basic}{~}\x00*slime sounds*" ],
+         () =>
+            world.meanie
+               ? [ "<08>{#p/basic}{~}Guoooh.." ]
+               : world.flirt > 9
+               ? [ "<08>{#p/basic}{~}\x00*erotic shuffle*" ]
+               : SAVE.data.b.oops
+               ? [ "<08>{#p/basic}{~}*happy shuffle*" ]
+               : [ "<08>{#p/basic}{~}*slimy embrace*" ],
+         [ "<08>{#p/basic}{~}Final roar." ],
+         [ "<08>{#p/basic}{~}\x00*shiny shuffle*" ]
+      ],
+      status1: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Gelata." ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* 哇！" ]
+            : [ "<32>{#p/story}* Gelata appears!" ],
+      act_check: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Gelata，恶心粘球。\n* 为啥我要多费口舌给你解释这些？" ]
+            : [ "<32>{#p/story}* GELATA - ATK 18 DEF 18\n* Not so tini anymore." ],
+      act_check2: [ "<32>{#p/story}* GELATA - ATK 18 DEF 18\n* Not in the best of shape." ],
+      act_check3: [ "<32>{#p/story}* GELATA - ATK 18 DEF 18\n* Not against becoming a full- time jelly cushion." ],
+      act_check4: [ "<32>{#p/story}* GELATA - ATK 18 DEF 18\n* Not your ideal relationship..." ],
+      act_topple1: [ "<32>{#p/human}* (You try to topple Moldbygg, but it hasn't been weakened enough.)" ],
+      act_topple2: [ "<32>{#p/human}* (You topple Moldbygg.)\n* (Its body parts collapse and roll into the distance.)" ],
+      name: "* Gelata",
+      idleTalk1: [ "<08>{#p/basic}{~}Guoooh!" ],
+      idleTalk2: [ "<08>{#p/basic}{~}\x00*slime sounds*" ],
+      idleTalk3: [ "<08>{#p/basic}{~}Roar." ],
+      idleTalk4: [ "<08>{#p/basic}{~}\x00*eager shuffle*" ],
+      randStatus1: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Gelata." ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* What does it want?" ]
+            : [ "<32>{#p/story}* Gelata wants to carry you." ],
+      randStatus2: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Gelata." ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* 我好奇我要是抱抱它\n  会发生什么。" ]
+            : [ "<32>{#p/story}* Gelata wobbles anxiously." ],
+      randStatus3: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Gelata." ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* 黏糊糊的... 但我喜欢！" ]
+            : [ "<32>{#p/story}* Gelata mills about nearby." ],
+      randStatus4: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Gelata." ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* 啥都黏糊糊的。" ]
+            : [ "<32>{#p/story}* Smells like a jell-o store." ],
+      hurtStatus: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* 离死不远了。" ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* Gelata的状态看起来不太好..." ]
+            : [ "<32>{#p/story}* Gelata has seen better days." ],
+      act_handshake: [
+         "<32>{#p/human}* (You offer a handshake.)\n* (Gelata engulfs you in slime.)",
+         "<32>{#p/story}* SPEED decreased!"
+      ],
+      act_sit: [ "<32>{#p/human}* (You sit on top of Gelata.)\n* (Gelata now feels that it has been useful to you.)" ],
+      distanceStatus: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Gelata." ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* Can I come sit too!?" ]
+            : [ "<32>{#p/story}* Gelata seems happy with your presence." ],
+      act_flirt: [
+         "<32>{#p/human}* (You wiggle your hips.)\n* (Gelata does a tornado spin.)",
+         "<32>{#p/basic}* A meaningful conversation...?"
+      ]
+   },
+   b_opponent_moldfake: {
+      act_check: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Gelatini...\n* 直觉告诉我，这只怪物可没有\n  它外表看起来那么简单。" ]
+            : [ "<32>{#p/story}* GELATINI - ATK 18 DEF 18\n* Not a squorch to be heard." ],
+      name: "* Gelatini",
+      smalTalk: [ "<08>{#p/basic}{~}..." ],
+      status1: () => (world.goatbro ? [ "<32>{#p/asriel2}* Gelatini." ] : [ "<32>{#p/story}* Gelatini出现了？" ]),
+      fakeStatus1: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Gelatini." ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* Do Gelatinis always sit this still?" ]
+            : [ "<32>{#p/story}* Gelatini isn't moving." ],
+      fakeStatus2: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Gelatini." ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* Something's off with that Gelatini..." ]
+            : [ "<32>{#p/story}* Gelatini is a perfectly tempered gelatin with no flaws." ],
+      fakeStatus3: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Gelatini." ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* Are Gelatinis always this quiet?" ]
+            : [ "<32>{#p/story}* It's Gelatini's quiet time." ],
+      fakeStatus4: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Gelatini." ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* This seems kinda weird." ]
+            : [ "<32>{#p/story}* Smells like a jell-o store." ],
+      act_imitate: [ "<32>{#p/human}* (You approach Gelatini.)", "<32>{#p/basic}* Suddenly...!" ],
+      act_flirt: [ "<32>{#p/human}* (You wiggle your hips.)", "<32>{#p/basic}* Suddenly...!" ],
+      act_slap: [ "<32>{#p/human}* (You give Gelatini a big slap.)", "<32>{#p/basic}* Suddenly...!" ]
+   },
+   b_opponent_shyren: {
+      act_check: [ "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* A prophetic singer, held back by her own shame." ],
+      act_check2: [ "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* With newfound confidence, she takes to the stage!" ],
+      act_check3: [ "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* With newfound confidence, she sings for the crowd!" ],
+      act_check4: [ "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* With newfound confidence, she's the star of the show!" ],
+      act_check5: [ "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* A prophetic singer, held back by fresh wounds." ],
+      act_check6: [ "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* Alas, the bitter dregs of rejection." ],
+      act_check7: [ "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* Suddenly, love songs." ],
+      awkwardtoot: [ "<08>{#p/basic}{~}(awkward toot)" ],
+      creepStatus: () =>
+         SAVE.data.n.state_foundry_muffet === 1
+            ? [ "<32>{#p/story}* Shyren cowers in the corner." ]
+            : [ "<32>{#p/kidding}* I don't think that helped..." ],
+      creepText1: [
+         "<32>{#p/human}* (You flirt with Shyren, offering your best smile.)",
+         "<32>{#p/basic}* Shyren turns away..."
+      ],
+      creepText2: [
+         "<32>{#p/human}* (You flirt with Shyren again.)",
+         "<32>{#p/basic}* Shyren is uncomfortable now, and decides to leave."
+      ],
+      encourage1: () =>
+         SAVE.data.n.state_foundry_muffet === 1
+            ? [ "<32>{#p/story}* Shyren seems much more comfortable singing along." ]
+            : [ "<32>{#p/kidding}* A sing-along?\n* Heck yeah, dude!" ],
+      encourage2: () =>
+         world.dead_skeleton || geno()
+            ? world.genocide
+               ? SAVE.data.n.state_foundry_muffet === 1
+                  ? [ "<32>{#p/story}* The eerily quiet air passes behind the symphony of voices." ]
+                  : [ "<32>{#p/kidding}* Haha, this is kinda fun!\n* Even though it's just the three of us..." ]
+               : SAVE.data.n.state_foundry_muffet === 1
+               ? [ "<32>{#p/story}* A shadowy figure watches the commotion from afar." ]
+               : [ "<32>{#p/kidding}* Yo... uh...\n* What's that weird shadowy guy doing over there?" ]
+            : SAVE.data.n.state_foundry_muffet === 1
+            ? [ "<32>{#p/story}* Sans is selling tickets made of carbon fiber." ]
+            : [ "<32>{#p/kidding}* Is that short skeleton selling TICKETS now??" ],
+      encourage3: () =>
+         world.dead_skeleton || geno()
+            ? SAVE.data.n.state_foundry_muffet === 1
+               ? [ "<32>{#p/story}* Your previous hums echo back into the room." ]
+               : [ "<32>{#p/kidding}* This place is so empty, we can hear ourselves from the past.\n* So trippy..." ]
+            : SAVE.data.n.state_foundry_muffet === 1
+            ? [ "<32>{#p/story}* The crowd tosses clothing.\n* It's a storm of cotton balls." ]
+            : [ "<32>{#p/kidding}* Woah, so many people!" ],
+      encourage4: () =>
+         SAVE.data.n.state_foundry_muffet === 1
+            ? [ "<32>{#p/story}* Shyren thinks about her future." ]
+            : [ "<32>{#p/kidding}* One last time!\n* One last time!\n* One last time!" ],
+      flirtText1: [ "<32>{#p/human}* (You flirt with Shyren.)\n* (Though uneasy, she blushes a little in return.)" ],
+      flirttoot: [ "<08>{#p/basic}{~}(happy toot)" ],
+      hum0: [ "<32>{#p/human}* (You hum a melancholy waltz.)\n* (Shyren follows your melody.)" ],
+      hum1: [ "<32>{#p/human}* (You hum a funky tune.)\n* (Shyren follows your melody.)" ],
+      hum2: [ "<32>{#p/human}* (You hum a bluesy song.)\n* (Shyren follows your melody.)" ],
+      hum3: [ "<32>{#p/human}* (You hum a jazz ballad.)\n* (Shyren follows your melody.)" ],
+      hum4: [ "<32>{#p/human}* (You hum an apology song.)\n* (Shyren calms down.)" ],
+      humX1: () =>
+         world.dead_skeleton || geno()
+            ? [ "<32>{#p/human}* (You hum some more.)", "<32>{#p/basic}* It's a veritable duet!" ]
+            : [
+                 "<32>{#p/human}* (You hum some more.)",
+                 "<32>{#p/basic}* Monsters are drawn to the music.",
+                 "<32>{#p/basic}* Suddenly, it's a concert..."
+              ],
+      humX2: () =>
+         world.dead_skeleton || geno()
+            ? [
+                 "<32>{#p/human}* (You hum some more.)",
+                 "<32>{#p/basic}* Shyren is happy to have you as her vocal partner."
+              ]
+            : [
+                 "<32>{#p/human}* (You hum some more.)",
+                 "<32>{#p/basic}* The seats are sold out.\n* It's a rockstar performance!"
+              ],
+      humX3: () =>
+         world.dead_skeleton || geno()
+            ? [
+                 "<33>{#p/human}* (You hum some more.)",
+                 "<32>{#p/basic}* Even without a crowd, a dance of melody and harmony persists."
+              ]
+            : [
+                 "<32>{#p/human}* (You hum some more.)",
+                 "<32>{#p/basic}* Despite your success, the constant attention...",
+                 "<32>* The tours...\n* The groupies...\n* It's all..."
+              ],
+      humX4: () => [
+         "<32>{#p/human}* (You and Shyren have come so far, but it's time.)",
+         "<32>* (You both have your own journeys to embark on.)",
+         "<32>* (You hum a farewell song.)"
+      ],
+      hurtStatus: [ "<32>{#p/story}* Shyren's voice is raspy." ],
+      name: "* Shyren",
+      randStatus1: () =>
+         SAVE.data.n.state_foundry_muffet === 1
+            ? [ "<32>{#p/story}* Shyren hums very faintly." ]
+            : [ "<32>{#p/kidding}* Are you okay?" ],
+      randStatus2: () =>
+         SAVE.data.n.state_foundry_muffet === 1
+            ? [ "<32>{#p/story}* Shyren pretends to be a pop idol." ]
+            : [ "<32>{#p/kidding}* You look sad..." ],
+      randStatus3: () =>
+         SAVE.data.n.state_foundry_muffet === 1
+            ? [ "<32>{#p/story}* Shyren taps a little beat with her fins." ]
+            : [ "<32>{#p/kidding}* Do you need any help?" ],
+      randStatus4: () =>
+         SAVE.data.n.state_foundry_muffet === 1
+            ? [ "<32>{#p/story}* Shyren thinks about doing karaoke by herself." ]
+            : [ "<32>{#p/kidding}* Is there anything I can do?" ],
+      randStatus5: () =>
+         SAVE.data.n.state_foundry_muffet === 1
+            ? [ "<32>{#p/story}* Smells like music." ]
+            : [ "<32>{#p/kidding}* Wait... what's with her body?" ],
+      sadtalk1: [ "<08>{#p/basic}{~}..\n..\ntoot\n.." ],
+      sadtalk2: [ "<08>{#p/basic}{~}..\n..\nhum hum\n.." ],
+      status1: () =>
+         SAVE.data.n.state_foundry_muffet === 1
+            ? [ "<32>{#p/kidding}* 不...\n* 别再这样了..." ]
+            : [ "<32>{#p/kidding}* 哟，你还好吗？\n* 你看起来很难过..." ],
+      talk3: [ "<08>{#p/basic}{~}si re, si re, si mi, si mi" ],
+      talk4: [ "<08>{#p/basic}{~}Si Fa Si Fa So Fa So Mi Re Re" ],
+      talk5: [ "<08>{#p/basic}{~}Mi So Mi So Mi Si Mi La Si So" ],
+      talk6: [ "<08>{#p/basic}{~}(pas- sionate tooting)" ],
+      talk7: [ "<08>{#p/basic}{~}(final toot)" ],
+      wave1: [ "<32>{#p/human}* (You wave your arms wildly.)\n* (Nothing happens.)" ],
+      wave2: () =>
+         world.genocide
+            ? [ "<32>{#p/human}* (You wave your arms wildly.)\n* (Nothing happens.)" ]
+            : [ "<32>{#p/human}* (You wave your arms wildly.)", "<32>{#p/basic}* The crowd eats it up!" ],
+      act_boo1: [ "<32>{#p/human}* (You boo Shyren.)", "<32>{#p/basic}* Her head down, Shyren moves away quietly..." ],
+      act_boo2: [
+         "<32>{#p/human}* (You boo Shyren.)",
+         "<32>{#p/basic}* Shyren, seeing how you handle rejection, leaves in a huff."
+      ],
+      act_boo3: [
+         "<32>{#p/human}* (You boo Shyren.)",
+         "<32>{#p/basic}* Shyren's fleeting joy fades just as soon as it came to her."
+      ],
+      act_boo4: [
+         "<32>{#p/human}* (You boo Shyren.)",
+         "<32>{#p/basic}* The crowd, distraught, watches as Shyren flees the scene."
+      ],
+      act_boo5: [
+         "<32>{#p/human}* (You boo Shyren.)",
+         "<32>{#p/basic}* The betrayal brings Shyren to tears as she flees the scene."
+      ]
+   },
+   b_opponent_radtile: {
+      epiphany: [
+         [ "<08>{#p/basic}{~}Until next time, G." ],
+         () =>
+            world.meanie
+               ? [ "<08>{#p/basic}{~}Huh..!\nSince when did you get scary!" ]
+               : world.flirt > 9
+               ? [ "<08>{#p/basic}{~}This feeling..", "<08>{#p/basic}{~}I mustn't resist!" ]
+               : SAVE.data.b.oops
+               ? [ "<08>{#p/basic}{~}Yeah..\nWe make a pretty radical team." ]
+               : [ "<08>{#p/basic}{~}It's so comfort- able.." ],
+         [ "<08>{#p/basic}{~}At least my end will serve a purpose.", "<08>{#p/basic}{~}Peace 'n' tran- quility, G." ],
+         [ "<08>{#p/basic}{~}Here's your G, my G!" ]
+      ],
+      act_check: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Radtile，自诩“酷毙”的鳄鱼。\n* 真是可笑至极，\n  瞧瞧这个二货到底有多土。" ]
+            : [ "<32>{#p/story}* RADTILE - ATK 24 DEF 12\n* A stargazer in starglasses.\n* Favorite genre: Kriobeat" ],
+      act_check2: [ "<32>{#p/story}* RADTILE - ATK 24 DEF 12\n* Things aren't looking so hot for this cool crocodile." ],
+      act_check3: [ "<33>{#p/story}* RADTILE - ATK 24 DEF 12\n* This cool crocodile is on fire." ],
+      act_check4: [
+         "<32>{#p/story}* RADTILE - ATK 24 DEF 12\n* When it comes to romance, this cool crocodile is stone cold."
+      ],
+      name: "* Radtile",
+      status1: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Radtile。" ]
+            : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* 别是这家伙呀..." ]
+            : [ "<32>{#p/story}* Radtile makes an impression!" ],
+      randStatus1: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* That sure is an interesting hat he's got on his head." ]
+            : [ "<32>{#p/story}* Radtile adjusts his hat." ],
+      randStatus2: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* Everyone around here just loves Raddy's little mirror." ]
+            : [ "<32>{#p/story}* Radtile looks deeply into his mirror image." ],
+      randStatus3: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* What's he doing, anyway?" ]
+            : [ "<32>{#p/story}* Radtile is making gestures to improve his cool factor." ],
+      randStatus4: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* I wonder what his face looks like." ]
+            : [ "<32>{#p/story}* Smells like an old skatepark." ],
+      idleTalk1: [ "<08>{#p/basic}{~}Check it." ],
+      idleTalk2: [ "<08>{#p/basic}{~}Take a looksie." ],
+      idleTalk3: [ "<08>{#p/basic}{~}Sneak a peek.." ],
+      idleTalk4: [ "<08>{#p/basic}{~}Give it a gaze.." ],
+      insultIdleTalk1: [ "<08>{#p/basic}{~}Meh." ],
+      insultIdleTalk2: [ "<08>{#p/basic}{~}Whatever." ],
+      insultIdleTalk3: [ "<09>{#p/basic}{~}\x00*shrugs*" ],
+      insultIdleTalk4: [ "<08>{#p/basic}{~}Very un- cool." ],
+      act_praise: [ "<32>{#p/human}* (You tell Radtile he's as cool as a quantum cucumber.)" ],
+      act_praise_bullied: [ "<32>{#p/human}* (You tell Radtile his scars make him look tougher.)" ],
+      complimentTalk1: [ "<08>{#p/basic}{~}Were you really lookin'?" ],
+      complimentTalk2: [ "<08>{#p/basic}{~}Check first, opinions later." ],
+      complimentTalk3: [ "<08>{#p/basic}{~}Show and tell, in that order." ],
+      complimentPostInsultTalk1: [ "<08>{#p/basic}{~}You're a liar, anyway." ],
+      complimentPostInsultStatus: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* Yeah, I don't think that's gonna work now, dude..." ]
+            : [ "<32>{#p/story}* Radtile isn't having it." ],
+      flirtTalk1: [ "<08>{#p/basic}{~}Woah, hey, hold on.." ],
+      complimentStatus: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* Maybe if you show him you're checking him out first...?" ]
+            : [ "<32>{#p/story}* Radtile wants you to check him out first." ],
+      checkTalk: [ "<08>{#p/basic}{~}Study me, heh heh." ],
+      realTalk1: [ "<08>{#p/basic}{~}Right on." ],
+      realStatus: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* You did it!\n* ... can we leave now?" ]
+            : [ "<32>{#p/story}* Radtile's feeling a whole lot cooler than before." ],
+      realTalkY1: [ "<08>{#p/basic}{~}\x00*fist bump*" ],
+      realTalkY2: [ "<08>{#p/basic}{~}You're the coolest." ],
+      realTalkY3: [ "<08>{#p/basic}{~}Let's rock 'n' roll." ],
+      shockTalk1: [ "<08>{#p/basic}{~}.. cool." ],
+      shockStatus: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* Uh..." ]
+            : [ "<32>{#p/story}* Radtile is not amused." ],
+      act_insult: [ "<32>{#p/human}* (You call Radtile a loser, and tell him to shut up.)" ],
+      act_insult_bullied: [ "<32>{#p/human}* (You mock Radtile's bruises, and tell him to go away.)" ],
+      act_flirt: [ "<32>{#p/human}* (You beckon Radtile.)" ],
+      act_flirt_bullied: [ "<32>{#p/human}* (You tell Radtile he's beautiful no matter how disfigured he is.)" ],
+      insultTalk1: [ "<08>{#p/basic}{~}And what if I don't?" ],
+      insultStatus: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* Uh..." ]
+            : [ "<32>{#p/story}* Radtile keeps his distance." ],
+      checkPostInsultTalk: [ "<08>{#p/basic}{~}Come to take another look?" ],
+      checkPostInsultStatus: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* Ah, we're going in circles!" ]
+            : [ "<32>{#p/story}* Radtile gives you a chance." ],
+      hurtStatus: () =>
+         world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
+            ? [ "<32>{#p/kidding}* This isn't looking good..." ]
+            : [ "<32>{#p/story}* Radtile的牙齿开始脱落了。" ]
+   },
+   b_opponent_doge: {
+      act_check: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* Doge，一条冷血的狗。\n* 纯纯的工作机器。" ]
+            : [ "<32>{#p/story}* DOGE - ATK 14 DEF 10\n* Pronounced \"dohj.\" Soft j.\n* Member of the ELITE squad." ],
+      act_flirt: () => [
+         ...(dogecon() || world.goatbro
+            ? [ "<32>{#p/human}* （你向Doge调情。）", "<32>{#p/basic}* 她对这种拍须溜马不屑一顾。" ]
+            : battler.volatile[0].vars.pet
+            ? [ "<32>{#p/human}* （你向Doge调情。）", "<32>{#p/basic}* Doge giggles playfully." ]
+            : battler.volatile[0].sparable
+            ? [
+                 "<32>{#p/human}* （你向Doge调情。）",
+                 "<32>{#p/basic}* Doge, despondent, was unreceptive to your remark."
+              ]
+            : world.flirt < 10
+            ? [ "<32>{#p/human}* （你向Doge调情。）", "<32>{#p/basic}* Doge tries not to react in any strong way." ]
+            : [ "<32>{#p/human}* （你向Doge调情。）", "<32>{#p/basic}* Doge is giving it her all to resist you." ])
+      ],
+      act_flirt2: [
+         "<32>{#p/human}* (You flirt with Doge again.)",
+         "<32>{#p/basic}* Doge can't keep this up for much longer..."
+      ],
+      act_flirt3: [
+         "<32>{#p/human}* (You muster your courage, and call Doge a little munchkin.)",
+         "<32>{#p/basic}* Doge tries not to react, but finds herself blushing.",
+         "<32>* She squirms and she struggles, but there's no hiding what's on her face.",
+         "<32>* Thoroughly embarrassed, Doge flees the scene..."
+      ],
+      batheText: [
+         "<32>{#p/human}* （你建议Doge去洗个澡。）",
+         "<32>{#p/basic}* Doge rips open a pipe from the ceiling... water comes flooding out.",
+         "<32>* It's cold, but she doesn't seem to mind...",
+         "<32>* Soon, the water runs dry.\n* Doge relaxes a little...",
+         "<32>{#p/story}* Doge's ATTACK down!"
+      ],
+      batheTextEarly: [ "<32>{#p/human}* (You suggest Doge get a shower, but she wasn't in the mood yet.)" ],
+      batheTextGeno: [
+         "<32>{#p/human}* （你建议Doge去洗个澡。）",
+         "<32>{#p/basic}* 但她根本不在乎自己脏不脏。"
+      ],
+      batheTextLate: [ "<32>{#p/human}* (You suggest Doge get a shower, but it was too late.)" ],
+      batheTextPost: [ "<32>{#p/human}* (But Doge was already clean.)" ],
+      fetchStatus: [ "<32>{#p/story}* Doge is a little smarter than the average dog." ],
+      fetchText: () => [
+         "<32>{#p/human}* (You throw the spanner.)\n* (Doge intercepts your throw, launching it back at you.)",
+         "<32>{#p/basic}* The spanner bonks you directly in the head!",
+         "<32>{#p/story}* SPEED down!",
+         ...(world.goatbro && SAVE.flag.n.ga_asrielSpanner++ < 1
+            ? [ "<32>{#p/asriel2}* Maybe don't try that again." ]
+            : [])
+      ],
+      fetchTextEpic: [
+         "<32>{#p/human}* (You throw the spanner.)\n* (Doge, inspired, picks it up and brings it back to you.)"
+      ],
+      fetchTextGarb: [ "<32>{#p/human}* (You throw the spanner.)\n* (Doge, exhausted, ignores it.)" ],
+      flirtStatus: [ "<32>{#p/story}* Doge questions the intention behind your advances." ],
+      flirtStatusAccept: [ "<32>{#p/story}* Doge blushes slightly." ],
+      flirtStatusReject: [ "<32>{#p/story}* Doge sighs apathetically." ],
+      hurtStatus: () =>
+         world.goatbro
+            ? [ "<32>{#p/asriel2}* 离死不远了。" ]
+            : [ "<32>{#p/story}* Doge is trying desperately to pretend she's just fine." ],
+      name: "* Doge",
+      petTalkPost: [ "<11>{#p/basic}{~}Ah..." ],
+      petText: [
+         "<32>{#p/human}* （你想摸摸Doge。）",
+         "<32>{#p/basic}* Doge hesitantly reaches her head up to meet your hand.",
+         "<32>* You make contact.\n* Her face lights up.\n* She gives you a big smile.",
+         "<32>* All her pent-up stress has finally been released.",
+         "<32>* Doge is no longer interested in fighting you."
+      ],
+      petTextEarly: [ "<32>{#p/human}* (You try to pet Doge, but she can't be reached yet.)" ],
+      petTextGeno: [
+         "<32>{#p/human}* （你想摸摸Doge。）",
+         "<32>{#p/basic}* 她对这份亲昵漠然置之。"
+      ],
+      petTextLate: [ "<32>{#p/human}* (You try to pet Doge, but it was too late.)" ],
+      petTextPost1: [
+         "<32>{#p/human}* (You try to pet Doge again.)",
+         "<32>{#p/basic}* Doge laps up your love like it's the first time she's been cared for in years..."
+      ],
+      petTextPost2: [ "<32>{#p/human}* (You try to pet Doge yet again.)", "<32>{#p/basic}* Doge has reached nirvana." ],
+      petTextPost3: [ "<32>{#p/human}* (You continue petting Doge.)", "<32>{#p/basic}* Is this even legal?" ],
+      petTextPost4: [ "<32>{#p/human}* (You pet Doge some more.)", "<32>{#p/basic}* Doge flops on the ground." ],
+      petTextPost5: [ "<32>{#p/human}* (You give Doge a side rub.)", "<32>{#p/basic}* Doge is drooling..." ],
+      petTextPost6: [ "<32>{#p/human}* (You pet Doge.)", "<32>{#p/basic}* It continues." ],
+      petTextPost7: [ "<32>{#p/human}* (You pet Doge.)", "<32>{#p/basic}* ..." ],
+      petTextSus: [ "<32>{#p/human}* (But Doge was too antsy to be pet.)" ],
+      status1: () => (world.goatbro ? [ "<32>{#p/asriel2}* Doge。" ] : [ "<32>{#p/story}* Doge昂首阔步向你走来。" ]),
+      turnStatus1: [ "<32>{#p/story}* Doge studies your stance, and deems it lacking." ],
+      turnStatus2: () =>
+         dogecon() ? [ "<32>{#p/story}* Doge fiddles with her spear." ] : [ "<32>{#p/story}* Doge needs a good washdown." ],
+      turnStatus3: () =>
+         dogecon()
+            ? [ "<32>{#p/story}* Doge一再检查她的站姿。" ]
+            : battler.volatile[0].vars.bathe
+            ? [ "<32>{#p/story}* Doge is dripping wet." ]
+            : [ "<32>{#p/story}* Doge's hygiene remains unchanged, much to her dismay." ],
+      turnStatus4: () =>
+         dogex()
+            ? [ "<32>{#p/story}* Doge thinks of her duty." ]
+            : world.dead_canine
+            ? [ "<32>{#p/story}* Doge thinks of her colleagues." ]
+            : battler.volatile[0].vars.bathe
+            ? [ "<32>{#p/story}* Doge seeks a little adventure." ]
+            : [ "<32>{#p/story}* Doge ponders the meaning of her duty." ],
+      turnStatus5: () =>
+         dogex()
+            ? [ "<32>{#p/story}* Doge thinks of her honor." ]
+            : world.dead_canine
+            ? [ "<32>{#p/story}* Doge想起了她的朋友们。" ]
+            : battler.volatile[0].vars.walk
+            ? [ "<32>{#p/story}* Doge relaxes back into her standard pose." ]
+            : battler.volatile[0].vars.bathe
+            ? [ "<32>{#p/story}* Doge regains her composure." ]
+            : [ "<32>{#p/story}* Doge remembers an old colleague fondly." ],
+      turnStatus6: () =>
+         dogecon()
+            ? [ "<32>{#p/story}* Doge keeps a cool head." ]
+            : battler.volatile[0].vars.walk
+            ? [ "<32>{#p/story}* Doge takes a deep breath." ]
+            : [ "<32>{#p/story}* Doge breaks into a cold sweat." ],
+      turnStatus7: () =>
+         battler.volatile[0].vars.walk
+            ? [ "<32>{#p/story}* Doge seeks affection." ]
+            : [ "<32>{#p/story}* Doge takes a deep breath." ],
+      turnStatus8: () =>
+         dogecon()
+            ? [ "<32>{#p/story}* Doge remains intent." ]
+            : battler.volatile[0].vars.walk
+            ? [ "<32>{#p/story}* Doge could use a helping hand." ]
+            : [ "<32>{#p/story}* Doge's breath shortens." ],
+      turnStatus9: () =>
+         dogecon()
+            ? [ "<32>{#p/story}* Doge remains intent." ]
+            : battler.volatile[0].vars.walk
+            ? [ "<32>{#p/story}* Doge just wants to be pet." ]
+            : [ "<32>{#p/story}* Doge is hyperventilating." ],
+      turnStatus10: () =>
+         dogecon()
+            ? [ "<32>{#p/story}* Doge remains intent." ]
+            : battler.volatile[0].vars.pet
+            ? [ "<32>{#p/story}* Doge is satisfied." ]
+            : [ "<32>{#p/story}* Doge stands patiently before you in surrender." ],
+      turnTalk1: () =>
+         dogecon() || world.goatbro
+            ? [ "<11>{#p/basic}{~}你犯下的罪行，\n我一清二楚。" ]
+            : [ "<11>{#p/basic}{~}队长警告我们\n要提防你。" ],
+      turnTalk2: () =>
+         world.goatbro
+            ? [
+                 "<11>{#p/basic}{~}两人联手，\n滥杀无辜...",
+                 "<11>{#p/basic}{~}已然沉溺于\n杀戮快感之中\n无法自拔？"
+              ]
+            : dogex()
+            ? [ "<11>{#p/basic}{~}当你屠戮平民，\n践踏生命时...", "<11>{#p/basic}{~}可曾懊悔过\n自己的\n所作所为？" ]
+            : world.dead_canine
+            ? [ "<11>{#p/basic}{~}犬卫队\n所有成员...", "<11>{#p/basic}{~}都惨死于\n你的暴行之下，\n无一幸免。" ]
+            : [
+                 "<11>{#p/basic}{~}As such, I have been on extended patrol.",
+                 "<11>{#p/basic}{~}Mind you... it is quite dirty here."
+              ],
+      turnTalk3: () =>
+         world.goatbro
+            ? [
+                 "<11>{#p/basic}{~}不愿下出\n如此定论...",
+                 "<11>{#p/basic}{~}但依我所见，\n绝无其他可能。"
+              ]
+            : dogecon()
+            ? [
+                 "<11>{#p/basic}{~}你随时可以\n弃甲投戈...",
+                 "<11>{#p/basic}{~}然而你选择\n将杀戮\n贯彻到底。"
+              ]
+            : battler.volatile[0].vars.bathe
+            ? [ "<11>{#p/basic}{~}Ah...", "<11>{#p/basic}{~}How pleasant..." ]
+            : [
+                 "<11>{#p/basic}{~}But we are ELITE squad members, I suppose.",
+                 "<11>{#p/basic}{~}We must adapt to any situation."
+              ],
+      turnTalk4: () =>
+         dogecon() || world.goatbro
+            ? [
+                 "<11>{#p/basic}{~}遥想当年，\n初入特战队...",
+                 "<11>{#p/basic}{~}那时，Undyne\n视人类为敌，\n我将信将疑。"
+              ]
+            : battler.volatile[0].vars.bathe
+            ? [ "<11>{#p/basic}{~}Too much water in my hair..." ]
+            : [
+                 "<11>{#p/basic}{~}When I asked to join the ELITE squad...",
+                 "<11>{#p/basic}{~}I never imagined I'd make it in."
+              ],
+      turnTalk5: () =>
+         dogecon() || world.goatbro
+            ? [ "<11>{#p/basic}{~}而当亲眼目睹\n你这般行径...", "<11>{#p/basic}{~}我的心中\n已再无疑虑。" ]
+            : battler.volatile[0].vars.walk
+            ? [ "<11>{#p/basic}{~}Well.\nNothing beats a nice walk." ]
+            : battler.volatile[0].vars.bathe
+            ? [
+                 "<11>{#p/basic}{~}{#f.batmusic1}Just a moment.",
+                 "<11>{#p/basic}{~}...",
+                 "<11>{#p/basic}{~}\x00*whips around*",
+                 "<11>{#p/basic}{~}\x00*whipping continues*",
+                 "<11>{#p/basic}{~}\x00*shakes off*",
+                 "<11>{#p/basic}{~}...",
+                 "<11>{#p/basic}{~}There, all dry now.\nBack to fighting, yes?",
+                 "{*}{#f.batmusic2}{%}"
+              ]
+            : [
+                 "<11>{#p/basic}{~}But after that dummy called it quits...",
+                 "<11>{#p/basic}{~}I became the next in line."
+              ],
+      turnTalk6: () =>
+         world.goatbro
+            ? [
+                 "<11>{#p/basic}{~}而你，\nAsriel，\n就是我族叛徒。",
+                 "<11>{#p/basic}{~}难以置信，\n如此邪恶至极，\n却将登基为王。"
+              ]
+            : dogex()
+            ? [ "<11>{#p/basic}{~}It would be wise for you to surrender.", "<11>{#p/basic}{~}Not that you know how." ]
+            : world.dead_canine
+            ? [
+                 "<12>{#p/basic}{~}Doggo是狗卫队\n最新成员。",
+                 "<11>{#p/basic}{~}有些人... 把他的视力\n当作一种空去钻...",
+                 "<11>{#p/basic}{~}但是他的前途\n那么明朗。"
+              ]
+            : battler.volatile[0].vars.walk
+            ? [
+                 "<11>{#p/basic}{~}You've sure been walking for a while.",
+                 "<11>{#p/basic}{~}How much stamina do YOU have?"
+              ]
+            : battler.volatile[0].vars.bathe
+            ? [ "<11>{#p/basic}{~}Apologies.\nThere is much on my mind." ]
+            : [
+                 "<11>{#p/basic}{~}It has been a difficult line of work...",
+                 "<11>{#p/basic}{~}Even Undyne herself has moments of doubt.",
+                 "<11>{#p/basic}{~}... do not tell her I shared that."
+              ],
+      turnTalk7: () =>
+         world.goatbro
+            ? [
+                 "<11>{#p/basic}{~}我们的宿命\n竟是这般？",
+                 "<11>{#p/basic}{~}卑鄙的王子\n与人类共谋...",
+                 "<11>{#p/basic}{~}...誓要剿灭\n我族所有同胞？"
+              ]
+            : dogex()
+            ? [
+                 "<11>{#p/basic}{~}For life, you show nothing but contempt.",
+                 "<11>{#p/basic}{~}At every turn, you treat us as inferior."
+              ]
+            : world.dead_canine
+            ? [
+                 "<11>{#p/basic}{~}Canis Minor是\nCanis Major\n的直系下属。",
+                 "<11>{#p/basic}{~}它独特的观察\n方式帮了很\n多忙...",
+                 "<11>{#p/basic}{~}即使这种行为\n常常被大家\n误解。"
+              ]
+            : battler.volatile[0].vars.walk
+            ? [ "<11>{#p/basic}{~}Clearly more than I antici- pated..." ]
+            : [ "<11>{#p/basic}{~}(Sigh...)" ],
+      turnTalk8: () =>
+         world.goatbro
+            ? [
+                 "<11>{#p/basic}{~}终究...",
+                 "<11>{#p/basic}{~}两人孰更恶劣，\n难以论断。"
+              ]
+            : dogex()
+            ? [ "<11>{#p/basic}{~}Now, it is your turn.", "<11>{#p/basic}{~}Your turn to be treated as inferior." ]
+            : world.dead_canine
+            ? [
+                 "<11>{#p/basic}{~}Dogamy and Dogaressa, a duo of dilligence.",
+                 "<11>{#p/basic}{~}Before they met, they often misbehaved.",
+                 "<11>{#p/basic}{~}But once together, they could do ANYTHING."
+              ]
+            : battler.volatile[0].vars.walk
+            ? [ "<11>{#p/basic}{~}...", "<11>{#p/basic}{~}Can we really keep going like this?" ]
+            : [ "<11>{#p/basic}{~}This battle is starting to drag on." ],
+      turnTalk9: () =>
+         world.goatbro
+            ? 
+              [ "<11>{#p/basic}{~}只此一言...", "<11>{#p/basic}{~}这一切，\n未曾预料。" ]
+            : dogex()
+            ? [ "<11>{#p/basic}{~}..." ]
+            : world.dead_canine
+            ? [
+                 "<11>{#p/basic}{~}Canis Major was there when the canine unit was formed.",
+                 "<11>{#p/basic}{~}Along with its master, it led the unit well.",
+                 "<11>{#p/basic}{~}But now..."
+              ]
+            : [ "<11>{#p/basic}{~}Human, I..." ],
+      turnTalk10: () =>
+         world.goatbro
+            ? [
+                 "<11>{#p/basic}{~}言尽至此。",
+                 "<11>{#p/basic}{~}I will have justice for the terror you have inspired."
+              ]
+            : dogex()
+            ? [
+                 "<11>{#p/basic}{~}言尽至此。",
+                 "<11>{#p/basic}{~}正义，\n我必索回。"
+              ]
+            : world.dead_canine
+            ? [
+                 "<11>{#p/basic}{~}言尽至此。",
+                 "<11>{#p/basic}{~}I will have justice for those dogs' deaths."
+              ]
+            : battler.volatile[0].vars.pet
+            ? [ "<11>{#p/basic}{~}(Blushes)", "<11>{#p/basic}{~}You are a... kind human..." ]
+            : [
+                 "<11>{#p/basic}{~}I think I have had enough.",
+                 "<11>{#p/basic}{~}...",
+                 "<11>{#p/basic}{~}In fairness, you do not seem so bad.",
+                 "<11>{#p/basic}{~}At least, compared to how Undyne described.",
+                 "<11>{#p/basic}{~}Accept my mercy as a plea...",
+                 "<11>{#p/basic}{~}A plea that you will not stray into the darkness."
+              ],
+      turnTalk11: () => [ "<11>{#p/basic}{~}..." ],
+      walkText: [
+         "<32>{#p/human}* (You offer to take Doge on a walk.)",
+         "<32>{#p/basic}* Doge follows your lead.\n* Together you march in unison.",
+         "<32>* This continues for a while...",
+         "<32>* But eventually...",
+         "<32>* Doge grows tired of this frivolous exercise.",
+         "<32>* She follows you back to her patrol zone, and relaxes a little...",
+         "<32>{#p/story}* Doge's ATTACK down!"
+      ],
+      walkTextEarly: [ "<32>{#p/human}* (You offer to take Doge on a walk, but she has no reason to go on one yet.)" ],
+      walkTextGeno: [
+         "<32>{#p/human}* (You offer to take Doge on a walk.)",
+         "<32>{#p/basic}* Doge refuses to walk anywhere with you."
+      ],
+      walkTextLate1: [
+         "<32>{#p/human}* (You offer to take Doge on a walk, but she's already dried herself up for you.)"
+      ],
+      walkTextLate2: [
+         "<32>{#p/human}* (You offer to take Doge on a walk, but she never did anything to necessitate it.)"
+      ],
+      walkTextPost: [ "<32>{#p/human}* (But Doge was already spent from walking beforehand.)" ],
+      walkTextSus: [ "<32>{#p/human}* (But Doge was too dirty to go on a walk.)" ]
+   },
+   b_opponent_muffet: {
+      act_check: [ "<32>{#p/story}* MUFFET - ATK 39 DEF 19\n* Queen of all spider clans.\n* ELITE squad volunteer." ],
+      act_flirt: () => [
+         ...(badSpider()
+            ? [ "<32>{#p/human}* (You flirt with Muffet.)\n* (Muffet gives you the stink eyes.)" ]
+            : battler.volatile[0].sparable
+            ? [ "<32>{#p/human}* (You flirt with Muffet.)\n* (Muffet giggles and pats your head with several hands.)" ]
+            : world.flirt < 10
+            ? [ "<32>{#p/human}* (You flirt with Muffet.)\n* (Muffet giggles and wags several fingers at you.)" ]
+            : [ "<32>{#p/human}* (You flirt with Muffet.)\n* (Muffet seems intrigued, but it may not enough.)" ])
+      ],
+      act_flirt2: [
+         "<32>{#p/human}* (You flirt with Muffet again.)\n* (Muffet turns more than a few eyes towards you.)"
+      ],
+      act_flirt3: [
+         "<32>{#p/human}* (You muster your courage, and ask Muffet out on a picnic date.)",
+         "<32>{#p/basic}* Muffet giggles...",
+         "<32>* Then giggles some more...",
+         "<32>* She can't stop herself!\n* Muffet succumbs to your immaculate flirtatious power!",
+         "<32>* ... then promptly decides to end this battle, so as not to shame her fellow spiders.",
+         "<32>{#p/kidding}* ... what?"
+      ],
+      flirtReaction1: [ "<11>{#p/basic}{~}How adorable~" ],
+      flirtReaction2: [ "<11>{#p/basic}{~}You're the sweetest~" ],
+      flirtReaction3: [ "<11>{#p/basic}{~}Ahuhu~" ],
+      appeaseText: () =>
+         world.dead_canine
+            ? [
+                 "<33>{#p/human}* (You make an appeal to Muffet.)\n* (Muffet is once again intrigued by your words.)",
+                 "<32>* (You mention how Doge was forced to fight, and Undyne's lack of care is clear.)",
+                 "<32>* (As such, you suggest that trusting Undyne would mean putting spider clans at risk.)",
+                 "<32>{#p/basic}* Muffet starts considering the situation...",
+                 "<32>{#p/story}* Muffet's SPEED down!"
+              ]
+            : [
+                 "<33>{#p/human}* (You make an appeal to Muffet.)\n* (Muffet is once again intrigued by your words.)",
+                 "<32>* (You mention how Doge was mistreated, and Undyne's lack of care is clear.)",
+                 "<32>* (As such, you suggest that trusting Undyne would mean putting spider clans at risk.)",
+                 "<32>{#p/basic}* Muffet starts considering the situation...",
+                 "<32>{#p/story}* Muffet's SPEED down!"
+              ],
+      appeaseTextEarly: [ "<32>{#p/human}* (You make an appeal to Muffet, but she doesn't seem ready to hear it yet.)" ],
+      appeaseTextGeno: [
+         "<32>{#p/human}* (You make an appeal to Muffet.)",
+         "<32>{#p/basic}* Muffet will not be swayed by your shallow claims."
+      ],
+      appeaseTextLate: [
+         "<32>{#p/human}* (You make an appeal to Muffet, but she's already past the point of hearing you out.)"
+      ],
+      appeaseTextPost: [ "<32>{#p/human}* (But Muffet didn't need to be appeased twice.)" ],
+      appeaseTextSus: [ "<32>{#p/human}* (But Muffet had no reason to listen to you.)" ],
+      counterText: [
+         "<32>{#p/human}* (You try to counter Muffet.)\n* (Muffet is intrigued by your words.)",
+         "<32>* (You propose that a deal with the ELITE squad is flimsy.)",
+         "<32>* (You point out that one of their ranks already failed to capture you.)",
+         "<32>{#p/basic}* Muffet begins to carefully think everything over...",
+         "<32>{#p/story}* Muffet's SPEED down!"
+      ],
+      counterTextEarly: [
+         "<32>{#p/human}* (You try to counter Muffet, but she hasn't said anything that could be countered yet.)"
+      ],
+      counterTextGeno: [
+         "<32>{#p/human}* (You try to counter Muffet.)",
+         "<32>{#p/basic}* Muffet is deadset in her goal."
+      ],
+      counterTextLate: [ "<32>{#p/human}* (You try to counter Muffet, but she's already made up her mind.)" ],
+      counterTextPost: [ "<32>{#p/human}* (But Muffet has already heard your argument.)" ],
+      name: "* Muffet",
+      payTalkPost: [ "<11>{#p/basic}{~}That's very kind, but we already have more than enough~" ],
+      payText: [
+         "<32>{#p/human}* (You try to pay Muffet.)",
+         "<32>* As it turns out, Monster Kid had enough G to cover all of the spider clans' expenses!",
+         "<32>* Muffet pockets the money and bows to you and Monster Kid.",
+         "<32>* Her subjects will be well fed for quite a while.",
+         "<32>* Muffet doesn't care about fighting anymore."
+      ],
+      payTextEarly: [
+         "<32>{#p/human}* (You try to pay Muffet, but she didn't yet see any basis on which she could accept it.)"
+      ],
+      payTextGeno: [
+         "<32>{#p/human}* (You try to pay Muffet.)",
+         "<32>{#p/basic}* Muffet doesn't need any money from you."
+      ],
+      payTextLate: [ "<32>{#p/human}* (You try to pay Muffet, but she's already past the point of bribery.)" ],
+      payTextPost: [ "<32>{#p/human}* (You try to pay Muffet again.)" ],
+      payTextSus: [ "<32>{#p/human}* (But Muffet had no reason to trust you.)" ],
+      status1: [ "<32>{#p/kidding}* 我被困住了...！" ],
+      turnStatus1: () =>
+         badSpider()
+            ? world.genocide
+               ? world.bullied
+                  ? [ "<32>{#p/kidding}* Little bullies...?" ]
+                  : [ "<32>{#p/kidding}* Little killers...?" ]
+               : world.bullied
+               ? [ "<32>{#p/kidding}* Little bully...?" ]
+               : [ "<32>{#p/kidding}* Little killer...?" ]
+            : [ "<32>{#p/kidding}* Help...!" ],
+      turnStatus2: () =>
+         badSpider()
+            ? world.genocide
+               ? [ "<32>{#p/kidding}* But we haven't done anything!" ]
+               : [ "<32>{#p/kidding}* I've got a bad feeling about this..." ]
+            : [ "<32>{#p/kidding}* So it's a business thing..." ],
+      turnStatus3: () =>
+         badSpider()
+            ? [ "<32>{#p/kidding}* Yo...\n* She REALLY doesn't like you..." ]
+            : battler.volatile[0].vars.counter
+            ? [ "<32>{#p/kidding}* What are we going to do?" ]
+            : [ "<32>{#p/kidding}* We're never getting outta here, are we..." ],
+      turnStatus4: () =>
+         badSpider()
+            ? [ "<32>{#p/kidding}* What the heck was THAT?" ]
+            : battler.volatile[0].vars.counter
+            ? [ "<32>{#p/kidding}* Is she... changing her mind?" ]
+            : [ "<32>{#p/kidding}* What the heck was THAT?" ],
+      turnStatus5: () =>
+         badSpider()
+            ? [ "<32>{#p/kidding}* Of course..." ]
+            : battler.volatile[0].vars.counter
+            ? [ "<32>{#p/kidding}* Guess it won't be so easy..." ]
+            : [ "<32>{#p/kidding}* Y... you're kidding, right?\n* This isn't fun at all!" ],
+      turnStatus6: () =>
+         badSpider()
+            ? [ "<32>{#p/kidding}* I don't like what she's saying about you, dude..." ]
+            : battler.volatile[0].vars.counter
+            ? [ "<32>{#p/kidding}* Fellow spiders...?" ]
+            : [ "<32>{#p/kidding}* Uh..." ],
+      turnStatus7: () =>
+         badSpider()
+            ? [ "<32>{#p/kidding}* She's relentless...!" ]
+            : battler.volatile[0].vars.appease
+            ? [ "<32>{#p/kidding}* Hey, wait...\n* I think this is working!\n* Keep going, dude!" ]
+            : [ "<32>{#p/kidding}* I'm...\n* I'm scared, dude..." ],
+      turnStatus8: () =>
+         badSpider()
+            ? [ "<32>{#p/kidding}* Dude, HOW are we STILL ALIVE??" ]
+            : battler.volatile[0].vars.appease
+            ? [ "<32>{#p/kidding}* Yo, freaky muffins aside... we're making progress!\n* I think?" ]
+            : [ "<32>{#p/kidding}* Ack, not again!!" ],
+      turnStatus9: () =>
+         badSpider()
+            ? [ "<32>{#p/kidding}* What's \"inevitable?\"" ]
+            : battler.volatile[0].vars.appease
+            ? [ "<32>{#p/kidding}* But...\n* I thought we..." ]
+            : [ "<32>{#p/kidding}* Ack, not again!!" ],
+      turnStatus10: () =>
+         badSpider()
+            ? [ "<32>{#p/kidding}* Yo, I'm here too, you know..." ]
+            : battler.volatile[0].vars.appease
+            ? [ "<32>{#p/kidding}* Hey, I've got money!\n* Let's use it, dude!" ]
+            : [ "<32>{#p/kidding}* Someone, anyone..." ],
+      turnStatus11: () =>
+         badSpider()
+            ? [ "<32>{#p/kidding}* This isn't funny...!" ]
+            : battler.volatile[0].vars.pay
+            ? [ "<32>{#p/kidding}* I hope that short skeleton doesn't mind me using the money he gave me..." ]
+            : battler.volatile[0].vars.appease
+            ? [ "<32>{#p/kidding}* Dude...\n* Why didn't we help her?" ]
+            : [ "<32>{#p/kidding}* It's over..." ],
+      turnStatus12: () =>
+         badSpider() ? [ "<32>{#p/kidding}* ..." ] : [ "<32>{#p/kidding}* Are we gonna end this, or...?" ],
+      turnStatus13: () =>
+         badSpider() ? [ "<32>{#p/kidding}* Is it really over?" ] : [ "<32>{#p/kidding}* Are we gonna end this, or...?" ],
+      turnTalk1: () =>
+         badSpider()
+            ? world.genocide
+               ? world.bullied
+                  ? [ "<11>{#p/basic}{~}Ahuhuhu... two little bullies crawl into my web~" ]
+                  : [ "<11>{#p/basic}{~}Ahuhuhu... two little killers crawl into my web~" ]
+               : world.bullied
+               ? [ "<11>{#p/basic}{~}Ahuhuhu... a little bully crawls into my web~" ]
+               : [ "<11>{#p/basic}{~}Ahuhuhu... a little killer crawls into my web~" ]
+            : [ "<11>{#p/basic}{~}You're mine now, dearies~" ],
+      turnTalk1a: [
+         "<11>{#p/basic}{~}I hope you like your new color~",
+         "<11>{#p/basic}{~}I think purple looks better on you...",
+         "<11>{#p/basic}{~}Don't you, dearie?"
+      ],
+      turnTalk2: () =>
+         badSpider()
+            ? [
+                 world.genocide
+                    ? "<11>{#p/basic}{~}What did you think would happen, dearies?"
+                    : "<11>{#p/basic}{~}What did you think would happen, dearie?",
+                 "<11>{#p/basic}{~}Did you expect me to SPARE you?"
+              ]
+            : [
+                 "<11>{#p/basic}{~}Don't expect me to go easy on you, little human.",
+                 "<11>{#p/basic}{~}That ELITE squad offered lots of money for your SOUL~"
+              ],
+      turnTalk3: () =>
+         badSpider()
+            ? [ "<11>{#p/basic}{~}Oh my~", "<11>{#p/basic}{~}Such a shame for you~" ]
+            : battler.volatile[0].vars.counter
+            ? [ "<11>{#p/basic}{~}Ahuhuhu...\nWell..." ]
+            : [
+                 "<11>{#p/basic}{~}With your lack of a counter- offer...",
+                 "<11>{#p/basic}{~}The choice for me is clear~"
+              ],
+      turnTalk4: () =>
+         badSpider()
+            ? [
+                 "<11>{#p/basic}{~}Well.\nThere is one good thing about it~",
+                 "<11>{#p/basic}{~}I don't have to feel bad about feeding my pet!"
+              ]
+            : battler.volatile[0].vars.counter
+            ? [ "<11>{#p/basic}{~}A better deal would be nice..." ]
+            : [ "<11>{#p/basic}{~}Where are you, my pet~", "<11>{#p/basic}{~}It's time to eat~" ],
+      turnTalk5: () =>
+         badSpider()
+            ? [
+                 "<11>{#p/basic}{~}You survived?\nImpressive~",
+                 "<11>{#p/basic}{~}I shall have to reward you...",
+                 "<11>{#p/basic}{~}... with more attacks, of course.\nAhuhuhu!"
+              ]
+            : battler.volatile[0].vars.counter
+            ? [
+                 "<11>{#p/basic}{~}But what guarantee do I have...",
+                 "<11>{#p/basic}{~}... that you won't just stab me in the back?"
+              ]
+            : [
+                 "<11>{#p/basic}{~}I often wondered what fighting would be like.",
+                 "<11>{#p/basic}{~}I never realized it'd be so much fun~"
+              ],
+      turnTalk6: () =>
+         badSpider()
+            ? [
+                 "<11>{#p/basic}{~}How did it feel, hmm?",
+                 !world.bullied
+                    ? "<11>{#p/basic}{~}All those monsters falling like dominoes..."
+                    : "<11>{#p/basic}{~}All those monsters running scared..."
+              ]
+            : battler.volatile[0].vars.counter
+            ? [
+                 "<11>{#p/basic}{~}My fellow spiders need kept safe...",
+                 "<11>{#p/basic}{~}I can't put THEM in danger, can I?\nAhuhuhu..."
+              ]
+            : [
+                 "<11>{#p/basic}{~}Aren't you having fun, dearies?",
+                 "<11>{#p/basic}{~}My fellow spiders certainly will...",
+                 "<11>{#p/basic}{~}... when they get their share of the money~"
+              ],
+      turnTalk7: () =>
+         badSpider()
+            ? world.genocide || !world.bullied
+               ? [
+                    world.genocide ? "<11>{#p/basic}{~}Well, dearies..." : "<11>{#p/basic}{~}Well, dearie...",
+                    "<11>{#p/basic}{~}I shall enjoy killing you personally~"
+                 ]
+               : [ "<11>{#p/basic}{~}Well, dearie...", "<11>{#p/basic}{~}I shall enjoy paying back the favor~" ]
+            : battler.volatile[0].vars.appease
+            ? [ "<11>{#p/basic}{~}I must admit, that is very worrying..." ]
+            : [
+                 "<11>{#p/basic}{~}Well, no matter, little human~",
+                 "<11>{#p/basic}{~}The only thing that matters now is your SOUL~"
+              ],
+      turnTalk8: () =>
+         badSpider()
+            ? [
+                 world.genocide
+                    ? "<11>{#p/basic}{~}Oh, this is so much fun, you two!"
+                    : "<11>{#p/basic}{~}Oh, this is so much fun, is it not?",
+                 "<11>{#p/basic}{~}My pet, it's feeding time~"
+              ]
+            : battler.volatile[0].vars.appease
+            ? [
+                 "<11>{#p/basic}{~}And they didn't exactly do much to earn my trust...",
+                 "<11>{#p/basic}{~}Oh, hello, my pet~"
+              ]
+            : [ "<11>{#p/basic}{~}Time for round two, my pet~" ],
+      turnTalk9: () =>
+         badSpider()
+            ? [ "<11>{#p/basic}{~}You only delay the inevitable~" ]
+            : battler.volatile[0].vars.appease
+            ? [ "<11>{#p/basic}{~}Still, dearies...", "<11>{#p/basic}{~}I don't know if I can trust you~" ]
+            : [ "<11>{#p/basic}{~}You're resilient, I'll give you that~" ],
+      turnTalk10: () =>
+         badSpider()
+            ? [ "<11>{#p/basic}{~}Come now...", "<11>{#p/basic}{~}Aren't you getting tired?" ]
+            : battler.volatile[0].vars.appease
+            ? [ "<11>{#p/basic}{~}Unless, perhaps...", "<11>{#p/basic}{~}You can offer me a little insurance?" ]
+            : [ "<11>{#p/basic}{~}But unless my deal changes, your SOUL is as good as mine~" ],
+      turnTalk11: () =>
+         badSpider()
+            ? [ "<11>{#p/basic}{~}Ahuhuhu..." ]
+            : battler.volatile[0].vars.pay
+            ? [
+                 "<11>{#p/basic}{~}You two have my sincerest apologies~",
+                 "<11>{#p/basic}{~}This is a good deed I won't easily forget!"
+              ]
+            : [
+                 "<11>{#p/basic}{~}What's this?\nA message from Undyne?",
+                 "<11>{#p/basic}{~}She's called off the deal...?",
+                 "<11>{#p/basic}{~}... hmmm...",
+                 "<11>{#p/basic}{~}Well, I think my job here is done, don't you?",
+                 "<11>{#p/basic}{~}Sorry for wasting your time~"
+              ],
+      turnTalk12: () => [ "<11>{#p/basic}{~}..." ],
+      turnTalk13: (didf: boolean) =>
+         badSpider()
+            ? [
+                 world.genocide
+                    ? "<11>{#p/basic}{~}You know what, dearies?"
+                    : "<11>{#p/basic}{~}You know what, dearie?",
+                 "<11>{#p/basic}{~}I've had enough of fighting you.",
+                 "<11>{#p/basic}{~}So do what you will.",
+                 world.genocide || !world.bullied
+                    ? didf
+                       ? "<11>{#p/basic}{~}... sorry, Undyne.\nI'd rather die on my own terms, thank you."
+                       : "<11>{#p/basic}{~}... sorry, Undyne.\nThis has dragged on for long enough."
+                    : didf
+                    ? "<11>{#p/basic}{~}Honestly, a little bully like you isn't worth dying over..."
+                    : "<11>{#p/basic}{~}Honestly, a little bully like you isn't worth my time...",
+                 "<11>{#p/basic}{~}Bye bye, now~"
+              ]
+            : [ "<11>{#p/basic}{~}..." ]
+   },
+   b_opponent_undyne: {
+      artifact: [ "<32>{#p/human}* (Undyne doesn't even seem to know what it is.)" ],
+      epiphaNOPE: [ "<20>{#p/undyne}Huh?\nWhat even IS this?" ],
+      spaghetti1: [
+         "<32>{#p/basic}* The smell reminds Undyne of someone close to her...",
+         "<32>{#p/story}* Undyne's ATTACK down!"
+      ],
+      spaghetti2: () =>
+         world.genocide
+            ? [
+                 "<32>{#p/basic}* The smell reminds Undyne of someone she'll never see again...",
+                 "<32>{#p/basic}* ... but her determination to eliminate you strengthens.",
+                 "<32>{#p/story}* Undyne's ATTACK up!\n* Undyne's DEFENSE down!"
+              ]
+            : [
+                 "<32>{#p/basic}* The smell reminds Undyne of someone she'll never see again...",
+                 "<32>{#p/story}* Undyne's DEFENSE down!"
+              ],
+      act_check: () =>
+         world.genocide
+            ? [ "<32>{#p/asriel2}* Undyne the Undying。\n* 你怎么不攻击？" ]
+            : helmetdyne()
+            ? [ "<32>{#p/story}* UNDYNE - ATK 40 DEF 100\n* Captain of the Royal Guard.\n* Relentless." ]
+            : respecc()
+            ? [ "<32>{#p/story}* UNDYNE - ATK 25 DEF 10\n* Once your sworn enemy, now your unmatched equal!" ]
+            : [ "<32>{#p/story}* UNDYNE - 攻击50 防御20\n* 永不放弃的英雄。" ],
+      name: () => (world.genocide ? "* Undyne the Undying" : "* Undyne"),
+      status1: () =>
+         helmetdyne()
+            ? [ "<32>{#p/story}* Undyne towers above you." ]
+            : respecc()
+            ? [ "<32>{#p/story}* Undyne takes you head-on!" ]
+            : [ "<32>{#p/story}* Undyne来袭！" ],
+      intro1: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [ "<20>{*}{#p/undyne}准备迎战吧。" ]
+            : [ "<20>{*}{#p/undyne}En guarde!" ],
+      intro2: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [ "<20>{*}{#p/undyne}让我把故事讲完。" ]
+            : respecc()
+            ? [ "<20>{*}{#p/undyne}Huh!?\nI thought you were tough!" ]
+            : [ "<20>{*}{#p/undyne}You won't get away from me this time!" ],
+      intro3: () =>
+         respecc()
+            ? [ "<20>{*}{#p/undyne}No more second chances!" ]
+            : [ "<20>{*}{#p/undyne}You've escaped from me for the LAST time!" ],
+      intro4: [ "<20>{*}{#p/undyne}STOP RUNNING AWAY!!!" ],
+      intro5: [ "<20>{*}{#p/undyne}COME BACK HERE, YOU LITTLE PUNK!!" ],
+      earlyChallenge: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/3}想跟我{@fill=#f00}硬碰硬{@fill=#000}，是吗？",
+                 "<20>{#e/undyne/2}成全你。"
+              ]
+            : respecc()
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/17}What!?\nI'm already going as fast as I can!",
+                 "<20>{#e/undyne/17}But...\nI... you...",
+                 "<20>{#e/undyne/17}N-no!\nI'll show you!",
+                 "<20>{#e/undyne/1}I'll show you {@fill=#f00}EVERYTHING I'VE GOT{@fill=#000}!"
+              ]
+            : [
+                 "<20>{#p/undyne}{#e/undyne/17}So, you wanna do this the {@fill=#f00}hard way{@fill=#000}, huh?",
+                 "<20>{#e/undyne/1}FINE BY ME!\nFUHUHU!"
+              ],
+      earlyChallengeStatus: [ "<32>{#p/story}* 战斗局势开始升温。" ],
+      randStatus1: () =>
+         respecc()
+            ? [ "<32>{#p/story}* Undyne points dramatically towards space." ]
+            : [ "<32>{#p/story}* Undyne points heroically towards space." ],
+      randStatus2: () =>
+         respecc()
+            ? [ "<32>{#p/story}* Undyne twirls her spear with grace." ]
+            : [ "<32>{#p/story}* Undyne flips her spear impatiently." ],
+      randStatus3: () => [ "<32>{#p/story}* Undyne suplexes an asteroid.\n* Just because she can." ],
+      randStatus4: () =>
+         respecc() ? [ "<32>{#p/story}* Undyne bounces with fervor." ] : [ "<32>{#p/story}* Undyne bounces impatiently." ],
+      randStatus5: () =>
+         respecc()
+            ? [ "<32>{#p/story}* Undyne flashes a genuine smile." ]
+            : [ "<32>{#p/story}* Undyne flashes a menacing smile." ],
+      randStatus6: () =>
+         respecc()
+            ? [ "<33>{#p/story}* Undyne looks on with adoration." ]
+            : [ "<32>{#p/story}* Undyne draws her finger across her neck." ],
+      randStatus7: () =>
+         respecc()
+            ? [ "<32>{#p/story}* Undyne lets out a battle cry." ]
+            : [ "<32>{#p/story}* Undyne holds her fist in front of her and shakes her head." ],
+      randStatus8: () =>
+         respecc()
+            ? [ "<32>{#p/story}* Undyne stares into your SOUL." ]
+            : [ "<32>{#p/story}* Undyne towers threateningly." ],
+      randStatus9: () =>
+         respecc()
+            ? [ "<32>{#p/story}* Undyne thinks of her friends... and thinks of you." ]
+            : [ "<32>{#p/story}* Undyne thinks of her friends and pounds the ground with her fists." ],
+      randStatus10: () =>
+         respecc() ? [ "<32>{#p/story}* Smells like tilapia." ] : [ "<32>{#p/story}* Smells like sushi." ],
+      papStatus1: [ "<32>{#p/story}* Undyne的眼角闪烁着泪光。" ],
+      papStatus2: [ "<32>{#p/story}* Undyne沉着脸，死死瞪着你。" ],
+      papStatus3: [ "<32>{#p/story}* Undyne想到了她的朋友，\n  用尽全力向地猛击。" ],
+      papStatus4: [ "<32>{#p/story}* Undyne没心情跟你胡闹。" ],
+      papStatus5: [ "<32>{#p/story}* 金枪鱼沙拉的味道扑面而来。" ],
+      endStatus1: [ "<32>{#p/story}* Undyne's eye is twitching involuntarily." ],
+      endStatus2: [ "<32>{#p/story}* Undyne is smashing spears on the ground." ],
+      endStatus3: [ "<32>{#p/story}* Undyne's eye dart around to see if this is a prank." ],
+      endStatus4: [ "<32>{#p/story}* Undyne is hyperventilating." ],
+      endStatus5: [ "<32>{#p/story}* Smells like roasted fish." ],
+      tutorial1: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/3}...",
+                 "<20>{#e/undyne/4}怎么？\n还想我杵在这，\n教你怎么应战吗？"
+              ]
+            : [
+                 "<20>{#p/undyne}{#e/undyne/0}As long as you're {@fill=#00c000}GREEN{@fill=#000} you {@fill=#f00}CAN'T ESCAPE{@fill=#000}!",
+                 "<20>{#e/undyne/0}Unless you learn to {@fill=#f00}face danger head-on{@fill=#000}...",
+                 "<20>{#e/undyne/1}You won't last a SECOND against ME!"
+              ],
+      tutorial2: [
+         "<20>{#p/undyne}{#e/undyne/0}When I said {@fill=#f00}face towards danger{@fill=#000}...",
+         "<20>{#e/undyne/1}I meant face towards the bullets!"
+      ],
+      tutorial3: () => [
+         "<20>{#p/undyne}{#e/undyne/3}Look.",
+         "<20>{#e/undyne/3}I gave you a spear.",
+         "<20>{#e/undyne/2}You can use that to block my attacks.",
+         respecc()
+            ? "<20>{#e/undyne/17}I should not have to explain this to YOU of all people!"
+            : "<20>{#e/undyne/17}Do I have to explain this any more clearly?"
+      ],
+      tutorial4: [
+         "<20>{#p/undyne}{#e/undyne/6}WHAT ARE YOU DOING?",
+         "<20>{#e/undyne/7}JUST FACE UPWARDS!!!",
+         "<20>{#e/undyne/5}IT'S NOT THAT HARD!!!"
+      ],
+      tutorial5: () =>
+         respecc()
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/2}...",
+                 "<20>{#e/undyne/2}I wanted this to be a fair fight.",
+                 "<20>{#e/undyne/3}I had hoped you'd show me what you're capable of.",
+                 "<20>{#e/undyne/4}And maybe, if you beat me like this...",
+                 "<20>{#e/undyne/2}It'd truly show how strong you are.",
+                 "<20>{#e/undyne/6}BUT NOW???",
+                 "<20>{#e/undyne/5}I DON'T CARE!",
+                 "<20>{#e/undyne/5}I'M NOT YOUR FREAKING BABYSITTER!",
+                 "<20>{#e/undyne/17}Unless your babysitter...",
+                 "<20>{#e/undyne/5}DOES THIS!"
+              ]
+            : [
+                 "<20>{#p/undyne}{#e/undyne/2}...",
+                 "<20>{#e/undyne/2}I wanted this to be a fair fight.",
+                 "<20>{#e/undyne/3}I wanted to give you a chance.",
+                 "<20>{#e/undyne/4}And maybe, if I beat you like this...",
+                 "<20>{#e/undyne/2}It'd truly show how strong monsters can be.",
+                 "<20>{#e/undyne/6}BUT NOW???",
+                 "<20>{#e/undyne/5}I DON'T CARE!",
+                 "<20>{#e/undyne/5}I'M NOT YOUR FREAKING BABYSITTER!",
+                 "<20>{#e/undyne/17}Unless your babysitter...",
+                 "<20>{#e/undyne/5}DOES THIS!"
+              ],
+      turnTalkA1: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? SAVE.data.n.hp < 6
+               ? [
+                    "<20>{#p/undyne}{#e/undyne/33}Too difficult?\nFeh.",
+                    "<20>{#p/undyne}{#e/undyne/2}You should've thought about THAT when you had the chance."
+                 ]
+               : SAVE.data.n.hp < 11
+               ? [
+                    "<20>{#p/undyne}{#e/undyne/3}Not bad, not great.",
+                    "<20>{#p/undyne}{#e/undyne/2}Papyrus certainly wouldn't be satisfied, though."
+                 ]
+               : SAVE.data.n.hp < 16
+               ? [
+                    "<20>{#p/undyne}{#e/undyne/3}So you're gonna be a little tougher than I expected.",
+                    "<20>{#p/undyne}{#e/undyne/2}Fair enough."
+                 ]
+               : [
+                    "<20>{#p/undyne}{#e/undyne/4}Impressive...",
+                    "<20>{#p/undyne}{#e/undyne/2}Just don't expect your luck to last long."
+                 ]
+            : battler.volatile[0].vars.trolled
+            ? respecc()
+               ? [
+                    "<20>{#p/undyne}{#e/undyne/1}\x00*huff...*\n\x00*huff...*",
+                    "<20>{#e/undyne/1}So this was your plan all along, huh?",
+                    "<20>{#e/undyne/5}Get me all riled up so you could face me at FULL STRENGTH?",
+                    "<20>{#e/undyne/0}Well then.",
+                    "<20>{#e/undyne/6}Looks like WE'RE gonna have to do this the {@fill=#f00}hard way{@fill=#000}!",
+                    "<20>{#e/undyne/1}Fuhuhuhu!!"
+                 ]
+               : [
+                    "<20>{#p/undyne}{#e/undyne/1}\x00*huff...*\n\x00*huff...*",
+                    "<20>{#e/undyne/21}Not bad.",
+                    "<20>{#e/undyne/15}But I don't have time for your games.",
+                    "<20>{#e/undyne/6}So WE'RE gonna have to do this the {@fill=#f00}hard way{@fill=#000}!",
+                    "<20>{#e/undyne/1}Fuhuhuhu!!"
+                 ]
+            : [ "<20>{#p/undyne}{#e/undyne/1}Not bad!\nThen how about THIS!?" ],
+      turnTalkA2: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [ "<20>{#p/undyne}{#e/undyne/2}给你讲个故事吧。" ]
+            : respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/0}It's been a long time since I've met a warrior like you..." ]
+            : [ "<20>{#p/undyne}{#e/undyne/0}For years, we've dreamed of a happy ending..." ],
+      turnTalkA3: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/2}在我小的时候，\n我努力训练，\n梦想成为一名皇家守卫...",
+                 "<20>{#p/undyne}{#e/undyne/2}然而，\n事情并非一帆风顺。"
+              ]
+            : respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/0}And now, I've got the chance to do battle with one!" ]
+            : [ "<20>{#p/undyne}{#e/undyne/0}And now, the stars are just within reach!" ],
+      turnTalkA4: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [ "<20>{#p/undyne}{#e/undyne/2}许多人反对我加入卫队，\n包括我的家人。" ]
+            : respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/1}I'll savor this moment for as long as it lasts!" ]
+            : [ "<20>{#p/undyne}{#e/undyne/1}I won't let you snatch it away from us!" ],
+      turnTalkA5: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/3}后来，\n在一次训练事故中，\n我瞎了左眼...",
+                 "<20>{#p/undyne}{#e/undyne/2}困难重重，无依无靠。"
+              ]
+            : [ "<20>{#p/undyne}{#e/undyne/5}NGAHHH!\nEnough warming up!" ],
+      turnTalkA6a: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/11}重重困难将我击垮，\n每一步，都异常艰难。",
+                 "<20>{#e/undyne/3}我哀嚎着，多么希望\n有人能听到我的心声。"
+              ]
+            : [ "<20>{#p/undyne}{#e/undyne/20}Well... you're tough!" ],
+      turnTalkA6b: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/11}重重困难将我击垮，\n每一步，都异常艰难。",
+                 "<20>{#e/undyne/3}我哀嚎着，多么希望\n有人能听到我的心声。"
+              ]
+            : respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/9}Come on!\nHit me already!", "<20>{#e/undyne/7}Don't just stand there!" ]
+            : [
+                 "<20>{#p/undyne}{#e/undyne/6}Mercy!\nHa!",
+                 "<20>{#e/undyne/5}I still can't believe you want to SPARE me!"
+              ],
+      turnTalkA7a: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/4}突然，\n一个声音从远处传来。",
+                 "<20>{#e/undyne/3}一个天真无邪的声音。"
+              ]
+            : respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/0}Not that I expected anything less..." ]
+            : [ "<20>{#p/undyne}{#e/undyne/0}But even if you could beat me..." ],
+      turnTalkA7b: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/4}突然，\n一个声音从远处传来。",
+                 "<20>{#e/undyne/3}一个天真无邪的声音。"
+              ]
+            : respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/10}This isn't like you at all!" ]
+            : [ "<20>{#p/undyne}{#e/undyne/3}But even if I DID spare you..." ],
+      turnTalkB1: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/2}我四处求援，\n却徒劳无功。",
+                 "<20>{#e/undyne/3}突然，我听到一个声音\n呼唤着我的名字。"
+              ]
+            : respecc()
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/3}You know...",
+                 "<20>{#p/undyne}{#e/undyne/4}Even though we haven't escaped the outpost yet..."
+              ]
+            : [ "<20>{#p/undyne}{#e/undyne/3}Honestly, I'm doing you a favor..." ],
+      turnTalkB2: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [ "<20>{#p/undyne}{#e/undyne/2}那时，Papyrus\n还只是个孩子。" ]
+            : respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/0}Getting to fight makes me FEEL like I'm already free!" ]
+            : [ "<20>{#p/undyne}{#e/undyne/1}No human has EVER made it past ASGORE!" ],
+      turnTalkB3: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [ "<20>{#p/undyne}{#e/undyne/3}遇到危险，大多数小孩\n都会马上逃跑...", "<20>{#e/undyne/4}但他不会。" ]
+            : respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/4}Just like that one anime Alphys showed me..." ]
+            : [ "<20>{#p/undyne}{#e/undyne/4}Killing you now is an act of mercy..." ],
+      turnTalkB4: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/2}他只在乎是不是\n有人正深陷危险...",
+                 "<20>{#e/undyne/2}等着他-\n不，需要他出手相助。"
+              ]
+            : respecc()
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/1}No matter how awful being trapped out here can be...",
+                 "<20>{#e/undyne/0}It won't stop us from doing what we love!"
+              ]
+            : [ "<20>{#p/undyne}{#e/undyne/6}So STOP being so damn resilient!" ],
+      turnTalkB5: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/4}他的天性如此。",
+                 "<20>{#p/undyne}{#e/undyne/3}故事讲完了。"
+              ]
+            : respecc()
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/1}... but man, you really don't know when to quit!",
+                 "<20>{#e/undyne/17}How'd you manage to get this strong!?"
+              ]
+            : [ "<20>{#p/undyne}{#e/undyne/5}What the hell are humans made out of!?" ],
+      turnTalkB6: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/4}即便我拥有再大的胆识，\n再多的力量...",
+                 "<20>{#e/undyne/11}也无法像他那样，\n拥有纯洁无瑕的心灵。"
+              ]
+            : respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/5}Anyone else would've GIVEN UP by now!" ]
+            : [ "<20>{#p/undyne}{#e/undyne/5}Anyone else would be DEAD by now!" ],
+      turnTalkB7a: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/2}你杀死的，\n不仅是我的学生，\n我的挚友...",
+                 "<20>{#e/undyne/2}更是能对极恶行径\n既往不咎，宽恕你\n一切过错的高尚之人。"
+              ]
+            : respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/3}Then again, you've had time to train..." ]
+            : [ "<20>{#p/undyne}{#e/undyne/7}Are you even listening to me!?" ],
+      turnTalkB7b: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/2}你杀死的，\n不仅是我的学生，\n我的挚友...",
+                 "<20>{#e/undyne/2}更是能对极恶行径\n既往不咎，宽恕你\n一切过错的高尚之人。"
+              ]
+            : respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/3}Huh?\nDon't tell me you're ACTUALLY giving up..." ]
+            : [ "<20>{#p/undyne}{#e/undyne/8}And sparing me won't do anything!!" ],
+      turnTalkB8a: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 world.trueKills > 9
+                    ? "<20>{#p/undyne}{#e/undyne/11}With him and so many others gone..."
+                    : "<20>{#p/undyne}{#e/undyne/11}你斩碎了他的头颅之时，\n也斩碎了仅存的仁慈。",
+                 "<20>{#p/undyne}{#e/undyne/2}而我能给你的\n全部“仁慈”...",
+                 "<20>{#p/undyne}{#e/undyne/1}就是让你死得痛快点！"
+              ]
+            : respecc()
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/18}All those other monsters you fought...",
+                 "<20>{#p/undyne}{#e/undyne/1}THAT'S the source of your power!"
+              ]
+            : [ "<20>{#p/undyne}{#e/undyne/9}Come on!" ],
+      turnTalkB8b: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 world.trueKills > 9
+                    ? "<20>{#p/undyne}{#e/undyne/11}With him and so many others gone..."
+                    : "<20>{#p/undyne}{#e/undyne/11}你斩碎了他的头颅之时，\n也斩碎了仅存的仁慈。",
+                 "<20>{#p/undyne}{#e/undyne/2}而我能给你的\n全部“仁慈”...",
+                 "<20>{#p/undyne}{#e/undyne/1}就是让你死得痛快点！"
+              ]
+            : respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/5}Come on, I'm GIVING you an opening here!" ]
+            : [ "<20>{#p/undyne}{#e/undyne/1}Seriously." ],
+      turnTalkC1: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/11}You know, punk...",
+                 "<20>{#p/undyne}{#e/undyne/2}It's rude to interrupt people when they're monologuing.",
+                 ...(world.trueKills > 9
+                    ? [
+                         "<20>{#p/undyne}{#e/undyne/11}...\nYou're going to pay for what you did to him...",
+                         "<20>{#p/undyne}{#e/undyne/2}... and all the other monsters you've slaughtered."
+                      ]
+                    : [ "<20>{#p/undyne}{#e/undyne/2}...\nYou're going to pay for what you did to him." ])
+              ]
+            : [
+                 "<20>{#p/undyne}{#e/undyne/17}Keep a close eye on my attacks, and maybe...",
+                 "<20>{#p/undyne}{#e/undyne/5}... you'll be smart enough to know when to let 'em through!"
+              ],
+      turnTalkC2: () =>
+         SAVE.data.n.state_starton_papyrus === 1
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/2}Alphys告诉过我，\n人类充满了决心...",
+                 "<20>{#p/undyne}{#e/undyne/1}呵呵，你那点破决心，\n也就只能送你到这了。"
+              ]
+            : respecc()
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/1}Still going!?",
+                 "<20>{#p/undyne}{#e/undyne/17}Ha...\nAlphys told me humans can be determined..."
+              ]
+            : [
+                 "<20>{#p/undyne}{#e/undyne/1}Alphys told me humans can be determined...",
+                 "<20>{#p/undyne}{#e/undyne/1}I see now what she meant by that!"
+              ],
+      turnTalkC3: () =>
+         SAVE.data.n.state_starton_papyrus === 1 || respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/1}但是，你知道吗？", "<20>{#e/undyne/1}我也充满了决心！" ]
+            : [ "<20>{#p/undyne}{#e/undyne/1}But I'm determined, too!" ],
+      turnTalkC4: () =>
+         respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/5}Determined to show you who's BOSS!" ]
+            : [ "<20>{#p/undyne}{#e/undyne/6}此时此地，\n干掉你的决心！" ],
+      turnTalkC5: () =>
+         respecc() ? [ "<20>{#p/undyne}{#e/undyne/9}... WHO'S BOSS!" ] : [ "<20>{#p/undyne}{#e/undyne/7}...干掉你！" ],
+      turnTalkC6: () =>
+         respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/10}... WHO'S...\n...\n... BOSS!!" ]
+            : [ "<20>{#p/undyne}{#e/undyne/9}...干掉...\n你..." ],
+      turnTalkC7: [ "<20>{#p/undyne}{#e/undyne/10}呼...\n呼..." ],
+      turnTalkC8: () =>
+         respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/5}NGAHHH!!!\nFINAL ATTACK!!!" ]
+            : [ "<20>{#p/undyne}{#e/undyne/5}哈啊啊啊啊！！！\n你个小屁孩，\n快给我去死啊！" ],
+      turnTalkC9a: [ "<20>{#p/undyne}{#e/undyne/5}真碍事！" ],
+      turnTalkC9b: [ "<20>{#p/undyne}{#e/undyne/5}I WILL NEVER TAKE MERCY FROM THE LIKES OF YOU!" ],
+      turnTalkC10a: [ "<20>{#p/undyne}{#e/undyne/6}别想打败我！" ],
+      turnTalkC10b: [ "<20>{#p/undyne}{#e/undyne/6}I WILL FIGHT YOU TO THE BITTER END!" ],
+      turnTalkD: [ "<20>{#p/undyne}{#e/undyne/9}..." ],
+      respeccTalk1: [
+         "<20>{#p/undyne}{#e/undyne/11}\x00*huff...*\n\x00*huff...*",
+         "<20>{#e/undyne/3}...",
+         "<20>{#e/undyne/4}Well...",
+         "<20>{#e/undyne/17}You're certainly tough, aren't you?"
+      ],
+      respeccTalk2: [
+         "<20>{#e/undyne/0}... heh, enough to beat me, anyway.",
+         "<20>{#e/undyne/13}But hey, that's pretty freaking tough!",
+         "<20>{#e/undyne/1}Even though not everyone's gonna like you for it...",
+         "<20>{#e/undyne/0}Seeing a human fight with honor gives me hope for your kind.",
+         "<20>{#e/undyne/4}...",
+         "<20>{#e/undyne/3}It's a shame we can't do battle forever, huh?"
+      ],
+      respeccTalk3: [
+         "<20>{#e/undyne/1}Just... whatever you do, whoever you fight with...",
+         "<20>{#e/undyne/1}Don't let it change who you are, got it?",
+         "<20>{#e/undyne/3}...",
+         "<20>{#e/undyne/4}Until next time...",
+         "<20>{#e/undyne/4}Warrior."
+      ],
+      death1: () =>
+         respecc()
+            ? [
+                 "<20>{#p/undyne}哈啊...",
+                 "<21>I thought...\nYou were different...",
+                 "<20>But then...\n... you actually...\n... urgh...",
+                 "<20>..."
+              ]
+            : [
+                 "<20>{#p/undyne}哈啊...",
+                 "<20>我没想到...\n你... 居然这么强...",
+                 "<20>看来...\n这里...\n...就是我的葬身之地...",
+                 "<20>..."
+              ],
+      death2: () =>
+         helmetdyneAttack() ? [ "<20>{#p/undyne}{#e/undyne/31}..." ] : [ "<20>{#p/undyne}{#e/undyne/31}不..." ],
+      death3: () =>
+         helmetdyneAttack()
+            ? [ "<20>{#p/undyne}{#e/undyne/46}... no.", "<20>{#e/undyne/43}Not yet." ]
+            : [
+                 "<20>{#p/undyne}{#e/undyne/32}不！",
+                 "<20>我不能死！",
+                 ...(respecc()
+                    ? [ "<20>This betrayal...\nThis... dishonor...", "<20>I won't let you get away with it!" ]
+                    : [
+                         SAVE.data.n.state_starton_papyrus === 1
+                            ? "<20>{#e/undyne/36}Alphys...\nAsgore..."
+                            : "<20>{#e/undyne/36}Alphys...\nAsgore...\nPapyrus...",
+                         "<20>{#e/undyne/32}大家，都需要我来守护！"
+                      ]),
+                 "<20>{#e/undyne/32}哈啊啊啊！！"
+              ],
+      death4: () =>
+         helmetdyneAttack()
+            ? [ "<20>{#e/undyne/45}Not while you're still breathing." ]
+            : [
+                 "<20>{#p/undyne}{#e/undyne/32}人类！",
+                 respecc()
+                    ? "<20>{#e/undyne/36}In the name of a good and fair fight..."
+                    : "<20>{#e/undyne/36}以希望与梦想起誓...",
+                 "<20>{#e/undyne/32}我定会击败你！"
+              ],
+      determination1: () =>
+         helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/32}来啊，\n你就这点能耐吗？" ],
+      determination2: () => (helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/32}...真是可悲。" ]),
+      determination3: () =>
+         helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/32}就你那点力气，\n还想打败我？" ],
+      determination4: () =>
+         helmetdyneAttack()
+            ? []
+            : respecc()
+            ? [ "<20>{#p/undyne}{#e/undyne/34}W-where's your fighting spirit now, huh?" ]
+            : [ "<20>{#p/undyne}{#e/undyne/34}当我们相信自己时，\n爆发出的力量有多强，\n你见-见识到了吧？" ],
+      determination5: () =>
+         helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/35}呵... \n呵呵...", "<20>{#e/undyne/34}闹够了没有？" ],
+      determination6: () => (helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/34}..." ]),
+      determination7: () =>
+         helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/35}...我不能...\n...\n放弃..." ],
+      determination8: () => (helmetdyneAttack() ? [] : [ "<20>{#p/undyne}{#e/undyne/34}..." ]),
+      death5: () => [
+         helmetdyneAttack() ? "<20>{#p/undyne}{#e/undyne/43}..." : "<20>{#p/undyne}{#e/undyne/34}...",
+         "<20>{#p/undyne}{#e/undyne/47}哈...\n哈...",
+         "<20>{#e/undyne/44}...\nAlphys...",
+         "<20>知道为什么\n我一直没对你说...",
+         "<20>{#e/undyne/49}因为我怕...",
+         "<20>..."
+      ],
+      death6: () => [
+         "<20>{#p/undyne}{#e/undyne/44}不...\n不！",
+         "<20>{#e/undyne/34}还没完！",
+         "<20>{#e/undyne/48}我不能死！"
+      ],
+      death7: [ "<20>{*}{#p/undyne}{#i/4}{@random=1.1/1.1}哈啊啊啊啊！！！{^10}{%}" ],
+      death8a: [ "<20>{*}{#p/undyne}{#i/5}{#v/1}{@random=1.1/1.1}我不能死！{^15}{%}" ],
+      death8b: [ "<20>{*}{#p/undyne}{#i/5}{#v/2}{@random=1.1/1.1}我不能死！{^15}{%}" ],
+      death8c: [ "<20>{*}{#p/undyne}{#i/6}{#v/3}{@random=1.1/1.1}我不能死！{^15}{%}" ],
+      death9: [ "<20>{*}{#p/undyne}{#i/8}{#v/4}{@random=1.1/1.1}我{^10}不{^10}能{^30}{%}" ],
+      deterStatus1: [ "<32>{#p/story}* Undyne笑着，强装自己没事。" ],
+      deterStatus2: [ "<32>{#p/story}* Undyne的身体正一点一点融化。" ],
+      deterStatus3: [ "<32>{#p/story}* Undyne的身体已经化得\n  看不出形状了。" ],
+      deterStatus4: [ "<32>{#p/story}* Undyne深吸了一口气。" ],
+      deterStatus5: [ "<32>{#p/story}* Undyne stands defiantly." ],
+      challengeText1: [ "<32>{#p/human}* (You tell Undyne her attacks are too easy.)\n* (She doesn't care.)" ],
+      challengeText2: [
+         "<32>{#p/human}* (You tell Undyne her attacks are too easy.)",
+         "<32>{#p/basic}* The bullets get faster."
+      ],
+      challengeText3: [
+         "<32>{#p/human}* (You tell Undyne her attacks are too easy.)",
+         "<32>{#p/basic}* The bullets get ridiculous."
+      ],
+      challengeText4: [ "<32>{#p/human}* （你告诉Undyne，\n  你想来一场真正的对决。）" ],
+      challengeText5: [
+         "<32>{#p/human}* (You tell Undyne her attacks are too easy.)",
+         "<32>{#p/basic}* Undyne can't go any faster."
+      ],
+      challengeText7: [ "<32>{#p/human}* (You tell Undyne her attacks are too easy.)\n* (She's not paying attention.)" ],
+      pleadText1: [ "<32>{#p/human}* (You tell Undyne you didn't want to fight.)\n* (Nothing happens.)" ],
+      pleadText2: [
+         "<32>{#p/human}* (You tell Undyne you just want to be friends.)",
+         "<32>{#p/basic}* Undyne remembers someone.\n* The bullets get a little less extreme."
+      ],
+      pleadText3: [ "<32>{#p/human}* (You tell Undyne you just want to be friends.)\n* (She doesn't believe you.)" ],
+      pleadText4: [ "<32>{#p/human}* (You tell Undyne you didn't want to fight.)\n* (She laughs.)" ],
+      pleadText5: [ "<32>{#p/human}* (You tell Undyne you didn't want to fight.)\n* (She looks confused.)" ],
+      pleadText6: [ "<32>{#p/human}* (You tell Undyne you didn't want to fight.)\n* (She's not paying attention.)" ],
+      pleadText7a: [
+         "<32>{#p/human}* (You tell Undyne you just want to be friends.)",
+         "<32>{#p/basic}* Undyne agrees.\n* The bullets get a little more extreme."
+      ],
+      pleadText7b: [
+         "<32>{#p/human}* (You tell Undyne you just want to be friends.)",
+         "<32>{#p/basic}* Undyne agrees.\n* But the bullets can't get any faster."
+      ],
+      pleadText7c: [
+         "<32>{#p/human}* (You tell Undyne you just want to be friends.)",
+         "<32>{#p/basic}* Undyne agrees.\n* The bullets are getting out of control."
+      ],
+      pleadText8: [ "<32>{#p/human}* (You tell Undyne you didn't want to fight.)\n* She glares at you coldly." ],
+      genoCutscene1: [ "<08>{#p/kidding}{#e/kidd/0}...", "<08>{#e/kidd/1}呃... 嗯？", "<08>{|}{#e/kidd/1}What is- {%}" ],
+      genoCutscene2: [ "<08>{#p/kidding}{#e/kidd/3}UNDYNE！！！", "<08>{#e/kidd/4}我...！" ],
+      genoCutscene3: [ "<20>{#p/undyne}{#e/undyne/1}小子...？" ],
+      genoCutscene3x: [
+         "<20>{#p/undyne}{#e/undyne/4}嘿，不用说什么...",
+         "<20>{#e/kidd/7}小子，我没事。",
+         "<20>{#p/undyne}赶紧逃吧，好吗？"
+      ],
+      genoCutscene4: [
+         "<08>{#p/kidding}{#e/kidd/5}我控制\n不了\n自己...",
+         "<08>{#e/kidd/6}他们... 他...",
+         "<08>{#e/kidd/7}不知道他\n对我\n做了什么..."
+      ],
+      genoCutscene5: [ "<20>{#p/undyne}{#e/undyne/2}你的眼睛..." ],
+      genoCutscene6: [ "<08>{#p/kidding}{#e/kidd/6}我...", "<08>{#p/kidding}{#e/kidd/6}我..." ],
+      genoCutscene7: [ "<08>{#p/kidding}{#e/kidd/7}我\n打伤你了..." ],
+      genoCutscene8: [ "<20>{#p/undyne}{#e/undyne/3}小伤，没什么大不了的..." ],
+      genoCutscene9: [
+         "<20>{#e/undyne/4}听着，我会干翻这些混蛋。",
+         "<20>你不用听他们使唤了。",
+         "<20>赶紧逃吧，好吗？"
+      ],
+      genoCutscene10: [ "<08>{#e/kidd/8}{#p/kidding}..." ],
+      genoCutscene11: [ "<20>{#p/undyne}{#e/undyne/5}Alphys博士会照顾好你的。", "<20>{#e/undyne/6}逃啊！" ],
+      genoCutscene12a: [
+         "<20>{#p/undyne}{#e/undyne/7}...呵...\n“没什么大不了的...”",
+         "<20>...才怪。不知怎么，\n只是那么一击..."
+      ],
+      genoCutscene12b: [ "<20>我就...", "<20>就..." ],
+      genoCutscene12c: [ "<20>该...\n该死...", "<20>Papyrus...\nAsgore...\nAlphys..." ],
+      genoCutscene12d: [ "<20>我就这样...", "<20>{#e/undyne/8}让你们失望了。" ],
+      genoCutscene12e: [ "<20>我...", "{#e/undyne/8}我不能..." ],
+      genoCutscene13: [ "<20>{#p/undyne}...", "<11>{#e/undyne/12}不..." ],
+      genoCutscene14: [
+         "<20>{*}{#p/undyne}{#e/undyne/11}我的身体...\n感觉要四分五裂了。{^15}{%15}",
+         "<20>{*}好像随时...\n都可能粉身碎骨。{^15}{%15}",
+         "<20>{*}但从我的灵魂深处...{^15}{%15}",
+         "<20>{*}燃烧起了一股\n无法表述的感觉。{^15}{%15}",
+         "<20>{*}{#e/undyne/12}那燃起的炙热\n不允许我死去。{^15}{%15}",
+         "<20>{*}{#e/undyne/11}那么多人民...\n那么多挚友...\n都惨死在暴行之下...{^15}{%15}",
+         "<20>{*}过了我这关，\n你们会毁掉一切...{^15}{%15}",
+         "<20>{*}大伙的希望，\n大伙的梦想，\n顷刻间就会化为乌有。{^15}{%15}",
+         "<20>{*}{#e/undyne/12}我不会让你们\n如愿以偿的。{^15}{%15}",
+         "<20>{*}{#e/undyne/13}此时此刻，这星河里的每个人...{^15}{%15}",
+         "<20>{*}I can feel their minds working as one.{^15}{%15}",
+         "<20>{*}我们都有一个\n共同的目标。{^15}{%15}",
+         "<20>{*}{#e/undyne/14}那就是战胜你。{^15}{%15}",
+         "<20>{*}{#e/undyne/13}人类。Asriel。\n...不，不管你们是谁。{^15}{%15}",
+         "<20>{*}{#e/undyne/14}为了让这星河存续下去...{^15}{%15}",
+         "<20>{*}{#e/undyne/15}{@random=1.1/1.1}我，Undyne，\n会将你们彻底击垮！{^15}{%15}"
+      ],
+      genoCutscene14x: [
+         "<20>{#e/undyne/11}不...",
+         "<20>{#e/undyne/12}不能就这么结束...！",
+         "<20>{#e/undyne/13}Everyone in the galaxy is counting on me!",
+         "<20>{#e/undyne/14}我不能让他们失望！"
+      ],
+      genoCutscene15: [ "<20>{*}{#p/undyne}{#v/1}你们还得再加把劲。{%20}" ],
+      genoCutscene15x: [ "<20>{#p/undyne}{#v/1}你们还得再加把劲！{%20}" ],
+      genoDeath1: [
+         "<20>{#p/undyne}{#v/1}Damn it...",
+         "<20>So even THAT power...\nIt wasn't enough...?",
+         "<20>...",
+         "<20>{#e/undyne/25}Heh...",
+         "<20>Heheheh..."
+      ],
+      genoDeath2: [
+         "<20>{*}{#e/undyne/26}If you...{^60}{%}",
+         "<20>{*}If you think I'm gonna give up hope, you're wrong.{^60}{%}",
+         "<20>{*}{#e/undyne/27}'Cause I've... got my friends behind me.{^60}{%}",
+         "<20>{*}{#e/undyne/28}Alphys told me she had a backup plan in case I failed...{^60}{%}",
+         "<20>{*}{#e/undyne/29}By now, she's called Asgore and told him to absorb the six human SOULs.{^60}{%}"
+      ],
+      genoDeath3: [ "<20>{*}{#p/undyne}{#v/1}{#e/undyne/30}{@random=1.1/1.1}And with that power...{^60}{%}" ],
+      genoDeath4: [ "<20>{*}{#p/undyne}{#v/1}{#e/undyne/30}{@random=1.1/1.1}This world will live on...!{^60}{%}" ],
+      lowStatus1: [ "<32>{#p/story}* The starlight is glimmering..." ],
+      lowStatus2: [ "<32>{#p/story}* Undyne flips her spear impatiently." ],
+      lowStatus3: [ "<32>{#p/story}* Twinkling shards drift in front of you." ],
+      lowStatus4: [ "<32>{#p/story}* Steam whirls around you." ],
+      lowStatus5: [ "<32>{#p/story}* 有一瞬，长矛的攻势停了下来。" ],
+      genoStatus1: [ "<32>{#p/asriel2}* 怎么会..." ],
+      genoStatus2: [ "<32>{#p/asriel2}* 不..." ],
+      genoStatus3: [ "<32>{#p/asriel2}* 游历了这么多条时间线，\n  我也从没见过她..." ],
+      genoStatus4: [ "<32>{#p/asriel2}* $(name)，光靠你打不过她。" ],
+      genoStatus5: [ "<32>{#p/asriel2}* ..." ],
+      trueGenoStatusX: () =>
+         battler.volatile[0].vars.azzyAssist < 2
+            ? [ "<32>{#p/asriel2}* Let's see how she likes THIS." ]
+            : [ "<32>{#p/asriel2}* 别忘了我们的战术。" ],
+      trueGenoStatus1: [ "<32>{#p/asriel2}* 别走神了。" ],
+      trueGenoStatus2: [ "<32>{#p/asriel2}* 可别让她唬到你了。" ],
+      trueGenoStatus3: [ "<32>{#p/asriel2}* 继续攻击就好..." ],
+      trueGenoStatus4: [ "<32>{#p/asriel2}* 她早晚会撑不住的。" ],
+      trueGenoStatus5: [ "<32>{#p/asriel2}* 胜利终将属于我们。" ],
+      trueGenoStatusLow1: [ "<32>{#p/asriel2}* Almost dead...!" ],
+      trueGenoStatusLow2: [ "<32>{#p/asriel2}* ...搞什么！" ],
+      asrielExplain: () => [
+         ...(battler.volatile[0].vars.azzyAssist < 2
+            ? [ "<20>{#p/asriel2}{#f/4}$(name)，\n你的攻击伤不到她。" ]
+            : [
+                 "<20>{#p/asriel2}{#f/8}上回交锋，\n你没能伤到她。",
+                 "<20>{#f/4}$(name)，\n你肯定没忘吧？",
+                 "<20>{#f/3}Between then and now, though, I had a chance to think."
+              ]),
+         "<20>{#f/13}虽说这幅身体...\n还没完全接纳我。",
+         "<20>{#f/16}但我想帮你，\n这幅身体应该够用。",
+         "<20>{#f/3}接下来，你先进攻，\n我则会用法术找出\nUndyne盔甲的破绽。",
+         "<20>{#f/4}你要瞄准它们，\n并逐一突破。",
+         "<20>{#f/3}祝好运..."
+      ],
+      neutralFinalStatus: [ "<32>{#p/story}* Undyne充满了决心。" ]
+   },
+   b_opponent_dateundyne: {
+      name: "* Undyne",
+      snacker: () =>
+         SAVE.data.b.undyne_respecc
+            ? [ "<20>{#p/undyne}{#e/undyne/13}Hope you like it, fuhuhu!" ]
+            : [ "<20>{#p/undyne}{#e/undyne/12}Enjoy it while you still can." ],
+      intro: () =>
+         SAVE.data.b.undyne_respecc
+            ? [
+                 "<20>{#p/undyne}{#f/0}... so this is it.",
+                 "<20>Our final battle.",
+                 "<20>...",
+                 "<20>{#e/undyne/12}Warrior to warrior.",
+                 "<20>Across the sky of stars.",
+                 "<20>I challenge you to a duel...",
+                 "<20>{#e/undyne/9}For the honor of EVERYONE ON THE OUTPOST!!",
+                 "<20>{#e/undyne/7}IT'S THE ONLY WAY I CAN SETTLE THE SCORE BETWEEN US!!",
+                 "<20>{#e/undyne/9}SO COME ON, HIT ME WITH EVERYTHING YOU'VE GOT!!!\nNGAHHHH!!!"
+              ]
+            : [
+                 "<20>{#p/undyne}{#f/0}I've been defeated, my house is in ruins...",
+                 "<20>I even failed to befriend you.",
+                 "<20>...",
+                 "<20>{#e/undyne/12}That's it.",
+                 "<20>I don't care if you're my house- guest anymore.",
+                 "<20>{#e/undyne/9}One final rematch, all out on both sides!!",
+                 "<20>{#e/undyne/7}IT'S THE ONLY WAY I CAN REGAIN MY LOST PRIDE!!",
+                 "<20>{#e/undyne/9}NOW COME ON, HIT ME WITH EVERYTHING YOU'VE GOT!!!\nNGAHHHH!!!"
+              ],
+      status1: [ "<32>{#p/story}* Undyne is letting you make the first attack." ],
+      act_check: [ "<32>{#p/story}* UNDYNE - ATK 41 DEF 21\n* The real, ACTUAL final battle has finally begun!" ],
+      idleTalk1: [ "<20>{#p/undyne}{#e/undyne/9}Show me what you're made of!" ],
+      idleTalk2: [ "<20>{#p/undyne}{#e/undyne/9}Come on!" ],
+      idleTalk3: [ "<20>{#p/undyne}{#e/undyne/9}What's the matter, scared?" ],
+      idleTalk4: [ "<20>{#p/undyne}{#e/undyne/9}What's the holdup?" ],
+      fightTalk: (stronk: boolean) =>
+         SAVE.data.b.undyne_respecc
+            ? [
+                 "<20>{#p/undyne}{#e/undyne/19}Ouch.",
+                 "<20>{#e/undyne/19}That actually kind of hurt.",
+                 "<20>{#e/undyne/4}Heh...",
+                 "<20>{#e/undyne/3}I guess that's what I get for under- estimating my opponent.",
+                 "<20>{#e/undyne/0}Though, I'm not sure why I'm so surprised.",
+                 "<20>{#e/undyne/1}Given your battle style to date."
+              ]
+            : [
+                 "<20>{#p/undyne}{#e/undyne/16}What.",
+                 "<20>{#e/undyne/15}That's the best you can manage...?",
+                 ...(SAVE.data.b.oops
+                    ? [
+                         "<20>{#e/undyne/3}Even attacking at full force...",
+                         stronk
+                            ? "<20>{#e/undyne/33}You can't give me more than a scratch, huh?"
+                            : "<20>{#e/undyne/33}You just can't muster any intent to hurt me, huh?"
+                      ]
+                    : [ "<20>{#e/undyne/17}You didn't even land the hit on me!", "<20>{#e/undyne/17}..." ])
+              ],
+      flirtTalk0: [
+         "<20>{#p/undyne}{#e/undyne/12}When I told you to hit me...",
+         "<20>{#e/undyne/9}I MEANT IT LITERALLY!"
+      ],
+      flirtTalk1: [
+         "<20>{#p/undyne}{#e/undyne/6}Wh-... no!",
+         "<20>{#e/undyne/8}If anyone's got someone's heart, it's...",
+         "<20>{#e/undyne/5}Wait, no-\nShut up!!!"
+      ],
+      flirtTalk2: [
+         "<20>{#p/undyne}{#e/undyne/10}Would you STOP THAT!?",
+         "<20>{#e/undyne/15}If you keep going like this, I'll...",
+         "<20>{#e/undyne/16}I'll..."
+      ],
+      flirtTalk3: [
+         "<20>{#p/undyne}{#p/undyne}{#e/undyne/18}Wha-...\nI...!",
+         "<20>{#e/undyne/19}...",
+         "<20>{#e/undyne/10}AHHHHHHHHHHHHHH-\nYOU FLIRTATIOUS LITTLE BRAT!",
+         "<20>{#e/undyne/8}I HAVE HALF THE NERVE TO...",
+         "<20>{#e/undyne/7}TO...",
+         "<20>{#e/undyne/7}..."
+      ],
+      flirtStatus0: [ "<33>{#p/story}* In this case, FIGHTING might not be such a bad idea." ],
+      flirtStatus1: [ "<33>{#p/story}* Something magical is happening." ],
+      flirtStatus2: [ "<32>{#p/story}* Undyne is at her limit." ],
+      flirtText0: [ "<32>{#p/human}* (You flirt with Undyne.)" ],
+      flirtText1: [ "<32>{#p/human}* (You tell Undyne she's got your heart hook, line, and sinker.)" ],
+      flirtText2: [ "<32>{#p/human}* (You commend Undyne on her brave, fighting spirit.)\n* (She's YOUR hero, now.)" ],
+      flirtText3: [ "<32>{#p/human}* (You tell Undyne she's a precious, adorable little urchin.)" ],
+      cutscene1: [ "<20>{#p/undyne}{#e/undyne/4}Heh... you know what?" ],
+      cutscene2: (fought: boolean) => [
+         ...(SAVE.data.b.undyne_respecc
+            ? [
+                 "<20>{#e/undyne/11}I don't really want to hurt you.",
+                 "<20>{#e/undyne/11}At first, I was excited by the prospect of fighting you..."
+              ]
+            : [
+                 "<20>{#e/undyne/11}I don't actually want to hurt you either.",
+                 "<20>{#e/undyne/11}At first, I despised your stupid saccharine schtick, but..."
+              ]),
+         ...(fought
+            ? SAVE.data.b.undyne_respecc
+               ? [ "<20>{#e/undyne/3}But seeing you go along with me right now, it..." ]
+               : SAVE.data.b.oops
+               ? [ "<20>{#e/undyne/3}The way you hit me right now, it..." ]
+               : [ "<20>{#e/undyne/3}The way you missed your attack right now, it..." ]
+            : SAVE.data.b.undyne_respecc
+            ? [ "<20>{#e/undyne/3}But seeing you act that way towards me right now, it..." ]
+            : [ "<20>{#e/undyne/3}The way you acted towards me right now, it..." ]),
+         "<20>{#e/undyne/4}Reminded me of someone I used to train with.",
+         ...(SAVE.data.b.undyne_respecc
+            ? [
+                 "<20>{#e/undyne/11}... you may not be a wimpy loser like him.",
+                 "<20>{#e/undyne/11}But one thing you do have in common...",
+                 "<20>{#e/undyne/1}Is a sense of respect for what it means to fight."
+              ]
+            : [
+                 "<20>{#e/undyne/11}Now I know you aren't just some wimpy loser.",
+                 "<20>{#e/undyne/13}You're a wimpy loser with a big heart!",
+                 "<20>{#e/undyne/4}Just like him..."
+              ]),
+         "<20>{#e/undyne/3}...",
+         "<20>{#e/undyne/3}Listen, human.",
+         "<20>{#f/undyne/0}It seems that you and Asgore are destined to meet.",
+         SAVE.data.b.undyne_respecc ? "<20>{#e/undyne/3}Unlike you..." : "<20>{#e/undyne/3}Knowing him...",
+         "<20>{#e/undyne/4}He probably doesn't want to fight you.",
+         ...(SAVE.data.b.undyne_respecc
+            ? [
+                 "<20>{#e/undyne/0}Talk to him, if you can.",
+                 "<20>{#e/undyne/0}Tell him what you want upfront.",
+                 "<20>{#e/undyne/3}I get that might be a little weird for you, but...",
+                 "<20>{#e/undyne/4}I'm sure you two can work something out.",
+                 "<20>{#e/undyne/0}And as for our freedom?",
+                 "<20>{#e/undyne/1}Well.",
+                 "<20>{#e/undyne/3}If some other, less respectable human ends up here...",
+                 "<20>{#e/undyne/3}I'll take THEIR soul instead of yours."
+              ]
+            : [
+                 "<20>{#f/undyne/0}Talk to him.",
+                 "<20>{#f/undyne/1}I'm sure you two can work something out.",
+                 "<20>{#e/undyne/3}Eventually, some meaner human will end up here...",
+                 "<20>{#e/undyne/3}And I'll take THEIR soul instead of yours."
+              ]),
+         "<20>{#f/undyne/1}That makes sense, right?\nFuhuhu.",
+         "<20>{#f/undyne/0}Oh, and if you DO hurt Asgore...",
+         "<20>{#e/undyne/11}I'll take the human SOULs... cross the force field...",
+         ...(SAVE.data.b.undyne_respecc
+            ? [ "<20>{#e/undyne/8}And give you a REAL battle!", "<20>{#e/undyne/13}That's what warriors do, right?" ]
+            : [
+                 "<20>{#e/undyne/8}And beat the hell out of you!",
+                 "<20>{#e/undyne/13}That's what friends are for, right?"
+              ]),
+         "<20>{#e/undyne/13}Fuhuhu!",
+         "<20>{#e/undyne/13}Now let's get the hell out of this flaming house!"
+      ]
+   },
+
+   i_artifact: {
+      battle: {
+         description: "据说这个吊坠是Erogot\n本人佩戴过的。",
+         name: "神器"
+      },
+      drop: () => [
+         "<32>{#p/human}* (You threw away the Legendary Artifact.)",
+         ...(!SAVE.data.b.svr && game.room === 's_secret' && SAVE.data.n.state_starton_trashprogress < 2 // NO-TRANSLATE
+
+            ? SAVE.data.b.s_state_papsink
+               ? [ "<32>{#p/basic}* The dog dances even harder!" ]
+               : [ "<32>{#p/basic}* ... the dog's sighing quiets down, even if you can't tell." ]
+            : [])
+      ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (Inscribed with the signature of a former world leader.)" ]
+            : [ "<32>{#p/basic}* 据说这个吊坠\n  是Erogot本人佩戴过的。" ],
+      name: "神器",
+      use: () => [
+         "<32>{#p/human}* (You use the Legendary Artifact.)",
+         ...((battler.active && battler.targetCurrent?.opponent.metadata.reactArtifact) ||
+         (game.room === 'f_truth' && // NO-TRANSLATE
+
+            SAVE.data.n.epiphany < 1 &&
+            !SAVE.data.b.svr &&
+            !world.runaway)
+            ? []
+            : !SAVE.data.b.svr && game.room === 's_secret' && SAVE.data.n.state_starton_trashprogress < 2 // NO-TRANSLATE
+
+            ? SAVE.data.b.s_state_papsink
+               ? [ "<32>{#p/basic}* ... the dog's dancing slows down, even if you can't tell." ]
+               : [ "<32>{#p/basic}* The dog sighs even louder!" ]
+            : [ "<32>{#p/human}* (Nothing happens.)" ])
+      ]
+   },
+   i_epiphany: {
+      battle: {
+         description: "Makes the weak-willed see things from your point of view.",
+         name: "顿悟"
+      },
+      drop: [ "<32>{#p/human}* (You cast The Epiphany away.)" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (A tome from centuries past, used first by a former world leader.)" ]
+            : [
+                 "<33>{#p/basic}* Makes the weak-willed see things from your point of view.\n* Not viable outside of battle."
+              ],
+      name: "顿悟",
+      use: () =>
+         battler.active
+            ? []
+            : SAVE.data.b.ufokinwotm8
+            ? [
+                 "<32>{#p/human}* (You activated The Epiphany on yourself, with the intent to hug.)",
+                 "<32>{#p/human}* (No effect.)"
+              ]
+            : SAVE.data.b.svr
+            ? [
+                 "<32>{#p/human}* (You read through the ancient text of the tome.)",
+                 "<33>* (The text appears to be self- translating.)"
+              ]
+            : [ "<32>{#p/human}* (You activated The Epiphany.)", "<32>{#p/human}* (No effect outside of battle.)" ]
+   },
+   i_astrofood: {
+      battle: {
+         description: "牙口不好的别吃。",
+         name: "甘草糖"
+      },
+      drop: [ "<32>{#p/human}* （你把甘草糖扔掉了。）" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (24 HP.)" ]
+            : [ "<32>{#p/basic}* “甘草糖” 回复24 HP\n* 牙口不好的别吃。" ],
+      name: "甘草糖",
+      use: [ "<32>{#p/human}* （你咬了甘草糖。）" ]
+   },
+   i_sap: {
+      battle: {
+         description: "Sourced from a tree that grew on the monsters' homeworld.",
+         name: "Sap"
+      },
+      drop: [ "<32>{#p/human}* (You throw away the Tree Sap.)" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (35 HP.)" ]
+            : [ "<32>{#p/basic}* \"Tree Sap\" Heals 35 HP\n* Sourced from a tree that grew on the monsters' homeworld." ],
+      name: "Tree Sap",
+      use: [ "<32>{#p/human}* (You chewed the Tree Sap.)" ]
+   },
+   i_goggles: {
+      battle: {
+         description: "超越现实！\n能为你提供更长的喘息时间。",
+         name: "AR眼镜"
+      },
+      drop: [ "<32>{#p/human}* （你把AR眼镜扔掉了。）" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* （6防御。）" ]
+            : [ "<32>{#p/basic}* “AR眼镜” （6防御）\n* 超越现实！\n  能为你提供更长的喘息时间。" ],
+      name: "AR眼镜",
+      use: [ "<32>{#p/human}* （你戴上了AR眼镜。）" ]
+   },
+   i_goggles_x: {
+      battle: {
+         description: "能为你提供稍长的喘息时间。",
+         name: "AR眼镜？"
+      },
+      drop: [ "<32>{#p/human}* （你把AR眼镜扔掉了。）" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* （4防御。）" ]
+            : [ "<32>{#p/basic}* “AR眼镜？” （4防御）\n* 超越现实！\n  能为你提供稍长的喘息时间。" ],
+      name: "AR眼镜？",
+      use: [ "<32>{#p/human}* （你戴上了AR眼镜。）" ]
+   },
+   i_padd: {
+      battle: {
+         description: "A digital journal.\nMakes you invincible longer.",
+         name: "Datapad"
+      },
+      drop: [ "<32>{#p/human}* (You throw away the Datapad.)" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (2 AT.)" ]
+            : [ "<32>{#p/basic}* \"Datapad\" (2 AT)\n* A digital journal.\n* Makes you invincible longer." ],
+      name: "Datapad",
+      use: [ "<32>{#p/human}* (You equip the Datapad.)" ]
+   },
+   i_padd_x: {
+      battle: {
+         description: "能为你提供稍长的喘息时间。",
+         name: "Datapad?"
+      },
+      drop: [ "<32>{#p/human}* (You throw away the Datapad.)" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (0 AT.)" ]
+            : [ "<32>{#p/basic}* \"Datapad?\" (0 AT)\n* Makes you invincible just a little longer." ],
+      name: "Datapad?",
+      use: [ "<32>{#p/human}* (You equip the Datapad.)" ]
+   },
+   i_punchcard: {
+      battle: {
+         description: "风景如画...",
+         name: "明信片"
+      },
+      drop: [ "<32>{#p/human}* （你把明信片扔掉了。）" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (A perfectly ordinary piece of paper, with no notable attributes.)" ]
+            : [ "<32>{#p/basic}* 风景如画..." ],
+      name: "明信片",
+      use: () =>
+         world.meanie
+            ? [
+                 "<32>{#p/human}* (You rip up the Postcard.)",
+                 battler.active
+                    ? `<32>{#p/story}* ATTACK up by ${2 + battler.at_bonus}!`
+                    : "<32>{#p/human}* (No effect outside of battle.)"
+              ]
+            : battler.active
+            ? [ "<32>{#p/human}* (You daydream about the landscape on the Postcard.)\n* (Nothing happens.)" ]
+            : []
+   },
+   i_quiche: {
+      battle: {
+         description: "With great confections come great sweetsponsibilities.",
+         name: "芝士蛋糕"
+      },
+      drop: () => [
+         "<32>{#p/human}* （你把芝士蛋糕扔掉了。）",
+         ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
+            ? []
+            : [ "<32>{#p/basic}* And the cycle of abandonment continues." ]),
+         ...(!battler.active &&
+         (fetchCharacters()
+            .find(c => c.key === 'sans') // NO-TRANSLATE
+
+            ?.position.extentOf(player) ?? 200) < 200
+            ? [
+                 "<25>{#p/sans}{#f/3}* ... oh.\n* that's a shame.",
+                 "<25>{#p/sans}{#f/2}* i'd hoped someone would take care of that for me."
+              ]
+            : [])
+      ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (45 HP.)" ]
+            : [ "<32>{#p/basic}* “芝士蛋糕” 回复45 HP\n* 甜蜜的零食背后，\n  是一份甜蜜的责任。" ],
+      name: "芝士蛋糕",
+      use: () => [
+         "<32>{#p/human}* （你吃掉了芝士蛋糕。）",
+         ...(!battler.active &&
+         (fetchCharacters()
+            .find(c => c.key === 'sans') // NO-TRANSLATE
+
+            ?.position.extentOf(player) ?? 200) < 200
+            ? [
+                 "<25>{#p/sans}{#f/0}* ... oh.\n* you actually ate it?",
+                 "<25>{#p/sans}{#f/2}* i had no idea anyone liked my baking skills."
+              ]
+            : [])
+      ]
+   },
+   i_crisp: {
+      battle: {
+         description: "A bag of chisps from far beyond the stars.",
+         name: "Chisps"
+      },
+      drop: [ "<32>{#p/human}* (You throw away the Cosmic Chisps.)" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (18 HP.)" ]
+            : [ "<32>{#p/basic}* \"Cosmic Chisps\" Heals 18 HP\n* A bag of chisps from far beyond the stars." ],
+      name: "Cosmic Chisps",
+      use: [ "<32>{#p/human}* (You eat the Cosmic Chisps.)" ]
+   },
+   i_rations: {
+      battle: {
+         description: "皇家出品，救急精品。",
+         name: "口粮"
+      },
+      drop: [ "<32>{#p/human}* （你把口粮扔掉了。）" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (30 HP.)" ]
+            : [ "<32>{#p/basic}* “口粮” 回复30 HP\n* 皇家出品，救急精品。" ],
+      name: "口粮",
+      use: [ "<32>{#p/human}* （你吃掉了口粮。）" ]
+   },
+   i_tea: {
+      battle: {
+         description: "Increases your SPEED in battle.",
+         name: "Tea"
+      },
+      drop: [ "<32>{#p/human}* (You throw away the Nebula Tea.)" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (15 HP.)" ]
+            : [
+                 "<33>{#p/basic}* \"Nebula Tea\" Heals 15 HP\n* Increases your SPEED in battle.\n* Not viable outside of battle."
+              ],
+      name: "Nebula Tea",
+      use: () => [
+         "<32>{#p/human}* (You drank the Nebula Tea.)",
+         battler.active ? "<32>{#p/story}* SPEED up by 1!" : "<32>{#p/human}* (No effect outside of battle.)"
+      ]
+   },
+   i_tzn: {
+      battle: {
+         description: "Like Earth tofu, but spacier.",
+         name: "Tofu"
+      },
+      drop: [ "<32>{#p/human}* (You throw away the Space Tofu.)" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (17 HP.)" ]
+            : [ "<32>{#p/basic}* \"Space Tofu\" Heals 17 HP\n* Like Earth tofu, but spacier." ],
+      name: "Space Tofu",
+      use: () => [
+         "<32>{#p/human}* （你吞下了太空豆腐。）",
+         ...(world.meanie
+            ? [
+                 "<32>* (The taste fills you with a certain kind of feeling...)",
+                 battler.active
+                    ? `<32>{#p/story}* ATTACK up by ${4 + battler.at_bonus}!`
+                    : "<32>{#p/human}* (No effect outside of battle.)"
+              ]
+            : [])
+      ]
+   },
+   i_flakes: {
+      battle: {
+         description: "Finally, a proper breakfast.",
+         name: "Tem Flakes"
+      },
+      drop: [ "<32>{#p/human}* （你扔掉了Temmie薄片。）" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (2 HP.)" ]
+            : [ "<32>{#p/basic}* \"Temmie Flakes\" Heals 2 HP\n* Finally, a proper breakfast." ],
+      name: "Temmie Flakes",
+      use: [ "<32>{#p/human}* （你吃掉了Temmie薄片。）" ]
+   },
+   i_temyarmor: {
+      battle: {
+         description: "The things you can do with a college education!",
+         name: "Tem Armor"
+      },
+      drop: [ "<32>{#p/human}* (You throw away the Temmie Armor.)" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (10 AT, 20 DF.)" ]
+            : [
+                 "<32>{#p/basic}* \"Temmie Armor\" (10 AT, 20 DF)\n* The things you can do with a college education!",
+                 "<32>* Makes you invincible a lot longer...",
+                 "<32>* Restores a lot of lost HP after each turn...",
+                 "<32>* Your opposition's attacks have a fair chance to heal you...",
+                 "<32>* Significantly increases aim time in battle...",
+                 "<32>* It does everything any other item can do, but better."
+              ],
+      name: "Temmie盔甲",
+      use: [ "<32>{#p/human}* (You don the Temmie Armor.)" ]
+   },
+   i_boots: {
+      battle: {
+         description: "Nimble, but fickle. Not a suitable jetpack replacement.",
+         name: "悬浮靴"
+      },
+      drop: [ "<32>{#p/human}* （你把悬浮靴扔掉了。）" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* （7攻击。）" ]
+            : [ "<32>{#p/basic}* “悬浮靴” （7攻击）\n* 灵活但轻浮，\n  想取代飞行器，有点悬。" ],
+      name: "悬浮靴",
+      use: [ "<32>{#p/human}* （你穿上了悬浮靴。）" ]
+   },
+   i_flight_suit: {
+      battle: {
+         description: "胆小鬼别穿。",
+         name: "飞行服"
+      },
+      drop: [ "<32>{#p/human}* （你把飞行服扔掉了。）" ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* （10防御。）" ]
+            : [ "<32>{#p/basic}* “飞行服” （10防御）\n* 胆小鬼别穿。" ],
+      name: "飞行服",
+      use: [ "<32>{#p/human}* （你穿上了飞行服。）" ]
+   },
+   i_snack: {
+      battle: {
+         description: "Undyne's personal recipe...?",
+         name: "Odd Snack"
+      },
+      drop: () => [
+         "<32>{#p/human}* (You throw away the Odd Snack.)",
+         ...(game.room === 'f_kitchen' // NO-TRANSLATE
+
+            ? ((SAVE.data.b.drop_snack = true),
+              [ "<25>{#p/undyne}{#f/8}* Fuhuhuhu!\n* Throw that snack on the cold, hard floor!" ])
+            : [])
+      ],
+      info: () =>
+         SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
+            ? [ "<32>{#p/human}* (15 HP.)" ]
+            : [ "<32>{#p/basic}* \"Odd Snack\" Heals 15 HP\n* Undyne's personal recipe...?" ],
+      name: "Odd Snack",
+      use: () => [
+         "<32>{#p/human}* (You eat the Odd Snack.)",
+         ...(game.room === 'f_kitchen' // NO-TRANSLATE
+
+            ? [
+                 SAVE.data.b.undyne_respecc
+                    ? "<25>{#p/undyne}{#f/1}* Hope you like it!"
+                    : "<25>{#p/undyne}{#f/14}* Hope you like it!"
+              ]
+            : SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
+            ? []
+            : [ "<32>{#p/basic}* Crispy." ])
+      ]
+   },
+
+   n_shop_tem: {
+      exit: [ "<32>{#p/tem}{#k/0}* 拜吼！！" ],
+      item: (armorprice: number) =>
+         SAVE.data.n.plot === 72
+            ? [
+                 "0G - 免费薄片！！",
+                 "0G - 免费薄片！！",
+                 "0G - 免费薄片！！",
+                 SAVE.data.b.item_temyarmor || temgone()
+                    ? "§fill=#808080§--- 售罄 ---"
+                    : SAVE.data.b.colleg
+                    ? `${armorprice}G - temy盔甲！！！`
+                    : "1000G - 供tem上大鞋",
+                 "离开"
+              ]
+            : [
+                 "4G - tem薄片",
+                 "2G - tem薄片（促销,）",
+                 "20G - tem薄片（粉贵）",
+                 SAVE.data.b.item_temyarmor
+                    ? "§fill=#808080§--- 售罄 ---"
+                    : SAVE.data.b.colleg
+                    ? `${armorprice}G - temy盔甲！！！`
+                    : "1000G - 供tem上大鞋",
+                 "离开"
+              ],
+      itemInfo: () =>
+         SAVE.data.n.plot === 72
+            ? [
+                 "回复2 HP\ntem免费的\n食物！！",
+                 "回复2 HP\ntem免费的\n食物！！",
+                 "回复2 HP\ntem免费的\n食物！！",
+                 SAVE.data.b.colleg ? "防具：20防御\nyang战斗\n炒鸡\n容易！！！" : "大鞋\ntem追球\n更高级的\n教育"
+              ]
+            : [
+                 "回复2 HP\ntem的\n食物",
+                 "回复2 HP\ntem的\n促销\n食物！！",
+                 "回复2 HP\ntem的\n食物\n（粉贵）",
+                 SAVE.data.b.colleg ? "防具：20防御\nyang战斗\n炒鸡\n容易！！！" : "大鞋\ntem追球\n更高级的\n教育"
+              ],
+      itemPrompt: "<09>{#p/tem}{#k/0}你吼！\n欢银光临...\nTEM百嚯店！",
+      itemPurchase: [
+         "<09>{#p/tem}{#k/6}谢谢惠顾！",
+         "<09>{#p/tem}{#k/0}fdshfg",
+         "<09>{#p/tem}{#k/2}你米有\n足够哒\n钱钱，",
+         "<10>{#p/human}（你带的\n东西\n太多了。）"
+      ],
+      itemPurchasePrompt: (free: boolean) => (free || temgone() ? "偷走吗？" : "花$(x)G\n买它吗？"),
+      itemSellPrompt: "出$(x)G\n卖掉它吗？",
+      itemUnavailable: () => (temgone() ? "<09>{#p/basic}空无一物。" : "<09>{#p/tem}{#k/2}no more item..."),
+      itemRestricted: "<09>{#p/tem}{#k/2}这个我\n不收...",
+      menu: () =>
+         temgone() ? [ "拿取", "偷窃", "阅读", "离开" ] : [ "购买", world.meanie ? "偷窃" : "出售", "交谈", "离开" ],
+      menuPrompt1: "<23>{#p/tem}{#k/0}* 你吼！\n* 欢银光临...\n* TEM百嚯店！！！",
+      menuPrompt2: "<23>{#p/basic}* ...但是人们都逃走了。",
+      sell1: [ "<30>{#p/tem}{#k/2}* 别哇！！！\n* 我滴钱钱，，，", "<30>{#p/tem}{#k/4}* 不许偷钱！！！" ],
+      sell2: [ "<30>{#p/tem}{#k/3}* 没门。" ],
+      steal1: [ "<30>{#p/human}* (You took 32767G from behind the counter.)" ],
+      steal2: [ "<30>{#p/basic}* 空无一物。" ],
+      note: [ "<30>{#p/human}* (But there was no note to be found here.)" ],
+      talk: () => [
+         SAVE.data.n.plot === 72 ? "Good News" : "打招呼",
+         SAVE.data.n.plot === 72 ? "Your Future" : SAVE.data.b.colleg ? "关于Temmie盔甲" : "介绍下自己",
+         SAVE.data.n.plot === 72 ? "Temmie Secrets" : "Temmie的历史",
+         "关于这个商店",
+         "离开"
+      ],
+      talkPrompt: "<09>{#p/tem}{#k/0}你吼！！！\n我素temmie",
+      talkText: [
+         () =>
+            SAVE.data.n.plot === 72
+               ? [ "<32>{#p/tem}{#k/0}* yAYA!", "<32>{#p/tem}{#k/0}* tem go to NEW WORLDS!!!" ]
+               : [ "<32>{#p/tem}{#k/0}* 你吼！！！", "<32>* 我素temmie" ],
+         () =>
+            SAVE.data.n.plot === 72
+               ? [ "<32>{#p/tem}{#k/0}* yAYA!", "<32>{#p/tem}{#k/0}* tem go to NEW WORLDS!!!" ]
+               : SAVE.data.b.colleg
+               ? [
+                    "<32>{#k/1}* tem盔甲太太吼了！\n* 任何战斗都变哒！\n* 炒鸡容易胜利！！！",
+                    "<32>{#k/4}* 但，哼嗯嗯嗯，tem想...\n* 如果尼用了盔甲，\n  战斗就卜再有挑战性了，",
+                    "<32>{#k/3}* 但tem...\n* 有一个姐决番案。",
+                    "<32>{#k/6}* 提米会提供...\n* 一份{@fill=#ff0}奖鞋金{@fill=#fff}！",
+                    "<32>{#k/3}* 如果尼{@fill=#ff0}输了好多战斗{@fill=#fff}，\n  tem就费{@fill=#ff0}降低价格{@fill=#fff}！",
+                    ...(armorprice() <= 1000
+                       ? [
+                            "<32>{#k/1}* in fack...\n* PRICE MAY ALREADY BE LOWERS!!!\n* WOA!!!!",
+                            "<32>{#k/6}* Congra-tem-lations!!!"
+                         ]
+                       : [
+                            "<32>{#k/3}* 所以如果你陷入了吼难的\n  战逗中觉得好灰森啊，\n  那你就可以买下提米盔甲\n  作为你的救命稻草！",
+                            "<32>{#k/5}* 但tem盔甲太吼了，\n* 答应窝一定在真的需要的\n  时候才买吼，"
+                         ])
+                 ]
+               : [ "<32>{#p/tem}{#k/0}* 你吼！！！", "<32>* 我素temmie" ],
+         () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#p/tem}{#k/0}* at back of famus statue, can find SPECIL SWITCH,",
+                    "<32>{#p/tem}{#k/0}* and SWITCHs...\n* come wif RIDDLES!",
+                    SAVE.data.b.colleg
+                       ? "<32>{#p/tem}{#k/2}* even after colleg, tem don know what it means,,,"
+                       : "<32>{#p/tem}{#k/0}* tem don know what it means,,,",
+                    "<32>{#p/tem}{#k/1}* but mayb humans can solve!!\n* yAYA!!"
+                 ]
+               : SAVE.data.b.colleg
+               ? [
+                    "<32>{#p/tem}{#k/0}* 嚎吖！\n* tem获得惹提米学的学位！\n* tem现在可以告诉你全部\n  tem的深远历史了！！！"
+                 ]
+               : [ "<32>{#p/tem}{#k/0}* 我们tem有着\n  粉深远的历史！！！" ],
+         () =>
+            SAVE.data.n.plot === 72
+               ? [ "<32>{#p/tem}{#k/0}* yaYA!!!\n* wil close TEM SHOP soon!!!" ]
+               : [ "<32>{#p/tem}{#k/0}* 嚎吖！！！\n* 去TEM商店吧！！！" ]
+      ],
+      colleg1: [
+         "<32>{#p/tem}{#k/1}* 哇嗷！！",
+         "<32>{#k/2}* 介么多钱钱...\n* tem尊的可以收下么...",
+         "<32>{#k/6}* 好哒！！！！\n* tem要去上大鞋然后\n  让尼感到骄傲！！！"
+      ],
+      colleg2: [
+         "<32>{#p/tem}* 提米从大鞋回来了，",
+         "<32>{#k/0}* tem学会啦好多东东，\n* 学会卖新道具辣！\n* 嚎吖！！！"
+      ],
+      sellExit: "离开",
+      sellValue: "$(x)G",
+      sellStory1: () => [
+         "<32>{#p/tem}{#k/1}* 哇嗷！！",
+         "<32>{#k/2}* 尼带着... $(x)！！！",
+         SAVE.data.b.colleg
+            ? "<32>{#k/4}* hnnn....\n* i gota have dat $(x)s...\n* but i gota pay for gradskool,"
+            : "<32>{#k/4}* 哼嗯嗯嗯....\n* 我炒鸡想要辣个$(x)...\n* 但我必须筹集我的大鞋鞋费，",
+         "<32>{#k/5}* 哼嗯嗯嗯嗯....！！！\n* tem一直都想要个$(x)...！"
+      ],
+      sellStory2: [ "<32>{#p/tem}{#k/2}* 但.. 但是...", "<32>{#k/4}* 卟！！！！！！！！！！！！" ],
+      sellStory3: () =>
+         SAVE.data.b.colleg
+            ? [
+                 "<32>{#p/tem}{#k/3}* Is this a joke?\n* Are you having a laugh?\n* Ha ha, very funny.\n* I'm the one with a degree."
+              ]
+            : [ "<32>{#p/tem}{#k/3}* 你会后悔的。" ],
+      zeroPrompt: "<09>{#p/basic}..."
+   },
+   n_shop_tortoise: {
+      exit: () =>
+         world.runaway
+            ? []
+            : world.genocide || world.killed0 || SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
+
+            ? [ "<32>{#p/basic}{#k/1}* 这就结了。" ]
+            : [ "<32>{#p/basic}{#k/0}* 在外面小心点，孩子！" ],
+      item: () =>
+         world.runaway
+            ? [ "0G - 平板电脑？", "0G - AR眼镜？", "0G - 星云茶", "0G - 树液", "离开" ]
+            : world.genocide || world.killed0 || SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
+
+            ? [ "45G - 平板电脑？", "45G - AR眼镜？", "16G - 星云茶", "25G - 树液", "离开" ]
+            : SAVE.data.n.plot === 72
+            ? [
+                 SAVE.data.b.item_padd ? "25G - 平板电脑？" : "35G - 平板电脑",
+                 SAVE.data.b.item_goggles ? "25G - AR眼镜？" : "35G - AR眼镜",
+                 "5G - 星云茶",
+                 "5G - 树液",
+                 "离开"
+              ]
+            : [
+                 SAVE.data.b.item_padd ? "45G - 平板电脑？" : "55G - 平板电脑",
+                 SAVE.data.b.item_goggles ? "45G - AR眼镜？" : "55G - AR眼镜",
+                 "16G - 星云茶",
+                 "25G - 树液",
+                 "离开"
+              ],
+      itemInfo: () => [
+         SAVE.data.b.item_padd || world.genocide || world.killed0 || SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
+
+            ? "武器：0攻击\n(当前攻击$(x))\n只能让你\n多喘口气。"
+            : "武器：2攻击\n(当前攻击$(x))\n给你点时间\n喘口气。",
+         SAVE.data.b.item_goggles || world.genocide || world.killed0 || SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
+
+            ? "防具：4防御\n(当前防御$(x))\n只能让你\n多喘口气。"
+            : "防具：6防御\n(当前防御$(x))\n给你点时间\n喘口气。",
+         "回复15 HP\n能在战斗中\n移动得更快。",
+         "回复35 HP\n由真正的\n树液\n精制而成。"
+      ],
+      itemPrompt: () =>
+         world.genocide || world.killed0
+            ? "<09>{#p/basic}{#k/3}别指望\n我会打折。"
+            : "<09>{#p/basic}{#k/4}想买些\n啥呢？",
+      itemPurchase: () =>
+         world.genocide || world.killed0
+            ? [
+                 "<09>{#p/basic}{#k/1}Here we are.",
+                 "<09>{#p/basic}{#k/1}...",
+                 "<09>{#p/basic}{#k/3}咋了？\n这点钱\n都付不起？",
+                 "<10>{#p/human}（你带的\n东西\n太多了。）"
+              ]
+            : [
+                 "<09>{#p/basic}{#k/0}谢谢惠顾！\n哇哈哈。",
+                 "<09>{#p/basic}{#k/2}想好了\n再买哦。",
+                 "<09>{#p/basic}{#k/4}你的钱\n还不太够。",
+                 "<10>{#p/human}（你带的\n东西\n太多了。）"
+              ],
+      itemPurchasePrompt: () => (world.runaway ? "偷走吗？" : "花$(x)G\n买它吗？"),
+      menu: () =>
+         world.runaway ? [ "拿取", "偷窃", "阅读", "离开" ] : [ "购买", world.meanie ? "偷窃" : "出售", "交谈", "离开" ],
+      menuPrompt1: () =>
+         SAVE.data.n.plot === 72
+            ? "<23>{#p/basic}{#k/0}* 哇哈哈！\n* 我果然没看错你！"
+            : "<23>{#p/basic}{#k/0}* 来瞧瞧！\n* 我这有不少物美价廉的废品\n  打算卖呢。",
+      menuPrompt2: () =>
+         SAVE.data.n.plot === 72 ? "<23>{#p/basic}{#k/0}* 哇哈哈。" : "<23>{#p/basic}{#k/0}* 别见外哦。",
+      menuPrompt3: () =>
+         world.genocide
+            ? "<23>{#p/basic}{#k/3}* 小伙子，\n  你们几个忙活啥呢？\n* 等等，当我没问。\n  不关我的事，对吧？"
+            : "<24>{#p/basic}{#k/2}* Wa ha ha...\n* So you came to see me.\n* What a riot!",
+      menuPrompt4: "<23>{#p/basic}* ...但是人们都逃走了。",
+      note: [ "<32>{#p/human}* （但没有人给你留字条。）" ],
+      sell1: () =>
+         world.runaway
+            ? [ "<30>{#p/human}* （你从柜台后面拿走了1394G。）" ]
+            : world.genocide
+            ? [
+                 "<30>{#p/basic}{#k/4}* 哇哈哈...",
+                 "<30>{#k/3}* 呵，先是把别人灵魂据为己有，\n  现在又想用同样的手段\n  偷我的东西？",
+                 "<30>{#k/4}* 我建议你\n  最好不要得寸进尺。"
+              ]
+            : world.meanie
+            ? [
+                 "<30>{#p/basic}{#k/2}* 哎呀，孩子。\n* 你知道这些东西\n  是要花钱的吧？",
+                 "<30>{#k/3}* 也许对你来说\n  它们只是废品，\n  但对我来说绝非如此！"
+              ]
+            : [
+                 "<30>{#p/basic}{#k/2}* 哈！\n* 我是卖废品的，\n  不是收废品的！",
+                 "<30>{#k/3}* 不过，如果你想卖点东西，\n  我有个好主意，\n  去Temmie商店那里看看吧。",
+                 "<30>{#k/0}* 它们住在哪里来着...",
+                 "<30>{#k/4}* ...",
+                 "<30>{#k/0}* 想不起来了。"
+              ],
+      sell2: () =>
+         world.runaway
+            ? [ "<30>{#p/basic}* 空无一物。" ]
+            : world.genocide || world.meanie
+            ? [ "<30>{#p/basic}{#k/1}* I wouldn't give up my gilded treasures at phaser-point." ]
+            : [ "<30>{#p/basic}{#k/0}* 我再说最后一遍，\n  我不收！" ],
+      talk: () =>
+         SAVE.data.n.plot === 72
+            ? [
+                 "Asgore",
+                 "新家园",
+                 "Toriel",
+                 SAVE.data.b.c_state_secret2 && !SAVE.data.b.c_state_secret2_used
+                    ? "§fill=#ff0§握手"
+                    : "我是英雄吗",
+                 "离开"
+              ]
+            : world.genocide
+            ? [ "Asriel", "（威胁他）", "（揍他）", "Undyne", "离开" ]
+            : world.killed0
+            ? [ "你的下场", "（威胁他）", "（揍他）", "谁是英雄", "离开" ]
+            : [
+                 48 <= SAVE.data.n.plot && SAVE.data.n.state_foundry_undyne > 0
+                    ? "介绍下自己"
+                    : [ "介绍下自己", "§fill=#ff0§那场战争（新）", "§fill=#ff0§退休生活（新）", "退休生活" ][
+                         Math.min(SAVE.data.n.shop_gerson, 3)
+                      ],
+                 [ "故园生活", "§fill=#ff0§你的家人（新）", "§fill=#ff0§Erogot（新）", "Erogot" ][
+                    Math.min(SAVE.data.n.shop_homeworld, 3)
+                 ],
+                 "铸厂",
+                 SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
+
+                    ? "Undyne"
+                    : SAVE.data.b.c_state_secret2 && !SAVE.data.b.c_state_secret2_used
+                    ? "§fill=#ff0§握手"
+                    : "聊聊Undyne",
+                 "离开"
+              ],
+      talkPrompt: () =>
+         world.genocide || world.killed0
+            ? "<09>{#p/basic}{#k/2}是吗？\n就你\n还想聊天？"
+            : "<09>{#p/basic}{#k/0}你想知道点\n啥呢？",
+      talkText: [
+         () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#p/basic}{#k/0}* Ol' King Fluffybuns, eh?\n* Now there's someone I know.",
+                    "<32>{#k/2}* I'll say this, I had no clue about what he was doing with those humans until today!",
+                    "<32>{#k/3}* I don't know how he kept such a secret for so long...",
+                    "<32>{#k/0}* Especially since everyone woulda been fine with it if he told 'em before.",
+                    "<32>{#k/0}* I've adopted one of the humans myself, actually.",
+                    "<32>{#k/2}* They're asleep in their box, just outside the shop.\n* What an adorable little fella!",
+                    "<32>{#k/0}* Asgore says they'll wake up once their body adjusts to the real world or whatever.",
+                    "<32>{#k/3}* ... huh?\n* You want to know if Asgore can be your father?",
+                    "<32>{#k/0}* Well, I don't see why not!",
+                    "<32>{#k/0}* I'm sure he'd be happy to have you living with him.",
+                    "<32>{#k/2}* It'd probably be good for him!\n* Wa ha ha."
+                 ]
+               : world.genocide
+               ? [
+                    "<32>{#p/basic}{#k/1}* You wanna know my thoughts on Asriel?",
+                    "<32>{#k/0}* ...\n* He was a good kid.",
+                    "<32>{#k/3}* And if he was still alive, he woulda made a great king.",
+                    "<32>{#k/4}* As for what you got there standin' in front of me, well, it's not him.",
+                    "<32>{#k/0}* It looks like him, talks like him, even has his damned adorable face... bless that kid.",
+                    "<32>{#k/3}* But that SOUL... being this close to you, the resemblance is unmistakable.",
+                    "<32>{#k/1}* How'd it feel taking the SOUL of your own mother, boy?",
+                    "<32>{#k/0}* I wonder."
+                 ]
+               : world.killed0
+               ? [
+                    "<32>{#p/basic}{#k/0}* Long ago, the king and I agreed that escaping would be pointless...",
+                    "<32>{#k/1}* Since once we left, humans would just kill us on the spot.",
+                    "<32>{#k/3}* I'll admit I felt a little betrayed when he changed his mind.",
+                    "<32>{#k/4}* But now, I think...\n* Maybe he was right to.",
+                    "<32>{#k/0}* 'Cause after all, even though we never escaped...",
+                    "<32>{#k/3}* A human's killing us anyway, ain't that right?"
+                 ]
+               : 48 <= SAVE.data.n.plot && SAVE.data.n.state_foundry_undyne > 0
+               ? [
+                    "<32>{#p/basic}{#k/0}* Eh, there's really not much to say about me.",
+                    "<32>{#k/0}* I do my best to live my life...",
+                    "<32>{#k/4}* Help those around me in ways that I can.",
+                    "<32>{#k/0}* The thing of it is, we live in dangerous times.",
+                    "<32>{#k/3}* If the wrong human were to stumble on our little outpost, we'd be as good as gone..."
+                 ]
+               : [
+                    [
+                       "<32>{#p/basic}{#k/0}* 我已经活了很久了。\n* 也许太久了。",
+                       "<32>{#k/3}* 想当年，\n  人们称我为“正义之剑”。",
+                       "<32>{#k/2}* 那时，\n  我还是行星理事会的主席。",
+                       "<32>{#k/1}* ...要不是该死的战争，\n  我今天可能还在\n  那个位置上。"
+                    ],
+                    [
+                       "<32>{#p/basic}{#k/0}* 啊，是啊，就是那场战争。\n* 那场战争，\n  给我，给这里每个人\n  都带来了难以磨灭的创伤。",
+                       "<32>{#k/4}* 每隔一段时间，\n  我们会收到报告...\n* 上面，全是为了保护家园\n  而壮烈牺牲的烈士。",
+                       "<32>{#k/1}* 我至今还记得，小毛球国王\n  将一封封噩耗告知烈士家属时，\n  他脸上的神情...",
+                       "<32>{#k/1}* 眼神空洞，目光呆滞...\n* 孩子，这就是战争\n  给人带来的影响。",
+                       "<32>{#k/3}* 所以，我就退休了。"
+                    ],
+                    [
+                       "<32>{#p/basic}{#k/3}* 我的退休生活？",
+                       "<32>{#k/2}* 哇哈哈！\n* 可谓是“逍遥自在”啊！",
+                       "<32>{#k/4}* 也许那些在空境工作的员工\n  根本看不上这间破屋...",
+                       "<32>{#k/2}* ...但关我啥事？\n  我又不用跟他们比。",
+                       "<32>{#k/0}* 能有这些或英勇、或古怪、\n  或有点害羞的邻居，\n  我就已经知足。",
+                       "<32>{#k/0}* 这也许并非我梦想的生活，\n  但人生在世，就该随遇而安嘛。"
+                    ],
+                    [
+                       "<32>{#p/basic}{#k/3}* 想让我再重复一遍吗？",
+                       "<32>{#k/4}* 哇哈哈...\n  恐怕，你得回溯时间了。",
+                       "<32>{#k/2}* 就连我自己\n  都忘了刚才说过啥了！"
+                    ]
+                 ][Math.min(SAVE.data.n.shop_gerson++, 3)],
+         () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#p/basic}{#k/3}* A whole new world...",
+                    "<32>{#k/0}* Boy, I never thought I'd see the day.",
+                    "<32>{#k/3}* Dr. Alphys told everyone she'd started scanning for new worlds...",
+                    "<32>{#k/0}* Then, just a short time ago, she said she'd found one.",
+                    "<32>{#k/0}* It's called Eurybia.\n* Don't know much else about it beyond that.",
+                    "<32>{#k/1}* All I can be sure of is that it'll be better than this place.",
+                    "<32>{#k/3}* That's not to say I won't miss it.",
+                    "<32>{#k/0}* I've lived through the entire period of monster captivity...",
+                    "<32>{#k/0}* Leaving it so soon almost seems like a crime."
+                 ]
+               : world.genocide || world.killed0
+               ? [
+                    "<32>{#p/basic}{#k/3}* I've lived too long to be afraid of something like you.",
+                    "<32>{#k/2}* Try it, kiddo!",
+                    "<32>{#k/1}* ... I know you can't here.",
+                    "<32>{#k/4}* Wah ha...\n* Knowledge like that is part of the reason I've survived so long."
+                 ]
+               : [
+                    [
+                       "<32>{#p/basic}{#k/0}* 故园生活啊...\n* 嗯... 首先，故园是有名字的。\n  叫做克里乌斯。",
+                       "<33>{#k/3}* 我自己在城外一个\n  宁静的小镇中长大。\n* 嗯，应该还算宁静。",
+                       "<32>{#k/4}* 每隔几天，学校里的孩子们\n  就会组织单车竞速比赛。",
+                       "<32>{#k/0}* 有时候天公不作美，\n  但他们一点都不在乎。\n* 甚至，坏天气还让比赛\n  变得更刺激，更有趣了。",
+                       "<32>{#k/0}* 那时，我还是个小毛孩，\n  和家人参加过好多次竞速比赛。",
+                       "<32>{#k/0}* 你别误会。\n* “雷霆蜗牛”是很好玩，\n  但那可不是一回事。"
+                    ],
+                    [
+                       "<32>{#p/basic}{#k/3}* 我的家人？\n* 呃，没什么太多可说的。\n* 父母对我很好，\n  还有几个兄弟姐妹。",
+                       "<32>{#k/0}* 有一天，\n  Erogot国王来我们小镇。\n* 在一场竞速比赛中，\n  我和他碰面了。",
+                       "<32>{#k/0}* 我只是个不起眼的乡巴佬，\n  但他从我身上看到了别的东西，\n  那是某种特质...",
+                       "<32>{#k/4}* 一来二去，\n  我小小年纪就离开了家人。",
+                       "<32>{#k/3}* ...那次一别，\n  此后就再也没能见到家人。"
+                    ],
+                    [
+                       "<32>{#p/basic}{#k/0}* Erogot, 我们家园\n  上一个伟大时代的国王。",
+                       "<32>* 我相信你一定读过他的故事。",
+                       ...(SAVE.storage.inventory.has('artifact') // NO-TRANSLATE
+
+                          ? [ "<32>{#k/2}* 如果你没读过，\n  那你怎么拿着他的吊坠！？" ]
+                          : [
+                               "<32>{#k/2}* 如果你没读过，\n  难不成你活的这么长时间\n  都是在外星过的吗！？"
+                            ]),
+                       "<32>{#k/3}* 在他的通知下，\n  怪物一族发展到了现在的盛况。\n* 可能有点太盛了。",
+                       "<32>{#k/0}* 他第一次见到人类的时候\n  很高兴...\n  但不是为他自己而高兴。",
+                       "<32>{#k/1}* 喏，是他儿子的愿望。\n* 那可怜的孩子不仅完全\n  得到了他想要的，\n  还得到了更多..."
+                    ],
+                    [
+                       "<32>{#p/basic}{#k/3}* 抱歉，我不想谈太多\n  这个话题了。",
+                       "<32>{#k/1}* 老国王小毛球可不想让你\n  背负那样的重担。"
+                    ]
+                 ][Math.min(SAVE.data.n.shop_homeworld++, 3)],
+         () =>
+            SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#p/basic}{#k/0}* Toriel?\n* She came through here not too long ago, actually.",
+                    "<32>{#k/1}* Said she needed time to herself.",
+                    "<32>{#k/3}* Well, y'know what?\n* I figure she's had enough time by now.",
+                    "<32>{#k/0}* You can find her in the trash depository past the ladder in the room nearby.",
+                    "<32>{#k/3}* I'm pretty sure I know what's got her so pre-occupied..."
+                 ]
+               : world.genocide || world.killed0
+               ? 48 <= SAVE.data.n.plot
+                  ? [
+                       [
+                          "<32>{#p/basic}{#k/3}* Eh?\n* Fight you?",
+                          "<32>{#k/1}* Nah... I'm not a hero.\n* Not anymore.",
+                          "<32>{#k/0}* And b'sides...\n* You may have spared Undyne, but everyone else is still dead.",
+                          "<32>{#k/4}* I'm better off holding my ground right where I am..."
+                       ],
+                       [
+                          "<32>{#p/basic}{#k/3}* Eh?\n* Fight you?",
+                          "<32>{#k/1}* Nah... I'm not a hero.\n* Not anymore.",
+                          "<32>{#k/3}* And b'sides...\n* People seem to go missing after they run into you.",
+                          "<32>{#k/4}* I'll take that as an omen to stay right where I am..."
+                       ],
+                       [
+                          "<32>{#p/basic}{#k/3}* Eh?\n* Fight you?",
+                          "<32>{#k/1}* Nah... I'm not a hero.\n* Not anymore.",
+                          "<32>{#k/0}* And b'sides...\n* After what you did to Undyne, I know I don't stand a chance.",
+                          "<32>{#k/4}* I'm better off holding my ground right where I am..."
+                       ]
+                    ][world.genocide ? 2 : SAVE.data.n.state_foundry_undyne]
+                  : [
+                       "<32>{#p/basic}{#k/3}* Eh?\n* Fight you?",
+                       "<32>{#k/1}* Nah... I'm not a hero.\n* Not anymore.",
+                       "<32>{#k/0}* And b'sides...\n* These old bones aren't fit for fighting anyhoo.",
+                       "<32>{#k/1}* One attack from you, and then I'd... well...",
+                       "<32>{#k/4}* At least by talking to you, I've bought enough time for some of them to escape."
+                    ]
+               : postSIGMA()
+               ? [
+                    "<32>{#p/basic}{#k/3}* 你想了解铸厂？\n* 这个破地方？",
+                    "<32>{#k/3}* Well, recently, we've been having some electricity problems...",
+                    "<32>{#k/0}* Though I'm sure it's nothing the Foundry crew can't sort out.",
+                    "<32>{#k/2}* Those folks can't get enough of their engineering jobs!"
+                 ]
+               : 48 <= SAVE.data.n.plot && SAVE.data.n.state_foundry_undyne > 0
+               ? [
+                    [
+                       "<32>{#p/basic}{#k/3}* 你想了解铸厂？\n* 这个破地方？",
+                       "<32>{#k/3}* 嗯，这是个大家经常迷路...",
+                       "<32>{#k/3}* 或者被抛弃的地方...",
+                       "<32>{#k/2}* 孩子，我真希望这种事情\n  不会发生在你身上。"
+                    ],
+                    [
+                       "<32>{#p/basic}{#k/3}* 你想了解铸厂？\n* 这个破地方？",
+                       "<32>{#k/0}* 唉，这地方从来都\n  称不上友好...",
+                       "<32>{#k/3}* 从人类把我们死死逼到这里来，\n  到最近我们失去斗志...",
+                       "<32>{#k/3}* 这里只有厄运啊，孩子。"
+                    ]
+                 ][SAVE.data.n.state_foundry_undyne - 1]
+               : [
+                    "<32>{#p/basic}{#k/3}* 你想了解铸厂？\n* 这个破地方？",
+                    "<32>{#k/2}* 回想我们刚被困在这里时，\n  这里就是前哨站！",
+                    "<32>{#k/0}* 所有后来添加的花哨部分\n  都是由我们这些怪物建造的。",
+                    "<32>{#k/0}* 事实证明，\n  大多数人都不喜欢活在过去。\n* 确实在理。",
+                    "<32>{#k/2}* 但是... 我只是觉得\n  改造这个地方太安逸了。",
+                    "<32>{#k/3}* 是人类把我们困在这里，\n  希望我们在黑暗中腐烂受苦。",
+                    "<32>{#k/0}* 但看看现在的我们。\n* 看看我们把这里\n  变成了自己的地盘。",
+                    "<32>{#k/2}* 哇哈哈！\n* 得让他们知道知道，\n  谁才是老大！"
+                 ],
+         () =>
+            SAVE.data.b.c_state_secret2 && !SAVE.data.b.c_state_secret2_used
+               ? ((SAVE.data.b.c_state_secret2_used = true),
+                 [
+                    "<32>{#p/basic}{#k/3}* What?\n* Where on Krios did you learn THAT handshake?",
+                    "<32>{#k/2}* I haven't shown anyone that routine in years!",
+                    "<32>{#k/0}* Wa ha ha... but I think I know where ya learned it from.",
+                    "<32>{#k/0}* Long time ago, a human came here... me and them became good friends.",
+                    ...(SAVE.data.n.plot === 72
+                       ? [
+                            "<32>{#k/3}* Maybe we still are.\n* I'll have to ask 'em when they wake up.",
+                            "<32>{#k/4}* I've only just adopted the little rascal...",
+                            "<32>{#k/0}* They seem pretty tired after all that archive business.",
+                            "<32>{#k/3}* Imagine...\n* Living in a virtual world...",
+                            "<32>{#k/2}* If you die in the simulation, do you die in real life?",
+                            "<32>{#k/0}* Eh, never mind.\n* It doesn't matter now, anyway."
+                         ]
+                       : [ "<32>{#k/3}* I wonder what they're up to now..." ])
+                 ])
+               : SAVE.data.n.plot === 72
+               ? [
+                    "<32>{#p/basic}{#k/0}* Frisk, I could talk about you all day after what you did.",
+                    "<32>{#k/4}* Risking your life, facing down a godlike being just to save us...",
+                    "<32>{#k/3}* The words strong enough to do it justice don't exist.",
+                    "<32>{#k/0}* I think, sometime in your future, if you really wanted it...",
+                    "<32>{#k/0}* You could lead the monster race yourself, as ruler.",
+                    "<33>{#k/2}* Everyone would follow you.\n* Even this old coot!",
+                    "<32>{#k/0}* You're a real hero, kid."
+                 ]
+               : 48 <= SAVE.data.n.plot
+               ? world.genocide
+                  ? [
+                       [
+                          "<32>{#p/basic}{#k/1}* I take it you've killed her by now?",
+                          "<32>{#k/1}* ...",
+                          "<32>{#k/3}* Then why ask me...",
+                          "<32>{#k/3}* Unless...",
+                          "<32>{#k/2}* You just wanna get my reaction, don'tcha?",
+                          "<32>{#k/4}* ...",
+                          "<32>{#k/4}* How about... nah."
+                       ],
+                       [
+                          "<32>{#p/basic}{#k/1}* I get it, guys.",
+                          "<32>{#k/1}* She's dead.",
+                          "<32>{#k/3}* You expectin' me to throw a party for you or somethin'?",
+                          "<32>{#k/1}* Get outta my sight."
+                       ]
+                    ][Math.min(SAVE.data.n.shop_deadfish++, 1)]
+                  : SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
+
+                  ? [
+                       "<32>{#p/basic}{#k/1}* ...",
+                       "<32>{#k/1}* You've got a real twisted sense of humor, kiddo.",
+                       "<32>{#k/3}* Killing her in front of me like that...",
+                       "<32>{#k/1}* You're lucky I don't walk out there and kill you myself."
+                    ]
+                  : world.killed0
+                  ? [
+                       [
+                          "<32>{#p/basic}{#k/4}* Undyne?",
+                          49 <= SAVE.data.n.plot
+                             ? "<32>{#k/4}* She passed through here earlier..."
+                             : "<32>{#k/4}* She just passed through here a few moments ago.",
+                          "<32>{#k/0}* Said she'd \"given up\" on tryin'a capture you.",
+                          "<32>{#k/4}* ...",
+                          "<32>{#k/4}* What happened back there...?"
+                       ],
+                       [
+                          "<32>{#p/basic}{#k/3}* Undyne?",
+                          "<32>{#k/0}* I haven't heard from her in a while.",
+                          "<32>{#k/4}* She just kinda... disappeared.",
+                          "<32>{#k/3}* Was that your doing?"
+                       ],
+                       [
+                          [
+                             "<32>{#p/basic}{#k/1}* ...",
+                             "<32>{#k/1}* You killed her, just like you killed everyone else.",
+                             "<32>{#k/3}* Granted, she wasn't intent on letting YOU live...",
+                             "<32>{#k/1}* But don't act like this was just self-defense for you.",
+                             "<32>{#k/3}* Wa ha...\n* I know you better than that."
+                          ],
+                          [ "<32>{#p/basic}{#k/4}* ...", "<32>{#k/0}* What more is there to say?" ]
+                       ][Math.min(SAVE.data.n.shop_deadfish++, 1)]
+                    ][SAVE.data.n.state_foundry_undyne]
+                  : [
+                       2 <= SAVE.data.n.plot_date
+                          ? SAVE.data.b.undyne_respecc
+                             ? [
+                                  "<32>{#p/basic}{#k/4}* So you and her had a good time, eh?",
+                                  "<32>{#k/2}* Wa ha ha!",
+                                  "<32>{#k/0}* You've really made a good impression on her, kiddo!"
+                               ]
+                             : [
+                                  "<32>{#p/basic}{#k/4}* So are you and her... friends now?",
+                                  "<32>{#k/2}* Wa ha ha!",
+                                  "<32>{#k/0}* You've done something I never thought possible, kiddo!"
+                               ]
+                          : [
+                               [
+                                  "<32>{#p/basic}{#k/4}* Undyne?",
+                                  49 <= SAVE.data.n.plot
+                                     ? "<32>{#k/4}* She passed through here earlier..."
+                                     : "<32>{#k/4}* She just passed through here a few moments ago.",
+                                  SAVE.data.b.undyne_respecc
+                                     ? "<32>{#k/0}* Said she was proud to have fought an \"honorable\" human."
+                                     : "<32>{#k/0}* Said she was \"done\" tryin'a capture you.",
+                                  "<32>{#k/4}* ...",
+                                  "<32>{#k/4}* The heck did you do to make her say THAT?"
+                               ],
+                               [
+                                  "<32>{#p/basic}{#k/4}* If you're askin' me where to find her, she's at home.\n* Ain't but a few steps away.",
+                                  "<32>{#k/3}* From her words to me before...",
+                                  SAVE.data.b.undyne_respecc
+                                     ? "<32>{#k/4}* It seems you two are on better terms than I thought."
+                                     : "<32>{#k/4}* It seems you two have some things to work out."
+                               ]
+                            ][Math.min(SAVE.data.n.shop_deadfish++, 1)],
+                       [
+                          "<32>{#p/basic}{#k/3}* Undyne?",
+                          "<32>{#k/0}* I haven't heard from her in a while.",
+                          "<32>{#k/4}* She just kinda... disappeared.",
+                          "<32>{#k/1}* Something tells me you played a part in that..."
+                       ],
+                       [
+                          [
+                             "<32>{#p/basic}{#k/4}* ...",
+                             "<32>{#k/0}* Well... you killed her.",
+                             "<32>{#k/3}* Though, that's kinda her own doing.",
+                             "<32>{#k/4}* I never really got why she was so intent on killing you humans...",
+                             "<32>{#k/0}* If she wanted your SOUL, couldn't she just wait until you died naturally?"
+                          ],
+                          [ "<32>{#p/basic}{#k/4}* ...", "<32>{#k/0}* What more is there to say?" ]
+                       ][Math.min(SAVE.data.n.shop_deadfish++, 1)]
+                    ][SAVE.data.n.state_foundry_undyne]
+               : world.genocide
+               ? [
+                    "<32>{#p/basic}{#k/0}* Undyne?\n* Oh, that poor little urchin.\n* Normally, I'd call her the hero...",
+                    "<32>{#k/1}* But to be honest, I've seen what you've done.\n* She doesn't stand a chance.",
+                    "<32>{#k/4}* Don't get me wrong, she'll give ya one hell of a fight.",
+                    "<32>{#k/3}* But no... the outpost needs a different kinda hero now.",
+                    "<32>{#k/3}* Someone that doesn't operate on brawn and bravado...",
+                    "<32>{#k/3}* Someone that doesn't see the universe like everyone else...",
+                    "<32>{#k/0}* Wa ha ha.\n* I don't doubt someone like that will be the end of you."
+                 ]
+               : world.killed0
+               ? world.trueKills > 29
+                  ? [
+                       "<32>{#p/basic}{#k/1}* I'm not a hero.",
+                       "<32>{#k/3}* But I know there's someone out there.",
+                       "<32>* Someone who'll never give up trying to do the right thing, no matter what.",
+                       "<32>{#k/0}* There's no prophecy or legend 'bout anyone like that.",
+                       "<32>* It's just something I know is true.",
+                       "<32>{#k/3}* One day, someone like that will hunt you down."
+                    ]
+                  : [
+                       "<32>{#p/basic}{#k/1}* I'm not a hero.",
+                       "<32>{#k/3}* But I know there's someone out there.",
+                       "<32>* Someone who'll never give up trying to do the right thing, no matter what.",
+                       "<32>{#k/0}* I'd watch your back, kiddo.",
+                       "<32>{#k/0}* 'Cause sooner or later, before you know it...",
+                       "<32>{#k/3}* ... you'll be as good as dead."
+                    ]
+               : world.trueKills > 29
+               ? [
+                    "<32>{#p/basic}{#k/0}* Undyne？\n* 是啊，她在这一带是当地的英雄。",
+                    "<32>{#k/3}* She stormed off earlier... seemed pretty upset at someone who looked just like you...",
+                    "<32>{#k/2}* 我会帮你一把的，孩子。\n* 买些东西吧...\n* 说不定能救你一命呢！\n* 哇哈哈！"
+                 ]
+               : [
+                    "<32>{#p/basic}{#k/0}* Undyne？\n* 是啊，她在这一带是当地的英雄。",
+                    "<32>{#k/4}* 凭借勇气和决心，\n  她一路奋斗到皇家守卫的顶点。",
+                    "<32>{#k/3}* 事实上，她刚刚来这里问过\n  有没有见到一个长得\n  很像你的人...",
+                    "<32>{#k/2}* 我会帮你一把的，孩子。\n* 买些东西吧...\n* 说不定能救你一命呢！\n* 哇哈哈！"
+                 ]
+      ],
+      zeroPrompt: "<09>{#p/basic}..."
+   },
+
+   s_save_foundry: {
+      f_abyss: {
+         name: "铸厂 - 深渊",
+         text: [
+            "<32>{#p/human}* （你发现自己身处\n  前哨站的最低点。）",
+            "<32>{#p/human}* （这种身处边境的不定感\n  使你充满了决心。）"
+         ]
+      },
+      f_battle: {
+         name: "铸厂 - 钢索桥",
+         text: () =>
+            SAVE.data.n.state_foundry_undyne > 0 || world.runaway
+               ? [ "<32>{#p/human}* (The starlight dims, filling you with determination.)" ]
+               : [
+                    "<32>{#p/human}* (The starlight glimmers, distant as it may be.)",
+                    "<32>{#p/human}* (This fills you with determination.)"
+                 ]
+      },
+      f_hub: {
+         name: "铸厂 - 宁静地带",
+         text: () =>
+            SAVE.data.n.state_foundry_undyne > 0 || world.runaway
+               ? [
+                    "<32>{#p/human}* (The silence is deafening...)",
+                    "<32>{#p/human}* (Yet it fills you with determination.)"
+                 ]
+               : SAVE.data.n.plot === 72
+               ? [ "<32>{#p/human}* (Returning to such a quiet place after your journey fills you with determination.)" ]
+               : SAVE.data.n.plot < 48
+               ? [
+                    "<32>{#p/human}* （在持续的混乱中\n  得到短暂的喘息...）",
+                    "<32>{#p/human}* （这使你充满了决心。）"
+                 ]
+               : SAVE.data.n.plot_date < 2.1
+               ? [ "<32>{#p/human}* (The chaos has come to an end, filling you with determination.)" ]
+               : SAVE.data.n.exp > 0
+               ? [
+                    "<32>{#p/human}* (In with the steam comes the bitter scent of betrayal.)",
+                    "<32>{#p/human}* （这使你充满了决心。）"
+                 ]
+               : [
+                    "<32>{#p/human}* (In with the steam comes the sweet scent of friendship.)",
+                    "<32>{#p/human}* （这使你充满了决心。）"
+                 ]
+      },
+      f_lobby: {
+         name: "铸厂 - 暗区",
+         text: () =>
+            SAVE.data.n.plot < 39
+               ? [ "<32>{#p/human}* （在铸厂的深处漫步，\n  使你充满了决心。）" ]
+               : SAVE.data.n.state_foundry_muffet === 1
+               ? [ "<32>{#p/human}* (Thinking of the friends you corrupted along the way fills you with determination.)" ]
+               : SAVE.data.b.f_state_kidd_betray
+               ? [ "<32>{#p/human}* (Thinking of the friends you betrayed along the way fills you with determination.)" ]
+               : world.runaway
+               ? [
+                    "<32>{#p/human}* (Thinking of the friends you'll never get to see again fills you with determination.)"
+                 ]
+               : SAVE.data.b.svr
+               ? [
+                    "<32>{#p/human}* (Thinking of the friends you went the extra mile to save fills you with determination.)"
+                 ]
+               : [ "<32>{#p/human}* (Thinking of the friends you made along the way fills you with determination.)" ]
+      },
+      f_prechase: {
+         name: "铸厂 - 岔路口",
+         text: () =>
+            SAVE.data.b.svr
+               ? [
+                    "<32>{#p/human}* (Despite it only being useful for you and your company...)",
+                    "<32>{#p/human}* (The newly-built bridge nearby still fills you with determination.)"
+                 ]
+               : world.runaway
+               ? [
+                    "<32>{#p/human}* (Despite you being the only one who'll get to use it now...)",
+                    "<32>{#p/human}* (The newly-built bridge nearby still fills you with determination.)"
+                 ]
+               : SAVE.data.n.plot < 48
+               ? [
+                    "<32>{#p/human}* （塔架谜题、讯星，\n  还有老式通风口...)",
+                    "<32>{#p/human}* （如同变幻莫测的滑稽剧一般，\n  使你充满了决心。）"
+                 ]
+               : [
+                    "<32>{#p/human}* (A bridge now sits amidst the surroundings.)",
+                    "<32>{#p/human}* (This development fills you with determination.)"
+                 ]
+      },
+      f_sans: {
+         name: "铸厂 - 边检站",
+         text: () =>
+            world.dead_skeleton || world.runaway
+               ? [
+                    "<32>{#p/human}* （不知怎地，通风口排出的\n  蒸汽令人不安。）",
+                    "<32>{#p/human}* （尽管如此，你充满了\n  决心。）"
+                 ]
+               : [ "<32>{#p/human}* （通风口冒出的湿热蒸汽使你\n  充满了决心。）" ]
+      },
+      f_shyren: {
+         name: "铸厂 - 售货机",
+         text: () =>
+            SAVE.data.b.killed_shyren
+               ? [ "<32>{#p/human}* (A sad stillness permeates the air, filling you with determination.)" ]
+               : SAVE.data.n.plot < 40
+               ? [ "<32>{#p/human}* （耳边回荡的嗡嗡声，\n  使你充满了决心。）" ]
+               : [ "<32>{#p/human}* (The sound of music fills you with determination.)" ]
+      },
+      f_tunnel: {
+         name: "铸厂 - 垃圾场",
+         text: () =>
+            SAVE.data.n.plot < 42.1
+               ? [ "<32>{#p/human}* （在垃圾中迷失方向\n  使你充满了决心。）" ]
+               : [ "<32>{#p/human}* (Finding yourself back amongst the trash fills you with determination.)" ]
+      }
+   }
+};
+
+
+// END-TRANSLATE
