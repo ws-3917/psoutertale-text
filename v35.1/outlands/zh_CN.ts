@@ -573,17 +573,17 @@ export default {
          d: [ "<32>{#p/basic}{#n1}* 不要... 不要！", "<32>* 离-离我远点！" ]
       },
       asriel0: [
-         "<25>{#p/asriel2}{#f/5}* ...没关系！\n  我知道你很守时的！",
-         "<25>{#p/asriel2}{#f/1}* 你不会让我失望的，对吧？"
+         "<25>{#p/asriel2}{#f/5}* ...没事！\n  我知道你很守时的！",
+         "<25>{#p/asriel2}{#f/1}* 别让我失望哦。"
       ],
       asriel1: () =>
          [
             [
-               "<25>{#p/asriel2}{#f/2}* 对不起，耽搁了会时间。\n  我用Toriel的手机喊了个人。",
-               "<25>{#p/asriel2}{#f/1}* 别多想...\n* 马上你就懂了。",
-               "<25>{#p/asriel2}{#f/2}* ...嘻嘻嘻。\n* 我上前头等你。"
+               "<25>{#p/asriel2}{#f/2}* 对不起，耽搁了一会。\n  我刚才用Toriel的手机喊了个人。",
+               "<25>{#p/asriel2}{#f/1}* 别着急，马上你就懂了。",
+               "<25>{#p/asriel2}{#f/2}* 嘻嘻嘻...\n* 我到前面等你。"
             ],
-            [ "<25>{#p/asriel2}{#f/4}* 我上前头等你。" ],
+            [ "<25>{#p/asriel2}{#f/4}* 我到前面等你。" ],
             [ "<25>{#p/asriel2}{#f/3}* ..." ]
          ][Math.min(SAVE.flag.n.ga_asrielNegative1++, 1)],
       asriel2: [
@@ -2142,11 +2142,11 @@ export default {
       mananaX: () =>
          [
             [
-               "<32>{#p/basic}{#n1}* Now what was THAT racket?",
-               "<32>{#p/basic}{#n1}* Er, sorry, my eyesight's not what it used to be..."
+               "<32>{#p/basic}{#n1}* 呃，刚才什么动静？",
+               "<32>{#p/basic}{#n1}* 唉... \n  现在不行啦，眼睛花了。"
             ],
-            [ "<32>{#p/basic}{#n1}* Huh?\n* It happened again?\n* Tch, kids these days..." ],
-            [ "<32>{#p/basic}{#n1}* Kids these days..." ]
+            [ "<32>{#p/basic}{#n1}* 啊？\n* 怎么又整出这动静了？\n  现在的孩子啊..." ],
+            [ "<32>{#p/basic}{#n1}* 现在的孩子啊..." ]
          ][Math.min(roomKills().w_puzzle4++, 2)],
       afrogX: (k: number) =>
          [
@@ -2626,7 +2626,7 @@ export default {
          b: [ "<25>{#p/toriel}{#f/1}* 小家伙，终端就在那里。\n  去输下密码吧。" ]
       },
       latetoriel1: [
-         "<25>{#p/toriel}{#npc/a}{#f/2}* ...!",
+         "<25>{#p/toriel}{#npc/a}{#f/2}* ...！",
          "<25>{#f/5}* What are you doing out here, my ch...",
          "<25>{#f/9}* ... child...",
          "<25>{#f/5}* I cannot care for you any longer, child.\n* Nor should I.",
@@ -2695,7 +2695,7 @@ export default {
                "<25>{#f/13}* It took everything I had to resist it.",
                "<25>{#f/15}* And then, because of me, we...",
                "<25>{#f/22}* Well, that's why I ended up the way I did.",
-               "<25>{#f/23}* ... Frisk.",
+               "<25>{#f/23}* ...Frisk.",
                "<25>{#f/17}* This whole time, I've blamed myself for that decision.",
                "<25>{#f/13}* It's why I adopted that horrible view of the world.",
                "<25>{#f/13}* \"Kill or be killed.\"",
@@ -2834,7 +2834,7 @@ export default {
                     "<32>* (I wasn't going to, but then, he just seemed so sad...)",
                     "<32>* (He's probably at the platform just past the entrance now.)",
                     "<32>* (Go. Speak to him. Something good will come of it.)\n* Ribbit.",
-                    "<32>{#p/basic}* ... Asriel..."
+                    "<32>{#p/basic}* ...Asriel..."
                  ]
                : [
                     "<32>{#p/basic}* 呱呱，呱呱。\n* （唉...）",
@@ -3765,7 +3765,7 @@ export default {
          "<20>{*}{#f/12}搞什... \n你是脑残还是怎么着？？",
          "<20>{*}{#x2}给{^4} 我{^4} 撞{^4} 子弹！！！{^20}{*}{#x1}{^999}"
       ],
-      twinkly14: "给 我 撞 幸福碎片～",
+      twinkly14: "给 我 撞 幸福碎片~",
       twinkly15: [
          "<20>{#v/1}嘻嘻嘻...",
          "<20>在这个世界中...\n不是杀人就是被杀。",

@@ -146,24 +146,24 @@ export default {
          "<32>* You must be really tasty."
       ],
       shockpapyrus0a: [
-         "<15>{#p/papyrus}{#e/papyrus/27}WHAT ON KRIOS IS GOING ON HERE??",
-         "<15>{#p/papyrus}{#e/papyrus/21}我就在陽臺\n接了通電話，\n應約來這...",
+         "<15>{#p/papyrus}{#e/papyrus/27}我克-\n這裡發生啥了？？",
+         "<15>{#p/papyrus}{#e/papyrus/21}剛才我在陽臺，\n有個電話打過來\n叫我來這...",
          "<15>{#p/papyrus}{#e/papyrus/19}結果就看到你倆！？",
          "<15>{#p/papyrus}{#e/papyrus/14}告訴你們，我可是\n皇家衛隊的預備隊員！",
          "<15>{#p/papyrus}{#e/papyrus/15}不管你倆\n想幹什麼..."
       ],
       shockpapyrus0b: [
-         "<15>{#p/papyrus}{#e/papyrus/24}...等下，這個聲音...",
+         "<15>{#p/papyrus}{#e/papyrus/24}...等等，這個聲音...",
          "<15>{#p/papyrus}{#e/papyrus/22}原來喊我來這的\n就是你啊！？"
       ],
       shockpapyrus0c: [
-         "<15>{#p/papyrus}{#e/papyrus/20}...咳，當然了！\n這就說得通了！",
+         "<15>{#p/papyrus}{#e/papyrus/20}...對！\n這就說得通了！",
          "<15>{#p/papyrus}{#e/papyrus/10}那...\n很高興認識你。",
          "<15>{#p/papyrus}{#e/papyrus/24}說實話，\n你長得有點像...",
          "<15>{#p/papyrus}{#e/papyrus/20}...嘿，等一下！！",
          "<15>{#p/papyrus}{#e/papyrus/22}你帶了個【人類】\n過來嗎！？！？",
          "<15>{#p/papyrus}{#e/papyrus/10}哇！！\n今天好事連連啊！！",
-         "<15>{#p/papyrus}{#e/papyrus/20}話說回來，\n你喊我來這\n幹嘛呢？"
+         "<15>{#p/papyrus}{#e/papyrus/20}話說回來，\n你喊我來這幹嘛呢？"
       ],
       shockpapyrus1: () =>
          [
@@ -390,7 +390,7 @@ export default {
          "* （生鏽的鑰匙被添加到了\n  你的鑰匙串上。）",
          "<32>* （打開「電話」來檢查\n  所有獲得的鑰匙。）"
       ],
-      capstation2: [ "<32>{#p/human}* (You look behind the station.)", "<32>{#p/basic}* Nothing new back here." ],
+      capstation2: [ "<32>{#p/human}* (You look behind the station.)", "<32>{#p/basic}* 沒什麼新東西。" ],
       crossword0: () =>
          world.edgy
             ? [
@@ -1000,11 +1000,11 @@ export default {
          () =>
             world.edgy
                ? [
-                    "<25>{#p/sans}{#f/0}* what are you going back there for, huh?",
-                    "<25>{#p/sans}{#f/3}* come on.\n* at least try to be a good sport."
+                    "<25>{#p/sans}{#f/0}* 嗯？你要回哪去？",
+                    "<25>{#p/sans}{#f/3}* 試試嘛，\n  起碼配合一下。"
                  ]
-               : [ "<18>{#p/papyrus}{#x2}{#f/7}你在往哪裡走呢！？" ],
-         () => (world.edgy ? [ "<25>{#p/sans}{#f/0}* seriously?" ] : [ "<18>{#p/papyrus}{#x2}{#f/7}快回來！！" ])
+               : [ "<18>{#p/papyrus}{#x2}{#f/7}你往哪裡走呢！？" ],
+         () => (world.edgy ? [ "<25>{#p/sans}{#f/0}* 真要走？" ] : [ "<18>{#p/papyrus}{#x2}{#f/7}快回來！！" ])
       ),
       maze7: [
          [
@@ -1119,10 +1119,10 @@ export default {
       nicecreamFc5: [ "<32>{#p/basic}* 別忘了從箱子裡\n  拿一張明信片！" ],
       nicecreamNoFun1: [ "<32>{#p/basic}* 嗯？\n* 你的口袋裡沒有\n  空地方了..." ],
       nicecreamNoFun2: [ "<32>{#p/basic}* I wish I could make Ice Dreams easier to store..." ],
-      nicecreamNoMun1: [ "<32>{#p/basic}* Huh?\n* You don't have enough money..." ],
-      nicecreamNoMun2: [ "<32>{#p/basic}* I wish I could make Ice Dreams for free..." ],
-      nicecreamFree1: [ "<32>{#p/basic}* Tell you what, have your first one on me." ],
-      nicecreamFree2: [ "<32>{#p/basic}* Enjoy..." ],
+      nicecreamNoMun1: [ "<32>{#p/basic}* 嗯？\n* 你的錢不太夠..." ],
+      nicecreamNoMun2: [ "<32>{#p/basic}* 我也希望\n  做棒冰不用花錢..." ],
+      nicecreamFree1: [ "<32>{#p/basic}* 告訴你一個好訊息，\n  第一根棒冰，免費送你。" ],
+      nicecreamFree2: [ "<32>{#p/basic}* 希望你喜歡..." ],
       nicecreamReturnWithGoods: [ "<32>{#p/basic}* 沒關係，\n  你隨時都可以回來買。" ],
       nicecreamReturnWithNeeds: [ "<32>{#p/basic}* 喔，沒關係的。", "<32>* 晚點再來啊，孩子！" ],
       nicecreamPurchase: [ "<32>{#p/basic}* 給你！\n* 祝你有個超級棒的一天！" ],
@@ -2419,25 +2419,25 @@ export default {
                   ? [ "<32>{#p/human}* (But you already completed this puzzle beforehand.)" ]
                   : [ "<32>{#p/basic}* The terminal is now in an unlocked state." ]
                : [ "<32>{#p/basic}* It's out of service." ],
-         microwave0: [ "<32>{#p/human}* (You look behind the microwave...)", "<32>{#p/basic}* Nothing useful here." ],
+         microwave0: [ "<32>{#p/human}* （你看了看微波爐的後面...）", "<32>{#p/basic}* 沒什麼有用的東西。" ],
          microwave1: () =>
             SAVE.data.b.svr
                ? [
-                    "<32>{#p/human}* (You look behind the microwave...)",
-                    "<32>{#s/equip}{#p/human}* (You pulled the switch.)"
+                    "<32>{#p/human}* （你看了看微波爐的後面...）",
+                    "<32>{#s/equip}{#p/human}* （你按下了開關。）"
                  ]
                : [
-                    "<32>{#p/human}* (You look behind the microwave...)",
-                    "<32>{#p/basic}* There's a switch here...",
-                    "<32>{#s/equip}{#p/human}* (You pulled the switch.)"
+                    "<32>{#p/human}* （你看了看微波爐的後面...）",
+                    "<32>{#p/basic}* 這裡有個開關...",
+                    "<32>{#s/equip}{#p/human}* （你按下了開關。）"
                  ],
          microwave2: () =>
             SAVE.data.b.svr
                ? [
-                    "<32>{#p/human}* (You look behind the microwave...)",
+                    "<32>{#p/human}* （你看了看微波爐的後面...）",
                     "<32>{#p/human}* (But you already flipped the switch here.)"
                  ]
-               : [ "<32>{#p/human}* (You look behind the microwave...)", "<32>{#p/basic}* Nothing new back here." ],
+               : [ "<32>{#p/human}* （你看了看微波爐的後面...）", "<32>{#p/basic}* 沒什麼新東西。" ],
          microwave3: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (But you didn't notice anything of note about this appliance.)" ]
@@ -3530,7 +3530,7 @@ export default {
          "<18>{#p/papyrus}{#f/6}唉，我有理由懷疑...",
          "<18>{#p/papyrus}{#f/5}...他好像\n刻意想讓我躲著你。",
          "<18>{#p/papyrus}{#f/7}真不愧是他！！！",
-         "<18>{#p/papyrus}{#f/0}但是，\n只要你不說，我不說～",
+         "<18>{#p/papyrus}{#f/0}但是，\n只要你不說，我不說~",
          "<18>{#p/papyrus}{#f/9}那懶骨頭\n就甭想知道【一丁點】\n咱們的「地下情誼」！"
       ],
       papyrus6x3: [
@@ -4031,8 +4031,8 @@ export default {
       sans8: [ "<18>{#p/papyrus}嘿！" ],
       sans9: [ "<25>{#p/sans}* 好了，是時候把你\n  弄下來了。" ],
       sans10: [
-         "<25>{#p/sans}{#f/0}* 事實上，嘿...\n  在你繼續往外走之前...",
-         "<25>{#f/3}* 你得知道，\n  皇家守衛正在找你呢。",
+         "<25>{#p/sans}{#f/0}* 嘿，對了...\n* 走之前，我得跟你說...",
+         "<25>{#f/3}* 皇家守衛正在找你呢。",
          "<25>{#f/0}* 不過你別擔心。\n* 他們拿得出手的只有狗狗。",
          "<25>{#f/0}* 你既然是人類，\n  那肯定知道狗狗\n  喜歡什麼，對吧？",
          "<25>{#f/2}* 它們和papyrus差不多，\n  人畜無害。"
@@ -4144,12 +4144,12 @@ export default {
                     ]
                   : world.killed5
                   ? [
-                       "<25>{#p/sans}{#f/3}* i hear the area's being evacuated right now...",
-                       "<25>{#f/0}* if i were you, i'd be afraid for my life."
+                       "<25>{#p/sans}{#f/3}* 我聽說，\n  這裡的怪物都四散而逃了...",
+                       "<25>{#f/0}* 奉勸你最好小心點，\n  別把小命丟了。"
                     ]
                   : [
-                       "<25>{#p/sans}{#f/3}* 我不知道現在我兄弟\n  要幹什麼去了。",
-                       "<25>{#f/0}* 如果我是你，\n  我會確保自己理解\n  {@fill=#ff993d}橙色攻擊{@fill=#fff}。"
+                       "<25>{#p/sans}{#f/3}* 不知道我兄弟\n  現在又要去幹啥。",
+                       "<25>{#f/0}* 我覺得，你可以趁這會\n  複習一下{@fill=#ff993d}橙色攻擊{@fill=#fff}。"
                     ],
             () =>
                world.edgy
@@ -4159,16 +4159,16 @@ export default {
                     ]
                   : world.killed5
                   ? [
-                       "<25>{#p/sans}{#f/0}* thankfully, i have someone who cares about my well-being.",
-                       "<25>{#f/2}* no matter what happens, i know he'll be there for me."
+                       "<25>{#p/sans}{#f/0}* 我好歹有親兄弟\n  願意無條件關心我，支援我。",
+                       "<25>{#f/2}* 而你..."
                     ]
-                  : [ "<25>{#p/sans}{#f/2}* 喔，也許還得加上{@fill=#00a2e8}藍色{@fill=#fff}攻擊。" ],
+                  : [ "<25>{#p/sans}{#f/2}* 喔，順帶再複習下{@fill=#00a2e8}藍色攻擊{@fill=#fff}。" ],
             () =>
                world.edgy
                   ? [ "<25>{#p/sans}{#f/3}* 就是這樣。" ]
                   : world.killed5
-                  ? [ "<25>{#p/sans}{#f/0}* 是我錯了？" ]
-                  : [ "<26>{#p/sans}{#f/0}* 各種攻擊也是。" ]
+                  ? [ "<25>{#p/sans}{#f/0}* 我說錯了？" ]
+                  : [ "<26>{#p/sans}{#f/0}* 還有其他攻擊。" ]
          )
       },
       sansbredgey: () =>
@@ -4176,16 +4176,16 @@ export default {
             ? 6 <= world.population
                ? [
                     "<25>{#p/sans}* 對了...",
-                    "<25>* i know i've been harsh on you lately...",
-                    "<25>{#f/3}* but thanks for trying to be a better person.",
-                    "<25>{#f/2}* keep it up, ok?"
+                    "<25>* 我知道，之前待你有些不周...",
+                    "<25>{#f/3}* 很高興你願意\n  做個更善良的人。",
+                    "<25>{#f/2}* 堅持下去，好嗎？"
                  ]
                : world.bullied
                ? [
                     "<25>{#p/sans}* 對了...",
-                    "<25>* i know you're still going around hurting people...",
-                    "<25>{#f/3}* but i appreciate the effort not to outright to kill them.",
-                    "<25>{#f/2}* it's something, right?"
+                    "<25>* 我知道，你還在繼續\n  殺戮平民、傷害怪物...",
+                    "<25>{#f/3}* 不過，至少你沒有\n  放任自流，屠殺殆盡。",
+                    "<25>{#f/2}* 挺好的，是吧？"
                  ]
                : [
                     "<25>{#p/sans}* 對了...",
@@ -4198,15 +4198,15 @@ export default {
             ? [
                  "<25>{#p/sans}* 對了...",
                  "<25>* 我知道我兄弟\n  有時候蠢蠢的...",
-                 "<25>{#f/3}* 但是謝謝你配合\n  他瘋狂的計畫。",
-                 "<25>{#f/2}* 你是個冠軍。"
+                 "<25>{#f/3}* 謝謝你願意配合\n  他那些瘋狂的計畫。",
+                 "<25>{#f/2}* 你真的很棒。"
               ]
             : world.bullied
             ? [
                  "<25>{#p/sans}* 對了...",
-                 "<25>* i know you've been going around hurting people...",
-                 "<25>{#f/3}* but i appreciate the effort not to outright to kill them.",
-                 "<25>{#f/2}* it's something, right?"
+                 "<25>* 我知道，\n  你在殺戮平民、傷害怪物...",
+                 "<25>{#f/3}* 不過，至少你沒有\n  放任自流，屠殺殆盡。",
+                 "<25>{#f/2}* 挺好的，是吧？"
               ]
             : [
                  "<25>{#p/sans}* 對了...",
@@ -5432,13 +5432,13 @@ export default {
                : !world.genocide && world.edgy
                ? [
                     "<32>{#p/basic}* It's a note from Sans...",
-                    "<32>{#p/without}* \"whoops.\"\n* \"seems like you've found my bro's spaghetti.\"",
-                    "<32>* \"looks tasty, right?\"",
-                    "<32>* \"well.\"\n* \"it turns out that's kind of the point.\"",
-                    "<32>* \"i'd be careful with it if i were you...\"",
-                    "<32>* \"'cause the more time you spend eating this...\"",
-                    "<32>* \"the more time i have to prepare for the next puzzle.\"",
-                    "<#23>  \"joke's on you,\"\n  sans"
+                    "<32>{#p/without}* 「哎呀，」\n* 「你發現了我兄弟的義大利麵。」",
+                    "<32>* 「是不是看起來很香，很好吃？」",
+                    "<32>* 「嘿，」\n* 「那就對了。」",
+                    "<32>* 「不過，不要因此掉以輕心喔...」",
+                    "<32>* 「因為，趁你忙著享受\n  義大利麵的時候...」",
+                    "<32>* 「我就有更多時間\n  準備下一個謎題了。」",
+                    "<#23>  「開個玩笑而已，」\n  sans"
                  ]
                : [
                     "<32>{#p/basic}* 這是張Papyrus留的字條...",
@@ -6691,9 +6691,9 @@ export default {
             ? [ "<15>{#p/papyrus}{#f/21}SANS，我...", "<15>{#f/33}{@random=1.1/1.1}我讓你失望了..." ]
             : papreal()
             ? [
-                 "<15>{#p/papyrus}{#f/27}... B-BUT I STILL BELIEVE IN YOU!",
-                 "<15>{#p/papyrus}{#f/21}I KNOW... YOU CAN DO BETTER...",
-                 "<15>{#p/papyrus}{#f/27}IF YOU JUST TRY...!"
+                 "<15>{#p/papyrus}{#f/27}...盡-儘管如此，\n我仍然相信你！",
+                 "<15>{#p/papyrus}{#f/21}只要你努力，\n肯定能變得更好...",
+                 "<15>{#p/papyrus}{#f/27}我-我保證...！"
               ]
             : [ "<15>{#p/papyrus}{#f/27}...幸-幸好，\n我的頭還在！" ],
       dots: [ "<32>{#p/basic}* ..." ],
@@ -9770,23 +9770,23 @@ export default {
                ? [ "<18>{#f/9}DON'T HESITATE TO COME IN!" ]
                : SAVE.data.n.plot_date < 2.1
                ? [
-                    "<18>{#f/6}... YOU'RE STILL AT UNDYNE'S HOUSE??",
-                    "<18>{#f/5}SHE, UH, HASN'T EVEN MET UP WITH ME YET.",
-                    "<18>{#f/4}MAYBE LEAVE THE ROOM AND...",
+                    "<18>{#f/6}...你還在UNDYNE的\n家那裡啊？？",
+                    "<18>{#f/5}她，呃，\n還沒跟我見面呢。",
+                    "<18>{#f/4}要不你先\n離開房間然後...",
                     "<18>{|}{#f/1}... {%}",
-                    "<25>{#p/undyne}{#f/12}* Huff... puff...!",
-                    "<25>{#f/8}* YEAH!!!\n* That's MY HOUSE!!!",
-                    "<18>{#p/papyrus}{#f/6}UH, HI UNDYNE!\nHOW'D YOU GET HERE SO FAST?",
-                    "<25>{#p/undyne}{#f/17}I RAN.",
-                    "<18>{#p/papyrus}{#f/1}WHAT??\nTHEN YOU MUST HAVE SOMETHING...",
-                    "<18>{#f/9}EXTREMELY COOL TO SAY ABOUT YOUR HOUSE!!!",
-                    "<25>{#p/undyne}{#f/14}* Nope!!!"
+                    "<25>{#p/undyne}{#f/12}* 呼... 哈...！",
+                    "<25>{#f/8}* 沒錯！！！\n* 那是我的家！！！",
+                    "<18>{#p/papyrus}{#f/6}呃，嗨，UNDYNE！\n你是怎麼這麼快\n就到這裡的啊？",
+                    "<25>{#p/undyne}{#f/17}我跑過來的。",
+                    "<18>{#p/papyrus}{#f/1}什麼？？\n那你肯定有一些...",
+                    "<18>{#f/9}關於你家的\n很酷的事情\n要說吧！！！",
+                    "<25>{#p/undyne}{#f/14}* 沒有！！！"
                  ]
                : [
-                    "<18>{#f/4}AT LEAST IT WAS, UNTIL...",
-                    "<25>{#p/undyne}{#f/12}* ... we set it on fire.",
-                    "<25>{#f/8}* BUT WHO CARES??",
-                    "<25>{#f/14}* Hanging out with Papyrus is the BEST!"
+                    "<18>{#f/4}至少曾經是，\n直到...",
+                    "<25>{#p/undyne}{#f/12}* ...我們把它給點著了。",
+                    "<25>{#f/8}* 但誰在乎呢？？",
+                    "<25>{#f/14}* 跟Papyrus出去消遣\n  最棒了！"
                  ])
          ],
          () =>
@@ -9802,13 +9802,13 @@ export default {
                ? [ "<18>{#p/papyrus}{#f/4}WE'RE STILL WAITING HERE, YOU KNOW..." ]
                : SAVE.data.n.plot_date < 2.1
                ? [
-                    "<18>{#p/papyrus}{#f/0}I'M SURE SHE'LL COME UP WITH SOMETHING SOON.",
-                    "<25>{#p/undyne}{#f/14}* Don't bet on it!"
+                    "<18>{#p/papyrus}{#f/0}我相信她很快就\n會想出來的。",
+                    "<25>{#p/undyne}{#f/14}* 你可別打包票！"
                  ]
                : [
-                    "<18>{#p/papyrus}{#f/0}JUST CALL ME THE \"HANGOUT HANDYMAN.\"",
-                    "<18>{#f/4}I MAY NOT BE ABLE TO REPAIR YOUR HOUSE...",
-                    "<18>{#f/9}BUT I CAN STILL \"FIX YOU UP\" A REALLY GREAT DAY!"
+                    "<18>{#p/papyrus}{#f/0}請叫我「消遣雜務工」。",
+                    "<18>{#f/4}我雖然沒辦法\n修補你的家...",
+                    "<18>{#f/9}但我還可以幫你\n「補上」美好的一天！"
                  ]
       ),
       f_blooky: pager.create(

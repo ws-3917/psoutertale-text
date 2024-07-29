@@ -927,7 +927,7 @@ msgid "<25>{#f/23}* You're too stubborn for your own good, Frisk."
 msgstr ""
 
 msgid "<25>{#f/22}* ..."
-msgstr ""
+msgstr "<25>{#f/22}* ..."
 
 msgid ""
 "<25>{#f/13}* Hey.\n"
@@ -1422,35 +1422,33 @@ msgstr "<32>* 离-离我远点！"
 msgid ""
 "<25>{#p/asriel2}{#f/5}* ... but that's okay, I know you'll be there on time!"
 msgstr ""
-"<25>{#p/asriel2}{#f/5}* ...没关系！\n"
+"<25>{#p/asriel2}{#f/5}* ...没事！\n"
 "  我知道你很守时的！"
 
 msgid "<25>{#p/asriel2}{#f/1}* You wouldn't want to let me down, would you?"
-msgstr "<25>{#p/asriel2}{#f/1}* 你不会让我失望的，对吧？"
+msgstr "<25>{#p/asriel2}{#f/1}* 别让我失望哦。"
 
 msgid ""
 "<25>{#p/asriel2}{#f/2}* Sorry about that, I had to use Toriel's phone to "
 "call someone."
 msgstr ""
-"<25>{#p/asriel2}{#f/2}* 对不起，耽搁了会时间。\n"
-"  我用Toriel的手机喊了个人。"
+"<25>{#p/asriel2}{#f/2}* 对不起，耽搁了一会。\n"
+"  我刚才用Toriel的手机喊了个人。"
 
 msgid ""
 "<25>{#p/asriel2}{#f/1}* Don't worry...\n"
 "* You'll find out why soon enough."
-msgstr ""
-"<25>{#p/asriel2}{#f/1}* 别多想...\n"
-"* 马上你就懂了。"
+msgstr "<25>{#p/asriel2}{#f/1}* 别着急，马上你就懂了。"
 
 msgid ""
 "<25>{#p/asriel2}{#f/2}* ... hee hee hee.\n"
 "* I'll be waiting for you up ahead."
 msgstr ""
-"<25>{#p/asriel2}{#f/2}* ...嘻嘻嘻。\n"
-"* 我上前头等你。"
+"<25>{#p/asriel2}{#f/2}* 嘻嘻嘻...\n"
+"* 我到前面等你。"
 
 msgid "<25>{#p/asriel2}{#f/4}* I'll be waiting for you up ahead."
-msgstr "<25>{#p/asriel2}{#f/4}* 我上前头等你。"
+msgstr "<25>{#p/asriel2}{#f/4}* 我到前面等你。"
 
 msgid "<25>{#p/asriel2}{#f/1}* Ready, $(name)?"
 msgstr "<25>{#p/asriel2}{#f/1}* $(name)，准备好了吗？"
@@ -3294,7 +3292,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#f/6}* ..."
-msgstr ""
+msgstr "<25>{#f/6}* ..."
 
 msgid "<25>{#f/8}* Goodbye, $(name)..."
 msgstr ""
@@ -3502,7 +3500,7 @@ msgid "<25>{#f/5}{#v/0}* Each one could've been someone else's Toriel."
 msgstr ""
 
 msgid "<25>{#f/5}{#v/0}* ..."
-msgstr ""
+msgstr "<25>{#f/5}{#v/0}* ..."
 
 msgid "<25>{#f/7}{#v/0}* Selfish brat."
 msgstr ""
@@ -3796,7 +3794,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#f/6}{#v/0}* ..."
-msgstr ""
+msgstr "<25>{#f/6}{#v/0}* ..."
 
 msgid ""
 "<25>{#f/6}{#v/0}* How did it feel to finally satisfy your violent side?"
@@ -3849,7 +3847,7 @@ msgid "<25>{#f/11}{#v/0}* Wouldn't that be exciting?"
 msgstr ""
 
 msgid "<25>{#f/8}{#v/0}* ..."
-msgstr ""
+msgstr "<25>{#f/8}{#v/0}* ..."
 
 msgid "<25>{#f/7}{#v/0}* See ya, idiot."
 msgstr ""
@@ -4120,7 +4118,7 @@ msgid "<32>* Golly, I wonder how such an awful thing could have happened."
 msgstr ""
 
 msgid "<32>{*}{#x2}* ..."
-msgstr ""
+msgstr "<32>{*}{#x2}* ..."
 
 msgid ""
 "<25>{*}{#f/7}* Sorry, $(name).\n"
@@ -4156,7 +4154,7 @@ msgid "<25>{*}{#p/twinkly}{#f/6}* We can do this all day."
 msgstr ""
 
 msgid "<25>{*}{#p/twinkly}{#f/8}* ..."
-msgstr ""
+msgstr "<25>{*}{#p/twinkly}{#f/8}* ..."
 
 msgid ""
 "<32>{#p/basic}* After you sleep at Toriel's home, she destroys the bridge to"
@@ -5289,20 +5287,25 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}{#n1}* Now what was THAT racket?"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* 呃，刚才什么动静？"
 
 msgid ""
 "<32>{#p/basic}{#n1}* Er, sorry, my eyesight's not what it used to be..."
 msgstr ""
+"<32>{#p/basic}{#n1}* 唉... \n"
+"  现在不行啦，眼睛花了。"
 
 msgid ""
 "<32>{#p/basic}{#n1}* Huh?\n"
 "* It happened again?\n"
 "* Tch, kids these days..."
 msgstr ""
+"<32>{#p/basic}{#n1}* 啊？\n"
+"* 怎么又整出这动静了？\n"
+"  现在的孩子啊..."
 
 msgid "<32>{#p/basic}{#n1}* Kids these days..."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* 现在的孩子啊..."
 
 msgid ""
 "<32>{#p/basic}{#n1}* If... if you d-do that again... I-I'm gonna have to "
@@ -6389,7 +6392,7 @@ msgstr ""
 "  去输下密码吧。"
 
 msgid "<25>{#p/toriel}{#npc/a}{#f/2}* ...!"
-msgstr ""
+msgstr "<25>{#p/toriel}{#npc/a}{#f/2}* ...！"
 
 msgid "<25>{#f/5}* What are you doing out here, my ch..."
 msgstr ""
@@ -6464,13 +6467,13 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/25}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/25}* ..."
 
 msgid "<25>{#f/25}* Frisk... you..."
 msgstr ""
 
 msgid "<25>{#f/23}* ..."
-msgstr ""
+msgstr "<25>{#f/23}* ..."
 
 msgid "<25>{#f/23}* You don't have to be alone anymore, okay?"
 msgstr ""
@@ -6568,7 +6571,7 @@ msgid "<25>{#f/22}* Well, that's why I ended up the way I did."
 msgstr ""
 
 msgid "<25>{#f/23}* ... Frisk."
-msgstr ""
+msgstr "<25>{#f/23}* ...Frisk."
 
 msgid "<25>{#f/17}* This whole time, I've blamed myself for that decision."
 msgstr ""
@@ -6873,7 +6876,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* ... Asriel..."
-msgstr ""
+msgstr "<32>{#p/basic}* ...Asriel..."
 
 msgid ""
 "<32>{#p/basic}* Ribbit, ribbit.\n"
@@ -7191,7 +7194,7 @@ msgid "<25>{#p/asriel1}{#f/21}* ... it's missing..."
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/21}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/21}* ..."
 
 msgid "<32>* There still isn't much else to say."
 msgstr ""
@@ -7474,7 +7477,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/17}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/17}* ..."
 
 msgid "<33>{#p/basic}* It's just not worth your time."
 msgstr "<33>{#p/basic}* 你不想浪费时间玩牌。"
@@ -8759,7 +8762,7 @@ msgid "<20>{*}{#x2}RUN. INTO. THE. BULLETS!!!{^20}{*}{#x1}{^999}"
 msgstr "<20>{*}{#x2}给{^4} 我{^4} 撞{^4} 子弹！！！{^20}{*}{#x1}{^999}"
 
 msgid "RUN. INTO. THE. happiness shards~"
-msgstr "给 我 撞 幸福碎片～"
+msgstr "给 我 撞 幸福碎片~"
 
 msgid "<20>{#v/1}Hee hee hee..."
 msgstr "<20>{#v/1}嘻嘻嘻..."
@@ -9801,7 +9804,7 @@ msgid "* Napstablook"
 msgstr "* Napstablook"
 
 msgid "<11>{#p/napstablook}{~}..."
-msgstr ""
+msgstr "<11>{#p/napstablook}{~}..."
 
 msgid "<32>{#p/human}* (You flirtatiously comment on Napstablook's top hat.)"
 msgstr ""
@@ -11455,7 +11458,7 @@ msgid "<25>{#f/1}* And it seemed such an obvious solution in hindsight..."
 msgstr ""
 
 msgid "<25>{#f/7}* ..."
-msgstr ""
+msgstr "<25>{#f/7}* ..."
 
 msgid ""
 "<25>{#f/8}* Hahaha!\n"
@@ -12662,7 +12665,7 @@ msgid "<25>{#p/asriel2}{#f/4}* It's a piece of junk anyway."
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/4}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/4}* ..."
 
 msgid "<25>{#p/asriel2}{#f/4}* ... seriously?"
 msgstr ""

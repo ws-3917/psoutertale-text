@@ -955,7 +955,7 @@ export default {
             "<26>{#p/asriel2}{#f/7}* 说实话。",
             "<26>{#p/asgore}{#f/1}* ...\n* 呃，不...\n* 我不太确定...",
             "<26>{#p/asriel2}{#f/8}* 切。\n* 这怂样，才像我认识的\n  Asgore嘛。",
-            "<26>{#f/6}* 只会装作啥～事儿\n  都没有的样子，\n* 我说得没错吧？",
+            "<26>{#f/6}* 只会装作啥~事儿\n  都没有的样子，\n* 我说得没错吧？",
             "<26>{#f/7}* 老东西，你猜怎么着？\n* 现在想亡羊补牢，已经晚喽。",
             "<26>{#f/8}* （要不是你拿这该死的\n  全息影像糊弄我，现在就可以\n  好好“开导开导”你。）",
             "<26>{#p/asgore}{#f/12}* ...",
@@ -1005,9 +1005,9 @@ export default {
                        "<25>{#p/asriel2}{#f/1}* 哈喽，$(name)。",
                        "<25>{#f/13}* 想我了没？",
                        "<25>{#f/4}* 唉，对不起。\n* 刚才我有事得办，\n  又把你抛下了。",
-                       "<25>{#f/3}* 不过我可没空手而归。",
+                       "<25>{#f/3}* 不过，我那段时间可没闲着。",
                        "<25>{#f/13}* $(name)，我看到你那小伙伴\n  和你告别了...",
-                       "<25>{#f/16}* 我想，你肯定\n  感觉老～孤单了。\n  没说错吧？"
+                       "<25>{#f/16}* 我想，你肯定\n  感觉老~孤单了。\n  没说错吧？"
                     ],
                     []
                  ][Math.min(SAVE.flag.n.ga_asriel35++, 1)],
@@ -2956,7 +2956,7 @@ export default {
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (The sign emphasizes the fame of the statue.)" ]
             : [ "<32>{#p/basic}* “tem的雕像... 超级著民”\n* “超级！！！！！！！！！”" ],
-      shard1: [ "<32>{#p/basic}* A pile of glass shards." ],
+      shard1: [ "<32>{#p/basic}* 一堆玻璃碎片。" ],
       shard2: [ choicer.create("* (Stomp on them?)", "是", "否") ],
       shard3: [ "<32>{#p/human}* (You decide not to stomp.)" ],
       shard4: [ "<32>{#p/basic}* With the might of your indomitable soles, you charged up the ultimate power move!" ],
@@ -3441,7 +3441,7 @@ export default {
                : SAVE.data.n.plot_date > 1.3 && SAVE.data.n.plot_date < 2.1
                ? SAVE.data.n.state_wastelands_toriel === 0
                   ? [ "<32>{#p/basic}* Don't worry.\n* Everything is fine.\n* This happens all the time." ]
-                  : [ "<32>{#p/basic}* What.\n* What?\n* WHAT!?", "<32>{#p/basic}* This happens all the time." ]
+                  : [ "<32>{#p/basic}* 什么。\n* 什么？\n* 什-么-！？", "<32>{#p/basic}* 这种情况经常发生的。" ]
                : SAVE.storage.inventory.contents.includes('tvm_mewmew') // NO-TRANSLATE
 
                ? [
@@ -3510,7 +3510,7 @@ export default {
                             "<32>* 像你这样软弱的凝视\n  永远比不上Undyne那\n  凶狠的凝视！"
                          ])
                  ]
-               : [ "<32>{#p/basic}* What.\n* What?\n* WHAT!?", "<32>{#p/basic}* It's a living." ],
+               : [ "<32>{#p/basic}* 什么。\n* 什么？\n* 什-么-！？", "<32>{#p/basic}* It's a living." ],
          f_view: [ "<25>{#p/kidd}{#f/14}* Awesome..." ],
          f_village_egg: () => [ "<32>{#p/basic}* 已经煮得过熟了。" ],
          f_village_sign1: () =>
@@ -3719,45 +3719,45 @@ export default {
          k_bonedrawer: pager.create(
             0,
             () => [
-               "<25>{#p/undyne}{#f/1}* I'll be honest...",
-               "<25>{#f/14}* It's been a long time since I've seen the bottom of that drawer.",
+               "<25>{#p/undyne}{#f/1}* 老实说...",
+               "<25>{#f/14}* 这么长时间了，\n  那个抽屉真的越塞越满。",
                SAVE.data.b.oops
-                  ? "<32>{#p/basic}* Nothing but bones."
+                  ? "<32>{#p/basic}* 全是骨头。"
                   : "<32>{#p/basic}* It's a drawer reserved just for Papyrus.\n* I like this."
             ],
             () => [
                SAVE.data.b.oops
-                  ? "<32>{#p/basic}* Nothing but bones."
+                  ? "<32>{#p/basic}* 全是骨头。"
                   : "<32>{#p/basic}* It's a drawer reserved just for Papyrus.\n* I like this."
             ]
          ),
          k_broadsword: pager.create(
             0,
             () => [
-               "<25>{#p/undyne}{#f/1}* Humans can be awful, but their history... kinda rules.",
-               "<25>{#f/1}* Case in point, this giant energy saber!",
-               "<25>{#f/1}* Historically, humans wielded sabers up to ten times their size.",
-               "<25>{#f/15}* Not to mention their inter-dimensional portals...",
-               "<25>{#f/15}* Colossal parsec-length battleships...",
-               "<25>{#f/1}* When I first heard about it, I immediately wanted my own!",
-               "<25>{#f/14}* That's why Alphys and I built a giant replica saber together.",
-               "<25>{#f/12}* She even figured out all the specs herself!",
+               "<25>{#p/undyne}{#f/1}* 人类烂爆了，\n  不过他们的历史...\n  还挺炫酷的。",
+               "<25>{#f/1}* 举个恰当的例子，\n  就是这把巨型能量剑！",
+               "<25>{#f/1}* 据历史记载，人类使用长达\n  他们身高10倍的剑。",
+               "<25>{#f/15}* 更不用说他们的\n  跨纬度传送门了...",
+               "<25>{#f/15}* 巨大的秒差距长的战舰...",
+               "<25>{#f/1}* 我第一次听说到的时候，\n  就想给自己搞一个！",
+               "<25>{#f/14}* 所以我和Alphys一起\n  做了一把巨剑的复制品。",
+               "<25>{#f/12}* 规格完全是她\n  自己算出来的！",
                SAVE.data.b.oops
-                  ? "<32>{#p/basic}* This weapon seems to have quite a storied past."
+                  ? "<32>{#p/basic}* 这武器似乎有一段\n  传奇的过往。"
                   : "<32>{#p/basic}* I once saw a saber just like this... except it was real, and a lot smaller."
             ],
             () => [
                SAVE.data.b.oops
-                  ? "<32>{#p/basic}* This weapon seems to have quite a storied past."
+                  ? "<32>{#p/basic}* 这武器似乎有一段\n  传奇的过往。"
                   : "<32>{#p/basic}* I once saw a saber just like this... except it was real, and a lot smaller."
             ]
          ),
          k_closet: pager.create(
             0,
             () => [
-               "<25>{#p/undyne}{#f/1}* That's my snack closet.",
-               "<25>{#f/17}* What, you thought I had a bedroom back there or something?",
-               "<25>{#f/8}* Pfft, hah!\n* Everyone knows I sleep on a cold, hard floor.",
+               "<25>{#p/undyne}{#f/1}* 那是我的零食柜。",
+               "<25>{#f/17}* 怎么，你以为我在后面\n  藏了间卧室什么的吗？",
+               "<25>{#f/8}* 噗，哈！\n* 大家都知道我睡在\n  又冷又硬的地板上。",
                SAVE.data.b.oops
                   ? "<32>{#p/basic}* 锁住了。"
                   : "<32>{#p/basic}* I get the feeling there's more to this \"closet\" than snacks."
@@ -3771,17 +3771,17 @@ export default {
          k_fridge: pager.create(
             0,
             () => [
-               "<25>{#p/undyne}{#f/11}* Cold food and I don't really get along.",
-               "<25>{#f/14}* Luckily, Alphys modded my fridge so it heats up food instead!",
-               "<25>{#f/1}* Neat, huh?",
+               "<25>{#p/undyne}{#f/11}* 我不太喜欢冷食。",
+               "<25>{#f/14}* 幸运的是，Alphys改造了\n  我的冰箱，现在它\n  可以加热食物了！",
+               "<25>{#f/1}* 很厉害吧？",
                SAVE.data.b.oops
-                  ? "<32>{#p/basic}* There are several pre-heated plates of spaghetti inside."
-                  : "<32>{#p/basic}* A hot fridge would have done wonders back home."
+                  ? "<32>{#p/basic}* 里面有几盘预热好的\n  意大利面。"
+                  : "<32>{#p/basic}* 在家里，一台热冰箱\n  就能创造奇迹。"
             ],
             () => [
                SAVE.data.b.oops
-                  ? "<32>{#p/basic}* There are several pre-heated plates of spaghetti inside."
-                  : "<32>{#p/basic}* A hot fridge would have done wonders back home."
+                  ? "<32>{#p/basic}* 里面有几盘预热好的\n  意大利面。"
+                  : "<32>{#p/basic}* 在家里，一台热冰箱\n  就能创造奇迹。"
             ]
          ),
          k_otherdrawer: pager.create(
@@ -3789,52 +3789,52 @@ export default {
             () => [
                SAVE.data.b.undyne_respecc
                   ? "<26>{#p/undyne}{#f/12}* Careful with that stuff."
-                  : "<25>{#p/undyne}{#f/17}* Steal anything from that drawer, and you're DEAD.",
-               "<32>{#p/basic}* There's a silverware drawer.\n* It has forks, spoons, knives...",
-               "<32>* ... tiny cosmo-spears, plasma sabers, dimensional axes, anti-grav boomerangs..."
+                  : "<25>{#p/undyne}{#f/17}* 你要是从那抽屉里偷东西，\n  你就死定了。",
+               "<32>{#p/basic}* 这是个装满了银器的抽屉。\n* 里面有叉子、勺子、刀...",
+               "<32>* ...微型宇宙长矛，等离子军刀，\n  跨纬度战斧，反重力回旋镖..."
             ],
             [
-               "<32>{#p/basic}* There's a silverware drawer.\n* It has forks, spoons, knives...",
-               "<32>* ... tiny cosmo-spears, plasma sabers, dimensional axes, anti-grav boomerangs..."
+               "<32>{#p/basic}* 这是个装满了银器的抽屉。\n* 里面有叉子、勺子、刀...",
+               "<32>* ...微型宇宙长矛，等离子军刀，\n  跨纬度战斧，反重力回旋镖..."
             ]
          ),
          k_piano: pager.create(
             0,
             [
-               "<25>{#p/undyne}{#f/1}* That's my piano.",
-               "<25>{#f/16}* Say what you want about humans, they have great taste in acoustics!",
-               "<32>{#p/basic}* Smells... scientific."
+               "<25>{#p/undyne}{#f/1}* 那是我的钢琴。",
+               "<25>{#f/16}* 不管你对人类有什么看法，\n  他们在声学方面都很有品味！",
+               "<32>{#p/basic}* 闻起来... 很科学。"
             ],
-            [ "<32>{#p/basic}* Smells... scientific." ]
+            [ "<32>{#p/basic}* 闻起来... 很科学。" ]
          ),
          k_sink: pager.create(
             0,
             [
-               "<25>{#p/undyne}{#f/1}* I once forgot to turn the sink off before heading out to work.",
-               "<25>{#f/17}* When I got back home, the house was completely flooded...",
-               "<25>{#f/8}* Not that it was a problem for ME!\n* Fuhuhu!",
-               "<32>{#p/basic}* The drain is eerily clean of any fur or hair."
+               "<25>{#p/undyne}{#f/1}* 我有一次在去工作前\n  忘了关水槽。",
+               "<25>{#f/17}* 当我回到家时，\n  房子完全被水淹了...",
+               "<25>{#f/8}* 这对我来说完全\n  不是问题！\n* 呋呼呼！",
+               "<32>{#p/basic}* 下水道干净得有点吓人，\n  完全找不到毛发的痕迹。"
             ],
-            [ "<32>{#p/basic}* The drain is eerily clean of any fur or hair." ]
+            [ "<32>{#p/basic}* 下水道干净得有点吓人，\n  完全找不到毛发的痕迹。" ]
          ),
          k_stove: pager.create(
             0,
             [
-               "<25>{#p/undyne}{#f/1}* This stove is supposed to be some top-of-the- line MTT thing.",
-               "<25>* But, as much as technology advances...",
-               "<25>* Nothing will ever beat food home-cooked with fire magic.",
-               "<32>{#p/basic}* The stove has seen an average amount of use."
+               "<25>{#p/undyne}{#f/1}* 这个炉子应该是\n  顶级的MTT牌产品。",
+               "<25>* 但是，虽然技术\n  进步了这么多...",
+               "<25>* 没什么能比得上家里\n  用火魔法煮的东西！",
+               "<32>{#p/basic}* 这个炉子的使用率\n  不算高也不算低。"
             ],
-            [ "<32>{#p/basic}* The stove has seen an average amount of use." ]
+            [ "<32>{#p/basic}* 这个炉子的使用率\n  不算高也不算低。" ]
          ),
          k_window: pager.create(
             0,
             () => [
-               "<25>{#p/undyne}{#f/16}* Yeah.",
-               "<25>{#f/14}* Papyrus tends to go the \"scenic route.\"",
-               "<32>{#p/basic}* He flew out so fast, it triggered a sonic boom."
+               "<25>{#p/undyne}{#f/16}* 唉。",
+               "<25>{#f/14}* Papyrus比较喜欢走“风景线”。",
+               "<32>{#p/basic}* 他飞得太快了，\n  引发了音爆。"
             ],
-            [ "<32>{#p/basic}* He flew out so fast, it triggered a sonic boom." ]
+            [ "<32>{#p/basic}* 他飞得太快了，\n  引发了音爆。" ]
          ),
          plankstop: () =>
             SAVE.data.b.svr
@@ -4070,23 +4070,23 @@ export default {
       unddate12c: [ "<25>{#f/12}* 呃... 何不先找个\n  地方坐下呢？" ],
       unddate13: () => [
          SAVE.data.b.undyne_respecc
-            ? "<25>{#p/undyne}{#f/1}* Need anything?"
-            : "<25>{#p/undyne}{#f/14}* Need anything?",
-         choicer.create("* （你要怎么回答？）", "Hungry", "Book", "Home", "放弃")
+            ? "<25>{#p/undyne}{#f/1}* 需要什么吗？"
+            : "<25>{#p/undyne}{#f/14}* 需要什么吗？",
+         choicer.create("* （你要怎么回答？）", "饿了", "看书", "回家", "没事")
       ],
       unddate13a1: [
-         "<25>{#p/undyne}{#f/1}* You want a snack or something?",
-         "<25>{#f/1}* Let me see what I have in the closet."
+         "<25>{#p/undyne}{#f/1}* 你想要点零食什么的吗？",
+         "<25>{#f/1}* 让我看看我的柜子里\n  有什么。"
       ],
-      unddate13a2: [ "<25>{#p/undyne}{#f/1}* Ah... this should do nicely." ],
-      unddate13a3: [ "<25>{#p/undyne}{#f/14}* All yours...\n* Fuhuhu." ],
+      unddate13a2: [ "<25>{#p/undyne}{#f/1}* 啊... 这应该挺不错的。" ],
+      unddate13a3: [ "<25>{#p/undyne}{#f/14}* 全都是你的...\n* 呋呼呼。" ],
       unddate13a4a: [ "<32>{#p/human}* （你带的东西太多了。）" ],
       unddate13a4b: [ "<32>{#p/human}* (You got the Odd Snack.)" ],
       unddate13a5: () =>
          SAVE.data.b.drop_snack
             ? [
-                 "<25>{#p/undyne}{#f/17}* I know dropping food is fun, but I can't let it all go to waste.",
-                 "<25>{#p/undyne}{#f/12}* Sorry."
+                 "<25>{#p/undyne}{#f/17}* 我知道扔吃的很好玩，\n  但我不能白白浪费吧。",
+                 "<25>{#p/undyne}{#f/12}* 抱歉。"
               ]
             : SAVE.data.b.undyne_respecc
             ? [
@@ -4094,64 +4094,64 @@ export default {
                  "<25>{#p/undyne}{#f/1}* Maybe some other time."
               ]
             : [
-                 "<25>{#p/undyne}{#f/11}* Listen punk, it's one snack per person here.",
-                 "<25>* Get with the program or get lost."
+                 "<25>{#p/undyne}{#f/11}* 听着，混球，\n  每人只有一份零食。",
+                 "<25>* 你得学会入乡随俗。"
               ],
       unddate13b: pager.create(
          0,
          () => [
-            "<25>{#p/undyne}{#f/13}* A book???\n* Does this look like a librarby to you?",
-            "<25>{#f/1}* The only books you'll find in the kitchen are cookbooks!",
-            "<25>{#f/4}* Which I don't use, because cooking is supposed to be an ART.",
-            "<25>{#f/7}* Not some bogged-down process with rules and regulations.",
-            "<25>{#f/5}* Why does nobody seem to get that???",
+            "<25>{#p/undyne}{#f/13}* 你要看书？？？\n* 这里看起来\n  像是图书倌吗？",
+            "<25>{#f/1}* 你在厨房里\n  唯一能找到的书\n  就是烹饪指南！",
+            "<25>{#f/4}* 我从来不用，\n  因为烹饪应该是门艺术。",
+            "<25>{#f/7}* 而不是被条条框框\n  束缚的过程。",
+            "<25>{#f/5}* 为什么就是没有人\n  能理解呢？？？",
             SAVE.data.b.undyne_respecc
-               ? "<25>{#f/1}* ... let me know if you need anything else."
-               : "<25>{#f/14}* Well, let me know if you need anything else!"
+               ? "<25>{#f/1}* ...如果你还需要什么，\n  就告诉我吧。"
+               : "<25>{#f/14}* 好吧，\n  如果你还需要什么的话，\n  就告诉我吧！"
          ],
          [
-            "<25>{#p/undyne}{#f/1}* Look, there's a librarby in Starton.",
-            "<25>{#f/1}* If you really want to read a book, that's your best bet.",
-            "<25>{#f/7}* But not right now!!!",
-            "<25>{#f/14}* ... let me know if you need anything else."
+            "<25>{#p/undyne}{#f/1}* 你听好，\n  星港有一家图书倌。",
+            "<25>{#f/1}* 如果你真的想看书，\n  你去那里最合适。",
+            "<25>{#f/7}* 但你现在没法去！！！",
+            "<25>{#f/14}* ...如果你还需要什么，\n  就告诉我吧。"
          ]
       ),
       unddate13c: pager.create(
          0,
          () => [
             "<25>{#p/undyne}{#f/3}* ...",
-            "<25>{#f/17}* This IS home.",
-            "<25>{#f/17}* You're already HERE.",
-            "<25>{#f/16}* Unless you mean the home planet...",
+            "<25>{#f/17}* 这里就是家。",
+            "<25>{#f/17}* 你已经在这里了。",
+            "<25>{#f/16}* 除非你指的是\n  你的母星...",
             "<25>{#f/9}* ...",
-            "<25>{#f/19}* But nothing can bring that back.",
+            "<25>{#f/19}* 但这任谁都没办法\n  做到。",
             SAVE.data.b.undyne_respecc
-               ? "<25>{#f/1}* ... I'll be here if you need anything else."
-               : "<25>{#f/14}* Well, let me know if you need anything else!"
+               ? "<25>{#f/1}* ...如果你还需要什么，\n  就告诉我吧。"
+               : "<25>{#f/14}* 好吧，\n  如果你还需要什么的话，\n  就告诉我吧！"
          ],
          () => [
-            "<25>{#p/undyne}{#f/16}* I'd give a description of that place if I could, y'know.",
-            "<25>{#f/16}* But I was born here, on the outpost...",
-            "<25>{#f/9}* The memory of our world seems to fade more and more every day.",
+            "<25>{#p/undyne}{#f/16}* 我要是可以的话，\n  我可以给你描述一下\n  那个地方。",
+            "<25>{#f/16}* 但我是在前哨站出生的...",
+            "<25>{#f/9}* 我们对这个世界的记忆\n  似乎每天都在逐渐淡去。",
             SAVE.data.b.undyne_respecc
-               ? "<25>{#f/1}* ... let me know if you need anything else."
-               : "<25>{#f/12}* ... let me know if you need anything else."
+               ? "<25>{#f/1}* ...如果你还需要什么，\n  就告诉我吧。"
+               : "<25>{#f/12}* ...如果你还需要什么，\n  就告诉我吧。"
          ]
       ),
       unddate13d: () => [
          SAVE.data.b.undyne_respecc
-            ? "<25>{#p/undyne}{#f/1}* Well, alright.\n* Remember, I'm here if you change your mind."
-            : "<25>{#p/undyne}{#f/14}* Well, alright.\n* Remember, I'm here if you change your mind!"
+            ? "<25>{#p/undyne}{#f/1}* 好吧，没事。\n* 记住，如果你改变主意，\n  随时来找我！"
+            : "<25>{#p/undyne}{#f/14}* 好吧，没事。\n* 记住，如果你改变主意，\n  随时来找我！"
       ],
-      unddate14: [ choicer.create("* (Sit down?)", "是", "否") ],
+      unddate14: [ choicer.create("* （要坐下吗？）", "是", "否") ],
       unddate15a: () => [
-         "<25>{#p/undyne}{#f/14}* Comfortable?",
+         "<25>{#p/undyne}{#f/14}* 坐得舒服吗？",
          SAVE.data.b.undyne_respecc
-            ? "<25>{#f/1}* I'll get you something to drink."
-            : "<25>{#f/14}* I'll get you something to drink."
+            ? "<25>{#f/1}* 我去拿些喝的给你。"
+            : "<25>{#f/14}* 我去拿些喝的给你。"
       ],
       unddate15b: () => [
-         "<25>{#p/undyne}{#f/14}* Comfortable?",
+         "<25>{#p/undyne}{#f/14}* 坐得舒服吗？",
          SAVE.data.b.undyne_respecc
             ? "<25>{#f/1}* I'll get you something to..."
             : "<25>{#f/14}* I'll get you something to...",
@@ -4165,51 +4165,51 @@ export default {
       ],
       unddate16: () => [
          SAVE.data.b.undyne_respecc
-            ? "<25>{#p/undyne}{#f/1}* All set!\n* Take your pick!"
-            : "<25>{#p/undyne}{#f/14}* All set!\n* What would you like?"
+            ? "<25>{#p/undyne}{#f/1}* 准备完成！\n* 你来挑吧！"
+            : "<25>{#p/undyne}{#f/14}* 准备完成！\n* 你想喝哪个？"
       ],
       unddate17: () => [
-         "<25>{#p/undyne}{#f/17}* HEY!\n* DON'T GET UP!",
+         "<25>{#p/undyne}{#f/17}* 喂！\n* 别站起来！",
          ...(SAVE.data.b.undyne_respecc
             ? [ "<25>{#f/10}* ...", "<25>{#f/16}* Sorry, reflex.\n* I seriously gotta stop doing that..." ]
-            : [ "<25>{#f/17}* YOU'RE THE GUEST!\n* SIT DOWN AND ENJOY YOURSELF!", "<25>{#f/17}* ..." ])
+            : [ "<25>{#f/17}* 你是客人！\n* 给我坐下来慢慢享用！", "<25>{#f/17}* ..." ])
       ],
       unddate18: () =>
          SAVE.data.b.undyne_respecc
-            ? [ "<25>{#p/undyne}{#f/1}* Um, why not just point to what you want?", "<25>{#f/16}* You can use the spear." ]
+            ? [ "<25>{#p/undyne}{#f/1}* 嗯，你需要什么\n  指出来不就好了？", "<25>{#f/16}* 你可以用这根矛！" ]
             : [
-                 "<25>{#p/undyne}{#f/12}* Um, why not just point to what you want?",
-                 "<25>{#f/12}* You can use the spear!"
+                 "<25>{#p/undyne}{#f/12}* 嗯，你需要什么\n  指出来不就好了？",
+                 "<25>{#f/12}* 你可以用这根矛！"
               ],
-      unddate19x: "* Move left and right to aim.\n* Select with [Z].",
+      unddate19x: "* 按←和→瞄准。\n* 按[Z]选定。",
       unddate19y: () => [
-         SAVE.data.b.undyne_respecc ? "* Undyne\n* Awesome fish lady." : "* Undyne\n* Mad fish lady.",
-         "* Snack Closet\n* Tons of goodies in there!",
-         "* Water\n* The smart choice.",
-         "* Sugar\n* Great for sweetening tea.",
-         "* Exoberry Punch\n* Made locally... or so they say.",
-         "* Hot Cocoa\n* It's a blue cylinder.",
-         "* Tea\n* Blatantly correct choice?",
-         "* Fridge\n* Too much for one meal.",
-         "* Energy Saber\n* Legendary human weapon."
+         SAVE.data.b.undyne_respecc ? "* Undyne\n* Awesome fish lady." : "* Undyne\n* 疯狂的鱼女士。",
+         "* 零食柜\n* 里面有超多好东西！",
+         "* 水\n* 聪明的选择",
+         "* 糖\n* 适合放在茶里。",
+         "* 洋梅潘趣酒\n* 自家做的... 她是这么说的。",
+         "* 热巧克力\n* 蓝色圆罐。",
+         "* 茶\n* 毫无疑问是正确选项？",
+         "* 冰箱\n* 对于一顿饭来说太多了。",
+         "* 能量剑\n* 传说中的人类武器。"
       ],
       unddate20: [
-         pager.create(0, [ "<25>{#p/undyne}{#f/13}* Are you...\n* Hitting on me???" ], [ "<25>{#p/undyne}{#f/13}* ?????" ]),
+         pager.create(0, [ "<25>{#p/undyne}{#f/13}* 你是在...\n* 指我吗？？？" ], [ "<25>{#p/undyne}{#f/13}* ？？？？？" ]),
          pager.create(
             0,
             [
-               "<25>{#p/undyne}{#f/17}* You're supposed to be choosing a drink??",
-               "<25>{#f/1}* There's nothing in that closet but snacks."
+               "<25>{#p/undyne}{#f/17}* 你应该选一个\n  喝的东西？？",
+               "<25>{#f/1}* 那个柜子里只有零食。"
             ],
-            [ "<25>{#p/undyne}{#f/1}* Really, it's all just snacks in there.\n* Nothing more!" ],
-            [ "<25>{#p/undyne}{#f/1}* Really!" ]
+            [ "<25>{#p/undyne}{#f/1}* 真的，那个柜子里\n  只有零食。\n* 没有别的东西了！" ],
+            [ "<25>{#p/undyne}{#f/1}* 真的！" ]
          ),
          pager.create(
             0,
             [
-               "<25>{#p/undyne}{#f/13}* You want WATER?",
-               "<25>{#f/11}* Just... water.",
-               "<25>{#f/11}* With no added flavors or sugars or anything.",
+               "<25>{#p/undyne}{#f/13}* 你想要水？",
+               "<25>{#f/11}* 就是... 水。",
+               "<25>{#f/11}* 没什么味道，\n  也没加糖什么的。",
                "<25>{#f/11}* ..."
             ],
             [ "<25>{#p/undyne}{#f/11}* ..." ]
@@ -4217,351 +4217,351 @@ export default {
          pager.create(
             0,
             [
-               "<25>{#p/undyne}{#f/12}* That sugar's only there for the tea.",
-               "<25>{#f/7}* I'm not gonna give you a cup of sugar!"
+               "<25>{#p/undyne}{#f/12}* 那个糖是用来\n  加在茶里的。",
+               "<25>{#f/7}* 我没法给你盛一杯糖！"
             ],
             () =>
                SAVE.data.b.undyne_respecc
-                  ? [ "<25>{#p/undyne}{#f/1}* No sugar, sweetheart." ]
-                  : [ "<25>{#p/undyne}{#f/14}* The sugar's for the tea, mmm'kay?" ]
+                  ? [ "<25>{#p/undyne}{#f/1}* 糖不可以，甜心。" ]
+                  : [ "<25>{#p/undyne}{#f/14}* 糖是加在茶里的，\n  好吗？" ]
          ),
          pager.create(
             0,
             [
-               "<25>{#p/undyne}{#f/1}* Ah... exoberry punch.",
-               "<25>{#f/14}* Well, Papyrus loves this stuff, so I guess it's alright."
+               "<25>{#p/undyne}{#f/1}* 啊... 洋梅潘趣酒。",
+               "<25>{#f/14}* 我想，Papyrus喜欢这东西，\n  所以没什么问题。"
             ],
-            [ "<25>{#p/undyne}{#f/17}* You gonna pick something or what?" ]
+            [ "<25>{#p/undyne}{#f/17}* 你到底选不选这个？" ]
          ),
          pager.create(
             0,
-            [ "<25>{#p/undyne}{#f/14}* Nothing like a good cup of hot cocoa." ],
-            [ "<25>{#p/undyne}{#f/17}* Hot cocoa, right?" ]
+            [ "<25>{#p/undyne}{#f/14}* 没什么能比一杯\n  热巧克力更棒了。" ],
+            [ "<25>{#p/undyne}{#f/17}* 热巧克力，是吧？" ]
          ),
-         pager.create(0, [ "<25>{#p/undyne}{#f/14}* Tea, huh?" ], [ "<25>{#p/undyne}{#f/12}* So it's tea, right?" ]),
+         pager.create(0, [ "<25>{#p/undyne}{#f/14}* 茶，是吧？" ], [ "<25>{#p/undyne}{#f/12}* 所以选茶，是吗？" ]),
          pager.create(
             0,
             [
-               "<25>{#p/undyne}{#f/4}* The fridge!?\n* You want to have the entire fridge!?",
-               "<25>{#p/undyne}{#f/17}* No!"
+               "<25>{#p/undyne}{#f/4}* 冰箱！？\n* 你想要一整台冰箱！？",
+               "<25>{#p/undyne}{#f/17}* 不行！"
             ],
-            [ "<25>{#p/undyne}{#f/17}* I said no!" ],
-            [ "<25>{#p/undyne}{#f/17}* No means no!" ],
-            [ "<25>{#p/undyne}{#f/17}* Do you not know what the word \"no\" means?" ],
-            [ "<25>{#p/undyne}{#f/17}* ... clearly not!" ],
+            [ "<25>{#p/undyne}{#f/17}* 我说了不行！" ],
+            [ "<25>{#p/undyne}{#f/17}* 不行就是不行！" ],
+            [ "<25>{#p/undyne}{#f/17}* 你知道“不行”是\n  什么意思吗？" ],
+            [ "<25>{#p/undyne}{#f/17}* ...就是不行！" ],
             [ "<25>{#p/undyne}{#f/17}* ..." ]
          ),
          pager.create(
             0,
             [
-               "<25>{#p/undyne}{#f/1}* The energy saber...",
-               "<25>{#p/undyne}{#f/12}* That's the weapon the humans wielded against us in the war.",
-               "<25>{#p/undyne}{#f/16}* ... one of them, anyway."
+               "<25>{#p/undyne}{#f/1}* 那把能量剑...",
+               "<25>{#p/undyne}{#f/12}* 那是人类在战争中\n  用来对付我们的武器。",
+               "<25>{#p/undyne}{#f/16}* ...算是，其中一把吧。"
             ],
-            [ "<25>{#p/undyne}{#f/17}* It's not for sale." ]
+            [ "<25>{#p/undyne}{#f/17}* 那东西不能给你。" ]
          )
       ],
-      unddate21: [ choicer.create("* (Choose this drink?)", "是", "否") ],
+      unddate21: [ choicer.create("* （要选这个喝吗？）", "是", "否") ],
       unddate22: [
-         [ "<25>{#p/undyne}{#f/16}* Okay, I guess..." ],
-         [ "<25>{#p/undyne}{#f/1}* Let's fruit-punch your ticket to hydration!" ],
-         [ "<25>{#p/undyne}{#f/14}* No time like hot cocoa time!" ],
-         [ "<25>{#p/undyne}{#f/14}* Tea, coming right up." ]
+         [ "<25>{#p/undyne}{#f/16}* 也... 行吧。" ],
+         [ "<25>{#p/undyne}{#f/1}* 来喝点果汁补充水分吧！" ],
+         [ "<25>{#p/undyne}{#f/14}* 开始无与伦比的\n  热可可时间吧！" ],
+         [ "<25>{#p/undyne}{#f/14}* 马上给你上茶。" ]
       ],
-      unddate22x: [ "<25>{#p/undyne}{#f/12}* It'll take a moment for the water to boil." ],
+      unddate22x: [ "<25>{#p/undyne}{#f/12}* 还需要等一段时间\n  水才能沸腾。" ],
       unddate22y: () => [
-         SAVE.data.b.undyne_respecc ? "<25>{#p/undyne}{#f/1}* There." : "<25>{#p/undyne}{#f/12}* All done!"
+         SAVE.data.b.undyne_respecc ? "<25>{#p/undyne}{#f/1}* There." : "<25>{#p/undyne}{#f/12}* 好了！"
       ],
-      unddate23: [ "<25>{#p/undyne}{#f/1}* Here we are." ],
+      unddate23: [ "<25>{#p/undyne}{#f/1}* 喝吧。" ],
       unddate24: [
-         [ "<25>{#p/undyne}{#f/12}* Enjoy...?" ],
-         [ "<25>{#p/undyne}{#f/12}* Careful, it's sour." ],
-         [ "<25>{#p/undyne}{#f/14}* Careful, it's hot." ],
-         [ "<25>{#p/undyne}{#f/14}* Careful, it's hot." ]
+         [ "<25>{#p/undyne}{#f/12}* 好喝吗...？" ],
+         [ "<25>{#p/undyne}{#f/12}* 小心喝，有点酸。" ],
+         [ "<25>{#p/undyne}{#f/14}* 小心喝，有点烫。" ],
+         [ "<25>{#p/undyne}{#f/14}* 小心喝，有点烫。" ]
       ],
       unddate25: [
          () => [
-            "<25>{#p/undyne}{#f/17}* Seriously?\n* Just drink it already!",
-            "<32>{#p/human}{#s/heal}* (You take a sip of the water.)",
-            "<32>{#p/basic}* It, uh... yeah, it's water.\n* So it tasted fine.",
+            "<25>{#p/undyne}{#f/17}* 不至于！\n* 快点喝啊！",
+            "<32>{#p/human}{#s/heal}* （你喝了一口水。）",
+            "<32>{#p/basic}* 它，呃...\n  嗯对，就是水。\n* 所以尝起来还好。",
             SAVE.data.b.undyne_respecc
-               ? "<25>{#p/undyne}{#f/1}* Heh.\n* At least you're happy."
-               : "<25>{#p/undyne}{#f/12}* Well, you look like you're satisfied."
+               ? "<25>{#p/undyne}{#f/1}* 哈。\n* 至少你很开心。"
+               : "<25>{#p/undyne}{#f/12}* 呀，你看起来很满足。"
          ],
          [
-            "<25>{#p/undyne}{#f/17}* What's the holdup?\n* Just drink it already!",
-            "<32>{#p/human}{#s/heal}* (You take a sip of the punch.)",
-            "<32>{#p/basic}* It's so sour, your lips are already puckered up..."
+            "<25>{#p/undyne}{#f/17}* 你在等什么？\n* 快点喝啊！",
+            "<32>{#p/human}{#s/heal}* （你喝了一口）",
+            "<32>{#p/basic}* 实在太酸了，\n  你的嘴唇都皱起来了..."
          ],
          [
-            "<25>{#p/undyne}{#f/17}* It's not that hot!!\n* Just drink it already!",
-            "<32>{#p/human}{#s/heal}* (You take a sip of the hot cocoa.)",
-            "<32>{#p/basic}* It's burning..."
+            "<25>{#p/undyne}{#f/17}* 也没有那么烫！！\n* 快点喝啊！",
+            "<32>{#p/human}{#s/heal}* （你喝了一口热巧克力。）",
+            "<32>{#p/basic}* 烫得像火烧..."
          ],
          [
-            "<25>{#p/undyne}{#f/17}* It's not that hot!!\n* Just drink it already!",
-            "<32>{#p/human}{#s/heal}* (You take a sip of the tea.)",
-            "<32>{#p/basic}* It's burning..."
+            "<25>{#p/undyne}{#f/17}* 也没有那么烫！！\n* 快点喝啊！",
+            "<32>{#p/human}{#s/heal}* （你喝了一口茶。）",
+            "<32>{#p/basic}* 烫得像火烧..."
          ]
       ],
       unddate25x: () => [
-         "<32>* But other than that, it's pretty good.",
+         "<32>* 不过除去这点，\n  还挺好喝的。",
          ...(SAVE.data.b.undyne_respecc
-            ? [ "<25>{#p/undyne}{#f/1}* Heh.\n* I'm glad you like it." ]
+            ? [ "<25>{#p/undyne}{#f/1}* 哈。\n* 你喜欢就好。" ]
             : [
-                 "<25>{#p/undyne}{#f/12}* It's good, right?",
-                 "<25>{#f/8}* Nothing but the best for my ABSOLUTELY SPECIAL FRIEND!"
+                 "<25>{#p/undyne}{#f/12}* 味道不错吧？",
+                 "<25>{#f/8}* 我只会把最好的\n  给我绝对珍惜的朋友！"
               ])
       ],
       unddate27: [
          [
-            "<25>{#p/undyne}{#f/12}* You know, it's kinda funny you chose THAT drink...",
-            "<25>{#f/12}* Water, I mean.",
-            "<25>{#f/1}* Asgore and I once joked about how humans are made of it...",
-            "<25>{#f/8}* And that if we drank it, we'd be CONSUMING humanity!!!",
-            "<25>{#f/16}* ... well, he didn't really find it funny.",
-            "<25>{#f/16}* The guy's got a soft spot for just about everyone..."
+            "<25>{#p/undyne}{#f/12}* 你知道吗，\n  你会选那个当喝的\n  还挺有意思的。",
+            "<25>{#f/12}* 我是说，水。",
+            "<25>{#f/1}* 我跟Asgore有一次\n  开玩笑说人类是\n  由水组成的...",
+            "<25>{#f/8}* 所以如果我们喝水，\n  就是在消化人类！！！",
+            "<25>{#f/16}* ...好吧，他其实\n  没找到笑点在哪。",
+            "<25>{#f/16}* 这家伙几乎对所有人\n  都有好感..."
          ],
          [
-            "<25>{#p/undyne}{#f/12}* You know, it's kinda neat you picked out THAT drink...",
-            "<25>{#f/12}* Exoberry punch...",
-            "<25>{#f/1}* Alphys and Papyrus sort of \"invented\" it together.",
-            "<25>{#f/16}* I wasn't the biggest fan, but when I showed it to Asgore...",
-            "<25>{#f/12}* Well, let's just say he had it put into mass- production."
+            "<25>{#p/undyne}{#f/12}* 你知道吗，\n  你会选那个当喝的\n  还挺不错的。",
+            "<25>{#f/12}* 洋梅潘趣酒...",
+            "<25>{#f/1}* 那是Alphys和Papyrus\n  一起“发明”出来的。",
+            "<25>{#f/16}* 我虽然不太喜欢，\n  但是当我把这个拿给\n  Asgore的时候...",
+            "<25>{#f/12}* 这么说吧，\n  他把它投入了批量生产。"
          ],
          [
-            "<25>{#p/undyne}{#f/12}* You know, it's kinda cool you went with THAT drink...",
-            "<25>{#f/12}* Hot cocoa...",
-            "<25>{#f/16}* This one time, after the CORE malfunctioned...",
-            "<25>{#f/16}* They had to reboot the entire atmospheric system.",
-            "<25>{#f/10}* No heat, very little air... it got colder, and colder...",
-            "<25>{#f/1}* Then, Asgore came over and offered me a hot cocoa.",
-            "<25>{#f/12}* We sat together in this very room..."
+            "<25>{#p/undyne}{#f/12}* 你知道吗，\n  你会选那个当喝的\n  还挺酷的。",
+            "<25>{#f/12}* 热巧克力...",
+            "<25>{#f/16}* 有一次，\n  在核心发生故障之后...",
+            "<25>{#f/16}* 他们不得不重启\n  整个大气系统。",
+            "<25>{#f/10}* 没法取暖，空气稀薄...\n  逐渐变得越来越冷...",
+            "<25>{#f/1}* 然后，Asgore赶了过来\n  递给我一杯热巧克力。",
+            "<25>{#f/12}* 我们就一起坐在\n  这个房间里..."
          ],
          [
-            "<25>{#p/undyne}{#f/12}* You know, it's kinda weird you ended up liking THAT tea...",
-            "<25>{#f/12}* Starling flower tea...",
-            "<25>{#f/1}* That's always been Asgore's favorite kind."
+            "<25>{#p/undyne}{#f/12}* 你知道吗，\n  你会选那个当喝的\n  可真是奇怪...",
+            "<25>{#f/12}* 星花茶...",
+            "<25>{#f/1}* 那一直都是Asgore\n  最喜欢的。"
          ]
       ],
       unddate28: () => [
-         "<25>{#p/undyne}{#f/14}* Actually, now that I think about it...",
-         "<25>{#f/12}* You kinda remind me of him.",
+         "<25>{#p/undyne}{#f/14}* 实际上，\n  现在我开始觉得...",
+         "<25>{#f/12}* 你让我想起他了。",
          ...(SAVE.data.b.undyne_respecc
             ? [
                  "<25>{#f/17}* I mean, your fighting styles are TOTALLY different, but...",
                  "<25>{#f/1}* You're the only two people who've actually managed to beat me!",
                  "<25>{#f/9}* ... in a sense."
               ]
-            : [ "<25>{#f/8}* You're both TOTAL weenies!", "<25>{#f/9}* ... sort of." ])
+            : [ "<25>{#f/8}* 你俩都是软蛋！", "<25>{#f/9}* ...某种意义上啦。" ])
       ],
       unddate29: [
-         "<25>{#p/undyne}{#f/16}* The thing is, I was a pretty hot-headed kid.",
-         "<25>* Once, to prove I was the strongest, I tried to fight Asgore.",
-         "<25>{#f/17}* Emphasis on TRIED.",
-         "<25>{#f/1}* I could barely land a single blow on him!",
-         "<25>* And worse, the whole time, he refused to fight back!",
-         "<25>{#f/9}* I was so humiliated...",
-         "<25>{#f/16}* Afterwards, he apologized and said something goofy...",
-         "<25>* \"Excuse me, do you want to know how to beat me?\"",
-         "<25>{#f/1}* I said yes, and from then on, he trained me.",
-         "<25>{#f/16}* One day, during practice, I finally knocked him down.",
-         "<25>{#f/9}* I felt... bad.",
-         "<25>{#f/12}* But he was beaming...",
-         "<25>{#f/1}* I had never seen someone more proud to get their butt kicked.",
-         "<25>* Anyway, long story short, after completing my training...",
-         "<25>{#f/14}* I took up leadership of the Royal Guard!",
-         "<25>{#f/8}* So I'm the one who gets to train dorks to fight!",
-         "<25>{#f/1}* ... like, uh, Papyrus."
+         "<25>{#p/undyne}{#f/16}* 知道吗，我以前\n  是个非常冲动的孩子。",
+         "<25>* 有一次，我为了\n  证明自己是最强的，\n  就去尝试和ASGORE战斗。",
+         "<25>{#f/17}* 重点是尝试二字。",
+         "<25>{#f/1}* 我压根连一下\n  都打不中他！",
+         "<25>* 更糟的是，从头到尾，\n  他都不肯还手！",
+         "<25>{#f/9}* 我被羞辱得无地自容...",
+         "<25>{#f/16}* 之后，他道了歉，\n  还说了些傻话...",
+         "<25>* “抱歉，你想知道\n   打败我的方法吗？”",
+         "<25>{#f/1}* 我说了“想”，从那以后，\n  他就开始训练我。",
+         "<25>{#f/16}* 有一天，在练习时，\n  我终于打倒了他。",
+         "<25>{#f/9}* 我觉得... 非常糟糕。",
+         "<25>{#f/12}* 他却很高兴...",
+         "<25>{#f/1}* 我从没见过哪个人\n  因为被扁了而感到荣幸。",
+         "<25>* 总之，长话短说，\n  他一直训练着我...",
+         "<25>{#f/14}* 然后我现在是皇家守卫的\n  首领了！",
+         "<25>{#f/8}* 所以我成了那个训练\n  傻瓜们战斗的人了！",
+         "<25>{#f/1}* ...比如，呃，Papyrus。"
       ],
       unddate30: [
-         "<25>{#f/16}* But, um, to be honest...",
-         "<25>{#f/16}* ... I don't know if...",
-         "<25>{#f/9}* I can ever let Papyrus into the Royal Guard.",
-         "<25>{#f/17}* Don't tell him I said that!",
-         "<25>{#f/10}* He's just...\n* Well...",
-         "<25>{#f/9}* I mean, it's not that he's stupid.",
-         "<25>{#f/17}* His attack designs are actually pretty freaking wild!",
-         "<25>{#f/10}* It's just that...\n* He's...",
-         "<25>{#f/17}* He's too innocent and nice!!!",
-         "<25>{#f/16}* I mean, look, he was SUPPOSED to capture you...",
-         "<25>{#f/11}* And he ended up being FRIENDS with you instead.",
-         "<25>{#f/4}* I could NEVER send him into battle!",
-         "<25>{#f/9}* He'd get ripped into little smiling shreds.",
-         "<25>{#f/12}* That's part of why...",
-         "<25>{#f/12}* I started teaching him how to cook, you know?",
-         "<25>{#f/9}* So, um, maybe he can do something else with his life."
+         "<25>{#f/16}* 但是，嗯，说实话...",
+         "<25>{#f/16}* ...我自己也不知道...",
+         "<25>{#f/9}* 到底能不能让\n  Papyrus加入皇家守卫。",
+         "<25>{#f/17}* 别跟他说这些话！",
+         "<25>{#f/10}* 他只是...\n* 好吧...",
+         "<25>{#f/9}* 我是指，他并不笨。",
+         "<25>{#f/17}* 他的攻击设计\n  真的相当疯狂！",
+         "<25>{#f/10}* 只不过...\n* 他...",
+         "<25>{#f/17}* 他太天真善良了！！！",
+         "<25>{#f/16}* 我是说，你看，\n  他本应该去抓你的...",
+         "<25>{#f/11}* 结果他最后竟然\n  和你成为朋友了。",
+         "<25>{#f/4}* 我永远没办法\n  把他派去战斗！",
+         "<25>{#f/9}* 他会被撕成\n  微笑着的碎片的。",
+         "<25>{#f/12}* 这也是我为什么...",
+         "<25>{#f/12}* 教他烹饪的原因之一，\n  你明白吗？",
+         "<25>{#f/9}* 所以，嗯，或许他\n  这辈子可以干点别的。"
       ],
       unddate31: () => [
          SAVE.data.b.undyne_respecc
-            ? "<25>{#p/undyne}{#f/1}* Oh, sorry, I was talking for so long..."
-            : "<25>{#p/undyne}{#f/12}* Oh, sorry, I was talking for so long..."
+            ? "<25>{#p/undyne}{#f/1}* 哦，抱歉，我讲太多了..."
+            : "<25>{#p/undyne}{#f/12}* 哦，抱歉，我讲太多了..."
       ],
       unddate32: [
-         [ "<25>{#f/12}* You're out of water, aren't you?" ],
-         [ "<25>{#f/12}* You're out of punch, aren't you?" ],
-         [ "<25>{#f/12}* You're out of cocoa, aren't you?" ],
-         [ "<25>{#f/12}* You're out of tea, aren't you?" ]
+         [ "<25>{#f/12}* 你的水喝完了，是吧？" ],
+         [ "<25>{#f/12}* 你的潘趣酒喝完了，是吧？" ],
+         [ "<25>{#f/12}* 你的热巧克力喝完了，\n  是吧？" ],
+         [ "<25>{#f/12}* 你的茶喝完了，是吧？" ]
       ],
       unddate33: () => [
          SAVE.data.b.undyne_respecc
-            ? "<25>{#p/undyne}{#f/1}* Heh, don't worry.\n* I'll get you some more."
-            : "<25>{#p/undyne}{#f/12}* Heh, don't worry.\n* I'll get you some more."
+            ? "<25>{#p/undyne}{#f/1}* 哈，没事的。\n* 我再给你倒些。"
+            : "<25>{#p/undyne}{#f/12}* 哈，没事的。\n* 我再给你倒些。"
       ],
-      unddate34: [ "<25>{#p/undyne}{#f/17}* Wait a second...", "<25>{#f/17}* Papyrus...\n* His cooking lesson..." ],
+      unddate34: [ "<25>{#p/undyne}{#f/17}* 等一下...", "<25>{#f/17}* Papyrus...\n* 他的烹饪课..." ],
       unddate35: [
-         "<25>{#p/undyne}{#f/17}* HE WAS SUPPOSED TO HAVE THAT RIGHT NOW!!!",
-         "<25>{#f/11}* And if HE's not here to have it...",
-         "<25>{#f/7}* YOU'LL HAVE TO HAVE IT FOR HIM!"
+         "<25>{#p/undyne}{#f/17}* 他现在本该在\n  上课的！！！",
+         "<25>{#f/11}* 如果他没来\n  上课的话...",
+         "<25>{#f/7}* 那只能用你来\n  代替他了！"
       ],
       unddate36: () =>
          SAVE.data.b.undyne_respecc
             ? [
-                 "<25>{#f/1}* That's right!",
-                 "<25>{#f/1}* NOTHING has brought Papyrus and I closer than cooking!",
+                 "<25>{#f/1}* 没错！",
+                 "<25>{#f/1}* 除了烹饪之外，\n  没什么能让我和\n  Papyrus更亲近了！",
                  "<25>{#f/17}* Heheh, if you thought we were friends before...",
                  "<25>{#f/8}* JUST WAIT UNTIL YOU SEE US AFTER THIS!"
               ]
             : [
-                 "<25>{#f/1}* That's right!",
-                 "<25>{#f/1}* NOTHING has brought Papyrus and I closer than cooking!",
-                 "<25>{#f/17}* Which means that if I give you his lesson...",
-                 "<25>{#f/8}* WE'LL BECOME CLOSER THAN YOU CAN EVER IMAGINE!"
+                 "<25>{#f/1}* 没错！",
+                 "<25>{#f/1}* 除了烹饪之外，\n  没什么能让我和\n  Papyrus更亲近了！",
+                 "<25>{#f/17}* 也就是说，如果我\n  给你上同样的课...",
+                 "<25>{#f/8}* 我们就会变得亲近到\n  超乎你的想象！"
               ],
-      unddate37: [ "<25>{#f/1}* First, let's start with the sauce!!" ],
+      unddate37: [ "<25>{#f/1}* 首先，\n  我们从酱开始！！" ],
       unddate38: [
-         "<25>{#f/1}* Envision these veggies as your mortal enemy!",
-         "<25>{#f/7}* Now, pound them to bits with your fists!!",
-         choicer.create("* (What will you do?)", "Pet", "Pound")
+         "<25>{#f/1}* 将这些蔬菜想象成\n  你的死对头！",
+         "<25>{#f/7}* 现在，用你的拳头\n  将他们轰杀至渣！！",
+         choicer.create("* （你要怎么做？）", "轻轻抚摸", "用力重击")
       ],
       unddate39a: () => [
-         "<32>{#p/human}* (You pet the vegetables in an affectionate manner.)",
+         "<32>{#p/human}* （你亲切地抚摸着蔬菜。）",
          SAVE.data.b.undyne_respecc
-            ? "<99>{#p/undyne}{#f/17}* OH MY GOD!!!\n* NOW I -KNOW- YOU'RE\n  JUST SCREWING WITH ME!!!"
-            : "<25>{#p/undyne}{#f/17}* OH MY GOD!!!\n* STOP PETTING THE ENEMY!!!",
-         "<25>{#x1}{#f/7}* I'll show you how it's done!",
-         "<25>{#f/4}* NGAHHH!"
+            ? "<99>{#p/undyne}{#f/17}* 我的天啊！！！\n* 现在我【可算】知道了\n  你就是在耍我！！！"
+            : "<25>{#p/undyne}{#f/17}* 我的天啊！！！\n* 不要抚摸敌人了！！！",
+         "<25>{#x1}{#f/7}* 我来给你演示一下\n  该怎么做！",
+         "<25>{#f/4}* 嘎啊啊！"
       ],
       unddate39b: () =>
          world.meanie
-            ? [ "<32>{#p/human}* (You punch the vegetables with all your might.)" ]
+            ? [ "<32>{#p/human}* （你全力用拳头砸向蔬菜。）" ]
             : [
-                 "<32>{#p/human}* (You punch the vegetables with all your might.)\n* (You knock over a tomato.)",
-                 "<25>{#p/undyne}{#f/1}* YEAH!\n* YEAH!",
-                 "<25>{#f/1}* Our minds are uniting against these healthy ingredients!",
-                 "<25>{#x1}{#f/7}* NOW IT'S MY TURN!",
-                 "<25>{#f/4}* NGAHHH!"
+                 "<32>{#p/human}* （你全力用拳头砸向蔬菜。）\n* （你打倒了一颗番茄。）",
+                 "<25>{#p/undyne}{#f/1}* 耶！\n* 耶！",
+                 "<25>{#f/1}* 我们齐心协力与这些\n健康食材们奋战到底！",
+                 "<25>{#x1}{#f/7}* 现在轮到我了！",
+                 "<25>{#f/4}* 嘎啊啊！"
               ],
       unddate40: (res: number) => [
          ...(world.meanie && res === 1
             ? [
                  SAVE.data.b.undyne_respecc
-                    ? "<25>{#p/undyne}{#f/2}* YEAH!!!\n* THAT'S THE WARRIOR I KNOW!!!"
-                    : "<25>{#p/undyne}{#f/6}* Feisty today, huh?",
-                 "<25>{#f/6}* Heh, we'll just scrape this into a bowl later."
+                    ? "<25>{#p/undyne}{#f/2}* 没错！！！\n* 这就是我认识的战士！！"
+                    : "<25>{#p/undyne}{#f/6}* 今天可真是欢腾啊，\n  是吧？",
+                 "<25>{#f/6}* 哈，我们过会再把这堆\n  弄到个碗里去。"
               ]
-            : [ "<25>{#p/undyne}{#f/6}* Uh, we'll just scrape this into a bowl later." ]),
-         "<25>{#f/2}* But for NOW!"
+            : [ "<25>{#p/undyne}{#f/6}* 呃，我们过会再把这堆\n  弄到个碗里去。" ]),
+         "<25>{#f/2}* 但是现在！"
       ],
       unddate41: [
-         "<25>{#p/undyne}{#f/1}* We add the noodles!",
-         "<25>{#f/1}* Homemade noodles are the best, so I always keep some around."
+         "<25>{#p/undyne}{#f/1}* 我们把面条加进去！",
+         "<25>{#f/1}* 自家制的面条最棒了，\n  所以我总是备一些。"
       ],
-      unddate41x: [ "<25>{#p/undyne}{#f/12}* Uhh, you can come over here now, kiddo." ],
+      unddate41x: [ "<25>{#p/undyne}{#f/12}* 呃，你现在可以过来了，\n  小孩子。" ],
       unddate41y: [
-         "<25>{#p/undyne}{#f/1}* Anyway, you see these noodles here, right?",
-         "<25>{#f/1}* Well...",
-         "<25>{#f/17}* DISH 'EM OUT!",
-         choicer.create("* (What will your approach be?)", "Careful", "Fierce")
+         "<25>{#p/undyne}{#f/1}* 无论如何，\n  你看到这里的面条了吧？",
+         "<25>{#f/1}* 那么...",
+         "<25>{#f/17}* 把它们丢进去！",
+         choicer.create("* （你想怎么放进去？）", "小心地", "猛烈地")
       ],
       unddate42a: [
-         "<32>{#p/human}* (You carefully place each spaghetti strand in one at a time.)",
-         "<32>* The noodles clank against the empty bottom.",
-         "<25>{#p/undyne}{#f/17}* I mean, that works???",
-         "<25>{#f/1}* Well, now it's time to stir the pasta!"
+         "<32>{#p/human}* （你将面条一根一根地\n  放进锅里。）",
+         "<32>* 它们与锅底相碰，\n  叮叮作响。",
+         "<25>{#p/undyne}{#f/17}* 感觉，挺好？？?",
+         "<25>{#f/1}* 那么，接下来就是\n  搅拌意面的时间了！"
       ],
       unddate42b: [
-         "<32>{#p/human}* (You throw everything into the pot, including the box.)",
-         "<32>* The box and the noodles clank against the empty bottom.",
-         "<25>{#p/undyne}{#f/17}* YEAH!!\n* I'M INTO IT!!",
-         "<25>{#f/1}* Alright!\n* Now it's time to stir the pasta!"
+         "<32>{#p/human}* （你把所有东西都丢进锅里，\n  包括包装盒。）",
+         "<32>* 包装盒和面条咣地一声\n  撞到锅底。",
+         "<25>{#p/undyne}{#f/17}* 耶！！！\n* 我进入状态了！！",
+         "<25>{#f/1}* 好了！\n* 现在就是搅拌\n  意面的时间！"
       ],
       unddate43: [
-         "<25>{#p/undyne}{#f/1}* As a general rule of thumb, the more you stir...",
-         "<25>{#f/17}* The better it tastes!"
+         "<25>{#p/undyne}{#f/1}* 就尝试而言，\n  搅得越多...",
+         "<25>{#f/17}* 它就越好吃！"
       ],
-      unddate44: [ "<25>{#p/undyne}{#f/17}* Ready?", "<25>{#f/1}* Let's do it!" ],
-      unddate45: "* Press [Z] repeatedly to stir!",
-      unddate46: [ "<25>{*}{#p/undyne}{#f/17}* Stir harder!{^20}{%}" ],
-      unddate46x: [ "<25>{*}{#p/undyne}{#f/17}* Don't just stand there!{^20}{%}" ],
-      unddate47: [ "<25>{*}{#p/undyne}{#f/7}* HARDER!{^20}{%}" ],
-      unddate47x: [ "<25>{*}{#p/undyne}{#f/7}* STIR, DAMN IT!{^20}{%}" ],
-      unddate48: [ "<25>{*}{#p/undyne}{#f/8}* HARDER!!!{^20}{%}" ],
-      unddate48x: [ "<25>{*}{#p/undyne}{#f/8}* STIR!!!{^20}{%}" ],
-      unddate49: [ "<25>{*}{#p/undyne}{#f/8}* Ugh, let me do it-{^10}{%}" ],
-      unddate50: [ "<25>{#p/undyne}{#f/8}* Fuhuhuhu!\n* That's the stuff!" ],
+      unddate44: [ "<25>{#p/undyne}{#f/17}* 准备好了吗？", "<25>{#f/1}* 来搅拌吧！" ],
+      unddate45: "* 连续按[Z]来搅拌！",
+      unddate46: [ "<25>{*}{#p/undyne}{#f/17}* 用力搅！{^20}{%}" ],
+      unddate46x: [ "<25>{*}{#p/undyne}{#f/17}* 别光站着！{^20}{%}" ],
+      unddate47: [ "<25>{*}{#p/undyne}{#f/7}* 再用力一点！{^20}{%}" ],
+      unddate47x: [ "<25>{*}{#p/undyne}{#f/7}* 该死的！搅啊！{^20}{%}" ],
+      unddate48: [ "<25>{*}{#p/undyne}{#f/8}* 再用力！！！{^20}{%}" ],
+      unddate48x: [ "<25>{*}{#p/undyne}{#f/8}* 搅啊！！！{^20}{%}" ],
+      unddate49: [ "<25>{*}{#p/undyne}{#f/8}* 呃，放着我来-{^10}{%}" ],
+      unddate50: [ "<25>{#p/undyne}{#f/8}* 呋呼呼呼！\n* 就该这样！" ],
       unddate51: [
-         "<25>{#p/undyne}{#f/1}* Alright, now for the final step...",
-         "<25>{#f/17}* TURN UP THE HEAT!",
-         "<25>{#f/1}* Let the stovetop symbolize your passion!",
-         "<25>{#f/1}* Let your hopes and dreams turn into burning fire!",
-         "<25>{#f/8}* And of course, don't hold anything back!!!"
+         "<25>{#p/undyne}{#f/1}* 好了，\n  现在就剩最后一步...",
+         "<25>{#f/17}* 开大火！",
+         "<25>{#f/1}* 炉子象征着\n  你的热情！",
+         "<25>{#f/1}* 将你的希望与梦想\n  化为烈焰！",
+         "<25>{#f/8}* 当然，\n  要不遗余力！！！"
       ],
-      unddate52: [ "<25>{#p/undyne}{#f/17}* Ready?", "<25>{#f/1}* Here we go!" ],
-      unddate53: "* Hold [RIGHT] to crank it up!",
-      unddate53x: [ "<25>{*}{#p/undyne}{#f/8}* You fool!\n* This burner only goes ONE WAY!!!{^20}{%}" ],
-      unddate54: [ "<25>{*}{#p/undyne}{#f/17}* Make it hotter!{^20}{%}" ],
-      unddate54x: [ "<25>{*}{#p/undyne}{#f/17}* What are you doing?{^20}{%}" ],
-      unddate55: [ "<25>{*}{#p/undyne}{#f/7}* HOTTER!{^20}{%}" ],
-      unddate55x: [ "<25>{*}{#p/undyne}{#f/7}* STOP HESITATING!{^20}{%}" ],
-      unddate56: [ "<25>{*}{#p/undyne}{#f/8}* HOTTER!!!{^20}{%}" ],
-      unddate56x: [ "<25>{*}{#p/undyne}{#f/8}* JUST DO IT!!!{^20}{%}" ],
-      unddate57a: [ "<25>{*}{#p/undyne}{#f/17}* Ugh, let me do it...{^10}{%}" ],
-      unddate57b: [ "<25>{*}{#p/undyne}{#f/17}* See, this is how you-{^20}{%}" ],
-      unddate58: [ "<25>{*}{#p/undyne}{#f/17}* No, wait, that's too-{^10}{%}" ],
-      unddate59: [ "<25>{#p/undyne}{#f/14}* Ah." ],
-      unddate60: [ "<25>{#p/undyne}{#f/14}* Man, no wonder Papyrus isn't improving at cooking anymore." ],
-      unddate61: [ "<25>{#p/undyne}{#f/12}* So what's next?\n* Trash hunting?\n* Entanglement bracelets?" ],
+      unddate52: [ "<25>{#p/undyne}{#f/17}* 准备好了吗？", "<25>{#f/1}* 开始吧！" ],
+      unddate53: "* 按住[→]开大火！",
+      unddate53x: [ "<25>{*}{#p/undyne}{#f/8}* 你个蠢蛋！\n* 这个炉子只能\n  往一边开火！！！{^20}{%}" ],
+      unddate54: [ "<25>{*}{#p/undyne}{#f/17}* 再热一些！{^20}{%}" ],
+      unddate54x: [ "<25>{*}{#p/undyne}{#f/17}* 你在干什么？{^20}{%}" ],
+      unddate55: [ "<25>{*}{#p/undyne}{#f/7}* 再热些！{^20}{%}" ],
+      unddate55x: [ "<25>{*}{#p/undyne}{#f/7}* 别再犹豫了！{^20}{%}" ],
+      unddate56: [ "<25>{*}{#p/undyne}{#f/8}* 再热些！！！{^20}{%}" ],
+      unddate56x: [ "<25>{*}{#p/undyne}{#f/8}* 做就好了！！！{^20}{%}" ],
+      unddate57a: [ "<25>{*}{#p/undyne}{#f/17}* 呃，让我来吧...{^10}{%}" ],
+      unddate57b: [ "<25>{*}{#p/undyne}{#f/17}* 看到了吗，这就是你-{^20}{%}" ],
+      unddate58: [ "<25>{*}{#p/undyne}{#f/17}* 不，等下，有点太-{^10}{%}" ],
+      unddate59: [ "<25>{#p/undyne}{#f/14}* 啊。" ],
+      unddate60: [ "<25>{#p/undyne}{#f/14}* 啊，难怪Papyrus\n  厨艺再也没有进步了。" ],
+      unddate61: [ "<25>{#p/undyne}{#f/12}* 然后做些什么？\n* 去淘些垃圾？\n* 还是绑个腕带？" ],
       unddate62: () =>
          SAVE.data.b.undyne_respecc
             ? [
                  "<25>{#p/undyne}{#f/10}* ...",
-                 "<25>{#f/9}* ... who am I kidding...",
-                 "<25>{#f/16}* I really let this get outta hand, didn't I...?",
-                 "<25>{#f/16}* Heh..."
+                 "<25>{#f/9}* ...我在开什么玩笑...",
+                 "<25>{#f/16}* 我真的把事情弄失控了，\n  是吧...？",
+                 "<25>{#f/16}* 呵..."
               ]
             : [
                  "<25>{#p/undyne}{#f/10}* ...",
-                 "<25>{#f/9}* ... who am I kidding...",
-                 "<25>{#f/16}* I really screwed this up, didn't I...?",
-                 "<25>{#f/16}* Heh..."
+                 "<25>{#f/9}* ...我在开什么玩笑...",
+                 "<25>{#f/16}* 我真的搞砸了，\n  是吧...？",
+                 "<25>{#f/16}* 呵..."
               ],
       unddate63: () =>
          SAVE.data.b.undyne_respecc
             ? [
-                 "<25>{#f/16}* Y'know what?",
-                 "<25>{#f/9}* I'm not ready to give up on this just yet.",
-                 "<25>{#f/1}* So I failed to teach you how to cook.\n* Big whoop.",
-                 "<25>{#f/14}* There's still something we can do to salvage this mess.",
-                 "<26>{#f/1}* And that something is..."
+                 "<25>{#f/16}* 你知道吗？",
+                 "<25>{#f/9}* 我还没打算就\n  这样放弃呢。",
+                 "<25>{#f/1}* 所以我放弃教你烹饪了。\n* 就这样。",
+                 "<25>{#f/14}* 我们还是有办法\n  挽救这个烂摊子的。",
+                 "<26>{#f/1}* 办法就是..."
               ]
             : [
-                 "<25>{#f/16}* I can't force you to like me, human.",
-                 "<25>{#f/9}* Some people just don't easily get along.",
-                 "<25>{#f/16}* I'd understand if you felt that way about me...",
-                 "<25>{#f/9}* And if we can't be friends... that's okay.",
-                 "<25>{#f/9}* Because...\n* If we're not gonna be friends..."
+                 "<25>{#f/16}* 我没办法强迫你喜欢我，\n  人类。",
+                 "<25>{#f/9}* 有些人彼此就是\n  没办法相处。",
+                 "<25>{#f/16}* 如果你这么觉得，\n  我能理解...",
+                 "<25>{#f/9}* 如果我们做不了朋友...\n  也没关系。",
+                 "<25>{#f/9}* 因为...\n* 如果我们不是朋友..."
               ],
       unddate64: () =>
          SAVE.data.b.undyne_respecc
-            ? [ "<25>{#p/undyne}{#f/17}* ONE LAST DUEL TO SHOW THE GALAXY WHAT WE'RE MADE OF!!!" ]
-            : [ "<25>{#p/undyne}{#f/17}* THEN I CAN DESTROY YOU WITHOUT REGRET!!!" ],
+            ? [ "<25>{#p/undyne}{#f/17}* 来一场向银河系证明\n  我们实力的最后一战！！" ]
+            : [ "<25>{#p/undyne}{#f/17}* 这就意味着我能\n  毫不犹豫地干掉你！" ],
       unddate65: () => [
-         "<25>{#p/undyne}{#f/12}* Well, that was fun, huh?",
+         "<25>{#p/undyne}{#f/12}* 好吧，还挺好玩的，\n  是吧？",
          SAVE.data.b.undyne_respecc
-            ? "<25>{#f/8}* We'll have to spar again another time!"
-            : "<25>{#f/8}* We'll have to hang out again another time!",
-         "<25>{#f/9}* But, uh, somewhere else, I guess.",
+            ? "<25>{#f/8}* 我们下次再\n  找时间斗一场！"
+            : "<25>{#f/8}* 我们下次再约出去玩！",
+         "<25>{#f/9}* 但是，呃，\n  我觉得该换个地方。",
          ...(world.postnoot
             ? [
                  "<25>{#f/1}* By the way, have you noticed something weird in the air?",
@@ -4574,22 +4574,22 @@ export default {
             : []),
          ...(SAVE.data.n.plot < 68.1 || SAVE.data.b.a_state_hapstablook
             ? [
-                 "<25>{#f/1}* In the meantime, I'll be at the rec center with Papyrus.",
-                 "<25>{#f/12}* I look forward to seeing you there!",
-                 "<25>{#f/1}* Until then, you can give Papyrus a ring on your phone.",
-                 "<25>{#f/8}* Since we're in the same place, I'll be able to talk too!"
+                 "<25>{#f/1}* 与此同时，我会和Papyrus\n  一起去rec center。",
+                 "<25>{#f/12}* 期待能在那见到你！",
+                 "<25>{#f/1}* 到那时候，\n  你可以给Ppayrus打电话。",
+                 "<25>{#f/8}* 因为我俩在一起，\n  这样我也能和你说话！"
               ]
             : [
-                 "<25>{#f/1}* In the meantime, I'll be at the rec center.",
-                 "<25>{#f/12}* I look forward to seeing you there!",
-                 "<25>{#f/1}* Oh, and uh, Papyrus said he has to go do something.",
-                 "<25>{#f/14}* Just letting you know, since he won't be available on the phone."
+                 "<25>{#f/1}* 与此同时，\n  我会去rec center。",
+                 "<25>{#f/12}* 期待能在那见到你！",
+                 "<25>{#f/1}* 哦，对了，\n  Papyrus说他必须得\n  办个什么事情去。",
+                 "<25>{#f/14}* 只是想告诉你一声，\n  因为他现在不方便接电话。"
               ])
       ],
       unddate66: () =>
          SAVE.data.b.undyne_respecc
-            ? [ "<25>{#f/1}* Well, see ya later, pal!!" ]
-            : [ "<25>{#f/14}* Well, see ya later, punk!!" ],
+            ? [ "<25>{#f/1}* 好啦，回见，朋友！！" ]
+            : [ "<25>{#f/14}* 好啦，回见，混球！！" ],
       undroom1: () => [ "<25>{#p/undyne}{#f/17}* Huh?\n* The heck was THAT?" ],
       undroom2: () => [
          SAVE.data.b.undyne_respecc
@@ -5073,7 +5073,7 @@ export default {
                  "<32>* But maybe... I've inhabited this house for too long...",
                  "<32>* Maybe I'll be happier if I spend time... somewhere new..."
               ]
-            : [ "<32>{#p/basic}* It's literally on fire.\n* You're not getting in there." ],
+            : [ "<32>{#p/basic}* 真的着火了。\n* 你不能进去。" ],
       walktext: {
          bird: () => [
             "<25>{#p/kidd}{#f/4}* 没路了...",
@@ -6616,7 +6616,7 @@ export default {
                  "<20>{#e/undyne/3}我哀嚎着，多么希望\n有人能听到我的心声。"
               ]
             : respecc()
-            ? [ "<20>{#p/undyne}{#e/undyne/9}Come on!\nHit me already!", "<20>{#e/undyne/7}Don't just stand there!" ]
+            ? [ "<20>{#p/undyne}{#e/undyne/9}快啊！\n来打我吧！", "<20>{#e/undyne/7}Don't just stand there!" ]
             : [
                  "<20>{#p/undyne}{#e/undyne/6}Mercy!\nHa!",
                  "<20>{#e/undyne/5}I still can't believe you want to SPARE me!"
@@ -6728,7 +6728,7 @@ export default {
                  "<20>{#p/undyne}{#e/undyne/18}All those other monsters you fought...",
                  "<20>{#p/undyne}{#e/undyne/1}THAT'S the source of your power!"
               ]
-            : [ "<20>{#p/undyne}{#e/undyne/9}Come on!" ],
+            : [ "<20>{#p/undyne}{#e/undyne/9}快啊！" ],
       turnTalkB8b: () =>
          SAVE.data.n.state_starton_papyrus === 1
             ? [
@@ -7068,46 +7068,46 @@ export default {
                  "<20>{#e/undyne/9}SO COME ON, HIT ME WITH EVERYTHING YOU'VE GOT!!!\nNGAHHHH!!!"
               ]
             : [
-                 "<20>{#p/undyne}{#f/0}I've been defeated, my house is in ruins...",
-                 "<20>I even failed to befriend you.",
+                 "<20>{#p/undyne}{#f/0}我被打败了，\n我的房子也\n完了...",
+                 "<20>甚至连和你\n交朋友都做不好。",
                  "<20>...",
-                 "<20>{#e/undyne/12}That's it.",
-                 "<20>I don't care if you're my house- guest anymore.",
-                 "<20>{#e/undyne/9}One final rematch, all out on both sides!!",
-                 "<20>{#e/undyne/7}IT'S THE ONLY WAY I CAN REGAIN MY LOST PRIDE!!",
-                 "<20>{#e/undyne/9}NOW COME ON, HIT ME WITH EVERYTHING YOU'VE GOT!!!\nNGAHHHH!!!"
+                 "<20>{#e/undyne/12}就这样了。",
+                 "<20>我不在乎\n你是不是\n我的客人了。",
+                 "<20>{#e/undyne/9}最后比一场，\n双方都要拿出\n所有力量！！！",
+                 "<20>{#e/undyne/7}这是我唯一能够\n夺回我尊严的\n办法！！！",
+                 "<20>{#e/undyne/9}那就来吧！\n全力地攻上来！！！\n嘎啊啊！！！"
               ],
-      status1: [ "<32>{#p/story}* Undyne is letting you make the first attack." ],
-      act_check: [ "<32>{#p/story}* UNDYNE - ATK 41 DEF 21\n* The real, ACTUAL final battle has finally begun!" ],
-      idleTalk1: [ "<20>{#p/undyne}{#e/undyne/9}Show me what you're made of!" ],
-      idleTalk2: [ "<20>{#p/undyne}{#e/undyne/9}Come on!" ],
-      idleTalk3: [ "<20>{#p/undyne}{#e/undyne/9}What's the matter, scared?" ],
-      idleTalk4: [ "<20>{#p/undyne}{#e/undyne/9}What's the holdup?" ],
+      status1: [ "<32>{#p/story}* Undyne让你先出招。" ],
+      act_check: [ "<32>{#p/story}* UNDYNE - 攻击41 防御21\n* 千真万确的最终决战\n  终于开始了！" ],
+      idleTalk1: [ "<20>{#p/undyne}{#e/undyne/9}让我看看\n你的实力吧！" ],
+      idleTalk2: [ "<20>{#p/undyne}{#e/undyne/9}快啊！" ],
+      idleTalk3: [ "<20>{#p/undyne}{#e/undyne/9}怎么，\n你怕了吗？" ],
+      idleTalk4: [ "<20>{#p/undyne}{#e/undyne/9}你在等什么？" ],
       fightTalk: (stronk: boolean) =>
          SAVE.data.b.undyne_respecc
             ? [
-                 "<20>{#p/undyne}{#e/undyne/19}Ouch.",
-                 "<20>{#e/undyne/19}That actually kind of hurt.",
-                 "<20>{#e/undyne/4}Heh...",
-                 "<20>{#e/undyne/3}I guess that's what I get for under- estimating my opponent.",
-                 "<20>{#e/undyne/0}Though, I'm not sure why I'm so surprised.",
-                 "<20>{#e/undyne/1}Given your battle style to date."
+                 "<20>{#p/undyne}{#e/undyne/19}哎呀。",
+                 "<20>{#e/undyne/19}还真有点疼。",
+                 "<20>{#e/undyne/4}呵...",
+                 "<20>{#e/undyne/3}我想这就是\n我低估对手的\n下场吧。",
+                 "<20>{#e/undyne/0}不过，我不知道\n我为什么\n这么惊讶。",
+                 "<20>{#e/undyne/1}因为你战斗的\n风格。"
               ]
             : [
-                 "<20>{#p/undyne}{#e/undyne/16}What.",
-                 "<20>{#e/undyne/15}That's the best you can manage...?",
+                 "<20>{#p/undyne}{#e/undyne/16}啥。",
+                 "<20>{#e/undyne/15}这就是你的\n全力...？",
                  ...(SAVE.data.b.oops
                     ? [
-                         "<20>{#e/undyne/3}Even attacking at full force...",
+                         "<20>{#e/undyne/3}即使你使出了\n全力...",
                          stronk
-                            ? "<20>{#e/undyne/33}You can't give me more than a scratch, huh?"
-                            : "<20>{#e/undyne/33}You just can't muster any intent to hurt me, huh?"
+                            ? "<20>{#e/undyne/33}你也只能\n让我受点擦伤，\n哈？"
+                            : "<20>{#e/undyne/33}你还是无法\n狠下心来\n伤害我，哈？"
                       ]
-                    : [ "<20>{#e/undyne/17}You didn't even land the hit on me!", "<20>{#e/undyne/17}..." ])
+                    : [ "<20>{#e/undyne/17}你的攻击\n甚至都没\n打中我！", "<20>{#e/undyne/17}..." ])
               ],
       flirtTalk0: [
-         "<20>{#p/undyne}{#e/undyne/12}When I told you to hit me...",
-         "<20>{#e/undyne/9}I MEANT IT LITERALLY!"
+         "<20>{#p/undyne}{#e/undyne/12}当我让你\n打我的时候...",
+         "<20>{#e/undyne/9}我是认真的！"
       ],
       flirtTalk1: [
          "<20>{#p/undyne}{#e/undyne/6}Wh-... no!",
@@ -7127,78 +7127,78 @@ export default {
          "<20>{#e/undyne/7}TO...",
          "<20>{#e/undyne/7}..."
       ],
-      flirtStatus0: [ "<33>{#p/story}* In this case, FIGHTING might not be such a bad idea." ],
+      flirtStatus0: [ "<33>{#p/story}* 在这种情况下，\n  战斗可能不是个坏主意。" ],
       flirtStatus1: [ "<33>{#p/story}* Something magical is happening." ],
       flirtStatus2: [ "<32>{#p/story}* Undyne is at her limit." ],
-      flirtText0: [ "<32>{#p/human}* (You flirt with Undyne.)" ],
+      flirtText0: [ "<32>{#p/human}* （你向Undyne调情。）" ],
       flirtText1: [ "<32>{#p/human}* (You tell Undyne she's got your heart hook, line, and sinker.)" ],
       flirtText2: [ "<32>{#p/human}* (You commend Undyne on her brave, fighting spirit.)\n* (She's YOUR hero, now.)" ],
       flirtText3: [ "<32>{#p/human}* (You tell Undyne she's a precious, adorable little urchin.)" ],
-      cutscene1: [ "<20>{#p/undyne}{#e/undyne/4}Heh... you know what?" ],
+      cutscene1: [ "<20>{#p/undyne}{#e/undyne/4}呵...\n你知道吗？" ],
       cutscene2: (fought: boolean) => [
          ...(SAVE.data.b.undyne_respecc
             ? [
-                 "<20>{#e/undyne/11}I don't really want to hurt you.",
-                 "<20>{#e/undyne/11}At first, I was excited by the prospect of fighting you..."
+                 "<20>{#e/undyne/11}我其实不想\n伤害你。",
+                 "<20>{#e/undyne/11}一开始，\n想到要和你\n较量，我很\n兴奋..."
               ]
             : [
-                 "<20>{#e/undyne/11}I don't actually want to hurt you either.",
-                 "<20>{#e/undyne/11}At first, I despised your stupid saccharine schtick, but..."
+                 "<20>{#e/undyne/11}我其实也不想\n伤害你。",
+                 "<20>{#e/undyne/11}一开始，\n我讨厌你那\n矫情的演戏，\n不过..."
               ]),
          ...(fought
             ? SAVE.data.b.undyne_respecc
-               ? [ "<20>{#e/undyne/3}But seeing you go along with me right now, it..." ]
+               ? [ "<20>{#e/undyne/3}但看到你现在\n跟我相处的\n方式，那..." ]
                : SAVE.data.b.oops
-               ? [ "<20>{#e/undyne/3}The way you hit me right now, it..." ]
-               : [ "<20>{#e/undyne/3}The way you missed your attack right now, it..." ]
+               ? [ "<20>{#e/undyne/3}你刚才打我的\n那种方式，\n那..." ]
+               : [ "<20>{#e/undyne/3}你刚才没打中\n我的那种方式，\n它..." ]
             : SAVE.data.b.undyne_respecc
-            ? [ "<20>{#e/undyne/3}But seeing you act that way towards me right now, it..." ]
-            : [ "<20>{#e/undyne/3}The way you acted towards me right now, it..." ]),
-         "<20>{#e/undyne/4}Reminded me of someone I used to train with.",
+            ? [ "<20>{#e/undyne/3}但看到你现在\n对我的这种\n方式，那..." ]
+            : [ "<20>{#e/undyne/3}你刚才对我的\n那种方式，\n那..." ]),
+         "<20>{#e/undyne/4}让我想起了一个\n以前跟我训练的\n家伙。",
          ...(SAVE.data.b.undyne_respecc
             ? [
-                 "<20>{#e/undyne/11}... you may not be a wimpy loser like him.",
-                 "<20>{#e/undyne/11}But one thing you do have in common...",
-                 "<20>{#e/undyne/1}Is a sense of respect for what it means to fight."
+                 "<20>{#e/undyne/11}...你可能\n不像他那样是个\n软弱的废柴。",
+                 "<20>{#e/undyne/11}但你们有一个\n共同点...",
+                 "<20>{#e/undyne/1}就是对\n战斗的意义的\n尊重。"
               ]
             : [
-                 "<20>{#e/undyne/11}Now I know you aren't just some wimpy loser.",
-                 "<20>{#e/undyne/13}You're a wimpy loser with a big heart!",
-                 "<20>{#e/undyne/4}Just like him..."
+                 "<20>{#e/undyne/11}现在我知道了\n你不只是个\n软弱的废柴。",
+                 "<20>{#e/undyne/13}你虽然是个\n软弱的废柴，\n但是心胸\n宽广！",
+                 "<20>{#e/undyne/4}跟他一样..."
               ]),
          "<20>{#e/undyne/3}...",
-         "<20>{#e/undyne/3}Listen, human.",
-         "<20>{#f/undyne/0}It seems that you and Asgore are destined to meet.",
-         SAVE.data.b.undyne_respecc ? "<20>{#e/undyne/3}Unlike you..." : "<20>{#e/undyne/3}Knowing him...",
-         "<20>{#e/undyne/4}He probably doesn't want to fight you.",
+         "<20>{#e/undyne/3}听好了，人类。",
+         "<20>{#f/undyne/0}看来你和\nAsgore\n命中注定\n难逃一战。",
+         SAVE.data.b.undyne_respecc ? "<20>{#e/undyne/3}不像你..." : "<20>{#e/undyne/3}以我对\n他的了解...",
+         "<20>{#e/undyne/4}他大概\n并不想和你\n战斗。",
          ...(SAVE.data.b.undyne_respecc
             ? [
-                 "<20>{#e/undyne/0}Talk to him, if you can.",
-                 "<20>{#e/undyne/0}Tell him what you want upfront.",
-                 "<20>{#e/undyne/3}I get that might be a little weird for you, but...",
-                 "<20>{#e/undyne/4}I'm sure you two can work something out.",
-                 "<20>{#e/undyne/0}And as for our freedom?",
-                 "<20>{#e/undyne/1}Well.",
-                 "<20>{#e/undyne/3}If some other, less respectable human ends up here...",
-                 "<20>{#e/undyne/3}I'll take THEIR soul instead of yours."
+                 "<20>{#e/undyne/0}如果可以，\n跟他聊聊。",
+                 "<20>{#e/undyne/0}先告诉他你\n想要干什么。",
+                 "<20>{#e/undyne/3}我知道这\n对你来说可能\n有点奇怪，\n但是...",
+                 "<20>{#e/undyne/4}相信你肯定\n能说服他让你\n回家的。",
+                 "<20>{#e/undyne/0}至于我们的\n自由？",
+                 "<20>{#e/undyne/1}唉。",
+                 "<20>{#e/undyne/3}如果有其他\n不受尊敬的人类\n坠落下来...",
+                 "<20>{#e/undyne/3}我再夺取\n他的灵魂就\n好了。"
               ]
             : [
-                 "<20>{#f/undyne/0}Talk to him.",
-                 "<20>{#f/undyne/1}I'm sure you two can work something out.",
-                 "<20>{#e/undyne/3}Eventually, some meaner human will end up here...",
-                 "<20>{#e/undyne/3}And I'll take THEIR soul instead of yours."
+                 "<20>{#f/undyne/0}跟他聊聊。",
+                 "<20>{#f/undyne/1}相信你肯定\n能说服他让你\n回家的。",
+                 "<20>{#e/undyne/3}不管多久，\n总会有坏人类\n坠落下来。",
+                 "<20>{#e/undyne/3}到时候我再\n夺取他的\n灵魂。"
               ]),
-         "<20>{#f/undyne/1}That makes sense, right?\nFuhuhu.",
-         "<20>{#f/undyne/0}Oh, and if you DO hurt Asgore...",
-         "<20>{#e/undyne/11}I'll take the human SOULs... cross the force field...",
+         "<20>{#f/undyne/1}有道理，\n对吧？\n呋呼呼。",
+         "<20>{#f/undyne/0}哦对了，\n如果你真的\n伤害了Asgore...",
+         "<20>{#e/undyne/11}我会亲自带上\n那些人类灵魂...\n穿过力场...",
          ...(SAVE.data.b.undyne_respecc
-            ? [ "<20>{#e/undyne/8}And give you a REAL battle!", "<20>{#e/undyne/13}That's what warriors do, right?" ]
+            ? [ "<20>{#e/undyne/8}跟你来一场\n真正的战斗！", "<20>{#e/undyne/13}这就是战士\n该做的，\n对吧？" ]
             : [
-                 "<20>{#e/undyne/8}And beat the hell out of you!",
-                 "<20>{#e/undyne/13}That's what friends are for, right?"
+                 "<20>{#e/undyne/8}把你揍得\n万劫不复！",
+                 "<20>{#e/undyne/13}这就是\n朋友嘛，对吧？"
               ]),
-         "<20>{#e/undyne/13}Fuhuhu!",
-         "<20>{#e/undyne/13}Now let's get the hell out of this flaming house!"
+         "<20>{#e/undyne/13}呋呼呼！",
+         "<20>{#e/undyne/13}现在，咱们赶紧\n从这个着火的\n屋子里出去！"
       ]
    },
 
@@ -7543,7 +7543,7 @@ export default {
          ...(game.room === 'f_kitchen' // NO-TRANSLATE
 
             ? ((SAVE.data.b.drop_snack = true),
-              [ "<25>{#p/undyne}{#f/8}* Fuhuhuhu!\n* Throw that snack on the cold, hard floor!" ])
+              [ "<25>{#p/undyne}{#f/8}* 呋呼呼呼！\n* 把零食扔到\n  又冷又硬的地板上！" ])
             : [])
       ],
       info: () =>
@@ -8257,11 +8257,11 @@ export default {
                ? [ "<32>{#p/human}* (The chaos has come to an end, filling you with determination.)" ]
                : SAVE.data.n.exp > 0
                ? [
-                    "<32>{#p/human}* (In with the steam comes the bitter scent of betrayal.)",
+                    "<32>{#p/human}* （随着蒸汽而来的\n  是背叛的苦涩。）",
                     "<32>{#p/human}* （这使你充满了决心。）"
                  ]
                : [
-                    "<32>{#p/human}* (In with the steam comes the sweet scent of friendship.)",
+                    "<32>{#p/human}* （随着蒸汽而来的\n  是友谊的芬芳。）",
                     "<32>{#p/human}* （这使你充满了决心。）"
                  ]
       },

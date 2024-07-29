@@ -194,7 +194,7 @@ export default {
       gyft: "没必要这样...",
       heats: "你知道！？",
       kabakk: "Respect my AUTHORITY!",
-      vulkin: "啊！谢谢你～",
+      vulkin: "啊！谢谢你~",
       zorren: "Thanks for, uh, using my name.",
 
       

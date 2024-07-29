@@ -945,7 +945,7 @@ export default {
                     [
                        "<25>{#p/asgore}{#npc/a}{#f/21}* Oh?\n* You have something to tell me?",
                        "<32>{#npc}{#p/human}* (You repeat the promise made to you by Asgore in Archive Six.)",
-                       "<25>{#p/asgore}{#npc/a}{#f/8}* ...!",
+                       "<25>{#p/asgore}{#npc/a}{#f/8}* ...！",
                        "<25>{#f/1}* Frisk...",
                        "<25>{#f/1}* ... I am not sure I can do that, but...",
                        "<25>{#f/6}* For you, I will try."
@@ -2527,7 +2527,7 @@ export default {
             [ "{*}{#p/twinkly}I'll destroy everything." ],
             [ "{*}{#p/twinkly}I'll make it so you never existed!" ],
             [ "{*}{#p/twinkly}..." ],
-            [ "{*}{#p/twinkly}...?" ],
+            [ "{*}{#p/twinkly}...？" ],
             [ "{*}{#p/twinkly}... why?" ],
             [ "{*}{#p/twinkly}... why are you being...", "{*}{#p/twinkly}... so nice to me?" ],
             [ "{*}{#p/twinkly}... I can't understand..." ],
@@ -2801,7 +2801,7 @@ export default {
          sad6: () =>
             world.runaway
                ? [
-                    "<25>{#p/asriel1}{#f/25}* ...!",
+                    "<25>{#p/asriel1}{#f/25}* ...！",
                     "<25>{#f/21}* ...",
                     "<25>{#f/21}* Frisk, I...",
                     "<25>{#f/15}* ... I just can't right now, okay?",
@@ -4741,8 +4741,8 @@ export default {
    b_opponent_alphys: {
       artifact: [ "<32>{#p/human}* (Alphys glances at it, but ultimately dismisses it.)" ],
       name: "* 艾菲斯",
-      gotcha: [ "<20>{*}{#p/alphys}{#e/alphys/19}Gotcha.{^30}{%}" ],
-      act_check: [ "<32>{#p/asriel2}* Alphys.\n* The royal scientist." ],
+      gotcha: [ "<20>{*}{#p/alphys}{#e/alphys/19}逮着你俩了。{^30}{%}" ],
+      act_check: [ "<32>{#p/asriel2}* 艾菲斯。\n* 皇家科学员。" ],
       act_asriel: (i: number) => [
          ...[
             [
@@ -4778,7 +4778,7 @@ export default {
       statusY: [ "<32>{#p/asriel2}* She's almost dead!\n* Keep going!" ],
       status1a: [ "<32>{#p/asriel2}* Alphys..." ],
       status1r: [ "<32>{#p/asriel2}* You know what to do." ],
-      status1b: [ "<33>{#p/asriel2}* So she didn't run away, then...\n* Interesting." ],
+      status1b: [ "<33>{#p/asriel2}* 她竟然没逃跑...\n* 有意思。" ],
       status1c: [ "<32>{#p/asriel2}* Well, you know what to do." ],
       status1d: [ "<32>{#p/asriel2}* Hmm... don't you think she looks tired?" ],
       status2a: [ "<32>{#p/asriel2}* What's the matter, Alphys?\n* Can't keep up?" ],
@@ -4786,7 +4786,7 @@ export default {
       status2b: [ "<32>{#p/asriel2}* Go on, tell us your sob story." ],
       status2c: [ "<32>{#p/asriel2}* I'm surprised you're not still doing that right now." ],
       status2d: [ "<32>{#p/asriel2}* Thanks, Dr. Obvious." ],
-      status2e: [ "<32>{#p/asriel2}* ...?" ],
+      status2e: [ "<32>{#p/asriel2}* ...？" ],
       status2r2: [ "<32>{#p/asriel2}* Something's about to happen." ],
       status3a: [ "<32>{#p/asriel2}* Okay... things are starting to get serious now." ],
       status3b: [ "<32>{#p/asriel2}* ... it looks like Alphys isn't trying to defend anymore.\n* Now's our chance!" ],
@@ -4800,24 +4800,24 @@ export default {
          "<20>{#e/alphys/18}... guess I'll be the one doing the talking, then."
       ],
       turnTalk1c: [
-         "<20>{#p/alphys}{#e/alphys/19}That's right.\nAlphys.",
-         "<20>{#e/alphys/18}Because nobody else sees things like I do.",
-         "<20>{#e/alphys/19}Nobody else knows how dangerous you really are."
+         "<20>{#p/alphys}{#e/alphys/19}这就对了。\n艾菲斯。",
+         "<20>{#e/alphys/18}因为，\n你有多少能耐，\n有多大的潜能...",
+         "<20>{#e/alphys/19}只有你自己才清楚。"
       ],
       turnTalk1d: [
-         "<20>{#p/alphys}{#e/alphys/19}Use your precious ITEMs all you want.",
-         "<20>{#e/alphys/18}It won't change what happens next."
+         "<20>{#p/alphys}{#e/alphys/19}尽管挥霍你那些\n珍贵的物品。",
+         "<20>{#e/alphys/18}就那些东西，唬不到我。"
       ],
       turnTalk2: [
-         "<20>{#p/alphys}{#e/alphys/19}... look.\nI've studied human culture for years.",
-         "<20>{#e/alphys/19}I'm not surprised you're the one doing all the fighting."
+         "<20>{#p/alphys}{#e/alphys/19}...听着。\n我研究人类文化很多年了。",
+         "<20>{#e/alphys/19}你会选择战斗到死，\n我一点也不奇怪。"
       ],
       turnTalk3: [
-         "<20>{#p/alphys}{#e/alphys/18}But you, Asriel...\nYou use your human partner as a shield.",
-         "<20>{#e/alphys/52}What's the matter?\nAfraid your stolen SOUL won't survive on its own?"
+         "<20>{#p/alphys}{#e/alphys/18}而你呢，艾斯利尔...\n你利用了人类，\n把他当保护伞。",
+         "<20>{#e/alphys/52}怎么了？\n怕自己靠一个偷来的灵魂\n活不下去？"
       ],
       turnTalk4: [
-         "<20>{#p/alphys}{#e/alphys/51}Or maybe you're just afraid they'll go on without you if you die.",
+         "<20>{#p/alphys}{#e/alphys/51}或者说，\n你怕自己死了后，\n人类发现有没有你都一样。",
          "<20>{#e/alphys/17}Well.\nTHAT'd be poetic."
       ],
       turnTalk5: [

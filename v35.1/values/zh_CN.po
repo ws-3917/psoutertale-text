@@ -326,7 +326,7 @@ msgid "Respect my AUTHORITY!"
 msgstr ""
 
 msgid "Ahh! Thank you~"
-msgstr "啊！谢谢你～"
+msgstr "啊！谢谢你~"
 
 msgid "Thanks for, uh, using my name."
 msgstr ""

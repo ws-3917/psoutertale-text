@@ -2384,7 +2384,7 @@ export default {
                ? [ "<32>{#p/napstablook}* see you then, i guess" ]
                : [
                     "<32>{#p/napstablook}* and $(namel)?",
-                    "<32>{#p/basic}* ...?",
+                    "<32>{#p/basic}* ...？",
                     "<32>{#p/napstablook}* .........\n* thanks for sticking around."
                  ])
          ],
@@ -7683,7 +7683,7 @@ export default {
             : !world.badder_lizard
             ? [ "<20>{*}{#p/mettaton}{#e/mettaton/30}... at least it ended off with a bang.{^20}{%}" ]
             : [ "<20>{*}{#p/mettaton}{#e/mettaton/27}... you'll realize not everything's going to go your way!{^20}{%}" ],
-      turnTalkX1a: [ "<20>{#p/mettaton}{#e/mettaton/19}{#a.la/8}{#a.ra/8}...?" ],
+      turnTalkX1a: [ "<20>{#p/mettaton}{#e/mettaton/19}{#a.la/8}{#a.ra/8}...？" ],
       turnTalkX1b: [
          "<20>{#p/mettaton}{#e/mettaton/15}{#a.la/0}{#a.ra/0}... of course.",
          "<20>{#p/mettaton}{#e/mettaton/13}{#a.la/8}{#a.ra/8}You thought I'd be done for without the wires... right?",
@@ -8748,7 +8748,7 @@ export default {
          "<32>{#p/human}* (You come closer to Mushketeer.)",
          "<32>{#p/basic}* Mushketeer's attacks get more intense!",
          ...(world.genocide
-            ? [ "<32>{#p/asriel2}* ...?" ]
+            ? [ "<32>{#p/asriel2}* ...？" ]
             : !world.badder_lizard && calm_lizard()
             ? [ "<32>{#p/alphys}* Careful..." ]
             : [])

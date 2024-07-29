@@ -4397,7 +4397,7 @@ export default {
       ],
       balcony37a: [
          "<33>{#p/basic}* ... heh.\n* If we were just friends, maybe.\n* But we're more than that.",
-         "<25>{#p/kidd}{#f/7}* ...?"
+         "<25>{#p/kidd}{#f/7}* ...？"
       ],
       balcony38a: [ "<25>{#p/asriel1}{#f/17}* We're your family." ],
       balcony39a: [
