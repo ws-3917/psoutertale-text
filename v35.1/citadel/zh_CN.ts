@@ -4818,11 +4818,11 @@ export default {
       ],
       turnTalk4: [
          "<20>{#p/alphys}{#e/alphys/51}或者说，\n你怕自己死了后，\n人类发现有没有你都一样。",
-         "<20>{#e/alphys/17}Well.\nTHAT'd be poetic."
+         "<20>{#e/alphys/17}哦。\n这还挺有诗意的。"
       ],
       turnTalk5: [
-         "<20>{#p/alphys}{#e/alphys/16}Not that I blame you for finding comfort in a human partner.",
-         "<20>{#e/alphys/52}I can tell you from experience...",
+         "<20>{#p/alphys}{#e/alphys/16}就你找人类求安慰这事，\n我可没责怪你的意思。",
+         "<20>{#e/alphys/52}只是我可以\n用亲身经历告诉你...",
          "<20>{#e/alphys/19}Things get lonely after everyone you care about is dead."
       ],
       turnTalk6: [

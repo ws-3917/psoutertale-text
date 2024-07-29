@@ -2,6 +2,9 @@
 msgid ""
 msgstr ""
 
+msgid ""
+msgstr ""
+
 msgid "<32>{#p/human}* (You feel a darkness gathering inside of you.)"
 msgstr ""
 
@@ -10389,14 +10392,20 @@ msgid ""
 "<20>{#e/alphys/17}Well.\n"
 "THAT'd be poetic."
 msgstr ""
+"<20>{#e/alphys/17}喔。\n"
+"這還挺有詩意的。"
 
 msgid ""
 "<20>{#p/alphys}{#e/alphys/16}Not that I blame you for finding comfort in a "
 "human partner."
 msgstr ""
+"<20>{#p/alphys}{#e/alphys/16}就你找人類求安慰這事，\n"
+"我可沒責怪你的意思。"
 
 msgid "<20>{#e/alphys/52}I can tell you from experience..."
 msgstr ""
+"<20>{#e/alphys/52}只是我可以\n"
+"用親身經歷告訴你..."
 
 msgid ""
 "<20>{#e/alphys/19}Things get lonely after everyone you care about is dead."
@@ -13586,9 +13595,6 @@ msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/6}{@random=1.1/1.1}..."
 msgstr "<11>{*}{#e/asgore/2}{#v/3}{#i/6}{@random=1.1/1.1}..."
 
 msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random=1.1/1.1}Goodbye..."
-msgstr ""
-
-msgid ""
 msgstr ""
 
 msgid "N/A"
