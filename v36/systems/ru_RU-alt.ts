@@ -365,12 +365,12 @@ export default {
          [
             "§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§",
             "Alden",
-            "§fill=#808080§For being there for me when I\nneed someone to lean on, and\nteaching me life lessons that\nhave made me a better person.§fill=#fff§"
+            "§fill=#808080§За то что всегда был рядом в момент нужды, и учил меня как стать лучше.§fill=#fff§"
          ],
          [
             "§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§",
             "My Cocoa",
-            "§fill=#808080§For being one of the friendliest\npeople I know, the first person\nto believe in my vision, and\ninspiring me to finish the game.§fill=#fff§"
+            "§fill=#808080§За то что ты один из \nсамых приветливых людей которых я знаю,\nверу в моё виденье и вдохновение завершить игру.§fill=#fff§"
          ],
          [
             "§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§",
@@ -797,17 +797,17 @@ export default {
          }
       },
 
-      langPrompt: "[↑ or ↓] to Select / [Z or ENTER] to Confirm",
+      langPrompt: "[↑ или ↓] чтобы Выбрать / [Z или ENTER] чтобы Подтвердить",
 
-      quitText1: "Quitting",
-      quitText2: "Quitting.",
-      quitText3: "Quitting..",
+      quitText1: "Уходим",
+      quitText2: "Уходим.",
+      quitText3: "Уходим..",
 
       real1: [
          [
-            "Thank you for playing Outertale.",
-            "Working on this project has been an honor,",
-            "and a pleasure on my part."
+            "Спасибо за то, что вы поиграли в Outertale.",
+            "Для меня, работа над этим проектом была честью,",
+            "и удовольствием."
          ],
          [ "When I started this journey, I never", "thought I'd get this far, but here we", "are anyway, at the end." ],
          [
@@ -842,49 +842,49 @@ export default {
       end1: "THE END",
       end2: "THE END...?",
 
-      restartText1: "Restarting",
-      restartText2: "Restarting.",
-      restartText3: "Restarting..",
+      restartText1: "Перезапуск",
+      restartText2: "Перезапуск.",
+      restartText3: "Перезапуск..",
 
       title: "OUTERTALE (RC6)",
       title_timeline: "OUTERTALE...? (RC6)"
    },
 
    gamepad: {
-      prompt: "GAMEPAD SETUP",
+      prompt: "НАСТРОЙКА КНОПОК",
       prompt_desc:
-         "Use an input on your gamepad to assign\nit to the in-game action.\n\nUse the input again to confirm, or use\nother inputs to assign those as well.\n\nPress ESC to skip setup.",
-      prompt_counter: "Inputs Assigned: $(x)",
-      z: "[Z or ENTER] - Confirm",
-      x: "[X or SHIFT] - Cancel",
-      c: "[C or CTRL] - Menu (In-game)",
-      u: "[UP or W] - Move Up",
-      l: "[LEFT or A] - Move Left",
-      d: "[DOWN or S] - Move Down",
-      r: "[RIGHT or D] - Move Right",
-      f: "[F4] - Fullscreen",
-      prompt_done: "Setup complete.\nPress any button to continue.",
-      prompt_done_browser: "\nNote: On this platform, the gamepad may\nnot always be able to enter fullscreen.",
+         "Нажмите кнопку на геймпаде чтобы настроить\nеё под действие в игре.\n\nНажмите кнопку снова для подтверждения,\nили нажмите другие кнопки чтобы их тоже настроить.\n\nНажмите ESC чтобы пропустить настройку.",
+      prompt_counter: "Выбранное Управление: $(x)",
+      z: "[Z или ENTER] - Подтвердить",
+      x: "[X или SHIFT] - Отменить",
+      c: "[C или CTRL] - Меню (В игре)",
+      u: "[UP или W] - Вверх",
+      l: "[LEFT или A] - Влево",
+      d: "[DOWN или S] - Вниз",
+      r: "[RIGHT or D] - Вправо",
+      f: "[F4] - Полный экран",
+      prompt_done: "Настройка завершена.\nНажмите любую кнопку чтобы продолжить.",
+      prompt_done_browser: "\nПримечание: На этой платформе, геймпад не\nвсегда сможет входить в Полный экран.",
       prompt_load:
-         "A gamepad has already been set up.\nPress any button to continue, or press\nany button three times in rapid\nsuccession to restart setup.\n\nPress ESC to skip setup."
+         "Геймпад уже был настроен.\nНажмите любую кнопку чтобы продолжить, или\nнажмите любую кнопку три раза подряд\nчтобы перезапустить настройку.\n\nНажмите ESC чтобы пропустить настройку."
    },
 
    general: {
-      asriel: "Asriel",
-      asriel_location: "The Oblivion",
+      asriel: "Азриель",
+      asriel_location: "Забвение",
       disabled: "ВЫКЛЮЧЕН",
       enabled: "ВКЛЮЧЁН",
-      finish: "Press [X] to Finish",
+      finish: "Нажмите [X] чтобы Завершить",
       g: "З",
       hp: "ОЗ",
       inf: "INF",
       landing1: "[PRESS Z OR ENTER]",
       lv: "УР",
-      mystery1: "§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§",
-      mystery2: "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}",
-      mystery2l: "{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}",
-      mystery2u: "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}",
-      no: "No",
+      mystery1: "§mystify=АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя§aaaaaa§mystify=§",
+      mystery2: "{@mystify=АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя}aaaaaa{@mystify=}",
+      mystery2l: "{@mystify=абвгдеёжзийклмнопрстуфхцчшщъыьэюя}aaaaaa{@mystify=}",
+      mystery2u: "{@mystify=АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ}aaaaaa{@mystify=}",
+      no: "Нет",
       nominal: "§fill=#0f0§NOMINAL",
       percent: "$(x)%",
       player: "player",
@@ -956,10 +956,10 @@ export default {
 
       start1: [
          "--- Инструкция ---",
-         "[Z or ENTER] - Confirm",
-         "[X or SHIFT] - Cancel",
-         "[C or CTRL] - Menu (In-game)",
-         "[F4] - Fullscreen",
+         "[Z или ENTER] - Подтвердить",
+         "[X или SHIFT] - Отменить",
+         "[C или CTRL] - Меню (В игре)",
+         "[F4] - Полный экран",
          "[Зажать ESC] - Перезагрузка",
          "Когда ОЗ на нуле, вы проигрываете."
       ],
