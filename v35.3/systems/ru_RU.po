@@ -1886,10 +1886,10 @@ msgid "The Oblivion"
 msgstr ""
 
 msgid "DISABLED"
-msgstr ""
+msgstr "ВЫКЛЮЧЕН"
 
 msgid "ENABLED"
-msgstr ""
+msgstr "ВКЛЮЧЁН"
 
 msgid "Press [X] to Finish"
 msgstr ""
@@ -2025,16 +2025,16 @@ msgid "File saved."
 msgstr ""
 
 msgid "SETTINGS"
-msgstr ""
+msgstr "НАСТРОЙКИ"
 
 msgid "EXIT"
-msgstr ""
+msgstr "ВЫЙТИ"
 
 msgid "LANGUAGE"
-msgstr ""
+msgstr "ЯЗЫК"
 
 msgid "ENGLISH"
-msgstr ""
+msgstr "РУССКИЙ"
 
 msgid "SOUND FX"
 msgstr "ЗВУКОВЫЕ ЭФФЕКТЫ"
