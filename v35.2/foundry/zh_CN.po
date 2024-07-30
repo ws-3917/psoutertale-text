@@ -12102,7 +12102,7 @@ msgid "<32>{#p/human}* (You now hold a cup of the electro-dampening fluid.)"
 msgstr "<32>{#p/human}* （你现在拿着一杯电阻尼液。）"
 
 msgid "<32>{#p/human}* (You decide not to get a cup.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你决定不接。）"
 
 msgid "<32>{#p/human}* (You already have a cup.)"
 msgstr ""

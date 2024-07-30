@@ -5199,7 +5199,7 @@ export default {
          choicer.create("* （要接一杯吗？）", "是", "否")
       ],
       watercooler2a: [ "<32>{#p/human}* （你现在拿着一杯电阻尼液。）" ],
-      watercooler2b: [ "<32>{#p/human}* (You decide not to get a cup.)" ],
+      watercooler2b: [ "<32>{#p/human}* （你决定不接。）" ],
       watercooler3: () => [
          ...(SAVE.data.b.svr
             ? [ "<32>{#p/human}* (The label describes using this fluid only in a specific kind of emergency.)" ]

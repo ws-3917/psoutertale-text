@@ -735,7 +735,7 @@ msgid "<26>{#f/13}* You know why we're here."
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/8}* ... finally."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/8}* ...总算解决她了。"
 
 msgid "<25>{#p/asriel2}{#f/8}* Looks like they've already been evacuated..."
 msgstr ""
@@ -1211,15 +1211,17 @@ msgid ""
 "<25>{#p/asriel2}{#f/15}* $(name).\n"
 "* Listen to me."
 msgstr ""
+"<25>{#p/asriel2}{#f/15}* $(name)。\n"
+"* 听我说。"
 
 msgid "<25>{#p/asriel2}{#f/7}* We literally HAD her."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/7}* 我们已经干掉她了。"
 
 msgid "<25>{#p/asriel2}{#f/5}* Why would you bring us back after that!?"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/5}* 都这样了，回溯时间干嘛呢？"
 
 msgid "<25>{#p/asriel2}{#f/7}* ... you can't be serious right now."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/7}* ...你逗我呢？"
 
 msgid "<25>{#p/asriel2}{#f/7}* ..."
 msgstr "<25>{#p/asriel2}{#f/7}* ..."
@@ -1248,30 +1250,32 @@ msgid "<32>{#p/human}* (It appears Asriel is deep in thought.)"
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/9}* What was THAT?"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/9}* 怎么回事？"
 
 msgid "<25>{#p/asriel2}{#f/10}* ... WHO was that?"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/10}* ...谁攻击了我们？"
 
 msgid "<25>{#p/asriel2}{#f/15}* We got hit with..."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/15}* 我们..."
 
 msgid "<25>{#p/asriel2}{#f/10}* ... electricity magic?"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/10}* ...被一道电魔法击中了？"
 
 msgid ""
 "<25>{#p/asriel2}{#f/3}* Alphys.\n"
 "* It's gotta be."
 msgstr ""
+"<25>{#p/asriel2}{#f/3}* Alphys。\n"
+"* 肯定是她。"
 
 msgid "<25>{#p/asriel2}{#f/15}* So she didn't run away, then..."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/15}* 她原来没逃跑吗..."
 
 msgid "<25>{#p/asriel2}{#f/16}* Well, this should be interesting."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/16}* 好吧，还算有点意思。"
 
 msgid "<25>{#p/asriel2}{#f/15}* So it was Alphys, then..."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/15}* 原来是Alphys..."
 
 msgid "<32>{#p/basic}* Wait."
 msgstr ""
@@ -10247,7 +10251,7 @@ msgid "<32>{#p/story}* DEFENSE up for this turn!"
 msgstr ""
 
 msgid "<20>{#p/alphys}{#e/alphys/19}Nice try."
-msgstr ""
+msgstr "<20>{#p/alphys}{#e/alphys/19}想得美。"
 
 msgid "<32>{#p/asriel2}* ..."
 msgstr "<32>{#p/asriel2}* ..."
@@ -10256,30 +10260,36 @@ msgid ""
 "<32>{#p/asriel2}* She's almost dead!\n"
 "* Keep going!"
 msgstr ""
+"<32>{#p/asriel2}* 她快死了！\n"
+"* 继续攻击！"
 
 msgid "<32>{#p/asriel2}* Alphys..."
-msgstr ""
+msgstr "<32>{#p/asriel2}* Alphys..."
 
 msgid "<32>{#p/asriel2}* You know what to do."
-msgstr ""
+msgstr "<32>{#p/asriel2}* 你知道该干什么。"
 
 msgid ""
 "<33>{#p/asriel2}* So she didn't run away, then...\n"
 "* Interesting."
 msgstr ""
-"<33>{#p/asriel2}* 她竟然没逃跑...\n"
+"<33>{#p/asriel2}* 她原来没逃跑吗...\n"
 "* 有意思。"
 
 msgid "<32>{#p/asriel2}* Well, you know what to do."
-msgstr ""
+msgstr "<32>{#p/asriel2}* 你知道该干什么吧。"
 
 msgid "<32>{#p/asriel2}* Hmm... don't you think she looks tired?"
 msgstr ""
+"<32>{#p/asriel2}* 嗯...\n"
+"  她是不是看起来有点累了？"
 
 msgid ""
 "<32>{#p/asriel2}* What's the matter, Alphys?\n"
 "* Can't keep up?"
 msgstr ""
+"<32>{#p/asriel2}* Alphys，怎么了？\n"
+"* 撑不住了？"
 
 msgid "<32>{#p/asriel2}* Ugh, here we go..."
 msgstr ""
@@ -10289,6 +10299,8 @@ msgstr ""
 
 msgid "<32>{#p/asriel2}* I'm surprised you're not still doing that right now."
 msgstr ""
+"<32>{#p/asriel2}* 你竟然没贯彻逃跑精神，\n"
+"我可真惊讶呢。"
 
 msgid "<32>{#p/asriel2}* Thanks, Dr. Obvious."
 msgstr ""
@@ -10300,12 +10312,14 @@ msgid "<32>{#p/asriel2}* Something's about to happen."
 msgstr ""
 
 msgid "<32>{#p/asriel2}* Okay... things are starting to get serious now."
-msgstr ""
+msgstr "<32>{#p/asriel2}* 好吧... 形势严重起来了。"
 
 msgid ""
 "<32>{#p/asriel2}* ... it looks like Alphys isn't trying to defend anymore.\n"
 "* Now's our chance!"
 msgstr ""
+"<32>{#p/asriel2}* ...看来Alphys不准备防御了。\n"
+"* 抓住这个机会！"
 
 msgid "<32>{#p/asriel2}* Hang in there, $(name)..."
 msgstr ""
@@ -10314,15 +10328,19 @@ msgid ""
 "<20>{#p/alphys}{#e/alphys/19}Did you think I'd fight you if I didn't know "
 "how to take a hit?"
 msgstr ""
+"<20>{#p/alphys}{#e/alphys/19}要是连一击都扛不住，\n"
+"我怎么可能来这？"
 
 msgid "<20>{#p/alphys}{#e/alphys/23}You must not be as smart as I thought."
 msgstr ""
+"<20>{#p/alphys}{#e/alphys/23}看来你们没我想的\n"
+"那么聪明。"
 
 msgid "<20>{#p/alphys}{#e/alphys/19}Nothing to say?"
-msgstr ""
+msgstr "<20>{#p/alphys}{#e/alphys/19}无话可说了？"
 
 msgid "<20>{#e/alphys/18}... guess I'll be the one doing the talking, then."
-msgstr ""
+msgstr "<20>{#e/alphys/18}...那就我管我说，你们听着吧。"
 
 msgid ""
 "<20>{#p/alphys}{#e/alphys/19}That's right.\n"
@@ -10501,35 +10519,46 @@ msgid ""
 "<20>{#z2}{#p/alphys}{#e/alphys/7}After Undyne died, I didn't know what to "
 "do."
 msgstr ""
+"<20>{#z2}{#p/alphys}{#e/alphys/7}Undyne牺牲后，\n"
+"我不知道自己能做什么。"
 
 msgid "<20>{#e/alphys/46}So I ran as fast and as far as I could."
-msgstr ""
+msgstr "<20>{#e/alphys/46}于是，我逃跑了。"
 
 msgid ""
 "<20>{#p/alphys}{#e/alphys/47}The more I ran, the more frustrated I became "
 "with myself."
 msgstr ""
+"<20>{#p/alphys}{#e/alphys/47}可是越逃跑，\n"
+"我就对自己越失望。"
 
 msgid ""
 "<20>{#e/alphys/48}How could I stand by and do NOTHING as I watched them die?"
 msgstr ""
+"<20>{#e/alphys/48}难道我就这么袖手旁观，\n"
+"眼睁睁看着我族人民\n"
+"接连死去？"
 
 msgid "<20>{#p/alphys}{#e/alphys/21}... it was all just a little too much."
-msgstr ""
+msgstr "<20>{#p/alphys}{#e/alphys/21}...这未免太绝情了。"
 
 msgid "<21>{#e/alphys/39}Still, no matter how terrible I felt..."
-msgstr ""
+msgstr "<21>{#e/alphys/39}更何况..."
 
 msgid "<20>{#e/alphys/45}The reality of what had happened stayed the same."
 msgstr ""
+"<20>{#e/alphys/45}我怎么自责\n"
+"都没法改变现状。"
 
 msgid ""
 "<20>{#p/alphys}{#e/alphys/39}Undyne said you'd go on to kill everyone in the"
 " galaxy..."
 msgstr ""
+"<20>{#p/alphys}{#e/alphys/39}Undyne说你们会\n"
+"杀死这星河中的每个人..."
 
 msgid "<20>{#e/alphys/40}But it's worse than that, isn't it?"
-msgstr ""
+msgstr "<20>{#e/alphys/40}但其实比她想的更糟吧？"
 
 msgid "<20>{#z3}{#p/alphys}{#e/alphys/48}..."
 msgstr "<20>{#z3}{#p/alphys}{#e/alphys/48}..."
@@ -10538,65 +10567,75 @@ msgid ""
 "<20>{#e/alphys/47}I may have brought one of you back to life, but I'm not to"
 " blame for everything you've done."
 msgstr ""
+"<20>{#e/alphys/47}复活你们中的某人\n"
+"可能是我的过失，\n"
+"但你们犯下的罪行\n"
+"可不是。"
 
 msgid ""
 "<20>{#e/alphys/38}Whatever it is you're planning, I won't let you get away "
 "with it."
 msgstr ""
+"<20>{#e/alphys/38}我管你们打的什么算盘，\n"
+"你们都得付出代价。"
 
 msgid "<20>{*}{#z4}{#e/alphys/54}Even if it means...!{^10}{%}"
-msgstr ""
+msgstr "<20>{*}{#z4}{#e/alphys/54}哪怕与此同时...{^10}{%}"
 
 msgid "<20>{*}{#e/alphys/25}Losing my sanity in the process!{^10}{%}"
-msgstr ""
+msgstr "<20>{*}{#e/alphys/25}我会丧失理智！{^10}{%}"
 
 msgid "<20>{#p/alphys}{#e/alphys/25}Take THIS!!"
-msgstr ""
+msgstr "<20>{#p/alphys}{#e/alphys/25}接招！！"
 
 msgid "<20>{#p/alphys}{#e/alphys/25}Or THIS!!"
-msgstr ""
+msgstr "<20>{#p/alphys}{#e/alphys/25}再尝尝这招！！"
 
 msgid "<20>{#p/alphys}{#e/alphys/25}How about THIS!!"
-msgstr ""
+msgstr "<20>{#p/alphys}{#e/alphys/25}这招又如何！！"
 
 msgid "<20>{#p/alphys}{#e/alphys/24}Hahaha..."
-msgstr ""
+msgstr "<20>{#p/alphys}{#e/alphys/24}哈哈哈..."
 
 msgid "<20>{#p/alphys}{#e/alphys/26}..."
 msgstr "<20>{#p/alphys}{#e/alphys/26}..."
 
 msgid "<20>{#p/alphys}{#e/alphys/27}Come ON!!"
-msgstr ""
+msgstr "<20>{#p/alphys}{#e/alphys/27快去死啊!!"
 
 msgid "<20>{#p/alphys}{#e/alphys/27}..."
 msgstr "<20>{#p/alphys}{#e/alphys/27}..."
 
 msgid "<20>{*}{#p/alphys}{#e/alphys/42}No...{^40}{%}"
-msgstr ""
+msgstr "<20>{*}{#p/alphys}{#e/alphys/42}不...{^40}{%}"
 
 msgid "<20>{*}{#e/alphys/43}How am I already...{^40}{%}"
-msgstr ""
+msgstr "<20>{*}{#e/alphys/43}怎么这么快我就...{^40}{%}"
 
 msgid "<20>{*}{#e/alphys/43}How did you...{^40}{%}"
-msgstr ""
+msgstr "<20>{*}{#e/alphys/43}你们...{^40}{%}"
 
 msgid "<20>{*}I d-didn't think you'd be this strong...{^40}{%}"
-msgstr ""
+msgstr "<20>{*}没-没想到你们这么强...{^40}{%}"
 
 msgid "<20>{*}But now, I realize...{^40}{%}"
 msgstr ""
+"<20>{*}现在，我明白了，\n"
+"与你们为敌...{^40}{%}"
 
 msgid "<20>{*}I'm going to die here... a-aren't I?{^40}{%}"
 msgstr ""
+"<20>{*}我要死在这了...\n"
+"是-是吗？{^40}{%}"
 
 msgid "<20>{*}After everything...{^40}{%}"
-msgstr ""
+msgstr "<20>{*}尽了全力，我还是...{^40}{%}"
 
 msgid "<20>{*}{#p/alphys}I never had a chance.{^40}{%}"
-msgstr ""
+msgstr "<20>{*}{#p/alphys}我毫无胜算。{^40}{%}"
 
 msgid "<20>{*}{#p/alphys}I'm sorry, Asgore.{^40}{%}"
-msgstr ""
+msgstr "<20>{*}{#p/alphys}Asgore，我对不起你。{^40}{%}"
 
 msgid "* Toriel"
 msgstr "* Toriel"

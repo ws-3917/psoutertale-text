@@ -4159,7 +4159,8 @@ msgid ""
 " the outpost."
 msgstr ""
 "<32>{#p/basic}* 當你在Toriel的家裡睡下後，\n"
-"  她摧毀了通往前哨站的橋。"
+"  她隨即摧毀了離開外域\n"
+"  唯一的出口。"
 
 msgid ""
 "<32>{#p/basic}* After you return to Toriel's home, she destroys the bridge "
@@ -6199,7 +6200,7 @@ msgstr ""
 "* 誰會去買這種東西啊？"
 
 msgid "* (Buy the Fizzli Soda for 5G?)"
-msgstr "* （花5G買下呲呲汽水嗎）"
+msgstr "* （花5G買下呲呲汽水嗎？）"
 
 msgid "<32>{#p/human}{#n1!}* (You got the Fizzli Soda.)"
 msgstr "<32>{#p/human}{#n1!}* （你得到了呲呲汽水。）"

@@ -842,7 +842,7 @@ export default {
          }
       },
 
-      langPrompt: "[↑ or ↓] to Select / [Z or ENTER] to Confirm",
+      langPrompt: "[↑或↓] 选择语言 / [Z 或 ENTER] 确认",
 
       quitText1: "正在退出",
       quitText2: "正在退出.",

@@ -620,12 +620,12 @@ export default {
                : [ "<25>{#p/asriel2}{#f/10}* I wonder if there's any old messages on it." ],
          alphys1: () =>
             SAVE.data.n.state_foundry_undyne > 0
-               ? [ "<25>{#p/alphys}{#f/2}* Oh my god!", "<25>{#f/3}* How did you..." ]
-               : [ "<25>{#p/alphys}{#f/2}* Oh my god!", "<25>{#f/3}* How did you get here so fast!?" ],
+               ? [ "<25>{#p/alphys}{#f/2}* 我的天啊！", "<25>{#f/3}* How did you..." ]
+               : [ "<25>{#p/alphys}{#f/2}* 我的天啊！", "<25>{#f/3}* 你怎麼這麼快就到了！？" ],
          alphys2: () =>
             SAVE.data.n.state_foundry_undyne > 0
                ? [ "<25>{#p/alphys}{#f/10}* O-oh... you're the human who...", "<25>{#f/3}* Who... uh..." ]
-               : [ "<25>{#f/4}* I just got off the phone, I still haven't checked the lab...", "<25>{#f/17}* ..." ],
+               : [ "<25>{#f/4}* 我剛接完電話，\n  還沒檢查實驗室...", "<25>{#f/17}* ..." ],
          alphys3: () =>
             SAVE.data.n.state_foundry_undyne > 0
                ? [
@@ -645,46 +645,46 @@ export default {
                : [
                     ...[
                        [
-                          "<25>{#f/1}* Well, uh, h-hiya!",
-                          "<25>{#f/1}* I'm Dr. Alphys.\n* Head of the royal science division.",
-                          "<25>{#f/10}* But, uh, I'm not actually one of the \"bad guys!\"",
-                          "<25>{#f/17}* Actually, since you left the Outlands, I've been...",
-                          "<25>{#f/5}* Eheh, \"observing\" you through my security consoles.",
-                          "<25>{#f/8}* Your fights...\n* Your friendships...",
-                          "<25>{#f/1}* Everything!",
-                          "<25>{#f/9}* OH! And my favorite part of all...",
+                          "<25>{#f/1}* 嗯，呃，你-你好！",
+                          "<25>{#f/1}* 我是Alphys博士。\n* 皇家科學部門的負責人。",
+                          "<25>{#f/10}* 但是，呃，\n  我不是那些「壞傢伙」！",
+                          "<25>{#f/17}* 實際上，從你剛剛走出\n  外域時，我就...",
+                          "<25>{#f/5}* 誒嘿，用我的安全控制檯\n  「觀察」你。",
+                          "<25>{#f/8}* 你的戰鬥...\n* 你的朋友們...",
+                          "<25>{#f/1}* 你的一切！",
+                          "<25>{#f/9}* 喔！然後我\n  最喜歡的部分就是...",
                           ...(SAVE.data.b.s_state_million
                              ? [
-                                  "<25>{#f/16}* ... was watching you destroy Sans's cheated h-high score!",
-                                  "<25>{#f/12}* So awesome..."
+                                  "<25>{#f/16}* ...看到你超過了\n  Sans作弊打出來的分數！",
+                                  "<25>{#f/12}* 太厲害了..."
                                ]
                              : SAVE.data.b.f_state_thundersnail_win
                              ? [
-                                  "<25>{#f/16}* ... was how you actually won a game o-of electrosnail!",
-                                  "<25>{#f/12}* So awesome..."
+                                  "<25>{#f/16}* ...看到你贏了一局\n  雷霆蝸牛！",
+                                  "<25>{#f/12}* 太厲害了..."
                                ]
                              : !SAVE.data.b.papyrus_fire
                              ? [
-                                  "<25>{#f/16}* ... was how you got through the wall of fire on your first try!",
-                                  "<25>{#f/12}* So awesome..."
+                                  "<25>{#f/16}* ...看到你第一次嘗試\n  就通過了火焰之牆！",
+                                  "<25>{#f/12}* 太厲害了..."
                                ]
                              : SAVE.data.b.s_state_mathpass
                              ? [
-                                  "<25>{#f/16}* ... was how you beat the number neutralizer puzzle by y-yourself!",
-                                  "<25>{#f/12}* So awesome..."
+                                  "<25>{#f/16}* ...看到你靠自己一個人\n  破解了數字中和謎題！",
+                                  "<25>{#f/12}* 太厲害了..."
                                ]
-                             : [ "<25>{#f/16}* ... was watching you fight Undyne???" ]),
-                          "<25>{#f/18}* But, uh, you're gonna need my help to get through Aerialis!"
+                             : [ "<25>{#f/16}* ...看到了你和\n  Undyne戰鬥？？？" ]),
+                          "<25>{#f/18}* 但是，呃，你需要\n  我的引導來通過空境！"
                        ],
                        [
-                          "<25>{#f/8}* Well, h-hiya...",
-                          "<25>{#f/9}* I'm... Dr. Alphys.\n* Head of the royal science division.",
-                          "<25>{#f/4}* Ever since you left the Outlands, I've been...",
-                          "<25>{#f/4}* Eheh, \"observing\" you through my security consoles.",
-                          "<25>{#f/11}* Your fights...\n* Your friendships...",
+                          "<25>{#f/8}* 嗯，你-你好...",
+                          "<25>{#f/9}* 我是...Alphys博士。\n* 皇家科學部門的負責人。",
+                          "<25>{#f/4}* 從你剛剛走出外域時，\n  我就...",
+                          "<25>{#f/4}* 誒嘿，用我的安全控制檯\n  「觀察」你。",
+                          "<25>{#f/11}* 你的戰鬥...\n* 你的朋友們...",
                           "<25>{#f/11}* ...",
                           ...(SAVE.data.n.state_starton_papyrus === 1
-                             ? [ "<25>{#f/13}* Even...\n* Papyrus's d-death..." ]
+                             ? [ "<25>{#f/13}* 甚至...\n* Papyrus的死-死亡..." ]
                              : SAVE.data.n.state_foundry_doge === 1 && SAVE.data.n.state_foundry_muffet === 1
                              ? [ "<25>{#f/13}* ... even the deaths of Undyne's ELITE s-squad..." ]
                              : SAVE.data.n.state_starton_dogs === 2 ||
@@ -694,40 +694,40 @@ export default {
                                   1
                              ? [ "<25>{#f/13}* ... even the deaths of the c-canine unit..." ]
                              : SAVE.data.n.state_starton_doggo === 2
-                             ? [ "<25>{#f/13}* Even...\n* Doggo's d-death..." ]
+                             ? [ "<25>{#f/13}* 甚至...\n* Doggo的死-死亡..." ]
                              : SAVE.data.n.state_foundry_muffet === 1
-                             ? [ "<25>{#f/13}* Even...\n* Muffet's d-death..." ]
+                             ? [ "<25>{#f/13}* 甚至...\n* Muffet的死-死亡..." ]
                              : SAVE.data.n.state_foundry_doge === 1
-                             ? [ "<25>{#f/13}* Even...\n* Doge's d-death..." ]
+                             ? [ "<25>{#f/13}* 甚至...\n* Doge的死-死亡..." ]
                              : SAVE.data.n.state_starton_greatdog === 2
-                             ? [ "<25>{#f/13}* Even...\n* Canis Major's d-death..." ]
+                             ? [ "<25>{#f/13}* 甚至...\n* Canis Major的死-死亡..." ]
                              : SAVE.data.n.state_starton_lesserdog === 2
-                             ? [ "<25>{#f/13}* Even...\n* Canis Minor's d-death..." ]
-                             : [ "<25>{#f/13}* ... even those monsters' d-deaths..." ]),
-                          "<25>{#f/10}* ... but hey, it's not all bad... right?",
-                          "<25>{#g/alphysCutscene2}* You're alive, you made it here in one piece...",
-                          "<25>{#f/3}* That has to count for something, right???",
+                             ? [ "<25>{#f/13}* 甚至...\n* Canis Minor的死-死亡..." ]
+                             : [ "<25>{#f/13}* ...甚至那些怪物們的\n  死-死亡..." ]),
+                          "<25>{#f/10}* ...不過，嘿，也不\n  全是壞事，是吧？",
+                          "<25>{#g/alphysCutscene2}* 你還活著，\n  你完好無損地\n  來到了這裡...",
+                          "<25>{#f/3}* 這是很重要的，\n  對吧？？？",
                           "<25>{#g/alphysIDK}* ...",
-                          "<25>{#g/alphysIDK}* That being said, you're probably gonna need my help in Aerialis."
+                          "<25>{#g/alphysIDK}* 話雖如此，你可能\n  需要我指導你\n  穿過空境。"
                        ]
                     ][world.bad_lizard],
-                    "<25>{#f/15}* Yeah... it's not really a \"human friendly\" place...",
-                    "<25>{#f/17}* Deadly traps...\n* Impossible puzzles...\n* Royal guards...",
-                    "<25>{|}{#f/15}* Not to mention- {%}"
+                    "<25>{#f/15}* 是的... 這裡不是個\n  「對人類友好」的地方...",
+                    "<25>{#f/17}* 致命的陷阱...\n* 不可能的謎題...\n* 皇家守衛...",
+                    "<25>{|}{#f/15}* 更不用說- {%}"
                  ],
          alphys4: () =>
             SAVE.data.n.state_foundry_undyne > 0
-               ? [ "<25>{#g/alphysIDK}* No... no no no no no..." ]
-               : [ "<25>{#f/20}* Mettaton." ],
+               ? [ "<25>{#g/alphysIDK}* 不... 不不不不不..." ]
+               : [ "<25>{#f/20}* Mettaton。" ],
          alphys5: () =>
-            SAVE.data.n.state_foundry_undyne > 0 ? [ "<25>{#f/20}* Not here... not now..." ] : [ "<25>{#f/3}* Eheh..." ],
+            SAVE.data.n.state_foundry_undyne > 0 ? [ "<25>{#f/20}* 別是在這...\n  也別是現在啊..." ] : [ "<25>{#f/3}* 誒嘿..." ],
          alphys6: () => (SAVE.data.n.state_foundry_undyne > 0 ? [ "<25>{#f/20}* ..." ] : [ "<25>{#f/20}* ..." ]),
-         alphys7: () => (SAVE.data.n.state_foundry_undyne > 0 ? [ "<25>{#f/23}* Oh god." ] : [ "<25>{#f/11}* Oh no." ]),
+         alphys7: () => (SAVE.data.n.state_foundry_undyne > 0 ? [ "<25>{#f/23}* 喔天啊。" ] : [ "<25>{#f/11}* 喔不。" ]),
          alphys8: () => [
-            SAVE.data.n.state_foundry_undyne > 0 ? "<32>{#p/mettaton}* OHHHH MY!" : "<32>{#p/mettaton}* OHHHH YES!",
-            "<32>{#p/mettaton}* WELCOME, BEAUTIES..."
+            SAVE.data.n.state_foundry_undyne > 0 ? "<32>{#p/mettaton}* 喔喔喔天啊！" : "<32>{#p/mettaton}* 喔喔喔耶！",
+            "<32>{#p/mettaton}* 歡迎，美人兒們..."
          ],
-         alphys9: [ "<32>{#p/mettaton}* TO TODAY'S TALENT SHOW!" ],
+         alphys9: [ "<32>{#p/mettaton}* 來到今天的\n  達人秀節目！" ],
          alphys10: () =>
             iFancyYourVilliany()
                ? [
@@ -739,9 +739,9 @@ export default {
                        : "<25>{#p/alphys}{#g/alphysGarbo}* Huh?\n* Did you steal security footage again?"
                  ]
                : [
-                    "<32>{#p/mettaton}* I CAN ALREADY TELL IT'S GONNA BE A GREAT SHOW!",
-                    "<32>* LET'S GIVE A ROUND OF APPLAUSE TO OUR NEW CONTESTANT...",
-                    "<33>* THE ONE AND ONLY HUMAN VISITOR!"
+                    "<32>{#p/mettaton}* 我已經預感到了\n  這次會是個超棒的節目喔！",
+                    "<32>* 讓我們以熱烈的掌聲\n  歡迎我們的新選手...",
+                    "<33>* 唯一一位的人類訪客！"
                  ],
          alphys10a: () => [
             "<32>{#p/mettaton}* (PLEASE WAIT AS THE AUDIENCE WATCHES THE FOOTAGE.)",
@@ -763,7 +763,7 @@ export default {
                             "<32>{#p/mettaton}* WHEN IT COMES TO VILLAINS, ALL THE GREATS HAVE ONE.\n* SO WHAT'LL IT BE?"
                          ])
                  ]
-               : [ "<32>{#p/mettaton}* NEVER PLAYED BEFORE, GORGEOUS?", "<32>* WELL, IT'S SIMPLE." ],
+               : [ "<32>{#p/mettaton}* 從來沒有玩過嗎，幸運兒？", "<32>* 沒關係，很簡單。" ],
          alphys11a: () => [
             choicer.create(
                "* (Which name will you choose?)",
@@ -781,11 +781,11 @@ export default {
                        "<32>{#p/mettaton}* $(moniker1u), HUH?\n* MY, WHAT AN EXCELLENT CHOICE!",
                        "<32>{#p/mettaton}* WELL, $(moniker2u), LET'S SEE IF YOUR SKILLS ON THE BATTLEFIELD..."
                     ]
-               : [ "<32>* IN FACT, THERE'S ONLY ONE RULE!", "<32>* PUT ON THE BEST PERFORMANCE OF YOUR LIFE..." ],
+               : [ "<32>* 實際上，規則只有一個！", "<32>* 拿出你一生中\n  最好的表現..." ],
          alphys12: () =>
             iFancyYourVilliany()
-               ? [ "<32>{*}{#p/mettaton}* TRANSLATE TO THE STAGE!!!{^20}{%}" ]
-               : [ "<32>{*}{#p/mettaton}* OR DIE TRYING!!!{^20}{%}" ],
+               ? [ "<32>{*}{#p/mettaton}* 把它搬上舞臺！！！{^20}{%}" ]
+               : [ "<32>{*}{#p/mettaton}* 否則就會死！！！{^20}{%}" ],
          alphys13: () =>
             SAVE.data.n.state_foundry_undyne > 0
                ? [
@@ -3322,15 +3322,15 @@ export default {
          doublefridge1: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You place your ear against the fridge door.)\n* (A fizzing can be heard.)" ]
-               : [ "<32>{#p/basic}* It's a high-security fridge.\n* Both sides are filled with orange crush soda." ],
+               : [ "<32>{#p/basic}* 這是個高度安全的冰箱。\n* 兩邊都裝滿了橙汁汽水。" ],
          doublefridge2: () => [
             ...(SAVE.data.b.svr
                ? [ "<32>{#p/human}* (It sounds like one of the bottles inside was opened...)" ]
-               : [ "<32>{#p/basic}* One of the bottles has already been opened..." ]),
-            choicer.create("* (Take the opened bottle?)", "是", "否")
+               : [ "<32>{#p/basic}* 其中一個瓶子\n  已經打開了..." ]),
+            choicer.create("* （拿走打開的瓶子嗎？）", "是", "否")
          ],
          doublefridge3: [ "<32>{#p/human}* (You're carrying too much.)" ],
-         doublefridge4: [ "<32>{#p/human}* (You got the Orange Soda.)" ],
+         doublefridge4: [ "<32>{#p/human}* （你得到了橙汁汽水。）" ],
          doublefridge5: [ "<32>{#p/human}* (You decide not to take anything.)" ],
          labcamera2: () =>
             world.runaway || postSIGMA()
@@ -3341,7 +3341,7 @@ export default {
                ? world.darker
                   ? [ "<32>{#p/basic}* It's offline." ]
                   : [ "<32>{#p/basic}* Anonymity at last." ]
-               : [ "<32>{#p/basic}* It's probably best not to question how this works." ],
+               : [ "<32>{#p/basic}* 也許最好不要質疑\n  這是如何運作的。" ],
          labdisplay: "-人類實時資料-\nEXP　$(x)\nHP 　$(y)\n金錢 $(z)\n距離 $(w)",
          exofountain1: () => [
             SAVE.data.b.svr
@@ -3365,11 +3365,11 @@ export default {
             SAVE.data.b.svr || world.bad_lizard > 1 || world.genocide || SAVE.data.n.state_foundry_undyne === 2
                ? [ "<32>{#p/human}* (You marvel at the imagery on the computer's screen.)\n* (It must be daydreaming.)" ]
                : [
-                    "<32>{#p/basic}* The computer is on standby.\n* Turn it on?",
-                    choicer.create("* (Turn on the computer?)", "是", "否")
+                    "<32>{#p/basic}* 電腦正在待機。\n* 要打開嗎？",
+                    choicer.create("* （要打開電腦嗎？）", "是", "否")
                  ],
-         topdesk2: [ "<32>{#p/human}* (You decide not to turn it on.)" ],
-         topdesk3: [ "<32>{#p/basic}* It's opened to a video game emulator of some kind." ],
+         topdesk2: [ "<32>{#p/human}* （你打算不把電腦打開。）" ],
+         topdesk3: [ "<32>{#p/basic}* 電腦打開了某種\n  電子遊戲的模擬器。" ],
          labstationA: [ "<32>{#p/basic}* It's opened to a control panel for a telescope network." ],
          labstationB: [ "<32>{#p/basic}* It's opened to a set of design plans for a holographic environment." ],
          laserbarrrier1: () =>
@@ -3493,7 +3493,7 @@ export default {
             postSIGMA() || world.runaway
                ? [ "<32>{#p/basic}* It's out of service." ]
                : [
-                    "<32>{#p/basic}* You'll need a special pass to access the liftgate network.",
+                    "<32>{#p/basic}* 你需要一張特殊通行證\n  才能進入升降門網路。",
                     ...(world.goatbro
                        ? SAVE.data.n.plot < 49
                           ? !SAVE.flag.b.asriel_phone && SAVE.flag.n.ga_asrielGate++ < 1
@@ -3628,16 +3628,16 @@ export default {
                ? [ "<32>{#p/human}* (The terminal appears to have been powered off.)" ]
                : SAVE.data.n.plot === 72
                ? [
-                    "<32>{#p/human}* (You activate the terminal and read the message.)",
+                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
                     "<32>{#p/basic}* \"The Royal Lab is closed!\"\n* \"Thank you everyone for your hard work and dedication.\""
                  ]
                : world.bad_lizard < 2
                ? [
-                    "<32>{#p/human}* (You activate the terminal and read the message.)",
+                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
                     "<#32>{#p/basic}* \"Kahaha, Glyde was here!\"\n  - Glyde"
                  ]
                : [
-                    "<32>{#p/human}* (You activate the terminal and read the message.)",
+                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
                     "<32>{#p/basic}* \"I'm sorry, everyone...\""
                  ],
          terminal3: () =>
@@ -3647,11 +3647,11 @@ export default {
                ? [ "<32>{#p/human}* (The terminal appears to have been powered off.)" ]
                : SAVE.data.n.plot === 72
                ? [
-                    "<32>{#p/human}* (You activate the terminal and read the message.)",
+                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
                     "<32>{#p/basic}* \"The Royal Lab is closed!\"\n* \"Thank you everyone for your hard work and dedication.\""
                  ]
                : [
-                    "<32>{#p/human}* (You activate the terminal and read the message.)",
+                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
                     "<32>{#p/basic}* \"Dear employees of the Royal Lab, please place waste in the appropriate receptacles.\""
                  ],
          terminal4: () =>
@@ -3661,14 +3661,14 @@ export default {
                ? [ "<32>{#p/human}* (The terminal appears to have been powered off.)" ]
                : SAVE.data.n.plot === 72
                ? [
-                    "<32>{#p/human}* (You activate the terminal and read the message.)",
+                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
                     "<32>{#p/basic}* \"The Royal Lab is closed!\"\n* \"Thank you everyone for your hard work and dedication.\""
                  ]
                : [
-                    "<32>{#p/human}* (You activate the terminal and read the message.)",
+                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
                     ...(world.bad_lizard > 1 || world.genocide
                        ? [ "<32>{#p/basic}* \"The Royal Lab is no longer safe. Evacuation procedure in effect.\"" ]
-                       : [ "<32>{#p/basic}* \"Welcome to the Royal Lab.\"" ])
+                       : [ "<32>{#p/basic}* 「歡迎來到皇家實驗室。」" ])
                  ],
          terminal5: () =>
             world.runaway || postSIGMA()
@@ -3676,7 +3676,7 @@ export default {
                : SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The terminal appears to have been powered off.)" ]
                : [
-                    "<32>{#p/human}* (You activate the terminal and read the message.)",
+                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
                     ...(world.bad_lizard < 2 && SAVE.data.n.plot < 72
                        ? [
                             [
@@ -3697,7 +3697,7 @@ export default {
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You can't make out what's in the recycle bin...)" ]
                : [ "<32>{#p/basic}* 這是個資源回收桶。" ],
-         recyclerX: [ "<32>{#p/human}* (You discarded the electro- dampening fluid.)" ],
+         recyclerX: [ "<32>{#p/human}* （你丟掉了電阻尼液。）" ],
          ingredient1: () =>
             iFancyYourVilliany()
                ? [ "<32>{#p/human}* (You found the happy powder.)" ]
@@ -4210,7 +4210,7 @@ export default {
                   ? [ "<32>{#p/basic}* It's offline." ]
                   : [ "<32>{#p/basic}* Privacy at last." ]
                : [
-                    "<32>{#p/basic}* This monitor is calibrated to follow your movement.",
+                    "<32>{#p/basic}* 這個監視器經過校準，\n  可以跟蹤你的動作。",
                     ...(world.goatbro && SAVE.flag.n.ga_asrielLab1++ < 1
                        ? [ "<25>{#p/asriel2}{#f/5}* 真想看看Alphys\n  盯著我們的時候，\n  臉上掛了個什麼表情..." ]
                        : [])
@@ -6758,13 +6758,13 @@ export default {
       old_spray_talk: [ "<20>{#p/mettaton}SPICY." ],
       status1: () =>
          SAVE.data.n.plot < 67
-            ? [ "<32>{#p/story}* Mettaton swings into action!" ]
+            ? [ "<32>{#p/story}* Mettaton開始行動了！" ]
             : [ "<32>{#p/story}* Mettaton returns!" ],
       act_check: () =>
          SAVE.data.n.plot < 67
-            ? [ "<32>{#p/story}* METTATON - ATK 30 DEF 255\n* His metal body renders him invulnerable to attack." ]
+            ? [ "<32>{#p/story}* METTATON - 攻擊30 防禦255\n* 他的金屬製的身體\n  使他無懈可擊。" ]
             : [ "<32>{#p/story}* METTATON - ATK 30 DEF 255\n* Seriously, his metal body is invulnerable!" ],
-      act_flirt: [ "<32>{#p/human}* (You flirt with Mettaton.)" ],
+      act_flirt: [ "<32>{#p/human}* （你向Mettaton調情。）" ],
 
       yellow1: () =>
          world.bad_lizard < 2 && SAVE.data.n.state_foundry_undyne !== 2
@@ -6781,7 +6781,7 @@ export default {
             ? [ "<20>{#p/mettaton}WOW!!!\nSO MUCH BETTER!!!\nNOW YOU CAN PRESS [Z] TO SHOOT!!!{^40}{%}" ]
             : [ "<20>{#p/mettaton}ISN'T MAGIC JUST A WONDERFUL THING???\nNOW YOU CAN PRESS [Z] TO SHOOT!!!{^40}{%}" ],
 
-      checkTalk: [ "<20>{#p/mettaton}ADMIRING ALPHYS'S FABULOUS BODYWORK?\nI WON'T JUDGE." ],
+      checkTalk: [ "<20>{#p/mettaton}欣賞ALPHYS的\n令人驚歎的技術了？\n我不予置評。" ],
       attackTalk: () =>
          SAVE.data.n.plot < 67
             ? [ "<20>{#p/mettaton}YOU SILLY GOOSE.\nTHAT'S NOT GOING TO WORK ON ME, SWEETHEART!" ]
@@ -6791,34 +6791,34 @@ export default {
       flirtTalk: [ "<20>{#p/mettaton}OHOHO...", "<20>GETTING FRISKY, EH?", "<20>I'LL HAVE TO REMEMBER THAT, DARLING~" ],
 
       turn1: [
-         "<20>{#p/mettaton}LET'S START WITH SOMETHING SIMPLE...",
-         "<20>SINGING!",
-         "<20>{|}DO YOU HAVE WHAT IT TAKES TO- {%}"
+         "<20>{#p/mettaton}我們先從\n簡單的開始...",
+         "<20>唱歌！",
+         "<20>{|}你能夠- {%}"
       ],
-      turn1a1: [ "<20>...\nWAIT A SECOND.", "<20>IS IT JUST ME, OR...", "<20>DO YOU LOOK A LITTLE \"RED\" TODAY?" ],
-      turn1a2: [ "<20>DOCTOR, IF YOU COULD..." ],
+      turn1a1: [ "<20>...\n等一下。", "<20>是我的錯覺，\n還是...", "<20>你今天看起來\n有點「紅」呢？" ],
+      turn1a2: [ "<20>博士，如果\n你可以的話..." ],
       turn1b1: () =>
          SAVE.data.n.state_foundry_undyne > 0
-            ? [ "<20>{#p/alphys}Okay, okay!\nI-I'll do it!" ]
+            ? [ "<20>{#p/alphys}好，好！\n我-我會的！" ]
             : world.bad_lizard < 1
-            ? [ "<20>{#p/alphys}Uh, sure!" ]
-            : [ "<20>{#p/alphys}... hm?" ],
+            ? [ "<20>{#p/alphys}呃，好！" ]
+            : [ "<20>{#p/alphys}...嗯？" ],
       turn1b2: () =>
          SAVE.data.n.state_foundry_undyne > 0 || world.bad_lizard < 1
-            ? [ "<20>{#p/alphys}F-forgive me..." ]
+            ? [ "<20>{#p/alphys}請-請原諒我..." ]
             : [ "<20>{#p/alphys}O-oh yeah, that." ],
-      turn1c: [ "<20>{*}{#p/mettaton}MUCH BETTER.{^30}{%}" ],
+      turn1c: [ "<20>{*}{#p/mettaton}好多了。{^30}{%}" ],
       turn1d: () =>
          SAVE.data.n.state_foundry_undyne > 0
-            ? [ "<20>{*}{#p/alphys}N-now try pressing\n[Z] to teleport.{^30}{%}" ]
+            ? [ "<20>{*}{#p/alphys}現-現在按[Z]\n來傳送。{^30}{%}" ]
             : world.bad_lizard < 1
-            ? [ "<20>{*}{#p/alphys}So... y-you move around, then you press [Z] to tele-port!{^30}{%}" ]
-            : [ "<20>{*}{#p/alphys}Move around, then press [Z] to teleport.{^30}{%}" ],
-      turn1e: [ "<20>{*}{#p/mettaton}ALPHYS, ALPHYS, ALPHYS...{^30}{%}" ],
-      turn1f: [ "<20>{*}WHAT HAVE I TOLD YOU ABOUT HANDING OUT HINTS?{^30}{%}" ],
-      turn1g: [ "<20>{*}...{^30}{%}", "<20>{*}ANYWAY...{^30}{%}", "<20>{*}LET'S GET THIS SHOW ON THE ROAD!{^30}{%}" ],
+            ? [ "<20>{*}{#p/alphys}所以...\n你-你可以四處行動，\n然後按[Z]傳送！{^30}{%}" ]
+            : [ "<20>{*}{#p/alphys}四處行動，\n然後按[Z]傳送。{^30}{%}" ],
+      turn1e: [ "<20>{*}{#p/mettaton}ALPHYS，ALPHYS，ALPHYS...{^30}{%}" ],
+      turn1f: [ "<20>{*}我不是跟你說過\n不要給提示嗎？{^30}{%}" ],
+      turn1g: [ "<20>{*}...{^30}{%}", "<20>{*}總之...{^30}{%}", "<20>{*}我們開始表演吧！{^30}{%}" ],
 
-      turn2: [ "<20>{#p/mettaton}DON'T MISS A SINGLE NOTE, MY DEAR!" ],
+      turn2: [ "<20>{#p/mettaton}不要錯過任何一個\n音符，親愛的！" ],
       turn3: [ "<20>{#p/mettaton}LET'S KICK THINGS UP A NOTCH." ],
 
       turn4a1: [
@@ -7031,7 +7031,7 @@ export default {
       turn9end7b: [ "<20>{#p/alphys}Seriously?\nYou didn't even miss a single time." ],
       turn9end7c: [ "<20>{#p/alphys}..." ],
 
-      turn1status: [ "<32>{#p/story}* It's electro-shockin' time." ],
+      turn1status: [ "<32>{#p/story}* 電擊時間到了。" ],
       turn2status: [ "<32>{#p/story}* Mettaton claps his robo-hands." ],
       turn3status: [ "<32>{#p/story}* It's a flurry of octaves." ],
       turn4status: [ "<32>{#p/story}* Shyren's voice echoes through the labratory." ],
@@ -11831,7 +11831,7 @@ export default {
          name: "空境 - 實驗室",
          text: () =>
             SAVE.data.n.plot < 65
-               ? [ "<32>{#p/human}* (The Royal Lab looms ahead, filling you with determination.)" ]
+               ? [ "<32>{#p/human}* （皇家實驗室就在眼前，\n  這使你充滿了決心。）" ]
                : SAVE.data.n.plot === 72
                ? [
                     "<32>{#p/human}* (Knowing most of your journey has been recorded from inside the Royal Lab...)",

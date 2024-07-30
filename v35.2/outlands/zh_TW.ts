@@ -1616,7 +1616,7 @@ export default {
               ][Math.min(SAVE.flag.n.postnoot_exitfail++, 4)]
             : [
                  sleep
-                    ? "<32>{#p/basic}* 當你在Toriel的家裡睡下後，\n  她摧毀了通往前哨站的橋。"
+                    ? "<32>{#p/basic}* 當你在Toriel的家裡睡下後，\n  她隨即摧毀了離開外域\n  唯一的出口。"
                     : "<32>{#p/basic}* 在你回到Toriel家後，\n  她隨即摧毀了離開外域\n  唯一的出口。",
                  ...(outlandsKills() > 10
                     ? [
@@ -2526,7 +2526,7 @@ export default {
                : world.darker
                ? "<32>{#p/basic}{#n1!}* 「呲呲汽水」 - 售價5G。"
                : "<32>{#p/basic}{#n1!}* 上面寫著「呲呲汽水」，售價5G。\n* 誰會去買這種東西啊？",
-            choicer.create("* （花5G買下呲呲汽水嗎）", "是", "否")
+            choicer.create("* （花5G買下呲呲汽水嗎？）", "是", "否")
          ],
          c1: [ "<32>{#p/human}{#n1!}* （你得到了呲呲汽水。）", "<32>{#p/basic}{#n1}* 小心點，挺甜的 ;)" ],
          c2: [ "<32>{#p/human}{#n1!}* （你決定不買。）" ],

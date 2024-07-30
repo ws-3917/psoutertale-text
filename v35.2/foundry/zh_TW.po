@@ -4425,7 +4425,7 @@ msgid ""
 msgstr ""
 "<32>* ...自由，是嗎？\n"
 "* 哇哈哈... 那我可有個\n"
-"  好訊息要告訴你了。"
+"  好訊息要告訴你了。ゐ"
 
 msgid "<32>* I saw a human come through just a little while ago."
 msgstr ""
@@ -12102,7 +12102,7 @@ msgid "<32>{#p/human}* (You now hold a cup of the electro-dampening fluid.)"
 msgstr "<32>{#p/human}* （你現在拿著一杯電阻尼液。）"
 
 msgid "<32>{#p/human}* (You decide not to get a cup.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你決定不接。）"
 
 msgid "<32>{#p/human}* (You already have a cup.)"
 msgstr ""

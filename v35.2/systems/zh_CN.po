@@ -1750,7 +1750,7 @@ msgid "ASRIEL"
 msgstr "ASRIEL"
 
 msgid "[↑ or ↓] to Select / [Z or ENTER] to Confirm"
-msgstr ""
+msgstr "[↑或↓] 选择语言 / [Z 或 ENTER] 确认"
 
 msgid "Quitting"
 msgstr "正在退出"
