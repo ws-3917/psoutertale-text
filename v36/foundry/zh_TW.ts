@@ -156,9 +156,9 @@ export default {
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (But the tome seems to have been taken.)" ]
             : [
-                 "<32>{#p/human}* (You acquired The Epiphany.)",
+                 "<32>{#p/human}* （你取下了卷軸《頓悟》。）",
                  ...(world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-                    ? [ "<25>{#p/kidd}{#f/2}* Haha.", "<25>{#f/2}* That thing must be REALLY old." ]
+                    ? [ "<25>{#p/kidd}{#f/2}* 哈哈。", "<25>{#f/2}* That thing must be REALLY old." ]
                     : [])
               ],
       tome2: [ "<32>{#p/human}* （你帶的東西太多，裝不下它了。）" ],
@@ -209,12 +209,12 @@ export default {
             ],
             [
                "<32>{#p/basic}* There is one portion of Space Tofu left in the box.",
-               choicer.create("* (Take it?)", "是", "否")
+               choicer.create("* （拿走它嗎？）", "是", "否")
             ]
          ][SAVE.data.n.state_foundry_astrofood],
       astrofood2: [ "<32>{#p/human}* （你得到了太空豆腐。）" ],
       astrofood3: [ "<32>{#p/human}* （你帶的東西太多了。）" ],
-      astrofood4: () => [ "<32>{#p/human}* (You decide not to take anything.)" ],
+      astrofood4: () => [ "<32>{#p/human}* （你不打算這麼做。）" ],
       astrofood5: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (But you couldn't find anything inside.)" ]
@@ -1334,7 +1334,7 @@ export default {
       noTem: [ "<32>{#p/tem}* oh no, it's a... FISHES!!!" ],
       noShroom: [ "<32>{#p/basic}* Watch out\n* Watch out\n* There's a fish running about" ],
       noTortoise: () =>
-         world.population === 0 ? [ "<32>{#p/basic}* Wa ha ha..." ] : [ "<32>{#p/basic}* Run while ya still can, kid!" ],
+         world.population === 0 ? [ "<32>{#p/basic}* 哇哈哈..." ] : [ "<32>{#p/basic}* Run while ya still can, kid!" ],
       npc86x: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (The robot appears to be asleep.)" ]
@@ -2601,7 +2601,7 @@ export default {
             : SAVE.data.n.plot === 72
             ? [ "<32>{#p/basic}* Coming back to give a lonely bench some company...\n* The gesture is appreciated." ]
             : [ "<32>{#p/basic}* 只是工廠中央的一張\n  孤獨的長椅。\n* 沒什麼好奇怪的！" ],
-      quiche5: [ "<32>{#p/human}* (You decide not to take anything.)" ],
+      quiche5: [ "<32>{#p/human}* （你不打算這麼做。）" ],
       run1: [ "<32>{*}{#p/undyne}* 逃吧。{^20}{%}" ],
       run2a1: [ "<32>{#p/undyne}* ...", "<32>{#p/undyne}* I'll go check." ],
       run2b1: [ "<32>{#p/undyne}* (Stupid spiders...)" ],
@@ -5417,7 +5417,7 @@ export default {
             : [ "<32>{#p/story}* Gelata has seen better days." ],
       act_handshake: [
          "<32>{#p/human}* (You offer a handshake.)\n* (Gelata engulfs you in slime.)",
-         "<32>{#p/story}* SPEED decreased!"
+         "<32>{#p/story}* 你的移速下降了！"
       ],
       act_sit: [ "<32>{#p/human}* (You sit on top of Gelata.)\n* (Gelata now feels that it has been useful to you.)" ],
       distanceStatus: () =>
@@ -5749,7 +5749,7 @@ export default {
          "<32>{#p/basic}* Doge rips open a pipe from the ceiling... water comes flooding out.",
          "<32>* It's cold, but she doesn't seem to mind...",
          "<32>* Soon, the water runs dry.\n* Doge relaxes a little...",
-         "<32>{#p/story}* Doge's ATTACK down!"
+         "<32>{#p/story}* Doge的攻擊力下降了！"
       ],
       batheTextEarly: [ "<32>{#p/human}* (You suggest Doge get a shower, but she wasn't in the mood yet.)" ],
       batheTextGeno: [
@@ -5762,7 +5762,7 @@ export default {
       fetchText: () => [
          "<32>{#p/human}* (You throw the spanner.)\n* (Doge intercepts your throw, launching it back at you.)",
          "<32>{#p/basic}* The spanner bonks you directly in the head!",
-         "<32>{#p/story}* SPEED down!",
+         "<32>{#p/story}* 你的移速下降了！",
          ...(world.goatbro && SAVE.flag.n.ga_asrielSpanner++ < 1
             ? [ "<32>{#p/asriel2}* Maybe don't try that again." ]
             : [])
@@ -6038,7 +6038,7 @@ export default {
          "<32>* But eventually...",
          "<32>* Doge grows tired of this frivolous exercise.",
          "<32>* She follows you back to her patrol zone, and relaxes a little...",
-         "<32>{#p/story}* Doge's ATTACK down!"
+         "<32>{#p/story}* Doge的攻擊力下降了！"
       ],
       walkTextEarly: [ "<32>{#p/human}* (You offer to take Doge on a walk, but she has no reason to go on one yet.)" ],
       walkTextGeno: [
@@ -6086,14 +6086,14 @@ export default {
                  "<32>* (You mention how Doge was forced to fight, and Undyne's lack of care is clear.)",
                  "<32>* (As such, you suggest that trusting Undyne would mean putting spider clans at risk.)",
                  "<32>{#p/basic}* Muffet starts considering the situation...",
-                 "<32>{#p/story}* Muffet's SPEED down!"
+                 "<32>{#p/story}* Muffet的攻速下降了！"
               ]
             : [
                  "<33>{#p/human}* (You make an appeal to Muffet.)\n* (Muffet is once again intrigued by your words.)",
                  "<32>* (You mention how Doge was mistreated, and Undyne's lack of care is clear.)",
                  "<32>* (As such, you suggest that trusting Undyne would mean putting spider clans at risk.)",
                  "<32>{#p/basic}* Muffet starts considering the situation...",
-                 "<32>{#p/story}* Muffet's SPEED down!"
+                 "<32>{#p/story}* Muffet的攻速下降了！"
               ],
       appeaseTextEarly: [ "<32>{#p/human}* (You make an appeal to Muffet, but she doesn't seem ready to hear it yet.)" ],
       appeaseTextGeno: [
@@ -6110,7 +6110,7 @@ export default {
          "<32>* (You propose that a deal with the ELITE squad is flimsy.)",
          "<32>* (You point out that one of their ranks already failed to capture you.)",
          "<32>{#p/basic}* Muffet begins to carefully think everything over...",
-         "<32>{#p/story}* Muffet's SPEED down!"
+         "<32>{#p/story}* Muffet的攻速下降了！"
       ],
       counterTextEarly: [
          "<32>{#p/human}* （你試圖反駁Muffet，\n  但她還沒有說出\n  能供你反駁的話。）"
@@ -6376,18 +6376,18 @@ export default {
       epiphaNOPE: [ "<20>{#p/undyne}Huh?\nWhat even IS this?" ],
       spaghetti1: [
          "<32>{#p/basic}* The smell reminds Undyne of someone close to her...",
-         "<32>{#p/story}* Undyne's ATTACK down!"
+         "<32>{#p/story}* Undyne的攻擊力下降了！"
       ],
       spaghetti2: () =>
          world.genocide
             ? [
                  "<32>{#p/basic}* The smell reminds Undyne of someone she'll never see again...",
                  "<32>{#p/basic}* ... but her determination to eliminate you strengthens.",
-                 "<32>{#p/story}* Undyne's ATTACK up!\n* Undyne's DEFENSE down!"
+                 "<32>{#p/story}* Undyne的攻擊力提升了！\n* Undyne的防禦力下降了！"
               ]
             : [
                  "<32>{#p/basic}* The smell reminds Undyne of someone she'll never see again...",
-                 "<32>{#p/story}* Undyne's DEFENSE down!"
+                 "<32>{#p/story}* Undyne的防禦力下降了！"
               ],
       act_check: () =>
          world.genocide
@@ -7281,15 +7281,15 @@ export default {
    },
    i_sap: {
       battle: {
-         description: "Sourced from a tree that grew on the monsters' homeworld.",
+         description: "取材自怪物故園裡的一棵樹。",
          name: "Sap"
       },
-      drop: [ "<32>{#p/human}* (You throw away the Tree Sap.)" ],
+      drop: [ "<32>{#p/human}* （你把樹液扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （35 HP。）" ]
-            : [ "<32>{#p/basic}* \"Tree Sap\" Heals 35 HP\n* Sourced from a tree that grew on the monsters' homeworld." ],
-      name: "Tree Sap",
+            : [ "<32>{#p/basic}* 「樹液」 回復35 HP\n* 取材自怪物故園裡的一棵樹。" ],
+      name: "樹液",
       use: [ "<32>{#p/human}* (You chewed the Tree Sap.)" ]
    },
    i_goggles: {
@@ -7323,7 +7323,7 @@ export default {
          description: "A digital journal.\nMakes you invincible longer.",
          name: "Datapad"
       },
-      drop: [ "<32>{#p/human}* (You throw away the Datapad.)" ],
+      drop: [ "<32>{#p/human}* （你把平板電腦扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (2 AT.)" ]
@@ -7336,7 +7336,7 @@ export default {
          description: "能為你提供稍長的喘息時間。",
          name: "Datapad?"
       },
-      drop: [ "<32>{#p/human}* (You throw away the Datapad.)" ],
+      drop: [ "<32>{#p/human}* （你把平板電腦扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (0 AT.)" ]
@@ -7360,7 +7360,7 @@ export default {
             ? [
                  "<32>{#p/human}* (You rip up the Postcard.)",
                  battler.active
-                    ? `<32>{#p/story}* ATTACK up by ${2 + battler.at_bonus}!`
+                    ? `<32>{#p/story}* 你的攻擊力提升了${2 + battler.at_bonus}點！`
                     : "<32>{#p/human}* (No effect outside of battle.)"
               ]
             : battler.active
@@ -7435,20 +7435,20 @@ export default {
    },
    i_tea: {
       battle: {
-         description: "Increases your SPEED in battle.",
+         description: "讓你在戰鬥中移動得更快。",
          name: "Tea"
       },
-      drop: [ "<32>{#p/human}* (You throw away the Nebula Tea.)" ],
+      drop: [ "<32>{#p/human}* （你把星雲茶扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （15 HP。）" ]
             : [
-                 "<33>{#p/basic}* \"Nebula Tea\" Heals 15 HP\n* Increases your SPEED in battle.\n* Not viable outside of battle."
+                 "<33>{#p/basic}* 「星雲茶」 回復15 HP\n* 讓你在戰鬥中移動得更快。\n* 僅在戰鬥中有效。"
               ],
       name: "Nebula Tea",
       use: () => [
          "<32>{#p/human}* (You drank the Nebula Tea.)",
-         battler.active ? "<32>{#p/story}* SPEED up by 1!" : "<32>{#p/human}* (No effect outside of battle.)"
+         battler.active ? "<32>{#p/story}* 你的移速提升了1點！" : "<32>{#p/human}* (No effect outside of battle.)"
       ]
    },
    i_tzn: {
@@ -7456,7 +7456,7 @@ export default {
          description: "Like Earth tofu, but spacier.",
          name: "Tofu"
       },
-      drop: [ "<32>{#p/human}* (You throw away the Space Tofu.)" ],
+      drop: [ "<32>{#p/human}* （你把太空豆腐扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （17 HP。）" ]
@@ -7468,7 +7468,7 @@ export default {
             ? [
                  "<32>* (The taste fills you with a certain kind of feeling...)",
                  battler.active
-                    ? `<32>{#p/story}* ATTACK up by ${4 + battler.at_bonus}!`
+                    ? `<32>{#p/story}* 你的攻擊力提升了${4 + battler.at_bonus}點！`
                     : "<32>{#p/human}* (No effect outside of battle.)"
               ]
             : [])
@@ -7492,7 +7492,7 @@ export default {
          description: "The things you can do with a college education!",
          name: "Tem Armor"
       },
-      drop: [ "<32>{#p/human}* (You throw away the Temmie Armor.)" ],
+      drop: [ "<32>{#p/human}* （你把提米盔甲扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* (10 AT, 20 DF.)" ]
@@ -7747,7 +7747,7 @@ export default {
             ? "防具：4防禦\n(當前防禦$(x))\n只能讓你\n多喘口氣。"
             : "防具：6防禦\n(當前防禦$(x))\n給你點時間\n喘口氣。",
          "回復15 HP\n能在戰鬥中\n移動得更快。",
-         "回復35 HP\n由真正的\n樹液\n精製而成。"
+         "回復35 HP\n取材自\n真正的樹。"
       ],
       itemPrompt: () =>
          world.genocide || world.killed0

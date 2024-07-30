@@ -498,7 +498,7 @@ export default {
       tvm8: [ "<32>{#p/human}* (You got the Old Radio.)" ],
       tvm9: [ "<32>{#p/human}* (You got the Fireworks.)" ],
       lockup0: () =>
-         SAVE.data.b.svr ? [ "<32>{#p/human}* (But you didn't have the key.)" ] : [ "<32>{#p/basic}* It's locked." ],
+         SAVE.data.b.svr ? [ "<32>{#p/human}* (But you didn't have the key.)" ] : [ "<32>{#p/basic}* 鎖住了。" ],
       lockup1: () => [
          "<32>{#p/human}* (You unlocked the safe with the Rusty Key.)",
          ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* The shelves are labelled \"old earth weaponry.\"" ])
@@ -564,7 +564,7 @@ export default {
             : [])
       ],
       hotelfood2: [ "<32>{#p/human}* （你帶的東西太多了。）" ],
-      hotelfood3: [ "<32>{#p/human}* （你決定什麼也不拿。）" ],
+      hotelfood3: [ "<32>{#p/human}* （你不打算這麼做。）" ],
       sonic1: () => [
          "<32>{#p/human}* (You got the Sonic Resonator.)",
          choicer.create("* (Equip the Sonic Resonator?)", "是", "否")
@@ -576,7 +576,7 @@ export default {
       ],
       tablaphone2: [ "<32>{#p/human}* （你帶的東西太多，裝不下它了。）" ],
       moonpie1: () => [
-         "<32>{#p/human}* (You got the Moon Pie.)",
+         "<32>{#p/human}* （你拿走了月派。）",
          ...(SAVE.data.b.svr
             ? [ "<32>{#p/human}* (The attached note describes an intention to help someone in need.)" ]
             : [
@@ -3344,7 +3344,7 @@ export default {
          ],
          doublefridge3: [ "<32>{#p/human}* （你帶的東西太多了。）" ],
          doublefridge4: [ "<32>{#p/human}* （你得到了橙汁汽水。）" ],
-         doublefridge5: [ "<32>{#p/human}* （你決定什麼也不拿。）" ],
+         doublefridge5: [ "<32>{#p/human}* （你不打算這麼做。）" ],
          labcamera2: () =>
             postSIGMA()
                ? [ "<32>{#p/basic}* It's out of service." ]
@@ -4312,7 +4312,7 @@ export default {
                : world.darker
                ? [ "<32>{#p/basic}* A Starling flower." ]
                : [ "<32>{#p/basic}* Beware, the lone Starling flower." ],
-         coredoor: [ "<32>{#p/basic}* It's locked." ],
+         coredoor: [ "<32>{#p/basic}* 鎖住了。" ],
          deadbot: [ "<32>{#p/basic}* It's just a husk." ],
          deadbot2: [ "<32>{#p/basic}* He's all out of juice." ],
          corenote1: [
@@ -6008,7 +6008,7 @@ export default {
             ? [ "<32>{#p/basic}* The switch looks even more resistant to pressing than it was before." ]
             : [ "<32>{#p/basic}* The switch no longer wants to be pressed.\n* ... yes, it's stuck." ],
       nosleep: () =>
-         SAVE.data.b.svr ? [ "<32>{#p/human}* (You can't seem to find a way in.)" ] : [ "<32>{#p/basic}* It's locked." ],
+         SAVE.data.b.svr ? [ "<32>{#p/human}* (You can't seem to find a way in.)" ] : [ "<32>{#p/basic}* 鎖住了。" ],
       rg1chat: pager.create(
          0,
          [
@@ -7851,7 +7851,7 @@ export default {
          "<20>{#e/mettaton/7}... to stop you..."
       ],
       mettahero2: [ "<20>{#e/mettaton/7}...", "<20>{#e/mettaton/10}Goodbye...\n...\n... darling." ],
-      napstahero1: [ "<20>{#p/finalghost}{~}...", "<20>{~}Mettaton..." ],
+      napstahero1: [ "<20>{#p/finalghost}{~}...", "<20>{~}鎂塔頓..." ],
       napstahero2: [
          "<20>{#p/finalghost}{~}So this is what it comes to.",
          "<20>{~}...",
@@ -9897,33 +9897,33 @@ export default {
    },
    i_corndog: {
       battle: {
-         description: "Fresh from the microwave.",
-         name: "Corn Dog"
+         description: "* 剛從微波爐裡拿出來。",
+         name: "玉米熱狗"
       },
-      drop: [ "<32>{#p/human}* (You throw away the Corn Dog.)" ],
+      drop: [ "<32>{#p/human}* （你把玉米熱狗扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （10 HP。）" ]
-            : [ "<32>{#p/basic}* \"Corn Dog\" Heals 10 HP\n* Fresh from the microwave." ],
-      name: "Corn Dog",
-      use: [ "<32>{#p/human}* (You eat the Corn Dog.)" ]
+            : [ "<32>{#p/basic}* 「玉米熱狗」 回復10 HP\n* 剛從微波爐裡拿出來。" ],
+      name: "玉米熱狗",
+      use: [ "<32>{#p/human}* （你吃掉了玉米熱狗。）" ]
    },
    i_corngoat: {
       battle: {
-         description: "Like a corn dog, but fluffier.\nDon't question it.",
-         name: "Corn Goat"
+         description: "很像玉米熱狗，但更加軟糯蓬鬆。\n別問為啥。",
+         name: "玉米熱羊"
       },
       drop: () => [
-         "<32>{#p/human}* (You throw away the Corn Goat.)",
+         "<32>{#p/human}* （你把玉米熱羊扔掉了。）",
          ...(SAVE.data.b.svr && !SAVE.data.b.freedom ? [ "<25>{#p/asriel1}{#f/15}* ..." ] : [])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （20 HP。）" ]
-            : [ "<32>{#p/basic}* \"Corn Goat\" Heals 20 HP\n* Like a corn dog, but fluffier.\n* Don't question it." ],
-      name: "Corn Goat",
+            : [ "<32>{#p/basic}* 「玉米熱羊」 回復20 HP\n* 很像玉米熱狗，但更加軟糯蓬鬆。\n* 別問為啥。" ],
+      name: "玉米熱羊",
       use: () => [
-         "<32>{#p/human}* (You eat the Corn Goat.)",
+         "<32>{#p/human}* （你吃掉了玉米熱羊。）",
          ...(SAVE.data.b.svr && !SAVE.data.b.freedom
             ? [ "<25>{#p/asriel1}{#f/13}* Please don't tell me that's symbolic of anything..." ]
             : [])
@@ -9932,23 +9932,23 @@ export default {
    i_moon_pie: {
       battle: {
          description: "A slice of pie from the Earth's night sky.",
-         name: "Moon Pie"
+         name: "月派"
       },
-      drop: [ "<32>{#p/human}* (You throw away the Moon Pie.)" ],
+      drop: [ "<32>{#p/human}* （你把月派扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （99 HP。）" ]
             : [ "<32>{#p/basic}* \"Moon Pie\" Heals 99 HP\n* A slice of pie from the Earth's night sky." ],
-      name: "Moon Pie",
-      use: [ "<32>{#p/human}* (You eat the Moon Pie.)" ]
+      name: "月派",
+      use: [ "<32>{#p/human}* （你吃掉了月派。）" ]
    },
    i_orange_soda: {
       battle: {
          description: "A crushingly orange soda.\nTolerable.",
-         name: "Orange Soda"
+         name: "橙汁汽水"
       },
       drop: () => [
-         "<32>{#p/human}* (You throw away the Orange Soda.)",
+         "<32>{#p/human}* （你把橙汁汽水全倒掉了。）",
          ...((fetchCharacters()
             .find(c => c.key === 'alphys') // NO-TRANSLATE
 
@@ -9960,13 +9960,13 @@ export default {
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （16 HP。）" ]
             : [ "<32>{#p/basic}* \"Orange Soda\" Heals 16 HP\n* A crushingly orange soda.\n* Tolerable." ],
-      name: "Orange Soda",
+      name: "橙汁汽水",
       use: () =>
          world.meanie
             ? [
                  "<32>{#p/human}* (You drink the Orange Soda, and crush it in your hands.)",
                  battler.active
-                    ? `<32>{#p/story}* ATTACK up by ${8 + battler.at_bonus}!`
+                    ? `<32>{#p/story}* 你的攻擊力提升了${8 + battler.at_bonus}點！`
                     : "<32>{#p/human}* (No effect outside of battle.)",
                  ...((fetchCharacters()
                     .find(c => c.key === 'alphys') // NO-TRANSLATE

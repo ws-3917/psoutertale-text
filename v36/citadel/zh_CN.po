@@ -13673,7 +13673,7 @@ msgid "Exoberries"
 msgstr "洋梅"
 
 msgid "<32>{#p/human}* (You throw away the Exoberries.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把洋梅扔掉了。）"
 
 msgid "<32>{#p/human}* (3 HP.)"
 msgstr "<32>{#p/human}* （3 HP。）"
@@ -13688,7 +13688,7 @@ msgid "Candy"
 msgstr "糖果"
 
 msgid "<32>{#p/human}* (You throw away the Monster Candy.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把怪物糖果扔掉了。）"
 
 msgid "<32>{#p/human}* (4 HP.)"
 msgstr "<32>{#p/human}* （4 HP。）"
@@ -13706,31 +13706,31 @@ msgid "Rations"
 msgstr "口粮"
 
 msgid "<32>{#p/human}* (You throw away the Rations.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把口粮扔掉了。）"
 
 msgid "<32>{#p/human}* (5 HP.)"
 msgstr "<32>{#p/human}* （5 HP。）"
 
 msgid "<32>{#p/human}* (You eat the Rations.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你吃掉了口粮。）"
 
 msgid "6 HP."
 msgstr "6 HP。"
 
 msgid "Tofu"
-msgstr ""
+msgstr "太空豆腐"
 
 msgid "<32>{#p/human}* (You throw away the Space Tofu.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把太空豆腐扔掉了。）"
 
 msgid "<32>{#p/human}* (6 HP.)"
 msgstr "<32>{#p/human}* （6 HP。）"
 
 msgid "Space Tofu"
-msgstr ""
+msgstr "太空豆腐"
 
 msgid "<32>{#p/human}* (You ingest the Space Tofu.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你吞下了太空豆腐。）"
 
 msgid "7 HP."
 msgstr "7 HP。"
@@ -13739,7 +13739,7 @@ msgid "Ice Dream"
 msgstr "冰意灵"
 
 msgid "<32>{#p/human}* (You throw away the Ice Dream.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把冰意灵扔掉了。）"
 
 msgid "<32>{#p/human}* (7 HP.)"
 msgstr "<32>{#p/human}* （7 HP。）"
@@ -13754,25 +13754,27 @@ msgid "8 HP."
 msgstr "8 HP。"
 
 msgid "Heal-pak"
-msgstr ""
+msgstr "治疗包"
 
 msgid "<32>{#p/human}* (You throw away the Heal-pak.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把治疗包扔掉了。）"
 
 msgid "<32>{#p/human}* (8 HP.)"
 msgstr "<32>{#p/human}* （8 HP。）"
 
 msgid "<32>{#p/human}* (You use the Heal-pak.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你使用了治疗包。）"
 
 msgid "A whacking spoon made with the finest alloy in the galaxy."
 msgstr ""
+"一把巨勺，由本星系\n"
+"最好的合金材料制成。"
 
 msgid "Big Dipper"
 msgstr "大熊座"
 
 msgid "<32>{#p/human}* (You throw away the Big Dipper.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你扔掉了大熊座。）"
 
 msgid "<32>{#p/human}* (15 AT.)"
 msgstr "<32>{#p/human}* （15攻击。）"
@@ -13781,21 +13783,24 @@ msgid ""
 "<32>{#p/basic}* \"Big Dipper\" (15 AT)\n"
 "* A whacking spoon made with the finest alloy in the galaxy."
 msgstr ""
+"<32>{#p/basic}* “大熊座” （15攻击）\n"
+"* 一把巨勺，由本星系\n"
+"  最好的合金材料制成。"
 
 msgid "<32>{#p/human}* (You equip the Big Dipper.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你装备上了大熊座。）"
 
 msgid "It says \"Best Friends Forever.\""
-msgstr ""
+msgstr "上面刻着“永远都是好朋友”。"
 
 msgid "Heart Locket"
-msgstr ""
+msgstr "心形挂坠"
 
 msgid "<32>{#p/human}* (You threw away the Heart Locket.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你扔掉了心形挂坠。）"
 
 msgid "<32>{#p/basic}* I'm going to pretend you didn't just do that."
-msgstr ""
+msgstr "<32>{#p/basic}* 我就当什么都没看见。"
 
 msgid "<32>{#p/human}* (15 DF.)"
 msgstr "<32>{#p/human}* （15防御。）"
@@ -13804,18 +13809,20 @@ msgid ""
 "<33>{#p/basic}* \"Heart Locket\" (15 DF)\n"
 "* It says \"Best Friends Forever.\""
 msgstr ""
+"<33>{#p/basic}* “心形挂坠” （15防御）\n"
+"* 上面刻着“永远都是好朋友”。"
 
 msgid "<32>{#p/human}* (You equip the Heart Locket.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你戴上了心形挂坠。）"
 
 msgid "A fine tea worthy of a king."
-msgstr ""
+msgstr "好王配好茶。"
 
 msgid "Star Tea"
-msgstr ""
+msgstr "星花茶"
 
 msgid "<32>{#p/human}* (You throw away the Starling Tea.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把星花茶全倒掉了。）"
 
 msgid "<32>{#p/human}* (99 HP.)"
 msgstr "<32>{#p/human}* （99 HP。）"
@@ -13824,12 +13831,14 @@ msgid ""
 "<32>{#p/basic}* \"Starling Tea\" Heals 99 HP\n"
 "* A fine tea worthy of a king."
 msgstr ""
+"<32>{#p/basic}* “星花茶” 回复99 HP\n"
+"* 好王配好茶。"
 
 msgid "Starling Tea"
-msgstr ""
+msgstr "星花茶"
 
 msgid "<32>{#p/human}* (You drank the Starling Tea.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你喝掉了星花茶。）"
 
 msgid "Hangar Bay Access Card"
 msgstr ""

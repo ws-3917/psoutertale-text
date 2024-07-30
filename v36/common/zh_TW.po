@@ -11263,7 +11263,7 @@ msgid "* Bed Time"
 msgstr "* 睡覺時間"
 
 msgid "* Berate"
-msgstr ""
+msgstr "* 斥責"
 
 msgid "* Blind"
 msgstr ""
@@ -11284,7 +11284,7 @@ msgid "* Break"
 msgstr ""
 
 msgid "* Burn"
-msgstr ""
+msgstr "* 挖苦"
 
 msgid "* Carry"
 msgstr ""
@@ -11305,7 +11305,7 @@ msgid "* Clean"
 msgstr "* 清潔"
 
 msgid "* Cocoa"
-msgstr ""
+msgstr "* 熱巧"
 
 msgid "* Comfort"
 msgstr "* 安撫"
@@ -11335,7 +11335,7 @@ msgid "* Cuddle"
 msgstr "* 擁抱"
 
 msgid "* Cut"
-msgstr ""
+msgstr "* 剪線"
 
 msgid "* Dance"
 msgstr "* 跳舞"
@@ -11431,7 +11431,7 @@ msgid "* Joke"
 msgstr "* 講笑話"
 
 msgid "* Agreement"
-msgstr ""
+msgstr "* 協定"
 
 msgid "* Call"
 msgstr "* 電話"
@@ -11515,7 +11515,7 @@ msgid "* Promise"
 msgstr "* 許諾"
 
 msgid "* Punch"
-msgstr ""
+msgstr "* 果酒"
 
 msgid "* Puzzle"
 msgstr "* 謎題"
@@ -11527,7 +11527,7 @@ msgid "* Rap"
 msgstr "* 說唱"
 
 msgid "* Re-Assure"
-msgstr ""
+msgstr "* 安慰"
 
 msgid "* Release"
 msgstr ""
@@ -11596,7 +11596,7 @@ msgid "* Taunt"
 msgstr "* 嘲諷"
 
 msgid "* Tea"
-msgstr ""
+msgstr "* 花茶"
 
 msgid "* Tell Off"
 msgstr "* 批判"
@@ -11605,19 +11605,19 @@ msgid "* Terrorize"
 msgstr "* 恐嚇"
 
 msgid "* Binding"
-msgstr ""
+msgstr "* 融合"
 
 msgid "* Prosthesis"
-msgstr ""
+msgstr "* 移植"
 
 msgid "* Infusion"
-msgstr ""
+msgstr "* 注入"
 
 msgid "* Threaten"
 msgstr "* 威脅"
 
 msgid "* Tickle"
-msgstr ""
+msgstr "* 輕撫"
 
 msgid "* Topple"
 msgstr "* 推倒"
@@ -11638,7 +11638,7 @@ msgid "* Tug"
 msgstr "* 拽下"
 
 msgid "* Turn"
-msgstr ""
+msgstr "* 騙他轉身"
 
 msgid "* Undyne"
 msgstr "* Undyne"
@@ -11647,7 +11647,7 @@ msgid "* Walk"
 msgstr "* 遛狗"
 
 msgid "* Water"
-msgstr "* 喝水"
+msgstr "* 白開水"
 
 msgid "* Whisper"
 msgstr "* 耳語"

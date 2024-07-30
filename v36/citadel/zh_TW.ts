@@ -6446,35 +6446,35 @@ export default {
    i_archive: { battle: { description: "", name: "" }, drop: [], info: [], name: "無", use: [] },
    i_archive_berry: {
       battle: { description: "3 HP。", name: "洋梅" },
-      drop: [ "<32>{#p/human}* (You throw away the Exoberries.)" ],
+      drop: [ "<32>{#p/human}* （你把洋梅扔掉了。）" ],
       info: [ "<32>{#p/human}* （3 HP。）" ],
       name: "洋梅",
       use: [ "<32>{#p/human}* （你吃掉了洋梅。）" ]
    },
    i_archive_candy: {
       battle: { description: "4 HP。", name: "糖果" },
-      drop: [ "<32>{#p/human}* (You throw away the Monster Candy.)" ],
+      drop: [ "<32>{#p/human}* （你把怪物糖果扔掉了。）" ],
       info: [ "<32>{#p/human}* （4 HP。）" ],
       name: "怪物糖果",
       use: [ "<32>{#p/human}* （你吃掉了怪物糖果。）" ]
    },
    i_archive_rations: {
       battle: { description: "5 HP。", name: "口糧" },
-      drop: [ "<32>{#p/human}* (You throw away the Rations.)" ],
+      drop: [ "<32>{#p/human}* （你把口糧扔掉了。）" ],
       info: [ "<32>{#p/human}* （5 HP。）" ],
       name: "口糧",
-      use: [ "<32>{#p/human}* (You eat the Rations.)" ]
+      use: [ "<32>{#p/human}* （你吃掉了口糧。）" ]
    },
    i_archive_tzn: {
-      battle: { description: "6 HP。", name: "Tofu" },
-      drop: [ "<32>{#p/human}* (You throw away the Space Tofu.)" ],
+      battle: { description: "6 HP。", name: "太空豆腐" },
+      drop: [ "<32>{#p/human}* （你把太空豆腐扔掉了。）" ],
       info: [ "<32>{#p/human}* （6 HP。）" ],
-      name: "Space Tofu",
-      use: [ "<32>{#p/human}* (You ingest the Space Tofu.)" ]
+      name: "太空豆腐",
+      use: [ "<32>{#p/human}* （你吞下了太空豆腐。）" ]
    },
    i_archive_nice_cream: {
       battle: { description: "7 HP。", name: "冰意靈" },
-      drop: [ "<32>{#p/human}* (You throw away the Ice Dream.)" ],
+      drop: [ "<32>{#p/human}* （你把冰意靈扔掉了。）" ],
       info: [ "<32>{#p/human}* （7 HP。）" ],
       name: "冰意靈",
       use: [
@@ -6483,55 +6483,55 @@ export default {
       ]
    },
    i_archive_healpak: {
-      battle: { description: "8 HP。", name: "Heal-pak" },
-      drop: [ "<32>{#p/human}* (You throw away the Heal-pak.)" ],
+      battle: { description: "8 HP。", name: "治療包" },
+      drop: [ "<32>{#p/human}* （你把治療包扔掉了。）" ],
       info: [ "<32>{#p/human}* （8 HP。）" ],
-      name: "Heal-pak",
-      use: [ "<32>{#p/human}* (You use the Heal-pak.)" ]
+      name: "治療包",
+      use: [ "<32>{#p/human}* （你使用了治療包。）" ]
    },
    i_big_dipper: {
       battle: {
-         description: "A whacking spoon made with the finest alloy in the galaxy.",
+         description: "一把巨勺，由本星系\n最好的合金材料製成。",
          name: "大熊座"
       },
-      drop: [ "<32>{#p/human}* (You throw away the Big Dipper.)" ],
+      drop: [ "<32>{#p/human}* （你扔掉了大熊座。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （15攻擊。）" ]
-            : [ "<32>{#p/basic}* \"Big Dipper\" (15 AT)\n* A whacking spoon made with the finest alloy in the galaxy." ],
+            : [ "<32>{#p/basic}* 「大熊座」 （15攻擊）\n* 一把巨勺，由本星系\n  最好的合金材料製成。" ],
       name: "大熊座",
-      use: [ "<32>{#p/human}* (You equip the Big Dipper.)" ]
+      use: [ "<32>{#p/human}* （你裝備上了大熊座。）" ]
    },
    i_heart_locket: {
       battle: {
-         description: "It says \"Best Friends Forever.\"",
-         name: "Heart Locket"
+         description: "上面刻著「永遠都是好朋友」。",
+         name: "心形掛墜"
       },
       drop: () => [
-         "<32>{#p/human}* (You threw away the Heart Locket.)",
+         "<32>{#p/human}* （你扔掉了心形掛墜。）",
          ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
             ? []
-            : [ "<32>{#p/basic}* ...", "<32>{#p/basic}* I'm going to pretend you didn't just do that." ])
+            : [ "<32>{#p/basic}* ...", "<32>{#p/basic}* 我就當什麼都沒看見。" ])
       ],
       info: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* （15防禦。）" ]
-            : [ "<33>{#p/basic}* \"Heart Locket\" (15 DF)\n* It says \"Best Friends Forever.\"" ],
-      name: "Heart Locket",
-      use: [ "<32>{#p/human}* (You equip the Heart Locket.)" ]
+            : [ "<33>{#p/basic}* 「心形掛墜」 （15防禦）\n* 上面刻著「永遠都是好朋友」。" ],
+      name: "心形掛墜",
+      use: [ "<32>{#p/human}* （你戴上了心形掛墜。）" ]
    },
    i_starling_tea: {
       battle: {
-         description: "A fine tea worthy of a king.",
-         name: "Star Tea"
+         description: "好王配好茶。",
+         name: "星花茶"
       },
-      drop: [ "<32>{#p/human}* (You throw away the Starling Tea.)" ],
+      drop: [ "<32>{#p/human}* （你把星花茶全倒掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （99 HP。）" ]
-            : [ "<32>{#p/basic}* \"Starling Tea\" Heals 99 HP\n* A fine tea worthy of a king." ],
-      name: "Starling Tea",
-      use: [ "<32>{#p/human}* (You drank the Starling Tea.)" ]
+            : [ "<32>{#p/basic}* 「星花茶」 回復99 HP\n* 好王配好茶。" ],
+      name: "星花茶",
+      use: [ "<32>{#p/human}* （你喝掉了星花茶。）" ]
    },
 
    k_hangar: {

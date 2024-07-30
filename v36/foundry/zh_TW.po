@@ -327,10 +327,10 @@ msgid "<32>{#p/human}* (But the tome seems to have been taken.)"
 msgstr ""
 
 msgid "<32>{#p/human}* (You acquired The Epiphany.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你取下了卷軸《頓悟》。）"
 
 msgid "<25>{#p/kidd}{#f/2}* Haha."
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/2}* 哈哈。"
 
 msgid "<25>{#f/2}* That thing must be REALLY old."
 msgstr ""
@@ -422,7 +422,7 @@ msgid "<32>{#p/basic}* There is one portion of Space Tofu left in the box."
 msgstr ""
 
 msgid "* (Take it?)"
-msgstr ""
+msgstr "* （拿走它嗎？）"
 
 msgid "<32>{#p/human}* (You got the Space Tofu.)"
 msgstr "<32>{#p/human}* （你得到了太空豆腐。）"
@@ -431,7 +431,7 @@ msgid "<32>{#p/human}* (You're carrying too much.)"
 msgstr "<32>{#p/human}* （你帶的東西太多了。）"
 
 msgid "<32>{#p/human}* (You decide not to take anything.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你不打算這麼做。）"
 
 msgid "<32>{#p/human}* (But you couldn't find anything inside.)"
 msgstr ""
@@ -3326,7 +3326,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* Wa ha ha..."
-msgstr ""
+msgstr "<32>{#p/basic}* 哇哈哈..."
 
 msgid "<32>{#p/basic}* Run while ya still can, kid!"
 msgstr ""
@@ -12467,7 +12467,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/story}* SPEED decreased!"
-msgstr ""
+msgstr "<32>{#p/story}* 你的移速下降了！"
 
 msgid ""
 "<32>{#p/human}* (You sit on top of Gelata.)\n"
@@ -13139,7 +13139,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/story}* Doge's ATTACK down!"
-msgstr ""
+msgstr "<32>{#p/story}* Doge的攻擊力下降了！"
 
 msgid ""
 "<32>{#p/human}* (You suggest Doge get a shower, but she wasn't in the mood "
@@ -13167,7 +13167,7 @@ msgid "<32>{#p/basic}* The spanner bonks you directly in the head!"
 msgstr ""
 
 msgid "<32>{#p/story}* SPEED down!"
-msgstr ""
+msgstr "<32>{#p/story}* 你的移速下降了！"
 
 msgid "<32>{#p/asriel2}* Maybe don't try that again."
 msgstr ""
@@ -13827,7 +13827,7 @@ msgid "<32>{#p/basic}* Muffet starts considering the situation..."
 msgstr ""
 
 msgid "<32>{#p/story}* Muffet's SPEED down!"
-msgstr ""
+msgstr "<32>{#p/story}* Muffet的攻速下降了！"
 
 msgid ""
 "<32>* (You mention how Doge was mistreated, and Undyne's lack of care is "
@@ -14328,7 +14328,7 @@ msgid "<32>{#p/basic}* The smell reminds Undyne of someone close to her..."
 msgstr ""
 
 msgid "<32>{#p/story}* Undyne's ATTACK down!"
-msgstr ""
+msgstr "<32>{#p/story}* Undyne的攻擊力下降了！"
 
 msgid ""
 "<32>{#p/basic}* The smell reminds Undyne of someone she'll never see "
@@ -14343,9 +14343,11 @@ msgid ""
 "<32>{#p/story}* Undyne's ATTACK up!\n"
 "* Undyne's DEFENSE down!"
 msgstr ""
+"<32>{#p/story}* Undyne的攻擊力提升了！\n"
+"* Undyne的防禦力下降了！"
 
 msgid "<32>{#p/story}* Undyne's DEFENSE down!"
-msgstr ""
+msgstr "<32>{#p/story}* Undyne的防禦力下降了！"
 
 msgid ""
 "<32>{#p/asriel2}* Undyne the Undying.\n"
@@ -16434,13 +16436,13 @@ msgid "<32>{#p/human}* (You gnawed at the Licorice.)"
 msgstr "<32>{#p/human}* （你咬了甘草糖。）"
 
 msgid "Sourced from a tree that grew on the monsters' homeworld."
-msgstr ""
+msgstr "取材自怪物故園裡的一棵樹。"
 
 msgid "Sap"
 msgstr ""
 
 msgid "<32>{#p/human}* (You throw away the Tree Sap.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把樹液扔掉了。）"
 
 msgid "<32>{#p/human}* (35 HP.)"
 msgstr "<32>{#p/human}* （35 HP。）"
@@ -16449,9 +16451,11 @@ msgid ""
 "<32>{#p/basic}* \"Tree Sap\" Heals 35 HP\n"
 "* Sourced from a tree that grew on the monsters' homeworld."
 msgstr ""
+"<32>{#p/basic}* 「樹液」 回復35 HP\n"
+"* 取材自怪物故園裡的一棵樹。"
 
 msgid "Tree Sap"
-msgstr ""
+msgstr "樹液"
 
 msgid "<32>{#p/human}* (You chewed the Tree Sap.)"
 msgstr ""
@@ -16515,7 +16519,7 @@ msgid "Datapad"
 msgstr ""
 
 msgid "<32>{#p/human}* (You throw away the Datapad.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把平板電腦扔掉了。）"
 
 msgid "<32>{#p/human}* (2 AT.)"
 msgstr ""
@@ -16561,7 +16565,7 @@ msgid "<32>{#p/human}* (You rip up the Postcard.)"
 msgstr ""
 
 msgid "<32>{#p/story}* ATTACK up by ${2 + battler.at_bonus}!"
-msgstr ""
+msgstr "<32>{#p/story}* 你的攻擊力提升了${2 + battler.at_bonus}點！"
 
 msgid ""
 "<32>{#p/human}* (You daydream about the landscape on the Postcard.)\n"
@@ -16653,13 +16657,13 @@ msgid "<32>{#p/human}* (You consume the Rations.)"
 msgstr "<32>{#p/human}* （你吃掉了口糧。）"
 
 msgid "Increases your SPEED in battle."
-msgstr ""
+msgstr "讓你在戰鬥中移動得更快。"
 
 msgid "Tea"
 msgstr ""
 
 msgid "<32>{#p/human}* (You throw away the Nebula Tea.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把星雲茶扔掉了。）"
 
 msgid "<32>{#p/human}* (15 HP.)"
 msgstr "<32>{#p/human}* （15 HP。）"
@@ -16669,6 +16673,9 @@ msgid ""
 "* Increases your SPEED in battle.\n"
 "* Not viable outside of battle."
 msgstr ""
+"<33>{#p/basic}* 「星雲茶」 回復15 HP\n"
+"* 讓你在戰鬥中移動得更快。\n"
+"* 僅在戰鬥中有效。"
 
 msgid "Nebula Tea"
 msgstr ""
@@ -16677,7 +16684,7 @@ msgid "<32>{#p/human}* (You drank the Nebula Tea.)"
 msgstr ""
 
 msgid "<32>{#p/story}* SPEED up by 1!"
-msgstr ""
+msgstr "<32>{#p/story}* 你的移速提升了1點！"
 
 msgid "Like Earth tofu, but spacier."
 msgstr ""
@@ -16686,7 +16693,7 @@ msgid "Tofu"
 msgstr ""
 
 msgid "<32>{#p/human}* (You throw away the Space Tofu.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把太空豆腐扔掉了。）"
 
 msgid "<32>{#p/human}* (17 HP.)"
 msgstr "<32>{#p/human}* （17 HP。）"
@@ -16706,7 +16713,7 @@ msgid "<32>* (The taste fills you with a certain kind of feeling...)"
 msgstr ""
 
 msgid "<32>{#p/story}* ATTACK up by ${4 + battler.at_bonus}!"
-msgstr ""
+msgstr "<32>{#p/story}* 你的攻擊力提升了${4 + battler.at_bonus}點！"
 
 msgid "Finally, a proper breakfast."
 msgstr ""
@@ -16738,7 +16745,7 @@ msgid "Tem Armor"
 msgstr ""
 
 msgid "<32>{#p/human}* (You throw away the Temmie Armor.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把提米盔甲扔掉了。）"
 
 msgid "<32>{#p/human}* (10 AT, 20 DF.)"
 msgstr ""
@@ -17394,9 +17401,8 @@ msgid ""
 "tree."
 msgstr ""
 "回復35 HP\n"
-"由真正的\n"
-"樹液\n"
-"精製而成。"
+"取材自\n"
+"真正的樹。"
 
 msgid "<09>{#p/basic}{#k/3}Don't expect a discount."
 msgstr ""

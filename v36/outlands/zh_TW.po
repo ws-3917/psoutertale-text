@@ -9835,7 +9835,7 @@ msgid "<11>{#p/toriel}{#f/22}That will accomplish nothing, my child."
 msgstr ""
 
 msgid "<11>{#p/toriel}{#f/22}..."
-msgstr ""
+msgstr "<11>{#p/toriel}{#f/22}..."
 
 msgid ""
 "<32>{#p/story}* TORIEL - ATK 80 DEF 80\n"

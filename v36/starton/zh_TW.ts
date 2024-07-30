@@ -2282,7 +2282,7 @@ export default {
                      ? [
                           "<32>{#p/basic}{#npc/a}* Freedom...",
                           "<32>* That means I don't have to worry about getting beat up anymore.",
-                          "<32>* Haha."
+                          "<32>* 哈哈。"
                        ]
                      : [
                           "<32>{#p/basic}{#npc/a}* Freedom...",
@@ -2292,7 +2292,7 @@ export default {
                           "<32>* ...",
                           "<32>* Well...",
                           "<32>* It probably doesn't worry about cracking jokes, that's for sure.",
-                          "<32>* Haha."
+                          "<32>* 哈哈。"
                        ]
                   : world.dead_dog || world.dead_skeleton || world.population < 6 || SAVE.data.b.killed_mettaton
                   ? [
@@ -7231,7 +7231,7 @@ export default {
                ? [ "<32>{#p/human}* (Your perception of time is already shifted.)" ]
                : [
                     "<32>{#p/human}* (Your perception of time begins to shift.)",
-                    "<32>{#p/story}* FOCUS up for two turns!"
+                    "<32>{#p/story}* 你的專注力提升兩回合！"
                  ]
             : [ "<32>{#p/human}* (No effect outside of battle.)" ])
       ]
@@ -7507,7 +7507,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （15 HP。共有三個。）" ]
-            : [ "<32>{#p/basic}* 「小漢堡」 治癒15 HP\n* 很像普通漢堡，只是小了一些。\n* 共有三個。" ],
+            : [ "<32>{#p/basic}* 「小漢堡」 回復15 HP\n* 很像普通漢堡，只是小了一些。\n* 共有三個。" ],
       name: "三隻小漢堡",
       use: [ "<32>{#p/human}* （你吃掉了一個小漢堡。）" ]
    },
@@ -7519,7 +7519,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （15 HP。還剩兩個。）" ]
-            : [ "<32>{#p/basic}* 「小漢堡」 治癒15 HP\n* 很像普通漢堡，只是小了一些。\n* 還剩兩個。" ],
+            : [ "<32>{#p/basic}* 「小漢堡」 回復15 HP\n* 很像普通漢堡，只是小了一些。\n* 還剩兩個。" ],
       name: "兩隻小漢堡"
    },
    i_burgerz_use2: {
@@ -7530,7 +7530,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ "<32>{#p/human}* （15 HP。最後一個。）" ]
-            : [ "<32>{#p/basic}* 「小漢堡」 治癒15 HP\n* 很像普通漢堡，只是小了一些。\n* 最後一個。" ],
+            : [ "<32>{#p/basic}* 「小漢堡」 回復15 HP\n* 很像普通漢堡，只是小了一些。\n* 最後一個。" ],
       name: "小漢堡"
    },
 
