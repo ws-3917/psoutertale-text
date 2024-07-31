@@ -20,7 +20,7 @@
             </termEntry>
             <termEntry id="Homeland">
                 <langSet xml:lang="en"><tig><term>Krios</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term/></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term>克里乌斯</term></tig></langSet>
             </termEntry>
             <termEntry id="New World Planet">
                 <langSet xml:lang="en"><tig><term>Eurybia</term></tig></langSet>
@@ -112,7 +112,7 @@
             </termEntry>
             <termEntry id="Main area">
                 <langSet xml:lang="en"><tig><term>Citadel</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term/></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term>首塔</term></tig></langSet>
             </termEntry>
             <termEntry id="Main area">
                 <langSet xml:lang="en"><tig><term>Archive Six</term></tig></langSet>
