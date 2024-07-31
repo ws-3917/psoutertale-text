@@ -4928,7 +4928,7 @@ export default {
       ]
    },
    b_opponent_archive2: {
-      name: () => (battler.volatile[0].sparable ? "* Gerson" : "* 476572736f6e"),
+      name: () => (battler.volatile[0].sparable ? "* 葛森" : "* 476572736f6e"),
       status0: [ "<32>{#p/human}* (476572736f6e stands opposite the training area.)" ],
       status1: [ "<32>{#p/human}* (476572736f6e awaits your first move.)" ],
 

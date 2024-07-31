@@ -3218,7 +3218,7 @@ export default {
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The sign lists off what lies in each direction.)" ]
                : [
-                    "<32>{#p/basic}* 「向左 - 暗區」\n* 「向前 - 安黛因的家」\n* 「向右 - Gerson的商店」",
+                    "<32>{#p/basic}* 「向左 - 暗區」\n* 「向前 - 安黛因的家」\n* 「向右 - 葛森的商店」",
                     "<32>{#p/basic}* 「向後 - 蝸牛保護區」"
                  ],
          f_lobbywindow: [
