@@ -1261,26 +1261,26 @@ export default {
                  "<25>{#f/0}{#v/1}* 在這個世界上...\n  不是殺人就是被殺。"
               ],
       endtwinklyB2: [
-         "<25>{#f/8}{#v/0}* If you had just killed a FEW more monsters...",
-         "<25>{#f/9}{#v/0}* Well, maybe I shouldn't reveal my plans this early.",
-         "<25>{#f/7}{#v/0}* You know, $(name)...",
-         "<25>{#f/5}{#v/0}* It's only a matter of time before we're together again.",
-         "<25>{#f/6}{#v/0}* Try a little harder next time, and maybe...",
-         "<25>{#f/5}{#v/0}* You'll get to see something new.",
-         "<25>{#f/11}{#v/0}* Until we meet again..."
+         "<25>{#f/8}{#v/0}* 只要你再多殺幾隻怪物...",
+         "<25>{#f/9}{#v/0}* 呵，現在把計畫告訴你\n  還為時過早。",
+         "<25>{#f/7}{#v/0}* 別忘了，$(name)...",
+         "<25>{#f/5}{#v/0}* 我們倆久別重逢，強強聯手\n  只是時間問題。",
+         "<25>{#f/6}{#v/0}* 下次長點心，狠一點，\n  說不定...",
+         "<25>{#f/5}{#v/0}* 你就能看到好戲了。",
+         "<25>{#f/11}{#v/0}* 那麼，回見..."
       ],
       endtwinklyB3: [
-         "<25>{#f/8}{#v/0}* If you had just killed ONE more monster...",
-         "<25>{#f/9}{#v/0}* Well, maybe I shouldn't reveal my plans this early.",
-         "<25>{#f/7}{#v/0}* You know, $(name)...",
-         "<25>{#f/5}{#v/0}* It's only a matter of time before we're together again.",
-         "<25>{#f/6}{#v/0}* Try a little harder next time, and maybe...",
-         "<25>{#f/5}{#v/0}* You'll get to see something new.",
-         "<25>{#f/11}{#v/0}* Until we meet again..."
+         "<25>{#f/8}{#v/0}* 只要你再多殺{@fill=#ff0}一隻{@fill=#fff}怪物...",
+         "<25>{#f/9}{#v/0}* 呵，現在把計畫告訴你\n  還為時過早。",
+         "<25>{#f/7}{#v/0}* 別忘了，$(name)...",
+         "<25>{#f/5}{#v/0}* 我們倆久別重逢，強強聯手\n  只是時間問題。",
+         "<25>{#f/6}{#v/0}* 下次長點心，狠一點，\n  說不定...",
+         "<25>{#f/5}{#v/0}* 你就能看到好戲了。",
+         "<25>{#f/11}{#v/0}* 那麼，回見..."
       ],
       endtwinklyBA: () => [
          SAVE.data.n.state_wastelands_napstablook === 5
-            ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you made it through without killing anyone."
+            ? "<25>{#p/twinkly}{#f/6}{#v/0}* 所以，你最終誰也沒殺掉。"
             : "<25>{#p/twinkly}{#f/6}{#v/0}* 所以你放過了\n  每一隻你遇到的怪物。",
          "<25>{#f/5}{#v/0}* 我打賭你覺得很棒。",
          "<25>{#f/2}{#v/1}* 但如果你遇到了一個\n  連環殺人犯呢？",

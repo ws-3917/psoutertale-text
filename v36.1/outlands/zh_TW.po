@@ -3343,33 +3343,39 @@ msgstr ""
 "  很聰明，是嗎？"
 
 msgid "<25>{#f/8}{#v/0}* If you had just killed a FEW more monsters..."
-msgstr ""
+msgstr "<25>{#f/8}{#v/0}* 只要你再多殺幾隻怪物..."
 
 msgid "<25>{#f/9}{#v/0}* Well, maybe I shouldn't reveal my plans this early."
 msgstr ""
+"<25>{#f/9}{#v/0}* 呵，現在把計畫告訴你\n"
+"  還為時過早。"
 
 msgid "<25>{#f/7}{#v/0}* You know, $(name)..."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* 別忘了，$(name)..."
 
 msgid ""
 "<25>{#f/5}{#v/0}* It's only a matter of time before we're together again."
 msgstr ""
+"<25>{#f/5}{#v/0}* 我們倆久別重逢，強強聯手\n"
+"  只是時間問題。"
 
 msgid "<25>{#f/6}{#v/0}* Try a little harder next time, and maybe..."
 msgstr ""
+"<25>{#f/6}{#v/0}* 下次長點心，狠一點，\n"
+"  說不定..."
 
 msgid "<25>{#f/5}{#v/0}* You'll get to see something new."
-msgstr ""
+msgstr "<25>{#f/5}{#v/0}* 你就能看到好戲了。"
 
 msgid "<25>{#f/11}{#v/0}* Until we meet again..."
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* 那麼，回見..."
 
 msgid "<25>{#f/8}{#v/0}* If you had just killed ONE more monster..."
-msgstr ""
+msgstr "<25>{#f/8}{#v/0}* 只要你再多殺{@fill=#ff0}一隻{@fill=#fff}怪物..."
 
 msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* So you made it through without killing anyone."
-msgstr ""
+msgstr "<25>{#p/twinkly}{#f/6}{#v/0}* 所以，你最終誰也沒殺掉。"
 
 msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of everyone you came "
