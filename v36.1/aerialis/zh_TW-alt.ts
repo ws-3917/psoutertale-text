@@ -3641,16 +3641,16 @@ export default {
                ? [ "<32>{#p/human}* (The terminal appears to have been powered off.)" ]
                : SAVE.data.n.plot === 72
                ? [
-                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
+                    "<32>{#p/human}* （你激活了終端，\n  閱讀了上面的訊息。）",
                     "<32>{#p/basic}* \"The Royal Lab is closed!\"\n* \"Thank you everyone for your hard work and dedication.\""
                  ]
                : world.bad_lizard < 2
                ? [
-                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
+                    "<32>{#p/human}* （你激活了終端，\n  閱讀了上面的訊息。）",
                     "<#32>{#p/basic}* 「呀哈哈，老滑頭在這！」\n  - 老滑頭"
                  ]
                : [
-                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
+                    "<32>{#p/human}* （你激活了終端，\n  閱讀了上面的訊息。）",
                     "<32>{#p/basic}* \"I'm sorry, everyone...\""
                  ],
          terminal3: () =>
@@ -3660,11 +3660,11 @@ export default {
                ? [ "<32>{#p/human}* (The terminal appears to have been powered off.)" ]
                : SAVE.data.n.plot === 72
                ? [
-                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
+                    "<32>{#p/human}* （你激活了終端，\n  閱讀了上面的訊息。）",
                     "<32>{#p/basic}* \"The Royal Lab is closed!\"\n* \"Thank you everyone for your hard work and dedication.\""
                  ]
                : [
-                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
+                    "<32>{#p/human}* （你激活了終端，\n  閱讀了上面的訊息。）",
                     "<32>{#p/basic}* 「親愛的皇家實驗室的員工們，\n  請把垃圾放在合適的容器裡。」"
                  ],
          terminal4: () =>
@@ -3674,11 +3674,11 @@ export default {
                ? [ "<32>{#p/human}* (The terminal appears to have been powered off.)" ]
                : SAVE.data.n.plot === 72
                ? [
-                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
+                    "<32>{#p/human}* （你激活了終端，\n  閱讀了上面的訊息。）",
                     "<32>{#p/basic}* \"The Royal Lab is closed!\"\n* \"Thank you everyone for your hard work and dedication.\""
                  ]
                : [
-                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
+                    "<32>{#p/human}* （你激活了終端，\n  閱讀了上面的訊息。）",
                     ...(world.bad_lizard > 1 || world.genocide
                        ? [ "<32>{#p/basic}* \"The Royal Lab is no longer safe. Evacuation procedure in effect.\"" ]
                        : [ "<32>{#p/basic}* 「歡迎來到皇家實驗室。」" ])
@@ -3689,7 +3689,7 @@ export default {
                : SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The terminal appears to have been powered off.)" ]
                : [
-                    "<32>{#p/human}* （你啟動了終端，\n  閱讀了上面的訊息。）",
+                    "<32>{#p/human}* （你激活了終端，\n  閱讀了上面的訊息。）",
                     ...(world.bad_lizard < 2 && SAVE.data.n.plot < 72
                        ? [
                             [

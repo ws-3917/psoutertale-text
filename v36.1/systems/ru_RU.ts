@@ -895,9 +895,9 @@ export default {
    },
 
    menu: {
-      box1: "INVENTORY",
-      box2: "BOX",
-      key1: "KEYRING",
+      box1: "ИНВЕНТАРЬ",
+      box2: "КОРОБКА",
+      key1: "БРЕЛОК",
 
       confirm1: "Is this name correct?",
       confirm2: "A name has already\nbeen chosen.",
@@ -910,25 +910,25 @@ export default {
       heal3: "* (You lost $(x) HP.)",
       heal4: "* (HP fully depleted.)",
 
-      item1: "USE",
-      item2: "EQUIP",
-      item3: "INFO",
-      item4: "DROP",
+      item1: "ИСП",
+      item2: "НАДЕТЬ",
+      item3: "ИНФО",
+      item4: "ВЫБРОС",
 
-      load1: "Continue",
-      load2: "Observe",
-      load3: "Reset",
-      load4: "True Reset",
+      load1: "Продолжить",
+      load2: "Наблюдать",
+      load3: "Сброс",
+      load4: "Истинный Сброс",
 
-      name1: "Name the stranded human.",
-      name2: "Quit",
+      name1: "Назовите застрявшего человека.",
+      name2: "Выйти",
       name3: "Backspace",
       name4: "Done",
       name5: "§fill=#808080§ [ESC] - Quit / [ENTER] - Done",
 
       save1: "Save",
       save2: "Return",
-      save3: "File saved.",
+      save3: "Файл сохранён.",
 
       settings1: "НАСТРОЙКИ",
       settings2: "ВЫЙТИ",

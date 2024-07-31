@@ -1977,13 +1977,13 @@ msgid "Yes"
 msgstr "Да"
 
 msgid "INVENTORY"
-msgstr ""
+msgstr "ИНВЕНТАРЬ"
 
 msgid "BOX"
-msgstr ""
+msgstr "КОРОБКА"
 
 msgid "KEYRING"
-msgstr ""
+msgstr "БРЕЛОК"
 
 msgid "Is this name correct?"
 msgstr ""
@@ -2012,34 +2012,34 @@ msgid "* (HP fully depleted.)"
 msgstr ""
 
 msgid "USE"
-msgstr ""
+msgstr "ИСП"
 
 msgid "EQUIP"
-msgstr ""
+msgstr "НАДЕТЬ"
 
 msgid "INFO"
-msgstr ""
+msgstr "ИНФО"
 
 msgid "DROP"
-msgstr ""
+msgstr "ВЫБРОС"
 
 msgid "Continue"
-msgstr ""
+msgstr "Продолжить"
 
 msgid "Observe"
-msgstr ""
+msgstr "Наблюдать"
 
 msgid "Reset"
-msgstr ""
+msgstr "Сброс"
 
 msgid "True Reset"
-msgstr ""
+msgstr "Истинный Сброс"
 
 msgid "Name the stranded human."
-msgstr ""
+msgstr "Назовите застрявшего человека."
 
 msgid "Quit"
-msgstr ""
+msgstr "Выйти"
 
 msgid "Backspace"
 msgstr ""
@@ -2054,7 +2054,7 @@ msgid "Return"
 msgstr ""
 
 msgid "File saved."
-msgstr ""
+msgstr "Файл сохранён."
 
 msgid "SETTINGS"
 msgstr "НАСТРОЙКИ"

@@ -761,10 +761,10 @@ export default {
          "<32>* 嘿... 謝謝你...",
          "<32>* 還有，嗯... \n  對不起之前擋了你的路...",
          "<32>* 我要去其他地方了",
-         "<32>* but... don't worry...",
-         "<32>* you'll see me again later...",
-         "<32>* if you want to...",
-         "<32>* well, cya..."
+         "<32>* 不過... 別擔心...",
+         "<32>* 如果你想見我的話...",
+         "<32>* 之後還有機會的...",
+         "<32>* 那，回見了..."
       ],
       blooky5: [
          "<32>{#p/napstablook}* 呃，好吧...\n  看來，你打心底裡厭惡我",
@@ -2577,30 +2577,30 @@ export default {
       terminal: {
          a: () =>
             postSIGMA()
-               ? [ "<32>{#p/human}* （你啟動了終端。）\n* （上面什麼訊息也沒有。）" ]
+               ? [ "<32>{#p/human}* （你激活了終端。）\n* （上面什麼訊息也沒有。）" ]
                : SAVE.data.n.plot === 72
                ? !world.runaway
                   ? [
-                       "<32>{#p/human}* （你啟動了終端。）\n* （上面有一條新訊息。）",
+                       "<32>{#p/human}* （你激活了終端。）\n* （上面有一條新訊息。）",
                        "<32>{#p/alphys}* We're free, everyone!\n* This isn't a joke, the force field's gone!",
                        "<32>* Seriously, they're shutting down the core in a few days, so it's time to go!",
                        "<32>* You don't want to die here, do you?"
                     ]
                   : [
-                       "<32>{#p/human}* （你啟動了終端。）\n* （上面有一條新訊息。）",
+                       "<32>{#p/human}* （你激活了終端。）\n* （上面有一條新訊息。）",
                        "<32>{#p/alphys}* The force field's gone.\n* Calling all citizens for immediate evacuation.",
                        "<32>* ... I know you're all afraid, but it's going to be okay.",
                        "<32>* They can't hurt us if we leave them behind."
                     ]
                : 37.2 <= SAVE.data.n.plot
                ? [
-                    "<32>{#p/human}* （你啟動了終端。）\n* （上面有一條新訊息。）",
+                    "<32>{#p/human}* （你激活了終端。）\n* （上面有一條新訊息。）",
                     "<32>{#p/alphys}* The Foundry's fluid network has been repaired, thanks to our... v-very kind workers.",
                     "<32>* ...",
                     "<32>* On an unrelated note, we're... l-looking for new workers."
                  ]
                : [
-                    "<32>{#p/human}* （你啟動了終端。）\n* （上面有一條新訊息。）",
+                    "<32>{#p/human}* （你激活了終端。）\n* （上面有一條新訊息。）",
                     "<32>{#p/alphys}* 鑄廠的流體網路又-又斷了。",
                     "<32>* 工人們承諾\n  很快就會恢復正常，\n  但真實情況看起來並不樂觀。",
                     "<32>* 如-如果這附近現在有人，\n  請趕緊過來幫忙..."
@@ -2720,7 +2720,7 @@ export default {
             [ "<25>{#p/asriel1}{#f/13}* Frisk...", "<25>{#f/15}* Don't you have anything better to do?" ],
             []
          ][Math.min(SAVE.data.n.lateasriel++, 8)],
-      securefield: [ "<33>{#p/basic}* 這裡有一道安保屏障。\n* 已被啟動。" ],
+      securefield: [ "<33>{#p/basic}* 這裡有一道安保屏障。\n* 已被激活。" ],
       trivia: {
          w_security: [ "<32>{#p/basic}* 一道安保屏障。" ],
          photoframe: () =>

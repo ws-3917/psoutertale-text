@@ -4928,7 +4928,7 @@ export default {
    },
 
    b_act: {
-      activate: "* 啟動",
+      activate: "* 激活",
       advice: "* 建議",
       agree: "* 認同",
       alphys: "* Alphys",

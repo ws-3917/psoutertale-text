@@ -11221,7 +11221,7 @@ msgid "Invader"
 msgstr ""
 
 msgid "* Activate"
-msgstr "* 啟動"
+msgstr "* 激活"
 
 msgid "* Advice"
 msgstr "* 建議"

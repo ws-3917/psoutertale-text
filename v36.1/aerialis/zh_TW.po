@@ -7712,7 +7712,7 @@ msgstr ""
 
 msgid "<32>{#p/human}* (You activate the terminal and read the message.)"
 msgstr ""
-"<32>{#p/human}* （你啟動了終端，\n"
+"<32>{#p/human}* （你激活了終端，\n"
 "  閱讀了上面的訊息。）"
 
 msgid ""

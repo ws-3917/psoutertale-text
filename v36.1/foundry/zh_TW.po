@@ -205,7 +205,7 @@ msgid "<32>{#p/human}* (The terminal appears to have been powered off.)"
 msgstr ""
 
 msgid "<32>{#p/human}* (You activate the terminal.)"
-msgstr "<32>{#p/human}* （你啟動了終端。）"
+msgstr "<32>{#p/human}* （你激活了終端。）"
 
 msgid ""
 "<32>{#p/basic}* \"Pathway unlocked!\"\n"

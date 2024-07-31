@@ -107,10 +107,10 @@ export default {
             : SAVE.data.b.svr
             ? [ "<32>{#p/human}* (The terminal appears to have been powered off.)" ]
             : [
-                 "<32>{#p/human}* （你啟動了終端。）",
+                 "<32>{#p/human}* （你激活了終端。）",
                  "<32>{#p/basic}* 「通路已打開！」\n* 「不必再進行任何操作。」"
               ],
-      quicksolve4: [ "<32>{#p/human}* （你啟動了終端。）", "<32>{#p/basic}* \"Enter override code!\"" ],
+      quicksolve4: [ "<32>{#p/human}* （你激活了終端。）", "<32>{#p/basic}* \"Enter override code!\"" ],
       quicksolve5: [
          "<32>{#p/basic}* ...",
          "<32>{#p/basic}* If only you knew a puzzle officionado who could tell you what that code might be."

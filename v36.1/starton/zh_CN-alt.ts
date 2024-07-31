@@ -825,7 +825,7 @@ export default {
               (game.room === 's_pacing' && SAVE.data.n.state_starton_lesserdog === 2) // NO-TRANSLATE
 
             ? [ "<32>{#p/basic}* ...但是谁也没有来。" ]
-            : [ "<32>{#p/basic}* 没人。" ],
+            : [ "<32>{#p/basic}* 没人在家。" ],
       housebloc: () =>
          SAVE.data.b.svr ? [ "<32>{#p/human}* (You can't seem to find a way in.)" ] : [ "<32>{#p/basic}* 锁住了。" ],
       innkeep1a: pager.create(
@@ -2529,7 +2529,7 @@ export default {
                     "<32>{#p/basic}* 这是个游戏终端...",
                     ...(SAVE.data.n.plot === 72 || world.postnoot
                        ? [ "<32>{#p/basic}* The power supply has been cut." ]
-                       : [ "<32>{#p/basic}* “尽可能快地射击目标！\n   用 [Z] 来射击。”" ])
+                       : [ "<32>{#p/basic}* “尽可能快速射击目标！\n   用[Z]来射击。”" ])
                  ])
          ]
       },
@@ -3867,8 +3867,8 @@ export default {
       ],
       robotx: () =>
          SAVE.data.b.svr
-            ? [ "<32>{#p/human}* (The robot appears to be asleep.)" ]
-            : [ "<32>{#p/basic}* It's in sleep mode." ],
+            ? [ "<32>{#p/human}* （看起来，机器人睡着了。）" ]
+            : [ "<32>{#p/basic}* 它进入了“休眠”模式。" ],
       robot1: pager.create(
          0,
          () => [
@@ -3896,7 +3896,7 @@ export default {
       ],
       robot3: [ "<32>{#p/basic}* 看起来你还没有给我预留足够的空间。" ],
       robot4: () => [
-         "<32>{#p/basic}* I see.\n* Good journey, then.",
+         "<32>{#p/basic}* 好吧。\n* 那么，祝你旅途愉快。",
          ...(world.goatbro && SAVE.flag.n.ga_asriel98++ < 1
             ? [
                  "<25>{#p/asriel2}{#f/9}* 嘿，真是个\n  可爱又天真的小东西。",
@@ -3911,15 +3911,15 @@ export default {
             : [])
       ],
       robot6: () => [
-         "<32>{#p/basic}* How am I doing?\n* By \"I\" I mean the chip I gave you...",
-         "<32>* Huh? You lost it...?\n* ... I suppose I can give you another one...",
+         "<32>{#p/basic}* 近况如何？\n* 我是说，我那块芯片近况如何...",
+         "<32>* 啊？你把它弄丢了...？\n* ...那我再给你一块吧...",
          choicer.create("* （再拿走一块芯片？）", "拿走", "算了")
       ],
       robot7: [
-         "<32>{#p/basic}* Please be careful this time.",
+         "<32>{#p/basic}* 这次小心点。别弄丢了。",
          "<32>{#p/human}{#s/equip}* （你得到了“芯”型薯片。）"
       ],
-      robot8: [ "<32>{#p/basic}* I understand.\n* Safe journey, then..." ],
+      robot8: [ "<32>{#p/basic}* 我理解的。\n* 祝你旅途愉快..." ],
       robot9: () => [
          "<32>{#p/basic}* 谢谢你... 照顾我...",
          ...(world.goatbro && SAVE.flag.n.ga_asriel99++ < 1
@@ -3927,14 +3927,14 @@ export default {
             : [])
       ],
       robot10: [
-         "<32>{#p/basic}* How am I doing?",
-         "<32>* Huh? Again...?",
-         "<32>* I'm sorry... if I give you any more, there will be nothing left of me.",
-         "<32>* I suppose it is true.\n* Traveling beyond our limits is but a fantasy.",
-         "<32>* It's no different for anyone else.",
-         "<32>* All of monsterkind are doomed to live out here forever..."
+         "<32>{#p/basic}* 芯片还好吗？",
+         "<32>* 啊？又弄丢了...？",
+         "<32>* 对不起...\n* 我要是再给你芯片的话，\n  就什么都不剩了。",
+         "<32>* 看来我只能认命。\n* 想到去不了的地方，\n  终究只是幻想。",
+         "<32>* 对所有怪物都一样。",
+         "<32>* 怪物们注定要永远困在这里，\n  度过余生..."
       ],
-      robot11: [ "<32>{#p/basic}* Why did I give myself away so easily?" ],
+      robot11: [ "<32>{#p/basic}* 我真傻，为啥之前那么轻易\n  就把心掏给你呢？" ],
       robot12: [ "<32>{#p/basic}* 滚！" ],
       sans1: [
          "<99>{#p/darksans}{#i/4}* {@spacing=4/0}{#i/x2}人类。",
@@ -7038,7 +7038,7 @@ export default {
             ? game.room === '_frontier4' // NO-TRANSLATE
 
                ? [ "<32>{#p/napstablook}* ......... 嗯？" ]
-               : [ "<32>{#p/napstablook}* aw.........\n* i hope you like it........." ]
+               : [ "<32>{#p/napstablook}* 哦.........\n* 希望你爱吃........." ]
             : [])
       ]
    },
@@ -7048,14 +7048,14 @@ export default {
          name: "“芯”型薯片"
       },
       drop: () => [
-         "<32>{#p/human}* (You threw away the Computer Chip.)",
+         "<32>{#p/human}* （你把“芯”型薯片扔掉了。）",
          ...(SAVE.data.b.svr && !SAVE.data.b.freedom
             ? [ "<25>{#p/asriel1}{#f/15}* Uh... weren't you going to protect that?" ]
             : [])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* (45 HP. Rather than eating it, you feel you should keep this item safe.)" ]
+            ? [ "<32>{#p/human}* （45 HP。）\n* （比起吃掉它，你更想保护好它。）" ]
             : [ "<32>{#p/basic}* “‘芯’型薯片” 回复45 HP\n* 请将其带往星系的边疆。" ],
       name: "“芯”型薯片",
       use: () => [
@@ -7065,35 +7065,35 @@ export default {
             : world.darker || SAVE.data.b.ufokinwotm8
             ? []
             : calcHP() - SAVE.data.n.hp > 45
-            ? [ "<32>{#p/basic}* Seems your HP integer was increased." ]
-            : [ "<32>{#p/basic}* Seems your injuries have been overwritten." ])
+            ? [ "<32>{#p/basic}* 你的HP值获得了一个增量。" ]
+            : [ "<32>{#p/basic}* 你的伤口被覆盖掉了。" ])
       ]
    },
    i_eye: {
       battle: {
-         description: "A portable force field.",
+         description: "可随身携带的力场发射器。",
          name: "力场护盾"
       },
       drop: [ "<32>{#p/human}* （你把力场护盾扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* (7 DF.)" ]
+            ? [ "<32>{#p/human}* （7防御。）" ]
             : [ "<32>{#p/basic}* “力场护盾” （7防御）\n* 可随身携带的力场发射器。" ],
       name: "力场护盾",
-      use: [ "<32>{#p/human}* (You deployed the Field Emitter.)" ]
+      use: [ "<32>{#p/human}* （你启动了力场护盾。）" ]
    },
    i_eye_x: {
       battle: {
-         description: "A somewhat underpowered portable force field.",
+         description: "可随身携带的力场发射器，\n但能量不足。",
          name: "力场护盾？"
       },
       drop: [ "<32>{#p/human}* （你把力场护盾扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* (5 DF.)" ]
+            ? [ "<32>{#p/human}* （5防御。）" ]
             : [ "<32>{#p/basic}* “力场护盾” （5防御）\n* 可随身携带的力场发射器，\n  但能量不足。" ],
       name: "力场护盾？",
-      use: [ "<32>{#p/human}* (You deployed the Field Emitter.)" ]
+      use: [ "<32>{#p/human}* （你启动了力场护盾。）" ]
    },
    i_fruit: {
       battle: {
@@ -7110,33 +7110,33 @@ export default {
    },
    i_glove: {
       battle: {
-         description: "A state-of-the-art bionic glove.\nIt's so bad.",
+         description: "源自尖端科技，揍人超级有力的\n仿生手套。",
          name: "超能手套"
       },
       drop: [ "<32>{#p/human}* （你把超能手套扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* (5 AT.)" ]
-            : [ "<32>{#p/basic}* \"Power Glove\" (5 AT)\n* A state-of-the-art bionic glove. It's so bad." ],
+            ? [ "<32>{#p/human}* （5攻击。）" ]
+            : [ "<32>{#p/basic}* “超能手套” （5攻击）\n* 源自尖端科技，揍人超级有力的\n  仿生手套。" ],
       name: "超能手套",
       use: [ "<32>{#p/human}* （你戴上了超能手套。）" ]
    },
    i_glove_x: {
       battle: {
-         description: "It's not the original, but it still packs a punch.",
+         description: "虽然是仿制手套，\n但不妨碍你用它痛扁敌人。",
          name: "超能手套？"
       },
       drop: [ "<32>{#p/human}* （你把超能手套扔掉了。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* (3 AT.)" ]
+            ? [ "<32>{#p/human}* （3攻击。）" ]
             : [ "<32>{#p/basic}* “超能手套？” （3攻击）\n* 虽然是仿制手套，\n  但不妨碍你用它痛扁敌人。" ],
       name: "超能手套？",
       use: [ "<32>{#p/human}* （你戴上了超能手套。）" ]
    },
    i_milkshake: {
       battle: {
-         description: "Made of an unknown, pearly-white substance.",
+         description: "由白如珍珠的不明物质制成。",
          name: "奶昔"
       },
       drop: [ "<32>{#p/human}* (You rid yourself of the Milkshake.)" ],

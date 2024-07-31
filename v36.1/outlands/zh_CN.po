@@ -2005,16 +2005,16 @@ msgid "<32>* i'll go somewhere else now"
 msgstr "<32>* 我要去其他地方了"
 
 msgid "<32>* but... don't worry..."
-msgstr ""
+msgstr "<32>* 不过... 别担心..."
 
 msgid "<32>* you'll see me again later..."
-msgstr ""
+msgstr "<32>* 如果你想见我的话..."
 
 msgid "<32>* if you want to..."
-msgstr ""
+msgstr "<32>* 之后还有机会的..."
 
 msgid "<32>* well, cya..."
-msgstr ""
+msgstr "<32>* 那，回见了..."
 
 msgid "<32>{#p/napstablook}* so um... you really despise me, huh"
 msgstr ""
