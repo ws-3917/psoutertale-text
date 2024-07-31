@@ -2358,7 +2358,7 @@ export default {
       runaway7b: [
          "<25>{#p/toriel}{#f/21}* 真可悲啊...",
          "<25>* 我连一个人类孩子...\n  都保护不了...",
-         "<32>{#p/human}* (You hear footsteps fading into the distance.)"
+         "<32>{#p/human}* （你听见脚步声逐渐远去。）"
       ],
       silencio: {
          a: pager.create(

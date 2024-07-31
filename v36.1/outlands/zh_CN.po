@@ -5822,7 +5822,7 @@ msgstr ""
 "  都保护不了..."
 
 msgid "<32>{#p/human}* (You hear footsteps fading into the distance.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你听见脚步声逐渐远去。）"
 
 msgid ""
 "<32>{#p/basic}{#n1}* Hey there.\n"
