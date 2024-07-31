@@ -3673,49 +3673,49 @@ export default {
          "<25>{#p/twinkly}{#f/6}* Всё, с меня хватит.",
          "<25>{#f/8}* Если ты хочешь продолжать сбрасывать, то пожалуйста...",
          "<25>{#f/6}* Делай что хочешь.",
-         "<25>{#f/7}* Just don't expect to get past me so easily."
+         "<25>{#f/7}* Но не ожидай, что легко проскользнёшь мимо меня."
       ],
-      twinkly5: [ "<25>{#p/twinkly}{#f/6}* Don't you have anything better to do?" ],
+      twinkly5: [ "<25>{#p/twinkly}{#f/6}* Нет ли у тебя дел поважнее?" ],
       twinkly6: [
-         "<25>{#p/twinkly}{#f/6}* Resetting right after you've taken your first hit, huh?",
-         "<25>{#f/7}* How pathetic."
+         "<25>{#p/twinkly}{#f/6}* Хех, сразу сбросили после первого ранения?",
+         "<25>{#f/7}* Как жалко."
       ],
       twinkly6a: [
-         "<25>{#p/twinkly}{#f/11}* As if you think I'd forget about what you did...",
-         "<25>{#f/7}* Filthy shard dodger."
+         "<25>{#p/twinkly}{#f/11}* Как будто я забуду, что вы сделали...",
+         "<25>{#f/7}* Грязный уклонист осколков."
       ],
-      twinkly7: [ "<25>{#p/twinkly}{#f/7}* I can play this game all day, idiot." ],
-      twinkly8: [ "<25>{#f/11}* Either way, since you already know what's coming next...{%15}" ],
+      twinkly7: [ "<25>{#p/twinkly}{#f/7}* Я могу играть в эту игру хоть весь день, тупица." ],
+      twinkly8: [ "<25>{#f/11}* В любом случаи, раз вы уже знаете что будет дальше...{%15}" ],
       twinkly9: [
          "<25>{#p/twinkly}{#f/6}* Приветик.",
-         "<25>* Seems I'll be fireballed if I stick around too long.",
-         "<25>{#f/8}* A shame, really...",
-         "<25>{#f/7}* I was gonna have SO much fun with you.",
+         "<25>* Похоже меня сожгут если я останусь на долго.",
+         "<25>{#f/8}* Ах, как жаль...",
+         "<25>{#f/7}* Я собирался повеселиться как следует.",
          "<25>{#f/6}* ...",
-         "<25>{#f/5}* Well, see ya!"
+         "<25>{#f/5}* Ну, увидимся!"
       ],
       twinkly9a: [
-         "<25>{#p/twinkly}{#f/12}{#v/0}* What the HELL are you doing, $(name)?",
-         "<25>{#f/12}{#v/0}* We had the outpost at our mercy!"
+         "<25>{#p/twinkly}{#f/12}{#v/0}* Какого ЧЁРТА ты делаешь, $(name)?",
+         "<25>{#f/12}{#v/0}* У нас был весь аванпост на коленях!"
       ],
-      twinkly9a1: [ "<25>{#f/6}{#v/0}* All we had to do was follow the plan." ],
+      twinkly9a1: [ "<25>{#f/6}{#v/0}* Нам нужно было лишь следовать плану." ],
       twinkly9a2: [
-         "<25>{#f/6}{#v/0}* All we had to do was get through the Foundry...",
-         "<25>* Finish off the guards...",
-         "<25>* And make it to the Citadel!"
+         "<25>{#f/6}{#v/0}* Нам нужно было лишь пройти через Литцех...",
+         "<25>* Прикончить стражу...",
+         "<25>* И дойти до Цитадели!"
       ],
       twinkly9a3: [
-         "<25>{#f/6}{#v/0}* All we had to do was finish off the guards...",
-         "<25>* And get through the Citadel!"
+         "<25>{#f/6}{#v/0}* Нам нужно было лишь прикончить стражу...",
+         "<25>* И дойти до Цитадели!"
       ],
       twinkly9a4: [
-         "<25>{#f/6}{#v/0}* All we had to do was KILL that stupid robot...",
-         "<25>* And get through the Citadel!"
+         "<25>{#f/6}{#v/0}* Нам нужно было лишь УБИТЬ того тупого робота...",
+         "<25>* И дойти до Цитадели!"
       ],
-      twinkly9a5: [ "<25>{#f/6}{#v/0}* All we had to do was get through the Citadel!" ],
+      twinkly9a5: [ "<25>{#f/6}{#v/0}* Нам нужно было лишь пройти через Цитадель!" ],
       twinkly9a6: [ "<25>{#f/6}{#v/0}* All we had to do was KILL that nerdy trashbag!" ],
-      twinkly9a7: [ "<25>{#f/6}{#v/0}* All we had to do was walk to the end!", "<25>* We were so close!" ],
-      twinkly9a8: [ "<25>{#f/8}{#v/0}* Coward..." ],
+      twinkly9a7: [ "<25>{#f/6}{#v/0}* All we had to do was walk to the end!", "<25>* Мы были так близки!" ],
+      twinkly9a8: [ "<25>{#f/8}{#v/0}* Трус..." ],
       twinkly9b: [
          "<25>{#p/twinkly}{#f/5}* $(name)...?",
          "<25>{#f/6}* I'm not really sure what just happened.",
@@ -3733,42 +3733,42 @@ export default {
          "<25>{#f/5}* Well, good luck!"
       ],
       twinkly10: [
-         "<20>{#f/5}See that heart? That's your SOUL, the very culmination of your being!",
-         "<20>{#f/5}Your SOUL is an important part of you, and needs LOVE to sustain itself."
+         "<20>{#f/5}Видишь это сердечко? Это твоя ДУША, сама кульминация твоего бытия!",
+         "<20>{#f/5}Твоя ДУША это важная часть тебя, и ей нужен УР чтобы обеспечить себя."
       ],
       twinkly11: [
-         "<20>{*}{#x2}{#f/5}Out here, LOVE is shared through... {#f/8}little white... {#f/11}'happiness shards.'",
-         "<20>{*}{#f/5}To get you started on the right path, I'll share some of my own LOVE.",
-         "<20>{*}{#f/5}Try to get as many as you can!{^20}{*}{#x1}{%}"
+         "<20>{*}{#x2}{#f/5}Здесь, УР делятся через... {#f/8}маленькие, белые... {#f/11}'осколки счастья.'",
+         "<20>{*}{#f/5}Чтобы направить тебя на верный путь, я поделюсь частью своего УР.",
+         "<20>{*}{#f/5}Попробуй поймать по-больше осколков!{^20}{*}{#x1}{%}"
       ],
       twinkly12: [
-         "<20>{*}{#f/8}Whoops, I think you might've missed them...",
-         "<20>{*}{#f/5}But that's okay!",
-         "<20>{*}{#x2}{#f/10}Here, have some more.{^20}{*}{#x1}{%}"
+         "<20>{*}{#f/8}Упс, полагаю вы их пропустили...",
+         "<20>{*}{#f/5}Но не беда!",
+         "<20>{*}{#x2}{#f/10}Вот, держи ещё.{^20}{*}{#x1}{%}"
       ],
       twinkly13: [
-         "<20>{*}{#f/12}What the-... are you braindead or something??",
-         "<20>{*}{#x2}RUN. INTO. THE. BULLETS!!!{^20}{*}{#x1}{^999}"
+         "<20>{*}{#f/12}Какого-... ты безмозглый или что??",
+         "<20>{*}{#x2}БЕГИ. В. ПУЛИ!!!{^20}{*}{#x1}{^999}"
       ],
-      twinkly14: "RUN. INTO. THE. happiness shards~",
+      twinkly14: "БЕГИ. В. осколки счастья~",
       twinkly15: [
-         "<20>{#v/1}Hee hee hee...",
-         "<20>In this world, it's KILL or BE killed.",
-         "<20>Imagine, a SOUL like yours crash-landing on my doorstep...",
-         "<20>Did you really think I'd pass up such a golden opportunity?"
+         "<20>{#v/1}Хи-хи-хи...",
+         "<20>В этом мире, УБЕЙ или БУДЕШЬ убит.",
+         "<20>Представь, ДУША подобная твоей, приземлившаяся к моей двери...",
+         "<20>Человек, ты реально думал что я пропущу такую возможность?"
       ],
       twinkly16: [
-         "<20>{#f/7}Nah, you know what's going on here, don'tcha?",
-         "<20>You just wanted to torment little old Twinkly, didn'tcha?",
-         "<20>Golly... you must have no idea who you're messing with.",
-         "<20>{#f/11}Hee hee hee..."
+         "<20>{#f/7}Не, ты знаешь что тут происходит, не так ли?",
+         "<20>Вы лишь хотели помучить бедного старенького Мерцика, не так ли?",
+         "<20>Божечки... ты действительно не знаешь, кому ты мешаешь.",
+         "<20>{#f/11}Хи-хи-хи..."
       ],
-      twinkly17: [ "<20>{#v/1}We'll just have to cut straight to the point, won't we?", "<20>Hee hee hee..." ],
-      twinkly18: [ "<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}DIE.{^20}{%}" ],
-      twinkly19: [ "<20>{#p/toriel}What a terrible creature, torturing such a poor, innocent youth..." ],
+      twinkly17: [ "<20>{#v/1}Перейдём к сути, ладно?", "<20>Хи-хи-хи..." ],
+      twinkly18: [ "<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}УМРИ.{^20}{%}" ],
+      twinkly19: [ "<20>{#p/toriel}Что за ужасное создание мучает бедное, невинное дитя..." ],
       twinkly20: [
-         "<20>Have no fear, little one.",
-         "<20>I am {@fill=#003cff}TORIEL{@fill=#000}, overseer of the {@fill=#f00}OUTLANDS{@fill=#000}.",
+         "<20>Не бойся, дитя.",
+         "<20>Я {@fill=#003cff}ТОРИЕЛЬ{@fill=#000}, смотрительница {@fill=#f00}ЗАПРЕДЕЛЬЯ{@fill=#000}.",
          "<20>I come by every day to check for those who have been stranded here.",
          "<20>Follow me, child.\nThere is much I intend to teach you."
       ],

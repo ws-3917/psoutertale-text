@@ -513,10 +513,10 @@ export default {
                  ]
                : 49 <= SAVE.data.n.plot
                ? [
-                    "<32>{#p/napstablook}* dang, you sure get around",
-                    "<32>* i mean...",
-                    "<32>* i guess i do too...",
-                    "<32>* but, i'm kind of incorporeal, so it's not that impressive for me"
+                    "<32>{#p/napstablook}* 天，你真的跑來跑去的",
+                    "<32>* 我是說...",
+                    "<32>* 其實我也是...",
+                    "<32>* 但是，我是沒有實體的，\n  所以對我來說不算\n  那麼令人印象深刻"
                  ]
                : [
                     "<32>{#p/napstablook}* 歡迎來到幽靈家族的\n  蝸牛農場...",
@@ -549,22 +549,22 @@ export default {
                ? [ "<32>{#p/napstablook}* hopefully next time he's a little nicer to the contestants........." ]
                : 49 <= SAVE.data.n.plot
                ? [
-                    "<32>{#p/napstablook}* oh yeah, i saw you on that talent show earlier...",
+                    "<32>{#p/napstablook}* 喔對了，我早些時候\n  看到你在達人秀上了...",
                     ...(SAVE.data.n.state_aerialis_talentfails === 0
                        ? [
-                            "<32>{#p/napstablook}* that was quite a performance... you didn't even mess up once",
-                            "<32>* i don't think i've ever someone do that before......"
+                            "<32>{#p/napstablook}* 真的太精彩了...\n  你一次都沒搞砸",
+                            "<32>* 我覺得你應該是\n  開天闢地第一個......"
                          ]
                        : SAVE.data.n.state_aerialis_talentfails < 15
                        ? [
-                            "<32>{#p/napstablook}* even if your performance wasn't perfect, you did pretty good",
-                            "<32>* most of mettaton's contestants don't even make it halfway...",
-                            "<32>* including me......"
+                            "<32>{#p/napstablook}* 即使你的表現不算完美，\n  你也做得很好",
+                            "<32>* 鎂塔頓的大多數參賽者\n  甚至都沒堅持到一半...",
+                            "<32>* 包括我......"
                          ]
                        : [
-                            "<32>{#p/napstablook}* even if your performance wasn't the greatest, i could tell you were trying your best",
-                            "<32>* and besides, you made it to the end...",
-                            "<32>* unlike me......"
+                            "<32>{#p/napstablook}* 即使你的表現不是最好的，\n  我也能看出你已經盡力了",
+                            "<32>* 更何況，你堅持到了最後...",
+                            "<32>* 不像我......"
                          ])
                  ]
                : world.killed0
@@ -6070,7 +6070,7 @@ export default {
       ],
       act_flirt3: [
          "<32>{#p/human}* （你鼓起勇氣，邀請瑪菲特\n  一同去野餐。）",
-         "<32>{#p/basic}* 瑪菲特咯咯笑了幾下...",
+         "<32>{#p/basic}* 瑪菲特嚕嚕笑了幾下...",
          "<32>* 然後又笑了幾聲...",
          "<32>* 她已經無法控制自己的情感了！\n* 瑪菲特向你完美的調情能力屈服！",
          "<32>* ... 然後立即決定結束戰鬥，\n  以免讓她的蜘蛛同伴們蒙羞。",
@@ -7799,7 +7799,7 @@ export default {
             : [
                  "<30>{#p/basic}{#k/2}* 哈！\n* 我是賣廢品的，\n  不是收廢品的！",
                  "<30>{#k/3}* 不過，如果你想賣點東西，\n  我有個好主意，\n  去提米商店那裡看看吧。",
-                 "<30>{#k/0}* 它們住在哪裡來著...",
+                 "<30>{#k/0}* 你問它在哪？",
                  "<30>{#k/4}* ...",
                  "<30>{#k/0}* 想不起來了。"
               ],
@@ -8135,9 +8135,9 @@ export default {
                                   "<32>{#k/0}* You've really made a good impression on her, kiddo!"
                                ]
                              : [
-                                  "<32>{#p/basic}{#k/4}* So are you and her... friends now?",
+                                  "<32>{#p/basic}{#k/4}* 所以你們現在...\n  是朋友了？",
                                   "<32>{#k/2}* Wa ha ha!",
-                                  "<32>{#k/0}* You've done something I never thought possible, kiddo!"
+                                  "<32>{#k/0}* 你做了我從沒想過的事，\n  孩子！"
                                ]
                           : [
                                [

@@ -385,7 +385,7 @@ export default {
       candy5: [ "<32>{#p/human}* （你決定先不買。）" ],
       capstation1: [
          "<32>{#p/human}* （你看了眼崗哨後面，\n  發現了一把鑰匙。）",
-         "* （你把生鏽的鑰匙\n  掛到了鑰匙串上。）",
+         "<32>{#s/equip}{#p/human}* （你把生鏽的鑰匙\n  掛到了鑰匙串上。）",
          "<32>* （打開「手機」來查看\n  所有獲得的鑰匙。）"
       ],
       capstation2: [ "<32>{#p/human}* （你看了眼崗哨後面。）", "<32>{#p/basic}* 沒有新東西。" ],
@@ -2370,7 +2370,7 @@ export default {
                             [
                                "<32>* （實際上...）",
                                "<32>* （給你，孩子。）\n* （我們手裡，有個鑰匙。）",
-                               "* （你把生鏽的鑰匙\n  掛到了鑰匙串上。）",
+                               "<32>{#s/equip}{#p/human}* （你把生鏽的鑰匙\n  掛到了鑰匙串上。）",
                                "<32>* （打開「手機」來查看\n  所有獲得的鑰匙。）",
                                "<32>{#p/basic}{#npc/a}* （我想，呃，我們應該\n  在什麼地方有個兵工廠。）"
                             ])),
@@ -2472,7 +2472,7 @@ export default {
                        SAVE.data.n.state_starton_papyrus !== 1
                           ? [
                                "<18>{#p/papyrus}{#f/0}謝謝你你能來\n檢查我的郵件！",
-                               "<18>{#p/papyrus}{#f/4}謝天謝地，\n我已經全部都\n整理好了。"
+                               "<18>{#p/papyrus}{#f/4}謝天謝地，\n我已經全都整理好了。"
                             ]
                           : [])
                     ],
@@ -2650,7 +2650,7 @@ export default {
                ? "BREAKING:\n..\n..\n..\n..\n.. WE ALL NEED\nTO LEAVE."
                : SAVE.data.n.plot === 72
                ? "BREAKING:\nWE CAN LEAVE.\nLIKE..\nFOR REAL.\nSOURCE:\nLOOK OUTSIDE,\nPEOPLE!"
-               : "BREAKING:\nMEW MEW STAR-\nFIRE IS..\nSUPER BAD.\nSOURCE:\nLIKE, IT'S\nJUST TRUE?"
+               : "突發新聞：\n《喵喵星火》\n評分..\n一塌糊塗。\n新聞來源：\n就，這是\n真的嗎？"
       },
       papcomputer4: [
          () =>
@@ -2705,7 +2705,7 @@ export default {
                : {
                     a: "懶骨.",
                     b: "今天",
-                    c: "咱們快祈禱他別把\n我們的靈~魂也抓走咯~\n*手槍biubiu*",
+                    c: "咱們快祈禱他別把\n我們的靈~魂也抓走嚕~\n*手槍ㄅㄤㄅㄤ*",
                     d: true
                  },
          () =>
@@ -2756,7 +2756,7 @@ export default {
                ? {
                     a: "_Sp4ceAdv3ntur3r_",
                     b: "今天",
-                    c: "< Username Update >\nWas: _K1ll3rMann3qu1n_\nNow: _Sp4ceAdv3ntur3r_"
+                    c: "< 使用者名稱更新 >\n原名：_摋掱亾耦_\n現在：_舟亢忝洐_"
                  }
                : SAVE.data.n.plot < 34
                ? {
@@ -3723,9 +3723,9 @@ export default {
                  "<18>{#p/papyrus}{#f/6}其實，\n剛才我有點害怕...",
                  "<18>{#p/papyrus}{#f/0}不過沒關係！\n你已經重回正軌啦！",
                  "<18>{#p/papyrus}{#f/8}我為你驕傲，人類！",
-                 "<18>{#p/papyrus}{#f/4}...等等，我是不是該抓你來著？",
-                 "<18>{#p/papyrus}{#f/0}嗨，\n隨它去吧。",
-                 "<18>{#p/papyrus}{#f/0}只要你能成為\n最棒的自己，\n我就滿足啦。",
+                 "<18>{#p/papyrus}{#f/4}...等等，我是不是\n該抓你來著？",
+                 "<18>{#p/papyrus}{#f/0}嗨，隨它去吧。",
+                 "<18>{#p/papyrus}{#f/0}只要你能成為最棒的自己，\n我就滿足啦。",
                  "<18>{#p/papyrus}{#f/5}過去的事，\n就讓它成為{@fill=#ff0}骨{@fill=#fff}事吧，\n好嗎？",
                  "<18>{#p/papyrus}{#f/9}我還要告訴你\n怎麼離開這裡！"
               ]
@@ -3785,14 +3785,14 @@ export default {
       ],
       papyrusFinal4c2: [
          "<18>繼續前進。",
-         "<18>等你到首塔的時候，\n跳進一艘飛船，\n穿過{@fill=#ff0}力場{@fill=#fff}。",
+         "<18>等你到首塔的時候，\n跳進一艘飛船，穿過{@fill=#ff0}力場{@fill=#fff}。",
          "<18>{#f/4}那就是把我們\n困在前哨站的東西。",
-         "<18>力場誰都進得來，\n但出不去...",
+         "<18>力場誰都進得來，\n但都出不去...",
          "<18>{#f/9}...除非，那個人擁有\n強大的靈魂。",
          "<18>{#f/0}就比如你！！！"
       ],
       papyrusFinal4d: [
-         "<18>{#f/4}喔，我差點\n忘記說了。",
+         "<18>{#f/4}喔，我差點忘了說...",
          "<18>你要到達出口，\n就必須要通過...",
          "<18>{#f/7}{@fill=#ff0}國王{@fill=#fff}那關。",
          "<18>{@fill=#ff0}所有怪物的王...",
@@ -4487,7 +4487,7 @@ export default {
                        ...(dateready() && SAVE.data.n.state_starton_papyrus === 0
                           ? [
                                "<18>{#p/papyrus}一幅經典的繪畫。",
-                               "<18>它總能讓我想起\n我人生中最\n重要的東西。"
+                               "<18>它總能讓我想起\n我人生中最重要的東西。"
                             ]
                           : []),
                        "<32>{#p/basic}* 這是一幅極簡主義的\n  卡通骨頭畫。"
@@ -4510,10 +4510,10 @@ export default {
                     "<32>{#p/without}* 「好的。」",
                     "<23>{#p/papyrusnt}「你就挪了兩微米！」\n「把它拿回你的房間！」",
                     "<32>{#p/without}* 「好的。」",
-                    "<23>{#p/papyrusnt}「不要再把它\n拿回來了！」",
+                    "<23>{#p/papyrusnt}「不要再把它拿回來了！」",
                     "<32>{#p/without}* 「好的。」",
                     "<23>{#p/papyrusnt}「它還在這！」",
-                    "<32>{#p/without}* 「你剛才不是說\n   不要把它拿回\n   我的房間嗎？」",
+                    "<32>{#p/without}* 「你剛才不是說，\n   不要把它拿回我的房間嗎？」",
                     "<23>{#p/papyrusnt}「算了！」"
                  ],
          s_paptrash: pager.create(
@@ -4591,7 +4591,7 @@ export default {
                             ]
                           : []),
                        "<32>{#p/basic}* 冰箱的一半都堆滿了\n  標有「義大利麵」的容器。",
-                       "<32>* 另一半瓶子裡只有\n  一瓶橙汁蘇打水。"
+                       "<32>* 另一半瓶子裡\n  只有一瓶橙汁汽水。"
                     ],
             () =>
                SAVE.data.b.svr

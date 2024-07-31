@@ -11,7 +11,7 @@ const latin2cjk =
 
 
 
-export const LANGUAGE = "zh_CN-alt";
+export const LANGUAGE = "zh_CN";
 
 export default {
    cellInventoryX: 9,

@@ -1151,16 +1151,19 @@ msgid "<32>* i wonder if i'll ever get to do it again"
 msgstr ""
 
 msgid "<32>{#p/napstablook}* dang, you sure get around"
-msgstr ""
+msgstr "<32>{#p/napstablook}* 天，你真的跑来跑去的"
 
 msgid "<32>* i mean..."
-msgstr ""
+msgstr "<32>* 我是说..."
 
 msgid "<32>* i guess i do too..."
-msgstr ""
+msgstr "<32>* 其实我也是..."
 
 msgid "<32>* but, i'm kind of incorporeal, so it's not that impressive for me"
 msgstr ""
+"<32>* 但是，我是没有实体的，\n"
+"  所以对我来说不算\n"
+"  那么令人印象深刻"
 
 msgid "<32>{#p/napstablook}* welcome to blook family snail farm..."
 msgstr ""
@@ -1222,36 +1225,48 @@ msgstr ""
 msgid ""
 "<32>{#p/napstablook}* oh yeah, i saw you on that talent show earlier..."
 msgstr ""
+"<32>{#p/napstablook}* 哦对了，我早些时候\n"
+"  看到你在达人秀上了..."
 
 msgid ""
 "<32>{#p/napstablook}* that was quite a performance... you didn't even mess "
 "up once"
 msgstr ""
+"<32>{#p/napstablook}* 真的太精彩了...\n"
+"  你一次都没搞砸"
 
 msgid "<32>* i don't think i've ever someone do that before......"
 msgstr ""
+"<32>* 我觉得你应该是\n"
+"  开天辟地第一个......"
 
 msgid ""
 "<32>{#p/napstablook}* even if your performance wasn't perfect, you did "
 "pretty good"
 msgstr ""
+"<32>{#p/napstablook}* 即使你的表现不算完美，\n"
+"  你也做得很好"
 
 msgid "<32>* most of mettaton's contestants don't even make it halfway..."
 msgstr ""
+"<32>* mettaton的大多数参赛者\n"
+"  甚至都没坚持到一半..."
 
 msgid "<32>* including me......"
-msgstr ""
+msgstr "<32>* 包括我......"
 
 msgid ""
 "<32>{#p/napstablook}* even if your performance wasn't the greatest, i could "
 "tell you were trying your best"
 msgstr ""
+"<32>{#p/napstablook}* 即使你的表现不是最好的，\n"
+"  我也能看出你已经尽力了"
 
 msgid "<32>* and besides, you made it to the end..."
-msgstr ""
+msgstr "<32>* 更何况，你坚持到了最后..."
 
 msgid "<32>* unlike me......"
-msgstr ""
+msgstr "<32>* 不像我......"
 
 msgid ""
 "<32>{#p/napstablook}* oh hey...\n"
@@ -17531,7 +17546,7 @@ msgstr ""
 "  去Temmie商店那里看看吧。"
 
 msgid "<30>{#k/0}* Where can you find them?"
-msgstr "<30>{#k/0}* 它们住在哪里来着..."
+msgstr "<30>{#k/0}* 你问它在哪？"
 
 msgid "<30>{#k/4}* ..."
 msgstr "<30>{#k/4}* ..."
@@ -18392,9 +18407,13 @@ msgstr ""
 
 msgid "<32>{#p/basic}{#k/4}* So are you and her... friends now?"
 msgstr ""
+"<32>{#p/basic}{#k/4}* 所以你们现在...\n"
+"  是朋友了？"
 
 msgid "<32>{#k/0}* You've done something I never thought possible, kiddo!"
 msgstr ""
+"<32>{#k/0}* 你做了我从没想过的事，\n"
+"  孩子！"
 
 msgid "<32>{#k/0}* Said she was proud to have fought an \"honorable\" human."
 msgstr ""

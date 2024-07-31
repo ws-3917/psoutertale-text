@@ -385,7 +385,7 @@ export default {
       candy5: [ "<32>{#p/human}* （你决定先不买。）" ],
       capstation1: [
          "<32>{#p/human}* （你看了眼岗哨后面，\n  发现了一把钥匙。）",
-         "* （你把生锈的钥匙\n  挂到了钥匙串上。）",
+         "<32>{#s/equip}{#p/human}* （你把生锈的钥匙\n  挂到了钥匙串上。）",
          "<32>* （打开“手机”来查看\n  所有获得的钥匙。）"
       ],
       capstation2: [ "<32>{#p/human}* （你看了眼岗哨后面。）", "<32>{#p/basic}* 没有新东西。" ],
@@ -2370,7 +2370,7 @@ export default {
                             [
                                "<32>* （实际上...）",
                                "<32>* （给你，孩子。）\n* （我们手里，有个钥匙。）",
-                               "* （你把生锈的钥匙\n  挂到了钥匙串上。）",
+                               "<32>{#s/equip}{#p/human}* （你把生锈的钥匙\n  挂到了钥匙串上。）",
                                "<32>* （打开“手机”来查看\n  所有获得的钥匙。）",
                                "<32>{#p/basic}{#npc/a}* （我想，呃，我们应该\n  在什么地方有个军火库。）"
                             ])),
@@ -2472,7 +2472,7 @@ export default {
                        SAVE.data.n.state_starton_papyrus !== 1
                           ? [
                                "<18>{#p/papyrus}{#f/0}谢谢你你能来\n检查我的邮件！",
-                               "<18>{#p/papyrus}{#f/4}谢天谢地，\n我已经全部都\n整理好了。"
+                               "<18>{#p/papyrus}{#f/4}谢天谢地，\n我已经全都整理好了。"
                             ]
                           : [])
                     ],
@@ -2650,7 +2650,7 @@ export default {
                ? "BREAKING:\n..\n..\n..\n..\n.. WE ALL NEED\nTO LEAVE."
                : SAVE.data.n.plot === 72
                ? "BREAKING:\nWE CAN LEAVE.\nLIKE..\nFOR REAL.\nSOURCE:\nLOOK OUTSIDE,\nPEOPLE!"
-               : "BREAKING:\nMEW MEW STAR-\nFIRE IS..\nSUPER BAD.\nSOURCE:\nLIKE, IT'S\nJUST TRUE?"
+               : "突发新闻：\n《喵喵星火》\n评分..\n一塌糊涂。\n新闻来源：\n就，这是\n真的吗？"
       },
       papcomputer4: [
          () =>
@@ -2756,7 +2756,7 @@ export default {
                ? {
                     a: "_Sp4ceAdv3ntur3r_",
                     b: "今天",
-                    c: "< Username Update >\nWas: _K1ll3rMann3qu1n_\nNow: _Sp4ceAdv3ntur3r_"
+                    c: "< 用户名更新 >\n原名：_摋掱亾耦_\n现在：_舟亢忝洐_"
                  }
                : SAVE.data.n.plot < 34
                ? {
@@ -3723,9 +3723,9 @@ export default {
                  "<18>{#p/papyrus}{#f/6}其实，\n刚才我有点害怕...",
                  "<18>{#p/papyrus}{#f/0}不过没关系！\n你已经重回正轨啦！",
                  "<18>{#p/papyrus}{#f/8}我为你骄傲，人类！",
-                 "<18>{#p/papyrus}{#f/4}...等等，我是不是该抓你来着？",
-                 "<18>{#p/papyrus}{#f/0}嗨，\n随它去吧。",
-                 "<18>{#p/papyrus}{#f/0}只要你能成为\n最棒的自己，\n我就满足啦。",
+                 "<18>{#p/papyrus}{#f/4}...等等，我是不是\n该抓你来着？",
+                 "<18>{#p/papyrus}{#f/0}嗨，随它去吧。",
+                 "<18>{#p/papyrus}{#f/0}只要你能成为最棒的自己，\n我就满足啦。",
                  "<18>{#p/papyrus}{#f/5}过去的事，\n就让它成为{@fill=#ff0}骨{@fill=#fff}事吧，\n好吗？",
                  "<18>{#p/papyrus}{#f/9}我还要告诉你\n怎么离开这里！"
               ]
@@ -3785,14 +3785,14 @@ export default {
       ],
       papyrusFinal4c2: [
          "<18>继续前进。",
-         "<18>等你到首塔的时候，\n跳进一艘飞船，\n穿过{@fill=#ff0}力场{@fill=#fff}。",
+         "<18>等你到首塔的时候，\n跳进一艘飞船，穿过{@fill=#ff0}力场{@fill=#fff}。",
          "<18>{#f/4}那就是把我们\n困在前哨站的东西。",
-         "<18>力场谁都进得来，\n但出不去...",
+         "<18>力场谁都进得来，\n但都出不去...",
          "<18>{#f/9}...除非，那个人拥有\n强大的灵魂。",
          "<18>{#f/0}就比如你！！！"
       ],
       papyrusFinal4d: [
-         "<18>{#f/4}哦，我差点\n忘记说了。",
+         "<18>{#f/4}哦，我差点忘了说...",
          "<18>你要到达出口，\n就必须要通过...",
          "<18>{#f/7}{@fill=#ff0}国王{@fill=#fff}那关。",
          "<18>{@fill=#ff0}所有怪物的王...",
@@ -4487,7 +4487,7 @@ export default {
                        ...(dateready() && SAVE.data.n.state_starton_papyrus === 0
                           ? [
                                "<18>{#p/papyrus}一幅经典的绘画。",
-                               "<18>它总能让我想起\n我人生中最\n重要的东西。"
+                               "<18>它总能让我想起\n我人生中最重要的东西。"
                             ]
                           : []),
                        "<32>{#p/basic}* 这是一幅极简主义的\n  卡通骨头画。"
@@ -4510,10 +4510,10 @@ export default {
                     "<32>{#p/without}* “好的。”",
                     "<23>{#p/papyrusnt}“你就挪了两微米！”\n“把它拿回你的房间！”",
                     "<32>{#p/without}* “好的。”",
-                    "<23>{#p/papyrusnt}“不要再把它\n拿回来了！”",
+                    "<23>{#p/papyrusnt}“不要再把它拿回来了！”",
                     "<32>{#p/without}* “好的。”",
                     "<23>{#p/papyrusnt}“它还在这！”",
-                    "<32>{#p/without}* “你刚才不是说\n   不要把它拿回\n   我的房间吗？”",
+                    "<32>{#p/without}* “你刚才不是说，\n   不要把它拿回我的房间吗？”",
                     "<23>{#p/papyrusnt}“算了！”"
                  ],
          s_paptrash: pager.create(
@@ -4591,7 +4591,7 @@ export default {
                             ]
                           : []),
                        "<32>{#p/basic}* 冰箱的一半都堆满了\n  标有“意大利面”的容器。",
-                       "<32>* 另一半瓶子里只有\n  一瓶橙汁苏打水。"
+                       "<32>* 另一半瓶子里\n  只有一瓶橙汁汽水。"
                     ],
             () =>
                SAVE.data.b.svr

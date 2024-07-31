@@ -513,10 +513,10 @@ export default {
                  ]
                : 49 <= SAVE.data.n.plot
                ? [
-                    "<32>{#p/napstablook}* dang, you sure get around",
-                    "<32>* i mean...",
-                    "<32>* i guess i do too...",
-                    "<32>* but, i'm kind of incorporeal, so it's not that impressive for me"
+                    "<32>{#p/napstablook}* 天，你真的跑来跑去的",
+                    "<32>* 我是说...",
+                    "<32>* 其实我也是...",
+                    "<32>* 但是，我是没有实体的，\n  所以对我来说不算\n  那么令人印象深刻"
                  ]
                : [
                     "<32>{#p/napstablook}* 欢迎来到幽灵家族的\n  蜗牛农场...",
@@ -549,22 +549,22 @@ export default {
                ? [ "<32>{#p/napstablook}* hopefully next time he's a little nicer to the contestants........." ]
                : 49 <= SAVE.data.n.plot
                ? [
-                    "<32>{#p/napstablook}* oh yeah, i saw you on that talent show earlier...",
+                    "<32>{#p/napstablook}* 哦对了，我早些时候\n  看到你在达人秀上了...",
                     ...(SAVE.data.n.state_aerialis_talentfails === 0
                        ? [
-                            "<32>{#p/napstablook}* that was quite a performance... you didn't even mess up once",
-                            "<32>* i don't think i've ever someone do that before......"
+                            "<32>{#p/napstablook}* 真的太精彩了...\n  你一次都没搞砸",
+                            "<32>* 我觉得你应该是\n  开天辟地第一个......"
                          ]
                        : SAVE.data.n.state_aerialis_talentfails < 15
                        ? [
-                            "<32>{#p/napstablook}* even if your performance wasn't perfect, you did pretty good",
-                            "<32>* most of mettaton's contestants don't even make it halfway...",
-                            "<32>* including me......"
+                            "<32>{#p/napstablook}* 即使你的表现不算完美，\n  你也做得很好",
+                            "<32>* 镁塔顿的大多数参赛者\n  甚至都没坚持到一半...",
+                            "<32>* 包括我......"
                          ]
                        : [
-                            "<32>{#p/napstablook}* even if your performance wasn't the greatest, i could tell you were trying your best",
-                            "<32>* and besides, you made it to the end...",
-                            "<32>* unlike me......"
+                            "<32>{#p/napstablook}* 即使你的表现不是最好的，\n  我也能看出你已经尽力了",
+                            "<32>* 更何况，你坚持到了最后...",
+                            "<32>* 不像我......"
                          ])
                  ]
                : world.killed0
@@ -7799,7 +7799,7 @@ export default {
             : [
                  "<30>{#p/basic}{#k/2}* 哈！\n* 我是卖废品的，\n  不是收废品的！",
                  "<30>{#k/3}* 不过，如果你想卖点东西，\n  我有个好主意，\n  去提米商店那里看看吧。",
-                 "<30>{#k/0}* 它们住在哪里来着...",
+                 "<30>{#k/0}* 你问它在哪？",
                  "<30>{#k/4}* ...",
                  "<30>{#k/0}* 想不起来了。"
               ],
@@ -8135,9 +8135,9 @@ export default {
                                   "<32>{#k/0}* You've really made a good impression on her, kiddo!"
                                ]
                              : [
-                                  "<32>{#p/basic}{#k/4}* So are you and her... friends now?",
+                                  "<32>{#p/basic}{#k/4}* 所以你们现在...\n  是朋友了？",
                                   "<32>{#k/2}* Wa ha ha!",
-                                  "<32>{#k/0}* You've done something I never thought possible, kiddo!"
+                                  "<32>{#k/0}* 你做了我从没想过的事，\n  孩子！"
                                ]
                           : [
                                [
