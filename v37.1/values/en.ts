@@ -196,23 +196,23 @@ export default {
 
    // END-TRANSLATE
    nameChoiceFonts: {
-      san: [ content.fComicSans, 16 ],
-      sans: [ content.fComicSans, 16 ],
-      papyrs: [ content.fPapyrus, 16 ],
-      papyru: [ content.fPapyrus, 16 ]
+      san: [content.fComicSans, 16],
+      sans: [content.fComicSans, 16],
+      papyrs: [content.fPapyrus, 16],
+      papyru: [content.fPapyrus, 16]
    } as Partial<CosmosKeyed<[CosmosFont, number]>>,
-   nameChoiceRestrictions: [ '', 'alphys', 'asgore', 'asriel', 'frisk', 'sans', 'toriel', 'twinkl', 'twinky', 'undyne' ],
+   nameChoiceRestrictions: ['', 'alphys', 'asgore', 'asriel', 'frisk', 'sans', 'toriel', 'twinkl', 'twinky', 'undyne'],
    namePromptX: 0,
    nameValueY: 0,
    nameLetterMap: [
-      [ 'A', 'B', 'C', 'D', 'E', 'F', 'G' ],
-      [ 'H', 'I', 'J', 'K', 'L', 'M', 'N' ],
-      [ 'O', 'P', 'Q', 'R', 'S', 'T', 'U' ],
-      [ 'V', 'W', 'X', 'Y', 'Z' ],
-      [ 'a', 'b', 'c', 'd', 'e', 'f', 'g' ],
-      [ 'h', 'i', 'j', 'k', 'l', 'm', 'n' ],
-      [ 'o', 'p', 'q', 'r', 's', 't', 'u' ],
-      [ 'v', 'w', 'x', 'y', 'z' ]
+      ['A', 'B', 'C', 'D', 'E', 'F', 'G'],
+      ['H', 'I', 'J', 'K', 'L', 'M', 'N'],
+      ['O', 'P', 'Q', 'R', 'S', 'T', 'U'],
+      ['V', 'W', 'X', 'Y', 'Z'],
+      ['a', 'b', 'c', 'd', 'e', 'f', 'g'],
+      ['h', 'i', 'j', 'k', 'l', 'm', 'n'],
+      ['o', 'p', 'q', 'r', 's', 't', 'u'],
+      ['v', 'w', 'x', 'y', 'z']
    ],
    nameLetterPosition: (index: number) => {
       // variables
@@ -243,7 +243,7 @@ export default {
    saveSaveX: 0,
    settingsHeaderX: 0,
    statBoxSizeX: 0,
-   textFormat (text: string, length = Infinity, plain = false) {
+   textFormat(text: string, length = Infinity, plain = false) {
       let output = '';
       const raw = CosmosTyper.strip(text);
       const indent = raw[0] === '*';
@@ -277,17 +277,17 @@ export default {
       return plain
          ? output
          : output
-              .replace(/-/g, '-{^2}')
-              .replace(/,([\n ])/g, ',{^3}$1')
-              .replace(/~([\n ])/g, '~{^4}$1')
-              .replace(/\n\*/g, '{^5}\n*')
-              .replace(/([.?!])([\n ])/g, '$1{^5}$2')
-              .replace(/:([\n ])/g, ':{^6}$1');
+            .replace(/-/g, '-{^2}')
+            .replace(/,([\n ])/g, ',{^3}$1')
+            .replace(/~([\n ])/g, '~{^4}$1')
+            .replace(/\n\*/g, '{^5}\n*')
+            .replace(/([.?!])([\n ])/g, '$1{^5}$2')
+            .replace(/:([\n ])/g, ':{^6}$1');
    },
-   textLength (text: string) {
+   textLength(text: string) {
       return text.length;
    },
-   textLengthPrecise (text: string) {
+   textLengthPrecise(text: string) {
       return text.length;
    }
 };

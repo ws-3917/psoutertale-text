@@ -317,10 +317,9 @@ export default {
       '安戴因'
    ],
    namePromptX: 16,
-   nameValueX: -6,
    nameValueY: 0,
    nameLetterMap: [],
-   nameLetterPosition: () => { },
+   nameLetterPosition: () => ({ x: 0, y: 0 }),
    nameLetterValidation: (char: string) => {
       return /[A-Za-z0-9]/g.test(char) || cjk.test(char);
    },
