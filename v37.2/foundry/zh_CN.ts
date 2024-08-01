@@ -6085,14 +6085,14 @@ export default {
       appeaseText: () =>
          world.dead_canine
             ? [
-                 "<33>{#p/human}* (You make an appeal to Muffet.)\n* (Muffet is once again intrigued by your words.)",
+                 "<33>{#p/human}* （你对Muffet提出异议。）\n* （Muffet再一次被你的话\n  所吸引。）",
                  "<32>* (You mention how Doge was forced to fight, and Undyne's lack of care is clear.)",
                  "<32>* (As such, you suggest that trusting Undyne would mean putting spider clans at risk.)",
                  "<32>{#p/basic}* Muffet starts considering the situation...",
                  "<32>{#p/story}* Muffet的攻速下降了！"
               ]
             : [
-                 "<33>{#p/human}* (You make an appeal to Muffet.)\n* (Muffet is once again intrigued by your words.)",
+                 "<33>{#p/human}* （你对Muffet提出异议。）\n* （Muffet再一次被你的话\n  所吸引。）",
                  "<32>* (You mention how Doge was mistreated, and Undyne's lack of care is clear.)",
                  "<32>* (As such, you suggest that trusting Undyne would mean putting spider clans at risk.)",
                  "<32>{#p/basic}* Muffet starts considering the situation...",
@@ -6109,7 +6109,7 @@ export default {
       appeaseTextPost: [ "<32>{#p/human}* (But Muffet didn't need to be appeased twice.)" ],
       appeaseTextSus: [ "<32>{#p/human}* (But Muffet had no reason to listen to you.)" ],
       counterText: [
-         "<32>{#p/human}* (You try to counter Muffet.)\n* (Muffet is intrigued by your words.)",
+         "<32>{#p/human}* （你尝试反驳Muffet。）\n* （Muffet被你的话所吸引。）",
          "<32>* (You propose that a deal with the ELITE squad is flimsy.)",
          "<32>* (You point out that one of their ranks already failed to capture you.)",
          "<32>{#p/basic}* Muffet begins to carefully think everything over...",
@@ -6159,7 +6159,7 @@ export default {
             ? world.genocide
                ? [ "<32>{#p/kidding}* But we haven't done anything!" ]
                : [ "<32>{#p/kidding}* I've got a bad feeling about this..." ]
-            : [ "<32>{#p/kidding}* So it's a business thing..." ],
+            : [ "<32>{#p/kidding}* 所以说，这存粹是生意了..." ],
       turnStatus3: () =>
          badSpider()
             ? [ "<32>{#p/kidding}* Yo...\n* She REALLY doesn't like you..." ]
@@ -6244,8 +6244,8 @@ export default {
                  "<11>{#p/basic}{~}Did you expect me to SPARE you?"
               ]
             : [
-                 "<11>{#p/basic}{~}Don't expect me to go easy on you, little human.",
-                 "<11>{#p/basic}{~}That ELITE squad offered lots of money for your SOUL~"
+                 "<11>{#p/basic}{~}别以为\n我会对你\n手下留情，\n渺小的\n人类。",
+                 "<11>{#p/basic}{~}那个特战队\n为了得到\n你的灵魂\n可是给了我\n很多钱的~"
               ],
       turnTalk3: () =>
          badSpider()

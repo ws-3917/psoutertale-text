@@ -10740,7 +10740,7 @@ msgstr "<23>{#p/papyrusnt}“它还在这！”"
 msgid "<32>{#p/without}* \"didn't you just say not to bring it back to my room?\""
 msgstr ""
 "<32>{#p/without}* “你刚才不是说，\n"
-"   不要把它拿回我的房间吗？”"
+"    不要把它拿回我的房间吗？”"
 
 msgid "<23>{#p/papyrusnt}\"FORGET IT!\""
 msgstr "<23>{#p/papyrusnt}“算了！”"
@@ -10863,6 +10863,8 @@ msgstr ""
 
 msgid "<32>{#p/basic}* You might even say I'm feeling... otherworldly."
 msgstr ""
+"<32>{#p/basic}* 你甚至可以说，\n"
+"  我感觉要... 羽化登仙了。"
 
 msgid ""
 "<32>{#p/basic}* ...\n"
@@ -19412,7 +19414,8 @@ msgstr ""
 
 msgid "<18>{#f/4}ITS \"MICRO\" WAVES ARE IN FACT... GRAVITATIONAL."
 msgstr ""
-"<18>{#f/4}它发出的“微”波... 实际上是\n"
+"<18>{#f/4}它发出的“微”波...\n"
+"实际上是\n"
 "“微”小的引力波。"
 
 msgid ""
