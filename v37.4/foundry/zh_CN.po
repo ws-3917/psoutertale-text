@@ -2632,7 +2632,9 @@ msgstr ""
 "  回溯了一次时间线..."
 
 msgid "<25>{#f/8}* Granted, she did put up a valiant stand..."
-msgstr "<25>{#f/8}* 敢和我们对着干，她的确很英勇..."
+msgstr ""
+"<25>{#f/8}* 敢和我们对着干，\n"
+"  她的确很英勇..."
 
 msgid "<25>{#f/7}* But in the end, we both knew what was destined to happen."
 msgstr ""
@@ -15868,7 +15870,7 @@ msgid "<32>{#p/asriel2}* Almost dead...!"
 msgstr ""
 
 msgid "<32>{#p/asriel2}* Come on...!"
-msgstr "<32>{#p/asriel2}* ...搞什么！"
+msgstr "<32>{#p/asriel2}* ...加把劲！"
 
 msgid "<20>{#p/asriel2}{#f/4}Your attacks aren't going to work, $(name)."
 msgstr ""

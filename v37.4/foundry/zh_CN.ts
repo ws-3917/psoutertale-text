@@ -1066,7 +1066,7 @@ export default {
                      ? "<25>{#f/8}* 她的确逼我们\n  回溯了几次时间线..."
                      : SAVE.flag.n.undying > 1
                      ? "<25>{#f/8}* 她的确逼我们\n  回溯了一次时间线..."
-                     : "<25>{#f/8}* 敢和我们对着干，她的确很英勇...",
+                     : "<25>{#f/8}* 敢和我们对着干，\n  她的确很英勇...",
                   "<25>{#f/7}* 不过嘛，你我都清楚，\n  她最终落得个什么下场。"
                ],
                [
@@ -7034,7 +7034,7 @@ export default {
       trueGenoStatus4: [ "<32>{#p/asriel2}* 她早晚会撑不住的。" ],
       trueGenoStatus5: [ "<32>{#p/asriel2}* 胜利终将属于我们。" ],
       trueGenoStatusLow1: [ "<32>{#p/asriel2}* Almost dead...!" ],
-      trueGenoStatusLow2: [ "<32>{#p/asriel2}* ...搞什么！" ],
+      trueGenoStatusLow2: [ "<32>{#p/asriel2}* ...加把劲！" ],
       asrielExplain: () => [
          ...(battler.volatile[0].vars.azzyAssist < 2
             ? [ "<20>{#p/asriel2}{#f/4}$(name)，\n你的攻击伤不到她。" ]
