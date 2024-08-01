@@ -408,7 +408,7 @@ export default {
             "§fill=#ff7§【文校】§fill=#fff§",
             "ws3917",
             "R.o.C.t.D./π/3.1415⑨",
-            "晓晓_Akatsuki（前文校）"
+            "晓晓_Akatsuki"
         ],
         [
             "§fill=#ff0§< 汉化组成员 >§fill=#fff§",
@@ -420,7 +420,6 @@ export default {
             "mustad（边框Mod）",
             "§fill=#ff7§【精神支持&推广】§fill=#fff§",
             "幻-_-风",
-            "Murder--Sans_MDR",
             "AX暗星233",
             "屑moons月亮君"
         ],

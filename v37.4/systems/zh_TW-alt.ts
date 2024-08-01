@@ -353,7 +353,7 @@ export default {
             "§fill=#ff0§< 遊戲測試 >§fill=#fff§",
             "superkippy",
             "Teecup",
-            "提咪 in a Cowboy Hat",
+            "Tem in a Cowboy Hat",
             "Tenbrooks",
             "ThatGuyWhoLikesFood",
             "The Fallen Angel",
@@ -408,7 +408,7 @@ export default {
             "§fill=#ff7§【文校】§fill=#fff§",
             "ws3917",
             "R.o.C.t.D./π/3.1415⑨",
-            "曉曉_Akatsuki（前文校）"
+            "曉曉_Akatsuki"
         ],
         [
             "§fill=#ff0§< 漢化組成員 >§fill=#fff§",
@@ -420,7 +420,6 @@ export default {
             "mustad（邊框Mod）",
             "§fill=#ff7§【精神支援&推廣】§fill=#fff§",
             "幻-_-風",
-            "Murder--Sans_MDR",
             "AX暗星233",
             "屑moons月亮君"
         ],
