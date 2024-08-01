@@ -14113,7 +14113,7 @@ msgstr ""
 
 msgid "<11>{#p/basic}{~}You're mine now, dearies~"
 msgstr ""
-"<11>{#p/basic}{~}小寶貝們，\n"
+"<11>{#p/basic}{~}小可愛們，\n"
 "你們現在\n"
 "是我的了~"
 
@@ -14131,7 +14131,7 @@ msgstr ""
 msgid "<11>{#p/basic}{~}Don't you, dearie?"
 msgstr ""
 "<11>{#p/basic}{~}不是嗎，\n"
-"小寶貝們？"
+"小可愛們？"
 
 msgid "<11>{#p/basic}{~}What did you think would happen, dearies?"
 msgstr ""

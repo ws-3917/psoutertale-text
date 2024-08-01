@@ -12866,9 +12866,13 @@ msgstr ""
 
 msgid "<32>{#p/story}* Monster Kid tried asking Muffet about spider clans."
 msgstr ""
+"<32>{#p/story}* 怪物小孩尝试向Muffet询问\n"
+"  关于蜘蛛部落的事。"
 
 msgid "<32>{#p/story}* Monster Kid tried asking Muffet about bakeries."
 msgstr ""
+"<32>{#p/story}* 怪物小孩尝试向Muffet询问\n"
+"  关于点心店的事。"
 
 msgid "<32>{#p/story}* Monster Kid tried asking Muffet about tea."
 msgstr ""

@@ -5567,8 +5567,8 @@ export default {
          opponent === 'muffet' // NO-TRANSLATE
 
             ? [
-                 [ "<32>{#p/story}* Monster Kid tried asking Muffet about spider clans." ],
-                 [ "<32>{#p/story}* Monster Kid tried asking Muffet about bakeries." ],
+                 [ "<32>{#p/story}* 怪物小孩嘗試向瑪菲特詢問\n  關於蜘蛛部落的事。" ],
+                 [ "<32>{#p/story}* 怪物小孩嘗試向瑪菲特詢問\n  關於點心店的事。" ],
                  [ "<32>{#p/story}* Monster Kid tried asking Muffet about tea." ]
               ]
             : opponent === 'shyren' // NO-TRANSLATE
