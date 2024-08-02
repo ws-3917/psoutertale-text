@@ -937,7 +937,7 @@ export default {
       settings4: "SE",
       settings5: "BGM",
       settings6: "こうがしつ",
-      settings7: "FLASHING IMAGERY",
+      settings7: "てんめつ",
       settings7a: "ノーマル",
       settings7b: "REDUCED",
       settings8: "TOUCH CONTROLS",
@@ -945,7 +945,7 @@ export default {
       settings8b: "RIGHT",
       settings8c: "HIDDEN",
       settings9: "DEADZONE",
-      settings10: "OPEN MOD FOLDER",
+      settings10: "Modフォルダをひらく",
       settings11: "RESTART",
 
       sidebar1: "ITEM",
@@ -979,7 +979,7 @@ export default {
       stat12: "STATUS",
       stat13: "\"$(x)\"",
 
-      story1: [ "<12>{#p/storyteller}むかしむかし　たいようけいには　ニンゲンと　モンスターという　2つのしゅぞくが　いました。{^35}{}" ],
+      story1: [ "<18>{#p/storyteller}むかしむかし　たいようけいには　ニンゲンと　モンスターという　2つのしゅぞくが　いました。{^35}{}" ],
       story2: [ "<24>As time passed, a war broke out between the two species.{^35}{}" ],
       story3: [ "<24>After the MONSTERS' home planet was destroyed, HUMANS declared victory.{^35}{}" ],
       story4: [ "<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}" ],
