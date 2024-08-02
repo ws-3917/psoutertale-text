@@ -9,30 +9,32 @@ msgid "(You're filled with determination.)"
 msgstr "(ケツイが　みなぎった)"
 
 msgid "You cannot give up just yet..."
-msgstr ""
+msgstr "あきらめては　いけない…"
 
 msgid ""
 "$(name)!\n"
 "Stay determined..."
 msgstr ""
+"$(name)！\n"
+"ケツイを　ちからに　かえるんだ！"
 
 msgid "Our fate rests upon you..."
-msgstr ""
+msgstr "われわれの　うんめいが  かかっている…"
 
 msgid "You're going to be alright!"
-msgstr ""
+msgstr "しっかりしろ！"
 
 msgid "Don't lose hope!"
 msgstr "きぼうを　すてるな！"
 
 msgid "It cannot end now!"
-msgstr ""
+msgstr "あきらめては　ダメだ！"
 
 msgid "    * Escaped..."
-msgstr ""
+msgstr "    ＊ バトルからにげた…"
 
 msgid "    * I'm outta here."
-msgstr ""
+msgstr "    ＊ さようなら。"
 
 msgid "    * I've got better to do."
 msgstr ""
@@ -44,26 +46,33 @@ msgid ""
 "    * Ran away with $(x) EXP\n"
 "      and $(y)G."
 msgstr ""
+"    ＊ バトルからにげた。\n"
+"       $(x)EXPと$(y)ゴールドを　てにいれた。"
 
 msgid "* Assist"
 msgstr ""
 
 msgid "* Flee"
-msgstr ""
+msgstr "＊ にげる"
 
 msgid "* Spare"
-msgstr ""
+msgstr "＊ にがす"
 
 msgid ""
 "<32>{#p/story}* YOU WON!\n"
 "* You earned $(x) EXP and $(y)G."
 msgstr ""
+"<16>{#p/story}＊ YOU WIN！\n"
+"＊ $(x)EXPと$(y)ゴールドを　かくとく。"
 
 msgid ""
 "<32>{#p/story}* YOU WON!\n"
 "* You earned $(x) EXP and $(y)G.\n"
 "* Your LOVE increased."
 msgstr ""
+"<16>{#p/story}＊ YOU WIN！\n"
+"＊ $(x)EXPと$(y)ゴールドを　かくとく。\n"
+"＊ LOVEが　あがった。"
 
 msgid "ERROR"
 msgstr ""
@@ -86,7 +95,7 @@ msgid "GENERAL"
 msgstr ""
 
 msgid "BATTLE"
-msgstr ""
+msgstr "バトル"
 
 msgid "FixMusic"
 msgstr ""
@@ -110,7 +119,7 @@ msgid "Noclip"
 msgstr ""
 
 msgid "Save"
-msgstr ""
+msgstr "セーブ"
 
 msgid "SkipText"
 msgstr ""
@@ -137,19 +146,19 @@ msgid "CanFlee"
 msgstr ""
 
 msgid "InfiniteHP"
-msgstr ""
+msgstr "むげんHP"
 
 msgid "PacifyAll"
 msgstr ""
 
 msgid "Suicide"
-msgstr ""
+msgstr "じさつ"
 
 msgid "WeakenAll"
 msgstr ""
 
 msgid "$(x) FPS"
-msgstr ""
+msgstr "$(x) FPS"
 
 msgid "Halt"
 msgstr ""
@@ -158,10 +167,10 @@ msgid "GAME SPEED"
 msgstr ""
 
 msgid "$(x)x"
-msgstr ""
+msgstr "$(x)ばいそく"
 
 msgid "More"
-msgstr ""
+msgstr "かそく"
 
 msgid "Less"
 msgstr ""
@@ -185,10 +194,10 @@ msgid "Start"
 msgstr ""
 
 msgid "ARMOR"
-msgstr ""
+msgstr "アーマー"
 
 msgid "WEAPON"
-msgstr ""
+msgstr "ぶき"
 
 msgid "INSPECT"
 msgstr ""
@@ -212,13 +221,13 @@ msgid "Above"
 msgstr ""
 
 msgid "Menu"
-msgstr ""
+msgstr "メニュー"
 
 msgid "Hitbox"
 msgstr ""
 
 msgid "Sprite"
-msgstr ""
+msgstr "イラスト"
 
 msgid "Text"
 msgstr ""
@@ -594,7 +603,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-02 09:04+0000\n"
-"PO-Revision-Date: 2024-08-02 09:10+0000\n"
+"PO-Revision-Date: 2024-08-02 10:11+0000\n"
 "Last-Translator: Xiao Akatsuki <1321810592@qq.com>\n"
 "Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/0-systems/ja/>\n"
 "Language: ja_JP\n"
@@ -2002,16 +2011,16 @@ msgid "DROP"
 msgstr ""
 
 msgid "Continue"
-msgstr ""
+msgstr "コンティニュー"
 
 msgid "Observe"
 msgstr ""
 
 msgid "Reset"
-msgstr ""
+msgstr "リセット"
 
 msgid "True Reset"
-msgstr ""
+msgstr "本当のリセット"
 
 msgid "Name the stranded human."
 msgstr ""
@@ -2062,7 +2071,7 @@ msgid "NORMAL"
 msgstr "ノーマル"
 
 msgid "REDUCED"
-msgstr ""
+msgstr "低"
 
 msgid "TOUCH CONTROLS"
 msgstr ""
@@ -2077,7 +2086,7 @@ msgid "HIDDEN"
 msgstr ""
 
 msgid "DEADZONE"
-msgstr ""
+msgstr "デッドゾーン"
 
 msgid "OPEN MOD FOLDER"
 msgstr "Modフォルダをひらく"
@@ -2146,15 +2155,17 @@ msgid ""
 "<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and"
 " MONSTERS.{^35}{}"
 msgstr ""
-"<18>{#p/storyteller}むかしむかし　たいようけいには　ニンゲンと　モンスターという　2つのしゅぞくが　いました。{^35}{}"
+"<16>{#p/storyteller}むかしむかし　たいようけいには　ニンゲンと　モンスターという　2つのしゅぞくが　いました。{^35}{}"
 
 msgid "<24>As time passed, a war broke out between the two species.{^35}{}"
-msgstr ""
+msgstr "<16>ときが　たつにつれ　2つのしゅぞくの　あいだに　せんそうが　おきました。{^35}{}"
 
 msgid ""
 "<24>After the MONSTERS' home planet was destroyed, HUMANS declared "
 "victory.{^35}{}"
 msgstr ""
+"<24>After the MONSTERS' home planet was destroyed, HUMANS declared "
+"victory.{^35}{}"
 
 msgid ""
 "<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}"

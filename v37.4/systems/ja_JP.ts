@@ -3,24 +3,24 @@
 export default {
    battle: {
       death0: [ "(You take a deep breath.)", "(ケツイが　みなぎった)" ],
-      death1: [ "You cannot give up just yet...", "$(name)!\nStay determined..." ],
-      death2: [ "Our fate rests upon you...", "$(name)!\nStay determined..." ],
-      death3: [ "You're going to be alright!", "$(name)!\nStay determined..." ],
-      death4: [ "きぼうを　すてるな！", "$(name)!\nStay determined..." ],
-      death5: [ "It cannot end now!", "$(name)!\nStay determined..." ],
+      death1: [ "あきらめては　いけない…", "$(name)！\nケツイを　ちからに　かえるんだ！" ],
+      death2: [ "われわれの　うんめいが  かかっている…", "$(name)！\nケツイを　ちからに　かえるんだ！" ],
+      death3: [ "しっかりしろ！", "$(name)！\nケツイを　ちからに　かえるんだ！" ],
+      death4: [ "きぼうを　すてるな！", "$(name)！\nケツイを　ちからに　かえるんだ！" ],
+      death5: [ "あきらめては　ダメだ！", "$(name)！\nケツイを　ちからに　かえるんだ！" ],
 
-      flee1: "    * Escaped...",
-      flee2: "    * I'm outta here.",
+      flee1: "    ＊ バトルからにげた…",
+      flee2: "    ＊ さようなら。",
       flee3: "    * I've got better to do.",
       flee4: "    * Don't slow me down.",
-      flee5: "    * Ran away with $(x) EXP\n      and $(y)G.",
+      flee5: "    ＊ バトルからにげた。\n       $(x)EXPと$(y)ゴールドを　てにいれた。",
 
       mercy_assist: "* Assist",
-      mercy_flee: "* Flee",
-      mercy_spare: "* Spare",
+      mercy_flee: "＊ にげる",
+      mercy_spare: "＊ にがす",
 
-      victory1: "<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.",
-      victory2: "<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.\n* Your LOVE increased."
+      victory1: "<16>{#p/story}＊ YOU WIN！\n＊ $(x)EXPと$(y)ゴールドを　かくとく。",
+      victory2: "<16>{#p/story}＊ YOU WIN！\n＊ $(x)EXPと$(y)ゴールドを　かくとく。\n＊ LOVEが　あがった。"
    },
 
    developer: {
@@ -34,7 +34,7 @@ export default {
       },
       control: {
          tab: "CONTROL",
-         headers: [ "GENERAL", "BATTLE" ],
+         headers: [ "GENERAL", "バトル" ],
          items: [
             [
                "FixMusic",
@@ -44,7 +44,7 @@ export default {
                "Input",
                "Movement",
                "Noclip",
-               "Save",
+               "セーブ",
                "SkipText",
                "Freecam"
             ],
@@ -55,9 +55,9 @@ export default {
                "ResetBox",
                "ResetMenu",
                "CanFlee",
-               "InfiniteHP",
+               "むげんHP",
                "PacifyAll",
-               "Suicide",
+               "じさつ",
                "WeakenAll"
             ]
          ],
@@ -65,8 +65,8 @@ export default {
             fps: "$(x) FPS",
             halt: "Halt",
             header: "GAME SPEED",
-            multiplier: "$(x)x",
-            next: "More",
+            multiplier: "$(x)ばいそく",
+            next: "かそく",
             prev: "Less",
             sec: "$(x)s/frame"
          }
@@ -82,18 +82,18 @@ export default {
             action: "Start"
          },
          p_armor: {
-            header: "ARMOR"
+            header: "アーマー"
          },
          p_weapon: {
-            header: "WEAPON"
+            header: "ぶき"
          }
       },
       inspect: {
          tab: "INSPECT",
          headers: [ "LAYERS", "TYPES" ],
          switches: [
-            [ "Base", "Below", "Main", "Above", "Menu" ],
-            [ "Hitbox", "Sprite", "Text" ]
+            [ "Base", "Below", "Main", "Above", "メニュー" ],
+            [ "Hitbox", "イラスト", "Text" ]
          ],
          p_explorer: {
             header: "EXPLORER",
@@ -217,7 +217,7 @@ export default {
       dialog_clear_title: "Clear File",
       dialog_notice_title: "Notice",
       dialog_open: { buttonLabel: "Open", name: "SAVE files", title: "Open File" },
-      dialog_save: { buttonLabel: "Save", name: "SAVE files", title: "Save File" },
+      dialog_save: { buttonLabel: "セーブ", name: "SAVE files", title: "Save File" },
       error_load: "That file could not be parsed.",
       message_alert: [ "OK" ],
       message_confirm: [ "Cancel", "OK" ],
@@ -915,10 +915,10 @@ export default {
       item3: "INFO",
       item4: "DROP",
 
-      load1: "Continue",
+      load1: "コンティニュー",
       load2: "Observe",
-      load3: "Reset",
-      load4: "True Reset",
+      load3: "リセット",
+      load4: "本当のリセット",
 
       name1: "Name the stranded human.",
       name2: "Quit",
@@ -926,7 +926,7 @@ export default {
       name4: "Done",
       name5: "§fill=#808080§ [ESC] - Quit / [ENTER] - Done",
 
-      save1: "Save",
+      save1: "セーブ",
       save2: "Return",
       save3: "File saved.",
 
@@ -939,12 +939,12 @@ export default {
       settings6: "こうがしつ",
       settings7: "てんめつ",
       settings7a: "ノーマル",
-      settings7b: "REDUCED",
+      settings7b: "低",
       settings8: "TOUCH CONTROLS",
       settings8a: "LEFT",
       settings8b: "RIGHT",
       settings8c: "HIDDEN",
-      settings9: "DEADZONE",
+      settings9: "デッドゾーン",
       settings10: "Modフォルダをひらく",
       settings11: "RESTART",
 
@@ -967,8 +967,8 @@ export default {
 
       stat1: "AT",
       stat2: "DF",
-      stat3: "WEAPON",
-      stat4: "ARMOR",
+      stat3: "ぶき",
+      stat4: "アーマー",
       stat5: "GOLD",
       stat6: "EXP",
       stat7: "NEXT",
@@ -979,8 +979,8 @@ export default {
       stat12: "STATUS",
       stat13: "\"$(x)\"",
 
-      story1: [ "<18>{#p/storyteller}むかしむかし　たいようけいには　ニンゲンと　モンスターという　2つのしゅぞくが　いました。{^35}{}" ],
-      story2: [ "<24>As time passed, a war broke out between the two species.{^35}{}" ],
+      story1: [ "<16>{#p/storyteller}むかしむかし　たいようけいには　ニンゲンと　モンスターという　2つのしゅぞくが　いました。{^35}{}" ],
+      story2: [ "<16>ときが　たつにつれ　2つのしゅぞくの　あいだに　せんそうが　おきました。{^35}{}" ],
       story3: [ "<24>After the MONSTERS' home planet was destroyed, HUMANS declared victory.{^35}{}" ],
       story4: [ "<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}" ],
       story5: [ "<24>A powerful force field was erected, and the MONSTERS were sealed in.{^35}{}" ],

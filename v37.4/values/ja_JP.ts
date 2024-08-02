@@ -268,10 +268,10 @@ export default {
                      const lines = output.split('\n');
                      const ender = lines[lines.length - 1];
                      if (CosmosTyper.strip(ender).length > length) {
-                        const words = ender.split(/[ 　]/); // 同时匹配半角空格和全角空格
+                        const words = ender.split(/[ 　]/);
                         output = `${lines.slice(0, -1).join('\n')}${lines.length > 1 ? '\n' : ''}${words
                            .slice(0, -1)
-                           .join(' ')}${indent ? '\n  ' : ' '}${words[words.length - 1]}`;
+                           .join(' ')}\n${indent ? '  ' : ''}${words[words.length - 1]}`;
                      }
                   }
             }
