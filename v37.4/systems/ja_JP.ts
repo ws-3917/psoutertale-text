@@ -2,11 +2,11 @@
 
 export default {
    battle: {
-      death0: [ "(You take a deep breath.)", "(You're filled with determination.)" ],
+      death0: [ "(You take a deep breath.)", "(ケツイが　みなぎった)" ],
       death1: [ "You cannot give up just yet...", "$(name)!\nStay determined..." ],
       death2: [ "Our fate rests upon you...", "$(name)!\nStay determined..." ],
       death3: [ "You're going to be alright!", "$(name)!\nStay determined..." ],
-      death4: [ "Don't lose hope!", "$(name)!\nStay determined..." ],
+      death4: [ "きぼうを　すてるな！", "$(name)!\nStay determined..." ],
       death5: [ "It cannot end now!", "$(name)!\nStay determined..." ],
 
       flee1: "    * Escaped...",
@@ -145,7 +145,7 @@ export default {
             layers: "Layers",
             left: "Left",
             metadata: "Metadata",
-            music: "Music",
+            music: "BGM",
             namespace: "Namespace",
             none1: "NONE",
             none2: "none",
@@ -888,7 +888,7 @@ export default {
       nominal: "§fill=#0f0§NOMINAL",
       percent: "$(x)%",
       player: "player",
-      settings: "Settings",
+      settings: "せってい",
       unknown: "?",
       xm: "XM",
       yes: "Yes"
@@ -901,7 +901,7 @@ export default {
 
       confirm1: "Is this name correct?",
       confirm2: "A name has already\nbeen chosen.",
-      confirm3: "Go back",
+      confirm3: "もどる",
 
       footer: "OUTERTALE V5.00 (c) 2024 SPACEY_432",
 
@@ -931,12 +931,12 @@ export default {
       save3: "File saved.",
 
       settings1: "SETTINGS",
-      settings2: "EXIT",
+      settings2: "もどる",
       settings3: "LANGUAGE",
-      settings3a: "ENGLISH",
-      settings4: "SOUND FX",
-      settings5: "MUSIC",
-      settings6: "FANCY GRAPHICS",
+      settings3a: "にほんご",
+      settings4: "SE",
+      settings5: "BGM",
+      settings6: "こうがしつ",
       settings7: "FLASHING IMAGERY",
       settings7a: "NORMAL",
       settings7b: "REDUCED",
@@ -979,7 +979,7 @@ export default {
       stat12: "STATUS",
       stat13: "\"$(x)\"",
 
-      story1: [ "<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and MONSTERS.{^35}{}" ],
+      story1: [ "<12>{#p/storyteller}むかしむかし　たいようけいには　ニンゲンと　モンスターという　2つのしゅぞくが　いました。{^35}{}" ],
       story2: [ "<24>As time passed, a war broke out between the two species.{^35}{}" ],
       story3: [ "<24>After the MONSTERS' home planet was destroyed, HUMANS declared victory.{^35}{}" ],
       story4: [ "<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}" ],

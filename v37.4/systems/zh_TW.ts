@@ -980,7 +980,7 @@ export default {
       settings3a: "繁體中文(人名不譯)",
       settings4: "音效",
       settings5: "音樂",
-      settings6: "高品質貼圖",
+      settings6: "視覺特效",
       settings7: "閃爍畫面",
       settings7a: "預設",
       settings7b: "削減",

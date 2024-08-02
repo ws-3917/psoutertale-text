@@ -980,7 +980,7 @@ export default {
       settings3a: "简体中文(人名不译)",
       settings4: "音效",
       settings5: "音乐",
-      settings6: "高品质贴图",
+      settings6: "视觉特效",
       settings7: "闪烁画面",
       settings7a: "默认",
       settings7b: "削减",

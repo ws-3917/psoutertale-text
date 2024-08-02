@@ -2106,7 +2106,7 @@ msgid "MUSIC"
 msgstr "音樂"
 
 msgid "FANCY GRAPHICS"
-msgstr "高品質貼圖"
+msgstr "視覺特效"
 
 msgid "FLASHING IMAGERY"
 msgstr "閃爍畫面"

@@ -6,7 +6,7 @@ msgid "(You take a deep breath.)"
 msgstr ""
 
 msgid "(You're filled with determination.)"
-msgstr ""
+msgstr "(ケツイが　みなぎった)"
 
 msgid "You cannot give up just yet..."
 msgstr ""
@@ -23,7 +23,7 @@ msgid "You're going to be alright!"
 msgstr ""
 
 msgid "Don't lose hope!"
-msgstr ""
+msgstr "きぼうを　すてるな！"
 
 msgid "It cannot end now!"
 msgstr ""
@@ -368,7 +368,7 @@ msgid "Metadata"
 msgstr ""
 
 msgid "Music"
-msgstr ""
+msgstr "BGM"
 
 msgid "Namespace"
 msgstr ""
@@ -1931,7 +1931,7 @@ msgid "player"
 msgstr ""
 
 msgid "Settings"
-msgstr ""
+msgstr "せってい"
 
 msgid "?"
 msgstr ""
@@ -1960,7 +1960,7 @@ msgid ""
 msgstr ""
 
 msgid "Go back"
-msgstr ""
+msgstr "もどる"
 
 msgid "OUTERTALE V5.00 (c) 2024 SPACEY_432"
 msgstr ""
@@ -2026,22 +2026,22 @@ msgid "SETTINGS"
 msgstr ""
 
 msgid "EXIT"
-msgstr ""
+msgstr "もどる"
 
 msgid "LANGUAGE"
 msgstr ""
 
 msgid "ENGLISH"
-msgstr ""
+msgstr "にほんご"
 
 msgid "SOUND FX"
-msgstr ""
+msgstr "SE"
 
 msgid "MUSIC"
-msgstr ""
+msgstr "BGM"
 
 msgid "FANCY GRAPHICS"
-msgstr ""
+msgstr "こうがしつ"
 
 msgid "FLASHING IMAGERY"
 msgstr ""
@@ -2134,6 +2134,7 @@ msgid ""
 "<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and"
 " MONSTERS.{^35}{}"
 msgstr ""
+"<12>{#p/storyteller}むかしむかし　たいようけいには　ニンゲンと　モンスターという　2つのしゅぞくが　いました。{^35}{}"
 
 msgid "<24>As time passed, a war broke out between the two species.{^35}{}"
 msgstr ""
