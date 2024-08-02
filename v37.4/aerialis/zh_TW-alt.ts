@@ -4016,8 +4016,8 @@ export default {
                : [
                     "<32>{#p/human}* （你把書拿了起來...）",
                     "<32>{#p/basic}* 「喵喵航天行：夢境奇旅\n   （同人故事）」",
-                    "<32>* \"... and that's when Mew Mew finally saw it with her own two eyes.\"",
-                    "<32>* \"It was quite a sight, standing alone in deep space, seemingly abandoned...\"",
+                    "<32>* 「...就在那時，\n   喵喵終於親眼看到了。」",
+                    "<32>* 「那是相當壯觀的景色。\n   孤身一人站在太空深處，\n   頗有遺世獨立之感...」",
                     "<32>* \"... but Mew Mew knew better!\"\n* \"And it wasn't long before she learned of our plight.\"",
                     "<32>* \"With a single blast of her infamous LAZER DELUXE, she punched through with ease!\"",
                     "<32>* \"And so it was that Mew Mew became monsterkind's savior.\"",
@@ -4180,7 +4180,7 @@ export default {
          papertable: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The plans on the table describe some form of energy conversion process.)" ]
-               : [ "<32>{#p/basic}* It's a work table with some nondescript plans on it." ],
+               : [ "<32>{#p/basic}* 這是一張工作桌，\n  上面有一些不倫不類的設計圖。" ],
          vender1: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You observe the mysterious contents behind the glass of the storage unit.)" ]
