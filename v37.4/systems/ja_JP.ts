@@ -981,8 +981,8 @@ export default {
 
       story1: [ "<16>{#p/storyteller}むかしむかし　たいようけいには　ニンゲンと　モンスターという　2つのしゅぞくが　いました。{^35}{}" ],
       story2: [ "<16>ときが　たつにつれ　2つのしゅぞくの　あいだに　せんそうが　おきました。{^35}{}" ],
-      story3: [ "<24>After the MONSTERS' home planet was destroyed, HUMANS declared victory.{^35}{}" ],
-      story4: [ "<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}" ],
+      story3: [ "<16>そして　モンスターたちの　母星を　はかいされたすえ　ニンゲンが　しょうりしました。{^35}{}" ],
+      story4: [ "<16>のこりの　モンスターたちは　ほうきされた　ぜんしょうきちに　ついほうされた。{^35}{}" ],
       story5: [ "<24>A powerful force field was erected, and the MONSTERS were sealed in.{^35}{}" ],
       story6: [ "<24>Many years later.{^8}.{^8}.{^35}{}" ],
       story7: [ "<#24>     EBOTT SECTOR     \n         251X{^35}{}" ],
