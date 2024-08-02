@@ -10299,7 +10299,7 @@ msgstr ""
 msgid "<32>{#p/asriel2}* I'm surprised you're not still doing that right now."
 msgstr ""
 "<32>{#p/asriel2}* 你竟然沒貫徹逃跑精神，\n"
-"我可真驚訝呢。"
+"  我可真驚訝呢。"
 
 msgid "<32>{#p/asriel2}* Thanks, Dr. Obvious."
 msgstr ""
@@ -10311,7 +10311,7 @@ msgid "<32>{#p/asriel2}* Something's about to happen."
 msgstr ""
 
 msgid "<32>{#p/asriel2}* Okay... things are starting to get serious now."
-msgstr "<32>{#p/asriel2}* 好吧... 形勢嚴重起來了。"
+msgstr "<32>{#p/asriel2}* 好吧... 形勢嚴峻起來了。"
 
 msgid ""
 "<32>{#p/asriel2}* ... it looks like Alphys isn't trying to defend anymore.\n"

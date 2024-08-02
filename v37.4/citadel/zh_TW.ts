@@ -4783,11 +4783,11 @@ export default {
       status2a: [ "<32>{#p/asriel2}* Alphys，怎麼了？\n* 撐不住了？" ],
       status2r1: [ "<32>{#p/asriel2}* Ugh, here we go..." ],
       status2b: [ "<32>{#p/asriel2}* Go on, tell us your sob story." ],
-      status2c: [ "<32>{#p/asriel2}* 你竟然沒貫徹逃跑精神，\n我可真驚訝呢。" ],
+      status2c: [ "<32>{#p/asriel2}* 你竟然沒貫徹逃跑精神，\n  我可真驚訝呢。" ],
       status2d: [ "<32>{#p/asriel2}* Thanks, Dr. Obvious." ],
       status2e: [ "<32>{#p/asriel2}* ...？" ],
       status2r2: [ "<32>{#p/asriel2}* Something's about to happen." ],
-      status3a: [ "<32>{#p/asriel2}* 好吧... 形勢嚴重起來了。" ],
+      status3a: [ "<32>{#p/asriel2}* 好吧... 形勢嚴峻起來了。" ],
       status3b: [ "<32>{#p/asriel2}* ...看來Alphys不準備防禦了。\n* 抓住這個機會！" ],
       status3c: [ "<32>{#p/asriel2}* Hang in there, $(name)..." ],
       turnTalk1a: [

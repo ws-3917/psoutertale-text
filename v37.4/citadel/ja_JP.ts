@@ -27,7 +27,7 @@ export default {
       ],
       hypertext: {
          count: "REBOOT IN $(x)",
-         death1: [ "{#p/human}（你深吸了一口氣。）", "（你充滿了決心。）" ],
+         death1: [ "{#p/human}(You take a deep breath.)", "(You're filled with determination.)" ],
          death2: [
             "{#p/human}{#v/1}{@fill=#42fcff}It'll be alright in the end...",
             "{@fill=#42fcff}Just take it steady..."
@@ -45,7 +45,7 @@ export default {
          death7: [ "{#p/human}{#v/6}{@fill=#faff29}It's only a matter of time." ],
          cyan1: [
             "<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.",
-            "<99>{*}{@fill=#faff29}依靠{@wordify=耐心/勇氣/正直/毅力/善良/正義}耐心{@wordify=}，將會有望逃脫。",
+            "<99>{*}{@fill=#faff29}With {@mystify=PATIENCE}PATIENCE{@mystify=}, they may escape.",
             "<99>{*}{#p/human}{#v/1}{@fill=#42fcff}You must reach my Little Dipper...",
             "<99>{*}{#p/human}(Press [Z] to teleport.)"
          ],
@@ -55,7 +55,7 @@ export default {
          ],
          orange1: [
             "<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.",
-            "<99>{*}{@fill=#faff29}憑藉{@wordify=勇氣/正直/毅力/善良/正義}勇氣{@wordify=}，或將擺脫束縛。",
+            "<99>{*}{@fill=#faff29}With {@mystify=BRAVERY}BRAVERY{@mystify=}, they may escape.",
             "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}Don't leave without my Power Glove!",
             "<99>{*}{#p/human}(Press [Z] to explode.)"
          ],
@@ -65,7 +65,7 @@ export default {
          ],
          blue1: [
             "<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.",
-            "<99>{*}{@fill=#faff29}堅守{@wordify=正直/毅力/善良/正義}正直{@wordify=}，必定能夠逃脫。",
+            "<99>{*}{@fill=#faff29}With {@mystify=INTEGRITY}INTEGRITY{@mystify=}, they can escape.",
             "<99>{*}{#p/human}{#v/3}{@fill=#003cff}I'll need my trusty Hoverboots."
          ],
          blue2: [
@@ -74,7 +74,7 @@ export default {
          ],
          purple1: [
             "<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.",
-            "<99>{*}{@fill=#faff29}擁有{@wordify=毅力/善良/正義}毅力{@wordify=}，定可擺脫束縛。",
+            "<99>{*}{@fill=#faff29}With {@mystify=PERSEVERANCE}PERSEVERANCE{@mystify=}, they can escape.",
             "<99>{*}{#p/human}{#v/4}{@fill=#d535d9}A single Datapad can go a long way."
          ],
          purple2: [
@@ -83,7 +83,7 @@ export default {
          ],
          green1: [
             "<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.",
-            "<99>{*}{@fill=#faff29}心懷{@wordify=善良/正義}善良{@wordify=}，終能衝破枷鎖。",
+            "<99>{*}{@fill=#faff29}With {@mystify=KINDNESS}KINDNESS{@mystify=}, they can escape.",
             "<99>{*}{#p/human}{#v/5}{@fill=#00c000}The Tablaphone will set me free!"
          ],
          green2: [
@@ -122,7 +122,7 @@ export default {
          file6saved: "FILE 6 SAVED",
          file6loaded: "FILE 6 LOADED"
       },
-      noequip: [ "<32>{#p/human}* （你打算不這麼做。）" ],
+      noequip: [ "<32>{#p/human}* (You decide not to equip.)" ],
       genotext: {
          monologue: [
             (re: boolean) => [
@@ -335,7 +335,7 @@ export default {
             "<25>{#p/asriel2}{#f/16}* ... I'm not going to repeat myself.",
             "<26>{#f/13}* You know why we're here."
          ],
-         afterfight1: [ "<25>{#p/asriel2}{#f/8}* ...總算解決她了。" ],
+         afterfight1: [ "<25>{#p/asriel2}{#f/8}* ... finally." ],
          afterfight2: () =>
             [
                [
@@ -555,11 +555,11 @@ export default {
          respawn6: () =>
             [
                [
-                  "<25>{#p/asriel2}{#f/15}* $(name)。\n* 聽我說。",
-                  "<25>{#p/asriel2}{#f/7}* 我們已經幹掉她了。",
-                  "<25>{#p/asriel2}{#f/5}* 都這樣了，回溯時間幹嘛呢？"
+                  "<25>{#p/asriel2}{#f/15}* $(name).\n* Listen to me.",
+                  "<25>{#p/asriel2}{#f/7}* We literally HAD her.",
+                  "<25>{#p/asriel2}{#f/5}* Why would you bring us back after that!?"
                ],
-               [ "<25>{#p/asriel2}{#f/7}* ...你逗我呢？" ],
+               [ "<25>{#p/asriel2}{#f/7}* ... you can't be serious right now." ],
                [ "<25>{#p/asriel2}{#f/7}* ..." ]
             ][Math.min(SAVE.flag.n.ga_asrielRespawn6++, 2)],
          respawn7: () =>
@@ -581,23 +581,23 @@ export default {
             ][Math.min(SAVE.flag.n.ga_asrielRespawn7++, 3)],
          respawnWitnessA: () =>
             [
-               [ "<25>{#p/asriel2}{#f/9}* 怎麼回事？", "<25>{#p/asriel2}{#f/10}* ...誰攻擊了我們？" ],
-               [ "<25>{#p/asriel2}{#f/15}* 我們...", "<25>{#p/asriel2}{#f/10}* ...被一道電魔法擊中了？" ],
+               [ "<25>{#p/asriel2}{#f/9}* What was THAT?", "<25>{#p/asriel2}{#f/10}* ... WHO was that?" ],
+               [ "<25>{#p/asriel2}{#f/15}* We got hit with...", "<25>{#p/asriel2}{#f/10}* ... electricity magic?" ],
                [
-                  "<25>{#p/asriel2}{#f/3}* 艾菲斯。\n* 肯定是她。",
-                  "<25>{#p/asriel2}{#f/15}* 她原來沒逃跑嗎...",
-                  "<25>{#p/asriel2}{#f/16}* 好吧，還算有點意思。"
+                  "<25>{#p/asriel2}{#f/3}* Alphys.\n* It's gotta be.",
+                  "<25>{#p/asriel2}{#f/15}* So she didn't run away, then...",
+                  "<25>{#p/asriel2}{#f/16}* Well, this should be interesting."
                ]
             ][SAVE.flag.n.ga_asrielWitness++],
          respawnWitnessB: (wit: number) =>
             wit > 0
                ? [
-                    "<25>{#p/asriel2}{#f/15}* 原來是艾菲斯...",
-                    "<25>{#p/asriel2}{#f/16}* 好吧，還算有點意思。"
+                    "<25>{#p/asriel2}{#f/15}* So it was Alphys, then...",
+                    "<25>{#p/asriel2}{#f/16}* Well, this should be interesting."
                  ]
                : [
-                    "<25>{#p/asriel2}{#f/15}* 她原來沒逃跑嗎...",
-                    "<25>{#p/asriel2}{#f/16}* 好吧，還算有點意思。"
+                    "<25>{#p/asriel2}{#f/15}* So she didn't run away, then...",
+                    "<25>{#p/asriel2}{#f/16}* Well, this should be interesting."
                  ]
       },
       truetext: {
@@ -945,7 +945,7 @@ export default {
                     [
                        "<25>{#p/asgore}{#npc/a}{#f/21}* Oh?\n* You have something to tell me?",
                        "<32>{#npc}{#p/human}* (You repeat the promise made to you by Asgore in Archive Six.)",
-                       "<25>{#p/asgore}{#npc/a}{#f/8}* ...！",
+                       "<25>{#p/asgore}{#npc/a}{#f/8}* ...!",
                        "<25>{#f/1}* Frisk...",
                        "<25>{#f/1}* ... I am not sure I can do that, but...",
                        "<25>{#f/6}* For you, I will try."
@@ -1905,7 +1905,7 @@ export default {
             "<25>* this is an odd thing to say, but...",
             "<25>* if you have some sort of {@fill=#ff0}special power{@fill=#fff}...",
             "<25>* isn't it your responsibility to do the right thing?",
-            choicer.create("* (What do you say?)", "是", "否")
+            choicer.create("* (What do you say?)", "Yes", "No")
          ],
          jspeech5b3a: [ "<25>{#p/sans}{#f/4}* ah.", "<25>{#f/0}* i see." ],
          jspeech5b3b: [
@@ -2287,18 +2287,18 @@ export default {
                        "<25>{#f/6}* Whatever you decide, I will support you.",
                        "<25>{#f/1}* ...",
                        "<25>* Will you enter the archive?",
-                       choicer.create("* (What do you say?)", "是", "否")
+                       choicer.create("* (What do you say?)", "Yes", "No")
                     ],
                     [
                        "<26>{#p/asgore}{#f/6}* I see you have returned.",
                        "<25>{#f/1}* ...",
                        "<25>* Will you enter the archive?",
-                       choicer.create("* (What do you say?)", "是", "否")
+                       choicer.create("* (What do you say?)", "Yes", "No")
                     ],
                     [
                        "<25>{#p/asgore}{#f/1}* ...",
                        "<25>* Will you enter the archive?",
-                       choicer.create("* (What do you say?)", "是", "否")
+                       choicer.create("* (What do you say?)", "Yes", "No")
                     ]
                  ][Math.min(SAVE.data.n.state_citadel_refuse, 2)],
          choice2a: [
@@ -2527,7 +2527,7 @@ export default {
             [ "{*}{#p/twinkly}I'll destroy everything." ],
             [ "{*}{#p/twinkly}I'll make it so you never existed!" ],
             [ "{*}{#p/twinkly}..." ],
-            [ "{*}{#p/twinkly}...？" ],
+            [ "{*}{#p/twinkly}...?" ],
             [ "{*}{#p/twinkly}... why?" ],
             [ "{*}{#p/twinkly}... why are you being...", "{*}{#p/twinkly}... so nice to me?" ],
             [ "{*}{#p/twinkly}... I can't understand..." ],
@@ -2704,7 +2704,7 @@ export default {
                             "<25>{#f/16}* Just so I could torture you in a nightmare of my own making..."
                          ]),
                     "<25>{#f/13}* That's the kind of thing I'm talking about.",
-                    "<25>{#f/22}* ...做了那些事，\n  我怎麼還有臉活在這世上。",
+                    "<25>{#f/22}* ... just the fact I'm still alive is probably less than I deserve.",
                     choicer.create("* (What will you do?)", "Protest", "Do not")
                  ]
                : [
@@ -2801,7 +2801,7 @@ export default {
          sad6: () =>
             world.runaway
                ? [
-                    "<25>{#p/asriel1}{#f/25}* ...！",
+                    "<25>{#p/asriel1}{#f/25}* ...!",
                     "<25>{#f/21}* ...",
                     "<25>{#f/21}* Frisk, I...",
                     "<25>{#f/15}* ... I just can't right now, okay?",
@@ -2958,7 +2958,7 @@ export default {
                SAVE.data.b.svr
                   ? [
                        "<25>{#p/asriel1}{#f/17}* This door will take us to the hangar bay.",
-                       "<99>{#p/human}* （離開這裡嗎？）{!}\n§shift=48§我想\n§shift=48§再等等§shift=83§現在離開{#c/0/6/6}"
+                       "<99>{#p/human}* (Leave the outpost?){!}\n§shift=48§Don't§shift=88§I'm\n§shift=48§leave§shift=88§ready{#c/0/6/6}"
                     ]
                   : [
                        ...(SAVE.data.b.oops
@@ -2967,19 +2967,19 @@ export default {
                                "<32>{#p/basic}* Your friends will follow you to a new homeworld."
                             ]
                           : [ "<32>{#p/basic}* Frisk...", "<32* Don't you remember what we have to do?" ]),
-                       "<99>{#p/human}* （離開這裡嗎？）{!}\n§shift=48§我想\n§shift=48§再等等§shift=83§現在離開{#c/0/6/6}"
+                       "<99>{#p/human}* (Leave the outpost?){!}\n§shift=48§Don't§shift=88§I'm\n§shift=48§leave§shift=88§ready{#c/0/6/6}"
                     ],
             [
-               "<99>{#p/human}* （離開這裡嗎？）{!}\n§shift=48§我想\n§shift=48§再等等§shift=83§現在離開{#c/0/6/6}"
+               "<99>{#p/human}* (Leave the outpost?){!}\n§shift=48§Don't§shift=88§I'm\n§shift=48§leave§shift=88§ready{#c/0/6/6}"
             ]
          ),
          finaltext2: [
             "<32>{#p/basic}* Frisk?",
-            "<99>{#p/human}* （離開這裡嗎？）{!}\n§shift=48§我想\n§shift=48§再等等§shift=83§現在離開{#c/0/6/6}"
+            "<99>{#p/human}* (Leave the outpost?){!}\n§shift=48§Don't§shift=88§I'm\n§shift=48§leave§shift=88§ready{#c/0/6/6}"
          ],
          finaltext3: [
             "<32>{#p/basic}* ...",
-            "<99>{#p/human}* （離開這裡嗎？）{!}\n§shift=48§我想\n§shift=48§再等等§shift=83§現在離開{#c/0/6/6}"
+            "<99>{#p/human}* (Leave the outpost?){!}\n§shift=48§Don't§shift=88§I'm\n§shift=48§leave§shift=88§ready{#c/0/6/6}"
          ],
          hangar1: () =>
             SAVE.data.b.svr
@@ -3400,25 +3400,25 @@ export default {
          ),
          giftbox1a: () => [
             ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* There's a weapon inside." ]),
-            choicer.create("* (Open the box?)", "是", "否")
+            choicer.create("* (Open the box?)", "Yes", "No")
          ],
          giftbox1b: () => [
             ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* There's armor inside." ]),
-            choicer.create("* (Open the box?)", "是", "否")
+            choicer.create("* (Open the box?)", "Yes", "No")
          ],
          giftbox2a: () => [
-            "<32>{#p/human}* （你帶走了「大熊座」。）",
-            choicer.create("* (Equip the Big Dipper?)", "是", "否")
+            "<32>{#p/human}* (You got the Big Dipper.)",
+            choicer.create("* (Equip the Big Dipper?)", "Yes", "No")
          ],
          giftbox2b: () => [
             "<32>{#p/human}* (You got the Heart Locket.)",
-            choicer.create("* (Equip the Heart Locket?)", "是", "否")
+            choicer.create("* (Equip the Heart Locket?)", "Yes", "No")
          ],
          giftbox3: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (But there was nothing left to take.)" ]
                : [ "<32>{#p/basic}* It's empty." ],
-         giftbox4: [ "<32>{#p/human}* （你打算先不打開。）" ],
+         giftbox4: [ "<32>{#p/human}* (You decide not to open.)" ],
          tea0: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The note on the envelope wants you to enjoy the tea.)" ]
@@ -3426,7 +3426,7 @@ export default {
                     "<32>{#p/basic}* There's a note attached to the teacup...",
                     "<32>{#p/basic}* \"Please, enjoy this cup of tea I have left for you.\"\n* \"Whoever you may be.\""
                  ],
-         tea1: [ "<32>{#p/human}* （你帶走了星花茶。）" ],
+         tea1: [ "<32>{#p/human}* (You got the Starling Tea.)" ],
          tea2: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You run your hand across the countertop.)" ]
@@ -3435,7 +3435,7 @@ export default {
             SAVE.data.b.svr
                ? [
                     "<32>{#p/human}* (You feel the inviting warmth of the fireplace...)",
-                    choicer.create("* (Crawl inside?)", "是", "否")
+                    choicer.create("* (Crawl inside?)", "Yes", "No")
                  ]
                : [
                     SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
@@ -3443,7 +3443,7 @@ export default {
                        : "<32>{#p/basic}* Asgore's fireplace.\n* It's not too hot, just pleasantly warm.",
                     ...(world.darker
                        ? []
-                       : [ "<32>* You could probably crawl in.", choicer.create("* (Crawl inside?)", "是", "否") ])
+                       : [ "<32>* You could probably crawl in.", choicer.create("* (Crawl inside?)", "Yes", "No") ])
                  ],
          fireplace2a: [ "<32>{#p/human}* (You chose not to crawl in.)" ],
          fireplace2b: () => [
@@ -3495,9 +3495,9 @@ export default {
                     [ "<32>* My god... it's so much..." ],
                     [ "<32>* ..." ]
                  ][Math.min(SAVE.data.n.chocolates, 11)]),
-            choicer.create("* (Take a Chocolate Bar?)", "是", "否")
+            choicer.create("* (Take a Chocolate Bar?)", "Yes", "No")
          ],
-         fridgetrap3: [ "<32>{#p/human}* （你決定什麼也不拿。）" ],
+         fridgetrap3: [ "<32>{#p/human}* (You decide not to take anything.)" ],
          fridgetrap4: [ "<32>{#p/human}* (You got the Chocolate Bar.)" ],
          brocall1: [
             "<32>{#s/phone}{#p/event}* Ring, ring...",
@@ -3594,7 +3594,7 @@ export default {
             "<32>{#p/human}* (You activate the terminal.)",
             "<32>{#p/event}* Procedure complete.\n* All subjects have successfully tethered.",
             "<33>{#p/event}* Would you also like to exit?",
-            choicer.create("* (Exit Archive Six?)", "是", "否")
+            choicer.create("* (Exit Archive Six?)", "Yes", "No")
          ],
          cw_vender1: [
             "<32>{#p/human}* (You tap on the panel.)",
@@ -3661,8 +3661,8 @@ export default {
                [ "<32>{#p/human}{#v/5}{@fill=#00c000}* Hello?" ],
                []
             ][ca_state.floor],
-         toomuch1: [ "<32>{#p/human}* （你帶的東西太多了。）" ],
-         toomuch2: [ "<32>{#p/human}* （你帶的東西太多，裝不下它了。）" ],
+         toomuch1: [ "<32>{#p/human}* (You're carrying too much.)" ],
+         toomuch2: [ "<32>{#p/human}* (You're carrying too much to take that.)" ],
          toomuch3: [ "<32>{#p/human}* (You're carrying too much to use that.)" ],
          bastionTerm: () =>
             SAVE.data.n.plot < 71.2 && !SAVE.data.b.killed_mettaton && !world.baddest_lizard
@@ -4267,41 +4267,41 @@ export default {
                SAVE.data.b.svr
                   ? [ "<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)" ]
                   : [
-                       "<32>{#p/basic}* 一個書架。",
-                       "<32>{#p/human}* （你取下了一本書...）",
+                       "<32>{#p/basic}* It's a bookshelf.",
+                       "<32>{#p/human}* (You pick out a book...)",
                        "<32>{#p/basic}* This book is labelled \"Grand Library Brochure.\"",
                        "<32>* \"Welcome to the Grand Library, a stronghold of knowledge on a variety of topics.\"",
                        "<32>* \"Along each corridor lie books of history, culture, science, technology, and beyond.\"",
                        "<32>* \"For the adventerous readers, works from famous fiction writers may also be found.\"",
                        "<32>* \"Andori, Terrestria, Strax Seterra, Vashta Nerada, and many others adorn our walls.\"",
                        "<33>* \"Visit the Grand Library of Krios today, and your first\n  ten books will be 1/2KT on us.\"",
-                       "<32>{#p/human}* （你把書放回了書架。）"
+                       "<32>{#p/human}* (You put the book back on the shelf.)"
                     ],
             () =>
                SAVE.data.b.svr
                   ? [ "<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)" ]
                   : [
-                       "<32>{#p/basic}* 一個書架。",
-                       "<32>{#p/human}* （你取下了一本書...）",
+                       "<32>{#p/basic}* It's a bookshelf.",
+                       "<32>{#p/human}* (You pick out a book...)",
                        "<32>{#p/basic}* This book has been signed by \"Toriel Dreemurr.\"",
-                       "<32>{#p/basic}* 「《逐夢家族的美味祕笈：蝸牛派》」",
-                       "<32>* 「蝸牛派是逐夢家族的\n   一道風味獨特的傳統美食。」",
-                       "<32>* 「製作它其實非常簡單，\n   只需五個步驟：」",
-                       "<32>* 「首先，輕柔地展開酥脆的派底，\n   在烘焙盤中鋪平。」",
-                       "<32>* 「然後，將香濃的蒸發奶、\n   新鮮的雞蛋和選料香料\n   混合在一起，攪拌至絲滑細膩。」",
-                       "<32>* 「接著，小心地將幾隻新鮮活蝸牛\n   加入到之前調製好的香濃奶糊中。\n   確保它們完全浸入。」",
-                       "<32>* 「之後，將這層混合物\n   輕輕倒入準備好的派底，\n   均勻鋪開。」",
-                       "<32>* 「最後，將麵團切成細條，\n   編織成優雅的格子形狀，\n   覆蓋在派面上。」",
-                       "<32>* 「現在，將派放到烤箱中，\n   烤至金黃酥脆。」",
-                       "<32>* 「出爐後，派面金黃誘人。\n   令其稍作冷卻，即可切片、上桌！」",
-                       "<32>{#p/human}* （你把書放回了書架。）"
+                       "<32>{#p/basic}* \"Dreemurr Family Recipes: Snail Pie\"",
+                       "<32>* \"Snail Pie is a coveted tradition among members of the Dreemurr family line.\"",
+                       "<32>* \"Making it is a simple process, and can be broken down into five steps.\"",
+                       "<32>* \"First, prepare the bottom crust by laying it on top of a pie plate.\"",
+                       "<32>* \"Next, whisk evaporated milk, eggs, and spices together in a bowl until smooth.\"",
+                       "<32>* \"Then, take several live snails, and thoroughly incorporate into the mixture.\"",
+                       "<32>* \"After that, pour the contents of the bowl into the bottom crust.\"",
+                       "<32>* \"Last, prepare the top crust by cutting sheet into strips and forming a lattice.\"",
+                       "<32>* \"Then just bake the pie!\"",
+                       "<32>* \"Once the pie is ready, take it out of the oven, let it cool, and serve!\"",
+                       "<32>{#p/human}* (You put the book back on the shelf.)"
                     ],
             () =>
                SAVE.data.b.svr
                   ? [ "<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)" ]
                   : [
-                       "<32>{#p/basic}* 一個書架。",
-                       "<32>{#p/human}* （你取下了一本書...）",
+                       "<32>{#p/basic}* It's a bookshelf.",
+                       "<32>{#p/human}* (You pick out a book...)",
                        "<32>{#p/basic}* It's a casualty report.",
                        "<33>* \"Overview... two thousand dead, forty-thousand injured.\"\n* \"Tenko has fallen.\"",
                        "<32>* \"Days before the attack, a local boy, Gerson, was drafted into the royal forces.\"",
@@ -4310,7 +4310,7 @@ export default {
                        "<32>* \"Had it been ignored, Gerson's family would have died in the attack.\"",
                        "<32>* \"Survivors of the attack are holding a commemoration at the central nexus.\"",
                        "<32>* \"The boy is a hometown hero.\"",
-                       "<32>{#p/human}* （你把書放回了書架。）"
+                       "<32>{#p/human}* (You put the book back on the shelf.)"
                     ]
          ),
          c_al_chair1: () =>
@@ -4739,9 +4739,9 @@ export default {
    },
    b_opponent_alphys: {
       artifact: [ "<32>{#p/human}* (Alphys glances at it, but ultimately dismisses it.)" ],
-      name: "* 艾菲斯",
-      gotcha: [ "<20>{*}{#p/alphys}{#e/alphys/19}逮著你倆了。{^30}{%}" ],
-      act_check: [ "<32>{#p/asriel2}* 艾菲斯。\n* 皇家科學員。" ],
+      name: "* Alphys",
+      gotcha: [ "<20>{*}{#p/alphys}{#e/alphys/19}Gotcha.{^30}{%}" ],
+      act_check: [ "<32>{#p/asriel2}* Alphys.\n* The royal scientist." ],
       act_asriel: (i: number) => [
          ...[
             [
@@ -4772,127 +4772,127 @@ export default {
          [ "<32>{#p/story}* REGEN up for this turn!" ],
          [ "<32>{#p/story}* DEFENSE up for this turn!" ]
       ],
-      epiphaNOPE: [ "<20>{#p/alphys}{#e/alphys/19}想得美。" ],
+      epiphaNOPE: [ "<20>{#p/alphys}{#e/alphys/19}Nice try." ],
       statusX: [ "<32>{#p/asriel2}* ..." ],
-      statusY: [ "<32>{#p/asriel2}* 她快死了！\n* 繼續攻擊！" ],
-      status1a: [ "<32>{#p/asriel2}* 艾菲斯..." ],
-      status1r: [ "<32>{#p/asriel2}* 你知道該幹什麼。" ],
-      status1b: [ "<33>{#p/asriel2}* 她原來沒逃跑嗎...\n* 有意思。" ],
-      status1c: [ "<32>{#p/asriel2}* 你知道該幹什麼吧。" ],
-      status1d: [ "<32>{#p/asriel2}* 嗯...\n  她是不是看起來有點累了？" ],
-      status2a: [ "<32>{#p/asriel2}* 艾菲斯，怎麼了？\n* 撐不住了？" ],
+      statusY: [ "<32>{#p/asriel2}* She's almost dead!\n* Keep going!" ],
+      status1a: [ "<32>{#p/asriel2}* Alphys..." ],
+      status1r: [ "<32>{#p/asriel2}* You know what to do." ],
+      status1b: [ "<33>{#p/asriel2}* So she didn't run away, then...\n* Interesting." ],
+      status1c: [ "<32>{#p/asriel2}* Well, you know what to do." ],
+      status1d: [ "<32>{#p/asriel2}* Hmm... don't you think she looks tired?" ],
+      status2a: [ "<32>{#p/asriel2}* What's the matter, Alphys?\n* Can't keep up?" ],
       status2r1: [ "<32>{#p/asriel2}* Ugh, here we go..." ],
       status2b: [ "<32>{#p/asriel2}* Go on, tell us your sob story." ],
-      status2c: [ "<32>{#p/asriel2}* 你竟然沒貫徹逃跑精神，\n  我可真驚訝呢。" ],
+      status2c: [ "<32>{#p/asriel2}* I'm surprised you're not still doing that right now." ],
       status2d: [ "<32>{#p/asriel2}* Thanks, Dr. Obvious." ],
-      status2e: [ "<32>{#p/asriel2}* ...？" ],
+      status2e: [ "<32>{#p/asriel2}* ...?" ],
       status2r2: [ "<32>{#p/asriel2}* Something's about to happen." ],
-      status3a: [ "<32>{#p/asriel2}* 好吧... 形勢嚴峻起來了。" ],
-      status3b: [ "<32>{#p/asriel2}* ...看來艾菲斯不準備防禦了。\n* 抓住這個機會！" ],
+      status3a: [ "<32>{#p/asriel2}* Okay... things are starting to get serious now." ],
+      status3b: [ "<32>{#p/asriel2}* ... it looks like Alphys isn't trying to defend anymore.\n* Now's our chance!" ],
       status3c: [ "<32>{#p/asriel2}* Hang in there, $(name)..." ],
       turnTalk1a: [
-         "<20>{#p/alphys}{#e/alphys/19}要是連一擊都扛不住，\n我怎麼可能來這？",
-         "<20>{#p/alphys}{#e/alphys/23}看來我高估\n你們的智商了。"
+         "<20>{#p/alphys}{#e/alphys/19}Did you think I'd fight you if I didn't know how to take a hit?",
+         "<20>{#p/alphys}{#e/alphys/23}You must not be as smart as I thought."
       ],
       turnTalk1b: [
-         "<20>{#p/alphys}{#e/alphys/19}無話可說了？",
-         "<20>{#e/alphys/18}...那就我管我說，你們聽著吧。"
+         "<20>{#p/alphys}{#e/alphys/19}Nothing to say?",
+         "<20>{#e/alphys/18}... guess I'll be the one doing the talking, then."
       ],
       turnTalk1c: [
-         "<20>{#p/alphys}{#e/alphys/19}這就對了。\n艾菲斯。",
-         "<20>{#e/alphys/18}因為，\n你有多少能耐，\n有多大的潛能...",
-         "<20>{#e/alphys/19}只有你自己才清楚。"
+         "<20>{#p/alphys}{#e/alphys/19}That's right.\nAlphys.",
+         "<20>{#e/alphys/18}Because nobody else sees things like I do.",
+         "<20>{#e/alphys/19}Nobody else knows how dangerous you really are."
       ],
       turnTalk1d: [
-         "<20>{#p/alphys}{#e/alphys/19}儘管揮霍你那些\n珍貴的物品。",
-         "<20>{#e/alphys/18}就那些東西，唬不到我。"
+         "<20>{#p/alphys}{#e/alphys/19}Use your precious ITEMs all you want.",
+         "<20>{#e/alphys/18}It won't change what happens next."
       ],
       turnTalk2: [
-         "<20>{#p/alphys}{#e/alphys/19}...聽著。\n我研究人類文化很多年了。",
-         "<20>{#e/alphys/19}你會選擇戰鬥到死，\n我一點也不奇怪。"
+         "<20>{#p/alphys}{#e/alphys/19}... look.\nI've studied human culture for years.",
+         "<20>{#e/alphys/19}I'm not surprised you're the one doing all the fighting."
       ],
       turnTalk3: [
-         "<20>{#p/alphys}{#e/alphys/18}而你呢，艾斯利爾...\n你利用了人類，\n把他當保護傘。",
-         "<20>{#e/alphys/52}怎麼了？\n怕自己靠一個偷來的靈魂\n活不下去？"
+         "<20>{#p/alphys}{#e/alphys/18}But you, Asriel...\nYou use your human partner as a shield.",
+         "<20>{#e/alphys/52}What's the matter?\nAfraid your stolen SOUL won't survive on its own?"
       ],
       turnTalk4: [
-         "<20>{#p/alphys}{#e/alphys/51}或者說，\n你怕自己死了後，\n人類發現有沒有你都一樣。",
-         "<20>{#e/alphys/17}喔。\n這還挺有詩意的。"
+         "<20>{#p/alphys}{#e/alphys/51}Or maybe you're just afraid they'll go on without you if you die.",
+         "<20>{#e/alphys/17}Well.\nTHAT'd be poetic."
       ],
       turnTalk5: [
-         "<20>{#p/alphys}{#e/alphys/16}就你找人類求安慰這事，\n我可沒責怪你的意思。",
-         "<20>{#e/alphys/52}只是我可以\n用親身經歷告訴你...",
-         "<20>{#e/alphys/19}隨著你在意的人死去，\n你會再次失去依靠。"
+         "<20>{#p/alphys}{#e/alphys/16}Not that I blame you for finding comfort in a human partner.",
+         "<20>{#e/alphys/52}I can tell you from experience...",
+         "<20>{#e/alphys/19}Things get lonely after everyone you care about is dead."
       ],
       turnTalk6: [
-         "<20>{#p/alphys}{#e/alphys/23}但你倆不會懂的，\n對吧？",
-         "<20>{#e/alphys/19}你們兩個罪惡滔天，\n又沒人攔得住你們，\n怎麼可能親身體會\n我們的痛苦呢？",
-         "<20>{#e/alphys/22}沒說錯吧？"
+         "<20>{#p/alphys}{#e/alphys/23}But you two wouldn't know anything about THAT, right?",
+         "<20>{#e/alphys/19}You're so menacing and unstoppable, you couldn't POSSIBLY be in pain yourselves.",
+         "<20>{#e/alphys/22}Right?"
       ],
       turnTalk7: [
-         "<20>{#p/alphys}{#e/alphys/19}不是說我不關心這事。",
-         "<20>{#e/alphys/52}...從那時算，\n有一陣子了，\n這一直是我的心結...",
-         "<20>{#e/alphys/51}之前，\n我真覺得我能幫你。"
+         "<20>{#p/alphys}{#e/alphys/19}Whatever.\nNot like I give a damn now anyway.",
+         "<20>{#e/alphys/52}... which is a shame, since, for a while there...",
+         "<20>{#e/alphys/51}I actually believed I could fix this."
       ],
       turnTalk8: [
-         "<20>{#p/alphys}{#e/alphys/52}畢竟是我讓那顆星星\n睜開了眼睛...",
-         "<20>{#e/alphys/51}我覺得自己有辦法勸勸你。"
+         "<20>{#p/alphys}{#e/alphys/52}I thought that because I was the one who gave that star life...",
+         "<20>{#e/alphys/51}I'd somehow be able to reason with you."
       ],
       turnTalk9: [
-         "<20>{#p/alphys}{#e/alphys/19}...不過現在，\n我懂你們為什麼執迷不悟了。",
-         "<20>{#e/alphys/18}我沒想錯的話，\n你們中肯定有人\n擁有那股力量...",
-         "<20>{#e/alphys/19}那股可以回溯時間，\n逆天改命的力量..."
+         "<20>{#p/alphys}{#e/alphys/19}... but I understand the truth, now.",
+         "<20>{#e/alphys/18}That power...\nThe power to turn back time, to change fate...",
+         "<20>{#e/alphys/19}Would I be wrong to assume that one of you has it?"
       ],
       turnTalk10: [
-         "<20>{#p/alphys}{#f/alphys/18}果真如此的話，\n那其他人真得小心了。",
-         "<21>{#e/alphys/23}一個人如果可以隨心所欲，\n還不用付出代價的話，\n那他就不太會\n在乎別人的感受。"
+         "<20>{#p/alphys}{#f/alphys/18}If that's the case, then whoever DOESN'T have it should be careful.",
+         "<21>{#e/alphys/23}People don't tend to care much for others when they can do whatever they want without consequences."
       ],
-      turnTalk11: [ "<20>{#z1}{#p/alphys}{#e/alphys/21}...", "<21>{#e/alphys/39}給我會時間靜靜。" ],
-      broken: [ "<20>{*}{#p/alphys}{#e/alphys/45}謝謝了。{^20}{%}" ],
+      turnTalk11: [ "<20>{#z1}{#p/alphys}{#e/alphys/21}...", "<21>{#e/alphys/39}I need a moment." ],
+      broken: [ "<20>{*}{#p/alphys}{#e/alphys/45}Thanks.{^20}{%}" ],
       turnTalk12: [
-         "<20>{#z2}{#p/alphys}{#e/alphys/7}安黛因犧牲後，\n我不知道自己能做什麼。",
-         "<20>{#e/alphys/46}於是，我逃跑了。"
+         "<20>{#z2}{#p/alphys}{#e/alphys/7}After Undyne died, I didn't know what to do.",
+         "<20>{#e/alphys/46}So I ran as fast and as far as I could."
       ],
       turnTalk13: [
-         "<20>{#p/alphys}{#e/alphys/47}可是越逃跑，\n我就對自己越失望。",
-         "<20>{#e/alphys/48}難道我就這麼袖手旁觀，\n眼睜睜看著我族人民\n接連死去？"
+         "<20>{#p/alphys}{#e/alphys/47}The more I ran, the more frustrated I became with myself.",
+         "<20>{#e/alphys/48}How could I stand by and do NOTHING as I watched them die?"
       ],
       turnTalk14: [
-         "<20>{#p/alphys}{#e/alphys/21}...這未免太絕情了。",
-         "<21>{#e/alphys/39}更何況...",
-         "<20>{#e/alphys/45}我怎麼自責\n都沒法改變現狀。"
+         "<20>{#p/alphys}{#e/alphys/21}... it was all just a little too much.",
+         "<21>{#e/alphys/39}Still, no matter how terrible I felt...",
+         "<20>{#e/alphys/45}The reality of what had happened stayed the same."
       ],
       turnTalk15: [
-         "<20>{#p/alphys}{#e/alphys/39}安黛因說你們會\n殺死這星河中的每個人...",
-         "<20>{#e/alphys/40}但其實比她想的更糟吧？"
+         "<20>{#p/alphys}{#e/alphys/39}Undyne said you'd go on to kill everyone in the galaxy...",
+         "<20>{#e/alphys/40}But it's worse than that, isn't it?"
       ],
       turnTalk16: [
          "<20>{#z3}{#p/alphys}{#e/alphys/48}...",
-         "<20>{#e/alphys/47}復活你們中的某人\n可能是我的過失，\n但你們犯下的罪行\n可不是。",
-         "<20>{#e/alphys/38}我管你們打的什麼算盤，\n你們都得付出代價。",
-         "<20>{*}{#z4}{#e/alphys/54}哪怕與此同時...{^10}{%}",
-         "<20>{*}{#e/alphys/25}我會喪失理智！{^10}{%}"
+         "<20>{#e/alphys/47}I may have brought one of you back to life, but I'm not to blame for everything you've done.",
+         "<20>{#e/alphys/38}Whatever it is you're planning, I won't let you get away with it.",
+         "<20>{*}{#z4}{#e/alphys/54}Even if it means...!{^10}{%}",
+         "<20>{*}{#e/alphys/25}Losing my sanity in the process!{^10}{%}"
       ],
-      turnTalk17: [ "<20>{#p/alphys}{#e/alphys/25}接招！！" ],
-      turnTalk18: [ "<20>{#p/alphys}{#e/alphys/25}再嘗嘗這招！！" ],
-      turnTalk19: [ "<20>{#p/alphys}{#e/alphys/25}這招又如何！！" ],
-      turnTalk20: [ "<20>{#p/alphys}{#e/alphys/24}哈哈哈..." ],
+      turnTalk17: [ "<20>{#p/alphys}{#e/alphys/25}Take THIS!!" ],
+      turnTalk18: [ "<20>{#p/alphys}{#e/alphys/25}Or THIS!!" ],
+      turnTalk19: [ "<20>{#p/alphys}{#e/alphys/25}How about THIS!!" ],
+      turnTalk20: [ "<20>{#p/alphys}{#e/alphys/24}Hahaha..." ],
       turnTalk21: [ "<20>{#p/alphys}{#e/alphys/26}..." ],
-      turnTalk22: [ "<20>{#p/alphys}{#e/alphys/27快去死啊!!" ],
+      turnTalk22: [ "<20>{#p/alphys}{#e/alphys/27}Come ON!!" ],
       turnTalk23: [ "<20>{#p/alphys}{#e/alphys/27}..." ],
       done0: (b: boolean) =>
          b
-            ? [ "<20>{*}{#p/alphys}{#e/alphys/42}不...{^40}{%}", "<20>{*}{#e/alphys/43}怎麼這麼快我就...{^40}{%}" ]
-            : [ "<20>{*}{#p/alphys}{#e/alphys/42}不...{^40}{%}", "<20>{*}{#e/alphys/43}你們...{^40}{%}" ],
+            ? [ "<20>{*}{#p/alphys}{#e/alphys/42}No...{^40}{%}", "<20>{*}{#e/alphys/43}How am I already...{^40}{%}" ]
+            : [ "<20>{*}{#p/alphys}{#e/alphys/42}No...{^40}{%}", "<20>{*}{#e/alphys/43}How did you...{^40}{%}" ],
       done1: (b: boolean) =>
          b
-            ? [ "<20>{*}沒-沒想到你們這麼強...{^40}{%}", "<20>{*}現在，我明白了，\n與你們為敵...{^40}{%}" ]
-            : [ "<20>{*}我要死在這了...\n是-是嗎？{^40}{%}", "<20>{*}盡了全力，我還是...{^40}{%}" ],
+            ? [ "<20>{*}I d-didn't think you'd be this strong...{^40}{%}", "<20>{*}But now, I realize...{^40}{%}" ]
+            : [ "<20>{*}I'm going to die here... a-aren't I?{^40}{%}", "<20>{*}After everything...{^40}{%}" ],
       done2: (b: boolean) =>
-         b ? [ "<20>{*}{#p/alphys}我毫無勝算。{^40}{%}" ] : [ "<20>{*}{#p/alphys}艾斯戈爾，我對不起你。{^40}{%}" ]
+         b ? [ "<20>{*}{#p/alphys}I never had a chance.{^40}{%}" ] : [ "<20>{*}{#p/alphys}I'm sorry, Asgore.{^40}{%}" ]
    },
    b_opponent_archive1: {
-      name: () => (battler.volatile[0].sparable ? "* 托麗爾" : "* 546f7269656c"),
+      name: () => (battler.volatile[0].sparable ? "* Toriel" : "* 546f7269656c"),
       status0: [ "<32>{#p/human}* (546f7269656c now stands before you.)" ],
       status1: [ "<32>{#p/human}* (546f7269656c seems intent on following a routine.)" ],
 
@@ -4927,7 +4927,7 @@ export default {
       ]
    },
    b_opponent_archive2: {
-      name: () => (battler.volatile[0].sparable ? "* 葛森" : "* 476572736f6e"),
+      name: () => (battler.volatile[0].sparable ? "* Gerson" : "* 476572736f6e"),
       status0: [ "<32>{#p/human}* (476572736f6e stands opposite the training area.)" ],
       status1: [ "<32>{#p/human}* (476572736f6e awaits your first move.)" ],
 
@@ -4985,7 +4985,7 @@ export default {
       act_notesN: [ "<32>{#p/human}* (And Professor Roman exchanged notes before fading away.)" ]
    },
    b_opponent_archive4: {
-      name: () => (battler.volatile[0].sparable ? "* 納普斯特" : "* 4e6170737461626c6f6f6b"),
+      name: () => (battler.volatile[0].sparable ? "* Napstablook" : "* 4e6170737461626c6f6f6b"),
       status0: [ "<32>{#p/human}* (4e6170737461626c6f6f6b is here by their computer.)" ],
       status1: [ "<32>{#p/human}* (4e6170737461626c6f6f6b is looking for a new sound.)" ],
 
@@ -5024,7 +5024,7 @@ export default {
       act_praise: [ "<32>{#p/human}* (But your kind words fell on invisibly shy ears.)" ]
    },
    b_opponent_archive5: {
-      name: () => (battler.volatile[0].sparable ? "* 艾斯戈爾" : "* 4173676f7265"),
+      name: () => (battler.volatile[0].sparable ? "* Asgore" : "* 4173676f7265"),
       status0: [ "<32>{#p/human}* (4173676f7265 stands tall.)" ],
       status1: [ "<32>{#p/human}* (4173676f7265 only wants one thing from you.)" ],
 
@@ -5040,8 +5040,8 @@ export default {
       refuse: "{*}{#p/event}{#i/3}But it refused.",
       name: () =>
          battler.volatile[0].container.objects[0]?.metadata.power === true
-            ? "§fill=#ff7f7f§§swirl=2/1/1.05§§hue§* 艾斯利爾·逐夢"
-            : "* 艾斯利爾·逐夢",
+            ? "§fill=#ff7f7f§§swirl=2/1/1.05§§hue§* Asriel Dreemurr"
+            : "* Asriel Dreemurr",
       status0: pager.create(
          0,
          (power = false) =>
@@ -5062,7 +5062,7 @@ export default {
             ? [
                  "<32>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* Legendary being made of every SOUL on the outpost."
               ]
-            : [ "<32>{#p/story}* 艾斯利爾·逐夢 攻擊{^2}\u221e{^1} 防禦{^2}\u221e{^1}\n* ..." ],
+            : [ "<32>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* ..." ],
       act_hope: [
          "<32>{#p/human}* (You hold onto your hopes. You feel your body being protected from within.)",
          "<32>{#p/story}* DEFENSE up for this turn!"
@@ -5326,7 +5326,7 @@ export default {
               ],
       act_check2: () =>
          SAVE.flag.b.pacifist_marker_save1 && SAVE.flag.b.pacifist_marker_save2 && SAVE.flag.b.pacifist_marker_save3
-            ? [ "<33>{#p/story}* 艾斯利爾·逐夢 攻擊{^2}\u221e{^1} 防禦{^2}\u221e{^1}\n* ..." ]
+            ? [ "<33>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* ..." ]
             : SAVE.data.b.oops
             ? [
                  "<33>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* The absolute GOD of hyperdeath!"
@@ -5340,54 +5340,54 @@ export default {
          "<32>* Within the depths of Asriel's SOUL, something's resonating...!"
       ],
       confrontation: [
-         "<32>{#p/human}* （在傷害了那麼多怪物之後...）",
-         "<33>* （某種沉睡的、封存的東西再度甦醒。）",
-         "<32>* （那是很久很久以前...\n  怪物面對人類的，本能的恐懼。）",
-         "<32>* （現在站在你面前的敵人，\n  不會對你有絲毫恐懼...）",
-         "<32>* （然而，你傷害過那麼多怪物，\n  只要將他們的恐懼累積起來...）",
-         "<32>* （你找到了突破口，\n  一個無法拒絕的機會。）",
-         "<32>* （...現在，其他選擇已毫無意義。）",
-         "<32>* （只有一條路可走。）"
+         "<32>{#p/human}* (After bullying so many monsters, all throughout your journey...)",
+         "<33>* (Something dormant, buried far, far down, awakens once again.)",
+         "<32>* (A sense of fear within every monster on the outpost, instilled by humans long ago.)",
+         "<32>* (The enemy who now stands before you has no right to be afraid of you...)",
+         "<32>* (Yet, somehow, the combined fear of all those you've bullied...)",
+         "<32>* (Has given you an opening you have no right to refuse.)",
+         "<32>* (... there's only one option that makes sense to you now.)",
+         "<32>* (There's only one thing left for you to do.)"
       ],
       attackTalk1: [
-         "<20>{*}{#p/asriel3}{#e/asriel/1}你... 怎麼可能...",
+         "<20>{*}{#p/asriel3}{#e/asriel/1}Wh... how did you...",
          "<20>{*}{#p/asriel3}{#e/asriel/3}...",
-         "<20>{*}{#p/asriel3}{#e/asriel/2}呵呵呵... 以為自己很強\n強到可以超越神明，\n是嗎？",
-         "<20>{*}{#p/asriel3}{#e/asriel/0}那，就來看看你\n能不能受得了這個！"
+         "<20>{*}{#p/asriel3}{#e/asriel/2}Heheheh... you think you're strong enough to overpower a god?",
+         "<20>{*}{#p/asriel3}{#e/asriel/0}Well, let's see how you like THIS!"
       ],
       attackTalk2: [
          "<20>{*}{#p/asriel3}{#e/asriel/3}...",
-         "<20>{*}{#p/asriel3}{#e/asriel/1}以為區區這樣\n就能傷得了我？",
-         "<20>{*}{#p/asriel3}{#e/asriel/0}我才是這裡的主宰！"
+         "<20>{*}{#p/asriel3}{#e/asriel/1}If you think that's gonna hurt me, you're wrong.",
+         "<20>{*}{#p/asriel3}{#e/asriel/0}I'm still the one in control here!"
       ],
       attackTalk3: [
-         "<20>{*}{#p/asriel3}{#e/asriel/2}...而且，\n就算你能打敗我...",
-         "<20>{*}{#p/asriel3}{#e/asriel/3}你的朋友\n也會因你而死。",
-         "<20>{*}{#p/asriel3}{#e/asriel/1}這就是你想要的嗎？\n永遠孤身一人？"
+         "<20>{*}{#p/asriel3}{#e/asriel/2}... even if you COULD beat me...",
+         "<20>{*}{#p/asriel3}{#e/asriel/3}In doing so, you'd kill your friends, too.",
+         "<20>{*}{#p/asriel3}{#e/asriel/1}Is that what you want?\nTo be ALONE?"
       ],
       attackTalk4: [
-         "<20>{*}{#p/asriel3}{#e/asriel/3}快住手，$(name)...\n你這是在自殺！",
-         "<20>{*}{#p/asriel3}{#e/asriel/5}沒明白嗎？",
-         "<20>{*}{#p/asriel3}{#e/asriel/6}我認識的$(name)\n絕不會做這種蠢事！"
+         "<20>{*}{#p/asriel3}{#e/asriel/3}Come on, $(name)...\nThis is SUICIDE!",
+         "<20>{*}{#p/asriel3}{#e/asriel/5}Don't you see that!?",
+         "<20>{*}{#p/asriel3}{#e/asriel/6}The $(name) I know would never do something so STUPID!"
       ],
       attackTalk5: [
          "<20>{*}{#p/asriel3}{#e/asriel/4}...",
-         "<20>{*}{#p/asriel3}{#e/asriel/6}聽我說，$(name)。",
-         "<20>{*}{#p/asriel3}{#e/asriel/6}現在趕快住手。",
-         "<20>{*}{#p/asriel3}{#e/asriel/9}否則...",
-         "<20>{*}{#p/asriel3}{#e/asriel/7}你-你別逼我動真格！"
+         "<20>{*}{#p/asriel3}{#e/asriel/6}Listen to me, $(name).",
+         "<20>{*}{#p/asriel3}{#e/asriel/6}You have to stop what you're doing.",
+         "<20>{*}{#p/asriel3}{#e/asriel/9}If you don't, I...",
+         "<20>{*}{#p/asriel3}{#e/asriel/7}I-I'll be forced to do something even worse!"
       ],
       attackTalk6: [
-         "<20>{*}{#p/asriel3}{#e/asriel/9}$(name)，求求你...",
-         "<20>{*}{#p/asriel3}{#e/asriel/7}你還沒明白\n自己在做什麼嗎？",
+         "<20>{*}{#p/asriel3}{#e/asriel/9}$(name), please...",
+         "<20>{*}{#p/asriel3}{#e/asriel/7}You don't know what you're doing, okay?",
          "<20>{*}{#p/asriel3}{#e/asriel/8}It's not JUST that I want you to stop fighting me.",
-         "<20>{*}{#p/asriel3}{#e/asriel/8}更重要的是...\n如果我被你打敗了...",
-         "<20>{*}{#p/asriel3}{#e/asriel/7}我永遠，永遠\n都當不了你的對手了。",
-         "<20>{*}{#p/asriel3}{#e/asriel/9}永遠也不會\n得到你的尊重！",
-         "<20>{*}{#p/asriel3}{#e/asriel/10}{#i/3}{@random=1.1/1.1}該死，$(name)...\n你他媽的為什麼總要贏？"
+         "<20>{*}{#p/asriel3}{#e/asriel/8}It's just that... if I let you beat me...",
+         "<20>{*}{#p/asriel3}{#e/asriel/7}I wouldn't be your equal anymore.",
+         "<20>{*}{#p/asriel3}{#e/asriel/9}I wouldn't be worthy of your respect!",
+         "<20>{*}{#p/asriel3}{#e/asriel/10}{#i/3}{@random=1.1/1.1}Damn you, $(name)...\nWhy do you ALWAYS have to WIN!?"
       ],
       attackTalk7: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}..." ],
-      attackTalk7x: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name)，我..." ],
+      attackTalk7x: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name), I..." ],
       mercy_save2: [
          "<32>{#p/human}* (Strangely, as your friends remembered you...)",
          "<32>* (Something else began resonating within Asriel's SOUL, stronger and stronger.)",
@@ -5446,7 +5446,7 @@ export default {
       endStatus3: () => (SAVE.data.b.oops ? [ "<32>{#p/story}* ..." ] : [ "<32>{#p/basic}* ..." ]),
       endTalk3: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}I'm so afraid, $(name)..." ],
       endStatus4: () => (SAVE.data.b.oops ? [ "<32>{#p/story}* ..." ] : [ "<32>{#p/basic}* ..." ]),
-      endTalk4: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name)，我..." ],
+      endTalk4: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name), I..." ],
       endStatus5: () => (SAVE.data.b.oops ? [ "<32>{#p/story}* ..." ] : [ "<32>{#p/basic}* This is all my fault..." ]),
       endTalk5: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}I..." ]
    },
@@ -6427,10 +6427,10 @@ export default {
             ? [ "<20>{#p/asriel1}Of course...", "<20>This is so much better than before." ]
             : [ "<20>{#p/asriel1}Finally.", "<20>I was so tired of being a star." ],
       friend91: [ "<20>{#p/asriel1}Howdy!", "<20>$(name), are you there?", "<20>It's me, your best friend." ],
-      friend92: "<99>{*}{#p/asriel3}{#v/1}{#i/12}艾斯利爾·逐夢{^10}{#p/event}{%}"
+      friend92: "<99>{*}{#p/asriel3}{#v/1}{#i/12}ASRIEL DREEMURR{^10}{#p/event}{%}"
    },
    b_opponent_finalasgore: {
-      name: "* 艾斯戈爾",
+      name: "* Asgore",
       death1: [
          "<11>{*}{#p/asgore}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}... so that is how it is...",
          "<11>{*}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}...",
@@ -6442,95 +6442,95 @@ export default {
       ]
    },
 
-   i_archive: { battle: { description: "", name: "" }, drop: [], info: [], name: "無", use: [] },
+   i_archive: { battle: { description: "", name: "" }, drop: [], info: [], name: "N/A", use: [] },
    i_archive_berry: {
-      battle: { description: "3 HP。", name: "洋梅" },
-      drop: [ "<32>{#p/human}* （你把洋梅扔掉了。）" ],
-      info: [ "<32>{#p/human}* （3 HP。）" ],
-      name: "洋梅",
-      use: [ "<32>{#p/human}* （你吃掉了洋梅。）" ]
+      battle: { description: "3 HP.", name: "Exoberries" },
+      drop: [ "<32>{#p/human}* (You throw away the Exoberries.)" ],
+      info: [ "<32>{#p/human}* (3 HP.)" ],
+      name: "Exoberries",
+      use: [ "<32>{#p/human}* (You eat the Exoberries.)" ]
    },
    i_archive_candy: {
-      battle: { description: "4 HP。", name: "糖果" },
-      drop: [ "<32>{#p/human}* （你把怪物糖果扔掉了。）" ],
-      info: [ "<32>{#p/human}* （4 HP。）" ],
-      name: "怪物糖果",
-      use: [ "<32>{#p/human}* （你吃掉了怪物糖果。）" ]
+      battle: { description: "4 HP.", name: "Candy" },
+      drop: [ "<32>{#p/human}* (You throw away the Monster Candy.)" ],
+      info: [ "<32>{#p/human}* (4 HP.)" ],
+      name: "Monster Candy",
+      use: [ "<32>{#p/human}* (You eat the Monster Candy.)" ]
    },
    i_archive_rations: {
-      battle: { description: "5 HP。", name: "口糧" },
-      drop: [ "<32>{#p/human}* （你把口糧扔掉了。）" ],
-      info: [ "<32>{#p/human}* （5 HP。）" ],
-      name: "口糧",
-      use: [ "<32>{#p/human}* （你吃掉了口糧。）" ]
+      battle: { description: "5 HP.", name: "Rations" },
+      drop: [ "<32>{#p/human}* (You throw away the Rations.)" ],
+      info: [ "<32>{#p/human}* (5 HP.)" ],
+      name: "Rations",
+      use: [ "<32>{#p/human}* (You eat the Rations.)" ]
    },
    i_archive_tzn: {
-      battle: { description: "6 HP。", name: "太空豆腐" },
-      drop: [ "<32>{#p/human}* （你把太空豆腐扔掉了。）" ],
-      info: [ "<32>{#p/human}* （6 HP。）" ],
-      name: "太空豆腐",
-      use: [ "<32>{#p/human}* （你吞下了太空豆腐。）" ]
+      battle: { description: "6 HP.", name: "Tofu" },
+      drop: [ "<32>{#p/human}* (You throw away the Space Tofu.)" ],
+      info: [ "<32>{#p/human}* (6 HP.)" ],
+      name: "Space Tofu",
+      use: [ "<32>{#p/human}* (You ingest the Space Tofu.)" ]
    },
    i_archive_nice_cream: {
-      battle: { description: "7 HP。", name: "冰意靈" },
-      drop: [ "<32>{#p/human}* （你把冰意靈扔掉了。）" ],
-      info: [ "<32>{#p/human}* （7 HP。）" ],
-      name: "冰意靈",
+      battle: { description: "7 HP.", name: "Ice Dream" },
+      drop: [ "<32>{#p/human}* (You throw away the Ice Dream.)" ],
+      info: [ "<32>{#p/human}* (7 HP.)" ],
+      name: "Ice Dream",
       use: [
          "<32>{#p/human}* (You unwrapped the Ice Dream.)",
          "<32>{#p/human}* (It's a holographic illustration of a crying child.)"
       ]
    },
    i_archive_healpak: {
-      battle: { description: "8 HP。", name: "治療包" },
-      drop: [ "<32>{#p/human}* （你把治療包扔掉了。）" ],
-      info: [ "<32>{#p/human}* （8 HP。）" ],
-      name: "治療包",
-      use: [ "<32>{#p/human}* （你使用了治療包。）" ]
+      battle: { description: "8 HP.", name: "Heal-pak" },
+      drop: [ "<32>{#p/human}* (You throw away the Heal-pak.)" ],
+      info: [ "<32>{#p/human}* (8 HP.)" ],
+      name: "Heal-pak",
+      use: [ "<32>{#p/human}* (You use the Heal-pak.)" ]
    },
    i_big_dipper: {
       battle: {
-         description: "一把巨勺，由本星系\n最好的合金材料製成。",
-         name: "大熊座"
+         description: "A whacking spoon made with the finest alloy in the galaxy.",
+         name: "Big Dipper"
       },
-      drop: [ "<32>{#p/human}* （你扔掉了大熊座。）" ],
+      drop: [ "<32>{#p/human}* (You throw away the Big Dipper.)" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* （15攻擊。）" ]
-            : [ "<32>{#p/basic}* 「大熊座」 （15攻擊）\n* 一把巨勺，由本星系\n  最好的合金材料製成。" ],
-      name: "大熊座",
-      use: [ "<32>{#p/human}* （你裝備上了大熊座。）" ]
+            ? [ "<32>{#p/human}* (15 AT.)" ]
+            : [ "<32>{#p/basic}* \"Big Dipper\" (15 AT)\n* A whacking spoon made with the finest alloy in the galaxy." ],
+      name: "Big Dipper",
+      use: [ "<32>{#p/human}* (You equip the Big Dipper.)" ]
    },
    i_heart_locket: {
       battle: {
-         description: "上面刻著「永遠都是好朋友」。",
-         name: "心形掛墜"
+         description: "It says \"Best Friends Forever.\"",
+         name: "Heart Locket"
       },
       drop: () => [
-         "<32>{#p/human}* （你扔掉了心形掛墜。）",
+         "<32>{#p/human}* (You threw away the Heart Locket.)",
          ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
             ? []
-            : [ "<32>{#p/basic}* ...", "<32>{#p/basic}* 我就當什麼都沒看見。" ])
+            : [ "<32>{#p/basic}* ...", "<32>{#p/basic}* I'm going to pretend you didn't just do that." ])
       ],
       info: () =>
          SAVE.data.b.svr
-            ? [ "<32>{#p/human}* （15防禦。）" ]
-            : [ "<33>{#p/basic}* 「心形掛墜」 （15防禦）\n* 上面刻著「永遠都是好朋友」。" ],
-      name: "心形掛墜",
-      use: [ "<32>{#p/human}* （你戴上了心形掛墜。）" ]
+            ? [ "<32>{#p/human}* (15 DF.)" ]
+            : [ "<33>{#p/basic}* \"Heart Locket\" (15 DF)\n* It says \"Best Friends Forever.\"" ],
+      name: "Heart Locket",
+      use: [ "<32>{#p/human}* (You equip the Heart Locket.)" ]
    },
    i_starling_tea: {
       battle: {
-         description: "好王配好茶。",
-         name: "星花茶"
+         description: "A fine tea worthy of a king.",
+         name: "Star Tea"
       },
-      drop: [ "<32>{#p/human}* （你把星花茶全倒掉了。）" ],
+      drop: [ "<32>{#p/human}* (You throw away the Starling Tea.)" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* （99 HP。）" ]
-            : [ "<32>{#p/basic}* 「星花茶」 回復99 HP\n* 好王配好茶。" ],
-      name: "星花茶",
-      use: [ "<32>{#p/human}* （你喝掉了星花茶。）" ]
+            ? [ "<32>{#p/human}* (99 HP.)" ]
+            : [ "<32>{#p/basic}* \"Starling Tea\" Heals 99 HP\n* A fine tea worthy of a king." ],
+      name: "Starling Tea",
+      use: [ "<32>{#p/human}* (You drank the Starling Tea.)" ]
    },
 
    k_hangar: {
@@ -6547,17 +6547,17 @@ export default {
    },
 
    s_save_citadel: {
-      c_elevator1: { name: "首塔", text: [] },
-      c_courtroom: { name: "最終長廊", text: [] },
-      c_road2: { name: "行宮", text: [] },
-      c_archive_start: { name: "e586b3e5bf83", text: [] },
-      c_archive_path1: { name: "e88090e5bf83", text: [] },
-      c_archive_path2: { name: "e58b87e6b0a3", text: [] },
-      c_archive_path3: { name: "e6ada3e79bb4", text: [] },
-      c_archive_path4: { name: "e6af85e58a9b", text: [] },
-      c_archive_path5: { name: "e59684e889af", text: [] },
-      c_archive_path6: { name: "e6ada3e7bea9", text: [] },
-      c_exit: { name: "終點", text: [] }
+      c_elevator1: { name: "The Citadel", text: [] },
+      c_courtroom: { name: "Last Corridor", text: [] },
+      c_road2: { name: "Royal Annex", text: [] },
+      c_archive_start: { name: "64657465726d696e6174696f6e", text: [] },
+      c_archive_path1: { name: "50617469656e6365", text: [] },
+      c_archive_path2: { name: "42726176657279", text: [] },
+      c_archive_path3: { name: "496e74656772697479", text: [] },
+      c_archive_path4: { name: "5065727365766572616e6365", text: [] },
+      c_archive_path5: { name: "4b696e646e657373", text: [] },
+      c_archive_path6: { name: "4a757374696365", text: [] },
+      c_exit: { name: "The End", text: [] }
    }
 };
 
