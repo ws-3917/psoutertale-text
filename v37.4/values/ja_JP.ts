@@ -271,7 +271,7 @@ export default {
                         const words = ender.split(/[ 　]/);
                         output = `${lines.slice(0, -1).join('\n')}${lines.length > 1 ? '\n' : ''}${words
                            .slice(0, -1)
-                           .join(' ')}\n${indent ? '  ' : ''}${words[words.length - 1]}`;
+                           .join('　')}\n${indent ? '  ' : ''}${words[words.length - 1]}`;
                      }
                   }
             }
