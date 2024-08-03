@@ -3642,7 +3642,7 @@ export default {
       tutorial_puzzle4a: [ "<25>{#p/toriel}{#f/0}* 到你了。" ],
       tutorial_puzzle5: [ "<25>{#p/toriel}* 幹得漂亮！\n* 只剩下一道障礙了。" ],
       tutorial_puzzle6: [ "<25>{#p/toriel}{#f/1}* 太棒了！\n* 孩子，你真令我驕傲！" ],
-      tutorial_puzzle7: [ "<25>{#p/toriel}* Come with me when you are ready to begin your next lesson." ],
+      tutorial_puzzle7: [ "<25>{#p/toriel}* 等你準備好了，\n  我們就去下個房間，\n  我會教你下一項本領。" ],
       tutorial_puzzle8a: [ "<25>{#p/toriel}* 答案不在我身上，小傢伙。" ],
       tutorial_puzzle8b: [ "<25>{#p/toriel}* 剛才怎麼做的，\n  再做一次就好。" ],
       tutorial_puzzle8c: [ "<25>{#p/toriel}{#f/1}* 試試看..." ],

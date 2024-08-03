@@ -11,8 +11,8 @@ export default {
 
       flee1: "    ＊ バトルからにげた…",
       flee2: "    ＊ さようなら。",
-      flee3: "    * I've got better to do.",
-      flee4: "    * Don't slow me down.",
+      flee3: "    ＊ こんなことを　している　ばあいじゃない。",
+      flee4: "    ＊ とめないで。",
       flee5: "    ＊ バトルからにげた。\n       $(x)EXPと$(y)ゴールドを　てにいれた。",
 
       mercy_assist: "* Assist",
@@ -25,61 +25,61 @@ export default {
 
    developer: {
       console: {
-         header: "ERROR",
+         header: "エラー",
          p_resume: {
-            header: "DISMISS",
-            resume: "Click To Dismiss"
+            header: "無視",
+            resume: "エラーを無視"
          },
-         blurb: "An error occured! Please send\nscreenshot to developer."
+         blurb: "エラーが発生しました！\n開発者にスクリーンショットを送ってください。"
       },
       control: {
-         tab: "CONTROL",
-         headers: [ "GENERAL", "バトル" ],
+         tab: "コントロール",
+         headers: [ "一般", "バトル" ],
          items: [
             [
-               "FixMusic",
-               "FixPlayer",
-               "InfiniteG",
-               "Interact",
-               "Input",
-               "Movement",
-               "Noclip",
+               "BGMを修正",
+               "プレイヤーを修正",
+               "ゴールド無限",
+               "調査を有効化",
+               "入力を有効化",
+               "移動を有効化",
+               "壁を無視",
                "セーブ",
-               "SkipText",
-               "Freecam"
+               "テキストをスキップ",
+               "自由な視点"
             ],
             [
-               "CanAssist",
-               "ClearBox",
-               "Exit",
-               "ResetBox",
-               "ResetMenu",
-               "CanFlee",
+               "援助を有効化",
+               "弾を削除",
+               "やめる",
+               "額縁サイズをリセット",
+               "メニューをリセット",
+               "「にげる」を有効化",
                "むげんHP",
-               "PacifyAll",
+               "敵全体を「にがす」",
                "じさつ",
-               "WeakenAll"
+               "敵全体を弱める"
             ]
          ],
          p_speed: {
             fps: "$(x) FPS",
-            halt: "Halt",
-            header: "GAME SPEED",
+            halt: "一時停止",
+            header: "ゲーム倍速",
             multiplier: "$(x)ばいそく",
             next: "かそく",
-            prev: "Less",
-            sec: "$(x)s/frame"
+            prev: "減速",
+            sec: "$(x)秒 / フレーム"
          }
       },
       godhome: {
-         tab: "GODHOME",
+         tab: "ゴッドモード",
          p_teleport: {
-            header: "ROOM",
-            action: "Teleport"
+            header: "ルーム",
+            action: "テレポート"
          },
          p_encounter: {
-            header: "ENCOUNTER",
-            action: "Start"
+            header: "バトル",
+            action: "始まる"
          },
          p_armor: {
             header: "アーマー"
@@ -89,15 +89,15 @@ export default {
          }
       },
       inspect: {
-         tab: "INSPECT",
-         headers: [ "LAYERS", "TYPES" ],
+         tab: "レイヤーを見る",
+         headers: [ "レイヤー", "タイプ" ],
          switches: [
-            [ "Base", "Below", "Main", "Above", "メニュー" ],
-            [ "Hitbox", "イラスト", "Text" ]
+            [ "底", "下", "メイン", "上", "メニュー" ],
+            [ "ヒットボックス", "イラスト", "テクスト" ]
          ],
          p_explorer: {
-            header: "EXPLORER",
-            layers: [ "Base (Explorer)", "Below (Explorer)", "Main (Explorer)", "Above (Explorer)", "Menu (Explorer)" ],
+            header: "閲覧",
+            layers: [ "底 (閲覧)", "下 (閲覧)", "メイン (閲覧)", "上 (閲覧)", "メイン (閲覧)" ],
             letters: {
                animation: "A",
                character: "C",
@@ -110,131 +110,131 @@ export default {
                text: "T"
             }
          },
-         debug_instructions: "Press [TAB] to cycle debug info",
+         debug_instructions: "[TAB]でデバッグ情報を閲覧します",
          debug: {
             a: "A", 
             acceleration: "Acceleration",
-            active: "Active",
+            active: "アクティブ",
             alpha: "Alpha",
             anchor: "Anchor",
             b: "B", 
             blend: "Blend",
             border: "Border",
-            compute: "Computed Size",
+            compute: "計算サイズ",
             content: "Content",
             crop: "Crop",
-            down: "Down",
+            down: "下",
             duration: "Duration",
             exp: "EXP",
             extent: "Extent",
             f: "F", 
-            face: "Face",
-            false: "False",
-            fill: "Fill",
-            fontFamily: "Font Family",
-            fontSize: "Font Size",
+            face: "方向",
+            false: "いいえ",
+            fill: "色を充填",
+            fontFamily: "フォントファミリー",
+            fontSize: "フォントサイズ",
             frames: "Frames",
             gravity: "Gravity",
-            group: "Group",
+            group: "グループ",
             hp: "HP",
             index: "Index",
             inert: "Inert",
-            key: "Key",
-            lastSavedTime: "Last Saved Time",
-            layer: "Layer",
-            layers: "Layers",
-            left: "Left",
-            metadata: "Metadata",
+            key: "キー",
+            lastSavedTime: "前回セーブの時間",
+            layer: "レイヤー",
+            layers: "レイヤー",
+            left: "左",
+            metadata: "メタデータ",
             music: "BGM",
-            namespace: "Namespace",
+            namespace: "名前空間",
             none1: "NONE",
             none2: "none",
-            objects: "Objects",
+            objects: "対象",
             oversaver: "Oversaver",
             parallax: "Parallax",
-            position: "Position",
+            position: "位置",
             primed: "Primed",
             priority: "Priority",
-            registry: "REGISTRY",
+            registry: "レジストリ",
             renderer: "Renderer",
-            resources: "Resources",
+            resources: "リソース",
             reverse: "Reverse",
             right: "Right",
-            room: "Room",
-            roomState: "Room State",
+            room: "ルーム",
+            roomState: "ルーム状態",
             rotation: "Rotation",
             s: "S", 
-            scale: "Scale",
-            shopSelection: "Shop Selection",
-            size: "Size",
+            scale: "スケーリング",
+            shopSelection: "店の選択肢",
+            size: "サイズ",
             spacing: "Spacing",
             spin: "Spin",
             sprites: "Sprites",
             step: "Step",
             stroke: "Stroke",
             subcrop: "Subcrop",
-            talk: "Talk",
+            talk: "会話",
             target: "Target",
-            text: "Text",
+            text: "テクスト",
             tint: "Tint",
-            trackedAssets: "Tracked Assets",
-            true: "True",
+            trackedAssets: "使用されている資源",
+            true: "はい",
             unknown: "UNKNOWN",
-            up: "Up",
-            vars: "Vars",
+            up: "上",
+            vars: "変数",
             velocity: "Velocity",
             volatile: "Volatile"
          }
       },
       savemod: {
-         tab: "SAVEMOD",
-         header1: "SAVE EDITOR",
+         tab: "セーブモード",
+         header1: "セーブ　エディタ",
          domains: [
-            "Data (Booleans)",
-            "Data (Numbers)",
-            "Data (Strings)",
-            "Flags (Booleans)",
-            "Flags (Numbers)",
-            "Flags (Strings)"
+            "データ (ブーリアン)",
+            "データ (ナンバー)",
+            "データ (文字列)",
+            "フラグ (ブーリアン)",
+            "フラグ (ナンバー)",
+            "フラグ (文字列)"
          ],
          p_page: {
-            header: "NAVIGATION",
-            prev: "Prev",
-            next: "Next"
+            header: "ページをめくる",
+            prev: "前のページ",
+            next: "次のページ"
          },
          prompt: "Enter Value",
-         back: "Back"
+         back: "もどる"
       },
       storage: {
-         tab: "STORAGE",
-         header: "STORAGE EDITOR",
-         p_container: { header: "SELECTION", prev: "Prev", next: "Next" },
-         display: { inventory: "Inventory", dimboxA: "Dim. Box A", dimboxB: "Dim. Box B" }
+         tab: "在庫",
+         header: "在庫のエディタ",
+         p_container: { header: "容器を選ぶ", prev: "前のページ", next: "次のページ" },
+         display: { inventory: "アイテム", dimboxA: "いじげんボックスA", dimboxB: "いじげんボックスB" }
       }
    },
 
    dialog: {
-      dialog_clear_title: "Clear File",
-      dialog_notice_title: "Notice",
-      dialog_open: { buttonLabel: "Open", name: "SAVE files", title: "Open File" },
-      dialog_save: { buttonLabel: "セーブ", name: "SAVE files", title: "Save File" },
-      error_load: "That file could not be parsed.",
-      message_alert: [ "OK" ],
-      message_confirm: [ "Cancel", "OK" ],
+      dialog_clear_title: "セーブファイルを消去",
+      dialog_notice_title: "注意",
+      dialog_open: { buttonLabel: "開く", name: "セーブファイル", title: "セーブファイルを輸入" },
+      dialog_save: { buttonLabel: "セーブ", name: "セーブファイル", title: "セーブファイルを輸出" },
+      error_load: "ファイルは解析できませんでした。",
+      message_alert: [ "確定" ],
+      message_confirm: [ "やめる", "確定" ],
       prompt_clear: "Clear this file?",
-      prompt_demo: "Your SAVE file from the\nOUTERTALE demo has been\nmoved to a timeline slot.",
-      prompt_save: "Save this file?",
-      prompt_save_alternate: "Copy the text below into\na JSON file to save it\nto your device.",
-      prompt_open: "Load this file?"
+      prompt_demo: "OUTERTALE demoのセーブファイルを\n他のタイムラインに移動しました。",
+      prompt_save: "セーブしますか？",
+      prompt_save_alternate: "新たにJSONファイルを作成し\n以下の内容をコピーして\nデバイスに保存します。",
+      prompt_open: "ロードしますか？"
    },
 
    extra: {
       credits: [
          [
-            "§fill=#ff0§< DEVELOPER >§fill=#fff§",
+            "§fill=#ff0§< かいはつ >§fill=#fff§",
             "spacey_432",
             "",
-            "§fill=#ff0§< WRITER >§fill=#fff§",
+            "§fill=#ff0§< テキスト >§fill=#fff§",
             "Balgamlı Kedi",
             "Bilge \"mnwary\"",
             "Efe Kaya",
@@ -248,7 +248,7 @@ export default {
             "Zaxento The Greedy"
          ],
          [
-            "§fill=#ff0§< ARTIST >§fill=#fff§",
+            "§fill=#ff0§< びじゅつ >§fill=#fff§",
             "Balgamlı Kedi",
             "Burge",
             "Deskius",
@@ -265,7 +265,7 @@ export default {
             "PhyreFM"
          ],
          [
-            "§fill=#ff0§< ARTIST >§fill=#fff§",
+            "§fill=#ff0§< びじゅつ >§fill=#fff§",
             "Pongy25",
             "PoTheWinterCorder",
             "ProctorDorkchop02",
@@ -277,12 +277,12 @@ export default {
             "Valor52",
             "Zaxento The Greedy",
             "",
-            "§fill=#ff0§< TECHNICIAN >§fill=#fff§",
+            "§fill=#ff0§< ぎじゅつ >§fill=#fff§",
             "Codetoil",
             "ws3917"
          ],
          [
-            "§fill=#ff0§< TESTER >§fill=#fff§",
+            "§fill=#ff0§< テスター >§fill=#fff§",
             "Alden",
             "Aspey",
             "Balgamlı Kedi",
@@ -299,7 +299,7 @@ export default {
             "Efe Kaya"
          ],
          [
-            "§fill=#ff0§< TESTER >§fill=#fff§",
+            "§fill=#ff0§< テスター >§fill=#fff§",
             "Emurry",
             "Enzolos",
             "EvanGamesGoodman",
@@ -316,7 +316,7 @@ export default {
             "InvincibleRacoon"
          ],
          [
-            "§fill=#ff0§< TESTER >§fill=#fff§",
+            "§fill=#ff0§< テスター >§fill=#fff§",
             "Jago128",
             "Joe98912",
             "Jojoton56",
@@ -333,7 +333,7 @@ export default {
             "semi"
          ],
          [
-            "§fill=#ff0§< TESTER >§fill=#fff§",
+            "§fill=#ff0§< テスター >§fill=#fff§",
             "Shaun Duz Stuffs",
             "SHCyank",
             "NerNot1",
@@ -350,7 +350,7 @@ export default {
             "spaceknife234"
          ],
          [
-            "§fill=#ff0§< TESTER >§fill=#fff§",
+            "§fill=#ff0§< テスター >§fill=#fff§",
             "SquigglyWiggley",
             "superkippy",
             "Teecup",
@@ -365,36 +365,36 @@ export default {
             "Zaxento The Greedy"
          ],
          [
-            "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§",
+            "§fill=#ff0§< スペシャル・サンクス >§fill=#fff§",
             "Alden",
-            "§fill=#808080§For being there for me when I\nneed someone to lean on, and\nteaching me life lessons that\nhave made me a better person.§fill=#fff§"
+            "§fill=#808080§わたしを　ささえてくれて\nじんせいのどうりを　おしえてくれて\nよくなってくれて\nありがとうございます。§fill=#fff§"
          ],
          [
-            "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§",
+            "§fill=#ff0§< スペシャル・サンクス >§fill=#fff§",
             "My Cocoa",
-            "§fill=#808080§For being one of the friendliest\npeople I know, the first person\nto believe in my vision, and\ninspiring me to finish the game.§fill=#fff§"
+            "§fill=#808080§わたしのゆめを　サポートする\nさいしょのひと　もっとも\nあたたかい　パートナーです。\nあなたに　はげまされて\nこのゲームを　かんせいさせてくれて\nありがとうございます。§fill=#fff§"
          ],
          [
-            "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§",
+            "§fill=#ff0§< スペシャル・サンクス >§fill=#fff§",
             "Balgamlı Kedi",
-            "§fill=#808080§For sticking with me at every\nstage of development, right from\nthe start. Regardless of the era,\nhe's always been there to help.§fill=#fff§"
+            "§fill=#808080§ゲームかいはつ　とうしょから\nいつも　いっしょに　いてくれて\nありがとうございます。\nいつもわたしが　いちばんたすけが\nひつようなときに　ささえてくれて\nありがとうございます。§fill=#fff§"
          ],
          [
-            "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§",
+            "§fill=#ff0§< スペシャル・サンクス >§fill=#fff§",
             "Ghostly",
-            "§fill=#808080§For being a voice of reason when\nit comes to many aspects of the\ngame, and encouraging me to take\ntesting seriously.§fill=#fff§"
+            "§fill=#808080§すばらしい　アドバイス\nゲームテストに　しんけんに\nとりくむよう　はげましてくれて\nありがとうございます。§fill=#fff§"
          ],
          [
-            "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§",
+            "§fill=#ff0§< スペシャル・サンクス >§fill=#fff§",
             "Zaxento The Greedy",
-            "§fill=#808080§For being reliable, brutally\nhonest, giving me lots of\ncriticism and ideas, and being\ntrustworthy from the day we met.§fill=#fff§"
+            "§fill=#808080§しりあったとき　から\nとても　たよりになります。\nそっちょくな　アドバイスを　いただき\nありがとうございます。§fill=#fff§"
          ],
          [
-            "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§",
+            "§fill=#ff0§< スペシャル・サンクス >§fill=#fff§",
             "ThatGuyWhoLikesFood",
-            "§fill=#808080§For helping me write crucial\nparts of the game, supporting my\nvision, and helping me express\nmyself in a whole new way.§fill=#fff§"
+            "§fill=#808080§ゲームの　キーストーリーを\nかいてくれて　いつもわたしを\nおうえんしてくれて　あたらしい\nひょうげんが　できるように\nありがとうございます。§fill=#fff§"
          ],
-         [ "Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§" ]
+         [ "§fill=#ff0§Mavisとおともたち§fill=#fff§　ていきょう" ]
       ],
 
       final_frontier: {
@@ -799,11 +799,11 @@ export default {
          }
       },
 
-      langPrompt: "[↑ or ↓] to Select / [Z or ENTER] to Confirm",
+      langPrompt: "[↑ / ↓]で　せんたく / [Z or ENTER]で　けってい",
 
-      quitText1: "Quitting",
-      quitText2: "Quitting.",
-      quitText3: "Quitting..",
+      quitText1: "しゅうりょうしています",
+      quitText2: "しゅうりょうしています…",
+      quitText3: "しゅうりょうしています……",
 
       real1: [
          [
@@ -842,11 +842,11 @@ export default {
       real2: "Take care of yourself, \"$(x).\"",
 
       end1: "THE END",
-      end2: "THE END...?",
+      end2: "THE END…？",
 
-      restartText1: "Restarting",
-      restartText2: "Restarting.",
-      restartText3: "Restarting..",
+      restartText1: "さいきどうしています",
+      restartText2: "さいきどうしています…",
+      restartText3: "さいきどうしています……",
 
       title: "OUTERTALE (RC8)",
       title_timeline: "OUTERTALE...? (RC8)"
@@ -855,20 +855,20 @@ export default {
    gamepad: {
       prompt: "GAMEPAD SETUP",
       prompt_desc:
-         "Use an input on your gamepad to assign\nit to the in-game action.\n\nUse the input again to confirm, or use\nother inputs to assign those as well.\n\nPress ESC to skip setup.",
-      prompt_counter: "Inputs Assigned: $(x)",
-      z: "[Z or ENTER] - Confirm",
-      x: "[X or SHIFT] - Cancel",
-      c: "[C or CTRL] - Menu (In-game)",
-      u: "[UP or W] - Move Up",
-      l: "[LEFT or A] - Move Left",
-      d: "[DOWN or S] - Move Down",
-      r: "[RIGHT or D] - Move Right",
-      f: "[F4] - Fullscreen",
-      prompt_done: "Setup complete.\nPress any button to continue.",
-      prompt_done_browser: "\nNote: On this platform, the gamepad may\nnot always be able to enter fullscreen.",
+         "ゲームパッドから　ボタンを　せんたくして\nゲームのそうさを　せっていします。\n\nおなじボタンを　おして　けっていするか\nべつのボタンを　おして　さいせっていします。\n\n[ESC]で　せっていを　スキップします。",
+      prompt_counter: "せんたく　すみ：$(x)",
+      z: "[Z / ENTER] - かくてい",
+      x: "[X / SHIFT] - キャンセル",
+      c: "[C / CTRL] - フィールドメニュー",
+      u: "[↑ / W] - うえ",
+      l: "[← / A] - ひだり",
+      d: "[↓ / S] - した",
+      r: "[→ / D] - みぎ",
+      f: "[F4] - フルスクリーン",
+      prompt_done: "せってい　かんりょうしました。\nにんいのボタンを　おして　つづけます。",
+      prompt_done_browser: "\nちゅうい：本プラットフォームで　プレイするばあい\nコントローラーで　ぜんがめんを　ひらくことが\nできないばあいが　あります。",
       prompt_load:
-         "A gamepad has already been set up.\nPress any button to continue, or press\nany button three times in rapid\nsuccession to restart setup.\n\nPress ESC to skip setup."
+         "コントローラーのせってい　かんりょうしました。\nにんいのボタンを　おして　つづけます。\nあるいは　あるボタンを　3回おして\nコントローラーを　リセットします。\n\n[ESC]で　せっていを　スキップします。"
    },
 
    general: {
@@ -876,7 +876,7 @@ export default {
       asriel_location: "The Oblivion",
       disabled: "オフ",
       enabled: "オン",
-      finish: "Press [X] to Finish",
+      finish: "[X]で　もどる",
       frisk: "Frisk",
       g: "G",
       hp: "HP",
@@ -884,34 +884,34 @@ export default {
       landing1: "[PRESS Z OR ENTER]",
       lv: "LV",
       mystery1: "§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§",
-      mystery2: "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}",
-      mystery2l: "{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}",
-      mystery2u: "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}",
-      no: "No",
+      mystery2: "{@mystify=あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉゃゅょっゎゑアイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォャュョッヮヰヱヵヶ}ああああああ{@mystify=}",
+      mystery2l: "{@mystify=あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉゃゅょっゎゑ}ああああああ{@mystify=}",
+      mystery2u: "{@mystify=アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォャュョッヮヰヱヵヶ}ああああああ{@mystify=}",
+      no: "いいえ",
       nominal: "§fill=#0f0§NOMINAL",
       percent: "$(x)%",
       player: "player",
       settings: "せってい",
       unknown: "?",
       xm: "XM",
-      yes: "Yes"
+      yes: "はい"
    },
 
    menu: {
       box1: "INVENTORY",
-      box2: "BOX",
+      box2: "ボークス",
       key1: "KEYRING",
 
-      confirm1: "Is this name correct?",
-      confirm2: "A name has already\nbeen chosen.",
+      confirm1: "このなまえで\nよろしいですか？",
+      confirm2: "すでに　なまえが\nつけられています。",
       confirm3: "もどる",
 
-      footer: "OUTERTALE V5.00 (c) 2024 SPACEY_432",
+      footer: "OUTERTALE V5.00 (c) 2024 SPACEY_432 にほんご",
 
-      heal1: "* (HP fully restored.)",
-      heal2: "* (You recovered $(x) HP.)",
-      heal3: "* (You lost $(x) HP.)",
-      heal4: "* (HP fully depleted.)",
+      heal1: "＊ (HPが　まんタンになった)",
+      heal2: "＊ (HPが　$(x)かいふくした)",
+      heal3: "＊ (HPが　$(x)へった)",
+      heal4: "＊ (HPが　0になった)",
       heal5: "* (You gained $(x) HP.)",
 
       item1: "USE",
@@ -924,17 +924,17 @@ export default {
       load3: "リセット",
       load4: "本当のリセット",
 
-      name1: "Name the stranded human.",
-      name2: "Quit",
-      name3: "Backspace",
-      name4: "Done",
-      name5: "§fill=#808080§ [ESC] - Quit / [ENTER] - Done",
+      name1: "じこにあったニンゲンに　なまえをつけてください",
+      name2: "やめる",
+      name3: "さくじょ",
+      name4: "かくてい",
+      name5: "§fill=#808080§ [ESC] - やめる / [ENTER] - かくてい",
 
       save1: "セーブ",
-      save2: "Return",
-      save3: "File saved.",
+      save2: "もどる",
+      save3: "セーブしました。",
 
-      settings1: "SETTINGS",
+      settings1: "せってい",
       settings2: "もどる",
       settings3: "げんご",
       settings3a: "にほんご",
@@ -950,24 +950,24 @@ export default {
       settings8c: "HIDDEN",
       settings9: "デッドゾーン",
       settings10: "Modフォルダをひらく",
-      settings11: "RESTART",
+      settings11: "さいきどう",
 
       sidebar1: "ITEM",
       sidebar2: "STAT",
-      sidebar3: "CELL",
-      sidebar4: "CONF",
+      sidebar3: "PHONE",
+      sidebar4: "せってい",
       sidebar5: "S",
 
       start1: [
-         "--- Instruction ---",
-         "[Z or ENTER] - Confirm",
-         "[X or SHIFT] - Cancel",
-         "[C or CTRL] - Menu (In-game)",
-         "[F4] - Fullscreen",
-         "[Hold ESC] - Restart",
-         "When HP is 0, you lose."
+         "― ボタンそうさ ―",
+         "[Z / ENTER] - かくてい",
+         "[X / SHIFT] - キャンセル",
+         "[C / CTRL] - フィールドメニュー",
+         "[F4] - フルスクリーン",
+         "[ESCながおし] - さいきどう",
+         "HPが0になるとゲームオーバー"
       ],
-      start2: "Begin Game",
+      start2: "ゲームをはじめる",
 
       stat1: "AT",
       stat2: "DF",
@@ -976,24 +976,24 @@ export default {
       stat5: "GOLD",
       stat6: "EXP",
       stat7: "NEXT",
-      stat8: "§fill=#ff0§Warning:\nNon-canon\ntimeline.",
+      stat8: "§fill=#ff0§けいこく：\nﾒｲﾝﾀｲﾑﾗｲﾝでは\nありません",
       stat9: "KILLS",
       stat10: "BULLY",
       stat11: "FLIRT",
       stat12: "STATUS",
       stat13: "\"$(x)\"",
 
-      story1: [ "<24>{#p/storyteller}むかしむかし　たいようけいには\nニンゲンと　モンスターという\n2つのしゅぞくが　いました。{^35}{}" ],
-      story2: [ "<24>ときが　たつにつれ\n2つのしゅぞくの　あいだに\nせんそうが　おきました。{^35}{}" ],
+      story1: [ "<16>{#p/storyteller}むかしむかし　たいようけいには\nニンゲンと　モンスターという\n2つのしゅぞくが　いました。{^35}{}" ],
+      story2: [ "<16>ときが　たつにつれ\n2つのしゅぞくの　あいだに\nせんそうが　おきました。{^35}{}" ],
       story3: [ "<16>そして　モンスターたちの　母星を　はかいされたすえ　ニンゲンが　しょうりしました。{^35}{}" ],
       story4: [ "<16>のこりの　モンスターたちは　ほうきされた　ぜんしょうきちに　ついほうされた。{^35}{}" ],
-      story5: [ "<24>ニンゲンは　きょうりょくな\nフォース　フィールドで\nモンスターたちを　とじこめました。{^35}{}" ],
-      story6: [ "<24>それから　さらに\nながい　ときが　ながれ…{^8}…{^8}…{^35}{}" ],
+      story5: [ "<16>ニンゲンは　きょうりょくな\nフォース　フィールドで\nモンスターたちを　とじこめました。{^35}{}" ],
+      story6: [ "<16>それから　さらに\nながい　ときが　ながれ…{^8}…{^8}…{^35}{}" ],
       story7: [ "<#24>     EBOTT SECTOR     \n         251X{^35}{}" ],
-      story8: [ "<24>Tales speak of a place from which spacecraft never return.{^35}{}" ],
-      story9: [ "<24>{^100}{}" ],
-      story10: [ "<24>{^100}{}" ],
-      story11: [ "<24>{^35}{}" ]
+      story8: [ "<16>それは　「うちゅうきは\nにどと　もどらない」といわれる\nてんせつのセクターでした。{^35}{}" ],
+      story9: [ "<16>{^100}{}" ],
+      story10: [ "<16>{^100}{}" ],
+      story11: [ "<16>{^35}{}" ]
    },
 
    timeline: {
@@ -1007,7 +1007,7 @@ export default {
       launch: "Launch",
       rename: "Rename",
       create: "Create New",
-      placeholder: "Enter Timeline Name",
+      placeholder: "タイムラインを　命名",
       confirm: "Are You Sure?"
    }
 };

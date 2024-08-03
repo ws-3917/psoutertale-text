@@ -3647,23 +3647,23 @@ export default {
       tutorial_puzzle8b: [ "<25>{#p/toriel}* Try repeating what you have done before." ],
       tutorial_puzzle8c: [ "<25>{#p/toriel}{#f/1}* Go on..." ],
       twinkly1: [
-         "<25>{#p/twinkly}{#f/5}* Howdy!\n* I'm {@fill=#ff0}TWINKLY{@fill=#fff}.\n* {@fill=#ff0}TWINKLY{@fill=#fff} the {@fill=#ff0}STAR{@fill=#fff}!"
+         "<16>{#p/twinkly}{#f/5}＊ ハロー！\n＊ ボクは　{@fill=#ff0}トゥインクリィ{@fill=#fff}。\n＊ {@fill=#ff0}おほし{@fill=#fff}の{@fill=#ff0}トゥインクリィ{@fill=#fff}さ！"
       ],
       twinkly2: [
-         "<25>{#f/5}* What brings you to the outpost, fellow traveler?",
+         "<16>{#f/5}＊ どうやって　このぜんしょうきちに　きたのですか？",
          "<25>{#f/5}* ...",
-         "<25>{#f/8}* You're lost, aren't you...",
-         "<25>{#f/5}* Well, good thing I'm here for you!",
-         "<25>{#f/8}* I haven't been in my top form for a while, but...",
-         "<25>{#f/5}* ... someone ought to teach you how things work around here!",
-         "<25>{#f/10}* Guess little old me will have to do.",
-         "<25>{#f/5}* Let's get started, shall we?"
+         "<16>{#f/8}＊ もしかして　みちに　まよったんですか？",
+         "<16>{#f/5}＊ だいじょうぶ！　おてつだいします！",
+         "<16>{#f/8}＊ わたしは　てきにんしゃではない　かもしれませんが　キミは…",
+         "<16>{#f/5}＊ ここのルールも　しらないでしょ？",
+         "<16>{#f/10}＊ それなら　ボクが　おしえてあげよう。",
+         "<16>{#f/5}＊ さぁ　はじめましょう！"
       ],
       twinkly3: [
          "<25>{#f/7}* But you already KNEW that, didn'tcha?",
          "<25>{#f/8}* ...",
          "<25>{#f/5}* Still, it's up to me to show you the ropes.",
-         "<25>* Let's get started, shall we?"
+         "<16>＊ さぁ　はじめましょう！"
       ],
       twinkly4: [
          "<25>{#p/twinkly}{#f/6}* Okay, that's enough.",
@@ -3729,51 +3729,51 @@ export default {
          "<25>{#f/5}* Well, good luck!"
       ],
       twinkly10: [
-         "<20>{#f/5}See that heart? That's your SOUL, the very culmination of your being!",
-         "<20>{#f/5}Your SOUL is an important part of you, and needs LOVE to sustain itself."
+         "<13>{#f/5}そのハートはね　キミのタマシイさ　キミという　そんざい　そのもの　といってもいい",
+         "<13>{#f/5}タマシイは　じゅうようであり　それじたいを　いじするために　LOVEが　ひつようです"
       ],
       twinkly11: [
-         "<20>{*}{#x2}{#f/5}Out here, LOVE is shared through... {#f/8}little white... {#f/11}'happiness shards.'",
-         "<20>{*}{#f/5}To get you started on the right path, I'll share some of my own LOVE.",
-         "<20>{*}{#f/5}Try to get as many as you can!{^20}{*}{#x1}{%}"
+         "<13>{*}{#x2}{#f/5}ここではね　LOVEは　こんなふうに…{#f/8}　しろくて　ちっちゃな…{#f/11}　「こうふくカケラ」に　いれて　プレゼントするんだ",
+         "<13>{*}{#f/5}ただしい　みちをあゆむ　ために　いまボクが　LOVEを　わけてあげるから",
+         "<13>{*}{#f/5}さあ！　いっぱい　いーっぱい　ひろってね！{^20}{*}{#x1}{%}"
       ],
       twinkly12: [
-         "<20>{*}{#f/8}Whoops, I think you might've missed them...",
-         "<20>{*}{#f/5}But that's okay!",
-         "<20>{*}{#x2}{#f/10}Here, have some more.{^20}{*}{#x1}{%}"
+         "<13>{*}{#f/8}あれ？　ぜんぶ　おとしちゃったよ？",
+         "<13>{*}{#f/5}だいじょうぶ！",
+         "<13>{*}{#x2}{#f/10}じゃ　もういっかい！{^20}{*}{#x1}{%}"
       ],
       twinkly13: [
-         "<20>{*}{#f/12}What the-... are you braindead or something??",
-         "<20>{*}{#x2}RUN. INTO. THE. BULLETS!!!{^20}{*}{#x1}{^999}"
+         "<13>{*}{#f/12}ふざ…　おまえ　バカなの？",
+         "<13>{*}{#x2}さっさと{^4}　あたれよ！{^4}　たｍ{^20}{*}{#x1}{^999}"
       ],
-      twinkly14: "RUN. INTO. THE. happiness shards~",
+      twinkly14: "さっさと　あたれよ…　こうふくカケラに～",
       twinkly15: [
-         "<20>{#v/1}Hee hee hee...",
-         "<20>In this world, it's KILL or BE killed.",
-         "<20>Imagine, a SOUL like yours crash-landing on my doorstep...",
-         "<20>Did you really think I'd pass up such a golden opportunity?"
+         "<13>{#v/1}ヒヒヒ…",
+         "<13>このせかいでは　ころすか　ころされるかだ",
+         "<13>かもが　ねぎを　せおってくる…",
+         "<13>こんな　ぜっこうの　チャンスを　のがすわけ　ないだろ！"
       ],
       twinkly16: [
-         "<20>{#f/7}Nah, you know what's going on here, don'tcha?",
-         "<20>You just wanted to torment little old Twinkly, didn'tcha?",
+         "<13>{#f/7}オマエ…　さては　しらないフリ　してるだけだな？",
+         "<13>ボク　トゥインクリィのこと　バカにしてんだろ",
          "<20>Golly... you must have no idea who you're messing with.",
-         "<20>{#f/11}Hee hee hee..."
+         "<13>{#f/11}ヒヒヒ…"
       ],
       twinkly17: [ "<20>{#v/1}We'll just have to cut straight to the point, won't we?", "<20>Hee hee hee..." ],
-      twinkly18: [ "<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}DIE.{^20}{%}" ],
-      twinkly19: [ "<20>{#p/toriel}What a terrible creature, torturing such a poor, innocent youth..." ],
+      twinkly18: [ "<13>{*}{#f/2}{#v/1}{@random=1.1/1.1}しね{^20}{%}" ],
+      twinkly19: [ "<13>{#p/toriel}なさけないわね…　つみもないこどもを　いじめるなんて…" ],
       twinkly20: [
-         "<20>Have no fear, little one.",
-         "<20>I am {@fill=#003cff}TORIEL{@fill=#000}, overseer of the {@fill=#f00}OUTLANDS{@fill=#000}.",
-         "<20>I come by every day to check for those who have been stranded here.",
-         "<20>Follow me, child.\nThere is much I intend to teach you."
+         "<13>こわがらなくても　だいじょうぶよ",
+         "<13>わたしは　{@fill=#003cff}トリエル{@fill=#000}　この{@fill=#f00}アウターランド{@fill=#000}の　かんりにん　です",
+         "<13>まいにち　ここを　みまわって　じこにあったコが　いないか　かくにんしているの",
+         "<20>さ　いきましょう！　いろいろ　おしえてあげるわ"
       ],
       twinkly21: [
          "<25>{#p/toriel}{#f/1}* Oh my!\n* Where did you come from, little one?",
-         "<25>{#f/1}* Are you injured?",
+         "<16>{#f/1}* ケガは　ない？",
          "<25>{#f/0}* ...\n* Forgive me for asking so many questions.",
-         "<25>{#f/0}* I am {@fill=#003cff}TORIEL{@fill=#fff}, overseer of the {@fill=#f00}OUTLANDS{@fill=#fff}.",
-         "<26>{#f/0}* I come by every day to check for those who\n  have been stranded here.",
+         "<25>{#f/0}＊ わたしは　{@fill=#003cff}トリエル{@fill=#000}　この{@fill=#f00}アウターランド{@fill=#000}の　かんりにん　です。",
+         "<26>{#f/0}＊ まいにち　ここを　みまわって　じこにあったコが　いないか　かくにんしているの。",
          "<25>{#f/0}* Follow me, child.\n* There is much I intend to teach you."
       ],
       twinkly22: [ "<25>{#f/0}* This way." ],
