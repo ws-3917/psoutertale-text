@@ -20,7 +20,7 @@
             </termEntry>
             <termEntry id="Homeland">
                 <langSet xml:lang="en"><tig><term>Krios</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>克里乌斯</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term/></tig></langSet>
             </termEntry>
             <termEntry id="New World Planet">
                 <langSet xml:lang="en"><tig><term>Eurybia</term></tig></langSet>
@@ -84,19 +84,19 @@
             </termEntry>
             <termEntry id="Foundry savepoint">
                 <langSet xml:lang="en"><tig><term>Dark Zone</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>暗区</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term/></tig></langSet>
             </termEntry>
             <termEntry id="Foundry savepoint">
                 <langSet xml:lang="en"><tig><term>Abyss</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>深渊</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term/></tig></langSet>
             </termEntry>
             <termEntry id="Foundry savepoint">
                 <langSet xml:lang="en"><tig><term>Vending Machine</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>售货机</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term/></tig></langSet>
             </termEntry>
             <termEntry id="Foundry savepoint">
                 <langSet xml:lang="en"><tig><term>Trash Zone</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>垃圾场</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term/></tig></langSet>
             </termEntry>
             <termEntry id="Main area">
                 <langSet xml:lang="en"><tig><term>Aerialis</term></tig></langSet>
@@ -112,19 +112,11 @@
             </termEntry>
             <termEntry id="Main area">
                 <langSet xml:lang="en"><tig><term>Citadel</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>首塔</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term/></tig></langSet>
             </termEntry>
             <termEntry id="Main area">
                 <langSet xml:lang="en"><tig><term>Archive Six</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>六号档案</term></tig></langSet>
-            </termEntry>
-            <termEntry id="Foundry Savepoint">
-                <langSet xml:lang="en"><tig><term>Quiet Area</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>宁静地带</term></tig></langSet>
-            </termEntry>
-            <termEntry>
-                <langSet xml:lang="en"><tig><term>Rec Center</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>休闲回廊</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term/></tig></langSet>
             </termEntry>
         </body>
     </text>

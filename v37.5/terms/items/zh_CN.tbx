@@ -124,7 +124,7 @@
             </termEntry>
             <termEntry id="key">
                 <langSet xml:lang="en"><tig><term>Sanctuary</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>圣所</term></tig></langSet>
+                <langSet xml:lang="zh_Hans"><tig><term/></tig></langSet>
             </termEntry>
             <termEntry id="consumable">
                 <langSet xml:lang="en"><tig><term>Water</term></tig></langSet>
@@ -303,58 +303,6 @@
             <termEntry id="armor">
                 <langSet xml:lang="en"><tig><term>Worn Spacesuit</term></tig></langSet>
                 <langSet xml:lang="zh_CN"><tig><term>破损的宇航服</term></tig></langSet>
-            </termEntry>
-            <termEntry id="consumable">
-                <langSet xml:lang="en"><tig><term>exoberry</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>洋梅</term></tig></langSet>
-            </termEntry>
-            <termEntry id="weapon">
-                <langSet xml:lang="en"><tig><term>Datapad</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>平板电脑</term></tig></langSet>
-            </termEntry>
-            <termEntry id="weapon">
-                <langSet xml:lang="en"><tig><term>Datapad?</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>平板电脑？</term></tig></langSet>
-            </termEntry>
-            <termEntry id="consumable">
-                <langSet xml:lang="en"><tig><term>Slider Trio</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>三只小汉堡</term></tig></langSet>
-            </termEntry>
-            <termEntry id="consumable">
-                <langSet xml:lang="en"><tig><term>Corn Dog</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>玉米热狗</term></tig></langSet>
-            </termEntry>
-            <termEntry id="consumable">
-                <langSet xml:lang="en"><tig><term>Corn Dog Sword</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>玉狗圣剑</term></tig></langSet>
-            </termEntry>
-            <termEntry id="consumable">
-                <langSet xml:lang="en"><tig><term>Slider</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>小汉堡</term></tig></langSet>
-            </termEntry>
-            <termEntry id="consumable(short-name-2)">
-                <langSet xml:lang="en"><tig><term>Sliders</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>小汉堡</term></tig></langSet>
-            </termEntry>
-            <termEntry id="consumable">
-                <langSet xml:lang="en"><tig><term>Slider Duo</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>两只小汉堡</term></tig></langSet>
-            </termEntry>
-            <termEntry id="consumable">
-                <langSet xml:lang="en"><tig><term>Flamin' Grillby</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>烈焰Grillby</term></tig></langSet>
-            </termEntry>
-            <termEntry id="consumable">
-                <langSet xml:lang="en"><tig><term>Corn Goat</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>玉米热羊</term></tig></langSet>
-            </termEntry>
-            <termEntry id="consumable(short-name)">
-                <langSet xml:lang="en"><tig><term>Grillby</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>Grillby</term></tig></langSet>
-            </termEntry>
-            <termEntry id="consumable(short-name)">
-                <langSet xml:lang="en"><tig><term>Dog Sword</term></tig></langSet>
-                <langSet xml:lang="zh_CN"><tig><term>玉狗圣剑</term></tig></langSet>
             </termEntry>
         </body>
     </text>

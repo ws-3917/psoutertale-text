@@ -2,9 +2,6 @@
 msgid ""
 msgstr ""
 
-msgid "en_US"
-msgstr "zh_CN"
-
 msgid ""
 msgstr ""
 
@@ -154,8 +151,14 @@ msgstr "让实验开始吧。"
 msgid "The true name."
 msgstr "真正的名字。"
 
+msgid "The true name..?"
+msgstr "...真正的名字？"
+
 msgid "This name is incorrect."
 msgstr "这名字不对。"
+
+msgid "This name is incorrect..?"
+msgstr "这名字... 不对吧？"
 
 msgid ""
 "............\n"
@@ -219,11 +222,17 @@ msgstr ""
 msgid "I'LL ALLOW IT!!!!"
 msgstr "我准了！！！"
 
+msgid "I DON'T THINK IT'S INAPPROPRIATE!!"
+msgstr "这没啥不合适的！！"
+
 msgid "ok."
 msgstr "好。"
 
 msgid "nope."
 msgstr "没门。"
+
+msgid "what?"
+msgstr "啥？"
 
 msgid "A \"stellar\" choice."
 msgstr ""
@@ -277,7 +286,7 @@ msgid "Get your OWN name!"
 msgstr "找个你自己的名字去！"
 
 msgid "Uh.... OK?"
-msgstr "呃... 行吧？"
+msgstr "额...行吧？"
 
 msgid "D-don't do that."
 msgstr "别-别这么做。"
@@ -302,12 +311,12 @@ msgstr "一位巫师同伴？"
 msgid "Slick choice, homeslice."
 msgstr "不错的选择，小伙子。"
 
-msgid "Now you're just being rude, darling."
+msgid "I don't think so, darling."
 msgstr ""
 
 msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
 msgstr ""
-"哦！！！\n"
+"哦！！！ \n"
 "你在推广我的品牌吗？"
 
 msgid "Is this name correct? ;)"
@@ -326,7 +335,7 @@ msgid "Respect my AUTHORITY!"
 msgstr ""
 
 msgid "Ahh! Thank you~"
-msgstr "啊！谢谢你~"
+msgstr "啊！谢谢你～"
 
 msgid "Thanks for, uh, using my name."
 msgstr ""
@@ -339,3 +348,15 @@ msgstr "不可以。"
 
 msgid "..."
 msgstr "..."
+
+msgid ""
+"umum↑umumumumm↑umumm↑\n"
+"umumumumm↓\n"
+"umumumm→umum"
+msgstr ""
+"嗯嗯↑嗯嗯嗯嗯嗯↑嗯嗯↑\n"
+"嗯嗯嗯嗯嗯嗯嗯↓\n"
+"嗯嗯嗯→嗯嗯"
+
+msgid "6."
+msgstr "6。"

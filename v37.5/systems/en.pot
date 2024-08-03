@@ -538,6 +538,9 @@ msgstr ""
 msgid "Clear File"
 msgstr ""
 
+msgid "Error"
+msgstr ""
+
 msgid "Notice"
 msgstr ""
 
@@ -553,7 +556,13 @@ msgstr ""
 msgid "Save File"
 msgstr ""
 
+msgid "Invalid SAVE file access \"$(x)\""
+msgstr ""
+
 msgid "That file could not be parsed."
+msgstr ""
+
+msgid "The mod \"$(x)\" could not be loaded."
 msgstr ""
 
 msgid "OK"
@@ -583,7 +592,7 @@ msgstr ""
 msgid "Load this file?"
 msgstr ""
 
-msgid "§fill=#ff0§< DEVELOPER >§fill=#fff§"
+msgid "§fill:#ff0§< DEVELOPER >§fill:#fff§"
 msgstr ""
 
 msgid "spacey_432"
@@ -592,7 +601,7 @@ msgstr ""
 msgid ""
 msgstr ""
 
-msgid "§fill=#ff0§< WRITER >§fill=#fff§"
+msgid "§fill:#ff0§< WRITER >§fill:#fff§"
 msgstr ""
 
 msgid "Balgamlı Kedi"
@@ -628,7 +637,7 @@ msgstr ""
 msgid "Zaxento The Greedy"
 msgstr ""
 
-msgid "§fill=#ff0§< ARTIST >§fill=#fff§"
+msgid "§fill:#ff0§< ARTIST >§fill:#fff§"
 msgstr ""
 
 msgid "Burge"
@@ -691,7 +700,7 @@ msgstr ""
 msgid "Valor52"
 msgstr ""
 
-msgid "§fill=#ff0§< TECHNICIAN >§fill=#fff§"
+msgid "§fill:#ff0§< TECHNICIAN >§fill:#fff§"
 msgstr ""
 
 msgid "Codetoil"
@@ -700,7 +709,7 @@ msgstr ""
 msgid "ws3917"
 msgstr ""
 
-msgid "§fill=#ff0§< TESTER >§fill=#fff§"
+msgid "§fill:#ff0§< TESTER >§fill:#fff§"
 msgstr ""
 
 msgid "Alden"
@@ -850,52 +859,52 @@ msgstr ""
 msgid "xNoodlePlayz"
 msgstr ""
 
-msgid "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§"
+msgid "§fill:#ff0§< SPECIAL THANKS >§fill:#fff§"
 msgstr ""
 
 msgid ""
-"§fill=#808080§For being there for me when I\n"
+"§fill:#808080§For being there for me when I\n"
 "need someone to lean on, and\n"
 "teaching me life lessons that\n"
-"have made me a better person.§fill=#fff§"
+"have made me a better person.§fill:#fff§"
 msgstr ""
 
 msgid ""
-"§fill=#808080§For being one of the friendliest\n"
+"§fill:#808080§For being one of the friendliest\n"
 "people I know, the first person\n"
 "to believe in my vision, and\n"
-"inspiring me to finish the game.§fill=#fff§"
+"inspiring me to finish the game.§fill:#fff§"
 msgstr ""
 
 msgid ""
-"§fill=#808080§For sticking with me at every\n"
+"§fill:#808080§For sticking with me at every\n"
 "stage of development, right from\n"
 "the start. Regardless of the era,\n"
-"he's always been there to help.§fill=#fff§"
+"he's always been there to help.§fill:#fff§"
 msgstr ""
 
 msgid ""
-"§fill=#808080§For being a voice of reason when\n"
+"§fill:#808080§For being a voice of reason when\n"
 "it comes to many aspects of the\n"
 "game, and encouraging me to take\n"
-"testing seriously.§fill=#fff§"
+"testing seriously.§fill:#fff§"
 msgstr ""
 
 msgid ""
-"§fill=#808080§For being reliable, brutally\n"
+"§fill:#808080§For being reliable, brutally\n"
 "honest, giving me lots of\n"
 "criticism and ideas, and being\n"
-"trustworthy from the day we met.§fill=#fff§"
+"trustworthy from the day we met.§fill:#fff§"
 msgstr ""
 
 msgid ""
-"§fill=#808080§For helping me write crucial\n"
+"§fill:#808080§For helping me write crucial\n"
 "parts of the game, supporting my\n"
 "vision, and helping me express\n"
-"myself in a whole new way.§fill=#fff§"
+"myself in a whole new way.§fill:#fff§"
 msgstr ""
 
-msgid "Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§"
+msgid "Brought to you by §fill:#ff0§The Mavis & Co.§fill:#fff§"
 msgstr ""
 
 msgid "(( CAST ))"
@@ -1709,7 +1718,7 @@ msgstr ""
 msgid "ASRIEL"
 msgstr ""
 
-msgid "[↑ or ↓] to Select / [Z or ENTER] to Confirm"
+msgid "THE END"
 msgstr ""
 
 msgid "Quitting"
@@ -1796,12 +1805,6 @@ msgstr ""
 msgid "Take care of yourself, \"$(x).\""
 msgstr ""
 
-msgid "THE END"
-msgstr ""
-
-msgid "THE END...?"
-msgstr ""
-
 msgid "Restarting"
 msgstr ""
 
@@ -1811,10 +1814,10 @@ msgstr ""
 msgid "Restarting.."
 msgstr ""
 
-msgid "OUTERTALE (RC7)"
+msgid "OUTERTALE (BETA V30)"
 msgstr ""
 
-msgid "OUTERTALE...? (RC7)"
+msgid "OUTERTALE...? (BETA V30)"
 msgstr ""
 
 msgid "GAMEPAD SETUP"
@@ -1833,13 +1836,13 @@ msgstr ""
 msgid "Inputs Assigned: $(x)"
 msgstr ""
 
-msgid "[Z or ENTER] - Confirm"
+msgid "[Z OR ENTER] - Confirm"
 msgstr ""
 
-msgid "[X or SHIFT] - Cancel"
+msgid "[X OR SHIFT] - Cancel"
 msgstr ""
 
-msgid "[C or CTRL] - Menu (In-game)"
+msgid "[C OR CTRL] - Menu (In-game)"
 msgstr ""
 
 msgid "[UP or W] - Move Up"
@@ -1905,23 +1908,23 @@ msgid "LV"
 msgstr ""
 
 msgid ""
-"§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§"
+"§mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify:§"
 msgstr ""
 
 msgid ""
-"{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
+"{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
 msgstr ""
 
-msgid "{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
+msgid "{@mystify:abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify:}"
 msgstr ""
 
-msgid "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}"
+msgid "{@mystify:ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify:}"
 msgstr ""
 
 msgid "No"
 msgstr ""
 
-msgid "§fill=#0f0§NOMINAL"
+msgid "§fill:#0f0§NOMINAL"
 msgstr ""
 
 msgid "$(x)%"
@@ -2013,7 +2016,7 @@ msgstr ""
 msgid "Done"
 msgstr ""
 
-msgid "§fill=#808080§ [ESC] - Quit / [ENTER] - Done"
+msgid "§fill:#808080§ [ESC] - Quit / [ENTER] - Done"
 msgstr ""
 
 msgid "Return"
@@ -2070,9 +2073,6 @@ msgstr ""
 msgid "OPEN MOD FOLDER"
 msgstr ""
 
-msgid "RESTART"
-msgstr ""
-
 msgid "ITEM"
 msgstr ""
 
@@ -2086,6 +2086,15 @@ msgid "CONF"
 msgstr ""
 
 msgid "--- Instruction ---"
+msgstr ""
+
+msgid "[Z or ENTER] - Confirm"
+msgstr ""
+
+msgid "[X or SHIFT] - Cancel"
+msgstr ""
+
+msgid "[C or CTRL] - Menu (In-game)"
 msgstr ""
 
 msgid "[Hold ESC] - Restart"
@@ -2110,7 +2119,7 @@ msgid "NEXT"
 msgstr ""
 
 msgid ""
-"§fill=#ff0§Warning:\n"
+"§fill:#ff0§Warning:\n"
 "Non-canon\n"
 "timeline."
 msgstr ""
@@ -2127,52 +2136,41 @@ msgstr ""
 msgid "STATUS"
 msgstr ""
 
-msgid "\"$(x)\""
-msgstr ""
-
 msgid ""
 "<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and"
-" MONSTERS.{^35}{}"
+" MONSTERS."
 msgstr ""
 
-msgid "<24>As time passed, a war broke out between the two species.{^35}{}"
-msgstr ""
-
-msgid ""
-"<24>After the MONSTERS' home planet was destroyed, HUMANS declared "
-"victory.{^35}{}"
+msgid "<24>As time passed, a war broke out between the two species."
 msgstr ""
 
 msgid ""
-"<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}"
+"<24>After the MONSTERS' home planet was destroyed, HUMANS declared victory."
+msgstr ""
+
+msgid "<24>The remaining MONSTERS were banished to an abandoned outpost."
 msgstr ""
 
 msgid ""
-"<24>A powerful force field was erected, and the MONSTERS were sealed "
-"in.{^35}{}"
+"<24>A powerful force field was erected, and the MONSTERS were sealed in."
 msgstr ""
 
-msgid "<24>Many years later.{^8}.{^8}.{^35}{}"
+msgid "<24>Many years later.{^8}.{^8}.{}"
 msgstr ""
 
-msgid ""
-"<#24>     EBOTT SECTOR     \n"
-"         251X{^35}{}"
+msgid "<#24>µµµµ EBOTT SECTOR µµµµ µµµµµµµµ 251X{^20}{}"
 msgstr ""
 
-msgid "<24>Tales speak of a place from which spacecraft never return.{^35}{}"
+msgid "<24>Tales speak of a place from which spacecraft never return.{^20}{}"
 msgstr ""
 
 msgid "<24>{^100}{}"
 msgstr ""
 
-msgid "<24>{^35}{}"
+msgid "<24>{^50}{}"
 msgstr ""
 
 msgid "Resume Canon Timeline"
-msgstr ""
-
-msgid "Start Canon Timeline"
 msgstr ""
 
 msgid "Other Slots"

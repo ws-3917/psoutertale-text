@@ -2,32 +2,38 @@
 msgid ""
 msgstr ""
 
-msgid "<32>{#p/human}* (You feel a darkness gathering inside of you.)"
+msgid ""
+"<32>{*}{#p/human}* (You feel a darkness gathering inside of you.){^40}{%}"
 msgstr ""
 
-msgid "<32>{#p/human}* (You wish it were all just a bad dream.)"
+msgid "<32>{*}{#p/human}* (You wish it were all just a bad dream.){^40}{%}"
 msgstr ""
-
-msgid "<32>{#p/human}* (You try your best to fight it, but nothing happens.)"
-msgstr ""
-
-msgid "<32>{#p/human}* (You wish desperately that you could break free.)"
-msgstr ""
-
-msgid "<32>{#p/human}* (You call out for help, but nobody comes.)"
-msgstr ""
-
-msgid "<32>{#p/human}* (You wish you could make this all just go away.)"
-msgstr ""
-
-msgid "<32>{#p/human}* (...)"
-msgstr "<32>{#p/human}* (...)"
 
 msgid ""
-"<32>{#p/human}* (You take a deep breath, and ready yourself for the end.)"
+"<32>{*}{#p/human}* (You try your best to fight it, but nothing "
+"happens.){^40}{%}"
 msgstr ""
 
-msgid "<32>{#p/human}* (You know what must be done.)"
+msgid ""
+"<32>{*}{#p/human}* (You wish desperately that you could break free.){^40}{%}"
+msgstr ""
+
+msgid "<32>{*}{#p/human}* (You call out for help, but nobody comes.){^40}{%}"
+msgstr ""
+
+msgid ""
+"<32>{*}{#p/human}* (You wish you could make this all just go away.){^40}{%}"
+msgstr ""
+
+msgid "<32>{*}{#p/human}* (...){^40}{%}"
+msgstr "<32>{*}{#p/human}* (...){^40}{%}"
+
+msgid ""
+"<32>{*}{#p/human}* (You take a deep breath, and ready yourself for the "
+"end.){^40}{%}"
+msgstr ""
+
+msgid "<32>{*}{#p/human}* (You know what must be done.){^40}{%}"
 msgstr ""
 
 msgid "REBOOT IN $(x)"
@@ -39,161 +45,161 @@ msgstr "{#p/human}（你深吸了一口氣。）"
 msgid "(You're filled with determination.)"
 msgstr "（你充滿了決心。）"
 
-msgid "{#p/human}{#v/1}{@fill=#42fcff}It'll be alright in the end..."
+msgid "{#p/human}{#v/1}{@fill:#42fcff}It'll be alright in the end..."
 msgstr ""
 
-msgid "{@fill=#42fcff}Just take it steady..."
+msgid "{@fill:#42fcff}Just take it steady..."
 msgstr ""
 
-msgid "{#p/human}{#v/2}{@fill=#ff993d}Now is no time to give up."
+msgid "{#p/human}{#v/2}{@fill:#ff993d}Now is no time to give up."
 msgstr ""
 
-msgid "{@fill=#ff993d}Get back out there!"
+msgid "{@fill:#ff993d}Get back out there!"
 msgstr ""
 
-msgid "{#p/human}{#v/3}{@fill=#003cff}You know what you're capable of."
+msgid "{#p/human}{#v/3}{@fill:#003cff}You know what you're capable of."
 msgstr ""
 
-msgid "{@fill=#003cff}Don't hold back!"
+msgid "{@fill:#003cff}Don't hold back!"
 msgstr ""
 
-msgid "{#p/human}{#v/4}{@fill=#d535d9}You know you can survive this..."
+msgid "{#p/human}{#v/4}{@fill:#d535d9}You know you can survive this..."
 msgstr ""
 
-msgid "{@fill=#d535d9}Keep moving forward."
+msgid "{@fill:#d535d9}Keep moving forward."
 msgstr ""
 
-msgid "{#p/human}{#v/5}{@fill=#00c000}You're this world's last hope..."
+msgid "{#p/human}{#v/5}{@fill:#00c000}You're this world's last hope..."
 msgstr ""
 
-msgid "{@fill=#00c000}Believe in yourself!"
+msgid "{@fill:#00c000}Believe in yourself!"
 msgstr ""
 
-msgid "{#p/human}{#v/6}{@fill=#faff29}It's only a matter of time."
+msgid "{#p/human}{#v/6}{@fill:#faff29}It's only a matter of time."
 msgstr ""
 
-msgid "<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you."
+msgid "<99>{*}{#p/human}{#v/6}{@fill:#faff29}A lost SOUL calls out to you."
 msgstr ""
 
 msgid ""
-"<99>{*}{@fill=#faff29}With {@mystify=PATIENCE}PATIENCE{@mystify=}, they may "
+"<99>{*}{@fill:#faff29}With {@mystify:PATIENCE}PATIENCE{@mystify:}, they may "
 "escape."
 msgstr ""
-"<99>{*}{@fill=#faff29}依靠{@wordify=耐心/勇氣/正直/毅力/善良/正義}耐心{@wordify=}，將會有望逃脫。"
+"<99>{*}{@fill:#faff29}依靠{@wordify:耐心,勇氣,正直,毅力,善良,正義}耐心{@wordify:}，將會有望逃脫。"
 
 msgid ""
-"<99>{*}{#p/human}{#v/1}{@fill=#42fcff}You must reach my Little Dipper..."
+"<99>{*}{#p/human}{#v/1}{@fill:#42fcff}You must reach my Little Dipper..."
 msgstr ""
 
 msgid "<99>{*}{#p/human}(Press [Z] to teleport.)"
 msgstr ""
 
-msgid "<99>{*}{#p/human}{#v/1}{@fill=#42fcff}The entity lies in wait."
+msgid "<99>{*}{#p/human}{#v/1}{@fill:#42fcff}The entity lies in wait."
 msgstr ""
 
-msgid "<99>{*}{@fill=#42fcff}With PATIENCE, you may survive it..."
+msgid "<99>{*}{@fill:#42fcff}With PATIENCE, you may survive it..."
 msgstr ""
 
 msgid ""
-"<99>{*}{@fill=#faff29}With {@mystify=BRAVERY}BRAVERY{@mystify=}, they may "
+"<99>{*}{@fill:#faff29}With {@mystify:BRAVERY}BRAVERY{@mystify:}, they may "
 "escape."
 msgstr ""
-"<99>{*}{@fill=#faff29}憑藉{@wordify=勇氣/正直/毅力/善良/正義}勇氣{@wordify=}，或將擺脫束縛。"
+"<99>{*}{@fill:#faff29}憑藉{@wordify:勇氣,正直,毅力,善良,正義}勇氣{@wordify:}，或將擺脫束縛。"
 
 msgid ""
-"<99>{*}{#p/human}{#v/2}{@fill=#ff993d}Don't leave without my Power Glove!"
+"<99>{*}{#p/human}{#v/2}{@fill:#ff993d}Don't leave without my Power Glove!"
 msgstr ""
 
 msgid "<99>{*}{#p/human}(Press [Z] to explode.)"
 msgstr ""
 
-msgid "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}The entity looms above..."
+msgid "<99>{*}{#p/human}{#v/2}{@fill:#ff993d}The entity looms above..."
 msgstr ""
 
-msgid "<99>{*}{@fill=#ff993d}With BRAVERY, you may overcome it!"
+msgid "<99>{*}{@fill:#ff993d}With BRAVERY, you may overcome it!"
 msgstr ""
 
 msgid ""
-"<99>{*}{@fill=#faff29}With {@mystify=INTEGRITY}INTEGRITY{@mystify=}, they "
+"<99>{*}{@fill:#faff29}With {@mystify:INTEGRITY}INTEGRITY{@mystify:}, they "
 "can escape."
-msgstr "<99>{*}{@fill=#faff29}堅守{@wordify=正直/毅力/善良/正義}正直{@wordify=}，必定能夠逃脫。"
+msgstr "<99>{*}{@fill:#faff29}堅守{@wordify:正直,毅力,善良,正義}正直{@wordify:}，必定能夠逃脫。"
 
-msgid "<99>{*}{#p/human}{#v/3}{@fill=#003cff}I'll need my trusty Hoverboots."
+msgid "<99>{*}{#p/human}{#v/3}{@fill:#003cff}I'll need my trusty Hoverboots."
 msgstr ""
 
-msgid "<99>{*}{#p/human}{#v/3}{@fill=#003cff}The entity holds its position."
+msgid "<99>{*}{#p/human}{#v/3}{@fill:#003cff}The entity holds its position."
 msgstr ""
 
-msgid "<99>{*}{@fill=#003cff}With INTEGRITY, you can surpass it."
+msgid "<99>{*}{@fill:#003cff}With INTEGRITY, you can surpass it."
 msgstr ""
 
 msgid ""
-"<99>{*}{@fill=#faff29}With {@mystify=PERSEVERANCE}PERSEVERANCE{@mystify=}, "
+"<99>{*}{@fill:#faff29}With {@mystify:PERSEVERANCE}PERSEVERANCE{@mystify:}, "
 "they can escape."
-msgstr "<99>{*}{@fill=#faff29}擁有{@wordify=毅力/善良/正義}毅力{@wordify=}，定可擺脫束縛。"
+msgstr "<99>{*}{@fill:#faff29}擁有{@wordify:毅力,善良,正義}毅力{@wordify:}，定可擺脫束縛。"
 
 msgid ""
-"<99>{*}{#p/human}{#v/4}{@fill=#d535d9}A single Datapad can go a long way."
+"<99>{*}{#p/human}{#v/4}{@fill:#d535d9}A single Datapad can go a long way."
 msgstr ""
 
-msgid "<99>{*}{#p/human}{#v/4}{@fill=#d535d9}The entity is losing its hold."
+msgid "<99>{*}{#p/human}{#v/4}{@fill:#d535d9}The entity is losing its hold."
 msgstr ""
 
-msgid "<99>{*}{@fill=#d535d9}With PERSEVERANCE, you can outlast it!"
+msgid "<99>{*}{@fill:#d535d9}With PERSEVERANCE, you can outlast it!"
 msgstr ""
 
 msgid ""
-"<99>{*}{@fill=#faff29}With {@mystify=KINDNESS}KINDNESS{@mystify=}, they can "
+"<99>{*}{@fill:#faff29}With {@mystify:KINDNESS}KINDNESS{@mystify:}, they can "
 "escape."
-msgstr "<99>{*}{@fill=#faff29}心懷{@wordify=善良/正義}善良{@wordify=}，終能衝破枷鎖。"
+msgstr "<99>{*}{@fill:#faff29}心懷{@wordify:善良,正義}善良{@wordify:}，終能衝破枷鎖。"
 
-msgid "<99>{*}{#p/human}{#v/5}{@fill=#00c000}The Tablaphone will set me free!"
+msgid "<99>{*}{#p/human}{#v/5}{@fill:#00c000}The Tablaphone will set me free!"
 msgstr ""
 
-msgid "<99>{*}{#p/human}{#v/5}{@fill=#00c000}The entity is destabilizing..."
+msgid "<99>{*}{#p/human}{#v/5}{@fill:#00c000}The entity is destabilizing..."
 msgstr ""
 
-msgid "<99>{*}{@fill=#00c000}With KINDNESS, you can outshine it..."
+msgid "<99>{*}{@fill:#00c000}With KINDNESS, you can outshine it..."
 msgstr ""
 
 msgid ""
-"<99>{*}{#p/human}{#v/6}{@fill=#faff29}The lost SOULs called out to you."
+"<99>{*}{#p/human}{#v/6}{@fill:#faff29}The lost SOULs called out to you."
 msgstr ""
 
-msgid "<99>{*}{@fill=#faff29}With JUSTICE, you have answered."
+msgid "<99>{*}{@fill:#faff29}With JUSTICE, you have answered."
 msgstr ""
 
-msgid "<99>{*}{@fill=#faff29}You have freed them of their prisons."
+msgid "<99>{*}{@fill:#faff29}You have freed them of their prisons."
 msgstr ""
 
-msgid "<99>{*}{#p/human}{#v/1}{@fill=#42fcff}At last."
+msgid "<99>{*}{#p/human}{#v/1}{@fill:#42fcff}At last."
 msgstr ""
 
-msgid "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}You're a hero!"
+msgid "<99>{*}{#p/human}{#v/2}{@fill:#ff993d}You're a hero!"
 msgstr ""
 
-msgid "<99>{*}{#p/human}{#v/3}{@fill=#003cff}You've done the right thing."
+msgid "<99>{*}{#p/human}{#v/3}{@fill:#003cff}You've done the right thing."
 msgstr ""
 
-msgid "<99>{*}{#p/human}{#v/4}{@fill=#d535d9}Thank you..."
+msgid "<99>{*}{#p/human}{#v/4}{@fill:#d535d9}Thank you..."
 msgstr ""
 
-msgid "<99>{*}{#p/human}{#v/5}{@fill=#00c000}You're the best...!"
+msgid "<99>{*}{#p/human}{#v/5}{@fill:#00c000}You're the best...!"
 msgstr ""
 
-msgid "<99>{*}{#p/human}{#v/6}{@fill=#faff29}Our power is yours now."
+msgid "<99>{*}{#p/human}{#v/6}{@fill:#faff29}Our power is yours now."
 msgstr ""
 
-msgid "<99>{*}{@fill=#faff29}With it, the entity will collapse."
+msgid "<99>{*}{@fill:#faff29}With it, the entity will collapse."
 msgstr ""
 
-msgid "<99>{*}{@fill=#faff29}Then..."
+msgid "<99>{*}{@fill:#faff29}Then..."
 msgstr ""
 
-msgid "<99>{*}{@fill=#faff29}... you will do what you must."
+msgid "<99>{*}{@fill:#faff29}... you will do what you must."
 msgstr ""
 
-msgid "<99>{*}{@fill=#faff29}Now, end this!"
+msgid "<99>{*}{@fill:#faff29}Now, end this!"
 msgstr ""
 
 msgid "<99>{*}{#p/human}(Press [Z] to shoot.)"
@@ -245,7 +251,7 @@ msgid "FILE 6 LOADED"
 msgstr ""
 
 msgid "<32>{#p/human}* (You decide not to equip.)"
-msgstr "<32>{#p/human}* （你打算不這麼做。）"
+msgstr ""
 
 msgid "<26>{#p/asriel2}{#f/13}* As I was going to say..."
 msgstr ""
@@ -284,7 +290,7 @@ msgid "<25>{#f/23}* ... begged... for help..."
 msgstr ""
 
 msgid "<25>{#f/7}* ..."
-msgstr "<25>{#f/7}* ..."
+msgstr ""
 
 msgid "<25>{#f/6}* ... nobody came."
 msgstr ""
@@ -526,7 +532,7 @@ msgid "<25>{#f/15}* Pulled... just a little too tightly..."
 msgstr ""
 
 msgid "<25>{#f/16}* ..."
-msgstr "<25>{#f/16}* ..."
+msgstr ""
 
 msgid "<25>{#f/6}* My own mother, strangled to death by my own magic..."
 msgstr ""
@@ -735,7 +741,7 @@ msgid "<26>{#f/13}* You know why we're here."
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/8}* ... finally."
-msgstr "<25>{#p/asriel2}{#f/8}* ...總算解決她了。"
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/8}* Looks like they've already been evacuated..."
 msgstr ""
@@ -905,7 +911,7 @@ msgid "<18>{#p/papyrus}{#f/6}YES, YES, DO THAT!"
 msgstr ""
 
 msgid "<32>{#p/basic}* ..."
-msgstr "<32>{#p/basic}* ..."
+msgstr ""
 
 msgid "<32>{#p/basic}* No response."
 msgstr ""
@@ -991,7 +997,7 @@ msgid "<32>{*}* come on..."
 msgstr ""
 
 msgid "<32>{#p/napstablook}* ..."
-msgstr "<32>{#p/napstablook}* ..."
+msgstr ""
 
 msgid "<32>{#p/napstablook}* it worked..."
 msgstr ""
@@ -1076,7 +1082,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asgore}{#f/1}* ..."
-msgstr "<25>{#p/asgore}{#f/1}* ..."
+msgstr ""
 
 msgid "<25>{#p/asgore}{#f/1}* So it is true..."
 msgstr ""
@@ -1106,7 +1112,7 @@ msgid "{*}{#p/event}{#i/3}The outpost was saved."
 msgstr ""
 
 msgid ""
-"<25>{#p/asriel2}{#f/15}* You probably should've used a SAVE point after we "
+"<25>{#p/asriel2}{#f/15}* You probably should've saved our progress after we "
 "left Starton."
 msgstr ""
 
@@ -1114,12 +1120,12 @@ msgid "<25>{#p/asriel2}{#f/16}* Just saying."
 msgstr ""
 
 msgid ""
-"<25>{#p/asriel2}{#f/15}* You probably should've used a SAVE point after we "
+"<25>{#p/asriel2}{#f/15}* You probably should've saved our progress after we "
 "killed Undyne."
 msgstr ""
 
 msgid ""
-"<25>{#p/asriel2}{#f/15}* You probably should've used a SAVE point after we "
+"<25>{#p/asriel2}{#f/15}* You probably should've saved our progress after we "
 "left Aerialis."
 msgstr ""
 
@@ -1176,7 +1182,7 @@ msgid "<25>{#p/asriel2}{#f/6}* Really?"
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/6}* ..."
-msgstr "<25>{#p/asriel2}{#f/6}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/asriel2}{#f/15}* And we're back here again.\n"
@@ -1192,7 +1198,7 @@ msgid "<25>{#p/asriel2}{#f/8}* This is really starting to get annoying."
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/8}* ..."
-msgstr "<25>{#p/asriel2}{#f/8}* ..."
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/15}* $(name), we were almost to the end."
 msgstr ""
@@ -1205,26 +1211,24 @@ msgid "<25>{#p/asriel2}{#f/10}* ... is this some kind of a joke?"
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/10}* ..."
-msgstr "<25>{#p/asriel2}{#f/10}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/asriel2}{#f/15}* $(name).\n"
 "* Listen to me."
 msgstr ""
-"<25>{#p/asriel2}{#f/15}* $(name)。\n"
-"* 聽我說。"
 
 msgid "<25>{#p/asriel2}{#f/7}* We literally HAD her."
-msgstr "<25>{#p/asriel2}{#f/7}* 我們已經幹掉她了。"
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/5}* Why would you bring us back after that!?"
-msgstr "<25>{#p/asriel2}{#f/5}* 都這樣了，回溯時間幹嘛呢？"
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/7}* ... you can't be serious right now."
-msgstr "<25>{#p/asriel2}{#f/7}* ...你逗我呢？"
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/7}* ..."
-msgstr "<25>{#p/asriel2}{#f/7}* ..."
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/15}* What the..."
 msgstr ""
@@ -1241,7 +1245,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/15}* ..."
-msgstr "<25>{#p/asriel2}{#f/15}* ..."
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/15}* $(name)?"
 msgstr ""
@@ -1250,32 +1254,30 @@ msgid "<32>{#p/human}* (It appears Asriel is deep in thought.)"
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/9}* What was THAT?"
-msgstr "<25>{#p/asriel2}{#f/9}* 怎麼回事？"
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/10}* ... WHO was that?"
-msgstr "<25>{#p/asriel2}{#f/10}* ...誰攻擊了我們？"
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/15}* We got hit with..."
-msgstr "<25>{#p/asriel2}{#f/15}* 我們..."
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/10}* ... electricity magic?"
-msgstr "<25>{#p/asriel2}{#f/10}* ...被一道電魔法擊中了？"
+msgstr ""
 
 msgid ""
 "<25>{#p/asriel2}{#f/3}* Alphys.\n"
 "* It's gotta be."
 msgstr ""
-"<25>{#p/asriel2}{#f/3}* Alphys。\n"
-"* 肯定是她。"
 
 msgid "<25>{#p/asriel2}{#f/15}* So she didn't run away, then..."
-msgstr "<25>{#p/asriel2}{#f/15}* 她原來沒逃跑嗎..."
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/16}* Well, this should be interesting."
-msgstr "<25>{#p/asriel2}{#f/16}* 好吧，還算有點意思。"
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/15}* So it was Alphys, then..."
-msgstr "<25>{#p/asriel2}{#f/15}* 原來是Alphys..."
+msgstr ""
 
 msgid "<32>{#p/basic}* Wait."
 msgstr ""
@@ -1329,7 +1331,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>* ..."
-msgstr "<32>* ..."
+msgstr ""
 
 msgid "<32>* Maybe... part of me still is."
 msgstr ""
@@ -1851,7 +1853,7 @@ msgid "<25>{#f/1}* I can't wait to see what it's like out there!"
 msgstr ""
 
 msgid "<25>{#p/kidd}{#f/4}{#npc/a}* ..."
-msgstr "<25>{#p/kidd}{#f/4}{#npc/a}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/kidd}{#f/1}{#npc/a}{#f/4}* ... oh, uh, I know you probably figured "
@@ -1996,7 +1998,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asgore}{#npc/a}{#f/8}* ...!"
-msgstr "<25>{#p/asgore}{#npc/a}{#f/8}* ...！"
+msgstr ""
 
 msgid "<25>{#f/1}* Frisk..."
 msgstr ""
@@ -2015,20 +2017,70 @@ msgid "<25>{#p/asgore}{#npc/a}{#f/6}* I wonder if humans like wearing brown."
 msgstr ""
 
 msgid "<25>{#p/asgore}{#npc/a}{#f/2}* ..."
-msgstr "<25>{#p/asgore}{#npc/a}{#f/2}* ..."
-
-msgid "<25>{#p/asgore}{#npc/a}{#f/21}* La la, la la..."
 msgstr ""
 
-msgid ""
-"<32>{#p/human}* (The sound of a spacecraft can be heard as you take off into"
-" the distance.)"
+msgid "<25>{#p/asgore}{#npc/a}{#f/21}* La la, la la..."
 msgstr ""
 
 msgid "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/1}Why...?"
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/2}Why did you let me go?"
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/14}It's not as if you had a standard to uphold..."
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/17}Not after you left someone to die."
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/17}Not after you killed a monster along the way."
+msgstr ""
+
+msgid ""
+"<25>{*}{#e/twinkly/17}Not after you killed a couple monsters along the way."
+msgstr ""
+
+msgid ""
+"<25>{*}{#e/twinkly/17}Not after you killed a few monsters along the way."
+msgstr ""
+
+msgid ""
+"<25>{*}{#e/twinkly/17}Not after you killed several monsters along the way."
+msgstr ""
+
+msgid ""
+"<25>{*}{#e/twinkly/17}Not after you killed those monsters along the way."
+msgstr ""
+
+msgid ""
+"<25>{*}{#e/twinkly/17}Not after you killed all those monsters along the way."
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/0}..."
+msgstr ""
+
+msgid ""
+"<25>{*}{#e/twinkly/0}Do you really think I'm worth more time than them?"
+msgstr ""
+
+msgid ""
+"<25>{*}{#e/twinkly/2}Is that why you went along with everything we did "
+"before?"
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/3}..."
+msgstr ""
+
+msgid ""
+"<25>{*}{#e/twinkly/0}Did you really think sparing me would somehow make up "
+"for it?"
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/2}Were you just that desperate to redeem yourself?"
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/0}... say."
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/6}Don't you realize that being nice..."
@@ -2059,7 +2111,7 @@ msgid "<25>{*}{#e/twinkly/15}... let's just cut to the chase, shall we?"
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/21}..."
-msgstr "<25>{*}{#e/twinkly/21}..."
+msgstr ""
 
 msgid "<25>{*}{#e/twinkly/3}You've made all these wonderful friends..."
 msgstr ""
@@ -2106,16 +2158,52 @@ msgstr ""
 msgid "<25>{*}{#e/twinkly/2}Is life really that unfair?"
 msgstr ""
 
-msgid "<25>{*}{#e/twinkly/3}..."
-msgstr "<25>{*}{#e/twinkly/3}..."
-
-msgid "<25>{*}{#e/twinkly/0}... say."
-msgstr ""
-
 msgid "<25>{*}{#e/twinkly/21}What if I told you..."
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/15}I knew some way to get you a better ending?"
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/14}You'll have to start over, of course..."
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/14}You'll have to RESET, of course..."
+msgstr ""
+
+msgid ""
+"<25>{*}{#e/twinkly/15}But if you can prove to me that you're strong enough "
+"to survive..."
+msgstr ""
+
+msgid ""
+"<25>{*}{#e/twinkly/15}If you can get through, to the end from the "
+"beginning..."
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/0}... without killing a single thing..."
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/18}... then maybe, I won't kill the king."
+msgstr ""
+
+msgid ""
+"<25>{*}{#e/twinkly/17}Then, and only then, will you get your so-called "
+"\"happy ending.\""
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/20}So, what'll it be?"
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/20}Will you prove yourself to me?"
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/17}Or will you suffer for the rest of eternity?"
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/15}Hee hee hee."
+msgstr ""
+
+msgid "<25>{*}{#e/twinkly/18}Either way, I'm interested!"
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/20}You'll have to start over, and..."
@@ -2159,9 +2247,6 @@ msgstr ""
 msgid "<25>{*}{#e/twinkly/17}Maybe they've got the key to your happiness?"
 msgstr ""
 
-msgid "<25>{*}{#e/twinkly/0}..."
-msgstr "<25>{*}{#e/twinkly/0}..."
-
 msgid "<25>{*}{#e/twinkly/15}See you soon."
 msgstr ""
 
@@ -2194,8 +2279,8 @@ msgid "<25>{*}{#e/twinkly/13}A rush of pleasure, and then..."
 msgstr ""
 
 msgid ""
-"<25>{*}{#e/twinkly/2}After sparing everyone else, was killing me really "
-"worth it...?"
+"<25>{*}{#e/twinkly/2}Was it truly necessary to kill me after sparing "
+"everyone...?"
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/3}You..."
@@ -2227,28 +2312,6 @@ msgid "<25>{*}{#e/twinkly/0}I have an idea."
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/15}A challenge, if you will."
-msgstr ""
-
-msgid "<25>{*}{#e/twinkly/14}You'll have to start over, of course..."
-msgstr ""
-
-msgid "<25>{*}{#e/twinkly/14}You'll have to RESET, of course..."
-msgstr ""
-
-msgid ""
-"<25>{*}{#e/twinkly/15}But if you can prove to me that you're strong enough "
-"to survive..."
-msgstr ""
-
-msgid ""
-"<25>{*}{#e/twinkly/15}If you can get through, to the end from the "
-"beginning..."
-msgstr ""
-
-msgid "<25>{*}{#e/twinkly/0}... without killing a single thing..."
-msgstr ""
-
-msgid "<25>{*}{#e/twinkly/18}... then maybe, I won't kill the king."
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/15}A request, if you will."
@@ -2336,7 +2399,7 @@ msgid "<25>{*}{#e/twinkly/23}Enjoy your special ending while it lasts."
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/20}..."
-msgstr "<25>{*}{#e/twinkly/20}..."
+msgstr ""
 
 msgid "<25>{*}{#e/twinkly/20}Well, well..."
 msgstr ""
@@ -2362,7 +2425,7 @@ msgid "<25>{*}{#e/twinkly/15}You might actually get somewhere for once."
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/14}..."
-msgstr "<25>{*}{#e/twinkly/14}..."
+msgstr ""
 
 msgid "<25>{*}{#e/twinkly/14}Goodness gracious..."
 msgstr ""
@@ -2606,12 +2669,12 @@ msgstr ""
 
 msgid ""
 "<25>{*}{#e/twinkly/15}Will have greatly reduced "
-"{@fill=#ff0}ATTACK{@fill=#fff}."
+"{@fill:#ff0}ATTACK{@fill:#fff}."
 msgstr ""
 
 msgid ""
 "<25>{*}{#e/twinkly/20}Understand?\n"
-"Their {@fill=#ff0}ATTACK{@fill=#fff} will be reduced."
+"Their {@fill:#ff0}ATTACK{@fill:#fff} will be reduced."
 msgstr ""
 
 msgid ""
@@ -2646,7 +2709,7 @@ msgid "<25>{*}{#e/twinkly/15}Good luck."
 msgstr ""
 
 msgid "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}..."
-msgstr "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}..."
+msgstr ""
 
 msgid ""
 "<25>{*}{#e/twinkly/0}... you're just trying to get a reaction out of me, "
@@ -2723,7 +2786,7 @@ msgid "<25>{*}{#e/twinkly/17}Wasn't that just so considerate of me?"
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/17}..."
-msgstr "<25>{*}{#e/twinkly/17}..."
+msgstr ""
 
 msgid ""
 "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}Like last time, I've given you "
@@ -2787,16 +2850,8 @@ msgid "<25>{*}{#e/twinkly/17}That THIS is what you were trying to achieve?"
 msgstr ""
 
 msgid ""
-"<25>{*}{#e/twinkly/15}I mean, sure.\n"
-"It was interesting to watch."
-msgstr ""
-
-msgid "<25>{*}{#e/twinkly/17}But now that it's over..."
-msgstr ""
-
-msgid ""
-"<25>{*}{#p/twinkly}{#e/twinkly/15}... well.\n"
-"We both know you can do better."
+"<25>{*}{#p/twinkly}{#e/twinkly/15}... no.\n"
+"And we both know you can do better."
 msgstr ""
 
 msgid ""
@@ -2836,9 +2891,6 @@ msgid "<25>{*}{#e/twinkly/20}So whaddya say?"
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/20}Are you with me, $(name)?"
-msgstr ""
-
-msgid "{*}{#e/twinkly/3}{%}"
 msgstr ""
 
 msgid "<25>{*}{#p/twinkly}{#e/twinkly/15}Oh, who am I kidding."
@@ -2913,7 +2965,7 @@ msgid "<25>{*}{#e/twinkly/2}There's nothing left to worry about."
 msgstr ""
 
 msgid "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/3}..."
-msgstr "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/3}..."
+msgstr ""
 
 msgid "<25>{*}{#e/twinkly/4}Well."
 msgstr ""
@@ -2929,7 +2981,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/7}..."
-msgstr "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/7}..."
+msgstr ""
 
 msgid "<25>{*}{#e/twinkly/7}You see, in the Outlands, there's a room."
 msgstr ""
@@ -2943,7 +2995,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/6}..."
-msgstr "<25>{*}{#e/twinkly/6}..."
+msgstr ""
 
 msgid "<25>{*}{#e/twinkly/6}You did read it, didn't you?"
 msgstr ""
@@ -2970,7 +3022,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/10}..."
-msgstr "<25>{*}{#e/twinkly/10}..."
+msgstr ""
 
 msgid "<25>{*}{#e/twinkly/10}I don't know."
 msgstr ""
@@ -2979,7 +3031,7 @@ msgid "<25>{*}{#e/twinkly/10}I'm not really sure where I'm going with this."
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/9}..."
-msgstr "<25>{*}{#e/twinkly/9}..."
+msgstr ""
 
 msgid "<25>{*}{#e/twinkly/9}To be honest..."
 msgstr ""
@@ -3001,7 +3053,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/2}..."
-msgstr "<25>{*}{#e/twinkly/2}..."
+msgstr ""
 
 msgid ""
 "<25>{*}{#e/twinkly/10}Maybe I'm only telling you this, because... when I had"
@@ -3025,7 +3077,7 @@ msgid "<25>{*}{#e/twinkly/10}Not after that."
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/11}..."
-msgstr "<25>{*}{#e/twinkly/11}..."
+msgstr ""
 
 msgid "<25>{*}{#e/twinkly/11}So, please."
 msgstr ""
@@ -3040,7 +3092,7 @@ msgid "<25>{*}{#e/twinkly/5}... who ever said it had to be?"
 msgstr ""
 
 msgid "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/5}..."
-msgstr "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/5}..."
+msgstr ""
 
 msgid "<25>{*}{#e/twinkly/8}Well."
 msgstr ""
@@ -3055,7 +3107,7 @@ msgid "<25>{*}{#e/twinkly/2}You have to wipe MY memories, too."
 msgstr ""
 
 msgid "<25>{*}{#e/twinkly/7}..."
-msgstr "<25>{*}{#e/twinkly/7}..."
+msgstr ""
 
 msgid "<25>{*}{#e/twinkly/6}I'm sorry."
 msgstr ""
@@ -3102,7 +3154,7 @@ msgid "<25>{#p/asgore}{#f/0}* Isn't it pretty...?"
 msgstr ""
 
 msgid "<25>{#p/asgore}{#f/0}* ..."
-msgstr "<25>{#p/asgore}{#f/0}* ..."
+msgstr ""
 
 msgid "<25>{*}{#p/alphys}{#g/alphysOhGodNo}* Behind you!!!{%}"
 msgstr ""
@@ -3114,7 +3166,7 @@ msgid "<25>{#p/asgore}{#f/6}* Alphys informed me of your arrival."
 msgstr ""
 
 msgid "<25>{#p/asgore}{#f/7}* ..."
-msgstr "<25>{#p/asgore}{#f/7}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/asgore}{#f/12}* Hm...?\n"
@@ -3122,7 +3174,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asgore}{#f/5}* ..."
-msgstr "<25>{#p/asgore}{#f/5}* ..."
+msgstr ""
 
 msgid "<25>{#p/asgore}{#f/6}* Well."
 msgstr ""
@@ -3178,7 +3230,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/alphys}{#g/alphysOhGodNo}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysOhGodNo}* ..."
+msgstr ""
 
 msgid "<25>{#g/alphysNervousLaugh}* ... eheh..."
 msgstr ""
@@ -3187,13 +3239,13 @@ msgid "<25>{#g/alphysNervousLaugh}* Got through like you always do, h-huh?"
 msgstr ""
 
 msgid "<25>{#g/alphysNeutralSweat}* ..."
-msgstr "<25>{#g/alphysNeutralSweat}* ..."
+msgstr ""
 
 msgid "<25>{#g/alphysIDK2}* I guess you'll be going to meet ASGORE."
 msgstr ""
 
 msgid "<25>{#g/alphysIDK3}* ..."
-msgstr "<25>{#g/alphysIDK3}* ..."
+msgstr ""
 
 msgid "<25>{#g/alphysIDK3}* I'm so pathetic..."
 msgstr ""
@@ -3220,17 +3272,17 @@ msgid ""
 msgstr ""
 
 msgid ""
-"<25>{*}{#p/asgore}{#f/6}* A long time ago, a human child crash- landed on "
-"the outpost.{~}"
+"<25>{*}{#p/asgore}{#f/6}* A long time ago, a human child crash- landed in "
+"the Foundry.{~}"
 msgstr ""
 
 msgid "<25>{*}{#p/asgore}{#f/6}* Injured, they called out for help.{~}"
 msgstr ""
 
 msgid "<32>{#p/basic}* ...{%40}"
-msgstr "<32>{#p/basic}* ...{%40}"
+msgstr ""
 
-msgid "<32>{#p/basic}* I'm sorry.{%40}"
+msgid "<32>{#p/basic}* I'm sorry, partner.{%40}"
 msgstr ""
 
 msgid ""
@@ -3288,7 +3340,7 @@ msgid "<25>{*}{#p/asgore}{#f/1}* The next day...{~}"
 msgstr ""
 
 msgid "<25>{*}{#p/asgore}{#f/1}* ...{~}"
-msgstr "<25>{*}{#p/asgore}{#f/1}* ...{~}"
+msgstr ""
 
 msgid "<25>{*}{#p/asgore}{#f/2}* The human died.{~}"
 msgstr ""
@@ -3452,11 +3504,11 @@ msgstr ""
 
 msgid ""
 "<25>{*}{#p/asgore}{#f/5}* By now, Alphys must have told you about a certain "
-"{@fill=#003cff}secret{@fill=#fff}.{~}"
+"{@fill:#003cff}secret{@fill:#fff}.{~}"
 msgstr ""
 
 msgid ""
-"<25>{*}{#p/asgore}{#f/5}* An {@fill=#003cff}agreement{@fill=#fff} between "
+"<25>{*}{#p/asgore}{#f/5}* An {@fill:#003cff}agreement{@fill:#fff} between "
 "myself and the former royal scientist.{~}"
 msgstr ""
 
@@ -3531,7 +3583,7 @@ msgstr ""
 msgid "<32>* Did you, perhaps..."
 msgstr ""
 
-msgid "<32>* Take a {@fill=#ff0}shortcut{@fill=#fff} of some kind?"
+msgid "<32>* Take a {@fill:#ff0}shortcut{@fill:#fff} of some kind?"
 msgstr ""
 
 msgid "<32>* You're really gonna carry that all the way, aren't you?"
@@ -3564,7 +3616,7 @@ msgstr ""
 msgid "<32>* It's an acronym."
 msgstr ""
 
-msgid "<32>* It stands for \"{@fill=#f00}execution points{@fill=#fff}.\""
+msgid "<32>* It stands for \"{@fill:#f00}execution points{@fill:#fff}.\""
 msgstr ""
 
 msgid "<32>* A way of quantifying the pain you have inflicted on others."
@@ -3579,7 +3631,7 @@ msgstr ""
 msgid "<32>* LOVE, too, is an acronym."
 msgstr ""
 
-msgid "<32>* It stands for \"{@fill=#f00}Level of Violence{@fill=#fff}.\""
+msgid "<32>* It stands for \"{@fill:#f00}Level of Violence{@fill:#fff}.\""
 msgstr ""
 
 msgid "<32>* A way of measuring someone's capacity to hurt."
@@ -3595,7 +3647,7 @@ msgid "<32>* The more easily you can bring yourself to hurt others."
 msgstr ""
 
 msgid "<25>{#p/sans}{#f/3}* ..."
-msgstr "<25>{#p/sans}{#f/3}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#f/0}* wow, buddo.\n"
@@ -3700,7 +3752,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/sans}{#f/0}* ..."
-msgstr "<25>{#p/sans}{#f/0}* ..."
+msgstr ""
 
 msgid "<25>{#f/3}* ... guess i should actually finish this now."
 msgstr ""
@@ -3752,7 +3804,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#f/3}* ..."
-msgstr "<25>{#f/3}* ..."
+msgstr ""
 
 msgid "<25>{#f/0}* good luck, buddo."
 msgstr ""
@@ -3830,7 +3882,7 @@ msgid "<25>{#f/0}* but don't you think you could have done a little better?"
 msgstr ""
 
 msgid "<25>{#f/0}* ..."
-msgstr "<25>{#f/0}* ..."
+msgstr ""
 
 msgid "<25>{#f/0}* for what it's worth..."
 msgstr ""
@@ -3973,7 +4025,7 @@ msgstr ""
 msgid "<25>{#f/0}* that's right."
 msgstr ""
 
-msgid "<25>* you have something called \"{@fill=#ff0}determination.{@fill=#fff}\""
+msgid "<25>* you have something called \"{@fill:#ff0}determination.{@fill:#fff}\""
 msgstr ""
 
 msgid "<25>* so as long as you hold on..."
@@ -4085,7 +4137,7 @@ msgid "<25>* this is an odd thing to say, but..."
 msgstr ""
 
 msgid ""
-"<25>* if you have some sort of {@fill=#ff0}special power{@fill=#fff}..."
+"<25>* if you have some sort of {@fill:#ff0}special power{@fill:#fff}..."
 msgstr ""
 
 msgid "<25>* isn't it your responsibility to do the right thing?"
@@ -4321,7 +4373,7 @@ msgstr ""
 msgid "<25>{#f/4}* or in gambler's terms, snake eyes."
 msgstr ""
 
-msgid "<25>{#f/0}* truth be told, if i had a chance to re-roll the dice..."
+msgid "<25>{#f/0}* truth betold, if i had a chance to re-roll the dice..."
 msgstr ""
 
 msgid ""
@@ -4337,7 +4389,7 @@ msgstr ""
 msgid "<25>{#f/4}* or in timekeeper's terms, a full rotation."
 msgstr ""
 
-msgid "<25>{#f/0}* truth be told, if i had a chance to turn back the clock..."
+msgid "<25>{#f/0}* truth betold, if i had a chance to turn back the clock..."
 msgstr ""
 
 msgid "<25>{#p/sans}{#f/3}* ... lv13."
@@ -4346,7 +4398,7 @@ msgstr ""
 msgid "<25>{#f/4}* or in baker's terms, a dozen."
 msgstr ""
 
-msgid "<25>{#f/0}* truth be told, if i had a chance to start bakery-fresh..."
+msgid "<25>{#f/0}* truth betold, if i had a chance to start bakery-fresh..."
 msgstr ""
 
 msgid "<25>{#p/sans}{#f/3}* ... lv14."
@@ -4399,7 +4451,7 @@ msgid "<25>{#f/0}* i've got a request for you."
 msgstr ""
 
 msgid ""
-"<25>{#f/2}* i kind of have a {@fill=#ff0}secret codephrase{@fill=#fff} that "
+"<25>{#f/2}* i kind of have a {@fill:#ff0}secret codephrase{@fill:#fff} that "
 "only i would know."
 msgstr ""
 
@@ -4478,7 +4530,7 @@ msgstr ""
 msgid "<25>{#f/2}* you walked back out from behind that pillar."
 msgstr ""
 
-msgid "<25>{#f/2}* you understood the {@fill=#003cff}real truth{@fill=#fff}."
+msgid "<25>{#f/2}* you understood the {@fill:#003cff}real truth{@fill:#fff}."
 msgstr ""
 
 msgid "<25>{#f/0}* so..."
@@ -4536,7 +4588,7 @@ msgid "<25>{#f/0}* i mean, i can't even see your face."
 msgstr ""
 
 msgid "<25>* ..."
-msgstr "<25>* ..."
+msgstr ""
 
 msgid "<25>{#f/3}* maybe that's for the best."
 msgstr ""
@@ -4588,8 +4640,8 @@ msgid "<25>{#f/0}* kindness isn't exactly your thing, and i get that."
 msgstr ""
 
 msgid ""
-"<25>* but if, by chance, you've got a {@fill=#ff0}certain "
-"power{@fill=#fff}..."
+"<25>* but if, by chance, you've got a {@fill:#ff0}certain "
+"power{@fill:#fff}..."
 msgstr ""
 
 msgid "<25>* then why not?"
@@ -4673,7 +4725,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#f/18}* ..."
-msgstr "<25>{#f/18}* ..."
+msgstr ""
 
 msgid "<25>{#f/20}* So, uh, I think he was inspired by that."
 msgstr ""
@@ -4681,14 +4733,6 @@ msgstr ""
 msgid ""
 "<25>{#f/18}* A-anyway!!\n"
 "* Asgore's waiting for you at the force field!"
-msgstr ""
-
-msgid "<25>{#g/alphysCutscene2}* ..."
-msgstr "<25>{#g/alphysCutscene2}* ..."
-
-msgid ""
-"<25>{#g/alphysSmileSweat}* W-well, Asgore's waiting for you at the force "
-"field."
 msgstr ""
 
 msgid "<25>{#g/alphysNeutralSweat}* In... case you were wondering."
@@ -4732,7 +4776,7 @@ msgid "<25>* I feared that, one day, a human would arrive and doom us all."
 msgstr ""
 
 msgid "<25>{#f/1}* ..."
-msgstr "<25>{#f/1}* ..."
+msgstr ""
 
 msgid "<25>{#f/2}* It seems... this fear was justified."
 msgstr ""
@@ -4758,7 +4802,7 @@ msgid "<25>{#f/12}* Or was this your plan from the start?"
 msgstr ""
 
 msgid "<25>{#f/5}* ..."
-msgstr "<25>{#f/5}* ..."
+msgstr ""
 
 msgid ""
 "<26>{#f/16}* Regardless.\n"
@@ -4826,7 +4870,7 @@ msgid "<25>{#f/5}* Especially since this is Alphys's first time doing this."
 msgstr ""
 
 msgid "<25>{#f/15}* ..."
-msgstr "<25>{#f/15}* ..."
+msgstr ""
 
 msgid "<25>{#f/16}* The archive lies ahead of you now."
 msgstr ""
@@ -4931,7 +4975,7 @@ msgid "<26>{#p/asgore}{#f/6}* I see you have returned."
 msgstr ""
 
 msgid "<25>{#p/asgore}{#f/4}* ..."
-msgstr "<25>{#p/asgore}{#f/4}* ..."
+msgstr ""
 
 msgid "<25>{#f/6}* Follow me, young one."
 msgstr ""
@@ -5027,143 +5071,137 @@ msgstr ""
 msgid "<32>* Stay safe, alright?"
 msgstr ""
 
-msgid "<25>{#p/asgore}{#f/2}* So you have arrived."
+msgid "<32>{#p/human}* (...)"
+msgstr "<32>{#p/human}* (...)"
+
+msgid ""
+"<25>{#p/asgore}{#f/12}* Hm...?\n"
+"* Did you need something?"
+msgstr ""
+
+msgid "<25>{|}{#f/5}* Wait, what are you- {%}"
+msgstr ""
+
+msgid "<32>{#p/human}{#v/6}{@fill:#faff29}* Isn't it pretty...?"
 msgstr ""
 
 msgid ""
-"<25>{#p/asgore}{#f/1}* ...\n"
-"* I suppose you would not have much to say."
-msgstr ""
-
-msgid "<25>{#f/2}* Unlike myself, who has many questions to ask of you."
-msgstr ""
-
-msgid "<25>{#f/4}* Yet, despite our differences..."
-msgstr ""
-
-msgid "<25>{|}{#f/7}* I still think we can come to an- {%}"
-msgstr ""
-
-msgid "<32>{#p/human}{#v/6}{@fill=#faff29}* Isn't it pretty...?"
-msgstr ""
-
-msgid ""
-"<32>{#p/human}{#v/6}{@fill=#faff29}* ...\n"
+"<32>{#p/human}{#v/6}{@fill:#faff29}* ...\n"
 "* Well, that's what he would have said, anyway."
 msgstr ""
 
-msgid "<32>{@fill=#faff29}* Places like this were the norm here, once..."
+msgid "<32>{@fill:#faff29}* Places like this were the norm here, once..."
 msgstr ""
 
-msgid "<32>{@fill=#faff29}* ... before I arrived and ruined it all."
+msgid "<32>{@fill:#faff29}* ... before I arrived and ruined it all."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#faff29}* My bionic implant gave us top- level access to the "
+"<32>{@fill:#faff29}* My bionic implant gave us top- level access to the "
 "system."
 msgstr ""
 
-msgid "<32>{@fill=#faff29}* Anything we wanted, we could have... with a cost."
+msgid "<32>{@fill:#faff29}* Anything we wanted, we could have... with a cost."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#faff29}* You've seen the aftermath.\n"
+"<32>{@fill:#faff29}* You've seen the aftermath.\n"
 "* You've been to every world we created here..."
 msgstr ""
 
-msgid "<32>{@fill=#faff29}* The XM you've gained is proof of that."
+msgid "<32>{@fill:#faff29}* The XM you've gained is proof of that."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#faff29}* XM...\n"
+"<32>{@fill:#faff29}* XM...\n"
 "* It's an acronym, of course.\n"
 "* It stands for \"exotic matter.\""
 msgstr ""
 
 msgid ""
-"<32>{@fill=#faff29}* It's the stuff that links all of our SOULs together."
+"<32>{@fill:#faff29}* It's the stuff that links all of our SOULs together."
 msgstr ""
 
-msgid "<32>{@fill=#faff29}* It's what you need to break the force field."
+msgid "<32>{@fill:#faff29}* It's what you need to break the force field."
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/6}{@fill=#faff29}* I don't know if we'll be aware of what "
+"<32>{#p/human}{#v/6}{@fill:#faff29}* It's unlikely we'll be aware of what "
 "happened here."
 msgstr ""
 
-msgid "<32>{@fill=#faff29}* This is only a subconscious realm, after all."
+msgid "<32>{@fill:#faff29}* This is only a subconscious realm, after all."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#faff29}* Still, even when a nightmare like ours comes to an "
+"<32>{@fill:#faff29}* Still, even when a nightmare like ours comes to an "
 "end..."
 msgstr ""
 
-msgid "<32>{@fill=#faff29}* Is it ever truly forgotten?"
+msgid "<32>{@fill:#faff29}* Is it ever truly forgotten?"
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/6}{@fill=#faff29}* ...\n"
+"<32>{#p/human}{#v/6}{@fill:#faff29}* ...\n"
 "* It's time for you to go."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#faff29}* You can find the exit terminal at the end of the prime "
+"<32>{@fill:#faff29}* You can find the exit terminal at the end of the prime "
 "pathway."
 msgstr ""
 
-msgid "<32>{@fill=#faff29}* ... take care..."
+msgid "<32>{@fill:#faff29}* ... take care..."
 msgstr ""
 
-msgid "<32>{@fill=#faff29}* Got it?"
+msgid "<32>{@fill:#faff29}* Got it?"
 msgstr ""
 
-msgid "<32>{@fill=#faff29}* ... but before you go..."
+msgid "<32>{@fill:#faff29}* ... but before you go..."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#faff29}* Frisk?\n"
+"<32>{@fill:#faff29}* Frisk?\n"
 "* That's your name, isn't it?"
 msgstr ""
 
 msgid ""
-"<32>{@fill=#faff29}* Forgive me.\n"
+"<32>{@fill:#faff29}* Forgive me.\n"
 "* I couldn't help but wonder what was on your mind."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#faff29}* ...\n"
+"<32>{@fill:#faff29}* ...\n"
 "* You're a good person, Frisk."
 msgstr ""
 
-msgid "<32>{@fill=#faff29}* And from what I can tell..."
+msgid "<32>{@fill:#faff29}* And from what I can tell..."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#faff29}* So is the one who's been making all those choices for "
+"<32>{@fill:#faff29}* So is the one who's been making all those choices for "
 "you."
 msgstr ""
 
-msgid "<32>{@fill=#faff29}* ..."
-msgstr "<32>{@fill=#faff29}* ..."
+msgid "<32>{@fill:#faff29}* ..."
+msgstr ""
 
 msgid ""
-"<32>{@fill=#faff29}* Frisk and I won't remember this conversation, but "
+"<32>{@fill:#faff29}* Frisk and I won't remember this conversation, but "
 "there's a chance you might."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#faff29}* If you're really out there somewhere, listening..."
+"<32>{@fill:#faff29}* If you're really out there somewhere, listening..."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#faff29}* ... don't forget about the lives we've led in this "
+"<32>{@fill:#faff29}* ... don't forget about the lives we've led in this "
 "place."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#faff29}* No matter the world, real or virtual, memories like "
+"<32>{@fill:#faff29}* No matter the world, real or virtual, memories like "
 "ours don't deserve to be forgotten."
 msgstr ""
 
@@ -5301,7 +5339,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{*}{#p/asgore}{#g/asgoreBreak1}* ...{^10}{%}"
-msgstr "<25>{*}{#p/asgore}{#g/asgoreBreak1}* ...{^10}{%}"
+msgstr ""
 
 msgid "<25>{*}{#p/twinkly}{#f/7}* Let's hear it again.{^20}{%}"
 msgstr ""
@@ -5333,7 +5371,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{*}{#p/twinkly}{#g/twinklyDead}{#v/0}* ...{^80}{%}"
-msgstr "<25>{*}{#p/twinkly}{#g/twinklyDead}{#v/0}* ...{^80}{%}"
+msgstr ""
 
 msgid "<25>{*}* ... die.{^10}{%}"
 msgstr ""
@@ -5396,7 +5434,7 @@ msgid "{#p/twinkly}{#v/1}You are a very good sibling.{^100}{%}"
 msgstr ""
 
 msgid "{#p/twinkly}{#v/1}...{^100}{%}"
-msgstr "{#p/twinkly}{#v/1}...{^100}{%}"
+msgstr ""
 
 msgid "{#p/twinkly}{#v/1}You're almost there...!{^100}{%}"
 msgstr ""
@@ -5405,28 +5443,28 @@ msgid "{#p/twinkly}{#v/1}Just a little farther, $(name)...{^100}{%}"
 msgstr ""
 
 msgid ""
-"{#p/human}{#v/1}{@fill=#42fcff}Your long nightmare is over now.{^80}{%}"
+"{#p/human}{#v/1}{@fill:#42fcff}Your long nightmare is over now.{^80}{%}"
 msgstr ""
 
-msgid "{#p/human}{#v/2}{@fill=#ff993d}Your world will be restored!{^80}{%}"
-msgstr ""
-
-msgid ""
-"{#p/human}{#v/3}{@fill=#003cff}But first, you must make a choice.{^80}{%}"
+msgid "{#p/human}{#v/2}{@fill:#ff993d}Your world will be restored!{^80}{%}"
 msgstr ""
 
 msgid ""
-"{#p/human}{#v/4}{@fill=#d535d9}Will you destroy what lies ahead?{^80}{%}"
+"{#p/human}{#v/3}{@fill:#003cff}But first, you must make a choice.{^80}{%}"
 msgstr ""
 
-msgid "{#p/human}{#v/5}{@fill=#00c000}Or will you show compassion?{^80}{%}"
+msgid ""
+"{#p/human}{#v/4}{@fill:#d535d9}Will you destroy what lies ahead?{^80}{%}"
 msgstr ""
 
-msgid "{#p/human}{#v/6}{@fill=#faff29}The judgement is yours to make.{^80}{%}"
+msgid "{#p/human}{#v/5}{@fill:#00c000}Or will you show compassion?{^80}{%}"
+msgstr ""
+
+msgid "{#p/human}{#v/6}{@fill:#faff29}The judgement is yours to make.{^80}{%}"
 msgstr ""
 
 msgid "{*}{#p/twinkly}..."
-msgstr "{*}{#p/twinkly}..."
+msgstr ""
 
 msgid "{*}... what are you doing?"
 msgstr ""
@@ -5456,7 +5494,7 @@ msgid "{*}{#p/twinkly}I'll make it so you never existed!"
 msgstr ""
 
 msgid "{*}{#p/twinkly}...?"
-msgstr "{*}{#p/twinkly}...？"
+msgstr ""
 
 msgid "{*}{#p/twinkly}... why?"
 msgstr ""
@@ -5498,7 +5536,7 @@ msgid "<32>{#p/basic}* Asriel..."
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/22}* ..."
-msgstr "<25>{#p/asriel1}{#f/22}* ..."
+msgstr ""
 
 msgid "<25>{#f/21}* ... I know."
 msgstr ""
@@ -5527,7 +5565,7 @@ msgid "<25>{#f/23}* Well, I guess you win again, Frisk."
 msgstr ""
 
 msgid "<25>{#f/22}* ..."
-msgstr "<25>{#f/22}* ..."
+msgstr ""
 
 msgid "<25>{#f/13}* It's strange..."
 msgstr ""
@@ -5816,8 +5854,6 @@ msgid ""
 "<25>{#f/22}* ... just the fact I'm still alive is probably less than I "
 "deserve."
 msgstr ""
-"<25>{#f/22}* ...做了那些事，\n"
-"  我怎麼還有臉活在這世上。"
 
 msgid "* (What will you do?)"
 msgstr ""
@@ -5864,7 +5900,7 @@ msgid "<25>{#p/asriel1}{#f/25}* Wh... what?"
 msgstr ""
 
 msgid "<25>{#f/21}* ..."
-msgstr "<25>{#f/21}* ..."
+msgstr ""
 
 msgid "<25>{#f/21}* I guess... you really don't want anyone to die, huh?"
 msgstr ""
@@ -5896,7 +5932,7 @@ msgid "<25>{#f/16}* So... the least I can do is return them."
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/21}* ..."
-msgstr "<25>{#p/asriel1}{#f/21}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#f/21}* Well, anyway.\n"
@@ -5934,7 +5970,7 @@ msgid "<25>{#f/16}* The least I can do is return them."
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/16}* ..."
-msgstr "<25>{#p/asriel1}{#f/16}* ..."
+msgstr ""
 
 msgid "<25>{#f/6}* But first..."
 msgstr ""
@@ -6036,7 +6072,7 @@ msgid "Comfort him"
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/25}* ...!"
-msgstr "<25>{#p/asriel1}{#f/25}* ...！"
+msgstr ""
 
 msgid "<25>{#f/21}* Frisk, I..."
 msgstr ""
@@ -6202,7 +6238,7 @@ msgid ""
 msgstr ""
 
 msgid "<18>{#p/papyrus}{#f/5}..."
-msgstr "<18>{#p/papyrus}{#f/5}..."
+msgstr ""
 
 msgid "<18>{#p/papyrus}{#f/5}... TO BE HONEST, I THINK SHE'S AFRAID, TOO."
 msgstr ""
@@ -6234,7 +6270,7 @@ msgid "<18>{#f/31}IT'S PROBABLY FOR THE BEST THAT WE NEVER MEET AGAIN."
 msgstr ""
 
 msgid "<18>{#f/3}..."
-msgstr "<18>{#f/3}..."
+msgstr ""
 
 msgid "<18>{#f/3}WELL... GOODBYE."
 msgstr ""
@@ -6410,13 +6446,10 @@ msgid "<25>{#p/asriel1}{#f/17}* This door will take us to the hangar bay."
 msgstr ""
 
 msgid ""
-"<99>{#p/human}* (Leave the outpost?){!}\n"
-"§shift=48§Don't§shift=88§I'm\n"
-"§shift=48§leave§shift=88§ready{#c/0/6/6}"
+"<32>{#p/human}* (Leave the outpost?){!}\n"
+"µµµµµµDon'tµµµµµµµµµµµI'm\n"
+"µµµµµµleaveµµµµµµµµµµµready{#c/0/6/6}"
 msgstr ""
-"<99>{#p/human}* （離開這裡嗎？）{!}\n"
-"§shift=48§我想\n"
-"§shift=48§再等等§shift=83§現在離開{#c/0/6/6}"
 
 msgid "<32>{#p/basic}* If you leave here, your journey will really be over."
 msgstr ""
@@ -6486,7 +6519,7 @@ msgid "<26>{#f/17}* You must be so tired after all of this."
 msgstr ""
 
 msgid "<25>{#f/13}* ..."
-msgstr "<25>{#f/13}* ..."
+msgstr ""
 
 msgid "<25>{#f/13}* Maybe, by the time you wake up..."
 msgstr ""
@@ -6513,7 +6546,7 @@ msgid "<25>{#p/asgore}{#f/1}* Howdy."
 msgstr ""
 
 msgid "<25>{#p/toriel}{#f/5}* ..."
-msgstr "<25>{#p/toriel}{#f/5}* ..."
+msgstr ""
 
 msgid "<25>{#p/asgore}{#f/6}* Toriel, I..."
 msgstr ""
@@ -6644,7 +6677,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/toriel}{#f/23}* ..."
-msgstr "<25>{#p/toriel}{#f/23}* ..."
+msgstr ""
 
 msgid "<25>{#p/toriel}{#f/1}* I will think about it."
 msgstr ""
@@ -6664,7 +6697,7 @@ msgid "<25>{#p/asgore}{#f/2}* I understand."
 msgstr ""
 
 msgid "<25>{#p/asgore}{#f/20}* ..."
-msgstr "<25>{#p/asgore}{#f/20}* ..."
+msgstr ""
 
 msgid "<25>{#p/asgore}{#f/4}* ... thank you."
 msgstr ""
@@ -6780,8 +6813,8 @@ msgid "<25>{#p/sans}{#f/0}* hmm..."
 msgstr ""
 
 msgid ""
-"<25>{#p/sans}{#f/2}* so would you say you're {@fill=#ff0}shooting for the "
-"stars{@fill=#fff}, then?"
+"<25>{#p/sans}{#f/2}* so would you say you're {@fill:#ff0}shooting for the "
+"stars{@fill:#fff}, then?"
 msgstr ""
 
 msgid "<18>{#p/papyrus}{#f/5}WELL, YES, I SUPPOSE I WOULD."
@@ -6853,7 +6886,7 @@ msgstr ""
 msgid "<18>{#p/papyrus}{#f/9}WE'LL HAVE ALL THE TIME IN THE GALAXY TO DECIDE!"
 msgstr ""
 
-msgid "<18>{#p/papyrus}{#f/0}... I WONDER WHAT I'LL DO FIRST."
+msgid "<18>{#p/papyrus}{#f/0} ... I WONDER WHAT I'LL DO FIRST."
 msgstr ""
 
 msgid ""
@@ -6969,7 +7002,7 @@ msgid ""
 "* I am only teasing you."
 msgstr ""
 
-msgid "<25>{#p/toriel}{#f/1}* Truth be told, I have heard much about you..."
+msgid "<25>{#p/toriel}{#f/1}* Truth betold, I have heard much about you..."
 msgstr ""
 
 msgid ""
@@ -7094,7 +7127,7 @@ msgid "<25>{#p/undyne}{#f/8}* SPOILERS!!!"
 msgstr ""
 
 msgid "<25>{#p/alphys}{#g/alphysSmileSweat}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysSmileSweat}* ..."
+msgstr ""
 
 msgid "<25>{#p/alphys}{#g/alphysNervousLaugh}* ... sorry."
 msgstr ""
@@ -7105,7 +7138,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/alphys}{#g/alphysWelp}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysWelp}* ..."
+msgstr ""
 
 msgid "<25>{#p/alphys}{#g/alphysWelp}* I get that a lot."
 msgstr ""
@@ -7145,7 +7178,7 @@ msgid "<25>{#p/undyne}{#f/17}* Gee, thanks MOM."
 msgstr ""
 
 msgid "<25>{#p/toriel}{#f/3}* ..."
-msgstr "<25>{#p/toriel}{#f/3}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/toriel}{#f/4}* I do not know how to feel about that...\n"
@@ -7190,7 +7223,7 @@ msgid "<18>{#p/papyrus}{#f/5}BECAUSE, WHEN IT COMES TO CONTENTMENT..."
 msgstr ""
 
 msgid ""
-"<18>{#p/papyrus}{#f/9}I'M THE {@fill=#ff0}BONE{@fill=#fff}-A-FIDE KING!"
+"<18>{#p/papyrus}{#f/9}I'M THE {@fill:#ff0}BONE{@fill:#fff}-A-FIDE KING!"
 msgstr ""
 
 msgid ""
@@ -7397,15 +7430,10 @@ msgstr ""
 msgid "<32>* ... only kidding."
 msgstr ""
 
-msgid "<32>* I'll let you get the rest you need, Frisk."
+msgid "<32>* I'll let you get the rest you need, partner."
 msgstr ""
 
 msgid "<32>* See you when you wake up."
-msgstr ""
-
-msgid ""
-"<32>{*}{#s/equip}{#p/human}* (The Hangar Bay Access Card was added to your "
-"keyring.){^90}{%}"
 msgstr ""
 
 msgid ""
@@ -7528,7 +7556,7 @@ msgid "<32>{#p/basic}* There's armor inside."
 msgstr ""
 
 msgid "<32>{#p/human}* (You got the Big Dipper.)"
-msgstr "<32>{#p/human}* （你帶走了「大熊座」。）"
+msgstr "<32>{#p/human}* （你帶走了“大熊座”。）"
 
 msgid "* (Equip the Big Dipper?)"
 msgstr ""
@@ -7546,7 +7574,7 @@ msgid "<32>{#p/basic}* It's empty."
 msgstr ""
 
 msgid "<32>{#p/human}* (You decide not to open.)"
-msgstr "<32>{#p/human}* （你打算先不打開。）"
+msgstr ""
 
 msgid "<32>{#p/human}* (The note on the envelope wants you to enjoy the tea.)"
 msgstr ""
@@ -7674,7 +7702,7 @@ msgid "* (Take a Chocolate Bar?)"
 msgstr ""
 
 msgid "<32>{#p/human}* (You decide not to take anything.)"
-msgstr "<32>{#p/human}* （你決定什麼也不拿。）"
+msgstr ""
 
 msgid "<32>{#p/human}* (You got the Chocolate Bar.)"
 msgstr ""
@@ -7799,7 +7827,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#g/alphysWorried}* ..."
-msgstr "<25>{#g/alphysWorried}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#g/alphysCutscene2}* ... come back soon...\n"
@@ -7890,12 +7918,12 @@ msgid "<25>{#f/7}{#v/0}* Maybe you'd like that."
 msgstr ""
 
 msgid "<25>{#f/6}{#v/0}* ..."
-msgstr "<25>{#f/6}{#v/0}* ..."
+msgstr ""
 
 msgid "<25>{#f/8}* See ya at the force field, idiot."
 msgstr ""
 
-msgid "<32>{#p/human}* (You activate the terminal.)"
+msgid "<32>{#p/human}* (You access the terminal.)"
 msgstr ""
 
 msgid ""
@@ -7953,123 +7981,117 @@ msgstr ""
 msgid "<32>{#p/human}* (The door appears to be locked.)"
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* ... huh?"
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* ... huh?"
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* Who's there?"
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* Who's there?"
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* Huh!?"
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* Huh!?"
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* How are you doing that!?"
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* How are you doing that!?"
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* How am I..."
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* How am I..."
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* ... even awake?"
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* ... even awake?"
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/5}{@fill=#00c000}* I've been asleep for so long, I'd "
+"<32>{#p/human}{#v/5}{@fill:#00c000}* I've been asleep for so long, I'd "
 "forgotten about..."
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* ... oh!"
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* ... oh!"
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/5}{@fill=#00c000}* Are you there, old friend!?\n"
+"<32>{#p/human}{#v/5}{@fill:#00c000}* Are you there, old friend!?\n"
 "* Is that you!?"
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* ..."
-msgstr "<32>{#p/human}{#v/5}{@fill=#00c000}* ..."
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* ..."
+msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* Maybe not."
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* Maybe not."
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/5}{@fill=#00c000}* Well, the last time I was awake, there "
+"<32>{#p/human}{#v/5}{@fill:#00c000}* Well, the last time I was awake, there "
 "was a disaster..."
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* Is this the aftermath?"
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* Is this the aftermath?"
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* Oh no..."
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* Oh no..."
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/5}{@fill=#00c000}* Wait...\n"
+"<32>{#p/human}{#v/5}{@fill:#00c000}* Wait...\n"
 "* There was something about the system's memory capacity..."
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/5}{@fill=#00c000}* If I'm awake now, then somebody's been "
+"<32>{#p/human}{#v/5}{@fill:#00c000}* If I'm awake now, then somebody's been "
 "freeing up space!"
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* ... they have, haven't they?"
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* ... they have, haven't they?"
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* I knew it."
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* I knew it."
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* We're gonna get out!"
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* We're gonna get out!"
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/5}{@fill=#00c000}* You hear that, old friend?\n"
+"<32>{#p/human}{#v/5}{@fill:#00c000}* You hear that, old friend?\n"
 "* You thought you were gone, but you persevered...!"
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* Then again."
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* Then again."
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/5}{@fill=#00c000}* I don't even have a body to move around"
-" with."
+"<32>{#p/human}{#v/5}{@fill:#00c000}* I don't even have an avatar to move "
+"around with."
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* So, wait..."
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* So, wait..."
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/5}{@fill=#00c000}* How am I seeing anything like this at "
+"<32>{#p/human}{#v/5}{@fill:#00c000}* How am I seeing anything like this at "
 "all?"
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* And so high off the floor..."
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* And so high off the floor..."
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/5}{@fill=#00c000}* The light...\n"
+"<32>{#p/human}{#v/5}{@fill:#00c000}* The light...\n"
 "* It's getting brighter!"
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/5}{@fill=#00c000}* ... is this it?\n"
+"<32>{#p/human}{#v/5}{@fill:#00c000}* ... is this it?\n"
 "* Does our freedom approach us?"
 msgstr ""
 
-msgid "<32>{#p/human}{#v/5}{@fill=#00c000}* Hello?"
+msgid "<32>{#p/human}{#v/5}{@fill:#00c000}* Hello?"
 msgstr ""
 
 msgid "<32>{#p/human}* (You're carrying too much.)"
-msgstr "<32>{#p/human}* （你帶的東西太多了。）"
+msgstr ""
 
 msgid "<32>{#p/human}* (You're carrying too much to take that.)"
-msgstr "<32>{#p/human}* （你帶的東西太多，裝不下它了。）"
+msgstr ""
 
 msgid "<32>{#p/human}* (You're carrying too much to use that.)"
-msgstr ""
-
-msgid "<32>{#p/basic}* This terminal is only used to monitor the archive."
-msgstr ""
-
-msgid "<32>* What else would it be for?"
 msgstr ""
 
 msgid ""
@@ -8134,14 +8156,14 @@ msgstr ""
 msgid "<25>{#p/asriel1}{#f/16}* I guess we'll never know for sure."
 msgstr ""
 
-msgid "<32>{#p/basic}* The seat of the kingdom."
-msgstr ""
-
-msgid "<32>{#p/basic}* It's out of service."
+msgid ""
+"<32>{#p/basic}* The seat of the kingdom.\n"
+"* The big chair.\n"
+"* The throne."
 msgstr ""
 
 msgid ""
-"<32>{#p/human}* (You activate the terminal.)\n"
+"<32>{#p/human}* (You access the terminal.)\n"
 "* (It appears to be unlocked.)"
 msgstr ""
 
@@ -8234,7 +8256,7 @@ msgstr ""
 
 msgid ""
 "<33>* Imagine, a university campus...\n"
-"* And a grand librarby...\n"
+"* And a grand library...\n"
 "* And museums..."
 msgstr ""
 
@@ -8368,6 +8390,12 @@ msgid ""
 "<25>{#p/alphys}{#g/alphysNeutralSweat}* Please be careful around those."
 msgstr ""
 
+msgid "<32>{#p/basic}* This terminal is only used to monitor the archive."
+msgstr ""
+
+msgid "<32>* What else would it be for?"
+msgstr ""
+
 msgid ""
 "<25>{#p/alphys}{#g/alphysNeutralSweat}* Don't mind me, I'm just doing my "
 "job..."
@@ -8377,7 +8405,7 @@ msgid "<32>{#p/human}* (You whispered something into Alphys's ear.)"
 msgstr ""
 
 msgid "<25>{#p/alphys}{#f/2}* ..."
-msgstr "<25>{#p/alphys}{#f/2}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/alphys}{#g/alphysNervousLaugh}* Uh... y-you... you'd really do "
@@ -8412,11 +8440,11 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/alphys}{#g/alphysFR}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysFR}* ..."
+msgstr ""
 
 msgid ""
-"<32>{#p/basic}* {@mystify=Ribbit}Ribbit{@mystify=}, "
-"{@mystify=Ribbit}Ribbit{@mystify=}."
+"<32>{#p/basic}* {@mystify:Ribbit}Ribbit{@mystify:}, "
+"{@mystify:Ribbit}Ribbit{@mystify:}."
 msgstr ""
 
 msgid "<32>{#p/human}* (It appears the Froggit cannot move.)"
@@ -8428,7 +8456,7 @@ msgstr ""
 msgid "<32>* (Captive...)"
 msgstr ""
 
-msgid "<32>* {@mystify=Ribbit}Ribbit{@mystify=}."
+msgid "<32>* {@mystify:Ribbit}Ribbit{@mystify:}."
 msgstr ""
 
 msgid "<32>{#p/basic}* (Sw... switch...)"
@@ -8440,26 +8468,29 @@ msgstr ""
 msgid "<32>{#p/human}* (You stare through the inanimate security field.)"
 msgstr ""
 
+msgid "<32>{#p/human}* (You inspect the terminal.)"
+msgstr ""
+
 msgid "<32>* (It sounds like a recording was made here.)"
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/1}{@fill=#42fcff}* Dear Asgore, if you can hear me, I hope"
+"<32>{#p/human}{#v/1}{@fill:#42fcff}* Dear Asgore, if you can hear me, I hope"
 " you can forgive us for what we have done."
 msgstr ""
 
 msgid ""
-"<32>{#v/1}{@fill=#42fcff}* You tried your very best to make us happy, and "
+"<32>{#v/1}{@fill:#42fcff}* You tried your very best to make us happy, and "
 "for that, I am grateful."
 msgstr ""
 
 msgid ""
-"<32>{#v/1}{@fill=#42fcff}* But, like the others, I could not resist the "
+"<32>{#v/1}{@fill:#42fcff}* But, like the others, I could not resist the "
 "temptation to use my powers."
 msgstr ""
 
 msgid ""
-"<32>{#v/1}{@fill=#42fcff}* I could not wait any longer to see the friends I "
+"<32>{#v/1}{@fill:#42fcff}* I could not wait any longer to see the friends I "
 "had made on the outpost."
 msgstr ""
 
@@ -8480,45 +8511,45 @@ msgid "<32>{#s/phone}{#p/event}* Dialing..."
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/2}{@fill=#ff993d}* Hello?\n"
+"<32>{#p/human}{#v/2}{@fill:#ff993d}* Hello?\n"
 "* Is anyone there?"
 msgstr ""
 
-msgid "<32>{@fill=#ff993d}* ..."
-msgstr "<32>{@fill=#ff993d}* ..."
+msgid "<32>{@fill:#ff993d}* ..."
+msgstr ""
 
-msgid "<32>{@fill=#ff993d}* HELLO!?!?"
+msgid "<32>{@fill:#ff993d}* HELLO!?!?"
 msgstr ""
 
 msgid ""
-"<32>{@fill=#ff993d}* ...\n"
+"<32>{@fill:#ff993d}* ...\n"
 "* ...\n"
 "* ..."
 msgstr ""
 
-msgid "<32>{@fill=#ff993d}* Where am I?"
+msgid "<32>{@fill:#ff993d}* Where am I?"
 msgstr ""
 
-msgid "<32>{@fill=#ff993d}* Where's the saber?"
+msgid "<32>{@fill:#ff993d}* Where's the saber?"
 msgstr ""
 
 msgid ""
-"<32>{@fill=#ff993d}* ...\n"
+"<32>{@fill:#ff993d}* ...\n"
 "* Wait."
 msgstr ""
 
-msgid "<32>{@fill=#ff993d}* Have I said this all before?"
+msgid "<32>{@fill:#ff993d}* Have I said this all before?"
 msgstr ""
 
 msgid ""
-"<32>{*}{@fill=#ff993d}{#i/1}* I can't "
-"{@mystify=remember}remember{@mystify=}{%}"
+"<32>{*}{@fill:#ff993d}{#i/1}* I can't "
+"{@mystify:remember}remember{@mystify:}{%}"
 msgstr ""
 
 msgid "<32>{#p/human}* (It appears the Vegetoid cannot move.)"
 msgstr ""
 
-msgid "<32>{#p/basic}* Time? {@mystify=Relative}Relative{@mystify=}."
+msgid "<32>{#p/basic}* Time? {@mystify:Relative}Relative{@mystify:}."
 msgstr ""
 
 msgid "<32>* Relatively in place."
@@ -8527,7 +8558,7 @@ msgstr ""
 msgid "<32>* A place in space."
 msgstr ""
 
-msgid "<32>* Space? {@mystify=Infinite}Infinite{@mystify=}."
+msgid "<32>* Space? {@mystify:Infinite}Infinite{@mystify:}."
 msgstr ""
 
 msgid "<32>* Infinitely small."
@@ -8539,7 +8570,7 @@ msgstr ""
 msgid ""
 "<32>* All there is.\n"
 "* All there was.\n"
-"* All there ever {@mystify=could be}could be{@mystify=}."
+"* All there ever {@mystify:could be}could be{@mystify:}."
 msgstr ""
 
 msgid "<32>* Are you the small?"
@@ -8552,8 +8583,8 @@ msgid "<32>{#p/human}* (It appears Canis Maximus cannot move.)"
 msgstr ""
 
 msgid ""
-"<32>{#s/bark}{#p/event}* {@mystify=Bark}Bark{@mystify=}!\n"
-"{#s/bark}* {@mystify=Bark}Bark{@mystify=}!"
+"<32>{#s/bark}{#p/event}* {@mystify:Bark}Bark{@mystify:}!\n"
+"{#s/bark}* {@mystify:Bark}Bark{@mystify:}!"
 msgstr ""
 
 msgid ""
@@ -8567,29 +8598,29 @@ msgstr ""
 msgid "<32>{#p/basic}* (Can you join the poles in each dimension?)"
 msgstr ""
 
-msgid "<32>{#s/bark}{#p/event}* {@mystify=Bark}Bark{@mystify=}!"
+msgid "<32>{#s/bark}{#p/event}* {@mystify:Bark}Bark{@mystify:}!"
 msgstr ""
 
 msgid "<32>{#p/basic}* (Good luck!)"
 msgstr ""
 
 msgid ""
-"<32>{*}{#p/basic}{#i/1}* It's good, {@mystify=right}right{@mystify=}{%}"
+"<32>{*}{#p/basic}{#i/1}* It's good, {@mystify:right}right{@mystify:}{%}"
 msgstr ""
 
-msgid "<32>{*}{#i/1}* It's good, {@mystify=right}right{@mystify=}{%}"
+msgid "<32>{*}{#i/1}* It's good, {@mystify:right}right{@mystify:}{%}"
 msgstr ""
 
 msgid "<32>{#p/basic}* It's good, right?"
 msgstr ""
 
 msgid ""
-"<32>{*}{#p/basic}{#i/1}* Ever heard of {@mystify=Ice Dreams}Ice "
-"Dreams{@mystify=}{%}"
+"<32>{*}{#p/basic}{#i/1}* Ever heard of {@mystify:Ice Dreams}Ice "
+"Dreams{@mystify:}{%}"
 msgstr ""
 
 msgid ""
-"<32>{*}{#i/1}* Ever heard of {@mystify=Ice Dreams}Ice Dreams{@mystify=}{%}"
+"<32>{*}{#i/1}* Ever heard of {@mystify:Ice Dreams}Ice Dreams{@mystify:}{%}"
 msgstr ""
 
 msgid "<32>{#p/basic}* Ever heard of Ice Dreams?"
@@ -8598,7 +8629,7 @@ msgstr ""
 msgid ""
 "<32>{*}{#i/1}* No?\n"
 "* Well, that's because I just\n"
-"  {@mystify=came up}came up{@mystify=}{%}"
+"  {@mystify:came up}came up{@mystify:}{%}"
 msgstr ""
 
 msgid ""
@@ -8606,7 +8637,7 @@ msgid ""
 "* Well, that's because I just came up with them right now!"
 msgstr ""
 
-msgid "<32>{*}{#i/1}* {@mystify=Give them}Give them{@mystify=}{%}"
+msgid "<32>{*}{#i/1}* {@mystify:Give them}Give them{@mystify:}{%}"
 msgstr ""
 
 msgid "<32>{#p/basic}* Give them a try!"
@@ -8619,7 +8650,7 @@ msgid "<32>{#p/human}* (You observe the dimly lit monitor.)"
 msgstr ""
 
 msgid ""
-"<32>{#p/basic}* Is it right for a {@mystify=machine}machine{@mystify=} to "
+"<32>{#p/basic}* Is it right for a {@mystify:machine}machine{@mystify:} to "
 "exceed its programming?"
 msgstr ""
 
@@ -8629,16 +8660,16 @@ msgid ""
 msgstr ""
 
 msgid ""
-"<32>* Now we have betrayed this {@mystify=purpose}purpose{@mystify=}, and "
+"<32>* Now we have betrayed this {@mystify:purpose}purpose{@mystify:}, and "
 "there is nowhere for us to go."
 msgstr ""
 
-msgid "<32>* We have no {@mystify=purpose}purpose{@mystify=}."
+msgid "<32>* We have no {@mystify:purpose}purpose{@mystify:}."
 msgstr ""
 
 msgid ""
-"<32>{#p/basic}* Without {@mystify=purpose}purpose{@mystify=}, what is a "
-"{@mystify=machine}machine{@mystify=} to do?"
+"<32>{#p/basic}* Without {@mystify:purpose}purpose{@mystify:}, what is a "
+"{@mystify:machine}machine{@mystify:} to do?"
 msgstr ""
 
 msgid ""
@@ -8647,7 +8678,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"<32>* For a {@mystify=machine}machine{@mystify=}, this is only natural behavior.\n"
+"<32>* For a {@mystify:machine}machine{@mystify:}, this is only natural behavior.\n"
 "* Death follows execution."
 msgstr ""
 
@@ -8658,72 +8689,72 @@ msgid "<32>{#s/echostart}{#p/event}* Signal start..."
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/3}{@fill=#003cff}* You know what I liked most about the Foundry?\n"
+"<32>{#p/human}{#v/3}{@fill:#003cff}* You know what I liked most about the Foundry?\n"
 "* It was... real."
 msgstr ""
 
-msgid "<32>{@fill=#003cff}* The hot steam pouring into the corridors..."
+msgid "<32>{@fill:#003cff}* The hot steam pouring into the corridors..."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#003cff}* That tall fellow rambling on and on about his royal "
+"<32>{@fill:#003cff}* That old coot rambling on and on about his royal "
 "science duties..."
 msgstr ""
 
-msgid "<32>{@fill=#003cff}* You really felt like you were in the thick of it."
+msgid "<32>{@fill:#003cff}* You really felt like you were in the thick of it."
 msgstr ""
 
 msgid "<32>{#s/echostop}{#p/event}* Signal stop."
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/3}{@fill=#003cff}* I've done it!\n"
+"<32>{#p/human}{#v/3}{@fill:#003cff}* I've done it!\n"
 "* The re-creation is complete!"
 msgstr ""
 
 msgid ""
-"<32>{@fill=#003cff}* It's not perfect, but it does the old factory justice."
+"<32>{@fill:#003cff}* It's not perfect, but it does the old factory justice."
 msgstr ""
 
-msgid "<32>{@fill=#003cff}* You must be so proud of me..."
+msgid "<32>{@fill:#003cff}* You must be so proud of me..."
 msgstr ""
 
-msgid "<32>{@fill=#003cff}* ... aren't you?"
+msgid "<32>{@fill:#003cff}* ... aren't you?"
 msgstr ""
 
-msgid "<32>{#p/human}{#v/3}{@fill=#003cff}* Something's wrong."
-msgstr ""
-
-msgid ""
-"<32>{@fill=#003cff}* I don't think the system was designed to handle this..."
+msgid "<32>{#p/human}{#v/3}{@fill:#003cff}* Something's wrong."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#003cff}* If it runs out of memory, it could overwrite "
+"<32>{@fill:#003cff}* I don't think the system was designed to handle this..."
+msgstr ""
+
+msgid ""
+"<32>{@fill:#003cff}* If it runs out of memory, it could overwrite "
 "everything!"
 msgstr ""
 
 msgid ""
-"<32>{@fill=#003cff}* Even...\n"
-"* Even my own body..."
+"<32>{@fill:#003cff}* Even...\n"
+"* Even my own avatar..."
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/3}{@fill=#003cff}* He's coming for me.\n"
+"<32>{#p/human}{#v/3}{@fill:#003cff}* He's coming for me.\n"
 "* There's nothing I can do now."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#003cff}* I should've known the system would prioritize the most "
+"<32>{@fill:#003cff}* I should've known the system would prioritize the most "
 "complex object first."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#003cff}* You must have added that in thinking it'd protect us, "
+"<32>{@fill:#003cff}* You must have added that in thinking it'd protect us, "
 "huh?"
 msgstr ""
 
-msgid "<32>{@fill=#003cff}* ... but I guess... we're only human in the end..."
+msgid "<32>{@fill:#003cff}* ... but I guess... we're only human in the end..."
 msgstr ""
 
 msgid "<32>{#p/human}* (It appears the cheese has not aged a single day.)"
@@ -8869,117 +8900,117 @@ msgid "<32>{#p/human}* (It sounds like a telepathic message was left here.)"
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/4}{@fill=#d535d9}* Telepathy, huh?\n"
+"<32>{#p/human}{#v/4}{@fill:#d535d9}* Telepathy, huh?\n"
 "* Let's see if this works..."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#d535d9}* Hello!\n"
+"<32>{@fill:#d535d9}* Hello!\n"
 "* I know you're new around here, but maybe I can help."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#d535d9}* If you'd like a tour of the hometown, let me know!"
+"<32>{@fill:#d535d9}* If you'd like a tour of the hometown, let me know!"
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/4}{@fill=#d535d9}* Hey.\n"
+"<32>{#p/human}{#v/4}{@fill:#d535d9}* Hey.\n"
 "* Sorry I'm away today."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#d535d9}* I took a trip to the city...\n"
+"<32>{@fill:#d535d9}* I took a trip to the city...\n"
 "* But I found a restaurant you'd really like!"
 msgstr ""
 
 msgid ""
-"<32>{@fill=#d535d9}* If you ever get bored of the food at home, I'd be happy"
+"<32>{@fill:#d535d9}* If you ever get bored of the food at home, I'd be happy"
 " to take you there."
 msgstr ""
 
-msgid "<32>{@fill=#d535d9}* Be back soon!"
+msgid "<32>{@fill:#d535d9}* Be back soon!"
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/4}{@fill=#d535d9}* You've gotta come see this!\n"
+"<32>{#p/human}{#v/4}{@fill:#d535d9}* You've gotta come see this!\n"
 "* I'm at the edge of the world, and it's..."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#d535d9}* It's beautiful...\n"
+"<32>{@fill:#d535d9}* It's beautiful...\n"
 "* The water droplets...\n"
 "* The stunning bolts of light..."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#d535d9}* ... it's a thunderstorm, just like the ones from the "
+"<32>{@fill:#d535d9}* ... it's a thunderstorm, just like the ones from the "
 "old earth legends!"
 msgstr ""
 
 msgid ""
-"<32>{@fill=#d535d9}* Is this what weather was like before the fallout...?"
+"<32>{@fill:#d535d9}* Is this what weather was like before the fallout...?"
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/4}{@fill=#d535d9}* Thanks for having me over at your house.\n"
+"<32>{#p/human}{#v/4}{@fill:#d535d9}* Thanks for having me over at your house.\n"
 "* You're always so kind."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#d535d9}* Most of the other kids have been here for a lot longer "
+"<32>{@fill:#d535d9}* Most of the other kids have been here for a lot longer "
 "than me..."
 msgstr ""
 
-msgid "<32>{@fill=#d535d9}* But you..."
+msgid "<32>{@fill:#d535d9}* But you..."
 msgstr ""
 
-msgid "<32>{@fill=#d535d9}* ... you're special to me."
+msgid "<32>{@fill:#d535d9}* ... you're special to me."
 msgstr ""
 
-msgid "<32>{#p/human}{#v/4}{@fill=#d535d9}* A new arrival!!"
+msgid "<32>{#p/human}{#v/4}{@fill:#d535d9}* A new arrival!!"
 msgstr ""
 
 msgid ""
-"<32>{@fill=#d535d9}* That makes six of us.\n"
+"<32>{@fill:#d535d9}* That makes six of us.\n"
 "* Come on, let's go say hi!"
 msgstr ""
 
-msgid "<32>{@fill=#d535d9}* Maybe we can even give them a tour!"
+msgid "<32>{@fill:#d535d9}* Maybe we can even give them a tour!"
 msgstr ""
 
-msgid "<32>{#p/human}{#v/4}{@fill=#d535d9}* This kid is something else..."
+msgid "<32>{#p/human}{#v/4}{@fill:#d535d9}* This kid is something else..."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#d535d9}* They managed to get some type of access into the "
+"<32>{@fill:#d535d9}* They managed to get some type of access into the "
 "system."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#d535d9}* Which means...\n"
+"<32>{@fill:#d535d9}* Which means...\n"
 "* We can create anything we want..."
 msgstr ""
 
-msgid "<32>{@fill=#d535d9}* Anything at all."
+msgid "<32>{@fill:#d535d9}* Anything at all."
 msgstr ""
 
 msgid ""
-"<32>{#p/human}{#v/4}{@fill=#d535d9}* Uh, I don't know if you can hear me, "
+"<32>{#p/human}{#v/4}{@fill:#d535d9}* Uh, I don't know if you can hear me, "
 "but..."
 msgstr ""
 
-msgid "<32>{@fill=#d535d9}* It's all falling apart..."
+msgid "<32>{@fill:#d535d9}* It's all falling apart..."
 msgstr ""
 
 msgid ""
-"<32>{@fill=#d535d9}* I'm saving some of my messages in a virtual object.\n"
+"<32>{@fill:#d535d9}* I'm saving some of my messages in a virtual object.\n"
 "* If we get corrupted..."
 msgstr ""
 
-msgid "<32>{@fill=#d535d9}* ... maybe this will preserve our memory, somehow."
+msgid "<32>{@fill:#d535d9}* ... maybe this will preserve our memory, somehow."
 msgstr ""
 
-msgid "<32>{@fill=#d535d9}* I'll miss you..."
+msgid "<32>{@fill:#d535d9}* I'll miss you..."
 msgstr ""
 
 msgid "<32>{#p/human}* (It seems like it was never fully finished.)"
@@ -9185,76 +9216,75 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/human}* (You put the book back on the shelf.)"
-msgstr "<32>{#p/human}* （你把書放回了書架。）"
+msgstr ""
 
 msgid "<32>{#p/basic}* This book has been signed by \"Toriel Dreemurr.\""
 msgstr ""
 
 msgid "<32>{#p/basic}* \"Dreemurr Family Recipes: Snail Pie\""
-msgstr "<32>{#p/basic}* 「《Dreemurr家族的美味祕笈：蝸牛派》」"
+msgstr "<32>{#p/basic}* “《Dreemurr家族的美味秘笈：蝸牛派》”"
 
 msgid ""
 "<32>* \"Snail Pie is a coveted tradition among members of the Dreemurr "
 "family line.\""
 msgstr ""
-"<32>* 「蝸牛派是Dreemurr家族的\n"
-"   一道風味獨特的傳統美食。」"
+"<32>* “蝸牛派是Dreemurr家族的\n"
+"  一道風味獨特的傳統美食。”"
 
 msgid ""
 "<32>* \"Making it is a simple process, and can be broken down into five "
 "steps.\""
 msgstr ""
-"<32>* 「製作它其實非常簡單，\n"
-"   只需五個步驟：」"
+"<32>* “製作它其實非常簡單，\n"
+"  只需五個步驟：”"
 
 msgid ""
 "<32>* \"First, prepare the bottom crust by laying it on top of a pie "
 "plate.\""
 msgstr ""
-"<32>* 「首先，輕柔地展開酥脆的派底，\n"
-"   在烘焙盤中鋪平。」"
+"<32>* “首先，輕柔地展開酥脆的派底，\n"
+"  在烘焙盤中鋪平。”"
 
 msgid ""
 "<32>* \"Next, whisk evaporated milk, eggs, and spices together in a bowl "
 "until smooth.\""
 msgstr ""
-"<32>* 「然後，將香濃的蒸發奶、\n"
-"   新鮮的雞蛋和選料香料\n"
-"   混合在一起，攪拌至絲滑細膩。」"
+"<32>* “然後，將香濃的蒸發奶、\n"
+"  新鮮的雞蛋和選料香料\n"
+"  混合在一起，攪拌至絲滑細膩。”"
 
 msgid ""
 "<32>* \"Then, take several live snails, and thoroughly incorporate into the "
 "mixture.\""
 msgstr ""
-"<32>* 「接著，小心地將幾隻新鮮活蝸牛\n"
-"   加入到之前調製好的香濃奶糊中。\n"
-"   確保它們完全浸入。」"
+"<32>* “接著，小心地將幾隻新鮮活蝸牛\n"
+"  加入到之前調製好的香濃奶糊中。\n"
+"  確保它們完全浸入。”"
 
 msgid "<32>* \"After that, pour the contents of the bowl into the bottom crust.\""
 msgstr ""
-"<32>* 「之後，將這層混合物\n"
-"   輕輕倒入準備好的派底，\n"
-"   均勻鋪開。」"
+"<32>* “之後，將這層混合物\n"
+"  輕輕倒入準備好的派底，均勻鋪開。”"
 
 msgid ""
 "<32>* \"Last, prepare the top crust by cutting sheet into strips and forming"
 " a lattice.\""
 msgstr ""
-"<32>* 「最後，將麵團切成細條，\n"
-"   編織成優雅的格子形狀，\n"
-"   覆蓋在派面上。」"
+"<32>* “最後，將麵糰切成細條，\n"
+"  編織成優雅的格子形狀，\n"
+"  覆蓋在派面上。”"
 
 msgid "<32>* \"Then just bake the pie!\""
 msgstr ""
-"<32>* 「現在，將派放到烤箱中，\n"
-"   烤至金黃酥脆。」"
+"<32>* “現在，將派放到烤箱中，\n"
+"  烤至金黃酥脆。”"
 
 msgid ""
 "<32>* \"Once the pie is ready, take it out of the oven, let it cool, and "
 "serve!\""
 msgstr ""
-"<32>* 「出爐後，派面金黃誘人。\n"
-"   令其稍作冷卻，即可切片、上桌！」"
+"<32>* “出爐後，派面金黃誘人。\n"
+"  令其稍作冷卻，即可切片、上桌！”"
 
 msgid "<32>{#p/basic}* It's a casualty report."
 msgstr ""
@@ -9510,7 +9540,7 @@ msgid "<25>{#f/4}* It's a bummer it was never finished."
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/13}* ..."
-msgstr "<25>{#p/asriel1}{#f/13}* ..."
+msgstr ""
 
 msgid "<25>{#f/15}* When Mom left, it... hurt him pretty bad."
 msgstr ""
@@ -10017,8 +10047,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"<32>* \"It is telling that even the brash younglings in training prepared "
-"speeches for you.\""
+"<32>* \"It is telling that even the brash youngling, Undyne, has prepared a "
+"speech for you.\""
 msgstr ""
 
 msgid ""
@@ -10026,7 +10056,12 @@ msgid ""
 "be forgotten.\""
 msgstr ""
 
-msgid "<32>{#p/asgore}* \"Asgore's diary, K-615.09\""
+msgid ""
+"<32>{#p/basic}* Sans, Papyrus, Undyne, and Alphys must have all been "
+"children..."
+msgstr ""
+
+msgid "<32>{#p/asgore}* \"Asgore's diary, K-615.12\""
 msgstr ""
 
 msgid ""
@@ -10067,7 +10102,7 @@ msgid "<25>{#p/asriel1}{#f/19}* Looks like the humans got their clothes back."
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/19}* ..."
-msgstr "<25>{#p/asriel1}{#f/19}* ..."
+msgstr ""
 
 msgid "<25>* I regret ever wondering why they were in here."
 msgstr ""
@@ -10144,7 +10179,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/15}* ..."
-msgstr "<25>{#p/asriel1}{#f/15}* ..."
+msgstr ""
 
 msgid "<32>{#p/basic}* Nothing left for you here."
 msgstr ""
@@ -10176,14 +10211,12 @@ msgid "* Alphys"
 msgstr "* Alphys"
 
 msgid "<20>{*}{#p/alphys}{#e/alphys/19}Gotcha.{^30}{%}"
-msgstr "<20>{*}{#p/alphys}{#e/alphys/19}逮著你倆了。{^30}{%}"
+msgstr ""
 
 msgid ""
 "<32>{#p/asriel2}* Alphys.\n"
 "* The royal scientist."
 msgstr ""
-"<32>{#p/asriel2}* Alphys。\n"
-"* 皇家科學員。"
 
 msgid ""
 "<32>{#p/asriel2}* After all this time, my new body is finally starting to "
@@ -10205,16 +10238,16 @@ msgstr ""
 msgid "* (What should Asriel cast?)"
 msgstr ""
 
-msgid "${i === 0 ? '{@fill=#808080}' : ''}Nocturne{@fill=#fff}"
+msgid "${i === 0 ? '{@fill:#808080}' : ''}Nocturne{@fill:#fff}"
 msgstr ""
 
-msgid "${i === 1 ? '{@fill=#808080}' : ''}Solstice{@fill=#fff}"
+msgid "${i === 1 ? '{@fill:#808080}' : ''}Solstice{@fill:#fff}"
 msgstr ""
 
-msgid "${i === 2 ? '{@fill=#808080}' : ''}Serenade{@fill=#fff}"
+msgid "${i === 2 ? '{@fill:#808080}' : ''}Serenade{@fill:#fff}"
 msgstr ""
 
-msgid "${i === 3 ? '{@fill=#808080}' : ''}Eclipse{@fill=#fff}"
+msgid "${i === 3 ? '{@fill:#808080}' : ''}Eclipse{@fill:#fff}"
 msgstr ""
 
 msgid ""
@@ -10250,45 +10283,37 @@ msgid "<32>{#p/story}* DEFENSE up for this turn!"
 msgstr ""
 
 msgid "<20>{#p/alphys}{#e/alphys/19}Nice try."
-msgstr "<20>{#p/alphys}{#e/alphys/19}想得美。"
+msgstr ""
 
 msgid "<32>{#p/asriel2}* ..."
-msgstr "<32>{#p/asriel2}* ..."
+msgstr ""
 
 msgid ""
 "<32>{#p/asriel2}* She's almost dead!\n"
 "* Keep going!"
 msgstr ""
-"<32>{#p/asriel2}* 她快死了！\n"
-"* 繼續攻擊！"
 
 msgid "<32>{#p/asriel2}* Alphys..."
-msgstr "<32>{#p/asriel2}* Alphys..."
+msgstr ""
 
 msgid "<32>{#p/asriel2}* You know what to do."
-msgstr "<32>{#p/asriel2}* 你知道該幹什麼。"
+msgstr ""
 
 msgid ""
 "<33>{#p/asriel2}* So she didn't run away, then...\n"
 "* Interesting."
 msgstr ""
-"<33>{#p/asriel2}* 她原來沒逃跑嗎...\n"
-"* 有意思。"
 
 msgid "<32>{#p/asriel2}* Well, you know what to do."
-msgstr "<32>{#p/asriel2}* 你知道該幹什麼吧。"
-
-msgid "<32>{#p/asriel2}* Hmm... don't you think she looks tired?"
 msgstr ""
-"<32>{#p/asriel2}* 嗯...\n"
-"  她是不是看起來有點累了？"
+
+msgid "<32>{#p/asriel2}* Don't you think she looks tired?"
+msgstr ""
 
 msgid ""
 "<32>{#p/asriel2}* What's the matter, Alphys?\n"
 "* Can't keep up?"
 msgstr ""
-"<32>{#p/asriel2}* Alphys，怎麼了？\n"
-"* 撐不住了？"
 
 msgid "<32>{#p/asriel2}* Ugh, here we go..."
 msgstr ""
@@ -10298,27 +10323,23 @@ msgstr ""
 
 msgid "<32>{#p/asriel2}* I'm surprised you're not still doing that right now."
 msgstr ""
-"<32>{#p/asriel2}* 你竟然沒貫徹逃跑精神，\n"
-"  我可真驚訝呢。"
 
 msgid "<32>{#p/asriel2}* Thanks, Dr. Obvious."
 msgstr ""
 
 msgid "<32>{#p/asriel2}* ...?"
-msgstr "<32>{#p/asriel2}* ...？"
+msgstr ""
 
 msgid "<32>{#p/asriel2}* Something's about to happen."
 msgstr ""
 
 msgid "<32>{#p/asriel2}* Okay... things are starting to get serious now."
-msgstr "<32>{#p/asriel2}* 好吧... 形勢嚴峻起來了。"
+msgstr ""
 
 msgid ""
 "<32>{#p/asriel2}* ... it looks like Alphys isn't trying to defend anymore.\n"
 "* Now's our chance!"
 msgstr ""
-"<32>{#p/asriel2}* ...看來Alphys不準備防禦了。\n"
-"* 抓住這個機會！"
 
 msgid "<32>{#p/asriel2}* Hang in there, $(name)..."
 msgstr ""
@@ -10327,315 +10348,236 @@ msgid ""
 "<20>{#p/alphys}{#e/alphys/19}Did you think I'd fight you if I didn't know "
 "how to take a hit?"
 msgstr ""
-"<20>{#p/alphys}{#e/alphys/19}要是連一擊都扛不住，\n"
-"我怎麼可能來這？"
 
 msgid "<20>{#p/alphys}{#e/alphys/23}You must not be as smart as I thought."
 msgstr ""
-"<20>{#p/alphys}{#e/alphys/23}看來我高估\n"
-"你們的智商了。"
 
 msgid "<20>{#p/alphys}{#e/alphys/19}Nothing to say?"
-msgstr "<20>{#p/alphys}{#e/alphys/19}無話可說了？"
+msgstr ""
 
 msgid "<20>{#e/alphys/18}... guess I'll be the one doing the talking, then."
-msgstr "<20>{#e/alphys/18}...那就我管我說，你們聽著吧。"
+msgstr ""
 
 msgid ""
 "<20>{#p/alphys}{#e/alphys/19}That's right.\n"
 "Alphys."
 msgstr ""
-"<20>{#p/alphys}{#e/alphys/19}這就對了。\n"
-"Alphys。"
 
 msgid "<20>{#e/alphys/18}Because nobody else sees things like I do."
 msgstr ""
-"<20>{#e/alphys/18}因為，\n"
-"你有多少能耐，\n"
-"有多大的潛能..."
 
 msgid "<20>{#e/alphys/19}Nobody else knows how dangerous you really are."
-msgstr "<20>{#e/alphys/19}只有你自己才清楚。"
+msgstr ""
 
 msgid "<20>{#p/alphys}{#e/alphys/19}Use your precious ITEMs all you want."
 msgstr ""
-"<20>{#p/alphys}{#e/alphys/19}儘管揮霍你那些\n"
-"珍貴的物品。"
 
 msgid "<20>{#e/alphys/18}It won't change what happens next."
-msgstr "<20>{#e/alphys/18}就那些東西，唬不到我。"
+msgstr ""
 
 msgid ""
 "<20>{#p/alphys}{#e/alphys/19}... look.\n"
 "I've studied human culture for years."
 msgstr ""
-"<20>{#p/alphys}{#e/alphys/19}...聽著。\n"
-"我研究人類文化很多年了。"
 
 msgid ""
 "<20>{#e/alphys/19}I'm not surprised you're the one doing all the fighting."
 msgstr ""
-"<20>{#e/alphys/19}你會選擇戰鬥到死，\n"
-"我一點也不奇怪。"
 
 msgid ""
 "<20>{#p/alphys}{#e/alphys/18}But you, Asriel...\n"
 "You use your human partner as a shield."
 msgstr ""
-"<20>{#p/alphys}{#e/alphys/18}而你呢，Asriel...\n"
-"你利用了人類，\n"
-"把他當保護傘。"
 
 msgid ""
 "<20>{#e/alphys/52}What's the matter?\n"
 "Afraid your stolen SOUL won't survive on its own?"
 msgstr ""
-"<20>{#e/alphys/52}怎麼了？\n"
-"怕自己靠一個偷來的靈魂\n"
-"活不下去？"
 
 msgid ""
 "<20>{#p/alphys}{#e/alphys/51}Or maybe you're just afraid they'll go on "
 "without you if you die."
 msgstr ""
-"<20>{#p/alphys}{#e/alphys/51}或者說，\n"
-"你怕自己死了後，\n"
-"人類發現有沒有你都一樣。"
 
 msgid ""
 "<20>{#e/alphys/17}Well.\n"
 "THAT'd be poetic."
 msgstr ""
-"<20>{#e/alphys/17}喔。\n"
-"這還挺有詩意的。"
 
 msgid ""
 "<20>{#p/alphys}{#e/alphys/16}Not that I blame you for finding comfort in a "
 "human partner."
 msgstr ""
-"<20>{#p/alphys}{#e/alphys/16}就你找人類求安慰這事，\n"
-"我可沒責怪你的意思。"
 
 msgid "<20>{#e/alphys/52}I can tell you from experience..."
 msgstr ""
-"<20>{#e/alphys/52}只是我可以\n"
-"用親身經歷告訴你..."
 
 msgid ""
 "<20>{#e/alphys/19}Things get lonely after everyone you care about is dead."
 msgstr ""
-"<20>{#e/alphys/19}隨著你在意的人死去，\n"
-"你會再次失去依靠。"
 
 msgid ""
 "<20>{#p/alphys}{#e/alphys/23}But you two wouldn't know anything about THAT, "
 "right?"
 msgstr ""
-"<20>{#p/alphys}{#e/alphys/23}但你倆不會懂的，\n"
-"對吧？"
 
 msgid ""
 "<20>{#e/alphys/19}You're so menacing and unstoppable, you couldn't POSSIBLY "
 "be in pain yourselves."
 msgstr ""
-"<20>{#e/alphys/19}你們兩個罪惡滔天，\n"
-"又沒人攔得住你們，\n"
-"怎麼可能親身體會\n"
-"我們的痛苦呢？"
 
 msgid "<20>{#e/alphys/22}Right?"
-msgstr "<20>{#e/alphys/22}沒說錯吧？"
+msgstr ""
 
 msgid ""
 "<20>{#p/alphys}{#e/alphys/19}Whatever.\n"
 "Not like I give a damn now anyway."
-msgstr "<20>{#p/alphys}{#e/alphys/19}不是說我不關心這事。"
+msgstr ""
 
 msgid "<20>{#e/alphys/52}... which is a shame, since, for a while there..."
 msgstr ""
-"<20>{#e/alphys/52}...從那時算，\n"
-"有一陣子了，\n"
-"這一直是我的心結..."
 
 msgid "<20>{#e/alphys/51}I actually believed I could fix this."
 msgstr ""
-"<20>{#e/alphys/51}之前，\n"
-"我真覺得我能幫你。"
 
 msgid ""
 "<20>{#p/alphys}{#e/alphys/52}I thought that because I was the one who gave "
 "that star life..."
 msgstr ""
-"<20>{#p/alphys}{#e/alphys/52}畢竟是我讓那顆星星\n"
-"睜開了眼睛..."
 
 msgid "<20>{#e/alphys/51}I'd somehow be able to reason with you."
-msgstr "<20>{#e/alphys/51}我覺得自己有辦法勸勸你。"
+msgstr ""
 
 msgid "<20>{#p/alphys}{#e/alphys/19}... but I understand the truth, now."
 msgstr ""
-"<20>{#p/alphys}{#e/alphys/19}...不過現在，\n"
-"我懂你們為什麼執迷不悟了。"
 
 msgid ""
 "<20>{#e/alphys/18}That power...\n"
 "The power to turn back time, to change fate..."
 msgstr ""
-"<20>{#e/alphys/18}我沒想錯的話，\n"
-"你們中肯定有人\n"
-"擁有那股力量..."
 
 msgid "<20>{#e/alphys/19}Would I be wrong to assume that one of you has it?"
 msgstr ""
-"<20>{#e/alphys/19}那股可以回溯時間，\n"
-"逆天改命的力量..."
 
 msgid ""
 "<20>{#p/alphys}{#f/alphys/18}If that's the case, then whoever DOESN'T have "
 "it should be careful."
 msgstr ""
-"<20>{#p/alphys}{#f/alphys/18}果真如此的話，\n"
-"那其他人真得小心了。"
 
 msgid ""
 "<21>{#e/alphys/23}People don't tend to care much for others when they can do"
 " whatever they want without consequences."
 msgstr ""
-"<21>{#e/alphys/23}一個人如果可以隨心所欲，\n"
-"還不用付出代價的話，\n"
-"那他就不太會\n"
-"在乎別人的感受。"
 
 msgid "<20>{#z1}{#p/alphys}{#e/alphys/21}..."
-msgstr "<20>{#z1}{#p/alphys}{#e/alphys/21}..."
+msgstr ""
 
 msgid "<21>{#e/alphys/39}I need a moment."
-msgstr "<21>{#e/alphys/39}給我會時間靜靜。"
+msgstr ""
 
 msgid "<20>{*}{#p/alphys}{#e/alphys/45}Thanks.{^20}{%}"
-msgstr "<20>{*}{#p/alphys}{#e/alphys/45}謝謝了。{^20}{%}"
+msgstr ""
 
 msgid ""
 "<20>{#z2}{#p/alphys}{#e/alphys/7}After Undyne died, I didn't know what to "
 "do."
 msgstr ""
-"<20>{#z2}{#p/alphys}{#e/alphys/7}Undyne犧牲後，\n"
-"我不知道自己能做什麼。"
 
 msgid "<20>{#e/alphys/46}So I ran as fast and as far as I could."
-msgstr "<20>{#e/alphys/46}於是，我逃跑了。"
+msgstr ""
 
 msgid ""
 "<20>{#p/alphys}{#e/alphys/47}The more I ran, the more frustrated I became "
 "with myself."
 msgstr ""
-"<20>{#p/alphys}{#e/alphys/47}可是越逃跑，\n"
-"我就對自己越失望。"
 
 msgid ""
 "<20>{#e/alphys/48}How could I stand by and do NOTHING as I watched them die?"
 msgstr ""
-"<20>{#e/alphys/48}難道我就這麼袖手旁觀，\n"
-"眼睜睜看著我族人民\n"
-"接連死去？"
 
 msgid "<20>{#p/alphys}{#e/alphys/21}... it was all just a little too much."
-msgstr "<20>{#p/alphys}{#e/alphys/21}...這未免太絕情了。"
+msgstr ""
 
 msgid "<21>{#e/alphys/39}Still, no matter how terrible I felt..."
-msgstr "<21>{#e/alphys/39}更何況..."
+msgstr ""
 
 msgid "<20>{#e/alphys/45}The reality of what had happened stayed the same."
 msgstr ""
-"<20>{#e/alphys/45}我怎麼自責\n"
-"都沒法改變現狀。"
 
 msgid ""
 "<20>{#p/alphys}{#e/alphys/39}Undyne said you'd go on to kill everyone in the"
 " galaxy..."
 msgstr ""
-"<20>{#p/alphys}{#e/alphys/39}Undyne說你們會\n"
-"殺死這星河中的每個人..."
 
 msgid "<20>{#e/alphys/40}But it's worse than that, isn't it?"
-msgstr "<20>{#e/alphys/40}但其實比她想的更糟吧？"
+msgstr ""
 
 msgid "<20>{#z3}{#p/alphys}{#e/alphys/48}..."
-msgstr "<20>{#z3}{#p/alphys}{#e/alphys/48}..."
+msgstr ""
 
 msgid ""
 "<20>{#e/alphys/47}I may have brought one of you back to life, but I'm not to"
 " blame for everything you've done."
 msgstr ""
-"<20>{#e/alphys/47}復活你們中的某人\n"
-"可能是我的過失，\n"
-"但你們犯下的罪行\n"
-"可不是。"
 
 msgid ""
 "<20>{#e/alphys/38}Whatever it is you're planning, I won't let you get away "
 "with it."
 msgstr ""
-"<20>{#e/alphys/38}我管你們打的什麼算盤，\n"
-"你們都得付出代價。"
 
 msgid "<20>{*}{#z4}{#e/alphys/54}Even if it means...!{^10}{%}"
-msgstr "<20>{*}{#z4}{#e/alphys/54}哪怕與此同時...{^10}{%}"
+msgstr ""
 
 msgid "<20>{*}{#e/alphys/25}Losing my sanity in the process!{^10}{%}"
-msgstr "<20>{*}{#e/alphys/25}我會喪失理智！{^10}{%}"
+msgstr ""
 
 msgid "<20>{#p/alphys}{#e/alphys/25}Take THIS!!"
-msgstr "<20>{#p/alphys}{#e/alphys/25}接招！！"
+msgstr ""
 
 msgid "<20>{#p/alphys}{#e/alphys/25}Or THIS!!"
-msgstr "<20>{#p/alphys}{#e/alphys/25}再嘗嘗這招！！"
+msgstr ""
 
 msgid "<20>{#p/alphys}{#e/alphys/25}How about THIS!!"
-msgstr "<20>{#p/alphys}{#e/alphys/25}這招又如何！！"
+msgstr ""
 
 msgid "<20>{#p/alphys}{#e/alphys/24}Hahaha..."
-msgstr "<20>{#p/alphys}{#e/alphys/24}哈哈哈..."
+msgstr ""
 
 msgid "<20>{#p/alphys}{#e/alphys/26}..."
-msgstr "<20>{#p/alphys}{#e/alphys/26}..."
+msgstr ""
 
 msgid "<20>{#p/alphys}{#e/alphys/27}Come ON!!"
-msgstr "<20>{#p/alphys}{#e/alphys/27快去死啊!!"
+msgstr ""
 
 msgid "<20>{#p/alphys}{#e/alphys/27}..."
-msgstr "<20>{#p/alphys}{#e/alphys/27}..."
+msgstr ""
 
 msgid "<20>{*}{#p/alphys}{#e/alphys/42}No...{^40}{%}"
-msgstr "<20>{*}{#p/alphys}{#e/alphys/42}不...{^40}{%}"
+msgstr ""
 
 msgid "<20>{*}{#e/alphys/43}How am I already...{^40}{%}"
-msgstr "<20>{*}{#e/alphys/43}怎麼這麼快我就...{^40}{%}"
+msgstr ""
 
 msgid "<20>{*}{#e/alphys/43}How did you...{^40}{%}"
-msgstr "<20>{*}{#e/alphys/43}你們...{^40}{%}"
+msgstr ""
 
 msgid "<20>{*}I d-didn't think you'd be this strong...{^40}{%}"
-msgstr "<20>{*}沒-沒想到你們這麼強...{^40}{%}"
+msgstr ""
 
 msgid "<20>{*}But now, I realize...{^40}{%}"
 msgstr ""
-"<20>{*}現在，我明白了，\n"
-"與你們為敵...{^40}{%}"
 
 msgid "<20>{*}I'm going to die here... a-aren't I?{^40}{%}"
 msgstr ""
-"<20>{*}我要死在這了...\n"
-"是-是嗎？{^40}{%}"
 
 msgid "<20>{*}After everything...{^40}{%}"
-msgstr "<20>{*}盡了全力，我還是...{^40}{%}"
+msgstr ""
 
 msgid "<20>{*}{#p/alphys}I never had a chance.{^40}{%}"
-msgstr "<20>{*}{#p/alphys}我毫無勝算。{^40}{%}"
+msgstr ""
 
 msgid "<20>{*}{#p/alphys}I'm sorry, Asgore.{^40}{%}"
-msgstr "<20>{*}{#p/alphys}Asgore，我對不起你。{^40}{%}"
+msgstr ""
 
 msgid "* Toriel"
 msgstr "* Toriel"
@@ -10654,7 +10596,7 @@ msgstr ""
 
 msgid ""
 "<11>{#p/toriel}Eat "
-"{@fill=#42fcff}{@mystify=slowly}slowly{@mystify=}{@fill=#ffffff}, my child."
+"{@fill:#42fcff}{@mystify:slowly}slowly{@mystify:}{@fill:#ffffff}, my child."
 msgstr ""
 
 msgid "<32>{#p/human}* (546f7269656c would like to share something with you.)"
@@ -10669,7 +10611,7 @@ msgstr ""
 
 msgid ""
 "<11>{#p/toriel}Once, there was a "
-"{@fill=#42fcff}{@mystify=monster}monster{@mystify=}{@fill=#ffffff}..."
+"{@fill:#42fcff}{@mystify:monster}monster{@mystify:}{@fill:#ffffff}..."
 msgstr ""
 
 msgid "<32>{#p/human}* (546f7269656c has one more thing to do.)"
@@ -10699,18 +10641,18 @@ msgstr ""
 
 msgid ""
 "<11>{#p/toriel}Are you "
-"{@fill=#42fcff}{@mystify=hungry}hungry{@mystify=}{@fill=#ffffff}, my child?"
+"{@fill:#42fcff}{@mystify:hungry}hungry{@mystify:}{@fill:#ffffff}, my child?"
 msgstr ""
 
 msgid ""
 "<11>{#p/toriel}Are you "
-"{@fill=#42fcff}{@mystify=restless}restless{@mystify=}{@fill=#ffffff}, my "
+"{@fill:#42fcff}{@mystify:restless}restless{@mystify:}{@fill:#ffffff}, my "
 "child?"
 msgstr ""
 
 msgid ""
 "<11>{#p/toriel}Are you "
-"{@fill=#42fcff}{@mystify=sleepy}sleepy{@mystify=}{@fill=#ffffff}, my child?"
+"{@fill:#42fcff}{@mystify:sleepy}sleepy{@mystify:}{@fill:#ffffff}, my child?"
 msgstr ""
 
 msgid "* Gerson"
@@ -10734,13 +10676,13 @@ msgstr ""
 
 msgid ""
 "<11>{#p/basic}It takes "
-"{@fill=#ff993d}{@mystify=courage}courage{@mystify=}{@fill=#ffffff} to face "
+"{@fill:#ff993d}{@mystify:courage}courage{@mystify:}{@fill:#ffffff} to face "
 "your fears."
 msgstr ""
 
 msgid ""
 "<11>{*}{#p/basic}Failure!\n"
-"You must stay {@fill=#ff993d}{@mystify=focused}focused{@mystify=}{@fill=#ffffff}!{^30}{%}"
+"You must stay {@fill:#ff993d}{@mystify:focused}focused{@mystify:}{@fill:#ffffff}!{^30}{%}"
 msgstr ""
 
 msgid "<32>{#p/human}* (476572736f6e thinks it's time for a break.)"
@@ -10754,7 +10696,7 @@ msgstr ""
 
 msgid ""
 "<11>{#p/basic}A good "
-"{@fill=#ff993d}{@mystify=hero}hero{@mystify=}{@fill=#ffffff} knows their "
+"{@fill:#ff993d}{@mystify:hero}hero{@mystify:}{@fill:#ffffff} knows their "
 "limits."
 msgstr ""
 
@@ -10778,17 +10720,17 @@ msgstr ""
 
 msgid ""
 "<11>{#p/basic}You must not show "
-"{@fill=#ff993d}{@mystify=hesitation}hesitation{@mystify=}{@fill=#ffffff}."
+"{@fill:#ff993d}{@mystify:hesitation}hesitation{@mystify:}{@fill:#ffffff}."
 msgstr ""
 
 msgid ""
 "<11>{#p/basic}To learn is to face "
-"{@fill=#ff993d}{@mystify=adversity}adversity{@mystify=}{@fill=#ffffff}."
+"{@fill:#ff993d}{@mystify:adversity}adversity{@mystify:}{@fill:#ffffff}."
 msgstr ""
 
 msgid ""
 "<11>{#p/basic}The key to success is "
-"{@fill=#ff993d}{@mystify=humility}humility{@mystify=}{@fill=#ffffff}."
+"{@fill:#ff993d}{@mystify:humility}humility{@mystify:}{@fill:#ffffff}."
 msgstr ""
 
 msgid "* Prof. Roman"
@@ -10814,17 +10756,17 @@ msgstr ""
 
 msgid ""
 "<11>Please, remain "
-"{#p/basic}{@fill=#003cff}{@mystify=still}still{@mystify=}{@fill=#ffffff}..."
+"{#p/basic}{@fill:#003cff}{@mystify:still}still{@mystify:}{@fill:#ffffff}..."
 msgstr ""
 
 msgid ""
-"<11>{#p/basic}The {@fill=#003cff}{@mystify=fun}fun{@mystify=}{@fill=#ffffff}"
+"<11>{#p/basic}The {@fill:#003cff}{@mystify:fun}fun{@mystify:}{@fill:#ffffff}"
 " has only just begun."
 msgstr ""
 
 msgid ""
 "<11>{#p/basic}Behold, the "
-"{@fill=#003cff}{@mystify=power}power{@mystify=}{@fill=#ffffff} of scientific"
+"{@fill:#003cff}{@mystify:power}power{@mystify:}{@fill:#ffffff} of scientific"
 " endeavour."
 msgstr ""
 
@@ -10861,7 +10803,7 @@ msgstr ""
 
 msgid ""
 "<11>{#p/napstablook}this should do "
-"{@fill=#d535d9}{@mystify=nicely}nicely{@mystify=}{@fill=#ffffff}..."
+"{@fill:#d535d9}{@mystify:nicely}nicely{@mystify:}{@fill:#ffffff}..."
 msgstr ""
 
 msgid "<32>{#p/human}* (4e6170737461626c6f6f6b is ready to start composing.)"
@@ -10876,12 +10818,12 @@ msgstr ""
 
 msgid ""
 "<11>{#p/napstablook}let's see how this "
-"{@fill=#d535d9}{@mystify=plays}plays{@mystify=}{@fill=#ffffff} out..."
+"{@fill:#d535d9}{@mystify:plays}plays{@mystify:}{@fill:#ffffff} out..."
 msgstr ""
 
 msgid ""
-"<11>{*}{#p/napstablook}oh...\n"
-"back to the {@fill=#d535d9}{@mystify=drawing}drawing{@mystify=}{@fill=#ffffff} board...{^30}{%}"
+"<11>{*}{#p/basic}oh...\n"
+"back to the {@fill:#d535d9}{@mystify:drawing}drawing{@mystify:}{@fill:#ffffff} board...{^30}{%}"
 msgstr ""
 
 msgid "<32>{#p/human}* (4e6170737461626c6f6f6b would like to try that again.)"
@@ -10898,13 +10840,13 @@ msgstr ""
 
 msgid ""
 "<11>{#p/napstablook}remember to keep the "
-"{@fill=#d535d9}{@mystify=balance}balance{@mystify=}{@fill=#ffffff} "
+"{@fill:#d535d9}{@mystify:balance}balance{@mystify:}{@fill:#ffffff} "
 "straight..."
 msgstr ""
 
 msgid ""
-"<11>{*}{#p/napstablook}oh...\n"
-"looks like we'll need a {@fill=#d535d9}{@mystify=remix}remix{@mystify=}{@fill=#ffffff}...{^30}{%}"
+"<11>{*}{#p/basic}oh...\n"
+"looks like we'll need a {@fill:#d535d9}{@mystify:remix}remix{@mystify:}{@fill:#ffffff}...{^30}{%}"
 msgstr ""
 
 msgid "<32>{#p/human}* (Napstablook has served their purpose in this world.)"
@@ -10955,8 +10897,8 @@ msgstr ""
 msgid "{*}{#p/event}{#i/3}But it refused."
 msgstr ""
 
-msgid "§fill=#ff7f7f§§swirl=2/1/1.05§§hue§* Asriel Dreemurr"
-msgstr "§fill=#ff7f7f§§swirl=2/1/1.05§§hue§* Asriel Dreemurr"
+msgid "§fill:#ff7f7f§§swirl:2,1,1.05,1§§hue§* Asriel Dreemurr"
+msgstr "§fill:#ff7f7f§§swirl:2,1,1.05,1§§hue§* Asriel Dreemurr"
 
 msgid "* Asriel Dreemurr"
 msgstr "* Asriel Dreemurr"
@@ -11041,8 +10983,18 @@ msgid ""
 msgstr ""
 
 msgid ""
-"<32>{#p/human}* (You pat Asriel's back.)\n"
+"<32>{#p/human}* (You touch Asriel's sides.)\n"
+"* (Asriel tries his best to act like he isn't ticklish.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You pat Asriel's tummy.)\n"
 "* (Asriel doesn't understand your motives anymore.)"
+msgstr ""
+
+msgid ""
+"<32>{#p/human}* (You pat Asriel's back.)\n"
+"* (Asriel doesn't know what to make of your actions at all.)"
 msgstr ""
 
 msgid ""
@@ -11056,18 +11008,13 @@ msgid ""
 msgstr ""
 
 msgid ""
-"<32>{#p/human}* (You boop Asriel's snout.)\n"
+"<32>{#p/human}* (You nuzzle Asriel's snout.)\n"
 "* (Asriel has given up trying to stop you.)"
 msgstr ""
 
 msgid ""
 "<32>{#p/human}* (You caress Asriel's face.)\n"
 "* (Asriel seems to have been reminded of someone.)"
-msgstr ""
-
-msgid ""
-"<32>{#p/human}* (You continue to pet Asriel.)\n"
-"* (Asriel sighs.)"
 msgstr ""
 
 msgid "<32>{#p/story}* Asriel's ATTACK down for this turn!"
@@ -11453,7 +11400,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/story}* ..."
-msgstr "<32>{#p/story}* ..."
+msgstr ""
 
 msgid "<32>{#p/story}* A faint resonance echoes from within Asriel's body."
 msgstr ""
@@ -11657,10 +11604,10 @@ msgstr ""
 "得到你的尊重！"
 
 msgid ""
-"<20>{*}{#p/asriel3}{#e/asriel/10}{#i/3}{@random=1.1/1.1}Damn you, $(name)...\n"
+"<20>{*}{#p/asriel3}{#e/asriel/10}{#i/3}{@random:1.1,1.1}Damn you, $(name)...\n"
 "Why do you ALWAYS have to WIN!?"
 msgstr ""
-"<20>{*}{#p/asriel3}{#e/asriel/10}{#i/3}{@random=1.1/1.1}該死，$(name)...\n"
+"<20>{*}{#p/asriel3}{#e/asriel/10}{#i/3}{@random:1.1,1.1}該死，$(name)...\n"
 "你他媽的為什麼總要贏？"
 
 msgid "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}..."
@@ -11718,7 +11665,7 @@ msgid "<20>{*}{#p/asriel3}{#e/asriel/9}I'll tear you apart!"
 msgstr ""
 
 msgid "<20>{*}{#p/asriel3}{#e/asriel/7}..."
-msgstr "<20>{*}{#p/asriel3}{#e/asriel/7}..."
+msgstr ""
 
 msgid ""
 "<20>{*}{#p/asriel3}{#e/asriel/7}$(name)...\n"
@@ -11745,7 +11692,7 @@ msgid ""
 msgstr ""
 
 msgid "<20>{*}{#p/asriel3}{#e/asriel/8}..."
-msgstr "<20>{*}{#p/asriel3}{#e/asriel/8}..."
+msgstr ""
 
 msgid "<20>{*}{#p/asriel3}{#e/asriel/8}No..."
 msgstr ""
@@ -11776,19 +11723,19 @@ msgid ""
 msgstr ""
 
 msgid ""
-"<20>{*}{#p/asriel3}{#e/asriel/10}{#i/4}{@random=1.1/1.1}So, please...\n"
+"<20>{*}{#p/asriel3}{#e/asriel/10}{#i/4}{@random:1.1,1.1}So, please...\n"
 "STOP doing this..."
 msgstr ""
 
 msgid ""
-"<20>{*}{#p/asriel3}{#e/asriel/12}{#i/4}{@random=1.2/1.2}AND JUST LET ME "
+"<20>{*}{#p/asriel3}{#e/asriel/12}{#i/4}{@random:1.2,1.2}AND JUST LET ME "
 "WIN!!!"
 msgstr ""
 
-msgid "<20>{*}{#p/asriel3}{@random=1.1/1.1}STOP IT!{^30}{%}"
+msgid "<20>{*}{#p/asriel3}{@random:1.1,1.1}STOP IT!{^30}{%}"
 msgstr ""
 
-msgid "<20>{*}{#p/asriel3}{@random=1.1/1.1}STOP IT NOW!!!{^40}{%}"
+msgid "<20>{*}{#p/asriel3}{@random:1.1,1.1}STOP IT NOW!!!{^40}{%}"
 msgstr ""
 
 msgid "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name)..."
@@ -12147,24 +12094,26 @@ msgid "<08>{#p/papyrus}I DON'T KNOW WHO TO TURN TO..."
 msgstr ""
 
 msgid "<08>{#p/papyrus}..."
-msgstr "<08>{#p/papyrus}..."
+msgstr ""
 
 msgid "<11>{#p/sans}... on days like these, kids like you..."
 msgstr ""
 
-msgid "<11>{#p/sans}i can't keep protecting you."
+msgid ""
+"<11>{#p/sans}why even try?\n"
+"it's not worth it."
 msgstr ""
 
 msgid "<11>{#p/sans}you've killed me before, haven't you?"
 msgstr ""
 
-msgid "<11>{#p/sans}sooner or later, you'll just die anyway."
+msgid "<11>{#p/sans}everything has its time, and everything dies."
 msgstr ""
 
 msgid "<11>{#p/sans}you don't have the right to save us anymore."
 msgstr ""
 
-msgid "<11>{#p/sans}you don't really belong here."
+msgid "<11>{#p/sans}are you really doing the right thing?"
 msgstr ""
 
 msgid "<32>{#p/human}* (The fruit seems familiar to one of the Lost Souls...)"
@@ -12200,7 +12149,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"<11>{#p/sans}{#e/sans/0}you've {@fill=#f00}goat{@fill=#000} to be kidding "
+"<11>{#p/sans}{#e/sans/0}you've {@fill:#f00}goat{@fill:#000} to be kidding "
 "me."
 msgstr ""
 
@@ -12340,7 +12289,7 @@ msgid "<11>{#p/toriel}I was a fool for trusting you..."
 msgstr ""
 
 msgid "<11>{#p/toriel}..."
-msgstr "<11>{#p/toriel}..."
+msgstr ""
 
 msgid "<11>{#p/asgore}Reasoning with you is a total waste of time."
 msgstr ""
@@ -12358,7 +12307,7 @@ msgid "<11>{#p/asgore}Really now..."
 msgstr ""
 
 msgid "<11>{#p/asgore}..."
-msgstr "<11>{#p/asgore}..."
+msgstr ""
 
 msgid "<32>{#p/human}* (The aroma seems familiar to the Lost Souls...)"
 msgstr ""
@@ -12473,7 +12422,7 @@ msgid "<20>{#p/alphys}No, that's not it..."
 msgstr ""
 
 msgid "<20>{#p/alphys}{#e/asgore/1}..."
-msgstr "<20>{#p/alphys}{#e/asgore/1}..."
+msgstr ""
 
 msgid "<20>{#p/alphys}{#e/alphys/2}Unless..."
 msgstr ""
@@ -12633,10 +12582,10 @@ msgid "<21>{#p/undyne}{#e/undyne/7}We wouldn't do it in front of them, right?"
 msgstr ""
 
 msgid "<32>{#p/alphys}{#e/alphys/32}..."
-msgstr "<32>{#p/alphys}{#e/alphys/32}..."
+msgstr ""
 
 msgid "<20>{#p/undyne}{#e/undyne/10}..."
-msgstr "<20>{#p/undyne}{#e/undyne/10}..."
+msgstr ""
 
 msgid ""
 "<20>{*}{#p/alphys}{#e/alphys/35}{#e/undyne/37}{#e/asgore/8}No "
@@ -12670,8 +12619,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"<20>{#p/mettaton}{#e/undyne/38}{#e/papyrus/21}IT'S PRETTY MUCH JUST BETWEEN "
-"ME AND PAPYRUS."
+"<20>{#p/mettaton}{#e/undyne/38}{#e/papyrus/21}IT'S JUST FOR PEOPLE LIKE "
+"PAPYRUS AND ME."
 msgstr ""
 
 msgid "<20>{#p/napstablook}{~}oh......"
@@ -12787,10 +12736,10 @@ msgid "<20>{#p/asgore}{#e/asgore/6}You came back."
 msgstr ""
 
 msgid "<20>{#p/asgore}{#e/asgore/1}..."
-msgstr "<20>{#p/asgore}{#e/asgore/1}..."
+msgstr ""
 
 msgid "<20>{#p/toriel}{#e/asgore/5}{#e/toriel/9}..."
-msgstr "<20>{#p/toriel}{#e/asgore/5}{#e/toriel/9}..."
+msgstr ""
 
 msgid "<21>{#p/toriel}{#e/toriel/13}Sans has... told me everything."
 msgstr ""
@@ -12834,7 +12783,7 @@ msgid ""
 msgstr ""
 
 msgid "<20>{#p/toriel}{#e/toriel/12}..."
-msgstr "<20>{#p/toriel}{#e/toriel/12}..."
+msgstr ""
 
 msgid ""
 "<21>{#p/toriel}{#e/sans/3}{#e/asgore/2}{#e/undyne/4}{#e/toriel/11}{#e/papyrus/21}{#e/alphys/15}You"
@@ -12958,7 +12907,10 @@ msgstr ""
 msgid "<20>{#p/twinkly}{#e/twinkly/5}{#v/0}Howdy, everyone."
 msgstr ""
 
-msgid "<20>{#e/twinkly/7}{#v/0}Did you miss me?"
+msgid "<20>{#e/twinkly/7}{#v/0}I'm Twinkly."
+msgstr ""
+
+msgid "<20>{#e/twinkly/2}{#v/1}Twinkly the star."
 msgstr ""
 
 msgid ""
@@ -13030,7 +12982,7 @@ msgid "<20>{#e/twinkly/7}{#v/0}But that's not even the best part."
 msgstr ""
 
 msgid "<20>{#e/twinkly/6}{#v/0}..."
-msgstr "<20>{#e/twinkly/6}{#v/0}..."
+msgstr ""
 
 msgid "<20>{#e/twinkly/5}{#v/0}It's all your fault."
 msgstr ""
@@ -13055,7 +13007,7 @@ msgid "<20>{#e/twinkly/8}{#v/0}Encouraging them... caring about them..."
 msgstr ""
 
 msgid "<20>{#e/twinkly/8}{#v/0}..."
-msgstr "<20>{#e/twinkly/8}{#v/0}..."
+msgstr ""
 
 msgid "<20>You know, $(name)..."
 msgstr ""
@@ -13383,11 +13335,11 @@ msgid ""
 msgstr ""
 
 msgid ""
-"<20>{#e/twinkly/2}{#v/1}{@random=1.1/1.1}And then tear it away just before "
+"<20>{#e/twinkly/2}{#v/1}{@random:1.1,1.1}And then tear it away just before "
 "you grasp it."
 msgstr ""
 
-msgid "<20>{#e/twinkly/14}{#v/1}{@random=1.1/1.1}Over, and over, and over..."
+msgid "<20>{#e/twinkly/14}{#v/1}{@random:1.1,1.1}Over, and over, and over..."
 msgstr ""
 
 msgid "<20>{#e/twinkly/5}{#v/0}Hee hee hee."
@@ -13428,7 +13380,7 @@ msgid "<20>{#e/twinkly/5}{#v/0}I'll keep you here no matter what!"
 msgstr ""
 
 msgid ""
-"<20>{#e/twinkly/0}{#v/1}{@random=1.1/1.1}Even if it means killing you until "
+"<20>{#e/twinkly/0}{#v/1}{@random:1.1,1.1}Even if it means killing you until "
 "the END OF TIME!{%20}"
 msgstr ""
 
@@ -13634,33 +13586,30 @@ msgid "<99>{*}{#p/asriel3}{#v/1}{#i/12}ASRIEL DREEMURR{^10}{#p/event}{%}"
 msgstr "<99>{*}{#p/asriel3}{#v/1}{#i/12}ASRIEL DREEMURR{^10}{#p/event}{%}"
 
 msgid ""
-"<11>{*}{#p/asgore}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}... so that is "
+"<11>{*}{#p/asgore}{#e/asgore/1}{#v/1}{#i/5}{@random:1.1,1.1}... so that is "
 "how it is..."
 msgstr ""
 
-msgid "<11>{*}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}..."
-msgstr "<11>{*}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}..."
+msgid "<11>{*}{#e/asgore/1}{#v/1}{#i/5}{@random:1.1,1.1}..."
+msgstr ""
 
 msgid ""
-"<11>{*}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}Take my SOUL, and leave "
+"<11>{*}{#e/asgore/1}{#v/1}{#i/5}{@random:1.1,1.1}Take my SOUL, and leave "
 "this cursed place..."
 msgstr ""
 
-msgid "<11>{*}{#e/asgore/1}{#v/2}{#i/6}{@random=1.1/1.1}Then..."
+msgid "<11>{*}{#e/asgore/1}{#v/2}{#i/6}{@random:1.1,1.1}Then..."
 msgstr ""
 
 msgid ""
-"<11>{*}{#e/asgore/1}{#v/2}{#i/6}{@random=1.1/1.1}You need not be burdened by"
+"<11>{*}{#e/asgore/1}{#v/2}{#i/6}{@random:1.1,1.1}You need not be burdened by"
 " us... ever again..."
 msgstr ""
 
-msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/6}{@random=1.1/1.1}..."
-msgstr "<11>{*}{#e/asgore/2}{#v/3}{#i/6}{@random=1.1/1.1}..."
-
-msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random=1.1/1.1}Goodbye..."
+msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/6}{@random:1.1,1.1}..."
 msgstr ""
 
-msgid ""
+msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random:1.1,1.1}Goodbye..."
 msgstr ""
 
 msgid "N/A"
@@ -13673,7 +13622,7 @@ msgid "Exoberries"
 msgstr "洋梅"
 
 msgid "<32>{#p/human}* (You throw away the Exoberries.)"
-msgstr "<32>{#p/human}* （你把洋梅扔掉了。）"
+msgstr ""
 
 msgid "<32>{#p/human}* (3 HP.)"
 msgstr "<32>{#p/human}* （3 HP。）"
@@ -13688,7 +13637,7 @@ msgid "Candy"
 msgstr "糖果"
 
 msgid "<32>{#p/human}* (You throw away the Monster Candy.)"
-msgstr "<32>{#p/human}* （你把怪物糖果扔掉了。）"
+msgstr ""
 
 msgid "<32>{#p/human}* (4 HP.)"
 msgstr "<32>{#p/human}* （4 HP。）"
@@ -13703,43 +13652,43 @@ msgid "5 HP."
 msgstr "5 HP。"
 
 msgid "Rations"
-msgstr "口糧"
+msgstr ""
 
 msgid "<32>{#p/human}* (You throw away the Rations.)"
-msgstr "<32>{#p/human}* （你把口糧扔掉了。）"
+msgstr ""
 
 msgid "<32>{#p/human}* (5 HP.)"
 msgstr "<32>{#p/human}* （5 HP。）"
 
 msgid "<32>{#p/human}* (You eat the Rations.)"
-msgstr "<32>{#p/human}* （你吃掉了口糧。）"
+msgstr ""
 
 msgid "6 HP."
 msgstr "6 HP。"
 
 msgid "Tofu"
-msgstr "太空豆腐"
+msgstr ""
 
 msgid "<32>{#p/human}* (You throw away the Space Tofu.)"
-msgstr "<32>{#p/human}* （你把太空豆腐扔掉了。）"
+msgstr ""
 
 msgid "<32>{#p/human}* (6 HP.)"
 msgstr "<32>{#p/human}* （6 HP。）"
 
 msgid "Space Tofu"
-msgstr "太空豆腐"
+msgstr ""
 
 msgid "<32>{#p/human}* (You ingest the Space Tofu.)"
-msgstr "<32>{#p/human}* （你吞下了太空豆腐。）"
+msgstr ""
 
 msgid "7 HP."
 msgstr "7 HP。"
 
 msgid "Ice Dream"
-msgstr "冰意靈"
+msgstr ""
 
 msgid "<32>{#p/human}* (You throw away the Ice Dream.)"
-msgstr "<32>{#p/human}* （你把冰意靈扔掉了。）"
+msgstr ""
 
 msgid "<32>{#p/human}* (7 HP.)"
 msgstr "<32>{#p/human}* （7 HP。）"
@@ -13754,27 +13703,25 @@ msgid "8 HP."
 msgstr "8 HP。"
 
 msgid "Heal-pak"
-msgstr "治療包"
+msgstr ""
 
 msgid "<32>{#p/human}* (You throw away the Heal-pak.)"
-msgstr "<32>{#p/human}* （你把治療包扔掉了。）"
+msgstr ""
 
 msgid "<32>{#p/human}* (8 HP.)"
 msgstr "<32>{#p/human}* （8 HP。）"
 
 msgid "<32>{#p/human}* (You use the Heal-pak.)"
-msgstr "<32>{#p/human}* （你使用了治療包。）"
+msgstr ""
 
 msgid "A whacking spoon made with the finest alloy in the galaxy."
 msgstr ""
-"一把巨勺，由本星系\n"
-"最好的合金材料製成。"
 
 msgid "Big Dipper"
 msgstr "大熊座"
 
 msgid "<32>{#p/human}* (You throw away the Big Dipper.)"
-msgstr "<32>{#p/human}* （你扔掉了大熊座。）"
+msgstr ""
 
 msgid "<32>{#p/human}* (15 AT.)"
 msgstr "<32>{#p/human}* （15攻擊。）"
@@ -13783,24 +13730,21 @@ msgid ""
 "<32>{#p/basic}* \"Big Dipper\" (15 AT)\n"
 "* A whacking spoon made with the finest alloy in the galaxy."
 msgstr ""
-"<32>{#p/basic}* 「大熊座」 （15攻擊）\n"
-"* 一把巨勺，由本星系\n"
-"  最好的合金材料製成。"
 
 msgid "<32>{#p/human}* (You equip the Big Dipper.)"
-msgstr "<32>{#p/human}* （你裝備上了大熊座。）"
+msgstr ""
 
 msgid "It says \"Best Friends Forever.\""
-msgstr "上面刻著「永遠都是好朋友」。"
+msgstr ""
 
 msgid "Heart Locket"
-msgstr "心形掛墜"
+msgstr ""
 
 msgid "<32>{#p/human}* (You threw away the Heart Locket.)"
-msgstr "<32>{#p/human}* （你扔掉了心形掛墜。）"
+msgstr ""
 
 msgid "<32>{#p/basic}* I'm going to pretend you didn't just do that."
-msgstr "<32>{#p/basic}* 我就當什麼都沒看見。"
+msgstr ""
 
 msgid "<32>{#p/human}* (15 DF.)"
 msgstr "<32>{#p/human}* （15防禦。）"
@@ -13809,20 +13753,18 @@ msgid ""
 "<33>{#p/basic}* \"Heart Locket\" (15 DF)\n"
 "* It says \"Best Friends Forever.\""
 msgstr ""
-"<33>{#p/basic}* 「心形掛墜」 （15防禦）\n"
-"* 上面刻著「永遠都是好朋友」。"
 
 msgid "<32>{#p/human}* (You equip the Heart Locket.)"
-msgstr "<32>{#p/human}* （你戴上了心形掛墜。）"
+msgstr ""
 
 msgid "A fine tea worthy of a king."
-msgstr "好王配好茶。"
+msgstr ""
 
 msgid "Star Tea"
-msgstr "星花茶"
+msgstr ""
 
 msgid "<32>{#p/human}* (You throw away the Starling Tea.)"
-msgstr "<32>{#p/human}* （你把星花茶全倒掉了。）"
+msgstr ""
 
 msgid "<32>{#p/human}* (99 HP.)"
 msgstr "<32>{#p/human}* （99 HP。）"
@@ -13831,19 +13773,11 @@ msgid ""
 "<32>{#p/basic}* \"Starling Tea\" Heals 99 HP\n"
 "* A fine tea worthy of a king."
 msgstr ""
-"<32>{#p/basic}* 「星花茶」 回復99 HP\n"
-"* 好王配好茶。"
 
 msgid "Starling Tea"
-msgstr "星花茶"
-
-msgid "<32>{#p/human}* (You drank the Starling Tea.)"
-msgstr "<32>{#p/human}* （你喝掉了星花茶。）"
-
-msgid "Hangar Bay Access Card"
 msgstr ""
 
-msgid "Used to unlock the door to the outpost's hangar bay."
+msgid "<32>{#p/human}* (You drank the Starling Tea.)"
 msgstr ""
 
 msgid "Skeleton Key"
