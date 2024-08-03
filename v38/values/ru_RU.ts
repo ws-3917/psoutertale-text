@@ -247,9 +247,13 @@ export default {
       const indent = raw[0] === '*';
       if (raw.length > length) {
          let braces = false;
+         let sections = false;
          for (const char of text) {
             output += char;
             switch (char) {
+               case '§':
+                  sections = !sections;
+                  break;
                case '{':
                   braces = true;
                   break;
@@ -257,7 +261,7 @@ export default {
                   braces = false;
                   break;
                default:
-                  if (!braces) {
+                  if (!braces && !sections) {
                      const lines = output.split('\n');
                      const ender = lines[lines.length - 1];
                      if (CosmosTyper.strip(ender).length > length) {
