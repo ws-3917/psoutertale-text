@@ -7230,31 +7230,31 @@ msgid ""
 "* I'm {@fill=#ff0}TWINKLY{@fill=#fff}.\n"
 "* {@fill=#ff0}TWINKLY{@fill=#fff} the {@fill=#ff0}STAR{@fill=#fff}!"
 msgstr ""
-"<16>{#p/twinkly}{#f/5}＊ハロー！\n"
+"<15>{#p/twinkly}{#f/5}＊ハロー！\n"
 "＊ボクは　{@fill=#ff0}トゥインクリィ{@fill=#fff}。\n"
 "＊{@fill=#ff0}おほし{@fill=#fff}の{@fill=#ff0}トゥインクリィ{@fill=#fff}さ！"
 
 msgid "<25>{#f/5}* What brings you to the outpost, fellow traveler?"
-msgstr "<16>{#f/5}＊どうやって　このぜんしょうきちに　きたのですか？"
+msgstr "<15>{#f/5}＊どうやって　このぜんしょうきちに　きたのですか？"
 
 msgid "<25>{#f/8}* You're lost, aren't you..."
-msgstr "<16>{#f/8}＊もしかして　みちに　まよったんですか？"
+msgstr "<15>{#f/8}＊もしかして　みちに　まよったんですか？"
 
 msgid "<25>{#f/5}* Well, good thing I'm here for you!"
-msgstr "<16>{#f/5}＊だいじょうぶ！　おてつだいします！"
+msgstr "<15>{#f/5}＊だいじょうぶ！　おてつだいします！"
 
 msgid "<25>{#f/8}* I haven't been in my top form for a while, but..."
-msgstr "<16>{#f/8}＊わたしは　てきにんしゃではない　かもしれませんが　キミは…"
+msgstr "<15>{#f/8}＊わたしは　てきにんしゃではない　かもしれませんが　キミは…"
 
 msgid ""
 "<25>{#f/5}* ... someone ought to teach you how things work around here!"
-msgstr "<16>{#f/5}＊ここのルールも　しらないでしょ？"
+msgstr "<15>{#f/5}＊ここのルールも　しらないでしょ？"
 
 msgid "<25>{#f/10}* Guess little old me will have to do."
-msgstr "<16>{#f/10}＊それなら　ボクが　おしえてあげよう。"
+msgstr "<15>{#f/10}＊それなら　ボクが　おしえてあげよう。"
 
 msgid "<25>{#f/5}* Let's get started, shall we?"
-msgstr "<16>{#f/5}＊さぁ　はじめましょう！"
+msgstr "<15>{#f/5}＊さぁ　はじめましょう！"
 
 msgid "<25>{#f/7}* But you already KNEW that, didn'tcha?"
 msgstr ""
@@ -7263,7 +7263,7 @@ msgid "<25>{#f/5}* Still, it's up to me to show you the ropes."
 msgstr ""
 
 msgid "<25>* Let's get started, shall we?"
-msgstr "<16>＊さぁ　はじめましょう！"
+msgstr "<15>＊さぁ　はじめましょう！"
 
 msgid "<25>{#p/twinkly}{#f/6}* Okay, that's enough."
 msgstr ""
@@ -7396,68 +7396,68 @@ msgstr ""
 msgid ""
 "<20>{#f/5}See that heart? That's your SOUL, the very culmination of your "
 "being!"
-msgstr "<13>{#f/5}そのハートはね　キミのタマシイさ　キミという　そんざい　そのもの　といってもいい"
+msgstr "<12>{#f/5}そのハートはね　キミのタマシイさ　キミという　そんざい　そのもの　といってもいい"
 
 msgid ""
 "<20>{#f/5}Your SOUL is an important part of you, and needs LOVE to sustain "
 "itself."
-msgstr "<13>{#f/5}タマシイは　じゅうようであり　それじたいを　いじするために　LOVEが　ひつようです"
+msgstr "<12>{#f/5}タマシイは　じゅうようであり　それじたいを　いじするために　LOVEが　ひつようです"
 
 msgid ""
 "<20>{*}{#x2}{#f/5}Out here, LOVE is shared through... {#f/8}little white... "
 "{#f/11}'happiness shards.'"
 msgstr ""
-"<13>{*}{#x2}{#f/5}ここではね　LOVEは　こんなふうに…{#f/8}　しろくて　ちっちゃな…{#f/11}　「こうふくカケラ」に　いれて　プレゼントするんだ"
+"<12>{*}{#x2}{#f/5}ここではね　LOVEは　こんなふうに…{#f/8}　しろくて　ちっちゃな…{#f/11}　「こうふくカケラ」に　いれて　プレゼントするんだ"
 
 msgid ""
 "<20>{*}{#f/5}To get you started on the right path, I'll share some of my own"
 " LOVE."
-msgstr "<13>{*}{#f/5}ただしい　みちをあゆむ　ために　いまボクが　LOVEを　わけてあげるから"
+msgstr "<12>{*}{#f/5}ただしい　みちをあゆむ　ために　いまボクが　LOVEを　わけてあげるから"
 
 msgid "<20>{*}{#f/5}Try to get as many as you can!{^20}{*}{#x1}{%}"
-msgstr "<13>{*}{#f/5}さあ！　いっぱい　いーっぱい　ひろってね！{^20}{*}{#x1}{%}"
+msgstr "<12>{*}{#f/5}さあ！　いっぱい　いーっぱい　ひろってね！{^20}{*}{#x1}{%}"
 
 msgid "<20>{*}{#f/8}Whoops, I think you might've missed them..."
-msgstr "<13>{*}{#f/8}あれ？　ぜんぶ　おとしちゃったよ？"
+msgstr "<12>{*}{#f/8}あれ？　ぜんぶ　おとしちゃったよ？"
 
 msgid "<20>{*}{#f/5}But that's okay!"
-msgstr "<13>{*}{#f/5}だいじょうぶ！"
+msgstr "<12>{*}{#f/5}だいじょうぶ！"
 
 msgid "<20>{*}{#x2}{#f/10}Here, have some more.{^20}{*}{#x1}{%}"
-msgstr "<13>{*}{#x2}{#f/10}じゃ　もういっかい！{^20}{*}{#x1}{%}"
+msgstr "<12>{*}{#x2}{#f/10}じゃ　もういっかい！{^20}{*}{#x1}{%}"
 
 msgid "<20>{*}{#f/12}What the-... are you braindead or something??"
-msgstr "<13>{*}{#f/12}ふざ…　おまえ　バカなの？"
+msgstr "<12>{*}{#f/12}ふざ…　おまえ　バカなの？"
 
 msgid "<20>{*}{#x2}RUN. INTO. THE. BULLETS!!!{^20}{*}{#x1}{^999}"
-msgstr "<13>{*}{#x2}さっさと{^4}　あたれよ！{^4}　たｍ{^20}{*}{#x1}{^999}"
+msgstr "<12>{*}{#x2}さっさと{^4}　あたれよ！{^4}　たｍ{^20}{*}{#x1}{^999}"
 
 msgid "RUN. INTO. THE. happiness shards~"
 msgstr "さっさと　あたれよ！　こうふくカケラに～"
 
 msgid "<20>{#v/1}Hee hee hee..."
-msgstr "<13>{#v/1}ヒヒヒ…"
+msgstr "<12>{#v/1}ヒヒヒ…"
 
 msgid "<20>In this world, it's KILL or BE killed."
-msgstr "<13>このせかいでは　ころすか　ころされるかだ"
+msgstr "<12>このせかいでは　ころすか　ころされるかだ"
 
 msgid "<20>Imagine, a SOUL like yours crash-landing on my doorstep..."
-msgstr "<13>かもが　ねぎを　せおってくる…"
+msgstr "<12>かもが　ねぎを　せおってくる…"
 
 msgid "<20>Did you really think I'd pass up such a golden opportunity?"
-msgstr "<13>こんな　ぜっこうの　チャンスを　のがすわけ　ないだろ！"
+msgstr "<12>こんな　ぜっこうの　チャンスを　のがすわけ　ないだろ！"
 
 msgid "<20>{#f/7}Nah, you know what's going on here, don'tcha?"
-msgstr "<13>{#f/7}オマエ…　さては　しらないフリ　してるだけだな？"
+msgstr "<12>{#f/7}オマエ…　さては　しらないフリ　してるだけだな？"
 
 msgid "<20>You just wanted to torment little old Twinkly, didn'tcha?"
-msgstr "<13>ボク　トゥインクリィのこと　バカにしてんだろ"
+msgstr "<12>ボク　トゥインクリィのこと　バカにしてんだろ"
 
 msgid "<20>Golly... you must have no idea who you're messing with."
 msgstr ""
 
 msgid "<20>{#f/11}Hee hee hee..."
-msgstr "<13>{#f/11}ヒヒヒ…"
+msgstr "<12>{#f/11}ヒヒヒ…"
 
 msgid "<20>{#v/1}We'll just have to cut straight to the point, won't we?"
 msgstr ""
@@ -7466,25 +7466,25 @@ msgid "<20>Hee hee hee..."
 msgstr ""
 
 msgid "<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}DIE.{^20}{%}"
-msgstr "<13>{*}{#f/2}{#v/1}{@random=1.1/1.1}しね{^20}{%}"
+msgstr "<12>{*}{#f/2}{#v/1}{@random=1.1/1.1}しね{^20}{%}"
 
 msgid ""
 "<20>{#p/toriel}What a terrible creature, torturing such a poor, innocent "
 "youth..."
-msgstr "<13>{#p/toriel}なさけないわね…　つみもないこどもを　いじめるなんて…"
+msgstr "<12>{#p/toriel}なさけないわね…　つみもないこどもを　いじめるなんて…"
 
 msgid "<20>Have no fear, little one."
-msgstr "<13>こわがらなくても　だいじょうぶよ"
+msgstr "<12>こわがらなくても　だいじょうぶよ"
 
 msgid ""
 "<20>I am {@fill=#003cff}TORIEL{@fill=#000}, overseer of the "
 "{@fill=#f00}OUTLANDS{@fill=#000}."
 msgstr ""
-"<13>わたしは　{@fill=#003cff}トリエル{@fill=#000}　この{@fill=#f00}アウターランド{@fill=#000}の　かんりにん　です"
+"<12>わたしは　{@fill=#003cff}トリエル{@fill=#000}　この{@fill=#f00}アウターランド{@fill=#000}の　かんりにん　です"
 
 msgid ""
 "<20>I come by every day to check for those who have been stranded here."
-msgstr "<13>まいにち　ここを　みまわって　じこにあったコが　いないか　かくにんしているの"
+msgstr "<12>まいにち　ここを　みまわって　じこにあったコが　いないか　かくにんしているの"
 
 msgid ""
 "<20>Follow me, child.\n"
@@ -7497,7 +7497,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#f/1}* Are you injured?"
-msgstr "<16>{#f/1}* ケガは　ない？"
+msgstr "<15>{#f/1}* ケガは　ない？"
 
 msgid ""
 "<25>{#f/0}* ...\n"

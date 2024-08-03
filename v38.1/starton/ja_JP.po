@@ -7519,29 +7519,29 @@ msgid "<25>{#p/sans}{#f/4}* heheh... nothin' like a good whoopee cushion."
 msgstr ""
 
 msgid "<25>{#f/0}* anyway, you're a human, right?"
-msgstr "<16>{#f/0}＊それはそうと　アンタ　ニンゲンだろ？"
+msgstr "<12>{#f/0}＊それはそうと　アンタ　ニンゲンだろ？"
 
 msgid "<25>{#f/5}* that's fantastic."
-msgstr "<16>{#f/5}＊ははは　ウケるな。"
+msgstr "<12>{#f/5}＊ははは　ウケるな。"
 
 msgid ""
 "<25>{#f/0}* i'm sans.\n"
 "* sans the skeleton."
 msgstr ""
-"<16>{#f/0}＊オイラは　サンズ。\n"
+"<12>{#f/0}＊オイラは　サンズ。\n"
 "＊みてのとおり　スケルトンさ。"
 
 msgid "<25>{#f/3}* as a royal sentry, my job is to capture humans."
-msgstr "<16>{#f/3}＊ニンゲンが　こないか　ここで　みはってろって　いわれてんだ。"
+msgstr "<12>{#f/3}＊ニンゲンが　こないか　ここで　みはってろって　いわれてんだ。"
 
 msgid "<25>{#f/4}* but... y'know..."
-msgstr "<16>{#f/4}＊っつっても…"
+msgstr "<12>{#f/4}＊っつっても…"
 
 msgid "<25>{#f/2}* i don't really feel like doing much work today."
-msgstr "<16>{#f/2}＊きょうはね　オイラてきには　どーでもいいけどな。"
+msgstr "<12>{#f/2}＊きょうはね　オイラてきには　どーでもいいけどな。"
 
 msgid "<25>{#f/0}* as for my brother, well..."
-msgstr "<16>{#f/0}＊でも　おとうとのは…"
+msgstr "<12>{#f/0}＊でも　おとうとのは…"
 
 msgid "<25>{#f/5}* he's OVERFLOWING with the stuff."
 msgstr ""
@@ -7587,16 +7587,16 @@ msgid "<25>{#p/sans}* quick, to the gravometric inverter."
 msgstr ""
 
 msgid "<25>{#p/sans}* 'sup, bro?"
-msgstr "<16>{#p/sans}＊よう　パピルス。"
+msgstr "<12>{#p/sans}＊よう　パピルス。"
 
 msgid "<18>{#p/papyrus}{#x2}{#f/7}YOU KNOW WHAT \"SUP,\" BROTHER!"
-msgstr "<13>{#p/papyrus}{#x2}{#f/7}よう！…では　ぬあぁいッ！"
+msgstr "<12>{#p/papyrus}{#x2}{#f/7}よう！…では　ぬあぁいッ！"
 
 msgid "<18>YOU HAVE PUZZLES TO ATTEND TO!"
-msgstr "<13>パズルを　つくるしごとも　あるんでしょ！"
+msgstr "<12>パズルを　つくるしごとも　あるんでしょ！"
 
 msgid "<18>I'VE GIVEN YOU PLENTY OF LEEWAY, BUT STILL..."
-msgstr "<13>じゅうぶんなじかんを　あたえましたのに…"
+msgstr "<12>じゅうぶんなじかんを　あたえましたのに…"
 
 msgid "<18>YOU SIT AROUND AND DO NOTHING ALL DAY!"
 msgstr "<18>いまだに　なにもせず！"

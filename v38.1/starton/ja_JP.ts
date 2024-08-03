@@ -3949,21 +3949,21 @@ export default {
                  "<25>{#f/0}* ... eh.\n* to each their own."
               ]
             : [ "<25>{#p/sans}{#f/4}* heheh... nothin' like a good whoopee cushion." ]),
-         "<16>{#f/0}＊それはそうと　アンタ　ニンゲンだろ？",
-         "<16>{#f/5}＊ははは　ウケるな。",
-         "<16>{#f/0}＊オイラは　サンズ。\n＊みてのとおり　スケルトンさ。",
-         "<16>{#f/3}＊ニンゲンが　こないか　ここで　みはってろって　いわれてんだ。",
-         "<16>{#f/4}＊っつっても…",
+         "<12>{#f/0}＊それはそうと　アンタ　ニンゲンだろ？",
+         "<12>{#f/5}＊ははは　ウケるな。",
+         "<12>{#f/0}＊オイラは　サンズ。\n＊みてのとおり　スケルトンさ。",
+         "<12>{#f/3}＊ニンゲンが　こないか　ここで　みはってろって　いわれてんだ。",
+         "<12>{#f/4}＊っつっても…",
          ...(world.edgy
             ? [
-                 "<16>{#f/2}＊きょうはね　オイラてきには　どーでもいいけどな。",
-                 "<16>{#f/0}＊でも　おとうとのは…",
+                 "<12>{#f/2}＊きょうはね　オイラてきには　どーでもいいけどな。",
+                 "<12>{#f/0}＊でも　おとうとのは…",
                  "<25>{#f/5}* he's OVERFLOWING with the stuff.",
                  "<25>{#f/0}* it took everything i had just to get him to stay home."
               ]
             : [
                  "<25>{#f/2}* i've got better things to do.",
-                 "<16>{#f/0}＊でも　おとうとのは…",
+                 "<12>{#f/0}＊でも　おとうとのは…",
                  "<25>{#f/5}* despite not being an actual sentry, he sure ACTS like one.",
                  "<25>{#f/0}* in fact, i think that's him over there."
               ]),
@@ -3979,11 +3979,11 @@ export default {
                  "<25>{#f/0}* for now, i'll just hang around here."
               ]
             : [ "<25>{#p/sans}* quick, to the gravometric inverter." ],
-      sans4: [ "<16>{#p/sans}＊よう　パピルス。" ],
+      sans4: [ "<12>{#p/sans}＊よう　パピルス。" ],
       sans5: [
-         "<13>{#p/papyrus}{#x2}{#f/7}よう！…では　ぬあぁいッ！",
-         "<13>パズルを　つくるしごとも　あるんでしょ！",
-         "<13>じゅうぶんなじかんを　あたえましたのに…",
+         "<12>{#p/papyrus}{#x2}{#f/7}よう！…では　ぬあぁいッ！",
+         "<12>パズルを　つくるしごとも　あるんでしょ！",
+         "<12>じゅうぶんなじかんを　あたえましたのに…",
          "<18>いまだに　なにもせず！",
          "<18>EVEN NOW, THAT'S WHAT YOU'RE DOING!",
          "<18>NOTHING!",
