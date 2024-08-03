@@ -7519,24 +7519,26 @@ msgid "<25>{#p/sans}{#f/4}* heheh... nothin' like a good whoopee cushion."
 msgstr ""
 
 msgid "<25>{#f/0}* anyway, you're a human, right?"
-msgstr ""
+msgstr "<16>{#f/0}＊それはそうと　アンタ　ニンゲンだろ？"
 
 msgid "<25>{#f/5}* that's fantastic."
-msgstr ""
+msgstr "<16>{#f/5}＊ははは　ウケるな。"
 
 msgid ""
 "<25>{#f/0}* i'm sans.\n"
 "* sans the skeleton."
 msgstr ""
+"<16>{#f/0}＊オイラは　サンズ。\n"
+"＊みてのとおり　スケルトンさ。"
 
 msgid "<25>{#f/3}* as a royal sentry, my job is to capture humans."
-msgstr ""
+msgstr "<16>{#f/3}＊ニンゲンが　こないか　ここで　みはってろって　いわれてんだ。"
 
 msgid "<25>{#f/4}* but... y'know..."
-msgstr ""
+msgstr "<16>{#f/4}＊っつっても…"
 
 msgid "<25>{#f/2}* i don't really feel like doing much work today."
-msgstr ""
+msgstr "<25>{#f/2}* i don't really feel like doing much work today."
 
 msgid "<25>{#f/0}* as for my brother, well..."
 msgstr ""

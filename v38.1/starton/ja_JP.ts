@@ -3949,11 +3949,11 @@ export default {
                  "<25>{#f/0}* ... eh.\n* to each their own."
               ]
             : [ "<25>{#p/sans}{#f/4}* heheh... nothin' like a good whoopee cushion." ]),
-         "<25>{#f/0}* anyway, you're a human, right?",
-         "<25>{#f/5}* that's fantastic.",
-         "<25>{#f/0}* i'm sans.\n* sans the skeleton.",
-         "<25>{#f/3}* as a royal sentry, my job is to capture humans.",
-         "<25>{#f/4}* but... y'know...",
+         "<16>{#f/0}＊それはそうと　アンタ　ニンゲンだろ？",
+         "<16>{#f/5}＊ははは　ウケるな。",
+         "<16>{#f/0}＊オイラは　サンズ。\n＊みてのとおり　スケルトンさ。",
+         "<16>{#f/3}＊ニンゲンが　こないか　ここで　みはってろって　いわれてんだ。",
+         "<16>{#f/4}＊っつっても…",
          ...(world.edgy
             ? [
                  "<25>{#f/2}* i don't really feel like doing much work today.",
