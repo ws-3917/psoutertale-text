@@ -4895,6 +4895,18 @@ msgstr ""
 
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-03 11:06+0000\n"
+"PO-Revision-Date: 2024-08-03 11:20+0000\n"
+"Last-Translator: Xiao Akatsuki <1321810592@qq.com>\n"
+"Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/2-starton/ja/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
 
 msgid "FAILED TO CONNECT..."
 msgstr ""
@@ -7538,10 +7550,10 @@ msgid "<25>{#f/4}* but... y'know..."
 msgstr "<16>{#f/4}＊っつっても…"
 
 msgid "<25>{#f/2}* i don't really feel like doing much work today."
-msgstr "<25>{#f/2}* i don't really feel like doing much work today."
+msgstr "<16>{#f/2}＊きょうはね　オイラてきには　どーでもいいけどな。"
 
 msgid "<25>{#f/0}* as for my brother, well..."
-msgstr ""
+msgstr "<16>{#f/0}＊でも　おとうとのは…"
 
 msgid "<25>{#f/5}* he's OVERFLOWING with the stuff."
 msgstr ""
@@ -7587,19 +7599,19 @@ msgid "<25>{#p/sans}* quick, to the gravometric inverter."
 msgstr ""
 
 msgid "<25>{#p/sans}* 'sup, bro?"
-msgstr ""
+msgstr "<16>{#p/sans}＊よう　パピルス。"
 
 msgid "<18>{#p/papyrus}{#x2}{#f/7}YOU KNOW WHAT \"SUP,\" BROTHER!"
-msgstr ""
+msgstr "<13>{#p/papyrus}{#x2}{#f/7}よう！…では　ぬあぁいッ！"
 
 msgid "<18>YOU HAVE PUZZLES TO ATTEND TO!"
-msgstr ""
+msgstr "<13>パズルを　つくるしごとも　あるんでしょ！"
 
 msgid "<18>I'VE GIVEN YOU PLENTY OF LEEWAY, BUT STILL..."
-msgstr ""
+msgstr "<13>じゅうぶんなじかんを　あたえましたのに…"
 
 msgid "<18>YOU SIT AROUND AND DO NOTHING ALL DAY!"
-msgstr ""
+msgstr "<18>いまだに　なにもせず！"
 
 msgid "<18>EVEN NOW, THAT'S WHAT YOU'RE DOING!"
 msgstr ""

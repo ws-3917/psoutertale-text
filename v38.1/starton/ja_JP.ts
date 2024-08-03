@@ -3956,14 +3956,14 @@ export default {
          "<16>{#f/4}＊っつっても…",
          ...(world.edgy
             ? [
-                 "<25>{#f/2}* i don't really feel like doing much work today.",
-                 "<25>{#f/0}* as for my brother, well...",
+                 "<16>{#f/2}＊きょうはね　オイラてきには　どーでもいいけどな。",
+                 "<16>{#f/0}＊でも　おとうとのは…",
                  "<25>{#f/5}* he's OVERFLOWING with the stuff.",
                  "<25>{#f/0}* it took everything i had just to get him to stay home."
               ]
             : [
                  "<25>{#f/2}* i've got better things to do.",
-                 "<25>{#f/0}* as for my brother, well...",
+                 "<16>{#f/0}＊でも　おとうとのは…",
                  "<25>{#f/5}* despite not being an actual sentry, he sure ACTS like one.",
                  "<25>{#f/0}* in fact, i think that's him over there."
               ]),
@@ -3979,12 +3979,12 @@ export default {
                  "<25>{#f/0}* for now, i'll just hang around here."
               ]
             : [ "<25>{#p/sans}* quick, to the gravometric inverter." ],
-      sans4: [ "<25>{#p/sans}* 'sup, bro?" ],
+      sans4: [ "<16>{#p/sans}＊よう　パピルス。" ],
       sans5: [
-         "<18>{#p/papyrus}{#x2}{#f/7}YOU KNOW WHAT \"SUP,\" BROTHER!",
-         "<18>YOU HAVE PUZZLES TO ATTEND TO!",
-         "<18>I'VE GIVEN YOU PLENTY OF LEEWAY, BUT STILL...",
-         "<18>YOU SIT AROUND AND DO NOTHING ALL DAY!",
+         "<13>{#p/papyrus}{#x2}{#f/7}よう！…では　ぬあぁいッ！",
+         "<13>パズルを　つくるしごとも　あるんでしょ！",
+         "<13>じゅうぶんなじかんを　あたえましたのに…",
+         "<18>いまだに　なにもせず！",
          "<18>EVEN NOW, THAT'S WHAT YOU'RE DOING!",
          "<18>NOTHING!",
          "<25>{#p/sans}* actually, i'm playing with this gravometric thingy.",
