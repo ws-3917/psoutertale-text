@@ -1,7 +1,20 @@
-#
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-02 15:57+0000\n"
+"PO-Revision-Date: 2024-08-03 04:35+0000\n"
+"Last-Translator: Xiao Akatsuki <1321810592@qq.com>\n"
+"Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
+"0-systems/ja/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
 
+#
 msgid "(You take a deep breath.)"
 msgstr ""
 
@@ -37,10 +50,10 @@ msgid "    * I'm outta here."
 msgstr "    ＊ さようなら。"
 
 msgid "    * I've got better to do."
-msgstr ""
+msgstr "    ＊ こんなことを　している　ばあいじゃない。"
 
 msgid "    * Don't slow me down."
-msgstr ""
+msgstr "    ＊ とめないで。"
 
 msgid ""
 "    * Ran away with $(x) EXP\n"
@@ -59,196 +72,198 @@ msgid "* Spare"
 msgstr "＊ にがす"
 
 msgid ""
-"<32>{#p/story}* YOU WON!\n"
+">{#p/story}* YOU WON!\n"
 "* You earned $(x) EXP and $(y)G."
 msgstr ""
-"<16>{#p/story}＊ YOU WIN！\n"
+">{#p/story}＊ YOU WIN！\n"
 "＊ $(x)EXPと$(y)ゴールドを　かくとく。"
 
 msgid ""
-"<32>{#p/story}* YOU WON!\n"
+">{#p/story}* YOU WON!\n"
 "* You earned $(x) EXP and $(y)G.\n"
 "* Your LOVE increased."
 msgstr ""
-"<16>{#p/story}＊ YOU WIN！\n"
+">{#p/story}＊ YOU WIN！\n"
 "＊ $(x)EXPと$(y)ゴールドを　かくとく。\n"
 "＊ LOVEが　あがった。"
 
 msgid "ERROR"
-msgstr ""
+msgstr "エラー"
 
 msgid "DISMISS"
-msgstr ""
+msgstr "無視"
 
 msgid "Click To Dismiss"
-msgstr ""
+msgstr "エラーを無視"
 
 msgid ""
 "An error occured! Please send\n"
 "screenshot to developer."
 msgstr ""
+"エラーが発生しました！\n"
+"開発者にスクリーンショットを送ってください。"
 
 msgid "CONTROL"
-msgstr ""
+msgstr "コントロール"
 
 msgid "GENERAL"
-msgstr ""
+msgstr "一般"
 
 msgid "BATTLE"
 msgstr "バトル"
 
 msgid "FixMusic"
-msgstr ""
+msgstr "BGMを修正"
 
 msgid "FixPlayer"
-msgstr ""
+msgstr "プレイヤーを修正"
 
 msgid "InfiniteG"
-msgstr ""
+msgstr "ゴールド無限"
 
 msgid "Interact"
-msgstr ""
+msgstr "調査を有効化"
 
 msgid "Input"
-msgstr ""
+msgstr "入力を有効化"
 
 msgid "Movement"
-msgstr ""
+msgstr "移動を有効化"
 
 msgid "Noclip"
-msgstr ""
+msgstr "壁を無視"
 
 msgid "Save"
 msgstr "セーブ"
 
 msgid "SkipText"
-msgstr ""
+msgstr "テキストをスキップ"
 
 msgid "Freecam"
-msgstr ""
+msgstr "自由な視点"
 
 msgid "CanAssist"
-msgstr ""
+msgstr "援助を有効化"
 
 msgid "ClearBox"
-msgstr ""
+msgstr "弾を削除"
 
 msgid "Exit"
-msgstr ""
+msgstr "やめる"
 
 msgid "ResetBox"
-msgstr ""
+msgstr "額縁サイズをリセット"
 
 msgid "ResetMenu"
-msgstr ""
+msgstr "メニューをリセット"
 
 msgid "CanFlee"
-msgstr ""
+msgstr "「にげる」を有効化"
 
 msgid "InfiniteHP"
-msgstr "むげんHP"
+msgstr "HP無限"
 
 msgid "PacifyAll"
-msgstr ""
+msgstr "敵全体を「にがす」"
 
 msgid "Suicide"
-msgstr "じさつ"
+msgstr "自殺"
 
 msgid "WeakenAll"
-msgstr ""
+msgstr "敵全体を弱める"
 
 msgid "$(x) FPS"
 msgstr "$(x) FPS"
 
 msgid "Halt"
-msgstr ""
+msgstr "一時停止"
 
 msgid "GAME SPEED"
-msgstr ""
+msgstr "ゲーム倍速"
 
 msgid "$(x)x"
-msgstr "$(x)ばいそく"
+msgstr "$(x)倍速"
 
 msgid "More"
-msgstr "かそく"
+msgstr "加速"
 
 msgid "Less"
-msgstr ""
+msgstr "減速"
 
 msgid "$(x)s/frame"
-msgstr ""
+msgstr "$(x)秒 / フレーム"
 
 msgid "GODHOME"
-msgstr ""
+msgstr "ゴッドモード"
 
 msgid "ROOM"
-msgstr ""
+msgstr "ルーム"
 
 msgid "Teleport"
-msgstr ""
+msgstr "テレポート"
 
 msgid "ENCOUNTER"
-msgstr ""
+msgstr "バトル"
 
 msgid "Start"
-msgstr ""
+msgstr "始まる"
 
 msgid "ARMOR"
 msgstr "アーマー"
 
 msgid "WEAPON"
-msgstr "ぶき"
+msgstr "武器"
 
 msgid "INSPECT"
-msgstr ""
+msgstr "レイヤーを見る"
 
 msgid "LAYERS"
-msgstr ""
+msgstr "レイヤー"
 
 msgid "TYPES"
-msgstr ""
+msgstr "タイプ"
 
 msgid "Base"
-msgstr ""
+msgstr "底"
 
 msgid "Below"
-msgstr ""
+msgstr "下"
 
 msgid "Main"
-msgstr ""
+msgstr "メイン"
 
 msgid "Above"
-msgstr ""
+msgstr "上"
 
 msgid "Menu"
 msgstr "メニュー"
 
 msgid "Hitbox"
-msgstr ""
+msgstr "ヒットボックス"
 
 msgid "Sprite"
 msgstr "イラスト"
 
 msgid "Text"
-msgstr ""
+msgstr "テクスト"
 
 msgid "EXPLORER"
-msgstr ""
+msgstr "閲覧"
 
 msgid "Base (Explorer)"
-msgstr ""
+msgstr "底 (閲覧)"
 
 msgid "Below (Explorer)"
-msgstr ""
+msgstr "下 (閲覧)"
 
 msgid "Main (Explorer)"
-msgstr ""
+msgstr "メイン (閲覧)"
 
 msgid "Above (Explorer)"
-msgstr ""
+msgstr "上 (閲覧)"
 
 msgid "Menu (Explorer)"
-msgstr ""
+msgstr "メイン (閲覧)"
 
 msgid "A"
 msgstr ""
@@ -278,13 +293,13 @@ msgid "T"
 msgstr ""
 
 msgid "Press [TAB] to cycle debug info"
-msgstr ""
+msgstr "[TAB]でデバッグ情報を閲覧します"
 
 msgid "Acceleration"
 msgstr ""
 
 msgid "Active"
-msgstr ""
+msgstr "アクティブ"
 
 msgid "Alpha"
 msgstr ""
@@ -302,7 +317,7 @@ msgid "Border"
 msgstr ""
 
 msgid "Computed Size"
-msgstr ""
+msgstr "計算サイズ"
 
 msgid "Content"
 msgstr ""
@@ -311,13 +326,13 @@ msgid "Crop"
 msgstr ""
 
 msgid "Down"
-msgstr ""
+msgstr "下"
 
 msgid "Duration"
 msgstr ""
 
 msgid "EXP"
-msgstr ""
+msgstr "EXP"
 
 msgid "Extent"
 msgstr ""
@@ -326,19 +341,19 @@ msgid "F"
 msgstr ""
 
 msgid "Face"
-msgstr ""
+msgstr "方向"
 
 msgid "False"
-msgstr ""
+msgstr "いいえ"
 
 msgid "Fill"
-msgstr ""
+msgstr "色を充填"
 
 msgid "Font Family"
-msgstr ""
+msgstr "フォントファミリー"
 
 msgid "Font Size"
-msgstr ""
+msgstr "フォントサイズ"
 
 msgid "Frames"
 msgstr ""
@@ -347,10 +362,10 @@ msgid "Gravity"
 msgstr ""
 
 msgid "Group"
-msgstr ""
+msgstr "グループ"
 
 msgid "HP"
-msgstr ""
+msgstr "HP"
 
 msgid "Index"
 msgstr ""
@@ -359,28 +374,28 @@ msgid "Inert"
 msgstr ""
 
 msgid "Key"
-msgstr ""
+msgstr "キー"
 
 msgid "Last Saved Time"
-msgstr ""
+msgstr "前回セーブの時間"
 
 msgid "Layer"
-msgstr ""
+msgstr "レイヤー"
 
 msgid "Layers"
-msgstr ""
+msgstr "レイヤー"
 
 msgid "Left"
-msgstr ""
+msgstr "左"
 
 msgid "Metadata"
-msgstr ""
+msgstr "メタデータ"
 
 msgid "Music"
 msgstr "BGM"
 
 msgid "Namespace"
-msgstr ""
+msgstr "名前空間"
 
 msgid "NONE"
 msgstr ""
@@ -389,7 +404,7 @@ msgid "none"
 msgstr ""
 
 msgid "Objects"
-msgstr ""
+msgstr "対象"
 
 msgid "Oversaver"
 msgstr ""
@@ -398,7 +413,7 @@ msgid "Parallax"
 msgstr ""
 
 msgid "Position"
-msgstr ""
+msgstr "位置"
 
 msgid "Primed"
 msgstr ""
@@ -407,13 +422,13 @@ msgid "Priority"
 msgstr ""
 
 msgid "REGISTRY"
-msgstr ""
+msgstr "レジストリ"
 
 msgid "Renderer"
 msgstr ""
 
 msgid "Resources"
-msgstr ""
+msgstr "リソース"
 
 msgid "Reverse"
 msgstr ""
@@ -422,22 +437,22 @@ msgid "Right"
 msgstr ""
 
 msgid "Room"
-msgstr ""
+msgstr "ルーム"
 
 msgid "Room State"
-msgstr ""
+msgstr "ルーム状態"
 
 msgid "Rotation"
 msgstr ""
 
 msgid "Scale"
-msgstr ""
+msgstr "スケーリング"
 
 msgid "Shop Selection"
-msgstr ""
+msgstr "店の選択肢"
 
 msgid "Size"
-msgstr ""
+msgstr "サイズ"
 
 msgid "Spacing"
 msgstr ""
@@ -458,7 +473,7 @@ msgid "Subcrop"
 msgstr ""
 
 msgid "Talk"
-msgstr ""
+msgstr "会話"
 
 msgid "Target"
 msgstr ""
@@ -467,19 +482,19 @@ msgid "Tint"
 msgstr ""
 
 msgid "Tracked Assets"
-msgstr ""
+msgstr "使用されている資源"
 
 msgid "True"
-msgstr ""
+msgstr "はい"
 
 msgid "UNKNOWN"
 msgstr ""
 
 msgid "Up"
-msgstr ""
+msgstr "上"
 
 msgid "Vars"
-msgstr ""
+msgstr "変数"
 
 msgid "Velocity"
 msgstr ""
@@ -488,88 +503,88 @@ msgid "Volatile"
 msgstr ""
 
 msgid "SAVEMOD"
-msgstr ""
+msgstr "セーブモード"
 
 msgid "SAVE EDITOR"
-msgstr ""
+msgstr "セーブ　エディタ"
 
 msgid "Data (Booleans)"
-msgstr ""
+msgstr "データ (ブーリアン)"
 
 msgid "Data (Numbers)"
-msgstr ""
+msgstr "データ (ナンバー)"
 
 msgid "Data (Strings)"
-msgstr ""
+msgstr "データ (文字列)"
 
 msgid "Flags (Booleans)"
-msgstr ""
+msgstr "フラグ (ブーリアン)"
 
 msgid "Flags (Numbers)"
-msgstr ""
+msgstr "フラグ (ナンバー)"
 
 msgid "Flags (Strings)"
-msgstr ""
+msgstr "フラグ (文字列)"
 
 msgid "NAVIGATION"
-msgstr ""
+msgstr "ページをめくる"
 
 msgid "Prev"
-msgstr ""
+msgstr "前のページ"
 
 msgid "Next"
-msgstr ""
+msgstr "次のページ"
 
 msgid "Enter Value"
 msgstr ""
 
 msgid "Back"
-msgstr ""
+msgstr "もどる"
 
 msgid "STORAGE"
-msgstr ""
+msgstr "在庫"
 
 msgid "STORAGE EDITOR"
-msgstr ""
+msgstr "在庫のエディタ"
 
 msgid "SELECTION"
-msgstr ""
+msgstr "容器を選ぶ"
 
 msgid "Inventory"
-msgstr ""
+msgstr "アイテム"
 
 msgid "Dim. Box A"
-msgstr ""
+msgstr "いじげんボックスA"
 
 msgid "Dim. Box B"
-msgstr ""
+msgstr "いじげんボックスB"
 
 msgid "Clear File"
-msgstr ""
+msgstr "セーブファイルを消去"
 
 msgid "Notice"
-msgstr ""
+msgstr "注意"
 
 msgid "Open"
-msgstr ""
+msgstr "開く"
 
 msgid "SAVE files"
-msgstr ""
+msgstr "セーブファイル"
 
 msgid "Open File"
-msgstr ""
+msgstr "セーブファイルを輸入"
 
 msgid "Save File"
-msgstr ""
+msgstr "セーブファイルを輸出"
 
 msgid "That file could not be parsed."
-msgstr ""
+msgstr "ファイルは解析できませんでした。"
 
 msgid "OK"
-msgstr ""
+msgstr "確定"
 
 msgid "Cancel"
-msgstr ""
+msgstr "やめる"
 
 msgid "Clear this file?"
 msgstr ""
@@ -579,288 +594,290 @@ msgid ""
 "OUTERTALE demo has been\n"
 "moved to a timeline slot."
 msgstr ""
+"OUTERTALE demoのセーブファイルを\n"
+"他のタイムラインに移動しました。"
 
 msgid "Save this file?"
-msgstr ""
+msgstr "セーブしますか？"
 
 msgid ""
 "Copy the text below into\n"
 "a JSON file to save it\n"
 "to your device."
 msgstr ""
+"新たにJSONファイルを作成し\n"
+"以下の内容をコピーして\n"
+"デバイスに保存します。"
 
 msgid "Load this file?"
-msgstr ""
+msgstr "ロードしますか？"
 
 msgid "§fill=#ff0§< DEVELOPER >§fill=#fff§"
-msgstr ""
+msgstr "§fill=#ff0§< かいはつ >§fill=#fff§"
 
 msgid "spacey_432"
-msgstr ""
-
-msgid ""
-msgstr ""
+msgstr "spacey_432"
 
 msgid "§fill=#ff0§< WRITER >§fill=#fff§"
-msgstr ""
+msgstr "§fill=#ff0§< テキスト >§fill=#fff§"
 
 msgid "Balgamlı Kedi"
-msgstr ""
+msgstr "Balgamlı Kedi"
 
 msgid "Bilge \"mnwary\""
-msgstr ""
+msgstr "Bilge \"mnwary\""
 
 msgid "Efe Kaya"
-msgstr ""
+msgstr "Efe Kaya"
 
 msgid "Ghostly"
-msgstr ""
+msgstr "Ghostly"
 
 msgid "Kiwi \"Quinn\""
-msgstr ""
+msgstr "Kiwi \"Quinn\""
 
 msgid "My Cocoa"
-msgstr ""
+msgstr "My Cocoa"
 
 msgid "neo9174"
-msgstr ""
+msgstr "neo9174"
 
 msgid "Rise"
-msgstr ""
+msgstr "Rise"
 
 msgid "ThatGuyWhoLikesFood"
-msgstr ""
+msgstr "ThatGuyWhoLikesFood"
 
 msgid "Turbulation"
-msgstr ""
+msgstr "Turbulation"
 
 msgid "Zaxento The Greedy"
-msgstr ""
+msgstr "Zaxento The Greedy"
 
 msgid "§fill=#ff0§< ARTIST >§fill=#fff§"
-msgstr ""
+msgstr "§fill=#ff0§< びじゅつ >§fill=#fff§"
 
 msgid "Burge"
-msgstr ""
+msgstr "Burge"
 
 msgid "Deskius"
-msgstr ""
+msgstr "Deskius"
 
 msgid "DESM.al"
-msgstr ""
+msgstr "DESM.al"
 
 msgid "Discarded Vessel"
-msgstr ""
+msgstr "Discarded Vessel"
 
 msgid "Fired"
-msgstr ""
+msgstr "Fired"
 
 msgid "Funtermore"
-msgstr ""
+msgstr "Funtermore"
 
 msgid "HolyOranges"
-msgstr ""
+msgstr "HolyOranges"
 
 msgid "major_memestar"
-msgstr ""
+msgstr "major_memestar"
 
 msgid "MattSpriteMaster"
-msgstr ""
+msgstr "MattSpriteMaster"
 
 msgid "NerNot1"
-msgstr ""
+msgstr "NerNot1"
 
 msgid "PhyreFM"
-msgstr ""
+msgstr "PhyreFM"
 
 msgid "Pongy25"
-msgstr ""
+msgstr "Pongy25"
 
 msgid "PoTheWinterCorder"
-msgstr ""
+msgstr "PoTheWinterCorder"
 
 msgid "ProctorDorkchop02"
-msgstr ""
+msgstr "ProctorDorkchop02"
 
 msgid "ScarletScaledDragon"
-msgstr ""
+msgstr "ScarletScaledDragon"
 
 msgid "semi"
-msgstr ""
+msgstr "semi"
 
 msgid "SquigglyWiggley"
-msgstr ""
+msgstr "SquigglyWiggley"
 
 msgid "Starkiteckt"
-msgstr ""
+msgstr "Starkiteckt"
 
 msgid "supper12"
-msgstr ""
+msgstr "supper12"
 
 msgid "Valor52"
-msgstr ""
+msgstr "Valor52"
 
 msgid "§fill=#ff0§< TECHNICIAN >§fill=#fff§"
-msgstr ""
+msgstr "§fill=#ff0§< ぎじゅつ >§fill=#fff§"
 
 msgid "Codetoil"
-msgstr ""
+msgstr "Codetoil"
 
 msgid "ws3917"
-msgstr ""
+msgstr "ws3917"
 
 msgid "§fill=#ff0§< TESTER >§fill=#fff§"
-msgstr ""
+msgstr "§fill=#ff0§< テスター >§fill=#fff§"
 
 msgid "Alden"
-msgstr ""
+msgstr "Alden"
 
 msgid "Aspey"
-msgstr ""
+msgstr "Aspey"
 
 msgid "blue"
-msgstr ""
+msgstr "blue"
 
 msgid "Brad"
-msgstr ""
+msgstr "Brad"
 
 msgid "brayjamin"
-msgstr ""
+msgstr "brayjamin"
 
 msgid "ClamsyMoe"
-msgstr ""
+msgstr "ClamsyMoe"
 
 msgid "delta"
-msgstr ""
+msgstr "delta"
 
 msgid "Dischnie"
-msgstr ""
+msgstr "Dischnie"
 
 msgid "DR4GON HE4RT"
-msgstr ""
+msgstr "DR4GON HE4RT"
 
 msgid "Dubituar"
-msgstr ""
+msgstr "Dubituar"
 
 msgid "Emurry"
-msgstr ""
+msgstr "Emurry"
 
 msgid "EvanGamesGoodman"
-msgstr ""
+msgstr "EvanGamesGoodman"
 
 msgid "FireWizard72X"
-msgstr ""
+msgstr "FireWizard72X"
 
 msgid "FuLiNT"
-msgstr ""
+msgstr "FuLiNT"
 
 msgid "gardnaeden"
-msgstr ""
+msgstr "gardnaeden"
 
 msgid "Gon UT"
-msgstr ""
+msgstr "Gon UT"
 
 msgid "Green Tea"
-msgstr ""
+msgstr "Green Tea"
 
 msgid "Huggies!"
-msgstr ""
+msgstr "Huggies!"
 
 msgid "ilovecookies"
-msgstr ""
+msgstr "ilovecookies"
 
 msgid "InvincibleRacoon"
-msgstr ""
+msgstr "InvincibleRacoon"
 
 msgid "Jago128"
-msgstr ""
+msgstr "Jago128"
 
 msgid "Joe98912"
-msgstr ""
+msgstr "Joe98912"
 
 msgid "Jojoton56"
-msgstr ""
+msgstr "Jojoton56"
 
 msgid "Jonkler"
-msgstr ""
+msgstr "Jonkler"
 
 msgid "lil tanski"
-msgstr ""
+msgstr "lil tanski"
 
 msgid "MR. PETER"
-msgstr ""
+msgstr "MR. PETER"
 
 msgid "MSBen"
-msgstr ""
+msgstr "MSBen"
 
 msgid "Murder--Sans_MDR"
-msgstr ""
+msgstr "Murder--Sans_MDR"
 
 msgid "Nanorasmus"
-msgstr ""
+msgstr "Nanorasmus"
 
 msgid "NepAnime"
-msgstr ""
+msgstr "NepAnime"
 
 msgid "Shaun Duz Stuffs"
-msgstr ""
+msgstr "Shaun Duz Stuffs"
 
 msgid "SHCyank"
-msgstr ""
+msgstr "SHCyank"
 
 msgid "PixelToons Jaafar"
-msgstr ""
+msgstr "PixelToons Jaafar"
 
 msgid "Prezmop"
-msgstr ""
+msgstr "Prezmop"
 
 msgid "prymus-agd"
-msgstr ""
+msgstr "prymus-agd"
 
 msgid "Quin"
-msgstr ""
+msgstr "Quin"
 
 msgid "RadicalRic"
-msgstr ""
+msgstr "RadicalRic"
 
 msgid "Raelynn"
-msgstr ""
+msgstr "Raelynn"
 
 msgid "retr22800"
-msgstr ""
+msgstr "retr22800"
 
 msgid "sonicisawesome222"
-msgstr ""
+msgstr "sonicisawesome222"
 
 msgid "Soup Taels"
-msgstr ""
+msgstr "Soup Taels"
 
 msgid "spaceknife234"
-msgstr ""
+msgstr "spaceknife234"
 
 msgid "superkippy"
-msgstr ""
+msgstr "superkippy"
 
 msgid "Teecup"
-msgstr ""
+msgstr "Teecup"
 
 msgid "Tem in a Cowboy Hat"
-msgstr ""
+msgstr "Tem in a Cowboy Hat"
 
 msgid "Tenbrooks"
-msgstr ""
+msgstr "Tenbrooks"
 
 msgid "The Fallen Angel"
-msgstr ""
+msgstr "The Fallen Angel"
 
 msgid "Wild Pasta"
-msgstr ""
+msgstr "Wild Pasta"
 
 msgid "xNoodlePlayz"
-msgstr ""
+msgstr "xNoodlePlayz"
 
 msgid "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§"
-msgstr ""
+msgstr "§fill=#ff0§< スペシャル・サンクス >§fill=#fff§"
 
 msgid ""
 "§fill=#808080§For being there for me when I\n"
@@ -868,6 +885,10 @@ msgid ""
 "teaching me life lessons that\n"
 "have made me a better person.§fill=#fff§"
 msgstr ""
+"§fill=#808080§わたしを　ささえてくれて\n"
+"じんせいのどうりを　おしえてくれて\n"
+"よくなってくれて\n"
+"ありがとうございます。§fill=#fff§"
 
 msgid ""
 "§fill=#808080§For being one of the friendliest\n"
@@ -875,6 +896,12 @@ msgid ""
 "to believe in my vision, and\n"
 "inspiring me to finish the game.§fill=#fff§"
 msgstr ""
+"§fill=#808080§わたしのゆめを　サポートする\n"
+"さいしょのひと　もっとも\n"
+"あたたかい　パートナーです。\n"
+"あなたに　はげまされて\n"
+"このゲームを　かんせいさせてくれて\n"
+"ありがとうございます。§fill=#fff§"
 
 msgid ""
 "§fill=#808080§For sticking with me at every\n"
@@ -882,6 +909,12 @@ msgid ""
 "the start. Regardless of the era,\n"
 "he's always been there to help.§fill=#fff§"
 msgstr ""
+"§fill=#808080§ゲームかいはつ　とうしょから\n"
+"いつも　いっしょに　いてくれて\n"
+"ありがとうございます。\n"
+"いつもわたしが　いちばんたすけが\n"
+"ひつようなときに　ささえてくれて\n"
+"ありがとうございます。§fill=#fff§"
 
 msgid ""
 "§fill=#808080§For being a voice of reason when\n"
@@ -889,6 +922,10 @@ msgid ""
 "game, and encouraging me to take\n"
 "testing seriously.§fill=#fff§"
 msgstr ""
+"§fill=#808080§すばらしい　アドバイス\n"
+"ゲームテストに　しんけんに\n"
+"とりくむよう　はげましてくれて\n"
+"ありがとうございます。§fill=#fff§"
 
 msgid ""
 "§fill=#808080§For being reliable, brutally\n"
@@ -896,6 +933,10 @@ msgid ""
 "criticism and ideas, and being\n"
 "trustworthy from the day we met.§fill=#fff§"
 msgstr ""
+"§fill=#808080§しりあったとき　から\n"
+"とても　たよりになります。\n"
+"そっちょくな　アドバイスを　いただき\n"
+"ありがとうございます。§fill=#fff§"
 
 msgid ""
 "§fill=#808080§For helping me write crucial\n"
@@ -903,12 +944,17 @@ msgid ""
 "vision, and helping me express\n"
 "myself in a whole new way.§fill=#fff§"
 msgstr ""
+"§fill=#808080§ゲームの　キーストーリーを\n"
+"かいてくれて　いつもわたしを\n"
+"おうえんしてくれて　あたらしい\n"
+"ひょうげんが　できるように\n"
+"ありがとうございます。§fill=#fff§"
 
 msgid "Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§"
-msgstr ""
+msgstr "§fill=#ff0§Mavisとおともたち§fill=#fff§　ていきょう"
 
 msgid "(( CAST ))"
-msgstr ""
+msgstr "(( CAST ))"
 
 msgid "FROGGIT"
 msgstr ""
@@ -1719,16 +1765,16 @@ msgid "ASRIEL"
 msgstr ""
 
 msgid "[↑ or ↓] to Select / [Z or ENTER] to Confirm"
-msgstr ""
+msgstr "[↑ / ↓]で　せんたく / [Z or ENTER]で　けってい"
 
 msgid "Quitting"
-msgstr ""
+msgstr "しゅうりょうしています"
 
 msgid "Quitting."
-msgstr ""
+msgstr "しゅうりょうしています…"
 
 msgid "Quitting.."
-msgstr ""
+msgstr "しゅうりょうしています……"
 
 msgid "Thank you for playing Outertale."
 msgstr ""
@@ -1806,19 +1852,19 @@ msgid "Take care of yourself, \"$(x).\""
 msgstr ""
 
 msgid "THE END"
-msgstr ""
+msgstr "THE END"
 
 msgid "THE END...?"
-msgstr ""
+msgstr "THE END…？"
 
 msgid "Restarting"
-msgstr ""
+msgstr "さいきどうしています"
 
 msgid "Restarting."
-msgstr ""
+msgstr "さいきどうしています…"
 
 msgid "Restarting.."
-msgstr ""
+msgstr "さいきどうしています……"
 
 msgid "OUTERTALE (RC7)"
 msgstr ""
@@ -1838,44 +1884,57 @@ msgid ""
 "\n"
 "Press ESC to skip setup."
 msgstr ""
+"ゲームパッドから　ボタンを　せんたくして\n"
+"ゲームのそうさを　せっていします。\n"
+"\n"
+"おなじボタンを　おして　けっていするか\n"
+"べつのボタンを　おして　さいせっていします。\n"
+"\n"
+"[ESC]で　せっていを　スキップします。"
 
 msgid "Inputs Assigned: $(x)"
-msgstr ""
+msgstr "せんたく　すみ：$(x)"
 
 msgid "[Z or ENTER] - Confirm"
-msgstr ""
+msgstr "[Z / ENTER] - かくてい"
 
 msgid "[X or SHIFT] - Cancel"
-msgstr ""
+msgstr "[X / SHIFT] - キャンセル"
 
 msgid "[C or CTRL] - Menu (In-game)"
-msgstr ""
+msgstr "[C / CTRL] - フィールドメニュー"
 
 msgid "[UP or W] - Move Up"
-msgstr ""
+msgstr "[↑ / W] - うえ"
 
 msgid "[LEFT or A] - Move Left"
-msgstr ""
+msgstr "[← / A] - ひだり"
 
 msgid "[DOWN or S] - Move Down"
-msgstr ""
+msgstr "[↓ / S] - した"
 
 msgid "[RIGHT or D] - Move Right"
-msgstr ""
+msgstr "[→ / D] - みぎ"
 
 msgid "[F4] - Fullscreen"
-msgstr ""
+msgstr "[F4] - フルスクリーン"
 
 msgid ""
 "Setup complete.\n"
 "Press any button to continue."
 msgstr ""
+"せってい　かんりょうしました。\n"
+"にんいのボタンを　おして　つづけます。"
 
 msgid ""
 "\n"
 "Note: On this platform, the gamepad may\n"
 "not always be able to enter fullscreen."
 msgstr ""
+"\n"
+"ちゅうい：本プラットフォームで　プレイするばあい\n"
+"コントローラーで　ぜんがめんを　ひらくことが\n"
+"できないばあいが　あります。"
 
 msgid ""
 "A gamepad has already been set up.\n"
@@ -1885,6 +1944,12 @@ msgid ""
 "\n"
 "Press ESC to skip setup."
 msgstr ""
+"コントローラーのせってい　かんりょうしました。\n"
+"にんいのボタンを　おして　つづけます。\n"
+"あるいは　あるボタンを　3回おして\n"
+"コントローラーを　リセットします。\n"
+"\n"
+"[ESC]で　せっていを　スキップします。"
 
 msgid "Asriel"
 msgstr ""
@@ -1899,7 +1964,7 @@ msgid "ENABLED"
 msgstr "オン"
 
 msgid "Press [X] to Finish"
-msgstr ""
+msgstr "[X]で　もどる"
 
 msgid "G"
 msgstr ""
@@ -1908,10 +1973,10 @@ msgid "INF"
 msgstr ""
 
 msgid "[PRESS Z OR ENTER]"
-msgstr ""
+msgstr "[PRESS Z OR ENTER]"
 
 msgid "LV"
-msgstr ""
+msgstr "LV"
 
 msgid ""
 "§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§"
@@ -1920,21 +1985,32 @@ msgstr ""
 msgid ""
 "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
 msgstr ""
+"{@mystify=あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむ"
+"めもやゆよらりるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ"
+"ぁぃぅぇぉゃゅょっゎゐゑアイウエオカキクケコサシスセソタチツテトナニヌネノハ"
+"ヒフヘホマミムメモヤユヨラリルレロワヲンガギグゲゴザジズゼゾダヂヅデドバビブ"
+"ベボパピプペポァィゥェォャュョッヮヰヱヵヶ}ああああああ{@mystify=}"
 
 msgid "{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
 msgstr ""
+"{@mystify=あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむ"
+"めもやゆよらりるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ"
+"ぁぃぅぇぉゃゅょっゎゐゑ}ああああああ{@mystify=}"
 
 msgid "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}"
 msgstr ""
+"{@mystify=アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミム"
+"メモヤユヨラリルレロワヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポ"
+"ァィゥェォャュョッヮヰヱヵヶ}ああああああ{@mystify=}"
 
 msgid "No"
-msgstr ""
+msgstr "いいえ"
 
 msgid "§fill=#0f0§NOMINAL"
 msgstr ""
 
 msgid "$(x)%"
-msgstr ""
+msgstr "$(x)%"
 
 msgid "player"
 msgstr ""
@@ -1949,54 +2025,58 @@ msgid "XM"
 msgstr ""
 
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 msgid "INVENTORY"
 msgstr ""
 
 msgid "BOX"
-msgstr ""
+msgstr "ボークス"
 
 msgid "KEYRING"
 msgstr ""
 
 msgid "Is this name correct?"
 msgstr ""
+"このなまえで\n"
+"よろしいですか？"
 
 msgid ""
 "A name has already\n"
 "been chosen."
 msgstr ""
+"すでに　なまえが\n"
+"つけられています。"
 
 msgid "Go back"
 msgstr "もどる"
 
 msgid "OUTERTALE V5.00 (c) 2024 SPACEY_432"
-msgstr ""
+msgstr "OUTERTALE V5.00 (c) 2024 SPACEY_432 にほんご"
 
 msgid "* (HP fully restored.)"
-msgstr ""
+msgstr "＊ (HPが　まんタンになった)"
 
 msgid "* (You recovered $(x) HP.)"
-msgstr ""
+msgstr "＊ (HPが　$(x)かいふくした)"
 
 msgid "* (You lost $(x) HP.)"
-msgstr ""
+msgstr "＊ (HPが　$(x)へった)"
 
 msgid "* (HP fully depleted.)"
-msgstr ""
+msgstr "＊ (HPが　0になった)"
 
 msgid "USE"
-msgstr ""
+msgstr "USE"
 
 msgid "EQUIP"
-msgstr ""
+msgstr "EQUIP"
 
 msgid "INFO"
-msgstr ""
+msgstr "INFO"
 
 msgid "DROP"
-msgstr ""
+msgstr "DROP"
 
 msgid "Continue"
 msgstr "コンティニュー"
@@ -2011,28 +2091,28 @@ msgid "True Reset"
 msgstr "本当のリセット"
 
 msgid "Name the stranded human."
-msgstr ""
+msgstr "じこにあったニンゲンに　なまえをつけてください"
 
 msgid "Quit"
-msgstr ""
+msgstr "やめる"
 
 msgid "Backspace"
-msgstr ""
+msgstr "さくじょ"
 
 msgid "Done"
-msgstr ""
+msgstr "かくてい"
 
 msgid "§fill=#808080§ [ESC] - Quit / [ENTER] - Done"
-msgstr ""
+msgstr "§fill=#808080§ [ESC] - やめる / [ENTER] - かくてい"
 
 msgid "Return"
-msgstr ""
+msgstr "もどる"
 
 msgid "File saved."
-msgstr ""
+msgstr "セーブしました。"
 
 msgid "SETTINGS"
-msgstr ""
+msgstr "せってい"
 
 msgid "EXIT"
 msgstr "もどる"
@@ -2080,49 +2160,52 @@ msgid "OPEN MOD FOLDER"
 msgstr "Modフォルダをひらく"
 
 msgid "RESTART"
-msgstr ""
+msgstr "さいきどう"
 
 msgid "ITEM"
-msgstr ""
+msgstr "ITEM"
 
 msgid "STAT"
-msgstr ""
+msgstr "STAT"
 
 msgid "CELL"
-msgstr ""
+msgstr "PHONE"
 
 msgid "CONF"
-msgstr ""
+msgstr "せってい"
 
 msgid "--- Instruction ---"
-msgstr ""
+msgstr "― ボタンそうさ ―"
 
 msgid "[Hold ESC] - Restart"
-msgstr ""
+msgstr "[ESCながおし] - さいきどう"
 
 msgid "When HP is 0, you lose."
-msgstr ""
+msgstr "HPが0になるとゲームオーバー"
 
 msgid "Begin Game"
-msgstr ""
+msgstr "ゲームをはじめる"
 
 msgid "AT"
-msgstr ""
+msgstr "AT"
 
 msgid "DF"
-msgstr ""
+msgstr "DF"
 
 msgid "GOLD"
-msgstr ""
+msgstr "GOLD"
 
 msgid "NEXT"
-msgstr ""
+msgstr "NEXT"
 
 msgid ""
 "§fill=#ff0§Warning:\n"
 "Non-canon\n"
 "timeline."
 msgstr ""
+"§fill=#ff0§けいこく：\n"
+"ﾒｲﾝﾀｲﾑﾗｲﾝでは\n"
+"ありません"
 
 msgid "KILLS"
 msgstr ""
@@ -2140,54 +2223,60 @@ msgid "\"$(x)\""
 msgstr ""
 
 msgid ""
-"<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and"
-" MONSTERS.{^35}{}"
+">{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and "
+"MONSTERS.{^35}{}"
 msgstr ""
-"<24>{#p/storyteller}むかしむかし　たいようけいには\n"
+">{#p/storyteller}むかしむかし　たいようけいには\n"
 "ニンゲンと　モンスターという\n"
 "2つのしゅぞくが　いました。{^35}{}"
 
-msgid "<24>As time passed, a war broke out between the two species.{^35}{}"
+msgid ">As time passed, a war broke out between the two species.{^35}{}"
 msgstr ""
-"<24>ときが　たつにつれ\n"
+">ときが　たつにつれ\n"
 "2つのしゅぞくの　あいだに\n"
 "せんそうが　おきました。{^35}{}"
 
 msgid ""
-"<24>After the MONSTERS' home planet was destroyed, HUMANS declared "
+">After the MONSTERS' home planet was destroyed, HUMANS declared "
 "victory.{^35}{}"
-msgstr "<16>そして　モンスターたちの　母星を　はかいされたすえ　ニンゲンが　しょうりしました。{^35}{}"
-
-msgid ""
-"<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}"
-msgstr "<16>のこりの　モンスターたちは　ほうきされた　ぜんしょうきちに　ついほうされた。{^35}{}"
-
-msgid ""
-"<24>A powerful force field was erected, and the MONSTERS were sealed "
-"in.{^35}{}"
 msgstr ""
-"<24>ニンゲンは　きょうりょくな\n"
+">そして　モンスターたちの\n"
+"母星を　はかいされたすえ\n"
+"ニンゲンが　しょうりしました。{^35}{}"
+
+msgid ">The remaining MONSTERS were banished to an abandoned outpost.{^35}{}"
+msgstr ">のこりの　モンスターたちは　ほうきされた　ぜんしょうきちに　ついほうされた。{^35}{}"
+
+msgid ""
+">A powerful force field was erected, and the MONSTERS were sealed in.{^35}{}"
+msgstr ""
+">ニンゲンは　きょうりょくな\n"
 "フォース　フィールドで\n"
 "モンスターたちを　とじこめました。{^35}{}"
 
-msgid "<24>Many years later.{^8}.{^8}.{^35}{}"
+msgid ">Many years later.{^8}.{^8}.{^35}{}"
 msgstr ""
-"<24>それから　さらに\n"
+">それから　さらに\n"
 "ながい　ときが　ながれ…{^8}…{^8}…{^35}{}"
 
 msgid ""
-"<#24>     EBOTT SECTOR     \n"
+"#     EBOTT SECTOR     \n"
 "         251X{^35}{}"
 msgstr ""
+"#   イビト　セクター   \n"
+"       251X年{^35}{}"
 
-msgid "<24>Tales speak of a place from which spacecraft never return.{^35}{}"
+msgid ">Tales speak of a place from which spacecraft never return.{^35}{}"
 msgstr ""
+">それは　「うちゅうきは\n"
+"にどと　もどらない」といわれる\n"
+"てんせつのセクターでした。{^35}{}"
 
-msgid "<24>{^100}{}"
-msgstr "<24>{^100}{}"
+msgid ">{^100}{}"
+msgstr ">{^100}{}"
 
-msgid "<24>{^35}{}"
-msgstr "<24>{^35}{}"
+msgid ">{^35}{}"
+msgstr ">{^35}{}"
 
 msgid "Resume Canon Timeline"
 msgstr "メインタイムラインに　もどる"
@@ -2205,7 +2294,7 @@ msgid "Delete"
 msgstr "さくじょ"
 
 msgid "[ESC] to Cancel / [ENTER] to Confirm"
-msgstr "[ESC] to Cancel / [ENTER] to Confirm"
+msgstr "[ESC]で　やめる / [ENTER]で　かくてい"
 
 msgid "Press any button on your gamepad to open the keyboard."
 msgstr ""
@@ -2220,7 +2309,7 @@ msgid "Create New"
 msgstr ""
 
 msgid "Enter Timeline Name"
-msgstr ""
+msgstr "タイムラインを　命名"
 
 msgid "Are You Sure?"
 msgstr ""
