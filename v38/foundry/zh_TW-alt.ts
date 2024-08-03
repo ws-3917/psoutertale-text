@@ -5101,7 +5101,7 @@ export default {
                ? [
                     SAVE.data.b.f_state_kidd_fight
                        ? "<25>{#p/kidd}{#f/4}* 雖然... 你讓我攻擊他們..."
-                       : "<25>{#p/kidd}{#f/4}* 雖然... 一直是你在攻擊他們...",
+                       : "<25>{#p/kidd}{#f/4}* 雖然...\n  一直是你在攻擊他們...",
                     "<25>{#p/kidd}{#f/8}* 但你真的...\n* ...真的打-打心裡想...\n* ...那麼做嗎...？"
                  ]
                : [
@@ -5468,30 +5468,30 @@ export default {
       act_slap: [ "<32>{#p/human}* (You give Gelatini a big slap.)", "<32>{#p/basic}* Suddenly...!" ]
    },
    b_opponent_shyren: {
-      act_check: [ "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* A prophetic singer, held back by her own shame." ],
-      act_check2: [ "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* With newfound confidence, she takes to the stage!" ],
-      act_check3: [ "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* With newfound confidence, she sings for the crowd!" ],
-      act_check4: [ "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* With newfound confidence, she's the star of the show!" ],
-      act_check5: [ "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* A prophetic singer, held back by fresh wounds." ],
+      act_check: [ "<32>{#p/story}* SHYREN - 攻擊19 防禦0\n* 一位先知性歌手，因自己的羞怯\n  而躊躇不前。" ],
+      act_check2: [ "<32>{#p/story}* SHYREN - 攻擊19 防禦0\n* 她帶著嶄新的自信重返舞臺！" ],
+      act_check3: [ "<32>{#p/story}* SHYREN - 攻擊19 防禦0\n* 她帶著嶄新的自信放聲歌唱！" ],
+      act_check4: [ "<32>{#p/story}* SHYREN - 攻擊19 防禦0\n* 她帶著嶄新的自信閃耀全場！" ],
+      act_check5: [ "<32>{#p/story}* SHYREN - 攻擊19 防禦0\n* 一位先知性歌手，因自己的新傷\n  而躊躇不前。" ],
       act_check6: [ "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* Alas, the bitter dregs of rejection." ],
       act_check7: [ "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* Suddenly, love songs." ],
       awkwardtoot: [ "<08>{#p/basic}{~}(awkward toot)" ],
       creepStatus: () =>
          SAVE.data.n.state_foundry_muffet === 1
-            ? [ "<32>{#p/story}* Shyren cowers in the corner." ]
-            : [ "<32>{#p/kidding}* I don't think that helped..." ],
+            ? [ "<32>{#p/story}* Shyren蜷縮在角落裡。" ]
+            : [ "<32>{#p/kidding}* 我覺得這沒什麼用..." ],
       creepText1: [
-         "<32>{#p/human}* (You flirt with Shyren, offering your best smile.)",
-         "<32>{#p/basic}* Shyren turns away..."
+         "<32>{#p/human}* （你露出你最燦爛的笑容\n  對Shyren調情。）",
+         "<32>{#p/basic}* Shyren轉過身去..."
       ],
       creepText2: [
-         "<32>{#p/human}* (You flirt with Shyren again.)",
-         "<32>{#p/basic}* Shyren is uncomfortable now, and decides to leave."
+         "<32>{#p/human}* （你再一次對Shyren調情。）",
+         "<32>{#p/basic}* Shyren感覺非常不適，決定離開。"
       ],
       encourage1: () =>
          SAVE.data.n.state_foundry_muffet === 1
-            ? [ "<32>{#p/story}* Shyren seems much more comfortable singing along." ]
-            : [ "<32>{#p/kidding}* A sing-along?\n* Heck yeah, dude!" ],
+            ? [ "<32>{#p/story}* Shyren似乎更喜歡一起跟著唱。" ]
+            : [ "<32>{#p/kidding}* 一起唱歌？\n* 好樣的，夥計！" ],
       encourage2: () =>
          world.dead_skeleton || geno()
             ? world.genocide
@@ -5694,7 +5694,7 @@ export default {
       shockTalk1: [ "<08>{#p/basic}{~}.. cool." ],
       shockStatus: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* Uh..." ]
+            ? [ "<32>{#p/kidding}* 呃..." ]
             : [ "<32>{#p/story}* Radtile is not amused." ],
       act_insult: [ "<32>{#p/human}* (You call Radtile a loser, and tell him to shut up.)" ],
       act_insult_bullied: [ "<32>{#p/human}* (You mock Radtile's bruises, and tell him to go away.)" ],
@@ -5703,7 +5703,7 @@ export default {
       insultTalk1: [ "<08>{#p/basic}{~}And what if I don't?" ],
       insultStatus: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* Uh..." ]
+            ? [ "<32>{#p/kidding}* 呃..." ]
             : [ "<32>{#p/story}* Radtile keeps his distance." ],
       checkPostInsultTalk: [ "<08>{#p/basic}{~}Come to take another look?" ],
       checkPostInsultStatus: () =>
@@ -6078,38 +6078,38 @@ export default {
       ],
       flirtReaction1: [ "<11>{#p/basic}{~}真可愛啊~" ],
       flirtReaction2: [ "<11>{#p/basic}{~}你人真好~" ],
-      flirtReaction3: [ "<11>{#p/basic}{~}啊呼呼~" ],
+      flirtReaction3: [ "<11>{#p/basic}{~}啊哈哈~" ],
       appeaseText: () =>
          world.dead_canine
             ? [
                  "<33>{#p/human}* （你對瑪菲特提出異議。）\n* （瑪菲特再一次被你的話\n  所吸引。）",
-                 "<32>* (You mention how Doge was forced to fight, and Undyne's lack of care is clear.)",
-                 "<32>* (As such, you suggest that trusting Undyne would mean putting spider clans at risk.)",
-                 "<32>{#p/basic}* Muffet starts considering the situation...",
+                 "<32>* （你提到Doge是怎樣被迫戰鬥的，\n  而安黛因是多麼的冷漠無情。）",
+                 "<32>* （並且，你還指出相信安黛因\n  就如同將整個蜘蛛部落\n  置於險境。）",
+                 "<32>{#p/basic}* 瑪菲特開始仔細地考慮\n  這些情況...",
                  "<32>{#p/story}* 瑪菲特的攻速下降了！"
               ]
             : [
                  "<33>{#p/human}* （你對瑪菲特提出異議。）\n* （瑪菲特再一次被你的話\n  所吸引。）",
-                 "<32>* (You mention how Doge was mistreated, and Undyne's lack of care is clear.)",
-                 "<32>* (As such, you suggest that trusting Undyne would mean putting spider clans at risk.)",
-                 "<32>{#p/basic}* Muffet starts considering the situation...",
+                 "<32>* （你提到Doge遭受了怎樣的虐待，\n  而安黛因是多麼的冷漠無情。）",
+                 "<32>* （並且，你還指出相信安黛因\n  就如同將整個蜘蛛部落\n  置於險境。）",
+                 "<32>{#p/basic}* 瑪菲特開始仔細地考慮\n  這些情況...",
                  "<32>{#p/story}* 瑪菲特的攻速下降了！"
               ],
-      appeaseTextEarly: [ "<32>{#p/human}* (You make an appeal to Muffet, but she doesn't seem ready to hear it yet.)" ],
+      appeaseTextEarly: [ "<32>{#p/human}* （你向瑪菲特發出呼籲，\n  但她看起來還沒有準備好\n  傾聽你的話。）" ],
       appeaseTextGeno: [
-         "<32>{#p/human}* (You make an appeal to Muffet.)",
-         "<32>{#p/basic}* Muffet will not be swayed by your shallow claims."
+         "<32>{#p/human}* （你向瑪菲特發出呼籲。）",
+         "<32>{#p/basic}* 瑪菲特可不會被你的膚淺言論\n  所左右。"
       ],
       appeaseTextLate: [
-         "<32>{#p/human}* (You make an appeal to Muffet, but she's already past the point of hearing you out.)"
+         "<32>{#p/human}* （你向瑪菲特發出呼籲，\n  但她的傾聽節點已經過去了。）"
       ],
-      appeaseTextPost: [ "<32>{#p/human}* (But Muffet didn't need to be appeased twice.)" ],
-      appeaseTextSus: [ "<32>{#p/human}* (But Muffet had no reason to listen to you.)" ],
+      appeaseTextPost: [ "<32>{#p/human}* （但瑪菲特不需要被再次安撫。）" ],
+      appeaseTextSus: [ "<32>{#p/human}* （但瑪菲特沒有理由去聽你說話。）" ],
       counterText: [
          "<32>{#p/human}* （你嘗試反駁瑪菲特。）\n* （瑪菲特被你的話所吸引。）",
-         "<32>* (You propose that a deal with the ELITE squad is flimsy.)",
-         "<32>* (You point out that one of their ranks already failed to capture you.)",
-         "<32>{#p/basic}* Muffet begins to carefully think everything over...",
+         "<32>* （你告訴她說和特戰隊做交易\n  完全站不住腳。）",
+         "<32>* （你提到他們的其中一員都沒能\n  把你抓住。）",
+         "<32>{#p/basic}* 瑪菲特開始思考著這些事的\n  來龍去脈...",
          "<32>{#p/story}* 瑪菲特的攻速下降了！"
       ],
       counterTextEarly: [
@@ -6122,24 +6122,24 @@ export default {
       counterTextLate: [ "<32>{#p/human}* （你嘗試反駁瑪菲特，\n  但她早已拿定了主意。）" ],
       counterTextPost: [ "<32>{#p/human}* （但瑪菲特已經聽過了\n  你的駁論。）" ],
       name: "* 瑪菲特",
-      payTalkPost: [ "<11>{#p/basic}{~}That's very kind, but we already have more than enough~" ],
+      payTalkPost: [ "<11>{#p/basic}{~}謝謝你的好意，\n但我們的錢\n已經夠多了~" ],
       payText: [
-         "<32>{#p/human}* (You try to pay Muffet.)",
-         "<32>* As it turns out, Monster Kid had enough G to cover all of the spider clans' expenses!",
-         "<32>* Muffet pockets the money and bows to you and Monster Kid.",
-         "<32>* Her subjects will be well fed for quite a while.",
-         "<32>* Muffet doesn't care about fighting anymore."
+         "<32>{#p/human}* （你嘗試給瑪菲特付錢。）",
+         "<32>* 看起來，怪物小孩的錢足夠支付\n  所有蜘蛛部落的開支！",
+         "<32>* 瑪菲特收下了錢，向你和怪物小孩\n  鞠了一躬。",
+         "<32>* 她的臣民可以吃飽喝足\n  好一段時間了。",
+         "<32>* 瑪菲特不再關心戰鬥了。"
       ],
       payTextEarly: [
-         "<32>{#p/human}* (You try to pay Muffet, but she didn't yet see any basis on which she could accept it.)"
+         "<32>{#p/human}* （你嘗試給瑪菲特付錢，\n  但她現在尚未知曉你給她錢的\n  任何依據。）"
       ],
       payTextGeno: [
-         "<32>{#p/human}* (You try to pay Muffet.)",
-         "<32>{#p/basic}* Muffet doesn't need any money from you."
+         "<32>{#p/human}* （你嘗試給瑪菲特付錢。）",
+         "<32>{#p/basic}* 瑪菲特不再需要你的錢。"
       ],
-      payTextLate: [ "<32>{#p/human}* (You try to pay Muffet, but she's already past the point of bribery.)" ],
-      payTextPost: [ "<32>{#p/human}* (You try to pay Muffet again.)" ],
-      payTextSus: [ "<32>{#p/human}* (But Muffet had no reason to trust you.)" ],
+      payTextLate: [ "<32>{#p/human}* （你嘗試給瑪菲特付錢，\n  但她的受賄節點已經過去了。）" ],
+      payTextPost: [ "<32>{#p/human}* （你再一次嘗試給瑪菲特錢。）" ],
+      payTextSus: [ "<32>{#p/human}* （但是瑪菲特沒有理由來相信你。）" ],
       status1: [ "<32>{#p/kidding}* 我被困住了...！" ],
       turnStatus1: () =>
          badSpider()
@@ -6154,78 +6154,78 @@ export default {
       turnStatus2: () =>
          badSpider()
             ? world.genocide
-               ? [ "<32>{#p/kidding}* But we haven't done anything!" ]
-               : [ "<32>{#p/kidding}* I've got a bad feeling about this..." ]
+               ? [ "<32>{#p/kidding}* 但我們什麼都沒做！" ]
+               : [ "<32>{#p/kidding}* 我有種不祥的預感..." ]
             : [ "<32>{#p/kidding}* 所以說，這存粹是生意了..." ],
       turnStatus3: () =>
          badSpider()
-            ? [ "<32>{#p/kidding}* Yo...\n* She REALLY doesn't like you..." ]
+            ? [ "<32>{#p/kidding}* 喲...\n* 看來她真的很不喜歡你..." ]
             : battler.volatile[0].vars.counter
-            ? [ "<32>{#p/kidding}* What are we going to do?" ]
-            : [ "<32>{#p/kidding}* We're never getting outta here, are we..." ],
+            ? [ "<32>{#p/kidding}* 我們該怎麼辦？" ]
+            : [ "<32>{#p/kidding}* 我們永遠也逃不出去了，\n  不是嗎..." ],
       turnStatus4: () =>
          badSpider()
-            ? [ "<32>{#p/kidding}* What the heck was THAT?" ]
+            ? [ "<32>{#p/kidding}* 那是什麼鬼東西？" ]
             : battler.volatile[0].vars.counter
-            ? [ "<32>{#p/kidding}* Is she... changing her mind?" ]
-            : [ "<32>{#p/kidding}* What the heck was THAT?" ],
+            ? [ "<32>{#p/kidding}* 她難道... 改變主意了嗎？" ]
+            : [ "<32>{#p/kidding}* 那是什麼鬼東西？" ],
       turnStatus5: () =>
          badSpider()
-            ? [ "<32>{#p/kidding}* Of course..." ]
+            ? [ "<32>{#p/kidding}* 當然..." ]
             : battler.volatile[0].vars.counter
-            ? [ "<32>{#p/kidding}* Guess it won't be so easy..." ]
-            : [ "<32>{#p/kidding}* Y... you're kidding, right?\n* This isn't fun at all!" ],
+            ? [ "<32>{#p/kidding}* 看來沒那麼容易..." ]
+            : [ "<32>{#p/kidding}* 你... 你在開玩笑吧？\n* 一點也不有趣！" ],
       turnStatus6: () =>
          badSpider()
-            ? [ "<32>{#p/kidding}* I don't like what she's saying about you, dude..." ]
+            ? [ "<32>{#p/kidding}* 我可不喜歡她對你說的話，\n  夥計..." ]
             : battler.volatile[0].vars.counter
-            ? [ "<32>{#p/kidding}* Fellow spiders...?" ]
-            : [ "<32>{#p/kidding}* Uh..." ],
+            ? [ "<32>{#p/kidding}* 蜘蛛同伴們...？" ]
+            : [ "<32>{#p/kidding}* 呃..." ],
       turnStatus7: () =>
          badSpider()
-            ? [ "<32>{#p/kidding}* She's relentless...!" ]
+            ? [ "<32>{#p/kidding}* 她太無情了...！" ]
             : battler.volatile[0].vars.appease
-            ? [ "<32>{#p/kidding}* Hey, wait...\n* I think this is working!\n* Keep going, dude!" ]
-            : [ "<32>{#p/kidding}* I'm...\n* I'm scared, dude..." ],
+            ? [ "<32>{#p/kidding}* 嘿，等一下...\n* 我覺得這方法開始奏效了！\n* 繼續努力，夥計！" ]
+            : [ "<32>{#p/kidding}* 我...\n* 我很害怕，夥計..." ],
       turnStatus8: () =>
          badSpider()
-            ? [ "<32>{#p/kidding}* Dude, HOW are we STILL ALIVE??" ]
+            ? [ "<32>{#p/kidding}* 夥計，我們怎麼還活著啊？？" ]
             : battler.volatile[0].vars.appease
-            ? [ "<32>{#p/kidding}* Yo, freaky muffins aside... we're making progress!\n* I think?" ]
-            : [ "<32>{#p/kidding}* Ack, not again!!" ],
+            ? [ "<32>{#p/kidding}* 喲，先把古怪的杯狀蛋糕丟一邊... \n  我們終於取得了進展！\n* 應該吧？" ]
+            : [ "<32>{#p/kidding}* 呃啊，別再來了！！" ],
       turnStatus9: () =>
          badSpider()
-            ? [ "<32>{#p/kidding}* What's \"inevitable?\"" ]
+            ? [ "<32>{#p/kidding}* 什麼叫「不可避免的事情」?" ]
             : battler.volatile[0].vars.appease
-            ? [ "<32>{#p/kidding}* But...\n* I thought we..." ]
-            : [ "<32>{#p/kidding}* Ack, not again!!" ],
+            ? [ "<32>{#p/kidding}* 但是...\n* 我覺得我們..." ]
+            : [ "<32>{#p/kidding}* 呃啊，別再來了！！" ],
       turnStatus10: () =>
          badSpider()
-            ? [ "<32>{#p/kidding}* Yo, I'm here too, you know..." ]
+            ? [ "<32>{#p/kidding}* 喲，你應該知道我也在這吧..." ]
             : battler.volatile[0].vars.appease
-            ? [ "<32>{#p/kidding}* Hey, I've got money!\n* Let's use it, dude!" ]
-            : [ "<32>{#p/kidding}* Someone, anyone..." ],
+            ? [ "<32>{#p/kidding}* 嘿，我有點錢！\n* 用上吧，夥計！" ]
+            : [ "<32>{#p/kidding}* 有人嗎, 來人啊..." ],
       turnStatus11: () =>
          badSpider()
-            ? [ "<32>{#p/kidding}* This isn't funny...!" ]
+            ? [ "<32>{#p/kidding}* 這一點也不有趣...！" ]
             : battler.volatile[0].vars.pay
-            ? [ "<32>{#p/kidding}* I hope that short skeleton doesn't mind me using the money he gave me..." ]
+            ? [ "<32>{#p/kidding}* 我希望那個矮個子骷髏不會介意我\n  用他給我的錢..." ]
             : battler.volatile[0].vars.appease
-            ? [ "<32>{#p/kidding}* Dude...\n* Why didn't we help her?" ]
-            : [ "<32>{#p/kidding}* It's over..." ],
+            ? [ "<32>{#p/kidding}* 夥計...\n* 為什麼我們不去幫幫她呢？" ]
+            : [ "<32>{#p/kidding}* 結束了..." ],
       turnStatus12: () =>
-         badSpider() ? [ "<32>{#p/kidding}* ..." ] : [ "<32>{#p/kidding}* Are we gonna end this, or...?" ],
+         badSpider() ? [ "<32>{#p/kidding}* ..." ] : [ "<32>{#p/kidding}* 我們要就此結束，還是...？" ],
       turnStatus13: () =>
-         badSpider() ? [ "<32>{#p/kidding}* Is it really over?" ] : [ "<32>{#p/kidding}* Are we gonna end this, or...?" ],
+         badSpider() ? [ "<32>{#p/kidding}* 真的結束了嗎？" ] : [ "<32>{#p/kidding}* 我們要就此結束，還是...？" ],
       turnTalk1: () =>
          badSpider()
             ? world.genocide
                ? world.bullied
-                  ? [ "<11>{#p/basic}{~}啊呼呼呼...\n兩隻小流氓\n爬進我\n網裡了~" ]
-                  : [ "<11>{#p/basic}{~}啊呼呼呼...\n兩隻殺人犯\n爬進我\n網裡了~" ]
+                  ? [ "<11>{#p/basic}{~}啊哈哈哈...\n兩隻小流氓\n爬進我\n網裡了~" ]
+                  : [ "<11>{#p/basic}{~}啊哈哈哈...\n兩隻殺人犯\n爬進我\n網裡了~" ]
                : world.bullied
-               ? [ "<11>{#p/basic}{~}啊呼呼呼...\n一隻小流氓\n爬進我\n網裡了~" ]
-               : [ "<11>{#p/basic}{~}啊呼呼呼...\n一隻殺人犯\n爬進我\n網裡了~" ]
+               ? [ "<11>{#p/basic}{~}啊哈哈哈...\n一隻小流氓\n爬進我\n網裡了~" ]
+               : [ "<11>{#p/basic}{~}啊哈哈哈...\n一隻殺人犯\n爬進我\n網裡了~" ]
             : [ "<11>{#p/basic}{~}小寶貝們，\n你們現在\n是我的了~" ],
       turnTalk1a: [
          "<11>{#p/basic}{~}希望你能\n喜歡這種\n新顏色~",
@@ -6236,9 +6236,9 @@ export default {
          badSpider()
             ? [
                  world.genocide
-                    ? "<11>{#p/basic}{~}What did you think would happen, dearies?"
-                    : "<11>{#p/basic}{~}What did you think would happen, dearie?",
-                 "<11>{#p/basic}{~}Did you expect me to SPARE you?"
+                    ? "<11>{#p/basic}{~}你們以為會\n發生什麼，\n小可愛們？"
+                    : "<11>{#p/basic}{~}你以為會\n發生什麼，\n小可愛？",
+                 "<11>{#p/basic}{~}指望我會\n饒恕你不成？"
               ]
             : [
                  "<11>{#p/basic}{~}別以為\n我會對你\n手下留情，\n渺小的\n人類。",
@@ -6246,134 +6246,134 @@ export default {
               ],
       turnTalk3: () =>
          badSpider()
-            ? [ "<11>{#p/basic}{~}Oh my~", "<11>{#p/basic}{~}Such a shame for you~" ]
+            ? [ "<11>{#p/basic}{~}喔天哪~", "<11>{#p/basic}{~}你可\n真丟人~" ]
             : battler.volatile[0].vars.counter
-            ? [ "<11>{#p/basic}{~}Ahuhuhu...\nWell..." ]
+            ? [ "<11>{#p/basic}{~}啊哈哈哈...\n行吧..." ]
             : [
-                 "<11>{#p/basic}{~}With your lack of a counter- offer...",
-                 "<11>{#p/basic}{~}The choice for me is clear~"
+                 "<11>{#p/basic}{~}看來你\n不打算提出\n反報價了...",
+                 "<11>{#p/basic}{~}那對我來說，\n該選哪個\n顯而易見~"
               ],
       turnTalk4: () =>
          badSpider()
             ? [
-                 "<11>{#p/basic}{~}Well.\nThere is one good thing about it~",
-                 "<11>{#p/basic}{~}I don't have to feel bad about feeding my pet!"
+                 "<11>{#p/basic}{~}好吧。\n有件好訊息\n要告訴你~",
+                 "<11>{#p/basic}{~}我不必再為\n餵養我的寵物\n而發愁了！"
               ]
             : battler.volatile[0].vars.counter
-            ? [ "<11>{#p/basic}{~}A better deal would be nice..." ]
-            : [ "<11>{#p/basic}{~}Where are you, my pet~", "<11>{#p/basic}{~}It's time to eat~" ],
+            ? [ "<11>{#p/basic}{~}如果有\n更棒的交易\n就好了..." ]
+            : [ "<11>{#p/basic}{~}我的寵物，\n你在哪~", "<11>{#p/basic}{~}飯點到啦~" ],
       turnTalk5: () =>
          badSpider()
             ? [
-                 "<11>{#p/basic}{~}You survived?\nImpressive~",
-                 "<11>{#p/basic}{~}I shall have to reward you...",
-                 "<11>{#p/basic}{~}... with more attacks, of course.\nAhuhuhu!"
+                 "<11>{#p/basic}{~}你活下來了？\n真厲害~",
+                 "<11>{#p/basic}{~}那我應該\n獎勵你...",
+                 "<11>{#p/basic}{~}... 當然是\n更多攻擊啦！\n啊哈哈哈！"
               ]
             : battler.volatile[0].vars.counter
             ? [
-                 "<11>{#p/basic}{~}But what guarantee do I have...",
-                 "<11>{#p/basic}{~}... that you won't just stab me in the back?"
+                 "<11>{#p/basic}{~}但我該\n怎麼保證...",
+                 "<11>{#p/basic}{~}... 你不會\n在背後偷偷\n捅我刀子呢？"
               ]
             : [
-                 "<11>{#p/basic}{~}I often wondered what fighting would be like.",
-                 "<11>{#p/basic}{~}I never realized it'd be so much fun~"
+                 "<11>{#p/basic}{~}我有時會想，\n戰鬥到底是\n什麼樣子的。",
+                 "<11>{#p/basic}{~}我從來沒想到\n它會那麼有趣~"
               ],
       turnTalk6: () =>
          badSpider()
             ? [
-                 "<11>{#p/basic}{~}How did it feel, hmm?",
+                 "<11>{#p/basic}{~}感覺怎麼樣，\n嗯？",
                  !world.bullied
-                    ? "<11>{#p/basic}{~}All those monsters falling like dominoes..."
-                    : "<11>{#p/basic}{~}All those monsters running scared..."
+                    ? "<11>{#p/basic}{~}所有怪物都如\n多米諾骨牌般\n倒下..."
+                    : "<11>{#p/basic}{~}所有怪物都\n在驚慌失措中\n四處逃竄..."
               ]
             : battler.volatile[0].vars.counter
             ? [
-                 "<11>{#p/basic}{~}My fellow spiders need kept safe...",
-                 "<11>{#p/basic}{~}I can't put THEM in danger, can I?\nAhuhuhu..."
+                 "<11>{#p/basic}{~}我的\n蜘蛛同伴們\n的安全\n需要\n得到保障...",
+                 "<11>{#p/basic}{~}我可不能\n讓它們\n置於險地，\n不是嗎？\n啊哈哈哈..."
               ]
             : [
-                 "<11>{#p/basic}{~}Aren't you having fun, dearies?",
-                 "<11>{#p/basic}{~}My fellow spiders certainly will...",
-                 "<11>{#p/basic}{~}... when they get their share of the money~"
+                 "<11>{#p/basic}{~}玩得開心嗎，\n小可愛們？",
+                 "<11>{#p/basic}{~}我的\n蜘蛛同伴們\n一定會...",
+                 "<11>{#p/basic}{~}... 等到他們\n拿到自己的\n那份錢的時候~"
               ],
       turnTalk7: () =>
          badSpider()
             ? world.genocide || !world.bullied
                ? [
-                    world.genocide ? "<11>{#p/basic}{~}Well, dearies..." : "<11>{#p/basic}{~}Well, dearie...",
-                    "<11>{#p/basic}{~}I shall enjoy killing you personally~"
+                    world.genocide ? "<11>{#p/basic}{~}那麼，\n小可愛們..." : "<11>{#p/basic}{~}那麼，\n小可愛...",
+                    "<11>{#p/basic}{~}我得好好享受\n殺死你們\n所帶來的\n樂趣~"
                  ]
-               : [ "<11>{#p/basic}{~}Well, dearie...", "<11>{#p/basic}{~}I shall enjoy paying back the favor~" ]
+               : [ "<11>{#p/basic}{~}那麼，\n小可愛...", "<11>{#p/basic}{~}我很樂意將\n這份恩情\n報答與你~" ]
             : battler.volatile[0].vars.appease
-            ? [ "<11>{#p/basic}{~}I must admit, that is very worrying..." ]
+            ? [ "<11>{#p/basic}{~}我必須承認，\n那東西確實\n令人擔憂..." ]
             : [
-                 "<11>{#p/basic}{~}Well, no matter, little human~",
-                 "<11>{#p/basic}{~}The only thing that matters now is your SOUL~"
+                 "<11>{#p/basic}{~}好吧，\n沒關係的，\n渺小的人類~",
+                 "<11>{#p/basic}{~}現在\n唯一重要的，\n是你的靈魂~"
               ],
       turnTalk8: () =>
          badSpider()
             ? [
                  world.genocide
-                    ? "<11>{#p/basic}{~}Oh, this is so much fun, you two!"
-                    : "<11>{#p/basic}{~}Oh, this is so much fun, is it not?",
-                 "<11>{#p/basic}{~}My pet, it's feeding time~"
+                    ? "<11>{#p/basic}{~}喔，\n太有趣了，\n你們兩個！"
+                    : "<11>{#p/basic}{~}喔，\n太有趣了，\n不是嗎？",
+                 "<11>{#p/basic}{~}我的寵物，\n餵食時間到~"
               ]
             : battler.volatile[0].vars.appease
             ? [
-                 "<11>{#p/basic}{~}And they didn't exactly do much to earn my trust...",
-                 "<11>{#p/basic}{~}Oh, hello, my pet~"
+                 "<11>{#p/basic}{~}它們也沒有\n做什麼事\n來贏得\n我的信任...",
+                 "<11>{#p/basic}{~}喔，你好，\n我的寵物~"
               ]
-            : [ "<11>{#p/basic}{~}Time for round two, my pet~" ],
+            : [ "<11>{#p/basic}{~}再來一輪吧,\n我的寵物~" ],
       turnTalk9: () =>
          badSpider()
-            ? [ "<11>{#p/basic}{~}You only delay the inevitable~" ]
+            ? [ "<11>{#p/basic}{~}你只是讓\n不可避免的\n事情\n延遲發生罷了~" ]
             : battler.volatile[0].vars.appease
-            ? [ "<11>{#p/basic}{~}Still, dearies...", "<11>{#p/basic}{~}I don't know if I can trust you~" ]
-            : [ "<11>{#p/basic}{~}You're resilient, I'll give you that~" ],
+            ? [ "<11>{#p/basic}{~}不過嘛，\n小可愛們...", "<11>{#p/basic}{~}我不知道\n我能否\n相信你們~" ]
+            : [ "<11>{#p/basic}{~}你挺堅強的，\n這點我得承認~" ],
       turnTalk10: () =>
          badSpider()
-            ? [ "<11>{#p/basic}{~}Come now...", "<11>{#p/basic}{~}Aren't you getting tired?" ]
+            ? [ "<11>{#p/basic}{~}好啦...", "<11>{#p/basic}{~}難道你\n不累嗎？" ]
             : battler.volatile[0].vars.appease
-            ? [ "<11>{#p/basic}{~}Unless, perhaps...", "<11>{#p/basic}{~}You can offer me a little insurance?" ]
-            : [ "<11>{#p/basic}{~}But unless my deal changes, your SOUL is as good as mine~" ],
+            ? [ "<11>{#p/basic}{~}也許，除非...", "<11>{#p/basic}{~}你能給我\n一點保險費？" ]
+            : [ "<11>{#p/basic}{~}除非交易\n發生變動，\n否則對我來說\n你的靈魂就如\n我的一般漂亮~" ],
       turnTalk11: () =>
          badSpider()
-            ? [ "<11>{#p/basic}{~}Ahuhuhu..." ]
+            ? [ "<11>{#p/basic}{~}啊哈哈哈..." ]
             : battler.volatile[0].vars.pay
             ? [
-                 "<11>{#p/basic}{~}You two have my sincerest apologies~",
-                 "<11>{#p/basic}{~}This is a good deed I won't easily forget!"
+                 "<11>{#p/basic}{~}我向你們二人\n致以最誠摯的\n歉意~",
+                 "<11>{#p/basic}{~}你們的善舉\n我永遠\n不會忘記！"
               ]
             : [
-                 "<11>{#p/basic}{~}What's this?\nA message from Undyne?",
-                 "<11>{#p/basic}{~}She's called off the deal...?",
-                 "<11>{#p/basic}{~}... hmmm...",
-                 "<11>{#p/basic}{~}Well, I think my job here is done, don't you?",
-                 "<11>{#p/basic}{~}Sorry for wasting your time~"
+                 "<11>{#p/basic}{~}這是什麼？\n一條來自\n安黛因的資訊？",
+                 "<11>{#p/basic}{~}她取消了\n交易...？",
+                 "<11>{#p/basic}{~}... 嗯...",
+                 "<11>{#p/basic}{~}行吧，\n看來我得\n就此收工了，\n不是嗎？",
+                 "<11>{#p/basic}{~}很抱歉浪費了\n你的時間~"
               ],
       turnTalk12: () => [ "<11>{#p/basic}{~}..." ],
       turnTalk13: (didf: boolean) =>
          badSpider()
             ? [
                  world.genocide
-                    ? "<11>{#p/basic}{~}You know what, dearies?"
-                    : "<11>{#p/basic}{~}You know what, dearie?",
-                 "<11>{#p/basic}{~}I've had enough of fighting you.",
-                 "<11>{#p/basic}{~}So do what you will.",
+                    ? "<11>{#p/basic}{~}你知道嗎，\n小可愛們？"
+                    : "<11>{#p/basic}{~}你知道嗎，\n小可愛？",
+                 "<11>{#p/basic}{~}我已經不想\n與你繼續\n戰鬥下去了。",
+                 "<11>{#p/basic}{~}所以，\n做你\n想做的吧。",
                  world.genocide || !world.bullied
                     ? didf
-                       ? "<11>{#p/basic}{~}... sorry, Undyne.\nI'd rather die on my own terms, thank you."
-                       : "<11>{#p/basic}{~}... sorry, Undyne.\nThis has dragged on for long enough."
+                       ? "<11>{#p/basic}{~}... 抱歉，\n安黛因。\n我更希望我\n能按照自己的\n意願死去，\n謝謝你。"
+                       : "<11>{#p/basic}{~}... 抱歉，\n安黛因。\n我已經拖得\n夠久了。"
                     : didf
-                    ? "<11>{#p/basic}{~}Honestly, a little bully like you isn't worth dying over..."
-                    : "<11>{#p/basic}{~}Honestly, a little bully like you isn't worth my time...",
-                 "<11>{#p/basic}{~}Bye bye, now~"
+                    ? "<11>{#p/basic}{~}說實話，\n因為你\n這種小流氓\n而失去\n我的生命\n實在不值得..."
+                    : "<11>{#p/basic}{~}說實話，\n在你這種\n小流氓上\n浪費時間\n實在不值得...",
+                 "<11>{#p/basic}{~}那就，\n拜拜啦~"
               ]
             : [ "<11>{#p/basic}{~}..." ]
    },
    b_opponent_undyne: {
-      artifact: [ "<32>{#p/human}* (Undyne doesn't even seem to know what it is.)" ],
-      epiphaNOPE: [ "<20>{#p/undyne}Huh?\nWhat even IS this?" ],
+      artifact: [ "<32>{#p/human}* （安黛因似乎甚至不知道\n  這是什麼。）" ],
+      epiphaNOPE: [ "<20>{#p/undyne}嗯?\n這到底是什麼？" ],
       spaghetti1: [
          "<32>{#p/basic}* The smell reminds Undyne of someone close to her...",
          "<32>{#p/story}* 安黛因的攻擊力下降了！"
@@ -6393,16 +6393,16 @@ export default {
          world.genocide
             ? [ "<32>{#p/asriel2}* 安黛因 the Undying。\n* 你怎麼不攻擊？" ]
             : helmetdyne()
-            ? [ "<32>{#p/story}* UNDYNE - ATK 40 DEF 100\n* Captain of the Royal Guard.\n* Relentless." ]
+            ? [ "<32>{#p/story}* 安黛因 - 攻擊40 防禦100\n* 皇家衛隊隊長。\n* 冷酷無情。" ]
             : respecc()
-            ? [ "<32>{#p/story}* UNDYNE - ATK 25 DEF 10\n* Once your sworn enemy, now your unmatched equal!" ]
+            ? [ "<32>{#p/story}* 安黛因 - 攻擊25 防禦10\n* 曾經是你的死敵，如今是你\n  無與倫比的對手！" ]
             : [ "<32>{#p/story}* 安黛因 - 攻擊50 防禦20\n* 永不放棄的英雄。" ],
       name: () => (world.genocide ? "* Undyne the Undying" : "* 安黛因"),
       status1: () =>
          helmetdyne()
-            ? [ "<32>{#p/story}* Undyne towers above you." ]
+            ? [ "<32>{#p/story}* 安黛因高聳於你之上。" ]
             : respecc()
-            ? [ "<32>{#p/story}* Undyne takes you head-on!" ]
+            ? [ "<32>{#p/story}* 安黛因與你迎面相撞！" ]
             : [ "<32>{#p/story}* 安黛因來襲！" ],
       intro1: () =>
          SAVE.data.n.state_starton_papyrus === 1
@@ -6441,18 +6441,18 @@ export default {
       randStatus1: () =>
          respecc()
             ? [ "<32>{#p/story}* Undyne points dramatically towards space." ]
-            : [ "<32>{#p/story}* Undyne points heroically towards space." ],
+            : [ "<32>{#p/story}* 安黛因威風凜凜地\n  抬手指向太空。" ],
       randStatus2: () =>
          respecc()
-            ? [ "<32>{#p/story}* Undyne twirls her spear with grace." ]
-            : [ "<32>{#p/story}* Undyne flips her spear impatiently." ],
-      randStatus3: () => [ "<32>{#p/story}* Undyne suplexes an asteroid.\n* Just because she can." ],
+            ? [ "<32>{#p/story}* 安黛因優雅地旋轉著她的長矛。" ]
+            : [ "<32>{#p/story}* 安黛因焦急地翻弄著她的長矛。" ],
+      randStatus3: () => [ "<32>{#p/story}* 安黛因對一顆小行星使用了背摔。\n* 就因為她能做到。" ],
       randStatus4: () =>
-         respecc() ? [ "<32>{#p/story}* Undyne bounces with fervor." ] : [ "<32>{#p/story}* Undyne bounces impatiently." ],
+         respecc() ? [ "<32>{#p/story}* 安黛因滿懷激情地跳來跳去。" ] : [ "<32>{#p/story}* 安黛因焦躁的跳來跳去。" ],
       randStatus5: () =>
          respecc()
-            ? [ "<32>{#p/story}* Undyne flashes a genuine smile." ]
-            : [ "<32>{#p/story}* Undyne flashes a menacing smile." ],
+            ? [ "<32>{#p/story}* 安黛因的嘴角閃過了一抹\n  真誠的笑。" ]
+            : [ "<32>{#p/story}* 安黛因的嘴角閃過了一抹\n  威脅的笑。" ],
       randStatus6: () =>
          respecc()
             ? [ "<33>{#p/story}* Undyne looks on with adoration." ]
@@ -7012,7 +7012,7 @@ export default {
       genoDeath3: [ "<20>{*}{#p/undyne}{#v/1}{#e/undyne/30}{@random=1.1/1.1}And with that power...{^60}{%}" ],
       genoDeath4: [ "<20>{*}{#p/undyne}{#v/1}{#e/undyne/30}{@random=1.1/1.1}This world will live on...!{^60}{%}" ],
       lowStatus1: [ "<32>{#p/story}* The starlight is glimmering..." ],
-      lowStatus2: [ "<32>{#p/story}* Undyne flips her spear impatiently." ],
+      lowStatus2: [ "<32>{#p/story}* 安黛因焦急地翻弄著她的長矛。" ],
       lowStatus3: [ "<32>{#p/story}* Twinkling shards drift in front of you." ],
       lowStatus4: [ "<32>{#p/story}* Steam whirls around you." ],
       lowStatus5: [ "<32>{#p/story}* 有一瞬，長矛的攻勢停了下來。" ],
