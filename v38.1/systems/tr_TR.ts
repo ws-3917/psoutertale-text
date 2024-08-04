@@ -3,7 +3,7 @@
 export default {
    disclaimer: {
       title: "- DISCLAIMER -",
-      content: "1. PS!OUTERTALE is made by Spacey_432. \nAnd our team is working on the Chinese translation. \n2. If you find any untranslated texts or dialogues, stop complaining and calling us lazy. Show some basic respect to ws3917, Spacey, and the PS!OUTERTALE translation team.We don't owe you anything.\n3. Stop asking extremely stupid questions(like \"How do I change the language to Chinese?\", \"How do I kill Toriel?\", or \"How do I extract the game files?\").These questions are already in the FAQ.Our translators don't have time for this nonsense.\n4. If you don't like the game and don't want to test it anymore, just delete it and leave the group.We won't stop you. We insist that you stop bothering and insulting us. The game is Spacey's and translated by us, not yours."
+      content: "1. PS!OUTERTALE is made by Spacey_432. \nAnd our team is working on the Chinese translation. \n2. If you find any untranslated texts or dialogues, \nstop complaining and calling us lazy. \nShow some basic respect to ws3917, Spacey, \nand the PS!OUTERTALE translation team. \nWe don't owe you anything. \n3. Stop asking extremely stupid questions\n(like \"How do I change the language to Chinese?\", \n\"How do I kill Toriel?\", or \"How do I extract the game files?\").\nThese questions are already in the FAQ. Our translators don't have time for this nonsense.\n4. If you don't like the game and don't want to test it anymore, \njust delete it and leave the group. We won't stop you. \nWe insist that you stop bothering and insulting us. \nThe game is Spacey's and translated by us, not yours."
    },
    battle: {
       death0: ["(Derin bir nefes aldın.)", "(Azimle doldun.)"],
