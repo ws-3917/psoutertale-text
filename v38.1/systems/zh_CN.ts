@@ -3,7 +3,7 @@
 export default {
    disclaimer: {
       title: "- 游戏声明 -",
-      content: "1. PS!OUTERTALE is made by Spacey_432. \nAnd our team is working on the Chinese translation. \n2. If you find any untranslated texts or dialogues, \nstop complaining and calling us lazy. \nShow some basic respect to ws3917, Spacey, \nand the PS!OUTERTALE translation team. \nWe don't owe you anything. \n3. Stop asking extremely stupid questions\n(like \"How do I change the language to Chinese?\", \n\"How do I kill Toriel?\", or \"How do I extract the game files?\").\nThese questions are already in the FAQ. \nOur translators don't have time for this nonsense.\n4. If you don't like the game and don't want to test it anymore, \njust delete it and leave the group. We won't stop you. \nWe insist that you stop bothering and insulting us. \nThe game is Spacey's and translated by us, not yours."
+      content: "1.PS!OUTERTALE 是 Spacey_432 制作的游戏。\n  PSOT汉化组负责中文翻译。\n2.中文翻译还在进行中，如果发现未翻译的文本或对话，\n  请耐心等待。所有语言中，中文已经是进度最快的了，\n  所以尽量不要反馈没有翻译的问题。给汉化组\n  和游戏作者 Spacey 留一点基本的尊重。\n3.一些常见问题（比如\"怎么把语言改成中文？\"、\n  \"怎么下载？\"、\"怎么解压游戏？\"），\n  建议先查阅“Q群管家”，常见问题答案都在那里。\n  汉化组需要花更多时间推进汉化，接受bug反馈。\n  所以过于基础的问题可能不会解答。\n4.如果对游戏比较失望，不想继续测试，或者不愿遵守群规，\n  您可以选择删除游戏，然后退群，这游戏是 Spacey 做的，\n  汉化组翻译的，我们都付出了很多努力，希望能相互理解。\n\n再次感谢您对本游戏与汉化组的支持。"
    },
    battle: {
       death0: ["（你深吸了一口气。）", "（你充满了决心。）"],
