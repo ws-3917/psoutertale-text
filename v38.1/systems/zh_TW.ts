@@ -2,8 +2,8 @@
 
 export default {
    disclaimer: {
-      title: "- DISCLAIMER -",
-      content: "1. PS!OUTERTALE is made by Spacey_432. \nAnd our team is working on the Chinese translation. \n2. If you find any untranslated texts or dialogues, \nstop complaining and calling us lazy. \nShow some basic respect to ws3917, Spacey, \nand the PS!OUTERTALE translation team. \nWe don't owe you anything. \n3. Stop asking extremely stupid questions\n(like \"How do I change the language to Chinese?\", \n\"How do I kill Toriel?\", or \"How do I extract the game files?\").\nThese questions are already in the FAQ. Our translators don't have time for this nonsense.\n4. If you don't like the game and don't want to test it anymore, \njust delete it and leave the group. We won't stop you. \nWe insist that you stop bothering and insulting us. \nThe game is Spacey's and translated by us, not yours."
+      title: "- 遊戲聲明 -",
+      content: "1. PS!OUTERTALE is made by Spacey_432. \nAnd our team is working on the Chinese translation. \n2. If you find any untranslated texts or dialogues, \nstop complaining and calling us lazy. \nShow some basic respect to ws3917, Spacey, \nand the PS!OUTERTALE translation team. \nWe don't owe you anything. \n3. Stop asking extremely stupid questions\n(like \"How do I change the language to Chinese?\", \n\"How do I kill Toriel?\", or \"How do I extract the game files?\").\nThese questions are already in the FAQ. \nOur translators don't have time for this nonsense.\n4. If you don't like the game and don't want to test it anymore, \njust delete it and leave the group. We won't stop you. \nWe insist that you stop bothering and insulting us. \nThe game is Spacey's and translated by us, not yours."
    },
    battle: {
       death0: ["（你深吸了一口氣。）", "（你充滿了決心。）"],

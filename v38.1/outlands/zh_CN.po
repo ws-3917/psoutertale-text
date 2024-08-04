@@ -8086,11 +8086,11 @@ msgstr "<32>{#p/basic}* 我们的脑细胞要不够用了..."
 
 msgid "<32>{#p/toriel}{#f/21}* \"'What's up stairs?' asked the skeleton.\""
 msgstr ""
-"<32>{#p/toriel}{#f/21}* “‘有什么鸟事吗？’\n"
+"<32>{#p/toriel}{#f/21}* “‘有人在吗？’\n"
 "   一位骷髅问。”"
 
 msgid "<32>* \"... the stairs did not reply.\""
-msgstr "<32>* “...鸟没有回答。”"
+msgstr "<32>* “...友人没有回答。”"
 
 msgid ""
 "<32>{#p/basic}* ...\n"
