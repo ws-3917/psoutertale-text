@@ -5376,7 +5376,7 @@ export default {
          "<20>{*}{#p/asriel3}{#e/asriel/8}更重要的是...\n如果我被你打敗了...",
          "<20>{*}{#p/asriel3}{#e/asriel/7}我永遠，永遠\n都當不了你的對手了。",
          "<20>{*}{#p/asriel3}{#e/asriel/9}永遠也不會\n得到你的尊重！",
-         "<20>{*}{#p/asriel3}{#e/asriel/10}{#i/3}{@random=1.1/1.1}該死，$(name)...\n你他媽的為什麼總要贏？"
+         "<20>{*}{#p/asriel3}{#e/asriel/10}{#i/3}{@random=1.1/1.1}該死，$(name)...\n你到底為什麼總要贏？"
       ],
       attackTalk7: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}..." ],
       attackTalk7x: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name)，我..." ],

@@ -22,21 +22,21 @@ import { CosmosKeyed, CosmosProvider } from '../../../code/systems/storyteller';
 const toriel_aerialis = () =>
    SAVE.data.n.plot < 49
       ? [
-           "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in Aerialis...",
-           "<25>{#f/0}* Used primarily to dampen electricity.",
-           "<25>{#f/1}* If you could carry this fluid, how far would you take it?",
-           "<25>{#f/1}* Would you carry it all the way to the Citadel?",
-           "<25>{#f/1}* Or would you simply dispose of it in a recycle bin?",
-           "<25>{#f/0}* How disappointing that would be."
+           "<25>{#p/toriel}{#f/1}* Aeralis'te bir çeşit sıvı olduğunu duydum...",
+           "<25>{#f/0}* Elektirik yalıtımı için kullanılıyormuş.",
+           "<25>{#f/1}* Bu sıvıyı taşıyabilseydin, ne kadar uzağa götürürdün?",
+           "<25>{#f/1}* Onu Hisar'a kadar taşır mıydın?",
+           "<25>{#f/1}* Yoksa geri dönüşüm kutusuna atıp ondan kurtulur muydun?",
+           "<25>{#f/0}* Ne kadar hayal kırıcı olurdu."
         ]
       : SAVE.data.n.plot < 51
       ? world.bad_lizard > 1 || SAVE.data.n.state_foundry_undyne === 2
          ? [
-              "<25>{#p/toriel}{#f/1}* Perhaps, if I ever become a teacher...",
-              "<25>{#f/0}* I could host a field trip to the Royal Lab.",
-              "<25>{#f/0}* With Dr. Alphys's permission, of course.",
-              "<25>{#f/1}* All those interesting experiments they must conduct there...",
-              "<25>{#f/0}* It'd be a great learning experience for the children."
+              "<25>{#p/toriel}{#f/1}* Belki, bir gün öğretmen olursam...",
+              "<25>{#f/0}* Kraliyet laboratuvarına bir gezi düzenleyebilirim.",
+              "<25>{#f/0}* Dr. Alphys'in de izniyle, tabii.",
+              "<25>{#f/1}* Orada kesin bir sürü ilginç deneyler yapıyorlardır...",
+              "<25>{#f/0}* Çocuklar için harika bir öğrenme deneyimi olurdu."
            ]
          : [
               "<25>{#p/toriel}{#f/0}* Word of your TV premier has spread quickly, little one!",

@@ -5,38 +5,38 @@ msgstr ""
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* Aeralis'te bir çeşit sıvı olduğunu duydum..."
 
 msgid "<25>{#f/0}* Used primarily to dampen electricity."
-msgstr ""
+msgstr "<25>{#f/0}* Elektirik yalıtımı için kullanılıyormuş."
 
 msgid "<25>{#f/1}* If you could carry this fluid, how far would you take it?"
-msgstr ""
+msgstr "<25>{#f/1}* Bu sıvıyı taşıyabilseydin, ne kadar uzağa götürürdün?"
 
 msgid "<25>{#f/1}* Would you carry it all the way to the Citadel?"
-msgstr ""
+msgstr "<25>{#f/1}* Onu Hisar'a kadar taşır mıydın?"
 
 msgid "<25>{#f/1}* Or would you simply dispose of it in a recycle bin?"
-msgstr ""
+msgstr "<25>{#f/1}* Yoksa geri dönüşüm kutusuna atıp ondan kurtulur muydun?"
 
 msgid "<25>{#f/0}* How disappointing that would be."
-msgstr ""
+msgstr "<25>{#f/0}* Ne kadar hayal kırıcı olurdu."
 
 msgid "<25>{#p/toriel}{#f/1}* Perhaps, if I ever become a teacher..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* Belki, bir gün öğretmen olursam..."
 
 msgid "<25>{#f/0}* I could host a field trip to the Royal Lab."
-msgstr ""
+msgstr "<25>{#f/0}* Kraliyet laboratuvarına bir gezi düzenleyebilirim."
 
 msgid "<25>{#f/0}* With Dr. Alphys's permission, of course."
-msgstr ""
+msgstr "<25>{#f/0}* Dr. Alphys'in de izniyle, tabii."
 
 msgid ""
 "<25>{#f/1}* All those interesting experiments they must conduct there..."
-msgstr ""
+msgstr "<25>{#f/1}* Orada kesin bir sürü ilginç deneyler yapıyorlardır..."
 
 msgid "<25>{#f/0}* It'd be a great learning experience for the children."
-msgstr ""
+msgstr "<25>{#f/0}* Çocuklar için harika bir öğrenme deneyimi olurdu."
 
 msgid ""
 "<25>{#p/toriel}{#f/0}* Word of your TV premier has spread quickly, little "

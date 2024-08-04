@@ -647,7 +647,7 @@ export default {
                        [
                           "<25>{#f/1}* 嗯，呃，你-你好！",
                           "<25>{#f/1}* 我是艾菲斯博士。\n* 皇家科學部門的負責人。",
-                          "<25>{#f/10}* 但是，呃，\n  我不是那些「壞傢夥」！",
+                          "<25>{#f/10}* 但是，呃，\n  我不是那些「壞傢伙」！",
                           "<25>{#f/17}* 實際上，從你剛剛走出\n  外域時，我就...",
                           "<25>{#f/5}* 誒嘿，用我的安全控制臺\n  「觀察」你。",
                           "<25>{#f/8}* 你的戰鬥...\n* 你的朋友們...",
@@ -3468,7 +3468,7 @@ export default {
                   SAVE.data.n.plot < 51
                      ? [
                           "<26>{#p/alphys}{#g/alphysWelp}* 不過這也不能怪他。",
-                          "<25>{#g/alphysWelp}* 他是你在這裡見過的\n  最熱愛人類的傢夥。"
+                          "<25>{#g/alphysWelp}* 他是你在這裡見過的\n  最熱愛人類的傢伙。"
                        ]
                      : SAVE.data.n.plot < 52
                      ? [ "<25>{#p/alphys}{#g/alphysCutscene3}* You never know these days..." ]
@@ -3975,7 +3975,7 @@ export default {
                        "<32>* 「通常，父母會決定\n   他們的孩子會成為\n   什麼樣的怪物...」",
                        "<32>* 「把他們的意志烙印在\n   孩子的靈魂深處。」",
                        "<32>* 「但如果另一個生物，比如一個\n   人類，吸收了一個靈魂，\n   會發生什麼呢？」",
-                       "<32>* 「傳說中，人類在戰爭中吸收了\n   死去的boss怪物的靈魂...」",
+                       "<32>* 「傳說中，人類在戰爭中吸收了\n   死去的王級怪物的靈魂...」",
                        "<32>* 「在一處特別的記載中，\n   據說有個人類變成了\n   一架飛機的形態。」",
                        "<32>{#p/human}* （你把書放回了書架。）"
                     ],
@@ -3985,11 +3985,11 @@ export default {
                   : [
                        "<32>{#p/basic}* 這是個書架。",
                        "<32>{#p/human}* （你取下了一本書...）",
-                       "<32>{#p/basic}* \"So you wanna design a robot, huh? Well, Fabulous Faraday's got you covered!\"",
-                       "<32>* \"You see, here on Earth, we like to do things with a dash of flavor.\"",
-                       "<32>* \"You can't just build a metal box and call it a day, you catch my drift?\"",
-                       "<32>* \"You've got to give it style, features dazzling and dynamic, like wheels and dials!\"",
-                       "<32>* \"And, for maximum razz, do something creative with its mobility!\"",
+                       "<32>{#p/basic}* 「你想設計一個機器人嗎？\n   那麼，由了不起的Faraday\n   幫你搞定吧！」",
+                       "<32>* 「你看，地球上的人們，\n   喜歡在生活中添加一些趣味。」",
+                       "<32>* 「你總不能造個金屬盒子\n   就收工吧，\n   明白我的意思嗎？」",
+                       "<32>* 「你必須賦予它風格和\n   令人眼花繚亂、充滿活力的功能，\n   譬如，投『機』機倒『把』！」",
+                       "<32>* 「另外，為了最大限度地吸引別人，\n   可以用它的機動性做一些\n   有創意的事情！」",
                        "<32>* \"Like, I dunno, a unicycle?\"\n* \"Yeah, something like that.\"",
                        "<32>{#p/human}* （你把書放回了書架。）"
                     ],
@@ -4043,12 +4043,12 @@ export default {
                   : [
                        "<32>{#p/basic}* 這是個書架。",
                        "<32>{#p/human}* （你取下了一本書...）",
-                       "<32>{#p/basic}* \"Professor's notes, page 195.\"",
-                       "<32>* \"It's a dark day for monsterkind, the royal family is in pieces.\"",
-                       "<32>* \"Queen Toriel has abandoned the throne over a few rushed words from Asgore.\"",
-                       "<32>* \"But those words may have long-lasting implications for us...\"",
-                       "<32>* \"Now, everyone expects him to take the human SOULs by force.\"",
-                       "<32>* \"This is a disaster.\"",
+                       "<32>{#p/basic}* 「教授的筆記，第195頁。」",
+                       "<32>* 「今天對於怪物一族來說\n   是無比黑暗的一天。\n   王室分崩離析了。」",
+                       "<32>* 「托麗爾王后因為\n   艾斯戈爾的寥寥幾句話\n   就放棄了王位。」",
+                       "<32>* 「但這些話可能會對我們\n   產生長期的影響...」",
+                       "<32>* 「如今，大家都期待他\n   用武力奪取人類的靈魂。」",
+                       "<32>* 「真是一場災難。」",
                        "<32>{#p/human}* （你把書放回了書架。）"
                     ],
             () =>
@@ -4057,11 +4057,11 @@ export default {
                   : [
                        "<32>{#p/basic}* 這是個書架。",
                        "<32>{#p/human}* （你取下了一本書...）",
-                       "<32>{#p/basic}* \"Professor's notes, page 310.\"",
-                       "<32>* \"Well, he's agreed to the plan... of course, I was almost certain he would.\"",
-                       "<32>* \"The timing is fortunate.\"\n* \"The first human since $(name) arrived on the outpost today.\"",
-                       "<32>* \"We don't know if it'll be able to contain them yet, but we'll find out soon enough...\"",
-                       "<32>* \"Fingers crossed.\"",
+                       "<32>{#p/basic}* 「教授的筆記，第310頁。」",
+                       "<32>* 「喏，他同意了這個計畫...\n   當然，我就知道他會同意的。」",
+                       "<32>* 「天賜良機。」\n* 「這是繼$(name)之後，\n   到達前哨站的第一個人類。」",
+                       "<32>* 「我們還不知道它\n   能否控制住那人類，\n   但我們很快就可以知曉了...」",
+                       "<32>* 「祈禱吧。」",
                        "<32>{#p/human}* （你把書放回了書架。）"
                     ]
          ),
@@ -9113,7 +9113,7 @@ export default {
    },
 
    b_opponent_rg01: {
-      name: () => (world.bad_lizard > 1 ? "* RG 01" : "* RG 03"),
+      name: () => (world.bad_lizard > 1 ? "* RG 01" : "* 3號守衛"),
       epiphaNOPE: () =>
          world.bad_lizard > 1
             ? [ "<11>{#p/basic}{~}Like, what are you even doing?" ]
@@ -9266,7 +9266,7 @@ export default {
    },
 
    b_opponent_rg02: {
-      name: () => (world.bad_lizard > 1 ? "* RG 02" : "* RG 04"),
+      name: () => (world.bad_lizard > 1 ? "* RG 02" : "* 4號守衛"),
       epiphaNOPE: () =>
          world.bad_lizard > 1
             ? [ "<11>{#p/basic}{~}I don't get this at all..." ]

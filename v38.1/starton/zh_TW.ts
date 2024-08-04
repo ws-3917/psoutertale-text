@@ -1474,7 +1474,7 @@ export default {
                ? [ "<32>{#p/basic}{#npc/a}* Where's Sans...\n* He's supposed to give me a pat on the head..." ]
                : [
                     "<32>{#p/basic}{#npc/a}* 你最好盯緊了你坐的地方，\n  孩子。",
-                    "<32>* 那個大傢夥隨時都會\n  跳到你的大腿上，\n  給你滿滿的愛和關注。"
+                    "<32>* 那個大傢伙隨時都會\n  跳到你的大腿上，\n  給你滿滿的愛和關注。"
                  ],
          g_dogaressa: () =>
             SAVE.data.b.killed_mettaton
@@ -6685,7 +6685,7 @@ export default {
             ? [ "<15>{#p/papyrus}{#f/21}SANS，我...", "<15>{#f/33}{@random=1.1/1.1}我讓你失望了..." ]
             : papreal()
             ? [
-                 "<15>{#p/papyrus}{#f/27}...盡-儘管如此，\n我仍然相信你！",
+                 "<15>{#p/papyrus}{#f/27}...儘-儘管如此，\n我仍然相信你！",
                  "<15>{#p/papyrus}{#f/21}只要你努力，\n肯定能變得更好...",
                  "<15>{#p/papyrus}{#f/27}我-我保證...！"
               ]

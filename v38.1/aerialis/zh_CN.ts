@@ -3975,7 +3975,7 @@ export default {
                        "<32>* “通常，父母会决定\n   他们的孩子会成为\n   什么样的怪物...”",
                        "<32>* “把他们的意志烙印在\n   孩子的灵魂深处。”",
                        "<32>* “但如果另一个生物，比如一个\n   人类，吸收了一个灵魂，\n   会发生什么呢？”",
-                       "<32>* “传说中，人类在战争中吸收了\n   死去的boss怪物的灵魂...”",
+                       "<32>* “传说中，人类在战争中吸收了\n   死去的王级怪物的灵魂...”",
                        "<32>* “在一处特别的记载中，\n   据说有个人类变成了\n   一架飞机的形态。”",
                        "<32>{#p/human}* （你把书放回了书架。）"
                     ],
@@ -3985,11 +3985,11 @@ export default {
                   : [
                        "<32>{#p/basic}* 这是个书架。",
                        "<32>{#p/human}* （你取下了一本书...）",
-                       "<32>{#p/basic}* \"So you wanna design a robot, huh? Well, Fabulous Faraday's got you covered!\"",
-                       "<32>* \"You see, here on Earth, we like to do things with a dash of flavor.\"",
-                       "<32>* \"You can't just build a metal box and call it a day, you catch my drift?\"",
-                       "<32>* \"You've got to give it style, features dazzling and dynamic, like wheels and dials!\"",
-                       "<32>* \"And, for maximum razz, do something creative with its mobility!\"",
+                       "<32>{#p/basic}* “你想设计一个机器人吗？\n   那么，由了不起的Faraday\n   帮你搞定吧！”",
+                       "<32>* “你看，地球上的人们，\n   喜欢在生活中添加一些趣味。”",
+                       "<32>* “你总不能造个金属盒子\n   就收工吧，\n   明白我的意思吗？”",
+                       "<32>* “你必须赋予它风格和\n   令人眼花缭乱、充满活力的功能，\n   譬如，投‘机’机倒‘把’！”",
+                       "<32>* “另外，为了最大限度地吸引别人，\n   可以用它的机动性做一些\n   有创意的事情！”",
                        "<32>* \"Like, I dunno, a unicycle?\"\n* \"Yeah, something like that.\"",
                        "<32>{#p/human}* （你把书放回了书架。）"
                     ],
@@ -4043,12 +4043,12 @@ export default {
                   : [
                        "<32>{#p/basic}* 这是个书架。",
                        "<32>{#p/human}* （你取下了一本书...）",
-                       "<32>{#p/basic}* \"Professor's notes, page 195.\"",
-                       "<32>* \"It's a dark day for monsterkind, the royal family is in pieces.\"",
-                       "<32>* \"Queen Toriel has abandoned the throne over a few rushed words from Asgore.\"",
-                       "<32>* \"But those words may have long-lasting implications for us...\"",
-                       "<32>* \"Now, everyone expects him to take the human SOULs by force.\"",
-                       "<32>* \"This is a disaster.\"",
+                       "<32>{#p/basic}* “教授的笔记，第195页。”",
+                       "<32>* “今天对于怪物一族来说\n   是无比黑暗的一天。\n   王室分崩离析了。”",
+                       "<32>* “Toriel王后因为\n   Asgore的寥寥几句话\n   就放弃了王位。”",
+                       "<32>* “但这些话可能会对我们\n   产生长期的影响...”",
+                       "<32>* “如今，大家都期待他\n   用武力夺取人类的灵魂。”",
+                       "<32>* “真是一场灾难。”",
                        "<32>{#p/human}* （你把书放回了书架。）"
                     ],
             () =>
@@ -4057,11 +4057,11 @@ export default {
                   : [
                        "<32>{#p/basic}* 这是个书架。",
                        "<32>{#p/human}* （你取下了一本书...）",
-                       "<32>{#p/basic}* \"Professor's notes, page 310.\"",
-                       "<32>* \"Well, he's agreed to the plan... of course, I was almost certain he would.\"",
-                       "<32>* \"The timing is fortunate.\"\n* \"The first human since $(name) arrived on the outpost today.\"",
-                       "<32>* \"We don't know if it'll be able to contain them yet, but we'll find out soon enough...\"",
-                       "<32>* \"Fingers crossed.\"",
+                       "<32>{#p/basic}* “教授的笔记，第310页。”",
+                       "<32>* “喏，他同意了这个计划...\n   当然，我就知道他会同意的。”",
+                       "<32>* “天赐良机。”\n* “这是继$(name)之后，\n   到达前哨站的第一个人类。”",
+                       "<32>* “我们还不知道它\n   能否控制住那人类，\n   但我们很快就可以知晓了...”",
+                       "<32>* “祈祷吧。”",
                        "<32>{#p/human}* （你把书放回了书架。）"
                     ]
          ),
@@ -9113,7 +9113,7 @@ export default {
    },
 
    b_opponent_rg01: {
-      name: () => (world.bad_lizard > 1 ? "* RG 01" : "* RG 03"),
+      name: () => (world.bad_lizard > 1 ? "* RG 01" : "* 3号守卫"),
       epiphaNOPE: () =>
          world.bad_lizard > 1
             ? [ "<11>{#p/basic}{~}Like, what are you even doing?" ]
@@ -9266,7 +9266,7 @@ export default {
    },
 
    b_opponent_rg02: {
-      name: () => (world.bad_lizard > 1 ? "* RG 02" : "* RG 04"),
+      name: () => (world.bad_lizard > 1 ? "* RG 02" : "* 4号守卫"),
       epiphaNOPE: () =>
          world.bad_lizard > 1
             ? [ "<11>{#p/basic}{~}I don't get this at all..." ]

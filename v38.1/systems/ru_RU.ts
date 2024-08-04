@@ -1,13 +1,17 @@
 // START-TRANSLATE
 
 export default {
+   disclaimer: {
+      title: "- DISCLAIMER -",
+      content: "1. PS!OUTERTALE is made by Spacey_432. \nAnd our team is working on the Chinese translation. \n2. If you find any untranslated texts or dialogues, stop complaining and calling us lazy. Show some basic respect to ws3917, Spacey, and the PS!OUTERTALE translation team.We don't owe you anything.\n3. Stop asking extremely stupid questions(like \"How do I change the language to Chinese?\", \"How do I kill Toriel?\", or \"How do I extract the game files?\").These questions are already in the FAQ.Our translators don't have time for this nonsense.\n4. If you don't like the game and don't want to test it anymore, just delete it and leave the group.We won't stop you. We insist that you stop bothering and insulting us. The game is Spacey's and translated by us, not yours."
+   },
    battle: {
-      death0: [ "(Вы глубоко вдохнули.)", "(Вы наполнены решимостью.)" ],
-      death1: [ "Ты ещё не можешь сдаться...", "$(name)!\nСохраняй решимость..." ],
-      death2: [ "Наша судьба зависит от тебя...", "$(name)!\nСохраняй решимость..." ],
-      death3: [ "Ты будешь в порядке!", "$(name)!\nСохраняй решимость..." ],
-      death4: [ "Не теряй надежду!", "$(name)!\nСохраняй решимость..." ],
-      death5: [ "Это не может закончиться здесь!", "$(name)!\nСохраняй решимость..." ],
+      death0: ["(Вы глубоко вдохнули.)", "(Вы наполнены решимостью.)"],
+      death1: ["Ты ещё не можешь сдаться...", "$(name)!\nСохраняй решимость..."],
+      death2: ["Наша судьба зависит от тебя...", "$(name)!\nСохраняй решимость..."],
+      death3: ["Ты будешь в порядке!", "$(name)!\nСохраняй решимость..."],
+      death4: ["Не теряй надежду!", "$(name)!\nСохраняй решимость..."],
+      death5: ["Это не может закончиться здесь!", "$(name)!\nСохраняй решимость..."],
 
       flee1: "    * Удалось сбежать...",
       flee2: "    * Я сваливаю.",
@@ -34,7 +38,7 @@ export default {
       },
       control: {
          tab: "УПРАВЛЕНИЕ",
-         headers: [ "ОСНОВНОЕ", "БИТВА" ],
+         headers: ["ОСНОВНОЕ", "БИТВА"],
          items: [
             [
                "FixMusic",
@@ -90,14 +94,14 @@ export default {
       },
       inspect: {
          tab: "INSPECT",
-         headers: [ "LAYERS", "TYPES" ],
+         headers: ["LAYERS", "TYPES"],
          switches: [
-            [ "Base", "Below", "Main", "Above", "Menu" ],
-            [ "Hitbox", "Sprite", "Text" ]
+            ["Base", "Below", "Main", "Above", "Menu"],
+            ["Hitbox", "Sprite", "Text"]
          ],
          p_explorer: {
             header: "EXPLORER",
-            layers: [ "Base (Explorer)", "Below (Explorer)", "Main (Explorer)", "Above (Explorer)", "Menu (Explorer)" ],
+            layers: ["Base (Explorer)", "Below (Explorer)", "Main (Explorer)", "Above (Explorer)", "Menu (Explorer)"],
             letters: {
                animation: "A",
                character: "C",
@@ -219,8 +223,8 @@ export default {
       dialog_open: { buttonLabel: "Open", name: "SAVE files", title: "Open File" },
       dialog_save: { buttonLabel: "Save", name: "SAVE files", title: "Save File" },
       error_load: "That file could not be parsed.",
-      message_alert: [ "OK" ],
-      message_confirm: [ "Cancel", "OK" ],
+      message_alert: ["OK"],
+      message_confirm: ["Cancel", "OK"],
       prompt_clear: "Clear this file?",
       prompt_demo: "Your SAVE file from the\nOUTERTALE demo has been\nmoved to a timeline slot.",
       prompt_save: "Save this file?",
@@ -394,7 +398,7 @@ export default {
             "ThatGuyWhoLikesFood",
             "§fill=#808080§For helping me write crucial\nparts of the game, supporting my\nvision, and helping me express\nmyself in a whole new way.§fill=#fff§"
          ],
-         [ "Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§" ]
+         ["Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§"]
       ],
 
       final_frontier: {
@@ -811,7 +815,7 @@ export default {
             "Для меня, работа над этим проектом была честью,",
             "и удовольствием."
          ],
-         [ "When I started this journey, I never", "thought I'd get this far, but here we", "are anyway, at the end." ],
+         ["When I started this journey, I never", "thought I'd get this far, but here we", "are anyway, at the end."],
          [
             "For me, UNDERTALE was a life-changing",
             "experience, and one that was very hard to",
@@ -837,7 +841,7 @@ export default {
             "you did, and nothing can take that",
             "experience away from you."
          ],
-         [ "Despite your mistakes... you are awesome,", "and you deserve love and attention.", "Remember that, okay?" ]
+         ["Despite your mistakes... you are awesome,", "and you deserve love and attention.", "Remember that, okay?"]
       ],
       real2: "Take care of yourself, \"$(x).\"",
 
@@ -983,17 +987,17 @@ export default {
       stat12: "СТАТУС",
       stat13: "\"$(x)\"",
 
-      story1: [ "<24>{#p/storyteller}Давным-давно, два вида правили солнечной системой: ЛЮДИ и МОНСТРЫ.{^35}{}" ],
-      story2: [ "<24>Со временем, между ними разрослась война.{^35}{}" ],
-      story3: [ "<24>Когда родная планета МОНСТРОВ была уничтожена, ЛЮДИ объявили победу.{^35}{}" ],
-      story4: [ "<24>Оставшихся МОНСТРОВ изгнали на заброшенный аванпост.{^35}{}" ],
-      story5: [ "<24>Мощный силовой барьер был возведён, и МОНСТРОВ запечатали в нём.{^35}{}" ],
-      story6: [ "<24>Много лет спустя.{^8}.{^8}.{^35}{}" ],
-      story7: [ "<#24>     СЕКТОР ЭБОТТ     \n         251X{^35}{}" ],
-      story8: [ "<24>Легенды гласят, что космические корабли никогда не возвращаются оттуда.{^35}{}" ],
-      story9: [ "<24>{^100}{}" ],
-      story10: [ "<24>{^100}{}" ],
-      story11: [ "<24>{^35}{}" ]
+      story1: ["<24>{#p/storyteller}Давным-давно, два вида правили солнечной системой: ЛЮДИ и МОНСТРЫ.{^35}{}"],
+      story2: ["<24>Со временем, между ними разрослась война.{^35}{}"],
+      story3: ["<24>Когда родная планета МОНСТРОВ была уничтожена, ЛЮДИ объявили победу.{^35}{}"],
+      story4: ["<24>Оставшихся МОНСТРОВ изгнали на заброшенный аванпост.{^35}{}"],
+      story5: ["<24>Мощный силовой барьер был возведён, и МОНСТРОВ запечатали в нём.{^35}{}"],
+      story6: ["<24>Много лет спустя.{^8}.{^8}.{^35}{}"],
+      story7: ["<#24>     СЕКТОР ЭБОТТ     \n         251X{^35}{}"],
+      story8: ["<24>Легенды гласят, что космические корабли никогда не возвращаются оттуда.{^35}{}"],
+      story9: ["<24>{^100}{}"],
+      story10: ["<24>{^100}{}"],
+      story11: ["<24>{^35}{}"]
    },
 
    timeline: {

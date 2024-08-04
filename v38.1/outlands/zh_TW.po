@@ -5311,7 +5311,7 @@ msgid ""
 "* The food these days just gets worse and worse..."
 msgstr ""
 "<32>{#p/basic}{#n1}* 我很傷心。\n"
-"* 這幾天的夥食真的是每況愈下..."
+"* 這幾天的伙食真的是每況愈下..."
 
 msgid "<32>* I was promised something \"real,\" but all I got was a cheap copy."
 msgstr ""

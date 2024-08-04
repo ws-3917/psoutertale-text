@@ -11649,7 +11649,7 @@ msgid ""
 "Why do you ALWAYS have to WIN!?"
 msgstr ""
 "<20>{*}{#p/asriel3}{#e/asriel/10}{#i/3}{@random=1.1/1.1}該死，$(name)...\n"
-"你他媽的為什麼總要贏？"
+"你到底為什麼總要贏？"
 
 msgid "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}..."
 msgstr "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}..."

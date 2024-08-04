@@ -1,13 +1,17 @@
 // START-TRANSLATE
 
 export default {
+   disclaimer: {
+      title: "- DISCLAIMER -",
+      content: "1. PS!OUTERTALE is made by Spacey_432. \nAnd our team is working on the Chinese translation. \n2. If you find any untranslated texts or dialogues, stop complaining and calling us lazy. Show some basic respect to ws3917, Spacey, and the PS!OUTERTALE translation team.We don't owe you anything.\n3. Stop asking extremely stupid questions(like \"How do I change the language to Chinese?\", \"How do I kill Toriel?\", or \"How do I extract the game files?\").These questions are already in the FAQ.Our translators don't have time for this nonsense.\n4. If you don't like the game and don't want to test it anymore, just delete it and leave the group.We won't stop you. We insist that you stop bothering and insulting us. The game is Spacey's and translated by us, not yours."
+   },
    battle: {
-      death0: [ "（你深吸了一口氣。）", "（你充滿了決心。）" ],
-      death1: [ "現在還不能放棄...", "$(name)！\n保持你的決心..." ],
-      death2: [ "我們的命運都\n寄託於你...", "$(name)！\n保持你的決心..." ],
-      death3: [ "你會沒事的！", "$(name)！\n保持你的決心..." ],
-      death4: [ "別失去希望！", "$(name)！\n保持你的決心..." ],
-      death5: [ "現在還不能結束！", "$(name)！\n保持你的決心..." ],
+      death0: ["（你深吸了一口氣。）", "（你充滿了決心。）"],
+      death1: ["現在還不能放棄...", "$(name)！\n保持你的決心..."],
+      death2: ["我們的命運都\n寄託於你...", "$(name)！\n保持你的決心..."],
+      death3: ["你會沒事的！", "$(name)！\n保持你的決心..."],
+      death4: ["別失去希望！", "$(name)！\n保持你的決心..."],
+      death5: ["現在還不能結束！", "$(name)！\n保持你的決心..."],
 
       flee1: "   * 先走一步...",
       flee2: "   * 我先撤了。",
@@ -34,7 +38,7 @@ export default {
       },
       control: {
          tab: "快捷功能",
-         headers: [ "主世界", "戰鬥中" ],
+         headers: ["主世界", "戰鬥中"],
          items: [
             [
                "音樂初始化",
@@ -90,14 +94,14 @@ export default {
       },
       inspect: {
          tab: "察看圖層",
-         headers: [ "圖層", "類別" ],
+         headers: ["圖層", "類別"],
          switches: [
-            [ "基層", "下層", "主層", "上層", "選單層" ],
-            [ "碰撞箱", "貼圖", "文本" ]
+            ["基層", "下層", "主層", "上層", "選單層"],
+            ["碰撞箱", "貼圖", "文本"]
          ],
          p_explorer: {
             header: "瀏覽",
-            layers: [ "基層", "下層", "主層", "上層", "選單層" ],
+            layers: ["基層", "下層", "主層", "上層", "選單層"],
             letters: {
                animation: "動",
                character: "NPC",
@@ -219,8 +223,8 @@ export default {
       dialog_open: { buttonLabel: "打開", name: "存檔檔案", title: "匯入存檔" },
       dialog_save: { buttonLabel: "儲存", name: "存檔檔案", title: "匯出存檔" },
       error_load: "無法解析存檔。",
-      message_alert: [ "確定" ],
-      message_confirm: [ "取消", "確定" ],
+      message_alert: ["確定"],
+      message_confirm: ["取消", "確定"],
       prompt_clear: "刪除這個存檔嗎？",
       prompt_demo: "已將您的OUTERTALE demo存檔\n移動到其他時間軸槽位中。",
       prompt_save: "將存檔儲存到其他位置嗎？",
@@ -438,7 +442,7 @@ export default {
             "",
             "§fill=#808080§P.S. 漢化組正在為遊戲製作各種Mod！\n歡迎B站關注@ws3917\n了解最新Mod開發進度！§fill=#fff§"
         ],
-[ "特別鳴謝 由§fill=#ff0§Mavis與朋友們§fill=#fff§提供" ]
+["特別鳴謝 由§fill=#ff0§Mavis與朋友們§fill=#fff§提供"]
       ],
 
       final_frontier: {
@@ -855,7 +859,7 @@ export default {
             "Working on this project has been an honor,",
             "and a pleasure on my part."
          ],
-         [ "When I started this journey, I never", "thought I'd get this far, but here we", "are anyway, at the end." ],
+         ["When I started this journey, I never", "thought I'd get this far, but here we", "are anyway, at the end."],
          [
             "For me, UNDERTALE was a life-changing",
             "experience, and one that was very hard to",
@@ -881,7 +885,7 @@ export default {
             "you did, and nothing can take that",
             "experience away from you."
          ],
-         [ "Despite your mistakes... you are awesome,", "and you deserve love and attention.", "Remember that, okay?" ]
+         ["Despite your mistakes... you are awesome,", "and you deserve love and attention.", "Remember that, okay?"]
       ],
       real2: "Take care of yourself, \"$(x).\"",
 
@@ -1027,17 +1031,17 @@ export default {
       stat12: "生命體徵",
       stat13: "「$(x)」",
 
-      story1: [ "<24>{#p/storyteller}很久以前，\n太陽系由兩個物種統治著：\n人類和怪物。{^35}{}" ],
-      story2: [ "<24>隨著時間的推移，\n兩個物種之間爆發了戰爭。{^35}{}" ],
-      story3: [ "<24>最終，\n怪物的母星被摧毀，\n人類宣布了勝利。{^35}{}" ],
-      story4: [ "<24>他們將剩下的怪物\n流放到一個廢棄的前哨站。{^35}{}" ],
-      story5: [ "<24>隨後，建起一道強大的力場，\n將怪物們封印在內。{^35}{}" ],
-      story6: [ "<24>許多年後.{^16}.{^16}.{^35}{}" ],
-      story7: [ "<#24>       EBOTT區      \n        251X{^35}{}" ],
-      story8: [ "<24>傳說，宇宙中有一個地方，\n發射到那裡的飛船\n都再也沒有返航。{^35}{}" ],
-      story9: [ "<24>{^100}{}" ],
-      story10: [ "<24>{^100}{}" ],
-      story11: [ "<24>{^35}{}" ]
+      story1: ["<24>{#p/storyteller}很久以前，\n太陽系由兩個物種統治著：\n人類和怪物。{^35}{}"],
+      story2: ["<24>隨著時間的推移，\n兩個物種之間爆發了戰爭。{^35}{}"],
+      story3: ["<24>最終，\n怪物的母星被摧毀，\n人類宣布了勝利。{^35}{}"],
+      story4: ["<24>他們將剩下的怪物\n流放到一個廢棄的前哨站。{^35}{}"],
+      story5: ["<24>隨後，建起一道強大的力場，\n將怪物們封印在內。{^35}{}"],
+      story6: ["<24>許多年後.{^16}.{^16}.{^35}{}"],
+      story7: ["<#24>       EBOTT區      \n        251X{^35}{}"],
+      story8: ["<24>傳說，宇宙中有一個地方，\n發射到那裡的飛船\n都再也沒有返航。{^35}{}"],
+      story9: ["<24>{^100}{}"],
+      story10: ["<24>{^100}{}"],
+      story11: ["<24>{^35}{}"]
    },
 
    timeline: {

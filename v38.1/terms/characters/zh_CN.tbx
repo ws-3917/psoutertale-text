@@ -48,6 +48,14 @@
                 <langSet xml:lang="en"><tig><term>Asriel</term></tig></langSet>
                 <langSet xml:lang="zh_Hans"><tig><term>艾斯利尔</term></tig></langSet>
             </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>RG 03</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>3号守卫</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>RG 04</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>4号守卫</term></tig></langSet>
+            </termEntry>
         </body>
     </text>
 </martif>

@@ -1,13 +1,17 @@
 // START-TRANSLATE
 
 export default {
+   disclaimer: {
+      title: "- DISCLAIMER -",
+      content: "1. PS!OUTERTALE is made by Spacey_432. \nAnd our team is working on the Chinese translation. \n2. If you find any untranslated texts or dialogues, stop complaining and calling us lazy. Show some basic respect to ws3917, Spacey, and the PS!OUTERTALE translation team.We don't owe you anything.\n3. Stop asking extremely stupid questions(like \"How do I change the language to Chinese?\", \"How do I kill Toriel?\", or \"How do I extract the game files?\").These questions are already in the FAQ.Our translators don't have time for this nonsense.\n4. If you don't like the game and don't want to test it anymore, just delete it and leave the group.We won't stop you. We insist that you stop bothering and insulting us. The game is Spacey's and translated by us, not yours."
+   },
    battle: {
-      death0: [ "(You take a deep breath.)", "(ケツイが　みなぎった)" ],
-      death1: [ "あきらめては　いけない…", "$(name)！\nケツイを　ちからに　かえるんだ！" ],
-      death2: [ "われわれの　うんめいが  かかっている…", "$(name)！\nケツイを　ちからに　かえるんだ！" ],
-      death3: [ "しっかりしろ！", "$(name)！\nケツイを　ちからに　かえるんだ！" ],
-      death4: [ "きぼうを　すてるな！", "$(name)！\nケツイを　ちからに　かえるんだ！" ],
-      death5: [ "あきらめては　ダメだ！", "$(name)！\nケツイを　ちからに　かえるんだ！" ],
+      death0: ["(You take a deep breath.)", "(ケツイが　みなぎった)"],
+      death1: ["あきらめては　いけない…", "$(name)！\nケツイを　ちからに　かえるんだ！"],
+      death2: ["われわれの　うんめいが  かかっている…", "$(name)！\nケツイを　ちからに　かえるんだ！"],
+      death3: ["しっかりしろ！", "$(name)！\nケツイを　ちからに　かえるんだ！"],
+      death4: ["きぼうを　すてるな！", "$(name)！\nケツイを　ちからに　かえるんだ！"],
+      death5: ["あきらめては　ダメだ！", "$(name)！\nケツイを　ちからに　かえるんだ！"],
 
       flee1: "    ＊バトルからにげた…",
       flee2: "    ＊さようなら。",
@@ -33,30 +37,30 @@ export default {
          blurb: "エラーが発生しました！\n開発者にスクリーンショットを送ってください。"
       },
       control: {
-         tab: "コントロール",
-         headers: [ "一般", "バトル" ],
+         tab: "§stretch=0.5§コントロール§stretch=0.1§",
+         headers: ["一般", "バトル"],
          items: [
             [
                "BGMを修正",
-               "プレイヤーを修正",
+               "プレイヤー修正",
                "ゴールド無限",
                "調査を有効化",
                "入力を有効化",
                "移動を有効化",
                "壁を無視",
                "セーブ",
-               "テキストをスキップ",
+               "§stretch=0.5§テキストをスキップ§stretch=0.1§",
                "自由な視点"
             ],
             [
                "援助を有効化",
                "弾を削除",
                "やめる",
-               "額縁サイズをリセット",
-               "メニューをリセット",
-               "「にげる」を有効化",
+               "§stretch=0.5§額縁サイズをリセット§stretch=0.1§",
+               "メニューリセット",
+               "にげる可能",
                "むげんHP",
-               "敵全体を「にがす」",
+               "敵全体をにがす",
                "じさつ",
                "敵全体を弱める"
             ]
@@ -65,14 +69,14 @@ export default {
             fps: "$(x) FPS",
             halt: "一時停止",
             header: "ゲーム倍速",
-            multiplier: "$(x)ばいそく",
-            next: "かそく",
+            multiplier: "$(x)倍速",
+            next: "加速",
             prev: "減速",
             sec: "$(x)秒 / フレーム"
          }
       },
       godhome: {
-         tab: "ゴッドモード",
+         tab: "ゴッド",
          p_teleport: {
             header: "ルーム",
             action: "テレポート"
@@ -82,22 +86,22 @@ export default {
             action: "始まる"
          },
          p_armor: {
-            header: "アーマー"
+            header: "AMR"
          },
          p_weapon: {
-            header: "ぶき"
+            header: "WPN"
          }
       },
       inspect: {
-         tab: "レイヤーを見る",
-         headers: [ "レイヤー", "タイプ" ],
+         tab: "レイヤー",
+         headers: ["レイヤー", "タイプ"],
          switches: [
-            [ "底", "下", "メイン", "上", "メニュー" ],
-            [ "ヒットボックス", "イラスト", "テクスト" ]
+            ["底", "下", "メイン", "上", "メニュー"],
+            ["ヒットボックス", "イラスト", "テクスト"]
          ],
          p_explorer: {
             header: "閲覧",
-            layers: [ "底 (閲覧)", "下 (閲覧)", "メイン (閲覧)", "上 (閲覧)", "メイン (閲覧)" ],
+            layers: ["底 (閲覧)", "下 (閲覧)", "メイン (閲覧)", "上 (閲覧)", "メイン (閲覧)"],
             letters: {
                animation: "A",
                character: "C",
@@ -187,7 +191,7 @@ export default {
          }
       },
       savemod: {
-         tab: "セーブモード",
+         tab: "セーブ",
          header1: "セーブ　エディタ",
          domains: [
             "データ (ブーリアン)",
@@ -219,8 +223,8 @@ export default {
       dialog_open: { buttonLabel: "開く", name: "セーブファイル", title: "セーブファイルを輸入" },
       dialog_save: { buttonLabel: "セーブ", name: "セーブファイル", title: "セーブファイルを輸出" },
       error_load: "ファイルは解析できませんでした。",
-      message_alert: [ "確定" ],
-      message_confirm: [ "やめる", "確定" ],
+      message_alert: ["確定"],
+      message_confirm: ["やめる", "確定"],
       prompt_clear: "Clear this file?",
       prompt_demo: "OUTERTALE demoのセーブファイルを\n他のタイムラインに移動しました。",
       prompt_save: "セーブしますか？",
@@ -394,7 +398,7 @@ export default {
             "ThatGuyWhoLikesFood",
             "§fill=#808080§ゲームの　キーストーリーを\nかいてくれて　いつもわたしを\nおうえんしてくれて　あたらしい\nひょうげんが　できるように\nありがとうございます。§fill=#fff§"
          ],
-         [ "§fill=#ff0§Mavisとおともたち§fill=#fff§　ていきょう" ]
+         ["§fill=#ff0§Mavisとおともたち§fill=#fff§　ていきょう"]
       ],
 
       final_frontier: {
@@ -811,7 +815,7 @@ export default {
             "Working on this project has been an honor,",
             "and a pleasure on my part."
          ],
-         [ "When I started this journey, I never", "thought I'd get this far, but here we", "are anyway, at the end." ],
+         ["When I started this journey, I never", "thought I'd get this far, but here we", "are anyway, at the end."],
          [
             "For me, UNDERTALE was a life-changing",
             "experience, and one that was very hard to",
@@ -837,7 +841,7 @@ export default {
             "you did, and nothing can take that",
             "experience away from you."
          ],
-         [ "Despite your mistakes... you are awesome,", "and you deserve love and attention.", "Remember that, okay?" ]
+         ["Despite your mistakes... you are awesome,", "and you deserve love and attention.", "Remember that, okay?"]
       ],
       real2: "Take care of yourself, \"$(x).\"",
 
@@ -955,7 +959,7 @@ export default {
       sidebar1: "ITEM",
       sidebar2: "STAT",
       sidebar3: "PHONE",
-      sidebar4: "せってい",
+      sidebar4: "CONF",
       sidebar5: "S",
 
       start1: [
@@ -971,44 +975,44 @@ export default {
 
       stat1: "AT",
       stat2: "DF",
-      stat3: "ぶき",
-      stat4: "アーマー",
-      stat5: "GOLD",
+      stat3: "WPN",
+      stat4: "AMR",
+      stat5: "ゴールド",
       stat6: "EXP",
       stat7: "NEXT",
-      stat8: "§fill=#ff0§けいこく：\nﾒｲﾝﾀｲﾑﾗｲﾝでは\nありません",
+      stat8: "§fill=#ff0§けいこく：\nほかの\nタイムライン",
       stat9: "KILLS",
       stat10: "BULLY",
       stat11: "FLIRT",
       stat12: "STATUS",
       stat13: "\"$(x)\"",
 
-      story1: [ "<16>{#p/storyteller}むかしむかし　たいようけいには\nニンゲンと　モンスターという\n2つのしゅぞくが　いました。{^35}{}" ],
-      story2: [ "<16>ときが　たつにつれ\n2つのしゅぞくの　あいだに\nせんそうが　おきました。{^35}{}" ],
-      story3: [ "<16>そして　モンスターたちの\n母星を　はかいされたすえ\nニンゲンが　しょうりしました。{^35}{}" ],
-      story4: [ "<16>のこりの　モンスターたちは　ほうきされた　ぜんしょうきちに　ついほうされた。{^35}{}" ],
-      story5: [ "<16>ニンゲンは　きょうりょくな\nフォース　フィールドで\nモンスターたちを　とじこめました。{^35}{}" ],
-      story6: [ "<16>それから　さらに\nながい　ときが　ながれ…{^8}…{^8}…{^35}{}" ],
-      story7: [ "<#24>     EBOTT SECTOR     \n         251X{^35}{}" ],
-      story8: [ "<16>それは　「うちゅうきは\nにどと　もどらない」といわれる\nてんせつのセクターでした。{^35}{}" ],
-      story9: [ "<16>{^100}{}" ],
-      story10: [ "<16>{^100}{}" ],
-      story11: [ "<16>{^35}{}" ]
+      story1: ["<16>{#p/storyteller}むかしむかし　たいようけいには\nニンゲンと　モンスターという\n2つのしゅぞくが　いました。{^35}{}"],
+      story2: ["<16>ときが　たつにつれ\n2つのしゅぞくの　あいだに\nせんそうが　おきました。{^35}{}"],
+      story3: ["<16>そして　モンスターたちの\n母星を　はかいされたのすえ\nニンゲンが　しょうりしました。{^35}{}"],
+      story4: ["<16>のこりの　モンスターたちは　ほうきされた　ぜんしょうきちに　ついほうされた。{^35}{}"],
+      story5: ["<16>ニンゲンは　フォース\nフィールドで　モンスターたちを\nとじこめました。{^35}{}"],
+      story6: ["<16>それから　さらに\nながい　ときが　ながれ…{^8}…{^8}…{^35}{}"],
+      story7: ["<#24>     イビト　セクター    \n      251X年{^35}{}"],
+      story8: ["<16>それは　「うちゅうきは\nにどと　もどらない」といわれる\nてんせつのセクターでした。{^35}{}"],
+      story9: ["<16>{^100}{}"],
+      story10: ["<16>{^100}{}"],
+      story11: ["<16>{^35}{}"]
    },
 
    timeline: {
       main: "メインタイムラインに　もどる",
       main_ex: "メインタイムラインに　はじまる",
       timelines: "ほかの　タイムライン",
-      bisect: "Bisect",
+      bisect: "ぶんかつ",
       delete: "さくじょ",
-      instruction: "[ESC] to Cancel / [ENTER] to Confirm",
+      instruction: "[ESC]で　やめる / [ENTER]で　かくてい",
       instruction_gamepad: "Press any button on your gamepad to open the keyboard.",
-      launch: "Launch",
-      rename: "Rename",
+      launch: "はいる",
+      rename: "リネーム",
       create: "Create New",
       placeholder: "タイムラインを　命名",
-      confirm: "Are You Sure?"
+      confirm: "ほんとう？"
    }
 };
 

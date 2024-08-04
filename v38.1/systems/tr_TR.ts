@@ -1,13 +1,17 @@
 // START-TRANSLATE
 
 export default {
+   disclaimer: {
+      title: "- DISCLAIMER -",
+      content: "1. PS!OUTERTALE is made by Spacey_432. \nAnd our team is working on the Chinese translation. \n2. If you find any untranslated texts or dialogues, stop complaining and calling us lazy. Show some basic respect to ws3917, Spacey, and the PS!OUTERTALE translation team.We don't owe you anything.\n3. Stop asking extremely stupid questions(like \"How do I change the language to Chinese?\", \"How do I kill Toriel?\", or \"How do I extract the game files?\").These questions are already in the FAQ.Our translators don't have time for this nonsense.\n4. If you don't like the game and don't want to test it anymore, just delete it and leave the group.We won't stop you. We insist that you stop bothering and insulting us. The game is Spacey's and translated by us, not yours."
+   },
    battle: {
-      death0: [ "(Derin bir nefes aldın.)", "(Azimle doldun.)" ],
-      death1: [ "Şu anda pes edemezsin...", "$(name)!\nAzimli kal..." ],
-      death2: [ "Kaderlerimiz senin elinde...", "$(name)!\nAzimli kal..." ],
-      death3: [ "İyi olacaksın!", "$(name)!\nAzimli kal..." ],
-      death4: [ "Umudunu kaybetme!", "$(name)!\nAzimli kal..." ],
-      death5: [ "Şu anda bitemez!", "$(name)!\nAzimli kal..." ],
+      death0: ["(Derin bir nefes aldın.)", "(Azimle doldun.)"],
+      death1: ["Şu anda pes edemezsin...", "$(name)!\nAzimli kal..."],
+      death2: ["Kaderlerimiz senin elinde...", "$(name)!\nAzimli kal..."],
+      death3: ["İyi olacaksın!", "$(name)!\nAzimli kal..."],
+      death4: ["Umudunu kaybetme!", "$(name)!\nAzimli kal..."],
+      death5: ["Şu anda bitemez!", "$(name)!\nAzimli kal..."],
 
       flee1: "    * Kaçtı...",
       flee2: "    * Ben kaçar.",
@@ -34,7 +38,7 @@ export default {
       },
       control: {
          tab: "KONTROL",
-         headers: [ "GENEL", "SAVAŞ" ],
+         headers: ["GENEL", "SAVAŞ"],
          items: [
             [
                "FixMusic",
@@ -90,14 +94,14 @@ export default {
       },
       inspect: {
          tab: "INSPECT",
-         headers: [ "LAYERS", "TYPES" ],
+         headers: ["LAYERS", "TYPES"],
          switches: [
-            [ "Base", "Below", "Main", "Above", "Menu" ],
-            [ "Hitbox", "Sprite", "Text" ]
+            ["Base", "Below", "Main", "Above", "Menu"],
+            ["Hitbox", "Sprite", "Text"]
          ],
          p_explorer: {
             header: "EXPLORER",
-            layers: [ "Base (Explorer)", "Below (Explorer)", "Main (Explorer)", "Above (Explorer)", "Menu (Explorer)" ],
+            layers: ["Base (Explorer)", "Below (Explorer)", "Main (Explorer)", "Above (Explorer)", "Menu (Explorer)"],
             letters: {
                animation: "A",
                character: "C",
@@ -219,8 +223,8 @@ export default {
       dialog_open: { buttonLabel: "Open", name: "SAVE files", title: "Open File" },
       dialog_save: { buttonLabel: "Kaydet", name: "SAVE files", title: "Save File" },
       error_load: "That file could not be parsed.",
-      message_alert: [ "OK" ],
-      message_confirm: [ "Cancel", "OK" ],
+      message_alert: ["OK"],
+      message_confirm: ["Cancel", "OK"],
       prompt_clear: "Clear this file?",
       prompt_demo: "Your SAVE file from the\nOUTERTALE demo has been\nmoved to a timeline slot.",
       prompt_save: "Save this file?",
@@ -394,7 +398,7 @@ export default {
             "ThatGuyWhoLikesFood",
             "§fill=#808080§For helping me write crucial\nparts of the game, supporting my\nvision, and helping me express\nmyself in a whole new way.§fill=#fff§"
          ],
-         [ "Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§" ]
+         ["Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§"]
       ],
 
       final_frontier: {
@@ -811,7 +815,7 @@ export default {
             "Working on this project has been an honor,",
             "and a pleasure on my part."
          ],
-         [ "When I started this journey, I never", "thought I'd get this far, but here we", "are anyway, at the end." ],
+         ["When I started this journey, I never", "thought I'd get this far, but here we", "are anyway, at the end."],
          [
             "For me, UNDERTALE was a life-changing",
             "experience, and one that was very hard to",
@@ -837,7 +841,7 @@ export default {
             "you did, and nothing can take that",
             "experience away from you."
          ],
-         [ "Despite your mistakes... you are awesome,", "and you deserve love and attention.", "Remember that, okay?" ]
+         ["Despite your mistakes... you are awesome,", "and you deserve love and attention.", "Remember that, okay?"]
       ],
       real2: "Take care of yourself, \"$(x).\"",
 
@@ -983,17 +987,17 @@ export default {
       stat12: "STATUS",
       stat13: "\"$(x)\"",
 
-      story1: [ "<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and MONSTERS.{^35}{}" ],
-      story2: [ "<24>As time passed, a war broke out between the two species.{^35}{}" ],
-      story3: [ "<24>After the MONSTERS' home planet was destroyed, HUMANS declared victory.{^35}{}" ],
-      story4: [ "<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}" ],
-      story5: [ "<24>A powerful force field was erected, and the MONSTERS were sealed in.{^35}{}" ],
-      story6: [ "<24>Many years later.{^8}.{^8}.{^35}{}" ],
-      story7: [ "<#24>     EBOTT SECTOR     \n         251X{^35}{}" ],
-      story8: [ "<24>Tales speak of a place from which spacecraft never return.{^35}{}" ],
-      story9: [ "<24>{^100}{}" ],
-      story10: [ "<24>{^100}{}" ],
-      story11: [ "<24>{^35}{}" ]
+      story1: ["<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and MONSTERS.{^35}{}"],
+      story2: ["<24>As time passed, a war broke out between the two species.{^35}{}"],
+      story3: ["<24>After the MONSTERS' home planet was destroyed, HUMANS declared victory.{^35}{}"],
+      story4: ["<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}"],
+      story5: ["<24>A powerful force field was erected, and the MONSTERS were sealed in.{^35}{}"],
+      story6: ["<24>Many years later.{^8}.{^8}.{^35}{}"],
+      story7: ["<#24>     EBOTT SECTOR     \n         251X{^35}{}"],
+      story8: ["<24>Tales speak of a place from which spacecraft never return.{^35}{}"],
+      story9: ["<24>{^100}{}"],
+      story10: ["<24>{^100}{}"],
+      story11: ["<24>{^35}{}"]
    },
 
    timeline: {

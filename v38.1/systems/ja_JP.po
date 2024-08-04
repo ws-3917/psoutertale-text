@@ -2,6 +2,17 @@
 msgid ""
 msgstr ""
 
+msgid "- DISCLAIMER -"
+msgstr ""
+
+msgid ""
+"1. PS!OUTERTALE is made by Spacey_432. \n"
+"And our team is working on the Chinese translation. \n"
+"2. If you find any untranslated texts or dialogues, stop complaining and calling us lazy. Show some basic respect to ws3917, Spacey, and the PS!OUTERTALE translation team.We don't owe you anything.\n"
+"3. Stop asking extremely stupid questions(like \"How do I change the language to Chinese?\", \"How do I kill Toriel?\", or \"How do I extract the game files?\").These questions are already in the FAQ.Our translators don't have time for this nonsense.\n"
+"4. If you don't like the game and don't want to test it anymore, just delete it and leave the group.We won't stop you. We insist that you stop bothering and insulting us. The game is Spacey's and translated by us, not yours."
+msgstr ""
+
 msgid "(You take a deep breath.)"
 msgstr ""
 
@@ -91,7 +102,7 @@ msgstr ""
 "開発者にスクリーンショットを送ってください。"
 
 msgid "CONTROL"
-msgstr "コントロール"
+msgstr "§stretch=0.5§コントロール§stretch=0.1§"
 
 msgid "GENERAL"
 msgstr "一般"
@@ -103,7 +114,7 @@ msgid "FixMusic"
 msgstr "BGMを修正"
 
 msgid "FixPlayer"
-msgstr "プレイヤーを修正"
+msgstr "プレイヤー修正"
 
 msgid "InfiniteG"
 msgstr "ゴールド無限"
@@ -124,7 +135,7 @@ msgid "Save"
 msgstr "セーブ"
 
 msgid "SkipText"
-msgstr "テキストをスキップ"
+msgstr "§stretch=0.5§テキストをスキップ§stretch=0.1§"
 
 msgid "Freecam"
 msgstr "自由な視点"
@@ -139,19 +150,19 @@ msgid "Exit"
 msgstr "やめる"
 
 msgid "ResetBox"
-msgstr "額縁サイズをリセット"
+msgstr "§stretch=0.5§額縁サイズをリセット§stretch=0.1§"
 
 msgid "ResetMenu"
-msgstr "メニューをリセット"
+msgstr "メニューリセット"
 
 msgid "CanFlee"
-msgstr "「にげる」を有効化"
+msgstr "にげる可能"
 
 msgid "InfiniteHP"
 msgstr "むげんHP"
 
 msgid "PacifyAll"
-msgstr "敵全体を「にがす」"
+msgstr "敵全体をにがす"
 
 msgid "Suicide"
 msgstr "じさつ"
@@ -169,10 +180,10 @@ msgid "GAME SPEED"
 msgstr "ゲーム倍速"
 
 msgid "$(x)x"
-msgstr "$(x)ばいそく"
+msgstr "$(x)倍速"
 
 msgid "More"
-msgstr "かそく"
+msgstr "加速"
 
 msgid "Less"
 msgstr "減速"
@@ -181,7 +192,7 @@ msgid "$(x)s/frame"
 msgstr "$(x)秒 / フレーム"
 
 msgid "GODHOME"
-msgstr "ゴッドモード"
+msgstr "ゴッド"
 
 msgid "ROOM"
 msgstr "ルーム"
@@ -196,13 +207,13 @@ msgid "Start"
 msgstr "始まる"
 
 msgid "ARMOR"
-msgstr "アーマー"
+msgstr "AMR"
 
 msgid "WEAPON"
-msgstr "ぶき"
+msgstr "WPN"
 
 msgid "INSPECT"
-msgstr "レイヤーを見る"
+msgstr "レイヤー"
 
 msgid "LAYERS"
 msgstr "レイヤー"
@@ -490,7 +501,7 @@ msgid "Volatile"
 msgstr ""
 
 msgid "SAVEMOD"
-msgstr "セーブモード"
+msgstr "セーブ"
 
 msgid "SAVE EDITOR"
 msgstr "セーブ　エディタ"
@@ -2171,7 +2182,7 @@ msgid "CELL"
 msgstr "PHONE"
 
 msgid "CONF"
-msgstr "せってい"
+msgstr "CONF"
 
 msgid "--- Instruction ---"
 msgstr "― ボタンそうさ ―"
@@ -2192,7 +2203,7 @@ msgid "DF"
 msgstr "DF"
 
 msgid "GOLD"
-msgstr "GOLD"
+msgstr "ゴールド"
 
 msgid "NEXT"
 msgstr "NEXT"
@@ -2203,8 +2214,8 @@ msgid ""
 "timeline."
 msgstr ""
 "§fill=#ff0§けいこく：\n"
-"ﾒｲﾝﾀｲﾑﾗｲﾝでは\n"
-"ありません"
+"ほかの\n"
+"タイムライン"
 
 msgid "KILLS"
 msgstr ""
@@ -2240,7 +2251,7 @@ msgid ""
 "victory.{^35}{}"
 msgstr ""
 "<16>そして　モンスターたちの\n"
-"母星を　はかいされたすえ\n"
+"母星を　はかいされたのすえ\n"
 "ニンゲンが　しょうりしました。{^35}{}"
 
 msgid ""
@@ -2251,9 +2262,9 @@ msgid ""
 "<24>A powerful force field was erected, and the MONSTERS were sealed "
 "in.{^35}{}"
 msgstr ""
-"<16>ニンゲンは　きょうりょくな\n"
-"フォース　フィールドで\n"
-"モンスターたちを　とじこめました。{^35}{}"
+"<16>ニンゲンは　フォース\n"
+"フィールドで　モンスターたちを\n"
+"とじこめました。{^35}{}"
 
 msgid "<24>Many years later.{^8}.{^8}.{^35}{}"
 msgstr ""
@@ -2264,6 +2275,8 @@ msgid ""
 "<#24>     EBOTT SECTOR     \n"
 "         251X{^35}{}"
 msgstr ""
+"<#24>     イビト　セクター    \n"
+"      251X年{^35}{}"
 
 msgid "<24>Tales speak of a place from which spacecraft never return.{^35}{}"
 msgstr ""
@@ -2287,22 +2300,22 @@ msgid "Other Slots"
 msgstr "ほかの　タイムライン"
 
 msgid "Bisect"
-msgstr ""
+msgstr "ぶんかつ"
 
 msgid "Delete"
 msgstr "さくじょ"
 
 msgid "[ESC] to Cancel / [ENTER] to Confirm"
-msgstr "[ESC] to Cancel / [ENTER] to Confirm"
+msgstr "[ESC]で　やめる / [ENTER]で　かくてい"
 
 msgid "Press any button on your gamepad to open the keyboard."
 msgstr ""
 
 msgid "Launch"
-msgstr ""
+msgstr "はいる"
 
 msgid "Rename"
-msgstr ""
+msgstr "リネーム"
 
 msgid "Create New"
 msgstr ""
@@ -2311,4 +2324,4 @@ msgid "Enter Timeline Name"
 msgstr "タイムラインを　命名"
 
 msgid "Are You Sure?"
-msgstr ""
+msgstr "ほんとう？"

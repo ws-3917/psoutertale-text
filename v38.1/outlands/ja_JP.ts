@@ -116,7 +116,7 @@ const toriel_aerialis = () =>
            "<25>{#p/toriel}{#f/1}* Who knew a robot could have such a beautiful voice?",
            "<25>{#f/0}* Upon hearing Mettaton's new recording, I could not believe my ears.",
            "<26>{#f/1}* Though, some of the lyrics were a touch... violent, for my taste.",
-           "<25>{#f/5}* ...",
+           "<13>{#f/5}＊…",
            "<25>{#f/0}* Do not worry, my child.\n* Nobody is going to cast you out into space."
         ]
       : SAVE.data.n.plot < 68
@@ -151,7 +151,7 @@ const toriel_aerialis = () =>
       : [
            "<25>{#p/toriel}{#f/1}* Are you still doing alright out there, little one?",
            "<25>{#p/toriel}{#f/5}* You have probably been to the Citadel by now.",
-           "<25>{#p/toriel}{#f/9}* ...",
+           "<13>{#p/toriel}{#f/9}＊…",
            "<25>{#p/toriel}{#f/10}* Be good, won't you?"
         ];
 
@@ -185,8 +185,8 @@ export default {
          d2: [ "<25>{#p/asriel1}{#f/13}* ... Frisk?\n* Is that you...?" ],
          d3: [ "<32>{#p/basic}* Asriel, it's me...", "<32>{#p/basic}* Your best friend, remember?" ],
          d4: [
-            "<25>{#p/asriel1}{#f/25}* ...!",
-            "<25>{#f/25}* $(name)...?",
+            "<13>{#p/asriel1}{#f/25}＊…！",
+            "<13>{#f/25}＊$(name)…？",
             "<25>{#f/13}* But... you're...",
             "<25>{#f/23}* ... you're..."
          ],
@@ -201,7 +201,7 @@ export default {
             "<32>* But you deserve to know the truth about me, Asriel...",
             "<32>* About everything."
          ],
-         d9: [ "<25>{#p/asriel1}{#f/23}* ...", "<25>{#f/23}* $(name)..." ],
+         d9: [ "<13>{#p/asriel1}{#f/23}＊…", "<25>{#f/23}* $(name)..." ],
          d10: [ "<25>{#p/asriel1}{#f/13}* But...", "<25>{#f/15}* How are you still..." ],
          d11: [
             "<32>{#p/basic}* ... does it matter?",
@@ -211,7 +211,7 @@ export default {
          ],
          d12: [ "<25>{#p/asriel1}{#f/13}* $(name), I..." ],
          d13: [ "<32>{#p/basic}* It's alright, Asriel.", "<32>* You don't have to make it out to be better than it is." ],
-         d14: [ "<25>{#p/asriel1}{#f/22}* ...", "<25>{#f/22}* ... why now?" ],
+         d14: [ "<13>{#p/asriel1}{#f/22}＊…", "<25>{#f/22}* ... why now?" ],
          d15: [
             "<32>{#p/basic}* Well...",
             "<32>* I always thought humanity was beyond redemption.",
@@ -228,7 +228,7 @@ export default {
             "<32>* Everything you went through, everything you lost...",
             "<32>* I'm the one to blame for it."
          ],
-         d16: [ "<25>{#p/asriel1}{#f/13}* $(name)...", "<25>{#f/15}* Have you been conscious this whole time?" ],
+         d16: [ "<25>{#p/asriel1}{#f/13}＊$(name)…", "<25>{#f/15}* Have you been conscious this whole time?" ],
          d17: [
             "<32>{#p/basic}* ... yeah.\n* I guess I have.",
             "<32>* This has been my existence, Asriel...\n* Ever since we died.",
@@ -246,7 +246,7 @@ export default {
             "<32>* I get it now.",
             "<32>* ... you were just trying to stop me... from making a terrible mistake."
          ],
-         d22: [ "<25>{#p/asriel1}{#f/15}* $(name)..." ],
+         d22: [ "<13>{#p/asriel1}{#f/15}＊$(name)…" ],
          d23: [
             "<32>{#p/basic}* If not for you, the outpost would've been destroyed in a second war.",
             "<32>* If not for you, the very same monsters I was supposedly trying to save...",
@@ -276,7 +276,7 @@ export default {
             "<32>* In all that time, I wondered what kept me alive...",
             "<32>* And now, I finally know the answer."
          ],
-         d30: [ "<25>{#p/asriel1}{#f/15}* ...?" ],
+         d30: [ "<13>{#p/asriel1}{#f/15}＊…？" ],
          d31: [ "<32>{#p/basic}* ... it's you, Asriel.", "<32>* You're the one who's been keeping me alive." ],
          d32: [
             "<32>{#p/basic}* Think of it like... an unfulfilled promise.",
@@ -284,7 +284,7 @@ export default {
             "<32>* Knowing I could've been so much more for you than I ultimately was.",
             "<32>* All this time, that's what's been holding me back."
          ],
-         d33: [ "<25>{#p/asriel1}{#f/23}* $(name)..." ],
+         d33: [ "<13>{#p/asriel1}{#f/23}＊ $(name)…" ],
          d34: [ "<32>{#p/basic}* Asriel.\n* My brother.", "<32>* You deserve to know the truth." ],
          d35: [ "<25>{*}{#p/asriel1}{#f/25}* Huh?\n* But you already- {%}" ],
          d36: [ "<32>{#p/basic}* I forgive you, too." ],
@@ -476,7 +476,7 @@ export default {
               ],
       stargum2: [ "<32>{#p/human}* (You decide not to chew.)" ],
       stargum3: [ "<32>{#p/human}* (You recovered $(x) HP.)" ],
-      stargum4: [ "<32>{#p/human}* (HP fully restored.)" ],
+      stargum4: [ "<18>{#p/human}＊(HPが　まんタンになった)" ],
       fireplace1: () =>
          SAVE.data.b.svr
             ? [
@@ -1542,7 +1542,7 @@ export default {
          "<25>{#f/9}* They...\n* {@fill=#f00}ASGORE{@fill=#fff}...\n* Will take your SOUL."
       ],
       exit3: [
-         "<25>{#p/toriel}{#f/9}* ...",
+         "<13>{#p/toriel}{#f/9}＊…",
          "<25>{#f/13}* I did not want to say this, but...",
          "<25>{#f/11}* I cannot allow you to continue this way.",
          "<25>{#f/9}* For your own sake, child...",
@@ -1676,7 +1676,7 @@ export default {
             ? [
                  "<25>{#p/toriel}{#f/2}* Up already!?",
                  "<25>{#f/1}* You were not asleep for very long...",
-                 "<25>{#f/5}* ...",
+                 "<13>{#f/5}＊…",
                  world.nootflags.has('toriel') // NO-TRANSLATE
 
                     ? "<25>{#f/1}* The atmospheric system still does not seem to be fixed."
@@ -1686,7 +1686,7 @@ export default {
               ]
             : [
                  "<25>{#p/toriel}{#f/2}* How long have you been standing there!?",
-                 "<25>{#f/5}* ...",
+                 "<13>{#f/5}＊…",
                  "<25>{#f/0}* I suppose it matters not."
               ]),
          "<25>{#f/0}* Napstablook, a visitor here, has offered to play their music.",
@@ -1712,7 +1712,7 @@ export default {
             ? [
                  "<25>{#p/toriel}{#f/0}* Oh, hello, little one.\n* You are up early.",
                  "<25>{#f/1}* Are you sure you slept for a long enough time?",
-                 "<25>{#f/5}* ...",
+                 "<13>{#f/5}＊…",
                  world.nootflags.has('toriel') // NO-TRANSLATE
 
                     ? "<25>{#f/1}* The atmospheric system still does not seem to be fixed."
@@ -1728,7 +1728,7 @@ export default {
                  "<25>{#f/0}* Still, I have done my best to salvage it for you."
               ]
             : [ "<25>{#f/1}* The stars do look pretty today, do they not?" ]),
-         "<25>{#f/5}* ...",
+         "<13>{#f/5}＊…",
          "<25>{#f/5}* I will be in the living room if you need me."
       ],
       front4: () => [
@@ -1736,7 +1736,7 @@ export default {
             ? [
                  "<25>{#p/toriel}{#f/0}* Oh, hello, little one.\n* You are up early.",
                  "<25>{#f/1}* Are you sure you slept for a long enough time?",
-                 "<25>{#f/5}* ...",
+                 "<13>{#f/5}＊…",
                  world.nootflags.has('toriel') // NO-TRANSLATE
 
                     ? "<25>{#f/1}* The atmospheric system still does not seem to be fixed."
@@ -1744,7 +1744,7 @@ export default {
                  "<25>{#f/1}* If you begin to feel weak, do not hesitate to return to bed."
               ]
             : [ "<25>{#p/toriel}* Good morning, little one." ]),
-         "<25>{#f/5}* ...",
+         "<13>{#f/5}＊…",
          ...(world.bullied
             ? [
                  "<25>* The Outlands have been unusually noisy today.",
@@ -1771,7 +1771,7 @@ export default {
          "<25>{#f/0}* Anyhoo, I will be in the living room if you need me."
       ],
       goodbye1a: [ "<25>{#p/toriel}{#f/10}* ...", "<25>{#f/20}{|}* Come here- {%}" ],
-      goodbye1b: [ "<25>{#p/toriel}{#f/9}* ...", "<25>{#f/19}{|}* Come here- {%}" ],
+      goodbye1b: [ "<13>{#p/toriel}{#f/9}＊…", "<25>{#f/19}{|}* Come here- {%}" ],
       goodbye2: [
          "<25>{#p/toriel}{#f/5}* I am sorry for what I have put you through, little one.",
          "<25>{#f/9}* I should have known that I could not keep you here forever.",
@@ -1835,7 +1835,7 @@ export default {
          "<25>{#p/toriel}{#f/10}* Worry not, my child.",
          "<25>{#f/1}* If you truly do not wish to leave my side...",
          "<25>{#f/0}* I will guide you through the remainder of the Outlands.",
-         "<25>{#f/5}* ...",
+         "<13>{#f/5}＊…",
          "<25>{#f/5}* Take my hand, young one...",
          "<25>{#f/5}* It is time to go home."
       ],
@@ -1869,13 +1869,13 @@ export default {
             ? [
                  "<25>{#p/toriel}{#f/1}* If you need anything while I am away, please...",
                  "<25>{#f/0}* Do not hesitate to call me.",
-                 "<25>{#f/5}* ...",
+                 "<13>{#f/5}＊…",
                  "<26>{#f/23}* And stay out of trouble."
               ]
             : [
                  "<25>{#p/toriel}{#f/1}* If you need anything while I am away, please...",
                  "<25>{#f/0}* Do not hesitate to call me.",
-                 "<25>{#f/5}* ...",
+                 "<13>{#f/5}＊…",
                  "<25>{#f/1}* Be good, alright?"
               ])
       ],
@@ -1975,18 +1975,18 @@ export default {
          "<25>{#f/1}* Please, allow me..."
       ],
       lobby_puzzle1: [
-         "<25>{#p/toriel}{#f/0}* Welcome to our humble outpost, innocent one.",
-         "<25>{#f/0}* There are many lessons that I must teach you about life here.",
-         "<25>{#f/1}* First and foremost...",
-         "<25>{#f/0}* Puzzles!",
-         "<25>{#f/0}* Allow me to perform this quick demonstration."
+         "<13>{#p/toriel}{#f/0}＊さあ　あなたは　きょうから　このぜんしょうきちで　くらすのよ。",
+         "<13>{#f/0}＊ここについて　おしえることが　たくさんあります。",
+         "<13>{#f/1}＊まずは　もちろん…",
+         "<13>{#f/0}＊パズルだ！",
+         "<13>{#f/0}＊さっそく　おみせしますよ。"
       ],
       lobby_puzzle2: [
-         "<25>{#p/toriel}{#f/1}* It may seem strange to you now, but here on the outpost...",
-         "<25>{#f/0}* Solving puzzles is a part of our daily routine.",
-         "<25>{#f/0}* With time, and a little guidance, you will grow accustomed to them."
+         "<13>{#p/toriel}{#f/1}＊ヘンに　おもわれるかも　しれませんが…",
+         "<13>{#f/0}＊ここで　パズルをとくことは　わたしたちの　にちじょうです。",
+         "<13>{#f/0}＊じかんと　すこしのしどうで　それらに　なれていくでしょう。"
       ],
-      lobby_puzzle3: [ "<25>{#p/toriel}* When you are ready, we may proceed." ],
+      lobby_puzzle3: [ "<13>{#p/toriel}＊じゅんびが　できましたら　すすみましょう。" ],
       loox: {
          a: [
             "<32>{#p/basic}{#n1}* I heard you're quite flirty, for a human.",
@@ -2215,7 +2215,7 @@ export default {
          c: [
             "<32>{#p/event}* Ring, ring...",
             "<25>{#p/toriel}{#f/1}* You do not have any allergies, do you?",
-            "<25>{#f/5}* ...",
+            "<13>{#f/5}＊…",
             "<25>{#f/5}* I suppose humans cannot even be allergic to monster food.",
             "<25>{#f/0}* Hee hee.\n* Forget I asked!"
          ],
@@ -2261,7 +2261,7 @@ export default {
             ? [
                  "<25>{#f/1}* ... is it just me, or is something wrong with the atmosphere?",
                  "<25>{#f/5}* Perhaps the system that provides it is not functioning properly.",
-                 "<25>{#f/5}* ...",
+                 "<13>{#f/5}＊…",
                  "<25>{#f/0}* No matter.\n* I am sure it will be resolved shortly."
               ]
             : []),
@@ -2792,7 +2792,7 @@ export default {
          w_lobby1: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The sign speaks of strength of will in times of trouble.)" ]
-               : [ "<32>{#p/basic}* \"Even when you stumble, the will to push onward shows through.\"" ],
+               : [ "<18>{#p/basic}＊「たとえ　道が曲がりくねっていても　前に進もうという意志が　貫かれる。」" ],
          w_pacing_view: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You stare happily into the cosmos beyond...)" ]
@@ -3647,48 +3647,48 @@ export default {
       tutorial_puzzle8b: [ "<25>{#p/toriel}* Try repeating what you have done before." ],
       tutorial_puzzle8c: [ "<25>{#p/toriel}{#f/1}* Go on..." ],
       twinkly1: [
-         "<15>{#p/twinkly}{#f/5}＊ハロー！\n＊ボクは　{@fill=#ff0}トゥインクリィ{@fill=#fff}。\n＊{@fill=#ff0}おほし{@fill=#fff}の{@fill=#ff0}トゥインクリィ{@fill=#fff}さ！"
+         "<13>{#p/twinkly}{#f/5}＊ハロー！\n＊ボクは　{@fill=#ff0}トゥインクリィ{@fill=#fff}。\n＊{@fill=#ff0}おほし{@fill=#fff}の{@fill=#ff0}トゥインクリィ{@fill=#fff}さ！"
       ],
       twinkly2: [
-         "<15>{#f/5}＊どうやって　このぜんしょうきちに　きたのですか？",
-         "<25>{#f/5}* ...",
-         "<15>{#f/8}＊もしかして　みちに　まよったんですか？",
-         "<15>{#f/5}＊だいじょうぶ！　おてつだいします！",
-         "<15>{#f/8}＊わたしは　てきにんしゃではない　かもしれませんが　キミは…",
-         "<15>{#f/5}＊ここのルールも　しらないでしょ？",
-         "<15>{#f/10}＊それなら　ボクが　おしえてあげよう。",
-         "<15>{#f/5}＊さぁ　はじめましょう！"
+         "<13>{#f/5}＊どうやって　このぜんしょうきちに　きたのですか？",
+         "<13>{#f/5}＊…",
+         "<13>{#f/8}＊もしかして　みちに　まよったんですか？",
+         "<13>{#f/5}＊だいじょうぶ！　おてつだいします！",
+         "<13>{#f/8}＊わたしは　てきにんしゃでは　ないかも　しれませんが　キミは…",
+         "<13>{#f/5}＊ここのルールも　しらないでしょ？",
+         "<13>{#f/10}＊それなら　ボクが　おしえてあげよう。",
+         "<13>{#f/5}＊さぁ　はじめましょう！"
       ],
       twinkly3: [
-         "<25>{#f/7}* But you already KNEW that, didn'tcha?",
+         "<13>{#f/7}＊でも　キミは　しってたんでしょう？",
          "<25>{#f/8}* ...",
-         "<25>{#f/5}* Still, it's up to me to show you the ropes.",
-         "<15>＊さぁ　はじめましょう！"
+         "<13>{#f/5}＊しかし　やっぱりけいけんを　おしえてあげないと　いけませんよ。",
+         "<13>＊さぁ　はじめましょう！"
       ],
       twinkly4: [
-         "<25>{#p/twinkly}{#f/6}* Okay, that's enough.",
-         "<25>{#f/8}* If you wanna keep resetting, then by all means...",
-         "<25>{#f/6}* Do as you wish.",
-         "<25>{#f/7}* Just don't expect to get past me so easily."
+         "<13>{#p/twinkly}{#f/6}＊いいかげんにしろよ。",
+         "<13>{#f/8}＊いつまでも　リセットして　いたいなら…",
+         "<13>{#f/6}＊すきにすればいい。",
+         "<13>{#f/7}＊でも　ボクのところを　とおらなければ　なりませんよ。"
       ],
-      twinkly5: [ "<25>{#p/twinkly}{#f/6}* Don't you have anything better to do?" ],
+      twinkly5: [ "<13>{#p/twinkly}{#f/6}＊キミ　よっぽど　ヒマなんだね。" ],
       twinkly6: [
-         "<25>{#p/twinkly}{#f/6}* Resetting right after you've taken your first hit, huh?",
-         "<25>{#f/7}* How pathetic."
+         "<13>{#p/twinkly}{#f/6}＊なぐられたら　やりなおしたい　ですか？",
+         "<13>{#f/7}＊とても　なさけないね。"
       ],
       twinkly6a: [
-         "<25>{#p/twinkly}{#f/11}* As if you think I'd forget about what you did...",
-         "<25>{#f/7}* Filthy shard dodger."
+         "<13>{#p/twinkly}{#f/11}＊ちょうどしたことを　わすれてしまったと　おもいますか？",
+         "<13>{#f/7}＊きたない　ドッジカケラ　プレーヤー。"
       ],
-      twinkly7: [ "<25>{#p/twinkly}{#f/7}* I can play this game all day, idiot." ],
-      twinkly8: [ "<25>{#f/11}* Either way, since you already know what's coming next...{%15}" ],
+      twinkly7: [ "<13>{#p/twinkly}{#f/7}＊このまま　じかんを　むだにしてもいい。" ],
+      twinkly8: [ "<25>{#f/11}＊なにが　おこるか　わかってるんですから…{%15}" ],
       twinkly9: [
-         "<25>{#p/twinkly}{#f/6}* Howdy.",
-         "<25>* Seems I'll be fireballed if I stick around too long.",
-         "<25>{#f/8}* A shame, really...",
-         "<25>{#f/7}* I was gonna have SO much fun with you.",
+         "<13>{#p/twinkly}{#f/6}＊ハロー。",
+         "<13>＊あまりながく　ここにいたら　ファイヤーボールに　うたれますよ。",
+         "<13>{#f/8}＊ざんねんだな…",
+         "<13>{#f/7}＊ゆっくり　あそびたいと　おもっていましたのに。",
          "<25>{#f/6}* ...",
-         "<25>{#f/5}* Well, see ya!"
+         "<13>{#f/5}＊じゃ　またね！"
       ],
       twinkly9a: [
          "<25>{#p/twinkly}{#f/12}{#v/0}* What the HELL are you doing, $(name)?",
@@ -3729,54 +3729,54 @@ export default {
          "<25>{#f/5}* Well, good luck!"
       ],
       twinkly10: [
-         "<12>{#f/5}そのハートはね　キミのタマシイさ　キミという　そんざい　そのもの　といってもいい",
-         "<12>{#f/5}タマシイは　じゅうようであり　それじたいを　いじするために　LOVEが　ひつようです"
+         "<13>{#f/5}そのハートはね　キミのタマシイさ　キミという　そんざい　そのもの　といってもいい",
+         "<13>{#f/5}タマシイは　じゅうようであり　それじたいを　いじするために　LOVEが　ひつようです"
       ],
       twinkly11: [
-         "<12>{*}{#x2}{#f/5}ここではね　LOVEは　こんなふうに…{#f/8}　しろくて　ちっちゃな…{#f/11}　「こうふくカケラ」に　いれて　プレゼントするんだ",
-         "<12>{*}{#f/5}ただしい　みちをあゆむ　ために　いまボクが　LOVEを　わけてあげるから",
-         "<12>{*}{#f/5}さあ！　いっぱい　いーっぱい　ひろってね！{^20}{*}{#x1}{%}"
+         "<13>{*}{#x2}{#f/5}ここではね　LOVEは　こんなふうに…{#f/8}　しろくて　ちっちゃな…{#f/11}　「こうふくカケラ」に　いれて　プレゼントするんだ",
+         "<13>{*}{#f/5}ただしい　みちをあゆむ　ために　いまボクが　LOVEを　わけてあげるから",
+         "<13>{*}{#f/5}さあ！　いっぱい　いーっぱい　ひろってね！{^20}{*}{#x1}{%}"
       ],
       twinkly12: [
-         "<12>{*}{#f/8}あれ？　ぜんぶ　おとしちゃったよ？",
-         "<12>{*}{#f/5}だいじょうぶ！",
-         "<12>{*}{#x2}{#f/10}じゃ　もういっかい！{^20}{*}{#x1}{%}"
+         "<13>{*}{#f/8}あれ？　ぜんぶ　おとしちゃったよ？",
+         "<13>{*}{#f/5}だいじょうぶ！",
+         "<13>{*}{#x2}{#f/10}じゃ　もういっかい！{^20}{*}{#x1}{%}"
       ],
       twinkly13: [
-         "<12>{*}{#f/12}ふざ…　おまえ　バカなの？",
-         "<12>{*}{#x2}さっさと{^4}　あたれよ！{^4}　たｍ{^20}{*}{#x1}{^999}"
+         "<13>{*}{#f/12}ふざ…　おまえ　バカなの？",
+         "<13>{*}{#x2}さっさと{^4}　あたれよ！{^4}\nたｍ{^20}{*}{#x1}{^999}"
       ],
       twinkly14: "さっさと　あたれよ！　こうふくカケラに～",
       twinkly15: [
-         "<12>{#v/1}ヒヒヒ…",
-         "<12>このせかいでは　ころすか　ころされるかだ",
-         "<12>かもが　ねぎを　せおってくる…",
-         "<12>こんな　ぜっこうの　チャンスを　のがすわけ　ないだろ！"
+         "<13>{#v/1}ヒヒヒ…",
+         "<13>このせかいでは　ころすか　ころされるかだ",
+         "<13>かもが　ねぎを　せおってくる…",
+         "<13>こんな　ぜっこうの　チャンスを　のがすわけ　ないだろ！"
       ],
       twinkly16: [
-         "<12>{#f/7}オマエ…　さては　しらないフリ　してるだけだな？",
-         "<12>ボク　トゥインクリィのこと　バカにしてんだろ",
-         "<20>Golly... you must have no idea who you're messing with.",
-         "<12>{#f/11}ヒヒヒ…"
+         "<13>{#f/7}オマエ…　さては　しらないフリ　してるだけだな？",
+         "<13>ボク　トゥインクリィのこと　バカにしてんだろ",
+         "<20>だれと　たわむれているのか　まったく　わかっていない　はずだろう？",
+         "<13>{#f/11}ヒヒヒ…"
       ],
-      twinkly17: [ "<20>{#v/1}We'll just have to cut straight to the point, won't we?", "<20>Hee hee hee..." ],
-      twinkly18: [ "<12>{*}{#f/2}{#v/1}{@random=1.1/1.1}しね{^20}{%}" ],
-      twinkly19: [ "<12>{#p/toriel}なさけないわね…　つみもないこどもを　いじめるなんて…" ],
+      twinkly17: [ "<13>{#v/1}いきなり　ほんばんに　はいるしかない　でしょう？", "<13>ヒヒヒ…" ],
+      twinkly18: [ "<13>{*}{#f/2}{#v/1}{@random=1.1/1.1}しね{^20}{%}" ],
+      twinkly19: [ "<13>{#p/toriel}なさけないわね…　つみもないこどもを　いじめるなんて…" ],
       twinkly20: [
-         "<12>こわがらなくても　だいじょうぶよ",
-         "<12>わたしは　{@fill=#003cff}トリエル{@fill=#000}　この{@fill=#f00}アウターランド{@fill=#000}の　かんりにん　です",
-         "<12>まいにち　ここを　みまわって　じこにあったコが　いないか　かくにんしているの",
-         "<20>さ　いきましょう！　いろいろ　おしえてあげるわ"
+         "<13>こわがらなくても　だいじょうぶよ",
+         "<13>わたしは　{@fill=#003cff}トリエル{@fill=#000}　この{@fill=#f00}アウターランド{@fill=#000}の　かんりにん　です",
+         "<13>まいにち　ここを　みまわって　じこにあったコが　いないか　かくにんしているの",
+         "<13>さ　いきましょう！\nいろいろ　おしえてあげるわ"
       ],
       twinkly21: [
          "<25>{#p/toriel}{#f/1}* Oh my!\n* Where did you come from, little one?",
-         "<15>{#f/1}* ケガは　ない？",
+         "<13>{#f/1}* ケガは　ない？",
          "<25>{#f/0}* ...\n* Forgive me for asking so many questions.",
          "<25>{#f/0}＊わたしは　{@fill=#003cff}トリエル{@fill=#000}　この{@fill=#f00}アウターランド{@fill=#000}の　かんりにん　です。",
          "<26>{#f/0}＊まいにち　ここを　みまわって　じこにあったコが　いないか　かくにんしているの。",
          "<25>{#f/0}* Follow me, child.\n* There is much I intend to teach you."
       ],
-      twinkly22: [ "<25>{#f/0}* This way." ],
+      twinkly22: [ "<13>{#f/0}* こっちよ。" ],
       w_coffin0: () => [
          "<32>{#p/human}* (You feel it would be best to leave this be.)",
          ...(SAVE.data.b.svr ? [ "<25>{#p/asriel1}{#f/13}* ..." ] : [])
@@ -4700,7 +4700,7 @@ export default {
                  ],
                  [],
                  [
-                    "<25>{#f/5}* ...",
+                    "<13>{#f/5}＊…",
                     "<25>{#f/5}* Although you did not handle that lesson in the way I intended...",
                     "<25>{#f/0}* At the very least, you avoided the conflict.",
                     "<25>{#f/0}* Considering the alternatives, it was... a preferable outcome."
@@ -4720,7 +4720,7 @@ export default {
                  ],
                  [],
                  [
-                    "<25>{#f/5}* ...",
+                    "<13>{#f/5}＊…",
                     "<25>{#f/7}* ...",
                     "<25>{#f/8}* Hahaha!\n* Ah, I cannot help but laugh!",
                     "<25>{#f/6}* The shamelessness with which you chose to flirt...",
@@ -5328,22 +5328,22 @@ export default {
                : [ "<32>{#p/human}* (A house amidst the metallic walls fills you with determination.)" ]
       },
       w_entrance: {
-         name: "Outlands - Entrance",
+         name: "アウトランドのいりぐち",
          text: () =>
             world.runaway
                ? [
                     "<32>{#p/human}* (The industrious Outlands falls silent, filling you with determination.)",
-                    "<32>{#p/human}* (HP fully restored.)"
+                    "<18>{#p/human}＊(HPが　まんタンになった)"
                  ]
                : SAVE.data.n.plot < 48
                ? [
-                    "<32>{#p/human}* (The industrious Outlands lies ahead, filling you with determination.)",
-                    "<32>{#p/human}* (HP fully restored.)"
+                    "<18>{#p/human}＊(にぎやかな　アウターランドを　まのあたりにして　ケツイが　みなぎった)",
+                    "<18>{#p/human}＊(HPが　まんタンになった)"
                  ]
                : [
                     "<32>{#p/human}* (Returning to where it all began, after so long...)",
                     "<32>{#p/human}* (This fills you with determination.)",
-                    "<32>{#p/human}* (HP fully restored.)"
+                    "<18>{#p/human}＊(HPが　まんタンになった)"
                  ]
       },
       w_froggit: {
@@ -5353,21 +5353,21 @@ export default {
                ? SAVE.data.n.plot < 8.1
                   ? [
                        "<32>{#p/human}* (The air grows stale.)\n* (Somehow, this fills you with determination.)",
-                       "<32>{#p/human}* (HP fully restored.)"
+                       "<18>{#p/human}＊(HPが　まんタンになった)"
                     ]
                   : [
                        "<32>{#p/human}* (The air has fully dried up.)\n* (Indeed, this fills you with determination.)",
-                       "<32>{#p/human}* (HP fully restored.)"
+                       "<18>{#p/human}＊(HPが　まんタンになった)"
                     ]
                : SAVE.data.b.svr
                ? [
                     "<32>{#p/human}* (The area has been vacated, but the air remains fresh.)",
                     "<32>{#p/human}* (This, of course, fills you with determination.)",
-                    "<32>{#p/human}* (HP fully restored.)"
+                    "<18>{#p/human}＊(HPが　まんタンになった)"
                  ]
                : [
                     "<32>{#p/human}* (The sight of weird and wonderful creatures fills you with determination.)",
-                    "<32>{#p/human}* (HP fully restored.)"
+                    "<18>{#p/human}＊(HPが　まんタンになった)"
                  ]
       },
       w_mouse: {
@@ -5384,7 +5384,7 @@ export default {
                  ]
       },
       w_start: {
-         name: "Crash Site",
+         name: "らっかてん",
          text: []
       }
    }
