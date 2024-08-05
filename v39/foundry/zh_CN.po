@@ -11439,12 +11439,14 @@ msgstr ""
 "  怪物们的决心有多么强大！"
 
 msgid "<25>{#f/7}* You're just a ruthless MURDERER!"
-msgstr ""
+msgstr "<25>{#f/7}* 你只是个冷血杀手罢了！"
 
 msgid ""
 "<25>{#f/11}* Self-defense?\n"
 "* Please."
 msgstr ""
+"<25>{#f/11}* 正当防卫？\n"
+"* 得了吧。"
 
 msgid ""
 "<25>{#f/11}* What? You thought I'd overlook what you were up to in the "
@@ -16179,13 +16181,14 @@ msgstr ""
 
 msgid "<20>{#f/13}This body... it still hasn't fully accepted me yet."
 msgstr ""
-"<20>{#f/13}虽说这幅身体...\n"
-"还没完全接纳我。"
+"<20>{#f/13}虽说...\n"
+"我还不太能驾驭\n"
+"这副身体的力量。"
 
 msgid "<20>{#f/16}Still, it might just be enough to help you."
 msgstr ""
 "<20>{#f/16}但我想帮你，\n"
-"这幅身体应该够用。"
+"应该够了。"
 
 msgid ""
 "<20>{#f/3}When you make an attack, I'll cast a spell to identify Undyne's "

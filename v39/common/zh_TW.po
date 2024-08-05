@@ -325,9 +325,6 @@ msgid ""
 "(You never skipped anybody's dialogue!)"
 msgstr ""
 
-msgid "pms"
-msgstr ""
-
 msgid "<25>{#p/basic}(Too bad your phone seems to have never been used.)"
 msgstr ""
 
@@ -558,9 +555,6 @@ msgid ""
 "* By answering this VERY phone call..."
 msgstr ""
 
-msgid "<25>{#p/alphys}{#f/18}* We've been able to triangulate your location!"
-msgstr ""
-
 msgid "<25>{|}{#p/alphys}{#f/18}* We've been able to triangulate your- {%}"
 msgstr ""
 
@@ -658,6 +652,9 @@ msgid ""
 msgstr ""
 
 msgid "<25>{*}{#x0}{#p/undyne}{#f/7}* Try two SECONDS.{^40}{%}"
+msgstr ""
+
+msgid "<25>{#p/alphys}{#f/18}* We've been able to triangulate your location!"
 msgstr ""
 
 msgid "<25>{#p/undyne}{#f/1}* Fuhuhu... that's right."
@@ -2478,9 +2475,6 @@ msgid "<25>{#p/sans}{#f/3}* ... but, there was one person you killed..."
 msgstr ""
 
 msgid "<25>{#p/sans}{#f/0}* that i know for certain you had no reason to."
-msgstr ""
-
-msgid "s"
 msgstr ""
 
 msgid ""
@@ -7030,6 +7024,9 @@ msgid "<18>{#p/papyrus}{#f/0}JUST KNOW THAT THINGS TURNED OUT OKAY."
 msgstr ""
 
 msgid "<18>{#p/papyrus}{#f/6}AND THAT I FORGIVE YOU!!!"
+msgstr ""
+
+msgid "s"
 msgstr ""
 
 msgid "<18>{#p/papyrus}{#f/5}BECAUSE, EVEN IF WE GOT OFF TO A ROUGH START..."

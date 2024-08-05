@@ -3530,7 +3530,7 @@ export default {
       papyrus6x4: [ '<32>{#p/without}* ... papyrus?' ],
       papyrus6: () => [
          '<18>{#p/papyrus}{#f/9}HUMAN!!',
-         world.nootflags.has('s_puzzle2')
+         world.nootflags.has('s_puzzle2') // NO-TRANSLATE
             ? '<18>{#f/4}YOU MAY HAVE HAD AN EASY TIME BEFORE.'
             : '<18>{#f/4}YOU MAY HAVE PASSED MY OTHER CHALLENGES.',
          "<18>{#f/9}BUT NOW YOU WILL SURELY MEET YOUR WIT'S END!",
@@ -7228,7 +7228,7 @@ export default {
       },
       drop: () => [
          '<32>{#p/human}* (You throw away the Spaghetti.)',
-         ...(game.room === 's_jenga' && SAVE.data.n.plot < 26
+         ...(game.room === 's_jenga' && SAVE.data.n.plot < 26 // NO-TRANSLATE
             ? []
             : !world.genocide && !world.runaway && (SAVE.data.n.state_papyrus_spaghet !== 0 || game.room === 's_bros') // NO-TRANSLATE
             ? game.room === 'f_kitchen' // NO-TRANSLATE
@@ -7296,7 +7296,7 @@ export default {
       name: 'Spaghetti',
       use: () => [
          '<32>{#p/human}* (You eat the Spaghetti.)',
-         ...(game.room === 's_jenga' && SAVE.data.n.plot < 26
+         ...(game.room === 's_jenga' && SAVE.data.n.plot < 26 // NO-TRANSLATE
             ? []
             : !battler.active &&
               !world.genocide &&

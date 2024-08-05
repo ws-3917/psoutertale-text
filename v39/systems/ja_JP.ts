@@ -23,8 +23,8 @@ export default {
       mercy_flee: "＊にげる",
       mercy_spare: "＊にがす",
 
-      victory1: "<16>{#p/story}＊YOU WIN！\n＊$(x)EXPと$(y)ゴールドを　かくとく。",
-      victory2: "<16>{#p/story}＊YOU WIN！\n＊$(x)EXPと$(y)ゴールドを　かくとく。\n＊LOVEが　あがった。"
+      victory1: "<32>{#p/story}＊YOU WIN！\n＊$(x)EXPと$(y)ゴールドを　かくとく。",
+      victory2: "<32>{#p/story}＊YOU WIN！\n＊$(x)EXPと$(y)ゴールドを　かくとく。\n＊LOVEが　あがった。"
    },
 
    developer: {

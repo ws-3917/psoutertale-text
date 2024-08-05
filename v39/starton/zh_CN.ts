@@ -3202,7 +3202,7 @@ export default {
       papdate32: () => [
          "<15>{#p/papyrus}{#f/20}这可不是什么\n普通的意面！",
          "<15>{#f/20}这是一个\n大师的杰作！",
-         "<15>{#f/24}SILKEN SPAGHETTI, FINELY AGED IN A TIME DILATION UNIT.",
+         "<15>{#f/24}丝般柔滑的意面，\n在时间膨胀\n单元之中\n精细陈化。",
          "<15>{#f/20}然后再由我，\n主厨PAPYRUS\n来加工！",
          "<15>{#f/15}人类！！！\n是时候结束这\n一切了！！",
          "<15>我们不能再这样\n僵持下去了！",
@@ -3538,7 +3538,8 @@ export default {
       papyrus6x4: [ "<32>{#p/without}* ...papyrus？" ],
       papyrus6: () => [
          "<18>{#p/papyrus}{#f/9}人类！！",
-         world.nootflags.has("s_puzzle2")
+         world.nootflags.has('s_puzzle2') // NO-TRANSLATE
+
             ? "<18>{#f/4}YOU MAY HAVE HAD AN EASY TIME BEFORE."
             : "<18>{#f/4}你可能已经过了\n我很多别的挑战。",
          "<18>{#f/9}但现在，你就\n绝对要束手无策了！",
@@ -4185,7 +4186,7 @@ export default {
                ? [
                     "<25>{#p/sans}* 对了...",
                     "<25>* 我知道，你还在继续\n  伤害怪物，威胁他们的生命...",
-                    "<25>{#f/3}* but i appreciate the effort not to outright kill them.",
+                    "<25>{#f/3}* 但至少，你没有\n  放任自流，屠杀殆尽。",
                     "<25>{#f/2}* 挺好的，是吧？"
                  ]
                : [
@@ -4206,7 +4207,7 @@ export default {
             ? [
                  "<25>{#p/sans}* 对了...",
                  "<25>* 我知道，你在伤害怪物，\n  威胁他们的生命...",
-                 "<25>{#f/3}* but i appreciate the effort not to outright kill them.",
+                 "<25>{#f/3}* 但至少，你没有\n  放任自流，屠杀殆尽。",
                  "<25>{#f/2}* 挺好的，是吧？"
               ]
             : [
@@ -7242,7 +7243,8 @@ export default {
       },
       drop: () => [
          "<32>{#p/human}* （你把意大利面扔掉了。）",
-         ...(game.room === "s_jenga" && SAVE.data.n.plot < 26
+         ...(game.room === 's_jenga' && SAVE.data.n.plot < 26 // NO-TRANSLATE
+
             ? []
             : !world.genocide && !world.runaway && (SAVE.data.n.state_papyrus_spaghet !== 0 || game.room === 's_bros') // NO-TRANSLATE
 
@@ -7319,7 +7321,8 @@ export default {
       name: "Spaghetti",
       use: () => [
          "<32>{#p/human}* （你吃光了意大利面。）",
-         ...(game.room === "s_jenga" && SAVE.data.n.plot < 26
+         ...(game.room === 's_jenga' && SAVE.data.n.plot < 26 // NO-TRANSLATE
+
             ? []
             : !battler.active &&
               !world.genocide &&

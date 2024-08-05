@@ -7149,6 +7149,10 @@ msgstr ""
 
 msgid "<15>{#f/24}SILKEN SPAGHETTI, FINELY AGED IN A TIME DILATION UNIT."
 msgstr ""
+"<15>{#f/24}絲般柔滑的意面，\n"
+"在時間膨脹\n"
+"單元之中\n"
+"精細陳化。"
 
 msgid "<15>{#f/20}THEN PREPARED BY ME, MASTER CHEF PAPYRUS!"
 msgstr ""
@@ -8206,9 +8210,6 @@ msgstr "<18>{|}{#p/papyrus}{#f/9}待會見，人-{%}"
 
 msgid "<32>{#p/without}* ... papyrus?"
 msgstr "<32>{#p/without}* ...papyrus？"
-
-msgid "s_puzzle2"
-msgstr ""
 
 msgid "<18>{#f/4}YOU MAY HAVE HAD AN EASY TIME BEFORE."
 msgstr ""
@@ -10168,6 +10169,8 @@ msgstr ""
 
 msgid "<25>{#f/3}* but i appreciate the effort not to outright kill them."
 msgstr ""
+"<25>{#f/3}* 但至少，你沒有\n"
+"  放任自流，屠殺殆盡。"
 
 msgid "<25>{#f/2}* it's something, right?"
 msgstr "<25>{#f/2}* 挺好的，是吧？"
@@ -16873,9 +16876,6 @@ msgstr ""
 
 msgid "<32>{#p/human}* (You throw away the Spaghetti.)"
 msgstr "<32>{#p/human}* （你把義大利麵扔掉了。）"
-
-msgid "s_jenga"
-msgstr ""
 
 msgid "<25>{#p/undyne}{#f/1}* ..."
 msgstr "<25>{#p/undyne}{#f/1}* ..."

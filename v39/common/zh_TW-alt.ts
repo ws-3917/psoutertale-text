@@ -187,15 +187,18 @@ export default {
                  "<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!",
                  "<25>{#p/basic}(How kind...)\n(You never skipped anybody's dialogue!)",
                  !SAVE.flag.b._call
-                    ? SAVE.data.n.plot_pmcheck === 0 && phone.of("pms").display() && pms().length > 0
+                    ? SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
+
                        ? "<25>{#p/basic}(Too bad your phone seems to have never been used.)"
                        : "<25>{#p/basic}(Too bad your phone seems to have never dialed anyone.)"
-                    : SAVE.data.n.plot_pmcheck === 0 && phone.of("pms").display() && pms().length > 0
+                    : SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
+
                     ? "<25>{#p/basic}(Too bad your phone seems to have never had its messages read.)"
                     : "<25>{#p/basic}(You must really care about everyone a lot!)"
               ]
             : !SAVE.flag.b._call
-            ? SAVE.data.n.plot_pmcheck === 0 && phone.of("pms").display() && pms().length > 0
+            ? SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
+
                ? [
                     "<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!",
                     "<25>{#p/basic}(How strange...)\n(Your phone seems to have never been used!)"
@@ -204,7 +207,8 @@ export default {
                     "<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!",
                     "<25>{#p/basic}(How strange...)\n(Your phone seems to have never dialed anyone!)"
                  ]
-            : SAVE.data.n.plot_pmcheck === 0 && phone.of("pms").display() && pms().length > 0
+            : SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
+
             ? [
                  "<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!",
                  "<25>{#p/basic}(How strange...)\n(Your phone seems to have never had its messages read!)"
@@ -321,8 +325,7 @@ export default {
                      "<25>{#p/undyne}{#f/12}* Only problem is, how would we find you?",
                      "<25>{#p/alphys}{#f/15}* W-well, I can answer THAT question.",
                      "<25>{#p/alphys}{#f/16}* After all, I was the one who came up with the solution!",
-                     "<25>{#p/alphys}{#f/26}* It's simple, really.\n* By answering this VERY phone call...",
-                     "<25>{#p/alphys}{#f/18}* We've been able to triangulate your location!"
+                     "<25>{#p/alphys}{#f/26}* It's simple, really.\n* By answering this VERY phone call..."
                   ]);
                   if (!dpapyrus) {
                      addB([
@@ -1081,7 +1084,8 @@ export default {
                         ]);
                      }
                      addB([ "<25>{#p/sans}{#f/0}* that i know for certain you had no reason to." ]);
-                     if (world.edgy || (world.population_area("s") <= 0 && !world.bullied_area("s"))) {
+                     if (world.edgy || (world.population_area('s') <= 0 && !world.bullied_area('s'))) { // NO-TRANSLATE
+
                         addB([
                            "<25>{#p/sans}{#f/0}* someone who only wanted you to be a better person.",
                            "<25>{#p/sans}{#f/3}* before you struck him down and declared your true nature."

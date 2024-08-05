@@ -1117,9 +1117,9 @@ export default {
             ...(SAVE.data.b.failshow
                ? []
                : SAVE.data.b.item_tvm_mewmew &&
-                 !SAVE.storage.inventory.has('tvm_mewmew') &&
-                 !SAVE.storage.dimboxA.has('tvm_mewmew') &&
-                 !SAVE.storage.dimboxB.has('tvm_mewmew')
+                 !SAVE.storage.inventory.has('tvm_mewmew') && // NO-TRANSLATE
+                 !SAVE.storage.dimboxA.has('tvm_mewmew') && // NO-TRANSLATE
+                 !SAVE.storage.dimboxB.has('tvm_mewmew') // NO-TRANSLATE
                ? [
                     '<25>{#g/alphysTheFactIs}* Oh, a-and, uh, about that Mew Mew doll...',
                     '<25>* Well...',
@@ -2814,9 +2814,9 @@ export default {
                     "<25>{#g/alphysHellYeah}* I-I'll stay in contact!"
                  ]
                : [
-                    ...(!SAVE.storage.inventory.has('tvm_mewmew') &&
-                    !SAVE.storage.dimboxA.has('tvm_mewmew') &&
-                    !SAVE.storage.dimboxB.has('tvm_mewmew')
+                    ...(!SAVE.storage.inventory.has('tvm_mewmew') && // NO-TRANSLATE
+                    !SAVE.storage.dimboxA.has('tvm_mewmew') && // NO-TRANSLATE
+                    !SAVE.storage.dimboxB.has('tvm_mewmew') // NO-TRANSLATE
                        ? ((SAVE.data.b.mewget = true),
                          [
                             '<25>{#g/alphysNervousLaugh}* ...',
@@ -6576,7 +6576,7 @@ export default {
                  '<25>{#p/alphys}{#g/alphysInquisitive}* Since when was this unlocked?',
                  "<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Well, that's gonna save a lot of time!"
               ]
-            : SAVE.data.b.a_state_nooted1 && game.room === 'a_core_left2'
+            : SAVE.data.b.a_state_nooted1 && game.room === 'a_core_left2' // NO-TRANSLATE
             ? [ '<25>{#p/alphys}{#g/alphysCutscene3}* What in the world...' ]
             : [ '<25>{#p/alphys}{#g/alphysCutscene3}* You could have reached the capital by now.' ],
       core12x: [
@@ -8667,7 +8667,7 @@ export default {
          // kill
          [ "<08>{#p/basic}{~}It's time I stopped run- ning..", '<08>{#p/basic}{~}.. from my death.' ],
          // ca$h money
-         [ "<08>{#p/basic}{~}You'll get more out of this than I will.", '<08>{#p/basic}{~}By all means, take it.' ]
+         [ "<08>{#p/basic}{~}You'll get more out of this than me.", '<08>{#p/basic}{~}By all means, take it.' ]
       ],
       old_gun_text: [ '<32>{#p/human}* (You fire the gun.)', '<32>{#p/basic}* Silencio escapes!' ],
       old_bomb_text: [
@@ -11236,7 +11236,7 @@ export default {
                     c: '<16>{#k/1/0}* Yeah, go steal somewhere else!'
                  }
               ]
-            : SAVE.storage.inventory.has('glamburger')
+            : SAVE.storage.inventory.has('glamburger') // NO-TRANSLATE
             ? [
                  {
                     b: '<16>{#k/7/0}* Oh, wow.\n* You actually got one of those new "Slamburgers."',

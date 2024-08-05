@@ -584,20 +584,20 @@ export default {
                [ "<25>{#p/asriel2}{#f/9}* 怎么回事？", "<25>{#p/asriel2}{#f/10}* ...谁攻击了我们？" ],
                [ "<25>{#p/asriel2}{#f/15}* 我们...", "<25>{#p/asriel2}{#f/10}* ...被一道电魔法击中了？" ],
                [
-                  "<25>{#p/asriel2}{#f/3}* Alphys。\n* 肯定是她。",
-                  "<25>{#p/asriel2}{#f/15}* 她原来没逃跑吗...",
-                  "<25>{#p/asriel2}{#f/16}* 好吧，还算有点意思。"
+                  "<25>{#p/asriel2}{#f/3}* 肯定是她，Alphys。",
+                  "<25>{#p/asriel2}{#f/15}* 她竟然没逃跑...",
+                  "<25>{#p/asriel2}{#f/16}* 呵，有点意思。"
                ]
             ][SAVE.flag.n.ga_asrielWitness++],
          respawnWitnessB: (wit: number) =>
             wit > 0
                ? [
-                    "<25>{#p/asriel2}{#f/15}* 原来是Alphys...",
-                    "<25>{#p/asriel2}{#f/16}* 好吧，还算有点意思。"
+                    "<25>{#p/asriel2}{#f/15}* 果然是Alphys...",
+                    "<25>{#p/asriel2}{#f/16}* 呵，有点意思。"
                  ]
                : [
-                    "<25>{#p/asriel2}{#f/15}* 她原来没逃跑吗...",
-                    "<25>{#p/asriel2}{#f/16}* 好吧，还算有点意思。"
+                    "<25>{#p/asriel2}{#f/15}* 她竟然没逃跑...",
+                    "<25>{#p/asriel2}{#f/16}* 呵，有点意思。"
                  ]
       },
       truetext: {
@@ -4745,158 +4745,158 @@ export default {
       }
    },
    b_opponent_alphys: {
-      artifact: [ "<32>{#p/human}* (Alphys glances at it, but ultimately dismisses it.)" ],
+      artifact: [ "<32>{#p/human}* （Alphys看了一眼，随即收回了目光。）" ],
       name: "* Alphys",
-      gotcha: [ "<20>{*}{#p/alphys}{#e/alphys/19}逮着你俩了。{^30}{%}" ],
+      gotcha: [ "<20>{*}{#p/alphys}{#e/alphys/19}往哪里跑？{^30}{%}" ],
       act_check: [ "<32>{#p/asriel2}* Alphys。\n* 皇家科学员。" ],
       act_asriel: (i: number) => [
          ...[
             [
-               "<32>{#p/asriel2}* After all this time, my new body is finally starting to accept me...",
-               "<32>{#p/asriel2}* Let's see what this thing is REALLY capable of."
+               "<32>{#p/asriel2}* 终于，这副新身体的力量\n  我可以稍微驾驭了...",
+               "<32>{#p/asriel2}* 就让她好好瞧瞧我真正的力量吧。"
             ],
-            [ "<32>{#p/asriel2}* Keep in mind, it'll be weaker if I try to use the same spell twice in a row." ],
-            [ "<32>{#p/asriel2}* Just remember, try to mix up which spells you choose." ],
+            [ "<32>{#p/asriel2}* 记住，连着两次施放同一种法术的话，\n  魔力会减弱。" ],
+            [ "<32>{#p/asriel2}* 记住，混合施放多种法术。" ],
             []
          ][Math.min(SAVE.flag.n.ga_asrielAssist++, 3)],
          choicer.create(
-            "* (What should Asriel cast?)",
-            `${i === 0 ? '{@fill=#808080}' : ''}Nocturne{@fill=#fff}`,
-            `${i === 1 ? '{@fill=#808080}' : ''}Solstice{@fill=#fff}`,
-            `${i === 2 ? '{@fill=#808080}' : ''}Serenade{@fill=#fff}`,
-            `${i === 3 ? '{@fill=#808080}' : ''}Eclipse{@fill=#fff}`
+            "* （Asriel应该施放什么法术？）",
+            `${i === 0 ? '{@fill=#808080}' : ''}夜幕{@fill=#fff}`,
+            `${i === 1 ? '{@fill=#808080}' : ''}至日{@fill=#fff}`,
+            `${i === 2 ? '{@fill=#808080}' : ''}晚星{@fill=#fff}`,
+            `${i === 3 ? '{@fill=#808080}' : ''}月蚀{@fill=#fff}`
          )
       ],
       act_asriel_text: [
-         [ "<32>{#p/human}* (Asriel places his hands on your head, and sends a surge of energy into your body.)" ],
-         [ "<32>{#p/human}* (Asriel places his hands on your head, and whispers behind you in an ancient language.)" ],
-         [ "<32>{#p/human}* (Asriel places his hands on your head, and sings an ancient lullaby.)" ],
-         [ "<32>{#p/human}* (Asriel places his hands on your head, and surrounds you in a protective aura.)" ]
+         [ "<32>{#p/human}* （Asriel将手放在你的额头上，\n  将一股力量注入你的身体。）" ],
+         [ "<32>{#p/human}* （Asriel将手放在你的额头上，\n  低语了一段古老的咒文。）" ],
+         [ "<32>{#p/human}* （Asriel将手放在你的额头上，\n  唱了一首古老的摇篮曲。）" ],
+         [ "<32>{#p/human}* （Asriel将手放在你的额头上，\n  在你周围筑起一道保护光环。）" ]
       ],
       act_asriel_confirm: [
-         [ "<32>{#p/story}* FOCUS up for this turn!" ],
-         [ "<32>{#p/story}* INV up for this turn!" ],
-         [ "<32>{#p/story}* REGEN up for this turn!" ],
-         [ "<32>{#p/story}* DEFENSE up for this turn!" ]
+         [ "<32>{#p/story}* 本回合，你的专注力提升！" ],
+         [ "<32>{#p/story}* 本回合，你的无敌帧延长！" ],
+         [ "<32>{#p/story}* 本回合，你的自愈力提升！" ],
+         [ "<32>{#p/story}* 本回合，你的防御力提升！" ]
       ],
       epiphaNOPE: [ "<20>{#p/alphys}{#e/alphys/19}想得美。" ],
       statusX: [ "<32>{#p/asriel2}* ..." ],
       statusY: [ "<32>{#p/asriel2}* 她快死了！\n* 继续攻击！" ],
       status1a: [ "<32>{#p/asriel2}* Alphys..." ],
       status1r: [ "<32>{#p/asriel2}* 你知道该干什么。" ],
-      status1b: [ "<33>{#p/asriel2}* 她原来没逃跑吗...\n* 有意思。" ],
+      status1b: [ "<33>{#p/asriel2}* 她竟然没逃跑...\n* 有意思。" ],
       status1c: [ "<32>{#p/asriel2}* 你知道该干什么吧。" ],
-      status1d: [ "<32>{#p/asriel2}* 嗯...\n  她是不是看起来有点累了？" ],
-      status2a: [ "<32>{#p/asriel2}* Alphys，怎么了？\n* 撑不住了？" ],
-      status2r1: [ "<32>{#p/asriel2}* Ugh, here we go..." ],
-      status2b: [ "<32>{#p/asriel2}* Go on, tell us your sob story." ],
+      status1d: [ "<32>{#p/asriel2}* 嘿...\n* 你看她是不是有点累了？" ],
+      status2a: [ "<32>{#p/asriel2}* 怎么了，Alphys？\n* 撑不住了？" ],
+      status2r1: [ "<32>{#p/asriel2}* 呃，再听一遍吧..." ],
+      status2b: [ "<32>{#p/asriel2}* 来，让我们好好听听\n  你的凄惨故事。" ],
       status2c: [ "<32>{#p/asriel2}* 你竟然没贯彻逃跑精神，\n  我可真惊讶呢。" ],
-      status2d: [ "<32>{#p/asriel2}* Thanks, Dr. Obvious." ],
+      status2d: [ "<32>{#p/asriel2}* 故事真精彩呢，\n  “爱废死”博士。" ],
       status2e: [ "<32>{#p/asriel2}* ...？" ],
-      status2r2: [ "<32>{#p/asriel2}* Something's about to happen." ],
-      status3a: [ "<32>{#p/asriel2}* 好吧... 形势严峻起来了。" ],
-      status3b: [ "<32>{#p/asriel2}* ...看来Alphys不准备防御了。\n* 抓住这个机会！" ],
-      status3c: [ "<32>{#p/asriel2}* Hang in there, $(name)..." ],
+      status2r2: [ "<32>{#p/asriel2}* 准备好，战斗形势要变了。" ],
+      status3a: [ "<32>{#p/asriel2}* 好... 形势严峻起来了。" ],
+      status3b: [ "<32>{#p/asriel2}* ...看来Alphys放弃防御了。\n* 抓住这个机会！" ],
+      status3c: [ "<32>{#p/asriel2}* 坚持住，$(name)..." ],
       turnTalk1a: [
-         "<20>{#p/alphys}{#e/alphys/19}要是连一击都扛不住，\n我怎么可能来这？",
-         "<20>{#p/alphys}{#e/alphys/23}看来我高估\n你们的智商了。"
+         "<20>{#p/alphys}{#e/alphys/19}要是连一下都扛不住，\n我怎么可能来这？",
+         "<20>{#p/alphys}{#e/alphys/23}看来，\n是高估你们的智商了。"
       ],
       turnTalk1b: [
-         "<20>{#p/alphys}{#e/alphys/19}无话可说了？",
-         "<20>{#e/alphys/18}...那就我管我说，你们听着吧。"
+         "<20>{#p/alphys}{#e/alphys/19}无话可说？",
+         "<20>{#e/alphys/18}...那就我自己说，\n你们爱听不听。"
       ],
       turnTalk1c: [
-         "<20>{#p/alphys}{#e/alphys/19}这就对了。\nAlphys。",
-         "<20>{#e/alphys/18}因为，\n你有多少能耐，\n有多大的潜能...",
-         "<20>{#e/alphys/19}只有你自己才清楚。"
+         "<20>{#p/alphys}{#e/alphys/19}对，\n就是我，Alphys。",
+         "<20>{#e/alphys/18}因为，\n只有我，亲眼目睹了\n你们的一举一动。",
+         "<20>{#e/alphys/19}也只有我，\n才清楚你们潜在的力量\n有多么可怕。"
       ],
       turnTalk1d: [
-         "<20>{#p/alphys}{#e/alphys/19}尽管挥霍你那些\n珍贵的物品。",
+         "<20>{#p/alphys}{#e/alphys/19}尽情挥霍\n你那些珍贵的物品。",
          "<20>{#e/alphys/18}就那些东西，唬不到我。"
       ],
       turnTalk2: [
-         "<20>{#p/alphys}{#e/alphys/19}...听着。\n我研究人类文化很多年了。",
-         "<20>{#e/alphys/19}你会选择战斗到死，\n我一点也不奇怪。"
+         "<20>{#p/alphys}{#e/alphys/19}...人类，\n我研究你们文化很多年了。",
+         "<20>{#e/alphys/19}你会担下所有战斗，\n我一点也不意外。"
       ],
       turnTalk3: [
-         "<20>{#p/alphys}{#e/alphys/18}而你呢，Asriel...\n你利用了人类，\n把他当保护伞。",
-         "<20>{#e/alphys/52}怎么了？\n怕自己靠一个偷来的灵魂\n活不下去？"
+         "<20>{#p/alphys}{#e/alphys/18}而你呢，Asriel...\n你利用人类，\n拿伙伴当保护伞。",
+         "<20>{#e/alphys/52}为了什么呢？\n你怕一旦自己动手，\n偷来的灵魂就会破碎？"
       ],
       turnTalk4: [
-         "<20>{#p/alphys}{#e/alphys/51}或者说，\n你怕自己死了后，\n人类发现有没有你都一样。",
-         "<20>{#e/alphys/17}哦。\n这还挺有诗意的。"
+         "<20>{#p/alphys}{#e/alphys/51}还是说，\n你怕自己被人类淡忘，\n活时视如草芥，\n死后弃若敝履？",
+         "<20>{#e/alphys/17}呵，\n还挺有诗意的。"
       ],
       turnTalk5: [
-         "<20>{#p/alphys}{#e/alphys/16}就你找人类求安慰这事，\n我可没责怪你的意思。",
-         "<20>{#e/alphys/52}只是我可以\n用亲身经历告诉你...",
-         "<20>{#e/alphys/19}随着你在意的人死去，\n你会再次失去依靠。"
+         "<20>{#p/alphys}{#e/alphys/16}但是，我来这教训你，\n绝不是因为你想\n找人类寻求安慰，",
+         "<20>{#e/alphys/52}而是因为...",
+         "<20>{#e/alphys/19}我亲身体会到\n挚友离去，无依无靠\n那种孤独的滋味。"
       ],
       turnTalk6: [
          "<20>{#p/alphys}{#e/alphys/23}但你俩不会懂的，\n对吧？",
-         "<20>{#e/alphys/19}你们两个罪恶滔天，\n又没人拦得住你们，\n怎么可能亲身体会\n我们的痛苦呢？",
-         "<20>{#e/alphys/22}没说错吧？"
+         "<20>{#e/alphys/19}你们两个罪恶滔天，\n谁也拦不住，\n怎么可能亲身体会\n我们的痛苦呢？",
+         "<20>{#e/alphys/22}怎么可能呢？"
       ],
       turnTalk7: [
-         "<20>{#p/alphys}{#e/alphys/19}不是说我不关心这事。",
-         "<20>{#e/alphys/52}...从那时算，\n有一阵子了，\n这一直是我的心结...",
-         "<20>{#e/alphys/51}之前，\n我真觉得我能帮你。"
+         "<20>{#p/alphys}{#e/alphys/19}罢了，你们想怎样，\n我都不在乎了。",
+         "<20>{#e/alphys/52}...这么看，\n我可真傻...",
+         "<20>{#e/alphys/51}之前居然还妄想\n能拉你一把，\n让你浪子回头。"
       ],
       turnTalk8: [
-         "<20>{#p/alphys}{#e/alphys/52}毕竟是我让那颗星星\n睁开了眼睛...",
-         "<20>{#e/alphys/51}我觉得自己有办法劝劝你。"
+         "<20>{#p/alphys}{#e/alphys/52}毕竟，\n是我给了那星星生命...",
+         "<20>{#e/alphys/51}出了事，\n也该我来负责。"
       ],
       turnTalk9: [
-         "<20>{#p/alphys}{#e/alphys/19}...不过现在，\n我懂你们为什么执迷不悟了。",
-         "<20>{#e/alphys/18}我没想错的话，\n你们中肯定有人\n拥有那股力量...",
+         "<20>{#p/alphys}{#e/alphys/19}...不过，\n现在我懂你们\n为什么执迷不悟了。",
+         "<20>{#e/alphys/18}我没猜错的话，\n你们中肯定有人\n拥有那股力量...",
          "<20>{#e/alphys/19}那股可以回溯时间，\n逆天改命的力量..."
       ],
       turnTalk10: [
          "<20>{#p/alphys}{#f/alphys/18}果真如此的话，\n那其他人真得小心了。",
-         "<21>{#e/alphys/23}一个人如果可以随心所欲，\n还不用付出代价的话，\n那他就不太会\n在乎别人的感受。"
+         "<21>{#e/alphys/23}如果一个人能为所欲为，\n还不用承担任何过错，\n那他怎么可能\n在乎别人的感受呢？"
       ],
-      turnTalk11: [ "<20>{#z1}{#p/alphys}{#e/alphys/21}...", "<21>{#e/alphys/39}给我会时间静静。" ],
-      broken: [ "<20>{*}{#p/alphys}{#e/alphys/45}谢谢了。{^20}{%}" ],
+      turnTalk11: [ "<20>{#z1}{#p/alphys}{#e/alphys/21}...", "<21>{#e/alphys/39}让我歇歇。" ],
+      broken: [ "<20>{*}{#p/alphys}{#e/alphys/45}谢了。{^20}{%}" ],
       turnTalk12: [
-         "<20>{#z2}{#p/alphys}{#e/alphys/7}Undyne牺牲后，\n我不知道自己能做什么。",
-         "<20>{#e/alphys/46}于是，我逃跑了。"
+         "<20>{#z2}{#p/alphys}{#e/alphys/7}Undyne牺牲后，\n我不知道该怎么办。",
+         "<20>{#e/alphys/46}我马上逃离了实验室，\n希望逃得越远越好。"
       ],
       turnTalk13: [
          "<20>{#p/alphys}{#e/alphys/47}可是越逃跑，\n我就对自己越失望。",
-         "<20>{#e/alphys/48}难道我就这么袖手旁观，\n眼睁睁看着我族人民\n接连死去？"
+         "<20>{#e/alphys/48}难道我就这么袖手旁观，\n眼睁睁看着我族同胞\n一个个死去？"
       ],
       turnTalk14: [
          "<20>{#p/alphys}{#e/alphys/21}...这未免太绝情了。",
          "<21>{#e/alphys/39}更何况...",
-         "<20>{#e/alphys/45}我怎么自责\n都没法改变现状。"
+         "<20>{#e/alphys/45}我再怎么自责\n都没法改变现状。"
       ],
       turnTalk15: [
-         "<20>{#p/alphys}{#e/alphys/39}Undyne说你们会\n杀死这星河中的每个人...",
-         "<20>{#e/alphys/40}但其实比她想的更糟吧？"
+         "<20>{#p/alphys}{#e/alphys/39}Undyne说，\n你们要杀死\n这星河中的每个人...",
+         "<20>{#e/alphys/40}但其实，\n你们的野心不止如此，\n对吧？"
       ],
       turnTalk16: [
          "<20>{#z3}{#p/alphys}{#e/alphys/48}...",
-         "<20>{#e/alphys/47}复活你们中的某人\n可能是我的过失，\n但你们犯下的罪行\n可不是。",
-         "<20>{#e/alphys/38}我管你们打的什么算盘，\n你们都得付出代价。",
-         "<20>{*}{#z4}{#e/alphys/54}哪怕与此同时...{^10}{%}",
-         "<20>{*}{#e/alphys/25}我会丧失理智！{^10}{%}"
+         "<20>{#e/alphys/47}让那星星复活是我的错。\n但你们的罪孽，\n跟我一分钱关系没有。",
+         "<20>{#e/alphys/38}我管你们打的什么算盘，\n都得给我付出代价。",
+         "<20>{*}{#z4}{#e/alphys/54}哪怕...{^10}{%}",
+         "<20>{*}{#e/alphys/25}我会因此疯掉！{^10}{%}"
       ],
       turnTalk17: [ "<20>{#p/alphys}{#e/alphys/25}接招！！" ],
-      turnTalk18: [ "<20>{#p/alphys}{#e/alphys/25}再尝尝这招！！" ],
-      turnTalk19: [ "<20>{#p/alphys}{#e/alphys/25}这招又如何！！" ],
+      turnTalk18: [ "<20>{#p/alphys}{#e/alphys/25}再来！！" ],
+      turnTalk19: [ "<20>{#p/alphys}{#e/alphys/25}再来这招！！" ],
       turnTalk20: [ "<20>{#p/alphys}{#e/alphys/24}哈哈哈..." ],
       turnTalk21: [ "<20>{#p/alphys}{#e/alphys/26}..." ],
-      turnTalk22: [ "<20>{#p/alphys}{#e/alphys/27快去死啊!!" ],
+      turnTalk22: [ "<20>{#p/alphys}{#e/alphys/27}给我去死！！" ],
       turnTalk23: [ "<20>{#p/alphys}{#e/alphys/27}..." ],
       done0: (b: boolean) =>
          b
-            ? [ "<20>{*}{#p/alphys}{#e/alphys/42}不...{^40}{%}", "<20>{*}{#e/alphys/43}怎么这么快我就...{^40}{%}" ]
+            ? [ "<20>{*}{#p/alphys}{#e/alphys/42}不...{^40}{%}", "<20>{*}{#e/alphys/43}这么快我就...{^40}{%}" ]
             : [ "<20>{*}{#p/alphys}{#e/alphys/42}不...{^40}{%}", "<20>{*}{#e/alphys/43}你们...{^40}{%}" ],
       done1: (b: boolean) =>
          b
-            ? [ "<20>{*}没-没想到你们这么强...{^40}{%}", "<20>{*}现在，我明白了，\n与你们为敌...{^40}{%}" ]
-            : [ "<20>{*}我要死在这了...\n是-是吗？{^40}{%}", "<20>{*}尽了全力，我还是...{^40}{%}" ],
+            ? [ "<20>{*}没-没想到你们这么强...{^40}{%}", "<20>{*}我现在明白了，\n与你们为敌...{^40}{%}" ]
+            : [ "<20>{*}我是不是...\n快-快要死了？{^40}{%}", "<20>{*}尽了全力，还是...{^40}{%}" ],
       done2: (b: boolean) =>
-         b ? [ "<20>{*}{#p/alphys}我毫无胜算。{^40}{%}" ] : [ "<20>{*}{#p/alphys}Asgore，我对不起你。{^40}{%}" ]
+         b ? [ "<20>{*}{#p/alphys}根本毫无胜算。{^40}{%}" ] : [ "<20>{*}{#p/alphys}Asgore，我对不起你。{^40}{%}" ]
    },
    b_opponent_archive1: {
       name: () => (battler.volatile[0].sparable ? "* Toriel" : "* 546f7269656c"),
@@ -5072,11 +5072,11 @@ export default {
             : [ "<32>{#p/story}* ASRIEL DREEMURR 攻击{^2}\u221e{^1} 防御{^2}\u221e{^1}\n* ..." ],
       act_hope: [
          "<32>{#p/human}* (You hold onto your hopes. You feel your body being protected from within.)",
-         "<32>{#p/story}* DEFENSE up for this turn!"
+         "<32>{#p/story}* 本回合，你的防御力提升！"
       ],
       act_dream: [
          "<32>{#p/human}* (You think about why you're here now. You feel your wounds and injuries slowly healing.)",
-         "<32>{#p/story}* REGEN up for this turn!"
+         "<32>{#p/story}* 本回合，你的自愈力提升！"
       ],
       act_flirt1: [ "<32>{#p/human}* (You flirt with Asriel.)\n* (Nothing happens.)" ],
       act_flirt2: [

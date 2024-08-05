@@ -2280,9 +2280,6 @@ msgid ""
 "deal with that."
 msgstr ""
 
-msgid "tvm_mewmew"
-msgstr ""
-
 msgid "<25>{#g/alphysTheFactIs}* Oh, a-and, uh, about that Mew Mew doll..."
 msgstr ""
 
@@ -12574,9 +12571,6 @@ msgid ""
 "of time!"
 msgstr ""
 
-msgid "a_core_left2"
-msgstr ""
-
 msgid "<25>{#p/alphys}{#g/alphysCutscene3}* What in the world..."
 msgstr ""
 
@@ -16715,7 +16709,7 @@ msgstr ""
 msgid "<08>{#p/basic}{~}.. from my death."
 msgstr ""
 
-msgid "<08>{#p/basic}{~}You'll get more out of this than I will."
+msgid "<08>{#p/basic}{~}You'll get more out of this than me."
 msgstr ""
 
 msgid "<08>{#p/basic}{~}By all means, take it."
@@ -20879,9 +20873,6 @@ msgid "<16>{#k/1/0}* We don't hand out stuff for free."
 msgstr ""
 
 msgid "<16>{#k/1/0}* Yeah, go steal somewhere else!"
-msgstr ""
-
-msgid "glamburger"
 msgstr ""
 
 msgid ""

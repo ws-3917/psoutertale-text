@@ -6598,9 +6598,6 @@ msgstr ""
 msgid "<32>{#p/without}* ... papyrus?"
 msgstr ""
 
-msgid "s_puzzle2"
-msgstr ""
-
 msgid "<18>{#f/4}YOU MAY HAVE HAD AN EASY TIME BEFORE."
 msgstr ""
 
@@ -13560,9 +13557,6 @@ msgid "Spaghetti"
 msgstr ""
 
 msgid "<32>{#p/human}* (You throw away the Spaghetti.)"
-msgstr ""
-
-msgid "s_jenga"
 msgstr ""
 
 msgid "<25>{#p/undyne}{#f/1}* ..."

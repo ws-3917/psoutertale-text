@@ -11439,12 +11439,14 @@ msgstr ""
 "  怪物們的決心有多麼強大！"
 
 msgid "<25>{#f/7}* You're just a ruthless MURDERER!"
-msgstr ""
+msgstr "<25>{#f/7}* 你只是個冷血殺手罷了！"
 
 msgid ""
 "<25>{#f/11}* Self-defense?\n"
 "* Please."
 msgstr ""
+"<25>{#f/11}* 正當防衛？\n"
+"* 得了吧。"
 
 msgid ""
 "<25>{#f/11}* What? You thought I'd overlook what you were up to in the "
@@ -16179,13 +16181,14 @@ msgstr ""
 
 msgid "<20>{#f/13}This body... it still hasn't fully accepted me yet."
 msgstr ""
-"<20>{#f/13}雖說這幅身體...\n"
-"還沒完全接納我。"
+"<20>{#f/13}雖說...\n"
+"我還不太能駕馭\n"
+"這副身體的力量。"
 
 msgid "<20>{#f/16}Still, it might just be enough to help you."
 msgstr ""
 "<20>{#f/16}但我想幫你，\n"
-"這幅身體應該夠用。"
+"應該夠了。"
 
 msgid ""
 "<20>{#f/3}When you make an attack, I'll cast a spell to identify Undyne's "

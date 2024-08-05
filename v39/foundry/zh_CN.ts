@@ -4865,8 +4865,8 @@ export default {
                  "<25>{#f/17}* 我会让你见识一下\n  怪物们的决心有多么强大！",
                  "<25>{#f/1}* 当你准备好就\n  上前迎战吧！\n* 呋呼呼呼！"
               ],
-      undynefinal2b1: [ "<25>{#f/7}* You're just a ruthless MURDERER!" ],
-      undynefinal2b1a: [ "<25>{#f/11}* Self-defense?\n* Please." ],
+      undynefinal2b1: [ "<25>{#f/7}* 你只是个冷血杀手罢了！" ],
+      undynefinal2b1a: [ "<25>{#f/11}* 正当防卫？\n* 得了吧。" ],
       undynefinal2b1b: [
          "<25>{#f/11}* What? You thought I'd overlook what you were up to in the Outlands?",
          "<25>{#f/1}* Fuhuhu... think again."
@@ -7055,8 +7055,8 @@ export default {
                  "<20>{#f/4}$(name)，\n你肯定没忘吧？",
                  "<20>{#f/3}Between then and now, though, I had a chance to think."
               ]),
-         "<20>{#f/13}虽说这幅身体...\n还没完全接纳我。",
-         "<20>{#f/16}但我想帮你，\n这幅身体应该够用。",
+         "<20>{#f/13}虽说...\n我还不太能驾驭\n这副身体的力量。",
+         "<20>{#f/16}但我想帮你，\n应该够了。",
          "<20>{#f/3}接下来，你先进攻，\n我则会用法术找出\nUndyne盔甲的破绽。",
          "<20>{#f/4}你要瞄准它们，\n并逐一突破。",
          "<20>{#f/3}祝好运..."
