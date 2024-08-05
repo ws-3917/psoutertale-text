@@ -10317,9 +10317,7 @@ msgstr ""
 "  我可真驚訝呢。"
 
 msgid "<32>{#p/asriel2}* Thanks, Dr. Obvious."
-msgstr ""
-"<32>{#p/asriel2}* 故事真精彩呢，\n"
-"  「愛廢死」博士。"
+msgstr "<32>{#p/asriel2}* 故事真精彩呢，「愛妃死」博士。"
 
 msgid "<32>{#p/asriel2}* ...?"
 msgstr "<32>{#p/asriel2}* ...？"

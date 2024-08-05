@@ -4791,7 +4791,7 @@ export default {
       status2r1: [ "<32>{#p/asriel2}* 呃，再聽一遍吧..." ],
       status2b: [ "<32>{#p/asriel2}* 來，讓我們好好聽聽\n  你的悽慘故事。" ],
       status2c: [ "<32>{#p/asriel2}* 你竟然沒貫徹逃跑精神，\n  我可真驚訝呢。" ],
-      status2d: [ "<32>{#p/asriel2}* 故事真精彩呢，\n  「愛廢死」博士。" ],
+      status2d: [ "<32>{#p/asriel2}* 故事真精彩呢，「愛妃死」博士。" ],
       status2e: [ "<32>{#p/asriel2}* ...？" ],
       status2r2: [ "<32>{#p/asriel2}* 準備好，戰鬥形勢要變了。" ],
       status3a: [ "<32>{#p/asriel2}* 好... 形勢嚴峻起來了。" ],
