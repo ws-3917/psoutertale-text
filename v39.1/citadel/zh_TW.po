@@ -2,9 +2,6 @@
 msgid ""
 msgstr ""
 
-msgid ""
-msgstr ""
-
 msgid "<32>{#p/human}* (You feel a darkness gathering inside of you.)"
 msgstr ""
 
@@ -10193,8 +10190,8 @@ msgid ""
 "<32>{#p/asriel2}* After all this time, my new body is finally starting to "
 "accept me..."
 msgstr ""
-"<32>{#p/asriel2}* 終於，這副新身體的力量\n"
-"  我可以稍微駕馭了..."
+"<32>{#p/asriel2}* 終於，我可以稍微駕馭\n"
+"  這副新身體的力量了..."
 
 msgid "<32>{#p/asriel2}* Let's see what this thing is REALLY capable of."
 msgstr "<32>{#p/asriel2}* 就讓她好好瞧瞧我真正的力量吧。"
@@ -13692,6 +13689,9 @@ msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/6}{@random=1.1/1.1}..."
 msgstr "<11>{*}{#e/asgore/2}{#v/3}{#i/6}{@random=1.1/1.1}..."
 
 msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random=1.1/1.1}Goodbye..."
+msgstr ""
+
+msgid ""
 msgstr ""
 
 msgid "N/A"
