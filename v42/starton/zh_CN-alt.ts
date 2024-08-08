@@ -833,29 +833,29 @@ export default {
          () => [
             "<32>{#p/basic}{#npc/a}* 欢迎来到星光旅馆！ \n* 星港的一流旅馆！ ",
             '<32>* 每住宿一晚花费60G。',
-            choicer.create('* （订一间房吗？）', '是', '否')
+            choicer.create('* （订一间房吗？）', "订", "不订")
          ],
          () => [
             '<32>{#p/basic}{#npc/a}* 改变主意了吗？',
             '<32>* 记住了，一个晚上60G。',
-            choicer.create('* （订一间房吗？）', '是', '否')
+            choicer.create('* （订一间房吗？）', "订", "不订")
          ]
       ),
       innkeep1b: pager.create(
          0,
          () => [
             '<32>{#p/basic}{#npc/a}* 又回来了吗？ \n* 记住，一个晚上60G。',
-            choicer.create('* （再订一间房吗？）', '是', '否')
+            choicer.create('* （再订一间房吗？）', "订", "不订")
          ],
-         () => [ '<32>{#p/basic}{#npc/a}* 改变主意了吗？', choicer.create('* （再订一间房吗？）', '是', '否') ]
+         () => [ '<32>{#p/basic}{#npc/a}* 改变主意了吗？', choicer.create('* （再订一间房吗？）', "订", "不订") ]
       ),
       innkeep1c: pager.create(
          0,
          () => [
             '<33>{#p/basic}{#npc/a}* Back again?\n* Well, stay as long as you like!',
-            choicer.create('* （再订一间房吗？）', '是', '否')
+            choicer.create('* （再订一间房吗？）', "订", "不订")
          ],
-         () => [ '<32>{#p/basic}{#npc/a}* 改变主意了吗？', choicer.create('* （再订一间房吗？）', '是', '否') ]
+         () => [ '<32>{#p/basic}{#npc/a}* 改变主意了吗？', choicer.create('* （再订一间房吗？）', "订", "不订") ]
       ),
       innkeep2a: [
          "<32>{#p/basic}{#npc/a}* ... you don't even have 60G?",
@@ -954,7 +954,7 @@ export default {
                  '<18>{#p/papyrus}哦吼，\n那个人类来了！',
                  '<18>我和我的兄弟\n制造了一些谜题。',
                  '<18>{#f/9}你准备好接受\n挑战了吗，人类！？',
-                 choicer.create('* （你要怎么回答？）', '是', '否'),
+                 choicer.create('* （你要怎么回答？）', "准备好了", "没准备好"),
                  '<18>{#p/papyrus}回答正确！ \n因为你也看到了...'
               ],
       maze2a: [
@@ -2452,7 +2452,7 @@ export default {
                ? [ "<32>{#p/human}* (But you didn't have any mail to send.)" ]
                : [
                     '<32>{#p/basic}* 邮箱上标注着“帕派瑞斯”。',
-                    choicer.create('* （看里边吗？）', '是', '否')
+                    choicer.create('* （看里边吗？）', "看一眼", "算了")
                  ],
          papmail2: pager.create(
             0,
@@ -2884,9 +2884,9 @@ export default {
             SAVE.data.b.flirt_papyrus
                ? '<18>{#f/6}那你想开始\n约会吗？'
                : '<18>{#f/6}那你想开始\n消遣吗？',
-            choicer.create('* （你要怎么回答？）', '是', '否')
+            choicer.create('* （你要怎么回答？）', "开始吧", "再等等")
          ],
-         () => [ '<18>{#p/papyrus}{#f/6}准备开始了吗？', choicer.create('* （你要怎么回答？）', '是', '否') ]
+         () => [ '<18>{#p/papyrus}{#f/6}准备开始了吗？', choicer.create('* （你要怎么回答？）', "开始吧", "再等等") ]
       ),
       papdate5a: () => [
          SAVE.data.b.flirt_papyrus
@@ -3187,7 +3187,7 @@ export default {
          "<15>{#f/15}I'LL OPEN THE PRESENT MYSELF!!"
       ],
       papdate29: [ '<15>{#p/papyrus}{#f/20}你知道【这】是\n什么吗？' ],
-      papdate30: () => [ choicer.create('* （你知道这是什么吗？）', '是', '否') ],
+      papdate30: () => [ choicer.create('* （你知道这是什么吗？）', "当然知道", "不知道") ],
       papdate31a: [
          '<15>{#p/papyrus}{#f/26}意大利面。',
          "<15>{#f/24}这是你现在\n脑子里的想法，\n没错吧？",
@@ -3414,7 +3414,7 @@ export default {
       ],
       papsolu3a: () => [
          '<18>{#p/papyrus}{#f/9}你真的，真的想要\n谜题的解法吗？？？',
-         choicer.create('* （你要怎么回答？）', '是', '否')
+         choicer.create('* （你要怎么回答？）', "告诉我", "再想想")
       ],
       papsolu3a1: [
          '<18>{#p/papyrus}解！法！就是！',
@@ -3569,7 +3569,7 @@ export default {
          '<25>{#p/sans}* 哦，嘿嘿。 \n* 看来我有些{@fill=#ff0}浮{@fill=#fff}躁了，嗯？',
          '<18>{#p/papyrus}{#f/4}好好好...',
          '<18>{#f/9}总之！ \n你理解我的\n解释了吗？',
-         choicer.create('* （你要怎么回答？）', '是', '否')
+         choicer.create('* （你要怎么回答？）', "听懂了", "没听懂")
       ],
       papyrus7: () => [
          "<18>{#p/papyrus}{#f/9}好，\n那我们回顾一遍！",
@@ -3851,7 +3851,7 @@ export default {
          '<18>{#p/papyrus}{#f/1}还来？？？',
          '<18>{#f/4}...那，好吧...',
          '<18>{#f/9}你这次要\n放弃战斗吗？？',
-         choicer.create('* （你要怎么回答？）', '是', '否')
+         choicer.create('* （你要怎么回答？）', "放我走", "想战斗")
       ],
       papyrusFinal8a: [ '<18>{#p/papyrus}{#f/0}那么，\n咱们开始吧！' ],
       puzzle3: () => [
@@ -3877,12 +3877,12 @@ export default {
             '<32>* 我想去看看整个星系...\n* 但是我动弹不得。',
             '<32>* 如果你愿意帮助我的话...',
             '<32>* 就带上我的一块芯片吧，\n  带它去一个很远很远的地方。',
-            choicer.create('* （拿走一块芯片？）', '是', '否')
+            choicer.create('* （拿走一块芯片？）', "拿走", "算了")
          ],
          () => [
             '<32>{#p/basic}* 心地善良的旅行者，\n  如果你愿意帮助我的话...',
             '<32>* 就带上我的一块芯片吧，\n  带它去一个很远很远的地方。',
-            choicer.create('* （拿走一块芯片？）', '是', '否')
+            choicer.create('* （拿走一块芯片？）', "拿走", "算了")
          ]
       ),
       robot2: () => [
@@ -3914,7 +3914,7 @@ export default {
       robot6: () => [
          '<32>{#p/basic}* 近况如何？ \n* 我是说，我那块芯片近况如何...',
          '<32>* 啊？ 你把它弄丢了...？ \n* ...那我再给你一块吧...',
-         choicer.create('* （再拿走一块芯片？）', '是', '否')
+         choicer.create('* （再拿走一块芯片？）', "拿走", "算了")
       ],
       robot7: [
          '<32>{#p/basic}* 这次小心点。别弄丢了。',
@@ -4038,7 +4038,7 @@ export default {
       ],
       sansbook0: [ '<32>{#p/human}* (It appears this joke book has no clear ending.)' ],
       sansbook1: [ '<32>{#p/basic}* 这是本关于非欧几何的书。 \n* 写着“艾菲斯”的名字。 ' ],
-      sansbook2: () => [ choicer.create('* （要看看里面吗？）', '是', '否') ],
+      sansbook2: () => [ choicer.create('* （要看看里面吗？）', "看看", "算了") ],
       sansbook3: [ '<32>{#p/human}* （你往书里面看...）' ],
       sansbook4: [ '<32>{#p/basic}* 几何学书里面夹着一本\n  笑话书。' ],
       sansbook5: [ '<32>{#p/basic}* 笑话书里面夹着\n  另一本几何学书。' ],

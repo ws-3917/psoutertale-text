@@ -44,7 +44,7 @@ export default {
                '允许游戏输入',
                '允许角色移动',
                '无视墙体',
-               '保存',
+               '快速存档',
                '跳过文本',
                '自由视角'
             ],
@@ -395,8 +395,52 @@ export default {
             '§fill=#ff0§< 特别鸣谢 >§fill=#fff§',
             'ThatGuyWhoLikesFood',
             '§fill=#808080§感谢你帮助我撰写了\n游戏中的关键剧情，\n并始终支持我的梦想，\n让我能以全新的方式表达自我。§fill=#fff§'
-         ],
-         [ '特别鸣谢 由§fill=#ff0§Mavis与朋友们§fill=#fff§提供' ]
+         
+        ],
+         [
+            "§fill=#ff0§< 汉化组成员 >§fill=#fff§",
+            "",
+            "§fill=#ff7§【组长】§fill=#fff§",
+            "ws3917",
+            "§fill=#ff7§【程序】§fill=#fff§",
+            "ws3917",
+            "§fill=#ff7§【文翻】§fill=#fff§",
+            "ws3917",
+            "Murder--Sans_MDR",
+            "R.o.C.t.D./π/3.1415⑨",
+            "1个渣渣",
+            "§fill=#ff7§【文校】§fill=#fff§",
+            "ws3917",
+            "R.o.C.t.D./π/3.1415⑨",
+            "晓晓_Akatsuki"
+        ],
+        [
+            "§fill=#ff0§< 汉化组成员 >§fill=#fff§",
+            "",
+            "§fill=#ff7§【美术】§fill=#fff§",
+            "晓晓_Akatsuki",
+            "屑moons月亮君",
+            "御魂_",
+            "mustad（边框Mod）",
+            "§fill=#ff7§【精神支持&推广】§fill=#fff§",
+            "幻-_-风",
+            "AX暗星233",
+            "屑moons月亮君"
+        ],
+        [
+            "§fill=#ff0§< 汉化组成员 >§fill=#fff§",
+            "",
+            "§fill=#ff7§【汉化测试】§fill=#fff§",
+            "ws3917",
+            "Murder--Sans_MDR",
+            "雪理奈",
+            "（以及其他汉化组成员）",
+            "感谢汉化组成员的努力付出！",
+            "同时，也感谢您对这款游戏的喜爱！",
+            "",
+            "§fill=#808080§P.S. 汉化组正在为游戏制作各种Mod！\n欢迎B站关注@ws3917\n了解最新Mod开发进度！§fill=#fff§"
+        ],
+[ '特别鸣谢 由§fill=#ff0§Mavis与朋友们§fill=#fff§提供' ]
       ],
 
       final_frontier: {
@@ -958,7 +1002,7 @@ export default {
       sidebar2: '状态',
       sidebar3: '手机',
       sidebar4: '设置',
-      sidebar5: '图',
+      sidebar5: '体征',
 
       start1: [
          '---- 操作介绍 ----',

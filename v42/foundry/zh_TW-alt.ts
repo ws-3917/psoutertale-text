@@ -4087,7 +4087,7 @@ export default {
          SAVE.data.b.undyne_respecc
             ? '<25>{#p/undyne}{#f/1}* 需要什麼嗎？'
             : '<25>{#p/undyne}{#f/14}* 需要什麼嗎？',
-         choicer.create('* （你要怎麼回答？）', '餓了', '看書', '回家', '放棄')
+         choicer.create('* （你要怎麼回答？）', '餓了', '看書', '回家', '沒事')
       ],
       unddate13a1: [
          '<25>{#p/undyne}{#f/1}* 你想要點零食什麼的嗎？',
