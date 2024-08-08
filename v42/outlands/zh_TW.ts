@@ -167,7 +167,7 @@ export default {
          ...(SAVE.data.b.oops ? [] : [ "<32>{#p/basic}* Perhaps there's a key somewhere...?" ])
       ],
       secret2: [ '<32>{#p/human}* （你使用了秘密鑰匙。）' ],
-      exit: () => [ choicer.create('* （離開外域嗎？）', "離開", "再等等") ],
+      exit: () => [ choicer.create('* （離開外域嗎？）', '是', '否') ],
       nosleep: [ '<32>{#p/human}* （好像有什麼打擾了你休息。）' ],
       noequip: [ '<32>{#p/human}* （你打算不這麼做。）' ],
       finaltext: {
@@ -468,11 +468,11 @@ export default {
          SAVE.data.b.svr
             ? [
                  '<32>{#p/human}* （你發現漫畫上\n  「附贈」了一塊口香糖...）',
-                 choicer.create('* （嚼它嗎？）', "嚼", "不嚼")
+                 choicer.create('* （嚼它嗎？）', '是', '否')
               ]
             : [
                  '<32>{#p/basic}* 漫畫封面上附了一塊口香糖。',
-                 choicer.create('* （嚼它嗎？）', "嚼", "不嚼")
+                 choicer.create('* （嚼它嗎？）', '是', '否')
               ],
       stargum2: [ '<32>{#p/human}* （你決定不嚼。）' ],
       stargum3: [ '<32>{#p/human}* （你回復了$(x) HP。）' ],
@@ -578,9 +578,9 @@ export default {
       asriel2: () => [
          '<25>{#p/asriel2}{#f/1}* $(name)，準備好了嗎？',
          "<25>{#f/2}* 邁出這一步後，\n  可就再也沒有回頭路了。",
-         choicer.create('* （跟上他嗎？）', "跟上他", "再等等")
+         choicer.create('* （跟上他嗎？）', '是', '否')
       ],
-      asriel2b: () => [ '<25>{#p/asriel2}{#f/1}* 準備好了？', choicer.create('* （跟上他嗎？）', "跟上他", "再等等") ],
+      asriel2b: () => [ '<25>{#p/asriel2}{#f/1}* 準備好了？', choicer.create('* （跟上他嗎？）', '是', '否') ],
       asriel3: [ '<25>{#p/asriel2}{#f/2}* 好...', "<25>{#f/1}* 我們前進吧。" ],
       asriel4: [ "<25>{#p/asriel2}{#f/4}* 我會等你準備好的。" ],
       asrielDiary: [
@@ -825,11 +825,11 @@ export default {
       chair1a: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* 怎麼了，孩子？ \n* 餓了嗎？ ',
          '<25>{#f/0}* 還是，對我看的這本書\n  比較感興趣？',
-         choicer.create('{#n1!}* （你要怎麼回答？）', '餓了', '看書', '回家', '沒事')
+         choicer.create('{#n1!}* （你要怎麼回答？）', '餓了', '看書', '回家', '放棄')
       ],
       chair1b: () => [
          '<25>{#p/toriel}{#n1}* 怎麼了，孩子？',
-         choicer.create('{#n1!}* （你要怎麼回答？）', '餓了', '看書', '回家', '沒事')
+         choicer.create('{#n1!}* （你要怎麼回答？）', '餓了', '看書', '回家', '放棄')
       ],
       chair1c: [ '<25>{#p/toriel}{#n1}* 需要任何東西隨時告訴我喔。' ],
       chair1d: [ '<25>{#p/toriel}{#n1}* 如果改變主意的話\n  隨時告訴我喔。' ],
@@ -837,7 +837,7 @@ export default {
          '<25>{#p/toriel}{#f/1}{#n1}* 睡不著嗎？',
          '<25>{#f/1}* ...\n* 如果你喜歡的話，\n  我可以給你讀這本書...',
          '<25>{#f/0}* 書名叫《慷慨的怪物》，\n  是一個人類寫的。',
-         choicer.create('{#n1!}* （要聽嗎？）', "聽", "不聽")
+         choicer.create('{#n1!}* （要聽嗎？）', '是', '否')
       ],
       chair1f: pager.create(
          0,
@@ -869,16 +869,16 @@ export default {
          '<25>{#p/toriel}{#n1}* 啊，你說這本書啊！ \n* 對，這小書可有意思了。',
          '<25>{#f/0}* 書名叫《慷慨的怪物》，\n  是一個人類寫的。',
          '<25>{#f/1}* 想讓我把它讀給你聽嗎？',
-         choicer.create('{#n1!}* （要聽嗎？）', "聽", "不聽")
+         choicer.create('{#n1!}* （要聽嗎？）', '是', '否')
       ],
       chair2c2: [ '<25>{#p/toriel}{#n1}* 太好了！', '<25>{#g/torielCompassionSmile}* ...' ],
       chair2c3: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* 現在想聽這本小書了嗎？',
-         choicer.create('{#n1!}* （要聽嗎？）', "聽", "不聽")
+         choicer.create('{#n1!}* （要聽嗎？）', '是', '否')
       ],
       chair2c4: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* 你想再聽我讀一遍嗎？',
-         choicer.create('{#n1!}* （要聽嗎？）', "聽", "不聽")
+         choicer.create('{#n1!}* （要聽嗎？）', '是', '否')
       ],
       chair2c5: [ '<25>{#p/toriel}{#f/1}{#n1}* 好，故事從這裡開始...', '<25>{#p/toriel}{#g/torielCompassionSmile}* ...' ],
       chair2c6: [
@@ -1069,7 +1069,7 @@ export default {
          '<25>{#f/0}* 沒關係。 \n* 我可以替你操作。 ',
          '<25>{#f/0}* ...',
          '<25>{#f/0}* 密碼是一個謎語的謎底。 \n* 想猜猜看嗎？',
-         choicer.create('* （猜謎嗎？）', "試試看", "算了吧")
+         choicer.create('* （猜謎嗎？）', '是', '否')
       ],
       danger_puzzle5a: [
          '<25>{#p/toriel}* 太好了！ \n* 對你這麼大的孩子來說...',
@@ -1817,7 +1817,7 @@ export default {
             : [ '<26>{#p/toriel}* 好。 \n* 現在教你第三項，\n  也是最後一項本領。 ' ]),
          '<25>{#f/1}* 有信心只靠自己...',
          '<25>{#f/1}* 走到房間的盡頭嗎？',
-         choicer.create('* （你要怎麼回答？）', "有信心", "我不敢")
+         choicer.create('* （你要怎麼回答？）', '是', '否')
       ],
       indie1a: () => [
          '<25>{#p/toriel}{#f/1}* 你確定嗎...？',
@@ -2196,7 +2196,7 @@ export default {
             ][SAVE.data.n.choice_flavor],
             '<25>{#f/1}* 我知道你更喜歡另一種，\n  只是...',
             '<25>{#f/1}* 假如食物裡放了它，\n  你還願意吃嗎？',
-            choicer.create('* （你要怎麼回答？）', "願意吃", "不吃了")
+            choicer.create('* （你要怎麼回答？）', '是', '否')
          ],
          b1: () => [
             3 <= SAVE.data.n.cell_insult
@@ -2406,8 +2406,8 @@ export default {
                  '<32>{#p/human}* （你往裡面瞅了瞅。）',
                  "<32>{#p/basic}* 真羞人！ \n* 這裡面全是Toriel收藏的襪子。 \n* 有點亂...",
                  world.meanie
-                    ? choicer.create('* （讓它們更亂點嗎？）', "弄亂", "算了")
-                    : choicer.create('* （整理一下嗎？）', "整理", "算了")
+                    ? choicer.create('* （讓它們更亂點嗎？）', '是', '否')
+                    : choicer.create('* （整理一下嗎？）', '是', '否')
               ],
       socks2: () =>
          world.meanie
@@ -2418,12 +2418,12 @@ export default {
                     ? []
                     : [
                          "<32>{#p/human}* (...)\n* （抽屜裡好像藏著一把鑰匙。）",
-                         choicer.create('* （拿走鑰匙嗎？）', "拿走", "不拿")
+                         choicer.create('* （拿走鑰匙嗎？）', '是', '否')
                       ])
               ],
       socks3: () => [
          "<32>{#p/human}* (...)\n* （抽屜裡好像藏著一把鑰匙。）",
-         choicer.create('* （拿走鑰匙嗎？）', "拿走", "不拿")
+         choicer.create('* （拿走鑰匙嗎？）', '是', '否')
       ],
       socks4: [ '<32>{#p/human}* （你打算不這麼做。）' ],
       socks5: () =>
@@ -3622,7 +3622,7 @@ export default {
             ? [
                  '<32>{#p/basic}* 這個派的尺寸\n  根本嚇不到你。',
                  '<32>{#p/basic}* 事實上，\n  你可能都嚇到它了...',
-                 choicer.create('* （要打爛它嗎？）', "打爛", "算了")
+                 choicer.create('* （要打爛它嗎？）', '是', '否')
               ]
             : [ '<32>{#p/basic}* 這個派的尺寸嚇得你完全不敢吃它。' ],
       piesmash1: [ '<32>{#p/human}* （你放了它一馬。）' ],
@@ -4601,7 +4601,7 @@ export default {
                     ? [ '<32>* （什麼都沒發生。）' ]
                     : [
                          '<32>* （你發現漫畫上\n  「附贈」了一塊口香糖...）',
-                         choicer.create('* （嚼它嗎？）', "嚼", "不嚼")
+                         choicer.create('* （嚼它嗎？）', '是', '否')
                       ])
               ]
             : []
