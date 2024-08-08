@@ -3072,19 +3072,19 @@ export default {
             '<32>* ALL THAT MATTERS IS POWER, AND THE UNASSAILABLE MIGHT OF ROBOTICS!',
             '<32>* ...\n* 你听好了。',
             "<32>* 犯了事后，还想一走了之？\n  我可不干。",
-            '<32>* 尖叫吧。\n* 挣扎吧。\n* 求饶吧。',
-            '<32>* YOU CAN DO WHATEVER YOU WANT.',
+            '<32>* 尖叫吧。\n* 挣扎吧。\n* 向我求饶吧。',
+            '<32>* 你怎么着都行。',
             "<32>* WHEN I'M DONE WITH YOU, YOU'LL BE NOTHING MORE THAN A STAIN ON THE CUTTING ROOM FLOOR.",
-            "<32>* SEE, I'VE RIGGED THE CORE TO DELIVER POWER STRAIGHT TO MY BODY.",
-            "<32>* IT'S NOT HOW ALPHYS AND I ORIGINALLY PLANNED IT, BUT IT'LL DO JUST AS WELL.",
+            "<32>* 看呐，我已经接管了整个核心，\n  让它源源不断地给我输送能量。",
+            "<32>* 我和ALPHYS原来没打算这么做，\n  不过没什么大碍。",
             '<32>* WHEN I GIVE THE SIGNAL, THE CABLES WILL FALL, AND THE BATTLE WILL ALREADY BE OVER.',
             "<32>* HONESTLY, YOU SHOULD'VE SEEN THIS COMING...",
-            "<32>* BUT MAYBE THAT'S EXPECTING TOO MUCH FROM SOMEONE WHO ONLY KNOWS HOW TO KILL."
+            "<32>* 也许是我要求太高了，\n  毕竟你满脑子只知道杀杀杀。"
          ],
          endX1x: [
-            '<32>{#p/mettaton}* MY, MY...',
+            '<32>{#p/mettaton}* 天呐...',
             '<32>* ...',
-            '<32>* ... WHY THE LONG FACE?\n* ARE YOU REALLY THAT DESPERATE TO GET BEATEN TO A PULP?',
+            '<32>* ...别耷拉着脸嘛。\n* 就这么急着被我打成肉酱？',
             '<32>* YOU ARE?\n* WELL, IF YOU INSIST...'
          ],
          endX2: ["<32>{#e/mettaton/17}* NOW, ALPHYS!\n* GIVE IT EVERYTHING YOU'VE GOT!"],
@@ -7198,13 +7198,13 @@ export default {
       turnTalk4: () =>
          world.bad_robot
             ? [
-               '<18>{#p/mettaton}Ohoho...',
+               '<18>{#p/mettaton}哦吼吼...',
                '<18>If you thought I had style before, just wait until you see me now.',
-               '<18>Faster.\nStronger.\nLighter than ever.',
-               "<18>I've fused with my own body.",
+               '<18>更快，更强，更轻便。\n这是前所未有的。',
+               "<18>我已经和身体\n融为一体了。",
                "<19>It's a shame you can only be so violent on live TV, don't you think?",
-               "<19>But that's alright.",
-               '<18>Just this once, just for you...'
+               "<19>不过没事。",
+               '<18>就此一回，下不为例。\n为了你...'
             ]
             : [
                '<18>{#p/mettaton}Ohhhh my.',
@@ -7227,7 +7227,7 @@ export default {
             ],
       turnTalk5: () =>
          world.bad_robot
-            ? ["<18>{*}... we're going off the air."]
+            ? ["<18>{*}...我们下播。"]
             : iFancyYourVilliany()
                ? ['<18>{#p/mettaton}{*}... absolutely fantastic!']
                : ['<18>{#p/mettaton}{*}... absolutely beautiful!'],
@@ -7979,7 +7979,7 @@ export default {
             : !world.badder_lizard
                ? ["<20>{#p/mettaton}Oooh, you're serious about this.{^40}{%}"]
                : ["<20>{#p/mettaton}Don't lie to yourself, dear...{^40}{%}"],
-      hitIndicator: '受伤：$(x)次',
+      hitIndicator: '破甲：$(x)次',
       shieldIndicator: '护甲：$(x)%',
       ratings: {
          pose1: () => (iFancyYourVilliany() ? '有两下子' : '精彩'),
