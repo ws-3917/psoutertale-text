@@ -379,6 +379,7 @@ export default {
             .replace(/，/g, '，{^4}')
             .replace(/~([\n ])/g, '~{^4}$1')
             .replace(/\n\*/g, '{^5}\n*')
+            .replace(/([？！])/g, '$1{^5}$2')
             .replace(/([.?!。？！])([\n ])/g, '$1{^5}$2')
             .replace(/:([\n ])/g, ':{^6}$1')
             .replace(/([-、])/g, '$1{^2}')
