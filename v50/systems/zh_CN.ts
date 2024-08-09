@@ -851,7 +851,7 @@ export default {
 
       langPrompt: '[↑或↓] 选择语言 / [Z 或 ENTER] 确认',
       epilepsyInfo:
-         '说明：\n\n游戏内包含§fill=#ff0§闪烁画面§fill=#fff§\n如果您对此十分敏感\n或无法耐受，可以通过\n§fill=#ff0§游戏设置§fill=#fff§将其关闭。\n',
+         '警告：\n\n游戏内包含§fill=#ff0§闪烁画面§fill=#fff§。\n如果您对此十分敏感或无法耐受，\n可以通过§fill=#ff0§游戏设置§fill=#fff§将其关闭。\n',
       epilepsyKeys: '§fill=#808080§按[Z 或 ENTER]继续',
 
       quitText1: '正在退出',

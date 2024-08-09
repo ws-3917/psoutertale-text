@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 
 msgid "- DISCLAIMER -"
-msgstr ""
+msgstr "- ДИСКЛЕЙМЕР -"
 
 msgid ""
 "1. PS!OUTERTALE is made by Spacey_432. \n"
@@ -895,8 +895,6 @@ msgid ""
 "teaching me life lessons that\n"
 "have made me a better person.§fill=#fff§"
 msgstr ""
-"§fill=#808080§За то что всегда был рядом в момент нужды, и учил меня как "
-"стать лучше.§fill=#fff§"
 
 msgid ""
 "§fill=#808080§For being one of the friendliest\n"
@@ -904,9 +902,6 @@ msgid ""
 "to believe in my vision, and\n"
 "inspiring me to finish the game.§fill=#fff§"
 msgstr ""
-"§fill=#808080§За то что ты один из \n"
-"самых приветливых людей которых я знаю,\n"
-"веру в моё виденье и вдохновение завершить игру.§fill=#fff§"
 
 msgid ""
 "§fill=#808080§For sticking with me at every\n"
@@ -1759,22 +1754,22 @@ msgid "§fill=#808080§Press [Z or ENTER] to Continue"
 msgstr ""
 
 msgid "Quitting"
-msgstr "Уходим"
+msgstr "Выходим"
 
 msgid "Quitting."
-msgstr "Уходим."
+msgstr "Выходим."
 
 msgid "Quitting.."
-msgstr "Уходим.."
+msgstr "Выходим.."
 
 msgid "Thank you for playing Outertale."
-msgstr "Спасибо за то, что вы поиграли в Outertale."
+msgstr ""
 
 msgid "Working on this project has been an honor,"
-msgstr "Для меня, работа над этим проектом была честью,"
+msgstr ""
 
 msgid "and a pleasure on my part."
-msgstr "и удовольствием."
+msgstr ""
 
 msgid "When I started this journey, I never"
 msgstr ""
@@ -1948,16 +1943,16 @@ msgid "The Oblivion"
 msgstr "Забвение"
 
 msgid "DISABLED"
-msgstr "ВЫКЛЮЧЕН"
+msgstr "ВКЛЮЧЕНЫ"
 
 msgid "ENABLED"
-msgstr "ВКЛЮЧЁН"
+msgstr "ВЫКЛЮЧЕНЫ"
 
 msgid "Press [X] to Finish"
 msgstr "Нажмите [X] чтобы Завершить"
 
 msgid "Frisk"
-msgstr ""
+msgstr "Фриск"
 
 msgid "G"
 msgstr "З"
@@ -2051,7 +2046,7 @@ msgid "USE"
 msgstr "ИСП"
 
 msgid "EQUIP"
-msgstr "ОСНАЩАТЬ"
+msgstr "ОСНАСТИТЬ"
 
 msgid "INFO"
 msgstr "ИНФО"
@@ -2111,7 +2106,7 @@ msgid "MUSIC"
 msgstr "МУЗЫКА"
 
 msgid "FANCY GRAPHICS"
-msgstr "ЭПИЧНЫЙ ГРАФОН"
+msgstr "СПЕЦ. ЭФФЕКТЫ"
 
 msgid "FLASHING IMAGERY"
 msgstr "МИГАЮЩИЕ ИЗОБРАЖЕНИЯ"
@@ -2195,7 +2190,7 @@ msgid "BULLY"
 msgstr "ЗАПУГАНО"
 
 msgid "FLIRT"
-msgstr "ЗАИГРАНО"
+msgstr "ФЛИРТЫ"
 
 msgid "STATUS"
 msgstr "СТАТУС"

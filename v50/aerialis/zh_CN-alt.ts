@@ -2929,35 +2929,35 @@ export default {
          operaY3: [ "<25>{*}{#p/asriel2}{#f/15}* This can't go on...{^40}{%}" ],
          operaY4: [ '<25>{*}{#p/asriel2}{#f/16}* Thanks anyway, $(name).{^40}{%}' ],
          end1: (rgk: boolean) => [
-            '<32>{#p/mettaton}* AT LAST...',
+            '<32>{#p/mettaton}* 终于...',
             ...(SAVE.flag.b.legs
                ? [
-                    '<32>* AT LAST WE MEET ON THIS FATEFUL...',
+                    '<32>* 终于，在命运的...',
                     '<32>{#e/mettaton/4}* ...',
-                    "<32>{#e/mettaton/25}* MY SENSORS TELL ME YOU'RE LOOKING OVER MY SHOULDER.",
+                    "<32>{#e/mettaton/25}* 我的传感器探测到\n  你正试图往我身后看。",
                     iFancyYourVilliany()
-                       ? '<32>{#e/mettaton/30}* YOU MUST BE EAGER TO FLIP THAT SWITCH OF MINE, EH \"$(moniker2u)?\"'
-                       : '<32>{#e/mettaton/30}* YOU MUST BE EAGER TO FLIP THAT SWITCH OF MINE, EH DARLING?',
+                       ? '<32>{#e/mettaton/30}* 你肯定特别想动我的开关，\n  是不是啊，“$(moniker2u)”？'
+                       : '<32>{#e/mettaton/30}* 你肯定特别想动我的开关，\n  是不是啊，亲？',
                     ...(!world.badder_lizard
                        ? [
-                            '<32>{#e/mettaton/28}* A SWITCH YOU NO DOUBT KNOW ABOUT THANKS TO ALPHYS SHARING MY SECRETS WITH YOU.',
-                            '<32>{#e/mettaton/3}* HOW PREDICTABLE...'
+                            '<32>{#e/mettaton/28}* 你早就知道那里有开关。\n* 毕竟，我那点小秘密\n  艾菲斯肯定没藏住。',
+                            '<32>{#e/mettaton/3}* 真是一猜就中...'
                          ]
                        : [
-                            '<32>{#e/mettaton/28}* A SWITCH YOU NO DOUBT LEARNED OF BY SPELUNKING INTO THE ROYAL LAB RECORDINGS.',
-                            '<32>{#e/mettaton/3}* HOW PREDICTABLE...'
+                            '<32>{#e/mettaton/28}* 你早就知道那里有开关。\n* 毕竟，看一眼皇家实验室的记录\n  就知道了。',
+                            '<32>{#e/mettaton/3}* 真是一猜就中...'
                          ]),
-                    "<32>{#e/mettaton/12}* SUFFICE IT TO SAY, I WON'T WASTE YOUR TIME WITH A MONOLOGUE.",
+                    "<32>{#e/mettaton/12}* 那我就不浪费时间\n  长篇大论了。",
                     ...(SAVE.data.b.a_state_hapstablook
-                       ? [ "<32>{#e/mettaton/3}* JUST KNOW THAT I'M NOT IN THE MOOD FOR GAMES." ]
+                       ? [ "<32>{#e/mettaton/3}* 只说一句话：\n  现在，我有点不在状态。" ]
                        : iFancyYourVilliany()
-                       ? [ "<32>{#e/mettaton/31}* JUST KNOW THAT I WON'T GO EASY ON YOU FOR A SECOND!" ]
+                       ? [ "<32>{#e/mettaton/31}* 只说一句话：\n  这次，我不会再手下留情！" ]
                        : !world.badder_lizard
-                       ? [ "<32>{#e/mettaton/31}* JUST KNOW THAT I'M COUNTING ON YOU TO BRING YOUR A-GAME!" ]
-                       : [ "<32>{#e/mettaton/19}* JUST KNOW THAT I COULDN'T CARE LESS ABOUT WHAT HAPPENS TO YOU." ])
+                       ? [ "<32>{#e/mettaton/31}* 只说一句话：\n  这次演出精彩与否，就看你的了！" ]
+                       : [ "<32>{#e/mettaton/19}* 只说一句话：\n  我不能对你的转变视而不见。" ])
                  ]
                : [
-                    '<32>* AT LAST WE MEET ON THIS FATEFUL STAGE.',
+                    '<32>* 终于，在命运的指引下，\n  我们再度相会于此。',
                     ...(iFancyYourVilliany()
                        ? [
                             '<32>{#e/mettaton/3}* WELL THEN.',
@@ -2969,19 +2969,19 @@ export default {
                             "<32>{#e/mettaton/31}* JUST DON'T BLAME -ME- FOR YOUR DEFEAT WHEN IT FINALLY HAPPENS!"
                          ]
                        : [
-                            '<32>{#e/mettaton/4}* BUT THEN...',
-                            '<32>{#e/mettaton/34}* WHERE WOULD I BE WITHOUT YOU?',
-                            "<32>{#e/mettaton/5}* FOR BETTER OR WORSE, YOU'VE GIVEN US BOTH THE OPPORTUNITY TO SHINE OUR BEST.",
-                            "<32>{#e/mettaton/6}* BUT NOW, COMES THE MOMENT YOU'VE BEEN DYING FOR.",
-                            '<32>{#e/mettaton/23}* THOUGH, I MUST ADMIT...',
+                            '<32>{#e/mettaton/4}* 我得承认...',
+                            '<32>{#e/mettaton/34}* 如果没有你，\n  我也走不到现在这一步。',
+                            "<32>{#e/mettaton/5}* 一路下来，我们让观众\n  看到了自己最精彩的一面。",
+                            "<32>{#e/mettaton/6}* 而即将到来的，\n  正是你我梦寐以求的重头好戏。",
+                            '<32>{#e/mettaton/23}* 不过，我得说...',
                             ...(SAVE.data.b.a_state_hapstablook
                                ? [
-                                    "<32>{#e/mettaton/5}* THINGS DIDN'T QUITE WORK OUT THE WAY I EXPECTED.",
-                                    '<32>{#e/mettaton/6}* ALL THIS OLD FAMILY NONSENSE COMING BACK OUT OF THE BLUE...',
-                                    "<32>* ... ISN'T SOMETHING I'M PARTICULARLY HAPPY ABOUT.",
-                                    "<32>{#e/mettaton/11}* STILL, I'VE GOT A GRAND FINALE TO PERFORM, SO I MIGHT AS WELL GET IT OVER WITH.",
-                                    '<32>{#e/mettaton/5}* TRY NOT TO BE TOO MUCH OF A BORE, WILL YOU?',
-                                    '<32>{#e/mettaton/6}* THE AUDIENCE IS STARVING FOR SOME GENUINE ACTION.'
+                                    "<32>{#e/mettaton/5}* 事情的发展有点超出\n  我的预料。",
+                                    '<32>{#e/mettaton/6}* 那些家长里短的破事\n  偏偏这时候冒出来...',
+                                    "<32>* ...给我搅得心神不宁。",
+                                    "<32>{#e/mettaton/11}* 不过，让我们先把\n  眼前这场表演圆满收尾，\n  再去处理那些事。",
+                                    '<32>{#e/mettaton/5}* 观众们肯定都迫不及待了。',
+                                    '<32>{#e/mettaton/6}* 所以，别让观众失望，好吗？'
                                  ]
                                : !world.badder_lizard
                                ? [
@@ -3059,35 +3059,35 @@ export default {
                          ])
                  ])
          ],
-         end2: [ '<32>{#e/mettaton/11}* PRODUCERS!\n* GET THOSE CAMERAS ROLLING!' ],
+         end2: [ '<32>{#e/mettaton/11}* 摄影师！\n* 现在开拍！' ],
          endX1: [
-            '<32>{#p/mettaton}* 呵，天呐...\n* 我的“小嘉宾”，\n  来这怎么花你这么久啊？',
-            '<32>* BUT THE TIME FOR SURFACE-LEVEL DIALOGUE IS BEHIND US.',
-            '<32>* ...啥？\n* 你不会真以为自己很讨喜吧。',
+            '<32>{#p/mettaton}* 哎呀，哎呀...\n* 让您这么长途跋涉，\n  真是辛苦了，“亲”。',
+            '<32>* 跟你扯这些客套话，\n  真是浪费时间。',
+            '<32>* ...怎么？\n* 你还真当自己是块宝？',
             '<32>* 真是蠢的可以。',
-            '<32>* 我只是想上演一台好戏罢了。',
+            '<32>* 我只是想演一出好戏。',
             '<32>* 所谓一出好戏呢...',
-            "<32>* 也不过是讲对台词，摆对姿势。",
+            "<32>* 也不过是对对台词，摆摆姿势。",
+            '<32>* 然后，借着演出展现我超强的实力，\n  顺便捞点名声和权力，',
             '<32>* 和“乐趣”“友谊”什么的...\n  根本不搭边。',
-            '<32>* ALL THAT MATTERS IS POWER, AND THE UNASSAILABLE MIGHT OF ROBOTICS!',
-            '<32>* ...\n* 你听好了。',
-            "<32>* 犯了事后，还想一走了之？\n  我可不干。",
-            '<32>* 尖叫吧。\n* 挣扎吧。\n* 向我求饶吧。',
-            '<32>* 你怎么着都行。',
-            "<32>* WHEN I'M DONE WITH YOU, YOU'LL BE NOTHING MORE THAN A STAIN ON THE CUTTING ROOM FLOOR.",
+            '<32>* ...说回正题。',
+            "<32>* 给我听好。\n* 犯了事，就休想逃。",
+            '<32>* 管你怎么哭爹喊娘。\n* 管你怎么垂死挣扎。\n* 管你怎么跪地求饶。',
+            '<32>* 你想咋的都行。',
+            "<32>* 很快，我就会成为伸张正义的英雄。\n* 而你？\n  就是地上的一摊烂泥罢了。",
             "<32>* 看呐，我已经接管了整个核心，\n  让它源源不断地给我输送能量。",
             "<32>* 我和艾菲斯原来没打算这么做，\n  不过没什么大碍。",
-            '<32>* WHEN I GIVE THE SIGNAL, THE CABLES WILL FALL, AND THE BATTLE WILL ALREADY BE OVER.',
-            "<32>* HONESTLY, YOU SHOULD'VE SEEN THIS COMING...",
-            "<32>* 也许是我要求太高了，\n  毕竟你满脑子只知道杀杀杀。"
+            '<32>* 只要我一声令下，连上电缆，\n  就等着受死吧。',
+            "<32>* 其实，你应该能预感到\n  我要这么做...",
+            "<32>* 不过，一个满脑子\n  只知道杀杀杀的人\n  应该没那个智商。"
          ],
          endX1x: [
-            '<32>{#p/mettaton}* 天呐...',
+            '<32>{#p/mettaton}* 哎呀，哎呀...',
             '<32>* ...',
-            '<32>* ...别耷拉着脸嘛。\n* 就这么急着被我打成肉酱？',
-            '<32>* YOU ARE?\n* WELL, IF YOU INSIST...'
+            '<32>* ...耷拉个脸干什么？\n* 就这么想被我打成肉酱？',
+            '<32>* 还敢顶嘴？\n* 好，这是你自找的...'
          ],
-         endX2: [ "<32>{#e/mettaton/17}* NOW, ALPHYS!\n* GIVE IT EVERYTHING YOU'VE GOT!" ],
+         endX2: [ "<32>{#e/mettaton/17}* 艾菲斯，过来！\n* 让它瞧瞧咱们的真本事！" ],
          endY1: [
             '<25>{#p/alphys}{#g/alphysSmileSweat}* Okay, you made it!',
             '<25>{#f/3}* Eheh... that was more difficult than it had to be, huh?',
@@ -3109,116 +3109,116 @@ export default {
          end3: () => [
             '<32>{#e/mettaton/6}* 女士们，先生们...',
             SAVE.flag.b.legs
-               ? "<33>{#e/mettaton/11}* IT'S TIME FOR THE GRAND FINALE!"
-               : '<32>{#e/mettaton/10}* ARE YOU READY FOR THE GRAND FINALE!?!?'
+               ? "<33>{#e/mettaton/11}* 压轴好戏，现在开始！"
+               : '<32>{#e/mettaton/10}* 都准备好了吗？！\n  压轴好戏，即将开始！'
          ],
          end4: [
-            '<32>{*}{#e/mettaton/11}* REAL DRAMA!!\n* REAL ROMANCE!!\n* REAL BLOODSHED!!{^20}{%}',
-            '<32>{*}{#e/mettaton/20}* ON OUR NEW SHOW...{^20}{%}',
-            '<32>{*}{#e/mettaton/17}* \"ATTACK OF THE KILLER ROBOT!\"{^20}{%}'
+            '<32>{*}{#e/mettaton/11}* 高潮迭起！！\n* 扣人心弦！！\n* 腥风血雨！！{^20}{%}',
+            '<32>{*}{#e/mettaton/20}* 尽在最新节目...{^20}{%}',
+            '<32>{*}{#e/mettaton/17}* “杀人机器来袭”！{^20}{%}'
          ],
          end5: () =>
             SAVE.data.b.killed_mettaton
                ? !world.badder_lizard
-                  ? [ '<25>{#p/alphys}{#g/alphysOhGodNo}* Oh my god, are you guys...' ]
+                  ? [ '<25>{#p/alphys}{#g/alphysOhGodNo}* 我的天，你们俩还...' ]
                   : [
                        '<25>{#p/alphys}{#g/alphysWelp}* ...',
-                       '<25>{#g/alphysInquisitive}* What are you looking at me for?',
+                       '<25>{#g/alphysInquisitive}* 你看我干嘛？',
                        SAVE.data.n.bad_lizard === 1 && SAVE.data.b.bad_lizard
-                          ? "<26>{#g/alphysCutscene3}* I wasn't away for..."
-                          : "<25>{#g/alphysCutscene3}* I'm only here to..."
+                          ? "<26>{#g/alphysCutscene3}* 我才离开..."
+                          : "<25>{#g/alphysCutscene3}* 我只是来..."
                     ]
                : !world.badder_lizard
-               ? [ '<25>{#p/alphys}{#g/alphysOhGodNo}* Oh my god, are you guys alright??' ]
+               ? [ '<25>{#p/alphys}{#g/alphysOhGodNo}* 我的天，你们俩还好吗？' ]
                : [
                     '<25>{#p/alphys}{#g/alphysWelp}* ...',
-                    '<25>{#g/alphysInquisitive}* What are you looking at me for?',
+                    '<25>{#g/alphysInquisitive}* 你看我干嘛？',
                     SAVE.data.n.bad_lizard === 1 && SAVE.data.b.bad_lizard
-                       ? "<26>{#g/alphysCutscene3}* I wasn't away for THAT long."
-                       : "<25>{#g/alphysCutscene3}* I'm only here to check on Mettaton."
+                       ? "<26>{#g/alphysCutscene3}* 我才离开一会工夫而已。"
+                       : "<25>{#g/alphysCutscene3}* 我只是来看看镁塔顿还好吗。"
                  ],
          end6: () =>
             SAVE.data.b.killed_mettaton
-               ? [ "<25>{#p/alphys}{#f/10}* Wh... where's Mettaton?", '<25>{#p/alphys}{#f/3}* D-did you...' ]
+               ? [ "<25>{#p/alphys}{#f/10}* ...镁-镁塔顿在哪？", '<25>{#p/alphys}{#f/3}* 你-你把他给...' ]
                : !world.badder_lizard
                ? [
-                    '<25>{#p/alphys}{#g/alphysInquisitive}* Hmm, you look okay...',
-                    '<25>{#p/alphys}{#g/alphysWelp}* Sorry about vanishing on the phone earlier, by the way.',
-                    "<25>{#g/alphysWelp}* The phone signal wouldn't reach here for some reason."
+                    '<25>{#p/alphys}{#g/alphysInquisitive}* 嗯... 还好你没事...',
+                    '<25>{#p/alphys}{#g/alphysWelp}* 对不起，刚刚失联了。',
+                    "<25>{#g/alphysWelp}* 不知为什么，\n  电话到这里就没信号了。"
                  ]
                : [
                     '<25>{#g/alphysHaveSomeCompassion}* ...',
-                    '<25>{#g/alphysHaveSomeCompassion}* Look, just... come with me into the next room.',
+                    '<25>{#g/alphysHaveSomeCompassion}* 对了，呃... \n  现在跟我来下个房间。',
                     world.baddest_lizard
-                       ? "<25>{#g/alphysNeutralSweat}* Th-there's something I need to tell you."
-                       : "<25>{#g/alphysNeutralSweat}* W-when you're ready, of course."
+                       ? "<25>{#g/alphysNeutralSweat}* 我-我有事要告诉你。"
+                       : "<25>{#g/alphysNeutralSweat}* 没-没事，你准备好\n  再跟过来就行。"
                  ],
          end7: () =>
             SAVE.data.b.killed_mettaton
                ? [
-                    "<25>{#p/alphys}{#f/10}* I-I'm sorry.\n* I don't think I should be here right now.",
-                    "<25>{*}{#p/alphys}{#f/3}* D-don't come after me!{%}"
+                    "<25>{#p/alphys}{#f/10}* 对-对不起。\n* 我该走了。",
+                    "<25>{*}{#p/alphys}{#f/3}* 别-别跟着我！{%}"
                  ]
                : [
-                    "<25>{#p/alphys}{#g/alphysCutscene2}* Well, uh, d-don't worry about Mettaton, I can fix his power supply.",
-                    "<25>{#p/alphys}{#g/alphysCutscene2}* He's only fused with the control chip, after alls."
+                    "<25>{#p/alphys}{#g/alphysCutscene2}* 呃，别-别担心镁塔顿，\n  他只融合进了控制芯片。",
+                    "<25>{#p/alphys}{#g/alphysCutscene2}* 所以我修好他的能量供应\n  就可以了。"
                  ],
          end8: [
-            '<25>{#p/alphys}{#g/alphysWelp}* I should get going now.',
-            '<25>{#g/alphysNeutralSweat}* B-but, uh, I kind of need you to come with me.',
-            '<25>{#g/alphysNervousLaugh}* The future of monsterkind might... d-depend on it...'
+            '<25>{#p/alphys}{#g/alphysWelp}* 我先走了。',
+            '<25>{#g/alphysNeutralSweat}* 不-不过，呃...\n* 你愿意跟过来吗？',
+            '<25>{#g/alphysNervousLaugh}* 怪物们的未来... 需要...'
          ],
          end9: [
-            "<25>{#p/alphys}{#g/alphysNervousLaugh}* Just...\n* W-when you're ready...",
-            '<25>{#g/alphysNeutralSweat}* Come with me into the next room.',
+            "<25>{#p/alphys}{#g/alphysNervousLaugh}* 不-不过！\n* 你别着急，等你准备好了...",
+            '<25>{#g/alphysNeutralSweat}* 再跟过来就行。',
             '<25>{#g/alphysSideSad}* ...',
-            "<25>{#g/alphysNeutralSweat}* I-I'm sorry.\n* There's no other way."
+            "<25>{#g/alphysNeutralSweat}* 对-对不起。\n* 我们别无选择。"
          ],
          end10: () => [
             world.baddest_lizard
-               ? "<32>{#p/mettaton}* Well, darling...\n* It'd probably be a good idea to go along with her."
-               : "<32>{#p/mettaton}* Don't worry, darling, it's probably just a new season of a sci-fi anime she likes.",
-            '<32>* As for me?',
-            '<32>* ...\n* After Alphys puts me back in my old body...',
+               ? "<32>{#p/mettaton}* 嗯...\n* 你最好现在跟她走，亲。"
+               : "<32>{#p/mettaton}* 别担心，亲。\n* 说不定，她只是想带你去看\n  新一季的超赞科幻动漫呢。",
+            '<32>* 至于我？',
+            '<32>* ...\n* 等艾菲斯把我的芯片\n  装回到旧身体之后...',
             SAVE.data.b.a_state_hapstablook
-               ? '<32>* I should go pay my family a visit.'
+               ? '<32>* 我想回家看看亲人。'
                : SAVE.data.n.state_starton_papyrus === 1
-               ? "<32>* I'm not really sure what I'm going to do."
-               : "<32>* I'm going to have some business to attend to.",
+               ? "<32>* 我还没想好做什么。"
+               : "<32>* 我要处理点事情。",
             ...(SAVE.data.b.oops
                ? []
                : [
-                    '<32>* Oh, and by the way, $(name)...',
-                    '<32>{#p/basic}* Huh?',
-                    '<32>{#p/mettaton}* ... I wish you luck with your family business as well.',
-                    '<32>{#p/basic}* My... oh.',
-                    '<32>{#p/basic}* Yeah.',
-                    '<32>{#p/basic}* ... thanks, Mettaton.'
+                    '<32>* 哦，还有你，$(name)...',
+                    '<32>{#p/basic}* 怎么了？',
+                    '<32>{#p/mettaton}* ...也祝你家里的事\n  能早日解决。',
+                    '<32>{#p/basic}* 我家... 嗯。',
+                    '<32>{#p/basic}* 会的。',
+                    '<32>{#p/basic}* ...谢谢你，镁塔顿。'
                  ]),
-            '<32>{#p/mettaton}* Heh...',
+            '<32>{#p/mettaton}* 那么...',
             world.bad_lizard > 1
-               ? '<32>* Until next time...\n* ...\n* ... brat.'
+               ? '<32>* 有缘再见...\n* ...\n* ...小鬼。'
                : iFancyYourVilliany()
-               ? '<32>* Thanks for the ride...\n* ...\n* ... $(moniker2).'
-               : '<32>* See you around...\n* ...\n* ... darling.'
+               ? '<32>* 多谢捧场...\n* ...\n* ...$(moniker2)。'
+               : '<32>* 待会见...\n* ...\n* ...亲。'
          ],
          end11: () => [
-            '<32>{#p/human}* (You hear a sigh.)',
+            '<32>{#p/human}* （你听见一声叹息。）',
             ...(SAVE.data.b.a_state_hapstablook
                ? [
-                    '<32>{#p/basic}* ... all this family stuff with Mettaton has been hitting a little close to home.',
-                    "<32>* Blooky's... not the only one who's made those kinds of mistakes with people.",
+                    '<32>{#p/basic}* ...我从镁塔顿和家人的冲突\n  看到了自己的影子。',
+                    "<32>* 那些事...\n  并不全都是小幽的错。",
                     '<32>* ...',
-                    "<32>* I guess, for now, I'll just have to do my best to keep moving forward..."
+                    "<32>* 现在，还是别想太多，\n  继续前进吧..."
                  ]
                : [
-                    "<32>{#p/basic}* ... I do wonder what would've happened if you'd gone with Blooky back there.",
-                    '<32>* They seemed really concerned about something...',
+                    "<32>{#p/basic}* ...我在想，如果你之前\n  跟小幽走的话，会发生什么。",
+                    '<32>* 当时，它好像有什么心事...',
                     '<32>* ...',
-                    "<32>* I guess, for now, you'll just have to do your best to keep moving forward..."
+                    "<32>* 现在，还是别想太多，\n  继续前进吧..."
                  ]),
-            '<32>* ...\n* Come on, partner.',
-            "<32>* Let's go home."
+            '<32>* ...\n* 走吧，搭档。',
+            "<32>* 我们一起回家。"
          ],
          endwalk0: () => [
             ...(SAVE.data.b.water
@@ -6541,7 +6541,7 @@ export default {
          1 <= battler.exp
             ? [
                  '<25>{#p/alphys}{#g/alphysNeutralSweat}* ...',
-                 corefriendly() ? '<25>* D-did you... really have to do that?' : '<32>{#p/human}* (You hear a sigh.)'
+                 corefriendly() ? '<25>* D-did you... really have to do that?' : '<32>{#p/human}* （你听见一声叹息。）'
               ]
             : SAVE.data.b.a_state_nooted1
             ? [
@@ -6844,11 +6844,11 @@ export default {
       status1: () =>
          SAVE.data.n.plot < 67
             ? [ '<32>{#p/story}* 镁塔顿开始行动了！' ]
-            : [ '<32>{#p/story}* Mettaton returns!' ],
+            : [ '<32>{#p/story}* 镁塔顿又回来了！' ],
       act_check: () =>
          SAVE.data.n.plot < 67
             ? [ '<32>{#p/story}* 镁塔顿 - 攻击30 防御255\n* 他的金属制的身体\n  使他无懈可击。' ]
-            : [ '<32>{#p/story}* METTATON - ATK 30 DEF 255\n* Seriously, his metal body is invulnerable!' ],
+            : [ '<32>{#p/story}* 镁塔顿 - 攻击30 防御255\n* 没想到，他的金属身体\n  竟然使他无懈可击！' ],
       act_flirt: [ '<32>{#p/human}* （你向镁塔顿调情。）' ],
 
       yellow1: () =>
@@ -7151,17 +7151,17 @@ export default {
       turn8react2: [ '<20>{#p/mettaton}那。是。啥。' ],
       turn8reactMD1b: [ "<20>{#p/basic}Hope I didn't go too hard on you.", '<20>{#p/basic}See ya next time, human!' ],
       turn8reactMD2b: [ '<20>{#p/basic}可悲。\n可悲！\n可-悲-！', '<20>{#p/basic}你活该。' ],
-      missIndicator: '漏击: $(x)',
+      missIndicator: '漏击：$(x)',
 
       idleTalk1: () =>
          world.bad_lizard < 2 && !iFancyYourVilliany()
             ? [
                  "<20>{#p/mettaton}SO WE'VE MADE IT TO THE END, EH?",
-                 "<20>{#p/mettaton}HOW DOES IT FEEL KNOWING YOU'RE ABOUT TO BE A SUPERSTAR?"
+                 "<20>{#p/mettaton}马上就能摇身一变，\n成为超级巨星，\n感想如何？"
               ]
             : [
                  "<20>{#p/mettaton}SO WE'VE MADE IT TO THE END, EH?",
-                 "<20>{#p/mettaton}HOW DOES IT FEEL KNOWING YOU'RE ABOUT TO MEET YOUR END?"
+                 "<20>{#p/mettaton}生命快走到头了，\n感想如何？"
               ],
       idleTalk2: () =>
          iFancyYourVilliany()
@@ -7174,7 +7174,7 @@ export default {
          world.bad_lizard < 2
             ? [ '<20>{#p/mettaton}I MUST SAY, HAVING YOU ON STAGE WITH ME IS A REAL \"TURN\" ON.' ]
             : [ '<20>{#p/mettaton}I MUST SAY, THIS WHOLE SITUATION IS A REAL \"TURN\" OFF.' ],
-      idleTalk5: [ "<20>{#p/mettaton}(YOU'RE SUPPOSED TO TURN ME AROUND.)" ],
+      idleTalk5: [ "<20>{#p/mettaton}（快让我转身。）" ],
       idleTalk6: [ '<20>{#p/mettaton}...' ],
       flirtTalk1: () =>
          SAVE.data.b.flirt_mettaton
@@ -7191,20 +7191,20 @@ export default {
          SAVE.data.b.flirt_mettaton ? [ '<20>{#p/mettaton}I GUESS NOT.' ] : [ '<20>{#p/mettaton}AND GOING.' ],
       flirtTalk4: [ "<20>{#p/mettaton}...\nI FEEL LIKE THERE'S SOMETHING BETTER YOU COULD BE DOING." ],
       flirtTalk5: [ '<20>{#p/mettaton}...' ],
-      act_turn: [ "<32>{#p/human}* (You tell Mettaton there's a mirror behind him.)" ],
-      turnTalk1: [ '<20>{#p/mettaton}A MIRROR, YOU SAY?', '<20>OH RIGHT, I HAVE TO LOOK PERFECT FOR OUR GRAND FINALE!' ],
-      turnTalk2: [ "<20>{#p/mettaton}HMM, WHERE IS IT?\nI DON'T SEE IT..." ],
-      turnTalk3: [ '<20>{#p/mettaton}DID YOU.', '<20>JUST FLIP.', '<20>MY SWITCH??' ],
+      act_turn: [ "<32>{#p/human}* （你告诉镁塔顿，\n  他后面有一面镜子。）" ],
+      turnTalk1: [ '<20>{#p/mettaton}镜子？', '<20>哦对，这场压轴好戏，\n仪容仪表可不能差！' ],
+      turnTalk2: [ "<20>{#p/mettaton}嗯... 在哪呢？\n我怎么没看见..." ],
+      turnTalk3: [ '<20>{#p/mettaton}你是不是', '<20>动了', '<20>我的开关？' ],
       turnTalk4: () =>
          world.bad_robot
             ? [
                  '<18>{#p/mettaton}哦吼吼...',
-                 '<18>要是我的英姿，\n那副身体都没能掩盖，\n那你现在可别眨眼。',
-                 '<18>更快，更强，更轻便。\n这是前所未有的。',
-                 "<18>我已经和身体\n融为一体了。",
-                 "<19>It's a shame you can only be so violent on live TV, don't you think?",
+                 '<18>如果你对我的\n飒爽英姿期待已久，\n那么，就请好好欣赏...',
+                 '<18>这副前所未有的\n更快，更强，\n更轻的身躯。',
+                 "<18>我已经和身体\n融为一体。",
+                 "<19>真是遗憾啊，\n只有在现场直播中，\n观众才能将你的暴行\n尽收眼底。",
                  "<19>不过没事。",
-                 '<18>就此一回，下不为例。\n为了你...'
+                 '<18>就此一回，为了你，\n豁出去了...'
               ]
             : [
                  '<18>{#p/mettaton}Ohhhh my.',
@@ -7302,21 +7302,21 @@ export default {
                  '<33>{#p/story}* 镁塔顿 SIGMA - 攻击255 防御42\n* 一台超频过载的杀人机器。\n  攻击力大幅提升，但也付出了代价。'
               ]
             : [ '<32>{#p/story}* 镁塔顿 EX - 攻击47 防御47\n* 弱点是心形核心。' ],
-      act_cut1: [ '<32>{#p/human}* （你开始切断电线...）' ],
-      act_cut2: [ '<32>{#p/human}* （你继续切断电线...）' ],
-      act_cut3: [ '<32>{#p/human}* （现在已经没有电线可切了。）' ],
+      act_cut1: [ '<32>{#p/human}* （你把剪子搭到了电线上...）' ],
+      act_cut2: [ '<32>{#p/human}* （你继续剪电线...）' ],
+      act_cut3: [ '<32>{#p/human}* （可是电线已经全都剪断了。）' ],
       tvmReaction: {
          blookpie: () =>
             world.genocide || world.bad_robot
                ? [
-                    '<32>{#p/basic}* The confection reminds Mettaton of someone he has to protect...',
-                    "<32>{#p/story}* Mettaton's ATTACK up!\n* Mettaton's DEFENSE up!"
+                    '<32>{#p/basic}* 这块点心使镁塔顿想起\n  某个需要他去守护的人...',
+                    "<32>{#p/story}* 镁塔顿的攻击力提升了！\n* 镁塔顿的防御力提升了！"
                  ]
                : [
                     SAVE.data.b.a_state_hapstablook
-                       ? '<32>{#p/basic}* The confection reminds Mettaton of someone special to him...'
-                       : '<32>{#p/basic}* The confection reminds Mettaton of someone he once knew...',
-                    "<32>{#p/story}* Mettaton's ATTACK down!\n* Mettaton's DEFENSE down!"
+                       ? '<32>{#p/basic}* 这块点心使镁塔顿想起\n  一位重要的亲人...'
+                       : '<32>{#p/basic}* 这块点心使镁塔顿想起\n  某个熟悉的人...',
+                    "<32>{#p/story}* 镁塔顿的攻击力下降了！\n* 镁塔顿的防御力下降了！"
                  ],
          radio: () =>
             world.bad_robot
@@ -7467,14 +7467,14 @@ export default {
       turnTalk1: () =>
          world.bad_robot
             ? [
-                 "<20>{#p/mettaton}{#e/mettaton/30}{#a.la/8}{#a.ra/8}Sorry, darling... but if I DON'T go overkill...",
-                 "<20>{#p/mettaton}{#e/mettaton/1}{#a.la/1}{#a.ra/3}这会我已经炸了！"
+                 "<20>{#p/mettaton}{#e/mettaton/30}{#a.la/8}{#a.ra/8}真是抱歉啊，亲。\n但我要是不把你\n千刀万剐...",
+                 "<20>{#p/mettaton}{#e/mettaton/1}{#a.la/1}{#a.ra/3}我就会马上爆炸！"
               ]
-            : [ '<20>{#p/mettaton}Lights!\nCamera!\nAction!' ],
+            : [ '<20>{#p/mettaton}灯光！\n镜头！\n开拍！' ],
       turnTalk2: () =>
          world.bad_robot
             ? [
-                 "<20>{#p/mettaton}{#e/mettaton/17}{#a.la/8}{#a.ra/8}... heh.\nPoetic, isn't it?",
+                 "<20>{#p/mettaton}{#e/mettaton/17}{#a.la/8}{#a.ra/8}...鱼死网破，\n倘若“余”不死，\n休想“破”我网。",
                  '<20>{#p/mettaton}{#e/mettaton/17}{#a.la/8}{#a.ra/8}...呵。\n还挺有诗意的。'
               ]
             : SAVE.data.b.a_state_hapstablook
@@ -7484,7 +7484,7 @@ export default {
             : [ '<20>{#p/mettaton}Karma!\nVengeance!\nPayback!' ],
       turnTalk3: () =>
          world.bad_robot
-            ? [ "<20>{#p/mettaton}{#e/mettaton/24}{#a.la/3}{#a.ra/0}But that's what sets me apart from all the others." ]
+            ? [ "<20>{#p/mettaton}{#e/mettaton/24}{#a.la/3}{#a.ra/0}别人会轻言放弃，\n但我可不会愿赌服输。" ]
             : SAVE.data.b.a_state_hapstablook
             ? [ "<20>{#p/mettaton}It's an emotional rollercoaster!" ]
             : iFancyYourVilliany()
@@ -7494,7 +7494,7 @@ export default {
             : [ "<20>{#p/mettaton}I'll be the galaxy's superstar!" ],
       turnTalk4: () =>
          world.bad_robot
-            ? [ "<20>{#p/mettaton}{#e/mettaton/19}{#a.la/8}{#a.ra/8}I couldn't give up even if I wanted to..." ]
+            ? [ "<20>{#p/mettaton}{#e/mettaton/19}{#a.la/8}{#a.ra/8}只有这样，\n我才能脱颖而出。" ]
             : SAVE.data.b.a_state_hapstablook
             ? [ "<20>{#p/mettaton}It's a shame things had to be this way..." ]
             : iFancyYourVilliany()
@@ -7505,7 +7505,7 @@ export default {
       turnTalk5: () =>
          world.bad_robot
             ? [
-                 "<20>{#p/mettaton}{#e/mettaton/17}{#a.la/9}{#a.ra/10}Now just you watch.\nI'll tear that rotten organ right out of your body!"
+                 "<20>{#p/mettaton}{#e/mettaton/17}{#a.la/9}{#a.ra/10}现在，就让我亲手\n把那腐烂的心肠\n从你身体扯出！"
               ]
             : SAVE.data.b.a_state_hapstablook
             ? [
@@ -7526,8 +7526,8 @@ export default {
       turnTalk6: () =>
          world.bad_robot
             ? [
-                 '<20>{#p/mettaton}{#e/mettaton/18}{#a.la/8}{#a.ra/8}What?\nYou call that cold thing a heart?',
-                 '<20>{#p/mettaton}{#e/mettaton/30}{#a.la/9}{#a.ra/10}... no.\nLet me show you what a REAL one looks like.'
+                 '<20>{#p/mettaton}{#e/mettaton/18}{#a.la/8}{#a.ra/8}什么？\n那又冷又硬的东西，\n还配叫“心”？',
+                 '<20>{#p/mettaton}{#e/mettaton/30}{#a.la/9}{#a.ra/10}...呵。\n给你瞧瞧，\n什么才是真正的“心”。'
               ]
             : SAVE.data.b.a_state_hapstablook
             ? [ '<20>{#p/mettaton}Not so simple, is it?', '<20>... perhaps a heart to heart will lead us to the answer.' ]
@@ -7547,7 +7547,7 @@ export default {
             : [ '<20>{#p/mettaton}So you DO like multiple choice.', "<20>{#p/mettaton}Well, you won't like this!" ],
       turnTalk7: () =>
          world.bad_robot
-            ? [ "<20>{#p/mettaton}{#e/mettaton/26}{#a.la/8}{#a.ra/8}It's only a matter of time..." ]
+            ? [ "<20>{#p/mettaton}{#e/mettaton/26}{#a.la/8}{#a.ra/8}尽情垂死挣扎吧..." ]
             : SAVE.data.b.a_state_hapstablook
             ? [ "<20>{#p/mettaton}It's not like I never loved the old life." ]
             : iFancyYourVilliany()
@@ -7557,7 +7557,7 @@ export default {
             : [ "<20>{#p/mettaton}The battle's only just begun!" ],
       turnTalk8: () =>
          world.bad_robot
-            ? [ '<20>{#p/mettaton}{#e/mettaton/18}{#a.la/8}{#a.ra/8}Until you inevitably lose to me.' ]
+            ? [ '<20>{#p/mettaton}{#e/mettaton/18}{#a.la/8}{#a.ra/8}迟早，\n你将败在我的手下。' ]
             : SAVE.data.b.a_state_hapstablook
             ? [ "<20>{#p/mettaton}But it wasn't exactly glamorous, either..." ]
             : iFancyYourVilliany()
@@ -7567,7 +7567,7 @@ export default {
             : [ '<20>{#p/mettaton}Turn it up to eleven!' ],
       turnTalk9: () =>
          world.bad_robot
-            ? [ '<20>{#p/mettaton}{#e/mettaton/9}{#a.la/0}{#a.ra/5}Then, our kind will get to see the stars...' ]
+            ? [ '<20>{#p/mettaton}{#e/mettaton/9}{#a.la/0}{#a.ra/5}那时，\n我族就能重见天日。' ]
             : SAVE.data.b.a_state_hapstablook
             ? [ '<20>{#p/mettaton}Whatever, Who cares!' ]
             : !world.badder_lizard
@@ -7575,7 +7575,7 @@ export default {
             : [ '<20>{#p/mettaton}Destruction!\nAnnihilation!\nArmageddon!' ],
       turnTalk10: () =>
          world.bad_robot
-            ? [ "<20>{#p/mettaton}{#e/mettaton/1}{#a.la/1}{#a.ra/7}... and I'm the one who's going to send them there!" ]
+            ? [ "<20>{#p/mettaton}{#e/mettaton/1}{#a.la/1}{#a.ra/7}...而我，就是帮他们\n摆脱桎梏的英雄！" ]
             : SAVE.data.b.a_state_hapstablook
             ? [ "<20>{#p/mettaton}Nobody, that's who!" ]
             : !world.badder_lizard
@@ -7584,8 +7584,8 @@ export default {
       turnTalk11: () =>
          world.bad_robot
             ? [
-                 "<20>{#p/mettaton}{#e/mettaton/15}{#a.la/8}{#a.ra/8}It's a shame, really.\nAlphys, Asgore, even my cousins...",
-                 '<20>{#e/mettaton/12}{#a.la/8}{#a.ra/8}Those closest to me are all quick to avoid conflict.'
+                 "<20>{#p/mettaton}{#e/mettaton/15}{#a.la/8}{#a.ra/8}真是遗憾，我身边的人，\n只要遇到点困难\n全就躲得老远。",
+                 '<20>{#e/mettaton/12}{#a.la/8}{#a.ra/8}艾菲斯，艾斯戈尔，\n还有那堆表亲，\n全是一个熊样。'
               ]
             : SAVE.data.b.a_state_hapstablook
             ? [ "<20>{#p/mettaton}Let's just take a moment to think." ]
@@ -7597,8 +7597,8 @@ export default {
       turnTalk12: () =>
          world.bad_robot
             ? [
-                 "<20>{#p/mettaton}{#e/mettaton/13}{#a.la/8}{#a.ra/8}But me?\nI don't play by their lovey-dovey rules.",
-                 '<20>{#p/mettaton}{#e/mettaton/23}{#a.la/1}{#a.ra/6}I get straight to the heart of it!'
+                 "<20>{#p/mettaton}{#e/mettaton/13}{#a.la/8}{#a.ra/8}而我呢？\n我可不搞他们\n卿卿我我那一套。",
+                 '<20>{#p/mettaton}{#e/mettaton/23}{#a.la/1}{#a.ra/6}而是切中要害\n直入核心！'
               ]
             : SAVE.data.b.a_state_hapstablook
             ? [
@@ -7619,8 +7619,8 @@ export default {
       turnTalk13: () =>
          world.bad_robot
             ? [
-                 '<20>{#p/mettaton}{#e/mettaton/26}{#a.la/8}{#a.ra/8}... jeez.',
-                 "<20>{#e/mettaton/25}{#a.la/8}{#a.ra/8}You really are an annoying little bug, aren't you?"
+                 '<20>{#p/mettaton}{#e/mettaton/26}{#a.la/8}{#a.ra/8}...切。',
+                 "<20>{#e/mettaton/25}{#a.la/8}{#a.ra/8}你还不知道\n自己就是个招人烦的\n烂虫子吗？"
               ]
             : SAVE.data.b.a_state_hapstablook
             ? [ '<20>{#p/mettaton}A... and besides, how can I even trust them now?' ]
@@ -7630,8 +7630,8 @@ export default {
       turnTalk14: () =>
          world.bad_robot
             ? [
-                 '<20>{#p/mettaton}{#e/mettaton/15}{#a.la/8}{#a.ra/8}But hey, you know what they say about a bug, right?',
-                 "<20>{#p/mettaton}{#e/mettaton/13}{#a.la/9}{#a.ra/10}It's just another problem that needs fixing."
+                 '<20>{#p/mettaton}{#e/mettaton/15}{#a.la/8}{#a.ra/8}但你知道，\n大家对于你这种虫豸\n是什么态度，对吧？',
+                 "<20>{#p/mettaton}{#e/mettaton/13}{#a.la/9}{#a.ra/10}就是一个\n亟待解决的祸患而已。"
               ]
             : SAVE.data.b.a_state_hapstablook
             ? [ "<20>{#p/mettaton}I d-don't... know what to think anymore..." ]
@@ -7643,9 +7643,9 @@ export default {
       turnTalk15: () =>
          world.bad_robot
             ? [
-                 "<20>{#p/mettaton}{#e/mettaton/15}{#a.la/10}{#a.ra/0}Look.\nI don't blame you for fighting so valiantly.",
-                 '<20>{#p/mettaton}{#e/mettaton/19}{#a.la/0}{#a.ra/10}But, and I mean this in the best possible way...',
-                 "<20>{#p/mettaton}{#e/mettaton/17}{#a.la/8}{#a.ra/8}You'd have better chances against a wall of reinforced polycarbide."
+                 "<20>{#p/mettaton}{#e/mettaton/15}{#a.la/10}{#a.ra/0}说实话，\n我挺佩服你这股\n负隅顽抗的劲。",
+                 '<20>{#p/mettaton}{#e/mettaton/19}{#a.la/0}{#a.ra/10}不过，\n给你个温馨提示...',
+                 "<20>{#p/mettaton}{#e/mettaton/17}{#a.la/8}{#a.ra/8}你去打力场，\n都比在这对付我\n来得实在。"
               ]
             : SAVE.data.b.a_state_hapstablook
             ? [ "<20>{#p/mettaton}Could it be that they're tr... truly sorry?" ]
@@ -7657,8 +7657,8 @@ export default {
       turnTalk16: () =>
          world.bad_robot
             ? [
-                 "<20>{#p/mettaton}{#e/mettaton/20}{#a.la/0}{#a.ra/0}What's that?\nYou don't care what I have to say?",
-                 '<20>{#p/mettaton}{#e/mettaton/17}{#a.la/8}{#a.ra/8}... feh.\nYour loss, darling!'
+                 "<20>{#p/mettaton}{#e/mettaton/20}{#a.la/0}{#a.ra/0}怎么了？\n听我说话耳根子难受？",
+                 '<20>{#p/mettaton}{#e/mettaton/17}{#a.la/8}{#a.ra/8}...哼。\n真可惜啊，亲！'
               ]
             : SAVE.data.b.a_state_hapstablook
             ? [ '<20>{#p/mettaton}Or is it ju... just a ploy to get into the spotlight?' ]
@@ -7674,9 +7674,9 @@ export default {
       turnTalk18: () =>
          world.bad_robot
             ? [
-                 '<20>{#p/mettaton}{#e/mettaton/14}{#a.la/3}{#a.ra/0}Oh well.\nSome people just never learn...',
-                 "<20>{#e/mettaton/13}{#a.la/8}{#a.ra/8}But that's enough out of me.",
-                 "<20>{#e/mettaton/7}{#a.la/9}{#a.ra/10}I'll let my heart take it from here!"
+                 '<20>{#p/mettaton}{#e/mettaton/14}{#a.la/3}{#a.ra/0}果然。\n有的人就是不知悔改...',
+                 "<20>{#e/mettaton/13}{#a.la/8}{#a.ra/8}不过\n我也懒得跟你废话了。",
+                 "<20>{#e/mettaton/7}{#a.la/9}{#a.ra/10}从现在开始，\n我会用心干掉你！"
               ]
             : [ '<20>{#p/mettaton}{#e/mettaton/13}The show must go on...!' ],
       audienceRec0: () =>
@@ -7790,31 +7790,31 @@ export default {
             : [ "<20>{*}{#p/mettaton}{#e/mettaton/27}... you'll realize not everything's going to go your way!{^20}{%}" ],
       turnTalkX1a: [ '<20>{#p/mettaton}{#e/mettaton/19}{#a.la/8}{#a.ra/8}...？' ],
       turnTalkX1b: [
-         '<20>{#p/mettaton}{#e/mettaton/15}{#a.la/0}{#a.ra/0}... of course.',
-         "<20>{#p/mettaton}{#e/mettaton/13}{#a.la/8}{#a.ra/8}You thought I'd be done for without the wires... right?",
-         '<20>{#p/mettaton}{#e/mettaton/20}{#a.la/0}{#a.ra/10}Oh, darling... you poor, poor little excuse of a child.',
-         "<20>{#p/mettaton}{#e/mettaton/23}{#a.la/10}{#a.ra/0}You simply couldn't be more wrong.",
-         "<20>{#p/mettaton}{#e/mettaton/24}{#a.la/2}{#a.ra/3}All this time, I've been absorbing the CORE's power...",
-         "<20>{#p/mettaton}{#e/mettaton/30}{#a.la/8}{#a.ra/8}Did you really think I'd let it go to waste?"
+         '<20>{#p/mettaton}{#e/mettaton/15}{#a.la/0}{#a.ra/0}...果然。',
+         "<20>{#p/mettaton}{#e/mettaton/13}{#a.la/8}{#a.ra/8}你以为没有这些电线\n我就完了，是不是？",
+         '<20>{#p/mettaton}{#e/mettaton/20}{#a.la/0}{#a.ra/10}哎呀，您可真苯...\n蠢得不能再蠢的小崽子。',
+         "<20>{#p/mettaton}{#e/mettaton/23}{#a.la/10}{#a.ra/0}大错特错。",
+         "<20>{#p/mettaton}{#e/mettaton/24}{#a.la/2}{#a.ra/3}这段时间，我已经把\n整个核心的力量\n全吸了过来...",
+         "<20>{#p/mettaton}{#e/mettaton/30}{#a.la/8}{#a.ra/8}这么多的能量，\n可不能白白浪费了。"
       ],
-      turnTalkX1c: [ "<20>{*}{#p/mettaton}{#e/mettaton/27}{#a.la/8}{#a.ra/8}Let's see how you like me NOW!" ],
+      turnTalkX1c: [ "<20>{*}{#p/mettaton}{#e/mettaton/27}{#a.la/8}{#a.ra/8}就让我瞧瞧\n你现在还有什么能耐？" ],
       turnTalkX2: [
-         '<20>{#p/mettaton}{#e/mettaton/26}... ugh...',
-         '<20>{#e/mettaton/25}You beat me.',
-         '<20>{#e/mettaton/19}After all of that, I underestimated you... again.',
-         "<20>{#e/mettaton/13}But that's okay.",
-         '<20>{#e/mettaton/14}Someone, somewhere out there...',
-         "<20>{#e/mettaton/19}They'll put a stop to this madness.",
-         '<20>{#e/mettaton/9}And when that time comes...',
-         "<20>{#e/mettaton/10}We'll all..." 
+         '<20>{#p/mettaton}{#e/mettaton/26}...呃啊...',
+         '<20>{#e/mettaton/25}你赢了。',
+         '<20>{#e/mettaton/19}看来，我...\n又低估你了。',
+         "<20>{#e/mettaton/13}不过，没关系。",
+         '<20>{#e/mettaton/14}一定，一定有其他人...\n在某处...',
+         "<20>{#e/mettaton/19}等待着你，\n等待着彻底终结\n这场闹剧。",
+         '<20>{#e/mettaton/9}到那时...',
+         "<20>{#e/mettaton/10}自由..." 
       ],
       turnTalkX3: [
          '<20>{#p/mettaton}{#e/mettaton/26}...难以置信...',
          "<20>{#e/mettaton/25}我都来不及使上全力。",
-         "<20>{#e/mettaton/10}不过... 也许这\n才是最好的结果吧。",
+         "<20>{#e/mettaton/10}不过...\n也许这样反而更好。",
          '<20>{#e/mettaton/9}...\n毕竟...',
-         '<20>{#e/mettaton/18}If there really is no hope for us here...',
-         "<20>{#e/mettaton/10}Then maybe we should've just let you win.",
+         '<20>{#e/mettaton/18}假如我们真的\n已经毫无希望...',
+         "<20>{#e/mettaton/10}那还不如就此\n放弃抵抗。",
          '<20>{#e/mettaton/9}...',
          '<20>{#e/mettaton/9}唉...'
       ],
@@ -12006,7 +12006,7 @@ export default {
             SAVE.data.b.ubershortcut
                ? [ '<32>{#p/human}* (The air is calm and peaceful, filling you with determination.)' ]
                : SAVE.data.n.plot < 68
-               ? [ "<32>{#p/human}* （对这场演出的盛大收场满怀期待，\n  你充满了决心。）" ]
+               ? [ "<32>{#p/human}* （对镁塔顿的压轴好戏满怀期待，\n  你充满了决心。）" ]
                : SAVE.data.n.plot === 72
                ? [
                     '<32>{#p/human}* （核心的能量即将耗竭...）',

@@ -252,7 +252,7 @@ export default {
       小羊: "...",
       艾斯利: "...",
 
-      ws3917: "6",
+      ws3917: "Thanks for playing OUTERTALE!",
       支持中文: "Please select \"YES\"."
    },
 

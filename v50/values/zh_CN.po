@@ -352,8 +352,10 @@ msgstr "这没啥不合适的！！"
 msgid "what?"
 msgstr "啥？"
 
-msgid "6"
+msgid "Thanks for playing OUTERTALE!"
 msgstr ""
+"欢迎游玩域外传说！如果遇到Bug\n"
+"及时到交流群797416533反馈哦。"
 
 msgid "Please select \"YES\"."
 msgstr "请选择“是”。"

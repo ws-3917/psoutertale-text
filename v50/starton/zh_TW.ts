@@ -2732,13 +2732,13 @@ export default {
                ? {
                     a: '壯魚91',
                     b: '今天',
-                    c: 'blooky，快點離開這。\n我不想看到你也跟著受傷。'
+                    c: '小幽，快點離開這。\n我不想看到你也跟著受傷。'
                  }
                : world.dead_skeleton
                ? {
                     a: '壯魚91',
                     b: '今天',
-                    c: 'blooky，papyrus不在了。\n我會讓那人類血債血還。'
+                    c: '小幽，papyrus不在了。\n我會讓那人類血債血償。'
                  }
                : {
                     a: '壯魚91',
@@ -2754,7 +2754,7 @@ export default {
                  }
                : SAVE.data.n.plot === 72
                ? {
-                    a: '_Sp4ceAdv3ntur3r_',
+                    a: '_舟亢忝洐_',
                     b: '今天',
                     c: '< 使用者名稱更新 >\n原名：_摋掱亾耦_\n現在：_舟亢忝洐_'
                  }

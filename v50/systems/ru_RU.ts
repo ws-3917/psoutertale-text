@@ -2,7 +2,7 @@
 
 export default {
    disclaimer: {
-      title: "- DISCLAIMER -",
+      title: "- ДИСКЛЕЙМЕР -",
       content: "1. PS!OUTERTALE is made by Spacey_432. \nAnd our team is working on the Chinese translation. \n2. If you find any untranslated texts or dialogues, \nplease don't complain and call us lazy. \n3. Stop asking extremely stupid questions\n(like \"How do I change the language to Chinese?\", \n\"How do I kill Toriel?\", or \"How do I extract the game?\").\nThese questions are already in the FAQ. \nOur translators don\'t have time for this nonsense.\"",
    },
    battle: {
@@ -373,12 +373,12 @@ export default {
          [
             '§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§',
             'Alden',
-            '§fill=#808080§За то что всегда был рядом в момент нужды, и учил меня как стать лучше.§fill=#fff§'
+            '§fill=#808080§For being there for me when I\nneed someone to lean on, and\nteaching me life lessons that\nhave made me a better person.§fill=#fff§'
          ],
          [
             '§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§',
             'My Cocoa',
-            '§fill=#808080§За то что ты один из \nсамых приветливых людей которых я знаю,\nверу в моё виденье и вдохновение завершить игру.§fill=#fff§'
+            '§fill=#808080§For being one of the friendliest\npeople I know, the first person\nto believe in my vision, and\ninspiring me to finish the game.§fill=#fff§'
          ],
          [
             '§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§',
@@ -810,15 +810,15 @@ export default {
          'To whom it may concern,\n\nThis game contains §fill=#ff0§flashing images§fill=#fff§\nwhich may be reduced via the\n§fill=#ff0§settings menu§fill=#fff§.\n\n',
       epilepsyKeys: '§fill=#808080§Press [Z or ENTER] to Continue',
 
-      quitText1: 'Уходим',
-      quitText2: 'Уходим.',
-      quitText3: 'Уходим..',
+      quitText1: 'Выходим',
+      quitText2: 'Выходим.',
+      quitText3: 'Выходим..',
 
       real1: [
          [
-            'Спасибо за то, что вы поиграли в Outertale.',
-            'Для меня, работа над этим проектом была честью,',
-            'и удовольствием.'
+            'Thank you for playing Outertale.',
+            'Working on this project has been an honor,',
+            'and a pleasure on my part.'
          ],
          ['When I started this journey, I never', "thought I'd get this far, but here we", 'are anyway, at the end.'],
          [
@@ -883,10 +883,10 @@ export default {
    general: {
       asriel: 'Азриель',
       asriel_location: 'Забвение',
-      disabled: 'ВЫКЛЮЧЕН',
-      enabled: 'ВКЛЮЧЁН',
+      disabled: 'ВКЛЮЧЕНЫ',
+      enabled: 'ВЫКЛЮЧЕНЫ',
       finish: 'Нажмите [X] чтобы Завершить',
-      frisk: 'Frisk',
+      frisk: 'Фриск',
       g: 'З',
       hp: 'ОЗ',
       inf: 'INF',
@@ -924,7 +924,7 @@ export default {
       heal5: '* (You gained $(x) HP.)',
 
       item1: 'ИСП',
-      item2: 'ОСНАЩАТЬ',
+      item2: 'ОСНАСТИТЬ',
       item3: 'ИНФО',
       item4: 'ВЫБРОС',
 
@@ -949,7 +949,7 @@ export default {
       settings3a: 'РУССКИЙ',
       settings4: 'ЗВУКОВЫЕ ЭФФЕКТЫ',
       settings5: 'МУЗЫКА',
-      settings6: 'ЭПИЧНЫЙ ГРАФОН',
+      settings6: 'СПЕЦ. ЭФФЕКТЫ',
       settings7: 'МИГАЮЩИЕ ИЗОБРАЖЕНИЯ',
       settings7a: 'ОБЫЧНЫЕ',
       settings7b: 'УМЕНЬШЕННЫЕ',
@@ -988,7 +988,7 @@ export default {
       stat8: '§fill=#ff0§Внимание:\nНе-каноничная\nлиния времени.',
       stat9: 'УБИТО',
       stat10: 'ЗАПУГАНО',
-      stat11: 'ЗАИГРАНО',
+      stat11: 'ФЛИРТЫ',
       stat12: 'СТАТУС',
       stat13: '\"$(x)\"',
 

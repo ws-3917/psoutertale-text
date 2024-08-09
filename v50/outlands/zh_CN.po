@@ -2739,7 +2739,7 @@ msgid "<32>* Seems like the right size for Toriel."
 msgstr "<32>* 大小正好适合Toriel。"
 
 msgid "<25>{#p/toriel}{#n1}* Ah, there you are."
-msgstr "<25>{#p/toriel}{#n1}* 啊，你醒了。"
+msgstr "<25>{#p/toriel}{#n1}* 啊，来得正好。"
 
 msgid "<25>* I have left your breakfast on the table for you."
 msgstr ""

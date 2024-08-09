@@ -329,7 +329,7 @@ msgstr ""
 msgid "what?"
 msgstr ""
 
-msgid "6"
+msgid "Thanks for playing OUTERTALE!"
 msgstr ""
 
 msgid "Please select \"YES\"."

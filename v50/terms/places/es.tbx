@@ -12,15 +12,15 @@
         <body>
             <termEntry id="Homeland">
                 <langSet xml:lang="en"><tig><term>Krios</term></tig></langSet>
-                <langSet xml:lang="it"><tig><term></term></tig></langSet>
+                <langSet xml:lang="es"><tig><term></term></tig></langSet>
             </termEntry>
             <termEntry id="New World Star System">
                 <langSet xml:lang="en"><tig><term>Kasterborous</term></tig></langSet>
-                <langSet xml:lang="it"><tig><term></term></tig></langSet>
+                <langSet xml:lang="es"><tig><term></term></tig></langSet>
             </termEntry>
             <termEntry id="New World Planet">
                 <langSet xml:lang="en"><tig><term>Eurybia</term></tig></langSet>
-                <langSet xml:lang="it"><tig><term></term></tig></langSet>
+                <langSet xml:lang="es"><tig><term></term></tig></langSet>
             </termEntry>
         </body>
     </text>
