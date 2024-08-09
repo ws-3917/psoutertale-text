@@ -316,3 +316,21 @@ msgstr ""
 
 msgid "..."
 msgstr ""
+
+msgid "...The true name?"
+msgstr ""
+
+msgid "This name is... incorrect?"
+msgstr ""
+
+msgid "I DON'T THINK IT'S INAPPROPRIATE!!"
+msgstr ""
+
+msgid "what?"
+msgstr ""
+
+msgid "6"
+msgstr ""
+
+msgid "Please select \"YES\"."
+msgstr ""

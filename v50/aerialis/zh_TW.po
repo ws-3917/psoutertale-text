@@ -7878,7 +7878,7 @@ msgid "<32>* \"...\""
 msgstr "<32>* 「...」"
 
 msgid "<32>* \"The flower's gone.\""
-msgstr ""
+msgstr "<32>* 「那花不見了。」"
 
 msgid "<25>{#p/asriel2}{#f/9}* I wonder what happened here."
 msgstr ""
@@ -19953,10 +19953,10 @@ msgid "Acquired from Bratty and Catty's shop in the rec center."
 msgstr ""
 
 msgid "POSTS (NEWEST FIRST)"
-msgstr ""
+msgstr "帖子（按時間排序）"
 
 msgid "PRIVATE MESSAGES (NEWEST FIRST)"
-msgstr ""
+msgstr "私聊（按時間排序）"
 
 msgid "Press [X] to Finish"
 msgstr "按 [X] 返回"

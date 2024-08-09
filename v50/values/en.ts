@@ -191,28 +191,90 @@ export default {
       // citadel
       asgor: 'You can?',
       asgore: 'You cannot.',
-      asriel: '...'
+      asriel: '...',
+      asrie: "...",
+
+      char: "...The true name?",
+      查拉: "The true name.",
+      猹: "...The true name?",
+      卡拉: "...The true name?",
+      恰拉: "...The true name?",
+      fris: "This name is... incorrect?",
+      frask: "This name is... incorrect?",
+      弗里斯克: "This name is incorrect.",
+      福: "This name is... incorrect?",
+      福瑞斯克: "This name is... incorrect?",
+
+      羊妈: "Well... I suppose that works...",
+      托丽: "Well... I suppose that works...",
+      托丽尔: "I think you should think of your own name, my child.",
+      闪闪: "Nice try, idiot.",
+
+      papyrus: "I DON'T THINK IT'S INAPPROPRIATE!!",
+      帕: "I'LL ALLOW IT!!!!",
+      帕帕: "I'LL ALLOW IT!!!!",
+      帕派肉丝: "I'LL ALLOW IT!!!!",
+      帕帕肉丝: "I'LL ALLOW IT!!!!",
+      帕派瑞: "I'LL ALLOW IT!!!!",
+      帕派瑞斯: "I DON'T THINK IT'S INAPPROPRIATE!!",
+      阿派瑞斯: "I'LL ALLOW IT!!!!",
+      杉: "ok.",
+      衫: "ok.",
+      杉哥: "ok.",
+      衫哥: "ok.",
+      杉斯: "nope.",
+      衫斯: "nope.",
+      snas: "what?",
+      鳝丝: "what?",
+      衫衫: "what?",
+      杉杉: "what?",
+
+      鱼姐: "Ngah, fine.",
+      安戴: "Ngah, fine.",
+      安戴因: "Get your OWN name!",
+
+      宅龙: "Uh.... OK?",
+      艾菲: "Uh.... OK?",
+      艾菲斯: "D-don't do that.",
+      meta: "OOOOH!!! ARE YOU PROMOTING MY BRAND?",
+      镁塔: "OOOOH!!! ARE YOU PROMOTING MY BRAND?",
+      镁塔顿: "OOOOH!!! ARE YOU PROMOTING MY BRAND?",
+      慢吞吞: "OOOOH!!! ARE YOU PROMOTING MY BRAND?",
+      马婷婷: "OOOOH!!! ARE YOU PROMOTING MY BRAND?",
+      慢腾腾: "OOOOH!!! ARE YOU PROMOTING MY BRAND?",
+      马蹄铁: "OOOOH!!! ARE YOU PROMOTING MY BRAND?",
+      马桶套: "OOOOH!!! ARE YOU PROMOTING MY BRAND?",
+
+      羊爸: "You can?",
+      艾斯戈: "You can?",
+      艾斯戈尓: "You cannot.",
+      艾斯利尓: "...",
+      小羊: "...",
+      艾斯利: "...",
+
+      ws3917: "6",
+      支持中文: "Please select \"YES\"."
    },
 
    // END-TRANSLATE
    nameChoiceFonts: {
-      san: [ content.fComicSans, 16 ],
-      sans: [ content.fComicSans, 16 ],
-      papyrs: [ content.fPapyrus, 16 ],
-      papyru: [ content.fPapyrus, 16 ]
+      san: [content.fComicSans, 16],
+      sans: [content.fComicSans, 16],
+      papyrs: [content.fPapyrus, 16],
+      papyru: [content.fPapyrus, 16]
    } as Partial<CosmosKeyed<[CosmosFont, number]>>,
-   nameChoiceRestrictions: [ '', 'alphys', 'asgore', 'asriel', 'frisk', 'sans', 'toriel', 'twinkl', 'twinky', 'undyne' ],
+   nameChoiceRestrictions: ['', 'alphys', 'asgore', 'asriel', 'frisk', 'sans', 'toriel', 'twinkl', 'twinky', 'undyne'],
    namePromptX: 0,
    nameValueY: 0,
    nameLetterMap: [
-      [ 'A', 'B', 'C', 'D', 'E', 'F', 'G' ],
-      [ 'H', 'I', 'J', 'K', 'L', 'M', 'N' ],
-      [ 'O', 'P', 'Q', 'R', 'S', 'T', 'U' ],
-      [ 'V', 'W', 'X', 'Y', 'Z' ],
-      [ 'a', 'b', 'c', 'd', 'e', 'f', 'g' ],
-      [ 'h', 'i', 'j', 'k', 'l', 'm', 'n' ],
-      [ 'o', 'p', 'q', 'r', 's', 't', 'u' ],
-      [ 'v', 'w', 'x', 'y', 'z' ]
+      ['A', 'B', 'C', 'D', 'E', 'F', 'G'],
+      ['H', 'I', 'J', 'K', 'L', 'M', 'N'],
+      ['O', 'P', 'Q', 'R', 'S', 'T', 'U'],
+      ['V', 'W', 'X', 'Y', 'Z'],
+      ['a', 'b', 'c', 'd', 'e', 'f', 'g'],
+      ['h', 'i', 'j', 'k', 'l', 'm', 'n'],
+      ['o', 'p', 'q', 'r', 's', 't', 'u'],
+      ['v', 'w', 'x', 'y', 'z']
    ],
    nameLetterPosition: (index: number) => {
       // variables
@@ -243,7 +305,7 @@ export default {
    saveSaveX: 0,
    settingsHeaderX: 0,
    statBoxSizeX: 0,
-   textFormat (text: string, length = Infinity, plain = false) {
+   textFormat(text: string, length = Infinity, plain = false) {
       let output = '';
       const raw = CosmosTyper.strip(text);
       const indent = raw[0] === '*';
@@ -281,20 +343,20 @@ export default {
       return plain
          ? output
          : output
-              .replace(/-/g, '-{^2}')
-              .replace(/,([\n ])/g, ',{^3}$1')
-              .replace(/~([\n ])/g, '~{^4}$1')
-              .replace(/\n\*/g, '{^5}\n*')
-              .replace(/([.?!])([\n ])/g, '$1{^5}$2')
-              .replace(/:([\n ])/g, ':{^6}$1');
+            .replace(/-/g, '-{^2}')
+            .replace(/,([\n ])/g, ',{^3}$1')
+            .replace(/~([\n ])/g, '~{^4}$1')
+            .replace(/\n\*/g, '{^5}\n*')
+            .replace(/([.?!])([\n ])/g, '$1{^5}$2')
+            .replace(/:([\n ])/g, ':{^6}$1');
    },
-   textLength (text: string) {
+   textLength(text: string) {
       return text.length;
    },
-   textLengthPrecise (text: string) {
+   textLengthPrecise(text: string) {
       return text.length;
    },
-   textPunctuation (char: string) {
+   textPunctuation(char: string) {
       return /[\s\.\,\!\?\~\*\-]/g.test(char);
    }
 };

@@ -653,8 +653,8 @@ export default {
             '<32>* “今天，天空中突然出现\n   一颗很耀眼的星星。”',
             '<32>* “超级耀眼。”',
             '<32>* “我很奇怪，为什么大部分星星\n   平时都没有那么亮呢？”',
-            '<32>* \"Also we are gonna move to the new citadel when its made.\"',
-            '<32>* \"I saw the blue prints of it, it looks amazing so far!\"',
+            '<32>* “对了，我们马上就要搬到\n   首塔的新家了。”',
+            '<32>* “光看首塔的蓝图，我就觉得，\n   那里真漂亮啊！”',
             '<32>* “住在那里，\n   肯定比住厂房舒服多了。”'
          ],
          [
@@ -1047,7 +1047,7 @@ export default {
          '<25>{#p/toriel}* 这个房间里的谜题\n  和之前的都不太一样。',
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
             ? '<25>{#f/3}* 说不定，比起应付人偶...\n  这个谜题更合你胃口？'
-            : '<25>{#f/1}* Do you think you can solve it?'
+            : '<25>{#f/1}* 有信心解决它吗？'
       ],
       danger_puzzle2: () =>
          world.darker
@@ -2404,8 +2404,8 @@ export default {
             ? [ '<32>{#p/human}* （你往里面瞅了瞅。）', "<32>{#p/basic}* 只是个放袜子的抽屉。" ]
             : [
                  '<32>{#p/human}* （你往里面瞅了瞅。）',
-                 '<32>{#p/basic}* Scandalous!',
-                 "<32>* It's Toriel's sock collection.\n* A little messy...",
+                 '<32>{#p/basic}* 真羞人！',
+                 "<32>* 这里面全是托丽尔收藏的袜子。 \n* 有点乱...",
                  world.meanie
                     ? choicer.create('* （让它们更乱点吗？）', "弄乱", "算了")
                     : choicer.create('* （整理一下吗？）', "整理", "算了")
@@ -3228,7 +3228,7 @@ export default {
                        '<32>* “制作它其实非常简单，\n   只需五个步骤：”',
                        '<32>* “首先，轻柔地展开酥脆的派底，\n   在烘焙盘中铺平。”',
                        '<32>* “然后，将香浓的蒸发奶、\n   新鲜的鸡蛋和选料香料\n   混合在一起，搅拌至丝滑细腻。”',
-                       '<32>* \"Then, take several well-aged snails, and thoroughly incorporate into the mixture.\"',
+                       '<32>* “接着，小心地将几只新鲜蜗牛\n   加入到之前调制好的香浓奶糊中。 \n   确保它们完全浸入。 ”',
                        '<32>* “之后，将这层混合物\n   轻轻倒入准备好的派底，\n   均匀铺开。”',
                        '<32>* “最后，将面团切成细条，\n   编织成优雅的格子形状，\n   覆盖在派面上。”',
                        '<32>* “现在，将派放到烤箱中，\n   烤至金黄酥脆。”',

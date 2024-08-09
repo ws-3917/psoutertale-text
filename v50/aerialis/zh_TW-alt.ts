@@ -3697,7 +3697,7 @@ export default {
                     '<32>{#p/basic}* 「活動日誌，克歷615年8月」',
                     '<32>* 「該實驗對象有一小段時間\n   無人看管。」',
                     '<32>* 「...」',
-                    '<32>* \"The flower\'s gone.\"',
+                    '<32>* 「那花不見了。」',
                     ...(world.goatbro && SAVE.flag.n.ga_asrielTerminal1++ < 1
                        ? [ '<25>{#p/asriel2}{#f/9}* I wonder what happened here.' ]
                        : [])
@@ -10093,7 +10093,7 @@ export default {
    },
 
    m_aerialis: {
-      sidebarCellPms1: () => (world.bad_lizard < 2 ? 'POSTS (NEWEST FIRST)' : 'PRIVATE MESSAGES (NEWEST FIRST)'),
+      sidebarCellPms1: () => (world.bad_lizard < 2 ? '帖子（按時間排序）' : '私聊（按時間排序）'),
       sidebarCellPms2: '按 [X] 返回',
       sidebarCellPms3: {
          alphysBadLizard: {

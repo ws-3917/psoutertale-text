@@ -203,29 +203,29 @@ export default {
       asriel: '...',
       asrie: '...',
 
-      char: "...The true name?",
+      char: "...真正的名字？",
       查拉: "真正的名字。",
-      猹: "...The true name?",
-      卡拉: "...The true name?",
-      恰拉: "...The true name?",
-      fris: "This name is... incorrect?",
-      frask: "This name is... incorrect?",
+      猹: "...真正的名字？",
+      卡拉: "...真正的名字？",
+      恰拉: "...真正的名字？",
+      fris: "这名字... 不对吧？",
+      frask: "这名字... 不对吧？",
       弗里斯克: "这名字不对。",
-      福: "This name is... incorrect?",
-      福瑞斯克: "This name is... incorrect?",
+      福: "这名字... 不对吧？",
+      福瑞斯克: "这名字... 不对吧？",
 
       羊妈: "嗯... 我想这个名字可以...",
       托丽: "嗯... 我想这个名字可以...",
       托丽尔: "我觉得，\n你应该想个自己的名字。\n我的孩子。",
       闪闪: "想得美，蠢货。",
 
-      papyrus: "I DON'T THINK IT'S INAPPROPRIATE!!",
+      papyrus: "这没啥不合适的！！",
       帕: "我准了！！！",
       帕帕: "我准了！！！",
       帕派肉丝: "我准了！！！",
       帕帕肉丝: "我准了！！！",
       帕派瑞: "我准了！！！",
-      帕派瑞斯: "I DON'T THINK IT'S INAPPROPRIATE!!",
+      帕派瑞斯: "这没啥不合适的！！",
       阿派瑞斯: "我准了！！！",
       杉: "好。",
       衫: "好。",
@@ -233,10 +233,10 @@ export default {
       衫哥: "好。",
       杉斯: "没门。",
       衫斯: "没门。",
-      snas: "what?",
-      鳝丝: "what?",
-      衫衫: "what?",
-      杉杉: "what?",
+      snas: "啥？",
+      鳝丝: "啥？",
+      衫衫: "啥？",
+      杉杉: "啥？",
 
       鱼姐: "哈啊，行行行。",
       安戴: "哈啊，行行行。",
@@ -262,7 +262,7 @@ export default {
       艾斯利: "...",
 
       ws3917: "6",
-      支持中文: "Please select \"YES\"."
+      支持中文: "请选择“是”。"
    },
 
 

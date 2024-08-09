@@ -339,3 +339,21 @@ msgstr "不可以。"
 
 msgid "..."
 msgstr "..."
+
+msgid "...The true name?"
+msgstr "...真正的名字？"
+
+msgid "This name is... incorrect?"
+msgstr "这名字... 不对吧？"
+
+msgid "I DON'T THINK IT'S INAPPROPRIATE!!"
+msgstr "这没啥不合适的！！"
+
+msgid "what?"
+msgstr "啥？"
+
+msgid "6"
+msgstr ""
+
+msgid "Please select \"YES\"."
+msgstr "请选择“是”。"

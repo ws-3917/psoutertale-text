@@ -1731,9 +1731,13 @@ msgstr ""
 
 msgid "<32>* \"Also we are gonna move to the new citadel when its made.\""
 msgstr ""
+"<32>* “对了，我们马上就要搬到\n"
+"   首塔的新家了。”"
 
 msgid "<32>* \"I saw the blue prints of it, it looks amazing so far!\""
 msgstr ""
+"<32>* “光看首塔的蓝图，我就觉得，\n"
+"   那里真漂亮啊！”"
 
 msgid "<32>* \"It will be alot better than living in the factory too.\""
 msgstr ""
@@ -2777,7 +2781,7 @@ msgstr ""
 "  这个谜题更合你胃口？"
 
 msgid "<25>{#f/1}* Do you think you can solve it?"
-msgstr ""
+msgstr "<25>{#f/1}* 有信心解决它吗？"
 
 msgid "<32>{#p/basic}* It's too tall for you to reach."
 msgstr "<32>{#p/basic}* 这台终端太高了，你够不到。"
@@ -5939,12 +5943,14 @@ msgid "<32>{#p/basic}* It's just a sock drawer."
 msgstr "<32>{#p/basic}* 只是个放袜子的抽屉。"
 
 msgid "<32>{#p/basic}* Scandalous!"
-msgstr ""
+msgstr "<32>{#p/basic}* 真羞人！"
 
 msgid ""
 "<32>* It's Toriel's sock collection.\n"
 "* A little messy..."
 msgstr ""
+"<32>* 这里面全是Toriel收藏的袜子。 \n"
+"* 有点乱..."
 
 msgid "* (Make it messier?)"
 msgstr "* （让它们更乱点吗？）"
@@ -7629,6 +7635,9 @@ msgid ""
 "<32>* \"Then, take several well-aged snails, and thoroughly incorporate into"
 " the mixture.\""
 msgstr ""
+"<32>* “接着，小心地将几只新鲜蜗牛\n"
+"   加入到之前调制好的香浓奶糊中。 \n"
+"   确保它们完全浸入。 ”"
 
 msgid "<32>* \"After that, pour the contents of the bowl into the bottom crust.\""
 msgstr ""

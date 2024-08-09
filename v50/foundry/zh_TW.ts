@@ -6073,7 +6073,7 @@ export default {
             ? [ '<32>{#p/human}* （你向Muffet調情。）\n* （Muffet笑了笑，\n  伸出幾隻手拍了拍你的頭。）' ]
             : world.flirt < 10
             ? [ '<32>{#p/human}* （你向Muffet調情。）\n* （Muffet笑了笑，\n  向你揮舞她的一些手指。）' ]
-            : [ '<32>{#p/human}* (You flirt with Muffet.)\n* (Muffet seems intrigued, but it may not be enough.)' ])
+            : [ '<32>{#p/human}* （你向Muffet調情。）\n* （Muffet看起來頗有興致，\n  但還是不夠。）' ])
       ],
       act_flirt2: [
          '<32>{#p/human}* （你向Muffet調情。）\n* （Muffet對你投向了更多目光。）'
@@ -6092,7 +6092,7 @@ export default {
       appeaseText: [
          '<33>{#p/human}* （你對Muffet提出異議。）\n* （Muffet再一次被你的話\n  所吸引。）',
          '<32>* （你說起那些天真的狗狗，\n  批判Undyne把它們編入衛隊\n  是有多不負責。）',
-         '<32>* (As such, you suggest that trusting its captain would put spider clans at risk.)',
+         '<32>* （你接著上句說，相信這種隊長\n  就如同將整個蜘蛛部落置於險境。）',
          '<32>{#p/basic}* Muffet開始仔細地考慮\n  這些情況...',
          "<32>{#p/story}* Muffet的攻速下降了！"
       ],

@@ -786,7 +786,7 @@ msgid "Emurry"
 msgstr "Emurry"
 
 msgid "Enzolos"
-msgstr ""
+msgstr "Enzolos"
 
 msgid "EvanGamesGoodman"
 msgstr "EvanGamesGoodman"
@@ -873,7 +873,7 @@ msgid "retr22800"
 msgstr "retr22800"
 
 msgid "RoCtD_14159"
-msgstr ""
+msgstr "RoCtD_14159"
 
 msgid "sonicisawesome222"
 msgstr "sonicisawesome222"
@@ -900,13 +900,13 @@ msgid "The Fallen Angel"
 msgstr "The Fallen Angel"
 
 msgid "TheAsriel"
-msgstr ""
+msgstr "TheAsriel"
 
 msgid "Wild Pasta"
 msgstr "Wild Pasta"
 
 msgid "Xiao_Akatsuki"
-msgstr ""
+msgstr "Xiao_Akatsuki"
 
 msgid "xNoodlePlayz"
 msgstr "xNoodlePlayz"
@@ -1098,7 +1098,7 @@ msgid "MUSHY"
 msgstr "MUSHY"
 
 msgid "Balgamlı Kedi & ScarletScaledDragon"
-msgstr ""
+msgstr "Balgamlı Kedi & ScarletScaledDragon"
 
 msgid ""
 "Shooting\n"
@@ -1724,7 +1724,7 @@ msgid "MUSHKETEER"
 msgstr "MUSHKETEER"
 
 msgid "Balgamlı Kedi & Ghostly"
-msgstr ""
+msgstr "Balgamlı Kedi & Ghostly"
 
 msgid ""
 "One Mushroom\n"
@@ -1796,9 +1796,15 @@ msgid ""
 "§fill=#ff0§settings menu§fill=#fff§.\n"
 "\n"
 msgstr ""
+"說明：\n"
+"\n"
+"遊戲內包含§fill=#ff0§閃爍畫面§fill=#fff§\n"
+"如果您對此十分敏感\n"
+"或無法耐受，可以通過\n"
+"§fill=#ff0§遊戲設定§fill=#fff§將其關閉。\n"
 
 msgid "§fill=#808080§Press [Z or ENTER] to Continue"
-msgstr ""
+msgstr "§fill=#808080§按[Z 或 ENTER]繼續"
 
 msgid "Quitting"
 msgstr "正在退出"
@@ -1888,7 +1894,7 @@ msgid "THE END"
 msgstr "劇終"
 
 msgid "THE END...?"
-msgstr ""
+msgstr "劇終...？"
 
 msgid "Restarting"
 msgstr "正在重啟"
@@ -1900,10 +1906,10 @@ msgid "Restarting.."
 msgstr "正在重啟.."
 
 msgid "OUTERTALE"
-msgstr ""
+msgstr "OUTERTALE / 域外傳說"
 
 msgid "OUTERTALE...?"
-msgstr ""
+msgstr "OUTERTALE...? / 域外傳說..？"
 
 msgid "GAMEPAD SETUP"
 msgstr "控制器設定"
@@ -1985,7 +1991,7 @@ msgid "Asriel"
 msgstr "Asriel"
 
 msgid "The Oblivion"
-msgstr ""
+msgstr "幻境"
 
 msgid "DISABLED"
 msgstr "關閉"

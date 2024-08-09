@@ -6073,7 +6073,7 @@ export default {
             ? [ '<32>{#p/human}* （你向玛菲特调情。）\n* （玛菲特笑了笑，\n  伸出几只手拍了拍你的头。）' ]
             : world.flirt < 10
             ? [ '<32>{#p/human}* （你向玛菲特调情。）\n* （玛菲特笑了笑，\n  向你挥舞她的一些手指。）' ]
-            : [ '<32>{#p/human}* (You flirt with Muffet.)\n* (Muffet seems intrigued, but it may not be enough.)' ])
+            : [ '<32>{#p/human}* （你向玛菲特调情。）\n* （玛菲特看起来颇有兴致，\n  但还是不够。）' ])
       ],
       act_flirt2: [
          '<32>{#p/human}* （你向玛菲特调情。）\n* （玛菲特对你投向了更多目光。）'
@@ -6092,7 +6092,7 @@ export default {
       appeaseText: [
          '<33>{#p/human}* （你对玛菲特提出异议。）\n* （玛菲特再一次被你的话\n  所吸引。）',
          '<32>* （你说起那些天真的狗狗，\n  批判安黛因把它们编入卫队\n  是有多不负责。）',
-         '<32>* (As such, you suggest that trusting its captain would put spider clans at risk.)',
+         '<32>* （你接着上句说，相信这种队长\n  就如同将整个蜘蛛部落置于险境。）',
          '<32>{#p/basic}* 玛菲特开始仔细地考虑\n  这些情况...',
          "<32>{#p/story}* 玛菲特的攻速下降了！"
       ],

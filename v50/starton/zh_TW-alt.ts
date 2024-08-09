@@ -3960,13 +3960,13 @@ export default {
          ...(world.edgy
             ? [
                  "<25>{#f/3}* 今天，我沒心思幹這事。",
-                 '<25>{#f/0}* 不過，我的兄弟...',
-                 "<25>{#f/5}* he's OVERFLOWING with energy.",
+                 '<25>{#f/0}* 不過...',
+                 "<25>{#f/5}* 我的兄弟對抓人類這事\n  可是熱情滿滿。",
                  '<25>{#f/0}* 所以，為了讓他\n  能安心在家待著...\n  我整整費了三輩子工夫。'
               ]
             : [
                  "<25>{#f/2}* 我有更好的事情要去忙。",
-                 '<25>{#f/0}* 不過，我的兄弟...',
+                 '<25>{#f/0}* 不過...',
                  '<25>{#f/5}* 儘管他不是個真正的哨兵，\n  但他確實表現得像個哨兵。',
                  "<25>{#f/0}* 實際上，我覺得\n  那邊那個就是他了。"
               ]),
@@ -5173,9 +5173,9 @@ export default {
             '<32>{#p/basic}* 他們看起來很開心。'
          ],
          s_sc_diagram: () => [
-            "<32>{#p/basic}* On the table, there's a blueprint for a force field power drain device.",
+            "<32>{#p/basic}* 桌子上有一份\n  力場削弱武器的藍圖。",
             '<32>{#p/basic}* 牆上還有其他\n  各種各樣的概念圖...',
-            '<33>{#p/basic}* A non-linear temporal accessor, a wormhole aperture stabilizer, and a monster-bound human SOUL.',
+            '<33>{#p/basic}* 一臺非線性時空訪問機，\n  一臺蟲洞孔徑穩定儀，\n  還有個被怪物靈魂綁定的人類靈魂。',
             ...(!SAVE.data.b.s_state_charasker
                ? ((SAVE.data.b.s_state_charasker = true),
                  [
@@ -9712,10 +9712,10 @@ export default {
          0,
          () => [
             '<18>{#p/papyrus}{#f/0}地板上有三臺\n平板電腦。',
-            '<18>{#p/papyrus}{#f/0}ONE ABOUT STARLING FLOWERS, ONE ABOUT WORMHOLES...',
+            '<18>{#p/papyrus}{#f/0}一臺是關於星花的，\n一臺是關於蟲洞的。',
             '<18>{#p/papyrus}{#f/4}還有一臺裡是\n科幻動漫。',
             "<18>{#p/papyrus}{#f/0}我【個人】覺得，\n這些東西都是有關聯的。",
-            '<18>{#p/papyrus}{#f/5}AS IN, THE FLOWERS GOT HERE VIA THE WORMHOLES...',
+            '<18>{#p/papyrus}{#f/5}也就是說，星花\n是通過蟲洞來的...',
             '<18>{#p/papyrus}{#f/5}就像那部科幻動漫\n預言的那樣。',
             "<18>{#p/papyrus}{#f/6}這是能一次性解釋清\n這三個東西的\n唯一辦法！",
             ...(solo()

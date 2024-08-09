@@ -851,8 +851,8 @@ export default {
 
       langPrompt: '[↑或↓] 选择语言 / [Z 或 ENTER] 确认',
       epilepsyInfo:
-         'To whom it may concern,\n\nThis game contains §fill=#ff0§flashing images§fill=#fff§\nwhich may be reduced via the\n§fill=#ff0§settings menu§fill=#fff§.\n\n',
-      epilepsyKeys: '§fill=#808080§Press [Z or ENTER] to Continue',
+         '说明：\n\n游戏内包含§fill=#ff0§闪烁画面§fill=#fff§\n如果您对此十分敏感\n或无法耐受，可以通过\n§fill=#ff0§游戏设置§fill=#fff§将其关闭。\n',
+      epilepsyKeys: '§fill=#808080§按[Z 或 ENTER]继续',
 
       quitText1: '正在退出',
       quitText2: '正在退出.',
@@ -895,14 +895,14 @@ export default {
       real2: 'Take care of yourself, \"$(x).\"',
 
       end1: '剧终',
-      end2: 'THE END...?',
+      end2: '剧终...？',
 
       restartText1: '正在重启',
       restartText2: '正在重启.',
       restartText3: '正在重启..',
 
-      title: 'OUTERTALE',
-      title_timeline: 'OUTERTALE...?'
+      title: 'OUTERTALE / 域外传说',
+      title_timeline: 'OUTERTALE...? / 域外传说..？'
    },
 
    gamepad: {
@@ -926,7 +926,7 @@ export default {
 
    general: {
       asriel: '艾斯利尔',
-      asriel_location: 'The Oblivion',
+      asriel_location: '幻境',
       disabled: '关闭',
       enabled: '开启',
       finish: '按 [X] 返回',
