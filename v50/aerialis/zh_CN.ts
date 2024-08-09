@@ -4526,7 +4526,7 @@ export default {
          coresign5: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (The sign lists off what lies in each direction.)' ]
-               : [ '<32>{#p/basic}* \"Left - Stage Four\"\n* \"Right - Elevator\"' ],
+               : [ '<32>{#p/basic}* “左方 - 第四舞台”\n* “右方 - 直达电梯”' ],
          pottedtable: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You get the sense you've seen this table somewhere else before.)" ]
@@ -7809,14 +7809,14 @@ export default {
          "<20>{#e/mettaton/10}We'll all..." 
       ],
       turnTalkX3: [
-         '<20>{#p/mettaton}{#e/mettaton/26}... unbelievable...',
-         "<20>{#e/mettaton/25}You didn't even let me use my full power.",
-         "<20>{#e/mettaton/10}But... maybe that's for the best.",
-         '<20>{#e/mettaton/9}...\nAfter all...',
+         '<20>{#p/mettaton}{#e/mettaton/26}...难以置信...',
+         "<20>{#e/mettaton/25}我都来不及使上全力。",
+         "<20>{#e/mettaton/10}不过... 也许这\n才是最好的结果吧。",
+         '<20>{#e/mettaton/9}...\n毕竟...',
          '<20>{#e/mettaton/18}If there really is no hope for us here...',
          "<20>{#e/mettaton/10}Then maybe we should've just let you win.",
          '<20>{#e/mettaton/9}...',
-         '<20>{#e/mettaton/9}Oh well...'
+         '<20>{#e/mettaton/9}唉...'
       ],
       audienceRec1: () => [
          '<21>{#p/event}铃铃，铃铃...',
@@ -12001,7 +12001,7 @@ export default {
          text: [ '<32>{#p/human}* (The cold and computerized aesthetic in this area fills you with determination.)' ]
       },
       a_core_checkpoint: {
-         name: 'Aerialis - Maintenance Zone',
+         name: '核心 - 维护区',
          text: () =>
             SAVE.data.b.ubershortcut
                ? [ '<32>{#p/human}* (The air is calm and peaceful, filling you with determination.)' ]
