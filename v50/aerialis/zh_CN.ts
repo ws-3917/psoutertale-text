@@ -35,7 +35,7 @@ export default {
          ...(SAVE.data.b.svr
             ? [ '<32>{#p/human}* (It appears the terminal is beyond your access level.)' ]
             : world.runaway
-            ? [ "<32>{#p/basic}* 核心终端。 \n* 看起来没有多少能量了。 " ]
+            ? [ "<32>{#p/basic}* 核心终端。\n* 看起来没有多少能量了。" ]
             : [
                  world.postnoot
                     ? "<32>{#p/basic}* It's a CORE terminal.\n* The atmospheric systems have been accessed recently."
@@ -647,7 +647,7 @@ export default {
                     ...[
                        [
                           '<25>{#f/1}* 嗯，呃，你-你好！',
-                          "<25>{#f/1}* 我是Alphys博士。 \n* 皇家科学部门的负责人。 ",
+                          "<25>{#f/1}* 我是Alphys博士。\n* 皇家科学部门的负责人。",
                           '<25>{#f/10}* 但是，呃，\n  我不是那些“坏家伙”！',
                           "<25>{#f/17}* 实际上，从你刚刚走出\n  外域时，我就...",
                           '<25>{#f/5}* 诶嘿，用我的安全控制台\n  “观察”你。',
@@ -679,7 +679,7 @@ export default {
                        ],
                        [
                           '<25>{#f/8}* 嗯，你-你好...',
-                          "<25>{#f/9}* 我是...Alphys博士。 \n* 皇家科学部门的负责人。 ",
+                          "<25>{#f/9}* 我是...Alphys博士。\n* 皇家科学部门的负责人。",
                           "<25>{#f/4}* 从你刚刚走出外域时，\n  我就...",
                           '<25>{#f/4}* 诶嘿，用我的安全控制台\n  “观察”你。',
                           '<25>{#f/11}* 你的战斗...\n* 你的朋友们...',
@@ -864,10 +864,10 @@ export default {
          rg1d1: () =>
             world.bad_lizard > 1
                ? [ "<32>{#p/basic}{#x1}* Yeah...\n* Guess that's kind of our job now, huh?{#x3}" ]
-               : [ "<32>{#p/basic}{#x1}* 算了吧，哥们。 \n* 我觉得那家伙都不知道\n  我们站在这呢。 {#x3}" ],
+               : [ "<32>{#p/basic}{#x1}* 算了吧，哥们。\n* 我觉得那家伙都不知道\n  我们站在这呢。{#x3}" ],
          rg1d2: [
             '<32>{#p/basic}{#x2}* 可是冰淇淋！{#x3}',
-            "<32>{#p/basic}{#x1}* 拜托，哥们。 \n* 我们不能一整天都不训练。 {#x3}"
+            "<32>{#p/basic}{#x1}* 拜托，哥们。\n* 我们不能一整天都不训练。{#x3}"
          ],
          rg1d3: [ '<32>* ...', '<32>{#x2}* 那好吧。{#x3}' ],
          rg1e: [
@@ -988,7 +988,7 @@ export default {
          barricade1x: [
             '<25>{#p/alphys}{#g/alphysInquisitive}* ...啊？',
             '<25>{#g/alphysWelp}* 路障好像...\n  自行解除了。',
-            '<25>{#g/alphysCutscene1}* 没事了！ \n* 那事情就好办多了！ '
+            '<25>{#g/alphysCutscene1}* 没事了！\n* 那事情就好办多了！'
          ],
          barricade1b1: [
             '<25>{#p/alphys}{#g/alphysFR}* ...',
@@ -1019,7 +1019,7 @@ export default {
                  ]
                : [
                     "<25>{#p/alphys}{#g/alphysCutscene3}* 噗...\n* 你在开玩笑，对吧？",
-                    "<25>* 她很敷衍他的。 \n* 不可能是正确答案的。 ",
+                    "<25>* 她很敷衍他的。\n* 不可能是正确答案的。",
                     "<25>{#g/alphysCutscene2}* 试试... Asgore。"
                  ])
          ],
@@ -1553,8 +1553,8 @@ export default {
                : world.dead_skeleton
                ? [ '<25>{#p/sans}{#g/sansNormal}* nope.' ]
                : [
-                    "<25>{#p/sans}{#g/sansLaugh1}* 蹩脚？ \n* 哇塞，mettaton，你还有脸\n  对我说教？ ",
-                    "<25>{#g/sansBlink}* 不要再如玩游戏般乱闹。 \n* 你的所有电视节目主持都是\n  一个样貌。 ",
+                    "<25>{#p/sans}{#g/sansLaugh1}* 蹩脚？\n* 哇塞，mettaton，你还有脸\n  对我说教？",
+                    "<25>{#g/sansBlink}* 不要再如玩游戏般乱闹。\n* 你的所有电视节目主持都是\n  一个样貌。",
                     "<25>{#g/sansNormal}* 但是，呃，如果我们现在\n  是在开玩笑...\n* 那就未免有点枯燥。",
                     '<25>{#g/sansLaugh1}* speaking of, i heard you tried to host a comedy show...',
                     '<25>{|}{#g/sansLaugh2}* but nobody- {%}'
@@ -3403,7 +3403,7 @@ export default {
          doublefridge1: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (You place your ear against the fridge door.)\n* (A fizzing can be heard.)' ]
-               : [ "<32>{#p/basic}* 这是个高度安全的冰箱。 \n* 两边都装满了橙汁汽水。 " ],
+               : [ "<32>{#p/basic}* 这是个高度安全的冰箱。\n* 两边都装满了橙汁汽水。" ],
          doublefridge2: () => [
             ...(SAVE.data.b.svr
                ? [ '<32>{#p/human}* (It sounds like one of the bottles inside was opened...)' ]
@@ -3446,7 +3446,7 @@ export default {
             SAVE.data.b.svr || world.bad_lizard > 1 || world.genocide || SAVE.data.n.state_foundry_undyne === 2
                ? [ "<32>{#p/human}* (You marvel at the imagery on the computer's screen.)\n* (It must be daydreaming.)" ]
                : [
-                    '<32>{#p/basic}* 电脑正在待机。 \n* 要打开吗？',
+                    '<32>{#p/basic}* 电脑正在待机。\n* 要打开吗？',
                     choicer.create('* （要打开电脑吗？）', '是', '否')
                  ],
          topdesk2: [ '<32>{#p/human}* （你打算不把电脑打开。）' ],
@@ -3579,7 +3579,7 @@ export default {
                        ? SAVE.data.n.plot < 49
                           ? !SAVE.flag.b.asriel_phone && SAVE.flag.n.ga_asrielGate++ < 1
                              ? [
-                                  "<25>{#p/asriel2}{#f/3}* Alphys的实验室里\n  肯定有通行卡。 \n* 我们先去那看看。 "
+                                  "<25>{#p/asriel2}{#f/3}* Alphys的实验室里\n  肯定有通行卡。\n* 我们先去那看看。"
                                ]
                              : [] 
                           : SAVE.flag.b.asriel_phone
@@ -4002,7 +4002,7 @@ export default {
                ? [ '<32>{#p/human}* (It appears the terminal is beyond your access level.)' ]
                : SAVE.data.n.plot === 72
                ? [ "<32>{#p/basic}* It's a virtualasium.\n* Maybe one day you'll have the access level required." ]
-               : [ "<32>{#p/basic}* 这是个虚拟空间。 \n* 你没有访问所需的权限。 " ],
+               : [ "<32>{#p/basic}* 这是个虚拟空间。\n* 你没有访问所需的权限。" ],
          metposter: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (You look closely at the promotional poster.)' ]
@@ -4053,7 +4053,7 @@ export default {
                   : [
                        "<32>{#p/basic}* 这是个书架。",
                        '<32>{#p/human}* （你取下了一本书...）',
-                       '<32>{#p/basic}* “你想设计一个机器人吗？ \n   那么，由了不起的Faraday\n   帮你搞定吧！”',
+                       '<32>{#p/basic}* “你想设计一个机器人吗？\n   那么，由了不起的Faraday\n   帮你搞定吧！”',
                        '<32>* “你看，地球上的人们，\n   喜欢在生活中添加一些趣味。”',
                        '<32>* “你总不能造个金属盒子\n   就收工吧，\n   明白我的意思吗？”',
                        '<32>* “你必须赋予它风格和\n   令人眼花缭乱、充满活力的功能，\n   譬如，投‘机’倒‘把’！”',
@@ -4082,7 +4082,7 @@ export default {
                     '<32>{#p/human}* （你把书拿了起来...）',
                     '<32>{#p/basic}* “喵喵航天行：梦境奇旅\n   （同人故事）”',
                     '<32>* “...就在那时，\n   喵喵终于亲眼看到了。”',
-                    '<32>* “那是相当壮观的景色。 \n   孤身一人站在太空深处，\n   颇有遗世独立之感...”',
+                    '<32>* “那是相当壮观的景色。\n   孤身一人站在太空深处，\n   颇有遗世独立之感...”',
                     '<32>* “...但是喵喵知道得更清楚！”\n* “她不久就了解到了\n   我们的困境。”',
                     '<32>* “她用那远近闻名的\n   豪华激光枪，\n   轻松地打了过去！”',
                     '<32>* “就这样，\n   喵喵成了怪物的救世主。”',
@@ -4112,7 +4112,7 @@ export default {
                        "<32>{#p/basic}* 这是个书架。",
                        '<32>{#p/human}* （你取下了一本书...）',
                        '<32>{#p/basic}* “教授的笔记，第195页。”',
-                       '<32>* “今天对于怪物一族来说\n   是无比黑暗的一天。 \n   王室分崩离析了。 ”',
+                       '<32>* “今天对于怪物一族来说\n   是无比黑暗的一天。\n   王室分崩离析了。”',
                        '<32>* “Toriel王后因为\n   Asgore的寥寥几句话\n   就放弃了王位。”',
                        '<32>* “但这些话可能会对我们\n   产生长期的影响...”',
                        '<32>* “如今，大家都期待他\n   用武力夺取人类的灵魂。”',
@@ -4249,11 +4249,11 @@ export default {
          vender1: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (You observe the mysterious contents behind the glass of the storage unit.)' ]
-               : [ '<32>{#p/basic}* 真空密封的存储单元。 \n* 里面是各种盛放着\n  未知物质的小瓶。 ' ],
+               : [ '<32>{#p/basic}* 真空密封的存储单元。\n* 里面是各种盛放着\n  未知物质的小瓶。' ],
          vender2: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (You observe the mysterious contents behind the glass of the storage unit.)' ]
-               : [ '<32>{#p/basic}* 真空密封的存储单元。 \n* 里面是各种盛放着\n  未知物质的小瓶。 ' ],
+               : [ '<32>{#p/basic}* 真空密封的存储单元。\n* 里面是各种盛放着\n  未知物质的小瓶。' ],
          toolrack: () =>
             SAVE.data.b.svr
                ? [
@@ -4275,7 +4275,7 @@ export default {
                     [ "<25>{#p/asriel1}{#f/16}* ... let's just leave it at that." ]
                  ][Math.min(asrielinter.toolrack++, 3)]
                : [
-                    "<32>{#p/basic}* 一架子满是灰尘的旧工具。 \n* 看起来已经好几年没用过了。 ",
+                    "<32>{#p/basic}* 一架子满是灰尘的旧工具。\n* 看起来已经好几年没用过了。",
                     ...(SAVE.data.n.plot === 72 ? [ '<33>* ... and now they never will be.' ] : [])
                  ],
          spycamera1: () =>
@@ -4419,7 +4419,7 @@ export default {
          corenote5: [
             '<32>{#p/basic}* 一盒录音带，标着“Mettaton”。',
             '<32>{#p/human}* （你听了听内容...）',
-            "<32>{#p/alphys}* 一开始，我们相处得不太愉快。\n* 但如果没有你，\n  我就走不到今天这一步。 ",
+            "<32>{#p/alphys}* 一开始，我们相处得不太愉快。\n* 但如果没有你，\n  我就走不到今天这一步。",
             "<32>* Mettaton，如果你在听...\n  我想对你说，你很棒。",
             "<32>* 整个前哨站，我只为你一人\n  做过新的身体。",
             "<32>* 其实... 我也考虑过\n  给Napstablook做个身体。\n* 但是，Napstablook不适合派去战斗。",
@@ -4656,7 +4656,7 @@ export default {
                     ][Math.min(asrielinter.labscope++, 2)]
                  ]
                : [
-                    '<32>{#p/basic}* 标准规格的精密电子显微镜，\n  皇家出品。 \n* 261X年前后制成。 ',
+                    '<32>{#p/basic}* 标准规格的精密电子显微镜，\n  皇家出品。\n* 261X年前后制成。',
                     ...(mtt
                        ? [
                             '<32>{#p/mettaton}* THESE ADVANCED MICROSCOPES WERE ONLY RELEASED A FEW YEARS AGO.',
@@ -5055,7 +5055,7 @@ export default {
                     ]
                   : SAVE.data.n.plot < 68
                   ? [
-                       '<32>{#p/basic}* 那个节目太精彩了！ \n* 那个人类看起来跟真的一样！ ',
+                       '<32>{#p/basic}* 那个节目太精彩了！\n* 那个人类看起来跟真的一样！',
                        '<32>* Wait, have I seen you before?'
                     ]
                   : world.bad_robot
@@ -6868,7 +6868,7 @@ export default {
          "<20>{#p/mettaton}(YOU CAN ALSO HOLD [C] TO SHOOT, BUT WHERE'S THE FUN IN THAT.){^40}{%}"
       ],
 
-      checkTalk: [ "<20>{#p/mettaton}欣赏ALPHYS的\n令人惊叹的技术了？ \n我不予置评。" ],
+      checkTalk: [ "<20>{#p/mettaton}欣赏ALPHYS的\n令人惊叹的技术了？\n我不予置评。" ],
       attackTalk: () =>
          SAVE.data.n.plot < 67
             ? [ "<20>{#p/mettaton}YOU SILLY GOOSE.\nTHAT'S NOT GOING TO WORK ON ME, SWEETHEART!" ]
@@ -6886,7 +6886,7 @@ export default {
       turn1a2: [ '<20>博士，如果\n你可以的话...' ],
       turn1b1: () =>
          SAVE.data.n.state_foundry_undyne > 0
-            ? [ "<20>{#p/alphys}好，好！ \n我-我会的！ " ]
+            ? [ "<20>{#p/alphys}好，好！\n我-我会的！" ]
             : world.bad_lizard < 1
             ? [ '<20>{#p/alphys}呃，好！' ]
             : [ '<20>{#p/alphys}...嗯？' ],
@@ -6968,7 +6968,7 @@ export default {
       turn7b2: [ '<20>{#p/basic}又是你！' ],
       turn7b3: [ '<20>{#p/basic}又-是-你！！！' ],
       turn7c: [ '<20>{#p/mettaton}哦，你们两个\n彼此认识吗？' ],
-      turn7d1: [ '<20>{#p/basic}...\n可能认识吧。 \n也可能不认识。 ' ],
+      turn7d1: [ '<20>{#p/basic}...\n可能认识吧。\n也可能不认识。' ],
       turn7d2: [ "<20>{#p/basic}反正你又\n不在乎！" ],
       turn7e: [
          '<20>{#p/mettaton}哇，没必要\n对我这么\n充满敌意...',
@@ -7053,7 +7053,7 @@ export default {
       turn8end3a: [
          "<20>{#p/mettaton}...我真不明白\n你的成绩怎么\n这么糟糕。",
          '<20>明明早些时候\n你表现得\n很不错来着。',
-         '<20>哦好吧。 \n可能，这也是\n常有的事吧。 '
+         '<20>哦好吧。\n可能，这也是\n常有的事吧。'
       ],
       turn8end3b: [
          '<20>{#p/mettaton}... 没人告诉过你\n你有多菜吗？',
@@ -7150,7 +7150,7 @@ export default {
       turn7react2: [ '<20>{#p/mettaton}真令人失望。' ],
       turn8react2: [ '<20>{#p/mettaton}那。是。啥。' ],
       turn8reactMD1b: [ "<20>{#p/basic}Hope I didn't go too hard on you.", '<20>{#p/basic}See ya next time, human!' ],
-      turn8reactMD2b: [ '<20>{#p/basic}可悲。 \n可悲！ \n可-悲-！ ', '<20>{#p/basic}你活该。' ],
+      turn8reactMD2b: [ '<20>{#p/basic}可悲。\n可悲！\n可-悲-！', '<20>{#p/basic}你活该。' ],
       missIndicator: '漏击: $(x)',
 
       idleTalk1: () =>
@@ -9997,7 +9997,7 @@ export default {
    },
    i_corngoat: {
       battle: {
-         description: "很像玉米热狗，但更加软糯蓬松。 \n别问为啥。 ",
+         description: "很像玉米热狗，但更加软糯蓬松。\n别问为啥。",
          name: '玉米热羊'
       },
       drop: () => [
@@ -10007,7 +10007,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （20 HP。）' ]
-            : [ '<32>{#p/basic}* “玉米热羊” 回复20 HP\n* 很像玉米热狗，但更加软糯蓬松。 \n* 别问为啥。 ' ],
+            : [ '<32>{#p/basic}* “玉米热羊” 回复20 HP\n* 很像玉米热狗，但更加软糯蓬松。\n* 别问为啥。' ],
       name: '玉米热羊',
       use: () => [
          '<32>{#p/human}* （你吃掉了玉米热羊。）',
@@ -10144,7 +10144,7 @@ export default {
                SAVE.data.n.state_foundry_undyne
                   ? 'oh my god i thought those guys were about to provoke the human' 
                   : [
-                       '不是哥们？ \n休闲回廊不就有冰淇淋吗', 
+                       '不是哥们？\n休闲回廊不就有冰淇淋吗', 
                        'awkward' 
                     ][SAVE.data.n.bad_lizard]
          },

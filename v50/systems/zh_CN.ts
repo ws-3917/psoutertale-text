@@ -7,11 +7,11 @@ export default {
    },
    battle: {
       death0: ['（你深吸了一口气。）', "（你充满了决心。）"],
-      death1: ['现在还不能放弃...', '$(name)！ \n保持你的决心...'],
-      death2: ['我们的命运都\n寄托于你...', '$(name)！ \n保持你的决心...'],
-      death3: ["你会没事的！", '$(name)！ \n保持你的决心...'],
-      death4: ["别失去希望！", '$(name)！ \n保持你的决心...'],
-      death5: ['现在还不能结束！', '$(name)！ \n保持你的决心...'],
+      death1: ['现在还不能放弃...', '$(name)！\n保持你的决心...'],
+      death2: ['我们的命运都\n寄托于你...', '$(name)！\n保持你的决心...'],
+      death3: ["你会没事的！", '$(name)！\n保持你的决心...'],
+      death4: ["别失去希望！", '$(name)！\n保持你的决心...'],
+      death5: ['现在还不能结束！', '$(name)！\n保持你的决心...'],
 
       flee1: '   * 先走一步...',
       flee2: "   * 我先撤了。",
@@ -23,8 +23,8 @@ export default {
       mercy_flee: '* 逃跑',
       mercy_spare: '* 饶恕',
 
-      victory1: '<32>{#p/story}* 你胜利了！ \n* 你获得了$(x) EXP和$(y)G。',
-      victory2: '<32>{#p/story}* 你胜利了！ \n* 你获得了$(x) EXP和$(y)G。 \n* 你的LOVE增加了。 '
+      victory1: '<32>{#p/story}* 你胜利了！\n* 你获得了$(x) EXP和$(y)G。',
+      victory2: '<32>{#p/story}* 你胜利了！\n* 你获得了$(x) EXP和$(y)G。\n* 你的LOVE增加了。'
    },
 
    developer: {
@@ -34,7 +34,7 @@ export default {
             header: '忽略',
             resume: '点击此处忽略错误'
          },
-         blurb: '程序出现错误！ \n请将错误信息截图发给开发者。'
+         blurb: '程序出现错误！\n请将错误信息截图发给开发者。'
       },
       control: {
          tab: '快捷功能',
@@ -378,12 +378,12 @@ export default {
          [
             '§fill=#ff0§< 特别鸣谢 >§fill=#fff§',
             'My Cocoa',
-            '§fill=#808080§你是第一个支持我梦想的人，\n也是我最暖心的伙伴。 \n在你的激励下，\n我才能完成这款游戏。 §fill=#fff§'
+            '§fill=#808080§你是第一个支持我梦想的人，\n也是我最暖心的伙伴。\n在你的激励下，\n我才能完成这款游戏。§fill=#fff§'
          ],
          [
             '§fill=#ff0§< 特别鸣谢 >§fill=#fff§',
             'Balgamlı Kedi',
-            "§fill=#808080§感谢你从游戏开发之初\n就一直陪伴我。 \n无论何时，你总会在\n我最需要帮助的时候支持我。 §fill=#fff§"
+            "§fill=#808080§感谢你从游戏开发之初\n就一直陪伴我。\n无论何时，你总会在\n我最需要帮助的时候支持我。§fill=#fff§"
          ],
          [
             '§fill=#ff0§< 特别鸣谢 >§fill=#fff§',
@@ -393,7 +393,7 @@ export default {
          [
             '§fill=#ff0§< 特别鸣谢 >§fill=#fff§',
             'Zaxento The Greedy',
-            '§fill=#808080§感谢你直言不讳，\n给予我大量批评和建议。 \n从认识的那天起\n你就非常值得信赖。 §fill=#fff§'
+            '§fill=#808080§感谢你直言不讳，\n给予我大量批评和建议。\n从认识的那天起\n你就非常值得信赖。§fill=#fff§'
          ],
          [
             '§fill=#ff0§< 特别鸣谢 >§fill=#fff§',
@@ -908,7 +908,7 @@ export default {
    gamepad: {
       prompt: '手柄设定',
       prompt_desc:
-         '从游戏手柄上选择一个按键\n用来控制游戏中的某个操作。 \n\n按下相同的按键进行确认，\n或按下其他按键重新设置。 \n\n按 [ESC] 跳过设置。 ',
+         '从游戏手柄上选择一个按键\n用来控制游戏中的某个操作。\n\n按下相同的按键进行确认，\n或按下其他按键重新设置。\n\n按 [ESC] 跳过设置。',
       prompt_counter: '输入分配到：$(x)',
       z: '[Z 或 ENTER] - 确认/交互',
       x: '[X 或 SHIFT] - 返回',
@@ -918,10 +918,10 @@ export default {
       d: '[↓ 或 S] - 下移',
       r: '[→ 或 D] - 右移',
       f: '[F4] - 全屏',
-      prompt_done: '设置完成。 \n按任意键继续。 ',
+      prompt_done: '设置完成。\n按任意键继续。',
       prompt_done_browser: '\n注意：在本平台运行游戏时，\n可能无法用手柄开启全屏。',
       prompt_load:
-         '游戏手柄设置完成，\n按任意键继续。 \n或者连按某个键三次\n重新设置手柄。 '
+         '游戏手柄设置完成，\n按任意键继续。\n或者连按某个键三次\n重新设置手柄。'
    },
 
    general: {
@@ -981,7 +981,7 @@ export default {
       name2: '返回',
       name3: '删除',
       name4: '确定',
-      name5: '§fill=#808080§键盘输入，支持中文。 \n\n[ENTER] - 确定\n[BACKSPACE] - 删除\n[ESC] - 返回',
+      name5: '§fill=#808080§键盘输入，支持中文。\n\n[ENTER] - 确定\n[BACKSPACE] - 删除\n[ESC] - 返回',
 
       save1: '保存',
       save2: '返回',

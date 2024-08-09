@@ -4299,7 +4299,7 @@ export default {
                        '<32>* “之后，将这层混合物\n   轻轻倒入准备好的派底，\n   均匀铺开。”',
                        '<32>* “最后，将面团切成细条，\n   编织成优雅的格子形状，\n   覆盖在派面上。”',
                        '<32>* “现在，将派放到烤箱中，\n   烤至金黄酥脆。”',
-                       '<32>* “出炉后，派面金黄诱人。 \n   令其稍作冷却，即可切片、上桌！”',
+                       '<32>* “出炉后，派面金黄诱人。\n   令其稍作冷却，即可切片、上桌！”',
                        '<32>{#p/human}* （你把书放回了书架。）'
                     ],
             () =>
@@ -4749,7 +4749,7 @@ export default {
       artifact: [ '<32>{#p/human}* （艾菲斯看了一眼，随即收回了目光。）' ],
       name: '* 艾菲斯',
       gotcha: [ '<20>{*}{#p/alphys}{#e/alphys/19}往哪里跑？{^30}{%}' ],
-      act_check: [ '<32>{#p/asriel2}* 艾菲斯。 \n* 皇家科学员。 ' ],
+      act_check: [ '<32>{#p/asriel2}* 艾菲斯。\n* 皇家科学员。' ],
       act_asriel: (i: number) => [
          ...[
             [
@@ -4782,13 +4782,13 @@ export default {
       ],
       epiphaNOPE: [ '<20>{#p/alphys}{#e/alphys/19}想得美。' ],
       statusX: [ '<32>{#p/asriel2}* ...' ],
-      statusY: [ "<32>{#p/asriel2}* 她快死了！ \n* 继续攻击！ " ],
+      statusY: [ "<32>{#p/asriel2}* 她快死了！\n* 继续攻击！" ],
       status1a: [ '<32>{#p/asriel2}* 艾菲斯...' ],
       status1r: [ '<32>{#p/asriel2}* 你知道该干什么。' ],
       status1b: [ "<33>{#p/asriel2}* 她竟然没逃跑...\n* 有意思。" ],
       status1c: [ '<32>{#p/asriel2}* 你知道该干什么吧。' ],
       status1d: [ "<32>{#p/asriel2}* 嘿...\n* 你看她是不是有点累了？" ],
-      status2a: [ "<32>{#p/asriel2}* 怎么了，艾菲斯？ \n* 撑不住了？ " ],
+      status2a: [ "<32>{#p/asriel2}* 怎么了，艾菲斯？\n* 撑不住了？" ],
       status2r1: [ '<32>{#p/asriel2}* 呃，再听一遍吧...' ],
       status2b: [ '<32>{#p/asriel2}* 来，让我们好好听听\n  你的凄惨故事。' ],
       status2c: [ "<32>{#p/asriel2}* 你竟然没贯彻逃跑精神，\n  我可真惊讶呢。" ],
@@ -4796,7 +4796,7 @@ export default {
       status2e: [ '<32>{#p/asriel2}* ...？' ],
       status2r2: [ "<32>{#p/asriel2}* 准备好，战斗形势要变了。" ],
       status3a: [ '<32>{#p/asriel2}* 好... 形势严峻起来了。' ],
-      status3b: [ "<32>{#p/asriel2}* ...看来艾菲斯放弃防御了。 \n* 抓住这个机会！" ],
+      status3b: [ "<32>{#p/asriel2}* ...看来艾菲斯放弃防御了。\n* 抓住这个机会！" ],
       status3c: [ '<32>{#p/asriel2}* 坚持住，$(name)...' ],
       turnTalk1a: [
          "<20>{#p/alphys}{#e/alphys/19}要是连一下都扛不住，\n我怎么可能来这？",
@@ -4821,7 +4821,7 @@ export default {
       ],
       turnTalk3: [
          '<20>{#p/alphys}{#e/alphys/18}而你呢，艾斯利尔...\n你利用人类，\n拿伙伴当保护伞。',
-         "<20>{#e/alphys/52}为了什么呢？ \n你怕一旦自己动手，\n偷来的灵魂就会破碎？ "
+         "<20>{#e/alphys/52}为了什么呢？\n你怕一旦自己动手，\n偷来的灵魂就会破碎？"
       ],
       turnTalk4: [
          "<20>{#p/alphys}{#e/alphys/51}还是说，\n你怕自己被人类淡忘，\n活时视如草芥，\n死后弃若敝履？",
@@ -4876,7 +4876,7 @@ export default {
       ],
       turnTalk16: [
          '<20>{#z3}{#p/alphys}{#e/alphys/48}...',
-         "<20>{#e/alphys/47}让那星星复活是我的错。 \n但你们的罪孽，\n跟我一分钱关系没有。 ",
+         "<20>{#e/alphys/47}让那星星复活是我的错。\n但你们的罪孽，\n跟我一分钱关系没有。",
          "<20>{#e/alphys/38}我管你们打的什么算盘，\n都得给我付出代价。",
          '<20>{*}{#z4}{#e/alphys/54}哪怕...{^10}{%}',
          '<20>{*}{#e/alphys/25}我会因此疯掉！{^10}{%}'
@@ -5371,7 +5371,7 @@ export default {
       attackTalk3: [
          '<20>{*}{#p/asriel3}{#e/asriel/2}...而且，\n就算你能打败我...',
          "<20>{*}{#p/asriel3}{#e/asriel/3}你的朋友\n也会因你而死。",
-         '<20>{*}{#p/asriel3}{#e/asriel/1}这就是你想要的吗？ \n永远孤身一人？ '
+         '<20>{*}{#p/asriel3}{#e/asriel/1}这就是你想要的吗？\n永远孤身一人？'
       ],
       attackTalk4: [
          '<20>{*}{#p/asriel3}{#e/asriel/3}快住手，$(name)...\n你这是在自杀！',

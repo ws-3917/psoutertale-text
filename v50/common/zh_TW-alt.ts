@@ -39,7 +39,7 @@ export default {
          [
             '<32>{#p/human}* （你去了實驗室，\n  希望能找到飛船的藍圖和部件。）',
             '<32>{#p/human}* （藍圖還在，部件也有剩餘...）',
-            "<32>{#p/human}* （然而，此時核心能量已所剩無幾。 \n  無法讓你發射飛船。 ）"
+            "<32>{#p/human}* （然而，此時核心能量已所剩無幾。\n  無法讓你發射飛船。）"
          ],
          [
             '<32>{#p/human}* （你試圖重置。）\n* （什麼都沒發生。）',
@@ -5187,8 +5187,8 @@ export default {
                  "<08>{#p/basic}{~}我從未\n感到\n如此幸福..."
               ]
             : SAVE.data.n.state_wastelands_dummy === 4
-            ? [ '<11>{#p/basic}{~}{#x4}搞什麼？ \n不要啊！！' ]
-            : [ '<11>{#p/basic}{~}{#x3}別-別..！ \n我有\n接觸\n恐懼症！ ' ],
+            ? [ '<11>{#p/basic}{~}{#x4}搞什麼？\n不要啊！！' ]
+            : [ '<11>{#p/basic}{~}{#x3}別-別..！\n我有\n接觸\n恐懼症！' ],
       hugTalk2: [ '<11>{#p/basic}{~}{#x4}快停下！' ],
       hugTalk3: [ '<11>{#p/basic}{~}{#x2}少來這套！！' ],
       hugTalk4: [ '<11>{#p/basic}{~}{#x3}...' ],
@@ -5283,10 +5283,10 @@ export default {
          [ '<08>{#p/basic}{~}最後一咕。' ],
          [ '<08>{#p/basic}{~}\x00*閃亮\n扭動*' ]
       ],
-      act_check0: [ '<32>{#p/asriel2}* Gelatini，沒腦子的粘球。 \n* 有什麼好說的？' ],
+      act_check0: [ '<32>{#p/asriel2}* Gelatini，沒腦子的粘球。\n* 有什麼好說的？' ],
       act_check: [ '<32>{#p/story}* GELATINI - 攻擊6 防禦0\n* 典型印象：身段妖嬈氣質好，\n  就是沒大腦...' ],
       act_check2: [ "<32>{#p/story}* GELATINI - 攻擊6 防禦0\n* 應季的色彩令它更為迷人。" ],
-      act_check3: [ '<32>{#p/story}* GELATINI - 攻擊6 防禦0\n* 與你所喜歡的類別相同。 \n* 刻板印象的那種。 ' ],
+      act_check3: [ '<32>{#p/story}* GELATINI - 攻擊6 防禦0\n* 與你所喜歡的類別相同。\n* 刻板印象的那種。' ],
       act_check4: [ '<32>{#p/story}* GELATINI - 攻擊6 防禦0\n* 這位超級模特早已輝煌不再。' ],
       act_flirt: [
          '<32>{#p/human}* （你扭動著你的臀部。）\n* （Gelatini用扭動回應你。）',
@@ -5361,7 +5361,7 @@ export default {
       ],
       act_check: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Astro Serf，太空人，渴望引人注目。 \n* 除了自己的天線，他什麼都不在乎。 ' ]
+            ? [ '<32>{#p/asriel2}* Astro Serf，太空人，渴望引人注目。\n* 除了自己的天線，他什麼都不在乎。' ]
             : [ "<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n* This teen wonders why it isn't named 'Radio Jack.'" ],
       act_check2: [ '<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n* This teen seems to appreciate your sense of fashion.' ],
       act_check3: [ '<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n* This teen is getting ALL the right signals.' ],
@@ -5371,7 +5371,7 @@ export default {
       act_compliment: [ '<32>{#p/human}* （你告訴Astro Serf說它\n  有一根很棒的天線。）' ],
       act_flirt: [ '<32>{#p/human}* (You flirt with Astro Serf.)' ],
       complimentTalk1: [ "<08>{#p/basic}{~}DUH!\nWho DOESN'T know?" ],
-      complimentTalk2: [ '<08>{#p/basic}{~}嫉妒了？ \n真糟！' ],
+      complimentTalk2: [ '<08>{#p/basic}{~}嫉妒了？\n真糟！' ],
       createStatus1: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* Astro Serf.' ]
@@ -5449,7 +5449,7 @@ export default {
       mkDeath1: [
          '<32>{#p/kidding}* 呃...',
          "<32>* 對手為啥是這樣消失的呢？",
-         '<32>* 嗯... 我們打了對手。 \n  估計太害怕，就傳送走了。 \n* 哈哈，肯定是的。 '
+         '<32>* 嗯... 我們打了對手。\n  估計太害怕，就傳送走了。\n* 哈哈，肯定是的。'
       ],
       mkDeath2: [ '<32>{#p/kidding}* 又消失了？', "<32>* 該死，為啥我沒有\n  這麼酷的傳送器呢！？" ],
       mkDeath3: [ "<32>{#p/kidding}* 消失了..." ],
@@ -5458,7 +5458,7 @@ export default {
          '<25>{#p/kidd}{#f/4}* 呃...',
          "<25>* 對手為啥是這樣消失的呢？",
          '<25>{#f/1}* 嗯... 我們打了對手，所以...',
-         '<25>* 估計太害怕，就傳送走了。 \n* 哈哈，肯定是的。 '
+         '<25>* 估計太害怕，就傳送走了。\n* 哈哈，肯定是的。'
       ],
       mkDeath2OW: [
          '<25>{#p/kidd}{#f/4}* 又消失了？',
@@ -5489,11 +5489,11 @@ export default {
       mkMagic2b: [ '<32>{#p/kidding}* 健康與你同在！' ],
       mkMagic2c: [ '<32>{#p/kidding}* 看好了！' ],
       mkNope: [ '<32>{#p/kidding}* 不要再讓我戰鬥了...' ],
-      mkTurn1: [ "<32>{#p/kidding}* 幫幫我，我從來沒戰鬥過！ \n* 我要怎麼做！ ？" ],
+      mkTurn1: [ "<32>{#p/kidding}* 幫幫我，我從來沒戰鬥過！\n* 我要怎麼做！？" ],
       mkTurn2: [ '<32>{#p/kidding}* 呃... 幫我！' ],
       mkTurn3: [ "<32>{#p/kidding}* 我... 我好像會了。" ],
       mkTurnAct1: [ '<32>{#p/kidding}* 喔！喔！', '<32>* 我知道要怎麼行動！', '<32>* 看好了...！' ],
-      mkWeaken1: [ "<32>{#p/kidding}* 真的要這麼做嗎...？ \n* 對手好像不喜歡這樣...", '<32>* ...' ],
+      mkWeaken1: [ "<32>{#p/kidding}* 真的要這麼做嗎...？\n* 對手好像不喜歡這樣...", '<32>* ...' ],
       mkWeaken2: [ '<32>{#p/kidding}* 這麼做真的好嗎...？', '<32>* ...' ],
       mkWeaken3a: [ '<32>{#p/kidding}* 呃...' ],
       mkWeaken3b: [ '<32>{#p/kidding}* 嗯...' ],
@@ -5666,7 +5666,7 @@ export default {
                  ...(multiple ? [ '<32>{#p/story}* The other monsters continue to fight you.' ] : [])
               ],
       mkTurnFight1: () => [
-         '<32>{#p/kidding}* 你... 你-你讓我戰鬥？ \n* 真的嗎？ ',
+         '<32>{#p/kidding}* 你... 你-你讓我戰鬥？\n* 真的嗎？',
          choicer.create('* （確定戰鬥嗎？）', '是', '否')
       ],
       mkTurnFight2a: [ '<32>{#p/kidding}* 好吧... 那我試試...' ],
@@ -5674,7 +5674,7 @@ export default {
       mkTurnFight3a: [ '<32>* 呀哈...！' ],
       mkTurnFight3b: [ '<32>* 嘿呀...！' ],
       mkTurnFight3c: [ '<32>* 我打！' ],
-      mkTurnMercy1: [ '<32>{#p/kidding}* 仁慈？ \n* 讓我饒恕對手嗎？ ', "<32>{#p/kidding}* 哈哈，容易！" ],
+      mkTurnMercy1: [ '<32>{#p/kidding}* 仁慈？\n* 讓我饒恕對手嗎？', "<32>{#p/kidding}* 哈哈，容易！" ],
       mkTurnX: () => [ choicer.create('* （怪物小孩應該怎麼做？）', '仁慈', '行動', '魔法', '戰鬥') ]
    },
 

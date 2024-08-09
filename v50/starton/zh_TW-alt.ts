@@ -22,7 +22,7 @@ import { CosmosKeyed, CosmosProvider, CosmosUtils } from '../../../code/systems/
 export default {
    a_starton: {
       telescope1: () => [
-         ...(SAVE.data.b.svr ? [] : [ '<32>{#p/basic}* 標準規格的長焦望遠鏡，皇家出品。 \n* 251X年前後製成。 ' ]),
+         ...(SAVE.data.b.svr ? [] : [ '<32>{#p/basic}* 標準規格的長焦望遠鏡，皇家出品。\n* 251X年前後製成。' ]),
          choicer.create('* （使用望遠鏡？）', '是', '否')
       ],
       telescopeMeetup1: [ '<25>{#p/kidd}{#f/2}* 你在看星星嗎？' ],
@@ -31,7 +31,7 @@ export default {
          '<25>{#f/7}* 上次我用望遠鏡的時候，\n  我甚至看到了一顆超新星！'
       ],
       telescopeMeetup3: [
-         '<25>{#p/kidd}{#f/3}* 給。 \n* 拿上這個。 ',
+         '<25>{#p/kidd}{#f/3}* 給。\n* 拿上這個。',
          '<32>{#s/equip}{#p/human}* （高級會員券被添加到了\n  你的鑰匙串上。）',
          '<25>{#p/kidd}{#f/7}* 現在你可以使用\n  任何望遠鏡了，\n  連「最高級」的都能用！',
          '<25>{#f/1}* 那個矮骷髏之前\n  給了我好多這個。',
@@ -55,10 +55,10 @@ export default {
                  "<32>* 我們把鏡筒對著\n  天空的各個角落，\n  期待能發現意想不到的驚喜...",
                  '<32>* ...可惜，希望總是落空。',
                  "<32>* 儘管觀星收穫寥寥，\n  但艾斯利爾並不在意...",
-                 '<32>* 我挖空心思從星空尋找寶藏。 \n  但對他而言...\n  我的陪伴才是真正的「寶藏」。 ',
+                 '<32>* 我挖空心思從星空尋找寶藏。\n  但對他而言...\n  我的陪伴才是真正的「寶藏」。',
                  '<32>* ...',
                  '<32>{#p/human}* （你聽到一聲嘆息。）',
-                 "<32>{#p/basic}* ...唉，別在意。 \n  咱們繼續幹正事吧。 "
+                 "<32>{#p/basic}* ...唉，別在意。\n  咱們繼續幹正事吧。"
               ]),
       notv: [ "<32>{#p/basic}* 沒什麼好看的。" ],
       nicecreamScoreReaction1a: [ '<32>{#p/basic}* 第一次嘗試還不錯...' ],
@@ -66,10 +66,10 @@ export default {
       nicecreamScoreReaction2a: [ '<32>{#p/basic}* 你可以做得更好的。' ],
       nicecreamScoreReaction2b: [ '<32>{#p/basic}* 你可以做得更好的。' ],
       nicecreamScoreReaction3a: [
-         "<32>{#p/basic}* 你打破了紀錄...？ \n* 我還從來沒見過有人這麼做..."
+         "<32>{#p/basic}* 你打破了紀錄...？\n* 我還從來沒見過有人這麼做..."
       ],
       nicecreamScoreReaction3b: [
-         "<32>{#p/basic}* 你打破了紀錄...？ \n* 我還從來沒見過有人這麼做！"
+         "<32>{#p/basic}* 你打破了紀錄...？\n* 我還從來沒見過有人這麼做！"
       ],
       nicecreamScoreReaction4a: [ '<33>{#p/basic}* 看起來你真的很擅長...' ],
       nicecreamScoreReaction4b: [ '<32>{#p/basic}* 看起來你真的很擅長。' ],
@@ -77,16 +77,16 @@ export default {
       nicecreamScoreReaction5b: [ '<32>{#p/basic}* 看，新紀錄！' ],
       nicecreamScoreReaction6a: [ '<32>{#p/basic}* 有那麼一瞬間，我以為你打破了記錄...' ],
       nicecreamScoreReaction6b: [
-         "<32>{#p/basic}* 哇喔，你差點就破紀錄了！ \n* 你能堅持下去嗎？"
+         "<32>{#p/basic}* 哇喔，你差點就破紀錄了！\n* 你能堅持下去嗎？"
       ],
       nicecreamScoreReaction7a: [ '<32>{#p/basic}* 看起來你需要一些練習...' ],
       nicecreamScoreReaction7b: [ '<32>{#p/basic}* 看起來你需要一些練習。' ],
       nicecreamScoreReaction8a: [ "<32>{#p/basic}* 更好了..." ],
       nicecreamScoreReaction8b: [ "<32>{#p/basic}* 這才像話。" ],
       nicecreamScoreReaction9a: [
-         '<32>{#p/basic}* 你第一次嘗試就打破了紀錄...？ \n* 世界上竟然...'
+         '<32>{#p/basic}* 你第一次嘗試就打破了紀錄...？\n* 世界上竟然...'
       ],
-      nicecreamScoreReaction9b: [ "<32>{#p/basic}* 你第一次嘗試就打破了紀錄...？ \n* 你真是個天才！" ],
+      nicecreamScoreReaction9b: [ "<32>{#p/basic}* 你第一次嘗試就打破了紀錄...？\n* 你真是個天才！" ],
       nicecreamScoreReaction10a: [ "<32>{#p/basic}* 就第一次嘗試來說，這已經很好了..." ],
       nicecreamScoreReaction10b: [ "<32>{#p/basic}* 就第一次嘗試來說，這已經很好了！" ],
       nicecreamScoreReaction11a: [ '<32>{#p/basic}* 就要快了...' ],
@@ -110,16 +110,16 @@ export default {
       jukebox1x1: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* （但是你不能放你不知道的音樂。）" ]
-            : [ "<32>{#p/basic}* 封面中一個詭異的DJ在人群中演奏。 \n* 你看不出來是什麼音樂。 " ],
+            : [ "<32>{#p/basic}* 封面中一個詭異的DJ在人群中演奏。\n* 你看不出來是什麼音樂。" ],
       jukebox1x2: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* （但是你不能放你不知道的音樂。）" ]
-            : [ "<33>{#p/basic}* 封面中一個幽靈一樣的DJ在電腦前。 \n* 你看不出來是什麼音樂。 " ],
+            : [ "<33>{#p/basic}* 封面中一個幽靈一樣的DJ在電腦前。\n* 你看不出來是什麼音樂。" ],
       jukebox1x3: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* （但是你不能放你不知道的音樂。）" ]
             : [
-                 "<32>{#p/basic}* 封面中是一隻被垃圾包圍著的小白狗。 \n* 你看不出來是什麼音樂。 "
+                 "<32>{#p/basic}* 封面中是一隻被垃圾包圍著的小白狗。\n* 你看不出來是什麼音樂。"
               ],
       jukebox1y: [ '<32>{*}{#p/human}* （你選擇了一張光碟...）{^40}{%}' ],
       jukebox2: () => [
@@ -155,7 +155,7 @@ export default {
          '<15>{#p/papyrus}{#e/papyrus/22}原來喊我來這的\n就是你啊！？'
       ],
       shockpapyrus0c: [
-         '<15>{#p/papyrus}{#e/papyrus/20}...對！ \n這就說得通了！ ',
+         '<15>{#p/papyrus}{#e/papyrus/20}...對！\n這就說得通了！',
          "<15>{#p/papyrus}{#e/papyrus/10}那...\n很高興認識你。",
          '<15>{#p/papyrus}{#e/papyrus/24}說實話，\n你長得有點像...',
          '<15>{#p/papyrus}{#e/papyrus/20}...嘿，等一下！！',
@@ -173,11 +173,11 @@ export default {
          ][Math.min(SAVE.flag.n.ga_asrielPapyrus, 1)],
       shockpapyrus2a: [
          '<32>{#p/asriel2}* 仁慈，嗯？',
-         '<32>{#p/asriel2}* 仁慈...？ \n  這真是個好聽的詞。',
+         '<32>{#p/asriel2}* 仁慈...？\n  這真是個好聽的詞。',
          '<32>{#p/asriel2}* 那咱們就給他來點「仁慈」吧。'
       ],
       shockpapyrus2b: [
-         "<32>{#p/asriel2}* 行動...？ \n* 看好了，什麼才叫行動。",
+         "<32>{#p/asriel2}* 行動...？\n* 看好了，什麼才叫行動。",
          '<32>{#p/asriel2}* 首先，舉起手臂...',
          '<32>{#p/asriel2}* 接著...！'
       ],
@@ -187,9 +187,9 @@ export default {
          '<33>{#p/asriel2}* 它也能成為利刃，\n  刺穿他們的肉體。'
       ],
       shockpapyrus2d: [ '<32>{#p/asriel2}* 戰鬥... 真是不二之選。', '<32>{#p/asriel2}* 嘻嘻嘻...' ],
-      sansDeath1: [ "<15>{#p/papyrus}{#e/papyrus/27}衫斯！ \n你受傷了！ " ],
+      sansDeath1: [ "<15>{#p/papyrus}{#e/papyrus/27}衫斯！\n你受傷了！" ],
       sansDeath2: [ "<20>{#p/sans}帕派瑞斯，\n我不是讓你待在家裡嗎？", '{*}{#e/papyrus/21}{%}' ],
-      sansDeath3: [ "<20>{#p/sans}...別擔心，兄弟。 \n這只是我最喜歡的\n雅莫萬用醬。 ", '{*}{#e/papyrus/26}{%}' ],
+      sansDeath3: [ "<20>{#p/sans}...別擔心，兄弟。\n這只是我最喜歡的\n雅莫萬用醬。", '{*}{#e/papyrus/26}{%}' ],
       sansDeath4: [ "<15>{#p/papyrus}{#e/papyrus/21}但你真的\n傷得很重..." ],
       sansDeath5: [
          "<20>{#p/sans}是啊，因為「不祥的預感」\n就離開家亂跑，\n就是這下場。",
@@ -243,22 +243,22 @@ export default {
          "<25>{#f/0}* ...事實上，這東西的體積\n  已經有段時間在一直\n  變大了。",
          '<25>{#f/0}* 要是再繼續大下去，\n  那...',
          "<25>{#f/2}* 我只能說要有\n  {@fill=#ff0}倒懸{@fill=#fff}之急了。",
-         "<25>{#f/0}* 但別擔心。 \n* 有了你的幫助，\n  它很快就會消失的。 ",
+         "<25>{#f/0}* 但別擔心。\n* 有了你的幫助，\n  它很快就會消失的。",
          '<25>{#f/2}* 我還給你找了首音樂，\n  能讓你更有動力。'
       ],
       trashhunt2: '* 反覆按[Z]，\n  清走所有垃圾！',
       trashhunt3: () => [
-         '<25>{#p/sans}{#f/3}* 哇。 \n* 一氣呵成，是吧？',
+         '<25>{#p/sans}{#f/3}* 哇。\n* 一氣呵成，是吧？',
          "<25>{#f/2}* ...我真是佩服到絕倒了。",
          '<25>{#f/0}* 感覺我得給你點什麼\n  作為回報。',
-         '<25>{#f/0}* ...\n* 給。 \n* 把這個拿上。 ',
+         '<25>{#f/0}* ...\n* 給。\n* 把這個拿上。',
          '<32>{#p/human}* （衫斯丟給你了一樣東西。）',
          ...(SAVE.storage.inventory.size < 8
             ? [ '<32>{#s/equip}{#p/human}* （你獲得了玉狗聖劍。）', '<25>{#p/sans}{#f/2}* 好好用它。' ]
             : [
                  "<32>{#p/human}* （你帶的東西太多了。）",
                  '<25>{#p/sans}{#f/3}* 沒空間了，嗯？',
-                 "<25>{#p/sans}{#f/2}* 沒關係。 \n* 等你有空間了，\n  就來我房間拿。 "
+                 "<25>{#p/sans}{#f/2}* 沒關係。\n* 等你有空間了，\n  就來我房間拿。"
               ])
       ],
       gravo1: () =>
@@ -324,11 +324,11 @@ export default {
       emptytable1: () =>
          SAVE.data.b.svr
             ? [ '<32>{#p/human}* (The table strikes you as being rather lonesome.)' ]
-            : [ "<32>{#p/basic}* 只是張孤零零的桌子。 \n* 上面有糖霜的味道。 " ],
+            : [ "<32>{#p/basic}* 只是張孤零零的桌子。\n* 上面有糖霜的味道。" ],
       emptytable2: () =>
          SAVE.data.b.svr
             ? [ '<32>{#p/human}* (The table strikes you as being rather lonesome.)' ]
-            : [ "<32>{#p/basic}* 一張孤零零的桌子。 \n* 上面有毛髮的味道。 " ],
+            : [ "<32>{#p/basic}* 一張孤零零的桌子。\n* 上面有毛髮的味道。" ],
       balcony0: () => [ '<18>{#p/papyrus}ENJOYING THE VIEW?', choicer.create('* （你要怎麼回答？）', '是', '否') ],
       balcony1: [
          "<18>{#p/papyrus}{#f/9}GOOD!\nIT'S ABOUT TIME SOMEONE DID.",
@@ -403,20 +403,20 @@ export default {
       crossword1: () =>
          world.edgy
             ? [
-                 '<26>{#p/sans}* 其實也不需要了。 \n* 走過來瞧瞧吧。 ',
+                 '<26>{#p/sans}* 其實也不需要了。\n* 走過來瞧瞧吧。',
                  "<25>{#p/sans}* 喏，它就在地上呢。"
               ]
             : [
                  "<18>{#p/papyrus}{#f/7}衫斯！！\n謎題在哪！？",
                  "<25>{#p/sans}* 就在你眼皮底下呢。",
-                 '<18>{#p/papyrus}{#f/1}啥？ \n就地上躺的那塊板子？ ',
+                 '<18>{#p/papyrus}{#f/1}啥？\n就地上躺的那塊板子？',
                  '<18>{#f/4}行吧...'
               ],
       crossword2: (check: boolean) =>
          world.edgy
             ? [
                  check
-                    ? '<25>{#p/sans}* 咋了？ \n  謎題讓你{@fill=#ff0}鬱{@fill=#fff}罷不能嗎？ '
+                    ? '<25>{#p/sans}* 咋了？\n  謎題讓你{@fill=#ff0}鬱{@fill=#fff}罷不能嗎？'
                     : "<25>{#p/sans}* 看都不願意看一眼，是吧？",
                  "<25>* 真不該對你期望太高。",
                  '<26>{#f/3}* 好吧，\n* 說不定，數謎更適合你。',
@@ -432,7 +432,7 @@ export default {
                  "<18>{#f/9}我真不敢相信\n你居然會提到它！！",
                  '<18>{#f/4}在我看來...',
                  '<18>{#f/0}數獨無疑才是最難的。',
-                 '<25>{#p/sans}* 什麼？ 你認真嗎，兄弟？ \n* 那個簡單到爆的\n  數字排列組合？ ',
+                 '<25>{#p/sans}* 什麼？你認真嗎，兄弟？\n* 那個簡單到爆的\n  數字排列組合？',
                  "<25>{#f/4}* 那是給骷髏寶寶玩的。",
                  '<18>{#p/papyrus}{#f/4}真。難以置信。',
                  '<18>{#f/9}人類！！！\n你來評評理！',
@@ -457,7 +457,7 @@ export default {
          "<25>{#f/0}* 如果我是你的話，\n  我會小心點的。"
       ],
       crossword4a: pager.create(0, [ '<25>{#p/sans}* 嘿，你要去哪，小子？' ], [ '<25>{#p/sans}* 回來。' ]),
-      crossword4b: pager.create(0, [ "<25>{#p/sans}* 你認真？ \n* 也沒那麼難吧。" ], [ '<25>{#p/sans}* 你認真？' ]),
+      crossword4b: pager.create(0, [ "<25>{#p/sans}* 你認真？\n* 也沒那麼難吧。" ], [ '<25>{#p/sans}* 你認真？' ]),
       crossword5a: [
          '<25>{#p/sans}* 感謝你為了安撫我兄弟\n  回答說「數獨更難」。',
          '<25>{#f/4}* 昨天他還試圖「破解」\n  星象圖，結果被難住了呢。'
@@ -471,7 +471,7 @@ export default {
          "<25>{#f/0}* 這不就是你碰到謎題時\n  常用的伎倆麼？"
       ],
       crossword6b: [
-         "<25>{#p/sans}{#f/3}* 挺驚訝的。 \n* 我以為你會看都不看一眼\n  直接跳過。 ",
+         "<25>{#p/sans}{#f/3}* 挺驚訝的。\n* 我以為你會看都不看一眼\n  直接跳過。",
          "<25>{#f/2}* 也許，你還沒有爛到骨子裡。"
       ],
       crossword6c: [ '<25>{#p/sans}{#f/2}* heheh, made you look.' ],
@@ -480,7 +480,7 @@ export default {
          "<25>{#f/2}* 也許，你還沒有爛到骨子裡。"
       ],
       doggo1: [
-         '<32>{#p/basic}* 好像有啥動了下？ \n* 是我的錯覺嗎？ ',
+         '<32>{#p/basic}* 好像有啥動了下？\n* 是我的錯覺嗎？',
          '<32>* 如果確實有什麼在動...\n* 比如說，一個人類...',
          "<32>* 我絕不會讓他\n  再從我眼皮子底下溜走！"
       ],
@@ -498,8 +498,8 @@ export default {
       ],
       doggo3: pager.create(
          0,
-         [ '<32>{#p/basic}* 你好？ \n* 有人在嗎...？ ' ],
-         [ '<32>{#p/basic}* 你倆是在整我嗎？ \n* 真好笑啊，夥計。' ],
+         [ '<32>{#p/basic}* 你好？\n* 有人在嗎...？' ],
+         [ '<32>{#p/basic}* 你倆是在整我嗎？\n* 真好笑啊，夥計。' ],
          [ '<32>{#p/basic}* Big lug?\n* Is that you?\n* Come on...' ],
          [ "<32>{#p/basic}* 嗯，看來並不是那個\n  高個子骷髏...\n* 他太吵了。" ],
          [ '<32>{#p/basic}* 我不管你是誰，趕緊停下！！！' ],
@@ -515,7 +515,7 @@ export default {
          '<32>{#p/basic}* 你剛剛是不是...\n  把我給你的晶片給吃了？',
          '<32>* 我真無語了...\n* 給我滾！'
       ],
-      eat_cream: [ '<32>{#p/basic}* 很開心你可以暢享冰意靈！ \n* 非常開心！ ' ],
+      eat_cream: [ '<32>{#p/basic}* 很開心你可以暢享冰意靈！\n* 非常開心！' ],
       genotext: {
          asriel1: () =>
             [ [ '<25>{#p/asriel2}{#f/9}* 跟我走就行。' ], [ '<25>{#p/asriel2}{#f/16}* 走吧。' ] ][
@@ -540,9 +540,9 @@ export default {
                   '<25>{#f/17}* 要不，從現在開始\n  你來動手吧？',
                   "<25>{#f/15}* 我... 我沒事，真沒事。",
                   "<25>{#f/16}* 我只是覺得，\n  幹這活，你比我更擅長...",
-                  "<25>{#f/17}* 對，就是這個原因！ \n* 這種事，肯定你來做更合適。"
+                  "<25>{#f/17}* 對，就是這個原因！\n* 這種事，肯定你來做更合適。"
                ],
-               [ "<25>{#p/asriel2}{#f/16}* 呃，好吧。 \n* ...之後你來動手。 " ],
+               [ "<25>{#p/asriel2}{#f/16}* 呃，好吧。\n* ...之後你來動手。" ],
                [ '<25>{#p/asriel2}{#f/15}* 那麼... 前進吧？' ],
                [ '<25>{#p/asriel2}{#f/15}* ...' ]
             ][Math.min(SAVE.flag.n.ga_asriel6++, 3)],
@@ -587,13 +587,13 @@ export default {
             [
                SAVE.data.b.papyrus_secret
                   ? [
-                       '<25>{#p/asriel2}{#f/2}* 嘻。 \n* 嘻。 \n* 嘻....',
+                       '<25>{#p/asriel2}{#f/2}* 嘻。\n* 嘻。\n* 嘻....',
                        "<25>{#f/10}* ...等等，帕派瑞斯在哪？",
                        '<25>{#f/10}* ...',
                        "<25>{#f/4}* 天吶，$(name)，\n  沒想到你下手這麼快。"
                     ]
                   : [
-                       '<25>{#p/asriel2}{#f/2}* 嘻。 \n* 嘻。 \n* 嘻....',
+                       '<25>{#p/asriel2}{#f/2}* 嘻。\n* 嘻。\n* 嘻....',
                        "<25>{#f/1}* 天吶，那個蠢骨頭\n  那麼想原諒你...",
                        '<25>{#f/13}* 最後還是嘗到了仁慈的後果。',
                        "<25>{#f/16}* 不過，先別管他了。",
@@ -617,13 +617,13 @@ export default {
             '<25>{#f/3}* 我們談一下吧。',
             ...[
                [
-                  '<25>{#p/asriel2}{#f/6}* 談談？ \n* 跟你有什麼好談的？ ',
+                  '<25>{#p/asriel2}{#f/6}* 談談？\n* 跟你有什麼好談的？',
                   '<25>{#f/6}* 還有，你怎麼在這？',
                   "<25>{#f/7}* 既然早晚我都要\n  把你送到閻王跟前...",
                   '<25>{#f/8}* 那不如... {%15}'
                ],
                [
-                  "<25>{#p/asriel2}{#f/8}* 你想談談？ \n* 別來浪費我的時間。",
+                  "<25>{#p/asriel2}{#f/8}* 你想談談？\n* 別來浪費我的時間。",
                   "<25>{#f/6}* 放個全息投影，還想蒙我？",
                   '<25>{|}{#p/asgore}{#f/5}* 你怎麼- {%}',
                   '<25>{#p/asriel2}{#f/1}* 少問。'
@@ -631,16 +631,16 @@ export default {
             ][Math.min(SAVE.flag.n.ga_asriel30x, 1)]
          ],
          asriel30a: [
-            '<25>{#p/asriel2}{#f/8}* 開玩笑嗎？ \n* 這只是個全息投影？ ',
+            '<25>{#p/asriel2}{#f/8}* 開玩笑嗎？\n* 這只是個全息投影？',
             '<25>{#f/6}* 我知道你是個懦夫，\n  可你竟然還能慫出個新境界。'
          ],
          asriel30b: [
             '<25>{#p/asgore}{#f/1}* 你就沒有更重要的事可做嗎？',
             '<25>{#p/asriel2}{#f/8}* ...',
             '<25>{|}{#p/asgore}{#f/3}* 聽著，兒子，我只是- {%}',
-            "<25>{#p/asriel2}{#f/7}* 我不是你兒子。 \n* 我早就不是你兒子了。 ",
+            "<25>{#p/asriel2}{#f/7}* 我不是你兒子。\n* 我早就不是你兒子了。",
             '<25>{#p/asgore}{#f/2}* ...',
-            '<25>{#p/asgore}{#f/1}* 好吧，艾斯利爾。 \n* 你知不知道自己\n  正變成什麼樣？',
+            '<25>{#p/asgore}{#f/1}* 好吧，艾斯利爾。\n* 你知不知道自己\n  正變成什麼樣？',
             "<25>{#f/2}* 鐵石心腸，罪不可赦...",
             "<25>{#p/asriel2}{#f/8}* 哼，別裝的好像\n  你很在乎我似的，爹。",
             '<25>{#p/asgore}{#f/5}* ...',
@@ -655,30 +655,30 @@ export default {
             '<25>{#p/asgore}{#f/3}* ...',
             '<25>{#p/asriel2}{#f/6}* ...',
             '<25>{#p/asgore}{#f/7}* 你得意識到\n  你的選擇是有份量的！',
-            "<25>{#p/asriel2}{#f/15}* 不然？ \n  沒份量不就飄起來了嗎？ \n  誰還看得到？ ",
-            "<25>{#f/16}* $(name)，我們走。 \n  我受夠他了。 "
+            "<25>{#p/asriel2}{#f/15}* 不然？\n  沒份量不就飄起來了嗎？\n  誰還看得到？",
+            "<25>{#f/16}* $(name)，我們走。\n  我受夠他了。"
          ],
-         asriel30c: [ '<25>{*}{#p/asgore}{#f/8}* 艾斯利爾，求你別走！ \n* 我只是想幫你！ {^999}' ],
+         asriel30c: [ '<25>{*}{#p/asgore}{#f/8}* 艾斯利爾，求你別走！\n* 我只是想幫你！{^999}' ],
          asriel30d: () =>
             [
                [ '<25>{#p/asriel2}{#f/3}* 做好準備，$(name)。', "<26>{#f/4}* 這兒可是安黛因的地盤。" ],
                [ '<25>{#p/asriel2}{#f/4}* 帶路吧。' ]
             ][Math.min(SAVE.flag.n.ga_asriel30d++, 1)],
          papyrusSolo1a: [
-            '<18>{#p/papyrus}{#f/31}衫斯？ \n那是個人類嗎？ ',
+            '<18>{#p/papyrus}{#f/31}衫斯？\n那是個人類嗎？',
             "<18>{#f/5}應該是的吧？",
             '<18>{#f/32}捏...\n安黛因總算會...',
             "<18>{#p/papyrus}{#f/31}我能加入皇家衛隊了...",
             "<18>{#f/5}你會以我為榮的吧？",
-            "<25>{#p/asriel2}{#f/3}* 你騙不了自己的，帕派瑞斯。 \n* 他已經死了。 ",
+            "<25>{#p/asriel2}{#f/3}* 你騙不了自己的，帕派瑞斯。\n* 他已經死了。",
             '<18>{|}{#p/papyrus}{#f/5}可是- {%}',
-            "<25>{#p/asriel2}{#f/3}* 夠了。 \n* 你再怎麼使勁呼喚，\n  他也聽不見的。 ", 
+            "<25>{#p/asriel2}{#f/3}* 夠了。\n* 你再怎麼使勁呼喚，\n  他也聽不見的。", 
             "<18>{#p/papyrus}{#f/6}不會的...\n衫斯他...",
             '<18>{#f/31}他向我承諾過的...',
             "<25>{#p/asriel2}{#f/8}* 那個蠢骨頭\n  要能遵守承諾就怪了。",
             "<26>{#f/9}* 雖然我也不比他好到哪兒去。", 
             '<18>{#p/papyrus}{#f/31}...',
-            "<18>{#f/3}對不起。 \n我得走了..."
+            "<18>{#f/3}對不起。\n我得走了..."
          ],
          papyrusSolo2a: [
             '<18>{#p/papyrus}{#f/31}唉，我剛從\n安黛因那回來...',
@@ -693,7 +693,7 @@ export default {
             '<18>{#f/7}你出賣集體，背叛同胞！',
             '<18>{#f/7}為了啥呢！？',
             '<18>{#f/7}就為了取悅自己嗎？',
-            "<25>{#p/asriel2}{#f/16}* 對啊，帕派瑞斯。 \n* 就是因為這麼做很爽。 ",
+            "<25>{#p/asriel2}{#f/16}* 對啊，帕派瑞斯。\n* 就是因為這麼做很爽。",
             '<18>{#p/papyrus}{#f/7}扯淡！！！',
             '<18>{#p/papyrus}{#f/4}還有你，人類...',
             "<18>{#f/7}別以為我不知道\n事態會怎麼發展。",
@@ -751,7 +751,7 @@ export default {
             '<18>{#f/31}為什麼？',
             '<18>{#f/31}為什麼你要這麼做？',
             "<18>{#f/3}一個怪物不應該\n會變成這樣啊...",
-            "<18>{#f/5}你的愛去哪了？ \n你的同情心去哪了？ ",
+            "<18>{#f/5}你的愛去哪了？\n你的同情心去哪了？",
             '<18>{#f/31}你的... 仁慈...',
             '<25>{#p/asriel2}{#f/2}* ...\n* 喔，您可真是\n  文曲星下凡啊...',
             '<25>{#f/1}* 在我的靈魂中，\n  這些東西早就化為烏有了。',
@@ -775,7 +775,7 @@ export default {
          papyrusSolo4b: [
             '<25>{*}{#p/asriel2}{#f/14}{@random=1.1/1.1}{@fill=#f00}* $(name)。{%100}',
             '<18>{#p/papyrus}{#f/32}...！',
-            '<25>{#p/asriel2}{#f/5}* 哈！ \n* 哈哈哈！ \n* 看看你什麼表情！ '
+            '<25>{#p/asriel2}{#f/5}* 哈！\n* 哈哈哈！\n* 看看你什麼表情！'
          ],
          papyrusSolo4c: [ '<18>{#p/papyrus}{#f/31}我...', '<18>{#f/3}...不...' ],
          papyrusSolo4d: [
@@ -784,7 +784,7 @@ export default {
             "<18>{#f/7}那個滿嘴謊話的，還是你。",
             '<18>{#f/9}但是我，帕派瑞斯...',
             '<18>{#f/9}總算認清了{@fill=#f00}真相{@fill=#fff}。',
-            "<25>{#p/asriel2}{#f/13}* 喔？ \n* 真相是什麼呢？ "
+            "<25>{#p/asriel2}{#f/13}* 喔？\n* 真相是什麼呢？"
          ],
          papyrusSolo4e: [ "<18>{#p/papyrus}{#f/34}你才不是{@fill=#f00}艾斯利爾{@fill=#fff}。" ],
          papyrusSolo4f: [
@@ -801,7 +801,7 @@ export default {
             "<25>{#f/3}* 我會離開一會，\n  讓你倆單獨對峙。",
             "<25>{#f/3}* 他要是饒恕你，\n  那我就認栽。",
             '<25>{#f/4}* 否則，他要是\n  「不小心」殺了你...',
-            "<25>{#f/1}* 你就知道你大錯特錯了。 \n  而那個懶骨頭死得就\n  一文不值。 ",
+            "<25>{#f/1}* 你就知道你大錯特錯了。\n  而那個懶骨頭死得就\n  一文不值。",
             '<25>{#f/1}* 這主意如何？',
             '<18>{#p/papyrus}{#f/9}...\n我接受。',
             '<25>{#p/asriel2}{#f/3}* 那可太好了。',
@@ -831,7 +831,7 @@ export default {
       innkeep1a: pager.create(
          0,
          () => [
-            "<32>{#p/basic}{#npc/a}* 歡迎來到星光旅館！ \n* 星港的一流旅館！ ",
+            "<32>{#p/basic}{#npc/a}* 歡迎來到星光旅館！\n* 星港的一流旅館！",
             '<32>* 每住宿一晚花費60G。',
             choicer.create('* （訂一間房嗎？）', "訂", "不訂")
          ],
@@ -844,7 +844,7 @@ export default {
       innkeep1b: pager.create(
          0,
          () => [
-            '<32>{#p/basic}{#npc/a}* 又回來了嗎？ \n* 記住，一個晚上60G。',
+            '<32>{#p/basic}{#npc/a}* 又回來了嗎？\n* 記住，一個晚上60G。',
             choicer.create('* （再訂一間房嗎？）', "訂", "不訂")
          ],
          () => [ '<32>{#p/basic}{#npc/a}* 改變主意了嗎？', choicer.create('* （再訂一間房嗎？）', "訂", "不訂") ]
@@ -862,13 +862,13 @@ export default {
          "<32>* Oh! You poor thing.\n* I can only imagine what you've been through.",
          '<32>* One of the rooms upstairs is empty, you can sleep there for free, okay?'
       ],
-      innkeep2b: [ "<32>{#p/basic}{#npc/a}* 這是你的房間鑰匙。 \n* 小心別著涼！" ],
+      innkeep2b: [ "<32>{#p/basic}{#npc/a}* 這是你的房間鑰匙。\n* 小心別著涼！" ],
       innkeep2c: [ "<32>{#p/basic}{#npc/a}* Sorry, you don't have enough G..." ],
-      innkeep3a: [ '<32>{#p/basic}{#npc/a}* 您好呀！ \n* 您看起來睡得很舒服。' ],
+      innkeep3a: [ '<32>{#p/basic}{#npc/a}* 您好呀！\n* 您看起來睡得很舒服。' ],
       innkeep3b: [ '<32>* 挺不可思議的...\n* ...因為您在上面\n  只待了幾分鐘。' ],
       innkeep3c: [ '<32>* Feel free to come back if you get tired.' ],
-      innkeep3d: [ "<32>* 我把錢退給您。 \n* 想過夜的話，可以再付給我喔。 " ],
-      innkeep4: [ "<32>{#p/basic}{#npc/a}* 現在還不困？ \n* 沒關係，只要您需要，\n  我隨時為您服務！" ],
+      innkeep3d: [ "<32>* 我把錢退給您。\n* 想過夜的話，可以再付給我喔。" ],
+      innkeep4: [ "<32>{#p/basic}{#npc/a}* 現在還不困？\n* 沒關係，只要您需要，\n  我隨時為您服務！" ],
       innkeep5: [
          '<32>{#p/basic}{#npc/a}* Hello!\n* Sorry, no time for a nap...',
          '<32>* Starred Inn is shutting down so we can leave to find a new homeworld.'
@@ -908,7 +908,7 @@ export default {
                : [ '<25>{#p/kidd}{#f/3}* 你有在星球上生活過嗎？' ]
       ),
       marriage1: [
-         "<32>{#p/basic}* 什麼味道？ \n* （我怎麼沒聞到？ ）",
+         "<32>{#p/basic}* 什麼味道？\n* （我怎麼沒聞到？）",
          "<32>* 如果你是這個味道...\n* （...證明你的氣味！）"
       ],
       marriage2: [
@@ -937,7 +937,7 @@ export default {
          '<32>* Thanks, weird puppy!\n* (After this, our lives will never be the same!)'
       ],
       marriage4: [
-         "<32>{#p/basic}* 王子在哪？ \n* （沒走錯路吧？ ）",
+         "<32>{#p/basic}* 王子在哪？\n* （沒走錯路吧？）",
          '<32>* 必須阻止那個惡魔...\n* （...還有他的人類幫兇！）'
       ],
       marriage5: [ '<32>{#p/basic}* 呃...\n* 他們在這...', "<32>* （抓住他們！）" ],
@@ -948,14 +948,14 @@ export default {
                  "<25>{#p/sans}{#f/3}* 真是太遺憾了...",
                  "<25>{#p/sans}{#f/2}* 這個謎題\n  帕派瑞斯精心準備了好久...\n* 但現在他有事，來不了了。",
                  "<25>{#p/sans}{#f/0}* 不過，沒關係。",
-                 "<25>{#p/sans}{#f/0}* 我答應過他，會讓你解謎的。 \n* 那麼，開始吧。 "
+                 "<25>{#p/sans}{#f/0}* 我答應過他，會讓你解謎的。\n* 那麼，開始吧。"
               ]
             : [
                  '<18>{#p/papyrus}喔吼，\n那個人類來了！',
                  '<18>我和我的兄弟\n製造了一些謎題。',
                  '<18>{#f/9}你準備好接受\n挑戰了嗎，人類！？',
                  choicer.create('* （你要怎麼回答？）', "準備好了", "沒準備好"),
-                 '<18>{#p/papyrus}回答正確！ \n因為你也看到了...'
+                 '<18>{#p/papyrus}回答正確！\n因為你也看到了...'
               ],
       maze2a: [
          '<18>{#x4}{#f/9}從來沒有一個工匠\n做的陷阱可以跟我的\n相提並論！',
@@ -971,9 +971,9 @@ export default {
       maze3: [ '<18>{#x1}{#f/0}不論如何，\n我把這個謎題叫做...' ],
       maze3a: [
          '<18>「火焰之牆」！！',
-         '<25>{#p/sans}* 你直接叫它「火牆」\n  不就行了嗎？ \n* 這樣多省事。',
+         '<25>{#p/sans}* 你直接叫它「火牆」\n  不就行了嗎？\n* 這樣多省事。',
          "<18>{#p/papyrus}{#f/4}艾菲斯博士會覺得\n我用錯詞了的。",
-         "<25>{#p/sans}* 我不太確定，兄弟。 \n  她真的很喜歡那種東西。 \n  實際上...",
+         "<25>{#p/sans}* 我不太確定，兄弟。\n  她真的很喜歡那種東西。\n  實際上...",
          "<30>{#f/2}* 這裡畢竟是個\n  {@fill=#ff0}熱火{@fill=#fff}朝天的地方。"
       ],
       maze4: [ '<18>{#p/papyrus}{#x3}{#f/7}別說了，衫斯！！' ],
@@ -1028,9 +1028,9 @@ export default {
       ],
       maze8: () =>
          world.edgy
-            ? [ '<25>{#p/sans}{#f/0}* 哎呀，真可惜。 \n* 不過別灰心。 ' ]
+            ? [ '<25>{#p/sans}{#f/0}* 哎呀，真可惜。\n* 不過別灰心。' ]
             : [
-                 '<18>{#p/papyrus}捏嘿嘿！ \n那好吧。',
+                 '<18>{#p/papyrus}捏嘿嘿！\n那好吧。',
                  "<18>{#f/9}看來你被\n偉大的帕派瑞斯戲弄了！",
                  '<18>{#f/0}但別擔心！',
                  '<18>你也看到了，\n我的陷阱可不差。',
@@ -1038,7 +1038,7 @@ export default {
               ],
       maze9: () =>
          world.edgy
-            ? [ "<25>{#p/sans}{#f/0}* 不錯嘛。 \n* 沒看出來，你還挺機靈的。 " ]
+            ? [ "<25>{#p/sans}{#f/0}* 不錯嘛。\n* 沒看出來，你還挺機靈的。" ]
             : [
                  '<18>{#p/papyrus}{#f/1}WHAT!?',
                  '<18>{#f/7}HOW DID YOU MANAGE TO DO THAT!?!?',
@@ -1058,7 +1058,7 @@ export default {
                  '<18>{#f/0}我很期待\n接下來的發展！',
                  '<18>{#f/4}一個令人\n十分困惑的謎題...',
                  "<18>{#f/1}連TERRESTRIA自己\n都解決不了！！",
-                 "<25>{#p/sans}* terrestria？ \n* 是那個在世\n  最長壽的怪物嗎？ ",
+                 "<25>{#p/sans}* terrestria？\n* 是那個在世\n  最長壽的怪物嗎？",
                  '<18>{|}{#p/papyrus}{#f/1}呃...\n是這樣沒錯，但- {%}',
                  "<25>{#p/sans}* 媽呀，我都不知道\n  原來你對我的評價這麼高。",
                  '<18>{#p/papyrus}{#f/4}啥。',
@@ -1077,13 +1077,13 @@ export default {
             : SAVE.data.b.s_state_scorereaction1 || SAVE.data.n.plot === 20.2
             ? "<32>{#p/basic}* 等一下！！！！\n* 也許你會喜歡這些東西！"
             : '<32>{#p/basic}* 喔！！！！\n* 一個顧客！！',
-         '<32>* 你好！ \n* 想來根冰意靈嗎？',
+         '<32>* 你好！\n* 想來根冰意靈嗎？',
          SAVE.data.b.s_state_million
             ? '<32>* As the top scorer here, you get a handy discount!\n* 6G per Ice Dream!'
-            : "<32>* 這可是能點燃你內心的冰凍甜品！ \n* 現在只要12G。"
+            : "<32>* 這可是能點燃你內心的冰凍甜品！\n* 現在只要12G。"
       ],
       nicecreamSc3: () => [
-         "<32>{#p/basic}* 冰意靈！ \n* 能點燃你內心的冰凍甜品！ ",
+         "<32>{#p/basic}* 冰意靈！\n* 能點燃你內心的冰凍甜品！",
          SAVE.data.b.s_state_million ? '<32>* For you, 6G!' : '<32>* 現在只賣12G。'
       ],
       nicecreamPrompt1: () => [ choicer.create('* （要花$(x)G買冰意靈嗎？)', '是', '否') ],
@@ -1100,14 +1100,14 @@ export default {
          '<32>* 如果你有了三張明信片，\n  你就可以換一根\n  免費的冰意靈！',
          "<32>* 這些明信片\n  肯定會給我帶來回頭客的！",
          '<32>* 喔，嗯，\n  你想來根冰意靈嗎？',
-         "<32>* 這可是能點燃你內心的冰凍甜品！ \n* 現在只要10G。"
+         "<32>* 這可是能點燃你內心的冰凍甜品！\n* 現在只要10G。"
       ],
       nicecreamFc3a: [
-         "<32>{#p/basic}* 冰意靈！ \n* 能點燃你內心的冰凍甜品！ ",
+         "<32>{#p/basic}* 冰意靈！\n* 能點燃你內心的冰凍甜品！",
          "<32>* You've got three postcards, would you like to redeem them?"
       ],
       nicecreamFc3b: [
-         "<32>{#p/basic}* 冰意靈！ \n* 能點燃你內心的冰凍甜品！ ",
+         "<32>{#p/basic}* 冰意靈！\n* 能點燃你內心的冰凍甜品！",
          '<32>* 現在只要10G。'
       ],
       nicecreamFc4: [
@@ -1115,9 +1115,9 @@ export default {
          '<32>* 冰意靈買三贈一...'
       ],
       nicecreamFc5: [ "<32>{#p/basic}* 別忘了從箱子裡\n  拿一張明信片！" ],
-      nicecreamNoFun1: [ "<32>{#p/basic}* 嗯？ \n* 你的口袋裡沒有\n  空地方了..." ],
+      nicecreamNoFun1: [ "<32>{#p/basic}* 嗯？\n* 你的口袋裡沒有\n  空地方了..." ],
       nicecreamNoFun2: [ '<32>{#p/basic}* I wish I could make Ice Dreams easier to store...' ],
-      nicecreamNoMun1: [ "<32>{#p/basic}* 嗯？ \n* 你的錢不太夠..." ],
+      nicecreamNoMun1: [ "<32>{#p/basic}* 嗯？\n* 你的錢不太夠..." ],
       nicecreamNoMun2: [ '<32>{#p/basic}* 我也希望\n  做棒冰不用花錢...' ],
       nicecreamFree1: [ '<32>{#p/basic}* 告訴你一個好訊息，\n  第一根棒冰，免費送你。' ],
       nicecreamFree2: [ '<32>{#p/basic}* 希望你喜歡...' ],
@@ -1126,7 +1126,7 @@ export default {
       nicecreamPurchase: [ '<32>{#p/basic}* Here you go!\n* Have a stellar starry night!' ],
       nicecreamGet: [ '<32>{#s/equip}{#p/human}* （你得到了冰意靈。）' ],
       nicecreamK1a: [ '<25>{#p/kidd}{#f/1}* 喲，可以給我來一根\n  冰意靈嗎？' ],
-      nicecreamK1b: [ "<32>{#p/basic}* 當然沒問題，孩子。 \n* 只要你有錢的話，" ],
+      nicecreamK1b: [ "<32>{#p/basic}* 當然沒問題，孩子。\n* 只要你有錢的話，" ],
       nicecreamK1c: [ '<25>{#p/kidd}{#f/2}* （噓，把這個給他。）' ],
       nicecreamK1d: [
          '<25>{#p/kidd}{#f/7}* Yo, they got free Ice Dreams here!?',
@@ -1198,7 +1198,7 @@ export default {
                   ? [
                        "<32>{#p/basic}{#npc/a}* 我聽說，如果你在戰鬥中按住[X]，\n  移動的速度會比正常慢一倍！",
                        '<32>* 我懂... 你覺得沒用，是嗎？',
-                       "<32>* 但我告訴你一個秘密。 \n* 那邊那條狗... 他巴不得你\n  移動速度快呢。 ",
+                       "<32>* 但我告訴你一個秘密。\n* 那邊那條狗... 他巴不得你\n  移動速度快呢。",
                        '<32>* 如果你邊按住[X]邊靠近他，\n  你就不會被他發現！',
                        '<32>* 嚯嚯嚯... 祝你好運。'
                     ]
@@ -1276,7 +1276,7 @@ export default {
                   : SAVE.data.n.plot === 33
                   ? [
                        "<32>{#p/basic}{#npc/a}* 你跟我說話的口氣\n  好像你想知道\n  內幕訊息似的。",
-                       "<32>{#p/basic}{#npc/a}* 抱歉孩子。 \n* 看來你只能等下一條新聞了。 "
+                       "<32>{#p/basic}{#npc/a}* 抱歉孩子。\n* 看來你只能等下一條新聞了。"
                     ]
                   : SAVE.data.n.plot === 72
                   ? [
@@ -1287,7 +1287,7 @@ export default {
                   : papreal()
                   ? [ '<32>{#p/basic}{#npc/a}* Do you know where Sans is?' ]
                   : [
-                       '<32>{#p/basic}{#npc/a}* 我覺得我可以問問安黛因。 \n* 但她好像已經喜歡別人了。 '
+                       '<32>{#p/basic}{#npc/a}* 我覺得我可以問問安黛因。\n* 但她好像已經喜歡別人了。'
                     ],
             () =>
                SAVE.data.b.killed_mettaton
@@ -1352,7 +1352,7 @@ export default {
                        '<32>* 而且不像怪物的食物一樣\n  可以直接轉化為能量...',
                        '<32>* 人類的食物必須\n  要先通過他們的身體。',
                        '<32>* 就算在低重力的環境\n  也是這樣。',
-                       "<32>* 太詭異了。 \n* 我找時間也想試試。 "
+                       "<32>* 太詭異了。\n* 我找時間也想試試。"
                     ],
             () =>
                SAVE.data.b.killed_mettaton
@@ -1425,7 +1425,7 @@ export default {
                     ]
                   : [
                        "<32>{#p/basic}{#npc/a}* 不論我去到哪裡，\n  看到的都是一樣的選單，\n  遇到的都是一樣的人...",
-                       "<32>* 服務員！ \n* 我想再來點喝的，\n  再來店帥-帥-帥-帥哥！ "
+                       "<32>* 服務員！\n* 我想再來點喝的，\n  再來店帥-帥-帥-帥哥！"
                     ],
             () =>
                SAVE.data.b.killed_mettaton
@@ -1518,7 +1518,7 @@ export default {
                  ]
                : SAVE.data.n.plot === 33
                ? [
-                    '<32>{#p/basic}{#npc/a}* 嗯？ \n* 你和衫斯什麼時候\n  成為朋友了？ ',
+                    '<32>{#p/basic}{#npc/a}* 嗯？\n* 你和衫斯什麼時候\n  成為朋友了？',
                     "<32>* 我不太喜歡那傢伙...",
                     '<32>* 他喜歡一動不動地出現。'
                  ]
@@ -1588,7 +1588,7 @@ export default {
                : [
                     '<32>{#p/basic}* ...\n* ...\n* ...',
                     '<32>{#npc/a}* 烤爾比說他是在一本\n  電子雜誌上找到他的\n  新顏色的。',
-                    "<32>* 我個人還是更喜歡烤爾比\n  原始的那個橘色。 \n* 僅個人觀點。 "
+                    "<32>* 我個人還是更喜歡烤爾比\n  原始的那個橘色。\n* 僅個人觀點。"
                  ],
          g_punkhamster: pager.create(
             0,
@@ -1601,7 +1601,7 @@ export default {
                   : SAVE.data.n.plot === 33
                   ? [
                        '<32>{#p/basic}{#npc/a}* 衫斯當然知道該怎麼逗你笑，\n  對吧？',
-                       '<32>* 那是肯定的。 \n* 這裡的帳單幾乎都是\n  那個骷髏付的。 '
+                       '<32>* 那是肯定的。\n* 這裡的帳單幾乎都是\n  那個骷髏付的。'
                     ]
                   : SAVE.data.n.plot === 72
                   ? world.population < 2
@@ -1631,7 +1631,7 @@ export default {
                SAVE.data.b.killed_mettaton
                   ? [ "<33>{#p/basic}{#npc/a}* I'm semi-conflicted about this." ]
                   : SAVE.data.n.plot === 33
-                  ? [ "<32>{#p/basic}{#npc/a}* 常客？ \n* 你說誰，我嗎？ \n* 不至於，我只能算半個常客。" ]
+                  ? [ "<32>{#p/basic}{#npc/a}* 常客？\n* 你說誰，我嗎？\n* 不至於，我只能算半個常客。" ]
                   : SAVE.data.n.plot === 72
                   ? world.population < 2
                      ? [
@@ -1709,7 +1709,7 @@ export default {
                   ? [ '<32>{#p/basic}{#npc/a}* Something feels off.' ]
                   : world.population < 4
                   ? [ "<32>{#p/basic}{#npc/a}* At least they're not out there killing everybody." ]
-                  : [ '<32>{#p/basic}{#npc/a}* 我長大了也要像安黛因那樣！ \n* 吼吼吼！ ' ]
+                  : [ '<32>{#p/basic}{#npc/a}* 我長大了也要像安黛因那樣！\n* 吼吼吼！' ]
          ),
          l_cupjake: pager.create(
             0,
@@ -1741,7 +1741,7 @@ export default {
                   : [
                        '<32>{#p/basic}{#npc/a}* （咳，咳。）',
                        '<33>* 我上學的時候，如果我們沒有作業，\n  老師會給我們布置一些\n  「找不同」的謎題。',
-                       '<32>* 我那時候覺得那是在浪費時間。 \n* 但看看現在的我...',
+                       '<32>* 我那時候覺得那是在浪費時間。\n* 但看看現在的我...',
                        "<33>* 我現在是前哨站第一的\n  「找不同」謎題設計師了！"
                     ],
             () =>
@@ -1752,7 +1752,7 @@ export default {
                     ]
                   : [
                        '<32>{#p/basic}{#npc/a}* （咳，咳。）',
-                       "<33>* 相信我，孩子。 \n* 你不會想來幹這行的。 "
+                       "<33>* 相信我，孩子。\n* 你不會想來幹這行的。"
                     ]
          ),
          l_librarian: pager.create(
@@ -1771,7 +1771,7 @@ export default {
                        '<32>* Which, is important, what with all the breakdowns happening lately.'
                     ]
                   : [
-                       '<32>{#p/basic}{#npc/a}* 歡迎來到圖書倌。 \n* 老實說，這名字\n  來源於一次拼寫錯誤。 ',
+                       '<32>{#p/basic}{#npc/a}* 歡迎來到圖書倌。\n* 老實說，這名字\n  來源於一次拼寫錯誤。',
                        '<32>* 久而久之，\n  所有人都這麼叫了...'
                     ],
             () =>
@@ -2112,7 +2112,7 @@ export default {
                        "<32>* You've got an awfully criminal look on your FACE...",
                        '<32>* ...',
                        '<32>* ...',
-                       '<32>* 尊重我的權威！ \n* 耶!'
+                       '<32>* 尊重我的權威！\n* 耶!'
                     ]
                   : [
                        '<32>{#p/basic}{#npc/a}* 嘿！',
@@ -2120,7 +2120,7 @@ export default {
                        "<32>* 行吧，我告訴你個壞訊息，\n  夥計。",
                        "<32>* 我是個執法人員。",
                        '<32>* 所以，呃...',
-                       '<32>* 尊重我的權威！ \n* 耶!'
+                       '<32>* 尊重我的權威！\n* 耶!'
                     ],
             () =>
                SAVE.data.n.plot === 72
@@ -2301,7 +2301,7 @@ export default {
                     ]
                   : [
                        '<32>{#p/basic}{#npc/a}* 每個人都在歡笑、講笑話，\n  試圖忘記我們的現代危機...',
-                       '<32>* 死氣沉沉。 \n* 人口過剩。 \n* 無家可歸。 ',
+                       '<32>* 死氣沉沉。\n* 人口過剩。\n* 無家可歸。',
                        "<32>* 我也想加入他們，\n  但我並不有趣。"
                     ],
             () =>
@@ -2408,7 +2408,7 @@ export default {
                  ]
                : [
                     '<32>{#p/basic}* 顯示器側面釘著一份說明...',
-                    '<33>* 上面的字跡全是狂草，你根本\n  看不清楚。 \n* 除了一個字，「零」。 '
+                    '<33>* 上面的字跡全是狂草，你根本\n  看不清楚。\n* 除了一個字，「零」。'
                  ])
          ],
          ctower1: () =>
@@ -2440,8 +2440,8 @@ export default {
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (But you didn't notice anything of note about this appliance.)" ]
                : [
-                    '<32>{#p/basic}* 標準規格的電介質加熱器，\n  首塔製造。 \n* 260X年前後製成。 ',
-                    "<32>* 這就是臺微波爐。 \n  頂多用了十年。 "
+                    '<32>{#p/basic}* 標準規格的電介質加熱器，\n  首塔製造。\n* 260X年前後製成。',
+                    "<32>* 這就是臺微波爐。\n  頂多用了十年。"
                  ],
          microwave4: () => [
             '<32>{#p/basic}* 它似乎在投射某種重力場。',
@@ -2529,7 +2529,7 @@ export default {
                     "<32>{#p/basic}* 這是個遊戲終端...",
                     ...(SAVE.data.n.plot === 72 || world.postnoot
                        ? [ '<32>{#p/basic}* The power supply has been cut.' ]
-                       : [ '<32>{#p/basic}* 「儘可能快速射擊目標！ \n   用[Z]來射擊。」' ])
+                       : [ '<32>{#p/basic}* 「儘可能快速射擊目標！\n   用[Z]來射擊。」' ])
                  ])
          ]
       },
@@ -2619,7 +2619,7 @@ export default {
                : [
                     ...(roomready()
                        ? [
-                            "<18>{#p/papyrus}域外網！ \n我在那上面\n超有人氣的。",
+                            "<18>{#p/papyrus}域外網！\n我在那上面\n超有人氣的。",
                             "<18>{#f/4}再有12個追蹤...",
                             '<18>{#f/0}我的粉絲數\n就到兩位數了！'
                          ]
@@ -2650,7 +2650,7 @@ export default {
                ? 'BREAKING:\n..\n..\n..\n.. WE ALL NEED\nTO LEAVE.'
                : SAVE.data.n.plot === 72
                ? 'BREAKING:\nWE CAN LEAVE.\nLIKE.. FOR REAL.\nSOURCE:\nLOOK OUTSIDE,\nPEOPLE!'
-               : "突發新聞：\n《喵喵星火》\n評分..\n一塌糊塗。 \n新聞來源：\n就，這是\n真的嗎？"
+               : "突發新聞：\n《喵喵星火》\n評分..\n一塌糊塗。\n新聞來源：\n就，這是\n真的嗎？"
       },
       papcomputer4: [
          () =>
@@ -2732,13 +2732,13 @@ export default {
                ? {
                     a: '壯魚91',
                     b: '今天',
-                    c: 'blooky，快點離開這。 \n我不想看到你也跟著受傷。 '
+                    c: 'blooky，快點離開這。\n我不想看到你也跟著受傷。'
                  }
                : world.dead_skeleton
                ? {
                     a: '壯魚91',
                     b: '今天',
-                    c: 'blooky，帕派瑞斯不在了。 \n我會讓那人類血債血還。 '
+                    c: 'blooky，帕派瑞斯不在了。\n我會讓那人類血債血還。'
                  }
                : {
                     a: '壯魚91',
@@ -2762,13 +2762,13 @@ export default {
                ? {
                     a: '酷炫骷髏95',
                     b: '昨天',
-                    c: "今天，\n就是我要抓到人類的日子！ \n我能從骨子裡感覺到！ "
+                    c: "今天，\n就是我要抓到人類的日子！\n我能從骨子裡感覺到！"
                  }
                : world.genocide
                ? {
                     a: '納普斯特22',
                     b: '今天',
-                    c: '呃...\n我有什麼能幫忙的嗎？ \n事情變得更糟了...'
+                    c: '呃...\n我有什麼能幫忙的嗎？\n事情變得更糟了...'
                  }
                : {
                     a: '納普斯特22',
@@ -2893,7 +2893,7 @@ export default {
             ? '<18>{#p/papyrus}好！！！\n約會開始！！！'
             : "<18>{#p/papyrus}好！！！\n我們開始消遣叭！！！"
       ],
-      papdate5b: [ "<18>{#p/papyrus}慢慢看，不著急。 \n我會等你的。 " ],
+      papdate5b: [ "<18>{#p/papyrus}慢慢看，不著急。\n我會等你的。" ],
       papdate6: () => [
          SAVE.data.b.flirt_papyrus
             ? '<#32>{#p/story}           約會    開始！'
@@ -2943,7 +2943,7 @@ export default {
       ],
       papdate13a: () => [
          '<15>{#f/24}「咳咳。」',
-         '<15>{#f/20}人類！ \n我，偉大的\n帕派瑞斯...',
+         '<15>{#f/20}人類！\n我，偉大的\n帕派瑞斯...',
          SAVE.data.b.flirt_papyrus
             ? '<15>{#f/10}想和你\n進行一場\n約會！'
             : '<15>{#f/10}WOULD LIKE TO HANG OUT WITH YOU!'
@@ -2977,7 +2977,7 @@ export default {
          '<15>{#f/20}今天早些時候，\n你也穿著衣服呢！'
       ],
       papdate17a: () => [
-         '<15>{#f/12}不會吧...！ \n這是不是說？？？',
+         '<15>{#f/12}不會吧...！\n這是不是說？？？',
          SAVE.data.b.flirt_papyrus
             ? '<15>{#f/13}你打從一開始\n就打算和我\n約會了？？？'
             : '<15>{#f/13}你打從一開始\n就打算和我\n做朋友了？？？'
@@ -3048,7 +3048,7 @@ export default {
          '<15>{#p/papyrus}{#f/21}我頭上的\n假髮...？',
          '<15>{#f/16}我頭上的假髮。',
          '<15>{#f/10}我頭上的...\n假髮！！！',
-         "<15>{#f/10}捏嘿嘿！ \n意義重大的\n回答！ "
+         "<15>{#f/10}捏嘿嘿！\n意義重大的\n回答！"
       ],
       papdate25a: [
          '<15>{#p/papyrus}{#f/21}OVERWHELMED BY THE SIGHT OF MY \"STELLAR\" OUTFIT?',
@@ -3059,12 +3059,12 @@ export default {
          '<15>{#p/papyrus}{#f/26}這件襯衫上\n本來沒有寫著\n「閃亮」的...',
          '<15>{#f/20}但是我\n改良了一下！',
          '<15>{#f/10}專家提示：\n所有的衣服都\n可以通過這種\n方式改良。',
-         "<15>{#f/20}...但這裡可\n沒藏什麼秘密！ \n再試試吧！ "
+         "<15>{#f/20}...但這裡可\n沒藏什麼秘密！\n再試試吧！"
       ],
       papdate25c: [
          '<15>{#p/papyrus}{#f/24}我懂，我懂。',
          '<15>{#f/24}你喜歡用一顆\n漂浮的心\n感受我的\n手臂靠枕。',
-         "<15>{#f/20}但是誰又\n不喜歡呢！？ \n再試試吧！"
+         "<15>{#f/20}但是誰又\n不喜歡呢！？\n再試試吧！"
       ],
       papdate25d: [
          "<15>{#p/papyrus}{#f/13}你握住我的手，\n想讓我把答案\n告訴你...？",
@@ -3082,7 +3082,7 @@ export default {
          '<15>{#f/20}再試試吧！'
       ],
       papdate25g: [
-         '<15>{#p/papyrus}{#f/20}啊這個！ \n這是我的\n頂級運動服！ ',
+         '<15>{#p/papyrus}{#f/20}啊這個！\n這是我的\n頂級運動服！',
          "<15>{#f/24}你在這裡可\n找不到任何\n秘密，因為...",
          "<15>{#f/20}我就沒有口袋\n可以裝！！！",
          '<15>{#f/20}再試試吧！'
@@ -3093,7 +3093,7 @@ export default {
          SAVE.data.b.flirt_papyrus
             ? "<15>{#f/24}如果我們沒在\n忙著約會的話，\n我肯定會給你。"
             : "<15>{#f/24}如果我們沒在\n忙著消遣的話，\n我肯定會給你。",
-         '<15>{#f/20}所以現在不行！ \n再試試吧！ '
+         '<15>{#f/20}所以現在不行！\n再試試吧！'
       ],
       papdate25i: [
          '<15>{#p/papyrus}{#f/14}你認真嗎？？',
@@ -3176,14 +3176,14 @@ export default {
          [ '<15>{#f/27}只-只送給你的\n禮物！！！', '<15>{#f/27}給我們兩個\n分享的禮物！！！' ][
             (SAVE.data.n.state_papyrus_spaghet + 1) % 2
          ],
-         '<15>{#f/10}快！ \n快打開！ '
+         '<15>{#f/10}快！\n快打開！'
       ],
       papdate27: () => [ choicer.create('* （你該怎麼辦？）', '打開', '不要') ],
       papdate28: [
          "<15>{#p/papyrus}{#f/21}你甚至不忍心\n弄壞我精緻的\n包裝？？",
          '<15>{#f/27}不-不...\n居然來這招...',
          "<15>{#f/13}真的好厲害！",
-         '<15>{#f/14}但-但是...\n啊哈！ \n看我的反擊！ ',
+         '<15>{#f/14}但-但是...\n啊哈！\n看我的反擊！',
          "<15>{#f/15}I'LL OPEN THE PRESENT MYSELF!!"
       ],
       papdate29: [ '<15>{#p/papyrus}{#f/20}你知道【這】是\n什麼嗎？' ],
@@ -3195,7 +3195,7 @@ export default {
          '<15>{#f/15}但是也-\n錯了！'
       ],
       papdate31b: [
-         "<15>{#p/papyrus}{#f/20}捏嘿嘿！ \n這才對嘛。",
+         "<15>{#p/papyrus}{#f/20}捏嘿嘿！\n這才對嘛。",
          '<15>{#p/papyrus}{#f/15}你根本想不到！',
          '<15>{#f/24}雖然這看起來\n是義大利麵...'
       ],
@@ -3257,13 +3257,13 @@ export default {
       papdate36: [ '<15>{*}{#p/papyrus}{#f/22}呃！！！{%15}' ],
       papdate37: [ '<15>{*}{#p/papyrus}{#f/22}不啊啊啊！！！{%15}' ],
       papdate38: () => [
-         "<18>{#p/papyrus}{@random=1.1/1.1}人類。 \n一切都清晰明了了。 ",
+         "<18>{#p/papyrus}{@random=1.1/1.1}人類。\n一切都清晰明了了。",
          SAVE.data.b.flirt_papyrus
             ? "<18>{@random=1.1/1.1}你已經痴狂地\n愛上了我。"
             : "<18>{@random=1.1/1.1}你已經完全\n被我迷住了。",
-         '<99>{@random=1.1/1.1}你做的每一件事。 \n你說的每一個字。 ',
+         '<99>{@random=1.1/1.1}你做的每一件事。\n你說的每一個字。',
          "<18>{@random=1.1/1.1}一切的一切\n都是為了我。",
-         '<18>{@random=1.1/1.1}人類。 \n我也想讓你，\n感到快樂。 ',
+         '<18>{@random=1.1/1.1}人類。\n我也想讓你，\n感到快樂。',
          "<18>{@random=1.1/1.1}現在輪到我\n來表達我的\n感情了...",
          "<18>{@random=1.1/1.1}輪到我來告訴你\n我的真心話了。"
       ],
@@ -3292,7 +3292,7 @@ export default {
       papdate39a: () => [
          ...(SAVE.data.b.flirt_papyrus
             ? [
-                 "<15>{#f/20}不！ \n不是這樣的！ ",
+                 "<15>{#f/20}不！\n不是這樣的！",
                  "<15>{#f/17}我不會在任何\n事情上失敗！！！",
                  "<15>{#f/20}人類！！！\n我會幫助你度過\n這段艱難的\n時光！！！",
                  "<15>{#f/24}我可以繼續當你\n酷酷的朋友...",
@@ -3305,7 +3305,7 @@ export default {
                  ...(SAVE.data.n.plot < 48
                     ? [
                          "<15>{#f/10}嘿，總有一天，\n你會找到和我\n一樣好的人。",
-                         "<15>{#f/24}呃，不。 \n那是不可能的。 ",
+                         "<15>{#f/24}呃，不。\n那是不可能的。",
                          "<15>{#f/20}但我也會接受\n你找個第二好的\n人！！！"
                       ]
                     : [ "<15>{#f/10}AND HEY, UNDYNE'S NOT TOO FAR FROM HERE.", '<15>{#f/20}WE CAN HANG OUT WITH HER!' ])
@@ -3387,8 +3387,8 @@ export default {
             ? [ "<32>{#p/basic}* 水槽太高了，\n  你都沒辦法洗手..." ]
             : [ "<32>{#p/basic}* There's a pile of dog residue in the sink." ],
       papsink1: [
-         '<18>{#p/papyrus}{#f/9}厲害吧？ \n我增加了水槽的高度。',
-         '<18>{#f/0}現在我可以在下邊\n放更多骨頭了！ \n你快看看！ '
+         '<18>{#p/papyrus}{#f/9}厲害吧？\n我增加了水槽的高度。',
+         '<18>{#f/0}現在我可以在下邊\n放更多骨頭了！\n你快看看！'
       ],
       papsink2: [ '<18>{#p/papyrus}{#f/8}不！是那條狗！' ],
       papsink3: [ '<18>{#p/papyrus}{#f/31}喔，好可憐\n好可憐的小狗狗...', '<18>{#f/9}給你，嘗嘗我的\n特殊攻擊！' ],
@@ -3430,16 +3430,16 @@ export default {
          '<18>你做得到的，\n人類！！！'
       ],
       papsolu4: [ "<18>{#p/papyrus}{#f/4}你忘記我給你的\n解法了嗎...？" ],
-      papsolu5: [ '<18>{#f/0}{#p/papyrus}就快完成了！ \n只剩下一條電路\n就要激活了！ ' ],
+      papsolu5: [ '<18>{#f/0}{#p/papyrus}就快完成了！\n只剩下一條電路\n就要激活了！' ],
       papspaghet1: (take: boolean) => [
-         '<18>{#p/papyrus}{#f/1}什麼！？ \n你是怎麼避開\n我的陷阱的？ ',
+         '<18>{#p/papyrus}{#f/1}什麼！？\n你是怎麼避開\n我的陷阱的？',
          '<18>{#f/4}還有，比起這個...',
          '<18>{#f/0}還有剩的給我嗎？？？',
          choicer.create('* （你要怎麼跟帕派瑞斯說\n  關於他做的義大利麵的事？）', take ? '拿走了' : '留在那了', '吃掉了'),
          '<18>{#p/papyrus}真的！？'
       ],
       papspaghet1a: () => [
-         '<18>{#p/papyrus}{#f/1}什麼！？ \n你是怎麼避開\n我的陷阱的？ ',
+         '<18>{#p/papyrus}{#f/1}什麼！？\n你是怎麼避開\n我的陷阱的？',
          '<18>{#f/4}還有，比起這個...',
          '<18>{#f/0}IS THERE ANY LEFT FOR...',
          '<18>{#f/4}... WAIT.',
@@ -3452,7 +3452,7 @@ export default {
          "<18>{#f/5}你抗拒我做的\n義大利麵的味道...",
          '<18>{#f/6}就是因為想跟我\n一起吃嗎？？？',
          '<18>{#f/9}那好吧！！',
-         '<18>不要煩惱！ \n我，偉大的帕派瑞斯...',
+         '<18>不要煩惱！\n我，偉大的帕派瑞斯...',
          '<18>會為你和我二人\n做各種我們想吃的\n義大利麵的！',
          '<18>{#f/0}嘿嘿嘿嘿嘿嘿捏！'
       ],
@@ -3460,7 +3460,7 @@ export default {
          '<18>{#f/5}哇...',
          '<19>{#f/6}之前幾乎從來沒有人\n欣賞過我的廚藝...',
          '<18>{#f/9}那好吧！！',
-         '<18>不要煩惱！ \n我，偉大的帕派瑞斯...',
+         '<18>不要煩惱！\n我，偉大的帕派瑞斯...',
          '<18>會為你做你想吃的\n各種義大利麵的！',
          '<18>{#f/0}嘿嘿嘿嘿嘿嘿捏！'
       ],
@@ -3506,12 +3506,12 @@ export default {
          '<18>{#f/4}...',
          "<18>{#f/4}我把什麼東西給忘了。",
          '<25>{#p/sans}{#f/2}* 演講，還記得嗎？',
-         '<18>{#p/papyrus}{#f/4}喔，對對對。 \n...「咳咳」。 ',
+         '<18>{#p/papyrus}{#f/4}喔，對對對。\n...「咳咳」。',
          "<18>{#f/9}人類！你可能以為\n你來到這裡就安全了。",
          '<18>{#f/9}但我，\n偉大的帕派瑞斯，\n打算扭轉你的想法！',
          "<18>{#f/4}首先，我要用\n艾菲斯博士的謎題\n讓你眼花繚亂...",
          '<18>{#f/4}然後，\n在你最意想不到的時候...',
-         '<19>{#f/9}哇嗚！ \n抓到你了！ \n押去首塔！ ',
+         '<19>{#f/9}哇嗚！\n抓到你了！\n押去首塔！',
          '<18>{#f/9}我們的戰鬥\n將一如既往地傳奇！',
          '<18>{#f/4}無論如何...',
          '<18>{#f/9}來吧... \n只要你夠膽！'
@@ -3522,9 +3522,9 @@ export default {
          "<25>* 別擔心，夥計。",
          "<25>{#f/2}* 我會用眼窩\n  替你盯著的。"
       ],
-      papyrus6x1: [ '<18>{#p/papyrus}{#f/5}人-人類？ \n你就是那個人類嗎...？ ' ],
+      papyrus6x1: [ '<18>{#p/papyrus}{#f/5}人-人類？\n你就是那個人類嗎...？' ],
       papyrus6x2: [
-         "<15>{#p/papyrus}{#e/papyrus/20}我的天哪！ \n我終於見到你啦！ ",
+         "<15>{#p/papyrus}{#e/papyrus/20}我的天哪！\n我終於見到你啦！",
          "<18>{#p/papyrus}{#f/0}自打聽說你來了星港，\n我就夢想著能見你一面！",
          "<18>{#p/papyrus}{#f/4}...你問，\n為啥衫斯沒跟我\n在一起？",
          '<18>{#p/papyrus}{#f/6}唉，我有理由懷疑...',
@@ -3534,7 +3534,7 @@ export default {
          "<18>{#p/papyrus}{#f/9}那懶骨頭\n就甭想知道【一丁點】\n咱們的「地下情誼」！"
       ],
       papyrus6x3: [
-         "<18>{#p/papyrus}{#f/5}不過，我現在得走了。 \n絕不能讓他發現\n我偷偷溜出來了。 ",
+         "<18>{#p/papyrus}{#f/5}不過，我現在得走了。\n絕不能讓他發現\n我偷偷溜出來了。",
          "<18>{|}{#p/papyrus}{#f/9}待會見，人-{%}"
       ],
       papyrus6x4: [ '<32>{#p/without}* ...帕派瑞斯？' ],
@@ -3568,9 +3568,9 @@ export default {
          '<18>{#f/9}衫斯就會隨機用\n藍色魔法\n讓你浮起來！',
          "<25>{#p/sans}{#f/6}* 你看吧，\n  這就是我特殊的黃色眼睛。",
          '<18>{#p/papyrus}{#f/7}現在不行，衫斯！！',
-         '<25>{#p/sans}* 喔，嘿嘿。 \n* 看來我有些{@fill=#ff0}浮{@fill=#fff}躁了，嗯？',
+         '<25>{#p/sans}* 喔，嘿嘿。\n* 看來我有些{@fill=#ff0}浮{@fill=#fff}躁了，嗯？',
          '<18>{#p/papyrus}{#f/4}好好好...',
-         '<18>{#f/9}總之！ \n你理解我的\n解釋了嗎？',
+         '<18>{#f/9}總之！\n你理解我的\n解釋了嗎？',
          choicer.create('* （你要怎麼回答？）', "聽懂了", "沒聽懂")
       ],
       papyrus7: () => [
@@ -3613,7 +3613,7 @@ export default {
       ],
       papyrus11: [
          '<18>{#p/papyrus}{#f/9}一旦我下達命令，\n一切都會動起來！',
-         '<18>雷射掃射！ \n線圈發電！ \n刀劍揮舞！ ',
+         '<18>雷射掃射！\n線圈發電！\n刀劍揮舞！',
          '<18>一切都會以精確的、\n戰術性的方式進行！',
          '<18>{#f/4}不精確的一點是，\n你肯定會失敗。',
          '<18>{#f/9}那麼！！！\n你準備好了嗎！？！？',
@@ -3624,7 +3624,7 @@ export default {
          '<18>啟動了！'
       ],
       papyrus12: [
-         '<25>{#p/sans}* 怎麼了？ \n* 我們到底還進不進行了？ ',
+         '<25>{#p/sans}* 怎麼了？\n* 我們到底還進不進行了？',
          '<18>{#p/papyrus}{#f/7}...',
          "<25>{#p/sans}{#f/3}* 那條煩人的狗\n  在上面會不耐煩的。",
          '<18>{#p/papyrus}{#f/7}隨時都會進行的！'
@@ -3721,10 +3721,10 @@ export default {
       papyrusFinal4: (b: boolean) =>
          world.edgy || world.killed0
             ? [
-                 '<18>{#p/papyrus}{#f/0}哇！ \n你做到了！ ',
+                 '<18>{#p/papyrus}{#f/0}哇！\n你做到了！',
                  "<18>{#p/papyrus}{#f/5}沒有動用任何暴力！",
                  '<18>{#p/papyrus}{#f/6}其實，\n剛才我有點害怕...',
-                 "<18>{#p/papyrus}{#f/0}不過沒關係！ \n你已經重回正軌啦！ ",
+                 "<18>{#p/papyrus}{#f/0}不過沒關係！\n你已經重回正軌啦！",
                  "<18>{#p/papyrus}{#f/8}我為你驕傲，人類！",
                  "<18>{#p/papyrus}{#f/4}...等等，我是不是\n該抓你來著？",
                  "<18>{#p/papyrus}{#f/0}嗨，隨它去吧。",
@@ -3745,7 +3745,7 @@ export default {
       papyrusFinal4a1: (b: boolean) =>
          b
             ? [
-                 '<18>{#p/papyrus}{#f/5}真-真的嗎？ \n你想跟我做朋友？ ',
+                 '<18>{#p/papyrus}{#f/5}真-真的嗎？\n你想跟我做朋友？',
                  '<18>{#f/6}即使發生了\n那樣的事情？？？',
                  "<18>{#f/0}那，好吧！！\n我們做朋友吧！！"
               ]
@@ -3819,7 +3819,7 @@ export default {
          '<18>{#p/papyrus}{#f/5}喔，那個人類\n到哪裡去了呢...',
          '<18>{#f/4}...\n等等。',
          "<18>{#f/1}就在我面前！！！",
-         '<18>{#f/0}你好啊！ \n我還在擔心你\n是不是迷路了呢！ ',
+         '<18>{#f/0}你好啊！\n我還在擔心你\n是不是迷路了呢！',
          "<18>看到你了，我就\n可以鬆口氣了...",
          '<18>{#f/7}...\n等一下！！！',
          "<18>你不應該逃走的！！！",
@@ -3844,7 +3844,7 @@ export default {
          "<18>{#f/31}我不太確定自己\n能不能和抱有這種\n感受的人戰鬥。",
          "<18>{#f/4}更何況，我已經\n不太想抓你了。",
          '<18>{#f/5}要不然，\n我們就不戰鬥了...',
-         '<18>{#f/5}...我直接放你走。 \n怎麼樣？',
+         '<18>{#f/5}...我直接放你走。\n怎麼樣？',
          choicer.create('* （你要怎麼回答？）', '是', '否')
       ],
       papyrusFinal7a: [ '<18>{#p/papyrus}{#f/31}...\n好...', "<18>{#f/3}我想，我會接受\n我的失敗的。" ],
@@ -3875,7 +3875,7 @@ export default {
       robot1: pager.create(
          0,
          () => [
-            '<32>{#p/basic}* 你好，心地善良的旅行者。 \n* 我是一個建築機器人。 ',
+            '<32>{#p/basic}* 你好，心地善良的旅行者。\n* 我是一個建築機器人。',
             '<32>* 我想去看看整個星系...\n* 但是我動彈不得。',
             '<32>* 如果你願意幫助我的話...',
             '<32>* 就帶上我的一塊晶片吧，\n  帶它去一個很遠很遠的地方。',
@@ -3899,7 +3899,7 @@ export default {
       ],
       robot3: [ '<32>{#p/basic}* 看起來你還沒有給我預留足夠的空間。' ],
       robot4: () => [
-         '<32>{#p/basic}* 好吧。 \n* 那麼，祝你旅途愉快。 ',
+         '<32>{#p/basic}* 好吧。\n* 那麼，祝你旅途愉快。',
          ...(world.goatbro && SAVE.flag.n.ga_asriel98++ < 1
             ? [
                  "<25>{#p/asriel2}{#f/9}* 嘿，真是個\n  可愛又天真的小東西。",
@@ -3914,15 +3914,15 @@ export default {
             : [])
       ],
       robot6: () => [
-         '<32>{#p/basic}* 近況如何？ \n* 我是說，我那塊晶片近況如何...',
-         '<32>* 啊？ 你把它弄丟了...？ \n* ...那我再給你一塊吧...',
+         '<32>{#p/basic}* 近況如何？\n* 我是說，我那塊晶片近況如何...',
+         '<32>* 啊？你把它弄丟了...？\n* ...那我再給你一塊吧...',
          choicer.create('* （再拿走一塊晶片？）', "拿走", "算了")
       ],
       robot7: [
          '<32>{#p/basic}* 這次小心點。別弄丟了。',
          '<32>{#p/human}{#s/equip}* （你得到了「芯」型薯片。）'
       ],
-      robot8: [ '<32>{#p/basic}* 我理解的。 \n* 祝你旅途愉快...' ],
+      robot8: [ '<32>{#p/basic}* 我理解的。\n* 祝你旅途愉快...' ],
       robot9: () => [
          '<32>{#p/basic}* 謝謝你... 照顧我...',
          ...(world.goatbro && SAVE.flag.n.ga_asriel99++ < 1
@@ -3933,7 +3933,7 @@ export default {
          '<32>{#p/basic}* 晶片還好嗎？',
          '<32>* 啊？又弄丟了...？',
          "<32>* 對不起...\n* 我要是再給你晶片的話，\n  就什麼都不剩了。",
-         '<32>* 看來我只能認命。 \n* 想到去不了的地方，\n  終究只是幻想。 ',
+         '<32>* 看來我只能認命。\n* 想到去不了的地方，\n  終究只是幻想。',
          "<32>* 對所有怪物都一樣。",
          '<32>* 怪物們註定要永遠困在這裡，\n  度過餘生...'
       ],
@@ -3954,7 +3954,7 @@ export default {
             : [ "<25>{#p/sans}{#f/4}* 嘿嘿... 沒有什麼能比\n  一個放屁墊把戲更好的了。" ]),
          "<25>{#f/0}* 總之，你是個人類，對吧？",
          "<25>{#f/5}* 真酷。",
-         "<25>{#f/0}* 我是衫斯。 \n* 骷髏衫斯。 ",
+         "<25>{#f/0}* 我是衫斯。\n* 骷髏衫斯。",
          '<25>{#f/3}* 作為一名皇家哨兵，\n  現在我本該去抓捕人類的。',
          "<25>{#f/4}* 不過呢...",
          ...(world.edgy
@@ -3970,8 +3970,8 @@ export default {
                  '<25>{#f/5}* 儘管他不是個真正的哨兵，\n  但他確實表現得像個哨兵。',
                  "<25>{#f/0}* 實際上，我覺得\n  那邊那個就是他了。"
               ]),
-         '<25>* 我有個主意。 \n* 跳過那個空隙。 ',
-         '<26>{#f/4}* 別怕，直接跳過去就行。 \n* 我兄弟把重力設得很小，\n  肯定掉不下去。 '
+         '<25>* 我有個主意。\n* 跳過那個空隙。',
+         '<26>{#f/4}* 別怕，直接跳過去就行。\n* 我兄弟把重力設得很小，\n  肯定掉不下去。'
       ],
       sans3: () =>
          world.edgy
@@ -3995,7 +3995,7 @@ export default {
          '<25>{#f/4}* 你要來看看嗎？',
          "<18>{#p/papyrus}{#x3}{#f/7}不！！\n我才沒時間看呢！！",
          '<18>{#x2}要是有人類從這經過，\n我得做好準備！',
-         '<18>我必須會！ \n我一定會！ ',
+         '<18>我必須會！\n我一定會！',
          '<18>{#x1}{#f/9}最終抓到一個人類！',
          '<18>{#x4}{#f/0}那時候，我，\n偉大的帕派瑞斯...',
          '<18>會得到我應得的一切！',
@@ -4003,18 +4003,18 @@ export default {
          '<18>{#f/9}我就終於可以加入\n皇家守衛了！',
          '<25>{#p/sans}* 嗯...',
          '<25>{#f/2}* 沒準這個玩意可以\n  幫到你呢。',
-         "<18>{#p/papyrus}{#x3}{#f/7}衫斯，那根本沒用！ \n你這個懶骨頭！ ",
+         "<18>{#p/papyrus}{#x3}{#f/7}衫斯，那根本沒用！\n你這個懶骨頭！",
          '<18>{#x1}{#f/5}你明明知道，\n你能做的遠不止這些，\n但是...',
          '<18>{#x2}{#f/7}你還是選擇\n整天無所事事！',
          "<18>{#x1}{#f/5}難道你不想... \n從生活中得到更多嗎？",
-         "<25>{#p/sans}* 嘿，放輕鬆點。 \n* 我的心裡可裝著\n  一大堆事務呢。 ",
+         "<25>{#p/sans}* 嘿，放輕鬆點。\n* 我的心裡可裝著\n  一大堆事務呢。",
          "<25>{#f/4}* 你甚至可以說我...",
          '<25>{#f/2}* 早已{@fill=#ff0}星{@fill=#fff}懷遠志了？'
       ],
       sans6: [
          '<18>{#p/papyrus}{#x3}{#f/7}衫斯！！',
-         "<25>{#p/sans}{#f/5}* 拜託。 \n* 你明明就在笑。 ",
-         '<18>{#p/papyrus}{#x2}{#f/7}我確實笑了！ \n極其鄙視的那種！ ',
+         "<25>{#p/sans}{#f/5}* 拜託。\n* 你明明就在笑。",
+         '<18>{#p/papyrus}{#x2}{#f/7}我確實笑了！\n極其鄙視的那種！',
          '<18>{#x1}{#f/4}（嘆氣...）',
          '<18>{#f/5}為什麼像我這樣\n偉大的人...',
          '<18>為了得到認可\n需要做這麼多破事？？',
@@ -4034,12 +4034,12 @@ export default {
       sans10: [
          '<25>{#p/sans}{#f/0}* 嘿，對了...\n* 走之前，我得跟你說...',
          "<25>{#f/3}* 皇家守衛正在找你呢。",
-         "<25>{#f/0}* 不過你別擔心。 \n* 他們拿得出手的只有狗狗。 ",
+         "<25>{#f/0}* 不過你別擔心。\n* 他們拿得出手的只有狗狗。",
          "<25>{#f/0}* 你既然是人類，\n  那肯定知道狗狗\n  喜歡什麼，對吧？",
          "<25>{#f/2}* 它們和帕派瑞斯差不多，\n  人畜無害。"
       ],
       sansbook0: [ '<32>{#p/human}* (It appears this joke book has no clear ending.)' ],
-      sansbook1: [ '<32>{#p/basic}* 這是本關於非歐幾何的書。 \n* 寫著「艾菲斯」的名字。 ' ],
+      sansbook1: [ '<32>{#p/basic}* 這是本關於非歐幾何的書。\n* 寫著「艾菲斯」的名字。' ],
       sansbook2: () => [ choicer.create('* （要看看裡面嗎？）', "看看", "算了") ],
       sansbook3: [ '<32>{#p/human}* （你往書裡面看...）' ],
       sansbook4: [ '<32>{#p/basic}* 幾何學書裡面夾著一本\n  笑話書。' ],
@@ -4080,8 +4080,8 @@ export default {
             () =>
                world.edgy
                   ? [
-                       '<25>{#p/sans}* 咋的？ \n* 想讓我把他帶過來？ ',
-                       "<25>{#f/3}* 呵，小子。 \n* 你是不是沒明白\n  我剛說的是啥意思？",
+                       '<25>{#p/sans}* 咋的？\n* 想讓我把他帶過來？',
+                       "<25>{#f/3}* 呵，小子。\n* 你是不是沒明白\n  我剛說的是啥意思？",
                        "<25>{#p/sans}{#f/2}* 聽我句勸：\n  最好別得寸進尺，\n  對你我都好。"
                     ]
                   : [ '<25>{#p/sans}* 信我的。' ],
@@ -4102,9 +4102,9 @@ export default {
                '<25>* 我兄弟有一種很\n  {@fill=#00a2e8}特殊的攻擊{@fill=#fff}。',
                "<25>* 如果看到了{@fill=#ff993d}橙色攻擊{@fill=#fff}，\n  你如果不動，就會受傷。",
                "<25>{#f/3}* 有種簡單的方式\n  可以幫助你記住。",
-               "<25>{#f/0}* 想像一下燒紅的煤炭。 \n* 你肯定不會站在\n  那種東西上吧？",
-               '<25>* 煤炭質地比較堅硬。 \n* 所以不妨換成骨質煤炭來想。 ',
-               '<25>{#f/2}* 非常簡單，對吧？ \n* 記得戰鬥的時候想想\n  發熱的骨質煤炭吧。'
+               "<25>{#f/0}* 想像一下燒紅的煤炭。\n* 你肯定不會站在\n  那種東西上吧？",
+               '<25>* 煤炭質地比較堅硬。\n* 所以不妨換成骨質煤炭來想。',
+               '<25>{#f/2}* 非常簡單，對吧？\n* 記得戰鬥的時候想想\n  發熱的骨質煤炭吧。'
             ],
             [
                "<25>{#p/sans}{#f/0}* 當然，你如果緩慢移動\n  是不會受傷的。",
@@ -4121,7 +4121,7 @@ export default {
             ],
             [
                '<25>{#p/sans}* 如果ㄇㄉㄈㄎ出現問題，\n  我們周圍的空氣\n  就會消失不見。',
-               "<25>{#f/3}* 不過別擔心。 \n* 我剛才說的那些，\n  從來就不曾{@fill=#ff0}粗{@fill=#fff}現過。 "
+               "<25>{#f/3}* 不過別擔心。\n* 我剛才說的那些，\n  從來就不曾{@fill=#ff0}粗{@fill=#fff}現過。"
             ],
             [ '<25>{#p/sans}{#f/2}* wide-area troposphere framework.' ]
          ),
@@ -4158,8 +4158,8 @@ export default {
             () =>
                world.edgy
                   ? [
-                       '<25>{#p/sans}{#f/0}* 怎麼？ \n* 怪我不好好設計謎題？ ',
-                       "<25>{#f/3}* 我還得一邊應付你，\n  一邊花時間準備謎題。 \n* 能弄好就怪了。 "
+                       '<25>{#p/sans}{#f/0}* 怎麼？\n* 怪我不好好設計謎題？',
+                       "<25>{#f/3}* 我還得一邊應付你，\n  一邊花時間準備謎題。\n* 能弄好就怪了。"
                     ]
                   : world.killed5
                   ? [
@@ -4243,7 +4243,7 @@ export default {
                             ...(SAVE.data.n.plot < 19 && !world.edgy
                                ? [
                                     "<25>{#p/sans}{#f/0}* 在欣賞我兄弟的手工成果，\n  是嗎？",
-                                    "<25>{#p/sans}{#f/2}* 我知道的。 \n* 真的很酷。 "
+                                    "<25>{#p/sans}{#f/2}* 我知道的。\n* 真的很酷。"
                                  ]
                                : [])
                          ])
@@ -4445,12 +4445,12 @@ export default {
                ? [ "<32>{#p/basic}* 一株植物。" ]
                : [
                     "<32>{#p/basic}* 這不僅僅是一株植物...\n* 這是一株霓虹植物。",
-                    '<32>* 這有什麼區別嗎？ \n* 沒有，完全沒有。'
+                    '<32>* 這有什麼區別嗎？\n* 沒有，完全沒有。'
                  ],
          librarbywindow1: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (But there was nothing of real interest to see here.)' ]
-               : [ "<32>{#p/basic}* 窗戶裡面有一株植物。 \n* 真有趣。 " ],
+               : [ "<32>{#p/basic}* 窗戶裡面有一株植物。\n* 真有趣。" ],
          librarbywindow2: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* （你夠到了窗戶邊緣，\n  並將雙手搭在了窗戶上。）' ]
@@ -4495,7 +4495,7 @@ export default {
          s_beddinng_table: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (You glance at the table.)\n* (You then glance away.)' ]
-               : [ '<32>{#p/basic}* 必備之桌。 \n* 雖無所用，卻恰得其所。 ' ],
+               : [ '<32>{#p/basic}* 必備之桌。\n* 雖無所用，卻恰得其所。' ],
          s_bh_bone: pager.create(
             0,
             () =>
@@ -4552,11 +4552,11 @@ export default {
                      [
                         '<32>{#p/basic}* 之所以說這個垃圾桶「閃亮」，\n  是因為它的一邊就寫著\n  「閃亮」兩個字。'
                      ],
-                     [ '<32>{#p/basic}* 一個「閃亮」星仔\n  對一個「閃亮」垃圾桶。 \n* 你還能有什麼想知道的。 ' ],
+                     [ '<32>{#p/basic}* 一個「閃亮」星仔\n  對一個「閃亮」垃圾桶。\n* 你還能有什麼想知道的。' ],
                      [ '<32>{#p/basic}* 小鎮這一帶中\n  最「閃亮」的垃圾桶。' ],
                      [ '<32>{#p/basic}* 這麼說來，\n  也可以是別的某一帶。' ],
                      [ '<32>{#p/basic}* 它到底有多「閃亮」？' ],
-                     [ '<32>{#p/basic}* 非常？ \n* 非常非常？ \n* 比別的任何東西都「閃亮」？ ' ],
+                     [ '<32>{#p/basic}* 非常？\n* 非常非常？\n* 比別的任何東西都「閃亮」？' ],
                      [ "<32>{#p/basic}* 我們還有選擇的餘地，\n  寶貝！" ],
                      [
                         '<33>{#p/basic}* 但不管時間如何流逝...\n  這個垃圾桶給你的印象\n  仍然「閃亮」。'
@@ -4565,7 +4565,7 @@ export default {
                         '<32>{#p/basic}* 實際上，我越想越覺得，\n  「閃亮」這個形容\n  太浮皮潦草了。'
                      ],
                      [ '<32>{#p/basic}* 就比如，也許\n  用「參天」這個詞來形容\n  就更適合一點。' ],
-                     [ "<33>{#p/basic}* 實際上，還是算了吧。 \n* 這個詞還是給皇家實驗室的\n  高層留著吧。 " ],
+                     [ "<33>{#p/basic}* 實際上，還是算了吧。\n* 這個詞還是給皇家實驗室的\n  高層留著吧。" ],
                      [ '<32>{#p/basic}* 嗯...\n* 萬一這個垃圾桶是黑洞偽裝的呢！' ],
                      [ '<32>{#p/basic}* 一個黑洞垃圾桶...\n* 你會願意冒這個險嗎？' ],
                      [ "<32>{#p/basic}* 這問題問得有點怪了。" ],
@@ -4574,12 +4574,12 @@ export default {
                      ],
                      [ "<32>{#p/basic}* 你甚至可以說，\n  我感覺要... 羽化登仙了。" ],
                      [ '<32>{#p/basic}* ...\n* 你當我最後一句沒說。' ],
-                     [ '<32>{#p/basic}* 實際上，你還是\n  把我說的最後九句全忘了吧。 \n  算上這句。 ' ],
+                     [ '<32>{#p/basic}* 實際上，你還是\n  把我說的最後九句全忘了吧。\n  算上這句。' ],
                      [ "<32>{#p/basic}* 說白了...\n* 這個垃圾桶只能用\n  一個形容詞來形容。" ],
-                     [ "<32>{#p/basic}* 你問是什麼詞？ \n* 那，我就告訴你...\n  如果你真的想知道的話。" ],
+                     [ "<32>{#p/basic}* 你問是什麼詞？\n* 那，我就告訴你...\n  如果你真的想知道的話。" ],
                      [ "<32>{#p/basic}* 它不是一個參天的垃圾桶，\n  絕對不是。" ],
                      [ "<32>{#p/basic}* 從任何角度來看，\n  這也不像是黑洞樣式的..." ],
-                     [ "<32>{#p/basic}* 你還記得嗎？ \n* 你還記得我們是從哪裡\n  開始的嗎？ " ],
+                     [ "<32>{#p/basic}* 你還記得嗎？\n* 你還記得我們是從哪裡\n  開始的嗎？" ],
                      [ '<32>{#p/basic}* 那是我對這個垃圾桶\n  說過的第一句話。' ],
                      [ '<32>{#p/basic}* ...\n* 我說過...\n* 你等一下...' ],
                      [ '<32>{#p/basic}* 這是個「閃亮」垃圾桶。' ]
@@ -4604,7 +4604,7 @@ export default {
                   : [
                        ...(dateready() && SAVE.data.n.state_starton_papyrus === 0
                           ? [
-                               '<18>{#p/papyrus}{#f/9}啊哈！ \n對我的食物博物館\n感興趣了嗎？',
+                               '<18>{#p/papyrus}{#f/9}啊哈！\n對我的食物博物館\n感興趣了嗎？',
                                '<18>{#f/0}請隨意參觀我的\n烹飪藝術展。'
                             ]
                           : []),
@@ -4638,7 +4638,7 @@ export default {
                                '<18>{#f/7}但後來有一天，\n它徹底消失了！',
                                '<18>{#f/4}最開始，我覺得是\n那隻愛管閒事的\n狗幹的。',
                                '<18>{#f/7}但後來我發現，\n是衫斯用它來測試\n他的...',
-                               '<18>{#f/6}他的... 很有用的\n小玩意。 \n哇...',
+                               '<18>{#f/6}他的... 很有用的\n小玩意。\n哇...',
                                "<18>{#f/0}所以呢，\n給他就給他了吧。",
                                '<18>{#f/0}他真的在努力去\n做一件事。',
                                '<18>{#f/4}即使要我們付出\n那塊寶貴的月巖的\n代價。',
@@ -4953,7 +4953,7 @@ export default {
          s_librarby_ladder: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (It appears the access hatch above this ladder was sealed shut.)' ]
-               : [ "<32>{#p/basic}* 一把亂放的梯子。 \n* 沒什麼好說的。 " ],
+               : [ "<32>{#p/basic}* 一把亂放的梯子。\n* 沒什麼好說的。" ],
          s_librarby_pinkBooks: pager.create(
             1,
             () =>
@@ -5032,7 +5032,7 @@ export default {
                        '<32>{#p/basic}* 「你知道嗎，怪物們如今的社會結構\n   並非一直存在。」',
                        '<32>* 「很久很久以前，\n   確切來說，距今大約幾千年時...」',
                        '<32>* 「我們的祖先每天漫無目的，\n   肆意嬉戲。」',
-                       '<32>* 「不敢相信！ \n   那時的怪物甚至連衣服都不穿！ 」',
+                       '<32>* 「不敢相信！\n   那時的怪物甚至連衣服都不穿！」',
                        '<32>* 「不過，隨著時間流逝，\n   我們有了新的追求，渴望進化。」',
                        '<32>* 「在那場偉大的復興運動中，\n   連魔法的本質都被擺上檯面，\n   成為焦點。」',
                        '<32>* 「這些進步奠定了我們的社會結構，\n   乃至如今的生活方式。」',
@@ -5063,7 +5063,7 @@ export default {
                        '<32>{#p/basic}* 書架上標著「怪物科技」。',
                        '<32>{#p/human}* （你取下了一本書...）',
                        '<32>{#p/basic}* 「葛森曾說，\n   前哨站以前只是個小太空站。」',
-                       '<32>* 「在受了整整二十年苦之後，\n   有人將目光轉向了那道力場。 \n   心想...」',
+                       '<32>* 「在受了整整二十年苦之後，\n   有人將目光轉向了那道力場。\n   心想...」',
                        "<32>* 「『這股強大的能量，\n   能否為己所用呢？』」",
                        '<32>* 「這主意簡潔明了，\n   但又十分巧妙。」',
                        '<32>* 「在這一想法的指引下，\n   核心最終建成，\n   我們因此有了穩定的能源。」',
@@ -5179,7 +5179,7 @@ export default {
             ...(!SAVE.data.b.s_state_charasker
                ? ((SAVE.data.b.s_state_charasker = true),
                  [
-                    '<32>{#p/basic}* ...這是可能的嗎？ \n* 一個人類靈魂和一個\n  怪物靈魂共生？ ',
+                    '<32>{#p/basic}* ...這是可能的嗎？\n* 一個人類靈魂和一個\n  怪物靈魂共生？',
                     "<32>{#p/basic}* 但是怪物靈魂主人的身份\n  將會丟失...",
                     '<32>{#p/basic}* ...'
                  ])
@@ -5286,7 +5286,7 @@ export default {
                SAVE.data.b.svr
                   ? [
                        [
-                          "<25>{#p/asriel1}{#f/17}* 啊。 \n* 那是帕派瑞斯的特殊攻擊...",
+                          "<25>{#p/asriel1}{#f/17}* 啊。\n* 那是帕派瑞斯的特殊攻擊...",
                           '<25>{#f/13}* In previous timelines, this attack right here...',
                           '<25>{#f/15}* Caused me my fair share of defeats.',
                           "<25>{#f/16}* ... don't ask how or why I was fighting Papyrus."
@@ -5441,7 +5441,7 @@ export default {
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You can't seem to find a way in.)" ]
                : [ "<32>{#p/basic}* 門被反鎖了。" ],
-         s_slew: [ "<32>{#p/basic}* 這是狗糧。 \n* 碎片看起來像是骨頭。 " ],
+         s_slew: [ "<32>{#p/basic}* 這是狗糧。\n* 碎片看起來像是骨頭。" ],
          s_spagnote: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (The note declares the brilliance of enticing you with a place of spaghetti.)' ]
@@ -5565,7 +5565,7 @@ export default {
                : [
                     SAVE.data.n.state_starton_doggo === 3
                        ? '<32>{#p/basic}* Inside is a rather sleepy guard dog.\n* It cannot see you.'
-                       : '<32>{#p/basic}* 狗窩裡是只很困惑的守衛狗。 \n* 它看不見你。 '
+                       : '<32>{#p/basic}* 狗窩裡是只很困惑的守衛狗。\n* 它看不見你。'
                  ]
       },
       truetext: {
@@ -5724,7 +5724,7 @@ export default {
       spacetopJerry: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 俗氣的帽子再配上沒譜的夥計。' ]
-            : [ '<32>{#p/story}* Astro Serf閒逛過來了！ \n* 傑瑞也來了。' ],
+            : [ '<32>{#p/story}* Astro Serf閒逛過來了！\n* 傑瑞也來了。' ],
       stardrakeSpacetop: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 笨蛋青年兩人組。' ]
@@ -5744,12 +5744,12 @@ export default {
       stardrakeSpacetop2d: () => (world.goatbro ? [ '<32>{#p/asriel2}* 傑瑞。' ] : [ '<32>{#p/story}* 傑瑞。' ]),
       stardrakeSpacetopJerry: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* 笨蛋青年兩人組。 \n* 再加一個，傑瑞。 ' ]
+            ? [ '<32>{#p/asriel2}* 笨蛋青年兩人組。\n* 再加一個，傑瑞。' ]
             : SAVE.data.b.spared_jerry
             ? [ '<32>{#p/story}* Jerry and friends appear!' ]
             : SAVE.data.b.s_state_chilldrake
-            ? [ '<32>{#p/story}* Astro Serf和Chilldrake嘆著氣\n  來和你對峙了。 \n* 傑瑞。 ' ]
-            : [ '<32>{#p/story}* Astro Serf和星鐵龍嘆著氣\n  來和你對峙了。 \n* 傑瑞。 ' ],
+            ? [ '<32>{#p/story}* Astro Serf和Chilldrake嘆著氣\n  來和你對峙了。\n* 傑瑞。' ]
+            : [ '<32>{#p/story}* Astro Serf和星鐵龍嘆著氣\n  來和你對峙了。\n* 傑瑞。' ],
       stardrakeSpacetopJerry2a: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 還剩下兩個。' ]
@@ -5775,10 +5775,10 @@ export default {
          world.goatbro
             ? SAVE.data.b.s_state_chilldrake
                ? [
-                    '<32>{#p/asriel2}* Chilldrake，中二叛逆。 \n* 胡亂撒氣，荒唐至極。 '
+                    '<32>{#p/asriel2}* Chilldrake，中二叛逆。\n* 胡亂撒氣，荒唐至極。'
                  ]
                : [
-                    '<32>{#p/asriel2}* 星鐵龍，逗逼。 \n* 總喜歡給別人講笑話，\n  殊不知自己就是個最大的笑話。 '
+                    '<32>{#p/asriel2}* 星鐵龍，逗逼。\n* 總喜歡給別人講笑話，\n  殊不知自己就是個最大的笑話。'
                  ]
             : SAVE.data.b.s_state_chilldrake
             ? [ '<33>{#p/story}* CHILLDRAKE - ATK 12 DEF 7\n* Rebels against everything!!\n* On the lookout for Starry.' ]
@@ -5887,7 +5887,7 @@ export default {
       jokeTalk2: () =>
          SAVE.data.b.s_state_chilldrake
             ? [ '<08>{#p/basic}{~}Do you..\nreally..' ]
-            : [ '<08>{#p/basic}{~}看到沒！ ？ \n笑了！ \n老媽是\n對的！ ' ],
+            : [ '<08>{#p/basic}{~}看到沒！？\n笑了！\n老媽是\n對的！' ],
       jokeTalk3: () =>
          SAVE.data.b.s_state_chilldrake
             ? [ "<08>{#p/basic}{~}I don't think you.." ]
@@ -5958,9 +5958,9 @@ export default {
                  ]
             : world.goatbro
             ? [
-                 '<32>{#p/asriel2}* 傑瑞，公認的傻帽。 \n* 他就是個不折不扣的廢物， 一文不值。 '
+                 '<32>{#p/asriel2}* 傑瑞，公認的傻帽。\n* 他就是個不折不扣的廢物， 一文不值。'
               ]
-            : [ '<32>{#p/story}* 傑瑞 - 攻擊0 防禦30\n* 大家都認識傑瑞。 \n* 會延長攻擊時間。 ' ],
+            : [ '<32>{#p/story}* 傑瑞 - 攻擊0 防禦30\n* 大家都認識傑瑞。\n* 會延長攻擊時間。' ],
       act_flirt: () =>
          SAVE.data.b.spared_jerry
             ? [ '<32>{#p/human}* (You flirt with Jerry.)\n* (It appreciates the compliment.)' ]
@@ -5997,7 +5997,7 @@ export default {
       idleTalk4: () =>
          SAVE.data.b.spared_jerry
             ? [ '<08>{#p/basic}{~}Does anyone want a hug?' ]
-            : [ '<08>{#p/basic}{~}噓噓噓！ \n別吵，\n讓我思考！ ' ],
+            : [ '<08>{#p/basic}{~}噓噓噓！\n別吵，\n讓我思考！' ],
       idleTalkSolo1: () =>
          SAVE.data.b.spared_jerry ? [ '<08>{#p/basic}{~}Thanks for being here!' ] : [ '<08>{#p/basic}{~}Awkwarrd.' ],
       idleTalkSolo2: () =>
@@ -6044,7 +6044,7 @@ export default {
    b_opponent_mouse: {
       act_check: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Whizkarat，流浪貓。 \n* 早已活得渾渾噩噩。 ' ]
+            ? [ '<32>{#p/asriel2}* Whizkarat，流浪貓。\n* 早已活得渾渾噩噩。' ]
             : [ '<33>{#p/story}* WHIZKARAT - 攻擊16 防禦8\n* 這隻以城為家的時髦的貓\n  只想過簡單的生活。' ],
       act_check2: [
          "<33>{#p/story}* WHIZKARAT - ATK 16 DEF 8\n* This posh city cat regrets going where it doesn't belong."
@@ -6106,8 +6106,8 @@ export default {
    b_opponent_doggo: {
       act_check: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* 遁狗，一條不順眼的狗。 \n* 這個蠢貨怎麼又上崗了？' ]
-            : [ '<32>{#p/story}* 遁狗 - 攻擊13 防禦7\n* 一點風吹草動便能讓它興奮。 \n* 喜好之一：擁抱。 ' ],
+            ? [ '<32>{#p/asriel2}* 遁狗，一條不順眼的狗。\n* 這個蠢貨怎麼又上崗了？' ]
+            : [ '<32>{#p/story}* 遁狗 - 攻擊13 防禦7\n* 一點風吹草動便能讓它興奮。\n* 喜好之一：擁抱。' ],
       act_check2: [ '<32>{#p/story}* 遁狗 - 攻擊13 防禦7\n* 甚至難以看見它自己...' ],
       act_check3: [ '<32>{#p/story}* 遁狗 - 攻擊13 防禦7\n* 一隻非常興奮的狗，\n  正在享受其所好。' ],
       act_check4: [ '<32>{#p/story}* 遁狗 - 攻擊13 防禦7\n* 在你眼裡，這隻狗在生活中\n  非常地孤獨。' ],
@@ -6146,8 +6146,8 @@ export default {
                  [ '<32>{#p/asriel2}* 我看真是。' ],
                  [ '<32>{#p/asriel2}* ...' ],
                  [ '<32>{#p/asriel2}* 事態快要失控了...' ],
-                 [ '<32>{#p/asriel2}* 還摸？ \n* 沒完了是吧...' ],
-                 [ '<32>{#p/asriel2}* 哇喔。 \n* 後面忘了。 ' ],
+                 [ '<32>{#p/asriel2}* 還摸？\n* 沒完了是吧...' ],
+                 [ '<32>{#p/asriel2}* 哇喔。\n* 後面忘了。' ],
                  [ '<32>{#p/asriel2}* 你玩得可真是不亦樂乎啊。' ],
                  [ '<32>{#p/asriel2}* ...' ]
               ][Math.min(battler.volatile[0].vars.pet - 1, 13)]
@@ -6155,7 +6155,7 @@ export default {
       ],
       cuddle: pager.create(
          0,
-         [ '<11>{#p/basic}{~}抱抱！？ \n行吧，至少\n我知道它在\n哪裡了！' ],
+         [ '<11>{#p/basic}{~}抱抱！？\n行吧，至少\n我知道它在\n哪裡了！' ],
          [ '<11>{#p/basic}{~}又抱！？' ]
       ),
       petStatus: () =>
@@ -6175,7 +6175,7 @@ export default {
       petTalk13: [ "<11>{#p/basic}{~}OH MY GOD, IT REALLY DOESN'T STOP!!" ],
       petTalk14: [ '<11>{#p/basic}{~}AHHHHHHH!!!' ],
       query1: [ '<11>{#p/basic}{~}別想逃！' ],
-      query2: [ "<11>{*}{#p/basic}{~}哈！ \n它動了！ \n它肯定動了！ {^30}{%}" ],
+      query2: [ "<11>{*}{#p/basic}{~}哈！\n它動了！\n它肯定動了！{^30}{%}" ],
       query3: [ '<11>{#p/basic}{~}我倒要看看\n這次它還動嗎？' ],
       status1: () => (world.goatbro ? [ '<32>{#p/asriel2}* 遁狗。' ] : [ '<32>{#p/story}* 遁狗擋住了去路！' ]),
       sussy: () =>
@@ -6184,7 +6184,7 @@ export default {
    b_opponent_lesserdog: {
       act_check: () =>
          world.goatbro
-            ? [ "<32>{#p/asriel2}* 小犬座，一條蠢狗。 \n* 估計他都不知道自己為啥在這。 " ]
+            ? [ "<32>{#p/asriel2}* 小犬座，一條蠢狗。\n* 估計他都不知道自己為啥在這。" ]
             : [ '<32>{#p/story}* CANIS MINOR - ATK 12 DEF 2\n* Wields a shiny dogger made of fido-nium.' ],
       act_check2: [
          '<32>{#p/story}* CANIS MINOR - ATK 12 DEF 2\n* Scarred for life, this puppy wants to turn tail and run.'
@@ -6220,7 +6220,7 @@ export default {
       petTalk2: [ '<11>{#p/basic}{~}（輕微的\n犬叫聲）' ],
       petTalk3: [ '<11>{#p/basic}{~}（尾巴\n搖搖）' ],
       petTalk4: [ '<11>{#p/basic}{~}（想著吃的）' ],
-      petTalk5: [ '<11>{#p/basic}{~}（喘氣！ \n喘氣！ ）' ],
+      petTalk5: [ '<11>{#p/basic}{~}（喘氣！\n喘氣！）' ],
       petTalk6: [ '<11>{#p/basic}{~}（興奮\n叫喊）' ],
       petTalk7: [ '<11>{#p/basic}{~}（摩託\n發動）' ],
       petTalk8: [ '<11>{#p/basic}{~}（飛機\n起飛）' ],
@@ -6237,7 +6237,7 @@ export default {
       petText3: () => [
          '<32>{#p/human}* （你摸了摸小犬座。）',
          "<32>{#p/basic}* 它仰起頭，迎向你的手心。",
-         ...(world.goatbro ? [ "<32>{#p/asriel2}* 夠了，你都摸過它了。 \n* 真沒必要繼續摸了。 " ] : [])
+         ...(world.goatbro ? [ "<32>{#p/asriel2}* 夠了，你都摸過它了。\n* 真沒必要繼續摸了。" ] : [])
       ],
       petText4: () => [
          '<32>{#p/human}* （你摸了摸小犬座。）',
@@ -6251,7 +6251,7 @@ export default {
       ],
       petText6: () => [
          '<32>{#p/human}* （你摸了摸小犬座。）',
-         '<32>{#p/basic}* 會心一摸！ \n* 狗子的興奮度增加了。',
+         '<32>{#p/basic}* 會心一摸！\n* 狗子的興奮度增加了。',
          ...(world.goatbro ? [ '<32>{#p/asriel2}* 天吶，$(name)。' ] : [])
       ],
       petText7: () => [
@@ -6270,12 +6270,12 @@ export default {
       ],
       petText10: () => [
          '<32>{#p/human}* （你摸了摸小犬座。）',
-         '<32>{#p/basic}* 不積跬步，無以至千裡。 \n  不積小摸，無以得巨狗。 ',
+         '<32>{#p/basic}* 不積跬步，無以至千裡。\n  不積小摸，無以得巨狗。',
          ...(world.goatbro ? [ '<32>{#p/asriel2}* 為啥要在這浪費時間？' ] : [])
       ],
       petText11: () => [
          '<32>{#p/human}* （你呼喚著小犬座，\n  然而它已經聽不到你說話了。）',
-         ...(world.goatbro ? [ "<32>{#p/asriel2}* 這下好了。 \n* 再也別想夠著它了。 " ] : [])
+         ...(world.goatbro ? [ "<32>{#p/asriel2}* 這下好了。\n* 再也別想夠著它了。" ] : [])
       ],
       petText12: () => [ '<32>{#p/basic}* ...', ...(world.goatbro ? [ '<32>{#p/asriel2}* ？？？' ] : []) ],
       petText13: () => [
@@ -6303,7 +6303,7 @@ export default {
       ],
       petText19: () => [
          '<32>{#p/human}* （你夠不著小犬座了。）',
-         ...(world.goatbro ? [ "<32>{#p/asriel2}* 好了，該結束了。 \n* 趕緊殺了這個蠢貨。 " ] : [])
+         ...(world.goatbro ? [ "<32>{#p/asriel2}* 好了，該結束了。\n* 趕緊殺了這個蠢貨。" ] : [])
       ],
       petText20: () => [
          '<32>{#p/human}* （開玩笑吧。）',
@@ -6354,12 +6354,12 @@ export default {
    b_opponent_dogamy: {
       act_check: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* 狗來米，一條廢狗。 \n* 純靠他的瘋狗老婆過活。 ' ]
-            : [ '<32>{#p/story}* 狗來米 - 14攻擊 5防禦\n* 狗媳兒的老公。 \n* 只認識他聞到的東西。 ' ],
-      act_check2: [ '<32>{#p/story}* 狗來米 - 14攻擊 5防禦\n* 新近喪偶。 \n* 只認識失去老婆的痛苦。 ' ],
-      act_check3: [ '<32>{#p/story}* 狗來米 - 14攻擊 5防禦\n* 狗媳兒的老公。 \n* 認識的東西比先前更多了。 ' ],
-      act_check4: [ "<32>{#p/story}* 狗來米 - 14攻擊 5防禦\n* 狗媳兒的丈夫。 \n* 並不介意分享...？" ],
-      act_check5: [ "<32>{#p/story}* 狗來米 - 14攻擊 5防禦\n* 狗媳兒的老公。 \n* 並不介意離開...？" ],
+            ? [ '<32>{#p/asriel2}* 狗來米，一條廢狗。\n* 純靠他的瘋狗老婆過活。' ]
+            : [ '<32>{#p/story}* 狗來米 - 14攻擊 5防禦\n* 狗媳兒的老公。\n* 只認識他聞到的東西。' ],
+      act_check2: [ '<32>{#p/story}* 狗來米 - 14攻擊 5防禦\n* 新近喪偶。\n* 只認識失去老婆的痛苦。' ],
+      act_check3: [ '<32>{#p/story}* 狗來米 - 14攻擊 5防禦\n* 狗媳兒的老公。\n* 認識的東西比先前更多了。' ],
+      act_check4: [ "<32>{#p/story}* 狗來米 - 14攻擊 5防禦\n* 狗媳兒的丈夫。\n* 並不介意分享...？" ],
+      act_check5: [ "<32>{#p/story}* 狗來米 - 14攻擊 5防禦\n* 狗媳兒的老公。\n* 並不介意離開...？" ],
       fetchText: [
          '<32>{#p/human}* （你把扳手扔了出去。）\n* （狗狗們跑出去撿了回來。）\n* （你們就這樣玩了一會巡迴遊戲。）'
       ],
@@ -6367,7 +6367,7 @@ export default {
          '<32>{#p/human}* （你把扳手扔了出去。）\n* （但狗來米沒有理它，\n  任由其滾落到了邊緣。）',
          ...(world.goatbro && SAVE.flag.n.ga_asrielSpannerComment++ < 1 ? [ '<32>{#p/asriel2}* 預料到了。' ] : [])
       ],
-      flirtTalk1: [ '<11>{#p/basic}{~}啊！ \n但是為啥\n...！ ？' ],
+      flirtTalk1: [ '<11>{#p/basic}{~}啊！\n但是為啥\n...！？' ],
       flirtTalk2: [ '<11>{#p/basic}{~}愛無處不在？' ],
       flirtTalk3: [ "<11>{#p/basic}{~}你剛才..." ],
       flirtTalk4: [ "<11>{#p/basic}{~}這隻小狗在\n幹什麼？" ],
@@ -6398,7 +6398,7 @@ export default {
       petTalk1: [ '<11>{#p/basic}{~}手拿開，\n你這個\n該死的\n人類。' ],
       petTalk1x: [ '<11>{#p/basic}{~}手拿開，\n你這隻\n奇怪的\n小狗。' ],
       petTalk2: [ '<11>{#p/basic}{~}哇！！！\n來自另一隻\n小狗的撫摸\n！！！' ],
-      petTalk3: [ "<11>{#p/basic}{~}停下！ \n別碰她！ " ],
+      petTalk3: [ "<11>{#p/basic}{~}停下！\n別碰她！" ],
       petTalk4: [ '<11>{#p/basic}{~}那我呢\n......' ],
       petTalk5: [ '<11>{#p/basic}{~}謝謝你...' ],
       petText: [ '<32>{#p/human}* （你撫摸了狗來米。）' ],
@@ -6478,8 +6478,8 @@ export default {
    b_opponent_dogaressa: {
       act_check: () =>
          world.goatbro
-            ? [ "<32>{#p/asriel2}* 狗媳兒，一條瘋狗。 \n* 沒了她老公，分分鐘發瘋。 " ]
-            : [ '<32>{#p/story}* 狗媳兒 - 14攻擊 5防禦\n* 這隻小狗認為她丈夫很可愛。 \n  僅限於氣味的那種？' ],
+            ? [ "<32>{#p/asriel2}* 狗媳兒，一條瘋狗。\n* 沒了她老公，分分鐘發瘋。" ]
+            : [ '<32>{#p/story}* 狗媳兒 - 14攻擊 5防禦\n* 這隻小狗認為她丈夫很可愛。\n  僅限於氣味的那種？' ],
       act_check2: [ '<32>{#p/story}* 狗媳兒 - 14攻擊 5防禦\n* 這隻小狗非常想念她的老公\n  僅限於被殺掉後的那種？' ],
       act_check3: [ '<32>{#p/story}* 狗媳兒 - 14攻擊 5防禦\n* 對這隻小狗來說\n  事態進展得很順利。' ],
       act_check4: [
@@ -6545,7 +6545,7 @@ export default {
    b_opponent_greatdog: {
       act_check: () =>
          world.goatbro
-            ? [ '<33>{#p/asriel2}* 大犬座，一條傻狗。 \n* 這群狗裡面，\n  屬它頭腦簡單，四肢發達。 ' ]
+            ? [ '<33>{#p/asriel2}* 大犬座，一條傻狗。\n* 這群狗裡面，\n  屬它頭腦簡單，四肢發達。' ]
             : [ "<32>{#p/story}* 大犬座 - 15攻擊 8防禦\n* 太過興奮，以至於將\n  戰鬥當作兒戲。" ],
       act_check2: [ '<32>{#p/story}* 大犬座 - 15攻擊 8防禦\n* 渴望著關愛與照顧...' ],
       act_check3: [ '<32>{#p/story}* 大犬座 - 15攻擊 8防禦\n* 已經累到虛脫了。' ],
@@ -6717,7 +6717,7 @@ export default {
       dots: [ '<32>{#p/basic}* ...' ],
       flirt0: [ '<32>{#p/basic}* Cute.' ],
       flirt1: [
-         '<15>{#p/papyrus}{#f/20}什麼！？ \n對我調——調——\n調情！？ ',
+         '<15>{#p/papyrus}{#f/20}什麼！？\n對我調——調——\n調情！？',
          '<15>你終於表露出\n你的{@fill=#f00}真實感受{@fill=#000}了！',
          "<15>但——但是！\n我可是個\n眼光很高的\n骷髏！！！",
          '<15>你又能做什麼\n來回報我的\n愛意呢？？？'
@@ -6792,14 +6792,14 @@ export default {
       turnTalk1a: [ '<15>{#p/papyrus}{#f/20}看好了！' ],
       turnTalk1b: [ '<15>{#p/papyrus}{#f/20}嗯...\n我在想我應該\n穿什麼...' ],
       turnTalk2a: [ '<15>{#p/papyrus}{#f/20}你能跳多高呢？' ],
-      turnTalk2b: [ "<15>{#p/papyrus}{#f/22}什麼！？ \n我才沒有想著\n約會的事情呢！" ],
+      turnTalk2b: [ "<15>{#p/papyrus}{#f/22}什麼！？\n我才沒有想著\n約會的事情呢！" ],
       turnTalk3: () =>
          world.postnoot
             ? [ '<15>{#p/papyrus}{#f/21}... 是不是只有\n我覺得\n氣氛有點怪？' ]
-            : [ "<15>{#p/papyrus}{#f/20}對！ \n別逼我用出我的\n{@fill=#f00}特殊攻擊{@fill=#000}！ " ],
+            : [ "<15>{#p/papyrus}{#f/20}對！\n別逼我用出我的\n{@fill=#f00}特殊攻擊{@fill=#000}！" ],
       turnTalk4: () =>
          world.postnoot
-            ? [ "<15>{#p/papyrus}{#f/20}算了。 \n應該沒什麼。 " ]
+            ? [ "<15>{#p/papyrus}{#f/20}算了。\n應該沒什麼。" ]
             : [ '<15>{#p/papyrus}{#f/20}我都能嗅到\n我未來的\n人氣了！！！' ],
       turnTalk5: () =>
          world.postnoot
@@ -6825,24 +6825,24 @@ export default {
       turnTalk18: [
          '<15>{#p/papyrus}{#f/20}在我使用\n{@fill=#f00}特殊攻擊{@fill=#000}前... \n這是你的最後機會！'
       ],
-      turnTalk19: [ '<15>{#p/papyrus}{#f/20}看好了...！ \n我的{@fill=#f00}特殊攻擊{@fill=#000}！ ' ],
+      turnTalk19: [ '<15>{#p/papyrus}{#f/20}看好了...！\n我的{@fill=#f00}特殊攻擊{@fill=#000}！' ],
       turnTalk19x: [
          '<15>{#p/papyrus}{#f/15}捏嘿嘿！',
          '<15>{#f/20}在這之前可沒有人類\n能躲過我的\n{@fill=#f00}特殊攻擊{@fill=#000}！',
-         '<15>{#f/20}做好被抓住的準備吧！ \n一勞永逸的那種！ '
+         '<15>{#f/20}做好被抓住的準備吧！\n一勞永逸的那種！'
       ],
       turnTalk20: [ '<15>{#p/papyrus}{#f/20}特殊攻擊，\n阿爾法編陣！' ],
       turnTalk21: [ '<15>{#p/papyrus}{#f/20}特殊攻擊，\n貝塔編陣！' ],
       turnTalk22: [ '<15>{#p/papyrus}{#f/20}特殊攻擊，\n伽馬編陣！' ],
       turnTalk23: [ '<15>{#p/papyrus}{#f/20}特殊攻擊，\n德爾塔編陣！' ],
       turnTalk24: [
-         '<15>{#p/papyrus}{#f/27}哇塞！ \n你也太強了吧！ ',
-         '<15>{#f/20}但我可不怕！ \n我不會被你的\n實力嚇倒！ ',
+         '<15>{#p/papyrus}{#f/27}哇塞！\n你也太強了吧！',
+         '<15>{#f/20}但我可不怕！\n我不會被你的\n實力嚇倒！',
          '<15>{#f/14}... 特殊攻擊...',
          '<15>{#f/17}{@fill=#f00}西格瑪{@fill=#000}編陣！！！'
       ],
       turnTalk24x: [
-         "<15>{#p/papyrus}{#f/27}行吧...！  *喘氣*\n很明顯... 你不能！ \n*喘氣* 打敗我！ ",
+         "<15>{#p/papyrus}{#f/27}行吧...！ *喘氣*\n很明顯... 你不能！\n*喘氣* 打敗我！",
          '<15>{#f/15}沒錯！！！\n我看見你被嚇得\n全身發抖了！！',
          '<15>{#f/20}我，偉大的帕派瑞斯，\n選擇給予你\n憐憫！！',
          '<15>{#f/20}我會{@fill=#f00}饒恕你{@fill=#000}，\n人類！！！',
@@ -6907,7 +6907,7 @@ export default {
          '<15>{#p/papyrus}{#f/14}I, PAPYRUS, WILL MAKE SURE NO HARM COMES TO EITHER OF US!',
          '<15>{#p/papyrus}{#f/20}I WILL SPARE MYSELF FOR YOU!',
          '<15>{#p/papyrus}{#f/20}AND THEN, I WILL FIND A VERY SAFE PLACE TO HIDE.',
-         "<15>{#p/papyrus}{#f/15}別擔心，人類！ \n一切盡在\n帕派瑞斯的掌控之中！ "
+         "<15>{#p/papyrus}{#f/15}別擔心，人類！\n一切盡在\n帕派瑞斯的掌控之中！"
       ],
       secretInsult1: [ '<15>{#p/papyrus}{#f/27}呃... 大可不必？？？' ],
       secretInsult2: [ '<15>{#p/papyrus}{#f/21}蠢貨... \n我好像在哪聽過...' ],
@@ -6930,7 +6930,7 @@ export default {
          "<15>{#p/papyrus}{#f/19}WELL, IT'D CERTAINLY EXPLAIN YOUR ABRASIVE ATTITUDE!"
       ],
       secretInsult5: [
-         '<15>{#p/papyrus}{#f/27}啥？ \n「志在星辰大海，\n何必自暴自棄」...',
+         '<15>{#p/papyrus}{#f/27}啥？\n「志在星辰大海，\n何必自暴自棄」...',
          '<15>{#p/papyrus}{#f/17}你在說啥呢...？'
       ],
       secretInsult5x: [
@@ -6970,14 +6970,14 @@ export default {
       secretInsult7: [
          '<15>{#p/papyrus}{#f/14}現在...\n我不會再\n被他騙了！',
          '<15>{#p/papyrus}{#f/20}我，帕派瑞斯，\n保證讓他再也\n找不到我！',
-         "<15>{#p/papyrus}{#f/15}別擔心，人類！ \n一切盡在\n帕派瑞斯的掌控之中！ "
+         "<15>{#p/papyrus}{#f/15}別擔心，人類！\n一切盡在\n帕派瑞斯的掌控之中！"
       ],
       sparableFlirt1: [
          "<15>{#p/papyrus}{#f/27}你現在\n要做的是饒恕，\n而不是調情！",
          '<15>{#f/14}我必須\n抗住誘惑！'
       ],
       sparableFlirt1x: [
-         '<15>{#p/papyrus}{#f/27}啊？ \n在這種時候... 調情？ ',
+         '<15>{#p/papyrus}{#f/27}啊？\n在這種時候... 調情？',
          "<15>{#f/14}嗯...\n這倒也算是一種\n贖罪方式！"
       ],
       sparableFlirt2: [ '<15>{#p/papyrus}{#f/14}不-不...！' ],
@@ -6996,7 +6996,7 @@ export default {
       sparableInsult3: [ '<15>{#p/papyrus}{#f/21}...' ]
    },
    b_opponent_shockasgore: {
-      act_check: [ '<32>{#p/asriel2}* 艾斯戈爾。 \n* 親手葬送自己家園的昏君。 ' ],
+      act_check: [ '<32>{#p/asriel2}* 艾斯戈爾。\n* 親手葬送自己家園的昏君。' ],
       act_hug: [ '<32>{#p/human}* （你想抱抱艾斯戈爾...）' ],
       hugText: [ '<32>{#p/human}* （...但你的身體直接穿了過去。）', '<32>{#p/asriel2}* ...啊？' ],
       foodText: [ '<11>{#p/asgore}{#f/5}那是...' ],
@@ -7223,7 +7223,7 @@ export default {
             '<32>{#p/human}* （你撕開了冰意靈的包裝。）',
             SAVE.data.b.svr
                ? '<32>* （包裝上詳細介紹了\n  你的新能力。）'
-               : '<32>{#p/basic}* 「你已經獲得了隨心所欲\n  改變宇宙的力量！ \n  明智地使用它吧！ 」'
+               : '<32>{#p/basic}* 「你已經獲得了隨心所欲\n  改變宇宙的力量！\n  明智地使用它吧！」'
          ],
          [
             '<32>{#p/human}* （你撕開了冰意靈的包裝。）',
@@ -7241,7 +7241,7 @@ export default {
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （11 HP。）' ]
             : [
-                 '<33>{#p/basic}* 「渦旋棒棒糖」 回復11 HP\n* 可改變主觀時間流速。 \n* 僅在戰鬥中有效。 '
+                 '<33>{#p/basic}* 「渦旋棒棒糖」 回復11 HP\n* 可改變主觀時間流速。\n* 僅在戰鬥中有效。'
               ],
       name: '渦旋棒棒糖',
       use: () => [
@@ -7526,26 +7526,26 @@ export default {
    },
    i_burgerz: {
       battle: {
-         description: '很像普通漢堡，只是小了一些。 \n共有三個。 ',
+         description: '很像普通漢堡，只是小了一些。\n共有三個。',
          name: '三隻小漢堡'
       },
       drop: [ '<32>{#p/human}* （你把小漢堡全扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （15 HP。共有三個。）' ]
-            : [ '<32>{#p/basic}* 「小漢堡」 回復15 HP\n* 很像普通漢堡，只是小了一些。 \n* 共有三個。 ' ],
+            : [ '<32>{#p/basic}* 「小漢堡」 回復15 HP\n* 很像普通漢堡，只是小了一些。\n* 共有三個。' ],
       name: '三隻小漢堡',
       use: [ '<32>{#p/human}* （你吃掉了一個小漢堡。）' ]
    },
    i_burgerz_use1: {
       battle: {
-         description: '很像普通漢堡，只是小一些。 \n還剩兩個。 ',
+         description: '很像普通漢堡，只是小一些。\n還剩兩個。',
          name: '兩隻小漢堡'
       },
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （15 HP。還剩兩個。）' ]
-            : [ '<32>{#p/basic}* 「小漢堡」 回復15 HP\n* 很像普通漢堡，只是小了一些。 \n* 還剩兩個。 ' ],
+            : [ '<32>{#p/basic}* 「小漢堡」 回復15 HP\n* 很像普通漢堡，只是小了一些。\n* 還剩兩個。' ],
       name: '兩隻小漢堡'
    },
    i_burgerz_use2: {
@@ -7556,7 +7556,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （15 HP。最後一個。）' ]
-            : [ '<32>{#p/basic}* 「小漢堡」 回復15 HP\n* 很像普通漢堡，只是小了一些。 \n* 最後一個。 ' ],
+            : [ '<32>{#p/basic}* 「小漢堡」 回復15 HP\n* 很像普通漢堡，只是小了一些。\n* 最後一個。' ],
       name: '小漢堡'
    },
 
@@ -7719,7 +7719,7 @@ export default {
                        '<32>{#p/napstablook}{#k/3}* 喔，很高興又見到你...'
                     ][SAVE.data.n.state_wastelands_napstablook],
                     ...(world.meanie
-                       ? [ "<32>{#k/0}* 為什麼露出那副表情？ \n* 我做錯什麼了嗎..." ]
+                       ? [ "<32>{#k/0}* 為什麼露出那副表情？\n* 我做錯什麼了嗎..." ]
                        : [ '<32>{#k/4}* 最近在忙些什麼呀？' ])
                  ]
                : SAVE.data.n.state_wastelands_napstablook < 5
@@ -7887,7 +7887,7 @@ export default {
       zeroPrompt: '<09>{#p/basic}...'
    },
    n_shop_hare: {
-      exit: [ '<32>{#p/basic}{#k/11}* 再見！ \n* 有空常來啊！ ' ],
+      exit: [ '<32>{#p/basic}{#k/11}* 再見！\n* 有空常來啊！' ],
       item: () =>
          world.population === 0 || world.runaway
             ? [
@@ -7932,7 +7932,7 @@ export default {
          world.population === 0 || world.runaway
             ? [ '拿取', '偷竊', '閱讀', '離開' ]
             : [ '購買', world.meanie ? '偷竊' : '出售', '交談', '離開' ],
-      menuPrompt1: '<23>{#p/basic}{#k/0}* 你好啊，旅行者。 \n* 想來點什麼嗎？',
+      menuPrompt1: '<23>{#p/basic}{#k/0}* 你好啊，旅行者。\n* 想來點什麼嗎？',
       menuPrompt2: '<23>{#p/basic}{#k/0}* 慢慢挑。',
       menuPrompt3: () =>
          world.bulrun ? '<23>{#p/basic}* ...但是人們都逃走了。' : '<23>{#p/basic}* ...但是誰也沒有來。',
@@ -7952,7 +7952,7 @@ export default {
                  '<30>{#k/12}* No exceptions.'
               ]
             : [
-                 "<30>{#p/basic}{#k/6}* 哈？ \n* 你想賣東西？ \n* 這裡看起來像當鋪嗎？ ",
+                 "<30>{#p/basic}{#k/6}* 哈？\n* 你想賣東西？\n* 這裡看起來像當鋪嗎？",
                  "<30>{#k/3}* 我不知道在你家鄉是\n  什麼樣子的... 但是...",
                  "<30>* 如果我開始花錢買\n  舊扳手和穿過的太空服，\n  我生意就做不下去了！"
               ],
@@ -7980,9 +7980,9 @@ export default {
                     "<32>{#k/4}* Still.\n* Can't help but get a little excited, now can we?"
                  ]
                : [
-                    "<32>{#p/basic}{#k/4}* 你好呀！ 歡迎來到星港！ \n* 我都記不得上次看到新面孔\n  是什麼時候的事情了。",
-                    '<32>{#k/8}* 你是從哪裡來的？ \n* 首塔嗎？ ',
-                    "<32>{#k/7}* 你看起來不像是遊客。 \n* 你是自己來的嗎？"
+                    "<32>{#p/basic}{#k/4}* 你好呀！歡迎來到星港！\n* 我都記不得上次看到新面孔\n  是什麼時候的事情了。",
+                    '<32>{#k/8}* 你是從哪裡來的？\n* 首塔嗎？',
+                    "<32>{#k/7}* 你看起來不像是遊客。\n* 你是自己來的嗎？"
                  ],
          () =>
             SAVE.data.n.plot === 72
@@ -8000,11 +8000,11 @@ export default {
                : [
                     '<32>{#p/basic}{#k/8}* 你想知道在星港可以\n  幹什麼？',
                     "<32>{#k/9}* 你可以去烤爾比用餐，\n  可以去圖書倌獲取資訊...",
-                    "<32>{#k/2}* 如果你累了，\n  你可以去旅館打個盹。 \n* 就在隔壁，我姐妹開的。 ",
+                    "<32>{#k/2}* 如果你累了，\n  你可以去旅館打個盹。\n* 就在隔壁，我姐妹開的。",
                     "<32>{#k/0}* 你要是覺得無聊了，\n  可以坐在外面，\n  看那兩個古怪的骷髏\n  做他們的事情。",
-                    "<32>* 他們兩個...\n* 我覺得，應該是兄弟。 \n* 從我記事的時候，\n  他們就在這裡了。 ",
-                    '<32>{#k/9}* 喔，我差點忘了。 \n* 最近，有個小鬼兒決定\n  在小鎮的南邊開一家商店。 ',
-                    "<32>{#k/11}* 雖然事情不算大，\n  但如果你路過，\n  一定要打聲招呼。 \n* 那傢伙很需要陪伴的。 "
+                    "<32>* 他們兩個...\n* 我覺得，應該是兄弟。\n* 從我記事的時候，\n  他們就在這裡了。",
+                    '<32>{#k/9}* 喔，我差點忘了。\n* 最近，有個小鬼兒決定\n  在小鎮的南邊開一家商店。',
+                    "<32>{#k/11}* 雖然事情不算大，\n  但如果你路過，\n  一定要打聲招呼。\n* 那傢伙很需要陪伴的。"
                  ],
          () =>
             SAVE.data.n.plot === 72
@@ -8073,7 +8073,7 @@ export default {
                     "<25>{#p/undyne}{#f/4}* 是啊，那是因為\n  他是個作弊慣犯。",
                     '<25>{#p/undyne}{#f/5}* 你有看到過他在\n  打靶機上的高分嗎？',
                     "<25>{#p/undyne}{#f/8}* 那簡直，是個天文數字\n  什麼的！！",
-                    '<18>{#p/papyrus}{#f/4}喔，相信我。 \n這事我可太清楚了。 ',
+                    '<18>{#p/papyrus}{#f/4}喔，相信我。\n這事我可太清楚了。',
                     "<18>{#p/papyrus}{#f/7}我真希望他\n不要在那樣的\n事情上作弊！",
                     '<18>{#p/papyrus}{#f/7}這把其他人的\n遊戲體驗全都\n毀掉了。',
                     '<25>{#p/undyne}{#f/1}* 或者說...',
@@ -8204,8 +8204,8 @@ export default {
                     "<25>{#p/undyne}{#f/12}* 但是，呃，\n  那樣就破壞完美了。",
                     '<18>{#p/papyrus}{#f/5}你說完美？',
                     '<18>{#p/papyrus}{#f/6}但是你之前說過\n事情總是可以\n變得更好的！',
-                    '<25>{|}{#p/undyne}{#f/17}* 呃... 是這樣沒錯啦！ \n* 我的意思是- {%}',
-                    '<18>{#p/papyrus}幾乎完美。 \n這樣說可以吧。 ',
+                    '<25>{|}{#p/undyne}{#f/17}* 呃... 是這樣沒錯啦！\n* 我的意思是- {%}',
+                    '<18>{#p/papyrus}幾乎完美。\n這樣說可以吧。',
                     '<25>{#p/undyne}{#f/12}* 說得好。'
                  ])
          ],
@@ -8258,7 +8258,7 @@ export default {
                     '<18>{#p/papyrus}{#f/5}太不幸了。',
                     "<25>{#p/undyne}{#f/17}* 但是，嘿！\n* 也不全是壞事！！",
                     '<25>{#p/undyne}{#f/14}* 畢竟，他們的晶片\n  可以直接轉移到\n  一臺新電腦上。',
-                    '<18>{#p/papyrus}{#f/0}喔！ 喔！ \n我應該懂了！ ',
+                    '<18>{#p/papyrus}{#f/0}喔！喔！\n我應該懂了！',
                     "<18>{#p/papyrus}{#f/0}這樣他們就可以\n上域外網了！",
                     '<18>{#p/papyrus}{#f/0}還有天文\n觀測網路！',
                     '<18>{#p/papyrus}{#f/0}還有更多更多！'
@@ -8339,7 +8339,7 @@ export default {
          () =>
             solo()
                ? [
-                    "<18>{#p/papyrus}{#f/6}什麼！？ ！？ \n我們不能結婚！！",
+                    "<18>{#p/papyrus}{#f/6}什麼！？！？\n我們不能結婚！！",
                     ...(SAVE.data.b.flirt_papyrus
                        ? [ "<18>{#p/papyrus}{#f/0}我們都說好了\n是不會有結果的，\n還記得嗎？" ]
                        : [
@@ -8766,7 +8766,7 @@ export default {
          0,
          () => [
             '<18>{#p/papyrus}{#f/9}你正站在我們\n傳奇的戰場上？',
-            "<18>{#p/papyrus}{#f/0}不不，更新一下。 \n這是個具有歷史\n價值的地方。 ",
+            "<18>{#p/papyrus}{#f/0}不不，更新一下。\n這是個具有歷史\n價值的地方。",
             ...(solo()
                ? []
                : [
@@ -8920,7 +8920,7 @@ export default {
                ? [
                     '<18>{#p/papyrus}哇，你只花了四秒鐘\n就給我打電話了！',
                     '<18>你一定非常需要\n我的幫助！！！',
-                    "<18>{#p/papyrus}{#f/9}但不要害怕。 \n這是帕派瑞斯的\n熱線電話！",
+                    "<18>{#p/papyrus}{#f/9}但不要害怕。\n這是帕派瑞斯的\n熱線電話！",
                     '<18>{#p/papyrus}{#f/9}只需要描述一下\n你的位置，然後...',
                     '<18>{#p/papyrus}{#f/4}... WAIT.',
                     "<18>{#p/papyrus}{#f/6}你還在我的\n房間裡？？",
@@ -8949,7 +8949,7 @@ export default {
                  ],
          () =>
             SAVE.data.n.plot_date < 1.1
-               ? [ "<18>{#p/papyrus}{#f/6}堅持住！ \n我還在畫！ " ]
+               ? [ "<18>{#p/papyrus}{#f/6}堅持住！\n我還在畫！" ]
                : SAVE.data.n.plot_date < 1.2
                ? [ '<18>{#p/papyrus}{#f/1}【我】還知道\n帕派瑞斯是\n誰嗎！？！？' ]
                : [
@@ -9003,7 +9003,7 @@ export default {
             '<18>{#p/papyrus}有的時候，\n衫斯會給我讀一個\n睡前故事。',
             '<18>{#p/papyrus}{#f/5}你聽說過\n《偉大的怪物》嗎？',
             '<18>{#p/papyrus}{#f/6}衫斯昨晚給我講了\n這個故事，然後...',
-            "<18>{#p/papyrus}{#f/8}...呃啊！ \n我就哭得\n停不下來了！ ",
+            "<18>{#p/papyrus}{#f/8}...呃啊！\n我就哭得\n停不下來了！",
             ...(solo()
                ? []
                : [
@@ -9406,7 +9406,7 @@ export default {
             '<18>{#p/papyrus}{#f/9}最是聲名狼藉的。',
             '<18>{#p/papyrus}{#f/9}最是無所畏懼的。',
             '<18>{#p/papyrus}{#f/9}最是一往無前的。',
-            '<18>{#p/papyrus}{#f/9}怪物。 \n神話。 \n傳說...',
+            '<18>{#p/papyrus}{#f/9}怪物。\n神話。\n傳說...',
             '<18>{#p/papyrus}{#f/9}那隻黃色的鳥。',
             ...(SAVE.data.n.plot < 42
                ? [
@@ -9567,7 +9567,7 @@ export default {
             '<18>一個孤獨的房間，\n與世隔絕...',
             '<18>中間唯有一架鋼琴...',
             ...(solo()
-               ? [ "<18>{#p/papyrus}{#f/0}...喔等下！ \n不就是這個房間嗎！ " ]
+               ? [ "<18>{#p/papyrus}{#f/0}...喔等下！\n不就是這個房間嗎！" ]
                : [
                     '<25>{#p/undyne}{#f/10}* And maybe that piano would be used to solve puzzles...',
                     '<25>{#p/undyne}{#f/10}* Or practice combat by fighting the ivories...',
@@ -9582,7 +9582,7 @@ export default {
          0,
          () => [
             "<18>{#p/papyrus}我覺得我之前從來\n沒進過這個房間。",
-            "<18>{#p/papyrus}{#f/6}這個房間什麼樣？ \n裡面有沒有\n數不清的寶藏？ ",
+            "<18>{#p/papyrus}{#f/6}這個房間什麼樣？\n裡面有沒有\n數不清的寶藏？",
             '<18>{#p/papyrus}{#f/4}聲明一下，\n這個問題是反問句。',
             "<18>{#p/papyrus}{#f/7}我寧願自己去\n尋找答案！",
             ...(solo()
@@ -9803,7 +9803,7 @@ export default {
                     '<18>{|}{#f/1}... {%}',
                     '<25>{#p/undyne}{#f/12}* 呼... 哈...！',
                     "<25>{#p/undyne}{#f/8}* 沒錯！！！\n* 那是我的家！！！",
-                    "<18>{#p/papyrus}{#f/6}呃，嗨，安黛因！ \n你是怎麼這麼快\n就到這裡的啊？",
+                    "<18>{#p/papyrus}{#f/6}呃，嗨，安黛因！\n你是怎麼這麼快\n就到這裡的啊？",
                     '<25>{#p/undyne}{#f/17}我跑過來的。',
                     '<18>{#p/papyrus}{#f/1}什麼？？\n那你肯定有一些...',
                     '<18>{#p/papyrus}{#f/9}關於你家的\n很酷的事情\n要說吧！！！',
