@@ -4031,7 +4031,7 @@ export default {
       consoleTalk2: [ '<11>{#p/napstablook}{~}不信...' ],
       consoleTalk3: [ "<11>{#p/napstablook}{~}你並不感到\n抱歉..." ],
       deadTalk: [
-         "<11>{#p/napstablook}{~}嗯... 你知道\n你沒辦法殺死\n鬼魂，對吧...",
+         "<11>{#p/napstablook}{~}嗯... 你知道\n你沒辦法殺死\n幽靈，對吧...",
          "<11>{~}我們沒有實體\n之類的",
          "<11>{~}我降低我的hp\n只是不希望我\n顯得太粗魯",
          '<11>{~}對不起...\n我把事情變得\n更尷尬了...',

@@ -16,6 +16,15 @@ msgid ""
 "These questions are already in the FAQ. \n"
 "Our translators don\\'t have time for this nonsense.\""
 msgstr ""
+"1. PS!OUTERTALE Сделан Spacey_432\n"
+"И наша команда работает над переводом на китайский язык. \n"
+"2. Если вы обнаружите какие-либо переведенные тексты или диалоги,\n"
+"пожалуйста, не жалуйтесь и не называйте нас ленивыми. \n"
+"3. Перестаньте задавать крайне глупые вопросы.\n"
+"(например, \"Как мне сменить язык на китайский?\", \n"
+"\"Как мне убить Ториэль?\" или \"Как мне извлечь игру?\").\n"
+"Эти вопросы уже есть в разделе часто задаваемых вопросов. \n"
+"У наших переводчиков нет времени на подобную чепуху.\""
 
 msgid "(You take a deep breath.)"
 msgstr "(Вы глубоко вдохнули.)"
@@ -113,100 +122,100 @@ msgid "BATTLE"
 msgstr "БИТВА"
 
 msgid "FixMusic"
-msgstr ""
+msgstr "Фиксированная музыка"
 
 msgid "FixPlayer"
-msgstr ""
+msgstr "Фиксированный игрок"
 
 msgid "InfiniteG"
-msgstr ""
+msgstr "Бесконечные Монеты"
 
 msgid "Interact"
-msgstr ""
+msgstr "Взаимодействовать"
 
 msgid "Input"
-msgstr ""
+msgstr "Ввод"
 
 msgid "Movement"
-msgstr ""
+msgstr "Движение"
 
 msgid "Noclip"
-msgstr ""
+msgstr "Ноклип"
 
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 msgid "SkipText"
-msgstr ""
+msgstr "Пропустить текст"
 
 msgid "Freecam"
-msgstr ""
+msgstr "Бесплатная камера"
 
 msgid "CanAssist"
-msgstr ""
+msgstr "Может помочь"
 
 msgid "ClearBox"
-msgstr ""
+msgstr "Прозрачный ящик"
 
 msgid "Exit"
-msgstr ""
+msgstr "Выход"
 
 msgid "ResetBox"
-msgstr ""
+msgstr "Перезапустить ящик"
 
 msgid "ResetMenu"
-msgstr ""
+msgstr "Перезапустить меню"
 
 msgid "CanFlee"
-msgstr ""
+msgstr "Суметь сбежать"
 
 msgid "InfiniteHP"
-msgstr ""
+msgstr "Бесконечное здоровье"
 
 msgid "PacifyAll"
-msgstr ""
+msgstr "Усмирить всех"
 
 msgid "Suicide"
-msgstr ""
+msgstr "Суицид"
 
 msgid "WeakenAll"
-msgstr ""
+msgstr "Ослабить всех"
 
 msgid "$(x) FPS"
-msgstr ""
+msgstr "$(x) ФПС"
 
 msgid "Halt"
-msgstr ""
+msgstr "Остановка"
 
 msgid "GAME SPEED"
-msgstr ""
+msgstr "СКОРОСТЬ ИГРЫ"
 
 msgid "$(x)x"
-msgstr ""
+msgstr "$(x)x"
 
 msgid "More"
-msgstr ""
+msgstr "Больше"
 
 msgid "Less"
-msgstr ""
+msgstr "Менее"
 
 msgid "$(x)s/frame"
-msgstr ""
+msgstr "$(x)s/frame"
 
 msgid "GODHOME"
-msgstr ""
+msgstr "Дом бога"
 
 msgid "ROOM"
-msgstr ""
+msgstr "КОМНАТА"
 
 msgid "Teleport"
-msgstr ""
+msgstr "Телепорт"
 
 msgid "ENCOUNTER"
-msgstr ""
+msgstr "Столкновение"
 
 msgid "Start"
-msgstr ""
+msgstr "Старт"
 
 msgid "ARMOR"
 msgstr "БРОНЯ"
@@ -215,397 +224,403 @@ msgid "WEAPON"
 msgstr "ОРУЖИЕ"
 
 msgid "INSPECT"
-msgstr ""
+msgstr "Проверить"
 
 msgid "LAYERS"
-msgstr ""
+msgstr "Слои"
 
 msgid "TYPES"
-msgstr ""
+msgstr "Виды"
 
 msgid "Base"
-msgstr ""
+msgstr "База"
 
 msgid "Below"
-msgstr ""
+msgstr "Ниже"
 
 msgid "Main"
-msgstr ""
+msgstr "Главный"
 
 msgid "Above"
-msgstr ""
+msgstr "Выше"
 
 msgid "Menu"
-msgstr ""
+msgstr "Меню"
 
 msgid "Hitbox"
-msgstr ""
+msgstr "Хитбокс"
 
 msgid "Sprite"
-msgstr ""
+msgstr "Спрайт"
 
 msgid "Text"
-msgstr ""
+msgstr "Текст"
 
 msgid "EXPLORER"
-msgstr ""
+msgstr "Исследователь"
 
 msgid "Base (Explorer)"
-msgstr ""
+msgstr "Базированый (Проводник)"
 
 msgid "Below (Explorer)"
-msgstr ""
+msgstr "Нижний (Проводник)"
 
 msgid "Main (Explorer)"
-msgstr ""
+msgstr "Главный (Проводник)"
 
 msgid "Above (Explorer)"
-msgstr ""
+msgstr "Верхний (Проводник)"
 
 msgid "Menu (Explorer)"
-msgstr ""
+msgstr "Меню (Проводник)"
 
 msgid "A"
-msgstr ""
+msgstr "А"
 
 msgid "C"
-msgstr ""
+msgstr "С"
 
 msgid "R"
-msgstr ""
+msgstr "R"
 
 msgid "E"
-msgstr ""
+msgstr "E"
 
 msgid "H"
-msgstr ""
+msgstr "H"
 
 msgid "O"
-msgstr ""
+msgstr "O"
 
 msgid "P"
-msgstr ""
+msgstr "P"
 
 msgid "S"
-msgstr ""
+msgstr "S"
 
 msgid "T"
-msgstr ""
+msgstr "T"
 
 msgid "Press [TAB] to cycle debug info"
-msgstr ""
+msgstr "Нажмите [TAB], чтобы просмотреть отладочную информацию"
 
 msgid "Acceleration"
-msgstr ""
+msgstr "Ускорение"
 
 msgid "Active"
-msgstr ""
+msgstr "Активный"
 
 msgid "Alpha"
-msgstr ""
+msgstr "Альфа"
 
 msgid "Anchor"
-msgstr ""
+msgstr "Якорь"
 
 msgid "B"
-msgstr ""
+msgstr "B"
 
 msgid "Blend"
-msgstr ""
+msgstr "Смесь"
 
 msgid "Border"
-msgstr ""
+msgstr "Граница"
 
 msgid "Computed Size"
-msgstr ""
+msgstr "Вычисленный размер"
 
 msgid "Content"
-msgstr ""
+msgstr "Контент"
 
 msgid "Crop"
-msgstr ""
+msgstr "Урожай"
 
 msgid "Down"
-msgstr ""
+msgstr "Вниз"
 
 msgid "Duration"
-msgstr ""
+msgstr "Продолжительность"
 
 msgid "EXP"
 msgstr "ОП"
 
 msgid "Extent"
-msgstr ""
+msgstr "Степень"
 
 msgid "F"
-msgstr ""
+msgstr "F"
 
 msgid "Face"
-msgstr ""
+msgstr "Лицо"
 
 msgid "False"
-msgstr ""
+msgstr "Ложный"
 
 msgid "Fill"
-msgstr ""
+msgstr "Заполнить"
 
 msgid "Font Family"
-msgstr ""
+msgstr "Семейство шрифтов"
 
 msgid "Font Size"
-msgstr ""
+msgstr "Размер шрифта"
 
 msgid "Frames"
-msgstr ""
+msgstr "Кадры"
 
 msgid "Gravity"
-msgstr ""
+msgstr "Гравитация"
 
 msgid "Group"
-msgstr ""
+msgstr "Группа"
 
 msgid "HP"
 msgstr "ОЗ"
 
 msgid "Index"
-msgstr ""
+msgstr "Индекс"
 
 msgid "Inert"
-msgstr ""
+msgstr "Вялый"
 
 msgid "Key"
-msgstr ""
+msgstr "Ключ"
 
 msgid "Last Saved Time"
-msgstr ""
+msgstr "Последнее сохраненное время"
 
 msgid "Layer"
-msgstr ""
+msgstr "Слой"
 
 msgid "Layers"
-msgstr ""
+msgstr "Слои"
 
 msgid "Left"
-msgstr ""
+msgstr "Лево"
 
 msgid "Metadata"
-msgstr ""
+msgstr "Метаданные"
 
 msgid "Music"
-msgstr ""
+msgstr "Музыка"
 
 msgid "Namespace"
-msgstr ""
+msgstr "Название помещения"
 
 msgid "NONE"
-msgstr ""
+msgstr "Никто"
 
 msgid "none"
-msgstr ""
+msgstr "никто"
 
 msgid "Objects"
-msgstr ""
+msgstr "Объект"
 
 msgid "Oversaver"
-msgstr ""
+msgstr "Над спасателем"
 
 msgid "Parallax"
-msgstr ""
+msgstr "Смещение"
 
 msgid "Position"
-msgstr ""
+msgstr "Позиция"
 
 msgid "Primed"
-msgstr ""
+msgstr "Загрунтованный"
 
 msgid "Priority"
-msgstr ""
+msgstr "Приоритет"
 
 msgid "REGISTRY"
-msgstr ""
+msgstr "Регистрация"
 
 msgid "Renderer"
-msgstr ""
+msgstr "Рендеринг"
 
 msgid "Resources"
-msgstr ""
+msgstr "Ресурсы"
 
 msgid "Reverse"
-msgstr ""
+msgstr "Реверс"
 
 msgid "Right"
-msgstr ""
+msgstr "Право"
 
 msgid "Room"
-msgstr ""
+msgstr "Комната"
 
 msgid "Room State"
-msgstr ""
+msgstr "Состояние комнаты"
 
 msgid "Rotation"
-msgstr ""
+msgstr "Вращение"
 
 msgid "Scale"
-msgstr ""
+msgstr "Масштаб"
 
 msgid "Shop Selection"
-msgstr ""
+msgstr "Выбор магазина"
 
 msgid "Size"
-msgstr ""
+msgstr "Размер"
 
 msgid "Spacing"
-msgstr ""
+msgstr "Расстояние"
 
 msgid "Spin"
-msgstr ""
+msgstr "Вращение"
 
 msgid "Sprites"
-msgstr ""
+msgstr "Спрайты"
 
 msgid "Step"
-msgstr ""
+msgstr "Шаг"
 
 msgid "Stroke"
-msgstr ""
+msgstr "Инсульт"
 
 msgid "Subcrop"
-msgstr ""
+msgstr "Субкультура"
 
 msgid "Talk"
-msgstr ""
+msgstr "Говорить"
 
 msgid "Target"
-msgstr ""
+msgstr "Цель"
 
 msgid "Tint"
-msgstr ""
+msgstr "Оттенок"
 
 msgid "Tracked Assets"
-msgstr ""
+msgstr "Отслеживаемые активы"
 
 msgid "True"
-msgstr ""
+msgstr "Да"
 
 msgid "UNKNOWN"
-msgstr ""
+msgstr "НЕИЗВЕСТНЫЙ"
 
 msgid "Up"
-msgstr ""
+msgstr "Вверх"
 
 msgid "Vars"
-msgstr ""
+msgstr "Вары"
 
 msgid "Velocity"
-msgstr ""
+msgstr "Скорость"
 
 msgid "Volatile"
-msgstr ""
+msgstr "Летучий"
 
 msgid "SAVEMOD"
-msgstr ""
+msgstr "Cохранить мод"
 
 msgid "SAVE EDITOR"
-msgstr ""
+msgstr "Cохранить редактор"
 
 msgid "Data (Booleans)"
-msgstr ""
+msgstr "Данные (логические)"
 
 msgid "Data (Numbers)"
-msgstr ""
+msgstr "Данные (Номера)"
 
 msgid "Data (Strings)"
-msgstr ""
+msgstr "Данные (Строки)"
 
 msgid "Flags (Booleans)"
-msgstr ""
+msgstr "Флаги (логические)"
 
 msgid "Flags (Numbers)"
-msgstr ""
+msgstr "Флаги (Цифры)"
 
 msgid "Flags (Strings)"
-msgstr ""
+msgstr "Флаги (Строки)"
 
 msgid "NAVIGATION"
-msgstr ""
+msgstr "Навигация"
 
 msgid "Prev"
-msgstr ""
+msgstr "Предыдущий"
 
 msgid "Next"
-msgstr ""
+msgstr "Следующий"
 
 msgid "Enter Value"
-msgstr ""
+msgstr "Введите значение"
 
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 msgid "STORAGE"
-msgstr ""
+msgstr "ХРАНИЛИЩЕ"
 
 msgid "STORAGE EDITOR"
-msgstr ""
+msgstr "РЕДАКТОР ХРАНИЛИЩА"
 
 msgid "SELECTION"
-msgstr ""
+msgstr "ВЫБОР"
 
 msgid "Inventory"
-msgstr ""
+msgstr "Инвентарь"
 
 msgid "Dim. Box A"
-msgstr ""
+msgstr "Объёмный. Ящик А"
 
 msgid "Dim. Box B"
-msgstr ""
+msgstr "Объёмный. Ящик Б"
 
 msgid "Clear File"
-msgstr ""
+msgstr "Очистить файл"
 
 msgid "Notice"
-msgstr ""
+msgstr "Уведомление"
 
 msgid "Open"
-msgstr ""
+msgstr "Открыть"
 
 msgid "SAVE files"
-msgstr ""
+msgstr "Сохранить файлы"
 
 msgid "Open File"
-msgstr ""
+msgstr "Открыть Файл"
 
 msgid "Save File"
-msgstr ""
+msgstr "Сохранить Файл"
 
 msgid "That file could not be parsed."
-msgstr ""
+msgstr "Этот файл не удалось разобрать."
 
 msgid "OK"
-msgstr ""
+msgstr "ОК"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Отменить"
 
 msgid "Clear this file?"
-msgstr ""
+msgstr "Очистить этот файл?"
 
 msgid ""
 "Your SAVE file from the\n"
 "OUTERTALE demo has been\n"
 "moved to a timeline slot."
 msgstr ""
+"Ваш сохраненный файл из\n"
+"демо-версии OUTERTALE был\n"
+"перемещен в раздел временной шкалы."
 
 msgid "Save this file?"
-msgstr ""
+msgstr "Сохранить этот файл?"
 
 msgid ""
 "Copy the text below into\n"
 "a JSON file to save it\n"
 "to your device."
 msgstr ""
+"Скопируйте приведенный ниже текст в\n"
+"JSON-файл, чтобы сохранить его\n"
+"на своем устройстве."
 
 msgid "Load this file?"
-msgstr ""
+msgstr "Загрузить этот файл?"
 
 msgid "§fill=#ff0§< DEVELOPER >§fill=#fff§"
 msgstr "§fill=#ff0§< СОЗДАТЕЛЬ >§fill=#fff§"
@@ -692,67 +707,67 @@ msgid "Pongy25"
 msgstr "Pongy25"
 
 msgid "PoTheWinterCorder"
-msgstr ""
+msgstr "По Зимней границе"
 
 msgid "ProctorDorkchop02"
 msgstr ""
 
 msgid "ScarletScaledDragon"
-msgstr ""
+msgstr "Алый чешуйчатый дракон"
 
 msgid "semi"
-msgstr ""
+msgstr "полу"
 
 msgid "SquigglyWiggley"
-msgstr ""
+msgstr "Волнистый, извивающийся"
 
 msgid "Starkiteckt"
 msgstr ""
 
 msgid "supper12"
-msgstr ""
+msgstr "ужин 12"
 
 msgid "Valor52"
-msgstr ""
+msgstr "Доблесть 52"
 
 msgid "§fill=#ff0§< TECHNICIAN >§fill=#fff§"
 msgstr "§fill=#ff0§< СПЕЦИАЛИСТ >§fill=#fff§"
 
 msgid "Codetoil"
-msgstr ""
+msgstr "Код для ввода в il"
 
 msgid "ws3917"
-msgstr ""
+msgstr "ws3917"
 
 msgid "§fill=#ff0§< TESTER >§fill=#fff§"
 msgstr "§fill=#ff0§< ТЕСТЕР >§fill=#fff§"
 
 msgid "Alden"
-msgstr ""
+msgstr "Alden"
 
 msgid "Aspey"
-msgstr ""
+msgstr "Aspey"
 
 msgid "blue"
-msgstr ""
+msgstr "Синий"
 
 msgid "Brad"
-msgstr ""
+msgstr "Бред"
 
 msgid "brayjamin"
-msgstr ""
+msgstr "brayjamin"
 
 msgid "ClamsyMoe"
-msgstr ""
+msgstr "Неуклюжий Мо"
 
 msgid "delta"
-msgstr ""
+msgstr "Дельта"
 
 msgid "Dischnie"
-msgstr ""
+msgstr "Обеденный стол"
 
 msgid "DR4GON HE4RT"
-msgstr ""
+msgstr "СЕРДЦЕ ДРАКОНА"
 
 msgid "Dubituar"
 msgstr ""

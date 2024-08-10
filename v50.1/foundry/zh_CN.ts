@@ -169,32 +169,32 @@ export default {
               ],
       tome4: () => [
          choicer.create(
-            '* (What do you intend to do?)',
-            'Spare',
+            '* （你想做什么？）',
+            '饶恕',
             world.meanie
-               ? 'Bully'
+               ? '欺负'
                : SAVE.data.b.oops && world.flirt > 9
                ? '调情'
                : SAVE.data.b.oops
-               ? 'Befriend'
+               ? '交友'
                : '拥抱',
-            'Kill',
+            '击杀',
             'Take Gold'
          )
       ],
-      tome5a: '<32>{#p/human}* (You focus your mind on the intent to spare.)',
+      tome5a: '<32>{#p/human}* （你凝神屏息，试着饶恕对方。）',
       tome5b: () =>
          world.meanie
-            ? '<32>{#p/human}* (You focus your mind on the intent to bully.)'
+            ? '<32>{#p/human}* （你凝神屏息，试着欺负对方。）'
             : SAVE.data.b.oops && world.flirt > 9
-            ? '<32>{#p/human}* (You focus your mind on the intent to flirt.)'
+            ? '<32>{#p/human}* （你凝神屏息，试着向对方调情。）'
             : SAVE.data.b.oops
-            ? '<32>{#p/human}* (You focus your mind on the intent to befriend.)'
-            : '<32>{#p/human}* (You focus your mind on the intent to hug.)',
-      tome5c: '<32>{#p/human}* (You focus your mind on the intent to kill.)',
+            ? '<32>{#p/human}* （你凝神屏息，试着与对方交友。）'
+            : '<32>{#p/human}* （你凝神屏息，试着拥抱对方。）',
+      tome5c: '<32>{#p/human}* （你凝神屏息，试着击杀对方。）',
       tome5d: '<32>{#p/human}* (You focus your mind on the intent to take gold.)',
-      tome5e: '<32>{#p/basic}* Suddenly...!',
-      tome5f: '\n* (Nothing happens.)',
+      tome5e: '<32>{#p/basic}* ...突然！',
+      tome5f: '\n* （然而一切照常。）',
       astrofood0: () => [
          "<32>{#p/human}* (You can't make out what's in the box...)",
          choicer.create('* (Take something out?)', '是', '否')
@@ -1236,10 +1236,10 @@ export default {
             : [ '<25>{#p/asriel2}{#f/8}* 切。' ],
       muffet1: () =>
          badSpider()
-            ? [ '<32>{#p/basic}* 啊哈哈哈哈...', '<32>* Tell her she should increase my payout next time.' ]
+            ? [ '<32>{#p/basic}* 啊呼呼呼呼...', '<32>* Tell her she should increase my payout next time.' ]
             : SAVE.data.b.flirt_muffet
-            ? [ '<32>{#p/basic}* 啊哈哈哈哈...', "<32>* Let's just pretend this never happened, shall we, dearies?" ]
-            : [ '<32>{#p/basic}* 啊哈哈哈哈...', '<32>* 刚才很有趣哦！\n* 下次再见，亲！' ],
+            ? [ '<32>{#p/basic}* 啊呼呼呼呼...', "<32>* Let's just pretend this never happened, shall we, dearies?" ]
+            : [ '<32>{#p/basic}* 啊呼呼呼呼...', '<32>* 刚才很有趣哦！\n* 下次再见，亲！' ],
       muffet2: () =>
          badSpider()
             ? [ '<25>{#p/kidd}{#f/4}* Yo... that was weird...' ]
@@ -1515,7 +1515,7 @@ export default {
                '<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* Oh, and if I can help it...',
                "<32>* It'll be the only tea empire this new world will ever see~\n* Ahuhuhu~"
             ],
-            [ '<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* Ahuhuhu~' ]
+            [ '<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* 啊呼呼呼~' ]
          ),
          f_dogenpc: pager.create(
             0,
@@ -2746,12 +2746,12 @@ export default {
             ? [
                  '<32>{#p/basic}* ...将会葬身于此。',
                  '<32>* 你以为能轻易逃得掉吗，亲？',
-                 '<32>* 啊哈哈~\n* 你欠下的血债，可有的还！'
+                 '<32>* 啊呼呼~\n* 你欠下的血债，可有的还！'
               ]
             : [
                  '<32>{#p/basic}* ...会被我在此拦住。',
                  '<32>* 你以为过了特战队那关，\n  就万事大吉了，亲？',
-                 '<32>* 啊哈哈~\n* 你可真是天真！'
+                 '<32>* 啊呼呼呼~\n* 你可真是天真！'
               ],
       spookydate0x: pager.create(
          0,
@@ -5473,9 +5473,9 @@ export default {
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* This seems kinda weird.' ]
             : [ '<32>{#p/story}* Smells like a jell-o store.' ],
-      act_imitate: [ '<32>{#p/human}* (You approach Gelatini.)', '<32>{#p/basic}* Suddenly...!' ],
-      act_flirt: [ '<32>{#p/human}* (You wiggle your hips.)', '<32>{#p/basic}* Suddenly...!' ],
-      act_slap: [ '<32>{#p/human}* (You give Gelatini a big slap.)', '<32>{#p/basic}* Suddenly...!' ]
+      act_imitate: [ '<32>{#p/human}* (You approach Gelatini.)', '<32>{#p/basic}* ...突然！' ],
+      act_flirt: [ '<32>{#p/human}* (You wiggle your hips.)', '<32>{#p/basic}* ...突然！' ],
+      act_slap: [ '<32>{#p/human}* (You give Gelatini a big slap.)', '<32>{#p/basic}* ...突然！' ]
    },
    b_opponent_shyren: {
       act_check: [ '<32>{#p/story}* SHYREN - 攻击19 防御0\n* 一位先知性歌手，因自己的羞怯\n  而踌躇不前。' ],
@@ -6088,7 +6088,7 @@ export default {
       ],
       flirtReaction1: [ '<11>{#p/basic}{~}真可爱啊~' ],
       flirtReaction2: [ "<11>{#p/basic}{~}你人真好~" ],
-      flirtReaction3: [ '<11>{#p/basic}{~}啊哈哈~' ],
+      flirtReaction3: [ '<11>{#p/basic}{~}啊呼呼~' ],
       appeaseText: [
          '<33>{#p/human}* （你对Muffet提出异议。）\n* （Muffet再一次被你的话\n  所吸引。）',
          '<32>* （你说起那些天真的狗狗，\n  批判Undyne把它们编入卫队\n  是有多不负责。）',
@@ -6222,11 +6222,11 @@ export default {
          badSpider()
             ? world.genocide
                ? world.bullied
-                  ? [ '<11>{#p/basic}{~}啊哈哈哈...\n两只小流氓\n爬进我\n网里了~' ]
-                  : [ '<11>{#p/basic}{~}啊哈哈哈...\n两只杀人犯\n爬进我\n网里了~' ]
+                  ? [ '<11>{#p/basic}{~}啊呼呼呼...\n两只小流氓\n爬进我\n网里了~' ]
+                  : [ '<11>{#p/basic}{~}啊呼呼呼...\n两只杀人犯\n爬进我\n网里了~' ]
                : world.bullied
-               ? [ '<11>{#p/basic}{~}啊哈哈哈...\n一只小流氓\n爬进我\n网里了~' ]
-               : [ '<11>{#p/basic}{~}啊哈哈哈...\n一只杀人犯\n爬进我\n网里了~' ]
+               ? [ '<11>{#p/basic}{~}啊呼呼呼...\n一只小流氓\n爬进我\n网里了~' ]
+               : [ '<11>{#p/basic}{~}啊呼呼呼...\n一只杀人犯\n爬进我\n网里了~' ]
             : [ "<11>{#p/basic}{~}小宝贝们，\n你们现在\n是我的了~" ],
       turnTalk1a: [
          '<11>{#p/basic}{~}希望你能\n喜欢这种\n新颜色~',
@@ -6249,7 +6249,7 @@ export default {
          badSpider()
             ? [ '<11>{#p/basic}{~}哦天哪~', '<11>{#p/basic}{~}你可\n真丢人~' ]
             : battler.volatile[0].vars.counter
-            ? [ '<11>{#p/basic}{~}啊哈哈哈...\n行吧...' ]
+            ? [ '<11>{#p/basic}{~}啊呼呼呼...\n行吧...' ]
             : [
                  '<11>{#p/basic}{~}看来你\n不打算提出\n反报价了...',
                  '<11>{#p/basic}{~}那对我来说，\n该选哪个\n显而易见~'
@@ -6268,7 +6268,7 @@ export default {
             ? [
                  '<11>{#p/basic}{~}你活下来了？\n真厉害~',
                  '<11>{#p/basic}{~}那我应当\n奖励你...',
-                 '<11>{#p/basic}{~}...\n更多攻击啦！\n啊哈哈哈！'
+                 '<11>{#p/basic}{~}...\n更多攻击啦！\n啊呼呼呼！'
               ]
             : battler.volatile[0].vars.counter
             ? [
@@ -6290,7 +6290,7 @@ export default {
             : battler.volatile[0].vars.counter
             ? [
                  '<11>{#p/basic}{~}我的\n蜘蛛同伴们\n的安全\n需要\n得到保障...',
-                 "<11>{#p/basic}{~}我可不能\n让它们\n置于险地，\n不是吗？\n啊哈哈哈..."
+                 "<11>{#p/basic}{~}我可不能\n让它们\n置于险地，\n不是吗？\n啊呼呼呼..."
               ]
             : [
                  "<11>{#p/basic}{~}玩得开心吗，\n小可爱们？",
@@ -6339,7 +6339,7 @@ export default {
             : [ '<11>{#p/basic}{~}除非交易\n发生变动，\n否则\n你的灵魂\n就如我的\n一般亮眼~' ],
       turnTalk11: () =>
          badSpider()
-            ? [ '<11>{#p/basic}{~}啊哈哈哈...' ]
+            ? [ '<11>{#p/basic}{~}啊呼呼呼...' ]
             : battler.volatile[0].vars.pay
             ? [
                  '<11>{#p/basic}{~}我向你们二人\n致以最诚挚的\n歉意~',
@@ -7243,7 +7243,7 @@ export default {
    },
    i_epiphany: {
       battle: {
-         description: 'Makes the weak-willed see things from your point of view.',
+         description: '意志薄弱之人\n将成为你的傀儡。',
          name: '顿悟'
       },
       drop: [ '<32>{#p/human}* (You cast The Epiphany away.)' ],
@@ -7251,7 +7251,7 @@ export default {
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* (A tome from centuries past, used first by a former world leader.)' ]
             : [
-                 '<33>{#p/basic}* Makes the weak-willed see things from your point of view.\n* Not viable outside of battle.'
+                 '<33>{#p/basic}* 意志薄弱之人\n  将成为你的傀儡。\n* 仅在战斗中有效。'
               ],
       name: '顿悟',
       use: () =>

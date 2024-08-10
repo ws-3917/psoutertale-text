@@ -9696,7 +9696,7 @@ msgid ""
 msgstr ""
 "<11>{#p/napstablook}{~}嗯... 你知道\n"
 "你没办法杀死\n"
-"鬼魂，对吧..."
+"幽灵，对吧..."
 
 msgid "<11>{~}we're sorta incorporeal and all"
 msgstr ""

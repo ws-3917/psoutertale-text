@@ -3,7 +3,7 @@
 export default {
    disclaimer: {
       title: "- ДИСКЛЕЙМЕР -",
-      content: "1. PS!OUTERTALE is made by Spacey_432. \nAnd our team is working on the Chinese translation. \n2. If you find any untranslated texts or dialogues, \nplease don't complain and call us lazy. \n3. Stop asking extremely stupid questions\n(like \"How do I change the language to Chinese?\", \n\"How do I kill Toriel?\", or \"How do I extract the game?\").\nThese questions are already in the FAQ. \nOur translators don\'t have time for this nonsense.\"",
+      content: "1. PS!OUTERTALE Сделан Spacey_432\nИ наша команда работает над переводом на китайский язык. \n2. Если вы обнаружите какие-либо переведенные тексты или диалоги,\nпожалуйста, не жалуйтесь и не называйте нас ленивыми. \n3. Перестаньте задавать крайне глупые вопросы.\n(например, \"Как мне сменить язык на китайский?\", \n\"Как мне убить Ториэль?\" или \"Как мне извлечь игру?\").\nЭти вопросы уже есть в разделе часто задаваемых вопросов. \nУ наших переводчиков нет времени на подобную чепуху.\"",
    },
    battle: {
       death0: ['(Вы глубоко вдохнули.)', "(Вы наполнены решимостью.)"],
@@ -41,49 +41,49 @@ export default {
          headers: ['ОСНОВНОЕ', 'БИТВА'],
          items: [
             [
-               'FixMusic',
-               'FixPlayer',
-               'InfiniteG',
-               'Interact',
-               'Input',
-               'Movement',
-               'Noclip',
-               'Save',
-               'SkipText',
-               'Freecam'
+               'Фиксированная музыка',
+               'Фиксированный игрок',
+               'Бесконечные Монеты',
+               'Взаимодействовать',
+               'Ввод',
+               'Движение',
+               'Ноклип',
+               'Сохранить',
+               'Пропустить текст',
+               'Бесплатная камера'
             ],
             [
-               'CanAssist',
-               'ClearBox',
-               'Exit',
-               'ResetBox',
-               'ResetMenu',
-               'CanFlee',
-               'InfiniteHP',
-               'PacifyAll',
-               'Suicide',
-               'WeakenAll'
+               'Может помочь',
+               'Прозрачный ящик',
+               'Выход',
+               'Перезапустить ящик',
+               'Перезапустить меню',
+               'Суметь сбежать',
+               'Бесконечное здоровье',
+               'Усмирить всех',
+               'Суицид',
+               'Ослабить всех'
             ]
          ],
          p_speed: {
-            fps: '$(x) FPS',
-            halt: 'Halt',
-            header: 'GAME SPEED',
+            fps: '$(x) ФПС',
+            halt: 'Остановка',
+            header: 'СКОРОСТЬ ИГРЫ',
             multiplier: '$(x)x',
-            next: 'More',
-            prev: 'Less',
+            next: 'Больше',
+            prev: 'Менее',
             sec: '$(x)s/frame'
          }
       },
       godhome: {
-         tab: 'GODHOME',
+         tab: 'Дом бога',
          p_teleport: {
-            header: 'ROOM',
-            action: 'Teleport'
+            header: 'КОМНАТА',
+            action: 'Телепорт'
          },
          p_encounter: {
-            header: 'ENCOUNTER',
-            action: 'Start'
+            header: 'Столкновение',
+            action: 'Старт'
          },
          p_armor: {
             header: 'БРОНЯ'
@@ -93,18 +93,18 @@ export default {
          }
       },
       inspect: {
-         tab: 'INSPECT',
-         headers: ['LAYERS', 'TYPES'],
+         tab: 'Проверить',
+         headers: ['Слои', 'Виды'],
          switches: [
-            ['Base', 'Below', 'Main', 'Above', 'Menu'],
-            ['Hitbox', 'Sprite', 'Text']
+            ['База', 'Ниже', 'Главный', 'Выше', 'Меню'],
+            ['Хитбокс', 'Спрайт', 'Текст']
          ],
          p_explorer: {
-            header: 'EXPLORER',
-            layers: ['Base (Explorer)', 'Below (Explorer)', 'Main (Explorer)', 'Above (Explorer)', 'Menu (Explorer)'],
+            header: 'Исследователь',
+            layers: ['Базированый (Проводник)', 'Нижний (Проводник)', 'Главный (Проводник)', 'Верхний (Проводник)', 'Меню (Проводник)'],
             letters: {
-               animation: 'A',
-               character: 'C',
+               animation: 'А',
+               character: 'С',
                rectangle: 'R',
                entity: 'E',
                hitbox: 'H',
@@ -114,122 +114,122 @@ export default {
                text: 'T'
             }
          },
-         debug_instructions: 'Press [TAB] to cycle debug info',
+         debug_instructions: 'Нажмите [TAB], чтобы просмотреть отладочную информацию',
          debug: {
-            a: 'A', 
-            acceleration: 'Acceleration',
-            active: 'Active',
-            alpha: 'Alpha',
-            anchor: 'Anchor',
+            a: 'А', 
+            acceleration: 'Ускорение',
+            active: 'Активный',
+            alpha: 'Альфа',
+            anchor: 'Якорь',
             b: 'B', 
-            blend: 'Blend',
-            border: 'Border',
-            compute: 'Computed Size',
-            content: 'Content',
-            crop: 'Crop',
-            down: 'Down',
-            duration: 'Duration',
+            blend: 'Смесь',
+            border: 'Граница',
+            compute: 'Вычисленный размер',
+            content: 'Контент',
+            crop: 'Урожай',
+            down: 'Вниз',
+            duration: 'Продолжительность',
             exp: 'ОП',
-            extent: 'Extent',
+            extent: 'Степень',
             f: 'F', 
-            face: 'Face',
-            false: 'False',
-            fill: 'Fill',
-            fontFamily: 'Font Family',
-            fontSize: 'Font Size',
-            frames: 'Frames',
-            gravity: 'Gravity',
-            group: 'Group',
+            face: 'Лицо',
+            false: 'Ложный',
+            fill: 'Заполнить',
+            fontFamily: 'Семейство шрифтов',
+            fontSize: 'Размер шрифта',
+            frames: 'Кадры',
+            gravity: 'Гравитация',
+            group: 'Группа',
             hp: 'ОЗ',
-            index: 'Index',
-            inert: 'Inert',
-            key: 'Key',
-            lastSavedTime: 'Last Saved Time',
-            layer: 'Layer',
-            layers: 'Layers',
-            left: 'Left',
-            metadata: 'Metadata',
-            music: 'Music',
-            namespace: 'Namespace',
-            none1: 'NONE',
-            none2: 'none',
-            objects: 'Objects',
-            oversaver: 'Oversaver',
-            parallax: 'Parallax',
-            position: 'Position',
-            primed: 'Primed',
-            priority: 'Priority',
-            registry: 'REGISTRY',
-            renderer: 'Renderer',
-            resources: 'Resources',
-            reverse: 'Reverse',
-            right: 'Right',
-            room: 'Room',
-            roomState: 'Room State',
-            rotation: 'Rotation',
+            index: 'Индекс',
+            inert: 'Вялый',
+            key: 'Ключ',
+            lastSavedTime: 'Последнее сохраненное время',
+            layer: 'Слой',
+            layers: 'Слои',
+            left: 'Лево',
+            metadata: 'Метаданные',
+            music: 'Музыка',
+            namespace: 'Название помещения',
+            none1: 'Никто',
+            none2: 'никто',
+            objects: 'Объект',
+            oversaver: 'Над спасателем',
+            parallax: 'Смещение',
+            position: 'Позиция',
+            primed: 'Загрунтованный',
+            priority: 'Приоритет',
+            registry: 'Регистрация',
+            renderer: 'Рендеринг',
+            resources: 'Ресурсы',
+            reverse: 'Реверс',
+            right: 'Право',
+            room: 'Комната',
+            roomState: 'Состояние комнаты',
+            rotation: 'Вращение',
             s: 'S', 
-            scale: 'Scale',
-            shopSelection: 'Shop Selection',
-            size: 'Size',
-            spacing: 'Spacing',
-            spin: 'Spin',
-            sprites: 'Sprites',
-            step: 'Step',
-            stroke: 'Stroke',
-            subcrop: 'Subcrop',
-            talk: 'Talk',
-            target: 'Target',
-            text: 'Text',
-            tint: 'Tint',
-            trackedAssets: 'Tracked Assets',
-            true: 'True',
-            unknown: 'UNKNOWN',
-            up: 'Up',
-            vars: 'Vars',
-            velocity: 'Velocity',
-            volatile: 'Volatile'
+            scale: 'Масштаб',
+            shopSelection: 'Выбор магазина',
+            size: 'Размер',
+            spacing: 'Расстояние',
+            spin: 'Вращение',
+            sprites: 'Спрайты',
+            step: 'Шаг',
+            stroke: 'Инсульт',
+            subcrop: 'Субкультура',
+            talk: 'Говорить',
+            target: 'Цель',
+            text: 'Текст',
+            tint: 'Оттенок',
+            trackedAssets: 'Отслеживаемые активы',
+            true: 'Да',
+            unknown: 'НЕИЗВЕСТНЫЙ',
+            up: 'Вверх',
+            vars: 'Вары',
+            velocity: 'Скорость',
+            volatile: 'Летучий'
          }
       },
       savemod: {
-         tab: 'SAVEMOD',
-         header1: 'SAVE EDITOR',
+         tab: 'Cохранить мод',
+         header1: 'Cохранить редактор',
          domains: [
-            'Data (Booleans)',
-            'Data (Numbers)',
-            'Data (Strings)',
-            'Flags (Booleans)',
-            'Flags (Numbers)',
-            'Flags (Strings)'
+            'Данные (логические)',
+            'Данные (Номера)',
+            'Данные (Строки)',
+            'Флаги (логические)',
+            'Флаги (Цифры)',
+            'Флаги (Строки)'
          ],
          p_page: {
-            header: 'NAVIGATION',
-            prev: 'Prev',
-            next: 'Next'
+            header: 'Навигация',
+            prev: 'Предыдущий',
+            next: 'Следующий'
          },
-         prompt: 'Enter Value',
-         back: 'Back'
+         prompt: 'Введите значение',
+         back: 'Назад'
       },
       storage: {
-         tab: 'STORAGE',
-         header: 'STORAGE EDITOR',
-         p_container: { header: 'SELECTION', prev: 'Prev', next: 'Next' },
-         display: { inventory: 'Inventory', dimboxA: 'Dim. Box A', dimboxB: 'Dim. Box B' }
+         tab: 'ХРАНИЛИЩЕ',
+         header: 'РЕДАКТОР ХРАНИЛИЩА',
+         p_container: { header: 'ВЫБОР', prev: 'Предыдущий', next: 'Следующий' },
+         display: { inventory: 'Инвентарь', dimboxA: 'Объёмный. Ящик А', dimboxB: 'Объёмный. Ящик Б' }
       }
    },
 
    dialog: {
-      dialog_clear_title: 'Clear File',
-      dialog_notice_title: 'Notice',
-      dialog_open: { buttonLabel: 'Open', name: 'SAVE files', title: 'Open File' },
-      dialog_save: { buttonLabel: 'Save', name: 'SAVE files', title: 'Save File' },
-      error_load: 'That file could not be parsed.',
-      message_alert: ['OK'],
-      message_confirm: ['Cancel', 'OK'],
-      prompt_clear: 'Clear this file?',
-      prompt_demo: 'Your SAVE file from the\nOUTERTALE demo has been\nmoved to a timeline slot.',
-      prompt_save: 'Save this file?',
-      prompt_save_alternate: 'Copy the text below into\na JSON file to save it\nto your device.',
-      prompt_open: 'Load this file?'
+      dialog_clear_title: 'Очистить файл',
+      dialog_notice_title: 'Уведомление',
+      dialog_open: { buttonLabel: 'Открыть', name: 'Сохранить файлы', title: 'Открыть Файл' },
+      dialog_save: { buttonLabel: 'Сохранить', name: 'Сохранить файлы', title: 'Сохранить Файл' },
+      error_load: 'Этот файл не удалось разобрать.',
+      message_alert: ['ОК'],
+      message_confirm: ['Отменить', 'ОК'],
+      prompt_clear: 'Очистить этот файл?',
+      prompt_demo: 'Ваш сохраненный файл из\nдемо-версии OUTERTALE был\nперемещен в раздел временной шкалы.',
+      prompt_save: 'Сохранить этот файл?',
+      prompt_save_alternate: 'Скопируйте приведенный ниже текст в\nJSON-файл, чтобы сохранить его\nна своем устройстве.',
+      prompt_open: 'Загрузить этот файл?'
    },
 
    extra: {
@@ -271,18 +271,18 @@ export default {
          [
             '§fill=#ff0§< ХУДОЖНИК >§fill=#fff§',
             'Pongy25',
-            'PoTheWinterCorder',
+            'По Зимней границе',
             'ProctorDorkchop02',
-            'ScarletScaledDragon',
-            'semi',
-            'SquigglyWiggley',
+            'Алый чешуйчатый дракон',
+            'полу',
+            'Волнистый, извивающийся',
             'Starkiteckt',
-            'supper12',
-            'Valor52',
+            'ужин 12',
+            'Доблесть 52',
             'Zaxento The Greedy',
             '',
             '§fill=#ff0§< СПЕЦИАЛИСТ >§fill=#fff§',
-            'Codetoil',
+            'Код для ввода в il',
             'ws3917'
          ],
          [
@@ -291,14 +291,14 @@ export default {
             'Aspey',
             'Balgamlı Kedi',
             'Bilge \"mnwary\"',
-            'blue',
-            'Brad',
+            'Синий',
+            'Бред',
             'brayjamin',
-            'ClamsyMoe',
-            'delta',
+            'Неуклюжий Мо',
+            'Дельта',
             'Discarded Vessel',
-            'Dischnie',
-            'DR4GON HE4RT',
+            'Обеденный стол',
+            'СЕРДЦЕ ДРАКОНА',
             'Dubituar',
             'Efe Kaya'
          ],
@@ -334,7 +334,7 @@ export default {
             'Nanorasmus',
             'neo9174',
             'NepAnime',
-            'semi'
+            'полу'
          ],
          [
             '§fill=#ff0§< ТЕСТЕР >§fill=#fff§',
@@ -356,7 +356,7 @@ export default {
          [
             '§fill=#ff0§< ТЕСТЕР >§fill=#fff§',
             'spaceknife234',
-            'SquigglyWiggley',
+            'Волнистый, извивающийся',
             'superkippy',
             'Teecup',
             'Tem in a Cowboy Hat',
@@ -408,7 +408,7 @@ export default {
          opponents: {
             froggit: {
                name: 'FROGGIT',
-               author: 'ScarletScaledDragon',
+               author: 'Алый чешуйчатый дракон',
                text: {
                   basic: 'Pondering\nLife',
                   spare: 'Professional\nFrog',
@@ -418,7 +418,7 @@ export default {
             },
             whimsun: {
                name: 'FLUTTERLYTE',
-               author: 'ScarletScaledDragon',
+               author: 'Алый чешуйчатый дракон',
                text: {
                   basic: 'Learning To\nFly',
                   spare: 'Emboldening\nAviator',
@@ -438,7 +438,7 @@ export default {
             },
             loox: {
                name: 'OCULOUX',
-               author: 'ScarletScaledDragon',
+               author: 'Алый чешуйчатый дракон',
                text: {
                   basic: 'Slightly\nBully-Like',
                   spare: 'Reformed\nBully',
@@ -448,7 +448,7 @@ export default {
             },
             migosp: {
                name: 'SILENTE',
-               author: 'ScarletScaledDragon',
+               author: 'Алый чешуйчатый дракон',
                text: {
                   basic: 'Exceedingly\nAgreeable',
                   spare: 'Casually\nEnjoys Life',
@@ -628,7 +628,7 @@ export default {
             },
             pyrope: {
                name: 'HOTWIRE',
-               author: 'semi',
+               author: 'полу',
                text: {
                   basic: 'Waiting For The\nBeat To Drop',
                   spare: 'Lightning-Fast\nRapper',
@@ -658,7 +658,7 @@ export default {
             },
             rg: {
                name: 'RG 03 & RG 04',
-               author: 'semi',
+               author: 'полу',
                text: {
                   basic: 'In Search Of\nChildhood Friends',
                   spare: 'Use Your\nImagination',
@@ -688,7 +688,7 @@ export default {
             },
             madjick: {
                name: 'COZMO',
-               author: 'semi',
+               author: 'полу',
                text: {
                   basic: 'Looking For A\nDictionary',
                   spare: 'Famous\nMagician',
@@ -708,7 +708,7 @@ export default {
             },
             froggitex: {
                name: 'FINAL FROGGIT',
-               author: 'PoTheWinterCorder',
+               author: 'По Зимней границе',
                text: {
                   basic: 'Keeping Its\nWisdom To Itself',
                   spare: 'Sharing Its\nWisdom Openly',
@@ -728,7 +728,7 @@ export default {
             },
             astigmatism: {
                name: 'EYEWALKER PRIME',
-               author: 'semi',
+               author: 'полу',
                text: {
                   basic: 'Still A\nBig Bully',
                   spare: 'Domineering\nEye Doctor',
@@ -939,7 +939,7 @@ export default {
       name4: 'Готово',
       name5: '§fill=#808080§ [ESC] - Выйти / [ENTER] - Готово',
 
-      save1: 'Save',
+      save1: 'Сохранить',
       save2: 'Назад',
       save3: 'Файл сохранён.',
 

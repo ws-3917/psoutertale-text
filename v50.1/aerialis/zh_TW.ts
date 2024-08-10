@@ -4217,7 +4217,7 @@ export default {
                     Math.min(asrielinter.dttubes++, 1)
                  ]
                : [
-                    '<32>{#p/basic}* 一組盛放著未知物質的試管。',
+                    '<32>{#p/basic}* 一組盛放著不明物質的試管。',
                     ...(world.genocide
                        ? world.goatbro &&
                          (SAVE.flag.n.genocide_milestone < 5
@@ -4249,11 +4249,11 @@ export default {
          vender1: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (You observe the mysterious contents behind the glass of the storage unit.)' ]
-               : [ '<32>{#p/basic}* 真空密封的存儲單元。\n* 裡面是各種盛放著\n  未知物質的小瓶。' ],
+               : [ '<32>{#p/basic}* 真空密封的存儲單元。\n* 裡面是各種盛放著\n  不明物質的小瓶。' ],
          vender2: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (You observe the mysterious contents behind the glass of the storage unit.)' ]
-               : [ '<32>{#p/basic}* 真空密封的存儲單元。\n* 裡面是各種盛放著\n  未知物質的小瓶。' ],
+               : [ '<32>{#p/basic}* 真空密封的存儲單元。\n* 裡面是各種盛放著\n  不明物質的小瓶。' ],
          toolrack: () =>
             SAVE.data.b.svr
                ? [
@@ -6035,7 +6035,7 @@ export default {
          ],
          core8b: [
             "<25>{#p/asriel2}{#f/4}* 嘖嘖，變成破銅爛鐵之前，\n  讓我問問你...",
-            "<25>{#f/3}* 拋棄親人，離家出走的時候...",
+            "<25>{#f/3}* 拋棄親人，\n  離家出走的時候...",
             '<25>{#f/1}* 就沒考慮過他們的感受？',
             '<32>{#p/mettaton}* 我的家人看到我正在做的，\n  肯定會以我為榮。',
             '<32>* ...至於你呢？',
@@ -7086,8 +7086,8 @@ export default {
       turn9end2: () => [
          ...[
             [
-               "<20>{#p/alphys}{#e/alphys/4}我-我不想傷害他們，\nMettaton...",
-               '<20>{#p/alphys}{#e/alphys/7}我們先前和人類的關係\n可能有點緊張，但是...',
+               "<20>{#p/alphys}{#e/alphys/4}我-我不想傷害人類，\nMettaton...",
+               '<20>{#p/alphys}{#e/alphys/7}我們先前和他們的關係\n可能有點緊張，但是...',
                "<20>{#e/alphys/6}這並不意味著這個人類\n與以前的人類一樣，\n是吧？",
                "<20>{#e/alphys/8}所以我覺得...\n就這樣繼續攻擊人類\n有點太不公平了。"
             ],
@@ -7103,7 +7103,7 @@ export default {
          SAVE.data.n.state_foundry_undyne > 0
             ? [ '<20>{#p/mettaton}WELL...', '<20>IF YOU SAY SO, DOCTOR.' ]
             : [ '<20>{#p/mettaton}嗯...', '<20>你的觀點還挺有趣的，\n博士。' ],
-      turn9end4: [ "<20>但我\n不敢苟同你的觀點。#e/alphys/1}" ],
+      turn9end4: [ "<20>但我不敢\n苟同你的觀點。{#e/alphys/1}" ],
       turn9end5: () =>
          SAVE.data.n.state_foundry_undyne > 0
             ? [ "<20>IT'S JUST A SHAME THE VIEWERS WON'T GET TO SEE WHAT HAPPENS.{#e/alphys/28}" ]
@@ -7302,7 +7302,7 @@ export default {
                  '<33>{#p/story}* METTATON SIGMA - 攻擊255 防禦42\n* 一臺超頻過載的殺人機器。\n  攻擊力大幅提升，但也付出了代價。'
               ]
             : [ '<32>{#p/story}* METTATON EX - 攻擊47 防禦47\n* 弱點是心形核心。' ],
-      act_cut1: [ '<32>{#p/human}* （你把剪子搭到了電線上...）' ],
+      act_cut1: [ '<32>{#p/human}* （你把剪刀搭到了電線上...）' ],
       act_cut2: [ '<32>{#p/human}* （你繼續剪電線...）' ],
       act_cut3: [ '<32>{#p/human}* （可是電線已經全都剪斷了。）' ],
       tvmReaction: {
@@ -7792,7 +7792,7 @@ export default {
       turnTalkX1b: [
          '<20>{#p/mettaton}{#e/mettaton/15}{#a.la/0}{#a.ra/0}...果然。',
          "<20>{#p/mettaton}{#e/mettaton/13}{#a.la/8}{#a.ra/8}你以為沒有這些電線\n我就完了，是不是？",
-         '<20>{#p/mettaton}{#e/mettaton/20}{#a.la/0}{#a.ra/10}哎呀，您可真苯...\n蠢得不能再蠢的小崽子。',
+         '<20>{#p/mettaton}{#e/mettaton/20}{#a.la/0}{#a.ra/10}哎呀，您可真笨...\n蠢得不能再蠢的小崽子。',
          "<20>{#p/mettaton}{#e/mettaton/23}{#a.la/10}{#a.ra/0}大錯特錯。",
          "<20>{#p/mettaton}{#e/mettaton/24}{#a.la/2}{#a.ra/3}這段時間，我已經把\n整個核心的力量\n全吸了過來...",
          "<20>{#p/mettaton}{#e/mettaton/30}{#a.la/8}{#a.ra/8}這麼多的能量，\n可不能白白浪費了。"
