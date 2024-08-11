@@ -3161,7 +3161,7 @@ export default {
                  ]
                : [
                     "<25>{#p/alphys}{#g/alphysCutscene2}* 呃，別-別擔心鎂塔頓，\n  他只融合進了控制晶片。",
-                    "<25>{#p/alphys}{#g/alphysCutscene2}* He's only fused with the control chip, after all."
+                    "<25>{#p/alphys}{#g/alphysCutscene2}* 所以我修好他的能量供應\n  就可以了。"
                  ],
          end8: [
             '<25>{#p/alphys}{#g/alphysWelp}* 我先走了。',

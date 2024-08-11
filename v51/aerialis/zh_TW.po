@@ -7037,6 +7037,8 @@ msgid ""
 "<25>{#p/alphys}{#g/alphysCutscene2}* He's only fused with the control chip, "
 "after all."
 msgstr ""
+"<25>{#p/alphys}{#g/alphysCutscene2}* 所以我修好他的能量供應\n"
+"  就可以了。"
 
 msgid "<25>{#p/alphys}{#g/alphysWelp}* I should get going now."
 msgstr "<25>{#p/alphys}{#g/alphysWelp}* 我先走了。"

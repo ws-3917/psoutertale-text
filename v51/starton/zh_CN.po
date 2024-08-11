@@ -3158,7 +3158,7 @@ msgid "<32>{#s/equip}{#p/human}* (You hand the Ice Dream to Monster Kid.)"
 msgstr "<32>{#s/equip}{#p/human}* （你把冰意灵递给了怪物小孩。）"
 
 msgid "<25>{#p/kidd}{#f/7}* AWESOME..."
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/7}* 太棒了..."
 
 msgid ""
 "<32>{#p/basic}* Sold out again, I'm afraid!\n"
@@ -11858,6 +11858,8 @@ msgid ""
 "<32>* \"But as time passed, we yearned for more.\"\n"
 "* \"We wanted to evolve...\""
 msgstr ""
+"<32>* “不过，随着时间流逝，\n"
+"   我们有了新的追求，渴望进化。”"
 
 msgid ""
 "<32>* \"During the great renaissance, even the very essence of our magic "

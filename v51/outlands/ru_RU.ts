@@ -407,30 +407,30 @@ export default {
          e8: [
             '<25>{#p/asriel1}{#f/13}* В это другое время, $(name) и я готовили ужин для мамы и папы.',
             '<25>{#f/15}* Они все время хотели сделать его более острым...',
-            '<25>{#f/3}* To be honest, if they insisted on that now, I would not complain.',
-            '<25>{#f/20}* I could go for something spicy right about now.',
-            '<25>{#f/13}* But, back then, I was more into sweets.\n* Most monsters are.',
-            '<25>{#f/15}* We ended up playing tug-of-war with the mixing bowl, and...',
-            '<25>{#f/20}* You can imagine how that turned out.',
-            '<25>{#f/17}* Mom made us clean up the mess, of course.',
-            '<25>{#f/13}* Then, Dad took us out to eat, and we both got what we wanted.'
+            '<25>{#f/3}* Честно говоря, если бы они настояли на этом сейчас, я бы не стал жаловаться.',
+            '<25>{#f/20}* Я бы прямо сейчас не отказалась от чего-нибудь остренького.',
+            '<25>{#f/13}* Но тогда мне больше нравились сладости.\n* Как и большинству монстров.',
+            '<25>{#f/15}* В итоге мы поиграли в перетягивание каната с миской для смешивания, и...',
+            '<25>{#f/20}* Ты можешь себе представить, чем это обернулось.',
+            '<25>{#f/17}* Мама, конечно, заставила нас навести порядок.',
+            '<25>{#f/13}* Потом папа повел нас куда-нибудь поесть, и мы оба получили то, что хотели.'
          ],
          e9: [
-            "<25>{#p/asriel1}{#f/15}* $(name) and I...\n* It's like we couldn't agree on anything...",
-            '<25>{#f/20}* Besides spending time together, that is.',
-            '<26>{#f/17}* Despite our differences, $(name) and I really were inseparable.',
-            "<25>{#f/13}* Even death itself couldn't keep us apart forever."
+            "<25>{#p/asriel1}{#f/15}* $(name) и Я...\n* Похоже, мы ни о чем не могли договориться...",
+            '<25>{#f/20}* Помимо совместного время провождения, конечно.',
+            '<26>{#f/17}* Несмотря на наши разногласия, $(name) и я действительно были неразлучны.',
+            "<25>{#f/13}* Даже сама смерть не смогла бы разлучить нас навсегда."
          ],
          e10: [
-            "<25>{#p/asriel1}{#f/17}* ... do you think they're still around, Frisk?",
-            '<25>{#f/17}* For all you know, they could be watching us right now.',
-            "<25>{#f/23}* Wouldn't that be something.",
-            "<25>{#f/22}* But it's impossible to know for sure."
+            "<25>{#p/asriel1}{#f/17}* ... как ты думаешь, Фриск, они все еще где-то здесь?",
+            '<25>{#f/17}* Насколько тебе известно, они могут наблюдать за нами прямо сейчас.',
+            "<25>{#f/23}* Разве это не было бы что-то особенное?",
+            "<25>{#f/22}* Но это невозможно знать наверняка."
          ],
          e11: [
-            "<25>{#p/asriel1}{#f/17}* Golly.\n* For someone who'll be staying with you...",
-            "<25>{#f/20}* I sure am making it sound like I'd rather be with $(name).",
-            "<25>{#f/13}* But... it's not like that at all.",
+            "<25>{#p/asriel1}{#f/17}* Боже мой.\n* Для кого-то, кто останется с тобой...",
+            "<25>{#f/20}* Я уверен, что это звучит так, будто я предпочел бы быть с $(name).",
+            "<25>{#f/13}* Но... это совсем не так.",
             "<25>{#f/17}* I just can't help but reminisce about someone I used to know."
          ],
          e12: () => [
