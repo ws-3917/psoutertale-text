@@ -8087,7 +8087,7 @@ msgstr ""
 msgid "<32>* \"Answer: Because they were having a FEMUR dream...\""
 msgstr ""
 "<32>* 「答案：因為它正在做\n"
-"  『骨』感的夢...」"
+"   『骨』感的夢...」"
 
 msgid "<32>{#p/basic}* This is getting old..."
 msgstr "<32>{#p/basic}* 這笑話已經過時了..."

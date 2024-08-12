@@ -5579,7 +5579,7 @@ export default {
                   : [ "<11>{#p/alphys}你想讓我死，\n不是嗎？" ],
             () =>
                6 <= SAVE.flag.n.genocide_milestone
-                  ? [ "<11>{#p/alphys}就那些東西，唬不到我。" ]
+                  ? [ "<11>{#p/alphys}就那些東西，\n唬不到我。" ]
                   : [ "<11>{#p/alphys}我只是去做\n我的本職工作，\n有錯嗎？" ],
             () =>
                6 <= SAVE.flag.n.genocide_milestone
@@ -6050,14 +6050,14 @@ export default {
          "<20>{#p/undyne}{#e/undyne/11}{#e/asgore/5}不得不說，\n當時我還蠻意外的...\n不過我想開了。",
          "<20>{#p/undyne}{#e/undyne/13}這計畫能走通，\n我真為你高興！",
          ...(SAVE.data.b.undyne_respecc
-            ? [ "<20>{#p/undyne}{#e/undyne/0}I'm not gonna pretend I LIKE humanity, but today's been a good showing." ]
+            ? [ "<20>{#p/undyne}{#e/undyne/0}真昧著良心說\n我喜歡人類也沒意思。\n不過，今天表現不錯！" ]
             : [
                  "<20>{#p/undyne}{#e/undyne/0}I'm not gonna pretend I LIKE humanity, but I'm not against a happy ending, either."
               ]),
-         '<20>{#p/undyne}{#e/undyne/15}{#e/asgore/6}I guess, as the captain of the guard, I just...'
+         '<20>{#p/undyne}{#e/undyne/15}{#e/asgore/6}可能...\n身為皇家衛隊的隊長，\n我有點...'
       ],
       friend18: [
-         "<20>{#p/alphys}{#e/alphys/32}Hey... it's okay.",
+         "<20>{#p/alphys}{#e/alphys/32}嘿... 沒關係的。",
          "<20>{#e/alphys/31}You're here now, and that's what matters, right?"
       ],
       friend19: [ "<20>{#p/undyne}{#e/undyne/14}Pfft, it's the least I can do after that movie you promised!" ],

@@ -124,253 +124,253 @@ msgid "Save"
 msgstr "Save"
 
 msgid "SkipText"
-msgstr ""
+msgstr "Pular Texto"
 
 msgid "Freecam"
-msgstr ""
+msgstr "Cameralivre"
 
 msgid "CanAssist"
-msgstr ""
+msgstr "Pode Ajudar"
 
 msgid "ClearBox"
-msgstr ""
+msgstr "Caixa Transparente"
 
 msgid "Exit"
-msgstr ""
+msgstr "Sair"
 
 msgid "ResetBox"
-msgstr ""
+msgstr "Resetar Caixa"
 
 msgid "ResetMenu"
-msgstr ""
+msgstr "Resetar menu"
 
 msgid "CanFlee"
-msgstr ""
+msgstr "Pode fugir"
 
 msgid "InfiniteHP"
-msgstr ""
+msgstr "HP Infinito"
 
 msgid "PacifyAll"
-msgstr ""
+msgstr "Pacificar tudo"
 
 msgid "Suicide"
-msgstr ""
+msgstr "Suicídio"
 
 msgid "WeakenAll"
-msgstr ""
+msgstr "Enfraquecer tudo"
 
 msgid "$(x) FPS"
-msgstr ""
+msgstr "$(x) FPS"
 
 msgid "Halt"
-msgstr ""
+msgstr "Parar"
 
 msgid "GAME SPEED"
-msgstr ""
+msgstr "VELOCIDADE DO JOGO"
 
 msgid "$(x)x"
-msgstr ""
+msgstr "$(x)x"
 
 msgid "More"
-msgstr ""
+msgstr "Mais"
 
 msgid "Less"
-msgstr ""
+msgstr "Menos"
 
 msgid "$(x)s/frame"
-msgstr ""
+msgstr "$(x)s/frame"
 
 msgid "GODHOME"
-msgstr ""
+msgstr "LAR"
 
 msgid "ROOM"
-msgstr ""
+msgstr "QUARTO"
 
 msgid "Teleport"
-msgstr ""
+msgstr "Teleportar"
 
 msgid "ENCOUNTER"
-msgstr ""
+msgstr "ENCONTRAR"
 
 msgid "Start"
-msgstr ""
+msgstr "Começar"
 
 msgid "ARMOR"
 msgstr "ARMADURA"
 
 msgid "WEAPON"
-msgstr ""
+msgstr "ARMA"
 
 msgid "INSPECT"
-msgstr ""
+msgstr "INSPECIONAR"
 
 msgid "LAYERS"
-msgstr ""
+msgstr "CAMADAS"
 
 msgid "TYPES"
-msgstr ""
+msgstr "TIPOS"
 
 msgid "Base"
-msgstr ""
+msgstr "Base"
 
 msgid "Below"
-msgstr ""
+msgstr "Abaixo"
 
 msgid "Main"
-msgstr ""
+msgstr "Principal"
 
 msgid "Above"
-msgstr ""
+msgstr "Acima"
 
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 msgid "Hitbox"
-msgstr ""
+msgstr "Hitbox"
 
 msgid "Sprite"
-msgstr ""
+msgstr "Sprite"
 
 msgid "Text"
-msgstr ""
+msgstr "Texto"
 
 msgid "EXPLORER"
-msgstr ""
+msgstr "EXPLORADOR"
 
 msgid "Base (Explorer)"
-msgstr ""
+msgstr "Base (Explorer)"
 
 msgid "Below (Explorer)"
-msgstr ""
+msgstr "Abaixo (Explorer)"
 
 msgid "Main (Explorer)"
-msgstr ""
+msgstr "Principal (Explorador)"
 
 msgid "Above (Explorer)"
-msgstr ""
+msgstr "Acima (Explorer)"
 
 msgid "Menu (Explorer)"
-msgstr ""
+msgstr "Menu (Explorer)"
 
 msgid "A"
-msgstr ""
+msgstr "A"
 
 msgid "C"
-msgstr ""
+msgstr "C"
 
 msgid "R"
-msgstr ""
+msgstr "R"
 
 msgid "E"
-msgstr ""
+msgstr "E"
 
 msgid "H"
-msgstr ""
+msgstr "H"
 
 msgid "O"
-msgstr ""
+msgstr "O"
 
 msgid "P"
-msgstr ""
+msgstr "P"
 
 msgid "S"
-msgstr ""
+msgstr "S"
 
 msgid "T"
-msgstr ""
+msgstr "T"
 
 msgid "Press [TAB] to cycle debug info"
-msgstr ""
+msgstr "Pressione [TAB] para alternar as informações de depuração"
 
 msgid "Acceleration"
-msgstr ""
+msgstr "Aceleração"
 
 msgid "Active"
-msgstr ""
+msgstr "Ativo"
 
 msgid "Alpha"
-msgstr ""
+msgstr "Alfa"
 
 msgid "Anchor"
-msgstr ""
+msgstr "Âncora"
 
 msgid "B"
-msgstr ""
+msgstr "B"
 
 msgid "Blend"
-msgstr ""
+msgstr "Mistura"
 
 msgid "Border"
-msgstr ""
+msgstr "Fronteira"
 
 msgid "Computed Size"
-msgstr ""
+msgstr "Tamanho calculado"
 
 msgid "Content"
-msgstr ""
+msgstr "Conteúdo"
 
 msgid "Crop"
-msgstr ""
+msgstr "Colheita"
 
 msgid "Down"
-msgstr ""
+msgstr "Abaixo"
 
 msgid "Duration"
-msgstr ""
+msgstr "Duração"
 
 msgid "EXP"
-msgstr ""
+msgstr "EXP"
 
 msgid "Extent"
-msgstr ""
+msgstr "Extensão"
 
 msgid "F"
-msgstr ""
+msgstr "F"
 
 msgid "Face"
-msgstr ""
+msgstr "Rosto"
 
 msgid "False"
-msgstr ""
+msgstr "Falso"
 
 msgid "Fill"
-msgstr ""
+msgstr "Encher"
 
 msgid "Font Family"
-msgstr ""
+msgstr "Família de fontes"
 
 msgid "Font Size"
-msgstr ""
+msgstr "Tamanho da fonte"
 
 msgid "Frames"
-msgstr ""
+msgstr "Quadros"
 
 msgid "Gravity"
-msgstr ""
+msgstr "Gravidade"
 
 msgid "Group"
-msgstr ""
+msgstr "Grupo"
 
 msgid "HP"
-msgstr ""
+msgstr "HP"
 
 msgid "Index"
-msgstr ""
+msgstr "Índice"
 
 msgid "Inert"
-msgstr ""
+msgstr "Inerte"
 
 msgid "Key"
-msgstr ""
+msgstr "Chave"
 
 msgid "Last Saved Time"
-msgstr ""
+msgstr "Última hora salva"
 
 msgid "Layer"
-msgstr ""
+msgstr "Camada"
 
 msgid "Layers"
-msgstr ""
+msgstr "Camadas"
 
 msgid "Left"
 msgstr ""

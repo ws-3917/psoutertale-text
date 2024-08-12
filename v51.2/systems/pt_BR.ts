@@ -45,59 +45,59 @@ export default {
                'Movement',
                'Noclip',
                'Save',
-               'SkipText',
-               'Freecam'
+               'Pular Texto',
+               'Cameralivre'
             ],
             [
-               'CanAssist',
-               'ClearBox',
-               'Exit',
-               'ResetBox',
-               'ResetMenu',
-               'CanFlee',
-               'InfiniteHP',
-               'PacifyAll',
-               'Suicide',
-               'WeakenAll'
+               'Pode Ajudar',
+               'Caixa Transparente',
+               'Sair',
+               'Resetar Caixa',
+               'Resetar menu',
+               'Pode fugir',
+               'HP Infinito',
+               'Pacificar tudo',
+               'Suicídio',
+               'Enfraquecer tudo'
             ]
          ],
          p_speed: {
             fps: '$(x) FPS',
-            halt: 'Halt',
-            header: 'GAME SPEED',
+            halt: 'Parar',
+            header: 'VELOCIDADE DO JOGO',
             multiplier: '$(x)x',
-            next: 'More',
-            prev: 'Less',
+            next: 'Mais',
+            prev: 'Menos',
             sec: '$(x)s/frame'
          }
       },
       godhome: {
-         tab: 'GODHOME',
+         tab: 'LAR',
          p_teleport: {
-            header: 'ROOM',
-            action: 'Teleport'
+            header: 'QUARTO',
+            action: 'Teleportar'
          },
          p_encounter: {
-            header: 'ENCOUNTER',
-            action: 'Start'
+            header: 'ENCONTRAR',
+            action: 'Começar'
          },
          p_armor: {
             header: 'ARMADURA'
          },
          p_weapon: {
-            header: 'WEAPON'
+            header: 'ARMA'
          }
       },
       inspect: {
-         tab: 'INSPECT',
-         headers: ['LAYERS', 'TYPES'],
+         tab: 'INSPECIONAR',
+         headers: ['CAMADAS', 'TIPOS'],
          switches: [
-            ['Base', 'Below', 'Main', 'Above', 'Menu'],
-            ['Hitbox', 'Sprite', 'Text']
+            ['Base', 'Abaixo', 'Principal', 'Acima', 'Menu'],
+            ['Hitbox', 'Sprite', 'Texto']
          ],
          p_explorer: {
-            header: 'EXPLORER',
-            layers: ['Base (Explorer)', 'Below (Explorer)', 'Main (Explorer)', 'Above (Explorer)', 'Menu (Explorer)'],
+            header: 'EXPLORADOR',
+            layers: ['Base (Explorer)', 'Abaixo (Explorer)', 'Principal (Explorador)', 'Acima (Explorer)', 'Menu (Explorer)'],
             letters: {
                animation: 'A',
                character: 'C',
@@ -110,39 +110,39 @@ export default {
                text: 'T'
             }
          },
-         debug_instructions: 'Press [TAB] to cycle debug info',
+         debug_instructions: 'Pressione [TAB] para alternar as informações de depuração',
          debug: {
             a: 'A', 
-            acceleration: 'Acceleration',
-            active: 'Active',
-            alpha: 'Alpha',
-            anchor: 'Anchor',
+            acceleration: 'Aceleração',
+            active: 'Ativo',
+            alpha: 'Alfa',
+            anchor: 'Âncora',
             b: 'B', 
-            blend: 'Blend',
-            border: 'Border',
-            compute: 'Computed Size',
-            content: 'Content',
-            crop: 'Crop',
-            down: 'Down',
-            duration: 'Duration',
+            blend: 'Mistura',
+            border: 'Fronteira',
+            compute: 'Tamanho calculado',
+            content: 'Conteúdo',
+            crop: 'Colheita',
+            down: 'Abaixo',
+            duration: 'Duração',
             exp: 'EXP',
-            extent: 'Extent',
+            extent: 'Extensão',
             f: 'F', 
-            face: 'Face',
-            false: 'False',
-            fill: 'Fill',
-            fontFamily: 'Font Family',
-            fontSize: 'Font Size',
-            frames: 'Frames',
-            gravity: 'Gravity',
-            group: 'Group',
+            face: 'Rosto',
+            false: 'Falso',
+            fill: 'Encher',
+            fontFamily: 'Família de fontes',
+            fontSize: 'Tamanho da fonte',
+            frames: 'Quadros',
+            gravity: 'Gravidade',
+            group: 'Grupo',
             hp: 'HP',
-            index: 'Index',
-            inert: 'Inert',
-            key: 'Key',
-            lastSavedTime: 'Last Saved Time',
-            layer: 'Layer',
-            layers: 'Layers',
+            index: 'Índice',
+            inert: 'Inerte',
+            key: 'Chave',
+            lastSavedTime: 'Última hora salva',
+            layer: 'Camada',
+            layers: 'Camadas',
             left: 'Left',
             metadata: 'Metadata',
             music: 'Music',
@@ -175,7 +175,7 @@ export default {
             subcrop: 'Subcrop',
             talk: 'Talk',
             target: 'Target',
-            text: 'Text',
+            text: 'Texto',
             tint: 'Tint',
             trackedAssets: 'Tracked Assets',
             true: 'True',
@@ -982,7 +982,7 @@ export default {
 
       stat1: 'AT',
       stat2: 'DF',
-      stat3: 'WEAPON',
+      stat3: 'ARMA',
       stat4: 'ARMADURA',
       stat5: 'GOLD',
       stat6: 'EXP',

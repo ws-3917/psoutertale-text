@@ -5579,7 +5579,7 @@ export default {
                   : [ "<11>{#p/alphys}你想让我死，\n不是吗？" ],
             () =>
                6 <= SAVE.flag.n.genocide_milestone
-                  ? [ "<11>{#p/alphys}就那些东西，唬不到我。" ]
+                  ? [ "<11>{#p/alphys}就那些东西，\n唬不到我。" ]
                   : [ "<11>{#p/alphys}我只是去做\n我的本职工作，\n有错吗？" ],
             () =>
                6 <= SAVE.flag.n.genocide_milestone
@@ -6050,14 +6050,14 @@ export default {
          "<20>{#p/undyne}{#e/undyne/11}{#e/asgore/5}不得不说，\n当时我还蛮意外的...\n不过我想开了。",
          "<20>{#p/undyne}{#e/undyne/13}这计划能走通，\n我真为你高兴！",
          ...(SAVE.data.b.undyne_respecc
-            ? [ "<20>{#p/undyne}{#e/undyne/0}I'm not gonna pretend I LIKE humanity, but today's been a good showing." ]
+            ? [ "<20>{#p/undyne}{#e/undyne/0}真昧着良心说\n我喜欢人类也没意思。\n不过，今天表现不错！" ]
             : [
                  "<20>{#p/undyne}{#e/undyne/0}I'm not gonna pretend I LIKE humanity, but I'm not against a happy ending, either."
               ]),
-         '<20>{#p/undyne}{#e/undyne/15}{#e/asgore/6}I guess, as the captain of the guard, I just...'
+         '<20>{#p/undyne}{#e/undyne/15}{#e/asgore/6}可能...\n身为皇家卫队的队长，\n我有点...'
       ],
       friend18: [
-         "<20>{#p/alphys}{#e/alphys/32}Hey... it's okay.",
+         "<20>{#p/alphys}{#e/alphys/32}嘿... 没关系的。",
          "<20>{#e/alphys/31}You're here now, and that's what matters, right?"
       ],
       friend19: [ "<20>{#p/undyne}{#e/undyne/14}Pfft, it's the least I can do after that movie you promised!" ],

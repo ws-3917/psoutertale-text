@@ -13571,12 +13571,16 @@ msgstr "<32>{#p/story}* Doge想起了她的朋友們。"
 
 msgid "<32>{#p/story}* Doge relaxes back into her standard pose."
 msgstr ""
+"<32>{#p/story}* Doge稍微放鬆了一下，\n"
+"  隨後恢復了標準的站姿。"
 
 msgid "<32>{#p/story}* Doge regains her composure."
 msgstr "<32>{#p/story}* Doge鎮靜了下來。"
 
 msgid "<32>{#p/story}* Doge remembers an old colleague fondly."
-msgstr "<32>{#p/story}* Doge深切懷念起她的一位老同事。"
+msgstr ""
+"<32>{#p/story}* Doge深切懷念起\n"
+"  她的一位老同事。"
 
 msgid "<32>{#p/story}* Doge keeps a cool head."
 msgstr "<32>{#p/story}* Doge保持著冷靜。"
@@ -13594,7 +13598,7 @@ msgid "<32>{#p/story}* Doge remains intent."
 msgstr "<32>{#p/story}* Doge依舊保持著專注。"
 
 msgid "<32>{#p/story}* Doge could use a helping hand."
-msgstr ""
+msgstr "<32>{#p/story}* Doge需要幫助。"
 
 msgid "<32>{#p/story}* Doge's breath shortens."
 msgstr ""

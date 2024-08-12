@@ -5838,10 +5838,10 @@ export default {
             : world.dead_canine
             ? [ '<32>{#p/story}* Doge想起了她的朋友们。' ]
             : battler.volatile[0].vars.walk
-            ? [ '<32>{#p/story}* Doge relaxes back into her standard pose.' ]
+            ? [ '<32>{#p/story}* Doge稍微放松了一下，\n  随后恢复了标准的站姿。' ]
             : battler.volatile[0].vars.bathe
             ? [ '<32>{#p/story}* Doge镇静了下来。' ]
-            : [ '<32>{#p/story}* Doge深切怀念起她的一位老同事。' ],
+            : [ '<32>{#p/story}* Doge深切怀念起\n  她的一位老同事。' ],
       turnStatus6: () =>
          dogecon()
             ? [ '<32>{#p/story}* Doge保持着冷静。' ]
@@ -5856,7 +5856,7 @@ export default {
          dogecon()
             ? [ '<32>{#p/story}* Doge依旧保持着专注。' ]
             : battler.volatile[0].vars.walk
-            ? [ '<32>{#p/story}* Doge could use a helping hand.' ]
+            ? [ '<32>{#p/story}* Doge需要帮助。' ]
             : [ "<32>{#p/story}* Doge's breath shortens." ],
       turnStatus9: () =>
          dogecon()
