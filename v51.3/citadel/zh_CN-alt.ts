@@ -2278,25 +2278,25 @@ export default {
                        '<25>* You may stay with us on the outpost until you change your mind.',
                        '<25>{#f/6}* Whatever you decide, I will support you.',
                        '<25>{#f/1}* ...',
-                       '<25>* Will you enter the archive?',
+                       '<25>* 那么，你愿意\n  现在进入“档案”吗？',
                        choicer.create('* (What do you say?)', '是', '否')
                     ],
                     [
-                       '<26>{#p/asgore}{#f/6}* I see you have returned.',
+                       '<26>{#p/asgore}{#f/6}* 你回来了。',
                        '<25>{#f/1}* ...',
-                       '<25>* Will you enter the archive?',
+                       '<25>* 那么，你愿意\n  现在进入“档案”吗？',
                        choicer.create('* (What do you say?)', '是', '否')
                     ],
                     [
                        '<25>{#p/asgore}{#f/1}* ...',
-                       '<25>* Will you enter the archive?',
+                       '<25>* 那么，你愿意\n  现在进入“档案”吗？',
                        choicer.create('* (What do you say?)', '是', '否')
                     ]
                  ][Math.min(SAVE.data.n.state_citadel_refuse, 2)],
          choice2a: [
             '<25>{#p/asgore}{#f/4}* ...',
-            '<25>{#f/6}* Follow me, young one.',
-            '<25>{#f/21}* There is much to do.'
+            '<25>{#f/6}* 跟我来，孩子。',
+            '<25>{#f/21}* 有不少事情等着咱们呢。'
          ],
          choice2b: () =>
             [

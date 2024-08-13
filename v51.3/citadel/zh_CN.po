@@ -4938,18 +4938,20 @@ msgstr ""
 
 msgid "<25>* Will you enter the archive?"
 msgstr ""
+"<25>* 那么，你愿意\n"
+"  现在进入“档案”吗？"
 
 msgid "<26>{#p/asgore}{#f/6}* I see you have returned."
-msgstr ""
+msgstr "<26>{#p/asgore}{#f/6}* 你回来了。"
 
 msgid "<25>{#p/asgore}{#f/4}* ..."
 msgstr "<25>{#p/asgore}{#f/4}* ..."
 
 msgid "<25>{#f/6}* Follow me, young one."
-msgstr ""
+msgstr "<25>{#f/6}* 跟我来，孩子。"
 
 msgid "<25>{#f/21}* There is much to do."
-msgstr ""
+msgstr "<25>{#f/21}* 有不少事情等着咱们呢。"
 
 msgid "<25>{#p/asgore}{#f/2}* ... I understand."
 msgstr ""

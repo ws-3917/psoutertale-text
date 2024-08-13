@@ -5304,34 +5304,34 @@ msgid "<32>* Besides, what if your sense of taste is to blame ;)"
 msgstr ""
 
 msgid "<32>{#n2!}{#n1}* ... typical."
-msgstr ""
+msgstr "<32>{#n2!}{#n1}* ... типично."
 
 msgid "<32>{#p/basic}{#n1}* ... it isn't what it is?"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* ... это не то, что есть на самом деле?"
 
 msgid "<32>{#p/basic}{#n1}* ... it is what it is."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* ... это то, что есть."
 
 msgid "<32>{#p/human}* (You got the Burnt Pie.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты получил сгоревший пирог.)"
 
 msgid "<32>{#p/human}* (You got the Pie Soup.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты получил суп-пирог.)"
 
 msgid "<32>{#p/human}* (You got the Snail Pie.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты получил пирог \"Улитка\".)"
 
 msgid "<32>{#p/human}* (You got the Butterscotch Pie.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты получил Ирисовый пирог.)"
 
 msgid "<32>{#p/event}* Ring, ring..."
-msgstr ""
+msgstr "<32>{#p/event}* Звонок, звонок..."
 
 msgid "<25>{#p/toriel}* Hello, child."
-msgstr ""
+msgstr "<25>{#p/toriel}* Здравствуй, дитя."
 
 msgid "<25>{#f/1}* For no reason in particular..."
-msgstr ""
+msgstr "<25>{#f/1}* Без особой причины..."
 
 msgid "<25>{#f/0}* Do you prefer cinnamon, or butterscotch?"
 msgstr ""

@@ -2156,30 +2156,30 @@ export default {
                        '<32>* Мне обещали что-то \"настоящее\", но все, что я получил, была дешевая копия.',
                        '<32>{#n1!}{#n2}*Эй! ;)\n* Прекрати поливать грязью мой магазин перед покупателями! ;)',
                        '<32>* Besides, what if your sense of taste is to blame ;)',
-                       '<32>{#n2!}{#n1}* ... typical.'
+                       '<32>{#n2!}{#n1}* ... типично.'
                     ],
             () => [
                SAVE.data.n.plot === 72 && 6 <= world.population
-                  ? "<32>{#p/basic}{#n1}* ... it isn't what it is?"
-                  : '<32>{#p/basic}{#n1}* ... it is what it is.'
+                  ? "<32>{#p/basic}{#n1}* ... это не то, что есть на самом деле?"
+                  : '<32>{#p/basic}{#n1}* ... это то, что есть.'
             ]
          )
       },
       pie: () =>
          3 <= SAVE.data.n.cell_insult
-            ? [ '<32>{#p/human}* (You got the Burnt Pie.)' ]
+            ? [ '<32>{#p/human}* (Ты получил сгоревший пирог.)' ]
             : SAVE.data.n.state_wastelands_mash === 1
-            ? [ '<32>{#p/human}* (You got the Pie Soup.)' ]
+            ? [ '<32>{#p/human}* (Ты получил суп-пирог.)' ]
             : SAVE.data.b.snail_pie
-            ? [ '<32>{#p/human}* (You got the Snail Pie.)' ]
-            : [ '<32>{#p/human}* (You got the Butterscotch Pie.)' ],
+            ? [ '<32>{#p/human}* (Ты получил пирог \"Улитка\".)' ]
+            : [ '<32>{#p/human}* (Ты получил Ирисовый пирог.)' ],
       plot_call: {
          a: () => [
-            '<32>{#p/event}* Ring, ring...',
+            '<32>{#p/event}* Звонок, звонок...',
             3 <= SAVE.data.n.cell_insult
-               ? '<25>{#p/toriel}* Hello, child.'
+               ? '<25>{#p/toriel}* Здравствуй, дитя.'
                : '<25>{#p/toriel}* Привет?\n*Это Ториэль.',
-            '<25>{#f/1}* For no reason in particular...',
+            '<25>{#f/1}* Без особой причины...',
             '<25>{#f/0}* Do you prefer cinnamon, or butterscotch?',
             choicer.create('* (Which do you prefer?)', 'Cinnamon', 'Bscotch'),
             3 <= SAVE.data.n.cell_insult
@@ -2187,9 +2187,9 @@ export default {
                : '<25>{#p/toriel}* Oh, I see!\n* Thank you very much!'
          ],
          b: () => [
-            '<32>{#p/event}* Ring, ring...',
+            '<32>{#p/event}* Звонок, звонок...',
             3 <= SAVE.data.n.cell_insult
-               ? '<25>{#p/toriel}* Hello, child.'
+               ? '<25>{#p/toriel}* Здравствуй, дитя.'
                : '<25>{#p/toriel}* Привет?\n*Это Ториэль.',
             [
                '<25>{#f/1}* You do not DISLIKE butterscotch, do you?',
@@ -2214,14 +2214,14 @@ export default {
                : '<25>{#f/0}* I will call you back later, my child.'
          ],
          c: [
-            '<32>{#p/event}* Ring, ring...',
+            '<32>{#p/event}* Звонок, звонок...',
             '<25>{#p/toriel}{#f/1}* You do not have any allergies, do you?',
             '<25>{#f/5}* ...',
             '<25>{#f/5}* I suppose humans cannot even be allergic to monster food.',
             '<25>{#f/0}* Hee hee.\n* Forget I asked!'
          ],
          d: [
-            '<32>{#p/event}* Ring, ring...',
+            '<32>{#p/event}* Звонок, звонок...',
             '<25>{#p/toriel}{#f/1}* Hello, little one.',
             '<25>{#f/0}* I realize now that it has been a while since I cleaned up.',
             '<25>{#f/1}* There are likely plenty of things strewn about...',
