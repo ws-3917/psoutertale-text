@@ -305,7 +305,7 @@ export default {
          '<32>{#p/human}* (You reach into the cart.)',
          '<32>{#p/human}{#s/equip}* （你得到了冰意靈。）'
       ],
-      cream_empty_archive: [ '<32>{#p/human}* (You reach into the cart.)', '<32>{#p/human}* (...)' ],
+      cream_empty_archive: [ '<32>{#p/human}* (You reach into the cart.)', '<32>{#p/human}* （...）' ],
       cream_full_archive: [ "<32>{#p/human}* (You're carrying too much to reach inside.)" ],
       bunbun: pager.create(
          0,
@@ -2345,13 +2345,13 @@ export default {
                   ? SAVE.data.b.s_state_capstation
                      ? [
                           "<32>* (Something's, like, different about you now.)",
-                          '<32>* (...)',
+                          '<32>* （...）',
                           "<32>* (Yeah, you know, uh, I don't really like you anymore.)",
                           "<32>* (I'd take back they key I gave you, if only I could.)"
                        ]
                      : [
                           '<32>* （你是，呃，對我們的警察，\n  呃，有意見，還是...？）',
-                          '<32>* (...)',
+                          '<32>* （...）',
                           "<32>* (Yeah, you know, uh, I don't really like you all that much.)",
                           "<32>* (There's just, something off, particularly about you.)"
                        ]
@@ -6231,7 +6231,7 @@ export default {
       petTalk7: [ '<11>{#p/basic}{~}（摩託\n發動）' ],
       petTalk8: [ '<11>{#p/basic}{~}（飛機\n起飛）' ],
       petTalk9: [ '<11>{#p/basic}{~}（水壺\n鳴笛）' ],
-      petTalk10: [ '<11>{#p/basic}{~}(...)' ],
+      petTalk10: [ '<11>{#p/basic}{~}（...）' ],
       petTalk11: [ '<11>{#p/basic}{~}（來自\n星空的\n汪汪）' ],
       petTalk12: [ '<11>{#p/basic}{~}（汪汪）' ],
       petText1: () => [ '<32>{#p/human}* （你只是稍微抬了下手。）', '<32>{#p/basic}* 好興奮喔！' ],
@@ -6513,7 +6513,7 @@ export default {
       loneTalk1: [ '<11>{#p/basic}{~}（會讓你\n好受的。）' ],
       loneTalk2: [ "<11>{#p/basic}{~}（你會為此\n受苦的。）" ],
       name: '* 狗媳兒',
-      otherPet: [ '<11>{#p/basic}{~}(...)' ],
+      otherPet: [ '<11>{#p/basic}{~}（...）' ],
       petNeedStatus: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 狗來米和狗媳兒。' ]
@@ -10491,7 +10491,7 @@ export default {
                     '<18>{#p/papyrus}{#f/6}...',
                     '<25>{#p/undyne}{#f/11}* ...',
                     '<25>{#p/undyne}{#f/8}* Like hell I will!',
-                    '<18>{#p/papyrus}{#f/6}LANGUAGE!!'
+                    '<18>{#p/papyrus}{#f/6}好好說話！！'
                  ])
          ],
          () =>

@@ -21,7 +21,7 @@ msgid "<32>{#p/human}* (You wish you could make this all just go away.)"
 msgstr ""
 
 msgid "<32>{#p/human}* (...)"
-msgstr "<32>{#p/human}* (...)"
+msgstr "<32>{#p/human}* （...）"
 
 msgid ""
 "<32>{#p/human}* (You take a deep breath, and ready yourself for the end.)"
@@ -31,7 +31,7 @@ msgid "<32>{#p/human}* (You know what must be done.)"
 msgstr ""
 
 msgid "REBOOT IN $(x)"
-msgstr ""
+msgstr "$(x)秒後重啟"
 
 msgid "{#p/human}(You take a deep breath.)"
 msgstr "{#p/human}（你深吸了一口氣。）"
@@ -40,40 +40,40 @@ msgid "(You're filled with determination.)"
 msgstr "（你充滿了決心。）"
 
 msgid "{#p/human}{#v/1}{@fill=#42fcff}It'll be alright in the end..."
-msgstr ""
+msgstr "{#p/human}{#v/1}{@fill=#42fcff}失敗了沒關係..."
 
 msgid "{@fill=#42fcff}Just take it steady..."
-msgstr ""
+msgstr "{@fill=#42fcff}沉住氣，再來一次吧..."
 
 msgid "{#p/human}{#v/2}{@fill=#ff993d}Now is no time to give up."
-msgstr ""
+msgstr "{#p/human}{#v/2}{@fill=#ff993d}可別在這時候就放棄。"
 
 msgid "{@fill=#ff993d}Get back out there!"
-msgstr ""
+msgstr "{@fill=#ff993d}起來，繼續作戰！"
 
 msgid "{#p/human}{#v/3}{@fill=#003cff}You know what you're capable of."
-msgstr ""
+msgstr "{#p/human}{#v/3}{@fill=#003cff}相信自己能行的。"
 
 msgid "{@fill=#003cff}Don't hold back!"
-msgstr ""
+msgstr "{@fill=#003cff}別退縮！"
 
 msgid "{#p/human}{#v/4}{@fill=#d535d9}You know you can survive this..."
-msgstr ""
+msgstr "{#p/human}{#v/4}{@fill=#d535d9}活過這輪不成問題..."
 
 msgid "{@fill=#d535d9}Keep moving forward."
-msgstr ""
+msgstr "{@fill=#d535d9}繼續前進。"
 
 msgid "{#p/human}{#v/5}{@fill=#00c000}You're this world's last hope..."
-msgstr ""
+msgstr "{#p/human}{#v/5}{@fill=#00c000}整個世界都指望你了..."
 
 msgid "{@fill=#00c000}Believe in yourself!"
-msgstr ""
+msgstr "{@fill=#00c000}相信自己！"
 
 msgid "{#p/human}{#v/6}{@fill=#faff29}It's only a matter of time."
-msgstr ""
+msgstr "{#p/human}{#v/6}{@fill=#faff29}他早晚會敗下陣來。"
 
 msgid "<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/6}{@fill=#faff29}某個迷失靈魂呼喚著你。"
 
 msgid ""
 "<99>{*}{@fill=#faff29}With {@mystify=PATIENCE}PATIENCE{@mystify=}, they may "
@@ -83,16 +83,16 @@ msgstr ""
 
 msgid ""
 "<99>{*}{#p/human}{#v/1}{@fill=#42fcff}You must reach my Little Dipper..."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/1}{@fill=#42fcff}幫我拿回小熊座..."
 
 msgid "<99>{*}{#p/human}(Press [Z] to teleport.)"
-msgstr ""
+msgstr "<99>{*}{#p/human}（按[Z]傳送。）"
 
 msgid "<99>{*}{#p/human}{#v/1}{@fill=#42fcff}The entity lies in wait."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/1}{@fill=#42fcff}那個存在，正伺機而動。"
 
 msgid "<99>{*}{@fill=#42fcff}With PATIENCE, you may survive it..."
-msgstr ""
+msgstr "<99>{*}{@fill=#42fcff}有了耐心，你就能挺住不敗..."
 
 msgid ""
 "<99>{*}{@fill=#faff29}With {@mystify=BRAVERY}BRAVERY{@mystify=}, they may "
@@ -102,16 +102,16 @@ msgstr ""
 
 msgid ""
 "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}Don't leave without my Power Glove!"
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}別忘了我的超能手套！"
 
 msgid "<99>{*}{#p/human}(Press [Z] to explode.)"
-msgstr ""
+msgstr "<99>{*}{#p/human}（按[Z]釋放衝擊波。）"
 
 msgid "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}The entity looms above..."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}那個存在，正不斷靠近..."
 
 msgid "<99>{*}{@fill=#ff993d}With BRAVERY, you may overcome it!"
-msgstr ""
+msgstr "<99>{*}{@fill=#ff993d}有了勇氣，就能重拳出擊！"
 
 msgid ""
 "<99>{*}{@fill=#faff29}With {@mystify=INTEGRITY}INTEGRITY{@mystify=}, they "
@@ -119,13 +119,13 @@ msgid ""
 msgstr "<99>{*}{@fill=#faff29}堅守{@wordify=正直/毅力/善良/正義}正直{@wordify=}，必定能夠逃脫。"
 
 msgid "<99>{*}{#p/human}{#v/3}{@fill=#003cff}I'll need my trusty Hoverboots."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/3}{@fill=#003cff}幫我帶回我最信賴的懸浮靴。"
 
 msgid "<99>{*}{#p/human}{#v/3}{@fill=#003cff}The entity holds its position."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/3}{@fill=#003cff}那個存在，正立於一處。"
 
 msgid "<99>{*}{@fill=#003cff}With INTEGRITY, you can surpass it."
-msgstr ""
+msgstr "<99>{*}{@fill=#003cff}堅守正直，你就能迎難而上。"
 
 msgid ""
 "<99>{*}{@fill=#faff29}With {@mystify=PERSEVERANCE}PERSEVERANCE{@mystify=}, "
@@ -134,13 +134,13 @@ msgstr "<99>{*}{@fill=#faff29}擁有{@wordify=毅力/善良/正義}毅力{@wordi
 
 msgid ""
 "<99>{*}{#p/human}{#v/4}{@fill=#d535d9}A single Datapad can go a long way."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/4}{@fill=#d535d9}一臺平板電腦就能伴你遠行。"
 
 msgid "<99>{*}{#p/human}{#v/4}{@fill=#d535d9}The entity is losing its hold."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/4}{@fill=#d535d9}那個存在，已不再穩定。"
 
 msgid "<99>{*}{@fill=#d535d9}With PERSEVERANCE, you can outlast it!"
-msgstr ""
+msgstr "<99>{*}{@fill=#d535d9}擁有毅力，怎會輕言放棄？"
 
 msgid ""
 "<99>{*}{@fill=#faff29}With {@mystify=KINDNESS}KINDNESS{@mystify=}, they can "
@@ -148,101 +148,101 @@ msgid ""
 msgstr "<99>{*}{@fill=#faff29}心懷{@wordify=善良/正義}善良{@wordify=}，終能衝破枷鎖。"
 
 msgid "<99>{*}{#p/human}{#v/5}{@fill=#00c000}The Tablaphone will set me free!"
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/5}{@fill=#00c000}請用那架塔布拉木琴解救我！"
 
 msgid "<99>{*}{#p/human}{#v/5}{@fill=#00c000}The entity is destabilizing..."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/5}{@fill=#00c000}那個存在，正土崩瓦解..."
 
 msgid "<99>{*}{@fill=#00c000}With KINDNESS, you can outshine it..."
-msgstr ""
+msgstr "<99>{*}{@fill=#00c000}心懷善意，定會立於不敗之地..."
 
 msgid ""
 "<99>{*}{#p/human}{#v/6}{@fill=#faff29}The lost SOULs called out to you."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/6}{@fill=#faff29}迷失的靈魂呼喚了你。"
 
 msgid "<99>{*}{@fill=#faff29}With JUSTICE, you have answered."
-msgstr ""
+msgstr "<99>{*}{@fill=#faff29}秉持正義，你一一回應。"
 
 msgid "<99>{*}{@fill=#faff29}You have freed them of their prisons."
-msgstr ""
+msgstr "<99>{*}{@fill=#faff29}將他們從牢籠中解放。"
 
 msgid "<99>{*}{#p/human}{#v/1}{@fill=#42fcff}At last."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/1}{@fill=#42fcff}終於啊。"
 
 msgid "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}You're a hero!"
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}大英雄！"
 
 msgid "<99>{*}{#p/human}{#v/3}{@fill=#003cff}You've done the right thing."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/3}{@fill=#003cff}幹得好。"
 
 msgid "<99>{*}{#p/human}{#v/4}{@fill=#d535d9}Thank you..."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/4}{@fill=#d535d9}謝謝你..."
 
 msgid "<99>{*}{#p/human}{#v/5}{@fill=#00c000}You're the best...!"
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/5}{@fill=#00c000}太棒了...！"
 
 msgid "<99>{*}{#p/human}{#v/6}{@fill=#faff29}Our power is yours now."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/6}{@fill=#faff29}我們的力量歸你了。"
 
 msgid "<99>{*}{@fill=#faff29}With it, the entity will collapse."
-msgstr ""
+msgstr "<99>{*}{@fill=#faff29}有了這些力量，就能徹底擊敗那東西。"
 
 msgid "<99>{*}{@fill=#faff29}Then..."
-msgstr ""
+msgstr "<99>{*}{@fill=#faff29}事成之後..."
 
 msgid "<99>{*}{@fill=#faff29}... you will do what you must."
-msgstr ""
+msgstr "<99>{*}{@fill=#faff29}...去做你必須要做的事吧。"
 
 msgid "<99>{*}{@fill=#faff29}Now, end this!"
-msgstr ""
+msgstr "<99>{*}{@fill=#faff29}現在，結果了它！"
 
 msgid "<99>{*}{#p/human}(Press [Z] to shoot.)"
-msgstr ""
+msgstr "<99>{*}{#p/human}（按[Z]射擊。）"
 
 msgid "REBOOTING..."
-msgstr ""
+msgstr "重啟中..."
 
 msgid "READY"
-msgstr ""
+msgstr "已就位"
 
 msgid "WARNING..."
-msgstr ""
+msgstr "警告..."
 
 msgid "FILE 1 SAVED"
-msgstr ""
+msgstr "存檔1 已儲存"
 
 msgid "FILE 1 LOADED"
-msgstr ""
+msgstr "存檔1 已載入"
 
 msgid "FILE 2 SAVED"
-msgstr ""
+msgstr "存檔2 已儲存"
 
 msgid "FILE 2 LOADED"
-msgstr ""
+msgstr "存檔2 已載入"
 
 msgid "FILE 3 SAVED"
-msgstr ""
+msgstr "存檔3 已儲存"
 
 msgid "FILE 3 LOADED"
-msgstr ""
+msgstr "存檔3 已載入"
 
 msgid "FILE 4 SAVED"
-msgstr ""
+msgstr "存檔4 已儲存"
 
 msgid "FILE 4 LOADED"
-msgstr ""
+msgstr "存檔4 已載入"
 
 msgid "FILE 5 SAVED"
-msgstr ""
+msgstr "存檔5 已儲存"
 
 msgid "FILE 5 LOADED"
-msgstr ""
+msgstr "存檔5 已載入"
 
 msgid "FILE 6 SAVED"
-msgstr ""
+msgstr "存檔6 已儲存"
 
 msgid "FILE 6 LOADED"
-msgstr ""
+msgstr "存檔6 已載入"
 
 msgid "<32>{#p/human}* (You decide not to equip.)"
 msgstr "<32>{#p/human}* （你打算不這麼做。）"
@@ -2850,7 +2850,7 @@ msgid "<25>{*}{#e/twinkly/16}Of course you are!"
 msgstr ""
 
 msgid "<25>{*}{#p/human}(...)"
-msgstr "<25>{*}{#p/human}(...)"
+msgstr "<25>{*}{#p/human}（...）"
 
 msgid "<25>{*}(But still, the option remains.)"
 msgstr ""
@@ -5201,71 +5201,90 @@ msgstr ""
 
 msgid "<25>{*}{#p/twinkly}{#f/8}* Indecisive, eh Asgore?"
 msgstr ""
+"<25>{*}{#p/twinkly}{#f/8}* 是不是拿不定主意呀，\n"
+"  親愛的Asgore？"
 
 msgid ""
 "<25>{*}{#f/5}* I know.\n"
 "* Choices can be difficult sometimes."
 msgstr ""
+"<25>{*}{#f/5}* 我理解。\n"
+"* 誰都有猶豫不決的時候。"
 
 msgid "<25>{*}{#f/11}* But that's okay!"
-msgstr ""
+msgstr "<25>{*}{#f/11}* 但沒關係！"
 
 msgid "<25>{*}{#f/7}* You won't have to make them anymore."
-msgstr ""
+msgstr "<25>{*}{#f/7}* 你再也不用操心啦！"
 
 msgid "<25>{*}{#p/asgore}{#g/asgoreBound}* ... what are you..."
-msgstr ""
+msgstr "<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在..."
 
 msgid "<25>{*}* ... doing..."
-msgstr ""
+msgstr "<25>{*}* ...幹...什麼..."
 
 msgid "<25>{*}{#p/twinkly}{#f/8}* Oh, nothing, Asgore..."
 msgstr ""
+"<25>{*}{#p/twinkly}{#f/8}* 哎呀，我什麼都沒幹呀，\n"
+"  Asgore..."
 
 msgid "<25>{*}{#p/twinkly}{#f/5}* Golly, Asgore..."
-msgstr ""
+msgstr "<25>{*}{#p/twinkly}{#f/5}* 哎呀呀，Asgore..."
 
 msgid ""
 "<25>{*}{#f/11}* You could've killed them, and nobody would have complained."
 msgstr ""
+"<25>{*}{#f/11}* 你本可以直接把人殺了，\n"
+"  那就皆大歡喜。"
 
 msgid "<25>{*}{#f/7}* But now, you've missed your chance."
-msgstr ""
+msgstr "<25>{*}{#f/7}* 但現在，你再也沒機會嚕。"
 
 msgid "<25>{*}{#p/twinkly}{#f/5}* Killing people isn't THAT bad, Asgore..."
 msgstr ""
+"<25>{*}{#p/twinkly}{#f/5}* 殺人，可沒你想得\n"
+"  那麼傷天害理喔，Asgore..."
 
 msgid "<25>{*}{#f/9}* You just have to learn how to have fun with it!"
 msgstr ""
+"<25>{*}{#f/9}* 就讓我好好教你\n"
+"  怎麼才能殺得又嗨又爽吧！"
 
 msgid "<25>{*}{#p/twinkly}{#f/5}* Well, well..."
-msgstr ""
+msgstr "<25>{*}{#p/twinkly}{#f/5}* 哎呀，哎呀..."
 
 msgid "<26>{*}{#f/11}* Weren't you clever to get here so quickly."
-msgstr ""
+msgstr "<26>{*}{#f/11}* 跑太快，把腦子都跑丟了。"
 
 msgid ""
 "<25>{*}{#p/twinkly}{#f/5}* Didja think you'd be able to slip past me that "
 "easily?"
-msgstr ""
+msgstr "<25>{*}{#p/twinkly}{#f/5}* 想靠那點小把戲矇混過關？"
 
 msgid "<25>{*}{#f/7}* Don't be ridiculous."
-msgstr ""
+msgstr "<25>{*}{#f/7}* 真當我眼瞎呢。"
 
 msgid "<25>{*}{#p/twinkly}{#f/5}* Howdy, Asgore."
-msgstr ""
+msgstr "<25>{*}{#p/twinkly}{#f/5}* 哈囉，Asgore！"
 
 msgid ""
 "<26>{*}{#f/11}* There's a lot that needs done before we can save "
 "monsterkind."
 msgstr ""
+"<26>{*}{#f/11}* 別這麼急著拯救怪物嘛，\n"
+"  好玩的事多著呢。"
 
 msgid ""
 "<25>{*}{#p/twinkly}{#f/5}* I know this came out of nowhere, but come on!"
 msgstr ""
+"<25>{*}{#p/twinkly}{#f/5}* 我知道\n"
+"  這一下把你嚇得不輕，\n"
+"  但別氣餒喔！"
 
 msgid "<25>{*}{#f/7}* I'm only trying to have fun, Asgore."
 msgstr ""
+"<25>{*}{#f/7}* 你看，這多好玩啊。\n"
+"  是不是呀，Asgore？"
 
 msgid "<25>{*}{#p/twinkly}{#f/7}* Like I'd ever let you escape so easily."
 msgstr ""
@@ -5313,299 +5332,332 @@ msgstr ""
 
 msgid "<25>{*}{#g/twinklyNice}* ... by the way, my name's Twinkly.{^30}{%}"
 msgstr ""
+"<25>{*}{#g/twinklyNice}* ...哎呀，忘了自我介紹了。\n"
+"  我叫閃閃。{^30}{%}"
 
 msgid "<25>{*}{#g/twinklySassy}* Twinkly the star.{^30}{%}"
-msgstr ""
+msgstr "<25>{*}{#g/twinklySassy}* 閃亮明星：閃閃。{^30}{%}"
 
 msgid "<25>{*}{#p/asgore}{#g/asgoreBreak1}* AAAARGH...!{^999}"
-msgstr ""
+msgstr "<25>{*}{#p/asgore}{#g/asgoreBreak1}* 啊啊啊啊...！{^999}"
 
 msgid ""
 "<25>{*}{#p/twinkly}{#g/twinklyWink}* Gosh, you're so cute when you're "
 "screaming in agony!{^30}{%}"
 msgstr ""
+"<25>{*}{#p/twinkly}{#g/twinklyWink}* 哎呦~ 你痛苦的尖叫\n"
+"  真是天籟之音啊，\n"
+"  太好聽啦！{^30}{%}"
 
 msgid "<25>{*}{#p/asgore}{#g/asgoreBreak1}* ...{^10}{%}"
 msgstr "<25>{*}{#p/asgore}{#g/asgoreBreak1}* ...{^10}{%}"
 
 msgid "<25>{*}{#p/twinkly}{#f/7}* Let's hear it again.{^20}{%}"
-msgstr ""
+msgstr "<25>{*}{#p/twinkly}{#f/7}* 讓我們再欣賞一次。{^20}{%}"
 
 msgid "<25>{*}{#p/asgore}{#g/asgoreBreak2}* AAAAAAAARGH...!{^999}"
-msgstr ""
+msgstr "<25>{*}{#p/asgore}{#g/asgoreBreak2}* 啊啊啊啊啊啊...！{^999}"
 
 msgid "<25>{*}{#p/twinkly}{#f/11}* And again!{^5}{%}"
-msgstr ""
+msgstr "<25>{*}{#p/twinkly}{#f/11}* 給我叫！{^5}{%}"
 
 msgid "<25>{*}{#p/twinkly}{#g/twinklyEvil}{#v/1}* And again!!!{^5}{%}"
-msgstr ""
+msgstr "<25>{*}{#p/twinkly}{#g/twinklyEvil}{#v/1}* 使勁叫！！！{^5}{%}"
 
 msgid "<25>{*}{#p/twinkly}{#g/twinklyGrin}{#v/1}* AND AGAIN!!!{^5}{%}"
-msgstr ""
+msgstr "<25>{*}{#p/twinkly}{#g/twinklyGrin}{#v/1}* 叫啊！！！{^5}{%}"
 
 msgid "<25>{*}{#p/twinkly}{#g/twinklyTwisted}{#v/1}* AND AGAIN!!!{^5}{%}"
-msgstr ""
+msgstr "<25>{*}{#p/twinkly}{#g/twinklyTwisted}{#v/1}* 叫啊！！！{^5}{%}"
 
 msgid ""
 "<25>{*}{#p/twinkly}{#g/twinklyCrazed}{#v/1}* AND AGAIN AND AGAIN AND AGAIN "
 "AND AGAIN AND AGAIN AND AGAIN AND {%}"
 msgstr ""
+"<25>{*}{#p/twinkly}{#g/twinklyCrazed}{#v/1}* 叫啊叫啊叫啊叫啊叫啊叫啊\n"
+"叫啊叫啊叫啊叫啊叫啊叫啊\n"
+"叫啊叫啊叫啊叫啊叫啊叫啊 {%}"
 
 msgid ""
 "<99>{*}{#p/twinkly}{#g/twinklyBroken}{#v/1}* AAAAHAHAHAHAHAHAHAHAHAHAHAH\n"
 "  AHAHAHAHAHAHAHAHAHAHAHAHAHA\n"
 "  HAHAHAHAHAHAHAHAHAHAHAHAHAH{^20}{%}"
 msgstr ""
+"<99>{*}{#p/twinkly}{#g/twinklyBroken}{#v/1}* 啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈\n"
+"  哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈\n"
+"  哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈{^20}{%}"
 
 msgid "<25>{*}{#p/twinkly}{#g/twinklyDead}{#v/0}* ...{^80}{%}"
 msgstr "<25>{*}{#p/twinkly}{#g/twinklyDead}{#v/0}* ...{^80}{%}"
 
 msgid "<25>{*}* ... die.{^10}{%}"
-msgstr ""
+msgstr "<25>{*}* ...死吧。{^10}{%}"
 
 msgid "{#p/twinkly}{#v/1}Hello, $(name).{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}哈囉，$(name)。{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}Welcome to your new reality.{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}歡迎來到新時空。{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}Welcome back, $(name).{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}$(name)，歡迎回來。{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}It's good to see you here again.{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}好開心喔，又見到你了。{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}Oh, $(name)...{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}哎呦，$(name)...{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}How could you abandon me so.{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}你膽可真肥，竟敢拋棄我。{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}Do you feel... alone?{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}嘻嘻嘻...{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}Do you feel... trapped?{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}是不是... 很孤獨呀？{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}Hee hee hee...{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}是不是... 很想逃呀？{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}... there's no escape!{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}...想逃？沒門！{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}Asgore's precious \"archive...\"{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}Asgore把那「檔案」當寶一樣寵著...{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}I've brought it into the real world!{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}那就讓你也好好享受享受它吧！{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}All you can do is walk forward...{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}你只能往前...{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}Closer, and closer...{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}再過來點，再過來點...{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}... you aren't afraid, are you?{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}...你不怕我嗎？{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}You aren't going to run away?{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}還不逃？{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}Good.{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}好。{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}Very good.{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}太好了。{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}You are a very good sibling.{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}真不愧是我的好兄弟。{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}...{^100}{%}"
 msgstr "{#p/twinkly}{#v/1}...{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}You're almost there...!{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}快了...！{^100}{%}"
 
 msgid "{#p/twinkly}{#v/1}Just a little farther, $(name)...{^100}{%}"
-msgstr ""
+msgstr "{#p/twinkly}{#v/1}$(name)，馬上就到了...{^100}{%}"
 
 msgid ""
 "{#p/human}{#v/1}{@fill=#42fcff}Your long nightmare is over now.{^80}{%}"
-msgstr ""
+msgstr "{#p/human}{#v/1}{@fill=#42fcff}漫長的惡夢已然消散。{^80}{%}"
 
 msgid "{#p/human}{#v/2}{@fill=#ff993d}Your world will be restored!{^80}{%}"
-msgstr ""
+msgstr "{#p/human}{#v/2}{@fill=#ff993d}熟悉的世界再度出現！{^80}{%}"
 
 msgid ""
 "{#p/human}{#v/3}{@fill=#003cff}But first, you must make a choice.{^80}{%}"
-msgstr ""
+msgstr "{#p/human}{#v/3}{@fill=#003cff}重要的抉擇擺在眼前。{^80}{%}"
 
 msgid ""
 "{#p/human}{#v/4}{@fill=#d535d9}Will you destroy what lies ahead?{^80}{%}"
-msgstr ""
+msgstr "{#p/human}{#v/4}{@fill=#d535d9}眼前巨物，毀於一旦？{^80}{%}"
 
 msgid "{#p/human}{#v/5}{@fill=#00c000}Or will you show compassion?{^80}{%}"
-msgstr ""
+msgstr "{#p/human}{#v/5}{@fill=#00c000}心中仁慈，盡數展現？{^80}{%}"
 
 msgid "{#p/human}{#v/6}{@fill=#faff29}The judgement is yours to make.{^80}{%}"
-msgstr ""
+msgstr "{#p/human}{#v/6}{@fill=#faff29}戰或至善，由你決斷。{^80}{%}"
 
 msgid "{*}{#p/twinkly}..."
 msgstr "{*}{#p/twinkly}..."
 
 msgid "{*}... what are you doing?"
-msgstr ""
+msgstr "{*}...你在做什麼？"
 
 msgid "{*}Do you really think I've learned..."
-msgstr ""
+msgstr "{*}你以為我會..."
 
 msgid "{*}... anything from this?"
-msgstr ""
+msgstr "{*}...學到教訓嗎？"
 
 msgid "{*}No."
-msgstr ""
+msgstr "{*}想得美。"
 
 msgid "{*}{#p/twinkly}If you don't end this now..."
-msgstr ""
+msgstr "{*}{#p/twinkly}你要是現在不動手..."
 
 msgid "{*}I'll come back."
-msgstr ""
+msgstr "{*}終有一天，我會回來。"
 
 msgid "{*}{#p/twinkly}I'll consume you."
-msgstr ""
+msgstr "{*}{#p/twinkly}我會把你幹掉。"
 
 msgid "{*}{#p/twinkly}I'll destroy everything."
-msgstr ""
+msgstr "{*}{#p/twinkly}我會摧毀一切。"
 
 msgid "{*}{#p/twinkly}I'll make it so you never existed!"
-msgstr ""
+msgstr "{*}{#p/twinkly}我會將你的存在徹底抹去！"
 
 msgid "{*}{#p/twinkly}...?"
 msgstr "{*}{#p/twinkly}...？"
 
 msgid "{*}{#p/twinkly}... why?"
-msgstr ""
+msgstr "{*}{#p/twinkly}...為什麼？"
 
 msgid "{*}{#p/twinkly}... why are you being..."
-msgstr ""
+msgstr "{*}{#p/twinkly}...為什麼..."
 
 msgid "{*}{#p/twinkly}... so nice to me?"
-msgstr ""
+msgstr "{*}{#p/twinkly}...要對我這麼好？"
 
 msgid "{*}{#p/twinkly}... I can't understand..."
-msgstr ""
+msgstr "{*}{#p/twinkly}...我不明白..."
 
 msgid "{*}{#p/twinkly}I can't understand!"
-msgstr ""
+msgstr "{*}{#p/twinkly}我不明白！"
 
 msgid "{*}{#p/twinkly}{#i/4}... I just can't understand...{^30}{%}"
-msgstr ""
+msgstr "{*}{#p/twinkly}{#i/4}...我就是...不明白...{^30}{%}"
 
 msgid "{*}{#p/twinkly}{#i/3}Goodbye, $(name).{^30}{%}"
-msgstr ""
+msgstr "{*}{#p/twinkly}{#i/3}再見，$(name)。{^30}{%}"
 
 msgid "<32>{*}{#p/event}{#i/5}Twinkly ran away."
-msgstr ""
+msgstr "<32>{*}{#p/event}{#i/5}Twinkly逃走了。"
 
 msgid "<25>{#p/asriel1}{#f/30}* I surrender!"
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/30}* 我投降！"
 
 msgid "<25>{#p/asriel1}{#f/25}* I'm so sorry."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/25}* 對不起。"
 
 msgid "<25>{#p/asriel1}{#f/23}* I guess you win again, huh, $(name)?"
 msgstr ""
+"<25>{#p/asriel1}{#f/23}* 看樣子，$(name)，\n"
+"  你又贏了。"
 
 msgid "<25>{#p/asriel1}{#f/23}* I always was a crybaby, wasn't I, $(name)?"
 msgstr ""
+"<25>{#p/asriel1}{#f/23}* $(name)，\n"
+"  我一直都是個愛哭鬼，是吧？"
 
 msgid "<32>{#p/basic}* Asriel..."
-msgstr ""
+msgstr "<32>{#p/basic}* Asriel..."
 
 msgid "<25>{#p/asriel1}{#f/22}* ..."
 msgstr "<25>{#p/asriel1}{#f/22}* ..."
 
 msgid "<25>{#f/21}* ... I know."
-msgstr ""
+msgstr "<25>{#f/21}* ...我知道的。"
 
 msgid "<25>{#f/23}* You're not actually $(name), are you?"
-msgstr ""
+msgstr "<25>{#f/23}* 你並不是$(name)，對吧？"
 
 msgid "<25>{#f/22}* $(name)'s been gone for a long time."
-msgstr ""
+msgstr "<25>{#f/22}* 很久以前，$(name)就死了。"
 
 msgid "<25>{#f/15}* Um... what..."
-msgstr ""
+msgstr "<25>{#f/15}* 嗯... 那個..."
 
 msgid "<25>{#f/10}* What IS your name?"
-msgstr ""
+msgstr "<25>{#f/10}* 你叫什麼名字呢？"
 
 msgid ""
 "<32>{#p/human}* (...)\n"
 "* (You tell Asriel your name.)"
 msgstr ""
+"<32>{#p/human}* （...）\n"
+"* （你把你的名字告訴了Asriel。）"
 
 msgid "<25>{#p/asriel1}{#f/21}* Frisk, huh?"
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/21}* 是叫Frisk嗎？"
 
 msgid "<25>{#f/23}* Well, I guess you win again, Frisk."
 msgstr ""
+"<25>{#f/23}* 嗯，這次你又贏了，\n"
+"  Frisk。"
 
 msgid "<25>{#f/22}* ..."
 msgstr "<25>{#f/22}* ..."
 
 msgid "<25>{#f/13}* It's strange..."
-msgstr ""
+msgstr "<25>{#f/13}* 很奇怪..."
 
 msgid ""
 "<25>{#f/16}* As a star, I'd forgotten how it felt to be... truly afraid."
 msgstr ""
+"<25>{#f/16}* 當星星時，我都忘了...\n"
+"  恐懼是什麼滋味了。"
 
 msgid "<25>{#f/15}* I'd gotten used to making other people feel that way."
 msgstr ""
+"<25>{#f/15}* 無數次將別人推入恐懼深淵，\n"
+"  已經麻木了。"
 
 msgid "<25>{#f/13}* But now, with everyone's SOULs inside me..."
-msgstr ""
+msgstr "<25>{#f/13}* 但現在，我有了所有怪物的靈魂後..."
 
 msgid "<25>{#f/15}* ... I..."
-msgstr ""
+msgstr "<25>{#f/15}* ...我..."
 
 msgid "<25>{#f/16}* I can't escape that feeling anymore."
-msgstr ""
+msgstr "<25>{#f/16}* 我終於深切感受到那種情感。"
 
 msgid ""
 "<25>{#f/15}* Ever since you started attacking me back there, it's like..."
-msgstr ""
+msgstr "<25>{#f/15}* 當你開始不停攻擊我時..."
 
 msgid "<25>{#f/15}* They understand the kind of person you are now."
 msgstr ""
+"<25>{#f/15}* 他們，好像就知道了\n"
+"  你是怎樣的人。"
 
 msgid "<25>{#f/13}* You never killed anyone, but deep down..."
 msgstr ""
+"<25>{#f/13}* 誠然，你從沒殺過\n"
+"  任何一隻怪物。"
 
 msgid "<25>{#f/13}* The thought of you bringing them to the brink of death..."
 msgstr ""
+"<25>{#f/13}* 但你也一次次將他們\n"
+"  推向生死邊緣..."
 
 msgid "<25>{#f/15}* Over, and over, and over..."
-msgstr ""
+msgstr "<25>{#f/15}* 一次，又一次，又一次..."
 
 msgid "<25>{#f/21}* They're terrified of you, Frisk."
 msgstr ""
+"<25>{#f/21}* Frisk，\n"
+"  他們現在都很怕你。"
 
 msgid "<26>{#f/23}* And... I guess I am too."
 msgstr ""
+"<26>{#f/23}* 而且...\n"
+"  我也很怕你。"
 
 msgid "<25>{#p/asriel1}{#f/17}* Frisk, huh?"
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/17}* 是叫Frisk嗎？"
 
 msgid "<25>{#f/17}* That's..."
-msgstr ""
+msgstr "<25>{#f/17}* 那..."
 
 msgid "<25>{#f/23}* ... a nice name."
-msgstr ""
+msgstr "<25>{#f/23}* ...真是個好名字。"
 
 msgid "<25>{#f/13}* Frisk..."
-msgstr ""
+msgstr "<25>{#f/13}* Frisk..."
 
 msgid "<25>{#p/asriel1}{#f/13}* What we did back there, I..."
 msgstr ""

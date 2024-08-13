@@ -7285,7 +7285,7 @@ export default {
    i_sap: {
       battle: {
          description: "取材自怪物故园里的一棵树。",
-         name: 'Sap'
+         name: '树液'
       },
       drop: [ '<32>{#p/human}* （你把树液扔掉了。）' ],
       info: () =>
@@ -7512,7 +7512,7 @@ export default {
    },
    i_boots: {
       battle: {
-         description: 'Nimble, but fickle. Not a suitable jetpack replacement.',
+         description: '灵活但轻浮，\n想取代飞行器，有点悬。',
          name: '悬浮靴'
       },
       drop: [ '<32>{#p/human}* （你把悬浮靴扔掉了。）' ],

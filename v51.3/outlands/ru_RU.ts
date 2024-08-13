@@ -1990,61 +1990,61 @@ export default {
       lobby_puzzle3: [ '<25>{#p/toriel}* Когда ты будешь готов, мы можем продолжить.' ],
       loox: {
          a: [
-            "<32>{#p/basic}{#n1}* I heard you're quite flirty, for a human.",
+            "<32>{#p/basic}{#n1}* Я слышал, ты довольно игривый для человека.",
             "<32>* As you {@fill=#cf7fff}FLIRT{@fill=#fff} with different kinds of monsters, you'll see hearts next to their names.",
-            "<32>* The more types of monsters you {@fill=#cf7fff}FLIRT{@fill=#fff} with, the more hearts you'll have.",
-            '<32>* I wonder...',
-            '<32>* Just how far can you go?',
-            '<32>* Perhaps, my friend, you could even become... a legend.'
+            "<32>* Чем больше типов монстров ты встретишь {@fill=#cf7fff}FLIRT{@fill=#fff} тем больше сердец у тебя будет.",
+            '<32>* Я интересуюсь...',
+            '<32>* Как далеко ты можешь зайти?',
+            '<32>* Возможно, мой друг, ты даже мог бы стать... легендой.'
          ],
          b: [
-            '<32>{#p/basic}{#n1}* Hey human, have you tried flirting yet?',
-            "<32>* Ha!\n* I can tell by the look on your face that you haven't yet.",
-            "<32>* I gotta tell you, it's tons of fun.",
-            "<32>* Your enemies won't know what to do with themselves!",
-            '<32>* Psst... if you DO start flirting, I might have more to tell you.',
-            '<32>* Good luck with that!'
+            '<32>{#p/basic}{#n1}* Эй, человек, ты уже пробовал флиртовать?',
+            "<32>* Ха!\n* По выражению твоего лица я могу сказать, что ты еще этого не сделал.",
+            "<32>* Должен тебе сказать, это очень весело.",
+            "<32>* Ваши враги не будут знать, что с собой делать!",
+            '<32>* Пссс... если ты начнешь флиртовать, возможно, мне будет что тебе еще рассказать.',
+            '<32>* Удачи тебе в этом!'
          ],
          c: [
-            "<32>{#p/basic}{#n1}* Hey human, now that you've started flirting...",
-            '<32>* How does it feel?',
-            "<32>* It's pretty great, right?",
+            "<32>{#p/basic}{#n1}* Эй, человек, раз уж ты начал флиртовать...",
+            '<32>* Каково это?',
+            "<32>* Это ведь здорово, правда?",
             "<32>* As you {@fill=#cf7fff}FLIRT{@fill=#fff} with different kinds of monsters, you'll see hearts next to their names.",
-            "<32>* The more types of monsters you {@fill=#cf7fff}FLIRT{@fill=#fff} with, the more hearts you'll have.",
-            '<32>* I wonder...',
-            '<32>* Just how far can you go?',
-            '<32>* Perhaps, my friend, you could even become... a legend.'
+            "<32>* Чем больше типов монстров ты встретишь {@fill=#cf7fff}FLIRT{@fill=#fff} тем больше сердец у тебя будет.",
+            '<32>* Я интересуюсь...',
+            '<32>* Как далеко ты можешь зайти?',
+            '<32>* Возможно, мой друг, ты даже мог бы стать... легендой.'
          ],
          d: [
-            "<32>{#p/basic}{#n1}* I hear you're somewhat of a bully in these parts.",
-            '<32>* Ha!\n* Join the club, pal.',
-            "<32>* You're talking to the number one bully around.",
-            "<32>* As you {@fill=#3f00ff}BULLY{@fill=#fff} different kinds of monsters, you'll see swords next to their names.",
-            "<32>* The more types of monsters you {@fill=#3f00ff}BULLY{@fill=#fff}, the more swords you'll have.",
-            '<32>* Though, as a disclaimer, not ALL monsters can be bullied.',
-            "<32>* It's like flirting... but with death.",
-            '<32>* Fun, right?'
+            "<32>{#p/basic}{#n1}* Я слышал, в здешних краях ты в некотором роде хулиган.",
+            '<32>* Ха!\n* Вступай в клуб, приятель.',
+            "<32>* Ты разговариваешь с хулиганом номер один в округе.",
+            "<32>* Так ты {@fill=#3f00ff}ХУЛИГАН{@fill=#fff} различные виды монстров, ты увидишь мечи рядом с их названиями.",
+            "<32>* Чем больше типов монстров ты встретишь {@fill=#3f00ff}ХУЛИГАН{@fill=#fff}, тем больше мечей у тебя будет.",
+            '<32>* Хотя, в качестве оговорки, не над ВСЕМИ монстрами можно издеваться.',
+            "<32>* Это похоже на флирт... но со смертью.",
+            '<32>* Весело, правда?'
          ],
          e: pager.create(
             0,
             () => [
                ...(30 <= SAVE.data.n.bully
                   ? [
-                       "<32>{#p/basic}{#n1}* I heard you're quite the bully around here now.",
-                       "<32>* Everyone's afraid of you, huh?"
+                       "<32>{#p/basic}{#n1}* Я слышал, ты теперь здесь настоящий хулиган.",
+                       "<32>* Все тебя боятся, да?"
                     ]
                   : 20 <= world.flirt
                   ? [
-                       "<32>{#p/basic}{#n1}* I heard you're quite the romantic around here now.",
-                       '<32>* Everyone loves you, huh?'
+                       "<32>{#p/basic}{#n1}* Я слышал, ты здесь теперь настоящий романтик.",
+                       '<32>* Все тебя любят, да?'
                     ]
                   : [
-                       "<32>{#p/basic}{#n1}* I heard you're quite the hero around here now.",
-                       '<32>* Everyone likes you, huh?'
+                       "<32>{#p/basic}{#n1}* Я слышал, ты теперь здесь настоящий герой.",
+                       '<32>* Ты всем нравишься, да?'
                     ]),
-               '<32>* Well... personally, I think you have too much free time.'
+               '<32>* Ну... лично я думаю, что у тебя слишком много свободного времени.'
             ],
-            [ '<32>{#p/basic}{#n1}* What?\n* Am I wrong?' ]
+            [ '<32>{#p/basic}{#n1}* Что?\n* Я не прав?' ]
          )
       },
       manana: {
@@ -2053,80 +2053,80 @@ export default {
             () =>
                SAVE.data.b.napsta_performance
                   ? [
-                       "<32>{#p/basic}{#n1}* So, you're the one who co-hosted that music show, eh?",
-                       "<32>* Maybe now you'll have the means to accept my offer.",
-                       "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip.",
-                       "<32>* Now I liked that little show, so you'll get a discount.\n* 5G, take it or leave it.",
+                       "<32>{#p/basic}{#n1}* Значит, это ты был одним из ведущих того музыкального шоу, да?",
+                       "<32>* Может быть, теперь у тебя будет возможность принять моё предложение.",
+                       "<32>* Я просто ищу кого-нибудь, кто купил бы этот лимитированный выпуск комиксов о Суперзвезде Уокере.",
+                       "<32>* Мне понравилось это маленькое шоу, так что ты получишь скидку.\n* 5G, соглашайся или не соглашайся.",
                        choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Да', 'Нет')
                     ]
                   : [
                        ...(world.postnoot
                           ? [
-                               "<32>{#p/basic}{#n1}* Hey, have you noticed anything strange goin' on around here?",
-                               "<32>* I could'a sworn all the puzzles just de-activated themselves earlier.",
-                               "<32>* Anyway, I'm lookin' for a buyer on this limited edition Super Starwalker comic strip."
+                               "<32>{#p/basic}{#n1}* Эй, ты не заметил, что здесь происходит что-нибудь странное?",
+                               "<32>* Я мог бы поклясться, что все головоломки просто сами собой отключились раньше.",
+                               "<32>* Как бы то ни было, я ищу покупателя на этот лимитированный выпуск комиксов о Суперзвезде Уокере."
                             ]
                           : [
-                               '<32>{#p/basic}{#n1}* Finally, someone speaks to me!',
-                               "<32>* I've been standin' out here for ages, and nobody's takin' my offer.",
-                               "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip."
+                               '<32>{#p/basic}{#n1}* Наконец-то кто-то заговорил со мной!',
+                               "<32>* Я стою здесь целую вечность, и никто не принимает моего предложения.",
+                               "<32>* Я просто ищу кого-нибудь, кто купил бы этот лимитированный выпуск комиксов о Суперзвезде Уокере."
                             ]),
-                       "<32>* Interested?\n* All I'm askin' for is 10G.",
+                       "<32>* Заинтересован?\n* Я прошу всего 10G.",
                        choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Да', 'Нет')
                     ],
             () =>
                SAVE.data.b.napsta_performance
                   ? [
-                       "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
-                       "<32>* All I'm askin' for is 5G.",
+                       "<32>{#p/basic}{#n1}* Хотите купить мой комикс \"Суперзвезда Уокер\", выпущенный ограниченным тиражом?",
+                       "<32>* Всё, о чём я прошу, - это 5G.",
                        choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Да', 'Нет')
                     ]
                   : [
-                       "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
-                       "<32>* All I'm askin' for is 10G.",
+                       "<32>{#p/basic}{#n1}* Хотите купить мой комикс \"Суперзвезда Уокер\", выпущенный ограниченным тиражом?",
+                       "<32>* Всё, о чём я прошу, - это 10G.",
                        choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Да', 'Нет')
                     ]
          ),
          b: () => [
-            "<32>{#p/human}{#n1!}* (You don't have enough G.)",
+            "<32>{#p/human}{#n1!}* (У тебя недостаточно G.)",
             SAVE.data.b.napsta_performance
-               ? "<32>{#p/basic}{#n1}* I'll be honest, that don't look like 5G..."
-               : "<32>{#p/basic}{#n1}* I'll be honest, that don't look like 10G..."
+               ? "<32>{#p/basic}{#n1}* Буду честен, это не похоже на 5G..."
+               : "<32>{#p/basic}{#n1}* Буду честен, это не похоже на 10G..."
          ],
-         c: [ '<32>{#p/basic}{#n1}* Not interested, huh?', "<32>* Well, that's fine.\n* I'll just find someone else..." ],
+         c: [ '<32>{#p/basic}{#n1}* Не интересуешься, да?', "<32>* Что ж, прекрасно.\n* Я просто найду кого-нибудь другого..." ],
          d: [
             '<32>{#s/equip}{#p/human}{#n1!}* (You got the Super Starwalker 1.)',
-            '<32>{#p/basic}{#n1}* Splendid!\n* Enjoy the comic strip.'
+            '<32>{#p/basic}{#n1}* Великолепно!\n* Наслаждайтесь просмотром комикса.'
          ],
-         e: [ '<32>{#p/basic}{#n1}* Back again, huh?', "<32>* Sorry bud, I've got nothin' left to sell." ],
+         e: [ '<32>{#p/basic}{#n1}* Назад опять, да?', "<32>* Извини, приятель, но мне больше нечего продавать." ],
          f: [
-            "<32>{#p/human}{#n1!}* (You're carrying too much.)",
+            "<32>{#p/human}{#n1!}* (Ты слишком много на себя берёшь.)",
             "<32>{#p/basic}{#n1}* Them pockets of yours are lookin' kinda full..."
          ],
          g: [
-            "<32>{#p/basic}{#n1}* I heard they're rebooting the comic franchise...",
-            '<32>* The new main character is some snake fella with sunglasses or something.',
-            "<32>* If I was in charge, I'd make a spinoff about that sidekick...",
-            '<32>* Gumbert, I think?'
+            "<32>{#p/basic}{#n1}* Я слышал, они перезапускают франшизу комиксов...",
+            '<32>* Новый главный герой - какой-то парень-змей в солнцезащитных очках или что-то в этом роде.',
+            "<32>* Если бы я был главным, я бы снял дополнительный фильм об этом приятеле...",
+            '<32>* Гумберт, я думаю?'
          ],
          h: [
-            "<32>{#p/basic}{#n1}* Maybe now that we're free, they'll finally make that reboot they were planning.",
-            "<32>* What was it called?\n* Oh, I've already forgotten..."
+            "<32>{#p/basic}{#n1}* Может быть, теперь, когда мы свободны, они наконец-то осуществят ту перезагрузку, которую планировали.",
+            "<32>* Как это называлось?\n* О, я уже забыл..."
          ]
       },
       mananaX: () =>
          [
             [
-               '<32>{#p/basic}{#n1}* Now what was THAT racket?',
-               "<32>{#p/basic}{#n1}* Er, sorry, my eyesight's not what it used to be..."
+               '<32>{#p/basic}{#n1}* Сейчас, что это был за шум?',
+               "<32>{#p/basic}{#n1}* Э-э, извините, у меня зрение уже не то, что раньше..."
             ],
-            [ '<32>{#p/basic}{#n1}* Huh?\n* It happened again?\n* Tch, kids these days...' ],
-            [ '<32>{#p/basic}{#n1}* Kids these days...' ]
+            [ '<32>{#p/basic}{#n1}* Да?\n* Это случилось снова?\n* Ну и дети в наши дни...' ],
+            [ '<32>{#p/basic}{#n1}* Дети в наши дни...' ]
          ][Math.min(roomKills().w_puzzle4++, 2)],
       afrogX: (k: number) =>
          [
-            [ "<32>{#p/basic}{#n1}* If... if you d-do that again... I-I'm gonna have to stop you!" ],
-            [ '<32>{#p/basic}{#n1}* N-no...\n* Not again...' ]
+            [ "<32>{#p/basic}{#n1}* Если... если ты сделаешь это еще раз... Я буду вынуждена остановить тебя!" ],
+            [ '<32>{#p/basic}{#n1}* Н-нет...\n* Нет опять...' ]
          ][k],
       patron: {
          a: pager.create(
@@ -2135,26 +2135,26 @@ export default {
                SAVE.data.n.plot === 72
                   ? 6 <= world.population
                      ? [
-                          "<32>{#p/basic}{#n1}* I'm sad.\n* They took the DJ table to use for some tacky show later.",
-                          '<32>* ... wait, that might actually be kind of cool.'
+                          "<32>{#p/basic}{#n1}* Они заняли столик ди-джея, чтобы позже использовать его для какого-то безвкусного шоу.",
+                          '<32>* ... подожди, это действительно могло бы быть в некотором роде круто.'
                        ]
                      : [
-                          "<32>{#p/basic}{#n1}* I'm sad.\n* The bully who came through here earlier...",
-                          '<32>* ... turned out to be you.',
-                          '<32>* You saved us in the end, but why resort to such violence along the way?'
+                          "<32>{#p/basic}{#n1}* Мне грустно.\n* Хулиган, который проходил здесь раньше...",
+                          '<32>* ... оказалось, это ты.',
+                          '<32>* В конце концов, ты спас нас, но зачем прибегать к такому насилию на этом пути?'
                        ]
                   : SAVE.data.b.napsta_performance
                   ? [
-                       "<32>{#p/basic}{#n1}* I'm sad.\n* Musicians these days are way too hard on themselves...",
-                       '<32>* Personally, I really liked that tune of theirs.',
-                       "<32>* It's a shame we'll probably never get to hear it again.",
-                       '<32>{#n1!}{#n2}* At least you still have steak to keep you company, right? ;)',
-                       '<32>{#n2!}{#n1}* ... not this again.'
+                       "<32>{#p/basic}{#n1}* Мне грустно.\n* Музыканты в наши дни слишком строги к себе...",
+                       '<32>* Лично мне очень понравилась их мелодия.',
+                       "<32>* Жаль, что мы, вероятно, никогда больше этого не услышим.",
+                       '<32>{#n1!}{#n2}* Жаль, что мы, вероятно, никогда больше этого не услышим.',
+                       '<32>{#n2!}{#n1}* ... только не это снова.'
                     ]
                   : [
-                       "<32>{#p/basic}{#n1}* I'm sad.\n* The food these days just gets worse and worse...",
-                       '<32>* I was promised something \"real,\" but all I got was a cheap copy.',
-                       '<32>{#n1!}{#n2}* Hey! ;)\n* Quit bad-mouthing my shop in front of the customers! ;)',
+                       "<32>{#p/basic}{#n1}* Мне грустно.\n* Еда в последнее время становится все хуже и хуже...",
+                       '<32>* Мне обещали что-то \"настоящее\", но все, что я получил, была дешевая копия.',
+                       '<32>{#n1!}{#n2}*Эй! ;)\n* Прекрати поливать грязью мой магазин перед покупателями! ;)',
                        '<32>* Besides, what if your sense of taste is to blame ;)',
                        '<32>{#n2!}{#n1}* ... typical.'
                     ],
@@ -2516,25 +2516,25 @@ export default {
          d: pager.create(
             0,
             () => [
-               "<32>{#p/human}{#n1!}* (You don't have enough G.)",
+               "<32>{#p/human}{#n1!}* (У тебя недостаточно G.)",
                '<32>{#p/basic}{#n1}* Not enough money, huh? ;)',
                SAVE.data.b.napsta_performance
                   ? '<32>{#p/basic}* That\'s alright, lassy ;)\n* Not everyone can afford the \"premium\" ingredients ;)'
                   : "<32>{#p/basic}* That's alright, lassy ;)\n* Just be sure to come back when you've got some ;)"
             ],
-            [ "<32>{#p/human}{#n1!}* (You don't have enough G.)" ]
+            [ "<32>{#p/human}{#n1!}* (У тебя недостаточно G.)" ]
          ),
          e: pager.create(
             0,
             [
-               "<32>{#p/human}{#n1!}* (You're carrying too much.)",
+               "<32>{#p/human}{#n1!}* (Ты слишком много на себя берёшь.)",
                '<32>{#p/basic}{#n1}* Maybe you should come back later ;)'
             ],
-            [ "<32>{#p/human}{#n1!}* (You're carrying too much.)" ]
+            [ "<32>{#p/human}{#n1!}* (Ты слишком много на себя берёшь.)" ]
          ),
          f: [ '<32>{#p/human}{#n1!}* (You got the Sizzli Steak.)' ],
          g: [ '<32>{#p/human}{#n1!}* (You got the Fizzli Soda.)' ],
-         h: [ "<32>{#p/human}{#n1!}* (You're carrying too much.)" ],
+         h: [ "<32>{#p/human}{#n1!}* (Ты слишком много на себя берёшь.)" ],
          i: [
             "<32>{#p/basic}{#n1}* By the way, we're outta stock ;)",
             "<32>* Seems you can't get enough of our stuff ;)",

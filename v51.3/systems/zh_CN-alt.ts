@@ -1005,7 +1005,7 @@ export default {
       settings8c: '隐藏',
       settings9: '摇杆死区',
       settings10: '打开Mod目录',
-      settings11: 'RESTART',
+      settings11: '重启',
 
       sidebar1: '物品',
       sidebar2: '状态',

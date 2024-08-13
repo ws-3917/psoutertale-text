@@ -1080,11 +1080,11 @@ export default {
          "<25>{#p/toriel}{#f/1}* 「源自小麥，圓圓不賴。\n   名字帶水，小孩最愛。\n   （打一單字食物名）」"
       ],
       danger_puzzle5c: [
-         '<32>{#p/human}* (...)\n* （你把答案告訴了托麗爾。）',
+         '<32>{#p/human}* （...）\n* （你把答案告訴了托麗爾。）',
          '<25>{#p/toriel}{#f/0}* ...啊，想法不錯！\n* 學習態度也很積極！'
       ],
       danger_puzzle5d: [
-         '<32>{#p/human}* (...)\n* （你告訴托麗爾，你猜不出來。）',
+         '<32>{#p/human}* （...）\n* （你告訴托麗爾，你猜不出來。）',
          '<25>{#p/toriel}{#f/1}* ...怎麼了，孩子？\n* 有什麼心事嗎？',
          '<25>{#f/5}* ...嗯...',
          '<25>{#f/0}* 喔，好吧。\n* 我來幫你解開這個迷題吧。'
@@ -1901,7 +1901,7 @@ export default {
          ],
          [
             '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
-            '<32>{#p/basic}* (...)',
+            '<32>{#p/basic}* （...）',
             '<32>{#p/human}* (You hear heavy panting on the other end of the phone.)',
             '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
             '<32>{#p/human}* (You hear a distant voice.)',
@@ -1911,7 +1911,7 @@ export default {
          ],
          [
             '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
-            '<32>{#p/basic}* (...)',
+            '<32>{#p/basic}* （...）',
             '<32>{#p/human}* (It sounds like a small, white dog is sleeping on the phone.)',
             '<32>{#p/basic}* (Snore... snore...)',
             '<32>{#p/human}* (You hear a distant voice.)',
@@ -1924,7 +1924,7 @@ export default {
          ],
          [
             '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
-            '<32>{#p/basic}* (...)',
+            '<32>{#p/basic}* （...）',
             '<32>{#p/basic}* (Achoo!)',
             '<32>{#p/human}* (It sounds like a small, white dog sneezing in its sleep.)',
             '<25>* (You hear a distant voice.)',
@@ -1942,7 +1942,7 @@ export default {
             '<32>{#p/basic}* (Whimper... whimper...)',
             '<25>{#p/toriel}* There, there...\n* I will find another cell phone for you.',
             '<25>{#f/1}* Would that be alright?',
-            '<32>{#p/basic}* (...)',
+            '<32>{#p/basic}* （...）',
             '<32>{#s/bark}{#p/event}* 汪！',
             '<25>{#p/toriel}* Glad to hear it.',
             '<32>{#p/human}* (The dog could be heard walking away.)',
@@ -2419,12 +2419,12 @@ export default {
                  ...(!SAVE.isCanon() || SAVE.data.b.oops
                     ? []
                     : [
-                         "<32>{#p/human}* (...)\n* （抽屜裡好像藏著一把鑰匙。）",
+                         "<32>{#p/human}* （...）\n* （抽屜裡好像藏著一把鑰匙。）",
                          choicer.create('* （拿走鑰匙嗎？）', "拿走", "不拿")
                       ])
               ],
       socks3: () => [
-         "<32>{#p/human}* (...)\n* （抽屜裡好像藏著一把鑰匙。）",
+         "<32>{#p/human}* （...）\n* （抽屜裡好像藏著一把鑰匙。）",
          choicer.create('* （拿走鑰匙嗎？）', "拿走", "不拿")
       ],
       socks4: [ '<32>{#p/human}* （你打算不這麼做。）' ],
@@ -4465,14 +4465,14 @@ export default {
    },
    i_pie: {
       battle: {
-         description: '一片自家做的奶油糖肉桂派。',
+         description: '一小塊自家做的奶油糖肉桂派。',
          name: '派'
       },
       drop: [ '<32>{#p/human}* （你把奶油糖肉桂派扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （99 HP。）' ]
-            : [ '<32>{#p/basic}* 「奶油糖肉桂派」 回復99 HP\n* 一片自家做的奶油糖肉桂派。' ],
+            : [ '<32>{#p/basic}* 「奶油糖肉桂派」 回復99 HP\n* 一小塊自家做的奶油糖肉桂派。' ],
       name: '奶油糖肉桂派',
       use: [ '<32>{#p/human}* （你吃掉了奶油糖肉桂派。）' ]
    },

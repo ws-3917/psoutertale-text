@@ -370,7 +370,7 @@ export default {
          [
             '§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§',
             'Alden',
-            '§fill=#808080§For being there for me when I\nneed someone to lean on, and\nteaching me life lessons that\nhave made me a better person.§fill=#fff§'
+            '§fill=#808080§За то, что был рядом со мной,\nкогда я нуждался в поддержке, и\nпреподал мне жизненные уроки,\nкоторые сделали меня лучше.§fill=#fff§'
          ],
          [
             '§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§',

@@ -2171,7 +2171,7 @@ msgid "OPEN MOD FOLDER"
 msgstr "打開Mod目錄"
 
 msgid "RESTART"
-msgstr ""
+msgstr "重啟"
 
 msgid "ITEM"
 msgstr "物品"

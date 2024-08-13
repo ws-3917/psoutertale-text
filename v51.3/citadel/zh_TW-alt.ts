@@ -22,105 +22,105 @@ export default {
             '<32>{#p/human}* (You call out for help, but nobody comes.)',
             '<32>{#p/human}* (You wish you could make this all just go away.)'
          ],
-         [ '<32>{#p/human}* (...)', '<32>{#p/human}* (You take a deep breath, and ready yourself for the end.)' ],
-         [ '<32>{#p/human}* (...)', '<32>{#p/human}* (You know what must be done.)' ]
+         [ '<32>{#p/human}* （...）', '<32>{#p/human}* (You take a deep breath, and ready yourself for the end.)' ],
+         [ '<32>{#p/human}* （...）', '<32>{#p/human}* (You know what must be done.)' ]
       ],
       hypertext: {
-         count: 'REBOOT IN $(x)',
+         count: '$(x)秒後重啟',
          death1: [ '{#p/human}（你深吸了一口氣。）', "（你充滿了決心。）" ],
          death2: [
-            "{#p/human}{#v/1}{@fill=#42fcff}It'll be alright in the end...",
-            '{@fill=#42fcff}Just take it steady...'
+            "{#p/human}{#v/1}{@fill=#42fcff}失敗了沒關係...",
+            '{@fill=#42fcff}沉住氣，再來一次吧...'
          ],
-         death3: [ '{#p/human}{#v/2}{@fill=#ff993d}Now is no time to give up.', '{@fill=#ff993d}Get back out there!' ],
-         death4: [ "{#p/human}{#v/3}{@fill=#003cff}You know what you're capable of.", "{@fill=#003cff}Don't hold back!" ],
+         death3: [ '{#p/human}{#v/2}{@fill=#ff993d}可別在這時候就放棄。', '{@fill=#ff993d}起來，繼續作戰！' ],
+         death4: [ "{#p/human}{#v/3}{@fill=#003cff}相信自己能行的。", "{@fill=#003cff}別退縮！" ],
          death5: [
-            '{#p/human}{#v/4}{@fill=#d535d9}You know you can survive this...',
-            '{@fill=#d535d9}Keep moving forward.'
+            '{#p/human}{#v/4}{@fill=#d535d9}活過這輪不成問題...',
+            '{@fill=#d535d9}繼續前進。'
          ],
          death6: [
-            "{#p/human}{#v/5}{@fill=#00c000}You're this world's last hope...",
-            '{@fill=#00c000}Believe in yourself!'
+            "{#p/human}{#v/5}{@fill=#00c000}整個世界都指望你了...",
+            '{@fill=#00c000}相信自己！'
          ],
-         death7: [ "{#p/human}{#v/6}{@fill=#faff29}It's only a matter of time." ],
+         death7: [ "{#p/human}{#v/6}{@fill=#faff29}他早晚會敗下陣來。" ],
          cyan1: [
-            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.',
+            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}某個迷失靈魂呼喚著你。',
             '<99>{*}{@fill=#faff29}依靠{@wordify=耐心/勇氣/正直/毅力/善良/正義}耐心{@wordify=}，將會有望逃脫。',
-            '<99>{*}{#p/human}{#v/1}{@fill=#42fcff}You must reach my Little Dipper...',
-            '<99>{*}{#p/human}(Press [Z] to teleport.)'
+            '<99>{*}{#p/human}{#v/1}{@fill=#42fcff}幫我拿回小熊座...',
+            '<99>{*}{#p/human}（按[Z]傳送。）'
          ],
          cyan2: [
-            '<99>{*}{#p/human}{#v/1}{@fill=#42fcff}The entity lies in wait.',
-            '<99>{*}{@fill=#42fcff}With PATIENCE, you may survive it...'
+            '<99>{*}{#p/human}{#v/1}{@fill=#42fcff}那個存在，正伺機而動。',
+            '<99>{*}{@fill=#42fcff}有了耐心，你就能挺住不敗...'
          ],
          orange1: [
-            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.',
+            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}某個迷失靈魂呼喚著你。',
             '<99>{*}{@fill=#faff29}憑藉{@wordify=勇氣/正直/毅力/善良/正義}勇氣{@wordify=}，或將擺脫束縛。',
-            "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}Don't leave without my Power Glove!",
-            '<99>{*}{#p/human}(Press [Z] to explode.)'
+            "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}別忘了我的超能手套！",
+            '<99>{*}{#p/human}（按[Z]釋放衝擊波。）'
          ],
          orange2: [
-            '<99>{*}{#p/human}{#v/2}{@fill=#ff993d}The entity looms above...',
-            '<99>{*}{@fill=#ff993d}With BRAVERY, you may overcome it!'
+            '<99>{*}{#p/human}{#v/2}{@fill=#ff993d}那個存在，正不斷靠近...',
+            '<99>{*}{@fill=#ff993d}有了勇氣，就能重拳出擊！'
          ],
          blue1: [
-            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.',
+            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}某個迷失靈魂呼喚著你。',
             '<99>{*}{@fill=#faff29}堅守{@wordify=正直/毅力/善良/正義}正直{@wordify=}，必定能夠逃脫。',
-            "<99>{*}{#p/human}{#v/3}{@fill=#003cff}I'll need my trusty Hoverboots."
+            "<99>{*}{#p/human}{#v/3}{@fill=#003cff}幫我帶回我最信賴的懸浮靴。"
          ],
          blue2: [
-            '<99>{*}{#p/human}{#v/3}{@fill=#003cff}The entity holds its position.',
-            '<99>{*}{@fill=#003cff}With INTEGRITY, you can surpass it.'
+            '<99>{*}{#p/human}{#v/3}{@fill=#003cff}那個存在，正立於一處。',
+            '<99>{*}{@fill=#003cff}堅守正直，你就能迎難而上。'
          ],
          purple1: [
-            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.',
+            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}某個迷失靈魂呼喚著你。',
             '<99>{*}{@fill=#faff29}擁有{@wordify=毅力/善良/正義}毅力{@wordify=}，定可擺脫束縛。',
-            '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}A single Datapad can go a long way.'
+            '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}一臺平板電腦就能伴你遠行。'
          ],
          purple2: [
-            '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}The entity is losing its hold.',
-            '<99>{*}{@fill=#d535d9}With PERSEVERANCE, you can outlast it!'
+            '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}那個存在，已不再穩定。',
+            '<99>{*}{@fill=#d535d9}擁有毅力，怎會輕言放棄？'
          ],
          green1: [
-            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.',
+            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}某個迷失靈魂呼喚著你。',
             '<99>{*}{@fill=#faff29}心懷{@wordify=善良/正義}善良{@wordify=}，終能衝破枷鎖。',
-            '<99>{*}{#p/human}{#v/5}{@fill=#00c000}The Tablaphone will set me free!'
+            '<99>{*}{#p/human}{#v/5}{@fill=#00c000}請用那架塔布拉木琴解救我！'
          ],
          green2: [
-            '<99>{*}{#p/human}{#v/5}{@fill=#00c000}The entity is destabilizing...',
-            '<99>{*}{@fill=#00c000}With KINDNESS, you can outshine it...'
+            '<99>{*}{#p/human}{#v/5}{@fill=#00c000}那個存在，正土崩瓦解...',
+            '<99>{*}{@fill=#00c000}心懷善意，定會立於不敗之地...'
          ],
          yellow: [
-            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}The lost SOULs called out to you.',
-            '<99>{*}{@fill=#faff29}With JUSTICE, you have answered.',
-            '<99>{*}{@fill=#faff29}You have freed them of their prisons.',
-            '<99>{*}{#p/human}{#v/1}{@fill=#42fcff}At last.',
-            "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}You're a hero!",
-            "<99>{*}{#p/human}{#v/3}{@fill=#003cff}You've done the right thing.",
-            '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}Thank you...',
-            "<99>{*}{#p/human}{#v/5}{@fill=#00c000}You're the best...!",
-            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}Our power is yours now.',
-            '<99>{*}{@fill=#faff29}With it, the entity will collapse.',
-            '<99>{*}{@fill=#faff29}Then...',
-            '<99>{*}{@fill=#faff29}... you will do what you must.',
-            '<99>{*}{@fill=#faff29}Now, end this!',
-            '<99>{*}{#p/human}(Press [Z] to shoot.)'
+            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}迷失的靈魂呼喚了你。',
+            '<99>{*}{@fill=#faff29}秉持正義，你一一回應。',
+            '<99>{*}{@fill=#faff29}將他們從牢籠中解放。',
+            '<99>{*}{#p/human}{#v/1}{@fill=#42fcff}終於啊。',
+            "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}大英雄！",
+            "<99>{*}{#p/human}{#v/3}{@fill=#003cff}幹得好。",
+            '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}謝謝你...',
+            "<99>{*}{#p/human}{#v/5}{@fill=#00c000}太棒了...！",
+            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}我們的力量歸你了。',
+            '<99>{*}{@fill=#faff29}有了這些力量，就能徹底擊敗那東西。',
+            '<99>{*}{@fill=#faff29}事成之後...',
+            '<99>{*}{@fill=#faff29}...去做你必須要做的事吧。',
+            '<99>{*}{@fill=#faff29}現在，結果了它！',
+            '<99>{*}{#p/human}（按[Z]射擊。）'
          ],
-         boot: 'REBOOTING...',
-         init: 'READY',
-         warn: 'WARNING...',
-         file1saved: 'FILE 1 SAVED',
-         file1loaded: 'FILE 1 LOADED',
-         file2saved: 'FILE 2 SAVED',
-         file2loaded: 'FILE 2 LOADED',
-         file3saved: 'FILE 3 SAVED',
-         file3loaded: 'FILE 3 LOADED',
-         file4saved: 'FILE 4 SAVED',
-         file4loaded: 'FILE 4 LOADED',
-         file5saved: 'FILE 5 SAVED',
-         file5loaded: 'FILE 5 LOADED',
-         file6saved: 'FILE 6 SAVED',
-         file6loaded: 'FILE 6 LOADED'
+         boot: '重啟中...',
+         init: '已就位',
+         warn: '警告...',
+         file1saved: '存檔1 已儲存',
+         file1loaded: '存檔1 已載入',
+         file2saved: '存檔2 已儲存',
+         file2loaded: '存檔2 已載入',
+         file3saved: '存檔3 已儲存',
+         file3loaded: '存檔3 已載入',
+         file4saved: '存檔4 已儲存',
+         file4loaded: '存檔4 已載入',
+         file5saved: '存檔5 已儲存',
+         file5loaded: '存檔5 已載入',
+         file6saved: '存檔6 已儲存',
+         file6loaded: '存檔6 已載入'
       },
       noequip: [ '<32>{#p/human}* （你打算不這麼做。）' ],
       genotext: {
@@ -1338,31 +1338,31 @@ export default {
             '<25>{*}{#e/twinkly/16}Of course you are!'
          ],
          please1: [
-            '<25>{*}{#p/human}(...)',
+            '<25>{*}{#p/human}（...）',
             '<25>{*}(But still, the option remains.)',
             "<25>{*}(The option to erase everything you've ever known.)",
             '<25>{*}(The option to bring it all back to zero.)'
          ],
          please2: [
-            '<25>{*}{#p/human}(...)',
+            '<25>{*}{#p/human}（...）',
             '<25>{*}(But you only want to live your life.)',
             '<25>{*}(You only want to see the future take hold.)',
             '<25>{*}(You only want to be yourself.)'
          ],
          please3: [
-            '<25>{*}{#p/human}(...)',
+            '<25>{*}{#p/human}（...）',
             '<25>{*}(You thank the one beyond for what they have done...)',
             '<25>{*}(And ask that you be allowed to carry on.)'
          ],
-         forget1: [ '<25>{*}{#p/human}(...)', "<25>{*}(You're so alone.)" ],
-         forget2: [ '<25>{*}{#p/human}(...)', "<25>{*}(You're so afraid.)" ],
+         forget1: [ '<25>{*}{#p/human}（...）', "<25>{*}(You're so alone.)" ],
+         forget2: [ '<25>{*}{#p/human}（...）', "<25>{*}(You're so afraid.)" ],
          forget3: [
-            '<25>{*}{#p/human}(...)',
+            '<25>{*}{#p/human}（...）',
             "<25>{*}(You'd do anything to get another chance...)",
             "<25>{*}(... even if it means forgetting everything you've ever known.)"
          ],
          forget4: [
-            '<25>{*}{#p/human}(...)',
+            '<25>{*}{#p/human}（...）',
             "<25>{*}(But the choice wasn't yours to make.)",
             "<25>{*}(It's someone else's choice, now.)"
          ],
@@ -2339,7 +2339,7 @@ export default {
          choice8: [
             '<25>{#p/asgore}{#f/1}* ...',
             '<25>{#p/asgore}{#f/2}* So you have arrived.',
-            '<32>{#p/human}* (...)',
+            '<32>{#p/human}* （...）',
             '<25>{#p/asgore}{#f/1}* ...\n* I suppose you would not have much to say.',
             '<25>{#f/2}* Unlike myself, who has many questions to ask of you.',
             '<25>{#f/4}* Yet, despite our differences...',
@@ -2407,39 +2407,39 @@ export default {
                world.bad_robot || world.trueKills > 29
                   ? world.alphys_percieved_kills < 20
                      ? [
-                          '<25>{*}{#p/twinkly}{#f/8}* Indecisive, eh Asgore?',
-                          '<25>{*}{#f/5}* I know.\n* Choices can be difficult sometimes.',
-                          "<25>{*}{#f/11}* But that's okay!",
-                          "<25>{*}{#f/7}* You won't have to make them anymore.",
-                          '<25>{*}{#p/asgore}{#g/asgoreBound}* ... what are you...',
-                          '<25>{*}* ... doing...',
-                          '<25>{*}{#p/twinkly}{#f/8}* Oh, nothing, Asgore...'
+                          '<25>{*}{#p/twinkly}{#f/8}* 是不是拿不定主意呀，\n  親愛的艾斯戈爾？',
+                          '<25>{*}{#f/5}* 我理解。\n* 誰都有猶豫不決的時候。',
+                          "<25>{*}{#f/11}* 但沒關係！",
+                          "<25>{*}{#f/7}* 你再也不用操心啦！",
+                          '<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在...',
+                          '<25>{*}* ...幹...什麼...',
+                          '<25>{*}{#p/twinkly}{#f/8}* 哎呀，我什麼都沒幹呀，\n  艾斯戈爾...'
                        ]
                      : [
-                          '<25>{*}{#p/twinkly}{#f/5}* Golly, Asgore...',
-                          "<25>{*}{#f/11}* You could've killed them, and nobody would have complained.",
-                          "<25>{*}{#f/7}* But now, you've missed your chance.",
-                          '<25>{*}{#p/asgore}{#g/asgoreBound}* ... what are you...',
-                          '<25>{*}* ... doing...',
-                          "<25>{*}{#p/twinkly}{#f/5}* Killing people isn't THAT bad, Asgore...",
-                          '<25>{*}{#f/9}* You just have to learn how to have fun with it!'
+                          '<25>{*}{#p/twinkly}{#f/5}* 哎呀呀，艾斯戈爾...',
+                          "<25>{*}{#f/11}* 你本可以直接把人殺了，\n  那就皆大歡喜。",
+                          "<25>{*}{#f/7}* 但現在，你再也沒機會嚕。",
+                          '<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在...',
+                          '<25>{*}* ...幹...什麼...',
+                          "<25>{*}{#p/twinkly}{#f/5}* 殺人，可沒你想得\n  那麼傷天害理喔，艾斯戈爾...",
+                          '<25>{*}{#f/9}* 就讓我好好教你\n  怎麼才能殺得又嗨又爽吧！'
                        ]
                   : SAVE.data.b.ultrashortcut
                   ? [
-                       '<25>{*}{#p/twinkly}{#f/5}* Well, well...',
-                       "<26>{*}{#f/11}* Weren't you clever to get here so quickly.",
-                       '<25>{*}{#p/asgore}{#g/asgoreBound}* ... what are you...',
-                       '<25>{*}* ... doing...',
-                       "<25>{*}{#p/twinkly}{#f/5}* Didja think you'd be able to slip past me that easily?",
-                       "<25>{*}{#f/7}* Don't be ridiculous."
+                       '<25>{*}{#p/twinkly}{#f/5}* 哎呀，哎呀...',
+                       "<26>{*}{#f/11}* 跑太快，把腦子都跑丟了。",
+                       '<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在...',
+                       '<25>{*}* ...幹...什麼...',
+                       "<25>{*}{#p/twinkly}{#f/5}* 想靠那點小把戲矇混過關？",
+                       "<25>{*}{#f/7}* 真當我眼瞎呢。"
                     ]
                   : [
-                       '<25>{*}{#p/twinkly}{#f/5}* Howdy, Asgore.',
-                       "<26>{*}{#f/11}* There's a lot that needs done before we can save monsterkind.",
-                       '<25>{*}{#p/asgore}{#g/asgoreBound}* ... what are you...',
-                       '<25>{*}* ... doing...',
-                       '<25>{*}{#p/twinkly}{#f/5}* I know this came out of nowhere, but come on!',
-                       "<25>{*}{#f/7}* I'm only trying to have fun, Asgore."
+                       '<25>{*}{#p/twinkly}{#f/5}* 哈囉，艾斯戈爾！',
+                       "<26>{*}{#f/11}* 別這麼急著拯救怪物嘛，\n  好玩的事多著呢。",
+                       '<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在...',
+                       '<25>{*}* ...幹...什麼...',
+                       '<25>{*}{#p/twinkly}{#f/5}* 我知道\n  這一下把你嚇得不輕，\n  但別氣餒喔！',
+                       "<25>{*}{#f/7}* 你看，這多好玩啊。\n  是不是呀，艾斯戈爾？"
                     ],
                [
                   "<25>{*}{#p/twinkly}{#f/7}* Like I'd ever let you escape so easily.",
@@ -2447,8 +2447,8 @@ export default {
                      ? '<25>{*}{#f/8}* Poor $(name)... always so eager to take the shortcuts in life...'
                      : '<25>{*}{#f/8}* Poor $(name)... always so desperate to have things your way...',
                   '<25>{*}{#f/5}* But not this time.',
-                  '<25>{*}{#p/asgore}{#g/asgoreBound}* ... what are you...',
-                  '<25>{*}* ... doing...',
+                  '<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在...',
+                  '<25>{*}* ...幹...什麼...',
                   "<25>{*}{#p/twinkly}{#f/5}* From now on, I'll be the one calling the shots.",
                   '<25>{*}{#f/7}* And you just have to live with it.'
                ],
@@ -2458,140 +2458,140 @@ export default {
                   SAVE.data.b.ultrashortcut
                      ? "<25>{*}{#f/7}* No matter how fast you try to go, I'll always be one step ahead."
                      : "<25>{*}{#f/7}* No matter what you do, I'll always be one step ahead.",
-                  '<25>{*}{#p/asgore}{#g/asgoreBound}* ... what are you...',
-                  '<25>{*}* ... doing...',
+                  '<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在...',
+                  '<25>{*}* ...幹...什麼...',
                   "<25>{*}{#p/twinkly}{#f/5}* Shh... it's alright.",
                   '<25>{*}{#f/5}* My friend $(name) here just needs to be taught a lesson.'
                ]
             ][Math.min(SAVE.flag.n.neutral_twinkly_loop1++, 2)],
          bad2: [
-            "<25>{*}{#g/twinklyNice}* ... by the way, my name's Twinkly.{^30}{%}",
-            '<25>{*}{#g/twinklySassy}* Twinkly the star.{^30}{%}'
+            "<25>{*}{#g/twinklyNice}* ...哎呀，忘了自我介紹了。\n  我叫閃閃。{^30}{%}",
+            '<25>{*}{#g/twinklySassy}* 閃亮明星：閃閃。{^30}{%}'
          ],
-         bad3: [ '<25>{*}{#p/asgore}{#g/asgoreBreak1}* AAAARGH...!{^999}' ],
+         bad3: [ '<25>{*}{#p/asgore}{#g/asgoreBreak1}* 啊啊啊啊...！{^999}' ],
          bad4: [
-            "<25>{*}{#p/twinkly}{#g/twinklyWink}* Gosh, you're so cute when you're screaming in agony!{^30}{%}",
+            "<25>{*}{#p/twinkly}{#g/twinklyWink}* 哎呦~ 你痛苦的尖叫\n  真是天籟之音啊，\n  太好聽啦！{^30}{%}",
             '<25>{*}{#p/asgore}{#g/asgoreBreak1}* ...{^10}{%}'
          ],
-         bad5: [ "<25>{*}{#p/twinkly}{#f/7}* Let's hear it again.{^20}{%}" ],
-         bad6: [ '<25>{*}{#p/asgore}{#g/asgoreBreak2}* AAAAAAAARGH...!{^999}' ],
-         bad7: [ '<25>{*}{#p/twinkly}{#f/11}* And again!{^5}{%}' ],
-         bad8: [ '<25>{*}{#p/twinkly}{#g/twinklyEvil}{#v/1}* And again!!!{^5}{%}' ],
-         bad9: [ '<25>{*}{#p/twinkly}{#g/twinklyGrin}{#v/1}* AND AGAIN!!!{^5}{%}' ],
-         bad10: [ '<25>{*}{#p/twinkly}{#g/twinklyTwisted}{#v/1}* AND AGAIN!!!{^5}{%}' ],
+         bad5: [ "<25>{*}{#p/twinkly}{#f/7}* 讓我們再欣賞一次。{^20}{%}" ],
+         bad6: [ '<25>{*}{#p/asgore}{#g/asgoreBreak2}* 啊啊啊啊啊啊...！{^999}' ],
+         bad7: [ '<25>{*}{#p/twinkly}{#f/11}* 給我叫！{^5}{%}' ],
+         bad8: [ '<25>{*}{#p/twinkly}{#g/twinklyEvil}{#v/1}* 使勁叫！！！{^5}{%}' ],
+         bad9: [ '<25>{*}{#p/twinkly}{#g/twinklyGrin}{#v/1}* 叫啊！！！{^5}{%}' ],
+         bad10: [ '<25>{*}{#p/twinkly}{#g/twinklyTwisted}{#v/1}* 叫啊！！！{^5}{%}' ],
          bad11: [
-            '<25>{*}{#p/twinkly}{#g/twinklyCrazed}{#v/1}* AND AGAIN AND AGAIN AND AGAIN AND AGAIN AND AGAIN AND AGAIN AND {%}',
-            '<99>{*}{#p/twinkly}{#g/twinklyBroken}{#v/1}* AAAAHAHAHAHAHAHAHAHAHAHAHAH\n  AHAHAHAHAHAHAHAHAHAHAHAHAHA\n  HAHAHAHAHAHAHAHAHAHAHAHAHAH{^20}{%}'
+            '<25>{*}{#p/twinkly}{#g/twinklyCrazed}{#v/1}* 叫啊叫啊叫啊叫啊叫啊叫啊\n叫啊叫啊叫啊叫啊叫啊叫啊\n叫啊叫啊叫啊叫啊叫啊叫啊 {%}',
+            '<99>{*}{#p/twinkly}{#g/twinklyBroken}{#v/1}* 啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈\n  哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈\n  哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈{^20}{%}'
          ],
-         bad12: [ '<25>{*}{#p/twinkly}{#g/twinklyDead}{#v/0}* ...{^80}{%}', '<25>{*}* ... die.{^10}{%}' ],
+         bad12: [ '<25>{*}{#p/twinkly}{#g/twinklyDead}{#v/0}* ...{^80}{%}', '<25>{*}* ...死吧。{^10}{%}' ],
          bad13: () => [
             ...[
                [
-                  '{#p/twinkly}{#v/1}Hello, $(name).{^100}{%}',
-                  '{#p/twinkly}{#v/1}Welcome to your new reality.{^100}{%}'
+                  '{#p/twinkly}{#v/1}哈囉，$(name)。{^100}{%}',
+                  '{#p/twinkly}{#v/1}歡迎來到新時空。{^100}{%}'
                ],
                [
-                  '{#p/twinkly}{#v/1}Welcome back, $(name).{^100}{%}',
-                  "{#p/twinkly}{#v/1}It's good to see you here again.{^100}{%}"
+                  '{#p/twinkly}{#v/1}$(name)，歡迎回來。{^100}{%}',
+                  "{#p/twinkly}{#v/1}好開心喔，又見到你了。{^100}{%}"
                ],
-               [ '{#p/twinkly}{#v/1}Oh, $(name)...{^100}{%}', '{#p/twinkly}{#v/1}How could you abandon me so.{^100}{%}' ]
+               [ '{#p/twinkly}{#v/1}哎呦，$(name)...{^100}{%}', '{#p/twinkly}{#v/1}你膽可真肥，竟敢拋棄我。{^100}{%}' ]
             ][Math.min(SAVE.flag.n.neutral_twinkly_loop2, 2)],
-            '{#p/twinkly}{#v/1}Do you feel... alone?{^100}{%}',
-            '{#p/twinkly}{#v/1}Do you feel... trapped?{^100}{%}',
-            '{#p/twinkly}{#v/1}Hee hee hee...{^100}{%}',
-            "{#p/twinkly}{#v/1}... there's no escape!{^100}{%}",
-            '{#p/twinkly}{#v/1}Asgore\'s precious \"archive...\"{^100}{%}',
-            "{#p/twinkly}{#v/1}I've brought it into the real world!{^100}{%}",
-            '{#p/twinkly}{#v/1}All you can do is walk forward...{^100}{%}',
-            '{#p/twinkly}{#v/1}Closer, and closer...{^100}{%}',
-            "{#p/twinkly}{#v/1}... you aren't afraid, are you?{^100}{%}",
-            "{#p/twinkly}{#v/1}You aren't going to run away?{^100}{%}",
-            '{#p/twinkly}{#v/1}Good.{^100}{%}',
-            '{#p/twinkly}{#v/1}Very good.{^100}{%}',
-            '{#p/twinkly}{#v/1}You are a very good sibling.{^100}{%}',
+            '{#p/twinkly}{#v/1}嘻嘻嘻...{^100}{%}',
+            '{#p/twinkly}{#v/1}是不是... 很孤獨呀？{^100}{%}',
+            '{#p/twinkly}{#v/1}是不是... 很想逃呀？{^100}{%}',
+            "{#p/twinkly}{#v/1}...想逃？沒門！{^100}{%}",
+            '{#p/twinkly}{#v/1}艾斯戈爾把那「檔案」當寶一樣寵著...{^100}{%}',
+            "{#p/twinkly}{#v/1}那就讓你也好好享受享受它吧！{^100}{%}",
+            '{#p/twinkly}{#v/1}你只能往前...{^100}{%}',
+            '{#p/twinkly}{#v/1}再過來點，再過來點...{^100}{%}',
+            "{#p/twinkly}{#v/1}...你不怕我嗎？{^100}{%}",
+            "{#p/twinkly}{#v/1}還不逃？{^100}{%}",
+            '{#p/twinkly}{#v/1}好。{^100}{%}',
+            '{#p/twinkly}{#v/1}太好了。{^100}{%}',
+            '{#p/twinkly}{#v/1}真不愧是我的好兄弟。{^100}{%}',
             '{#p/twinkly}{#v/1}...{^100}{%}',
-            "{#p/twinkly}{#v/1}You're almost there...!{^100}{%}",
-            '{#p/twinkly}{#v/1}Just a little farther, $(name)...{^100}{%}'
+            "{#p/twinkly}{#v/1}快了...！{^100}{%}",
+            '{#p/twinkly}{#v/1}$(name)，馬上就到了...{^100}{%}'
          ],
          bad14: [
-            '{#p/human}{#v/1}{@fill=#42fcff}Your long nightmare is over now.{^80}{%}',
-            '{#p/human}{#v/2}{@fill=#ff993d}Your world will be restored!{^80}{%}',
-            '{#p/human}{#v/3}{@fill=#003cff}But first, you must make a choice.{^80}{%}',
-            '{#p/human}{#v/4}{@fill=#d535d9}Will you destroy what lies ahead?{^80}{%}',
-            '{#p/human}{#v/5}{@fill=#00c000}Or will you show compassion?{^80}{%}',
-            '{#p/human}{#v/6}{@fill=#faff29}The judgement is yours to make.{^80}{%}'
+            '{#p/human}{#v/1}{@fill=#42fcff}漫長的惡夢已然消散。{^80}{%}',
+            '{#p/human}{#v/2}{@fill=#ff993d}熟悉的世界再度出現！{^80}{%}',
+            '{#p/human}{#v/3}{@fill=#003cff}重要的抉擇擺在眼前。{^80}{%}',
+            '{#p/human}{#v/4}{@fill=#d535d9}眼前巨物，毀於一旦？{^80}{%}',
+            '{#p/human}{#v/5}{@fill=#00c000}心中仁慈，盡數展現？{^80}{%}',
+            '{#p/human}{#v/6}{@fill=#faff29}戰或至善，由你決斷。{^80}{%}'
          ],
          bad15: [
             [
                '{*}{#p/twinkly}...',
-               '{*}... what are you doing?',
-               "{*}Do you really think I've learned...",
-               '{*}... anything from this?',
-               '{*}No.'
+               '{*}...你在做什麼？',
+               "{*}你以為我會...",
+               '{*}...學到教訓嗎？',
+               '{*}想得美。'
             ],
-            [ "{*}{#p/twinkly}If you don't end this now...", "{*}I'll come back." ],
-            [ "{*}{#p/twinkly}I'll consume you." ],
-            [ "{*}{#p/twinkly}I'll destroy everything." ],
-            [ "{*}{#p/twinkly}I'll make it so you never existed!" ],
+            [ "{*}{#p/twinkly}你要是現在不動手...", "{*}終有一天，我會回來。" ],
+            [ "{*}{#p/twinkly}我會把你幹掉。" ],
+            [ "{*}{#p/twinkly}我會摧毀一切。" ],
+            [ "{*}{#p/twinkly}我會將你的存在徹底抹去！" ],
             [ '{*}{#p/twinkly}...' ],
             [ '{*}{#p/twinkly}...？' ],
-            [ '{*}{#p/twinkly}... why?' ],
-            [ '{*}{#p/twinkly}... why are you being...', '{*}{#p/twinkly}... so nice to me?' ],
-            [ "{*}{#p/twinkly}... I can't understand..." ],
-            [ "{*}{#p/twinkly}I can't understand!" ]
+            [ '{*}{#p/twinkly}...為什麼？' ],
+            [ '{*}{#p/twinkly}...為什麼...', '{*}{#p/twinkly}...要對我這麼好？' ],
+            [ "{*}{#p/twinkly}...我不明白..." ],
+            [ "{*}{#p/twinkly}我不明白！" ]
          ],
-         bad16a: [ "{*}{#p/twinkly}{#i/4}... I just can't understand...{^30}{%}" ],
-         bad16b: [ '{*}{#p/twinkly}{#i/3}Goodbye, $(name).{^30}{%}' ],
+         bad16a: [ "{*}{#p/twinkly}{#i/4}...我就是...不明白...{^30}{%}" ],
+         bad16b: [ '{*}{#p/twinkly}{#i/3}再見，$(name)。{^30}{%}' ],
          bad17: [
             
-            '<32>{*}{#p/event}{#i/5}Twinkly ran away.'
+            '<32>{*}{#p/event}{#i/5}閃閃逃走了。'
          ],
          sad0: () =>
-            world.runaway ? [ '<25>{#p/asriel1}{#f/30}* I surrender!' ] : [ "<25>{#p/asriel1}{#f/25}* I'm so sorry." ],
+            world.runaway ? [ '<25>{#p/asriel1}{#f/30}* 我投降！' ] : [ "<25>{#p/asriel1}{#f/25}* 對不起。" ],
          sad1: () => [
             ...(world.runaway
-               ? [ '<25>{#p/asriel1}{#f/23}* I guess you win again, huh, $(name)?' ]
+               ? [ '<25>{#p/asriel1}{#f/23}* 看樣子，$(name)，\n  你又贏了。' ]
                : [
-                    "<25>{#p/asriel1}{#f/23}* I always was a crybaby, wasn't I, $(name)?",
-                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* Asriel...' ])
+                    "<25>{#p/asriel1}{#f/23}* $(name)，\n  我一直都是個愛哭鬼，是吧？",
+                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* 艾斯利爾...' ])
                  ]),
             '<25>{#p/asriel1}{#f/22}* ...',
-            '<25>{#f/21}* ... I know.',
-            "<25>{#f/23}* You're not actually $(name), are you?",
-            "<25>{#f/22}* $(name)'s been gone for a long time.",
+            '<25>{#f/21}* ...我知道的。',
+            "<25>{#f/23}* 你並不是$(name)，對吧？",
+            "<25>{#f/22}* 很久以前，$(name)就死了。",
             '<25>{#f/15}* ...',
-            '<25>{#f/15}* Um... what...',
-            '<25>{#f/10}* What IS your name?'
+            '<25>{#f/15}* 嗯... 那個...',
+            '<25>{#f/10}* 你叫什麼名字呢？'
          ],
          sad2: () => [
-            '<32>{#p/human}* (...)\n* (You tell Asriel your name.)',
+            '<32>{#p/human}* （...）\n* （你把你的名字告訴了艾斯利爾。）',
             ...(world.runaway
                ? [
-                    '<25>{#p/asriel1}{#f/21}* Frisk, huh?',
-                    '<25>{#f/23}* Well, I guess you win again, Frisk.',
+                    '<25>{#p/asriel1}{#f/21}* 是叫弗裡斯克嗎？',
+                    '<25>{#f/23}* 嗯，這次你又贏了，\n  弗裡斯克。',
                     '<25>{#f/22}* ...',
-                    "<25>{#f/13}* It's strange...",
-                    "<25>{#f/16}* As a star, I'd forgotten how it felt to be... truly afraid.",
-                    "<25>{#f/15}* I'd gotten used to making other people feel that way.",
-                    "<25>{#f/13}* But now, with everyone's SOULs inside me...",
-                    '<25>{#f/15}* ... I...',
-                    "<25>{#f/16}* I can't escape that feeling anymore.",
-                    "<25>{#f/15}* Ever since you started attacking me back there, it's like...",
-                    '<25>{#f/15}* They understand the kind of person you are now.',
-                    '<25>{#f/13}* You never killed anyone, but deep down...',
-                    '<25>{#f/13}* The thought of you bringing them to the brink of death...',
-                    '<25>{#f/15}* Over, and over, and over...',
+                    "<25>{#f/13}* 很奇怪...",
+                    "<25>{#f/16}* 當星星時，我都忘了...\n  恐懼是什麼滋味了。",
+                    "<25>{#f/15}* 無數次將別人推入恐懼深淵，\n  已經麻木了。",
+                    "<25>{#f/13}* 但現在，我有了所有怪物的靈魂後...",
+                    '<25>{#f/15}* ...我...',
+                    "<25>{#f/16}* 我終於深切感受到那種情感。",
+                    "<25>{#f/15}* 當你開始不停攻擊我時...",
+                    '<25>{#f/15}* 他們，好像就知道了\n  你是怎樣的人。',
+                    '<25>{#f/13}* 誠然，你從沒殺過\n  任何一隻怪物。',
+                    '<25>{#f/13}* 但你也一次次將他們\n  推向生死邊緣...',
+                    '<25>{#f/15}* 一次，又一次，又一次...',
                     '<25>{#f/16}* ...',
-                    "<25>{#f/21}* They're terrified of you, Frisk.",
-                    '<26>{#f/23}* And... I guess I am too.',
+                    "<25>{#f/21}* 弗裡斯克，\n  他們現在都很怕你。",
+                    '<26>{#f/23}* 而且...\n  我也很怕你。',
                     '<25>{#f/22}* ...'
                  ]
                : [
-                    '<25>{#p/asriel1}{#f/17}* Frisk, huh?',
-                    "<25>{#f/17}* That's...",
-                    '<25>{#f/23}* ... a nice name.',
+                    '<25>{#p/asriel1}{#f/17}* 是叫弗裡斯克嗎？',
+                    "<25>{#f/17}* 那...",
+                    '<25>{#f/23}* ...真是個好名字。',
                     '<25>{#f/22}* ...',
-                    '<25>{#f/13}* Frisk...',
+                    '<25>{#f/13}* 弗裡斯克...',
                     ...(SAVE.flag.n.killed_sans > 0
                        ? [
                             '<25>{#p/asriel1}{#f/13}* What we did back there, I...',
@@ -2725,7 +2725,7 @@ export default {
                     '<25>{#f/16}* I hurt so many people.',
                     '<25>{#f/13}* Friends, family, bystanders...',
                     "<25>{#f/22}* There's no excuse for what I've done.",
-                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* Asriel...' ]),
+                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* 艾斯利爾...' ]),
                     choicer.create('* (What will you do?)', 'Forgive', 'Do not')
                  ],
          sad4a: () => [
@@ -3607,20 +3607,20 @@ export default {
             '<32>{#p/human}* (You tap on the panel.)',
             '<32>{#s/equip}{#p/human}* (You got the Monster Candy.)'
          ],
-         cw_vender2: [ '<32>{#p/human}* (You tap on the panel.)', '<32>{#p/human}* (...)' ],
+         cw_vender2: [ '<32>{#p/human}* (You tap on the panel.)', '<32>{#p/human}* （...）' ],
          cs_vender1: [ '<32>{#p/human}* (You tap on the panel.)', '<32>{#s/equip}{#p/human}* (You got the Exoberries.)' ],
-         cs_vender2: [ '<32>{#p/human}* (You tap on the panel.)', '<32>{#p/human}* (...)' ],
+         cs_vender2: [ '<32>{#p/human}* (You tap on the panel.)', '<32>{#p/human}* （...）' ],
          cs_tower: '* (Use [DOWN], [LEFT], [RIGHT],\nand [UP] to tune the sound.)',
          cs_tower_done: [ '<32>{#p/human}* (You stare into the now- unlocked terminal.)' ],
          cf1_dimbox1: [ '<32>{#p/human}* (You got the Space Tofu.)' ],
-         cf1_dimbox2: [ '<32>{#p/human}* (...)' ],
+         cf1_dimbox2: [ '<32>{#p/human}* （...）' ],
          cf2_vender1: [ '<32>{#p/human}* (You tap on the panel.)', '<32>{#s/equip}{#p/human}* (You got the Rations.)' ],
-         cf2_vender2: [ '<32>{#p/human}* (You tap on the panel.)', '<32>{#p/human}* (...)' ],
+         cf2_vender2: [ '<32>{#p/human}* (You tap on the panel.)', '<32>{#p/human}* （...）' ],
          cf2_key1: [ '<32>{#s/equip}{#p/human}* (The Neon Key was added to your keyring.)' ],
-         cf2_key2: [ '<32>{#p/human}* (...)' ],
+         cf2_key2: [ '<32>{#p/human}* （...）' ],
          cf2_bench0: [ '<32>{#p/human}* (It appears a heal-pak was left underneath this bench.)' ],
          cf2_bench1: [ '<32>{#p/human}* (You got the heal-pak.)' ],
-         cf2_bench2: [ '<32>{#p/human}* (...)' ],
+         cf2_bench2: [ '<32>{#p/human}* （...）' ],
          cf2_bench3: [ "<32>{#p/human}* (You reach for the item, but you can't get it...)" ],
          cf2_blookdoor: [ '<32>{#p/human}* (The door appears to be locked.)' ],
          ca_floartex: () =>
@@ -3866,7 +3866,7 @@ export default {
             '<32>* (Escape...)',
             '<32>* {@mystify=Ribbit}Ribbit{@mystify=}.'
          ],
-         cw_barrier: [ '<32>{#p/human}* (You stare through the inanimate security field.)', '<32>{#p/human}* (...)' ],
+         cw_barrier: [ '<32>{#p/human}* (You stare through the inanimate security field.)', '<32>{#p/human}* （...）' ],
          cw_terminal: [
             '<32>{#p/human}* (You activate the terminal.)',
             '<32>* (It sounds like a recording was made here.)',
@@ -3875,8 +3875,8 @@ export default {
             '<32>{#v/1}{@fill=#42fcff}* But, like the others, I could not resist the temptation to use my powers.',
             '<32>{#v/1}{@fill=#42fcff}* I could not wait any longer to see the friends I had made on the outpost.'
          ],
-         cw_dummy: [ '<32>{#p/human}* (You place your hands on the lifeless dummy.)', '<32>{#p/human}* (...)' ],
-         cw_paintblaster: [ '<32>{#p/human}* (You stare into the inanimate fuel injector.)', '<32>{#p/human}* (...)' ],
+         cw_dummy: [ '<32>{#p/human}* (You place your hands on the lifeless dummy.)', '<32>{#p/human}* （...）' ],
+         cw_paintblaster: [ '<32>{#p/human}* (You stare into the inanimate fuel injector.)', '<32>{#p/human}* （...）' ],
          cs_lamppost: [ '<32>{#p/human}* (You observe the strange lamp bouncing up and down.)' ],
          cs_note: [
             '<32>{#p/human}* (It appears this note has a phone number written on it.)',
@@ -4080,9 +4080,9 @@ export default {
             ][cf2_state.time],
          cf2_spidertable: () =>
             [
-               [ '<32>{#p/human}* (You place your hands on the teapot.)', '<32>{#p/human}* (...)' ],
-               [ '<32>{#p/human}* (You place your hands on the teapot.)', '<32>{#p/human}* (...)' ],
-               [ '<32>{#p/human}* (You place your hands on the teapot.)', '<32>{#p/human}* (...)' ],
+               [ '<32>{#p/human}* (You place your hands on the teapot.)', '<32>{#p/human}* （...）' ],
+               [ '<32>{#p/human}* (You place your hands on the teapot.)', '<32>{#p/human}* （...）' ],
+               [ '<32>{#p/human}* (You place your hands on the teapot.)', '<32>{#p/human}* （...）' ],
                [
                   '<32>{#p/human}* (You place your hands on the teapot.)',
                   '<32>{#p/human}* (It seems to be warming up.)'
@@ -5450,7 +5450,7 @@ export default {
       cryTalk2: [ '<20>{*}{#p/asriel3}{@random=1.1/1.1}馬上給我停下！！！{^40}{%}' ],
       endStatus1: () => (SAVE.data.b.oops ? [ '<32>{#p/story}* ...' ] : [ '<32>{#p/basic}* ...' ]),
       endTalk1: [ '<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}...', '<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name)...' ],
-      endStatus2: () => (SAVE.data.b.oops ? [ '<32>{#p/story}* ...' ] : [ '<32>{#p/basic}* Asriel...' ]),
+      endStatus2: () => (SAVE.data.b.oops ? [ '<32>{#p/story}* ...' ] : [ '<32>{#p/basic}* 艾斯利爾...' ]),
       endTalk2: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}我好孤獨，\n$(name)..." ],
       endStatus3: () => (SAVE.data.b.oops ? [ '<32>{#p/story}* ...' ] : [ '<32>{#p/basic}* ...' ]),
       endTalk3: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}我好害怕，\n$(name)..." ],

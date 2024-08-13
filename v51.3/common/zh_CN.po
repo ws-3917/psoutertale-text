@@ -35,7 +35,7 @@ msgid "I will not rest until the task is done."
 msgstr ""
 
 msgid "<32>{#p/human}* (...)"
-msgstr "<32>{#p/human}* (...)"
+msgstr "<32>{#p/human}* （...）"
 
 msgid "<32>{#p/human}* (You wake up.)"
 msgstr "<32>{#p/human}* （你醒了。）"

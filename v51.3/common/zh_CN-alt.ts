@@ -22,7 +22,7 @@ export default {
    a_common: {
       bullybed: [
          [
-            '<32>{#p/human}* (...)',
+            '<32>{#p/human}* （...）',
             '<32>{#p/human}* （你醒了。）',
             '<32>{#p/human}* （前哨站没有任何变化。）'
          ],
@@ -52,7 +52,7 @@ export default {
             '<32>{#p/human}* （没有回应。）'
          ],
          [
-            '<32>{#p/human}* (...)',
+            '<32>{#p/human}* （...）',
             "<32>{#p/human}* （你已经不记得在这里度过了多久。）",
             "<32>{#p/human}* （几个星期？几个月？几年？）\n* （无从得知。）",
             "<32>{#p/human}* （你把核心的能量消耗调至最低...）",
@@ -3420,7 +3420,7 @@ export default {
          '<25>{#p/sans}{#f/0}* this must be your fifth or sixth call by now.',
          "<32>{#p/human}* (You correct Sans, telling him it's actually the seventh.)",
          '<25>{#p/sans}{#f/2}* nah, i knew that.\n* i was just testing your memory skills.',
-         '<32>{#p/human}* (...)',
+         '<32>{#p/human}* （...）',
          "<25>{#p/sans}{#f/0}* heh...\n* y'know, bud...",
          '<25>{#p/sans}{#f/0}* for someone who did the kinds of things you did...',
          '<25>{#p/sans}{#f/3}* you sound awfully shy over the phone.',
@@ -3444,7 +3444,7 @@ export default {
          "<25>{#p/sans}{#f/3}* i think it's safe to say you were not a normal child.",
          '<25>{#p/sans}{#f/3}* you did things no normal child would ever do.',
          '<25>{#p/sans}{#f/3}* not only killing, but going out of your way to do so.',
-         '<32>{#p/human}* (...)',
+         '<32>{#p/human}* （...）',
          '<25>{#p/sans}{#f/0}* your actions were so extreme, i began to wonder...',
          '<25>{#p/sans}{#f/3}* if someone your age would really be capable of them.',
          "<25>{#p/sans}{#f/3}* the more we've spoken, the more i realized...",
@@ -3456,7 +3456,7 @@ export default {
          '<25>{#p/sans}{#f/0}* never showing much emotion or care for those around you.',
          "<25>{#p/sans}{#f/3}* and yet, you can't seem to stay away from us now.",
          "<25>{#p/sans}{#f/3}* it's like you're not even the same person.",
-         '<32>{#p/human}* (...)',
+         '<32>{#p/human}* （...）',
          '<25>{#p/sans}{#f/0}* hey, uh...',
          '<25>{#p/sans}{#f/3}* ...',
          "<25>{#p/sans}{#f/3}* heh...\n* i hope those tears of yours means i'm right.",
@@ -3823,7 +3823,7 @@ export default {
       ],
       lastblook2: [ '<32>{#p/napstablook}* oooooooooooo......', '<32>* this is really nice......' ],
       lastblook3: [
-         '<32>{#p/human}* (...)',
+         '<32>{#p/human}* （...）',
          '<32>* (You feel... something.)',
          '<32>{#p/napstablook}* oh, sorry... i should probably explain what this is...',
          '<32>* ...\n* so, uh...',

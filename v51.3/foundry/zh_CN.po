@@ -17193,7 +17193,7 @@ msgid "Sourced from a tree that grew on the monsters' homeworld."
 msgstr "取材自怪物故园里的一棵树。"
 
 msgid "Sap"
-msgstr ""
+msgstr "树液"
 
 msgid "<32>{#p/human}* (You throw away the Tree Sap.)"
 msgstr "<32>{#p/human}* （你把树液扔掉了。）"
@@ -17550,6 +17550,8 @@ msgstr ""
 
 msgid "Nimble, but fickle. Not a suitable jetpack replacement."
 msgstr ""
+"灵活但轻浮，\n"
+"想取代飞行器，有点悬。"
 
 msgid "Boots"
 msgstr "悬浮靴"

@@ -572,8 +572,8 @@ export default {
       ],
       sonic2: [ "<32>{#p/human}* （你带的东西太多，装不下它了。）" ],
       tablaphone1: () => [
-         '<32>{#p/human}* (You got the Tablaphone.)',
-         choicer.create('* (Equip the Tablaphone?)', '是', '否')
+         '<32>{#p/human}* （你捡起了塔布拉木琴。）',
+         choicer.create('* （架起塔布拉木琴？）', '是', '否')
       ],
       tablaphone2: [ "<32>{#p/human}* （你带的东西太多，装不下它了。）" ],
       moonpie1: () => [
@@ -969,7 +969,7 @@ export default {
             '<32>{#p/human}* （有谁在狂敲键盘的声音。）',
             '<25>{#p/alphys}{#g/alphysNervousLaugh}* 安保系统... 什-什么？',
             '<32>{#p/human}* （又传来了一阵敲键盘的声音。）',
-            '<32>{#p/human}* (...)',
+            '<32>{#p/human}* （...）',
             '<32>{#p/human}* （敲键盘的声音停下来了。）',
             "<25>{#p/alphys}{#g/alphysWelp}* 看来... 我们得\n  回答安保问题了。",
             "<25>{#g/alphysGarbo}* 镁塔顿的安保问题...",
@@ -8168,7 +8168,7 @@ export default {
       hint: [ '<32>{#p/basic}* Wait...\n* Let me try something.' ],
       assistTalk1: [ '<20>{#p/basic}{~}...\n...\n...\nHmm?' ],
       assistAction: [
-         '<32>{*}{#p/human}* (...){^30}{%}',
+         '<32>{*}{#p/human}* （...）{^30}{%}',
          '<32>{*}{#p/human}* (The sound of an ancient song echoes through the room.){^100}{%}'
       ],
       assistTalk2: [
@@ -9196,7 +9196,7 @@ export default {
             : [ "<11>{#p/undyne}{#p/basic}{~}This ain't it, chief." ],
       act_check: () =>
          world.goatbro
-            ? [ "<32>{#p/asriel2}* 1号守卫...\n* 这家伙没啥好介绍的。" ]
+            ? [ "<32>{#p/asriel2}* 1号守卫...\n* 这俩货我没啥好说的。" ]
             : world.bad_lizard > 1
             ? [ '<32>{#p/story}* RG 01 - ATK 30 DEF 20\n* A confident lover who seems intent on ending you.' ]
             : [ '<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Conspicuous cowgirl attitude.\n* Skeptic.' ],
@@ -9349,7 +9349,7 @@ export default {
             : [ "<11>{#p/basic}{~}That won't work on me." ],
       act_check: () =>
          world.goatbro
-            ? [ "<32>{#p/asriel2}* RG 02...\n* 这家伙没啥好介绍的。" ]
+            ? [ "<32>{#p/asriel2}* 2号守卫...\n* 这俩货我没啥好说的。" ]
             : world.bad_lizard > 1
             ? [ '<32>{#p/story}* RG 02 - ATK 30 DEF 20\n* A confident lover who seems intent on stopping you.' ]
             : [ "<33>{#p/story}* RG 04 - ATK 30 DEF 20\n* Believes in friendship, but isn't against something more..." ],
@@ -9816,110 +9816,110 @@ export default {
    },
    i_filament: {
       battle: {
-         description: 'A winding wick of flavors!\nFive uses left.',
-         name: 'Filament'
+         description: '一组弯弯绕绕的灯芯，风味独特！\n还剩五根。',
+         name: '灯芯'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Filament.)' ],
+      drop: [ '<32>{#p/human}* （你把这些灯芯全扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （30 HP。）' ]
-            : [ '<32>{#p/basic}* \"Filament\" Heals 30 HP\n* A winding wick of flavors!\n* Five uses left.' ],
-      name: 'Quintuple Filament',
-      use: [ '<32>{#p/human}* (You extract some energy from the Filament.)' ]
+            : [ '<32>{#p/basic}* “灯芯” 回复30 HP\n* 一组弯弯绕绕的灯芯，风味独特！\n* 还剩五根。' ],
+      name: '五根灯芯',
+      use: [ '<32>{#p/human}* （你从灯丝中汲取了些能量。）' ]
    },
    i_filament_use1: {
-      battle: { description: 'A winding wick of flavors!\nFour uses left.', name: 'Filament' },
+      battle: { description: '一组弯弯绕绕的灯芯，风味独特！\n还剩四根。', name: '灯芯' },
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （25 HP。）' ]
-            : [ '<32>{#p/basic}* \"Filament\" Heals 25 HP\n* A winding wick of flavors!\n* Four uses left.' ],
-      name: 'Quadruple Filament'
+            : [ '<32>{#p/basic}* “灯芯” 回复25 HP\n* 一组弯弯绕绕的灯芯，风味独特！\n* 还剩四根。' ],
+      name: '四根灯芯'
    },
    i_filament_use2: {
-      battle: { description: 'A winding wick of flavors!\nThree uses left.', name: 'Filament' },
+      battle: { description: '一组弯弯绕绕的灯芯，风味独特！\n还剩三根。', name: '灯芯' },
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （20 HP。）' ]
-            : [ '<32>{#p/basic}* \"Filament\" Heals 20 HP\n* A winding wick of flavors!\n* Three uses left.' ],
-      name: 'Triple Filament'
+            : [ '<32>{#p/basic}* “灯芯” 回复20 HP\n* 一组弯弯绕绕的灯芯，风味独特！\n* 还剩三根。' ],
+      name: '三根灯芯'
    },
    i_filament_use3: {
-      battle: { description: 'A winding wick of flavors!\nTwo uses left.', name: 'Filament' },
+      battle: { description: '一组弯弯绕绕的灯芯，风味独特！\n还剩两根。', name: '灯芯' },
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （15 HP。）' ]
-            : [ '<32>{#p/basic}* \"Filament\" Heals 15 HP\n* A winding wick of flavors!\n* Two uses left.' ],
-      name: 'Double Filament'
+            : [ '<32>{#p/basic}* “灯芯” 回复15 HP\n* 一组弯弯绕绕的灯芯，风味独特！\n* 还剩两根。' ],
+      name: '两根灯芯'
    },
    i_filament_use4: {
-      battle: { description: 'A winding wick of flavors!\nOne use left.', name: 'Filament' },
+      battle: { description: '一组弯弯绕绕的灯芯，风味独特！\n只剩一根。', name: '灯芯' },
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （10 HP。）' ]
-            : [ '<32>{#p/basic}* \"Filament\" Heals 10 HP\n* A winding wick of flavors!\n* One use left.' ],
-      name: 'Filament'
+            : [ '<32>{#p/basic}* “灯芯” 回复10 HP\n* 一组弯弯绕绕的灯芯，风味独特！\n* 只剩一根。' ],
+      name: '灯芯'
    },
    i_tablaphone: {
       battle: {
-         description: 'Flat, but sharp. Restores some lost HP after each turn.',
-         name: 'Tablaphone'
+         description: '表面平坦，但边缘锋利。\n每回合受伤后回复一定量HP。',
+         name: '塔布拉木琴'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Tablaphone.)' ],
+      drop: [ '<32>{#p/human}* （你把塔布拉木琴扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （10攻击。）' ]
-            : [ '<32>{#p/basic}* \"Tablaphone\" (10 AT)\n* Flat, but sharp. Restores some lost HP after each turn.' ],
-      name: 'Tablaphone',
-      use: [ '<32>{#p/human}* (You equip the Tablaphone.)' ]
+            : [ '<32>{#p/basic}* “塔布拉木琴” （10攻击）\n* 表面平坦，但边缘锋利。\n  每回合受伤后回复一定量HP。' ],
+      name: '塔布拉木琴',
+      use: [ '<32>{#p/human}* （你架好了塔布拉木琴。）' ]
    },
    i_sonic: {
       battle: {
-         description: "Your opposition's attacks have a small chance to heal you.",
-         name: 'Resonator'
+         description: "受到弹幕攻击时，\n小概率转变为回血效果。",
+         name: '谐振器'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Sonic Resonator.)' ],
+      drop: [ '<32>{#p/human}* （你把声波谐振器扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （11防御。）' ]
             : [
-                 '<32>{#p/basic}* \"Sonic Resonator\" (11 DF)\n* Your opposition\'s attacks have a small chance to heal you.'
+                 '<32>{#p/basic}* “声波谐振器” （11防御）\n* 受到弹幕攻击时，\n  小概率转变为回血效果。'
               ],
-      name: 'Sonic Resonator',
-      use: [ '<32>{#p/human}* (You equip the Sonic Resonator.)' ]
+      name: '声波谐振器',
+      use: [ '<32>{#p/human}* （你启动了声波谐振器。）' ]
    },
    i_mystery_food: {
       battle: {
-         description: 'The kind of food you expect to find at a rec center.',
-         name: 'Mysteryfood'
+         description: '这种食物在娱乐回廊十分常见。',
+         name: '神秘食物'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Mysteryfood.)' ],
+      drop: [ '<32>{#p/human}* （你把神秘食物扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （13 HP。）' ]
-            : [ '<32>{#p/basic}* \"Mysteryfood\" Heals 13 HP\n* The kind of food you expect to find at a rec center.' ],
-      name: 'Mysteryfood',
-      use: [ '<32>{#p/human}* (You eat the Mysteryfood.)' ]
+            : [ '<32>{#p/basic}* “神秘食物” 回复13 HP\n* 这种食物在娱乐回廊十分常见。' ],
+      name: '神秘食物',
+      use: [ '<32>{#p/human}* （你吃掉了神秘食物。）' ]
    },
    i_super_pop: {
       battle: {
-         description: 'Alters your perception of time.',
-         name: 'Hyper Pop'
+         description: '可改变主观时间流速。',
+         name: '豪华棒棒糖'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Hyper Vortex Pop.)' ],
+      drop: [ '<32>{#p/human}* （你把豪华涡旋棒棒糖扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （22 HP。）' ]
             : [
-                 '<33>{#p/basic}* \"Hyper Vortex Pop\" Heals 22 HP\n* Alters your perception of time.\n* Not viable outside of battle.'
+                 '<33>{#p/basic}* “豪华涡旋棒棒糖” 回复22 HP\n* 可改变主观时间流速。\n* 仅在战斗中有效。'
               ],
-      name: 'Hyper Vortex Pop',
+      name: '豪华涡旋棒棒糖',
       use: () => [
-         '<32>{#p/human}* (You sucked on the Hyper Vortex Pop.)',
+         '<32>{#p/human}* （你把超级涡旋棒棒糖舔没了。）',
          ...(battler.active
             ? game.vortex
-               ? [ '<32>{#p/human}* (Your perception of time is already shifted.)' ]
+               ? [ '<32>{#p/human}* （主观时间流速之前已改变。）' ]
                : [
-                    '<32>{#p/human}* (Your perception of time begins to shift.)',
+                    '<32>{#p/human}* （你的主观时间流速开始改变。）',
                     '<32>{#p/story}* 两回合内，你的专注力提升！'
                  ]
             : [ '<32>{#p/human}* （战斗外使用无效。）' ])
@@ -9975,7 +9975,7 @@ export default {
    },
    i_corndog: {
       battle: {
-         description: '* 刚从微波炉里拿出来。',
+         description: '刚从微波炉里拿出来。',
          name: '玉米热狗'
       },
       drop: [ '<32>{#p/human}* （你把玉米热狗扔掉了。）' ],
@@ -10009,20 +10009,20 @@ export default {
    },
    i_moon_pie: {
       battle: {
-         description: "A slice of pie from the Earth's night sky.",
+         description: "一小块源自地球夜空的糕点。",
          name: '月派'
       },
       drop: [ '<32>{#p/human}* （你把月派扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （99 HP。）' ]
-            : [ '<32>{#p/basic}* \"Moon Pie\" Heals 99 HP\n* A slice of pie from the Earth\'s night sky.' ],
+            : [ '<32>{#p/basic}* “月派” 回复99 HP\n* 一小块源自地球夜空的糕点。' ],
       name: '月派',
       use: [ '<32>{#p/human}* （你吃掉了月派。）' ]
    },
    i_orange_soda: {
       battle: {
-         description: 'A crushingly orange soda.\nTolerable.',
+         description: '一瓶超级难喝的橙汁汽水。\n捏着鼻子，也不是不能喝。',
          name: '橙汁汽水'
       },
       drop: () => [
@@ -10037,12 +10037,12 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （16 HP。）' ]
-            : [ '<32>{#p/basic}* \"Orange Soda\" Heals 16 HP\n* A crushingly orange soda.\n* Tolerable.' ],
+            : [ '<32>{#p/basic}* “橙汁汽水” 回复16 HP\n* 一瓶超级难喝的橙汁汽水。\n* 捏着鼻子，也不是不能喝。' ],
       name: '橙汁汽水',
       use: () =>
          world.meanie
             ? [
-                 '<32>{#p/human}* (You drink the Orange Soda, and crush it in your hands.)',
+                 '<32>{#p/human}* （你喝掉了橙汁汽水，\n  喝完了，还不忘把瓶子捏烂。）',
                  battler.active
                     ? `<32>{#p/story}* 你的攻击力提升了${8 + battler.at_bonus}点！`
                     : '<32>{#p/human}* （战斗外使用无效。）',
@@ -10057,7 +10057,7 @@ export default {
                       ]
                     : [])
               ]
-            : [ '<32>{#p/human}* (You drank the Orange Soda.)' ]
+            : [ '<32>{#p/human}* （你喝掉了橙汁汽水。）' ]
    },
    i_demise: {
       battle: {

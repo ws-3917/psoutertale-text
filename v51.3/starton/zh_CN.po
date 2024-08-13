@@ -788,7 +788,7 @@ msgid "<32>{#p/human}{#s/equip}* (You got the Ice Dream.)"
 msgstr "<32>{#p/human}{#s/equip}* （你得到了冰意灵。）"
 
 msgid "<32>{#p/human}* (...)"
-msgstr "<32>{#p/human}* (...)"
+msgstr "<32>{#p/human}* （...）"
 
 msgid "<32>{#p/human}* (You're carrying too much to reach inside.)"
 msgstr ""
@@ -5340,7 +5340,7 @@ msgid "<32>* (Something's, like, different about you now.)"
 msgstr ""
 
 msgid "<32>* (...)"
-msgstr "<32>* (...)"
+msgstr "<32>* （...）"
 
 msgid "<32>* (Yeah, you know, uh, I don't really like you anymore.)"
 msgstr ""
@@ -14465,7 +14465,7 @@ msgstr ""
 "鸣笛）"
 
 msgid "<11>{#p/basic}{~}(...)"
-msgstr "<11>{#p/basic}{~}(...)"
+msgstr "<11>{#p/basic}{~}（...）"
 
 msgid "<11>{#p/basic}{~}(Faraway bark)"
 msgstr ""
@@ -24169,7 +24169,7 @@ msgid "<25>{#p/undyne}{#f/8}* Like hell I will!"
 msgstr ""
 
 msgid "<18>{#p/papyrus}{#f/6}LANGUAGE!!"
-msgstr ""
+msgstr "<18>{#p/papyrus}{#f/6}好好说话！！"
 
 msgid "<18>{#p/papyrus}{#f/0}GO ON, GIVE IT A TRY!"
 msgstr ""
