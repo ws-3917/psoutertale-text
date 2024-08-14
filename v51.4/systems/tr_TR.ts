@@ -997,7 +997,7 @@ export default {
       story1: ['<24>{#p/storyteller}Uzun zaman önce, Güneş Sistemi\'ne iki ırk hükmediyordu: İNSANLAR VE CANAVARLAR.{^35}{}'],
       story2: ['<24>Zaman geçtikçe, iki türün arasında bir savaş çıktı.{^35}{}'],
       story3: ["<24>CANAVARLARIN ana gezegeni yok edilince İNSANLAR zafer ilan etti.{^35}{}"],
-      story4: ['<24>Geriye kalan CANAVARLAR terk edilmiş bir karakola hapsedilmişti.{^35}{}'],
+      story4: ['<24>Geriye kalan CANAVARLAR terk edilmiş bir karakola sürülmüştü.{^35}{}'],
       story5: ['<24>Kuvvetli bir güç kalkanı oluşturuldu, CANAVARLAR içine hapsedildi.{^35}{}'],
       story6: ['<24>Yıllar yıllar sonra.{^8}.{^8}.{^35}{}'],
       story7: ['<#24>          EBOTT SEKTÖRÜ          \n                  251X{^35}{}'],

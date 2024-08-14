@@ -2479,7 +2479,7 @@ msgstr ""
 msgid ""
 "<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}"
 msgstr ""
-"<24>Geriye kalan CANAVARLAR terk edilmiş bir karakola hapsedilmişti.{^35}{}"
+"<24>Geriye kalan CANAVARLAR terk edilmiş bir karakola sürülmüştü.{^35}{}"
 
 msgid ""
 "<24>A powerful force field was erected, and the MONSTERS were sealed "

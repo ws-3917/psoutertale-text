@@ -963,7 +963,7 @@ export default {
          )
       },
       story: {
-         lv20: [ '<32>{#p/human}* (The sound of a spacecraft can be heard as you take off into the distance.)' ],
+         lv20: [ '<32>{#p/human}* （飛船漸行漸遠。）' ],
          postnoot0: () =>
             world.trueKills === 0 && SAVE.data.n.state_foundry_undyne !== 1 && SAVE.flag.n.neutral_twinkly_choice === 0
                ? [
@@ -2119,7 +2119,7 @@ export default {
             "<25>{#f/3}* 這樣也好。",
             '<25>{#f/0}* 但我知道，\n  你能幹出那些事...',
             '<25>* 肯定是出於「關心」，對嗎？',
-            "<25>{#f/3}* ...我無數次想否認、推翻\n  這個想法。",
+            "<25>{#f/3}* ...我無數次想否認、\n  推翻這個想法。",
             "<25>{#f/0}* 但是，如果我們真的\n  形同陌路...",
             "<25>* 你怎麼可能做到這種地步？",
             '<25>* 你太「關心」我們了，\n  恨不得把我們都「關心」死了，\n  不是嗎？'
@@ -2853,7 +2853,7 @@ export default {
          sad9x: [ '<32>{#p/basic}* ...' ],
          sad10: () =>
             world.runaway
-               ? [ '<32>{#p/human}* (The sound of a spacecraft can be heard fading into the distance.)' ]
+               ? [ '<32>{#p/human}* （飛船的聲音漸漸消失在天際。）' ]
                : [ '<25>{#p/kidd}{#f/4}* Hello?', '<25>{#f/4}* Is someone there...?' ],
          sad11: () =>
             SAVE.data.b.f_state_kidd_betray

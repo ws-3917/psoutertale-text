@@ -1179,17 +1179,17 @@ export default {
          '<32>{#p/basic}{#n1}* You like the product, lassy? ;)'
       ],
       endtwinkly2: [
-         '<32>{#p/basic}* Who does he think he is?',
-         "<32>* You've been nothing but kind to everyone we've met.",
-         '<32>* That talking star really needs to get a life...'
+         '<32>{#p/basic}* Bu kim olduğunu zannediyor ki?',
+         "<32>* Tanıştığımız herkese sadece iyilik ettin.",
+         '<32>* O konuşan yıldız gitsin kendi işine baksın...'
       ],
       endtwinklyA1: [
-         '<25>{#p/twinkly}{#f/12}* You idiot...',
-         "<25>* Didn't you hear me before!?",
-         '<25>* I thought I told you not to screw it up!',
-         "<25>* Now look what you've done to our plan.",
+         '<25>{#p/twinkly}{#f/12}* Seni salak...',
+         "<25>* Daha önce beni duymadın mı!?",
+         '<25>* İşi mahvetmemeni söylediğimi düşünüyorum!',
+         "<25>* Bak şimdi planımıza ne yaptın.",
          '<25>{#f/8}* ...',
-         '<25>{#f/6}* You better fix this, $(name).',
+         '<25>{#f/6}* Bunu düzeltsen iyi edersin, $(name).',
          "<25>{#f/5}* It's our destiny."
       ],
       endtwinklyA2: () =>
@@ -3658,7 +3658,7 @@ export default {
          "<25>{#f/5}* O zaman, iyi ki senin için ben buradayım!",
          "<25>{#f/8}* Bir süredir zirve formumda değilim ama...",
          '<25>{#f/5}* ...birilerinin sana işin raconunu göstermesi gerek!',
-         '<25>{#f/10}* Sanırım bunu mini minnacık ben yapacağım.',
+         '<25>{#f/10}* Sanırım bunu biricik ben yapacağım.',
          "<25>{#f/5}* Başlayalım, ha?"
       ],
       twinkly3: [
@@ -3732,7 +3732,7 @@ export default {
       ],
       twinkly10: [
          "<20>{#f/5}Şu kalbi görüyor musun? O senin RUHun, oluşumunun mutlak sonucu!",
-         '<20>{#f/5}RUH\'un senin için gayet önemli, ve kendisini devam ettirmesi için SEVGİ lazım.'
+         '<20>{#f/5}RUH\'un senin önemli bir parçan, ve kendisini devam ettirmesi için SEVGİ lazım.'
       ],
       twinkly11: [
          "<20>{*}{#x2}{#f/5}Buralarda, SEVGİ'nin paylaşımı... {#f/8}küçük beyaz {#f/11}'mutluluk parçalarıyla' olur.",
@@ -3745,24 +3745,24 @@ export default {
          '<20>{*}{#x2}{#f/10}Al, biraz daha vereyim.{^20}{*}{#x1}{%}'
       ],
       twinkly13: [
-         '<20>{*}{#f/12}What the-... are you braindead or something??',
-         '<20>{*}{#x2}RUN. INTO. THE. BULLETS!!!{^20}{*}{#x1}{^999}'
+         '<20>{*}{#f/12}Ne oluyo-... ya sen gerizekalı mısın??',
+         '<20>{*}{#x2}KOŞ. İÇİNE. ŞU. MERMİLERİN!!!{^20}{*}{#x1}{^999}'
       ],
-      twinkly14: 'RUN. INTO. THE. happiness shards~',
+      twinkly14: 'KOŞ. İÇİNE. ŞU. mutluluk parçalarının~',
       twinkly15: [
          '<20>{#v/1}Hee hee hee...',
-         "<20>In this world, it's KILL or BE killed.",
-         '<20>Imagine, a SOUL like yours crash-landing on my doorstep...',
-         "<20>Did you really think I'd pass up such a golden opportunity?"
+         "<20>Bu dünyada, ya ÖLÜRSÜN ya da ÖLDÜRÜRSÜN.",
+         '<20>Düşünsene, senin gibi bir RUH bir anda burnumun dibinde kaza yapıyor...',
+         "<20>Böyle altın bir fırsatı es geçeceğimi mi sandın?"
       ],
       twinkly16: [
-         "<20>{#f/7}Nah, you know what's going on here, don'tcha?",
-         "<20>You just wanted to torment little old Twinkly, didn'tcha?",
-         "<20>Golly... you must have no idea who you're messing with.",
+         "<20>{#f/7}Yok, burada neler olduğunu biliyorsun, di mi?",
+         "<20>Sen sadece biricik Twinkly'e eziyet etmek istedin, di mi?",
+         "<20>Tanrım... kiminle uğraştığını hiç bilmiyor olmalısın.",
          '<20>{#f/11}Hee hee hee...'
       ],
-      twinkly17: [ "<20>{#v/1}We'll just have to cut straight to the point, won't we?", '<20>Hee hee hee...' ],
-      twinkly18: [ '<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}DIE.{^20}{%}' ],
+      twinkly17: [ "<20>{#v/1}Sadece çabucak sadede gelmemiz gerekecek, değil mi?", '<20>Hee hee hee...' ],
+      twinkly18: [ '<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}GEBER.{^20}{%}' ],
       twinkly19: [ '<20>{#p/toriel}What a terrible creature, torturing such a poor, innocent youth...' ],
       twinkly20: [
          '<20>Have no fear, little one.',
@@ -4953,9 +4953,9 @@ export default {
             : SAVE.data.n.plot < 17.001
             ? [
                  '<25>{#p/toriel}{#f/1}* Outlands\'e bu kadar erken mi dönüyorsun...?',
-                 '<25>{#f/0}* Biliyorsun.\n* Buna karşı çıkacağımı söyleyemem.',
-                 '<25>{#f/1}* You may leave at any time, of course...',
-                 '<25>{#f/0}* But, for the moment, it is nice to see you.'
+                 '<25>{#f/0}* Yani.\n* Buna karşı olduğumu söyleyemem.',
+                 '<25>{#f/1}* İstediğin zaman ayrılabilirsin, tabii ki...',
+                 '<25>{#f/0}* Ama şu an için seni görmek güzel.'
               ]
             : [
                  '<25>{#p/toriel}{#f/2}* How long have you been standing out there!?',
