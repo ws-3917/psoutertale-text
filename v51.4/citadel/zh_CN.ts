@@ -2076,7 +2076,7 @@ export default {
             '<25>{#f/0}* so... you really are a time traveler, huh?',
             "<25>{#f/3}* well, alright.\n* i guess that means you're qualified.",
             "<25>{#f/0}* here's the key to my room.",
-            '<32>{#p/human}* (The Skeleton Key was added to your keyring.)',
+            '<32>{#s/equip}{#p/human}* （你把骨钥挂到了钥匙串上。）',
             "<25>{#p/sans}{#f/0}* it's time...",
             ...(funni
                ? [ '<25>{#f/2}* you walked back out from behind that pillar.' ]
@@ -2096,7 +2096,7 @@ export default {
             '<25>{#f/0}* ... wait.\n* have you heard this before, too?',
             '<25>{#f/3}* wow, you really ARE a time traveler.',
             "<25>{#f/2}* guess there's not much else to say, then.",
-            '<32>{#s/equip}{#p/human}* (The Skeleton Key was added to your keyring.)',
+            '<32>{#s/equip}{#p/human}* （你把骨钥挂到了钥匙串上。）',
             ...(funni ? [ '<25>{#f/2}* ... apart from \"i\'ll move you back behind the pillar now.\"' ] : [])
          ],
 
@@ -3347,7 +3347,7 @@ export default {
          ]
       },
       overworld: {
-         get20: [ '<32>{*}{#s/equip}{#p/human}* (The Hangar Bay Access Card was added to your keyring.){^90}{%}' ],
+         get20: [ '<32>{*}{#s/equip}{#p/human}* （你把停机坪门禁卡\n  挂到了钥匙串上。）{^90}{%}' ],
          drop: [
             '<26>{#p/asgore}{#f/8}* ...!\n* Did you just drop the tea I made for you?',
             '<25>{#p/asgore}{#f/1}* Hmm...\n* I apologize if it was not to your liking.'
@@ -6543,8 +6543,8 @@ export default {
    },
 
    k_hangar: {
-      name: 'Hangar Bay Access Card',
-      description: "Used to unlock the door to the outpost's hangar bay."
+      name: '停机坪门禁卡',
+      description: "用来解除前哨站停机坪的门禁。"
    },
 
    k_skeleton: {

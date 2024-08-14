@@ -4483,7 +4483,7 @@ msgid "<25>{#f/0}* here's the key to my room."
 msgstr ""
 
 msgid "<32>{#p/human}* (The Skeleton Key was added to your keyring.)"
-msgstr ""
+msgstr "<32>{#s/equip}{#p/human}* （你把骨鑰掛到了鑰匙串上。）"
 
 msgid "<25>{#p/sans}{#f/0}* it's time..."
 msgstr ""
@@ -4510,7 +4510,7 @@ msgstr ""
 
 msgid ""
 "<32>{#s/equip}{#p/human}* (The Skeleton Key was added to your keyring.)"
-msgstr ""
+msgstr "<32>{#s/equip}{#p/human}* （你把骨鑰掛到了鑰匙串上。）"
 
 msgid "<25>{#f/2}* ... apart from \"i'll move you back behind the pillar now.\""
 msgstr ""
@@ -7534,6 +7534,8 @@ msgid ""
 "<32>{*}{#s/equip}{#p/human}* (The Hangar Bay Access Card was added to your "
 "keyring.){^90}{%}"
 msgstr ""
+"<32>{*}{#s/equip}{#p/human}* （你把停機坪門禁卡\n"
+"  掛到了鑰匙串上。）{^90}{%}"
 
 msgid ""
 "<26>{#p/asgore}{#f/8}* ...!\n"
@@ -14702,10 +14704,10 @@ msgid "<32>{#p/human}* (You drank the Starling Tea.)"
 msgstr "<32>{#p/human}* （你喝掉了星花茶。）"
 
 msgid "Hangar Bay Access Card"
-msgstr ""
+msgstr "停機坪門禁卡"
 
 msgid "Used to unlock the door to the outpost's hangar bay."
-msgstr ""
+msgstr "用來解除前哨站停機坪的門禁。"
 
 msgid "Skeleton Key"
 msgstr ""

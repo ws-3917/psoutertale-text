@@ -3732,17 +3732,17 @@ export default {
       ],
       twinkly10: [
          "<20>{#f/5}Şu kalbi görüyor musun? O senin RUHun, oluşumunun mutlak sonucu!",
-         '<20>{#f/5}RUHun senin için gayet önemli, ve kendisini devam ettirmesi için SEVGİ lazım.'
+         '<20>{#f/5}RUH\'un senin için gayet önemli, ve kendisini devam ettirmesi için SEVGİ lazım.'
       ],
       twinkly11: [
-         "<20>{*}{#x2}{#f/5}Out here, LOVE is shared through... {#f/8}little white... {#f/11}'happiness shards.'",
-         "<20>{*}{#f/5}To get you started on the right path, I'll share some of my own LOVE.",
-         '<20>{*}{#f/5}Try to get as many as you can!{^20}{*}{#x1}{%}'
+         "<20>{*}{#x2}{#f/5}Buralarda, SEVGİ'nin paylaşımı... {#f/8}küçük beyaz {#f/11}'mutluluk parçalarıyla' olur.",
+         "<20>{*}{#f/5}Doğru yoldan başlamanı sağlamak için, seninle biraz kendi SEVGİ'mi paylaşayım.",
+         '<20>{*}{#f/5}Toplayabildiğin kadarını toplamaya çalış!{^20}{*}{#x1}{%}'
       ],
       twinkly12: [
-         "<20>{*}{#f/8}Whoops, I think you might've missed them...",
-         "<20>{*}{#f/5}But that's okay!",
-         '<20>{*}{#x2}{#f/10}Here, have some more.{^20}{*}{#x1}{%}'
+         "<20>{*}{#f/8}Tüh, sanırım onları kaçırdın...",
+         "<20>{*}{#f/5}Ama sorun yok!",
+         '<20>{*}{#x2}{#f/10}Al, biraz daha vereyim.{^20}{*}{#x1}{%}'
       ],
       twinkly13: [
          '<20>{*}{#f/12}What the-... are you braindead or something??',
@@ -4874,8 +4874,8 @@ export default {
       w_wonder: () => [
          '<25>{#p/toriel}{#f/1}* Yaptığım alışverişten dönerken beni küçük bir mantar karşıladı...',
          SAVE.data.b.snail_pie
-            ? '<25>{#f/0}* ... o salyangoz turtası için gerekli malzemeler ile dönüyordum.'
-            : '<25>{#f/0}* ... o karamel turtası için gerekli malzemeler ile dönüyordum.',
+            ? '<25>{#f/0}* ... o salyangozlu turta için gerekli malzemeler ile dönüyordum.'
+            : '<25>{#f/0}* ... o karamelli turta için gerekli malzemeler ile dönüyordum.',
          '<25>{#f/3}* İlginçtir ki, kapı girişinin yukarısında süzülüyordu...',
          '<25>{#f/0}* O odadaki yer çekimi zayıf olmalı.',
          '<25>{#f/1}* Belki de taksinin varlığının bunun üzerinde bir etkisi vardır...?'
@@ -4913,47 +4913,47 @@ export default {
                  '<32>{#s/phone}{#p/event}* Aranıyor...',
                  '<25>{#p/toriel}{#f/1}* O oda bizim için pek iyi duygular çağrıştırmasa da...',
                  '<25>{#f/0}* Hala Outlands\'deki en sevdiğim yerlerden biridir.',
-                 '<25>{#f/1}* There is a certain someone who visits sometimes...',
-                 '<25>{#f/6}* Perhaps you are already aware of him.',
-                 '<32>{#s/equip}{#p/event}* Click...'
+                 '<25>{#f/1}* Burada zaman zaman ziyarete gelen biri var...',
+                 '<25>{#f/6}* Belki de ondan zaten haberdarsındır.',
+                 '<32>{#s/equip}{#p/event}* Klik...'
               ]
             : instance('main', 'toriButNotGarb') === void 0 // NO-TRANSLATE
 
             ? [
                  '<32>{#s/phone}{#p/event}* Aranıyor...',
-                 '<25>{#p/toriel}{#f/1}* Calling so soon...?',
-                 '<25>{#f/0}* ... I have not even gotten back to the house yet!',
-                 '<25>{#f/0}* Please, wait a moment before calling again.',
-                 '<32>{#s/equip}{#p/event}* Click...'
+                 '<25>{#p/toriel}{#f/1}* Bu kadar erken mi arıyorsun...?',
+                 '<25>{#f/0}* ... Henüz eve bile dönmedim!',
+                 '<25>{#f/0}* Lütfen, tekrar aramadan önce biraz bekle.',
+                 '<32>{#s/equip}{#p/event}* Klik...'
               ]
             : [
-                 '<32>{#w.stopThatGoat}{#s/phone}{#p/event}* Dialing...',
-                 '<25>{#p/toriel}{#f/1}* Calling so soon...?',
-                 '<25>{#f/0}* ... I have not even left the room yet!',
-                 '<25>{#f/2}* A moment to breathe would be nice!',
-                 '<32>{#w.startThatGoat}{#s/equip}{#p/event}* Click...'
+                 '<32>{#w.stopThatGoat}{#s/phone}{#p/event}* Aranıyor...',
+                 '<25>{#p/toriel}{#f/1}* Bu kadar erken mi arıyorsun...?',
+                 '<25>{#f/0}* ... Henüz odadan bile çıkmadım!',
+                 '<25>{#f/2}* Biraz nefes alacak zaman iyi olurdu!',
+                 '<32>{#w.startThatGoat}{#s/equip}{#p/event}* Klik...'
               ],
       w_bridge: [
-         '<25>{#p/toriel}{#f/1}* The bridge to the rest of the outpost...',
-         '<25>{#f/5}* It is a shame to think I almost destroyed it.',
-         '<25>{#f/0}* Of course, the taxi still would have been around.',
-         '<25>{#f/3}* But I doubt that would have been very reliable.',
-         '<25>{#f/1}* Let us be glad this bridge is still in place.'
+         '<25>{#p/toriel}{#f/1}* Karakolun geri kalanına giden köprü...',
+         '<25>{#f/5}* Onu neredeyse yok ettiğimi düşünmek utanç verici.',
+         '<25>{#f/0}* Elbette, taksi hâlâ buralarda olurdu.',
+         '<25>{#f/3}* Ama onun yeterince güvenilir olacağından şüpheliyim.',
+         '<25>{#f/1}* Bu köprünün hâlâ yerinde olduğuna sevinelim.'
       ],
       w_exit: () =>
          SAVE.data.n.plot < 16
             ? [
-                 '<25>{#p/toriel}{#f/1}* My child, if you are leaving the Outlands...',
-                 '<25>{#f/0}* Then... I want you to remember something.',
-                 '<25>{#f/1}* Whatever happens, no matter how difficult it may seem...',
-                 '<25>{#f/0}* I want you to know that I have faith in you.',
-                 '<25>{#f/0}* That I know you can do the right thing.',
-                 '<25>{#f/1}* Remember that, alright?'
+                 '<25>{#p/toriel}{#f/1}* Çocuğum, eğer Outlands\'i terk ediyorsan...',
+                 '<25>{#f/0}* Bu durumda... Senden bir şeyi hatırlamanı istiyorum.',
+                 '<25>{#f/1}* Ne olursa olsun, ne kadar zor görünürse görünsün...',
+                 '<25>{#f/0}* Sana olan inancımı bilmeni istiyorum.',
+                 '<25>{#f/0}* Doğru olan şeyi yapabileceğini biliyorum.',
+                 '<25>{#f/1}* Bunu hatırla, tamam mı?'
               ]
             : SAVE.data.n.plot < 17.001
             ? [
-                 '<25>{#p/toriel}{#f/1}* Returning to the Outlands so soon...?',
-                 '<25>{#f/0}* Well.\n* I cannot say I am opposed to that.',
+                 '<25>{#p/toriel}{#f/1}* Outlands\'e bu kadar erken mi dönüyorsun...?',
+                 '<25>{#f/0}* Biliyorsun.\n* Buna karşı çıkacağımı söyleyemem.',
                  '<25>{#f/1}* You may leave at any time, of course...',
                  '<25>{#f/0}* But, for the moment, it is nice to see you.'
               ]

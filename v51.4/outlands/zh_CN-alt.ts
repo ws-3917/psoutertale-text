@@ -2432,7 +2432,7 @@ export default {
          saver.svr
             ? [ "<32>{#p/human}* (But you got the sense that it'd be a bad idea.)" ]
             : [
-                 '<32>{#s/equip}{#p/human}* （你把钥匙串秘密钥匙\n  挂到了钥匙串上。）',
+                 '<32>{#s/equip}{#p/human}* （你把秘密钥匙\n  挂到了钥匙串上。）',
                  '<32>{#p/basic}* ...能用这钥匙开什么呢？'
               ],
       socks6: [ '<32>{#p/human}* （你决定什么也不拿。）' ],

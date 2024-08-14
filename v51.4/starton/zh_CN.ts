@@ -32,7 +32,7 @@ export default {
       ],
       telescopeMeetup3: [
          '<25>{#p/kidd}{#f/3}* 给。\n* 拿上这个。',
-         '<32>{#s/equip}{#p/human}* （高级会员券被添加到了\n  你的钥匙串上。）',
+         '<32>{#s/equip}{#p/human}* （你把高级会员卡\n  挂到了钥匙串上。）',
          '<25>{#p/kidd}{#f/7}* 现在你可以使用\n  任何望远镜了，\n  连“最高级”的都能用！',
          '<25>{#f/1}* 那个矮骷髅之前\n  给了我好多这个。',
          '<25>{#f/2}* 他甚至花了很多钱\n  送了我一些数字藏品...',
@@ -286,7 +286,7 @@ export default {
       sansdoor2: [ '<32>{#p/human}* (You use the Skeleton Key.)' ],
       sanscab1: () => [
          ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 信封里有个奇怪的遥控器。" ]),
-         '<32>{#s/equip}{#p/human}* （重力转换器遥控器被添加到了\n  你的钥匙串上。）'
+         '<32>{#s/equip}{#p/human}* （你把重力转换器的遥控器\n  挂到了钥匙串上。）'
       ],
       sanscab2: () =>
          SAVE.data.b.svr

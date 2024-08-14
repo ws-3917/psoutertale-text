@@ -919,10 +919,10 @@ export default {
 
       footer: 'OUTERTALE TÜRKÇE V5.01 (c) 2024 SPACEY_432',
 
-      heal1: '* (CANın tamamen doldu.)',
+      heal1: '* (CAN\'ın tamamen doldu.)',
       heal2: '* ($(x) CAN yeniledin.)',
       heal3: '* ($(x) CAN kaybettin.)',
-      heal4: '* (CANın tamamen sıfırlandı.)',
+      heal4: '* (CAN\'ın tamamen sıfırlandı.)',
       heal5: '* ($(x) CAN kazandın.)',
 
       item1: 'KULLAN',
@@ -976,7 +976,7 @@ export default {
          '[C veya CTRL] - Menü (Oyun İçi)',
          '[F4] - Tam Ekran',
          '[ESC Basılı Tut] - Tekrar Başla',
-         'CANın 0’a düşerse, kaybedersin.'
+         'CAN\'ın 0’a düşerse, kaybedersin.'
       ],
       start2: 'Oyuna Başla',
 
@@ -994,9 +994,9 @@ export default {
       stat12: 'DURUM',
       stat13: '\"$(x)\"',
 
-      story1: ['<24>{#p/storyteller}Uzun zaman önce, yıldız sistemine iki ırk hükmediyordu: İNSANLAR VE CANAVARLAR.{^35}{}'],
+      story1: ['<24>{#p/storyteller}Uzun zaman önce, Güneş Sistemi\'ne iki ırk hükmediyordu: İNSANLAR VE CANAVARLAR.{^35}{}'],
       story2: ['<24>Zaman geçtikçe, iki türün arasında bir savaş çıktı.{^35}{}'],
-      story3: ["<24>CANAVARLARIN yaşadığı gezegen yok edilince İNSANLAR zafer ilan etti.{^35}{}"],
+      story3: ["<24>CANAVARLARIN ana gezegeni yok edilince İNSANLAR zafer ilan etti.{^35}{}"],
       story4: ['<24>Geriye kalan CANAVARLAR terk edilmiş bir karakola hapsedilmişti.{^35}{}'],
       story5: ['<24>Kuvvetli bir güç kalkanı oluşturuldu, CANAVARLAR içine hapsedildi.{^35}{}'],
       story6: ['<24>Yıllar yıllar sonra.{^8}.{^8}.{^35}{}'],

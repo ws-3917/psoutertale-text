@@ -6007,7 +6007,7 @@ msgstr ""
 
 msgid "<32>{#s/equip}{#p/human}* (The Secret Key was added to your keyring.)"
 msgstr ""
-"<32>{#s/equip}{#p/human}* （你把鑰匙串秘密鑰匙\n"
+"<32>{#s/equip}{#p/human}* （你把秘密鑰匙\n"
 "  掛到了鑰匙串上。）"
 
 msgid "<32>{#p/basic}* But what could it unlock...?"

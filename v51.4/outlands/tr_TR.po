@@ -7536,30 +7536,35 @@ msgid ""
 "<20>{#f/5}Your SOUL is an important part of you, and needs LOVE to sustain "
 "itself."
 msgstr ""
-"<20>{#f/5}RUHun senin için gayet önemli, ve kendisini devam ettirmesi için "
+"<20>{#f/5}RUH'un senin için gayet önemli, ve kendisini devam ettirmesi için "
 "SEVGİ lazım."
 
 msgid ""
 "<20>{*}{#x2}{#f/5}Out here, LOVE is shared through... {#f/8}little white... "
 "{#f/11}'happiness shards.'"
 msgstr ""
+"<20>{*}{#x2}{#f/5}Buralarda, SEVGİ'nin paylaşımı... {#f/8}küçük beyaz "
+"{#f/11}'mutluluk parçalarıyla' olur."
 
 msgid ""
 "<20>{*}{#f/5}To get you started on the right path, I'll share some of my own"
 " LOVE."
 msgstr ""
+"<20>{*}{#f/5}Doğru yoldan başlamanı sağlamak için, seninle biraz kendi "
+"SEVGİ'mi paylaşayım."
 
 msgid "<20>{*}{#f/5}Try to get as many as you can!{^20}{*}{#x1}{%}"
 msgstr ""
+"<20>{*}{#f/5}Toplayabildiğin kadarını toplamaya çalış!{^20}{*}{#x1}{%}"
 
 msgid "<20>{*}{#f/8}Whoops, I think you might've missed them..."
-msgstr ""
+msgstr "<20>{*}{#f/8}Tüh, sanırım onları kaçırdın..."
 
 msgid "<20>{*}{#f/5}But that's okay!"
-msgstr ""
+msgstr "<20>{*}{#f/5}Ama sorun yok!"
 
 msgid "<20>{*}{#x2}{#f/10}Here, have some more.{^20}{*}{#x1}{%}"
-msgstr ""
+msgstr "<20>{*}{#x2}{#f/10}Al, biraz daha vereyim.{^20}{*}{#x1}{%}"
 
 msgid "<20>{*}{#f/12}What the-... are you braindead or something??"
 msgstr ""
@@ -10104,12 +10109,12 @@ msgstr ""
 
 msgid "<25>{#f/0}* ... as I returned with ingredients for that snail pie."
 msgstr ""
-"<25>{#f/0}* ... o salyangoz turtası için gerekli malzemeler ile dönüyordum."
+"<25>{#f/0}* ... o salyangozlu turta için gerekli malzemeler ile dönüyordum."
 
 msgid ""
 "<25>{#f/0}* ... as I returned with ingredients for that butterscotch pie."
 msgstr ""
-"<25>{#f/0}* ... o karamel turtası için gerekli malzemeler ile dönüyordum."
+"<25>{#f/0}* ... o karamelli turta için gerekli malzemeler ile dönüyordum."
 
 msgid "<25>{#f/3}* Strangely, it was floating above the doorway..."
 msgstr "<25>{#f/3}* İlginçtir ki, kapı girişinin yukarısında süzülüyordu..."
@@ -10213,75 +10218,77 @@ msgid "<25>{#f/0}* It is still one of my favorite places in the Outlands."
 msgstr "<25>{#f/0}* Hala Outlands'deki en sevdiğim yerlerden biridir."
 
 msgid "<25>{#f/1}* There is a certain someone who visits sometimes..."
-msgstr ""
+msgstr "<25>{#f/1}* Burada zaman zaman ziyarete gelen biri var..."
 
 msgid "<25>{#f/6}* Perhaps you are already aware of him."
-msgstr ""
+msgstr "<25>{#f/6}* Belki de ondan zaten haberdarsındır."
 
 msgid "<32>{#s/equip}{#p/event}* Click..."
-msgstr ""
+msgstr "<32>{#s/equip}{#p/event}* Klik..."
 
 msgid "<25>{#p/toriel}{#f/1}* Calling so soon...?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* Bu kadar erken mi arıyorsun...?"
 
 msgid "<25>{#f/0}* ... I have not even gotten back to the house yet!"
-msgstr ""
+msgstr "<25>{#f/0}* ... Henüz eve bile dönmedim!"
 
 msgid "<25>{#f/0}* Please, wait a moment before calling again."
-msgstr ""
+msgstr "<25>{#f/0}* Lütfen, tekrar aramadan önce biraz bekle."
 
 msgid "<32>{#w.stopThatGoat}{#s/phone}{#p/event}* Dialing..."
-msgstr ""
+msgstr "<32>{#w.stopThatGoat}{#s/phone}{#p/event}* Aranıyor..."
 
 msgid "<25>{#f/0}* ... I have not even left the room yet!"
-msgstr ""
+msgstr "<25>{#f/0}* ... Henüz odadan bile çıkmadım!"
 
 msgid "<25>{#f/2}* A moment to breathe would be nice!"
-msgstr ""
+msgstr "<25>{#f/2}* Biraz nefes alacak zaman iyi olurdu!"
 
 msgid "<32>{#w.startThatGoat}{#s/equip}{#p/event}* Click..."
-msgstr ""
+msgstr "<32>{#w.startThatGoat}{#s/equip}{#p/event}* Klik..."
 
 msgid "<25>{#p/toriel}{#f/1}* The bridge to the rest of the outpost..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* Karakolun geri kalanına giden köprü..."
 
 msgid "<25>{#f/5}* It is a shame to think I almost destroyed it."
-msgstr ""
+msgstr "<25>{#f/5}* Onu neredeyse yok ettiğimi düşünmek utanç verici."
 
 msgid "<25>{#f/0}* Of course, the taxi still would have been around."
-msgstr ""
+msgstr "<25>{#f/0}* Elbette, taksi hâlâ buralarda olurdu."
 
 msgid "<25>{#f/3}* But I doubt that would have been very reliable."
-msgstr ""
+msgstr "<25>{#f/3}* Ama onun yeterince güvenilir olacağından şüpheliyim."
 
 msgid "<25>{#f/1}* Let us be glad this bridge is still in place."
-msgstr ""
+msgstr "<25>{#f/1}* Bu köprünün hâlâ yerinde olduğuna sevinelim."
 
 msgid "<25>{#p/toriel}{#f/1}* My child, if you are leaving the Outlands..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* Çocuğum, eğer Outlands'i terk ediyorsan..."
 
 msgid "<25>{#f/0}* Then... I want you to remember something."
-msgstr ""
+msgstr "<25>{#f/0}* Bu durumda... Senden bir şeyi hatırlamanı istiyorum."
 
 msgid "<25>{#f/1}* Whatever happens, no matter how difficult it may seem..."
-msgstr ""
+msgstr "<25>{#f/1}* Ne olursa olsun, ne kadar zor görünürse görünsün..."
 
 msgid "<25>{#f/0}* I want you to know that I have faith in you."
-msgstr ""
+msgstr "<25>{#f/0}* Sana olan inancımı bilmeni istiyorum."
 
 msgid "<25>{#f/0}* That I know you can do the right thing."
-msgstr ""
+msgstr "<25>{#f/0}* Doğru olan şeyi yapabileceğini biliyorum."
 
 msgid "<25>{#f/1}* Remember that, alright?"
-msgstr ""
+msgstr "<25>{#f/1}* Bunu hatırla, tamam mı?"
 
 msgid "<25>{#p/toriel}{#f/1}* Returning to the Outlands so soon...?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* Outlands'e bu kadar erken mi dönüyorsun...?"
 
 msgid ""
 "<25>{#f/0}* Well.\n"
 "* I cannot say I am opposed to that."
 msgstr ""
+"<25>{#f/0}* Biliyorsun.\n"
+"* Buna karşı çıkacağımı söyleyemem."
 
 msgid "<25>{#f/1}* You may leave at any time, of course..."
 msgstr ""

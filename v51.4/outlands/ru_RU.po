@@ -21,18 +21,18 @@ msgid "<25>{#f/1}* Would you carry it all the way to the Citadel?"
 msgstr "<25>{#f/1}* Вы бы донесли это до самой Цитадели?"
 
 msgid "<25>{#f/1}* Or would you simply dispose of it in a recycle bin?"
-msgstr "<25>{#f/1}* Или вы просто выбросили бы его в мусорную корзину?"
+msgstr "<25>{#f/1}* Или вы просто выбросили бы её в мусорную корзину?"
 
 msgid "<25>{#f/0}* How disappointing that would be."
 msgstr "<25>{#f/0}* Каким бы это было разочарованием."
 
 msgid "<25>{#p/toriel}{#f/1}* Perhaps, if I ever become a teacher..."
 msgstr ""
-"<25>{#p/toriel}{#f/1}* Возможно, если я когда-нибудь стану учителем..."
+"<25>{#p/toriel}{#f/1}* Возможно, если я когда-нибудь стану учительницей..."
 
 msgid "<25>{#f/0}* I could host a field trip to the Royal Lab."
 msgstr ""
-"<25>{#f/0}* Я мог бы организовать экскурсию в Королевскую лабораторию."
+"<25>{#f/0}* Я могла бы организовать экскурсию в Королевскую лабораторию."
 
 msgid "<25>{#f/0}* With Dr. Alphys's permission, of course."
 msgstr "<25>{#f/0}* С разрешения доктора Альфис, конечно."
@@ -54,19 +54,20 @@ msgstr ""
 "распространился, малышка!"
 
 msgid "<25>{#f/0}* Though, I have not seen it, due to my lack of a TV."
-msgstr "<25>{#f/0}* Хотя я этого не видел из-за отсутствия у меня телевизора."
+msgstr ""
+"<25>{#f/0}* Хотя я этого не видела, из-за отсутствия у меня телевизора."
 
 msgid ""
 "<25>{#f/1}* When I heard about it, however, I must admit I was surprised..."
 msgstr ""
-"<25>{#f/1}* Однако, когда я услышал об этом, должен признаться, я был "
-"удивлен..."
+"<25>{#f/1}* Однако, я признаюсь что когда я услышала об этом, я была "
+"удивлена..."
 
 msgid "<25>{#f/2}* How did you not miss even a SINGLE time?"
-msgstr "<25>{#f/2}* Как вам удалось ни разу не промахнуться?"
+msgstr "<25>{#f/2}* Как тебе удалось НИ РАЗУ не промахнуться?"
 
 msgid "<25>{#f/6}* I did not know you had such \"fabulous\" moves."
-msgstr "<25>{#f/6}* Я и не знал, что у тебя такие \"потрясающие\" движения."
+msgstr "<25>{#f/6}* Я и не знала, что у тебя такие \"потрясающие\" движения."
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* Hmm...\n"
@@ -76,7 +77,7 @@ msgstr ""
 "* Королевская гвардия в Аэриалисе..."
 
 msgid "<25>{#f/0}* Apparently, their favorite food is... salmon."
-msgstr "<25>{#f/0}* Очевидно, это их любимое блюдо... лосось."
+msgstr "<25>{#f/0}* По-видимому, их любимое блюдо это... лосось."
 
 msgid "<25>{#f/1}* Or... was it ice cream?"
 msgstr "<25>{#f/1}* Или... это было мороженое?"
@@ -102,29 +103,28 @@ msgstr ""
 "малышка."
 
 msgid "<25>{#f/1}* I also hear you did something shocking..."
-msgstr "<25>{#f/1}* Я также слышал, что ты совершил нечто шокирующее..."
+msgstr "<25>{#f/1}* Я также слышала, что ты совершил нечто шокирующее..."
 
 msgid ""
 "<25>{#f/2}* And altered crafting ingredients to create plastic explosive!"
 msgstr ""
-"<25>{#f/2}* И измененные ингредиенты для изготовления пластиковой "
-"взрывчатки!"
+"<25>{#f/2}* И изменил ингредиенты чтобы сделать пластиковую взрывчатку!"
 
 msgid ""
 "<25>{#f/2}* And held your ground against the threat of an impending "
 "explosion!"
-msgstr "<25>{#f/2}* И устояли на ногах перед угрозой надвигающегося взрыва!"
+msgstr "<25>{#f/2}* И устоял на ногах перед угрозой надвигающегося взрыва!"
 
 msgid "<25>{#f/2}* And flew a \"one-time use portable jetpack\" by yourself!"
 msgstr ""
-"<25>{#f/2}* И самостоятельно управлял \"портативным реактивным ранцем "
-"одноразового использования\"!"
+"<25>{#f/2}* И самостоятельно управлял \"одноразовым портативным реактивным "
+"ранцем\"!"
 
 msgid "<25>{#f/3}* ... are you..."
-msgstr "<25>{#f/3}* ... это ты..."
+msgstr "<25>{#f/3}* ...ты..."
 
 msgid "<25>{#f/4}* Are you TRYING to put your life in danger?"
-msgstr "<25>{#f/4}* Ты пытаешься подвергнуть свою жизнь опасности?"
+msgstr "<25>{#f/4}* Ты ПЫТАЕШЬСЯ подвергнуть свою жизнь опасности?"
 
 msgid "<25>{#p/toriel}{#f/1}* What kind of puzzles do they have in Aerialis?"
 msgstr "<25>{#p/toriel}{#f/1}* Какие головоломки есть в Аэриалисе?"
@@ -155,7 +155,7 @@ msgstr ""
 msgid ""
 "<25>{#p/toriel}{#f/1}* When hearing about your hijinks with Mettaton..."
 msgstr ""
-"<25>{#p/toriel}{#f/1}* Когда услышал о твоих проделках с Меттатоном..."
+"<25>{#p/toriel}{#f/1}* Когда я услышала о твоих проделках с Меттатоном..."
 
 msgid "<25>{#f/0}* I had a thought."
 msgstr "<25>{#f/0}* У меня возникла мысль."
