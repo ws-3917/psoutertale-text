@@ -571,21 +571,21 @@ export default {
                }
             },
             greatdog: {
-               name: 'CANIS MAJOR',
+               name: 'グレータードッグ',
                author: 'major_memestar',
                text: {
-                  basic: "Unaware Of\nLife's Changes",
-                  spare: "Excited By\nLife's Changes",
-                  flirt: "Touched By\nLife's Changes",
+                  basic: "にちじょうの　へんかに　きづかず",
+                  spare: "にちじょうの　へんかに　こうふんちゅう",
+                  flirt: "にちじょうの　へんかに　ふれる",
                   bully: ''
                }
             },
             woshua: {
-               name: 'SKRUBBINGTON',
+               name: 'ウォッシュア..?',
                author: 'Discarded Vessel',
                text: {
-                  basic: 'Only 99.1\nPercent Clean',
-                  spare: 'Power-Washing\nPowerhouse',
+                  basic: '99.1％　ピカピカ',
+                  spare: 'こうあつせんじょう　のせんもんか',
                   flirt: 'Hot Tub\nManufacturer',
                   bully: 'Overpowered\nPressure Washer'
                }

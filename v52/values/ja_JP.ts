@@ -11,7 +11,7 @@ const latin2cjk =
 
 
 
-export const LANGUAGE = "en_US";
+export const LANGUAGE = "ja_JP";
 
 export default {
    cellInventoryX: 9,

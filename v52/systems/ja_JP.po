@@ -1310,35 +1310,35 @@ msgid ""
 msgstr ""
 
 msgid "CANIS MAJOR"
-msgstr ""
+msgstr "グレータードッグ"
 
 msgid ""
 "Unaware Of\n"
 "Life's Changes"
-msgstr ""
+msgstr "にちじょうの　へんかに　きづかず"
 
 msgid ""
 "Excited By\n"
 "Life's Changes"
-msgstr ""
+msgstr "にちじょうの　へんかに　こうふんちゅう"
 
 msgid ""
 "Touched By\n"
 "Life's Changes"
-msgstr ""
+msgstr "にちじょうの　へんかに　ふれる"
 
 msgid "SKRUBBINGTON"
-msgstr ""
+msgstr "ウォッシュア..?"
 
 msgid ""
 "Only 99.1\n"
 "Percent Clean"
-msgstr ""
+msgstr "99.1％　ピカピカ"
 
 msgid ""
 "Power-Washing\n"
 "Powerhouse"
-msgstr ""
+msgstr "こうあつせんじょう　のせんもんか"
 
 msgid ""
 "Hot Tub\n"

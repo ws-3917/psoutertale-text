@@ -3,7 +3,7 @@ import { CosmosFont, CosmosKeyed, CosmosTyper } from '../../../code/systems/stor
 
 // START-TRANSLATE
 
-export const LANGUAGE = 'en_US';
+export const LANGUAGE = 'es_ES';
 
 export default {
    cellInventoryX: 0,
