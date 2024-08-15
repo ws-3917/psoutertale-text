@@ -960,7 +960,7 @@ export default {
       settings1: 'AJUSTES',
       settings2: 'SALIR',
       settings3: 'IDIOMA',
-      settings3a: 'INGLES',
+      settings3a: 'ESPAÑOL',
       settings4: 'SOUND FX',
       settings5: 'MÚSICA',
       settings6: 'FANCY GRAPHICS',

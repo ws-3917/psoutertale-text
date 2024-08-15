@@ -2084,7 +2084,7 @@ msgid "LANGUAGE"
 msgstr "IDIOMA"
 
 msgid "ENGLISH"
-msgstr "INGLES"
+msgstr "ESPAÑOL"
 
 msgid "SOUND FX"
 msgstr ""

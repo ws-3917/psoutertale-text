@@ -2255,7 +2255,7 @@ msgid "§fill=#0f0§NOMINAL"
 msgstr ""
 
 msgid "$(x)%"
-msgstr "$%(x)"
+msgstr "%$(x)"
 
 msgid "player"
 msgstr "oyuncu"
@@ -2367,7 +2367,7 @@ msgid "LANGUAGE"
 msgstr "DİL"
 
 msgid "ENGLISH"
-msgstr "İNGİLİZCE"
+msgstr "TÜRKÇE"
 
 msgid "SOUND FX"
 msgstr "SES EFEKTİ"
