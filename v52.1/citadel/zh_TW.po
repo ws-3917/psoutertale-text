@@ -4727,7 +4727,7 @@ msgstr ""
 msgid "<25>{#f/15}* Held in stasis..."
 msgstr ""
 "<25>{#f/15}* 裝置內，時間流速\n"
-"  比現實快得多..."
+"  比現實慢得多..."
 
 msgid "<25>{#f/15}* In a time-accelerated virtual world..."
 msgstr ""
@@ -4796,7 +4796,7 @@ msgstr "<25>{#f/18}* ..."
 
 msgid "<25>{#f/20}* So, uh, I think he was inspired by that."
 msgstr ""
-"<25>{#f/20}* 呃，所以我覺得羅曼博士\n"
+"<25>{#f/20}* 呃，所以我覺得Roman博士\n"
 "  應該是受到了它的啟發。"
 
 msgid ""

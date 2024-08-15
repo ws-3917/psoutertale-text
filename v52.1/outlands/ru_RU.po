@@ -9378,102 +9378,113 @@ msgstr ""
 "* Выложившись на все сто, этот стрелок впечатлен."
 
 msgid "<32>{#p/human}* (You flirt with Mushy.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты флиртуешь с Мушкой.)"
 
 msgid "<32>{#p/human}* (You taunt Mushy.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты дразнишь Мушку.)"
 
 msgid "<32>{#p/story}* Mushy awaits your next challenge."
-msgstr ""
+msgstr "<32>{#p/story}* Мушка ждёт твоего следующего испытания."
 
 msgid "<08>{#p/basic}{~}Let's see what you got."
-msgstr ""
+msgstr "<08>{#p/basic}{~} Посмотрим, что у тебя есть."
 
 msgid "<08>{#p/basic}{~}Think you can take me?"
-msgstr ""
+msgstr "<08>{#p/basic}{~} Думаешь, сможешь меня одолеть?"
 
 msgid "<32>{#p/story}* Mushy, the confused and the aroused."
-msgstr ""
+msgstr "<32>{#p/story}* Мушка, смущенная и возбужденная."
 
 msgid "<08>{#p/basic}{~}H-hey, knock it off!"
-msgstr ""
+msgstr "<32>{#p/story}* Мушка, смущённая и возбужденная."
 
 msgid "<32>{#p/story}* Mushy makes a last stand."
-msgstr ""
+msgstr "<32>{#p/story}* Мушка делает последний рывок."
 
 msgid ""
 "<08>{#p/basic}{~}Bang!\n"
 "Bang!\n"
 "Bang!"
 msgstr ""
+"<08>{#p/basic}{~} Бах!\n"
+"Бах!\n"
+"Бах!"
 
 msgid "<08>{#p/basic}{~}Saddle up!"
 msgstr ""
 
 msgid "<08>{#p/basic}{~}All in a day's."
-msgstr ""
+msgstr "<08>{#p/basic}{~}Всё в один день."
 
 msgid "* Mushy"
-msgstr ""
+msgstr "* Мушка"
 
 msgid "<32>{#p/story}* Mushy bows out of respect."
-msgstr ""
+msgstr "<32>{#p/story}* Мушка кланяется в знак уважения."
 
 msgid "<32>{#p/story}* Mushy stormed in!"
-msgstr ""
+msgstr "<32>{#p/story}* Мушка ворвалась!"
 
 msgid "<32>{#p/story}* Mushy adjusts their stance."
-msgstr ""
+msgstr "<32>{#p/story}* Мушка корректирует свою позицию."
 
 msgid "<32>{#p/story}* Mushy is preparing for a grand standoff."
-msgstr ""
+msgstr "<32>{#p/story}* Мушка готовится к грандиозному противостоянию."
 
 msgid "<32>{#p/story}* Mushy reaches for their holster."
-msgstr ""
+msgstr "<32>{#p/story}* Мушка тянется к себе за кобурой."
 
 msgid "<32>{#p/story}* Smells like petrichor."
-msgstr ""
+msgstr "<32>{#p/story}* Пахнет петрихором."
 
 msgid "<32>{#p/story}* Mushy pretends they aren't bothered by your taunts."
-msgstr ""
+msgstr "<32>{#p/story}* Мушки делают вид, что их не беспокоят твои насмешки."
 
 msgid "<08>{#p/basic}{~}As if that'll work on me."
-msgstr ""
+msgstr "<08>{#p/basic}{~} Как будто на меня это подействует."
 
 msgid ""
 "<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n"
 "* It's Napstablook."
 msgstr ""
+"<32>{#p/story}* НАПСТАБЛУК - ATK 10 DEF 255\n"
+"* Это Напстаблук."
 
 msgid ""
 "<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n"
 "* It doesn't seem like they want to be here anymore."
 msgstr ""
+"<32>{#p/story}* НАПСТАБЛУК - ATK 10 DEF 255\n"
+"* Кажется, они больше не хочет быть здесь."
 
 msgid ""
 "<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n"
 "* Hopeful, for the first time in a while..."
 msgstr ""
+"<32>{#p/story}* НАПСТАБЛУК - ATK 10 DEF 255\n"
+"* С надеждой, впервые за долгое время..."
 
 msgid ""
 "<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n"
 "* The romantic tension is at an all-time high."
 msgstr ""
+"<32>{#p/story}* НАПСТАБЛУК - ATK 10 DEF 255\n"
+"* Романтическое напряжение достигло своего максимума."
 
 msgid "<11>{#p/napstablook}{~}uh..."
-msgstr ""
+msgstr "<11>{#p/napstablook}{~}ух..."
 
 msgid "<11>{#p/napstablook}{~}okay, i guess...?"
-msgstr ""
+msgstr "<11>{#p/napstablook}{~}Хорошо, я думаю...?"
 
 msgid "<11>{#p/napstablook}{~}that's me..."
-msgstr ""
+msgstr "<11>{#p/napstablook}{~}Это я..."
 
 msgid "<32>{#p/human}* (You try to console Napstablook.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты пытаешься утешить Напстаблука.)"
 
 msgid "<32>{#p/human}* (You give Napstablook a patient smile.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты пытаешься утешить Напстаблука.)"
 
 msgid "<32>{#p/human}* (You tell Napstablook a little joke.)"
 msgstr ""
