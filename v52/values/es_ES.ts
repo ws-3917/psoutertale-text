@@ -11,7 +11,7 @@ export default {
    cellFinishX: 0,
    disclaimer: {
       title: "- DISCLAIMER -",
-      content: "1. PS!OUTERTALE is made by Spacey_432.\nOur team is working on the translation.\n2. If you find any untranslated text or dialogue,\nplease kindly let us know instead of\nassuming we are lazy.\n3. Please avoid asking questions already answered \nin the FAQ.  (Examples: \"How do I change the language?\",\n\"How do I defeat Toriel?\", or \"How do I run the game?\").\nOur translators are focused on providing \nthe best translation and may not have time \nto address these inquiries."
+      content: "1. PS!OUTERTALE está hecho por Spacey_432.\nNuestro equipo está trabajando en la \ntraducción al español.\n2. Si encuentras cualquier texto o diálogo sin traducir, \npor favor infórmanos amablemente en lugar \nde pensar que somos perezosos.\n3. Por favor, evita hacer preguntas que ya están \nrespondidas en las preguntas frecuentes\n(Ejemplos: \"¿Cómo cambio el idioma al español?\", \n\"¿Cómo derroto a Toriel?\", o \"¿Cómo extraigo el juego?\").\nNuestros traductores están enfocados en proporcionar \nla mejor traducción y pueden no tener tiempo \npara atender estas consultas."
    },
    footerX: 0,
    itemEquipX: 0,
