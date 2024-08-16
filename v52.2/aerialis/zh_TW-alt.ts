@@ -10802,7 +10802,7 @@ export default {
          },
          alphysZ12: {
             author: 'ALPHYS',
-            pm: 'undynes死了'
+            pm: '安黛因死了'
          },
          alphysZ13: {
             author: 'ALPHYS',

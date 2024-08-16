@@ -20912,7 +20912,7 @@ msgid "i dont know if youre there in some form or not but"
 msgstr ""
 
 msgid "undynes gone"
-msgstr "undynes死了"
+msgstr "undyne死了"
 
 msgid "UNDYNES GONE AND I DONT FING KNOW WHAT TO DO"
 msgstr ""

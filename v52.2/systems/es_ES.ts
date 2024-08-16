@@ -4,15 +4,15 @@ export default {
    battle: {
       death0: [ '(Tomas un respiro profundo.)', "(Estas lleno de determinación.)" ],
       death1: [ 'No puedes rendirte aún...', '$¡(nombre)!\nMantente determinado...' ],
-      death2: [ 'Nuestro destino esta en tus manos...', '$¡(nombre)!\nMantente determinado...' ],
+      death2: [ 'Nuestro destino está en tus manos...', '$¡(nombre)!\nMantente determinado...' ],
       death3: [ "Estarás bien!", '$¡(nombre)!\nMantente determinado...' ],
-      death4: [ "No te rindas!", '$¡(nombre)!\nMantente determinado...' ],
-      death5: [ 'No puede acabar ahora!', '$¡(nombre)!\nMantente determinado...' ],
+      death4: [ "¡No te rindas!", '$¡(nombre)!\nMantente determinado...' ],
+      death5: [ '¡No puede acabar ahora!', '$¡(nombre)!\nMantente determinado...' ],
 
       flee1: '. . . . * Escapaste...',
-      flee2: ". . . . * Me voy.",
+      flee2: ". . . . * Me largo.",
       flee3: ". . . . * Tengo mejores cosas que hacer.",
-      flee4: ". . . . * No me ralentices.",
+      flee4: ". . . . * No me relentices.",
       flee5: '. . . . * Huiste con $(x) de EXP\n. . . . . . y $(y) de O.',
 
       mercy_assist: '* Asistir',
@@ -30,15 +30,15 @@ export default {
             header: 'CERRAR',
             resume: 'Click Para Cerrar'
          },
-         blurb: 'Un error ocurrió! Por favor manda\nuna captura de pantalla al desarrollador.'
+         blurb: '¡Ha ocurrido un error! Por favor manda\nuna captura de pantalla al desarrollador.'
       },
       control: {
          tab: 'CONTROL',
          headers: [ 'GENERAL', 'COMBATE' ],
          items: [
             [
-               'CorrMusica',
-               'CorrJugador',
+               'ArreglarMusica',
+               'ArreglarJugador',
                'OroInfinito',
                'Interactuar',
                'Entrada',
@@ -49,12 +49,12 @@ export default {
                'CamaraLibre'
             ],
             [
-               'PuedAsistir',
+               'PuedeAsistir',
                'LimpiarCaja',
                'Salir',
                'ResetCaja',
                'ResetMenu',
-               'PuedHuir',
+               'PuedeHuir',
                'HPInfinita',
                'PacificarTodos',
                'Suicidar',
@@ -64,11 +64,11 @@ export default {
          p_speed: {
             fps: '$(x) FPS',
             halt: 'Parar',
-            header: 'VEL DEL JUEGO',
+            header: 'VELOCIDAD DEL JUEGO',
             multiplier: '$(x)x',
             next: 'Más',
             prev: 'Menos',
-            sec: '$(x)s/fotograma'
+            sec: '$(x)s/fotogramas'
          }
       },
       godhome: {
@@ -78,7 +78,7 @@ export default {
             action: 'Teletransportar'
          },
          p_encounter: {
-            header: 'COMBATE',
+            header: 'ENCUENTROS',
             action: 'Inicar'
          },
          p_armor: {

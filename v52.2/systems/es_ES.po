@@ -19,28 +19,28 @@ msgstr ""
 "Mantente determinado..."
 
 msgid "Our fate rests upon you..."
-msgstr "Nuestro destino esta en tus manos..."
+msgstr "Nuestro destino está en tus manos..."
 
 msgid "You're going to be alright!"
 msgstr "Estarás bien!"
 
 msgid "Don't lose hope!"
-msgstr "No te rindas!"
+msgstr "¡No te rindas!"
 
 msgid "It cannot end now!"
-msgstr "No puede acabar ahora!"
+msgstr "¡No puede acabar ahora!"
 
 msgid "    * Escaped..."
 msgstr ". . . . * Escapaste..."
 
 msgid "    * I'm outta here."
-msgstr ". . . . * Me voy."
+msgstr ". . . . * Me largo."
 
 msgid "    * I've got better to do."
 msgstr ". . . . * Tengo mejores cosas que hacer."
 
 msgid "    * Don't slow me down."
-msgstr ". . . . * No me ralentices."
+msgstr ". . . . * No me relentices."
 
 msgid ""
 "    * Ran away with $(x) EXP\n"
@@ -87,7 +87,7 @@ msgid ""
 "An error occured! Please send\n"
 "screenshot to developer."
 msgstr ""
-"Un error ocurrió! Por favor manda\n"
+"¡Ha ocurrido un error! Por favor manda\n"
 "una captura de pantalla al desarrollador."
 
 msgid "CONTROL"
@@ -100,10 +100,10 @@ msgid "BATTLE"
 msgstr "COMBATE"
 
 msgid "FixMusic"
-msgstr "CorrMusica"
+msgstr "ArreglarMusica"
 
 msgid "FixPlayer"
-msgstr "CorrJugador"
+msgstr "ArreglarJugador"
 
 msgid "InfiniteG"
 msgstr "OroInfinito"
@@ -130,7 +130,7 @@ msgid "Freecam"
 msgstr "CamaraLibre"
 
 msgid "CanAssist"
-msgstr "PuedAsistir"
+msgstr "PuedeAsistir"
 
 msgid "ClearBox"
 msgstr "LimpiarCaja"
@@ -145,7 +145,7 @@ msgid "ResetMenu"
 msgstr "ResetMenu"
 
 msgid "CanFlee"
-msgstr "PuedHuir"
+msgstr "PuedeHuir"
 
 msgid "InfiniteHP"
 msgstr "HPInfinita"
@@ -166,7 +166,7 @@ msgid "Halt"
 msgstr "Parar"
 
 msgid "GAME SPEED"
-msgstr "VEL DEL JUEGO"
+msgstr "VELOCIDAD DEL JUEGO"
 
 msgid "$(x)x"
 msgstr "$(x)x"
@@ -178,7 +178,7 @@ msgid "Less"
 msgstr "Menos"
 
 msgid "$(x)s/frame"
-msgstr "$(x)s/fotograma"
+msgstr "$(x)s/fotogramas"
 
 msgid "GODHOME"
 msgstr "CENTROMANDO"
@@ -190,7 +190,7 @@ msgid "Teleport"
 msgstr "Teletransportar"
 
 msgid "ENCOUNTER"
-msgstr "COMBATE"
+msgstr "ENCUENTROS"
 
 msgid "Start"
 msgstr "Inicar"

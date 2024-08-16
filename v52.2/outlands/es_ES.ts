@@ -140,103 +140,103 @@ const toriel_aerialis = () =>
               '<25>{#p/toriel}{#f/0}* Todos los que conozco han estado hablando de un \"gran final.\"',
               '<25>{#p/toriel}{#f/1}* Dicen que Mettaton dio su vida por el bien del espectáculo...',
               '<25>{#p/toriel}{#f/0}* Pero sé que no es asi.',
-              '<25>{#p/toriel}{#f/1}* After all, robots can be repaired, can they not?'
+              '<25>{#p/toriel}{#f/1}* Después de todo, los robots se pueden reparar, ¿verdad?'
            ]
          : [
               '<25>{#p/toriel}{#f/0}* Todos los que conozco han estado hablando de un \"gran final.\"',
-              '<25>{#p/toriel}{#f/0}* They say watching you and Mettaton really made them happy.',
-              '<25>{#p/toriel}{#f/1}* While I am glad that you appear to have had a good time...',
+              '<25>{#p/toriel}{#f/0}* Ellos dicen que verte a ti y a Mettaton los hicieron muy felices',
+              '<25>{#p/toriel}{#f/1}* Me alegro que estés pasando un buen rato...',
               '<25>{#p/toriel}{#f/5}* No puedo evitar preocuparme por lo que te espera ahora.'
            ]
       : [
-           '<25>{#p/toriel}{#f/1}* Are you still doing alright out there, little one?',
-           '<25>{#p/toriel}{#f/5}* You have probably been to the Citadel by now.',
+           '<25>{#p/toriel}{#f/1}* ¿Está todo bien por ahí, pequeñín?',
+           '<25>{#p/toriel}{#f/5}* Probablemente ya hayas estado en Citadel ya.',
            '<25>{#p/toriel}{#f/9}* ...',
-           "<25>{#p/toriel}{#f/10}* Be good, won't you?"
+           "<25>{#p/toriel}{#f/10}* Se bueno, ¿vale?"
         ];
 
 export default {
    a_outlands: {
       darktorielcall: [
-         '<26>{#p/toriel}{#f/5}* I apologize, little one.\n* I have once again turned off my phone.',
-         '<25>{#p/toriel}{#f/9}* Please, leave me here for the time being.',
-         '<25>{#p/toriel}{#f/10}* I will return to you and the others in due time.'
+         '<26>{#p/toriel}{#f/5}* Discúlpame , pequeñín.\n* He apagado de nuevo mi teléfono.',
+         '<25>{#p/toriel}{#f/9}* Porfavor, déjame aquí por ahora.',
+         '<25>{#p/toriel}{#f/10}* Volveré contigo y los demás en un tiempo.'
       ],
       secret1: () => [
-         '<32>{#p/basic}* There is a door here.\n* It is locked.',
-         ...(SAVE.data.b.oops ? [] : [ "<32>{#p/basic}* Perhaps there's a key somewhere...?" ])
+         '<32>{#p/basic}* Hay una puerta aquí.\n* Está cerrada',
+         ...(SAVE.data.b.oops ? [] : [ "<32>{#p/basic}* ¿Puede que haya una llave en algún lugar...?" ])
       ],
-      secret2: [ '<32>{#p/human}* (You use the Secret Key.)' ],
-      exit: () => [ choicer.create('* (Exit the Outlands?)', 'Yes', 'No') ],
-      nosleep: [ '<32>{#p/human}* (Something seems to have interrupted your sleep.)' ],
-      noequip: [ '<32>{#p/human}* (You decide not to equip.)' ],
+      secret2: [ '<32>{#p/human}* (Usas la llave secreta.)' ],
+      exit: () => [ choicer.create('* (Abandonar las Outlands?)', 'Si', 'No') ],
+      nosleep: [ '<32>{#p/human}* (Parece que algo te ha interrumpido el sueño.)' ],
+      noequip: [ '<32>{#p/human}* (Decides no equiparlo)' ],
       finaltext: {
-         a: [ "<32>{#p/basic}* He's gotta be around here somewhere..." ],
-         b: [ '<32>{#p/basic}* Huh...?', '<32>{#p/basic}* Is that... him?\n* Out there?' ],
+         a: [ "<32>{#p/basic}* El tiene que estar por aquí, en algún lado..." ],
+         b: [ '<32>{#p/basic}* eh...?', '<32>{#p/basic}* ¿Eso es... El?\n* ¿Ahí fuera?' ],
          c: [
-            "<32>{#p/basic}* ... it's him.",
-            "<32>* ...\n* Frisk, if you're ready...",
-            "<32>* If you've seen everyone else you wanted to see...",
+            "<32>{#p/basic}* ... es el.",
+            "<32>* ...\n* Frisk, si estas listo...",
+            "<32>* Si has visto a todos los que quieres ver...",
             '<32>* ...',
-            '<32>* You know what to do.',
-            "<32>* Otherwise, I'll wait until you're ready."
+            '<32>* Ya sabes que hacer.',
+            "<32>* De lo contrario, esperaré hasta que estés listo."
          ],
          d1: [ '<32>{#p/basic}* Asriel.' ],
-         d2: [ '<25>{#p/asriel1}{#f/13}* ... Frisk?\n* Is that you...?' ],
-         d3: [ "<32>{#p/basic}* Asriel, it's me...", '<32>{#p/basic}* Your best friend, remember?' ],
+         d2: [ '<25>{#p/asriel1}{#f/13}* ¿... Frisk?\n* ¿Eres tu...?' ],
+         d3: [ "<32>{#p/basic}* Asriel, soy yo...", '<32>{#p/basic}* Tu mejor amigo, ¿te acuerdas?' ],
          d4: [
             '<25>{#p/asriel1}{#f/25}* ...!',
             '<25>{#f/25}* $(name)...?',
-            "<25>{#f/13}* But... you're...",
-            "<25>{#f/23}* ... you're..."
+            "<25>{#f/13}* Pero... Estas...",
+            "<25>{#f/23}* ... estas..."
          ],
-         d5: [ '<32>{#p/basic}* Dead?' ],
+         d5: [ '<32>{#p/basic}* ¿Muerto?' ],
          d6: [
-            '<32>{#p/basic}* Heh.\n* For a long time... part of me wished I was.',
-            '<32>{#p/basic}* After what I did to you, I...\n* I felt like I deserved it.'
+            '<32>{#p/basic}* Je.\n* Durante ya un tiempo... Parte de mi deseó estarlo.',
+            '<32>{#p/basic}* Después de lo que te hice, yo...\n* Sentí que me lo merecía.'
          ],
-         d7: [ "<25>{#p/asriel1}{#f/7}* Don't say that, $(name)!", "<25>{#f/6}* ... you're wrong!" ],
+         d7: [ "<25>{#p/asriel1}{#f/7}* No digas eso, $(name)!", "<25>{#f/6}* ... Te equivocas!" ],
          d8: [
-            '<33>{#p/basic}* Haha... look who\'s talking now.\n* Mister \"just go be with the people who love you.\"',
-            '<32>* But you deserve to know the truth about me, Asriel...',
-            '<32>* About everything.'
+            '<33>{#p/basic}* Jaja... mira quien habla.\n* Mister \"solo veo y estoy con gente que te ama.\"',
+            '<32>* Pero te mereces saber la verdad sobre mi, Asriel...',
+            '<32>* Sobre , todo.'
          ],
          d9: [ '<25>{#p/asriel1}{#f/23}* ...', '<25>{#f/23}* $(name)...' ],
-         d10: [ '<25>{#p/asriel1}{#f/13}* But...', '<25>{#f/15}* How are you still...' ],
+         d10: [ '<25>{#p/asriel1}{#f/13}* Pero...', '<25>{#f/15}* Como estas aun...?' ],
          d11: [
-            '<32>{#p/basic}* ... does it matter?',
-            '<32>* You were right to forget about me the way you did back there.',
-            "<32>* The truth is, I've been a terrible person...",
-            "<32>* And I'm not the friend, or the sibling you wish you had."
+            '<32>{#p/basic}* ... eso importa?',
+            '<32>* Acertaste con olvidarte de mi de la manera que hiciste atrás.',
+            "<32>* Lo cierto es... que he sido una persona terrible...",
+            "<32>* Y no soy el amigo , o el hermano que desearías haber tenido."
          ],
-         d12: [ '<25>{#p/asriel1}{#f/13}* $(name), I...' ],
-         d13: [ "<32>{#p/basic}* It's alright, Asriel.", "<32>* You don't have to make it out to be better than it is." ],
-         d14: [ '<25>{#p/asriel1}{#f/22}* ...', '<25>{#f/22}* ... why now?' ],
+         d12: [ '<25>{#p/asriel1}{#f/13}* $(name), Yo...' ],
+         d13: [ "<32>{#p/basic}* Esta bien, Asriel.", "<32>* No tienes que hacerlo para que sea mejor de lo que es." ],
+         d14: [ '<25>{#p/asriel1}{#f/22}* ...', '<25>{#f/22}* ... Por que ahora?' ],
          d15: [
-            '<32>{#p/basic}* Well...',
-            '<32>* I always thought humanity was beyond redemption.',
-            '<32>* That, no matter what...',
-            '<32>* If you were human... you were doomed to fall into darkness.',
-            '<32>* But after following Frisk along on their journey...',
-            '<32>* I understand the truth.',
-            '<32>* The other humans... always did something that made it easy to ignore this truth.',
-            "<33>* They'd attack people, or worse, make them... disappear.",
-            '<32>* But not Frisk.',
-            '<32>* No matter what struggles they faced, they showed kindness and mercy at every turn.',
-            '<32>* They... proved me wrong.',
-            "<32>* And now, because of that, I know there's no excuse for the way I treated you.",
-            '<32>* Everything you went through, everything you lost...',
-            "<32>* I'm the one to blame for it."
+            '<32>{#p/basic}* Bueno...',
+            '<32>* Siempre pensé que la humanidad estaba al borde de la redención.',
+            '<32>* Que, da igual lo que...',
+            '<32>* Si fueras humano... estarías destinado a caer en la oscuridad.',
+            '<32>* Pero después de seguir a Frisk a lo largo de su camino...',
+            '<32>* Ya entiendo la verdad.',
+            '<32>* Los otros humanos... siempre hicieron algo que me hizo fácil ignorar la verdad.',
+            "<33>* Atacan a personas, o peor, las hacen... desaparecer.",
+            '<32>*  Pero , Frisk no.',
+            '<32>* No importa la dificultad que se le encuentre, mostró amabilidad y piedad en cada movimiento.',
+            '<32>* Me... callo la boca.',
+            "<32>* Y ahora, por eso, se que no hay excusa de la manera en que te he tratado.",
+            '<32>* Todo por lo que tuviste que pasar, todo lo que perdiste...',
+            "<32>* Soy al que deberían acusar de ello."
          ],
-         d16: [ '<25>{#p/asriel1}{#f/13}* $(name)...', '<25>{#f/15}* Have you been conscious this whole time?' ],
+         d16: [ '<25>{#p/asriel1}{#f/13}* $(name)...', '<25>{#f/15}* Has estado consciente todo este tiempo?' ],
          d17: [
-            '<32>{#p/basic}* ... yeah.\n* I guess I have.',
-            '<32>* This has been my existence, Asriel...\n* Ever since we died.',
-            "<32>* And... there's something else I have to tell you."
+            '<32>{#p/basic}* ... si.\n* Supongo que si.',
+            '<32>* Esta ha sido mi existencia, Asriel...\n* Desde que morimos.',
+            "<32>* Y... hay otra cosa que debo decirte."
          ],
-         d18: [ '<25>{#p/asriel1}{#f/21}* What is it?' ],
+         d18: [ '<25>{#p/asriel1}{#f/21}* El que?' ],
          d19: [
-            '<32>{#p/basic}* Remember when we crossed the force field together?',
+            '<32>{#p/basic}* ¿Te acuerdas cuando cruzamos el campo de fuerza juntos?',
             '<32>* When we arrived at the ruins of the old homeworld, and got found out by those humans?',
             '<32>* I wanted to use our power to destroy them... but you stopped me, remember?'
          ],
@@ -468,11 +468,11 @@ export default {
          SAVE.data.b.svr
             ? [
                  '<32>{#p/human}* (You saw a piece of gum taped to the comic strip...)',
-                 choicer.create('* (Chew the gum?)', 'Yes', 'No')
+                 choicer.create('* (Chew the gum?)', 'Si', 'No')
               ]
             : [
                  '<32>{#p/basic}* There was a piece of gum taped to the comic strip.',
-                 choicer.create('* (Chew the gum?)', 'Yes', 'No')
+                 choicer.create('* (Chew the gum?)', 'Si', 'No')
               ],
       stargum2: [ '<32>{#p/human}* (You decide not to chew.)' ],
       stargum3: [ '<32>{#p/human}* (You recovered $(x) HP.)' ],
@@ -481,7 +481,7 @@ export default {
          SAVE.data.b.svr
             ? [
                  '<32>{#p/human}* (You feel the inviting warmth of the fireplace...)',
-                 choicer.create('* (Crawl inside?)', 'Yes', 'No')
+                 choicer.create('* (Crawl inside?)', 'Si', 'No')
               ]
             : [
                  SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
@@ -489,7 +489,7 @@ export default {
                     : "<32>{#p/basic}* Toriel's fireplace.\n* It's not too hot, just pleasantly warm.",
                  ...(world.darker
                     ? []
-                    : [ '<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Yes', 'No') ])
+                    : [ '<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Si', 'No') ])
               ],
       fireplace2a: [ '<32>{#p/human}* (You chose not to crawl in.)' ],
       fireplace2b: () => [
@@ -578,9 +578,9 @@ export default {
       asriel2: () => [
          '<25>{#p/asriel2}{#f/1}* Ready, $(name)?',
          "<25>{#f/2}* 'Cause once we move forward, there's no turning back.",
-         choicer.create('* (Follow Him?)', 'Yes', 'No')
+         choicer.create('* (Follow Him?)', 'Si', 'No')
       ],
-      asriel2b: () => [ '<25>{#p/asriel2}{#f/1}* Ready?', choicer.create('* (Follow Him?)', 'Yes', 'No') ],
+      asriel2b: () => [ '<25>{#p/asriel2}{#f/1}* Ready?', choicer.create('* (Follow Him?)', 'Si', 'No') ],
       asriel3: [ '<25>{#p/asriel2}{#f/2}* Okay...', "<25>{#f/1}* Let's do this." ],
       asriel4: [ "<25>{#p/asriel2}{#f/4}* I'll be waiting, then." ],
       asrielDiary: [
@@ -720,7 +720,7 @@ export default {
       },
       midsleep: () => [
          '<32>{#p/human}* (If you sleep here now, you may miss something important.)',
-         choicer.create('* (Go to sleep?)', 'Yes', 'No')
+         choicer.create('* (Go to sleep?)', 'Si', 'No')
       ],
       bedfailToriel: [
          '<25>{#p/toriel}{#f/5}* Oh dear.',
@@ -733,11 +733,11 @@ export default {
          '<32>{#p/napstablook}* Zzz... Zzz...',
          '<32>* Zzz... Zzz...',
          "<32>{#p/basic}* This ghost keeps saying 'z' out loud repeatedly, pretending to sleep.",
-         choicer.create('* (Try to walk through it?)', 'Yes', 'No')
+         choicer.create('* (Try to walk through it?)', 'Si', 'No')
       ],
       blooky2: () => [
          '<32>{#p/basic}* The ghost is still blocking the way.',
-         choicer.create('* (Try to walk through it?)', 'Yes', 'No')
+         choicer.create('* (Try to walk through it?)', 'Si', 'No')
       ],
       blooky3: [
          '<32>{#p/napstablook}* i usually visit this place to get some peace and quiet...',
@@ -837,7 +837,7 @@ export default {
          '<25>{#p/toriel}{#f/1}{#n1}* Restless night?',
          '<25>{#f/1}* ...\n* If you like, I can read you this book...',
          '<25>{#f/0}* It is called \"Generous Monster\" and it was written by a human.',
-         choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+         choicer.create('{#n1!}* (Read the book?)', 'Si', 'No')
       ],
       chair1f: pager.create(
          0,
@@ -846,12 +846,12 @@ export default {
       ),
       chair2a1: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* Are you hungry?\n* Would you like me to make you a breakfast?',
-         choicer.create('{#n1!}* (Have breakfast?)', 'Yes', 'No')
+         choicer.create('{#n1!}* (Have breakfast?)', 'Si', 'No')
       ],
       chair2a2: [ '<25>{#p/toriel}{#n1}* Wonderful!\n* I will be in the kitchen preparing it.' ],
       chair2a3: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* Have you changed your mind about breakfast?',
-         choicer.create('{#n1!}* (Have breakfast?)', 'Yes', 'No')
+         choicer.create('{#n1!}* (Have breakfast?)', 'Si', 'No')
       ],
       chair2a4: () =>
          SAVE.data.b.drop_snails
@@ -869,16 +869,16 @@ export default {
          '<25>{#p/toriel}{#n1}* Ah, the book!\n* Yes, it is quite the fun little read.',
          '<25>{#f/0}* It is called \"Generous Monster\" and was written by a human.',
          '<25>{#f/1}* Would you like me to read it to you?',
-         choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+         choicer.create('{#n1!}* (Read the book?)', 'Si', 'No')
       ],
       chair2c2: [ '<25>{#p/toriel}{#n1}* Splendid!', '<25>{#g/torielCompassionSmile}* ...' ],
       chair2c3: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book now?',
-         choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+         choicer.create('{#n1!}* (Read the book?)', 'Si', 'No')
       ],
       chair2c4: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book again?',
-         choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+         choicer.create('{#n1!}* (Read the book?)', 'Si', 'No')
       ],
       chair2c5: [ '<25>{#p/toriel}{#f/1}{#n1}* Alright, then...', '<25>{#p/toriel}{#g/torielCompassionSmile}* ...' ],
       chair2c6: [
@@ -1069,7 +1069,7 @@ export default {
          '<25>{#f/0}* No matter.\n* I will operate it for you.',
          '<25>{#f/0}* ...',
          '<25>{#f/0}* There is a riddle to be solved here.\n* Would you like to try?',
-         choicer.create('* (Solve the riddle?)', 'Yes', 'No')
+         choicer.create('* (Solve the riddle?)', 'Si', 'No')
       ],
       danger_puzzle5a: [
          '<25>{#p/toriel}* Excellent!\n* The eagerness to learn and grow is important.',
@@ -1111,7 +1111,7 @@ export default {
       dipper: {
          a: () => [
             '<32>{#p/human}* (You got the Little Dipper.)',
-            choicer.create('* (Equip the Little Dipper?)', 'Yes', 'No')
+            choicer.create('* (Equip the Little Dipper?)', 'Si', 'No')
          ],
          b: [ "<32>{#p/human}* (You're carrying too much to take that.)" ]
       },
@@ -1642,7 +1642,7 @@ export default {
                : [ '<32>{#p/basic}* There is a brand-name chocolate bar in the fridge.' ],
          b: () => [
             ...(SAVE.data.b.svr ? [] : [ '<32>{#p/basic}* ...', '<32>* Do you want it?' ]),
-            choicer.create('* (Take the Chocolate Bar?)', 'Yes', 'No')
+            choicer.create('* (Take the Chocolate Bar?)', 'Si', 'No')
          ],
          b1: [ '<32>{#p/human}* (You decide not to take anything.)' ],
          b2: () => [
@@ -1703,7 +1703,7 @@ export default {
                  '<25>{#f/9}* I did my best to try and salvage it...'
               ]
             : []),
-         choicer.create("* (See Napstablook's show?)", 'Yes', 'No')
+         choicer.create("* (See Napstablook's show?)", 'Si', 'No')
       ],
       front2a: [ '<25>{#p/toriel}{#f/0}* Wonderful!\n* I will let them know you are coming.' ],
       front2b: [ '<25>{#p/toriel}{#f/5}* ...', '<25>{#p/toriel}{#f/5}* I will be in the living room if you need me.' ],
@@ -1805,7 +1805,7 @@ export default {
          '<25>{#f/0}* It means a lot to me.'
       ],
       halo: {
-         a: () => [ '<32>{#p/human}* (You got the Halo.)', choicer.create('* (Equip the Halo?)', 'Yes', 'No') ],
+         a: () => [ '<32>{#p/human}* (You got the Halo.)', choicer.create('* (Equip the Halo?)', 'Si', 'No') ],
          b: [ "<32>{#p/human}* (You're carrying too much to take that.)" ]
       },
       indie1: () => [
@@ -1817,18 +1817,18 @@ export default {
             : [ '<26>{#p/toriel}* Alright.\n* It is time for your third and final lesson.' ]),
          '<25>{#f/1}* Do you think you can make it to the end of this room...',
          '<25>{#f/1}* ... all by yourself?',
-         choicer.create('* (What do you say?)', 'Yes', 'No')
+         choicer.create('* (What do you say?)', 'Si', 'No')
       ],
       indie1a: () => [
          '<25>{#p/toriel}{#f/1}* Are you sure...?',
          '<25>{#f/0}* It is only a short distance away.',
-         choicer.create('* (Change your mind?)', 'Yes', 'No')
+         choicer.create('* (Change your mind?)', 'Si', 'No')
       ],
       indie1b: () => [
          '<25>{#p/toriel}{#f/5}* My child.',
          '<25>{#f/1}* It IS important to do things on your own, is it not?',
          '<32>{#p/basic}* If you refuse to change your mind here, Toriel may decide to take you home.',
-         choicer.create('* (Change your mind?)', 'Yes', 'No')
+         choicer.create('* (Change your mind?)', 'Si', 'No')
       ],
       indie2a: [ '<25>{#p/toriel}{#f/1}* Alright...', '<25>{#f/0}* Good luck!' ],
       indie2b: [ '<25>{#p/toriel}{#f/5}* ...', '<25>{#f/9}* ... I see.' ],
@@ -2057,7 +2057,7 @@ export default {
                        "<32>* Maybe now you'll have the means to accept my offer.",
                        "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip.",
                        "<32>* Now I liked that little show, so you'll get a discount.\n* 5G, take it or leave it.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Yes', 'No')
+                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Si', 'No')
                     ]
                   : [
                        ...(world.postnoot
@@ -2072,19 +2072,19 @@ export default {
                                "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip."
                             ]),
                        "<32>* Interested?\n* All I'm askin' for is 10G.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Yes', 'No')
+                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Si', 'No')
                     ],
             () =>
                SAVE.data.b.napsta_performance
                   ? [
                        "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
                        "<32>* All I'm askin' for is 5G.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Yes', 'No')
+                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Si', 'No')
                     ]
                   : [
                        "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
                        "<32>* All I'm askin' for is 10G.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Yes', 'No')
+                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Si', 'No')
                     ]
          ),
          b: () => [
@@ -2197,7 +2197,7 @@ export default {
             ][SAVE.data.n.choice_flavor],
             '<25>{#f/1}* I know what your preference is, but...',
             '<25>{#f/1}* Would you still be satisfied if it turned up on your plate?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            choicer.create('* (What do you say?)', 'Si', 'No')
          ],
          b1: () => [
             3 <= SAVE.data.n.cell_insult
@@ -2408,8 +2408,8 @@ export default {
                  '<32>{#p/basic}* Scandalous!',
                  "<32>* It's Toriel's sock collection.\n* A little messy...",
                  world.meanie
-                    ? choicer.create('* (Make it messier?)', 'Yes', 'No')
-                    : choicer.create('* (Clean up the mess?)', 'Yes', 'No')
+                    ? choicer.create('* (Make it messier?)', 'Si', 'No')
+                    : choicer.create('* (Clean up the mess?)', 'Si', 'No')
               ],
       socks2: () =>
          world.meanie
@@ -2420,12 +2420,12 @@ export default {
                     ? []
                     : [
                          "<32>{#p/human}* (...)\n* (It appears there's a key hidden in the drawer.)",
-                         choicer.create('* (Take the key?)', 'Yes', 'No')
+                         choicer.create('* (Take the key?)', 'Si', 'No')
                       ])
               ],
       socks3: () => [
          "<32>{#p/human}* (...)\n* (It appears there's a key hidden in the drawer.)",
-         choicer.create('* (Take the key?)', 'Yes', 'No')
+         choicer.create('* (Take the key?)', 'Si', 'No')
       ],
       socks4: [ '<32>{#p/human}* (You decide not to do anything.)' ],
       socks5: () =>
@@ -2494,8 +2494,8 @@ export default {
                ? '<32>{#p/basic}{#n1!}* \"Sizzli Steak\" for 20G.'
                : '<32>{#p/basic}{#n1!}* It\'s labelled \"Sizzli Steak\" and costs 20G.\n* Smells like hyperbole.',
             SAVE.data.b.napsta_performance
-               ? choicer.create('* (Buy the Sizzli Steak for 40G?)', 'Yes', 'No')
-               : choicer.create('* (Buy the Sizzli Steak for 20G?)', 'Yes', 'No')
+               ? choicer.create('* (Buy the Sizzli Steak for 40G?)', 'Si', 'No')
+               : choicer.create('* (Buy the Sizzli Steak for 20G?)', 'Si', 'No')
          ],
          b1: [ '<32>{#p/human}{#n1!}* (You got the Sizzli Steak.)', '<32>{#p/basic}{#n1}* Slick choice, lassy ;)' ],
          b2: [ '<32>{#p/human}{#n1!}* (You decide not to buy.)' ],
@@ -2508,8 +2508,8 @@ export default {
                ? '<32>{#p/basic}{#n1!}* \"Fizzli Soda\" for 5G.'
                : '<32>{#p/basic}{#n1!}* It\'s labelled \"Fizzli Soda\" and costs 5G.\n* Who would buy this?',
             SAVE.data.b.napsta_performance
-               ? choicer.create('* (Buy the Fizzli Soda for 10G?)', 'Yes', 'No')
-               : choicer.create('* (Buy the Fizzli Soda for 5G?)', 'Yes', 'No')
+               ? choicer.create('* (Buy the Fizzli Soda for 10G?)', 'Si', 'No')
+               : choicer.create('* (Buy the Fizzli Soda for 5G?)', 'Si', 'No')
          ],
          c1: [ '<32>{#p/human}{#n1!}* (You got the Fizzli Soda.)', "<32>{#p/basic}{#n1}* Careful, it's sweet ;)" ],
          c2: [ '<32>{#p/human}{#n1!}* (You decide not to buy.)' ],
@@ -3624,7 +3624,7 @@ export default {
             ? [
                  '<32>{#p/basic}* The size of the pie does not intimidate you at all.',
                  '<32>{#p/basic}* In fact, it might even be intimidated by you...',
-                 choicer.create('* (Smash the pie?)', 'Yes', 'No')
+                 choicer.create('* (Smash the pie?)', 'Si', 'No')
               ]
             : [ '<32>{#p/basic}* The size of the pie intimidates you too much to eat it.' ],
       piesmash1: [ '<32>{#p/human}* (You decide not to smash.)' ],
@@ -3797,14 +3797,14 @@ export default {
          () => [
             '<32>{#p/basic}* This coffin dates back to December 251X.',
             '<32>* There is an old record-keeping manifest stashed next to it...',
-            choicer.create('* (Access the manifest?)', 'Yes', 'No')
+            choicer.create('* (Access the manifest?)', 'Si', 'No')
          ],
          () => [
             '<32>{#p/human}* (You once again pick up the manifest.)',
-            choicer.create('* (Access the manifest?)', 'Yes', 'No')
+            choicer.create('* (Access the manifest?)', 'Si', 'No')
          ]
       ),
-      w_coffin3: () => [ choicer.create('* (Read the next page?)', 'Yes', 'No') ],
+      w_coffin3: () => [ choicer.create('* (Read the next page?)', 'Si', 'No') ],
       w_coffin4: [ '<32>{#p/human}* (But there were no further pages to be read.)' ],
       w_coffin5: [ '<32>{#p/human}* (You put the manifest back where it belongs.)' ],
       w_dummy1: () =>
@@ -4603,7 +4603,7 @@ export default {
                     ? [ '<32>* (Nothing happens.)' ]
                     : [
                          '<32>* (You found a piece of gum taped to the comic strip.)',
-                         choicer.create('* (Use the gum?)', 'Yes', 'No')
+                         choicer.create('* (Use the gum?)', 'Si', 'No')
                       ])
               ]
             : []
