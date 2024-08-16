@@ -23,32 +23,32 @@ msgid "<25>{#f/0}* How disappointing that would be."
 msgstr ""
 
 msgid "<25>{#p/toriel}{#f/1}* Perhaps, if I ever become a teacher..."
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/1}＊もしも　せんせいに　なれたら…"
 
 msgid "<25>{#f/0}* I could host a field trip to the Royal Lab."
-msgstr ""
+msgstr "<13>{#f/0}＊ラボまで　えんそくに　いけるわね。"
 
 msgid "<25>{#f/0}* With Dr. Alphys's permission, of course."
-msgstr ""
+msgstr "<13>{#f/0}＊もちろん　ドクター・アルフィー　のきょか　をとってからね。"
 
 msgid ""
 "<25>{#f/1}* All those interesting experiments they must conduct there..."
-msgstr ""
+msgstr "<13>{#f/1}＊ここで　おこなわれた　じっけんは　みな　きょうみぶかいわ。"
 
 msgid "<25>{#f/0}* It'd be a great learning experience for the children."
-msgstr ""
+msgstr "<13>{#f/0}＊こどもたちに　とって　とても　いい　べんきょうに　なるはずよ。"
 
 msgid ""
 "<25>{#p/toriel}{#f/0}* Word of your TV premier has spread quickly, little "
 "one!"
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/0}＊あなたの　テレビ　しゅつえんの　うわさは　すぐに　ひろまったわ！"
 
 msgid "<25>{#f/0}* Though, I have not seen it, due to my lack of a TV."
-msgstr ""
+msgstr "<13>{#f/0}＊テレビが　ないから　あなたのことを　みれなかった　けれど…"
 
 msgid ""
 "<25>{#f/1}* When I heard about it, however, I must admit I was surprised..."
-msgstr ""
+msgstr "<13>{#f/1}＊だけど　そのはなしを　きいたとき　しょうじき　おどろいたわ。"
 
 msgid "<25>{#f/2}* How did you not miss even a SINGLE time?"
 msgstr ""
@@ -4212,7 +4212,7 @@ msgstr "<13>{#f/0}＊さっそく　おみせしますよ。"
 msgid ""
 "<25>{#p/toriel}{#f/1}* It may seem strange to you now, but here on the "
 "outpost..."
-msgstr "<13>{#p/toriel}{#f/1}＊ヘンに　おもわれるかも　しれませんが…"
+msgstr "<13>{#p/toriel}{#f/1}＊ヘンに　おもわれるかも　しれないけど…"
 
 msgid "<25>{#f/0}* Solving puzzles is a part of our daily routine."
 msgstr "<13>{#f/0}＊ここで　パズルをとくことは　わたしたちにとって　ふつうのことなの。"

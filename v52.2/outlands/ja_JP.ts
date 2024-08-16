@@ -32,16 +32,16 @@ const toriel_aerialis = () =>
       : SAVE.data.n.plot < 51
       ? world.bad_lizard > 1 || SAVE.data.n.state_foundry_undyne === 2
          ? [
-              '<25>{#p/toriel}{#f/1}* Perhaps, if I ever become a teacher...',
-              '<25>{#f/0}* I could host a field trip to the Royal Lab.',
-              "<25>{#f/0}* With Dr. Alphys's permission, of course.",
-              '<25>{#f/1}* All those interesting experiments they must conduct there...',
-              "<25>{#f/0}* It'd be a great learning experience for the children."
+              '<13>{#p/toriel}{#f/1}＊もしも　せんせいに　なれたら…',
+              '<13>{#f/0}＊ラボまで　えんそくに　いけるわね。',
+              "<13>{#f/0}＊もちろん　ドクター・アルフィー　のきょか　をとってからね。",
+              '<13>{#f/1}＊ここで　おこなわれた　じっけんは　みな　きょうみぶかいわ。',
+              "<13>{#f/0}＊こどもたちに　とって　とても　いい　べんきょうに　なるはずよ。"
            ]
          : [
-              '<25>{#p/toriel}{#f/0}* Word of your TV premier has spread quickly, little one!',
-              '<25>{#f/0}* Though, I have not seen it, due to my lack of a TV.',
-              '<25>{#f/1}* When I heard about it, however, I must admit I was surprised...',
+              '<13>{#p/toriel}{#f/0}＊あなたの　テレビ　しゅつえんの　うわさは　すぐに　ひろまったわ！',
+              '<13>{#f/0}＊テレビが　ないから　あなたのことを　みれなかった　けれど…',
+              '<13>{#f/1}＊だけど　そのはなしを　きいたとき　しょうじき　おどろいたわ。',
               SAVE.data.n.state_aerialis_talentfails === 0
                  ? '<25>{#f/2}* How did you not miss even a SINGLE time?'
                  : '<25>{#f/6}* I did not know you had such \"fabulous\" moves.'
@@ -1983,7 +1983,7 @@ export default {
          '<13>{#f/0}＊さっそく　おみせしますよ。'
       ],
       lobby_puzzle2: [
-         '<13>{#p/toriel}{#f/1}＊ヘンに　おもわれるかも　しれませんが…',
+         '<13>{#p/toriel}{#f/1}＊ヘンに　おもわれるかも　しれないけど…',
          '<13>{#f/0}＊ここで　パズルをとくことは　わたしたちにとって　ふつうのことなの。',
          '<13>{#f/0}＊じかんと　すこしのしどうで　すぐになれるはずよ。'
       ],

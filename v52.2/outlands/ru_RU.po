@@ -2107,7 +2107,7 @@ msgid "Water"
 msgstr "Вода"
 
 msgid "Δ-9"
-msgstr ""
+msgstr "Δ-9"
 
 msgid "Nothing"
 msgstr "Ничего"
