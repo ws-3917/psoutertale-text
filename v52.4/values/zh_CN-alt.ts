@@ -268,6 +268,8 @@ export default {
       暁々あかつき: "§fill=#43fff3§能找到这里来也是辛苦你了。\n所以，嗯，我讨厌翻译双关。§fill=#fff§",
       暁暁あかつき: "§fill=#43fff3§能找到这里来也是辛苦你了。\n所以，嗯，我讨厌翻译双关。§fill=#fff§",
       roctd: "3.1415⑨ ...后面是啥来着？\n我数学水平堪比琪露诺，\n等我想完再放你进去...",
+      3.1415: "3.1415⑨ ...後面是啥來著？\n我數學水平堪比琪露諾，\n等我想完再放你進去...",
+      π: "3.1415⑨ ...後面是啥來著？\n我數學水平堪比琪露諾，\n等我想完再放你進去...",
       雪理奈: "§fill=#ffd1d9§你取了我的名字，\n这意味着你认识我。\n我可以给你一些帮助。§fill=#fff§",
       mdr: '嗯...？',
       月亮菌: "...我不觉得这个名字好欸bro",
@@ -325,14 +327,21 @@ export default {
       'undyne',
       '安黛因',
       "晓晓あかつき",
-      "晓晓アカツキ"
+      "晓晓アカツキ",
+      "暁々アカツキ",
+      "暁暁アカツキ",
+      "暁々あかつき",
+      "暁暁あかつき",
+      "roctd",
+      "3.1415",
+      "π"
    ],
    namePromptX: 16,
    nameValueY: 0,
    nameLetterMap: [],
    nameLetterPosition: () => ({ x: 0, y: 0 }),
    nameLetterValidation: (char: string) => {
-      return /[A-Za-z0-9]/g.test(char) || cjk.test(char);
+      return /[\S]/g.test(char);
    },
    nameQuitX: 0,
    nameBackspaceX: 28,
