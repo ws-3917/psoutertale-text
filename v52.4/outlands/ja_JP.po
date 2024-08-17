@@ -5,7 +5,7 @@ msgstr ""
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/1}＊エアリアル　には　とくしゅな　えきたいが　あると　きいたことが　あるわ。"
 
 msgid "<25>{#f/0}* Used primarily to dampen electricity."
 msgstr ""
@@ -176,18 +176,20 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#f/5}* It seems this has been on their mind for some time."
-msgstr "<13>{#f/5}＊"
+msgstr "<13>{#f/5}＊しばらく　まえから　けいかく　していた　みたいね。"
 
 msgid "<25>{#f/0}* Thankfully, they say it should be resolved soon."
-msgstr ""
+msgstr "<13>{#f/0}＊"
 
 msgid "<25>{#f/1}* And with the help of you, no less?"
-msgstr ""
+msgstr "<13>{#f/1}＊あなたの　てだすけも　あった　のよね？"
 
 msgid ""
 "<25>{#f/0}* Well then.\n"
 "* I am very proud of you, little one."
 msgstr ""
+"<13>{#f/0}＊そうだとしたら…\n"
+"＊あなたは　わたしの　じまんの　子よ。"
 
 msgid "<25>{#f/1}* They say their cousin tried to ask for your help, but..."
 msgstr ""

@@ -271,7 +271,7 @@ export default {
       3.1415: "§random=1.1/1.1§3.1415⑨§random=0/0§ ...後面是啥來著？\n我數學水平堪比§fill=#0080ff§§random=1.1/1.1§琪露諾§random=0/0§§fill=#fff§，\n等我想完再放你進去...",
       π: "§random=1.1/1.1§3.1415⑨§random=0/0§ ...後面是啥來著？\n我數學水平堪比§fill=#0080ff§§random=1.1/1.1§琪露諾§random=0/0§§fill=#fff§，\n等我想完再放你進去...",
       雪理奈: "§fill=#ffd1d9§你取了我的名字，\n這意味著你認識我。\n我可以給你一些幫助。§fill=#fff§",
-      mdr: '嗯...？',
+      mdr: '§fill=#888§直入主題吧。§fill=#fff§',
       月亮菌: "§random=1.1/1.1§...我不覺得這個名字好欸bro§random=0/0§",
       屑moons: "§random=1.1/1.1§...我不覺得這個名字好欸bro§random=0/0§",
    },

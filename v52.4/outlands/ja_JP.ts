@@ -22,7 +22,7 @@ import { CosmosKeyed, CosmosProvider } from '../../../code/systems/storyteller';
 const toriel_aerialis = () =>
    SAVE.data.n.plot < 49
       ? [
-           '<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in Aerialis...',
+           '<13>{#p/toriel}{#f/1}＊エアリアル　には　とくしゅな　えきたいが　あると　きいたことが　あるわ。',
            '<25>{#f/0}* Used primarily to dampen electricity.',
            '<25>{#f/1}* If you could carry this fluid, how far would you take it?',
            '<25>{#f/1}* Would you carry it all the way to the Citadel?',
@@ -99,14 +99,14 @@ const toriel_aerialis = () =>
       ? SAVE.data.b.a_state_hapstablook
          ? [
               '<25>{#p/toriel}{#f/1}* A ghost, Lurksalot, recently spoke of some family business.',
-              '<13>{#f/5}＊',
-              '<25>{#f/0}* Thankfully, they say it should be resolved soon.',
-              '<25>{#f/1}* And with the help of you, no less?',
-              '<25>{#f/0}* Well then.\n* I am very proud of you, little one.'
+              '<13>{#f/5}＊しばらく　まえから　けいかく　していた　みたいね。',
+              '<13>{#f/0}＊',
+              '<13>{#f/1}＊あなたの　てだすけも　あった　のよね？',
+              '<13>{#f/0}＊そうだとしたら…\n＊あなたは　わたしの　じまんの　子よ。'
            ]
          : [
               '<25>{#p/toriel}{#f/1}* A ghost, Lurksalot, recently spoke of some family business.',
-              '<13>{#f/5}＊',
+              '<13>{#f/5}＊しばらく　まえから　けいかく　していた　みたいね。',
               '<25>{#f/1}* They say their cousin tried to ask for your help, but...',
               '<25>{#f/5}* You were unavailable at the time.',
               '<25>{#f/1}* ... you did have a good reason, did you not?'

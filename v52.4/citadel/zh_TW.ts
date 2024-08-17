@@ -5246,11 +5246,11 @@ export default {
          fluff
             ? [
                  '<20>{*}{#p/asriel3}{#e/asriel/0}...胡鬧... 到此為止！',
-                 "<20>{*}{#p/asriel3}{#e/asriel/5}<20>{*}{#p/asriel3}{#e/asriel/5}現在...\n是時候徹底抹去\n這條時間軸了！"
+                 "<20>{*}{#p/asriel3}{#e/asriel/5}現在...\n是時候徹底抹去\n這條時間軸了！"
               ]
             : [
                  '<20>{*}{#p/asriel3}{#e/asriel/0}胡鬧到此為止！',
-                 "<20>{*}{#p/asriel3}{#e/asriel/5}現在，是時候徹底抹去\n這條時間軸了！"
+                 "<20>{*}{#p/asriel3}{#e/asriel/5}現在，\n是時候徹底抹去\n這條時間軸了！"
               ],
       turnTalk14: [
          "<20>{*}{#p/asriel3}{#e/asriel/1}...吃下剛剛一擊，\n你居然還有力氣\n抵抗我？",
@@ -6292,13 +6292,13 @@ export default {
          '<20>我為什麼還要這麼做？',
          ...(unique.length > 2
             ? [
-                 '<20>{#e/twinkly/5}{#v/0}... oh, come on.',
-                 '<20>{#e/twinkly/5}{#v/0}You know the answer as well as I do.',
-                 "<20>{#e/twinkly/11}{#v/0}After all, you're the one who went from ending to ending...",
-                 '<20>{#e/twinkly/7}{#v/0}Playing with their lives just to see what would happen.',
-                 "<20>{#e/twinkly/8}{#v/0}Hm...?\nDon't you remember?",
+                 '<20>{#e/twinkly/5}{#v/0}...呵，別裝傻了。',
+                 '<20>{#e/twinkly/5}{#v/0}先問問你自己吧。',
+                 "<20>{#e/twinkly/11}{#v/0}你不也喜歡\n體驗各種結局嘛...",
+                 '<20>{#e/twinkly/7}{#v/0}你不也為了滿足好奇心，\n玩弄他們的生命嘛。',
+                 "<20>{#e/twinkly/8}{#v/0}...哈？\n你不記得了？\n那我幫你回憶回憶。",
                  {
-                    dark_death: '<20>{#e/twinkly/5}{#v/0}From the one where Undyne and Alphys hunted you down...',
+                    dark_death: '<20>{#e/twinkly/5}{#v/0}從Undyne和Alphys\n追殺你的那個結局\n算起...',
                     dark_undyne: '<20>{#e/twinkly/5}{#v/0}From the one where Alphys returned to Bratty and Catty...',
                     dark_alphys: '<20>{#e/twinkly/5}{#v/0}From the one where almost everyone important had died...',
                     dark_alphys_therapy:
