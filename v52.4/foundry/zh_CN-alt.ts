@@ -839,7 +839,7 @@ export default {
       fallenfish: [ '<33>{#p/basic}* 电流通过了她的全身。' ],
       fallenfish2: [ "<32>{#p/basic}* She's fallen down." ],
       fallenfish3: [ '<32>{#p/basic}* ... but nothing happened.' ],
-      finalfish1: [ '<25>{#p/undyne}{#f/19}* 哈啊...' ],
+      finalfish1: [ '<25>{#p/undyne}{#f/19}* 嘎啊...' ],
       finalfish2: [ '<25>{#p/undyne}{#f/19}* 该死的...\n* 干扰...' ],
       finalpre: () => [ choicer.create('* (Continue to Aerialis?)', '是', '否') ],
       genotext: {
@@ -4450,7 +4450,7 @@ export default {
             ? "<99>{#p/undyne}{#f/17}* 我的天啊！！！\n* 现在我【可算】知道了\n  你就是在耍我！！！"
             : '<25>{#p/undyne}{#f/17}* 我的天啊！！！\n* 不要抚摸敌人了！！！',
          "<25>{#x1}{#f/7}* 我来给你演示一下\n  该怎么做！",
-         '<25>{#f/4}* 哈啊啊！'
+         '<25>{#f/4}* 嘎啊啊！'
       ],
       unddate39b: () =>
          world.meanie
@@ -4460,7 +4460,7 @@ export default {
                  '<25>{#p/undyne}{#f/1}* 耶！\n* 耶！',
                  '<25>{#f/1}* 我们齐心协力与这些\n  健康食材们奋战到底！',
                  "<25>{#x1}{#f/7}* 现在轮到我了！",
-                 '<25>{#f/4}* 哈啊啊！'
+                 '<25>{#f/4}* 嘎啊啊！'
               ],
       unddate40: (res: number) => [
          ...(world.meanie && res === 1
@@ -4759,7 +4759,7 @@ export default {
          respecc()
             ? [ "<32>{*}{#p/undyne}{#i/1}* 明明你都光荣地战斗过了！！{^999}" ]
             : [ "<32>{*}{#p/undyne}{#i/1}* 明明你马上就得受死了！！{^999}" ],
-      undynefinal1f: [ '<32>{*}{#p/undyne}{#i/2}* 哈啊啊啊啊啊啊啊啊啊！！！{^999}' ],
+      undynefinal1f: [ '<32>{*}{#p/undyne}{#i/2}* 嘎啊啊啊啊啊啊啊啊啊！！！{^999}' ],
       undynefinal1g: () =>
          respecc()
             ? [
@@ -5022,7 +5022,7 @@ export default {
          '<25>{#f/4}* 被你施加在\n  亡者身上的\n  每一份痛苦...',
          "<25>{#f/7}* 那些被你摧毁\n  而化为尘埃的\n  每个希望，每个梦想...",
          "<25>{#f/1}* 这位英雄\n  会用她的长矛\n  向你悉数讨回！",
-         '<25>{#f/4}* 哈啊啊啊！！！',
+         '<25>{#f/4}* 嘎啊啊啊！！！',
          "<25>{#f/5}* 我会让你见识一下\n  怪物们的决心\n  有多么强大！",
          "<25>{#f/17}* 来吧！\n* 上前来做个了断！"
       ],
@@ -6604,7 +6604,7 @@ export default {
                  '<20>{#p/undyne}{#e/undyne/3}后来，\n在一次训练事故中，\n我瞎了左眼...',
                  '<20>{#p/undyne}{#e/undyne/2}困难重重，无依无靠。'
               ]
-            : [ '<20>{#p/undyne}{#e/undyne/5}哈啊啊啊！\n热身结束！' ],
+            : [ '<20>{#p/undyne}{#e/undyne/5}嘎啊啊啊！\n热身结束！' ],
       turnTalkA6a: () =>
          SAVE.data.n.state_starton_papyrus === 1
             ? [
@@ -6793,7 +6793,7 @@ export default {
       turnTalkC8: () =>
          respecc()
             ? [ '<20>{#p/undyne}{#e/undyne/5}NGAHHH!!!\nFINAL ATTACK!!!' ]
-            : [ '<20>{#p/undyne}{#e/undyne/5}哈啊啊啊啊！！！\n你个小屁孩，\n快给我去死啊！' ],
+            : [ '<20>{#p/undyne}{#e/undyne/5}嘎啊啊啊啊！！！\n你个小屁孩，\n快给我去死啊！' ],
       turnTalkC9a: [ "<20>{#p/undyne}{#e/undyne/5}真碍事！" ],
       turnTalkC9b: [ '<20>{#p/undyne}{#e/undyne/5}I WILL NEVER TAKE MERCY FROM THE LIKES OF YOU!' ],
       turnTalkC10a: [ '<20>{#p/undyne}{#e/undyne/6}别想打败我！' ],
@@ -6823,13 +6823,13 @@ export default {
       death1: () =>
          respecc()
             ? [
-                 '<20>{#p/undyne}哈啊...',
+                 '<20>{#p/undyne}嘎啊...',
                  '<21>I thought...\nYou were different...',
                  '<20>But then...\n... you actually...\n... urgh...',
                  '<20>...'
               ]
             : [
-                 '<20>{#p/undyne}哈啊...',
+                 '<20>{#p/undyne}嘎啊...',
                  '<20>我没想到...\n你... 居然这么强...',
                  '<20>看来...\n这里...\n...就是我的葬身之地...',
                  '<20>...'
@@ -6850,7 +6850,7 @@ export default {
                             : '<20>{#e/undyne/36}艾菲斯...\n艾斯戈尔...\n帕派瑞斯...',
                          '<20>{#e/undyne/32}大家，都需要我来守护！'
                       ]),
-                 '<20>{#e/undyne/32}哈啊啊啊！！'
+                 '<20>{#e/undyne/32}嘎啊啊啊！！'
               ],
       death4: () =>
          helmetdyneAttack()
@@ -6892,7 +6892,7 @@ export default {
          '<20>{#e/undyne/34}还没完！',
          "<20>{#e/undyne/48}我不能死！"
       ],
-      death7: [ '<20>{*}{#p/undyne}{#i/4}{@random=1.1/1.1}哈啊啊啊啊！！！{^10}{%}' ],
+      death7: [ '<20>{*}{#p/undyne}{#i/4}{@random=1.1/1.1}嘎啊啊啊啊！！！{^10}{%}' ],
       death8a: [ "<20>{*}{#p/undyne}{#i/5}{#v/1}{@random=1.1/1.1}我不能死！{^15}{%}" ],
       death8b: [ "<20>{*}{#p/undyne}{#i/5}{#v/2}{@random=1.1/1.1}我不能死！{^15}{%}" ],
       death8c: [ "<20>{*}{#p/undyne}{#i/6}{#v/3}{@random=1.1/1.1}我不能死！{^15}{%}" ],
@@ -7078,7 +7078,7 @@ export default {
                  "<20>我不在乎\n你是不是\n我的客人了。",
                  '<20>{#e/undyne/9}最后比一场，\n双方都要拿出\n所有力量！！！',
                  "<20>{#e/undyne/7}这是我唯一能够\n夺回我尊严的\n办法！！！",
-                 "<20>{#e/undyne/9}那就来吧！\n全力地攻上来！！！\n哈啊啊！！！"
+                 "<20>{#e/undyne/9}那就来吧！\n全力地攻上来！！！\n嘎啊啊！！！"
               ],
       status1: [ '<32>{#p/story}* 安黛因让你先出招。' ],
       act_check: [ '<32>{#p/story}* 安黛因 - 攻击41 防御21\n* 千真万确的最终决战\n  终于开始了！' ],

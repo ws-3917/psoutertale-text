@@ -304,7 +304,7 @@ msgid "hOI!"
 msgstr "你吼！！"
 
 msgid "Ngah, fine."
-msgstr "哈啊，行行行。"
+msgstr "嘎啊，行行行。"
 
 msgid "Get your OWN name!"
 msgstr "找个你自己的名字去！"

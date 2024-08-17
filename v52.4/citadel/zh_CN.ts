@@ -390,7 +390,7 @@ export default {
          coreboomA4: [ "<18>{#p/papyrus}{#f/4}我有不好的预感...{%40}" ],
          coreboomA5: [ '<32>{#p/basic}* ...有人吗？{%40}' ],
          coretext1: [ '<32>{#p/basic}{#s/spiderLaugh}* 稳住啊，亲爱的~' ],
-         coretext2: [ '<32>{#p/basic}{#s/spiderLaugh}* 哈啊...', '<32>{#p/basic}* 一起再加把劲~' ],
+         coretext2: [ '<32>{#p/basic}{#s/spiderLaugh}* 嘎啊...', '<32>{#p/basic}* 一起再加把劲~' ],
          coreboomB1: [ '<32>{#p/basic}{#s/spiderLaugh}* 啊！', '<32>{#p/basic}* 不要这样啊~' ],
          coreboomB2: [ '<32>{#p/basic}* 不要哪样？{%40}' ],
          coreboomB3: [ '<32>{#p/basic}{#s/spiderLaugh}* 该死。{%40}' ],

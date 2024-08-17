@@ -890,7 +890,7 @@ msgid "<32>{#p/basic}{#s/spiderLaugh}* Keep it steady, dearies~"
 msgstr "<32>{#p/basic}{#s/spiderLaugh}* 穩住啊，親愛的~"
 
 msgid "<32>{#p/basic}{#s/spiderLaugh}* Ngh..."
-msgstr "<32>{#p/basic}{#s/spiderLaugh}* 哈啊..."
+msgstr "<32>{#p/basic}{#s/spiderLaugh}* 嘎啊..."
 
 msgid "<32>{#p/basic}* Hold it together~"
 msgstr "<32>{#p/basic}* 一起再加把勁~"
