@@ -264,33 +264,33 @@ export default {
       gravo1: () =>
          SAVE.data.b.svr
             ? [
-                 '<32>{#p/human}* (You look curiously at the seemingly useless device.)',
-                 ...[ [ "<25>{#p/asriel1}{#f/17}* Too bad we don't have the remote for this thing, huh?" ], [] ][
+                 '<32>{#p/human}* (你好奇地看着这个\n  看上去没什么用的设备。)',
+                 ...[ [ "<25>{#p/asriel1}{#f/17}* 真可惜我们没法\n  遥控这玩意，对吧？" ], [] ][
                     Math.min(asrielinter.gravo1++, 1)
                  ]
               ]
             : [ '<32>{#p/basic}* 这是个“重力转换器”。', '<32>* 管它什么意思。' ],
       gravo3: () => [
-         '<32>{#p/human}* (You use the Gravometric Inverter Remote.)\n* (Nothing happens.)',
+         '<32>{#p/human}* （你使用了重力转换器。）\n* (什么也没发生。)',
          ...(SAVE.data.b.svr
-            ? [ [ "<25>{#p/asriel1}{#f/21}* They're probably shutting off power for non-essential devices." ], [] ][
+            ? [ [ "<25>{#p/asriel1}{#f/21}* 他们可能正在关掉\n  那些非必要设备。" ], [] ][
                  Math.min(asrielinter.gravo3++, 1)
               ]
-            : [ '<32>{#p/basic}* It must be offline...' ])
+            : [ '<32>{#p/basic}* 它肯定离线了...' ])
       ],
       gravo2: [ '<32>{#p/human}* （你使用了重力转换器。）' ],
       sansdoor1: () =>
          SAVE.data.b.svr || world.runaway
-            ? [ '<32>{#p/human}* (It looks to have been closed with a deadlock seal.)' ]
+            ? [ '<32>{#p/human}* (它看上去已经用死锁关闭了。)' ]
             : [ "<32>{#p/basic}* 锁住了。" ],
-      sansdoor2: [ '<32>{#p/human}* (You use the Skeleton Key.)' ],
+      sansdoor2: [ '<32>{#p/human}* (你使用了骷髅钥匙。)' ],
       sanscab1: () => [
          ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 信封里有个奇怪的遥控器。" ]),
          '<32>{#s/equip}{#p/human}* （你把重力转换器的遥控器\n  挂到了钥匙串上。）'
       ],
       sanscab2: () =>
          SAVE.data.b.svr
-            ? [ '<32>{#p/human}* (But you already emptied the envelope of its contents.)' ]
+            ? [ '<32>{#p/human}* (但是你已经把信封给倒空了。)' ]
             : [ "<32>{#p/basic}* 只是个空信封。" ],
       sanscab3: () => [
          ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 信封里有个奇怪的... 东西。" ]),
@@ -302,52 +302,52 @@ export default {
       cream_deny: [ '<32>{#p/basic}* 什么都没有。' ],
       cream_full: [ "<32>{#p/human}* （你带的东西太多了。）" ],
       cream_get_archive: [
-         '<32>{#p/human}* (You reach into the cart.)',
+         '<32>{#p/human}* (你触碰车。)',
          '<32>{#p/human}{#s/equip}* （你得到了冰意灵。）'
       ],
-      cream_empty_archive: [ '<32>{#p/human}* (You reach into the cart.)', '<32>{#p/human}* （...）' ],
-      cream_full_archive: [ "<32>{#p/human}* (You're carrying too much to reach inside.)" ],
+      cream_empty_archive: [ '<32>{#p/human}* (你触碰车。)', '<32>{#p/human}* （...）' ],
+      cream_full_archive: [ "<32>{#p/human}* (你带的东西太多了，够不到里面。)" ],
       bunbun: pager.create(
          0,
          () =>
             SAVE.data.n.plot === 72
-               ? [ "<32>{#p/basic}* Mom says that we're going to a new homeworld soon.", "<32>* ... what's a homeworld?" ]
+               ? [ "<32>{#p/basic}* 妈妈说我们很快就要去新的母世界了。", "<32>* ... 母世界是什么啊？" ]
                : [
                     '<32>{#p/basic}* 妈妈说，睡觉可以把你的\n  生命值恢复到{@fill=#ff0}HP上限以上{@fill=#fff}。',
                     "<32>* ...HP上限是什么啊？"
                  ],
          () =>
             SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* Do humans have a homeworld?' ]
-               : [ '<32>{#p/basic}* Is it something monsters have?' ]
+               ? [ '<32>{#p/basic}* 人类也有母世界吗？' ]
+               : [ '<32>{#p/basic}* 这是母亲才有的东西吗？' ]
       ),
       emptytable1: () =>
          SAVE.data.b.svr
-            ? [ '<32>{#p/human}* (The table strikes you as being rather lonesome.)' ]
+            ? [ '<32>{#p/human}* (这张桌子让你感受到了孤独。)' ]
             : [ "<32>{#p/basic}* 只是张孤零零的桌子。\n* 上面有糖霜的味道。" ],
       emptytable2: () =>
          SAVE.data.b.svr
-            ? [ '<32>{#p/human}* (The table strikes you as being rather lonesome.)' ]
+            ? [ '<32>{#p/human}* (这张桌子让你感受到了孤独。)' ]
             : [ "<32>{#p/basic}* 一张孤零零的桌子。\n* 上面有毛发的味道。" ],
-      balcony0: () => [ '<18>{#p/papyrus}ENJOYING THE VIEW?', choicer.create('* （你要怎么回答？）', '是', '否') ],
+      balcony0: () => [ '<18>{#p/papyrus}你觉得这景色怎么样？', choicer.create('* （你要怎么回答？）', '是', '否') ],
       balcony1: [
-         "<18>{#p/papyrus}{#f/9}GOOD!\nIT'S ABOUT TIME SOMEONE DID.",
-         '<18>{#f/7}SANS BARELY EVER TAKES THE TIME TO LOOK OUTSIDE!!!'
+         "<18>{#p/papyrus}{#f/9}太好了！\n正好有人该看看了。",
+         '<18>{#f/7}衫斯几乎没时间去外边看看！！！'
       ],
       balcony2: [
-         "<18>{#p/papyrus}{#f/5}OH...\nWELL, THAT'S OKAY...",
-         '<18>{#f/4}(SIGH...)\nAT LEAST YOU TRIED WALKING OUT.',
-         "<18>{#f/7}SANS WOULDN'T EVEN DO THAT!!!"
+         "<18>{#p/papyrus}{#f/5}哦...\n嗯，好吧...",
+         '<18>{#f/4}(唉...)\n至少你尝试过出去了。',
+         "<18>{#f/7}衫斯才不会那么干!!!"
       ],
       bedbook1: () =>
          SAVE.data.b.svr
-            ? [ "<32>{#p/human}* (You can't seem to understand the contents of this book.)" ]
+            ? [ "<32>{#p/human}* (你似乎看不懂这本书的内容。)" ]
             : [ "<32>{#p/basic}* 一本用古老文字写成的书。" ],
-      bedbook3a: [ '<32>{#p/basic}* Would you like me to read it?' ],
-      bedbook3b: [ '<32>{#p/basic}* Read it again?' ],
-      bedbook4: () => [ choicer.create('* (Have $(name) read the book?)', '是', '否') ],
+      bedbook3a: [ '<32>{#p/basic}* 你想让我读一下吗？' ],
+      bedbook3b: [ '<32>{#p/basic}* 再读一遍？' ],
+      bedbook4: () => [ choicer.create('* ($(name) 读过这书了吗？)', '是', '否') ],
       bedbook5: [
-         '<32>{#p/basic}* Okay, here goes...',
+         '<32>{#p/basic}* 好吧，来看看...',
          '<32>* \"Long ago, two species ruled the solar system: humans and monsters.\"',
          '<32>* \"At first, the monsters were only visitors, soon to return to their own star system.\"',
          '<32>* \"But the monsters became fascinated by humanity, and wanted to co-exist with them.\"',
@@ -370,13 +370,13 @@ export default {
       bedbook6: [ '<32>{#p/basic}* Well, if you ever want me to read it, let me know.' ],
       beddoor1: [ "<32>{#p/basic}{#npc/a}* 如果你想订房间，\n  你得先问我一声。" ],
       beddoor2: [ "<32>{#p/basic}{#npc/a}* 如果你还想订房间，\n  你得先问我一声。" ],
-      beddoor3: [ '<32>{#p/basic}{#npc/a}* Sorry, munchkin!\n* No more vacancies left here!' ],
+      beddoor3: [ '<32>{#p/basic}{#npc/a}* 抱歉，小家伙！\n* 这里已经满人了！' ],
       candy1: () =>
          postSIGMA()
             ? [ "<32>{#p/basic}* 不能使用了。" ]
             : [
                  SAVE.data.b.svr
-                    ? '<32>{#p/human}* (You approach the vending machine.)'
+                    ? '<32>{#p/human}* (你靠近了自动售货机。)'
                     : "<32>{#p/basic}* 这是一台专门售卖\n  高档洋梅的自动售货机。",
                  choicer.create('* （要花8G买洋梅吗？）', '是', '否')
               ],
@@ -4387,16 +4387,16 @@ export default {
             2,
             ...[
                [ "<32>{#p/basic}* 一盏“弹”灯。" ],
-               [ '<32>{#p/basic}* A bouncy, bouncy lamp.' ],
-               [ '<32>{#p/basic}* Such bounce.\n* Very lamp.' ],
-               [ '<32>{#p/basic}* Lamp, bounce, lamp, bounce...' ],
-               [ '<32>{#p/basic}* The lamp bounces up and down.' ],
-               [ '<32>{#p/basic}* ... the bouncing never stops.' ],
+               [ '<32>{#p/basic}* 一盏很弹很弹的灯。' ],
+               [ '<32>{#p/basic}* 如此弹。\n* 如此灯。' ],
+               [ '<32>{#p/basic}* 灯，弹，灯，弹...' ],
+               [ '<32>{#p/basic}* 弹灯上下运动着。' ],
+               [ '<32>{#p/basic}* ...弹动永不停歇。' ],
                [ "<32>{#p/basic}* It's a little thing called perpetual motion." ]
             ].map(
                lines => () =>
                   SAVE.data.b.svr
-                     ? [ '<32>{#p/human}* (You observe the strange lamp bouncing up and down.)' ]
+                     ? [ '<32>{#p/human}* (你观察着奇怪弹灯的上下运动。)' ]
                      : world.darker
                      ? [ '<32>{#p/basic}* Just a lamp.' ]
                      : lines

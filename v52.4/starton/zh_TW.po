@@ -718,11 +718,15 @@ msgstr ""
 
 msgid "<32>{#p/human}* (You look curiously at the seemingly useless device.)"
 msgstr ""
+"<32>{#p/human}* (你好奇地看著這個\n"
+"  看上去沒什麼用的裝置。)"
 
 msgid ""
 "<25>{#p/asriel1}{#f/17}* Too bad we don't have the remote for this thing, "
 "huh?"
 msgstr ""
+"<25>{#p/asriel1}{#f/17}* 真可惜我們沒法\n"
+"  遙控這玩意，對吧？"
 
 msgid "<32>{#p/basic}* It's a \"gravometric inverter.\""
 msgstr "<32>{#p/basic}* 這是個「重力轉換器」。"
@@ -734,26 +738,30 @@ msgid ""
 "<32>{#p/human}* (You use the Gravometric Inverter Remote.)\n"
 "* (Nothing happens.)"
 msgstr ""
+"<32>{#p/human}* （你使用了重力轉換器。）\n"
+"* (什麼也沒發生。)"
 
 msgid ""
 "<25>{#p/asriel1}{#f/21}* They're probably shutting off power for non-"
 "essential devices."
 msgstr ""
+"<25>{#p/asriel1}{#f/21}* 他們可能正在關掉\n"
+"  那些非必要裝置。"
 
 msgid "<32>{#p/basic}* It must be offline..."
-msgstr ""
+msgstr "<32>{#p/basic}* 它肯定離線了..."
 
 msgid "<32>{#p/human}* (You use the Gravometric Inverter Remote.)"
 msgstr "<32>{#p/human}* （你使用了重力轉換器。）"
 
 msgid "<32>{#p/human}* (It looks to have been closed with a deadlock seal.)"
-msgstr ""
+msgstr "<32>{#p/human}* (它看上去已經用死鎖關閉了。)"
 
 msgid "<32>{#p/basic}* It's locked."
 msgstr "<32>{#p/basic}* 鎖住了。"
 
 msgid "<32>{#p/human}* (You use the Skeleton Key.)"
-msgstr ""
+msgstr "<32>{#p/human}* (你使用了骷髏鑰匙。)"
 
 msgid "<32>{#p/basic}* There's an odd remote inside of this envelope."
 msgstr "<32>{#p/basic}* 信封裡有個奇怪的遙控器。"
@@ -767,7 +775,7 @@ msgstr ""
 
 msgid ""
 "<32>{#p/human}* (But you already emptied the envelope of its contents.)"
-msgstr ""
+msgstr "<32>{#p/human}* (但是你已經把信封給倒空了。)"
 
 msgid "<32>{#p/basic}* It's just an empty envelope."
 msgstr "<32>{#p/basic}* 只是個空信封。"
@@ -782,7 +790,7 @@ msgid "<32>{#p/basic}* Nothing left."
 msgstr "<32>{#p/basic}* 什麼都沒有。"
 
 msgid "<32>{#p/human}* (You reach into the cart.)"
-msgstr ""
+msgstr "<32>{#p/human}* (你觸碰車。)"
 
 msgid "<32>{#p/human}{#s/equip}* (You got the Ice Dream.)"
 msgstr "<32>{#p/human}{#s/equip}* （你得到了冰意靈。）"
@@ -791,13 +799,13 @@ msgid "<32>{#p/human}* (...)"
 msgstr "<32>{#p/human}* （...）"
 
 msgid "<32>{#p/human}* (You're carrying too much to reach inside.)"
-msgstr ""
+msgstr "<32>{#p/human}* (你帶的東西太多了，夠不到裡面。)"
 
 msgid "<32>{#p/basic}* Mom says that we're going to a new homeworld soon."
-msgstr ""
+msgstr "<32>{#p/basic}* 媽媽說我們很快就要去新的母世界了。"
 
 msgid "<32>* ... what's a homeworld?"
-msgstr ""
+msgstr "<32>* ... 母世界是什麼啊？"
 
 msgid ""
 "<32>{#p/basic}* Mom says that sleeping could recover your health "
@@ -810,13 +818,13 @@ msgid "<32>* ... what's maximum HP?"
 msgstr "<32>* ...HP上限是什麼啊？"
 
 msgid "<32>{#p/basic}* Do humans have a homeworld?"
-msgstr ""
+msgstr "<32>{#p/basic}* 人類也有母世界嗎？"
 
 msgid "<32>{#p/basic}* Is it something monsters have?"
-msgstr ""
+msgstr "<32>{#p/basic}* 這是母親才有的東西嗎？"
 
 msgid "<32>{#p/human}* (The table strikes you as being rather lonesome.)"
-msgstr ""
+msgstr "<32>{#p/human}* (這張桌子讓你感受到了孤獨。)"
 
 msgid ""
 "<32>{#p/basic}* It's just a lonely table.\n"
@@ -833,7 +841,7 @@ msgstr ""
 "* 上面有毛髮的味道。"
 
 msgid "<18>{#p/papyrus}ENJOYING THE VIEW?"
-msgstr ""
+msgstr "<18>{#p/papyrus}你覺得這景色怎麼樣？"
 
 msgid "* (What do you say?)"
 msgstr "* （你要怎麼回答？）"
@@ -842,41 +850,47 @@ msgid ""
 "<18>{#p/papyrus}{#f/9}GOOD!\n"
 "IT'S ABOUT TIME SOMEONE DID."
 msgstr ""
+"<18>{#p/papyrus}{#f/9}太好了！\n"
+"正好有人該看看了。"
 
 msgid "<18>{#f/7}SANS BARELY EVER TAKES THE TIME TO LOOK OUTSIDE!!!"
-msgstr ""
+msgstr "<18>{#f/7}SANS幾乎沒時間去外邊看看！！！"
 
 msgid ""
 "<18>{#p/papyrus}{#f/5}OH...\n"
 "WELL, THAT'S OKAY..."
 msgstr ""
+"<18>{#p/papyrus}{#f/5}喔...\n"
+"嗯，好吧..."
 
 msgid ""
 "<18>{#f/4}(SIGH...)\n"
 "AT LEAST YOU TRIED WALKING OUT."
 msgstr ""
+"<18>{#f/4}(唉...)\n"
+"至少你嘗試過出去了。"
 
 msgid "<18>{#f/7}SANS WOULDN'T EVEN DO THAT!!!"
-msgstr ""
+msgstr "<18>{#f/7}SANS才不會那麼幹!!!"
 
 msgid ""
 "<32>{#p/human}* (You can't seem to understand the contents of this book.)"
-msgstr ""
+msgstr "<32>{#p/human}* (你似乎看不懂這本書的內容。)"
 
 msgid "<32>{#p/basic}* It's a book, written in an ancient language."
 msgstr "<32>{#p/basic}* 一本用古老文字寫成的書。"
 
 msgid "<32>{#p/basic}* Would you like me to read it?"
-msgstr ""
+msgstr "<32>{#p/basic}* 你想讓我讀一下嗎？"
 
 msgid "<32>{#p/basic}* Read it again?"
-msgstr ""
+msgstr "<32>{#p/basic}* 再讀一遍？"
 
 msgid "* (Have $(name) read the book?)"
-msgstr ""
+msgstr "* ($(name) 讀過這書了嗎？)"
 
 msgid "<32>{#p/basic}* Okay, here goes..."
-msgstr ""
+msgstr "<32>{#p/basic}* 好吧，來看看..."
 
 msgid ""
 "<32>* \"Long ago, two species ruled the solar system: humans and monsters.\""
@@ -972,9 +986,11 @@ msgid ""
 "<32>{#p/basic}{#npc/a}* Sorry, munchkin!\n"
 "* No more vacancies left here!"
 msgstr ""
+"<32>{#p/basic}{#npc/a}* 抱歉，小傢伙！\n"
+"* 這裡已經滿人了！"
 
 msgid "<32>{#p/human}* (You approach the vending machine.)"
-msgstr ""
+msgstr "<32>{#p/human}* (你靠近了自動售貨機。)"
 
 msgid "<32>{#p/basic}* It's an exoberry-exclusive vending machine."
 msgstr ""
@@ -10521,27 +10537,29 @@ msgid "<32>{#p/basic}* It's a bounce lamp."
 msgstr "<32>{#p/basic}* 一盞「彈」燈。"
 
 msgid "<32>{#p/basic}* A bouncy, bouncy lamp."
-msgstr ""
+msgstr "<32>{#p/basic}* 一盞很彈很彈的燈。"
 
 msgid ""
 "<32>{#p/basic}* Such bounce.\n"
 "* Very lamp."
 msgstr ""
+"<32>{#p/basic}* 如此彈。\n"
+"* 如此燈。"
 
 msgid "<32>{#p/basic}* Lamp, bounce, lamp, bounce..."
-msgstr ""
+msgstr "<32>{#p/basic}* 燈，彈，燈，彈..."
 
 msgid "<32>{#p/basic}* The lamp bounces up and down."
-msgstr ""
+msgstr "<32>{#p/basic}* 彈燈上下運動著。"
 
 msgid "<32>{#p/basic}* ... the bouncing never stops."
-msgstr ""
+msgstr "<32>{#p/basic}* ...彈動永不停歇。"
 
 msgid "<32>{#p/basic}* It's a little thing called perpetual motion."
 msgstr ""
 
 msgid "<32>{#p/human}* (You observe the strange lamp bouncing up and down.)"
-msgstr ""
+msgstr "<32>{#p/human}* (你觀察著奇怪彈燈的上下運動。)"
 
 msgid "<32>{#p/basic}* Just a lamp."
 msgstr ""

@@ -192,7 +192,7 @@ export default {
       mtt: '哦！！！\n你在推广我的品牌吗？',
 
       
-      aaron: '你确定是这个名字吗？;)',
+      aaron: '确定要选择这个名字吗？;)',
       grillb: 'Hot, but not hot enough.',
       grilly: 'Hot, but not hot enough.',
       gyft: "没必要这样...",

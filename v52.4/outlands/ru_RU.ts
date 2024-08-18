@@ -2823,7 +2823,7 @@ export default {
                     '<32>{#p/basic}* Ква, Ква.\n* (Вздох...)',
                     '<32>* (Моему «другу» не нравится быть добрым со мной).',
                     '<32>* (Если им предоставляется выбор, они предпочитают причинить мне боль).',
-                    "<32>* (That's right.......)\n* (Hurting me............)\n* (................)",
+                    "<32>* (Верно.......)\n* (Мне больно............)\n* (................)",
                     "<32>* (По крайней мере, ты добр ко мне.)\n* Ква."
                  ],
          w_pacing2: () =>
@@ -3121,7 +3121,7 @@ export default {
                        [
                           '<25>{#p/asriel1}{#f/13}* ...',
                           '<25>{#p/asriel1}{#f/13}* В последний раз, когда мы это делали, перевернулся стол.',
-                          '<25>{#p/asriel1}{#f/17}* Just sibling things.\n* You know how it goes with card games.'
+                          '<25>{#p/asriel1}{#f/17}* Просто брат и сестра.\n* Ты знаешь, как это бывает с карточными играми.'
                        ],
                        [ '<25>{#p/asriel1}{#f/17}* ...' ]
                     ][Math.min(asrielinter.w_th_table2++, 2)]
@@ -4374,7 +4374,7 @@ export default {
          description: 'Имеет выраженный, не солодковый вкус.',
          name: 'Конфета'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Monster Candy.)' ],
+      drop: [ '<32>{#p/human}* (Ты выбрасываешь Монстр-Конфету.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* (10 HP.)' ]
@@ -4479,754 +4479,754 @@ export default {
    i_pie2: {
       battle: {
          description: 'Классический семейный рецепт.',
-         name: 'Snail Pie'
+         name: 'Улиточный пирог'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Snail Pie.)' ],
+      drop: [ '<32>{#p/human}* (Ты выбрасываешь Улиточный пирог.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* (99 HP.)' ]
-            : [ '<32>{#p/basic}* \"Snail Pie\" Heals 99 HP\n* Classic family recipe.' ],
-      name: 'Snail Pie',
-      use: [ '<32>{#p/human}* (You eat the Snail Pie.)' ]
+            : [ '<32>{#p/basic}* \"Улиточный пирог\" восстанавливает 99 HP.\n* Классический семейный рецепт.' ],
+      name: 'Улиточный пирог',
+      use: [ '<32>{#p/human}* (Ты ешь Улиточный пирог.)' ]
    },
    i_pie3: {
       battle: {
-         description: 'Despite being soup-ified, the pie remains delicious.',
-         name: 'Pie Soup'
+         description: 'Несмотря на то, что пирог превратился в суп, он остается вкусным.',
+         name: 'Пирожковый суп'
       },
-      drop: [ '<32>{#p/human}* (You dump the Pie Soup and the spoon that came with it.)' ],
-      info: [ '<32>{#p/basic}* \"Pie Soup\" Heals 49 HP\n* Despite being soup-ified, the pie remains delicious.' ],
-      name: 'Pie Soup',
-      use: [ '<32>{#p/human}* (You consume the Pie Soup with the provided spoon.)' ]
+      drop: [ '<32>{#p/human}* (Ты выбрасываешь Пирожковый суп и ложку, которая прилагалась к нему.)' ],
+      info: [ '<32>{#p/basic}* \"Пирожковый суп\" лечит 49 HP\n* Несмотря на то, что пирог превращен в суп, он остается вкусным.' ],
+      name: 'Пирожковый суп',
+      use: [ '<32>{#p/human}* (Ты съедаешь Пирожковый суп с помощью предоставленной ложки).' ]
    },
    i_pie4: {
       battle: {
-         description: 'Actions do have their consequences...',
-         name: 'Burnt Pie'
+         description: 'Действия имеют свои последствия...',
+         name: 'Сгоревший пирог'
       },
-      drop: [ '<32>{#p/human}* (You toss the Burnt Pie to the side like it never existed.)' ],
-      info: [ '<32>{#p/basic}* \"Burnt Pie\" Heals 39 HP\n* Actions do have their consequences...' ],
-      name: 'Burnt Pie',
-      use: [ '<32>{#p/human}* (You eat the Burnt Pie.)' ]
+      drop: [ '<32>{#p/human}* (Ты выбрасываешь сгоревший пирог в сторону, как будто его и не было.)' ],
+      info: [ '<32>{#p/basic}* \"Сгоревший пирог\" исцеляет 39 HP\n* Действия имеют свои последствия...' ],
+      name: 'Сгоревший пирог',
+      use: [ '<32>{#p/human}* (Ты ешь сгоревший пирог.)' ]
    },
    i_snails: {
       battle: {
-         description: 'A plate of fried snails.\nFor breakfast, of course.',
-         name: 'Snails'
+         description: 'Тарелка жареных улиток.\nНа завтрак, конечно же.',
+         name: 'Улитки'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Fried Snails.)' ],
+      drop: [ '<32>{#p/human}* (Ты выбрасываешь Жареных Улиток.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* (19 HP.)' ]
-            : [ '<32>{#p/basic}* \"Fried Snails\" Heals 19 HP\n* A plate of fried snails.\n* For breakfast, of course.' ],
-      name: 'Fried Snails',
-      use: [ '<32>{#p/human}* (You eat the Fried Snails.)' ]
+            : [ '<32>{#p/basic}* «Жареные улитки\" Восстанавливают 19 HP\n* Тарелка жареных улиток.\n* На завтрак, конечно.' ],
+      name: 'Жареные улитки',
+      use: [ '<32>{#p/human}* (Ты ешь Жареных Улиток.)' ]
    },
    i_soda: {
       battle: {
-         description: 'A sickly, dark yellow liquid.',
-         name: 'Soda'
+         description: 'Неприятная темно-желтая жидкость.',
+         name: 'Сода'
       },
       drop: () => [
-         '<32>{#p/human}* (You threw away the Fizzli Soda.)',
-         ...(SAVE.data.b.svr || world.darker ? [] : [ '<32>{#p/basic}* Good riddance.' ])
+         '<32>{#p/human}* (Ты выбросил Шипучею соду.)',
+         ...(SAVE.data.b.svr || world.darker ? [] : [ '<32>{#p/basic}* Хорошее избавление.' ])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* (8 HP.)' ]
-            : [ '<32>{#p/basic}* \"Fizzli Soda\" Heals 8 HP\n* A dark, sickly yellow liquid.' ],
-      name: 'Fizzli Soda',
+            : [ '<32>{#p/basic}* \"Шипучая сода\" Восстанавливает 8 HP\n* Темная, тошнотворно-желтая жидкость.' ],
+      name: 'Шипучая сода',
       use: () => [
-         '<32>{#p/human}* (You drank the Fizzli Soda.)',
-         ...(SAVE.data.b.svr || world.darker ? [] : [ '<32>{#p/basic}* Yuck!' ])
+         '<32>{#p/human}* (Ты выпил Шипучую соду.)',
+         ...(SAVE.data.b.svr || world.darker ? [] : [ '<32>{#p/basic}* Фу!' ])
       ]
    },
    i_spacesuit: {
       battle: {
-         description: 'It came with the craft you crash-landed in.',
-         name: 'Spacesuit'
+         description: 'Он был на корабле, на котором вы приземлились.',
+         name: 'Скафандр'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Worn Spacesuit.)' ],
+      drop: [ '<32>{#p/human}* (Ты выбрасываешь Изношенный Скафандр.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (20 HP. The last remaining fragment of a spacecraft flown in exile.)' ]
-            : [ '<32>{#p/basic}* \"Worn Spacesuit\" Heals 20 HP\n* It came with the craft you crash-landed in.' ],
-      name: 'Worn Spacesuit',
-      use: [ '<33>{#p/human}* (After using its last heal-pak, the Worn Spacesuit fell apart.)' ]
+            ? [ '<32>{#p/human}* (20 HP. Последний оставшийся фрагмент космического корабля, летящего в изгнание.)' ]
+            : [ '<32>{#p/basic}* «Ношеный скафандр» восстанавливает 20 HP\n* Он достался тебе вместе с кораблем, на котором вы совершили аварийную посадку.' ],
+      name: 'Изношенный скафандр',
+      use: [ '<33>{#p/human}* (После использования последнего исцеляющего пакета Изношенный Скафандр развалился на части.)' ]
    },
    i_spanner: {
       battle: {
-         description: 'A rusty old wrench.',
-         name: 'Spanner'
+         description: 'Ржавый старый ключ.',
+         name: 'Ключ'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Rusty Spanner.)' ],
+      drop: [ '<32>{#p/human}* (Ты выбрасываешь Ржавый Ключ.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* (A trusty tool forged from beyond the galaxy's edge.)" ]
-            : [ '<32>{#p/basic}* A rusty old wrench.' ],
-      name: 'Rusty Spanner',
+            ? [ "<32>{#p/human}* (Надежный инструмент, выкованный за краем галактики)." ]
+            : [ '<32>{#p/basic}* Старый ржавый ключ.' ],
+      name: 'Ржавый Ключ',
       use: () => [
          ...(battler.active && battler.alive[0].opponent.metadata.reactSpanner
             ? []
-            : [ '<32>{#p/human}* (You toss the spanner into the air.)\n* (Nothing happens.)' ])
+            : [ '<32>{#p/human}* (Ты подбрасываешь ключ в воздух.)\n* (Ничего не происходит.)' ])
       ]
    },
    i_starbertA: {
       battle: {
-         description: 'The first of a limited run of Super Starwalker comics.',
-         name: 'Starwalker 1'
+         description: 'Первый из ограниченного тиража комиксов о Супер Старуолкере.',
+         name: 'Старуолкер 1'
       },
-      drop: [ '<32>{#p/human}* (You throw away Super Starwalker 1.)' ],
+      drop: [ '<32>{#p/human}* (Ты выбрасываешь Супер Старуолкер 1.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (It seems like the beginning of a journey.)' ]
-            : [ '<32>{#p/basic}* The first of a limited run of Super Starwalker comics.' ],
-      name: 'Super Starwalker 1',
-      use: () => (battler.active ? [ '<32>{#p/human}* (You read Super Starwalker 1.)', '<32>* (Nothing happens.)' ] : [])
+            ? [ '<32>{#p/human}* (Это похоже на начало путешествия).' ]
+            : [ '<32>{#p/basic}* Первый из ограниченного тиража комиксов о Супер Старуолкере.' ],
+      name: 'Супер Старуолкер 1',
+      use: () => (battler.active ? [ '<32>{#p/human}* (Ты читаешь Супер Старуолкер 1.)', '<32>* (Ничего не происходит.)' ] : [])
    },
    i_starbertB: {
       battle: {
-         description: 'The second of a limited run of Super Starwalker comics.',
-         name: 'Starwalker 2'
+         description: 'Второй из ограниченного тиража комиксов о Супер Старуолкере.',
+         name: 'Старуолкер 2'
       },
-      drop: [ '<32>{#p/human}* (You throw away Super Starwalker 2.)' ],
+      drop: [ '<32>{#p/human}* (Ты выбрасываешь Супер Старуолкер 2.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (It seems like the middle of a journey.)' ]
-            : [ '<32>{#p/basic}* The second of a limited run of Super Starwalker comics.' ],
-      name: 'Super Starwalker 2',
+            ? [ '<32>{#p/human}* (Кажется, что это середина пути.)' ]
+            : [ '<32>{#p/basic}* Второй из ограниченного тиража комиксов о Супер Старуолкере.' ],
+      name: 'Супер Старуолкер 2',
       use: () =>
          battler.active
             ? [
-                 '<32>{#p/human}* (You read Super Starwalker 2.)',
+                 '<32>{#p/human}* (Ты читаешь Супер Старуолкер 2.)',
                  ...(SAVE.data.b.stargum
-                    ? [ '<32>* (Nothing happens.)' ]
+                    ? [ '<32>* (Ничего не происходит.)' ]
                     : [
-                         '<32>* (You found a piece of gum taped to the comic strip.)',
-                         choicer.create('* (Use the gum?)', 'Да', 'Нет')
+                         '<32>* (Ты нашел кусочек жвачки, приклеенный к комиксу.)',
+                         choicer.create('* (Использовать жвачку?)', 'Да', 'Нет')
                       ])
               ]
             : []
    },
    i_starbertC: {
       battle: {
-         description: 'The third of a limited run of Super Starwalker comics.',
-         name: 'Starwalker 3'
+         description: 'Третий из ограниченной серии комиксов о Супер Старуолкере.',
+         name: 'Старуолкер 3'
       },
-      drop: [ '<32>{#p/human}* (You throw away Super Starwalker 3.)' ],
+      drop: [ '<32>{#p/human}* (Ты выбрасываешь Супер Старуолкер 3.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (It seems like the end of a journey... or is it a new beginning?)' ]
-            : [ '<32>{#p/basic}* The third of a limited run of Super Starwalker comics.' ],
-      name: 'Super Starwalker 3',
-      use: () => (battler.active ? [ '<32>{#p/human}* (You read Super Starwalker 3.)', '<32>* (Nothing happens.)' ] : [])
+            ? [ '<32>{#p/human}* (Кажется, это конец путешествия... или новое начало?)' ]
+            : [ '<32>{#p/basic}* Третий из ограниченного тиража комиксов о Супер Старуолкере.' ],
+      name: 'Супер Старуолкер 3',
+      use: () => (battler.active ? [ '<32>{#p/human}* (Ты читаешь Супер Старуолкер 3.)', '<32>* (Ничего не происходит.)' ] : [])
    },
    i_steak: {
       battle: {
-         description: 'Questionable at best.',
-         name: 'Steak'
+         description: 'В лучшем случае сомнительный.',
+         name: 'Стейк'
       },
       drop: () => [
-         '<32>{#p/human}* (You threw away the Sizzli Steak.)',
+         '<32>{#p/human}* (Ты выбросил Сизли Стейк.)',
          ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
             ? []
-            : [ "<32>{#p/basic}* Well, that won't be missed." ])
+            : [ "<32>{#p/basic}* Что ж, это не останется незамеченным." ])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* (14 HP.)' ]
-            : [ '<32>{#p/basic}* \"Sizzli Steak\" Heals 14 HP\n* Questionable.' ],
-      name: 'Sizzli Steak',
+            : [ '<32>{#p/basic}* \"Сизли стейк\" восстанавливает 14 HP.\n* Под вопросом.' ],
+      name: 'Сизли стейк',
       use: () => [
-         '<32>{#p/human}* (You eat the Sizzli Steak.)',
-         ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8 ? [] : [ '<32>{#p/basic}* Gross!' ])
+         '<32>{#p/human}* (Ты ешь Сизли Cтейк.)',
+         ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8 ? [] : [ '<32>{#p/basic}* Гадость!' ])
       ]
    },
 
    k_coffin: {
-      name: 'Secret Key',
+      name: 'Секретный Ключ',
       description: () =>
          SAVE.data.b.w_state_secret
-            ? 'Used to access a hidden room in the Outlands.'
-            : "Acquired from the sock drawer in Toriel's room."
+            ? 'Используется для доступа к скрытой комнате в Запределье.'
+            : "Получен из ящика с носками в комнате Ториэль."
    },
 
    c_call_toriel: <Partial<CosmosKeyed<CosmosProvider<string[]>, string>>>{
       w_start: [
-         '<25>{#p/toriel}{#f/0}* Ah, of course.\n* That must be where you crash-landed.',
-         '<25>{#f/0}* The other humans who came here landed there, too.',
-         '<25>{#f/1}* There must be something about the force field...',
-         '<25>{#f/0}* ... which always makes incoming craft fly in on this vector.'
+         '<25>{#p/toriel}{#f/0}* Ах, конечно.\n* Должно быть, именно там ты и приземлился.',
+         '<25>{#f/0}* Остальные люди, пришедшие сюда, тоже приземлились там.',
+         '<25>{#f/1}* Должно быть что-то с силовым полем...',
+         '<25>{#f/0}* ... что всегда заставляет приближающиеся корабли лететь по этому направлению.'
       ],
       w_twinkly: () =>
          SAVE.data.b.toriel_twinkly
             ? [
-                 '<25>{#p/toriel}{#f/1}* Is that where I first found you?',
-                 '<25>{#f/5}* That talking star who tormented you has been a pest for some time.',
-                 '<25>{#f/1}* I have tried to reason with him before, but...',
-                 '<25>{#f/9}* My efforts never truly got anywhere.'
+                 '<25>{#p/toriel}{#f/1}* Это там я впервые нашла тебя?',
+                 '<25>{#f/5}* Эта говорящая звезда, которая мучила тебя, уже некоторое время не даёт покоя.',
+                 '<25>{#f/1}* Я и раньше пытался его образумить, но...',
+                 '<25>{#f/9}* Мои усилия так ни к чему и не привели.'
               ]
             : [
-                 '<25>{#p/toriel}{#f/1}* Is that where I first found you?',
-                 '<25>{#f/5}* All alone out there, by yourself...',
-                 '<25>{#f/0}* It is a good thing I was there to bring you in.'
+                 '<25>{#p/toriel}{#f/1}* Это там я впервые нашла тебя?',
+                 '<25>{#f/5}* Совсем один, сам по себе...',
+                 '<25>{#f/0}* Хорошо, что я была рядом и привела тебя.'
               ],
       w_entrance: [
-         '<25>{#p/toriel}{#f/1}* The entrance to the Outlands...',
-         '<25>{#f/0}* Indeed, the area before this is not actually part of it.',
-         '<25>{#f/5}* It is... more of an unmarked crash site.',
-         '<25>{#f/1}* After the first human crashed directly INTO the Outlands...',
-         '<25>{#f/0}* A separate platform seemed an obvious addition.'
+         '<25>{#p/toriel}{#f/1}* Вход в Запределье...',
+         '<25>{#f/0}* Действительно, область перед этим на самом деле не является его частью.',
+         '<25>{#f/5}* Это... больше похоже на необозначенное место крушения.',
+         '<25>{#f/1}* После того, как первый человек врезался прямо в Запределье...',
+         '<25>{#f/0}* Отдельная платформа казалась очевидным дополнением.'
       ],
       w_lobby: [
-         '<25>{#p/toriel}{#f/0}* The puzzle in this room works well for demonstrations.',
-         '<25>{#f/1}* After all, why else would I build it?',
-         '<25>{#f/5}* Unfortunately, not every human understood this.',
-         '<25>{#f/3}* One of them even tried running at the security field directly...',
-         '<25>{#f/0}* ... suffice it to say, the use of healing magic was required.'
+         '<25>{#p/toriel}{#f/0}* Головоломка в этой комнате хорошо подходит для демонстрации.',
+         '<25>{#f/1}* В конце концов, зачем бы еще я его строила?',
+         '<25>{#f/5}* К сожалению, не все люди понимали это.',
+         '<25>{#f/3}* Один из них даже попытался бежать прямо на защитное поле...',
+         '<25>{#f/0}* ... достаточно сказать, что потребовалось использование целительной магии.'
       ],
       w_tutorial: [
-         '<25>{#p/toriel}* If this puzzle is not my favorite, I do not know what is!',
-         '<25>* The way it teaches collaboration is a most valuable quality.',
-         '<25>{#f/1}* Since my dream job IS to become a teacher...',
-         '<25>{#f/0}* I am always looking for ways to impart these important lessons.'
+         '<25>{#p/toriel}* Если эта головоломка не является моей любимой, то я не знаю, что является!',
+         '<25>* То, как она учит сотрудничеству, - самое ценное качество.',
+         '<25>{#f/1}* Поскольку моя мечта - стать учителем...',
+         '<25>{#f/0}* Я всегда ищу способы передать эти важные уроки.'
       ],
       w_dummy: () => [
-         '<25>{#p/toriel}{#f/1}* The training room...?',
+         '<25>{#p/toriel}{#f/1}* Тренировочная комната...?',
          ...(SAVE.data.n.plot < 42
             ? [
                  [
-                    '<25>{#f/0}* Hee hee, I am still proud of the way you handled that lesson.',
-                    '<25>{#f/1}* A friendly conversation is preferable to the alternative...',
-                    '<25>{#f/0}* And not just because it helps you make friends!'
+                    '<25>{#f/0}* Хи-хи, я все еще горжусь тем, как ты справился с этим уроком.',
+                    '<25>{#f/1}* Дружеская беседа предпочтительнее альтернативы...',
+                    '<25>{#f/0}* И не только потому, что это поможет тебе завести друзей!'
                  ],
                  [],
                  [
                     '<25>{#f/5}* ...',
-                    '<25>{#f/5}* Although you did not handle that lesson in the way I intended...',
-                    '<25>{#f/0}* At the very least, you avoided the conflict.',
-                    '<25>{#f/0}* Considering the alternatives, it was... a preferable outcome.'
+                    '<25>{#f/5}* Хотя ты не справился с уроком так, как я хотела...',
+                    '<25>{#f/0}* По крайней мере, ты избежал конфликта.',
+                    '<25>{#f/0}* Учитывая альтернативы, это был... предпочтительный исход.'
                  ],
                  [
-                    '<25>{#f/0}* ... hmm.',
-                    '<25>{#f/0}* Truthfully, I still do not know how to react to what happened.',
-                    '<25>{#f/1}* It was mesmerising to watch, though...',
-                    '<25>{#f/3}* Just the two of you...\n* Staring at each other...',
+                    '<25>{#f/0}* ... хм.',
+                    '<25>{#f/0}* По правде говоря, я до сих пор не знаю, как реагировать на случившееся.',
+                    '<25>{#f/1}* Это было завораживающее зрелище...',
+                    '<25>{#f/3}* Только вы двое...\n* Уставились друг на друга...',
                     '<25>{#f/4}* ...'
                  ],
                  [
-                    '<25>{#f/1}* I cannot say I expected what happened, but...',
-                    '<25>{#f/0}* It was still endearing nonetheless.',
-                    '<25>{#f/0}* Surprisingly, you are the first human to try the approach.',
-                    '<25>{#f/1}* And it seemed such an obvious solution in hindsight...'
+                    '<25>{#f/1}* Не могу сказать, что я ожидала того, что произошло, но...',
+                    '<25>{#f/0}* Тем не менее, это было очень мило.',
+                    '<25>{#f/0}* Удивительно, но ты первый человек, который попробовал этот подход.',
+                    '<25>{#f/1}* И это казалось таким очевидным решением в прошлом...'
                  ],
                  [],
                  [
                     '<25>{#f/5}* ...',
                     '<25>{#f/7}* ...',
-                    '<25>{#f/8}* Hahaha!\n* Ah, I cannot help but laugh!',
-                    '<25>{#f/6}* The shamelessness with which you chose to flirt...',
-                    '<25>{#f/1}* Certainly took me by surprise!',
-                    '<25>{#f/0}* Listen to me, my child.',
-                    '<25>{#f/9}* Flirting with your adversaries may not always be ideal.',
-                    '<25>{#f/10}* But, if you can do it like THAT again...',
-                    '<25>{#f/0}* There is no telling what you can accomplish this way.'
+                    '<25>{#f/8}* Хахаха!\n* Ах, я не могу не смеяться!',
+                    '<25>{#f/6}* Бесстыдство, с которым ты решил флиртовать...',
+                    '<25>{#f/1}* Это точно застало меня врасплох!',
+                    '<25>{#f/0}* Послушай меня, дитя моё.',
+                    '<25>{#f/9}* Флирт с твоими противниками не всегда может быть идеальным.',
+                    '<25>{#f/10}* Но, если ты сможешь сделать это снова...',
+                    '<25>{#f/0}* Неизвестно, чего ты сможете добиться таким образом.'
                  ]
               ][SAVE.data.n.state_wastelands_dummy]
             : [
-                 '<25>{#p/toriel}{#f/0}* Oh, right, about that.',
-                 '<25>{#p/toriel}{#f/0}* I recently discovered that a ghost was hiding in the dummy.',
-                 '<25>{#p/toriel}{#f/1}* They seemed bothered about something, but...',
-                 '<25>{#p/toriel}{#f/0}* After a little talk, I helped to calm them down.',
-                 '<25>{#p/toriel}{#f/1}* Hmm... I wonder where Lurksalot is now?'
+                 '<25>{#p/toriel}{#f/0}* Ах, да, об этом.',
+                 '<25>{#p/toriel}{#f/0}* Недавно я обнаружила, что в манекене прячется призрак.',
+                 '<25>{#p/toriel}{#f/1}* Казалось, он был чем-то обеспокоен, но...',
+                 '<25>{#p/toriel}{#f/0}* Немного поговорив, я помог ему успокоиться.',
+                 '<25>{#p/toriel}{#f/1}* Хм... Интересно, где сейчас Лурксалот?'
               ])
       ],
       w_coffin: [
          '<25>{#p/toriel}{#f/5}* ...',
-         '<25>{#f/5}* In times like this, it is important that we show respect.',
-         '<25>{#f/10}* ... do you understand?',
-         '<25>{#f/9}* It is a lesson more important than that of puzzles or encounters.'
+         '<25>{#f/5}* В такие времена важно проявлять уважение.',
+         '<25>{#f/10}* ... Ты понимаешь?',
+         '<25>{#f/9}* Это более важный урок, чем головоломки или встречи.'
       ],
       w_danger: () =>
          SAVE.data.n.state_wastelands_froggit === 3
             ? [
-                 '<25>{#p/toriel}{#f/1}* The riddle offered by the terminal in that room...',
-                 '<25>{#f/0}* Was based on something I found in an old Earth legend.',
-                 '<25>{#f/1}* It involved a series of many intricate puzzles...',
-                 '<25>{#f/0}* And a certain deceptive baked good.',
+                 '<25>{#p/toriel}{#f/1}* Загадка, предложенная терминалом в той комнате...',
+                 '<25>{#f/0}* Основано на том, что я нашла в старой Земной легенде.',
+                 '<25>{#f/1}* Он состоял из множества запутанных головоломок...',
+                 '<25>{#f/0}* И некая обманчивая выпечка.',
                  SAVE.data.b.w_state_riddleskip
-                    ? '<25>{#f/5}* It is a shame you refused to solve it.'
-                    : '<25>{#f/0}* Seeing you solve it was quite gratifying.'
+                    ? '<25>{#f/5}* Жаль, что ты отказался её решить.'
+                    : '<25>{#f/0}* Видеть, как ты решаешь эту задачу, было очень приятно.'
               ]
             : [
-                 '<25>{#p/toriel}{#f/1}* As overseer of the Outlands, I took it upon myself...',
-                 '<25>{#f/0}* To ensure the other monsters did not attack you.',
-                 '<25>{#f/0}* Both they and I have a mutual understanding about this.',
-                 '<25>{#f/0}* That is why the Froggit left so readily.'
+                 '<25>{#p/toriel}{#f/1}* Будучи владыкой Запределья, я взяла на себя...',
+                 '<25>{#f/0}* Чтобы другие монстры не напали на тебя.',
+                 '<25>{#f/0}* И у них, и у меня есть взаимопонимание по этому поводу.',
+                 '<25>{#f/0}* Вот почему Фроггит так охотно ушёл.'
               ],
       w_zigzag: [
-         '<25>{#p/toriel}{#f/1}* My idea with building this room to be so long and windy...',
-         '<25>{#f/0}* ... was that I felt a straight room would be too boring.',
-         '<25>{#f/1}* After all, who wants to walk in a straight line all their life?',
-         '<25>{#f/0}* A little change of pace can be quite nice.'
+         '<25>{#p/toriel}{#f/1}* Моя идея построить эту комнату такой длинной и ветреной...',
+         '<25>{#f/0}* ... было то, что я чувствовала, что прямая комната была бы слишком скучной.',
+         '<25>{#f/1}* В конце концов, кто хочет всю жизнь ходить по прямой?',
+         '<25>{#f/0}* Небольшая перемена темпа может быть весьма приятной.'
       ],
       w_froggit: [
-         '<25>{#p/toriel}* From this room forward, more monsters may be found.',
-         '<25>{#f/0}* They often like to \"hang out\" here.\n* Nice, is it not?',
-         '<25>{#f/1}* It tended to be a quiet place, until recently...',
-         '<25>{#f/0}* When a monster began teaching the others how to flirt.',
-         '<25>{#f/0}* This new element has greatly altered the social atmosphere.'
+         '<25>{#p/toriel}* Начиная с этой комнаты и далее, можно встретить больше монстров.',
+         '<25>{#f/0}* Они часто любят \"тусоваться\" здесь.\n* Мило, не правда ли?',
+         '<25>{#f/1}* До недавнего времени это было тихое место...',
+         '<25>{#f/0}* Когда монстр начал учить остальных флиртовать.',
+         '<25>{#f/0}* Этот новый элемент сильно изменил социальную атмосферу.'
       ],
       w_candy: () => [
          SAVE.data.n.state_wastelands_candy < 4
-            ? '<25>{#p/toriel}{#f/1}* The vending machine has yet to break down?'
-            : '<25>{#p/toriel}{#f/1}* Oh dear, is the vending machine broken again?',
-         '<25>{#f/5}* Well, it has happened more times than I can count.',
-         '<25>{#f/3}* On the positive side, it DOES save power...',
-         '<25>{#f/0}* ... so perhaps it is not all bad.'
+            ? '<25>{#p/toriel}{#f/1}* Торговый автомат ещё не сломался?'
+            : '<25>{#p/toriel}{#f/1}* О боже, торговый автомат снова сломался?',
+         '<25>{#f/5}* Ну, это случалось больше раз, чем я могу сосчитать.',
+         '<25>{#f/3}* Положительным моментом является то, что это экономит электроэнергию...',
+         '<25>{#f/0}* ... так что, возможно, не все так плохо.'
       ],
       w_puzzle1: [
-         '<25>{#p/toriel}{#f/1}* To ease the process of retrying the puzzle...',
-         '<25>{#f/0}* I installed a system to move you back to the start.',
-         '<25>{#f/5}* The scientist who helped to install it is long gone now...',
-         '<25>{#f/0}* But his work continues to be of use every day.'
+         '<25>{#p/toriel}{#f/1}* Чтобы облегчить процесс повторного решения головоломки...',
+         '<25>{#f/0}* Я установил систему, чтобы переместить тебя обратно на старт.',
+         '<25>{#f/5}* Ученый, который помог установить его, уже давно ушёл...',
+         '<25>{#f/0}* Но его работа продолжает приносить пользу каждый день.'
       ],
       w_puzzle2: [
-         '<25>{#p/toriel}{#f/1}* Ah, a most unique form of puzzle exists here.',
-         '<25>{#f/0}* One that tests patience over memorization.',
-         '<25>{#f/1}* For the most part, the other humans complained about it...',
-         '<25>{#f/0}* Though, one did appreciate the value it provides.'
+         '<25>{#p/toriel}{#f/1}* Ах, здесь существует самая уникальная форма головоломки.',
+         '<25>{#f/0}* Та, которая проверяет терпение, а не запоминание.',
+         '<25>{#f/1}* По большей части, другие люди жаловались на это...',
+         '<25>{#f/0}* Хотя один человек оценил его ценность.'
       ],
       w_puzzle3: [
-         '<25>{#p/toriel}{#f/1}* A little trick you may find helpful for this puzzle...',
-         '<25>{#f/0}* Is that you can start moving even as the sequence is shown.',
-         '<25>{#f/5}* ... I suppose that is not of much use to you now.',
-         '<25>{#f/1}* But, if for some reason you need to solve it again...',
-         '<25>{#f/0}* You may try the advice I have just given.'
+         '<25>{#p/toriel}{#f/1}* Ты можешь найти небольшую хитрость для этой головоломки...',
+         '<25>{#f/0}* заключается в том, что вы можете начать движение даже во время показа последовательности.',
+         '<25>{#f/5}* ... Я полагаю, теперь от этого мало толку.',
+         '<25>{#f/1}* Но если по какой-то причине тебе нужно решить её снова...',
+         '<25>{#f/0}* Ты можешь попробовать воспользоваться советом, который я только что дала.'
       ],
       w_puzzle4: [
-         '<25>{#p/toriel}{#f/1}* It has come to my attention that, recently...',
-         '<25>{#f/0}* Old editions of a now- defunct comic series are being sold.',
-         '<25>{#f/0}* Perhaps, if you are bored, you could buy one.',
-         '<25>{#f/0}* Children your age tend to be rather fond of these things!'
+         '<25>{#p/toriel}{#f/1}* До меня дошли сведения, что недавно...',
+         '<25>{#f/0}* Продаются старые выпуски ныне не существующей серии комиксов.',
+         '<25>{#f/0}* Возможно, если тебе скучно, ты сможешь купить его.',
+         '<25>{#f/0}* Дети твоего возраста, как правило, очень любят такие вещи!'
       ],
       w_mouse: [
-         '<25>{#p/toriel}{#f/1}* As a matter of principle, I find it important...',
-         '<25>{#f/0}* That there be a room designated for stopping and resting.',
-         '<25>{#f/0}* In my own life, I often find breaks to be a useful asset.',
-         '<25>{#f/1}* The stærmite who resides here would certainly agree...'
+         '<25>{#p/toriel}{#f/1}* В принципе, я считаю важным...',
+         '<25>{#f/0}* Чтобы была комната, предназначенная для остановки и отдыха.',
+         '<25>{#f/0}* В моей собственной жизни перерывы часто оказываются полезными.',
+         '<25>{#f/1}* Стермит, обитающий здесь, наверняка согласится...'
       ],
       w_blooky: () =>
          SAVE.data.b.killed_mettaton
             ? [
-                 '<25>{#p/toriel}{#f/1}* For whatever reason, that ghost who often comes here...',
-                 '<25>{#f/5}* Has been feeling worse than ever lately.',
-                 '<25>{#f/1}* I tried to ask them why, but they would not say...',
-                 '<25>{#f/5}* ... I have not seen them since.'
+                 '<25>{#p/toriel}{#f/1}* По какой-то причине тот призрак, который часто приходит сюда...',
+                 '<25>{#f/5}* В последнее время чувствует себя хуже, чем когда-либо.',
+                 '<25>{#f/1}* Я пыталась спросить их, почему, но он не сказали...',
+                 '<25>{#f/5}* ... С тех пор я их не видела.'
               ]
             : !SAVE.data.b.a_state_hapstablook || SAVE.data.n.plot < 68
             ? [
-                 '<25>{#p/toriel}{#f/0}* That ghost who called earlier often inhabits this area.',
+                 '<25>{#p/toriel}{#f/0}* Тот призрак, который звал тебя раньше, часто обитает в этом районе.',
                  ...(SAVE.data.b.napsta_performance
-                    ? [ '<25>{#f/1}* I thought they would be happier after their performance...' ]
-                    : [ '<25>{#f/1}* I have tried to lift their spirits in the past...' ]),
-                 '<25>{#f/5}* But their troubles may not be so easy to resolve.',
-                 '<25>{#f/1}* If only I knew what was holding them down...'
+                    ? [ '<25>{#f/1}* Я думала, они будут счастливее после своего выступления...' ]
+                    : [ '<25>{#f/1}* В прошлом я пыталась поднять им настроение...' ]),
+                 '<25>{#f/5}* Но их проблемы могут быть не так легко разрешимы.',
+                 '<25>{#f/1}* Если бы я только знала, что их удерживает...'
               ]
             : [
-                 '<25>{#p/toriel}{#f/1}* For whatever reason, that ghost who often comes here...',
-                 '<25>{#f/0}* Has been feeling a lot better lately.',
-                 '<25>{#f/0}* They even came to my house to tell me so themselves.',
-                 '<25>{#f/1}* Apparently you had something to do with this...?',
-                 '<25>{#f/0}* Well then.\n* I am very proud of you, my child.'
+                 '<25>{#p/toriel}{#f/1}* По какой-то причине тот призрак, который часто приходит сюда...',
+                 '<25>{#f/0}* В последнее время чувствует себя намного лучше.',
+                 '<25>{#f/0}* Они даже приходили ко мне домой, чтобы сказать мне об этом.',
+                 '<25>{#f/1}* Очевидно, ты имеешь к этому какое-то отношение...?',
+                 '<25>{#f/0}* Ну что ж.\n* Я очень горжусь тобой, дитя моё.'
               ],
       w_party: [
-         '<25>{#p/toriel}{#f/0}* The activities room.\n* We host all kinds of performances there.',
-         '<25>{#f/0}* Drama, dance nights...\n* And, most important of all, the arts.',
-         '<25>{#f/0}* It is always good to see people expressing themselves.',
-         '<25>{#f/1}* I once attended a comedy show in that very room.',
-         '<25>{#f/0}* It was the hardest I have ever laughed in my life!'
+         '<25>{#p/toriel}{#f/0}* Комната для занятий.\n* Мы устраиваем там всевозможные представления.',
+         '<25>{#f/0}* Драма, танцевальные вечера...\n* И, самое главное, искусство.',
+         '<25>{#f/0}* Всегда приятно видеть, как люди самовыражаются.',
+         '<25>{#f/1}* Однажды я посетила комедийное шоу в этой самой комнате.',
+         '<25>{#f/0}* Это был самый сильный смех в моей жизни!'
       ],
       w_pacing: () => [
          SAVE.data.b.toriel_twinkly
-            ? '<25>{#p/toriel}{#f/0}* I heard someone here made a \"friend\" with that talking star.'
-            : '<25>{#p/toriel}{#f/0}* I heard someone here made a \"friend\" with a talking star.',
-         '<25>{#f/1}* One of the Froggits, I presume...?',
-         "<25>{#f/1}* To say I am worried for that monsters' safety...",
-         '<25>{#f/5}* Would be quite the understatement.'
+            ? '<25>{#p/toriel}{#f/0}* Я слышала, что кто-то здесь \"подружился\" с этой говорящей звездой.'
+            : '<25>{#p/toriel}{#f/0}* Я слышала, что кто-то здесь \"подружился\" с говорящей звездой.',
+         '<25>{#f/1}* Один из Фроггитов, я полагаю...?',
+         "<25>{#f/1}* Сказать, что я беспокоюсь за безопасность этого монстра...",
+         '<25>{#f/5}* Это было бы ещё мягко сказано.'
       ],
       w_junction: [
-         '<25>{#p/toriel}{#f/1}* The junction room...',
-         '<25>{#f/0}* In the past, we had planned a community area of sorts here.',
-         '<25>{#f/0}* Outlands visitors would be met with a warm, welcoming atmosphere.',
-         '<25>{#f/1}* Over time, though, we realized not many people would come...',
-         '<25>{#f/0}* And so, the design was altered into what you see today.',
-         '<25>{#f/5}* A little boring, but I suppose not every room can be grand...'
+         '<25>{#p/toriel}{#f/1}* Комната перекрестка...',
+         '<25>{#f/0}* В прошлом мы планировали создать здесь что-то вроде общественной зоны.',
+         '<25>{#f/0}* Посетителей Запределья встретит теплая, гостеприимная атмосфера.',
+         '<25>{#f/1}* Со временем, однако, мы поняли, что мало кто придёт...',
+         '<25>{#f/0}* И так, дизайн был изменен до того, что ты видишь сегодня.',
+         '<25>{#f/5}* Немного скучновато, но, наверное, не каждая комната может быть величественной...'
       ],
       w_annex: [
-         '<25>{#p/toriel}* From here, the all- important taxi stop can be reached.',
-         '<25>{#f/1}* Not only are other areas of the outpost accessible...',
-         '<25>{#f/0}* But other subsections of the Outlands are, too.',
-         '<25>{#f/1}* Seeing as you are but a small child, however...',
-         '<25>{#f/5}* It is unlikely the driver would offer that as an option to you.',
-         '<25>{#f/0}* The shops and business there are mostly just for grown-ups.'
+         '<25>{#p/toriel}* Отсюда можно добраться до важной стоянки такси.',
+         '<25>{#f/1}* Доступны не только другие зоны аванпоста...',
+         '<25>{#f/0}* Но в других частях Запределья они тоже есть.',
+         '<25>{#f/1}* Ты еще маленький ребёнок, но...',
+         '<25>{#f/5}* Вряд ли водитель предложит вам такую возможность.',
+         '<25>{#f/0}* Магазины и предприятия там в основном для взрослых.'
       ],
       w_wonder: () => [
-         '<25>{#p/toriel}{#f/1}* A little mushroom greeted me on my way back from shopping...',
+         '<25>{#p/toriel}{#f/1}* Маленький гриб встретил меня, когда я возвращалась из магазина...',
          SAVE.data.b.snail_pie
-            ? '<25>{#f/0}* ... as I returned with ingredients for that snail pie.'
-            : '<25>{#f/0}* ... as I returned with ingredients for that butterscotch pie.',
-         '<25>{#f/3}* Strangely, it was floating above the doorway...',
-         '<25>{#f/0}* The gravity must be weak in that room.',
-         '<25>{#f/1}* Perhaps the presence of the taxi has some kind of effect...?'
+            ? '<25>{#f/0}* ... когда я вернулась с ингредиентами для пирога с улитками.'
+            : '<25>{#f/0}* ... когда я вернулась с ингредиентами для ирисового пирога.',
+         '<25>{#f/3}* Странно, но он висел над дверным проемом...',
+         '<25>{#f/0}* Должно быть, гравитация в этой комнате слабая.',
+         '<25>{#f/1}* Возможно, присутствие такси оказывает какое-то влияние...?'
       ],
       w_courtyard: [
-         '<25>{#p/toriel}{#f/0}* Ah.\n* The courtyard.',
-         '<25>{#f/1}* Admittedly, it is a little lacking...',
-         '<25>{#f/5}* In terms of being a place for children like you to play.',
-         '<25>{#f/1}* With every human who came, I thought of fixing that...',
-         '<25>{#f/5}* But they always left before I had the chance.'
+         '<25>{#p/toriel}{#f/0}* А.\n* Двор.',
+         '<25>{#f/1}* Признаться, этого немного не хватает...',
+         '<25>{#f/5}* С точки зрения того, что это место для игр таких детей, как ты.',
+         '<25>{#f/1}* С каждым пришедшим человеком я думала о том, как исправить это...',
+         '<25>{#f/5}* Но они всегда уходили раньше, чем у меня появлялся шанс.'
       ],
       w_alley1: [
-         '<25>{#p/toriel}{#f/9}* ... the room in which I lectured you about leaving.',
-         '<25>{#f/5}* I thought, if I spoke of the force field...',
-         '<25>{#f/5}* I might convince you to stay.',
-         '<25>{#f/1}* ... I remember telling the other humans the same, but...',
-         '<25>{#f/5}* It was as effective for you as it was for them.'
+         '<25>{#p/toriel}{#f/9}* ... комната, в которой я читала тебе лекцию об уходе.',
+         '<25>{#f/5}* Я подумала, что если я буду говорить о силовом поле...',
+         '<25>{#f/5}* Я могу убедить тебя остаться.',
+         '<25>{#f/1}* ... Я помню, что говорила другим людям то же самое, но...',
+         '<25>{#f/5}* Для тебя это было так же эффективно, как и для них.'
       ],
       w_alley2: [
-         '<25>{#p/toriel}{#f/9}* ... the room in which I warned you of the dangers ahead.',
-         '<25>{#f/5}* I have been told my beliefs about them are misguided, but...',
-         '<25>{#f/5}* I felt it unwise to take that chance.',
-         '<25>{#f/9}* ... perhaps it is time I re-considered my viewpoint.'
+         '<25>{#p/toriel}{#f/9}* ... комната, в которой я предупреждал тебя о грядущих опасностях.',
+         '<25>{#f/5}* Мне говорили, что мои убеждения о них ошибочны, но...',
+         '<25>{#f/5}* Я считала неразумным рисковать.',
+         '<25>{#f/9}* ... возможно, мне пора пересмотреть свою точку зрения.'
       ],
       w_alley3: [
-         '<25>{#p/toriel}{#f/9}* ... I truly regret the way I acted towards you here.',
-         '<25>{#f/5}* It was wrong of me to attempt to force you to stay...',
-         '<25>{#f/5}* Merely acting on my own silly desires.',
-         '<25>{#f/1}* I am sure you have already forgiven me, though...',
-         '<25>{#f/5}* Regardless of whether or not I deserve it...'
+         '<25>{#p/toriel}{#f/9}* ... Я искренне сожалею о том, как вела себя с тобой здесь.',
+         '<25>{#f/5}* С моей стороны было неправильно пытаться заставить тебя остаться...',
+         '<25>{#f/5}* Просто действую в соответствии со своими глупыми желаниями.',
+         '<25>{#f/1}* Уверен, ты уже простил меня, хотя...',
+         '<25>{#f/5}* Независимо от того, заслуживаю я этого или нет...'
       ],
       w_alley4: () =>
          SAVE.data.b.w_state_fightroom
             ? [
-                 '<32>{#s/phone}{#p/event}* Dialing...',
-                 '<25>{#p/toriel}{#f/1}* Although that room may not evoke the best of feelings for us...',
-                 '<25>{#f/0}* It is still one of my favorite places in the Outlands.',
-                 '<25>{#f/1}* There is a certain someone who visits sometimes...',
-                 '<25>{#f/6}* Perhaps you are already aware of him.',
-                 '<32>{#s/equip}{#p/event}* Click...'
+                 '<32>{#s/phone}{#p/event}* Набор номера...',
+                 '<25>{#p/toriel}{#f/1}* Хотя эта комната может вызывать у нас не самые лучшие чувства...',
+                 '<25>{#f/0}* Это по-прежнему одно из моих любимых мест в Запределье.',
+                 '<25>{#f/1}* Есть некий человек, который иногда навещает...',
+                 '<25>{#f/6}* Возможно, ты уже знаком с ним.',
+                 '<32>{#s/equip}{#p/event}* Клик...'
               ]
             : instance('main', 'toriButNotGarb') === void 0 // NO-TRANSLATE
 
             ? [
-                 '<32>{#s/phone}{#p/event}* Dialing...',
-                 '<25>{#p/toriel}{#f/1}* Calling so soon...?',
-                 '<25>{#f/0}* ... I have not even gotten back to the house yet!',
-                 '<25>{#f/0}* Please, wait a moment before calling again.',
-                 '<32>{#s/equip}{#p/event}* Click...'
+                 '<32>{#s/phone}{#p/event}* Набор номера...',
+                 '<25>{#p/toriel}{#f/1}* Звонить так рано...?',
+                 '<25>{#f/0}* ... Я ещё даже не вернулась в дом!',
+                 '<25>{#f/0}* Пожалуйста, подождите немного, прежде чем звонить снова.',
+                 '<32>{#s/equip}{#p/event}* Клик...'
               ]
             : [
-                 '<32>{#w.stopThatGoat}{#s/phone}{#p/event}* Dialing...',
-                 '<25>{#p/toriel}{#f/1}* Calling so soon...?',
-                 '<25>{#f/0}* ... I have not even left the room yet!',
-                 '<25>{#f/2}* A moment to breathe would be nice!',
-                 '<32>{#w.startThatGoat}{#s/equip}{#p/event}* Click...'
+                 '<32>{#w.stopThatGoat}{#s/phone}{#p/event}* Набор номера...',
+                 '<25>{#p/toriel}{#f/1}* Звонить так рано...?',
+                 '<25>{#f/0}* ... Я ещё даже не вышла из комнаты!',
+                 '<25>{#f/2}* Неплохо бы передохнуть!',
+                 '<32>{#w.startThatGoat}{#s/equip}{#p/event}* Клик...'
               ],
       w_bridge: [
-         '<25>{#p/toriel}{#f/1}* The bridge to the rest of the outpost...',
-         '<25>{#f/5}* It is a shame to think I almost destroyed it.',
-         '<25>{#f/0}* Of course, the taxi still would have been around.',
-         '<25>{#f/3}* But I doubt that would have been very reliable.',
-         '<25>{#f/1}* Let us be glad this bridge is still in place.'
+         '<25>{#p/toriel}{#f/1}* Мост к остальным частям аванпоста...',
+         '<25>{#f/5}* Стыдно думать, что я почти уничтожила его.',
+         '<25>{#f/0}* Конечно, такси всё равно было бы рядом.',
+         '<25>{#f/3}* Но я сомневаюсь, что это было бы очень надёжно.',
+         '<25>{#f/1}* Давайте радоваться, что этот мост все ещё на месте.'
       ],
       w_exit: () =>
          SAVE.data.n.plot < 16
             ? [
-                 '<25>{#p/toriel}{#f/1}* My child, if you are leaving the Outlands...',
-                 '<25>{#f/0}* Then... I want you to remember something.',
-                 '<25>{#f/1}* Whatever happens, no matter how difficult it may seem...',
-                 '<25>{#f/0}* I want you to know that I have faith in you.',
-                 '<25>{#f/0}* That I know you can do the right thing.',
-                 '<25>{#f/1}* Remember that, alright?'
+                 '<25>{#p/toriel}{#f/1}* Дитя моё, если ты покидаешь Запределье...',
+                 '<25>{#f/0}* Тогда... Ты должен кое-что запомнить.',
+                 '<25>{#f/1}* Что бы ни случилось, каким бы трудным это ни казалось...',
+                 '<25>{#f/0}* Я хочу, чтобы ты знал, что я верю в тебя.',
+                 '<25>{#f/0}* Я знаю, что ты можешь поступить правильно.',
+                 '<25>{#f/1}* Запомни это, хорошо?'
               ]
             : SAVE.data.n.plot < 17.001
             ? [
-                 '<25>{#p/toriel}{#f/1}* Returning to the Outlands so soon...?',
-                 '<25>{#f/0}* Well.\n* I cannot say I am opposed to that.',
-                 '<25>{#f/1}* You may leave at any time, of course...',
-                 '<25>{#f/0}* But, for the moment, it is nice to see you.'
+                 '<25>{#p/toriel}{#f/1}* Возвращение в Запределье так скоро...?',
+                 '<25>{#f/0}* Ну.\n* Я не могу сказать, что я против этого.',
+                 '<25>{#f/1}* Ты можешь уйти в любой момент, конечно...',
+                 '<25>{#f/0}* Но в данный момент я рада тебя видеть.'
               ]
             : [
-                 '<25>{#p/toriel}{#f/2}* How long have you been standing out there!?',
-                 '<25>{#f/1}* Did you come back all this way just to call me?',
-                 '<25>{#f/0}* ... silly goose.',
-                 '<25>{#f/0}* If you would like to call, there is no need to go back this far.'
+                 '<25>{#p/toriel}{#f/2}* Как долго ты там стоишь?',
+                 '<25>{#f/1}* Ты проделал весь этот путь только для того, чтобы позвонить мне?',
+                 '<25>{#f/0}* ... глупый гусь.',
+                 '<25>{#f/0}* Если ты хочешь позвонить, нет необходимости возвращаться так далеко.'
               ],
       w_toriel_front: [
-         '<25>{#p/toriel}{#f/1}* Did you know that this house is a re-creation of another?',
-         '<25>{#f/1}* In the past, I lived in the Citadel...',
-         '<25>{#f/0}* In a house that this one was made to resemble.',
-         '<25>{#f/5}* Once in a while, I forget that I am not really there...'
+         '<25>{#p/toriel}{#f/1}* Знаешь ли ты, что этот дом - воссоздание другого?',
+         '<25>{#f/1}* В прошлом я жила в Цитадели...',
+         '<25>{#f/0}* В доме, на который был похож этот.',
+         '<25>{#f/5}* Время от времени я забываю, что меня на самом деле нет...'
       ],
       w_toriel_hallway: [
-         '<25>{#p/toriel}{#f/0}* There is not much to say about the hallway.',
-         '<26>{#f/1}* Though, you can take a look in the mirror, if you like...',
-         '<25>{#f/0}* I hear self-reflection can be a powerful thing.'
+         '<25>{#p/toriel}{#f/0}* О коридоре много говорить не приходится.',
+         '<26>{#f/1}* Хотя, ты можешь взглянуть в зеркало, если хочешь...',
+         '<25>{#f/0}* Я слышал, что самоанализ может быть сильной вещью.'
       ],
       w_toriel_asriel: [
-         '<25>{#p/toriel}{#f/0}* Ah, it is your room!',
-         '<25>{#f/5}* Your... room...',
+         '<25>{#p/toriel}{#f/0}* А, это твоя комната!',
+         '<25>{#f/5}* Твоя... комната...',
          '<25>{#f/9}* ...',
-         '<25>{#f/5}* Perhaps it is no longer as such.',
+         '<25>{#f/5}* Возможно, её уже нет как таковой.',
          '<25>{#f/1}* ...',
-         '<25>{#f/1}* Actually, I will leave that decision to you...',
-         '<25>{#f/0}* You may still rest any time you like.'
+         '<25>{#f/1}* Вообще-то, я оставляю это решение за тобой...',
+         '<25>{#f/0}* Ты можешь отдыхать в любое время.'
       ],
       w_toriel_toriel: [
-         '<25>{#p/toriel}{#f/0}* So you have stumbled into my room.',
-         '<25>{#f/0}* If you like, you may read a book from my bookshelf.',
-         '<25>{#f/0}* But, please, do not forget to put it back.',
-         "<25>{#f/23}* And don't you dare open that sock drawer!"
+         '<25>{#p/toriel}{#f/0}* Итак, ты зашёл в мою комнату.',
+         '<25>{#f/0}* Если хочешь, можешь почитать книгу с моей книжной полки.',
+         '<25>{#f/0}* Но, пожалуйста, не забудь положить её на место.',
+         "<25>{#f/23}* И не смей открывать ящик с носками!"
       ],
       w_toriel_living: () =>
          toriCheck()
-            ? [ '<25>{#p/toriel}{#f/3}* There is no need to call me when I am right here, little one.' ]
+            ? [ '<25>{#p/toriel}{#f/3}* Нет нужды звать меня, когда я здесь, малыш.' ]
             : [
-                 '<25>{#p/toriel}{#f/1}* Rummaging around in the living room, are we?',
-                 '<25>{#f/0}* Say.\n* Have you read all of the books yet?',
-                 '<25>{#f/1}* I thought about reading you the snail fact book...',
-                 '<25>{#f/0}* But I decided it might be a little too repetitive for you.'
+                 '<25>{#p/toriel}{#f/1}* Порыться в гостиной, да?',
+                 '<25>{#f/0}* Скажите.\n* Ты уже прочитал все книги?',
+                 '<25>{#f/1}* Я думала прочитать тебе книгу фактов об улитках...',
+                 '<25>{#f/0}* Но я решила, что для тебя это может быть слишком повторяющимся.'
               ],
       w_toriel_kitchen: [
-         '<25>{#p/toriel}{#f/1}* The kitchen...?',
-         '<25>{#f/0}* I left a chocolate bar in the fridge for you.',
-         '<25>{#f/0}* I hear it is... an old favorite of humans.',
+         '<25>{#p/toriel}{#f/1}* Кухня...?',
+         '<25>{#f/0}* Я оставила для тебя шоколадку в холодильнике.',
+         '<25>{#f/0}* Я слышал, что это... старый любимец людей.',
          '<25>{#f/1}* Я надеюсь, вам это понравится...'
       ],
       s_start: () =>
          SAVE.data.n.plot < 17.001
             ? [
-                 '<25>{#p/toriel}{#f/0}* If I am right, a certain friend of mine should be up ahead.',
-                 '<26>{#f/0}* Do not fear, little one.',
-                 '<25>{#f/1}* Keep going...'
+                 '<25>{#p/toriel}{#f/0}* Если я права, то впереди должен быть мой друг.',
+                 '<26>{#f/0}* Не бойся, малыш.',
+                 '<25>{#f/1}* Продолжай...'
               ]
             : [
-                 '<25>{#p/toriel}{#f/1}* From what I recall, this long room...',
-                 '<26>{#f/0}* ... would have been the basis for a town on the outskirts of Starton.',
-                 '<25>{#f/0}* Of course, that never came to pass.',
-                 '<25>{#f/2}* One town was more than enough!'
+                 '<25>{#p/toriel}{#f/1}* Насколько я помню, эта длинная комната...',
+                 '<26>{#f/0}* ... стала бы основой для города на окраине Старграда.',
+                 '<25>{#f/0}* Конечно, этого не произошло.',
+                 '<25>{#f/2}* Одного города было более чем достаточно!'
               ],
       s_sans: () =>
          SAVE.data.n.plot < 17.001
             ? [
-                 '<25>{#p/toriel}{#f/0}* If I am right, a certain friend of mine should be up ahead.',
-                 '<26>{#f/0}* Do not fear, little one.',
-                 '<25>{#f/1}* Keep going...'
+                 '<25>{#p/toriel}{#f/0}* Если я права, то впереди должен быть мой друг.',
+                 '<26>{#f/0}* Не бойся, малыш.',
+                 '<25>{#f/1}* Продолжай...'
               ]
             : [
-                 '<25>{#p/toriel}{#f/1}* I presume by now you have heard of the \"gravometric inverter?\"',
-                 '<26>{#f/0}* It is a device Sans has told me all about.',
-                 '<25>{#f/1}* Apparently, there is another world up there...',
-                 '<25>{#f/0}* A place where things do not always face the right way up.'
+                 '<25>{#p/toriel}{#f/1}* Полагаю, ты уже слышал о \"гравиметрическом преобразователе?\"',
+                 '<26>{#f/0}* Это устройство, о котором мне рассказал Санс.',
+                 '<25>{#f/1}* Видимо, там, наверху, есть другой мир...',
+                 '<25>{#f/0}* Место, где вещи не всегда расположены правильной стороной вверх.'
               ],
       s_crossroads: [
-         '<25>{#p/toriel}{#f/1}* This old landing pad was once a bustling intersection...',
-         '<25>{#f/1}* Supply ships coming and going...',
-         '<25>{#f/1}* Ready to aid in whatever was being built next...',
-         '<25>{#f/5}* It is a shame the outpost seems to have stopped expanding.',
-         '<25>{#f/0}* For a while, building new areas defined our culture!'
+         '<25>{#p/toriel}{#f/1}* Эта старая посадочная площадка когда-то была оживленным перекрёстком...',
+         '<25>{#f/1}* Корабли снабжения прибывают и убывают...',
+         '<25>{#f/1}* Готовый помочь в строительстве...',
+         '<25>{#f/5}* Жаль, что аванпост, похоже, перестал расширяться.',
+         '<25>{#f/0}* Некоторое время строительство новых районов определяло нашу культуру!'
       ],
       s_human: [
-         "<25>{#p/toriel}* I heard Sans's brother wants to join the Royal Guard someday.",
-         '<25>{#f/1}* Such an aspirational young skeleton...',
-         '<25>{#f/0}* Despite my feelings about the guard, it is good for him to dream.',
-         '<25>{#f/5}* I worry that too many have given up on their dreams lately...',
-         '<25>{#f/0}* But not him!\n* That skeleton knows what is best for him.'
+         "<25>{#p/toriel}* Я слышал, что брат Санса хочет когда-нибудь вступить в Королевскую гвардию.",
+         '<25>{#f/1}* Такой целеустремленный молодой скелет...',
+         '<25>{#f/0}* Несмотря на моё отношение к стражнику, ему полезно мечтать.',
+         '<25>{#f/5}* Меня беспокоит, что в последнее время слишком многие отказались от своей мечты...',
+         '<25>{#f/0}* Но только не он!\n* Этот скелет знает, что для него лучше.'
       ],
       s_papyrus: [
-         '<25>{#p/toriel}* Sans told me all about the gadgets Papyrus added to his station.',
-         '<25>{#f/1}* First, a handle, so he can \"swing\" into duty...',
-         '<25>{#f/1}* A so-called \"sky wrench\" used to get a \"fix\" on the stars...',
-         '<25>{#f/0}* And a screen attachment to keep track of his many responsibilities.',
-         '<25>{#f/6}* With inventions like these, you would think he works at a lab.'
+         '<25>{#p/toriel}* Санс рассказал мне обо всех приспособлениях, которые Папирус добавил к своей станции.',
+         '<25>{#f/1}* Во-первых, ручка, чтобы он мог \"качаться\" на службе...',
+         '<25>{#f/1}* Так называемый \"небесный ключ\", используемый для \"фиксации\" звёзд...',
+         '<25>{#f/0}* И экранное приложение, чтобы следить за своими многочисленными обязанностями.',
+         '<25>{#f/6}* С такими изобретениями можно подумать, что он работает в лаборатории.'
       ],
       s_doggo: [
-         '<25>{#p/toriel}{#f/5}* Is the Royal Guard giving you too much trouble?',
-         '<25>{#f/0}* Sans did say he would warn you of potential encounters.',
+         '<25>{#p/toriel}{#f/5}* Ты доставляешь Королевской гвардии слишком много хлопот?',
+         '<25>{#f/0}* Санс сказал, что предупредит тебя о возможных встречах.',
          '<25>{#f/1}* ...',
-         '<25>{#f/1}* Perhaps I should be more worried, but...',
-         '<25>{#f/0}* Something tells me you will be alright.',
-         '<25>{#f/0}* I have faith in that skeleton to look out for you.'
+         '<25>{#f/1}* Возможно, мне следовало бы больше беспокоиться, но...',
+         '<25>{#f/0}* Что-то подсказывает мне, что с тобой всё будет в порядке.',
+         '<25>{#f/0}* Я верю, что этот скелет присмотрит за тобой.'
       ],
       s_robot: [
-         '<25>{#p/toriel}{#f/1}* Ah, what a lovely sound...',
-         '<25>{#f/0}* I would recognize a builder bot anywhere.',
-         '<25>{#f/5}* After the ban on AI programs, we had most of them disabled...',
-         '<25>{#f/1}* But the two whose sentience did not corrupt them...',
-         '<25>{#f/0}* Were allowed a more graceful retirement.',
-         '<25>{#f/0}* It is nice to know that they have survived to this day.'
+         '<25>{#p/toriel}{#f/1}* Ах, какой прекрасный звук...',
+         '<25>{#f/0}* Я бы узнал бота-строителя где угодно.',
+         '<25>{#f/5}* После запрета на программы искусственного интеллекта мы отключили большинство из них...',
+         '<25>{#f/1}* Но те двое, чье сознание не испортило их...',
+         '<25>{#f/0}* Им позволили уйти на пенсию более изящно.',
+         '<25>{#f/0}* Приятно осознавать, что они дожили до наших дней.'
       ],
       s_maze: [
-         "<25>{#p/toriel}* Sans has told me all about his brother's fondness for puzzles.",
-         '<25>{#f/1}* I hear he has even created some of his own...?',
-         '<25>{#f/0}* I am most curious about the \"wall of fire.\"',
-         '<25>{#f/1}* Are the flames hot?\n* Or are they merely pleasantly warm?',
-         '<25>{#f/5}* For your sake, I would hope it is the latter.'
+         "<25>{#p/toriel}* Санс рассказал мне о пристрастии своего брата к головоломкам.",
+         '<25>{#f/1}* Я слышал, он даже создал несколько своих собственных...?',
+         '<25>{#f/0}* Больше всего меня интересует \"стена огня.\"',
+         '<25>{#f/1}* Горячее ли пламя?\n* Или они просто приятно теплое?',
+         '<25>{#f/5}* Ради твоего блага я надеюсь, что это последнее.'
       ],
       s_dogs: [
-         '<25>{#p/toriel}{#f/1}* I hear the Royal Guard employs a pair of married dogs.',
-         '<25>{#f/3}* To be married at the same time as being a royal guard...',
-         '<25>{#f/4}* That relationship must have some \"interesting\" motivations.',
-         '<25>{#f/6}* But what do I know.\n* As Sans would say, I am merely a \"goat!\"'
+         '<25>{#p/toriel}{#f/1}* Я слышал, что в королевской гвардии работает пара женатых собак.',
+         '<25>{#f/3}* Быть замужем и одновременно быть королевским гвардейцем...',
+         '<25>{#f/4}* У этих отношений должны быть какие-то \"интересные\" мотивы.',
+         '<25>{#f/6}* Но что я знаю.\n* Как сказал бы Санс, я всего лишь \"козёл\"!'
       ],
       s_lesser: [
-         '<25>{#p/toriel}* I wonder what kind of food is sold in Starton these days.',
-         '<25>{#f/1}* When I was last here, everyone loved to eat ghost fruit...',
-         '<25>{#f/0}* A strange food which could be eaten both by ghosts and non-ghosts.',
-         '<26>{#f/0}* Whatever the favorite\n  is now, I am sure I could never dream of it.'
+         '<25>{#p/toriel}* Интересно, какая еда продается в Старграде в наши дни.',
+         '<25>{#f/1}* Когда я была здесь в последний раз, все любили есть призрачные фрукты...',
+         '<25>{#f/0}* Странная еда, которую могут есть как призраки, так и не-призраки.',
+         '<26>{#f/0}* Каким бы любимым\n . .сейчас, я уверена, что никогда не могла об этом мечтать.'
       ],
       s_bros: [
-         "<25>{#p/toriel}{#f/1}* Sans's fondness for spot-the-difference puzzles...",
-         '<25>{#f/0}* Well, it has never really made sense to me.',
-         '<25>{#f/1}* How could such a simple puzzle be appealing to him?',
-         '<26>{#f/3}* ... more specifically...',
-         '<25>{#f/1}* Where is the humor in such a puzzle?'
+         "<25>{#p/toriel}{#f/1}* Увлечённость Санса головоломками...",
+         '<25>{#f/0}* Ну, для меня это никогда не имело смысла.',
+         '<25>{#f/1}* Как такая простая головоломка могла его заинтересовать?',
+         '<26>{#f/3}* ... подробнее...',
+         '<25>{#f/1}* Где же юмор в такой головоломке?'
       ],
       s_spaghetti: [
-         "<25>{#p/toriel}* Sans has often spoken of Papyrus's interest in spaghetti dishes.",
-         '<25>{#f/6}* But why stop there?\n* Just imagine the PASTABILITIES...',
-         '<25>{#f/8}* Rigatoni!\n* Fettuccine!\n* Acini di Pepe!',
-         '<25>{#f/0}* Some variety could really help him go FARFALLE.',
+         "<25>{#p/toriel}* Санс часто говорил об интересе Папируса к блюдам из спагетти.",
+         '<25>{#f/6}* Но зачем на этом останавливаться?\n* Только представьте себе, какие ПАСТАБИЛЬНОСТИ...',
+         '<25>{#f/8}* Ригатони!\n* Феттуччине!\n* Пепперони!',
+         '<25>{#f/0}* Некоторое разнообразие могло бы действительно помочь ему стать лучшим.',
          '<25>{#f/2}* ... in other words, go BIGOLI or go home!'
       ],
       s_puzzle1: [
-         '<25>{#p/toriel}{#f/1}* Whatever the puzzles in Starton are like now, I am sure...',
-         '<25>{#f/0}* They are nothing like the ones that were here when I left.',
-         '<25>{#f/5}* A level of difficulty so unrealistic...',
-         '<25>{#f/5}* It is a wonder anyone could solve them at all.'
+         '<25>{#p/toriel}{#f/1}* Какими бы ни были головоломки в Старграде сейчас, я уверена...',
+         '<25>{#f/0}* Они совсем не похожи на тех, что были здесь, когда я уходила.',
+         '<25>{#f/5}* Уровень сложности настолько нереален...',
+         '<25>{#f/5}* Удивительно, что их вообще кто-то смог решить.'
       ],
       s_puzzle2: [
-         '<25>{#p/toriel}{#f/1}* They say some puzzles have secret solutions...',
-         '<25>{#f/0}* ... a statement I find utterly unbelievable!',
-         '<25>{#f/0}* A secret solution would defeat the whole purpose of a puzzle.',
-         '<25>{#f/1}* Puzzles, at least ones with realistic difficulty...',
-         '<25>{#f/2}* Should be solved the intended way only!'
+         '<25>{#p/toriel}{#f/1}* Говорят, у некоторых головоломок есть тайные решения...',
+         '<25>{#f/0}* ... заявление, которое я считаю совершенно невероятным!',
+         '<25>{#f/0}* Секретное решение лишило бы головоломку всякого смысла.',
+         '<25>{#f/1}* Головоломки, по крайней мере, реалистичной сложности...',
+         '<25>{#f/2}* Решать нужно только предназначенным для этого способом!'
       ],
       s_jenga: [
-         '<25>{#p/toriel}* To my knowledge, Dr. Alphys is the current royal scientist.',
-         '<25>{#f/1}* She may never replace the experience of her predecessor, but...',
-         '<25>{#f/0}* I am sure she is more than capable of finding her own path forward.',
-         '<25>{#f/0}* This may surprise you, but I have a certain respect for scientists.',
-         '<25>{#f/2}* Such brilliant minds!'
+         '<25>{#p/toriel}* Насколько мне известно, доктор Алфис - нынешняя королевская ученица.',
+         '<25>{#f/1}* Возможно, она никогда не заменит опыт своей предшественницы, но...',
+         '<25>{#f/0}*Я уверена, что она более чем способна найти свой собственный путь.',
+         '<25>{#f/0}* Возможно, ты удивишься, но я испытываю определенное уважение к учёным.',
+         '<25>{#f/2}* Такие гениальные умы!'
       ],
       s_pacing: [
-         '<25>{#p/toriel}{#f/1}* You would be wise to steer clear of dubious salesfolk...',
-         '<25>{#f/0}* For you never know what strings they may pull.',
-         '<25>{#f/0}* Or what moon rocks may end up falling into your lap.',
-         '<25>{#f/3}* It is a lesson I have learned the hard way, unfortunately...'
+         '<25>{#p/toriel}{#f/1}* Ты должен избегать сомнительных продавцов...',
+         '<25>{#f/0}* Ведь никогда не знаешь, за какие ниточки они могут потянуть.',
+         '<25>{#f/0}* Или какие лунные камни могут попасть к тебе в руки.',
+         '<25>{#f/3}* Этот урок я усвоил с трудом, к сожалению...'
       ],
       s_puzzle3: [
-         '<25>{#p/toriel}{#f/1}* The puzzle in this room is one of memorization, is it not?',
-         '<25>{#f/1}* Sans mentioned that his brother often updates the pattern...',
-         '<25>{#f/0}* ... to maintain a strong \"rotating password.\"',
-         '<25>{#f/6}* How silly!',
-         '<25>{#f/0}* In the Outlands, our memorization puzzles update on-demand.'
+         '<25>{#p/toriel}{#f/1}* Загадка этой комнаты заключается в запоминании, не так ли?',
+         '<25>{#f/1}* Санс упоминал, что его брат часто обновляет шаблон...',
+         '<25>{#f/0}* ... чтобы поддерживать надежный \"вращающийся пароль.\"',
+         '<25>{#f/6}* Как глупо!',
+         '<25>{#f/0}* В Запределье головоломки для запоминания обновляются по требованию.'
       ],
       s_greater: [
-         '<25>{#p/toriel}{#f/1}* The old owner of that doghouse, Canis Maximus...',
-         '<25>{#f/0}* ... retired from the guard a long while ago.',
-         '<25>{#f/7}* Fortunately, its new owner is said to be a bundle of puppy energy!',
-         '<25>{#f/0}* Clearly, it has learned well from such a wise master.'
+         '<25>{#p/toriel}{#f/1}* Прежний хозяин этой конуры, Канис Максимус...',
+         '<25>{#f/0}* ... давно ушел из гвардии.',
+         '<25>{#f/7}* К счастью, его новый хозяин, как говорят, полон щенячьей энергии!',
+         '<25>{#f/0}* Очевидно, она хорошо научилась у такого мудрого мастера.'
       ],
       s_math: [
-         '<25>{#p/toriel}{#f/1}* Please, can somebody explain \"dog justice?\"',
-         '<25>{#f/0}* It is an odd phrase I continue to hear every so often.',
-         '<25>{#f/5}* I do know of one little puppy that visits the Outlands sometimes...',
-         '<25>{#f/0}* Perhaps that is who is deserving of justice.'
+         '<25>{#p/toriel}{#f/1}* Пожалуйста, кто-нибудь может объяснить, что такое \"собачье правосудие?\"',
+         '<25>{#f/0}* Эту странную фразу я продолжаю слышать время от времени.',
+         '<25>{#f/5}* Я знаю одного маленького щенка, который иногда наведывается в Запределье...',
+         '<25>{#f/0}* Возможно, именно он заслуживает правосудия.'
       ],
       s_bridge: [
-         '<25>{#p/toriel}{#f/1}* When this bridge was first constructed...',
-         "<25>{#f/0}* Its precarious nature prompted an upgrade to the outpost's systems.",
-         '<25>{#f/0}* In short time, the aptly-named \"gravity guardrails\" were added.',
-         '<25>{#f/0}* These are what prevent you from falling off the platforms.'
+         '<25>{#p/toriel}{#f/1}* Когда этот мост был впервые построен...',
+         "<25>{#f/0}* Его нестабильность заставила модернизировать системы аванпоста.",
+         '<25>{#f/0}* Вскоре были добавлены метко названные \"гравитационные ограждения.\"',
+         '<25>{#f/0}* Они предотвращают падение с платформ.'
       ],
       s_town1: [
-         '<25>{#p/toriel}{#f/0}* Ah...\n* The town of Starton.',
-         '<25>{#f/1}* I have heard much about a \"Grillby\'s\" there...',
-         '<25>{#f/0}* ... and its diverse array of patrons both new and old.',
-         '<25>{#f/0}* Sans often goes there to eat, you see.',
-         '<25>{#f/7}* I hear the bartender is quite \"hot.\"'
+         '<25>{#p/toriel}{#f/0}* Ах...\n* Город Старград.',
+         '<25>{#f/1}* Я много слышала о \"Грильбис\" там...',
+         '<25>{#f/0}* ... и его разнообразные поклонники, как новые, так и старые.',
+         '<25>{#f/0}* Санс часто ходит туда поесть, ты же знаешь.',
+         '<25>{#f/7}* Я слышал, что бармен довольно \"горяч.\"'
       ],
       s_taxi: [
-         '<25>{#p/toriel}{#f/1}* A taxi stop near town?',
-         '<25>{#f/1}* ... hmm...',
-         '<25>{#f/0}* I wonder if it is any different from the one in the Outlands.',
-         '<25>{#f/1}* Of course, I would have no way of knowing until I saw it...',
-         '<25>{#f/0}* Which I have no way of doing without a fancy telescope.',
-         '<25>{#f/0}* I wonder where I could find one of those.'
+         '<25>{#p/toriel}{#f/1}* Стоянка такси недалеко от города?',
+         '<25>{#f/1}* ... хм...',
+         '<25>{#f/0}* Интересно, отличается ли она от той, что в Запределье?',
+         '<25>{#f/1}* Конечно, я не могу знать, пока не увижу его...',
+         '<25>{#f/0}* Что я никак не могу сделать без модного телескопа.',
+         '<25>{#f/0}* Интересно, где я могу найти такую.'
       ],
       s_town2: [
-         '<25>{#p/toriel}{#f/1}* Napstablook recently told me they opened a shop...',
-         '<25>{#f/5}* ... on the \"south side\" of town.',
-         '<25>{#f/1}* What could this mean?',
-         '<25>{#f/0}* The town I remember organizing was a large, unified square.',
-         '<25>{#f/1}* Perhaps there was a split at some point?',
-         '<25>{#f/5}* That would be a shame, considering the original vision...'
+         '<25>{#p/toriel}{#f/1}* Напстаблук недавно сказал мне, что они открыли магазин...',
+         '<25>{#f/5}* ... на \"южной стороне\" города.',
+         '<25>{#f/1}* Что бы это могло значить?',
+         '<25>{#f/0}* Город, который я помню, представляла собой большую единую площадь.',
+         '<25>{#f/1}* Возможно, в какой-то момент произошел раскол?',
+         '<25>{#f/5}* Это было бы обидно, учитывая первоначальное видение...'
       ],
       s_battle: [
-         '<25>{#p/toriel}{#f/1}* The thing Sans seemed most eager to warn me about...',
-         '<25>{#f/0}* Was his brother\'s so- called \"special attack.\"',
-         '<25>{#f/1}* If Papyrus chooses to spar with you, you must avoid it at all costs.',
-         '<25>{#f/2}* I repeat, avoid the special attack!\n* At all costs!',
-         '<25>{#f/0}* That is all I have to say on this matter.'
+         '<25>{#p/toriel}{#f/1}* Больше всего Санс хотел предупредить меня о...',
+         '<25>{#f/0}* Это была так называемая \"специальная атака\" его брата.',
+         '<25>{#f/1}* Если Папирус решит сразиться с тобой, ты должен избегать этого любой ценой.',
+         '<25>{#f/2}* Повторяю, избегайте специальной атаки!\n* Любой ценой!',
+         '<25>{#f/0}* Это всё, что я могу сказать по этому вопросу.'
       ],
       s_exit: [
-         '<25>{#p/toriel}{#f/1}* If you ever decide to leave Starton, you must understand...',
-         '<25>{#f/5}* My phone is old, and can only reach certain rooms in the factory.',
-         '<25>{#f/9}* It would be difficult to call me until you find your way out.',
-         '<25>{#f/1}* Forgive me.\n* I just thought that I should let you know.'
+         '<25>{#p/toriel}{#f/1}* Если ты когда-нибудь решишь покинуть Старград, ты должен понять...',
+         '<25>{#f/5}* Мой телефон старый и может звонить только в определенные комнаты на фабрике.',
+         '<25>{#f/9}* Будет трудно позвонить мне, пока ты не найдешь выход.',
+         '<25>{#f/1}* Простите меня.\n* Я просто подумал, что должна сообщить тебе.'
       ],
       f_entrance: [
-         '<25>{#p/toriel}{#f/7}* So you found a place in the factory with good reception...?',
-         '<25>{#f/1}* ... that must mean you are somewhere unenclosed...',
-         '<25>{#f/0}* Which also implies the nearby presence of synth-bushes.',
-         '<25>{#f/3}* Those things are terrible to get stuck in...',
-         '<25>{#f/4}* Getting you all itchy and scratchy...',
-         '<25>{#f/0}* Fortunately, I know you are smart enough not to run into them.'
+         '<25>{#p/toriel}{#f/7}* Так ты нашел место на фабрике с хорошим приёмом...?',
+         '<25>{#f/1}* ... это должно означать, что ты находишься где-то в незамкнутом пространстве...',
+         '<25>{#f/0}* Что также подразумевает наличие поблизости синт-буша.',
+         '<25>{#f/3}* В этих штуках страшно застрять...',
+         '<25>{#f/4}* У тебя все зудит и чешется...',
+         '<25>{#f/0}* К счастью, я знаю, что ты достаточно умён, чтобы не столкнуться с ними.'
       ],
       f_bird: () =>
          SAVE.data.n.plot !== 47.2 && SAVE.data.n.plot > 42 && SAVE.data.s.state_foundry_deathroom !== 'f_bird' // NO-TRANSLATE
 
             ? [
-                 '<25>{#p/toriel}{#f/0}* There truly is nothing like the chirp of that fearless little bird.',
-                 '<25>{#f/1}* Even when it still lived within a bucket of water...',
-                 '<25>{#f/1}* It would fly its mighty little wings...',
-                 '<25>{#f/1}* Taking us places...',
-                 '<25>{#f/0}* I used its services to carry groceries often.',
-                 '<25>{#f/5}* ... back when we as a species all lived in that old factory.'
+                 '<25>{#p/toriel}{#f/0}* Воистину ничто не сравнится с пением этой бесстрашной птички.',
+                 '<25>{#f/1}* Даже когда он всё ещё жил в ведре с водой...',
+                 '<25>{#f/1}* Он взмахнул бы своими могучими крыльями...',
+                 '<25>{#f/1}* Захватывая нас...',
+                 '<25>{#f/0}* Я часто пользовался её услугами для перевозки продуктов.',
+                 '<25>{#f/5}* ... в те времена, когда мы как вид жили на этой старой фабрике.'
               ]
             : [
-                 '<25>{#p/toriel}{#f/5}* Things sound awfully silent where you are...',
-                 '<25>{#f/5}* Almost like there is something missing.',
-                 '<25>{#f/5}* Something important...',
-                 '<25>{#f/0}* Well, no matter.\n* My imagination does run wild sometimes.',
+                 '<25>{#p/toriel}{#f/5}* Там, где ты находишься, все звучит ужасно тихо...',
+                 '<25>{#f/5}* Как будто чего-то не хватает.',
+                 '<25>{#f/5}* Что-то важное...',
+                 '<25>{#f/0}* Ну, неважно.\n* Мое воображение иногда даёт волю.',
                  '<25>{#f/1}* ...',
-                 '<25>{#f/1}* Chirp, chirp, chirp, chirp, chirp...'
+                 '<25>{#f/1}* Чирик, чирик, чирик, чирик, чирик...'
               ],
       f_taxi: [
-         "<25>{#p/toriel}{#f/1}* So you found the factory's taxi stop...?",
-         '<25>{#f/0}* Perhaps you could use it to escape that Royal Guard captain.',
-         '<25>{#f/1}* A visitor here once spoke of her obsession with spears...',
-         '<25>{#f/0}* How odd.\n* The captain I knew was into sabers.'
+         "<25>{#p/toriel}{#f/1}* Так ты нашел заводскую стоянку такси...?",
+         '<25>{#f/0}* Возможно, ты сможешь использовать его, чтобы сбежать от капитана королевской гвардии.',
+         '<25>{#f/1}* Один посетитель здесь однажды рассказал о своей одержимости копьями...',
+         '<25>{#f/0}* Как странно.\n* Капитан, которого я знал, увлекался саблями.'
       ],
       f_battle: [
-         '<25>{#p/toriel}{#f/0}* Ah, there you are.',
-         "<25>{#f/0}* You're at the edge of the factory there.",
-         '<26>{#f/1}* From this point forward, I do not know what lies ahead of you...',
-         '<25>{#f/5}* Before I left, there was only an elevator to the Citadel.',
-         '<25>{#f/1}* Now, however, exists the area called \"Aerialis...\"',
-         '<25>{#f/23}* ... I wonder who came up with THAT name.'
+         '<25>{#p/toriel}{#f/0}* А, вот и ты.',
+         "<25>{#f/0}* Вы находитесь на краю фабрики.",
+         '<26>{#f/1}* С этого момента я не знаю, что ждёт тебя впереди...',
+         '<25>{#f/5}* До моего ухода в Цитадели был только лифт.',
+         '<25>{#f/1}* Теперь, однако, существует область под названием \"Аэролис...\"',
+         '<25>{#f/23}* ... Интересно, кто придумал такое название?'
       ],
       f_exit: toriel_aerialis,
       a_start: toriel_aerialis,
@@ -5266,128 +5266,128 @@ export default {
    c_call_toriel_early: () =>
       game.room === 'w_bridge' || game.room.startsWith('w_alley') // NO-TRANSLATE
 
-         ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Come back to the house this instant!' ]
+         ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Немедленно возвращайся в дом!' ]
          : [
               3 <= SAVE.data.n.cell_insult
-                 ? '<25>{#p/toriel}{#f/23}* Are you not exhausted after how you behaved towards me?'
+                 ? '<25>{#p/toriel}{#f/23}* Ты не устал после того, как вёл себя со мной?'
                  : SAVE.data.n.state_wastelands_napstablook === 5
-                 ? '<25>{#p/toriel}{#f/1}* Are you not exhausted after waiting so long?'
-                 : '<25>{#p/toriel}{#f/1}* Are you not exhausted after all you have been through?',
+                 ? '<25>{#p/toriel}{#f/1}* Ты не устал после столь долгого ожидания?'
+                 : '<25>{#p/toriel}{#f/1}* Ты не устал после всего, через что прошёл?',
               3 <= SAVE.data.n.cell_insult
                  ? game.room.startsWith('w_toriel') // NO-TRANSLATE
 
-                    ? '<25>{#f/0}* Perhaps you should see the bed I made for you in the guest room.'
-                    : '<25>{#f/0}* Perhaps you should see the bed I made for you at the house.'
+                    ? '<25>{#f/0}* Возможно, ты должен увидеть кровать, которую я приготовила для тебя в комнате для гостей.'
+                    : '<25>{#f/0}* Возможно, ты должен увидеть кровать, которую я приготовила для тебя в доме.'
                  : game.room.startsWith('w_toriel') // NO-TRANSLATE
 
-                 ? '<25>{#f/0}* Come to the hallway, and I will show you something.'
-                 : '<25>{#f/0}* Come to the house, and I will show you something.'
+                 ? '<25>{#f/0}* Пойдем в коридор, и я покажу тебе кое-что.'
+                 : '<25>{#f/0}* Приходи в дом, и я покажу тебе кое-что.'
            ],
    c_call_toriel_late: () =>
       SAVE.data.n.plot === 8.1
-         ? [ '<32>{#p/human}* (But the line was busy.)' ]
+         ? [ '<32>{#p/human}* (Но линия была занята).' ]
          : game.room === 'w_bridge' || game.room.startsWith('w_alley') // NO-TRANSLATE
 
-         ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Come back to the house this instant!' ]
+         ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Немедленно возвращайся в дом!' ]
          : [
-              '<25>{#p/toriel}{#f/1}* There is no need to call me over the phone, my child.',
+              '<25>{#p/toriel}{#f/1}* Нет нужды звать меня по телефону, дитя моё.',
               3 <= SAVE.data.n.cell_insult
-                 ? '<26>{#f/23}* We already know what that tends to result in.'
+                 ? '<26>{#f/23}* Мы уже знаем, к чему это приводит.'
                  : game.room === 'w_toriel_living' // NO-TRANSLATE
 
                  ? toriCheck()
-                    ? '<25>{#f/0}* After all, I am here in the room with you.'
-                    : '<25>{#f/0}* I will be done in just a moment.'
+                    ? '<25>{#f/0}* В конце концов, я здесь, в комнате, с тобой.'
+                    : '<25>{#f/0}* Я закончу через минуту.'
                  : game.room.startsWith('w_toriel') // NO-TRANSLATE
 
                  ? toriCheck()
-                    ? '<25>{#f/0}* If you want to see me, you can come to the living room.'
-                    : '<25>{#f/0}* If you want to see me, you can wait in the living room.'
-                 : '<25>{#f/0}* If you want to see me, you can come to the house.'
+                    ? '<25>{#f/0}* Если ты хочешь меня увидеть, можешь прийти в гостиную.'
+                    : '<25>{#f/0}* Если ты хочешь меня видеть, можешь подождать в гостиной.'
+                 : '<25>{#f/0}* Если ты хочешь меня увидеть, можешь прийти в дом.'
            ],
    c_call_asriel: () =>
       [
          [
-            "<25>{#p/asriel2}{#f/3}* Just so you know, I'm not picking that up.",
-            '<25>{#p/asriel2}{#f/4}* We have better things to do.'
+            "<25>{#p/asriel2}{#f/3}* К твоему сведению, я это не подхватываю.",
+            '<25>{#p/asriel2}{#f/4}* У нас есть дела поважнее.'
          ],
          [ '<25>{#p/asriel2}{#f/4}* ...' ],
-         [ '<25>{#p/asriel2}{#f/4}* ... seriously?' ],
-         [ '<25>{#p/asriel2}{#f/3}* You must be really, REALLY bored.' ],
+         [ '<25>{#p/asriel2}{#f/4}* ... серьёзно?' ],
+         [ '<25>{#p/asriel2}{#f/3}* Ты, должно быть, очень, очень скучаешь.' ],
          []
       ][Math.min(SAVE.flag.n.ga_asrielCall++, 4)],
    s_save_outlands: {
       w_courtyard: {
-         name: 'Outlands - Courtyard',
+         name: 'Запределье - Внутренний двор',
          text: () =>
             SAVE.data.n.plot > 16
                ? [
                     6 <= world.population
-                       ? '<32>{#p/human}* (Even when visiting, this little home fills you with determination.)'
-                       : '<32>{#p/human}* (Even when visiting, this house fills you with determination.)'
+                       ? '<32>{#p/human}* (Даже при посещении этот маленький дом наполняет вас решимостью).'
+                       : '<32>{#p/human}* (Даже при посещении этот дом наполняет вас решимостью).'
                  ]
                : 6 <= world.population
                ? [ '<32>{#p/human}* (This cute little home fills you with determination.)' ]
-               : [ '<32>{#p/human}* (A house amidst the metallic walls fills you with determination.)' ]
+               : [ '<32>{#p/human}* (Дом среди металлических стен наполняет тебя решимостью.)' ]
       },
       w_entrance: {
-         name: 'Outlands - Entrance',
+         name: 'Запределье - Вход',
          text: () =>
             world.runaway
                ? [
-                    '<32>{#p/human}* (The industrious Outlands falls silent, filling you with determination.)',
+                    '<32>{#p/human}* (Трудолюбивое Запределье умолкает, наполняя тебя решимостью).',
                     '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                  ]
                : SAVE.data.n.plot < 48
                ? [
-                    '<32>{#p/human}* (The industrious Outlands lies ahead, filling you with determination.)',
+                    '<32>{#p/human}* (Впереди трудолюбивое Запределье, наполняющее тебя решимостью).',
                     '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                  ]
                : [
-                    '<32>{#p/human}* (Returning to where it all began, after so long...)',
-                    '<32>{#p/human}* (This fills you with determination.)',
+                    '<32>{#p/human}* (Возвращаясь к тому, с чего всё началось, спустя столько времени...)',
+                    '<32>{#p/human}* (Это наполняет тебя решимостью.)',
                     '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                  ]
       },
       w_froggit: {
-         name: 'Outlands - Rest Area',
+         name: 'Запределье - Зона отдыха',
          text: () =>
             SAVE.data.n.state_wastelands_toriel === 2 || world.runaway || roomKills().w_froggit > 0
                ? SAVE.data.n.plot < 8.1
                   ? [
-                       '<32>{#p/human}* (The air grows stale.)\n* (Somehow, this fills you with determination.)',
+                       '<32>{#p/human}* (Воздух становится спертым.)\n* (Каким-то образом это наполняет тебя решимостью.)',
                        '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                     ]
                   : [
-                       '<32>{#p/human}* (The air has fully dried up.)\n* (Indeed, this fills you with determination.)',
+                       '<32>{#p/human}* (Воздух полностью высох.)\n* (Действительно, это наполняет тебя решимостью.)',
                        '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                     ]
                : SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (The area has been vacated, but the air remains fresh.)',
-                    '<32>{#p/human}* (This, of course, fills you with determination.)',
+                    '<32>{#p/human}* (Территория освобождена, но воздух остается свежим.)',
+                    '<32>{#p/human}* (Это, конечно, наполняет тебя решимостью).',
                     '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                  ]
                : [
-                    '<32>{#p/human}* (The sight of weird and wonderful creatures fills you with determination.)',
+                    '<32>{#p/human}* (Вид странных и удивительных существ наполняет тебя решимостью.)',
                     '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                  ]
       },
       w_mouse: {
-         name: 'Outlands - Stærmite Hole',
+         name: 'Запределье - Стермитовая дыра',
          text: () =>
             world.population > 5 && !SAVE.data.b.svr && !world.runaway
                ? [
-                    '<32>{#p/human}* (Knowing that the stærmite will one day emerge...)',
-                    '<32>{#p/human}* (The thought fills you with determinætion.)'
+                    '<32>{#p/human}* (Зная, что стермит однажды появится...)',
+                    '<32>{#p/human}* (Эта мысль наполняет тебя решимостью.)'
                  ]
                : [
-                    '<32>{#p/human}* (Even if the stærmite may never emerge again...)',
-                    '<32>{#p/human}* (The situation fills you with determinætion.)'
+                    '<32>{#p/human}* (Даже если стермит может больше никогда не появиться...)',
+                    '<32>{#p/human}* (Ситуация наполняет тебя решимостью).'
                  ]
       },
       w_start: {
-         name: 'Crash Site',
+         name: 'Место крушения',
          text: []
       }
    }

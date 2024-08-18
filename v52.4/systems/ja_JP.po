@@ -2105,7 +2105,7 @@ msgid "your actions here speak volumes about the"
 msgstr "あなたの　ここでの　こうどうが"
 
 msgid "kind of person you really are."
-msgstr "あなたの　にんげんせいを　ものがたるのです。"
+msgstr "あなたの　ニンゲンせいを　ものがたるのです。"
 
 msgid "It's because of you that you got the ending"
 msgstr "というのも　このエンディングに　とうたつしたのは"
@@ -2306,7 +2306,7 @@ msgid "BOX"
 msgstr "ボックス"
 
 msgid "KEYRING"
-msgstr "だいじ"
+msgstr "キーホルダー"
 
 msgid "Is this name correct?"
 msgstr ""

@@ -961,7 +961,7 @@ export default {
             SAVE.flag.n.genocide_milestone < 5
                ? [ '<25>{#p/asriel2}{#f/13}* Okay?' ]
                : [ '<25>{#p/asriel2}{#f/16}* Cool.' ],
-         status: '$(x) updated status',
+         status: '$(x)が近況を更新しました',
          barricade1: () => [
             '<32>{#p/event}* Ring, ring...',
             "<25>{#p/alphys}{#g/alphysSideSad}* I don't think you can get through that...",

@@ -22,256 +22,256 @@ import { CosmosKeyed, CosmosProvider } from '../../../code/systems/storyteller';
 const toriel_aerialis = () =>
    SAVE.data.n.plot < 49
       ? [
-           '<13>{#p/toriel}{#f/1}＊エアリアル　には　とくしゅな　えきたいが　あると　きいたことが　あるわ。',
-           '<25>{#f/0}* Used primarily to dampen electricity.',
-           '<25>{#f/1}* If you could carry this fluid, how far would you take it?',
-           '<25>{#f/1}* Would you carry it all the way to the Citadel?',
-           '<25>{#f/1}* Or would you simply dispose of it in a recycle bin?',
-           '<25>{#f/0}* How disappointing that would be.'
+           '<13>{#p/toriel}{#f/1}＊エアリアルには　とくしゅな　えきたいが　あると　きいたことが　あるわ。',
+           '<13>{#f/0}＊でんきを　じょきょするために　つかうらしいわ。',
+           '<13>{#f/1}＊もしそのえきたいを　もっていけると　したら　あなたは　どのぐらいとおくまで　もっていくのかしら？',
+           '<13>{#f/1}＊シタデルまで　ずっと？',
+           '<13>{#f/1}＊それとも　ただ　ごみばこに　すててしまう？',
+           '<13>{#f/0}＊だとしたら　ざんねん。'
         ]
       : SAVE.data.n.plot < 51
       ? world.bad_lizard > 1 || SAVE.data.n.state_foundry_undyne === 2
          ? [
               '<13>{#p/toriel}{#f/1}＊もしも　せんせいに　なれたら…',
-              '<13>{#f/0}＊ラボまで　えんそくに　いけるわね。',
-              "<13>{#f/0}＊もちろん　ドクター・アルフィー　のきょか　をとってからね。",
-              '<13>{#f/1}＊ここで　おこなわれた　じっけんは　みな　きょうみぶかいわ。',
-              "<13>{#f/0}＊こどもたちに　とって　とても　いい　べんきょうに　なるはずよ。"
+              '<13>{#f/0}＊ラボまで　えんそくにいけるわね。',
+              "<13>{#f/0}＊もちろん　ドクター・アルフィーのきょかを　とってからね。",
+              '<13>{#f/1}＊ここでおこなわれた　じっけんは　みなきょうみぶかいわ。',
+              "<13>{#f/0}＊こどもたちにとって　とてもいいべんきょうに　なるはずよ。"
            ]
          : [
-              '<13>{#p/toriel}{#f/0}＊あなたの　テレビ　しゅつえんの　うわさは　すぐに　ひろまったわ！',
-              '<13>{#f/0}＊テレビが　ないから　あなたのことを　みれなかった　けれど…',
-              '<13>{#f/1}＊だけど　そのはなしを　きいたとき　しょうじき　おどろいたわ。',
+              '<13>{#p/toriel}{#f/0}＊あなたの　テレビしゅつえんのうわさは　すぐにひろまったわ！',
+              '<13>{#f/0}＊テレビがないから　あなたのことをみられなかったけれど…',
+              '<13>{#f/1}＊だけどそのはなしをきいたとき　しょうじきおどろいたわ。',
               SAVE.data.n.state_aerialis_talentfails === 0
-                 ? '<13>{#f/2}＊いっかいも　ミス　しなかった　なんて！'
-                 : '<13>{#f/6}＊あなたが　そんなに　「パフォーマー」　だったなんて　しらなかったわね。'
+                 ? '<13>{#f/2}＊いっかいも　ミスしなかった　なんて！'
+                 : '<13>{#f/6}＊あなたが　そんなに　「パフォーマー」だったなんて　しらなかったわね。'
            ]
       : SAVE.data.n.plot < 56
       ? [
            '<13>{#p/toriel}{#f/1}＊…\n＊エアリアルの　ロイヤル・ガード　たちね…',
-           '<13>{#f/0}＊みたところ　かれらの　すきそうな　たべものは…　サーモンの　ようね。',
-           '<13>{#f/1}＊もしかしたら　アイスクリーム　かも？',
-           '<13>{#f/2}＊まって　思い出したわ。　たしか　ピザよ。',
-           '<13>{#f/0}＊そういう　たべものは　ふくせいき　なしでは　つくれない　ものね。',
-           '<13>{#f/1}＊しんにゅう　へいしから　すれば　ヘンな　たべもの　かも？'
+           '<13>{#f/0}＊みたところ　かれらの　すきそうなたべものは…　サーモンのようね。',
+           '<13>{#f/1}＊もしかしたら　アイスクリームかも？',
+           '<13>{#f/2}＊まって　思い出したわ。　たしかピザよ。',
+           '<13>{#f/0}＊そういう　たべものは　ふくせいきなしでは　つくれないものね。',
+           '<13>{#f/1}＊しんいりの　へいしから　すれば　ヘンなたべものかも？'
         ]
       : SAVE.data.n.plot < 59
       ? [
            world.bad_lizard > 1 || SAVE.data.n.state_foundry_undyne === 2
-              ? '<13>{#p/toriel}{#f/0}＊あなたが　テレビに　しゅつえん　したと　きいたわ。'
-              : '<13>{#p/toriel}{#f/0}＊あなたが　テレビに　また　しゅつえん　したと　きいたわ。',
-           '<13>{#f/1}＊なにか　あぶなっかしい　ことを　したらしい　わね。',
+              ? '<13>{#p/toriel}{#f/0}＊あなたが　テレビに　しゅつえんしたと　きいたわ。'
+              : '<13>{#p/toriel}{#f/0}＊あなたが　テレビに　またしゅつえんしたと　きいたわ。',
+           '<13>{#f/1}＊なにか　あぶなっかしい　ことをしたらしいわね。',
            iFancyYourVilliany()
-              ? '<13>{#f/2}＊プラスチック　ばくだんを　つくったなんて！'
+              ? '<13>{#f/2}＊プラスチック　ばくだんをつくったなんて！'
               : SAVE.data.n.state_aerialis_crafterresult === 0
-              ? '<13>{#f/2}＊ばくはつ　しそうに　なっても　びどうだに　しなかった　なんて！'
-              : '<13>{#f/2}＊「つかいきり　ジェット　パック」を　つかって　ひとりで　とんだなんて！',
+              ? '<13>{#f/2}＊ばくはつ　しそうになっても　びどうだにしなかった　なんて！'
+              : '<13>{#f/2}＊「つかいすてジェットパック」を　つかって　ひとりでとんだなんて！',
            '<13>{#f/3}＊…あなた',
-           '<13>{#f/4}＊じぶんで　きけんに　おちいって　ないかしら？'
+           '<13>{#f/4}＊みずから　きけんに　おちいってないかしら？'
         ]
       : SAVE.data.n.plot < 60
       ? [
-           '<13>{#p/toriel}{#f/1}＊エアリアル　では　どんな　パズルが　あるのかしら？',
-           '<13>{#f/1}＊レーザーで　できている　ですって？',
-           '<13>{#f/1}＊まちがえた　ときは　ちゃんと　スタート　ちてんに　もどして　くれるのかしら？',
-           '<13>{#f/1}＊…ちゃんと　「まちがい」　だって　いってくれる　のかしら？',
-           '<13>{#f/0}＊…\n＊そんなに　おおくの　しつもんを　して　ごめんなさい。',
-           '<25>{#f/1}＊わたしの　ような　パズルオタク　からすれば　そういうことに　くちだし　せざるを　えないわ。'
+           '<13>{#p/toriel}{#f/1}＊エアリアルでは　どんなパズルが　あるのかしら？',
+           '<13>{#f/1}＊レーザーで　できているですって？',
+           '<13>{#f/1}＊まちがえたときは　ちゃんと　スタートちてんに　もどしてくれるのかしら？',
+           '<13>{#f/1}＊…ちゃんと　「まちがい」だって　いってくれるのかしら？',
+           '<13>{#f/0}＊…\n＊そんなに　おおくのしつもんをして　ごめんなさい。',
+           '<25>{#f/1}＊わたしのような　パズルオタクからすれば　そういうことに　くちだしせざるをえないわ。'
         ]
       : SAVE.data.n.plot < 61
       ? [
-           '<13>{#p/toriel}{#f/1}＊メタトン　との　わるふざけ　のはなしを　きいて…',
+           '<13>{#p/toriel}{#f/1}＊メタトンとの　わるふざけのはなしを　きいて…',
            '<12>{#f/0}＊おもったの。',
-           '<13>{#f/1}＊もし　AIきんしれい　がでたと　したら　メタトン　みたいな　ロボットは　そんざい　できる　のかしら？',
-           '<13>{#f/5}＊たしかに　ドクター・　アルフィーは　そんな　ほうりつを　やぶる　ことはない　でしょうね。',
-           '<13>{#f/0}＊いえ…\n＊なにか　べつの　ほうほうが　あるはずよ。'
+           '<13>{#f/1}＊もし　AIきんしれいがでたとしたら　メタトンみたいなロボットは　そんざいできるのかしら？',
+           '<13>{#f/5}＊たしかに　ドクター・　アルフィーは　そんなほうりつを　やぶることはないでしょうね。',
+           '<13>{#f/0}＊いえ…\n＊なにか　べつの　ほうほうがあるはずよ。'
         ]
       : SAVE.data.n.plot < 63
       ? [
            '<13>{#p/toriel}{#f/1}＊…\n＊エアリアルの　ロイヤル・ガード　たちね…',
-           '<13>{#f/0}＊つい　さいきん　しょうしん　したと　きいたわ。',
-           '<13>{#f/1}＊それに　ぶきの　えらびかたに　かなりの　こだわりが　あるそうよ。',
-           '<13>{#f/5}＊よりつよい　ぶきを　あたえられないと　こうかんしたがらない　らしいわね。',
-           '<13>{#f/0}＊べつに　かれらに　いいぶきを　ゲットして　ほしい　わけ　じゃないわ。',
-           '<13>{#f/2}＊だって　いまでも　あなたの　ことが　しんぱい　なんですから！'
+           '<13>{#f/0}＊ついさいきん　しょうしんしたと　きいたわ。',
+           '<13>{#f/1}＊それに　ぶきのえらびかたに　かなりのこだわりが　あるそうよ。',
+           '<13>{#f/5}＊よりつよいぶきを　あたえられないと　こうかんしたがらない　らしいわね。',
+           '<13>{#f/0}＊べつに　かれらに　いいぶきをゲットしてほしい　わけじゃないわ。',
+           '<13>{#f/2}＊だって　いまでも　あなたのことが　しんぱいなんですから！'
         ]
       : SAVE.data.n.plot < 65
       ? SAVE.data.b.a_state_hapstablook
          ? [
               '<25>{#p/toriel}{#f/1}* A ghost, Lurksalot, recently spoke of some family business.',
-              '<13>{#f/5}＊しばらく　まえから　けいかく　していた　みたいね。',
-              '<13>{#f/0}＊',
-              '<13>{#f/1}＊あなたの　てだすけも　あった　のよね？',
-              '<13>{#f/0}＊そうだとしたら…\n＊あなたは　わたしの　じまんの　子よ。'
+              '<13>{#f/5}＊しばらく　まえから　けいかくしていたみたいね。',
+              '<13>{#f/0}＊すぐに　もんだいもかたづくそうで　なによりだわ。',
+              '<13>{#f/1}＊あなたの　てだすけもあった　のよね？',
+              '<13>{#f/0}＊そうだとしたら…\n＊あなたは　わたしのじまんのコよ。'
            ]
          : [
               '<25>{#p/toriel}{#f/1}* A ghost, Lurksalot, recently spoke of some family business.',
-              '<13>{#f/5}＊しばらく　まえから　けいかく　していた　みたいね。',
-              '<25>{#f/1}* They say their cousin tried to ask for your help, but...',
-              '<25>{#f/5}* You were unavailable at the time.',
-              '<25>{#f/1}* ... you did have a good reason, did you not?'
+              '<13>{#f/5}＊しばらく　まえから　けいかくしていたみたいね。',
+              '<13>{#f/1}＊いとこのコが　あなたに　たすけをもとめたみたいだけど…',
+              '<13>{#f/5}＊そのとき　あなたはムリだって。',
+              '<13>{#f/1}＊…ちゃんとしたりゆうが　あったのよね？'
            ]
       : SAVE.data.n.plot < 66
       ? [
-           '<25>{#p/toriel}{#f/1}* Who knew a robot could have such a beautiful voice?',
-           "<25>{#f/0}* Upon hearing Mettaton's new recording, I could not believe my ears.",
-           '<26>{#f/1}* Though, some of the lyrics were a touch... violent, for my taste.',
+           '<13>{#p/toriel}{#f/1}＊ロボットのうたごえが　あんなにきれいだなんて　しらなかったわ。',
+           "<13>{#f/0}＊メタトンのレコーディング　におじゃまさせてもらったとき　みみをうたがったもの。",
+           '<13>{#f/1}＊まあ　うたのかしは　いちぶ　きけん…というか　ぼうりょくてきというか…',
            '<13>{#f/5}＊…',
-           '<25>{#f/0}* Do not worry, my child.\n* Nobody is going to cast you out into space.'
+           '<13>{#f/0}＊あんしん　してね。\n＊だれも　あなたをうちゅうくうかんに　ほうりだしたりしないわ。'
         ]
       : SAVE.data.n.plot < 68
       ? [
            '<25>{#p/toriel}{#f/0}* Sans tells me the \"rec center\" is a favored location of his.',
-           '<25>{#p/toriel}{#f/1}* Art classes, music clubs, libraries...',
-           '<25>{#p/toriel}{#f/5}* It is a shame much of the area is unsafe for young children.',
-           '<25>{#p/toriel}{#f/3}* Could they not put a little more effort into being accommodating?',
-           '<25>{#p/toriel}{#f/2}* Those mediums can offer valuable transformative experiences!'
+           '<13>{#p/toriel}{#f/1}＊びじゅつきょうしつや　おんがくクラブ　としょかんまで…',
+           '<13>{#p/toriel}{#f/5}＊でも　ちいさなこどもには　あぶないちいきなのが　ざんねんなところね。',
+           '<13>{#p/toriel}{#f/3}＊そこの　じゅうみんは　もうすこししんせつに　できないのかしら？',
+           '<13>{#p/toriel}{#f/2}＊きちょうな　へんようがくしゅうが　できるというのに！'
         ]
       : SAVE.data.n.plot < 70
       ? world.bad_robot
          ? [
-              '<25>{#p/toriel}{#f/0}* Everyone I know is upset about a cancelled \"grand finale.\"',
-              '<25>{#p/toriel}{#f/0}* They say it would have been quite the fight.',
-              '<25>{#p/toriel}{#f/1}* While I am relieved you did not have to take on such a battle...',
-              '<25>{#p/toriel}{#f/5}* I cannot help but worry for what awaits you now.'
+              '<13>{#p/toriel}{#f/0}＊「グランドフィナーレ」が　ちゅうしになったから　みんなおこってるみたいよ。',
+              '<13>{#p/toriel}{#f/0}＊ものすごい　たたかいに　なっていただろうにって。',
+              '<13>{#p/toriel}{#f/1}＊でもあなたが　そんなバトルを　せずにすんで　ほんとうによかった。',
+              '<13>{#p/toriel}{#f/5}＊そんなたたかい…　なにがでてくるのか　しんぱいでたまらないから。'
            ]
          : SAVE.data.b.killed_mettaton
          ? [
-              '<25>{#p/toriel}{#f/0}* Everyone I know has been talking about a \"grand finale.\"',
-              '<25>{#p/toriel}{#f/1}* They say Mettaton gave his life for the good of the show...',
-              '<25>{#p/toriel}{#f/0}* But I know better.',
-              '<25>{#p/toriel}{#f/1}* After all, robots can be repaired, can they not?'
+              '<13>{#p/toriel}{#f/0}＊みんな　「グランドフィナーレ」のことについて　はなしていたわ。',
+              '<13>{#p/toriel}{#f/1}＊メタトンは　そのショーに　すべてをささげたって。',
+              '<13>{#p/toriel}{#f/0}＊でも　しってるわよ。',
+              '<13>{#p/toriel}{#f/1}＊ロボットは　しゅうりすることが　できるんでしょ？'
            ]
          : [
-              '<25>{#p/toriel}{#f/0}* Everyone I know has been talking about a \"grand finale.\"',
-              '<25>{#p/toriel}{#f/0}* They say watching you and Mettaton really made them happy.',
-              '<25>{#p/toriel}{#f/1}* While I am glad that you appear to have had a good time...',
-              '<25>{#p/toriel}{#f/5}* I cannot help but worry for what awaits you now.'
+              '<13>{#p/toriel}{#f/0}＊みんな　「グランドフィナーレ」のことについて　はなしていたわ。',
+              '<13>{#p/toriel}{#f/0}＊あなたとメタトンの　ことをみてて　とてもねっちゅう　できたって。',
+              '<13>{#p/toriel}{#f/1}＊いいじかんを　すごせたようで　よかったわ。',
+              '<13>{#p/toriel}{#f/5}＊そんなたたかい…　なにがでてくるのか　しんぱいでたまらないから。'
            ]
       : [
-           '<25>{#p/toriel}{#f/1}* Are you still doing alright out there, little one?',
-           '<25>{#p/toriel}{#f/5}* You have probably been to the Citadel by now.',
+           '<13>{#p/toriel}{#f/1}＊あなた　いったいそこで　なにをしてるの？',
+           '<13>{#p/toriel}{#f/5}＊ついさっきまで　シタデルに　いたはずよね？',
            '<13>{#p/toriel}{#f/9}＊…',
-           "<25>{#p/toriel}{#f/10}* Be good, won't you?"
+           "<13>{#p/toriel}{#f/10}＊いいコでいるのよ。　わかった？"
         ];
 
 export default {
    a_outlands: {
       darktorielcall: [
-         '<26>{#p/toriel}{#f/5}* I apologize, little one.\n* I have once again turned off my phone.',
-         '<25>{#p/toriel}{#f/9}* Please, leave me here for the time being.',
-         '<25>{#p/toriel}{#f/10}* I will return to you and the others in due time.'
+         '<13>{#p/toriel}{#f/5}＊ごめんなさい。\n＊いっかい　でんわを　きっていたの。',
+         '<13>{#p/toriel}{#f/9}＊とりあえず　わたしを　ここにおいていってください。',
+         '<13>{#p/toriel}{#f/10}＊すぐに　あなたたちのところへ　もどりますから。'
       ],
       secret1: () => [
-         '<32>{#p/basic}* There is a door here.\n* It is locked.',
-         ...(SAVE.data.b.oops ? [] : [ "<32>{#p/basic}* Perhaps there's a key somewhere...?" ])
+         '<17>{#p/basic}＊ここに　ドアがある。\n＊しまっているようだ。',
+         ...(SAVE.data.b.oops ? [] : [ "<17>{#p/basic}＊どこかに　かぎがあるのだろうか…？" ])
       ],
       secret2: [ '<32>{#p/human}* (You use the Secret Key.)' ],
-      exit: () => [ choicer.create('* (Exit the Outlands?)', 'Yes', 'No') ],
-      nosleep: [ '<32>{#p/human}* (Something seems to have interrupted your sleep.)' ],
-      noequip: [ '<32>{#p/human}* (You decide not to equip.)' ],
+      exit: () => [ choicer.create('＊(アウトランドを　でる？)', 'はい', 'いいえ') ],
+      nosleep: [ '<17>{#p/human}＊(なにかが　あなたの　すいみんを　じゃましていた　ようだ。)' ],
+      noequip: [ '<17>{#p/human}＊(あなたは　そうび　しないことにした。)' ],
       finaltext: {
-         a: [ "<32>{#p/basic}* He's gotta be around here somewhere..." ],
-         b: [ '<32>{#p/basic}* Huh...?', '<32>{#p/basic}* Is that... him?\n* Out there?' ],
+         a: [ "<17>{#p/basic}＊かれは　ちかくにいるはずだ。" ],
+         b: [ '<17>{#p/basic}＊…？', '<17>{#p/basic}＊あれはもしかして？\n＊そこにいるのか？' ],
          c: [
-            "<32>{#p/basic}* ... it's him.",
-            "<32>* ...\n* Frisk, if you're ready...",
-            "<32>* If you've seen everyone else you wanted to see...",
-            '<32>* ...',
-            '<32>* You know what to do.',
-            "<32>* Otherwise, I'll wait until you're ready."
+            "<17>{#p/basic}＊…やはり　かれだ。",
+            "<17>＊…\n＊フリスク　準備ができたら…",
+            "<17>＊会いたいと思う皆に　もう会えたなら…",
+            '<17>＊…',
+            '<17>＊何をすべきか　分かるだろう？',
+            "<17>＊まだやり残したことが　あるのなら　私は君を待ち続ける。"
          ],
-         d1: [ '<32>{#p/basic}* Asriel.' ],
-         d2: [ '<25>{#p/asriel1}{#f/13}* ... Frisk?\n* Is that you...?' ],
-         d3: [ "<32>{#p/basic}* Asriel, it's me...", '<32>{#p/basic}* Your best friend, remember?' ],
+         d1: [ '<17>{#p/basic}＊アズリエル。' ],
+         d2: [ '<13>{#p/asriel1}{#f/13}＊…フリスク？' ],
+         d3: [ "<17>{#p/basic}＊アズリエル　私だ…", '<17>{#p/basic}＊「キミの　しんゆう」だろ？' ],
          d4: [
             '<13>{#p/asriel1}{#f/25}＊…！',
             '<13>{#f/25}＊$(name)…？',
-            "<25>{#f/13}* But... you're...",
-            "<25>{#f/23}* ... you're..."
+            "<13>{#f/13}＊でも…キミは…",
+            "<13>{#f/23}＊キミはあのとき…"
          ],
-         d5: [ '<32>{#p/basic}* Dead?' ],
+         d5: [ '<17>{#p/basic}＊しんだ　はず。' ],
          d6: [
-            '<32>{#p/basic}* Heh.\n* For a long time... part of me wished I was.',
-            '<32>{#p/basic}* After what I did to you, I...\n* I felt like I deserved it.'
+            '<17>{#p/basic}＊ああ。\n＊たしかに長い間　死にたいと思っていた　時期もあった。',
+            '<17>{#p/basic}＊お前に　あんなことをしてから…\n＊万死に値すると　感じた。'
          ],
-         d7: [ "<25>{#p/asriel1}{#f/7}* Don't say that, $(name)!", "<25>{#f/6}* ... you're wrong!" ],
+         d7: [ "<13>{#p/asriel1}{#f/7}＊そんなこといわないでよ　$(name)！", "<13>{#f/6}＊…まちがってる！" ],
          d8: [
-            '<33>{#p/basic}* Haha... look who\'s talking now.\n* Mister \"just go be with the people who love you.\"',
-            '<32>* But you deserve to know the truth about me, Asriel...',
-            '<32>* About everything.'
+            '<18>{#p/basic}＊ハハ…　どの口が言ってるんだ？\n＊「愛してくれる人のもとへ行きなさい。」　としか言わないじゃないか。',
+            '<17>＊だがお前は　真実を知るべきだ。　アズリエル。',
+            '<17>＊私のことについて全て。'
          ],
-         d9: [ '<13>{#p/asriel1}{#f/23}＊…', '<25>{#f/23}* $(name)...' ],
-         d10: [ '<25>{#p/asriel1}{#f/13}* But...', '<25>{#f/15}* How are you still...' ],
+         d9: [ '<13>{#p/asriel1}{#f/23}＊…', '<13>{#f/23}＊$(name)…' ],
+         d10: [ '<13>{#p/asriel1}{#f/13}＊だけど…', '<13>{#f/15}＊キミはどうやって…' ],
          d11: [
-            '<32>{#p/basic}* ... does it matter?',
-            '<32>* You were right to forget about me the way you did back there.',
-            "<32>* The truth is, I've been a terrible person...",
-            "<32>* And I'm not the friend, or the sibling you wish you had."
+            '<17>{#p/basic}＊…それは重要か？',
+            '<17>＊つい先程のように　私のことを忘れていたのは　正しかった。',
+            "<17>＊私は悪人であったから。",
+            "<17>＊私は　お前の望んだ　友達でも　仲間でもなかったから。"
          ],
-         d12: [ '<25>{#p/asriel1}{#f/13}* $(name), I...' ],
-         d13: [ "<32>{#p/basic}* It's alright, Asriel.", "<32>* You don't have to make it out to be better than it is." ],
-         d14: [ '<13>{#p/asriel1}{#f/22}＊…', '<25>{#f/22}* ... why now?' ],
+         d12: [ '<13>{#p/asriel1}{#f/13}＊$(name)　ボクは…' ],
+         d13: [ "<17>{#p/basic}＊すまない。　アズリエル。", "<17>＊" ],
+         d14: [ '<13>{#p/asriel1}{#f/22}＊…', '<13>{#f/22}＊…なんでいまなの？' ],
          d15: [
-            '<32>{#p/basic}* Well...',
-            '<32>* I always thought humanity was beyond redemption.',
-            '<32>* That, no matter what...',
-            '<32>* If you were human... you were doomed to fall into darkness.',
-            '<32>* But after following Frisk along on their journey...',
-            '<32>* I understand the truth.',
-            '<32>* The other humans... always did something that made it easy to ignore this truth.',
-            "<33>* They'd attack people, or worse, make them... disappear.",
-            '<32>* But not Frisk.',
-            '<32>* No matter what struggles they faced, they showed kindness and mercy at every turn.',
-            '<32>* They... proved me wrong.',
-            "<32>* And now, because of that, I know there's no excuse for the way I treated you.",
-            '<32>* Everything you went through, everything you lost...',
-            "<32>* I'm the one to blame for it."
+            '<17>{#p/basic}＊…',
+            '<17>＊ニンゲンは救いようが無いと　考えていた。',
+            '<17>＊何をしようが…',
+            '<17>＊ニンゲンがニンゲンである限り　結局闇に落ちる運命。',
+            '<17>＊だが　フリスクの旅を　追っていたら…',
+            '<17>＊真実を知った。',
+            '<17>＊他のニンゲンは…　いつも裏切った。',
+            "<17>＊皆を攻撃し　最悪の場合…　彼らは消えた。",
+            '<17>＊しかし　フリスクはそうしなかった。',
+            '<17>＊どんな困難に直面しても　親切心と慈悲を見せない　ことはなかった。',
+            '<17>＊私が間違っていたと…　フリスクは　教えてくれた。',
+            "<17>＊これを受けて　私がお前にしたことに　意味はなかったと　分かった。",
+            '<17>＊お前が経験したこと。　お前が失ったもの　全て…',
+            "<17>＊私の所為だ。"
          ],
-         d16: [ '<25>{#p/asriel1}{#f/13}＊$(name)…', '<25>{#f/15}* Have you been conscious this whole time?' ],
+         d16: [ '<25>{#p/asriel1}{#f/13}＊$(name)…', '<13>{#f/15}＊これまでずっと　きづいてたの？' ],
          d17: [
-            '<32>{#p/basic}* ... yeah.\n* I guess I have.',
-            '<32>* This has been my existence, Asriel...\n* Ever since we died.',
-            "<32>* And... there's something else I have to tell you."
+            '<17>{#p/basic}＊…ああ。\n＊そうだ。',
+            '<17>＊これが私の中にあったものだよ…　アズリエル。\n＊私たちが死んでからね。',
+            "<17>＊もう一つ…　言わなくてはならない事がある。"
          ],
-         d18: [ '<25>{#p/asriel1}{#f/21}* What is it?' ],
+         d18: [ '<13>{#p/asriel1}{#f/21}＊なに？' ],
          d19: [
-            '<32>{#p/basic}* Remember when we crossed the force field together?',
-            '<32>* When we arrived at the ruins of the old homeworld, and got found out by those humans?',
-            '<32>* I wanted to use our power to destroy them... but you stopped me, remember?'
+            '<17>{#p/basic}＊フォースフィールドを　突破した時のことを　覚えているか？',
+            '<17>＊地球の遺跡に着いて　ニンゲンに見つかった時だ。',
+            '<17>＊私はニンゲンを殺すために　力を使おうとした。　しかしお前は私を止めただろう？'
          ],
-         d20: [ '<25>{#p/asriel1}{#f/16}* ... right.' ],
+         d20: [ '<13>{#p/asriel1}{#f/16}＊…そうだね。' ],
          d21: [
-            "<32>{#p/basic}* I didn't understand it back then, but...",
-            '<32>* I get it now.',
-            '<32>* ... you were just trying to stop me... from making a terrible mistake.'
+            "<17>{#p/basic}＊その時は理解できなかった。",
+            '<17>＊だが　今なら分かる。',
+            '<17>＊お前はただ私を止めようとしていた。　罪を犯してはいけないと。'
          ],
          d22: [ '<13>{#p/asriel1}{#f/15}＊$(name)…' ],
          d23: [
-            "<32>{#p/basic}* If not for you, the outpost would've been destroyed in a second war.",
-            '<32>* If not for you, the very same monsters I was supposedly trying to save...',
-            '<32>* ... would have died right along with us.'
+            "<17>{#p/basic}＊お前がいなければ　第二次大戦が起こっていただろう。",
+            '<17>＊お前がいなければ　私が正に救おうとしていた　モンスターたちが…',
+            '<17>＊共に命を絶つことに　なっていただろう。'
          ],
-         d24: [ '<25>{#p/asriel1}{#f/25}* $(name), I...' ],
+         d24: [ '<13>{#p/asriel1}{#f/25}＊$(name)　ボクは…' ],
          d25: [
-            '<32>{#p/basic}* Even now, your choice back then still matters.',
-            '<32>* Even now...',
-            "<32>* You're still a better sibling to me than I ever was."
+            '<17>{#p/basic}＊あの時のお前の選択は　今でも心に残っている。',
+            '<17>＊そう。今でも…',
+            "<17>＊お前はやはり最高の兄弟だ。"
          ],
          d26: [
-            '<25>{#p/asriel1}{#f/25}* I forgive you, $(name)!',
-            "<25>{#f/23}* Alright?\n* You don't have to do this...",
-            '<25>{#f/22}* I know how strongly you felt back then, and...',
-            "<25>{#f/15}* I wouldn't want you to change your mind just because I..."
+            '<13>{#p/asriel1}{#f/25}＊ボクはキミを…　ゆるすよ！',
+            "<13>{#f/23}＊いい？\n＊キミがこんなことする　ひつようはないんだ。",
+            '<13>{#f/22}＊キミがあのとき　どんなに　こころをいためたか…',
+            "<13>{#f/15}＊ボクはキミに　こころがわり　してほしくなかった。　だってボク…"
          ],
          d27: [
-            '<32>{#p/basic}* No.\n* Not anymore.',
-            '<32>* People CAN change, Asriel...',
-            "<32>* Isn't that what you always believed?"
+            '<17>{#p/basic}＊ちがう。\n＊これ以上言う必要はない。',
+            '<17>＊だれでも　変わることができる。',
+            "<17>＊それがお前の　信念ではないか？"
          ],
-         d28: [ '<25>{#p/asriel1}{#f/13}* ... I still do.' ],
+         d28: [ '<13>{#p/asriel1}{#f/13}＊…うん。' ],
          d29: [
-            "<32>{#p/basic}* I've spent the past hundred years wallowing in self-pity.",
+            "<13>{#p/basic}＊私は百年間　自責の念に駆られ　のたうち回った。",
             "<32>* I've spent the past hundred years holding a grudge I never should've had.",
             '<32>* In all that time, I wondered what kept me alive...',
             '<32>* And now, I finally know the answer.'
@@ -468,11 +468,11 @@ export default {
          SAVE.data.b.svr
             ? [
                  '<32>{#p/human}* (You saw a piece of gum taped to the comic strip...)',
-                 choicer.create('* (Chew the gum?)', 'Yes', 'No')
+                 choicer.create('* (Chew the gum?)', 'はい', 'いいえ')
               ]
             : [
                  '<32>{#p/basic}* There was a piece of gum taped to the comic strip.',
-                 choicer.create('* (Chew the gum?)', 'Yes', 'No')
+                 choicer.create('* (Chew the gum?)', 'はい', 'いいえ')
               ],
       stargum2: [ '<32>{#p/human}* (You decide not to chew.)' ],
       stargum3: [ '<32>{#p/human}* (You recovered $(x) HP.)' ],
@@ -481,7 +481,7 @@ export default {
          SAVE.data.b.svr
             ? [
                  '<32>{#p/human}* (You feel the inviting warmth of the fireplace...)',
-                 choicer.create('* (Crawl inside?)', 'Yes', 'No')
+                 choicer.create('* (Crawl inside?)', 'はい', 'いいえ')
               ]
             : [
                  SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
@@ -489,7 +489,7 @@ export default {
                     : "<32>{#p/basic}* Toriel's fireplace.\n* It's not too hot, just pleasantly warm.",
                  ...(world.darker
                     ? []
-                    : [ '<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Yes', 'No') ])
+                    : [ '<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'はい', 'いいえ') ])
               ],
       fireplace2a: [ '<32>{#p/human}* (You chose not to crawl in.)' ],
       fireplace2b: () => [
@@ -578,9 +578,9 @@ export default {
       asriel2: () => [
          '<25>{#p/asriel2}{#f/1}* Ready, $(name)?',
          "<25>{#f/2}* 'Cause once we move forward, there's no turning back.",
-         choicer.create('* (Follow Him?)', 'Yes', 'No')
+         choicer.create('* (Follow Him?)', 'はい', 'いいえ')
       ],
-      asriel2b: () => [ '<25>{#p/asriel2}{#f/1}* Ready?', choicer.create('* (Follow Him?)', 'Yes', 'No') ],
+      asriel2b: () => [ '<25>{#p/asriel2}{#f/1}* Ready?', choicer.create('* (Follow Him?)', 'はい', 'いいえ') ],
       asriel3: [ '<25>{#p/asriel2}{#f/2}* Okay...', "<25>{#f/1}* Let's do this." ],
       asriel4: [ "<25>{#p/asriel2}{#f/4}* I'll be waiting, then." ],
       asrielDiary: [
@@ -720,7 +720,7 @@ export default {
       },
       midsleep: () => [
          '<32>{#p/human}* (If you sleep here now, you may miss something important.)',
-         choicer.create('* (Go to sleep?)', 'Yes', 'No')
+         choicer.create('* (Go to sleep?)', 'はい', 'いいえ')
       ],
       bedfailToriel: [
          '<25>{#p/toriel}{#f/5}* Oh dear.',
@@ -733,11 +733,11 @@ export default {
          '<32>{#p/napstablook}* Zzz... Zzz...',
          '<32>* Zzz... Zzz...',
          "<32>{#p/basic}* This ghost keeps saying 'z' out loud repeatedly, pretending to sleep.",
-         choicer.create('* (Try to walk through it?)', 'Yes', 'No')
+         choicer.create('* (Try to walk through it?)', 'はい', 'いいえ')
       ],
       blooky2: () => [
          '<32>{#p/basic}* The ghost is still blocking the way.',
-         choicer.create('* (Try to walk through it?)', 'Yes', 'No')
+         choicer.create('* (Try to walk through it?)', 'はい', 'いいえ')
       ],
       blooky3: [
          '<32>{#p/napstablook}* i usually visit this place to get some peace and quiet...',
@@ -763,7 +763,7 @@ export default {
       ],
       blooky6: [
          '<32>{#p/napstablook}* so um... that happened...',
-         '<32>* ...',
+         '<17>＊…',
          '<32>* uh... i gotta go now',
          '<32>* cya...'
       ],
@@ -837,7 +837,7 @@ export default {
          '<25>{#p/toriel}{#f/1}{#n1}* Restless night?',
          '<25>{#f/1}* ...\n* If you like, I can read you this book...',
          '<25>{#f/0}* It is called \"Generous Monster\" and it was written by a human.',
-         choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+         choicer.create('{#n1!}* (Read the book?)', 'はい', 'いいえ')
       ],
       chair1f: pager.create(
          0,
@@ -846,12 +846,12 @@ export default {
       ),
       chair2a1: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* Are you hungry?\n* Would you like me to make you a breakfast?',
-         choicer.create('{#n1!}* (Have breakfast?)', 'Yes', 'No')
+         choicer.create('{#n1!}* (Have breakfast?)', 'はい', 'いいえ')
       ],
       chair2a2: [ '<25>{#p/toriel}{#n1}* Wonderful!\n* I will be in the kitchen preparing it.' ],
       chair2a3: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* Have you changed your mind about breakfast?',
-         choicer.create('{#n1!}* (Have breakfast?)', 'Yes', 'No')
+         choicer.create('{#n1!}* (Have breakfast?)', 'はい', 'いいえ')
       ],
       chair2a4: () =>
          SAVE.data.b.drop_snails
@@ -869,16 +869,16 @@ export default {
          '<25>{#p/toriel}{#n1}* Ah, the book!\n* Yes, it is quite the fun little read.',
          '<25>{#f/0}* It is called \"Generous Monster\" and was written by a human.',
          '<25>{#f/1}* Would you like me to read it to you?',
-         choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+         choicer.create('{#n1!}* (Read the book?)', 'はい', 'いいえ')
       ],
       chair2c2: [ '<25>{#p/toriel}{#n1}* Splendid!', '<25>{#g/torielCompassionSmile}* ...' ],
       chair2c3: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book now?',
-         choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+         choicer.create('{#n1!}* (Read the book?)', 'はい', 'いいえ')
       ],
       chair2c4: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book again?',
-         choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+         choicer.create('{#n1!}* (Read the book?)', 'はい', 'いいえ')
       ],
       chair2c5: [ '<25>{#p/toriel}{#f/1}{#n1}* Alright, then...', '<25>{#p/toriel}{#g/torielCompassionSmile}* ...' ],
       chair2c6: [
@@ -1069,7 +1069,7 @@ export default {
          '<25>{#f/0}* No matter.\n* I will operate it for you.',
          '<25>{#f/0}* ...',
          '<25>{#f/0}* There is a riddle to be solved here.\n* Would you like to try?',
-         choicer.create('* (Solve the riddle?)', 'Yes', 'No')
+         choicer.create('* (Solve the riddle?)', 'はい', 'いいえ')
       ],
       danger_puzzle5a: [
          '<25>{#p/toriel}* Excellent!\n* The eagerness to learn and grow is important.',
@@ -1111,7 +1111,7 @@ export default {
       dipper: {
          a: () => [
             '<32>{#p/human}* (You got the Little Dipper.)',
-            choicer.create('* (Equip the Little Dipper?)', 'Yes', 'No')
+            choicer.create('* (Equip the Little Dipper?)', 'はい', 'いいえ')
          ],
          b: [ "<32>{#p/human}* (You're carrying too much to take that.)" ]
       },
@@ -1596,7 +1596,7 @@ export default {
                     ? [
                          "<32>* Time goes by, and Toriel soon finds out about the monsters you've killed.",
                          '<32>* Her hopes shattered, and with nothing left to lose, she...',
-                         '<32>* ...',
+                         '<17>＊…',
                          '<32>* ... m-meanwhile, the remaining outpost residents await salvation...'
                       ]
                     : outlandsKills() > 5 || SAVE.data.n.bully_wastelands > 5
@@ -1642,7 +1642,7 @@ export default {
                : [ '<32>{#p/basic}* There is a brand-name chocolate bar in the fridge.' ],
          b: () => [
             ...(SAVE.data.b.svr ? [] : [ '<32>{#p/basic}* ...', '<32>* Do you want it?' ]),
-            choicer.create('* (Take the Chocolate Bar?)', 'Yes', 'No')
+            choicer.create('* (Take the Chocolate Bar?)', 'はい', 'いいえ')
          ],
          b1: [ '<32>{#p/human}* (You decide not to take anything.)' ],
          b2: () => [
@@ -1703,7 +1703,7 @@ export default {
                  '<25>{#f/9}* I did my best to try and salvage it...'
               ]
             : []),
-         choicer.create("* (See Napstablook's show?)", 'Yes', 'No')
+         choicer.create("* (See Napstablook's show?)", 'はい', 'いいえ')
       ],
       front2a: [ '<25>{#p/toriel}{#f/0}* Wonderful!\n* I will let them know you are coming.' ],
       front2b: [ '<25>{#p/toriel}{#f/5}* ...', '<25>{#p/toriel}{#f/5}* I will be in the living room if you need me.' ],
@@ -1805,7 +1805,7 @@ export default {
          '<25>{#f/0}* It means a lot to me.'
       ],
       halo: {
-         a: () => [ '<32>{#p/human}* (You got the Halo.)', choicer.create('* (Equip the Halo?)', 'Yes', 'No') ],
+         a: () => [ '<32>{#p/human}* (You got the Halo.)', choicer.create('* (Equip the Halo?)', 'はい', 'いいえ') ],
          b: [ "<32>{#p/human}* (You're carrying too much to take that.)" ]
       },
       indie1: () => [
@@ -1817,18 +1817,18 @@ export default {
             : [ '<26>{#p/toriel}* Alright.\n* It is time for your third and final lesson.' ]),
          '<25>{#f/1}* Do you think you can make it to the end of this room...',
          '<25>{#f/1}* ... all by yourself?',
-         choicer.create('* (What do you say?)', 'Yes', 'No')
+         choicer.create('* (What do you say?)', 'はい', 'いいえ')
       ],
       indie1a: () => [
          '<25>{#p/toriel}{#f/1}* Are you sure...?',
          '<25>{#f/0}* It is only a short distance away.',
-         choicer.create('* (Change your mind?)', 'Yes', 'No')
+         choicer.create('* (Change your mind?)', 'はい', 'いいえ')
       ],
       indie1b: () => [
          '<25>{#p/toriel}{#f/5}* My child.',
          '<25>{#f/1}* It IS important to do things on your own, is it not?',
          '<32>{#p/basic}* If you refuse to change your mind here, Toriel may decide to take you home.',
-         choicer.create('* (Change your mind?)', 'Yes', 'No')
+         choicer.create('* (Change your mind?)', 'はい', 'いいえ')
       ],
       indie2a: [ '<25>{#p/toriel}{#f/1}* Alright...', '<25>{#f/0}* Good luck!' ],
       indie2b: [ '<25>{#p/toriel}{#f/5}* ...', '<25>{#f/9}* ... I see.' ],
@@ -1976,7 +1976,7 @@ export default {
          '<25>{#f/1}* Please, allow me...'
       ],
       lobby_puzzle1: [
-         '<13>{#p/toriel}{#f/0}＊さあ　あなたは　きょうから　このぜんしょうきちで　くらすのよ。',
+         '<14>{#p/toriel}{#f/0}＊さあ　あなたは　きょうから　このぜんしょうきちで　くらすのよ。',
          '<13>{#f/0}＊ここについて　おしえることが　たくさんあります。',
          '<13>{#f/1}＊まずは　もちろん…',
          '<13>{#f/0}＊パズル！',
@@ -1984,8 +1984,8 @@ export default {
       ],
       lobby_puzzle2: [
          '<13>{#p/toriel}{#f/1}＊ヘンに　おもわれるかも　しれないけど…',
-         '<13>{#f/0}＊ここで　パズルをとくことは　わたしたちにとって　ふつうのことなの。',
-         '<13>{#f/0}＊じかんと　すこしのしどうで　すぐになれるはずよ。'
+         '<14>{#f/0}＊ここで　パズルを　とくことは　わたしたちに　とって　ふつうのことなの。',
+         '<14>{#f/0}＊じかんと　すこしのしどうで　すぐに　なれるはずよ。'
       ],
       lobby_puzzle3: [ '<13>{#p/toriel}＊じゅんびが　できましたら　すすみましょう。' ],
       loox: {
@@ -2057,7 +2057,7 @@ export default {
                        "<32>* Maybe now you'll have the means to accept my offer.",
                        "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip.",
                        "<32>* Now I liked that little show, so you'll get a discount.\n* 5G, take it or leave it.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Yes', 'No')
+                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'はい', 'いいえ')
                     ]
                   : [
                        ...(world.postnoot
@@ -2072,19 +2072,19 @@ export default {
                                "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip."
                             ]),
                        "<32>* Interested?\n* All I'm askin' for is 10G.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Yes', 'No')
+                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'はい', 'いいえ')
                     ],
             () =>
                SAVE.data.b.napsta_performance
                   ? [
                        "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
                        "<32>* All I'm askin' for is 5G.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Yes', 'No')
+                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'はい', 'いいえ')
                     ]
                   : [
                        "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
                        "<32>* All I'm askin' for is 10G.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Yes', 'No')
+                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'はい', 'いいえ')
                     ]
          ),
          b: () => [
@@ -2197,7 +2197,7 @@ export default {
             ][SAVE.data.n.choice_flavor],
             '<25>{#f/1}* I know what your preference is, but...',
             '<25>{#f/1}* Would you still be satisfied if it turned up on your plate?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            choicer.create('* (What do you say?)', 'はい', 'いいえ')
          ],
          b1: () => [
             3 <= SAVE.data.n.cell_insult
@@ -2408,8 +2408,8 @@ export default {
                  '<32>{#p/basic}* Scandalous!',
                  "<32>* It's Toriel's sock collection.\n* A little messy...",
                  world.meanie
-                    ? choicer.create('* (Make it messier?)', 'Yes', 'No')
-                    : choicer.create('* (Clean up the mess?)', 'Yes', 'No')
+                    ? choicer.create('* (Make it messier?)', 'はい', 'いいえ')
+                    : choicer.create('* (Clean up the mess?)', 'はい', 'いいえ')
               ],
       socks2: () =>
          world.meanie
@@ -2420,12 +2420,12 @@ export default {
                     ? []
                     : [
                          "<32>{#p/human}* (...)\n* (It appears there's a key hidden in the drawer.)",
-                         choicer.create('* (Take the key?)', 'Yes', 'No')
+                         choicer.create('* (Take the key?)', 'はい', 'いいえ')
                       ])
               ],
       socks3: () => [
          "<32>{#p/human}* (...)\n* (It appears there's a key hidden in the drawer.)",
-         choicer.create('* (Take the key?)', 'Yes', 'No')
+         choicer.create('* (Take the key?)', 'はい', 'いいえ')
       ],
       socks4: [ '<32>{#p/human}* (You decide not to do anything.)' ],
       socks5: () =>
@@ -2494,8 +2494,8 @@ export default {
                ? '<32>{#p/basic}{#n1!}* \"Sizzli Steak\" for 20G.'
                : '<32>{#p/basic}{#n1!}* It\'s labelled \"Sizzli Steak\" and costs 20G.\n* Smells like hyperbole.',
             SAVE.data.b.napsta_performance
-               ? choicer.create('* (Buy the Sizzli Steak for 40G?)', 'Yes', 'No')
-               : choicer.create('* (Buy the Sizzli Steak for 20G?)', 'Yes', 'No')
+               ? choicer.create('* (Buy the Sizzli Steak for 40G?)', 'はい', 'いいえ')
+               : choicer.create('* (Buy the Sizzli Steak for 20G?)', 'はい', 'いいえ')
          ],
          b1: [ '<32>{#p/human}{#n1!}* (You got the Sizzli Steak.)', '<32>{#p/basic}{#n1}* Slick choice, lassy ;)' ],
          b2: [ '<32>{#p/human}{#n1!}* (You decide not to buy.)' ],
@@ -2508,8 +2508,8 @@ export default {
                ? '<32>{#p/basic}{#n1!}* \"Fizzli Soda\" for 5G.'
                : '<32>{#p/basic}{#n1!}* It\'s labelled \"Fizzli Soda\" and costs 5G.\n* Who would buy this?',
             SAVE.data.b.napsta_performance
-               ? choicer.create('* (Buy the Fizzli Soda for 10G?)', 'Yes', 'No')
-               : choicer.create('* (Buy the Fizzli Soda for 5G?)', 'Yes', 'No')
+               ? choicer.create('* (Buy the Fizzli Soda for 10G?)', 'はい', 'いいえ')
+               : choicer.create('* (Buy the Fizzli Soda for 5G?)', 'はい', 'いいえ')
          ],
          c1: [ '<32>{#p/human}{#n1!}* (You got the Fizzli Soda.)', "<32>{#p/basic}{#n1}* Careful, it's sweet ;)" ],
          c2: [ '<32>{#p/human}{#n1!}* (You decide not to buy.)' ],
@@ -2550,7 +2550,7 @@ export default {
             '<32>* this is a little tune i wrote a while ago...',
             "<32>* i've been experimenting with my style lately, so...",
             "<32>* hopefully, it's good enough for you all",
-            '<32>* ...',
+            '<17>＊…',
             '<32>* well, here we go...'
          ],
          c1: [ '<32>{*}{#p/basic}* Well, this is jazzy.{^30}{%}' ],
@@ -2594,7 +2594,7 @@ export default {
                ? [
                     '<32>{#p/human}* (You activate the terminal and play the incoming message.)',
                     "<32>{#p/alphys}* The Foundry's fluid network has been repaired, thanks to our... v-very kind workers.",
-                    '<32>* ...',
+                    '<17>＊…',
                     "<32>* On an unrelated note, we're... l-looking for new workers."
                  ]
                : [
@@ -3624,7 +3624,7 @@ export default {
             ? [
                  '<32>{#p/basic}* The size of the pie does not intimidate you at all.',
                  '<32>{#p/basic}* In fact, it might even be intimidated by you...',
-                 choicer.create('* (Smash the pie?)', 'Yes', 'No')
+                 choicer.create('* (Smash the pie?)', 'はい', 'いいえ')
               ]
             : [ '<32>{#p/basic}* The size of the pie intimidates you too much to eat it.' ],
       piesmash1: [ '<32>{#p/human}* (You decide not to smash.)' ],
@@ -3658,7 +3658,7 @@ export default {
          "<13>{#f/5}＊だいじょうぶ！　ボクが　ちからに　なるよ！",
          "<13>{#f/8}＊ボクは　てきにんしゃじゃ　ないかも　しれないけど　キミは…",
          '<13>{#f/5}＊ここのルールも　しらないでしょ？',
-         '<13>{#f/10}＊それなら　ボクが　おしえてあげるよ。',
+         '\n<13>{#f/10}＊それなら　ボクが　おしえてあげよう。',
          "<13>{#f/5}＊さぁ　はじめよう！"
       ],
       twinkly3: [
@@ -3758,7 +3758,7 @@ export default {
       twinkly16: [
          "<13>{#f/7}オマエ…　さては　しらないフリ　してるだけだな？",
          "<13>ボク　トゥインクリィのこと　バカにしてんだろ",
-         "<20>だれと　たわむれているのか　まったく　わかっていない　はずだろう？",
+         "<13>だれと　たわむれているのか　まったく　わかっていない　はずだろう？",
          '<13>{#f/11}ヒヒヒ…'
       ],
       twinkly17: [ "<13>{#v/1}いきなり　ほんばんに　はいるしかない　でしょう？", '<13>ヒヒヒ…' ],
@@ -3778,7 +3778,7 @@ export default {
          '<26>{#f/0}＊まいにち　ここを　みまわって　ふじちゃくしたコが　いないか　かくにんしているの。',
          '<25>{#f/0}* Follow me, child.\n* There is much I intend to teach you.'
       ],
-      twinkly22: [ '<13>{#f/0}* こっちよ。' ],
+      twinkly22: [ '<13>{#f/0}＊こっちよ。' ],
       w_coffin0: () => [
          '<32>{#p/human}* (You feel it would be best to leave this be.)',
          ...(SAVE.data.b.svr ? [ '<25>{#p/asriel1}{#f/13}* ...' ] : [])
@@ -3797,14 +3797,14 @@ export default {
          () => [
             '<32>{#p/basic}* This coffin dates back to December 251X.',
             '<32>* There is an old record-keeping manifest stashed next to it...',
-            choicer.create('* (Access the manifest?)', 'Yes', 'No')
+            choicer.create('* (Access the manifest?)', 'はい', 'いいえ')
          ],
          () => [
             '<32>{#p/human}* (You once again pick up the manifest.)',
-            choicer.create('* (Access the manifest?)', 'Yes', 'No')
+            choicer.create('* (Access the manifest?)', 'はい', 'いいえ')
          ]
       ),
-      w_coffin3: () => [ choicer.create('* (Read the next page?)', 'Yes', 'No') ],
+      w_coffin3: () => [ choicer.create('* (Read the next page?)', 'はい', 'いいえ') ],
       w_coffin4: [ '<32>{#p/human}* (But there were no further pages to be read.)' ],
       w_coffin5: [ '<32>{#p/human}* (You put the manifest back where it belongs.)' ],
       w_dummy1: () =>
@@ -4603,7 +4603,7 @@ export default {
                     ? [ '<32>* (Nothing happens.)' ]
                     : [
                          '<32>* (You found a piece of gum taped to the comic strip.)',
-                         choicer.create('* (Use the gum?)', 'Yes', 'No')
+                         choicer.create('* (Use the gum?)', 'はい', 'いいえ')
                       ])
               ]
             : []
@@ -5340,7 +5340,7 @@ export default {
                  ]
                : SAVE.data.n.plot < 48
                ? [
-                    '<18>{#p/human}＊(にぎやかな　アウターランドを　まのあたりにして　ケツイが　みなぎった)',
+                    '<18>{#p/human}＊(にぎやかな　アウトランドを　まのあたりにして　ケツイが　みなぎった)',
                     '<18>{#p/human}＊(HPが　まんタンになった)'
                  ]
                : [

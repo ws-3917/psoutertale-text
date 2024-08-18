@@ -6327,7 +6327,7 @@ export default {
                     light_generic: '<20>{#e/twinkly/5}{#v/0}From the one where Terrestria was appointed as queen...'
                  }[unique[0]]!,
                  {
-                    dark_death: '<20>{#e/twinkly/5}{#v/0}... to the one where Undyne and Alphys hunted you down.',
+                    dark_death: '<20>{#e/twinkly/5}{#v/0}...一直到安黛因和艾菲斯\n追杀你的那次结束。',
                     dark_undyne: '<20>{#e/twinkly/5}{#v/0}... to the one where Alphys returned to Bratty and Catty.',
                     dark_alphys: '<20>{#e/twinkly/5}{#v/0}... to the one where almost everyone important had died.',
                     dark_alphys_therapy:
@@ -6355,7 +6355,7 @@ export default {
                     light_sans: '<20>{#e/twinkly/5}{#v/0}... to the one where Sans ended up as the king.',
                     light_generic: '<20>{#e/twinkly/5}{#v/0}... to the one where Terrestria was appointed as queen.'
                  }[unique[unique.length - 1]]!,
-                 "<20>{#e/twinkly/7}{#v/0}You ENJOYED treating it all like it's just a game.",
+                 "<20>{#e/twinkly/7}{#v/0}哪次你不是\n将这些视作一场游戏。",
                  "<20>{#e/twinkly/5}{#v/0}But now it's my turn to play."
               ]
             : [

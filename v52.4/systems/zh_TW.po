@@ -1993,7 +1993,7 @@ msgid "G"
 msgstr "G"
 
 msgid "INF"
-msgstr "INF"
+msgstr "\\u221e"
 
 msgid "[PRESS Z OR ENTER]"
 msgstr "[按 Z 或 ENTER]"
@@ -2064,7 +2064,7 @@ msgid "Go back"
 msgstr "返回"
 
 msgid "OUTERTALE V5.02 (c) 2024 SPACEY_432"
-msgstr ""
+msgstr "OUTERTALE V5.02 (c) 2024 SPACEY_432 繁體中文版 PSOT漢化組"
 
 msgid "* (HP fully restored.)"
 msgstr "* （HP已回滿。）"
@@ -2079,7 +2079,7 @@ msgid "* (HP fully depleted.)"
 msgstr "* （HP已清零。）"
 
 msgid "* (You gained $(x) HP.)"
-msgstr ""
+msgstr "* （你額外獲得$(x) HP。）"
 
 msgid "USE"
 msgstr "使用"

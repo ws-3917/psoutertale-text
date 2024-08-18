@@ -1906,7 +1906,7 @@ msgid "<25>{#p/asriel2}{#f/16}* Cool."
 msgstr ""
 
 msgid "$(x) updated status"
-msgstr ""
+msgstr "$(x)が近況を更新しました"
 
 msgid "<32>{#p/event}* Ring, ring..."
 msgstr ""

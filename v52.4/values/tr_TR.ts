@@ -10,8 +10,8 @@ export default {
    cellBoxX: 0,
    cellFinishX: 0,
    disclaimer: {
-      title: "- DISCLAIMER -",
-      content: "1. PS!OUTERTALE is made by Spacey_432.\nOur team is working on the translation.\n2. If you find any untranslated text or dialogue,\nplease kindly let us know instead of\nassuming we are lazy.\n3. Please avoid asking questions already answered \nin the FAQ.  (Examples: \"How do I change the language?\",\n\"How do I defeat Toriel?\", or \"How do I run the game?\").\nOur translators are focused on providing \nthe best translation and may not have time \nto address these inquiries."
+      title: "- OKU BENİ -",
+      content: "1. PS!OUTERTALE oyunu Spacey_432 tarafından geliştirilmiştir.\nÇeviride oyuna da katkısı olmuş kişiler olsa da lütfen oyunla\nilgili fazla teknik sorular sormayın.\n2. Eğer yamada bir hata veya çevrilmemiş bir yer bulursanız,\nnazik bir biçimde bizi herhangi bir yerden bilgilendirin.\n3. BİZİMEKİP YAPTI\n4. İyi eğlenceler!"
    },
    footerX: 0,
    itemEquipX: 0,
@@ -116,7 +116,7 @@ export default {
       thomas: 'Deney başlasın.',
 
       
-      chara: 'The true name.',
+      chara: 'Gerçek isim.',
       frisk: 'Gerçek isim.',
 
       

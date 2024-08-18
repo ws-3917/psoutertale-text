@@ -22,7 +22,7 @@ import { CosmosKeyed, CosmosProvider } from '../../../code/systems/storyteller';
 const toriel_aerialis = () =>
    SAVE.data.n.plot < 49
       ? [
-           '<25>{#p/toriel}{#f/1}* Aeralis\'te bir çeşit sıvı olduğunu duydum...',
+           '<25>{#p/toriel}{#f/1}* Aerialis\'te bir çeşit sıvı olduğunu duydum...',
            '<25>{#f/0}* Elektirik yalıtımı için kullanılıyormuş.',
            '<25>{#f/1}* Bu sıvıyı taşıyabilseydin, ne kadar uzağa götürürdün?',
            '<25>{#f/1}* Onu Hisar\'a kadar taşır mıydın?',
@@ -39,7 +39,7 @@ const toriel_aerialis = () =>
               "<25>{#f/0}* Çocuklar için harika bir öğrenme deneyimi olurdu."
            ]
          : [
-              '<25>{#p/toriel}{#f/0}* Televizyon galanın lafı hızlıca yayılmış, yavrum!',
+              '<25>{#p/toriel}{#f/0}* Televizyon galanın lafı hızlıca yayılmış, küçüğüm!',
               '<25>{#f/0}* Tabi, ben göremedim, çünkü benim bir televizyonum yok.',
               '<25>{#f/1}* Duyduğumda, fakat, Şaşırmıştım doğrusu...',
               SAVE.data.n.state_aerialis_talentfails === 0
@@ -48,7 +48,7 @@ const toriel_aerialis = () =>
            ]
       : SAVE.data.n.plot < 56
       ? [
-           '<25>{#p/toriel}{#f/1}* Hmm...\n* Aeralis\'teki kraliyet muhafızları...',
+           '<25>{#p/toriel}{#f/1}* Hmm...\n* Aerialis\'teki kraliyet muhafızları...',
            '<25>{#f/0}* Görünüşe göre en sevdikleri yemek... somon.',
            '<25>{#f/1}* Yoksa... dondurma mıydı?',
            '<25>{#f/2}* Dur, hayır, sanırım pizzaydı!',
@@ -65,9 +65,9 @@ const toriel_aerialis = () =>
               ? '<25>{#f/2}* Ve plastik patlayıcı yapmak için malzemeleri değiştirmişsin!'
               : SAVE.data.n.state_aerialis_crafterresult === 0
               ? '<25>{#f/2}* Ve patlama tehlikesine karşın direnmişsin!'
-              : '<25>{#f/2}* Ve bir \"tek kullanımlık taşınabilir jet\"i tek başına uçurmuşsun!',
+              : '<25>{#f/2}* Ve bir \"tek kullanımlık taşınabilir sırt roketini\" tek başına uçurmuşsun!',
            '<25>{#f/3}* ... sen...',
-           '<25>{#f/4}* Hayatınızı tehlikeye atmaya mı ÇALIŞIYORDUN?'
+           '<25>{#f/4}* Hayatını tehlikeye atmaya mı ÇALIŞIYORDUN?'
         ]
       : SAVE.data.n.plot < 60
       ? [
@@ -88,10 +88,10 @@ const toriel_aerialis = () =>
         ]
       : SAVE.data.n.plot < 63
       ? [
-           '<25>{#p/toriel}{#f/1}* Hmm...\n* Aeralis\'teki kraliyet muhafızları...',
+           '<25>{#p/toriel}{#f/1}* Hmm...\n* Aerialis\'teki kraliyet muhafızları...',
            '<25>{#f/0}* Pozisyonlarına yeni terfi ettiklerini duydum.',
            '<25>{#f/1}* Ayrıca silah konusunda oldukça seçici olduklarını da duydum...',
-           '<25>{#f/5}* Sunulan daha iyi seçeneklere rağmen bunları yükseltmeyi reddiyorlarmış.',
+           '<25>{#f/5}* Sunulan daha iyi seçeneklere rağmen bunları yükseltmeyi reddediyorlarmış.',
            '<25>{#f/0}* Silahlarını yükseltmelerini istediğimden değil de.',
            '<25>{#f/2}* Zaten senin için yeterince endişeleniyorum!'
         ]
@@ -101,7 +101,7 @@ const toriel_aerialis = () =>
               '<25>{#p/toriel}{#f/1}* Bir hayalet, Lurksalot, bazı aile işlerinden bahsetti.',
               '<25>{#f/5}* Görünüşe göre bir süredir akıllarındaymış.',
               '<25>{#f/0}* Neyse ki bunun yakında çözüleceğini söyledi.',
-              '<25>{#f/1}* Senin yardımınla hem de, dimi?',
+              '<25>{#f/1}* Senin yardımınla hem de, değil mi?',
               '<25>{#f/0}* Peki o zaman.\n* Seninle gurur duyuyorum, küçüğüm.'
            ]
          : [
@@ -346,7 +346,7 @@ export default {
             "<25>{#f/17}* Yanımda olman kesinlikle sorun yaratmaz.",
             '<25>{#f/13}* ...\n* Mesele şu ki...\n* Eğer şimdi burada kalsaydım...',
             "<25>{#f/15}* $(name) için doğru olmazdı... bilirsin ya?\n",
-            '<25>{#f/13}* Hem de, RUHUM tekrar içimdeyken...',
+            '<25>{#f/13}* Hem de, RUH\'um tekrar içimdeyken...',
             "<25>{#f/13}* Tekrardan yıldıza dönmem.",
             "<25>{#f/13}* Yani... burada kalmamın bir anlamı yok."
          ],
@@ -358,11 +358,11 @@ export default {
             '<25>{#p/asriel1}{#f/15}* ...',
             "<25>{#f/16}* Bundan sonra $(name) ne yapacak bilmiyorum.",
             "<25>{#f/13}* Beni görme şansı için beklediler ama bu...",
-            '<25>{#f/15}* ... in the past now.'
+            '<25>{#f/15}* ... artık geçmişte kaldı.'
          ],
          e2: [
-            "<25>{#p/asriel1}{#f/13}* I still can't believe they waited all that time just to see me...",
-            '<25>{#f/23}* İnatçı aptal.',
+            "<25>{#p/asriel1}{#f/13}* Onca zaman sırf beni görmek için beklediğine hala inanamıyorum...",
+            '<25>{#f/23}* İnatçı salak.',
             '<25>{#f/17}* ... is what I would have said, if I was still a talking star.',
             "<25>{#f/13}* But... I don't really think they're an idiot."
          ],
@@ -475,8 +475,8 @@ export default {
                  choicer.create('* (Chew the gum?)', 'Evet', 'Hayır')
               ],
       stargum2: [ '<32>{#p/human}* (You decide not to chew.)' ],
-      stargum3: [ '<32>{#p/human}* (You recovered $(x) HP.)' ],
-      stargum4: [ '<32>{#p/human}* (HP fully restored.)' ],
+      stargum3: [ '<32>{#p/human}* ($(x) CAN yeniledin.)' ],
+      stargum4: [ '<32>{#p/human}* (CANIN tamamen yenilendi.)' ],
       fireplace1: () =>
          SAVE.data.b.svr
             ? [
@@ -823,160 +823,160 @@ export default {
       candy7: [ '<32>{#p/human}* (You decide not to make anything.)' ],
       candy8: [ "<32>{#p/human}* (You're carrying too much.)" ],
       chair1a: () => [
-         '<25>{#p/toriel}{#f/1}{#n1}* What is it, my child?\n* Are you hungry?',
-         '<25>{#f/0}* Perhaps you would like to know more about the book I am reading.',
-         choicer.create('{#n1!}* (What do you say?)', 'Hungry', 'Book', 'Home', 'Nothing')
+         '<25>{#p/toriel}{#f/1}{#n1}* Ne oldu, çocuğum?\n* Aç mısın?',
+         '<25>{#f/0}* Belki okuduğum kitap hakkında daha fazlasını bilmek istersin.',
+         choicer.create('{#n1!}* (What do you say?)', 'Aç', 'Kitap', 'Ev', 'Nothing')
       ],
       chair1b: () => [
-         '<25>{#p/toriel}{#n1}* What is it, my child?',
-         choicer.create('{#n1!}* (What do you say?)', 'Hungry', 'Book', 'Home', 'Nothing')
+         '<25>{#p/toriel}{#n1}* Ne oldu, çocuğum?',
+         choicer.create('{#n1!}* (What do you say?)', 'Aç', 'Kitap', 'Ev', 'Nothing')
       ],
-      chair1c: [ '<25>{#p/toriel}{#n1}* Well, let me know if you need anything.' ],
-      chair1d: [ '<25>{#p/toriel}{#n1}* Well, let me know if you change your mind.' ],
+      chair1c: [ '<25>{#p/toriel}{#n1}* Peki, bir şeye ihtiyacın olursa bana haber ver.' ],
+      chair1d: [ '<25>{#p/toriel}{#n1}* Peki, fikrini değiştirirsen bana haber ver.' ],
       chair1e: () => [
-         '<25>{#p/toriel}{#f/1}{#n1}* Restless night?',
-         '<25>{#f/1}* ...\n* If you like, I can read you this book...',
-         '<25>{#f/0}* It is called \"Generous Monster\" and it was written by a human.',
-         choicer.create('{#n1!}* (Read the book?)', 'Evet', 'Hayır')
+         '<25>{#p/toriel}{#f/1}{#n1}* Uykusuz bir gece mi?',
+         '<25>{#f/1}* ...\n* Eğer istersen, sana bu kitabı okuyabilirim...',
+         '<25>{#f/0}* Adı \"Cömert Canavar\" ve bir insan tarafından yazılmıştır.',
+         choicer.create('{#n1!}* (Kitabı oku?)', 'Evet', 'Hayır')
       ],
       chair1f: pager.create(
          0,
-         [ '<25>{#p/toriel}{#n1}{#f/1}* Back for a visit?', '<25>{#f/0}* Well, feel free to stay as long as you need.' ],
-         [ '<26>{#p/toriel}{#n1}{#f/5}* I shall remain here, as I always have...' ]
+         [ '<25>{#p/toriel}{#n1}{#f/1}* Ziyarete mi döndün?', '<25>{#f/0}* Peki, ihtiyacın olduğu kadar kalmakta özgürsün.' ],
+         [ '<26>{#p/toriel}{#n1}{#f/5}* Ben her zaman olduğu gibi burada kalacağım...' ]
       ),
       chair2a1: () => [
-         '<25>{#p/toriel}{#f/1}{#n1}* Are you hungry?\n* Would you like me to make you a breakfast?',
-         choicer.create('{#n1!}* (Have breakfast?)', 'Evet', 'Hayır')
+         '<25>{#p/toriel}{#f/1}{#n1}* Aç mısın?\n* Sana kahvaltı hazırlamamı ister misin?',
+         choicer.create('{#n1!}* (Kahvaltı yap?)', 'Evet', 'Hayır')
       ],
-      chair2a2: [ '<25>{#p/toriel}{#n1}* Wonderful!\n* I will be in the kitchen preparing it.' ],
+      chair2a2: [ '<25>{#p/toriel}{#n1}* Müthiş!\n* Ben mutfakta hazırlıyor olacağım.' ],
       chair2a3: () => [
-         '<25>{#p/toriel}{#f/1}{#n1}* Have you changed your mind about breakfast?',
-         choicer.create('{#n1!}* (Have breakfast?)', 'Evet', 'Hayır')
+         '<25>{#p/toriel}{#f/1}{#n1}* Kahvaltı konusunda fikrini mi değiştirdin?',
+         choicer.create('{#n1!}* (Kahvaltı yap?)', 'Evet', 'Hayır')
       ],
       chair2a4: () =>
          SAVE.data.b.drop_snails
             ? [
-                 '<25>{#p/toriel}{#f/3}{#n1}* You expect me to make another after you dropped the first one?',
-                 '<25>{#f/4}* This child...',
-                 '<25>{#f/0}* No, little one.\n* I will not prepare another breakfast.'
+                 '<25>{#p/toriel}{#f/3}{#n1}* İlkini bıraktıktan sonra bir tane daha yapmamı mı bekliyorsun?',
+                 '<25>{#f/4}* Bu çocuk...',
+                 '<25>{#f/0}* Hayır, ufaklık.\n* Başka bir kahvaltı daha hazırlamayacağım.'
               ]
             : [
-                 '<25>{#p/toriel}{#n1}* I have already served breakfast, little one.',
-                 '<25>{#f/1}* We cannot have more than one breakfast per day, can we?',
-                 '<25>{#f/0}* That would be silly.'
+                 '<25>{#p/toriel}{#n1}* Kahvaltı servisini çoktan yaptım, ufaklık.',
+                 '<25>{#f/1}* Günde birden fazla kahvaltı yapamayız, değil mi?',
+                 '<25>{#f/0}* Bu şapşalca olurdu.'
               ],
       chair2c1: () => [
-         '<25>{#p/toriel}{#n1}* Ah, the book!\n* Yes, it is quite the fun little read.',
-         '<25>{#f/0}* It is called \"Generous Monster\" and was written by a human.',
-         '<25>{#f/1}* Would you like me to read it to you?',
-         choicer.create('{#n1!}* (Read the book?)', 'Evet', 'Hayır')
+         '<25>{#p/toriel}{#n1}* Ah, kitap!\n* Evet, oldukça eğlenceli, ufak bir okuma.',
+         '<25>{#f/0}* Adı \"Cömert Canavar\" ve bir insan tarafından yazılmış.',
+         '<25>{#f/1}* Bunu sana okumamı ister misin?',
+         choicer.create('{#n1!}* (Kitabı oku?)', 'Evet', 'Hayır')
       ],
-      chair2c2: [ '<25>{#p/toriel}{#n1}* Splendid!', '<25>{#g/torielCompassionSmile}* ...' ],
+      chair2c2: [ '<25>{#p/toriel}{#n1}* Harika!', '<25>{#g/torielCompassionSmile}* ...' ],
       chair2c3: () => [
-         '<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book now?',
-         choicer.create('{#n1!}* (Read the book?)', 'Evet', 'Hayır')
+         '<25>{#p/toriel}{#f/1}{#n1}* Şimdi kitabı okumamı istiyor musun?',
+         choicer.create('{#n1!}* (Kitabı oku?)', 'Evet', 'Hayır')
       ],
       chair2c4: () => [
-         '<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book again?',
-         choicer.create('{#n1!}* (Read the book?)', 'Evet', 'Hayır')
+         '<25>{#p/toriel}{#f/1}{#n1}* Kitabı sana tekrar okumamı mı istiyorsun?',
+         choicer.create('{#n1!}* (Kitabı oku?)', 'Evet', 'Hayır')
       ],
-      chair2c5: [ '<25>{#p/toriel}{#f/1}{#n1}* Alright, then...', '<25>{#p/toriel}{#g/torielCompassionSmile}* ...' ],
+      chair2c5: [ '<25>{#p/toriel}{#f/1}{#n1}* Pekâlâ, öyleyse...', '<25>{#p/toriel}{#g/torielCompassionSmile}* ...' ],
       chair2c6: [
-         '<25>{#f/1}{#n1}* \"Once, there was a monster...\"',
-         '<25>{#f/0}* \"And she loved a little human.\"',
-         '<25>{#f/1}* \"And every day, the human would come visit...\"',
-         '<25>{#f/0}* \"And they would run and play together in the fields.\"',
-         '<25>{#f/1}* \"They\'d sing songs together, tell stories to each other...\"',
-         '<25>{#f/0}* \"And they would play hide-and-go seek.\"',
-         '<25>{#f/1}* \"And when the human was tired, she would tuck them into bed...\"',
-         '<25>{#f/0}* \"And the human loved the monster very much.\"',
-         '<25>{#f/0}* \"And the monster was happy.\"',
-         '<25>{#f/1}* \"But as time went by, and the human grew older...\"',
-         '<25>{#f/0}* \"The monster was often left alone.\"',
-         '<25>{#f/1}* \"Then one day, the human came back...\"',
-         '<25>{#f/0}* \"And the monster said \'Come, human, come and play!\'\"',
-         '<25>{#f/5}* \"\'I am too big to play,\' said the human.\"',
-         '<25>{#f/1}* \"\'I want to drive, to find a new home...\'\"',
-         "<25>{#f/5}* \"'Sorry,' said the monster, 'but I am too poor to own a car.'\"",
-         '<25>{#f/5}* \"\'All I have is my own two feet.\'\"',
-         '<25>{#f/0}* \"\'Climb on my back, and I can run you to where you need.\'\"',
-         '<25>{#f/0}* \"\'Then you can see the town and be happy.\'\"',
-         '<25>{#f/1}* \"And so the human climbed onto the monster\'s back...\"',
-         '<25>{#f/0}* \"And the monster took them to a new home.\"',
-         '<25>{#f/0}* \"And the monster was happy.\"',
-         '<25>{#f/1}* \"But the human stayed away for a long time...\"',
-         '<25>{#f/5}* \"And the monster was sad.\"',
-         '<25>{#f/0}* \"Then one day, the human came back.\"',
-         '<25>{#f/1}* \"And the monster smiled from ear to ear and said...\"',
-         '<25>{#f/1}* \"\'Come, human, come and ride on my back!\'\"',
-         '<25>{#f/5}* \"\'I am too sad to ride around,\' said the human.\"',
-         '<25>{#f/1}* \"\'I wish I had a family, and children of my own...\'\"',
-         "<25>{#f/5}* \"'Sorry,' said the monster, 'but I cannot give that to you.'\"",
-         '<25>{#f/5}* \"\'I am only one person.\'\"',
-         '<25>{#f/0}* \"\'Visit for a while, and we can find you a date.\'\"',
-         '<25>{#f/0}* \"\'Then you can find love and be happy.\'\"',
-         '<25>{#f/1}* \"And so the human visited their old friend for a while...\"',
-         '<25>{#f/0}* \"And the monster found them someone they might like.\"',
-         '<25>{#f/0}* \"And the monster was happy.\"',
-         '<25>{#f/5}* \"But the human stayed away for a long time.\"',
-         '<25>{#f/1}* \"When they finally returned, the monster was so happy...\"',
-         '<25>{#f/9}* \"She could hardly speak.\"',
-         '<25>{#f/1}* \"\'Come, human,\' she whispered...\"',
-         '<25>{#f/1}* \"\'Come and visit.\'\"',
-         '<25>{#f/5}* \"\'I am too old and busy to visit,\' said the human.\"',
-         '<25>{#f/1}* \"\'I want a place to rest for the night...\'\"',
-         "<25>{#f/5}* \"'Sorry,' said the monster, 'but I do not have a bed your size.'\"",
-         '<25>{#f/5}* \"\'I am still too poor to afford one.\'\"',
-         '<25>{#f/0}* \"\'Sleep with me for the night.\'\"',
-         '<25>{#f/0}* \"\'Then you can get some rest and be happy.\'\"',
-         '<25>{#f/1}* \"And so the human and the monster cuddled together...\"',
-         '<25>{#f/0}* \"And the monster was able to put the human to sleep.\"',
-         '<25>{#f/0}* \"And the monster was happy.\"',
-         '<25>{#f/5}* \"... but not really.\"',
-         '<25>{#f/9}* \"And after a long time, the human came back again.\"',
-         "<25>{#f/5}* \"'I am sorry, human,' said the monster, 'but I have fallen down.'\"",
-         '<25>{#f/5}* \"\'My legs are giving out, I cannot take you anywhere.\'\"',
-         '<25>{#f/10}* \"\'There is nowhere else I want to be,\' said the human.\"',
-         '<26>{#f/5}* \"\'I cannot find you a date, I know no one else\' said the monster.\"',
-         '<25>{#f/10}* \"\'There is no one else I want to be with,\' said the human.\"',
-         '<25>{#f/5}* \"\'I am too weak for you to sleep on me\', said the monster.\"',
-         '<25>{#f/10}* \"\'I do not need sleep any longer,\' said the human.\"',
-         "<25>{#f/5}* \"'I am sorry,' sighed the monster.",
-         '<25>{#f/5}* \"\'I wish I had something to offer, but I have nothing left.\'\"',
-         '<25>{#f/9}* \"\'I am just an old monster approaching her death.\'\"',
-         '<25>{#f/5}* \"\'I am sorry...\'\"',
-         '<25>{#f/10}* \"\'I do not need very much now,\' said the human.\"',
-         '<25>{#f/10}* \"\'Just a hug from my best friend before I die.\'\"',
-         '<25>{#f/1}* \"\'Well,\' said the monster, straightening her posture...\"',
-         '<25>{#f/0}* \"\'Well, an old monster is always here for that.\'\"',
-         '<25>{#f/0}* \"\'Come, human, come to me. Be with me one last time.\'\"',
-         '<25>{#f/9}* \"And so the human did.\"',
-         '<25>{#f/10}* \"And the monster was happy.\"'
+         '<25>{#f/1}{#n1}* \"Bir zamanlar, bir canavar vardı...\"',
+         '<25>{#f/0}* \"Ve o küçük bir insanı sevdi.\"',
+         '<25>{#f/1}* \"Ve her gün, insan ziyarete gelirdi...\"',
+         '<25>{#f/0}* \"Ve tarlalarda birlikte koşup oynarlardı.\"',
+         '<25>{#f/1}* \"Birlikte şarkılar söyler, birbirlerine hikayeler anlatırlardı...\"',
+         '<25>{#f/0}* \"Ve saklambaç oynarlardı.\"',
+         '<25>{#f/1}* \"Ve insan yorulduğunda, o insanı yatağa yatırırdı...\"',
+         '<25>{#f/0}* \"Ve insan canavarı çok sevdi.\"',
+         '<25>{#f/0}* \"Ve canavar mutluydu.\"',
+         '<25>{#f/1}* \"Ama zaman geçtikçe, ve insan yaşlandıkça...\"',
+         '<25>{#f/0}* \"Canavar sıklıkla yalnız kalıyordu.\"',
+         '<25>{#f/1}* \"Sonra bir gün, insan geri geldi...\"',
+         '<25>{#f/0}* \"Ve canavar dedi ki \'Gel insan, gel de oyna!\'\"',
+         '<25>{#f/5}* \"\'Oynamak için fazla büyüğüm,\' dedi insan.\"',
+         '<25>{#f/1}* \"\'Araba sürmek, yeni bir ev bulmak istiyorum...\'\"',
+         "<25>{#f/5}* \"'Üzgünüm,' dedi canavar, 'ama ben arabam olamayacak kadar yoksulum.'\"",
+         '<25>{#f/5}* \"\'Benim sadece kendi iki ayağım var.\'\"',
+         '<25>{#f/0}* \"\'Sırtıma tırman, ve seni ihtiyacın olan yere götürebilirim.\'\"',
+         '<25>{#f/0}* \"\'O zaman şehri görebilir ve mutlu olabilirsin.\'\"',
+         '<25>{#f/1}* \"Ve böylece insan canavarın sırtına tırmandı...\"',
+         '<25>{#f/0}* \"Ve canavar onu yeni bir eve götürdü.\"',
+         '<25>{#f/0}* \"Ve canavar mutluydu.\"',
+         '<25>{#f/1}* \"Ama insan uzun bir süre boyunca uzakta kaldı...\"',
+         '<25>{#f/5}* \"Ve canavar mutsuzdu.\"',
+         '<25>{#f/0}* \"Sonra bir gün, insan geri geldi.\"',
+         '<25>{#f/1}* \"Ve canavar kulaklarına kadar gülümseyip dedi ki...\"',
+         '<25>{#f/1}* \"\'Gel, insan, gel sırtıma bin!\'\"',
+         '<25>{#f/5}* \"\'Etrafta dolaşmak için çok mutsuzum,\' dedi insan.\"',
+         '<25>{#f/1}* \"\'Keşke bir ailem olsaydı, kendi çocuklarımın olacağı...\'\"',
+         "<25>{#f/5}* \"'Üzgünüm,' dedi canavar, 'ama sana bunu sağlayamam.'\"",
+         '<25>{#f/5}* \"\'Ben yalnızca tek bir kişiyim.\'\"',
+         '<25>{#f/0}* \"\'Bir süreliğine ziyaret et, ve sana bir randevu bulabiliriz.\'\"',
+         '<25>{#f/0}* \"\'O zaman aşkı bulabilir ve mutlu olabilirsin.\'\"',
+         '<25>{#f/1}* \"Ve böylece insan eski dostunu bir süreliğine ziyaret etti...\"',
+         '<25>{#f/0}* \"Ve canavar onun beğenebileceği birisini buldu.\"',
+         '<25>{#f/0}* \"Ve canavar mutluydu.\"',
+         '<25>{#f/5}* \"Ama insan uzun süre boyunca uzakta kaldı.\"',
+         '<25>{#f/1}* \"Sonunda geri döndüğünde, canavar çok mutluydu...\"',
+         '<25>{#f/9}* \"Zar zor konuşabiliyordu.\"',
+         '<25>{#f/1}* \"\'Gel, insan,\' diye fısıldadı...\"',
+         '<25>{#f/1}* \"\'Gel ve ziyaret et.\'\"',
+         '<25>{#f/5}* \"\'Ziyaret etmek için çok yaşlı ve meşgulüm\' dedi insan.\"',
+         '<25>{#f/1}* \"\'Gece için dinlenebileceğim bir yer istiyorum...\'\"',
+         "<25>{#f/5}* \"'Üzgünüm,' dedi canavar, 'ama senin boyutunda bir yatağım yok.'\"",
+         '<25>{#f/5}* \"\'Hala bir tane alamayacak kadar yoksulum.\'\"',
+         '<25>{#f/0}* \"\'Gece benimle uyu.\'\"',
+         '<25>{#f/0}* \"\'O zaman biraz dinlenebilir ve mutlu olabilirsin.\'\"',
+         '<25>{#f/1}* \"Ve böylece insan ve canavar birbirlerine sarıldılar...\"',
+         '<25>{#f/0}* \"Ve canavar insanı uyutmayı başardı.\"',
+         '<25>{#f/0}* \"Ve canavar mutluydu.\"',
+         '<25>{#f/5}* \"... ama tam anlamıyla değil.\"',
+         '<25>{#f/9}* \"Ve uzun bir aradan sonra, insan tekrar geri geldi.\"',
+         "<25>{#f/5}* \"'Üzgünüm, insan,' dedi canavar, 'ama ben düşmüş durumdayım.'\"",
+         '<25>{#f/5}* \"\'Bacaklarım tutmuyor, seni hiçbir yere götüremem.\'\"',
+         '<25>{#f/10}* \"\'Başka hiçbir yerde olmak istemiyorum,\' dedi insan.\"',
+         '<26>{#f/5}* \"\'Sana bir randevu bulamam, başka kimseyi tanımıyorum\' dedi canavar.\"',
+         '<25>{#f/10}* \"\'Başka kimseyle birlikte olmak istemiyorum,\' dedi insan.\"',
+         '<25>{#f/5}* \"\'Üzerimde uyuman için çok zayıfım\', dedi canavar.\"',
+         '<25>{#f/10}* \"\'Daha fazla uykuya ihtiyacım yok,\' dedi insan.\"',
+         "<25>{#f/5}* \"'Üzgünüm,' diye iç çekti canavar.",
+         '<25>{#f/5}* \"\'Keşke sunabileceğim bir şeyim olsaydı, ama elimde hiçbir şey kalmadı.\'\"',
+         '<25>{#f/9}* \"\'Ben sadece ölümüne yaklaşan yaşlı bir canavarım.\'\"',
+         '<25>{#f/5}* \"\'Üzgünüm...\'\"',
+         '<25>{#f/10}* \"\'Artık çok fazla şeye ihtiyacım yok,\' dedi insan.\"',
+         '<25>{#f/10}* \"\'Sadece ölmeden önce en iyi dostumdan bir kucaklama.\'\"',
+         '<25>{#f/1}* \"\'Peki,\' dedi canavar, duruşunu düzelterek...\"',
+         '<25>{#f/0}* \"\'Peki, yaşlı bir canavar bunun için her zaman burada.\'\"',
+         '<25>{#f/0}* \"\'Gel, insan, gel bana. Son bir kez daha benimle ol.\'\"',
+         '<25>{#f/9}* \"Ve insan da bunu yaptı.\"',
+         '<25>{#f/10}* \"Ve canavar mutluydu.\"'
          
       ],
-      chair2c7: [ '<25>{#f/0}{#n1}* Well, that was the story.', '<25>{#f/1}* I hope you liked it...' ],
-      chair2c8: [ '<25>{#f/0}{#n1}* Well, that is all.' ],
+      chair2c7: [ '<25>{#f/0}{#n1}* İşte, hikaye buydu.', '<25>{#f/1}* Umarım beğenmişsindir...' ],
+      chair2c8: [ '<25>{#f/0}{#n1}* İşte bu kadar.' ],
       chair2d1: [
-         '<25>{#p/toriel}{#f/1}{#n1}* Home...?\n* Could you be a little more specific?',
-         '<99>{#p/human}{#n1!}* (What do you say?){!}\n§shift=48§Never§shift=72§When can I\n§shift=48§mind§shift=80§go home?{#c/0/6/4}'
+         '<25>{#p/toriel}{#f/1}{#n1}* Ev...?\n* Biraz daha spesifik olabilir misin?',
+         '<99>{#p/human}{#n1!}* (Ne diyeceksin?){!}\n§shift=48§Never§shift=72§Ne zaman eve\n§shift=48§mind§shift=80§gidebilirim?{#c/0/6/4}'
       ],
       chair2d2: [
-         '<25>{#p/toriel}{#f/1}{#n1}* But... this is your home now, is it not?',
-         '<99>{#p/human}{#n1!}* (What do you say?){!}\n§shift=144§How to exit\n§shift=64§Sorry§shift=40§the Outlands{#c/0/8/2}'
+         '<25>{#p/toriel}{#f/1}{#n1}* Ama... burası artık senin evin, değil mi?',
+         '<99>{#p/human}{#n1!}* (Ne diyeceksin?){!}\n§shift=144§Outlands\'den\n§shift=64§Sorry§shift=40§nasıl çıkılır{#c/0/8/2}'
       ],
       chair2d3: [
-         '<25>{#p/toriel}{#f/5}{#n1}* Please, try to understand...',
-         '<25>{#p/toriel}{#f/9}* I only want the best for you.'
+         '<25>{#p/toriel}{#f/5}{#n1}* Lütfen, anlamaya çalış...',
+         '<25>{#p/toriel}{#f/9}* Ben yalnızca senin için en iyisini istiyorum.'
       ],
       chair2d4: [
-         '<25>{#p/toriel}{#f/5}{#n1}* My child...',
-         '<99>{#p/human}{#n1!}* (What do you say?){!}\n§shift=144§How to exit\n§shift=64§Sorry§shift=40§the Outlands{#c/0/8/2}'
+         '<25>{#p/toriel}{#f/5}{#n1}* Çocuğum...',
+         '<99>{#p/human}{#n1!}* (Ne diyeceksin?){!}\n§shift=144§Outlands\'den\n§shift=64§Sorry§shift=40§nasıl çıkılır{#c/0/8/2}'
       ],
       chair2d5: [ '<25>{#p/toriel}{#f/5}{#n1}* ...' ],
       chair2d6: [
          '<25>{#p/toriel}{#f/9}{#n1}* ...',
-         '<25>{#p/toriel}{#f/9}* Please, wait here.',
-         '<25>{#p/toriel}{#f/5}* There is something I have to do.'
+         '<25>{#p/toriel}{#f/9}* Lütfen, burada bekle.',
+         '<25>{#p/toriel}{#f/5}* Yapmam gereken bir şey var.'
       ],
       chair3: () =>
          SAVE.data.b.svr
@@ -1044,59 +1044,59 @@ export default {
          a2: [ '<32>* Söyle bana...', '<32>* Bu senin... merakını uyandırmıyor mu?' ]
       },
       danger_puzzle1: () => [
-         '<25>{#p/toriel}* In this room lies a new kind of puzzle.',
+         '<25>{#p/toriel}* Bu odada yeni bir tür bulmaca yer alıyor.',
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
-            ? '<25>{#f/3}* Perhaps you will do better here than with the dummy.'
-            : '<25>{#f/1}* Do you think you can solve it?'
+            ? '<25>{#f/3}* Belki burada manken ile olduğundan daha iyi iş çıkarırsın.'
+            : '<25>{#f/1}* Çözebileceğini düşünüyor musun?'
       ],
       danger_puzzle2: () =>
          world.darker
-            ? [ "<32>{#p/basic}* It's too tall for you to reach." ]
-            : [ "<32>{#p/basic}* This terminal's staggering height towers over you, blocking your eager approach." ],
+            ? [ "<32>{#p/basic}* Senin erişemeyeceğin kadar yüksek." ]
+            : [ "<32>{#p/basic}* Bu terminalin baş döndürücü yüksekliği tepende, istekli yaklaşımını engelliyor." ],
       danger_puzzle3: () => [
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
-            ? '<25>{#p/toriel}{#f/3}* What is it now...'
-            : '<25>{#p/toriel}{#f/1}* What is the problem?\n* Do you need assistance?'
+            ? '<25>{#p/toriel}{#f/3}* Şimdi ne oldu...'
+            : '<25>{#p/toriel}{#f/1}* Sorun nedir?\n* Yardıma mı ihtiyacın var?'
       ],
       danger_puzzle4: () => [
          ...([ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
-            ? [ '<25>{#p/toriel}{#f/5}* Ah... I see.', '<25>{#f/5}* The terminal is too high for you to reach it.' ]
+            ? [ '<25>{#p/toriel}{#f/5}* Ah... Anlıyorum.', '<25>{#f/5}* Terminal senin erişemeyeceğin kadar yüksek.' ]
             : [
-                 '<25>{#p/toriel}{#f/7}* ... oh my.',
-                 '<25>{#f/6}* It seems there is a bit of a design fault here.',
-                 '<25>{#f/1}* So the terminal is too high for you to reach it...?'
+                 '<25>{#p/toriel}{#f/7}* ... ah.',
+                 '<25>{#f/6}* Burada biraz tasarım hatası var gibi görünüyor.',
+                 '<25>{#f/1}* Yani terminal senin ulaşamayacağın kadar yüksekte...?'
               ]),
-         '<25>{#f/0}* No matter.\n* I will operate it for you.',
+         '<25>{#f/0}* Önemli değil.\n* Ben senin için çalıştırırım.',
          '<25>{#f/0}* ...',
-         '<25>{#f/0}* There is a riddle to be solved here.\n* Would you like to try?',
-         choicer.create('* (Solve the riddle?)', 'Evet', 'Hayır')
+         '<25>{#f/0}* Burada çözülmesi gereken bir bilmece var.\n* Denemek ister misin?',
+         choicer.create('* (Bilmeceyi çöz?)', 'Evet', 'Hayır')
       ],
       danger_puzzle5a: [
-         '<25>{#p/toriel}* Excellent!\n* The eagerness to learn and grow is important.',
-         '<25>{#f/0}* Especially for a youngster such as yourself.'
+         '<25>{#p/toriel}* Mükemmel!\n* Öğrenme ve büyümeye isteklilik önemlidir.',
+         '<25>{#f/0}* Özellikle senin gibi genç biri için.'
       ],
       danger_puzzle5b: [
-         '<25>{#p/toriel}{#f/0}* The riddle takes the form of a question.',
-         "<25>{#p/toriel}{#f/1}* \"What's baked like a cake and rhymes with 'lie?'\""
+         '<25>{#p/toriel}{#f/0}* Bilmece bir soru biçimini alıyor.',
+         "<25>{#p/toriel}{#f/1}* \"Hem pişmiş hem de pasta gibi, 'orta' ile kafiyeli şey nedir?\""
       ],
       danger_puzzle5c: [
-         '<32>{#p/human}* (...)\n* (You tell Toriel the answer.)',
-         '<25>{#p/toriel}{#f/0}* ... ah, very good.\n* And with such a positive attiude!'
+         '<32>{#p/human}* (...)\n* (Toriel\'e cevabı söylüyorsun.)',
+         '<25>{#p/toriel}{#f/0}* ... ah, çok iyi.\n* Hem de böylesine olumlu bir tavırla!'
       ],
       danger_puzzle5d: [
-         '<32>{#p/human}* (...)\n* (You tell Toriel you do not know the answer.)',
-         '<25>{#p/toriel}{#f/1}* ... is something wrong?\n* You seem to have something on your mind.',
+         '<32>{#p/human}* (...)\n* (Toriel\'e cevabı bilmediğini söylüyorsun.)',
+         '<25>{#p/toriel}{#f/1}* ... bir sorun mu var?\n* Aklına takılan bir şey varmış gibi görünüyorsun.',
          '<25>{#f/5}* ... hmm...',
-         '<25>{#f/0}* Well, alright.\n* I will solve the riddle for you this time.'
+         '<25>{#f/0}* Yani, pekâlâ.\n* Bu sefer bilmeceyi senin için ben çözeceğim.'
       ],
       danger_puzzle5e: () =>
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
-            ? [ '<25>{#p/toriel}{#f/5}* ...', '<25>{#f/5}* I see.' ]
-            : [ '<25>{#p/toriel}{#f/0}* ...', '<25>{#f/0}* I suppose I can solve the riddle for you this time.' ],
+            ? [ '<25>{#p/toriel}{#f/5}* ...', '<25>{#f/5}* Anlıyorum.' ]
+            : [ '<25>{#p/toriel}{#f/0}* ...', '<25>{#f/0}* Sanıyorum ki bu sefer bilmeceyi senin için çözebilirim.' ],
       danger_puzzle6: () => [
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
-            ? '<25>{#p/toriel}{#f/5}* And... {#x1}there.\n* The pathway is clear.'
-            : '<25>{#p/toriel}* And... {#x1}there!\n* The pathway is clear!'
+            ? '<25>{#p/toriel}{#f/5}* Ve... {#x1}işte.\n* Yol açılmış durumda.'
+            : '<25>{#p/toriel}* Ve... {#x1}işte!\n* Yol açılmış durumda!'
       ],
       danger_puzzle7: () => [
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
@@ -1214,314 +1214,314 @@ export default {
                          "<25>{#f/6}* Olanları düşünmek için biraz vaktim olmuştu.",
                          '<25>{#f/5}* İlk başta heyecan vericiydi...',
                          '<25>* Cebren ve hile ile karakolu zapt etme düşüncesi...',
-                         "<25>{#f/6}* But now, I'm not sure.",
+                         "<25>{#f/6}* Ama şimdi, pek emin değilim.",
                          '<25>{#f/8}* ...',
-                         '<25>{#f/8}* I guess... I got a bit carried away back there.',
-                         "<25>{#f/5}* But that's okay, right?\n* You'll forgive me, won't you?"
+                         '<25>{#f/8}* Galiba... orada biraz kendimi kaptırdım.',
+                         "<25>{#f/5}* Ama sorun yok değil mi?\n* Sen beni affedersin, ha?"
                       ]
                     : [
-                         "<25>{#f/6}* I'm still not really sure what happened back there...",
-                         "<25>{#f/5}* It's... kinda scaring me, haha...",
+                         "<25>{#f/6}* Hala orada tam olarak ne yaşandığını bilmiyorum...",
+                         "<25>{#f/5}* Bu... beni biraz korkutuyor, haha...",
                          '<25>{#f/8}* ...',
-                         '<25>{#f/8}* Maybe... we should hold off on things for now.',
-                         "<25>{#f/5}* But that's okay, right?\n* You'll be fine with that, won't you?"
+                         '<25>{#f/8}* Belki de... bu işleri sonraya bıraksak iyi olacak.',
+                         "<25>{#f/5}* Ama sorun yok değil mi?\n* Bu sana uyar, ha?"
                       ]),
                  '<25>{#f/6}* ...',
-                 '<25>{#f/8}* Goodbye, $(name)...',
-                 ...(SAVE.flag.n.genocide_milestone < 7 ? [ "<25>{#f/5}* I'll be back before you know it." ] : [])
+                 '<25>{#f/8}* Görüşürüz, $(name)...',
+                 ...(SAVE.flag.n.genocide_milestone < 7 ? [ "<25>{#f/5}* Sen bilemeden dönmüş olacağım." ] : [])
               ],
       endtwinklyAreaction: [
-         '<32>{#p/basic}* Sorry, did I miss something?',
-         "<32>* I've never talked to him in my life, let alone go on some mission with him.",
-         "<32>* Oh well.\n* It wouldn't be the first time he's made up stories about me."
+         '<32>{#p/basic}* Pardon, bir şey kaçırdım mı?',
+         "<32>* Onunla bir göreve atılmayı bırak, hayatım boyunca hiç konuşmadım.",
+         "<32>* Her neyse.\n* Benimle ilgili ilk hikaye uyduruşu değil sonuçta."
       ],
       endtwinklyB: () =>
          SAVE.data.b.w_state_lateleave
             ? [
-                 '<25>{#p/twinkly}{#f/5}{#v/0}* Well.\n* That was unexpected.',
-                 "<25>{#f/11}{#v/0}* You think you can just break the rules, don'tcha?",
+                 '<25>{#p/twinkly}{#f/5}{#v/0}* Evet.\n* Bu beklenmedik bir şeydi.',
+                 "<25>{#f/11}{#v/0}* Sen kuralları çiğneyip geçebileceğini sanıyorsun, di mi?",
                  '<25>{#f/7}{#v/0}* Hee hee hee...',
-                 "<25>{#f/0}{#v/1}* In this world, it's KILL or BE killed."
+                 "<25>{#f/0}{#v/1}* Bu dünyada, ya ÖLÜRSÜN ya da ÖLDÜRÜRSÜN."
               ]
             : [
-                 '<25>{#p/twinkly}{#f/5}{#v/0}* Clever.\n* Verrrryy clever.',
-                 "<25>{#f/11}{#v/0}* You think you're really smart, don'tcha?",
+                 '<25>{#p/twinkly}{#f/5}{#v/0}* Dahice.\n* Çooooook dahice.',
+                 "<25>{#f/11}{#v/0}* Kendini pek akıllı sanıyorsun, di mi?",
                  '<25>{#f/7}{#v/0}* Hee hee hee...',
-                 "<25>{#f/0}{#v/1}* In this world, it's KILL or BE killed."
+                 "<25>{#f/0}{#v/1}* Bu dünyada, ya ÖLÜRSÜN ya da ÖLDÜRÜRSÜN."
               ],
       endtwinklyB2: [
-         '<25>{#f/8}{#v/0}* If you had just killed a FEW more monsters...',
-         "<25>{#f/9}{#v/0}* Well, maybe I shouldn't reveal my plans this early.",
-         '<25>{#f/7}{#v/0}* You know, $(name)...',
-         "<25>{#f/5}{#v/0}* It's only a matter of time before we're together again.",
-         '<25>{#f/6}{#v/0}* Try a little harder next time, and maybe...',
-         "<25>{#f/5}{#v/0}* You'll get to see something new.",
-         '<25>{#f/11}{#v/0}* Until we meet again...'
+         '<25>{#f/8}{#v/0}* Eğer BİRAZCIK daha canavar öldürseydin var ya...',
+         "<25>{#f/9}{#v/0}* Neyse, belki de planlarımı hemen ortaya dökmemeliyim.",
+         '<25>{#f/7}{#v/0}* Biliyor musun, $(name)...',
+         "<25>{#f/5}{#v/0}* Tekrar beraber olmamız an meselesi.",
+         '<25>{#f/6}{#v/0}* Bir dahaki sefer biraz daha çabala ve belki...',
+         "<25>{#f/5}{#v/0}* Belki ilginç bir şeyle karşılaşırsın.",
+         '<25>{#f/11}{#v/0}* Tekrardan görüşmek üzere...'
       ],
       endtwinklyB3: [
-         '<25>{#f/8}{#v/0}* If you had just killed ONE more monster...',
-         "<25>{#f/9}{#v/0}* Well, maybe I shouldn't reveal my plans this early.",
-         '<25>{#f/7}{#v/0}* You know, $(name)...',
-         "<25>{#f/5}{#v/0}* It's only a matter of time before we're together again.",
-         '<25>{#f/6}{#v/0}* Try a little harder next time, and maybe...',
-         "<25>{#f/5}{#v/0}* You'll get to see something new.",
-         '<25>{#f/11}{#v/0}* Until we meet again...'
+         '<25>{#f/8}{#v/0}* Eğer sadece BİR canavar daha öldürseydin var ya...',
+         "<25>{#f/9}{#v/0}* Neyse, belki de planlarımı hemen ortaya dökmemeliyim.",
+         '<25>{#f/7}{#v/0}* Biliyor musun, $(name)...',
+         "<25>{#f/5}{#v/0}* Tekrar beraber olmamız an meselesi.",
+         '<25>{#f/6}{#v/0}* Bir dahaki sefer biraz daha çabala ve belki...',
+         "<25>{#f/5}{#v/0}* Belki ilginç bir şeyle karşılaşırsın.",
+         '<25>{#f/11}{#v/0}* Tekrardan görüşmek üzere...'
       ],
       endtwinklyBA: () => [
          SAVE.data.n.state_wastelands_napstablook === 5
-            ? '<25>{#p/twinkly}{#f/6}{#v/0}* So you made it through without killing anyone.'
-            : '<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of everyone you came across.',
-         '<25>{#f/5}{#v/0}* I bet you feel really great.',
-         '<25>{#f/2}{#v/1}* But what will you do if you meet a serial murderer?',
-         "<25>{#f/9}{#v/0}* You'll die, and you'll die, and you'll die...",
-         "<25>{#f/5}{#v/0}* Eventually, you'll tire of trying.",
-         '<25>{#f/11}{#v/0}* What then, huh?',
-         '<25>{#f/2}{#v/1}* Will you KILL out of frustration?',
-         '<25>{#f/14}{#v/1}* Or will you simply GIVE UP?',
+            ? '<25>{#p/twinkly}{#f/6}{#v/0}* Demek kimseyi öldürmeden burayı atlattın.'
+            : '<25>{#p/twinkly}{#f/6}{#v/0}* Demek önüne çıkan herkesin canını bağışladın.',
+         '<25>{#f/5}{#v/0}* Eminim harika hissediyorsundur.',
+         '<25>{#f/2}{#v/1}* Peki ya bir seri katile denk gelirsen ne yapacaksın?',
+         "<25>{#f/9}{#v/0}* Öleceksin, öleceksin, daha da öleceksin...",
+         "<25>{#f/5}{#v/0}* Sonrasında, denemekten sıkılacaksın.",
+         '<25>{#f/11}{#v/0}* O zaman ne olacak ha?',
+         '<25>{#f/2}{#v/1}* Hayal kırıklığından ÖLDÜRMEYE mi başlayacaksın?',
+         '<25>{#f/14}{#v/1}* Ya da basitçe PES mi edeceksin?',
          '<25>{#f/11}{#v/0}* Hee hee hee...',
-         '<25>{#f/7}{#v/0}* This is gonna be SO much fun.',
-         "<25>{#f/9}{#v/0}* I'll be watching!"
+         '<25>{#f/7}{#v/0}* Bu ACAYİP eğlenceli olacak.',
+         "<25>{#f/9}{#v/0}* İzliyor olacağım!"
       ],
       endtwinklyBB1: () => [
          SAVE.data.b.w_state_lateleave
-            ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of a few measly people's way."
-            : '<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of a few measly people.',
-         '<25>{#f/11}{#v/0}* But what about the others, huh?',
+            ? "<25>{#p/twinkly}{#f/6}{#v/0}* Demek bazı değersiz kişilerden uzak durmayı başardın."
+            : '<25>{#p/twinkly}{#f/6}{#v/0}* Demek bazı değersiz kişilerin canını bağışladın.',
+         '<25>{#f/11}{#v/0}* Peki ya diğerleri, ha?',
          '<25>{#f/7}{#v/0}* Froggit, Flutterlyte, Gelatini, Silente, Oculoux, Mushy...',
-         "<25>{#f/6}{#v/0}* Don'tcha think any of them have families?",
-         "<25>{#f/8}{#v/0}* Don'tcha think any of them have friends?",
-         "<25>{#f/5}{#v/0}* Each one could've been someone else's Toriel.",
+         "<25>{#f/6}{#v/0}* Onların da bir ailesi yok mu sence?",
+         "<25>{#f/8}{#v/0}* Onların da arkadaşları yok mu sence?",
+         "<25>{#f/5}{#v/0}* Her biri başkasının Toriel'i olabilirdi.",
          '<25>{#f/5}{#v/0}* ...',
-         '<25>{#f/7}{#v/0}* Selfish brat.',
-         '<25>{#f/0}{#v/1}* Monsters are dead because of you.'
+         '<25>{#f/7}{#v/0}* Seni bencil velet.',
+         '<25>{#f/0}{#v/1}* Senin yüzünden canavarlar öldü.'
       ],
       endtwinklyBB2: () => [
          SAVE.data.b.w_state_lateleave
-            ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of one person's way."
-            : '<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of a single person.',
-         '<25>{#f/11}{#v/0}* But what about everyone else, huh?',
+            ? "<25>{#p/twinkly}{#f/6}{#v/0}* Demek sadece bir kişinin yolundan çekildin."
+            : '<25>{#p/twinkly}{#f/6}{#v/0}* Demek sadece bir kişinin canını bağışladın.',
+         '<25>{#f/11}{#v/0}* Peki diğer herkes, ha?',
          '<25>{#f/7}{#v/0}* Froggit, Flutterlyte, Gelatini, Silente, Oculoux, Mushy...',
-         "<25>{#f/0}{#v/0}* They're all gone now.",
-         "<25>{#f/11}{#v/0}* What's Toriel gonna do when she finds out, huh?",
-         '<25>{#f/2}{#v/1}* What if she KILLS herself out of grief?',
-         "<25>{#f/11}{#v/0}* If you think you're saving her just by SPARING her...",
-         "<25>{#f/7}{#v/0}* Then you're even dumber than I thought.",
-         '<25>{#f/9}* Well, see ya!'
+         "<25>{#f/0}{#v/0}* Onlar artık gitti.",
+         "<25>{#f/11}{#v/0}* Peki Toriel bunları öğrendiğinde ne yapacak, ha?",
+         '<25>{#f/2}{#v/1}* Ya bunalıma girip kendisini ÖLDÜRÜRSE?',
+         "<25>{#f/11}{#v/0}* Eğer onu sadece BAĞIŞLAYARAK kurtardığını sanıyorsan...",
+         "<25>{#f/7}{#v/0}* Düşündüğümden de aptalsın demektir.",
+         '<25>{#f/9}* Öyleyse, görüşürüz!'
       ],
       endtwinklyBB3: () => [
          SAVE.data.b.w_state_lateleave
-            ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of almost everyone's way."
-            : '<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of almost everyone.',
+            ? "<25>{#p/twinkly}{#f/6}{#v/0}* Demek hemen herkesin yolundan çekilmeyi başardın."
+            : '<25>{#p/twinkly}{#f/6}{#v/0}* Demek hemen herkesin canını bağışladın.',
          SAVE.data.b.w_state_lateleave
-            ? '<25>{#p/twinkly}{#f/11}{#v/0}* But what about the one you DID get in the way of, huh?'
-            : "<25>{#p/twinkly}{#f/11}{#v/0}* But what about the one you DIDN'T spare, huh?",
+            ? '<25>{#p/twinkly}{#f/11}{#v/0}* Peki ya o yolundan çekilmediğin canavar, ha?'
+            : "<25>{#p/twinkly}{#f/11}{#v/0}* Peki ya o bağışlamadığın canavar, ha?",
          '<25>{#f/7}{#v/0}* Froggit, Flutterlyte, Gelatini, Silente, Oculoux, Mushy...',
-         "<25>{#f/6}{#v/0}* Don'tcha think any of them have families?",
-         "<25>{#f/8}{#v/0}* Don'tcha think any of them have friends?",
-         "<25>{#f/5}{#v/0}* The one you killed could've been someone else's Toriel.",
+         "<25>{#f/6}{#v/0}* Onların da bir ailesi yok mu sence?",
+         "<25>{#f/8}{#v/0}* Onların da arkadaşları yok mu sence?",
+         "<25>{#f/5}{#v/0}* Öldürdüğün kişi başkasının Toriel'i olabilirdi.",
          '<25>{#f/5}{#v/0}* ...',
-         '<25>{#f/7}{#v/0}* Selfish brat.',
-         "<25>{#f/0}{#v/1}* Someone's dead because of you."
+         '<25>{#f/7}{#v/0}* Seni bencil velet.',
+         "<25>{#f/0}{#v/1}* Senin yüzünden birisi öldü."
       ],
       endtwinklyBC: [
-         "<25>{#p/twinkly}{#f/5}{#v/0}* I'm sure you're well aware of that, though...",
-         "<25>{#f/6}{#v/0}* Considering you've already killed Toriel once before.",
-         "<25>{#f/7}{#v/0}* Ain't that right, brat?",
-         '<25>{#f/2}{#v/1}* You MURDERED her.',
-         "<25>{#f/7}{#v/0}* And then, you felt bad...\n* Ain't that right?",
+         "<25>{#p/twinkly}{#f/5}{#v/0}* Fakat bunun bilincinde olduğuna çok eminim...",
+         "<25>{#f/6}{#v/0}* Hele bir de Toriel'i daha önce öldürmene bakarsak.",
+         "<25>{#f/7}{#v/0}* Bu doğru, di mi velet?",
+         '<25>{#f/2}{#v/1}* Onu SEN öldürdün.',
+         "<25>{#f/7}{#v/0}* Sonra da kötü hissettin...\n* Bu doğru di mi?",
          '<25>{#f/7}{#v/0}* Hee hee hee...',
-         "<25>{#f/11}{#v/0}* Do you think you're the only one with that power?",
-         '<25>{#f/6}{#v/0}* The power to reshape the universe, purely by your determination...',
-         '<25>{#f/8}{#v/0}* The power to SAVE...',
-         '<25>{#f/7}{#v/0}* That used to be MY power, you know.',
-         '<25>{#f/6}{#v/0}* Seems YOUR desires for this world override MINE.',
-         '<25>{#f/5}{#v/0}* Well then.\n* Enjoy that power while you can.',
-         "<25>{#f/9}{#v/0}* I'll be watching!"
+         "<25>{#f/11}{#v/0}* Bu gücün sadece sende olduğunu mu sanıyorsun?",
+         '<25>{#f/6}{#v/0}* Sadece saf azminle, evreni yeniden şekillendirme gücü...',
+         '<25>{#f/8}{#v/0}* KAYDETME gücü...',
+         '<25>{#f/7}{#v/0}* Biliyor musun, o güç eskiden BENİM gücümdü.',
+         '<25>{#f/6}{#v/0}* Anlaşılan SENİN bu dünyayla ilgili emellerin BENİMKİLERİ aşıyor.',
+         '<25>{#f/5}{#v/0}* İyi madem.\n* Gücünün tadını çıkarabildiğin kadar çıkar.',
+         "<25>{#f/9}{#v/0}* İzliyor olacağım!"
       ],
       endtwinklyC: [
-         '<25>{#f/7}{#v/0}* After all, this used to be MY power.',
-         '<25>{#f/6}{#v/0}* The power to reshape the universe, purely by your determination...',
-         '<25>{#f/8}{#v/0}* The power to SAVE...',
-         '<25>{#f/6}{#v/0}* I thought I was the only one who could do that.',
-         '<25>{#f/6}{#v/0}* Seems YOUR desires for this world override MINE.',
-         '<25>{#f/5}{#v/0}* Well then.\n* Enjoy that power while you can.',
-         "<25>{#f/9}{#v/0}* I'll be watching!"
+         '<25>{#f/7}{#v/0}* Sonuçta, bu güç eskiden BENİM gücümdü.',
+         '<25>{#f/6}{#v/0}* Sadece saf azminle, evreni yeniden şekillendirme gücü...',
+         '<25>{#f/8}{#v/0}* KAYDETME gücü...',
+         '<25>{#f/6}{#v/0}* Bunu yapabilen tek ben varım sanmıştım.',
+         '<25>{#f/6}{#v/0}* Anlaşılan SENİN bu dünyayla ilgili emellerin BENİMKİLERİ aşıyor.',
+         '<25>{#f/5}{#v/0}* İyi madem.\n* Gücünün tadını çıkarabildiğin kadar çıkar.',
+         "<25>{#f/9}{#v/0}* İzliyor olacağım!"
       ],
       endtwinklyD: [
-         "<25>{#p/twinkly}{#f/11}{#v/0}* You're one hell of a tease, huh?",
-         '<25>{#f/8}{#v/0}* Beating monsters to the brink of death, only to let them go...',
-         "<25>{#f/7}{#v/0}* What will you do if a monster doesn't WANT your mercy?",
-         '<25>{#f/6}{#v/0}* Will you snuff the light out of their eyes?',
-         '<25>{#f/5}{#v/0}* Or will you realize your faulty \"pacifism\" is for nothing?',
+         "<25>{#p/twinkly}{#f/11}{#v/0}* Sen acayip bir baş belasısın ha?",
+         '<25>{#f/8}{#v/0}* Canavarları öldüresiye dövüp, sonra bir anda onları bırakmak...',
+         "<25>{#f/7}{#v/0}* Peki senin insafını İSTEMEYEN bir canavara ne yapacaksın?",
+         '<25>{#f/6}{#v/0}* Gözlerindeki ışığı mı söndüreceksin?',
+         '<25>{#f/5}{#v/0}* Yoksa bu hatalı \"barışçıllığının\" nafile olduğunu mu anlayacaksın?',
          '<25>{#f/11}{#v/0}* Hee hee hee...',
-         '<25>{#f/7}{#v/0}* This is gonna be SO much fun.',
-         "<25>{#f/9}{#v/0}* I'll be watching!"
+         '<25>{#f/7}{#v/0}* Bu ACAYİP eğlenceli olacak.',
+         "<25>{#f/9}{#v/0}* İzliyor olacağım!"
       ],
       endtwinklyE: [
-         "<25>{#p/twinkly}{#f/7}{#v/0}* Wow, you're utterly repulsive.",
-         '<26>{#f/11}{#v/0}* You got by peacefully...',
-         "<25>{#f/5}{#v/0}* Then, you figured that wasn't good enough for you.",
-         '<25>{#f/2}{#v/1}* So you KILLED her just to see what would happen.',
+         "<25>{#p/twinkly}{#f/7}{#v/0}* Vay, sen tamamıyla iticisin.",
+         '<26>{#f/11}{#v/0}* Barışçıl bir biçimde geçtin...',
+         "<25>{#f/5}{#v/0}* Sonra, bunun seni tatmin etmeyeceğine karar verdin.",
+         '<25>{#f/2}{#v/1}* O yüzden sırf ne olacağını görmek için onu ÖLDÜRDÜN.',
          '<25>{#f/7}{#v/0}* Hee hee hee...',
-         '<25>{#f/0}{#v/0}* You did it out of BOREDOM.'
+         '<25>{#f/0}{#v/0}* Canın SIKILDIĞI için yaptın bunu.'
       ],
-      endtwinklyEA: [ "<25>{#f/11}{#v/0}* Don't think I don't know how this works..." ],
-      endtwinklyEB: [ "<25>{#f/6}{#v/0}* It's sad, though..." ],
-      endtwinklyF: [ '<25>{#p/twinkly}{#f/11}{#v/0}* Look at you, playing with her life like this...' ],
-      endtwinklyFA: [ '<25>{#f/7}{#v/0}* Killing her, leaving her, killing her again...' ],
-      endtwinklyFB: [ '<25>{#f/7}{#v/0}* Leaving her, killing her, leaving her again...' ],
+      endtwinklyEA: [ "<25>{#f/11}{#v/0}* Bunun nasıl işlediğini bilmiyorum sanma..." ],
+      endtwinklyEB: [ "<25>{#f/6}{#v/0}* Yine de bu, üzücü..." ],
+      endtwinklyF: [ '<25>{#p/twinkly}{#f/11}{#v/0}* Şu haline bak, onun hayatıyla nasıl da oynuyorsun...' ],
+      endtwinklyFA: [ '<25>{#f/7}{#v/0}* Onu öldür, ondan ayrıl, sonra tekrar öldür...' ],
+      endtwinklyFB: [ '<25>{#f/7}{#v/0}* Ondan ayrıl, onu öldür, sonra tekrar ayrıl...' ],
       endtwinklyFXA: [
-         "<25>{#f/11}{#v/0}* It's fun, isn't it?",
-         '<25>{#f/6}{#v/0}* Endlessly toying with the lives of others...',
-         '<25>{#f/8}{#v/0}* Watching how they react to every possible decision...',
-         "<25>{#f/11}{#v/0}* Isn't it thrilling?",
+         "<25>{#f/11}{#v/0}* Eğlenceli, değil mi?",
+         '<25>{#f/6}{#v/0}* Herkesin hayatıyla durmadan oyuncak gibi oynamak...',
+         '<25>{#f/8}{#v/0}* Olası her kararına nasıl tepki vereceklerini seyretmek...',
+         "<25>{#f/11}{#v/0}* Çok heyecanlı değil mi?",
          '<25>{#f/7}{#v/0}* Hee hee hee...',
-         "<25>{#f/9}{#v/0}* I wonder what you'll do next.",
-         "<25>{#f/5}{#v/0}* I'll be watching..."
+         "<25>{#f/9}{#v/0}* Şimdi ne yapacaksın merak ediyorum.",
+         "<25>{#f/5}{#v/0}* İzliyor olacağım..."
       ],
       endtwinklyG: [
-         "<25>{#p/twinkly}{#f/10}{#v/0}* You just can't get enough, can you~",
-         '<25>{#f/11}{#v/0}* How many more times will you KILL her, eh?',
+         "<25>{#p/twinkly}{#f/10}{#v/0}* Yaptıkça yapasın geliyor değil mi~",
+         '<25>{#f/11}{#v/0}* Onu daha kaç defa ÖLDÜRECEKSİN ya?',
          '<25>{#f/7}{#v/0}* Hee hee hee...',
-         '<25>{#f/0}{#v/1}* You kinda remind me of myself.',
-         '<25>{#f/9}{#v/0}* Well, cya!'
+         '<25>{#f/0}{#v/1}* Bana biraz kendimi hatırlatıyorsun.',
+         '<25>{#f/9}{#v/0}* Neyse, hadi bay!'
       ],
       endtwinklyG1: [
-         '<25>{#p/twinkly}{#f/6}{#v/0}* Again?\n* Golly...',
-         '<25>{#f/0}{#v/1}* You REALLY remind me of myself.'
+         '<25>{#p/twinkly}{#f/6}{#v/0}* Yine mi?\n* Tanrım...',
+         '<25>{#f/0}{#v/1}* Bana CİDDEN kendimi hatırlatıyorsun.'
       ],
       endtwinklyG2: [
-         '<25>{#p/twinkly}{#f/6}{#v/0}* Again!?',
-         "<25>{#f/8}{#v/0}* Wow, you're even worse than I thought."
+         '<25>{#p/twinkly}{#f/6}{#v/0}* Bir daha mı!?',
+         "<25>{#f/8}{#v/0}* Vay be, sandığımdan da beter çıktın sen."
       ],
       endtwinklyH: () => [
          SAVE.data.b.w_state_lateleave
-            ? "<25>{#p/twinkly}{#f/5}{#v/0}* So you've finally gotten by peacefully, huh?"
-            : "<25>{#p/twinkly}{#f/5}{#v/0}* So you've finally decided to show mercy, huh?",
-         '<25>{#f/5}{#v/0}* And after all that KILLING...',
-         '<25>{#f/11}{#v/0}* Say, was this your idea all along?',
-         '<25>{#f/2}{#v/1}* To get a rush out of her death, then spare her once you got bored?',
+            ? "<25>{#p/twinkly}{#f/5}{#v/0}* Demek sonunda barışçıl barışçıl geçtin, ha?"
+            : "<25>{#p/twinkly}{#f/5}{#v/0}* Demek sonunda merhamet etmeyi seçtin, ha?",
+         '<25>{#f/5}{#v/0}* Hem de onca ÖLDÜRMEDEN sonra...',
+         '<25>{#f/11}{#v/0}* Söylesene, başından beri planın bu muydu?',
+         '<25>{#f/2}{#v/1}* Onun ölümünden heyecanlanıp sıkılınca onu bağışlamak.',
          '<25>{#f/7}{#v/0}* Hee hee hee...',
-         '<25>{#f/11}{#v/0}* What a saint you must think you are.',
-         "<25>{#f/5}{#v/0}* But hey, it's not as if I don't know how this works..."
+         '<25>{#f/11}{#v/0}* Sen kendini nasıl da ahlaklı görüyorsundur şimdi.',
+         "<25>{#f/5}{#v/0}* Ama hey, ben de bunun nasıl işlediğini bilmiyorum değil..."
       ],
       endtwinklyI: [
          '<25>{#p/twinkly}{#f/11}{#v/0}* Hee hee hee...',
-         '<25>{#f/7}{#v/0}* I hope you like your choice.',
-         "<25>{#f/9}{#v/0}* I mean, it's not as if you can go back and change fate.",
-         "<25>{#f/0}{#v/1}* In this world, it's KILL or BE killed.",
-         '<25>{#f/5}{#v/0}* That old woman thought she could break the rules.',
-         '<25>{#f/8}{#v/0}* She tried so hard to save you humans...',
-         "<25>{#f/6}{#v/0}* But when it came down to it, she couldn't even save herself."
+         '<25>{#f/7}{#v/0}* Umarım kararından memnun kalmışsındır.',
+         "<25>{#f/9}{#v/0}* Yani, geri dönüp kaderini değiştirebilecek değilsin ya.",
+         "<25>{#f/0}{#v/1}* Bu dünyada, ya ÖLÜRSÜN ya da ÖLDÜRÜRSÜN.",
+         '<25>{#f/5}{#v/0}* O yaşlı kadın kuralları çiğneyebileceğini sandı.',
+         '<25>{#f/8}{#v/0}* Siz insanları kurtarmak için çabaladı...',
+         "<25>{#f/6}{#v/0}* Ama iş o safhaya geldiğinde kendisini bile kurtaramadı."
       ],
       endtwinklyIX: [
          '<25>{#p/twinkly}{#f/11}{#v/0}* Hee hee hee...',
-         '<25>{#f/11}{#v/0}* So you finally caved in and killed someone, huh?',
-         '<25>{#f/7}{#v/0}* Well, I hope you like your choice.',
-         "<25>{#f/9}{#v/0}* I mean, it's not as if you can go back and change fate.",
-         "<25>{#f/0}{#v/1}* In this world, it's KILL or BE killed.",
-         "<25>{#f/8}{#v/0}* ... what's wrong?\n* Did she not last as long as you thought?",
-         '<26>{#f/6}{#v/0}* Oh, how terrible.\n* Guess not everyone can be beat into submission.'
+         '<25>{#f/11}{#v/0}* Nihayet pes edip birisini öldürdün, ha?',
+         '<25>{#f/7}{#v/0}* Yani, umarım seçimini beğenirsin.',
+         "<25>{#f/9}{#v/0}* Yani, geri dönüp kaderini değiştirebilecek değilsin ya.",
+         "<25>{#f/0}{#v/1}* Bu dünyada, ya ÖLÜRSÜN ya da ÖLDÜRÜRSÜN.",
+         "<25>{#f/8}{#v/0}* ... sorun ne?\n* Düşündüğün kadar uzun süre dayanamadı mı?",
+         '<26>{#f/6}{#v/0}* Ah, ne kadar da kötü.\n* Demek ki herkesi boyun eğene kadar dövemiyormuşuz!'
       ],
-      endtwinklyIA: [ '<25>{#f/11}{#v/0}* What an idiot!' ],
-      endtwinklyIAX: [ '<25>{#f/7}{#v/0}* What a shame for her.' ],
-      endtwinklyIB: [ '<25>{#f/6}{#v/0}* As for you...' ],
+      endtwinklyIA: [ '<25>{#f/11}{#v/0}* Ne salak ama!' ],
+      endtwinklyIAX: [ '<25>{#f/7}{#v/0}* Onun için ne kadar yazık.' ],
+      endtwinklyIB: [ '<25>{#f/6}{#v/0}* Sana gelirsek...' ],
       endtwinklyJ: [
-         '<25>{#p/twinkly}{#f/6}{#v/0}* Wow.',
-         '<25>{#f/7}{#v/0}* And here I thought you were the righteous one for showing mercy.',
-         '<25>{#f/11}{#v/0}* Hah!\n* What a joke.',
+         '<25>{#p/twinkly}{#f/6}{#v/0}* Vay canına.',
+         '<25>{#f/7}{#v/0}* Ben de burada senin merhamet ederek erdemli olduğunu sanmıştım.',
+         '<25>{#f/11}{#v/0}* Hah!\n* Şakaya gel.',
          '<25>{#f/6}{#v/0}* ...',
-         '<25>{#f/6}{#v/0}* How did it feel to finally satisfy your violent side?',
+         '<25>{#f/6}{#v/0}* Vahşi yanını sonunda tatmin etmek nasıl hissettirdi?',
          '<25>{#f/7}{#v/0}* Hee hee hee...',
-         "<25>{#f/0}{#v/1}* I bet it felt GOOD, didn't it?",
-         '<25>{#f/11}{#v/0}* I mean, I should know...'
+         "<25>{#f/0}{#v/1}* Eminim ki İYİDİR, değil mi?",
+         '<25>{#f/11}{#v/0}* Yani benim de bilmem gerekir...'
       ],
       endtwinklyK: [
-         '<25>{#p/twinkly}{#f/5}{#v/0}* Nice to see you again.',
-         "<25>{#f/6}{#v/0}* By the way, you're the most boring person in the galaxy.",
-         '<25>{#f/12}{#v/0}* Getting by peacefully, then going back just to do it again?',
-         '<25>{#f/8}{#v/0}* Come on...',
-         "<25>{#f/2}{#v/1}* You know as well as I do that it's KILL or BE killed."
+         '<25>{#p/twinkly}{#f/5}{#v/0}* Seni tekrar görmek güzel.',
+         "<25>{#f/6}{#v/0}* He bu arada, galaksideki en sıkıcı kişi sensin.",
+         '<25>{#f/12}{#v/0}* Barışçıl şekilde geçinmek ve sonra geri dönüp aynı şeyi yapmak mı?',
+         '<25>{#f/8}{#v/0}* Hadi ama...',
+         "<25>{#f/2}{#v/1}* Bu dünyanın ÖLDÜR ya da ÖL olduğunu benim kadar iyi biliyorsun."
       ],
       endtwinklyK1: [
-         "<25>{#p/twinkly}{#f/6}* Aren't you getting tired of this?",
-         '<25>{#f/8}{#v/0}* Come on...',
-         '<25>{#f/2}{#v/1}* You KNOW deep down that part of you wants to hurt her.',
-         "<25>{#f/14}{#v/1}* A few good hits, and she'd be dead before your very eyes.",
-         "<25>{#f/11}{#v/0}* Wouldn't that be exciting?",
+         "<25>{#p/twinkly}{#f/6}* Bundan hiç sıkılmıyor musun?",
+         '<25>{#f/8}{#v/0}* Hadi ama...',
+         '<25>{#f/2}{#v/1}* İçinde bir yerde onun canını yakmak istediğini BİLİYORSUN.',
+         "<25>{#f/14}{#v/1}* Birkaç sağlam vuruş, ve bir bakmışsın ki ölüp gitmiş.",
+         "<25>{#f/11}{#v/0}* Heyecan verici olmaz mıydı?",
          '<25>{#f/6}{#v/0}* ...',
          '<25>{#f/8}{#v/0}* ...',
-         '<25>{#f/7}{#v/0}* See ya, idiot.'
+         '<25>{#f/7}{#v/0}* Görüşürüz, salak.'
       ],
       endtwinklyK2: [
-         '<25>{#p/twinkly}{#f/8}{#v/0}* Are you doing this just to see how I react?',
-         '<25>{#f/6}{#v/0}* Is that what this is about?',
-         "<25>{#f/7}{#v/0}* Well, don't expect to get anything else outta me.",
-         '<25>{#f/6}{#v/0}* All this boring pacifism is getting tiresome.',
-         '<25>{#f/11}{#v/0}* Now, if something more interesting were to happen...',
-         "<25>{#f/9}{#v/0}* Perhaps I'd be more inclined to talk.",
+         '<25>{#p/twinkly}{#f/8}{#v/0}* Bunu sırf nasıl tepki vereceğimi görmek için mi yapıyorsun?',
+         '<25>{#f/6}{#v/0}* Bütün olay bu mu yani?',
+         "<25>{#f/7}{#v/0}* Her neyse, benden başka şeyler söylememi bekleme.",
+         '<25>{#f/6}{#v/0}* Bu sıkıcı barışçıllık gerçekten baydı.',
+         '<25>{#f/11}{#v/0}* Ancak, daha ilginç bir şey yaşanırsa...',
+         "<25>{#f/9}{#v/0}* Konuşmak için daha meyilli olabilirim.",
          '<25>{#f/6}{#v/0}* ...',
          '<25>{#f/8}{#v/0}* ...',
-         '<25>{#f/7}{#v/0}* See ya, idiot.'
+         '<25>{#f/7}{#v/0}* Görüşürüz, salak.'
       ],
       endtwinklyKA: [
-         "<25>{#f/7}{#v/0}* Sooner or later, you'll be forced to realize that.",
-         '<25>{#f/11}{#v/0}* And when that time comes...',
-         "<25>{#f/5}{#v/0}* Well, let's just say I'm interested to see what happens.",
+         "<25>{#f/7}{#v/0}* Eninde sonunda, bunun farkına varman gerekecek.",
+         '<25>{#f/11}{#v/0}* Ve vakit geldiğinde de...',
+         "<25>{#f/5}{#v/0}* Neyse, demem o ki neler olacağını dört gözle bekliyorum.",
          '<25>{#f/11}{#v/0}* Hee hee hee...',
-         '<25>{#f/9}{#v/0}* Good luck!'
+         '<25>{#f/9}{#v/0}* Bol şans!'
       ],
       endtwinklyKB: [
          '<25>{#f/11}{#v/0}* Hee hee hee...',
-         "<25>{#f/7}{#v/0}* Maybe that's why you killed that one monster.",
-         '<25>{#f/8}{#v/0}* I mean, you went almost the whole way without killing anyone...',
-         '<25>{#f/6}{#v/0}* But somewhere along the line, you screwed up.',
-         '<25>{#f/5}{#v/0}* All that good karma you had went straight down the toilet.',
-         "<25>{#f/11}{#v/0}* Golly, you can't do anything right!",
-         '<25>{#f/11}{#v/0}* What a joke!'
+         "<25>{#f/7}{#v/0}* Belki de o yüzden sadece o canavarı öldürdün.",
+         '<25>{#f/8}{#v/0}* Yani, kimseyi öldürmeden neredeyse yolun tamamını gittin...',
+         '<25>{#f/6}{#v/0}* Ama arada bir yerde, işi mahvettin.',
+         '<25>{#f/5}{#v/0}* Sahip olduğun o güzelim karma ziyan oldu.',
+         "<25>{#f/11}{#v/0}* Tanrım, hiçbir şeyi doğru düzgün yapamıyorsun!",
+         '<25>{#f/11}{#v/0}* Nasıl bir şaka ama!'
       ],
       endtwinklyKC: [
          '<25>{#f/11}{#v/0}* Hee hee hee...',
-         "<25>{#f/7}{#v/0}* Maybe that's why you killed those other monsters.",
-         '<25>{#f/8}{#v/0}* I mean, you had a good run, but...',
-         "<25>{#f/6}{#v/0}* What's the point in mercy if it doesn't mean anything?",
-         '<25>{#f/7}{#v/0}* And believe me, after you did what you did...',
-         "<25>{#f/2}{#v/1}* It doesn't mean JACK.",
+         "<25>{#f/7}{#v/0}* Belki de o yüzden diğer canavarları öldürdün.",
+         '<25>{#f/8}{#v/0}* Yani, iyi gidiyordun ama...',
+         "<25>{#f/6}{#v/0}* Eğer bir anlamı yoksa insafın amacı nedir ki?",
+         '<25>{#f/7}{#v/0}* Ve inan bana, yaptığın o şeyden sonra...',
+         "<25>{#f/2}{#v/1}* HİÇBİR anlamı yok.",
          '<25>{#f/6}{#v/0}* ...',
          '<25>{#f/8}{#v/0}* ...',
-         '<25>{#f/7}{#v/0}* See ya, idiot.'
+         '<25>{#f/7}{#v/0}* Görüşürüz, salak.'
       ],
       endtwinklyKD: [
-         "<25>{#f/11}{#v/0}* What's wrong with killing Toriel, huh?\n* Too good for that?",
+         "<25>{#f/11}{#v/0}* Toriel'i öldürmekte sorunun mu var, ha?\n* Çok mu vicdanlısın onun için?",
          '<25>{#f/7}{#v/0}* Hee hee hee...',
-         "<25>{#f/2}{#v/1}* I know you're still rotten to the core.",
-         '<25>{#f/11}{#v/0}* I mean, you managed to take out everyone in your path...',
-         '<25>{#f/6}{#v/0}* But when it came to the final hurdle, you failed.',
-         "<25>{#f/11}{#v/0}* Golly, you can't do anything right!",
-         '<25>{#f/11}{#v/0}* What a joke!'
+         "<25>{#f/2}{#v/1}* Senin temelden çürük olduğunu biliyorum ben.",
+         '<25>{#f/11}{#v/0}* Yani, önüne çıkan herkesi devirmeyi başardın...',
+         '<25>{#f/6}{#v/0}* Ama iş son engele gelince, başaramadın.',
+         "<25>{#f/11}{#v/0}* Tanrım, hiçbir şeyi doğru düzgün yapamıyorsun!",
+         '<25>{#f/11}{#v/0}* Nasıl bir şaka ama!'
       ],
       endtwinklyL: [
-         '<25>{#p/twinkly}{#f/6}{#v/0}* Back again, huh?\n* Golly...',
-         "<25>{#f/8}{#v/0}* You've changed the timeline around so much...",
-         "<25>{#f/6}{#v/0}* I don't even know what to think now.",
-         '<25>{#f/8}{#v/0}* Are you good?\n* Evil?\n* Just curious?',
-         '<25>{#f/6}{#v/0}* I dunno.',
-         '<25>{#f/5}{#v/0}* There is one thing, though...',
-         "<25>{#f/5}{#v/0}* One thing I KNOW you haven't done yet.",
+         '<25>{#p/twinkly}{#f/6}{#v/0}* Geri döndün, ha?\n* Tanrım...',
+         "<25>{#f/8}{#v/0}* Zaman çizelgesini o kadar çok elledin ki...",
+         "<25>{#f/6}{#v/0}* Artık ne düşüneceğimi bilmiyorum.",
+         '<25>{#f/8}{#v/0}* Sen iyi misin?\n* Kötü müsün?\n* Yoksa sadece meraklı mısın?',
+         '<25>{#f/6}{#v/0}* Bilemedim ki.',
+         '<25>{#f/5}{#v/0}* Ama sadece tek bir şey var...',
+         "<25>{#f/5}{#v/0}* Hala yapmadığın o tek şeyi BİLİYORUM.",
          '<25>{#f/11}{#v/0}* Hee hee hee...',
-         "<25>{#f/7}{#v/0}* That's right.",
-         "<25>{#f/7}{#v/0}* You haven't killed everyone here in one run yet.",
-         "<25>{#f/11}{#v/0}* Aren't you at least a LITTLE curious?",
-         '<25>{#f/8}{#v/0}* Come on, $(name)...',
-         "<25>{#f/5}{#v/0}* I know you're in there somewhere."
+         "<25>{#f/7}{#v/0}* Evet doğru.",
+         "<25>{#f/7}{#v/0}* Buradaki herkesi tek seferde öldürmedin.",
+         "<25>{#f/11}{#v/0}* BİRAZ bile meraklı değil misin?",
+         '<25>{#f/8}{#v/0}* Hadi ama, $(name)...',
+         "<25>{#f/5}{#v/0}* Oralarda bir yerlerdesin biliyorum."
       ],
       endtwinklyL1: [
-         '<25>{#p/twinkly}{#f/6}{#v/0}* Well well, we meet again.',
-         '<25>{#f/8}{#v/0}* How many times is this now?',
-         "<25>{#f/6}{#v/0}* Whatever.\n* Doesn't matter.",
-         '<25>{#f/6}{#v/0}* You KNOW what you have to do, $(name).',
+         '<25>{#p/twinkly}{#f/6}{#v/0}* Bak sen, yine karşılaştık.',
+         '<25>{#f/8}{#v/0}* Bu kaçıncı etti?',
+         "<25>{#f/6}{#v/0}* Aman neyse.\n* Bir önemi yok.",
+         '<25>{#f/6}{#v/0}* Sen ne yapman gerektiğini BİLİYORSUN, $(name).',
          '<25>{#f/8}{#v/0}* ...',
-         "<25>{#f/5}{#v/0}* I'll be waiting."
+         "<25>{#f/5}{#v/0}* Bekliyor olacağım."
       ],
       exit1: [
          '<25>{#p/toriel}{#f/13}* You wish to return \"home,\" do you not?',
@@ -1976,7 +1976,7 @@ export default {
          '<25>{#f/1}* Please, allow me...'
       ],
       lobby_puzzle1: [
-         '<25>{#p/toriel}{#f/0}* Welcome to our humble outpost, innocent one.',
+         '<25>{#p/toriel}{#f/0}* Bizim mütevazı karakolumuza hoş geldin, masum insan.',
          '<25>{#f/0}* There are many lessons that I must teach you about life here.',
          '<25>{#f/1}* First and foremost...',
          '<25>{#f/0}* Puzzles!',
@@ -3418,55 +3418,55 @@ export default {
             0,
             ...[
                [
-                  '<32>{#p/human}* (You look to the circled paragraph.)',
-                  '<32>{#p/toriel}{#f/21}* \"Question: Why did the skeleton want a friend?\"',
-                  '<32>* \"Answer: Because he was feeling BONELY...\"',
-                  '<32>{#p/basic}* The jokes continue from here at a similar caliber.'
+                  '<32>{#p/human}* (İşaretlenmiş paragrafa bakıyorsun.)',
+                  '<32>{#p/toriel}{#f/21}* \"Soru: İskelet neden bir arkadaş istemiş?\"',
+                  '<32>* \"Cevap: Çünkü yalnız KAVALMIŞ...\"',
+                  '<32>{#p/basic}* Espriler bundan sonra aynı ölçüde devam ediyor.'
                ],
                [
-                  '<32>{#p/human}* (You look to another paragraph.)',
-                  '<32>{#p/toriel}{#f/21}* \"Question: What\'s another name for a skeleton\'s vices?\"',
-                  '<32>* \"Answer: HOLLOW pursuits...\"',
-                  "<32>{#p/basic}* There's no sense in continuing to read these."
+                  '<32>{#p/human}* (Başka bir paragrafa bakıyorsun.)',
+                  '<32>{#p/toriel}{#f/21}* \"Soru: Bir iskelet hamama gittiğinde nasıl yıkanır?\"',
+                  '<32>* \"Cevap: KAFAtasıyla...\"',
+                  "<32>{#p/basic}* Bunları okumaya devam etmenin bir anlamı yok."
                ],
                [
-                  '<32>{#p/human}* (You look to another paragraph.)',
-                  '<32>{#p/toriel}{#f/21}* \"Question: How does a skeleton say goodbye?\"',
-                  '<32>* \"Answer: See you to-MARROW...\"',
-                  "<32>{#p/basic}* That one wasn't even REMOTELY funny."
+                  '<32>{#p/human}* (Başka bir paragrafa bakıyorsun.)',
+                  '<32>{#p/toriel}{#f/21}* \"Soru: İskelet köpeğe nasıl veda etmiş?\"',
+                  '<32>* \"Cevap: HoşÇAKAL...\"',
+                  "<32>{#p/basic}* Bunun komik olmakla uzaktan yakından alakası yoktu."
                ],
                [
-                  '<32>{#p/human}* (You look to another paragraph.)',
-                  "<32>{#p/basic}* You can't get enough of these lame puns.",
-                  '<32>{#p/toriel}{#f/21}* \"Question: Why did the skeleton drool in their sleep?\"',
-                  '<32>* \"Answer: Because they were having a FEMUR dream...\"',
-                  '<32>{#p/basic}* This is getting old...'
+                  '<32>{#p/human}* (Başka bir paragrafa bakıyorsun.)',
+                  "<32>{#p/basic}* Bu kuru esprilerle yetinemiyorsun.",
+                  '<32>{#p/toriel}{#f/21}* \"Soru: İskelet çocukluk arkadaşlarıyla buluşunca ne demiş?\"',
+                  '<32>* \"Cevap: KEMİK kadro buluştu...\"',
+                  '<32>{#p/basic}* Bu şakalar gittikçe eskiyor...'
                ],
                [
-                  '<32>{#p/human}* (You look to another paragraph.)',
-                  "<32>{#p/basic}* You still can't get enough of these lame puns.",
-                  '<32>{#p/toriel}{#f/21}* \"Question: What does a skeleton say to start a fight?\"',
-                  '<32>* \"Answer: I\'ve got a BONE to pick with you...\"',
-                  "<32>{#p/basic}* Seriously?\n* That wasn't even a pun!"
+                  '<32>{#p/human}* (Başka bir paragrafa bakıyorsun.)',
+                  "<32>{#p/basic}* Bu kuru esprilerle hala yetinemiyorsun.",
+                  '<32>{#p/toriel}{#f/21}* \"Soru: İskelet birini tehdit etmek için ne demiş?\"',
+                  '<32>* \"Cevap: Bıçak KEMİĞE dayandı...\"',
+                  "<32>{#p/basic}* Gerçekten mi?\n* Bu bir espri bile değildi!"
                ],
                [
-                  '<32>{#p/human}* (You look to another paragraph.)',
-                  "<32>{#p/basic}* We're losing brain cells here...",
-                  "<32>{#p/toriel}{#f/21}* \"'What's up stairs?' asked the skeleton.\"",
-                  '<32>* \"... the stairs did not reply.\"',
-                  '<32>{#p/basic}* ...\n* I have no words.'
+                  '<32>{#p/human}* (Başka bir paragrafa bakıyorsun.)',
+                  "<32>{#p/basic}* Burada beyin hücrelerimizi kaybediyoruz...",
+                  "<32>{#p/toriel}{#f/21}* \"İskeletin uykusu gelmiş.\"",
+                  '<32>* \"Ancak iskelet ona kapıyı açmamış.\"',
+                  '<32>{#p/basic}* ...\n* Söyleyecek sözüm yok.'
                ],
                [
-                  '<32>{#p/human}* (You look to the final paragraph.)',
-                  "<32>{#p/basic}* Huh?\n* This one's not a joke...",
-                  '<32>{#p/toriel}{#f/21}* \"A human has arrived in the Outlands today.\"',
-                  '<32>* \"I do trust that Sans would look after them, but...\"',
-                  '<32>* \"I would rather not force him to do so.\"',
-                  '<32>* \"Besides, can one royal sentry really protect them from the rest of the outpost?\"',
-                  '<32>* \"Hopefully those kinds of questions will soon be pointless.\"',
+                  '<32>{#p/human}* (Son paragrafa bakıyorsun.)',
+                  "<32>{#p/basic}* Ha?\n* Buradaki bir şaka değil...",
+                  '<32>{#p/toriel}{#f/21}* \"Bugün Outlands\'e bir insan geldi.\"',
+                  '<32>* \"Sans\'ın ona göz kulak olacağına güveniyorum ama...\"',
+                  '<32>* \"Onu buna zorlamayı tercih etmem.\"',
+                  '<32>* \"Ayrıca, tek bir kraliyet nöbetçisi onu gerçekten de karakolun kalanından koruyabilir mi?\"',
+                  '<32>* \"Umarım bu tür soruların yakında bir anlamı kalmayacaktır.\"',
                   '<32>{#p/basic}* ...'
                ],
-               [ '<32>{#p/human}* (There are no more written entries here.)' ]
+               [ '<32>{#p/human}* (Burada daha fazla yazılı metin yok.)' ]
             ].map(
                lines => () =>
                   SAVE.data.b.svr
@@ -4272,7 +4272,7 @@ export default {
       about2: [
          '<25>{#p/toriel}{#f/1}* Eğer gerçekten benim hakkımda daha fazlasını bilmek istiyorsan...',
          '<25>{#f/1}* Neden etrafa bir göz gezdirmiyorsun...?',
-         '<25>{#f/0}* Gördüğün şeylerin çoğunu ben inşa ettim ya da en azından yapılmasına yardımcı oldum.'
+         '<25>{#f/0}* Gördüğün şeylerin çoğunun inşa edilmesine benim yardımım dokundu.'
       ],
       about3: [
          '<25>{#p/toriel}{#f/1}* Eğer gerçekten benim hakkımda daha fazlasını bilmek istiyorsan...',
@@ -5336,17 +5336,17 @@ export default {
             world.runaway
                ? [
                     '<32>{#p/human}* (Endüstriyel Outlands sessizliğe bürünüyor ve içini azimle dolduruyor.)',
-                    '<32>{#p/human}* (HP fully restored.)'
+                    '<32>{#p/human}* (CANIN tamamen yenilendi.)'
                  ]
                : SAVE.data.n.plot < 48
                ? [
                     '<32>{#p/human}* (Endüstriyel Outlands önünde uzanıyor ve içini azimle dolduruyor.)',
-                    '<32>{#p/human}* (HP fully restored.)'
+                    '<32>{#p/human}* (CANIN tamamen yenilendi.)'
                  ]
                : [
                     '<32>{#p/human}* (Uzun bir aradan sonra, her şeyin başladığı yere dönmek...)',
                     '<32>{#p/human}* (işte bu içini azimle dolduruyor.)',
-                    '<32>{#p/human}* (HP fully restored.)'
+                    '<32>{#p/human}* (CANIN tamamen yenilendi.)'
                  ]
       },
       w_froggit: {
@@ -5356,21 +5356,21 @@ export default {
                ? SAVE.data.n.plot < 8.1
                   ? [
                        '<32>{#p/human}* (Hava pis kokmaya başladı.)\n* (Bir şekilde, bu içini azimle dolduruyor.)',
-                       '<32>{#p/human}* (HP fully restored.)'
+                       '<32>{#p/human}* (CANIN tamamen yenilendi.)'
                     ]
                   : [
                        '<32>{#p/human}* (Hava tamamen kurudu.)\n* (Bilakis, bu içini azimle dolduruyor.)',
-                       '<32>{#p/human}* (HP fully restored.)'
+                       '<32>{#p/human}* (CANIN tamamen yenilendi.)'
                     ]
                : SAVE.data.b.svr
                ? [
                     '<32>{#p/human}* (Bu bölge boşaltıldı, ancak havası temiz duruyor.)',
                     '<32>{#p/human}* (Bu da tabi ki içini azimle dolduruyor.)',
-                    '<32>{#p/human}* (HP fully restored.)'
+                    '<32>{#p/human}* (CANIN tamamen yenilendi.)'
                  ]
                : [
                     '<32>{#p/human}* (Tuhaf ve muhteşem yaratıkları görmek içini azimle dolduruyor.)',
-                    '<32>{#p/human}* (HP fully restored.)'
+                    '<32>{#p/human}* (CANIN tamamen yenilendi.)'
                  ]
       },
       w_mouse: {

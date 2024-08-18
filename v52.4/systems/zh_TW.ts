@@ -947,7 +947,7 @@ export default {
       frisk: 'Frisk',
       g: 'G',
       hp: 'HP',
-      inf: 'INF',
+      inf: '\u221e',
       landing1: '[按 Z 或 ENTER]',
       lv: 'LV',
       mystery1: '§mystify=天地玄黃宇宙洪荒日月盈昃辰宿列張寒來暑往秋收冬藏閏餘成歲律呂調陽雲騰致雨露結為霜金生麗水玉出崑岡劍號巨闕珠稱夜光果珍李柰菜重芥姜海鹹河淡鱗潛羽翔龍師火帝鳥官人皇始制文字乃服衣裳推位讓國有虞陶唐§新名字§mystify=§',
@@ -973,13 +973,13 @@ export default {
       confirm2: '已經選定了一個名字。',
       confirm3: '返回',
 
-      footer: 'OUTERTALE V5.02 (c) 2024 SPACEY_432',
+      footer: 'OUTERTALE V5.02 (c) 2024 SPACEY_432 繁體中文版 PSOT漢化組',
 
       heal1: '* （HP已回滿。）',
       heal2: '* （你回復了$(x) HP。）',
       heal3: '* （你失去了$(x) HP。）',
       heal4: '* （HP已清零。）',
-      heal5: '* (You gained $(x) HP.)',
+      heal5: '* （你額外獲得$(x) HP。）',
 
       item1: '使用',
       item2: '裝備',

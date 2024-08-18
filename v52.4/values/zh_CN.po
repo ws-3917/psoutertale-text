@@ -344,7 +344,7 @@ msgstr ""
 "你在推广我的品牌吗？"
 
 msgid "Is this name correct? ;)"
-msgstr "你确定是这个名字吗？;)"
+msgstr "确定要选择这个名字吗？;)"
 
 msgid "Hot, but not hot enough."
 msgstr ""
