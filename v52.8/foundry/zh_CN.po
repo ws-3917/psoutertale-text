@@ -13354,7 +13354,7 @@ msgid ""
 "* Member of the ELITE squad."
 msgstr ""
 "<32>{#p/story}* DOGE - 攻击14 防御10\n"
-"* 中文名念作“dū jí”，没有前后鼻音。\n"
+"* 读作“dū ji”。轻声的“ji”。\n"
 "* 特战队成员。"
 
 msgid "<32>{#p/human}* (You flirt with Doge.)"

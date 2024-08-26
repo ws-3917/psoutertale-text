@@ -5790,7 +5790,7 @@ export default {
                   : [
                        '<32>{#p/basic}{#npc/a}* I work at the CORE.\n* The floor plan is designed to look like a bird.',
                        '<32>* Oh! I bet you don\'t know what \"CORE\" stands for!',
-                       '<32>* It stands for \"Charged Onium- ion Refactorization Engine.\"',
+                       '<32>* 它的全稱是「鎓離子核重構\n  電力引擎中心」。',
                        '<32>* What does it mean?',
                        '<32>* I have no idea, no idea at all!'
                     ],

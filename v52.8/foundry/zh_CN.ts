@@ -5723,7 +5723,7 @@ export default {
       act_check: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* Doge，一条冷血的狗。\n* 纯纯的工作机器。' ]
-            : [ '<32>{#p/story}* DOGE - 攻击14 防御10\n* 中文名念作“dū jí”，没有前后鼻音。\n* 特战队成员。' ],
+            : [ '<32>{#p/story}* DOGE - 攻击14 防御10\n* 读作“dū ji”。轻声的“ji”。\n* 特战队成员。' ],
       act_flirt: () => [
          ...(dogecon() || world.goatbro
             ? [ '<32>{#p/human}* （你向Doge调情。）', '<32>{#p/basic}* 她对这种拍须溜马不屑一顾。' ]

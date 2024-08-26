@@ -5405,7 +5405,7 @@ export default {
       idleTalk4: [ "<09>{#p/basic}{~}It's signal feedback, not radi- ation" ],
       idleTalk5: [ '<08>{#p/basic}{~}I just looove my antenna.\nOK?' ],
       justiceTalk: [ '<08>{#p/basic}{~}What have you done..' ],
-      name: '* Astro Serf',
+      name: '* 太空帽',
       randStatus1: [ '<32>{#p/story}* Astro Serf also wants antennae for its other body parts.' ],
       randStatus2: [ '<32>{#p/story}* Astro Serf makes sure its antenna is still there.' ],
       randStatus3: [ '<32>{#p/story}* 太空帽在考慮配一件衣服。' ],

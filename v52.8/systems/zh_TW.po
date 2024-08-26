@@ -285,49 +285,49 @@ msgid "Press [TAB] to cycle debug info"
 msgstr "按[TAB]鍵瀏覽除錯資訊"
 
 msgid "Acceleration"
-msgstr ""
+msgstr "對象加速度"
 
 msgid "Active"
 msgstr "動態"
 
 msgid "Alpha"
-msgstr ""
+msgstr "不透明度"
 
 msgid "Anchor"
-msgstr ""
+msgstr "錨點定位方式"
 
 msgid "B"
-msgstr ""
+msgstr "暴力饒恕過？"
 
 msgid "Blend"
-msgstr ""
+msgstr "渲染方式"
 
 msgid "Border"
-msgstr ""
+msgstr "邊框設定"
 
 msgid "Computed Size"
 msgstr "實際尺寸"
 
 msgid "Content"
-msgstr ""
+msgstr "對象內容"
 
 msgid "Crop"
-msgstr ""
+msgstr "裁剪區域坐標"
 
 msgid "Down"
 msgstr "下"
 
 msgid "Duration"
-msgstr ""
+msgstr "動畫時長（幀）"
 
 msgid "EXP"
 msgstr "EXP"
 
 msgid "Extent"
-msgstr ""
+msgstr "延伸尺寸"
 
 msgid "F"
-msgstr ""
+msgstr "調情過？"
 
 msgid "Face"
 msgstr "面部朝向"
@@ -339,16 +339,16 @@ msgid "Fill"
 msgstr "填充顏色"
 
 msgid "Font Family"
-msgstr ""
+msgstr "字體"
 
 msgid "Font Size"
 msgstr "字體大小"
 
 msgid "Frames"
-msgstr ""
+msgstr "當前幀源檔案"
 
 msgid "Gravity"
-msgstr ""
+msgstr "重力"
 
 msgid "Group"
 msgstr "戰鬥組"
@@ -357,10 +357,10 @@ msgid "HP"
 msgstr "HP"
 
 msgid "Index"
-msgstr ""
+msgstr "當前播放幀"
 
 msgid "Inert"
-msgstr ""
+msgstr "未激活"
 
 msgid "Key"
 msgstr "名稱"
@@ -372,13 +372,13 @@ msgid "Layer"
 msgstr "圖層編號"
 
 msgid "Layers"
-msgstr ""
+msgstr "包含圖層"
 
 msgid "Left"
 msgstr "左"
 
 msgid "Metadata"
-msgstr "數據說明"
+msgstr "元數據"
 
 msgid "Music"
 msgstr "音樂"
@@ -387,40 +387,40 @@ msgid "Namespace"
 msgstr "命名空間"
 
 msgid "NONE"
-msgstr ""
+msgstr "無"
 
 msgid "none"
-msgstr ""
+msgstr "無"
 
 msgid "Objects"
 msgstr "對象數"
 
 msgid "Oversaver"
-msgstr ""
+msgstr "自動存檔"
 
 msgid "Parallax"
-msgstr ""
+msgstr "視差滾動"
 
 msgid "Position"
 msgstr "位置坐標"
 
 msgid "Primed"
-msgstr ""
+msgstr "蓄能狀態"
 
 msgid "Priority"
-msgstr ""
+msgstr "優先級"
 
 msgid "REGISTRY"
 msgstr "存檔變量"
 
 msgid "Renderer"
-msgstr ""
+msgstr "圖像渲染器"
 
 msgid "Resources"
 msgstr "已使用資源"
 
 msgid "Reverse"
-msgstr ""
+msgstr "倒放資源"
 
 msgid "Right"
 msgstr "右"
@@ -432,7 +432,7 @@ msgid "Room State"
 msgstr "房間狀態"
 
 msgid "Rotation"
-msgstr ""
+msgstr "旋轉角度"
 
 msgid "Scale"
 msgstr "縮放"
@@ -444,40 +444,40 @@ msgid "Size"
 msgstr "設定尺寸"
 
 msgid "Spacing"
-msgstr ""
+msgstr "間距"
 
 msgid "Spin"
-msgstr ""
+msgstr "快速旋轉"
 
 msgid "Sprites"
-msgstr ""
+msgstr "資源參數"
 
 msgid "Step"
-msgstr ""
+msgstr "更新頻率"
 
 msgid "Stroke"
-msgstr ""
+msgstr "輪廓描邊"
 
 msgid "Subcrop"
-msgstr ""
+msgstr "子區域裁剪坐標"
 
 msgid "Talk"
 msgstr "正在說話"
 
 msgid "Target"
-msgstr ""
+msgstr "針對目標"
 
 msgid "Tint"
-msgstr ""
+msgstr "顏色值"
 
 msgid "Tracked Assets"
-msgstr "正在使用的資源"
+msgstr "當前跟蹤的資源"
 
 msgid "True"
 msgstr "是"
 
 msgid "UNKNOWN"
-msgstr ""
+msgstr "未知"
 
 msgid "Up"
 msgstr "上"
@@ -486,10 +486,10 @@ msgid "Vars"
 msgstr "變量"
 
 msgid "Velocity"
-msgstr ""
+msgstr "移動速度"
 
 msgid "Volatile"
-msgstr ""
+msgstr "敵人"
 
 msgid "SAVEMOD"
 msgstr "編輯存檔"

@@ -12687,7 +12687,7 @@ msgid "<08>{#p/basic}{~}What have you done.."
 msgstr ""
 
 msgid "* Astro Serf"
-msgstr ""
+msgstr "* Astro Serf"
 
 msgid ""
 "<32>{#p/story}* Astro Serf also wants antennae for its other body parts."
