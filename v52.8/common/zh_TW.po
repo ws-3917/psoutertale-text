@@ -11412,7 +11412,7 @@ msgid "* Annoy"
 msgstr "* 發火"
 
 msgid "* Appease"
-msgstr "* 安撫"
+msgstr "* 呼籲"
 
 msgid "* Approach"
 msgstr "* 靠近"
@@ -11499,7 +11499,7 @@ msgid "* Counter"
 msgstr "* 反駁"
 
 msgid "* Create"
-msgstr "* 自己製作"
+msgstr "* 手搓天線"
 
 msgid "* Criticize"
 msgstr "* 批評"

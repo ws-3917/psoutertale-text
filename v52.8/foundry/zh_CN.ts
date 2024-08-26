@@ -5723,7 +5723,7 @@ export default {
       act_check: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* Doge，一条冷血的狗。\n* 纯纯的工作机器。' ]
-            : [ '<32>{#p/story}* DOGE - 攻击14 防御10\n* Pronounced \"dohj.\" Soft j.\n* 特战队成员。' ],
+            : [ '<32>{#p/story}* DOGE - 攻击14 防御10\n* 中文名念作“dū jí”，没有前后鼻音。\n* 特战队成员。' ],
       act_flirt: () => [
          ...(dogecon() || world.goatbro
             ? [ '<32>{#p/human}* （你向Doge调情。）', '<32>{#p/basic}* 她对这种拍须溜马不屑一顾。' ]
@@ -6084,7 +6084,7 @@ export default {
       flirtReaction2: [ "<11>{#p/basic}{~}你人真好~" ],
       flirtReaction3: [ '<11>{#p/basic}{~}啊呼呼~' ],
       appeaseText: [
-         '<33>{#p/human}* （你对Muffet提出异议。）\n* （Muffet再一次被你的话\n  所吸引。）',
+         '<33>{#p/human}* （你对Muffet发出呼吁。）\n* （Muffet再一次被你的话\n  所吸引。）',
          '<32>* （你说起那些天真的狗狗，\n  批判Undyne把它们编入卫队\n  是有多不负责。）',
          '<32>* （你接着上句说，相信这种队长\n  就如同将整个蜘蛛部落置于险境。）',
          '<32>{#p/basic}* Muffet开始仔细地考虑\n  这些情况...',
