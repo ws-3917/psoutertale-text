@@ -6207,10 +6207,10 @@ export default {
          "<32>{#p/human}* (Ты кладешь руку на голову Малого Пса, встряхивая и прочесывая его шерсть до самой сердцевины.)"
       ],
       act_inquire: [
-         "<32>{#p/human}* (You pet Canis Minor and ask it who's a good dog. It barks its answer excitedly.)"
+         "<32>{#p/human}* (Ты гладишь Малого Пса и спрашиваешь его, кто хорошая собака. Она возбужденно лает в ответ.)"
       ],
       act_tickle: [
-         "<32>{#p/human}* (You tickle Canis Minor's sides, thereby petting it.)\n* (It's a frenzy of excitement.)"
+         "<32>{#p/human}* (Ты щекочешь бока Малого Пса, тем самым поглаживая его.)\n* (Это бешеное возбуждение.)"
       ],
       fetch: () => [
          '<32>{#p/human}* (You throw the spanner.)\n* (The dog elongates its neck to reach it.)',

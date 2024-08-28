@@ -189,13 +189,13 @@ export default {
       grilly: 'Горячо, но недостаточно.',
       gyft: "Ты не должен этого делать...",
       heats: 'Ты ЗНАЛ!?',
-      kabakk: 'Respect my AUTHORITY!',
-      vulkin: 'Ahh! Thank you~',
-      zorren: 'Thanks for, uh, using my name.',
+      kabakk: 'Уважайте мой АВТОРИТЕТ!',
+      vulkin: 'Ахх! Спасибо~',
+      zorren: 'Спасибо, что используете мое имя.',
 
       
-      asgor: 'You can?',
-      asgore: 'You cannot.',
+      asgor: 'Ты можешь?',
+      asgore: 'Ты не можешь.',
       asriel: '...'
    },
 
