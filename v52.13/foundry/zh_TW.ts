@@ -1858,10 +1858,10 @@ export default {
                             '<32>{#p/basic}* （呃... 你好像... 不是那種人。）\n* （哼。）'
                          ]
                        : [
-                            '<32>{#p/basic}* (So what are we supposed to do in the meantime?)',
-                            "<32>{#p/basic}* Oh, y'know, just the usual jiggery-pokery, I'd guess.",
-                            '<32>{#p/basic}* (You and your weird sayings.)',
-                            '<32>{#p/basic}* Wa ha ha, you know it!'
+                            '<32>{#p/basic}* （所以，在這段時間內\n  我們該做什麼呢？）',
+                            "<32>{#p/basic}* 噢，要不像往常一樣搗鬼得了。",
+                            '<32>{#p/basic}* （言行都很瘋癲啊。）',
+                            '<32>{#p/basic}* 哇哈哈，你很懂嘛！'
                          ]),
                     '<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。'
                  ]
@@ -1898,7 +1898,7 @@ export default {
                     '<32>{#p/basic}* （嘿... 要是這場風波過去了...）',
                     '<32>* （我們... 一起去吃一頓？）',
                     "<32>* 嗯？\n* 當然嘍！\n* 孩子，這沒啥不可以的！",
-                    "<32>* It'll give us somethin' to look forward to.",
+                    "<32>* 這樣我們就有盼頭了。",
                     '<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。'
                  ]
                : [
@@ -5786,7 +5786,7 @@ export default {
       petTalkPost: [ '<11>{#p/basic}{~}啊...' ],
       petText: [
          '<32>{#p/human}* （你想摸摸Doge。）',
-         '<32>{#p/basic}* Doge hesitantly reaches her head up to meet your hand.',
+         '<32>{#p/basic}* Doge猶豫地將頭抬了起來。',
          '<32>* You make contact.\n* Her face lights up.\n* She gives you a big smile.',
          '<32>* All her pent-up stress has finally been released.',
          '<32>* Doge is no longer interested in fighting you.'

@@ -4480,15 +4480,17 @@ msgstr ""
 
 msgid "<32>{#p/basic}* (So what are we supposed to do in the meantime?)"
 msgstr ""
+"<32>{#p/basic}* （所以，在這段時間內\n"
+"  我們該做什麼呢？）"
 
 msgid "<32>{#p/basic}* Oh, y'know, just the usual jiggery-pokery, I'd guess."
-msgstr ""
+msgstr "<32>{#p/basic}* 噢，要不像往常一樣搗鬼得了。"
 
 msgid "<32>{#p/basic}* (You and your weird sayings.)"
-msgstr ""
+msgstr "<32>{#p/basic}* （言行都很瘋癲啊。）"
 
 msgid "<32>{#p/basic}* Wa ha ha, you know it!"
-msgstr ""
+msgstr "<32>{#p/basic}* 哇哈哈，你很懂嘛！"
 
 msgid ""
 "<32>{#p/basic}* Oh!\n"
@@ -4570,7 +4572,7 @@ msgstr ""
 "* 孩子，這沒啥不可以的！"
 
 msgid "<32>* It'll give us somethin' to look forward to."
-msgstr ""
+msgstr "<32>* 這樣我們就有盼頭了。"
 
 msgid ""
 "<32>{#p/basic}* (So it's true...)\n"
@@ -13536,7 +13538,7 @@ msgid "<32>{#p/human}* (You try to pet Doge.)"
 msgstr "<32>{#p/human}* （你想摸摸Doge。）"
 
 msgid "<32>{#p/basic}* Doge hesitantly reaches her head up to meet your hand."
-msgstr ""
+msgstr "<32>{#p/basic}* Doge猶豫地將頭抬了起來。"
 
 msgid ""
 "<32>* You make contact.\n"

@@ -2470,13 +2470,13 @@ msgid "Begin Game"
 msgstr "ゲームをはじめる"
 
 msgid "AT"
-msgstr "AT"
+msgstr "ATK"
 
 msgid "DF"
-msgstr "DF"
+msgstr "DEF"
 
 msgid "GOLD"
-msgstr "ゴールド"
+msgstr "GOLD"
 
 msgid "NEXT"
 msgstr "NEXT"

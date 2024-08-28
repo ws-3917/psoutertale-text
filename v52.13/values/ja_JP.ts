@@ -6,7 +6,6 @@ const cjk2latin =
    /([\u2000-\u221F\u3000-\u30FF\u4E00-\u9FFF\uFF00-\uFFFF])([^/=}\u2000-\u221F\u3000-\u30FF\u4E00-\u9FFF\uFF00-\uFFFF]|$)/g;
 const latin2cjk =
    /(^|[^/={\u2000-\u221F\u3000-\u30FF\u4E00-\u9FFF\uFF00-\uFFFF])([\u2000-\u221F\u3000-\u30FF\u4E00-\u9FFF\uFF00-\uFFFF])/g;
-
 // START-TRANSLATE
 
 
@@ -233,12 +232,12 @@ export default {
       'twnkly',
       'undyne'
    ],
-   namePromptX: 16,
-   nameValueY: 0,
+   namePromptX: 0,
+   nameValueY: 14,
    nameLetterMap: [],
    nameLetterPosition: () => ({ x: 0, y: 0 }),
    nameLetterValidation: (char: string) => {
-      return /[A-Za-z\u3040-\u309F\u30A0-\u30FF\uFF66-\uFF9F]/g.test(char) || cjk.test(char);
+      return /[A-Za-z\u3040-\u309F\u30A0-\u30FF\uFF66-\uFF9F]/g.test(char);
    },
    nameQuitX: 0,
    nameBackspaceX: 28,

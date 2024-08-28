@@ -3649,7 +3649,7 @@ export default {
       tutorial_puzzle8b: [ '<25>{#p/toriel}* Try repeating what you have done before.' ],
       tutorial_puzzle8c: [ '<25>{#p/toriel}{#f/1}* Go on...' ],
       twinkly1: [
-         "<13>{#p/twinkly}{#f/5}＊ハロー！\n＊ボクは　{@fill=#ff0}トゥインクリィ{@fill=#fff}。\n＊{@fill=#ff0}おほし{@fill=#fff}の{@fill=#ff0}トゥインクリィ{@fill=#fff}さ！"
+         "<13>{#p/twinkly}{#f/5}＊ハロー！\n＊ボクは　{@fill=#ff0}トゥインクリィ{@fill=#fff}。\n＊{@fill=#ff0}おほし{@fill=#fff}の{@fill=#ff0}　トゥインクリィ{@fill=#fff}さ！"
       ],
       twinkly2: [
          '<13>{#f/5}＊どうやって　このぜんしょうきちに　きたのかな？',
@@ -3658,7 +3658,7 @@ export default {
          "<13>{#f/5}＊だいじょうぶ！　ボクが　ちからに　なるよ！",
          "<13>{#f/8}＊ボクは　てきにんしゃじゃ　ないかも　しれないけど　キミは…",
          '<13>{#f/5}＊ここのルールも　しらないでしょ？',
-         '\n<13>{#f/10}＊それなら　ボクが　おしえてあげよう。',
+         '<13>{#f/10}＊それなら　ボクが　おしえてあげよう。',
          "<13>{#f/5}＊さぁ　はじめよう！"
       ],
       twinkly3: [
