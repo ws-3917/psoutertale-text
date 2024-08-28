@@ -12,11 +12,13 @@
         <body>
             <termEntry>
                 <langSet xml:lang="en"><tig><term>RG 03</term></tig></langSet>
-                <langSet xml:lang="ru"><tig><term></term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>КС 03</term></tig></langSet>
+                <note from="translator">КС - королевский страж</note>
             </termEntry>
             <termEntry>
                 <langSet xml:lang="en"><tig><term>RG 04</term></tig></langSet>
-                <langSet xml:lang="ru"><tig><term></term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>КС 04</term></tig></langSet>
+                <note from="translator">КС - королевский страж</note>
             </termEntry>
         </body>
     </text>

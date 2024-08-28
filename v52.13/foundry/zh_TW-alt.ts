@@ -5723,7 +5723,7 @@ export default {
       act_check: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 督吉，一條冷血的狗。\n* 純純的工作機器。' ]
-            : [ '<32>{#p/story}* 督吉 - 攻擊14 防禦10\n* 讀作「dū ji」。輕聲的「ji」。\n* 特戰隊成員。' ],
+            : [ '<32>{#p/story}* 督吉 - 攻擊14 防禦10\n* 讀作[dəʊʒ]。尾音不爆破。\n* 特戰隊成員。' ],
       act_flirt: () => [
          ...(dogecon() || world.goatbro
             ? [ '<32>{#p/human}* （你向督吉調情。）', '<32>{#p/basic}* 她對這種拍須溜馬不屑一顧。' ]

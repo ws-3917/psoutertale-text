@@ -91,7 +91,7 @@ msgstr ""
 "開発者にスクリーンショットを送ってください。"
 
 msgid "CONTROL"
-msgstr "ｺﾝﾄﾛｰﾙ"
+msgstr "コントロ"
 
 msgid "GENERAL"
 msgstr "一般"
@@ -139,7 +139,7 @@ msgid "Exit"
 msgstr "やめる"
 
 msgid "ResetBox"
-msgstr "枠のｻｲｽﾞｦﾘｾｯﾄ"
+msgstr "枠サイズ"
 
 msgid "ResetMenu"
 msgstr "ﾒﾆｭｰﾘｾｯﾄ"

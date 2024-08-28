@@ -7076,7 +7076,7 @@ msgstr ""
 "  瀕死的程度...）"
 
 msgid "<32>* (Its name will turn blue.)"
-msgstr "<32>* （它的名字就會變成藍色。）"
+msgstr "<32>* （它的名字就會變成{@fill=#3f00ff}藍色{@fill=#fff}。）"
 
 msgid ""
 "<32>* (Weird, right?)\n"
@@ -7084,7 +7084,7 @@ msgid ""
 msgstr ""
 "<32>* （很奇怪，對吧？）\n"
 "* （但我聽說，人類被打了之後\n"
-"  也會變藍受呢。）"
+"  也會變{@fill=#3f00ff}藍{@fill=#fff}受呢。）"
 
 msgid "<32>* (So, I suppose you can relate to that.)"
 msgstr ""
@@ -8178,11 +8178,11 @@ msgstr "<32>{#p/basic}* 我們的腦細胞要不夠用了..."
 
 msgid "<32>{#p/toriel}{#f/21}* \"'What's up stairs?' asked the skeleton.\""
 msgstr ""
-"<32>{#p/toriel}{#f/21}* 「『有人在嗎？』\n"
+"<32>{#p/toriel}{#f/21}* 「『把門帶上了嗎？』\n"
 "   一位骷髏問。」"
 
 msgid "<32>* \"... the stairs did not reply.\""
-msgstr "<32>* 「...友人沒有回答。」"
+msgstr "<32>* 「『我扛著呢。』」"
 
 msgid ""
 "<32>{#p/basic}* ...\n"
