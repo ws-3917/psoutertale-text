@@ -2071,7 +2071,7 @@ msgid "LANGUAGE"
 msgstr ""
 
 msgid "ENGLISH"
-msgstr ""
+msgstr "ČEŠTINA"
 
 msgid "SOUND FX"
 msgstr ""

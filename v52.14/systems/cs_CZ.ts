@@ -960,7 +960,7 @@ export default {
       settings1: 'SETTINGS',
       settings2: 'EXIT',
       settings3: 'LANGUAGE',
-      settings3a: 'ENGLISH',
+      settings3a: 'ČEŠTINA',
       settings4: 'SOUND FX',
       settings5: 'MUSIC',
       settings6: 'FANCY GRAPHICS',
