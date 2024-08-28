@@ -2082,7 +2082,7 @@ msgid "LANGUAGE"
 msgstr ""
 
 msgid "ENGLISH"
-msgstr "PORTUGUÊS (BRASILEIRO)"
+msgstr "PORTUGUÊS (BR)"
 
 msgid "SOUND FX"
 msgstr ""

@@ -132,10 +132,10 @@ export default {
          "<32>* 我知道这可能...\n* 有点不方便...",
          "<32>* 但这是你活下去的唯一办法...！",
          '<32>* 相-相信我... 好吗？',
-         '<32>* Go back to the balcony j-just before the pylon puzzle.',
-         "<32>* If you don't, I...",
-         '<32>* I...',
-         "<32>* I'll... let you go now.",
+         '<32>* 回到那-那个塔架谜题前的阳台。',
+         "<32>* 如果你不这么做，我...",
+         '<32>* 我...',
+         "<32>* 我就... \n  你走吧。",
          '<32>{#s/equip}{#p/event}* 滴...'
       ],
       artifact1: [ '<32>{#p/human}* （你获得了传说中的神器。）' ],
@@ -1813,9 +1813,9 @@ export default {
                             "<32>{#p/basic}* 哇哈哈...\n* 我说了你也不信。"
                          ]
                        : [
-                            '<32>{#p/basic}* (Are they on their way here?)',
-                            "<32>{#p/basic}* Sure, but it'll be a while until ya see 'em.\n* Not to mention Undyne...",
-                            "<32>{#p/basic}* (Yeah, she'll stop them.)\n* (She's in charge of the Royal Guard, after all...)"
+                            '<32>{#p/basic}* （那人在往这里走吗？）',
+                            "<32>{#p/basic}* 当然，\n  但你要过会儿才能看到那人。\n* 更不用说Undyne...",
+                            "<32>{#p/basic}* （是啊，她会阻止那个人类的。）\n* （毕竟，她可统领着皇家卫队啊...）"
                          ]),
                     '<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。'
                  ]
@@ -5752,7 +5752,7 @@ export default {
          '<32>{#p/human}* （你建议Doge去洗个澡。）',
          '<32>{#p/basic}* Doge从天花板上扯下一根水管...\n  水从管子里涌了出来。',
          "<32>* 水很冷，但她似乎\n  并不怎么介意...",
-         '<32>* 很快，管子里的水就流光了。\n* Doge稍微放松了一下...',
+         '<32>* 很快，管子里的水就流光了。\n* Doge放松了点警惕...',
          "<32>{#p/story}* Doge的攻击力下降了！"
       ],
       batheTextEarly: [ "<32>{#p/human}* (You suggest Doge get a shower, but she wasn't in the mood yet.)" ],
@@ -6039,9 +6039,9 @@ export default {
          '<32>{#p/human}* （你想带着Doge去散散步。）',
          '<32>{#p/basic}* Doge跟随着你的脚步。\n* 你们一起齐步前进。',
          '<32>* 你们就这样走了一会...',
-         '<32>* 最终...',
+         '<32>* 到最后...',
          '<32>* Doge开始厌倦这种\n  无聊的活动了。',
-         '<32>* 她又跟着你回到了她的巡逻区\n  ，稍微放松了一下...',
+         '<32>* 她又跟着你回到了她的巡逻区\n  ，放松了点警惕...',
          "<32>{#p/story}* Doge的攻击力下降了！"
       ],
       walkTextEarly: [ '<32>{#p/human}* （你想带着Doge去散散步，\n  但她没有理由跟你一起去。）' ],
