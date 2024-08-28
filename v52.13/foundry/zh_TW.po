@@ -259,19 +259,21 @@ msgid "<32>{#p/event}* Ring, ring..."
 msgstr "<32>{#p/event}* 鈴鈴，鈴鈴..."
 
 msgid "<32>{#p/alphys}* H-hey... are you there?"
-msgstr ""
+msgstr "<32>{#p/alphys}* 嘿... 你-你好？"
 
 msgid "<32>* I know you want to keep going forward, but..."
-msgstr ""
+msgstr "<32>* 我知道你想繼續前進，但是..."
 
 msgid "<32>* If you do, she'll... try to kill you..."
-msgstr ""
+msgstr "<32>* 如果你繼續，她會... 殺了你..."
 
 msgid "<32>* I tried to stop her... b-but she wouldn't listen to me!"
 msgstr ""
+"<32>* 我嘗試阻止她... \n"
+"  但-但她不聽我的！"
 
 msgid "<32>* Now she's..."
-msgstr ""
+msgstr "<32>* 她現在..."
 
 msgid "<32>* ..."
 msgstr "<32>* ..."
@@ -280,20 +282,26 @@ msgid ""
 "<32>* But, uh, it's okay!\n"
 "* Because..."
 msgstr ""
+"<32>* 但是，額，沒事的！\n"
+"* 因為..."
 
 msgid "<32>* B-because there's another way to get past her!"
 msgstr ""
+"<32>* 因-因為還有一種\n"
+"  可以繞過她的辦法！"
 
 msgid ""
 "<32>* I know it'd be kind of...\n"
 "* Inconvenient..."
 msgstr ""
+"<32>* 我知道這可能...\n"
+"* 有點不方便..."
 
 msgid "<32>* But it's the only way you'll make it out alive...!"
-msgstr ""
+msgstr "<32>* 但這是你活下去的唯一辦法...！"
 
 msgid "<32>* T-trust me... okay?"
-msgstr ""
+msgstr "<32>* 相-相信我... 好嗎？"
 
 msgid "<32>* Go back to the balcony j-just before the pylon puzzle."
 msgstr ""
@@ -6121,10 +6129,10 @@ msgid "<32>{#p/undyne}* (Stupid spiders...)"
 msgstr ""
 
 msgid "<32>{#p/undyne}* I'm a little busy right now."
-msgstr ""
+msgstr "<32>{#p/undyne}* 我現在有點忙。"
 
 msgid "<32>{#p/undyne}* (Ugh...)"
-msgstr ""
+msgstr "<32>{#p/undyne}* （呃...）"
 
 msgid "<25>{*}{#p/kidd}{#f/13}{#x1}* I'll save you!{#x2}{^20}{%}"
 msgstr "<25>{*}{#p/kidd}{#f/13}{#x1}* 我來救你！{#x2}{^20}{%}"

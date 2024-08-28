@@ -13583,15 +13583,17 @@ msgid ""
 "<32>{#p/human}* (You throw the spanner.)\n"
 "* (The dog elongates its neck to reach it.)"
 msgstr ""
+"<32>{#p/human}* (Ты бросаешь гаечный ключ.)\n"
+"* (Пёс вытягивает шею, чтобы дотянуться до него.)"
 
 msgid "<32>{#p/human}* (You play fetch for a while.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты некоторое время играешь в лапту.)"
 
 msgid "<32>{#p/asriel2}* But why though?"
-msgstr ""
+msgstr "<32>{#p/asriel2}* Но почему?"
 
 msgid "<32>{#p/story}* Canis Minor loves fetch!"
-msgstr ""
+msgstr "<32>{#p/story}* Малый Пёс обожает пошалить!"
 
 msgid "<11>{#p/basic}{~}(Pants fast)"
 msgstr ""

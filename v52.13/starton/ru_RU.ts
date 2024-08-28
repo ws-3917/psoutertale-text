@@ -6213,11 +6213,11 @@ export default {
          "<32>{#p/human}* (Ты щекочешь бока Малого Пса, тем самым поглаживая его.)\n* (Это бешеное возбуждение.)"
       ],
       fetch: () => [
-         '<32>{#p/human}* (You throw the spanner.)\n* (The dog elongates its neck to reach it.)',
-         '<32>{#p/human}* (You play fetch for a while.)',
-         ...(world.goatbro ? [ '<32>{#p/asriel2}* But why though?' ] : [])
+         '<32>{#p/human}* (Ты бросаешь гаечный ключ.)\n* (Пёс вытягивает шею, чтобы дотянуться до него.)',
+         '<32>{#p/human}* (Ты некоторое время играешь в лапту.)',
+         ...(world.goatbro ? [ '<32>{#p/asriel2}* Но почему?' ] : [])
       ],
-      fetchStatus: [ '<32>{#p/story}* Canis Minor loves fetch!' ],
+      fetchStatus: [ '<32>{#p/story}* Малый Пёс обожает пошалить!' ],
       fetchTalk: [ '<11>{#p/basic}{~}(Pants fast)' ],
       hurtStatus: () =>
          world.goatbro

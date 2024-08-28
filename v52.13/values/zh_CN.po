@@ -148,6 +148,9 @@ msgstr ""
 
 msgid "May your choices be as effortless as they come."
 msgstr ""
+"愿你安闲自在，\n"
+"毫不费力地\n"
+"做出你的选择。"
 
 msgid ""
 "Take heart.\n"
@@ -158,7 +161,7 @@ msgstr ""
 "友情将伴你而行。"
 
 msgid "May your fortune carry you forward on your journey."
-msgstr ""
+msgstr "愿你好运连连，\n"
 
 msgid "May the tapestry of chaos and order please you on your journey."
 msgstr ""
@@ -187,6 +190,9 @@ msgstr ""
 
 msgid "May your overflowing energy power you through your journey."
 msgstr ""
+"愿你精神饱满，\n"
+"铆足的干劲\n"
+"祝你一路前行。"
 
 msgid "I am honored by your choice."
 msgstr "你选择了我，让我深感荣幸。"
