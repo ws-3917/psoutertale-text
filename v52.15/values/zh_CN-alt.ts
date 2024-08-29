@@ -83,7 +83,7 @@ export default {
       lively: '轻装上阵，\n你的旅途将会更加顺利。',
       livid: '打起精神来。\n让不如意的事情随风而去吧。',
       lonely: '打起精神来。\n登上此次旅途，\n友情将伴你而行。',
-      lucky: 'May your fortune carry you forward on your journey.',
+      lucky: '愿你好运连连，',
       mad: '打起精神来。\n让不如意的事情随风而去吧。',
       manic: '愿你心态平和，\n在旅途中收获平衡与安宁。',
       meek: '谦虚敬慎，\n你会在旅途中一往无前。',

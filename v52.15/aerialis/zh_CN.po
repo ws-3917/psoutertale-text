@@ -8427,7 +8427,7 @@ msgstr ""
 "   但我们很快就可以知晓了...”"
 
 msgid "<32>* \"Fingerbones crossed.\""
-msgstr ""
+msgstr "<32>* “祈祷吧。”"
 
 msgid ""
 "<32>{#p/human}* (You wonder what kind of ice cream this ice cream machine "

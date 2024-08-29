@@ -5542,7 +5542,7 @@ export default {
       },
       fight: [
          [
-            [ '<11>{#p/undyne}{#e/undyne/4}You always were tougher than you looked.' ],
+            [ '<11>{#p/undyne}{#e/undyne/4}沒想到你會\n下手這麼狠。' ],
             [ '<11>{#p/alphys}{#e/alphys/9}Undyne，\n當心啊！' ]
          ],
          [

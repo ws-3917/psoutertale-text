@@ -15377,7 +15377,7 @@ msgid "* Canis Major"
 msgstr "* Canis Major"
 
 msgid "<32>{#p/story}* Canis Major loves fetch!"
-msgstr ""
+msgstr "<32>{#p/story}* Canis Major喜歡巡迴遊戲！"
 
 msgid "<32>{#p/story}* Canis Major is patting the ground with its front paws."
 msgstr "<32>{#p/story}* Canis Major正用前爪拍打著地面。"

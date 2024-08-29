@@ -161,7 +161,7 @@ msgstr ""
 "友情將伴你而行。"
 
 msgid "May your fortune carry you forward on your journey."
-msgstr "願你好運連連，\n"
+msgstr "願你好運連連，"
 
 msgid "May the tapestry of chaos and order please you on your journey."
 msgstr ""

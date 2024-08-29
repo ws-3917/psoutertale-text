@@ -3295,6 +3295,8 @@ msgstr ""
 
 msgid "<18>{#p/asriel1}{#v/1}{#i/4}It sounds like it came from over here..."
 msgstr ""
+"<18>{#p/asriel1}{#v/1}{#i/4}刚才听到的声音\n"
+"应该就是附近传来的..."
 
 msgid "<18>Oh! You've crash- landed, haven't you..."
 msgstr ""

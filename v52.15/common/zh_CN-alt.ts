@@ -3462,7 +3462,7 @@ export default {
          '<25>{#p/sans}{#f/3}* ...',
          "<25>{#p/sans}{#f/3}* 嘿...\n* 你流的那些泪，不是正好\n  证明了我没说错嘛。",
          "<25>{#p/sans}{#f/2}* 如果这眼泪是假的，\n  那也说明，\n  你真是个老戏“骨”。",
-         "<32>{#p/human}* (...)\n* (You smile a little at Sans's joke.)",
+         "* （...）\n* （泪眼朦胧之中，\n  你回应了衫斯的烂笑话。）",
          '<25>{#p/sans}{#f/3}* 对不起，这话题\n  可能有点太沉重了。',
          "<25>{#p/sans}{#f/3}* 只是，我觉得该把\n  自己的心里话都告诉你。",
          '<32>{#p/human}* （你问衫斯，现在挂掉电话，\n  会不会有点不合适。）',
@@ -3862,13 +3862,13 @@ export default {
       ],
       computer5: [ '<32>{#p/basic}* Thank you, fellow traveler.\n* I owe you my future.' ],
       end1: [
-         '<25>{*}{#p/asgore}{#f/6}* This is emergency program one.{^20}{%}',
-         '<25>{*}{#p/asgore}{#f/6}* Initiating automated self-destruct protocol.{^20}{%}'
+         '<25>{*}{#p/asgore}{#f/6}* 一号应急预案已生效。{^20}{%}',
+         '<25>{*}{#p/asgore}{#f/6}* 正在启动自毁程序。{^20}{%}'
       ],
       end2: [
-         '<25>{*}{#p/asgore}{#f/6}* This is emergency program one.{^20}{%}',
-         '<25>{*}{#p/asgore}{#f/6}* The self-destruct protocol has been terminated remotely.{^20}{%}',
-         '<25>{*}{#p/asgore}{#f/6}* Systems powering down.{^20}{%}'
+         '<25>{*}{#p/asgore}{#f/6}* 一号应急预案已生效。{^20}{%}',
+         '<25>{*}{#p/asgore}{#f/6}* 自毁程序已远程终止。{^20}{%}',
+         '<25>{*}{#p/asgore}{#f/6}* 系统即将关闭。{^20}{%}'
       ],
       save1: '<32>{#p/human}{@fill=#f00}* （还剩下$(x)个。）',
       save2: '<32>{#p/human}{@fill=#f00}* （决心。）',

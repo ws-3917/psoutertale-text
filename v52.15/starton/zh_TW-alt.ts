@@ -6586,7 +6586,7 @@ export default {
       ignoreStatus2: () =>
          world.goatbro ? [ '<32>{#p/asriel2}* 大犬座。' ] : [ '<32>{#p/story}* 大犬座正在賣萌。' ],
       name: '* 大犬座',
-      fetchStatus: [ '<32>{#p/story}* Canis Major loves fetch!' ],
+      fetchStatus: [ '<32>{#p/story}* 大犬座喜歡巡迴遊戲！' ],
       petStatus1: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 大犬座。' ]

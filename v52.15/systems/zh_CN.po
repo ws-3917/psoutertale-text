@@ -638,7 +638,7 @@ msgid "Kiwi \"Quinn\""
 msgstr "Kiwi \"Quinn\""
 
 msgid "My Aster"
-msgstr ""
+msgstr "My Aster"
 
 msgid "neo9174"
 msgstr "neo9174"
@@ -731,7 +731,7 @@ msgid "Codetoil"
 msgstr "Codetoil"
 
 msgid "ryi3r"
-msgstr ""
+msgstr "ryi3r"
 
 msgid "ws3917"
 msgstr "ws3917"

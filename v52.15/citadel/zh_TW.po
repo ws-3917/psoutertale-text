@@ -13103,6 +13103,8 @@ msgstr ""
 
 msgid "<11>{#p/undyne}{#e/undyne/4}You always were tougher than you looked."
 msgstr ""
+"<11>{#p/undyne}{#e/undyne/4}沒想到你會\n"
+"下手這麼狠。"
 
 msgid "<11>{#p/alphys}{#e/alphys/9}Undyne, watch out!"
 msgstr ""
