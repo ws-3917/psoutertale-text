@@ -2372,7 +2372,9 @@ msgid "True Reset"
 msgstr "本当のリセット"
 
 msgid "Name the stranded human."
-msgstr "ふじちゃくしたニンゲンに　なまえをつけてください"
+msgstr ""
+"ふじちゃくしたニンゲンに\n"
+"なまえをつけてください"
 
 msgid "Quit"
 msgstr "やめる"
