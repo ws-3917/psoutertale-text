@@ -1296,7 +1296,7 @@ export default {
          '<18>...',
          '<18>$(name)，是嗎？',
          "<18>這名字真好聽。",
-         '<18>{*}{#x1}{#p/asriel3}{#i/18}我的名字是   {%}'
+         '<18>{*}{#x1}{#p/asriel3}{#i/36}我的名字是   {%}'
       ],
       napcomputer1: () =>
          postSIGMA()
@@ -2505,7 +2505,7 @@ export default {
                ? [ '<32>{#p/tem}{#npc/a}* A pleasing development, no?' ]
                : world.genocide || 10 <= world.trueKills
                ? [
-                    [ '<32>{*}{#p/tem}{#i/5}{#s.stop}* 我知道你做了什麼。', '{*}{#s.resume}{%}' ],
+                    [ '<32>{*}{#p/tem}{#i/10}{#s.stop}* 我知道你做了什麼。', '{*}{#s.resume}{%}' ],
                     [ '<32>{#p/tem}{#npc/a}* 嘿。', "<32>* 我是Bob。" ]
                  ][Math.min(SAVE.flag.n._bob++, 1)]
                : SAVE.data.n.plot === 47.2
@@ -2834,7 +2834,7 @@ export default {
       spookydate16: [
          '<25>{#p/sans}* 不管怎樣，有一點你得承認：\n  他成功地超越了自我。',
          '<25>{#f/0}* 他的那些攻擊設計就是\n  很好的例子。',
-         '<25>{#f/3}* 不久前，papyrus去拜訪了\n  皇家守衛隊隊長...',
+         '<25>{#f/3}* 不久前，papyrus去拜訪了\n  皇家衛隊隊長...',
          '<25>{#f/0}* 並懇求她讓他加入\n  皇家守衛。',
          '<25>{#f/3}* 唉，她直接當著他的面把門\n  摔上了。\n* 經典的undyne式作風。',
          '<25>{#f/0}* 但幾個小時後，當papyrus\n  帶著他的設計歸來時...',
@@ -3930,7 +3930,7 @@ export default {
                       ]
                     : [
                          '<18>{#f/4}你準備好接受這個...',
-                         '<18>{#f/1}和皇家守衛隊長\n做朋友的艱巨的\n任務了嗎！？！？',
+                         '<18>{#f/1}和皇家衛隊長\n做朋友的艱巨的\n任務了嗎！？！？',
                          choicer.create('* （和Undyne做朋友嗎？）', '是', '否')
                       ])
               ],
@@ -6832,7 +6832,7 @@ export default {
          helmetdyneAttack() ? [ '<20>{#p/undyne}{#e/undyne/31}...' ] : [ '<20>{#p/undyne}{#e/undyne/31}不...' ],
       death3: () =>
          helmetdyneAttack()
-            ? [ '<20>{#p/undyne}{#e/undyne/46}...不。ゑ', '<20>{#e/undyne/43}還沒完呢。ゑ' ]
+            ? [ '<20>{#p/undyne}{#e/undyne/46}...不。', '<20>{#e/undyne/43}還沒完呢。' ]
             : [
                  '<20>{#p/undyne}{#e/undyne/32}不！',
                  "<20>我不能死！",
@@ -6848,7 +6848,7 @@ export default {
               ],
       death4: () =>
          helmetdyneAttack()
-            ? [ "<20>{#e/undyne/45}不把你殺了\n我絕不罷休。ゑ" ]
+            ? [ "<20>{#e/undyne/45}不把你殺了\n我絕不罷休。" ]
             : [
                  '<20>{#p/undyne}{#e/undyne/32}人類！',
                  respecc()
@@ -7202,7 +7202,7 @@ export default {
    i_artifact: {
       battle: {
          description: '據說這個吊墜是Erogot\n本人佩戴過的。',
-         name: '神器ゑ'
+         name: '神器'
       },
       drop: () => [
          '<32>{#p/human}* （你把神器扔掉了。）',
@@ -7217,7 +7217,7 @@ export default {
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* (Inscribed with the signature of a former world leader.)' ]
             : [ '<32>{#p/basic}* 據說這個吊墜\n  是Erogot本人佩戴過的。' ],
-      name: '神器ゑ',
+      name: '神器',
       use: () => [
          '<32>{#p/human}* (You use the Legendary Artifact.)',
          ...((battler.active && battler.alive[0].opponent.metadata.reactArtifact) ||
@@ -7237,7 +7237,7 @@ export default {
    },
    i_epiphany: {
       battle: {
-         description: '意志薄弱之人\n將成為你的傀儡。ゑ',
+         description: '意志薄弱之人\n將成為你的傀儡。',
          name: '頓悟'
       },
       drop: [ '<32>{#p/human}* （你奮力把捲軸《頓悟》丟了出去。）' ],
@@ -7261,25 +7261,25 @@ export default {
                  '<32>{#p/human}* （你仔細閱讀著\n  捲軸上的古老咒文。）',
                  '<33>* (The text appears to be self- translating.)'
               ]
-            : [ '<32>{#p/human}* （你展開了捲軸《頓悟》。）', '<32>{#p/human}* （無事發生。）ゑ' ]
+            : [ '<32>{#p/human}* （你展開了捲軸《頓悟》。）', '<32>{#p/human}* （無事發生。）' ]
    },
    i_astrofood: {
       battle: {
-         description: '牙口不好的別吃。ゑ',
+         description: '牙口不好的別吃。',
          name: '甘草糖'
       },
       drop: [ '<32>{#p/human}* （你把甘草糖扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* （24 HP。）ゑ' ]
-            : [ '<32>{#p/basic}* 「甘草糖」 回復24 HP\n* 牙口不好的別吃。ゑ' ],
+            ? [ '<32>{#p/human}* （24 HP。）' ]
+            : [ '<32>{#p/basic}* 「甘草糖」 回復24 HP\n* 牙口不好的別吃。' ],
       name: '甘草糖',
       use: [ '<32>{#p/human}* （你咬了甘草糖。）' ]
    },
    i_sap: {
       battle: {
-         description: "取材自怪物故園裡的一棵樹。ゑ",
-         name: '樹液ゑ'
+         description: "取材自怪物故園裡的一棵樹。",
+         name: '樹液'
       },
       drop: [ '<32>{#p/human}* （你把樹液扔掉了。）' ],
       info: () =>
@@ -7291,53 +7291,53 @@ export default {
    },
    i_goggles: {
       battle: {
-         description: '超越現實！\n能為你提供更長的喘息時間。ゑ',
+         description: '超越現實！\n能為你提供更長的喘息時間。',
          name: 'AR眼鏡'
       },
       drop: [ '<32>{#p/human}* （你把AR眼鏡扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （6防禦。）' ]
-            : [ '<32>{#p/basic}* 「AR眼鏡」 （6防禦）\n* 超越現實！\n  能為你提供更長的喘息時間。ゑ' ],
+            : [ '<32>{#p/basic}* 「AR眼鏡」 （6防禦）\n* 超越現實！\n  能為你提供更長的喘息時間。' ],
       name: 'AR眼鏡',
       use: [ '<32>{#p/human}* （你戴上了AR眼鏡。）' ]
    },
    i_goggles_x: {
       battle: {
-         description: '能為你提供稍長的喘息時間。ゑ',
+         description: '能為你提供稍長的喘息時間。',
          name: 'AR眼鏡？'
       },
       drop: [ '<32>{#p/human}* （你把AR眼鏡扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （4防禦。）' ]
-            : [ '<32>{#p/basic}* 「AR眼鏡？」 （4防禦）\n* 超越現實！\n  能為你提供稍長的喘息時間。ゑ' ],
+            : [ '<32>{#p/basic}* 「AR眼鏡？」 （4防禦）\n* 超越現實！\n  能為你提供稍長的喘息時間。' ],
       name: 'AR眼鏡？',
       use: [ '<32>{#p/human}* （你戴上了AR眼鏡。）' ]
    },
    i_padd: {
       battle: {
-         description: '一個電子記事本。\n能為你提供更長的喘息時間。ゑ',
+         description: '一個電子記事本。\n能為你提供更長的喘息時間。',
          name: '平板電腦'
       },
       drop: [ '<32>{#p/human}* （你把平板電腦扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （2攻擊。）' ]
-            : [ '<32>{#p/basic}* 「平板電腦」 （2攻擊）\n* 一個電子記事本。\n* 能為你提供更長的喘息時間。ゑ' ],
+            : [ '<32>{#p/basic}* 「平板電腦」 （2攻擊）\n* 一個電子記事本。\n* 能為你提供更長的喘息時間。' ],
       name: '平板電腦',
       use: [ '<32>{#p/human}* （你打開了平板電腦。）' ]
    },
    i_padd_x: {
       battle: {
-         description: '能為你提供稍長的喘息時間。ゑ',
+         description: '能為你提供稍長的喘息時間。',
          name: '平板電腦？'
       },
       drop: [ '<32>{#p/human}* （你把平板電腦扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （0攻擊。）' ]
-            : [ '<32>{#p/basic}* 「平板電腦」 （0攻擊）\n* 只能讓你多喘口氣。ゑ' ],
+            : [ '<32>{#p/basic}* 「平板電腦」 （0攻擊）\n* 只能讓你多喘口氣。' ],
       name: '平板電腦？',
       use: [ '<32>{#p/human}* （你打開了平板電腦。）' ]
    },
@@ -7358,7 +7358,7 @@ export default {
                  '<32>{#p/human}* (You rip up the Postcard.)',
                  battler.active
                     ? `<32>{#p/story}* 你的攻擊力提升了${2 + battler.at_bonus}點！`
-                    : '<32>{#p/human}* （無事發生。）ゑ'
+                    : '<32>{#p/human}* （無事發生。）'
               ]
             : battler.active
             ? [ '<32>{#p/human}* (You daydream about the landscape on the Postcard.)\n* (Nothing happens.)' ]
@@ -7445,7 +7445,7 @@ export default {
       name: '星雲茶',
       use: () => [
          '<32>{#p/human}* （你將星雲茶一飲而盡。）',
-         battler.active ? '<32>{#p/story}* 你的移速提升了1點！' : '<32>{#p/human}* （無事發生。）ゑ'
+         battler.active ? '<32>{#p/story}* 你的移速提升了1點！' : '<32>{#p/human}* （無事發生。）'
       ]
    },
    i_tzn: {
@@ -7458,15 +7458,15 @@ export default {
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （17 HP。）' ]
             : [ '<32>{#p/basic}* 「太空豆腐」 回復17 HP\n* 很像地球上的豆腐，\n  只是更加空靈。' ],
-      name: '太空豆腐ゑ',
+      name: '太空豆腐',
       use: () => [
          '<32>{#p/human}* （你吞下了太空豆腐。）',
          ...(world.meanie
             ? [
                  '<32>* （那味道讓你有種特別的感覺...）',
                  battler.active
-                    ? `<32>{#p/story}* 你的攻擊力提升了${4 + battler.at_bonus}點！ゑ`
-                    : '<32>{#p/human}* （無事發生。）ゑ'
+                    ? `<32>{#p/story}* 你的攻擊力提升了${4 + battler.at_bonus}點！`
+                    : '<32>{#p/human}* （無事發生。）'
               ]
             : [])
       ]
@@ -7495,9 +7495,9 @@ export default {
             ? [ '<32>{#p/human}* （10攻擊，20防禦。）' ]
             : [
                  '<32>{#p/basic}* 「Temmie盔甲」（10攻擊，20防禦）\n* 大學教育下能做出來的東西！',
-                 '<32>* 能為你提供大量的喘息時間...ゑ',
+                 '<32>* 能為你提供大量的喘息時間...',
                  '<32>* 每回合受傷後回復大量HP...',
-                 "<32>* 受到彈幕攻擊時，\n一定概率轉變為回血效果...",
+                 "<32>* 受到彈幕攻擊時，\n  一定概率轉變為回血效果...",
                  '<32>* 顯著延長攻擊瞄準時間...',
                  '<32>* 它有一切其他物品的功效，\n  並更加強大。'
               ],
@@ -7506,28 +7506,28 @@ export default {
    },
    i_boots: {
       battle: {
-         description: '靈活但輕浮，\n想取代飛行器，有點懸。ゑ',
+         description: '靈活但輕浮，\n想取代飛行器，有點懸。',
          name: '懸浮靴'
       },
       drop: [ '<32>{#p/human}* （你把懸浮靴扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （7攻擊。）' ]
-            : [ '<32>{#p/basic}* 「懸浮靴」 （7攻擊）\n* 靈活但輕浮，\n  想取代飛行器，有點懸。ゑ' ],
-      name: '懸浮靴ゑ',
-      use: [ '<32>{#p/human}* （你穿上了懸浮靴。）ゑ' ]
+            : [ '<32>{#p/basic}* 「懸浮靴」 （7攻擊）\n* 靈活但輕浮，\n  想取代飛行器，有點懸。' ],
+      name: '懸浮靴',
+      use: [ '<32>{#p/human}* （你穿上了懸浮靴。）' ]
    },
    i_flight_suit: {
       battle: {
-         description: '膽小鬼別穿。ゑ',
-         name: '飛行服ゑ'
+         description: '膽小鬼別穿。',
+         name: '飛行服'
       },
       drop: [ '<32>{#p/human}* （你把飛行服扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （10防禦。）' ]
             : [ '<32>{#p/basic}* 「飛行服」 （10防禦）\n* 膽小鬼別穿。' ],
-      name: '飛行服ゑ',
+      name: '飛行服',
       use: [ '<32>{#p/human}* （你穿上了飛行服。）' ]
    },
    i_snack: {

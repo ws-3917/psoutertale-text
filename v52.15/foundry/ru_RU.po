@@ -184,147 +184,160 @@ msgstr ""
 msgid ""
 "<32>{#e/mettaton/9}* NOT WHAT I WOULD HAVE GONE FOR, BUT DECENT NONETHELESS."
 msgstr ""
+"<32>{#e/mettaton/9}* НЕ ТО, ЧТО Я БЫ ВЫБРАЛ, НО, ТЕМ НЕ МЕНЕЕ, ДОСТОЙНО."
 
 msgid ""
 "<32>{#p/basic}{#e/maddummy/1}* I always thought this one felt really slow, "
 "you know?"
 msgstr ""
+"<32>{#p/basic}{#e/maddummy/1}* Мне всегда казалось, что этот фильм очень "
+"медленный, знаешь?"
 
 msgid "<32>* Just... super... duper... slow."
-msgstr ""
+msgstr "<32>* Просто... супер... пупер... медленный."
 
 msgid "<32>{#e/maddummy/0}* But that's just me."
-msgstr ""
+msgstr "<32>{#e/maddummy/0}* Но это только моё мнение."
 
 msgid "<32>{#p/human}* (You feel the nearby monster presence dwindling.)"
 msgstr ""
+"<32>{#p/human}* (Ты чувствуешь, что присутствие монстров поблизости "
+"уменьшается.)"
 
 msgid "<32>{#p/human}* (But there was nothing left for you to do here.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Но тебе здесь больше нечего делать.)"
 
 msgid "<32>{#p/basic}{#npc/a}* The grass is fading faster than I had thought."
-msgstr ""
+msgstr "<32>{#p/basic}{#npc/a}* Трава исчезает быстрее, чем я думал."
 
 msgid "<32>{#p/basic}* It's out of service."
-msgstr ""
+msgstr "<32>{#p/basic}* Он не работает."
 
 msgid "<32>{#p/human}* (The terminal appears to have been powered off.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Терминал, похоже, был отключен от питания.)"
 
 msgid "<32>{#p/human}* (You activate the terminal.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты активируешь терминал.)"
 
 msgid ""
 "<32>{#p/basic}* \"Pathway unlocked!\"\n"
 "* \"No further action required.\""
 msgstr ""
+"<32>{#p/basic}* \"Путь разблокирован!\"\n"
+"* \"Дальнейшие действия не требуются.\""
 
 msgid "<32>{#p/basic}* \"Enter override code!\""
-msgstr ""
+msgstr "<32>{#p/basic}* \"Введи код блокировки!\""
 
 msgid ""
 "<32>{#p/basic}* If only you knew a puzzle officionado who could tell you "
 "what that code might be."
 msgstr ""
+"<32>{#p/basic}* Если бы ты только знал официоза, который мог бы подсказать "
+"тебе, что это может быть за код."
 
 msgid "* (Enter the code?)"
-msgstr ""
+msgstr "* (Вводишь код?)"
 
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 msgid "<32>{#p/human}* (You decide not to enter.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты решаешь не вводить.)"
 
 msgid "<32>{#p/basic}* Well, that's a mercy."
-msgstr ""
+msgstr "<32>{#p/basic}* Что ж, это милосердие."
 
 msgid "<32>{#p/event}* Ring, ring..."
-msgstr ""
+msgstr "<32>{#p/event}* Звонок, звонок..."
 
 msgid "<32>{#p/alphys}* H-hey... are you there?"
-msgstr ""
+msgstr "<32>{#p/alphys}* Эй... Ты здесь?"
 
 msgid "<32>* I know you want to keep going forward, but..."
-msgstr ""
+msgstr "<32>* Ты знаешь, что хочешь идти вперёд, но..."
 
 msgid "<32>* If you do, she'll... try to kill you..."
-msgstr ""
+msgstr "<32>* Если ты это сделаешь, она... попытается тебя убить..."
 
 msgid "<32>* I tried to stop her... b-but she wouldn't listen to me!"
-msgstr ""
+msgstr "<32>* Я пыталась остановить её... но она не слушала меня!"
 
 msgid "<32>* Now she's..."
-msgstr ""
+msgstr "<32>* Теперь она..."
 
 msgid "<32>* ..."
-msgstr ""
+msgstr "<32>* ..."
 
 msgid ""
 "<32>* But, uh, it's okay!\n"
 "* Because..."
 msgstr ""
+"<32>* Но, эм, всё в порядке!\n"
+"* Потому что..."
 
 msgid "<32>* B-because there's another way to get past her!"
-msgstr ""
+msgstr "<32>* П-потому что есть другой способ пройти мимо неё!"
 
 msgid ""
 "<32>* I know it'd be kind of...\n"
 "* Inconvenient..."
 msgstr ""
+"<32>* Я знаю, это будет...\n"
+"* Неудобно..."
 
 msgid "<32>* But it's the only way you'll make it out alive...!"
-msgstr ""
+msgstr "<32>* Но это единственный способ выбраться живым...!"
 
 msgid "<32>* T-trust me... okay?"
-msgstr ""
+msgstr "<32>* Д-доверься мне... хорошо?"
 
 msgid "<32>* Go back to the balcony j-just before the pylon puzzle."
-msgstr ""
+msgstr "<32>* Вернитесь на балкон j - прямо перед головоломкой с пилоном."
 
 msgid "<32>* If you don't, I..."
-msgstr ""
+msgstr "<32>* Если ты не сделаешь этого, я..."
 
 msgid "<32>* I..."
-msgstr ""
+msgstr "<32>* Я..."
 
 msgid "<32>* I'll... let you go now."
-msgstr ""
+msgstr "<32>* Я... отпущу тебя сейчас."
 
 msgid "<32>{#s/equip}{#p/event}* Click..."
-msgstr ""
+msgstr "<32>{#s/equip}{#p/event}* Клик..."
 
 msgid "<32>{#p/human}* (You got the Legendary Artifact.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты получил Легендарный артефакт.)"
 
 msgid "<32>{#p/human}* (You're carrying too much to take that.)"
-msgstr ""
+msgstr "<32>{#p/human}* (У тебя слишком много предметов, чтобы взять его.)"
 
 msgid ""
 "<32>{#p/human}* (The inscription describes a riddle of ivories and "
 "melodies.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Надпись описывает загадку слоновой кости и мелодии.)"
 
 msgid "<32>{#p/basic}* There is an inscription inscribed on the pedastal."
-msgstr ""
+msgstr "<32>{#p/basic}* Здесь есть надпись, начертанная на педастале."
 
 msgid "<32>* \"Two halves, split by the ivories.\""
-msgstr ""
+msgstr "<32>* \"Две половинки, разделённые слоновой костью.\""
 
 msgid "<32>* \"If the prince's is your left, then whose is your right?"
-msgstr ""
+msgstr "<32>* \"Если принц - твой левый, то чей правый?"
 
 msgid "<32>* \"And what is their melody?\""
-msgstr ""
+msgstr "<32>* \"И какова их мелодия?\""
 
 msgid "<32>{#p/basic}* The tome is attached firmly to the pedastal."
-msgstr ""
+msgstr "<32>{#p/basic}* Фолиант прочно прикреплен к пьедесталу."
 
 msgid "<32>{#p/human}* (You acquired The Epiphany.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты получил Прозрение.)"
 
 msgid "<32>{#p/human}* (The inscription speaks of peace and good intentions.)"
 msgstr ""

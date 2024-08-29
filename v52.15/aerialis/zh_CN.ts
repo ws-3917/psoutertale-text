@@ -612,7 +612,7 @@ export default {
                : "<32>{#p/basic}* 一部智能手机。\n* 自带一张升降门通行证\n  和两个次元箱子。",
             ...(world.genocide
                ? [ '<32>{#p/basic}* The one-time use portable jetpack slot is notably empty.' ]
-               : [ '<32>{#p/basic}* Additionally, a one-time use portable jetpack is available.' ])
+               : [ '<32>{#p/basic}* 此外，\n  还有个一次性的便携式喷气背包。' ])
          ],
          phonegrabber2: [ '<32>{#p/human}* （你有了一部新手机。）' ],
          phonegrabber3: () =>
@@ -842,11 +842,11 @@ export default {
             world.bad_lizard > 1
                ? world.goatbro
                   ? [ '<32>{#p/basic}{#x1}* 你们两个！{#x3}' ]
-                  : [ '<32>{#p/basic}{#x1}* You there!{#x3}' ]
+                  : [ '<32>{#p/basic}{#x1}* 你！{#x3}' ]
                : [ '<32>{#p/basic}{#x1}* 嘿，孩子！{#x3}' ],
          rg1b1: () =>
             world.bad_lizard > 1
-               ? [ '<32>{#p/basic}{#x1}* 就，你们能说说，\n  为什么把人都杀了吗？{#x3}' ]
+               ? [ '<32>{#p/basic}{#x1}* 前面的，能解释一下\n  为什么把人都杀了吗？{#x3}' ]
                : [ '<32>{#p/basic}{#x1}* 你能帮我们，就，\n  找到最近的冰淇淋摊吗？{#x3}' ],
          rg1b2: () =>
             world.bad_lizard > 1
@@ -893,20 +893,20 @@ export default {
                   "<32>{#z03}* DON'T WORRY, THOUGH.\n* IF YOU EVER FEEL LONELY, YOU CAN REST ASSURED...",
                   "<32>{#z02}* I'LL BE WATCHING YOUR EVERY MOVE.",
                   '<32>{#z21}* ...',
-                  '<32>{#z11}* WELL, TOODLES!'
+                  '<32>{#z11}* 好吧，回见！'
                ],
                [
                   '<32>{#p/mettaton}* 小鬼，你来啦。',
                   '<32>{#z03}* 你也许不认得我，但我认得你...',
                   '<32>{#z21}* 听着，你干了些什么缺德事，\n  我和Alphys可都看得清清楚楚。',
                   "<32>{#z00}* 要是你只是犯了点小错，\n  我们都能理解...",
-                  '<32>* HECK, ALPHYS AND I ARE BIG BELIEVERS IN HUMANS.',
-                  "<32>{#z03}* BUT THERE'S ONLY SO MUCH VIOLENCE YOU CAN EXCUSE.",
+                  '<32>* 真见鬼，\n  ALPHYS和我本来都很喜欢人类的。',
+                  "<32>{#z03}* 结果你所表现出来的\n  只有无尽的暴力。",
                   "<32>{#z21}* 今天，ALPHYS...\n  也不打算掺和这破事了...",
                   "<32>{#z00}* 亲眼目睹你的暴行之后，\n 这对她也好。",
                   '<32>{#z21}* 我请你别再杀害无辜了，\n  你答应吗？',
                   '<32>{#z21}* ...',
-                  '<32>{#z11}* WELL, TOODLES!'
+                  '<32>{#z11}* 好吧，回见！'
                ],
                [
                   '<32>{#p/mettaton}* 来了啊。',
@@ -947,7 +947,7 @@ export default {
                     '<32>{#z03}* JUST REMEMBER, YOU TWO...',
                     "<32>{#z12}* YOU'VE BEEN WARNED.",
                     '<32>{#z21}* ...',
-                    '<32>{#z11}* WELL, TOODLES!'
+                    '<32>{#z11}* 好吧，回见！'
                  ]
                : [
                     "<32>{#p/mettaton}{#z11}* NO OFFENSE, SWEETHEART, BUT THAT'S UTTERLY RIDICULOUS.",
@@ -955,7 +955,7 @@ export default {
                     '<32>{#z12}* ... BUT I KNOW SOMEONE WHO IS.',
                     '<32>{#z02}* HAHAHA...',
                     '<32>{#z21}* ...',
-                    '<32>{#z11}* WELL, TOODLES!'
+                    '<32>{#z11}* 好吧，回见！'
                  ],
          robocaller2x: () =>
             SAVE.flag.n.genocide_milestone < 5
@@ -1155,8 +1155,8 @@ export default {
             '<25>{#g/alphysNeutralSweat}* ...',
             '<25>{#g/alphysCutscene2}* C... congratulations.'
          ],
-         cooker1a: [ '<32>{#p/mettaton}* HELLO THERE.' ],
-         cooker1b: [ "<32>{*}{#p/mettaton}* AND WELCOME TO THE OUTPOST'S PREMIERE ARTS AND CRAFTS SHOW!{^30}{%}" ],
+         cooker1a: [ '<32>{#p/mettaton}* 你好啊。' ],
+         cooker1b: [ "<32>{*}{#p/mettaton}* 欢迎来到前哨战的首期手艺节目！{^30}{%}" ],
          cooker2a1: () =>
             iFancyYourVilliany()
                ? [ '<32>{#p/mettaton}* WHAT ARE WE MAKING TODAY?\n* SOMETHING FUN, OF COURSE!' ]
@@ -1164,7 +1164,7 @@ export default {
          cooker2a2: () =>
             iFancyYourVilliany()
                ? [ "<32>{#p/mettaton}* AFTER ALL, IT'S UP TO US TO SET A GOOD EXAMPLE!" ]
-               : [ '<32>{#p/mettaton}* HAHAHA...' ],
+               : [ '<32>{#p/mettaton}* 哈哈哈...' ],
          cooker2b: () =>
             iFancyYourVilliany()
                ? [
@@ -1172,19 +1172,19 @@ export default {
                     '<32>{#p/mettaton}* EVERYONE GIVE THEM THE SILENT TREATMENT THEY DESERVE!'
                  ]
                : [
-                    '<32>{#p/mettaton}* MY LOVELY ASSISTANT HERE WILL GATHER THE SUPPLIES.',
-                    '<32>* EVERYONE GIVE THEM A BIG ROUND OF APPLAUSE!'
+                    '<32>{#p/mettaton}* 我可爱的助手会去准备用品。',
+                    '<32>* 请大家给予热烈的掌声！'
                  ],
          cooker3a: () => [
-            "<32>{#p/mettaton}* WE'LL NEED THREE KEY SUBSTANCES...",
+            "<32>{#p/mettaton}* 我们需要三件重要的物品。",
             iFancyYourVilliany()
                ? '<32>* {@fill=#ff0}HAPPY POWDER{@fill=#fff}, {@fill=#ff0}TINGLE SERUM{@fill=#fff}, AND {@fill=#ff0}LOVE OIL{@fill=#fff}.'
-               : '<32>* {@fill=#ff0}HEXOGEN{@fill=#fff}, {@fill=#ff0}DIOCTYL ADIPATE{@fill=#fff}, AND {@fill=#ff0}MINERAL OIL{@fill=#fff}.'
+               : '<32>* {@fill=#ff0}环三亚甲基三硝胺{@fill=#fff}，\n  {@fill=#ff0}己二酸二正辛酯{@fill=#fff}，和{@fill=#ff0}矿物油{@fill=#fff}。'
          ],
          cooker3b: () =>
             iFancyYourVilliany()
                ? [ '<32>{#p/mettaton}* HOP TO IT, $(moniker2u)!' ]
-               : [ '<32>{#p/mettaton}* HOP TO IT, SWEETHEART!' ],
+               : [ '<32>{#p/mettaton}* 开始吧，甜心！' ],
          cooker4a: [ '<32>{#p/mettaton}* PERFECT!', '<32>* NOW, IF I MAY...' ],
          cooker4b: [ '<32>{#p/mettaton}* OKAY!', "<32>* THAT'S EVERYTHING WE NEED..." ],
          cooker5: () =>
@@ -3049,33 +3049,33 @@ export default {
          ],
          end2: [ '<32>{#e/mettaton/11}* 摄影师！\n* 现在开拍！' ],
          endX1: [
-            '<32>{#p/mettaton}* 哎呀，哎呀...\n* 让您这么长途跋涉，\n  真是辛苦了，“亲”。ゑ',
-            '<32>* 跟你扯这些客套话，\n  真是浪费时间。ゑ',
-            '<32>* ...怎么？\n* 你还真当自己是块宝？ゑ',
-            '<32>* 真是蠢的可以。ゑ',
-            '<32>* 我只是想演一出好戏。ゑ',
-            '<32>* 所谓一出好戏呢...ゑ',
-            "<32>* 也不过是对对台词，摆摆姿势。ゑ",
-            '<32>* 然后，借着演出展现我超强的实力，\n  顺便捞点名声和权力，ゑ',
-            '<32>* 和“乐趣”“友谊”什么的...\n  根本不搭边。ゑ',
-            '<32>* ...说回正题。ゑ',
-            "<32>* 给我听好。\n* 犯了事，就休想逃。ゑ",
-            '<32>* 管你怎么哭爹喊娘。\n* 管你怎么垂死挣扎。\n* 管你怎么跪地求饶。ゑ',
-            '<32>* 你想咋的都行。ゑ',
-            "<32>* 很快，我就会成为伸张正义的英雄。\n* 而你？\n  就是地上的一摊烂泥罢了。ゑ",
-            "<32>* 看呐，我已经接管了整个核心，\n  让它源源不断地给我输送能量。ゑ",
-            "<32>* 我和ALPHYS原来没打算这么做，\n  不过没什么大碍。ゑ",
-            '<32>* 只要我一声令下，连上电缆，\n  就等着受死吧。ゑ',
-            "<32>* 其实，你应该能预感到\n  我要这么做...ゑ",
-            "<32>* 不过，一个满脑子\n  只知道杀杀杀的人\n  应该没那个智商。ゑ"
+            '<32>{#p/mettaton}* 哎呀，哎呀...\n* 让您这么长途跋涉，\n  真是辛苦了，“亲”。',
+            '<32>* 跟你扯这些客套话，\n  真是浪费时间。',
+            '<32>* ...怎么？\n* 你还真当自己是块宝？',
+            '<32>* 真是蠢的可以。',
+            '<32>* 我只是想演一出好戏。',
+            '<32>* 所谓一出好戏呢...',
+            "<32>* 也不过是对对台词，摆摆姿势。",
+            '<32>* 然后，借着演出展现我超强的实力，\n  顺便捞点名声和权力，',
+            '<32>* 和“乐趣”“友谊”什么的...\n  根本不搭边。',
+            '<32>* ...说回正题。',
+            "<32>* 给我听好。\n* 犯了事，就休想逃。",
+            '<32>* 管你怎么哭爹喊娘。\n* 管你怎么垂死挣扎。\n* 管你怎么跪地求饶。',
+            '<32>* 你想咋的都行。',
+            "<32>* 很快，我就会成为伸张正义的英雄。\n* 而你？\n  就是地上的一摊烂泥罢了。",
+            "<32>* 看呐，我已经接管了整个核心，\n  让它源源不断地给我输送能量。",
+            "<32>* 我和ALPHYS原来没打算这么做，\n  不过没什么大碍。",
+            '<32>* 只要我一声令下，连上电缆，\n  就等着受死吧。',
+            "<32>* 其实，你应该能预感到\n  我要这么做...",
+            "<32>* 不过，一个满脑子\n  只知道杀杀杀的人\n  应该没那个智商。"
          ],
          endX1x: [
-            '<32>{#p/mettaton}* 哎呀，哎呀...ゑ',
+            '<32>{#p/mettaton}* 哎呀，哎呀...',
             '<32>* ...',
-            '<32>* ...耷拉个脸干什么？\n* 就这么想被我打成肉酱？ゑ',
-            '<32>* 还敢顶嘴？\n* 好，这是你自找的...ゑ'
+            '<32>* ...耷拉个脸干什么？\n* 就这么想被我打成肉酱？',
+            '<32>* 还敢顶嘴？\n* 好，这是你自找的...'
          ],
-         endX2: [ "<32>{#e/mettaton/17}* ALPHYS，过来！\n* 让它瞧瞧咱们的真本事！ゑ" ],
+         endX2: [ "<32>{#e/mettaton/17}* ALPHYS，过来！\n* 让它瞧瞧咱们的真本事！" ],
          endY1: [
             '<25>{#p/alphys}{#g/alphysSmileSweat}* Okay, you made it!',
             '<25>{#f/3}* Eheh... that was more difficult than it had to be, huh?',
@@ -3698,7 +3698,7 @@ export default {
                  ]
                : [
                     '<32>{#p/human}* （你激活了终端，\n  阅读了上面的消息。）',
-                    '<32>{#p/basic}* \"I\'m sorry, everyone...\"'
+                    '<32>{#p/basic}* “各位，我很抱歉...”'
                  ],
          terminal3: () =>
             postSIGMA()
@@ -4312,12 +4312,12 @@ export default {
                ? [ '<32>{#p/human}* (The sign informs people of the closure of a collection agency.)' ]
                : SAVE.data.n.plot === 72
                ? [ '<#32>{#p/basic}* \"Sorry, but the collection agency is closed for good!\"\n  - Bratty and Catty' ]
-               : [ '<#32>{#p/basic}* \"Leave your junk here, and we\'ll find a way to sell it!\"\n  - Bratty and Catty' ],
+               : [ '<#32>{#p/basic}* “将你的废弃用品放在这儿吧，\n   我们会想办法把它卖掉的！”\n  - Bratty和Catty' ],
          a_puzzle1_sign: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The sign's contents seem to have been crossed out.)" ]
                : SAVE.data.n.plot < 68
-               ? [ '<32>{#p/basic}* \"Warning: Television filming may be in progress nearby.\"' ]
+               ? [ '<32>{#p/basic}* “警告：附近可能正在\n  拍摄电视节目。”' ]
                : [ '<32>{#p/basic}* \"Update: Television filming on indefinite hiatus.\"' ],
          labcounter: (mtt: boolean) =>
             SAVE.data.b.svr
@@ -4544,7 +4544,7 @@ export default {
                ? [ '<32>{#p/human}* (This setup strikes you as rather dangerous.)' ]
                : [
                     world.darker
-                       ? '<32>{#p/basic}* Chemicals on conveyor belts.'
+                       ? '<32>{#p/basic}* 相差无几的化学品。'
                        : SAVE.data.n.plot === 72
                        ? "<32>{#p/basic}* Chemicals on conveyor belts.\n* Somehow, nothing's ever gone wrong with this."
                        : '<32>{#p/basic}* Chemicals on conveyor belts.\n* What could possibly go wrong?',
@@ -6623,7 +6623,7 @@ export default {
             : world.genocide
             ? [ '<32>{#p/story}* A smiling eye steps forth!' ]
             : [ '<32>{#p/story}* The smiling eyes step forth!' ],
-      rg: () => (world.goatbro ? [ '<32>{#p/asriel2}* 一号和二号守卫。' ] : [ '<32>{#p/story}* The Royal Guard attacks!' ]),
+      rg: () => (world.goatbro ? [ '<32>{#p/asriel2}* 一号和二号守卫。' ] : [ '<32>{#p/story}* 皇家卫队袭来！' ]),
       spacetopTsundere: () =>
          world.goatbro ? [ '<32>{#p/asriel2}* These crazies...' ] : [ "<32>{#p/story}* It's a space-faring nightmare!" ],
       spacetopTsundereX: (spacetop: boolean) =>
@@ -7177,13 +7177,13 @@ export default {
       turnTalk4: () =>
          world.bad_robot
             ? [
-                 '<18>{#p/mettaton}哦吼吼...ゑ',
-                 '<18>如果你对我的\n飒爽英姿期待已久，\n那么，就请好好欣赏...ゑ',
-                 '<18>这副前所未有的\n更快，更强，\n更轻的身躯。ゑ',
-                 "<18>我已经和身体\n融为一体。ゑ",
-                 "<19>真是遗憾啊，\n只有在现场直播中，\n观众才能将你的暴行\n尽收眼底。ゑ",
-                 "<19>不过没事。ゑ",
-                 '<18>就此一回，为了你，\n豁出去了...ゑ'
+                 '<18>{#p/mettaton}哦吼吼...',
+                 '<18>如果你对我的\n飒爽英姿期待已久，\n那么，就请好好欣赏...',
+                 '<18>这副前所未有的\n更快，更强，\n更轻的身躯。',
+                 "<18>我已经和身体\n融为一体。",
+                 "<19>真是遗憾啊，\n只有在现场直播中，\n观众才能将你的暴行\n尽收眼底。",
+                 "<19>不过没事。",
+                 '<18>就此一回，为了你，\n豁出去了...'
               ]
             : [
                  '<18>{#p/mettaton}Ohhhh my.',
@@ -7206,7 +7206,7 @@ export default {
               ],
       turnTalk5: () =>
          world.bad_robot
-            ? [ "<18>{*}...我们下播。ゑ" ]
+            ? [ "<18>{*}...我们下播。" ]
             : iFancyYourVilliany()
             ? [ '<18>{#p/mettaton}{*}... absolutely fantastic!' ]
             : [ '<18>{#p/mettaton}{*}... absolutely beautiful!' ],
@@ -7230,44 +7230,44 @@ export default {
             ? [ "<20>{#p/mettaton}{#e/mettaton/19}You know, this doesn't seem like your style." ]
             : [ '<20>{#p/mettaton}{#e/mettaton/19}Time and a place, darling...' ],
       hint: [ "<32>{#p/basic}* Okay, partner...\n* It's all up to you now." ],
-      name: () => (world.genocide ? '* Mettaton NEOゑ' : world.bad_robot ? '* Mettaton SIGMAゑ' : '* Mettaton EXゑ'),
+      name: () => (world.genocide ? '* Mettaton NEO' : world.bad_robot ? '* Mettaton SIGMA' : '* Mettaton EX'),
       spannerReaction: (repeat: boolean) =>
          world.genocide
-            ? [ '<32>{#p/human}* （你把扳手扔了出去。）\n* （Mettaton直接将它炸成了碎片。）ゑ' ]
+            ? [ '<32>{#p/human}* （你把扳手扔了出去。）\n* （Mettaton直接将它炸成了碎片。）' ]
             : world.bad_robot
             ? [
-                 '<32>{#p/human}* （你把扳手扔了出去。）\n* （Mettaton接住扳手，\n  朝你的头砸了过去。）ゑ',
-                 "<32>{#p/basic}* 疼死了！ゑ"
+                 '<32>{#p/human}* （你把扳手扔了出去。）\n* （Mettaton接住扳手，\n  朝你的头砸了过去。）',
+                 "<32>{#p/basic}* 疼死了！"
               ]
             : repeat
             ? iFancyYourVilliany()
                ? [
-                    '<32>{#p/human}* （你把扳手扔了出去。）\n* （Mettaton又热情地踢了回来。）ゑ',
-                    '<32>{#p/basic}* 观众开始打哈欠了...ゑ'
+                    '<32>{#p/human}* （你把扳手扔了出去。）\n* （Mettaton又热情地踢了回来。）',
+                    '<32>{#p/basic}* 观众开始打哈欠了...'
                  ]
                : [
-                    '<32>{#p/human}* （你把扳手扔了出去。）\n* （Mettaton用嘴接住，叼了回来。）ゑ',
-                    '<32>{#p/basic}* 观众开始打哈欠了...ゑ'
+                    '<32>{#p/human}* （你把扳手扔了出去。）\n* （Mettaton用嘴接住，叼了回来。）',
+                    '<32>{#p/basic}* 观众开始打哈欠了...'
                  ]
             : iFancyYourVilliany()
             ? [
-                 '<32>{#p/human}* （你把扳手扔了出去。）\n* （Mettaton又热情地踢了回来。）ゑ',
-                 '<32>{#p/basic}* 观众沸腾了！ゑ'
+                 '<32>{#p/human}* （你把扳手扔了出去。）\n* （Mettaton又热情地踢了回来。）',
+                 '<32>{#p/basic}* 观众沸腾了！'
               ]
             : [
-                 '<32>{#p/human}* （你把扳手扔了出去。）\n* （Mettaton用嘴接住，叼了回来。）ゑ',
-                 '<32>{#p/basic}* 观众沸腾了！ゑ'
+                 '<32>{#p/human}* （你把扳手扔了出去。）\n* （Mettaton用嘴接住，叼了回来。）',
+                 '<32>{#p/basic}* 观众沸腾了！'
               ],
       old_gun_text: () =>
          world.genocide || world.bad_robot
-            ? [ '<32>{#p/human}* （你开了一枪。）\n* （什么都没发生。）ゑ' ]
-            : [ '<32>{#p/human}* （你开了一枪。）ゑ', '<32>{#p/basic}* 观众都吓坏了！' ],
+            ? [ '<32>{#p/human}* （你开了一枪。）\n* （什么都没发生。）' ]
+            : [ '<32>{#p/human}* （你开了一枪。）', '<32>{#p/basic}* 观众都吓坏了！' ],
       old_bomb_text: () =>
          world.genocide || world.bad_robot
-            ? [ '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）\n* （除此之外，什么都没发生。）ゑ' ]
+            ? [ '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）\n* （除此之外，什么都没发生。）' ]
             : [
-                 '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）ゑ',
-                 '<32>{#p/basic}* 观众纷纷做起了白日梦！ゑ'
+                 '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）',
+                 '<32>{#p/basic}* 观众纷纷做起了白日梦！'
               ],
       old_spray_text: () =>
          world.genocide || world.bad_robot
@@ -8037,9 +8037,9 @@ export default {
          '<32>{*}{#p/basic}* And remember.{^40}{%}'
       ],
       assistTalk2: [ '<20>{#p/basic}{~}Memoria mundi!', '<20>{#p/basic}{~}You know the words!' ],
-      old_gun_text: [ '<32>{#p/human}* （你开了一枪。）ゑ', '<32>{#p/basic}* Cozmo is knocked out!' ],
+      old_gun_text: [ '<32>{#p/human}* （你开了一枪。）', '<32>{#p/basic}* Cozmo is knocked out!' ],
       old_bomb_text: [
-         '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）ゑ',
+         '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）',
          '<32>{#p/basic}* Cozmo is knocked out!'
       ],
       old_spray_text: [ '<32>{#p/human}* （你喷洒了糖雾。）\n* （好甜...）', '<32>{#p/basic}* Cozmo is knocked out!' ],
@@ -8170,9 +8170,9 @@ export default {
          '<20>{#p/basic}{~}An artifact from our long-lost world...',
          '<20>{#p/basic}{~}Perhaps its legend will live on in you.'
       ],
-      old_gun_text: [ '<32>{#p/human}* （你开了一枪。）ゑ', '<32>{#p/basic}* Terrestria is knocked out!' ],
+      old_gun_text: [ '<32>{#p/human}* （你开了一枪。）', '<32>{#p/basic}* Terrestria is knocked out!' ],
       old_bomb_text: [
-         '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）ゑ',
+         '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）',
          '<32>{#p/basic}* Terrestria is knocked out!'
       ],
       old_spray_text: [
@@ -8328,9 +8328,9 @@ export default {
          [ '<08>{#p/basic}{~}May you have the wealth that you desire.' ]
       ],
       genostatus: [ '<32>{#p/asriel2}* ...' ],
-      old_gun_text: [ '<32>{#p/human}* （你开了一枪。）ゑ', '<32>{#p/basic}* Final Froggit is knocked out!' ],
+      old_gun_text: [ '<32>{#p/human}* （你开了一枪。）', '<32>{#p/basic}* Final Froggit is knocked out!' ],
       old_bomb_text: [
-         '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）ゑ',
+         '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）',
          '<32>{#p/basic}* Final Froggit is knocked out!'
       ],
       old_spray_text: [
@@ -8433,9 +8433,9 @@ export default {
          [ "<08>{#p/basic}{~}Here's your pay- ment..", '<08>{#p/basic}{~}Please.. spare me..' ]
       ],
       genostatus: [ '<32>{#p/asriel2}* ...' ],
-      old_gun_text: [ '<32>{#p/human}* （你开了一枪。）ゑ', '<32>{#p/basic}* Flutterknyte is knocked out!' ],
+      old_gun_text: [ '<32>{#p/human}* （你开了一枪。）', '<32>{#p/basic}* Flutterknyte is knocked out!' ],
       old_bomb_text: [
-         '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）ゑ',
+         '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）',
          '<32>{#p/basic}* Flutterknyte is knocked out!'
       ],
       old_spray_text: [
@@ -8575,9 +8575,9 @@ export default {
          [ "<08>{#p/basic}{~}Tch.. don't try to pay me back.", '<08>{#p/basic}{~}This is for you!' ]
       ],
       genostatus: [ '<32>{#p/asriel2}* ...' ],
-      old_gun_text: [ '<32>{#p/human}* （你开了一枪。）ゑ', '<32>{#p/basic}* Eyewalker Prime is knocked out!' ],
+      old_gun_text: [ '<32>{#p/human}* （你开了一枪。）', '<32>{#p/basic}* Eyewalker Prime is knocked out!' ],
       old_bomb_text: [
-         '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）ゑ',
+         '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）',
          '<32>{#p/basic}* Eyewalker Prime is knocked out!'
       ],
       old_spray_text: [
@@ -8686,9 +8686,9 @@ export default {
          
          [ "<08>{#p/basic}{~}You'll get more out of this than me.", '<08>{#p/basic}{~}By all means, take it.' ]
       ],
-      old_gun_text: [ '<32>{#p/human}* （你开了一枪。）ゑ', '<32>{#p/basic}* Silencio escapes!' ],
+      old_gun_text: [ '<32>{#p/human}* （你开了一枪。）', '<32>{#p/basic}* Silencio escapes!' ],
       old_bomb_text: [
-         '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）ゑ',
+         '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）',
          '<32>{#p/basic}* Silencio escapes!'
       ],
       old_spray_text: [ '<32>{#p/human}* （你喷洒了糖雾。）\n* （好甜...）', '<32>{#p/basic}* Silencio escapes!' ],
@@ -8750,9 +8750,9 @@ export default {
          
          [ '<08>{#p/basic}{~}The spoils of war are yours!' ]
       ],
-      old_gun_text: [ '<32>{#p/human}* （你开了一枪。）ゑ', '<33>{#p/basic}* Mushketeer has met their match!' ],
+      old_gun_text: [ '<32>{#p/human}* （你开了一枪。）', '<33>{#p/basic}* Mushketeer has met their match!' ],
       old_bomb_text: [
-         '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）ゑ',
+         '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）',
          '<32>{#p/basic}* Mushketeer surrenders!'
       ],
       old_spray_text: [
@@ -9200,7 +9200,7 @@ export default {
       act_check6: [ '<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Eager to make up for her lack of conviction.' ],
       randTalk1: () => [ '<11>{#p/basic}{~}Team attack.' ],
       randTalk2: () =>
-         world.bad_lizard > 1 ? [ "<11>{#p/basic}{~}We'll stop you..." ] : [ "<11>{#p/basic}{~}We're just friends..." ],
+         world.bad_lizard > 1 ? [ "<11>{#p/basic}{~}我们会\n阻止你的。" ] : [ "<11>{#p/basic}{~}We're just friends..." ],
       randTalk3: () =>
          world.bad_lizard > 1
             ? [ "<11>{#p/basic}{~}You're no match for us." ]
@@ -9233,7 +9233,7 @@ export default {
             : [ "<11>{#p/basic}{~}{@random=1.1/1.1}I'll never know..." ],
       randTalkLone2: () =>
          world.bad_lizard > 1
-            ? [ '<11>{#p/basic}{~}{@random=1.1/1.1}No mercy.' ]
+            ? [ '<11>{#p/basic}{~}{@random=1.1/1.1}不可饶恕。' ]
             : [ "<11>{#p/basic}{~}{@random=1.1/1.1}It's too late..." ],
       randTalkLone3: () =>
          world.bad_lizard > 1
@@ -9353,7 +9353,7 @@ export default {
       act_check6: [ '<32>{#p/story}* RG 04 - ATK 30 DEF 20\n* Eager to see you dead.' ],
       randTalk1: () => [ '<11>{#p/basic}{~}Team attack!' ],
       randTalk2: () =>
-         world.bad_lizard > 1 ? [ '<11>{#p/basic}{~}Once and for all!' ] : [ '<11>{#p/basic}{~}Absolutely!' ],
+         world.bad_lizard > 1 ? [ '<11>{#p/basic}{~}一劳永逸！' ] : [ '<11>{#p/basic}{~}Absolutely!' ],
       randTalk3: () =>
          world.bad_lizard > 1 ? [ "<11>{#p/basic}{~}You don't stand a chance!" ] : [ '<11>{#p/basic}{~}No romance here!' ],
       randTalk4: () =>

@@ -1214,6 +1214,8 @@ msgstr ""
 msgid ""
 "<32>{#p/basic}* Additionally, a one-time use portable jetpack is available."
 msgstr ""
+"<32>{#p/basic}* 此外，\n"
+"  還有個一次性的可攜式噴氣背包。"
 
 msgid "<32>{#p/human}* (You got the upgraded CELL.)"
 msgstr "<32>{#p/human}* （你有了一部新手機。）"
@@ -1768,7 +1770,7 @@ msgid "<32>{#p/basic}{#x1}* You two!{#x3}"
 msgstr "<32>{#p/basic}{#x1}* 你們兩個！{#x3}"
 
 msgid "<32>{#p/basic}{#x1}* You there!{#x3}"
-msgstr ""
+msgstr "<32>{#p/basic}{#x1}* 你！{#x3}"
 
 msgid "<32>{#p/basic}{#x1}* Hey kid!{#x3}"
 msgstr "<32>{#p/basic}{#x1}* 嘿，孩子！{#x3}"
@@ -1776,7 +1778,7 @@ msgstr "<32>{#p/basic}{#x1}* 嘿，孩子！{#x3}"
 msgid ""
 "<32>{#p/basic}{#x1}* Can you like, tell us why you killed those people?{#x3}"
 msgstr ""
-"<32>{#p/basic}{#x1}* 就，你們能說說，\n"
+"<32>{#p/basic}{#x1}* 前面的，能解釋一下\n"
 "  為什麼把人都殺了嗎？{#x3}"
 
 msgid ""
@@ -1911,7 +1913,7 @@ msgid "<32>{#z21}* ..."
 msgstr "<32>{#z21}* ..."
 
 msgid "<32>{#z11}* WELL, TOODLES!"
-msgstr ""
+msgstr "<32>{#z11}* 好吧，回見！"
 
 msgid "<32>{#p/mettaton}* THERE YOU ARE, BRAT."
 msgstr "<32>{#p/mettaton}* 小鬼，你來啦。"
@@ -1929,9 +1931,13 @@ msgstr ""
 
 msgid "<32>* HECK, ALPHYS AND I ARE BIG BELIEVERS IN HUMANS."
 msgstr ""
+"<32>* 真見鬼，\n"
+"  ALPHYS和我本來都很喜歡人類的。"
 
 msgid "<32>{#z03}* BUT THERE'S ONLY SO MUCH VIOLENCE YOU CAN EXCUSE."
 msgstr ""
+"<32>{#z03}* 結果你所表現出來的\n"
+"  只有無盡的暴力。"
 
 msgid "<32>{#z21}* ALPHYS... ISN'T GOING TO BE JOINING US FOR TODAY..."
 msgstr ""
@@ -2487,12 +2493,12 @@ msgid "<25>{#g/alphysCutscene2}* C... congratulations."
 msgstr ""
 
 msgid "<32>{#p/mettaton}* HELLO THERE."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 你好啊。"
 
 msgid ""
 "<32>{*}{#p/mettaton}* AND WELCOME TO THE OUTPOST'S PREMIERE ARTS AND CRAFTS "
 "SHOW!{^30}{%}"
-msgstr ""
+msgstr "<32>{*}{#p/mettaton}* 歡迎來到前哨戰的首期手藝節目！{^30}{%}"
 
 msgid ""
 "<32>{#p/mettaton}* WHAT ARE WE MAKING TODAY?\n"
@@ -2508,7 +2514,7 @@ msgid "<32>{#p/mettaton}* AFTER ALL, IT'S UP TO US TO SET A GOOD EXAMPLE!"
 msgstr ""
 
 msgid "<32>{#p/mettaton}* HAHAHA..."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 哈哈哈..."
 
 msgid "<32>{#p/mettaton}* THIS BOISTEROUS BULLY WILL GATHER THE SUPPLIES."
 msgstr ""
@@ -2518,13 +2524,13 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/mettaton}* MY LOVELY ASSISTANT HERE WILL GATHER THE SUPPLIES."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 我可愛的助手會去準備用品。"
 
 msgid "<32>* EVERYONE GIVE THEM A BIG ROUND OF APPLAUSE!"
-msgstr ""
+msgstr "<32>* 請大家給予熱烈的掌聲！"
 
 msgid "<32>{#p/mettaton}* WE'LL NEED THREE KEY SUBSTANCES..."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 我們需要三件重要的物品。"
 
 msgid ""
 "<32>* {@fill=#ff0}HAPPY POWDER{@fill=#fff}, {@fill=#ff0}TINGLE "
@@ -2535,12 +2541,14 @@ msgid ""
 "<32>* {@fill=#ff0}HEXOGEN{@fill=#fff}, {@fill=#ff0}DIOCTYL "
 "ADIPATE{@fill=#fff}, AND {@fill=#ff0}MINERAL OIL{@fill=#fff}."
 msgstr ""
+"<32>* {@fill=#ff0}環三亞甲基三硝胺{@fill=#fff}，\n"
+"  {@fill=#ff0}己二酸二正辛酯{@fill=#fff}，和{@fill=#ff0}礦物油{@fill=#fff}。"
 
 msgid "<32>{#p/mettaton}* HOP TO IT, $(moniker2u)!"
 msgstr ""
 
 msgid "<32>{#p/mettaton}* HOP TO IT, SWEETHEART!"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 開始吧，甜心！"
 
 msgid "<32>{#p/mettaton}* PERFECT!"
 msgstr ""
@@ -7752,7 +7760,7 @@ msgstr ""
 "  - Glyde"
 
 msgid "<32>{#p/basic}* \"I'm sorry, everyone...\""
-msgstr ""
+msgstr "<32>{#p/basic}* 「各位，我很抱歉...」"
 
 msgid ""
 "<32>{#p/basic}* \"Dear employees of the Royal Lab, please place waste in the"
@@ -8750,12 +8758,17 @@ msgid ""
 "<#32>{#p/basic}* \"Leave your junk here, and we'll find a way to sell it!\"\n"
 "  - Bratty and Catty"
 msgstr ""
+"<#32>{#p/basic}* 「將你的廢棄用品放在這兒吧，\n"
+"   我們會想辦法把它賣掉的！」\n"
+"  - Bratty和Catty"
 
 msgid "<32>{#p/human}* (The sign's contents seem to have been crossed out.)"
 msgstr ""
 
 msgid "<32>{#p/basic}* \"Warning: Television filming may be in progress nearby.\""
 msgstr ""
+"<32>{#p/basic}* 「警告：附近可能正在\n"
+"  拍攝電視節目。」"
 
 msgid "<32>{#p/basic}* \"Update: Television filming on indefinite hiatus.\""
 msgstr ""
@@ -9234,7 +9247,7 @@ msgid "<32>{#p/human}* (This setup strikes you as rather dangerous.)"
 msgstr ""
 
 msgid "<32>{#p/basic}* Chemicals on conveyor belts."
-msgstr ""
+msgstr "<32>{#p/basic}* 相差無幾的化學品。"
 
 msgid ""
 "<32>{#p/basic}* Chemicals on conveyor belts.\n"
@@ -12915,7 +12928,7 @@ msgid "<32>{#p/asriel2}* RG 01 and 02."
 msgstr "<32>{#p/asriel2}* 一號和二號守衛。"
 
 msgid "<32>{#p/story}* The Royal Guard attacks!"
-msgstr ""
+msgstr "<32>{#p/story}* 皇家衛隊襲來！"
 
 msgid "<32>{#p/asriel2}* These crazies..."
 msgstr ""
@@ -18517,6 +18530,8 @@ msgstr ""
 
 msgid "<11>{#p/basic}{~}We'll stop you..."
 msgstr ""
+"<11>{#p/basic}{~}我們會\n"
+"阻止你的。"
 
 msgid "<11>{#p/basic}{~}We're just friends..."
 msgstr ""
@@ -18578,7 +18593,7 @@ msgid "<11>{#p/basic}{~}{@random=1.1/1.1}I'll never know..."
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}No mercy."
-msgstr ""
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}不可饒恕。"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}It's too late..."
 msgstr ""
@@ -18867,7 +18882,7 @@ msgid "<11>{#p/basic}{~}Team attack!"
 msgstr ""
 
 msgid "<11>{#p/basic}{~}Once and for all!"
-msgstr ""
+msgstr "<11>{#p/basic}{~}一勞永逸！"
 
 msgid "<11>{#p/basic}{~}Absolutely!"
 msgstr ""
