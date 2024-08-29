@@ -1,5 +1,5 @@
 import { content } from '../../../code/systems/assets';
-import { CosmosFont, CosmosKeyed, CosmosTyper } from '../../../code/systems/storyteller';
+import { CosmosFont, CosmosKeyed, CosmosMath, CosmosTyper } from '../../../code/systems/storyteller';
 
 // START-TRANSLATE
 
@@ -192,6 +192,7 @@ export default {
       
       asgor: 'Ты можешь?',
       asgore: 'Ты не можешь.',
+      asrie: '... хорошо.',
       asriel: '...'
    },
 
@@ -218,25 +219,30 @@ export default {
       ['ъ', 'ы', 'ь', 'э', 'ю', 'я']
    ],
    nameLetterPosition: (index: number) => {
-      const x = (index % 33) % 9;
-      const y = Math.floor((index % 33) / 9);
-      if (index < 33) {
-         return { x: 120 + x * 49, y: 158 + y * 28 };
-      } else {
-         return { x: 120 + x * 49, y: 278 + y * 28 };
-      }
+      // variables
+      const alphabetSize = 33;
+      const lineLength = 9;
+
+      // computation
+      const position = index % alphabetSize;
+      return {
+         x: 312 + CosmosMath.spread(192, position % lineLength, lineLength),
+         y:
+            (index < alphabetSize ? 200 : 320) +
+            CosmosMath.spread(42, Math.floor(position / lineLength), Math.ceil(alphabetSize / lineLength))
+      };
    },
    nameLetterValidation: (char: string) => {
       return /[A-Za-z]/g.test(char);
+   },
+   nameValueTranslator(value: string) {
+      return value.toLowerCase();
    },
    nameQuitX: 0,
    nameBackspaceX: 0,
    nameDoneX: 0,
    nameConfirmX: 0,
    nameNoX: 0,
-   nameValueTranslator(value: string) {
-      return value.toLowerCase();
-   },
    nameYesX: 0,
    nameGoBackX: 0,
    saveLVX: 0,
@@ -294,5 +300,8 @@ export default {
    },
    textLengthPrecise(text: string) {
       return text.length;
+   },
+   textPunctuation(char: string) {
+      return /[\s\.\,\!\?\~\*\-]/g.test(char);
    }
 };

@@ -201,7 +201,7 @@ export default {
       asgor: 'そのなまえは　けっこう？',
       asgore: 'そのなまえは　ダメだ。',
       asriel: '…',
-      asrie: '…',
+      asrie: '... fine.',
    },
 
 

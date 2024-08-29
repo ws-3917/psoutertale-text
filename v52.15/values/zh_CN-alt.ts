@@ -201,7 +201,7 @@ export default {
       asgor: '可以？',
       asgore: '不可以。',
       asriel: '...',
-      asrie: '...',
+      asrie: '...行。',
 
       
       char: "...真正的名字？",

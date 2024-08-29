@@ -1,5 +1,5 @@
 import { content } from '../../../code/systems/assets';
-import { CosmosFont, CosmosKeyed, CosmosTyper } from '../../../code/systems/storyteller';
+import { CosmosFont, CosmosKeyed, CosmosMath, CosmosTyper } from '../../../code/systems/storyteller';
 
 // START-TRANSLATE
 
@@ -192,6 +192,7 @@ export default {
       
       asgor: 'Olur?',
       asgore: 'Olmaz.',
+      asrie: '... peki.',
       asriel: '...'
    },
 
@@ -208,35 +209,40 @@ export default {
    namePromptX: 0,
    nameValueY: 0,
    nameLetterMap: [
-      ['A', 'B', 'C', 'Ç', 'D', 'E', 'F', 'G'],
-      ['Ğ', 'H', 'I', 'İ', 'J', 'K', 'L', 'M'],
-      ['N', 'O', 'Ö', 'P', 'R', 'S', 'Ş', 'T'],
-      ['U', 'Ü', 'V', 'Y', 'Z'],
-      ['a', 'b', 'c', 'ç', 'd', 'e', 'f', 'g'],
-      ['ğ', 'h', 'ı', 'i', 'j', 'k', 'l', 'm'],
-      ['n', 'o', 'ö', 'p', 'r', 's', 'ş', 't'],
-      ['u', 'ü', 'v', 'y', 'z']
+      ['A', 'B', 'C', 'D', 'E', 'F', 'G'],
+      ['H', 'I', 'J', 'K', 'L', 'M', 'N'],
+      ['O', 'P', 'Q', 'R', 'S', 'T', 'U'],
+      ['V', 'W', 'X', 'Y', 'Z'],
+      ['a', 'b', 'c', 'd', 'e', 'f', 'g'],
+      ['h', 'i', 'j', 'k', 'l', 'm', 'n'],
+      ['o', 'p', 'q', 'r', 's', 't', 'u'],
+      ['v', 'w', 'x', 'y', 'z']
    ],
    nameLetterPosition: (index: number) => {
-      const x = (index % 29) % 8;
-      const y = Math.floor((index % 29) / 8);
-      if (index < 29) {
-         return { x: 120 + x * 56, y: 158 + y * 28 };
-      } else {
-         return { x: 120 + x * 56, y: 278 + y * 28 };
-      }
+      // variables
+      const alphabetSize = 26;
+      const lineLength = 7;
+
+      // computation
+      const position = index % alphabetSize;
+      return {
+         x: 312 + CosmosMath.spread(192, position % lineLength, lineLength),
+         y:
+            (index < alphabetSize ? 200 : 320) +
+            CosmosMath.spread(42, Math.floor(position / lineLength), Math.ceil(alphabetSize / lineLength))
+      };
    },
    nameLetterValidation: (char: string) => {
       return /[A-Za-z]/g.test(char);
+   },
+   nameValueTranslator(value: string) {
+      return value.toLowerCase();
    },
    nameQuitX: 0,
    nameBackspaceX: 0,
    nameDoneX: 0,
    nameConfirmX: 0,
    nameNoX: 0,
-   nameValueTranslator(value: string) {
-      return value.toLowerCase();
-   },
    nameYesX: 0,
    nameGoBackX: 0,
    saveLVX: 0,
@@ -294,5 +300,8 @@ export default {
    },
    textLengthPrecise(text: string) {
       return text.length;
+   },
+   textPunctuation(char: string) {
+      return /[\s\.\,\!\?\~\*\-]/g.test(char);
    }
 };
