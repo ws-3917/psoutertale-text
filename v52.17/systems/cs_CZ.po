@@ -337,7 +337,7 @@ msgid "Fill"
 msgstr "Vyplnit"
 
 msgid "Font Family"
-msgstr "Rodina písem "
+msgstr "Rodina písem"
 
 msgid "Font Size"
 msgstr "Velikost písma"
@@ -361,7 +361,7 @@ msgid "Inert"
 msgstr "Inertní"
 
 msgid "Key"
-msgstr "Klíč "
+msgstr "Klíč"
 
 msgid "Last Saved Time"
 msgstr "Poslední uložený čas"
@@ -421,10 +421,10 @@ msgid "Reverse"
 msgstr "Rezerva"
 
 msgid "Right"
-msgstr "Vpravo "
+msgstr "Vpravo"
 
 msgid "Room"
-msgstr "Pokoj"
+msgstr "Místnost"
 
 msgid "Room State"
 msgstr "Stav místnosti"

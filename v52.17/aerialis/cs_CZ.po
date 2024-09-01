@@ -120,10 +120,10 @@ msgid "<32>* The Royal Guard'll be all over ya for that sorta thing."
 msgstr "<32>* Královská garda se na vás kvůli takové věci vrhne."
 
 msgid "<32>* If I were ya, I'd quit while I was ahead."
-msgstr ""
+msgstr "<32>* Kdybych byl vámi, skončil bych, dokud jsem byl napřed."
 
 msgid "<32>* But that's just my take."
-msgstr ""
+msgstr "<32>* Ale to je jen můj názor."
 
 msgid ""
 "<32>{#p/basic}* Huhehehaw...\n"

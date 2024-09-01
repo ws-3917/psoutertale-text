@@ -31,10 +31,10 @@ msgid "<32>{#p/human}* (You know what must be done.)"
 msgstr "<32>{#p/human}* (Víte, co je třeba udělat.)"
 
 msgid "REBOOT IN $(x)"
-msgstr "RESTARTUJE SE V $(x)"
+msgstr "RESTARTUJE V $(x)"
 
 msgid "{#p/human}(You take a deep breath.)"
-msgstr "{#p/human}(You take a deep breath.)"
+msgstr "{#p/human}(Zhluboka se nadechnete.)"
 
 msgid "(You're filled with determination.)"
 msgstr "(Jsi plný odhodlání.)"
@@ -52,20 +52,19 @@ msgid "{@fill=#ff993d}Get back out there!"
 msgstr "{@fill=#ff993d}Vraťte se tam!"
 
 msgid "{#p/human}{#v/3}{@fill=#003cff}You know what you're capable of."
-msgstr "{#p/člověk} {#v/3} {@fill=#003cff} Víte, čeho jste schopni."
+msgstr "{#p/human}{#v/3}{@fill=#003cff} Víte, čeho jste schopni."
 
 msgid "{@fill=#003cff}Don't hold back!"
 msgstr "{@fill=#003cff} Nezdržujte se!"
 
 msgid "{#p/human}{#v/4}{@fill=#d535d9}You know you can survive this..."
-msgstr "{#p/člověk} {#v/4} {@fill=#d535d9} Víš, že tohle můžeš přežít..."
+msgstr "{#p/human}{#v/4}{@fill=#d535d9} Víš, že tohle můžeš přežít..."
 
 msgid "{@fill=#d535d9}Keep moving forward."
 msgstr "{@fill=#d535d9} Pokračujte vpřed."
 
 msgid "{#p/human}{#v/5}{@fill=#00c000}You're this world's last hope..."
-msgstr ""
-"{#p/člověk} {#v/5} {@fill=#00c000} Jsi poslední naděje tohoto světa..."
+msgstr "{#p/human}{#v/5}{@fill=#00c000} Jsi poslední naděje tohoto světa..."
 
 msgid "{@fill=#00c000}Believe in yourself!"
 msgstr "{@fill=#00c000} Věřte si!"
@@ -119,141 +118,149 @@ msgid "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}The entity looms above..."
 msgstr "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}Entita se tyčí nad ..."
 
 msgid "<99>{*}{@fill=#ff993d}With BRAVERY, you may overcome it!"
-msgstr "­<99>{*}{@fill=#ff993d}SE STATEČNOSTEM to můžete překonat!"
+msgstr "<99>{*}{@fill=#ff993d}SE STATEČNOSTEM to můžete překonat!"
 
 msgid ""
 "<99>{*}{@fill=#faff29}With {@mystify=INTEGRITY}INTEGRITY{@mystify=}, they "
 "can escape."
 msgstr ""
+"<99>{*}{@fill=#faff29}S {@mystify=INTEGRITOU}INTEGRITOU{@mystify=}, mohou "
+"uniknout."
 
 msgid "<99>{*}{#p/human}{#v/3}{@fill=#003cff}I'll need my trusty Hoverboots."
 msgstr ""
+"<99>{*}{#p/human}{#v/3}{@fill=#003cff}Budu potřebovat své věrné vznášedla."
 
 msgid "<99>{*}{#p/human}{#v/3}{@fill=#003cff}The entity holds its position."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/3}{@fill=#003cff}Entita drží svou pozici."
 
 msgid "<99>{*}{@fill=#003cff}With INTEGRITY, you can surpass it."
-msgstr ""
+msgstr "<99>{*}{@fill=#003cff}S INTEGRITOU ji můžete překonat."
 
 msgid ""
 "<99>{*}{@fill=#faff29}With {@mystify=PERSEVERANCE}PERSEVERANCE{@mystify=}, "
 "they can escape."
 msgstr ""
+"<99>{*}{@fill=#faff29}S {@mystify=VYTRVALOSTEM}VYTRVALOSTEM{@mystify=}, "
+"mohou uniknout."
 
 msgid ""
 "<99>{*}{#p/human}{#v/4}{@fill=#d535d9}A single Datapad can go a long way."
 msgstr ""
+"<99>{*}{#p/human}{#v/4}{@fill=#d535d9}Jeden Datapad může udělat hodně."
 
 msgid "<99>{*}{#p/human}{#v/4}{@fill=#d535d9}The entity is losing its hold."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/4}{@fill=#d535d9}Entita ztrácí svou moc."
 
 msgid "<99>{*}{@fill=#d535d9}With PERSEVERANCE, you can outlast it!"
-msgstr ""
+msgstr "<99>{*}{@fill=#d535d9}S VYTRVALOSTEM to můžete přežít!"
 
 msgid ""
 "<99>{*}{@fill=#faff29}With {@mystify=KINDNESS}KINDNESS{@mystify=}, they can "
 "escape."
 msgstr ""
+"<99>{*}{@fill=#faff29}S {@mystify=LASKAVOSTI}LASKAVOSTI{@mystify=}, mohou "
+"uniknout."
 
 msgid "<99>{*}{#p/human}{#v/5}{@fill=#00c000}The Tablaphone will set me free!"
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/5}{@fill=#00c000}Tablafon mě osvobodí!"
 
 msgid "<99>{*}{#p/human}{#v/5}{@fill=#00c000}The entity is destabilizing..."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/5}{@fill=#00c000}Entita destabilizuje..."
 
 msgid "<99>{*}{@fill=#00c000}With KINDNESS, you can outshine it..."
-msgstr ""
+msgstr "<99>{*}{@fill=#00c000}S LASKAVOSTÍ ji můžete zastínit..."
 
 msgid ""
 "<99>{*}{#p/human}{#v/6}{@fill=#faff29}The lost SOULs called out to you."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/6}{@fill=#faff29}Ztracené DUŠE na vás volaly."
 
 msgid "<99>{*}{@fill=#faff29}With JUSTICE, you have answered."
-msgstr ""
+msgstr "<99>{*}{@fill=#faff29}S SPRAVEDLNOSTÍ, odpověděl jsi."
 
 msgid "<99>{*}{@fill=#faff29}You have freed them of their prisons."
-msgstr ""
+msgstr "<99>{*}{@fill=#faff29}Osvobodil jsi je z vězení jejich."
 
 msgid "<99>{*}{#p/human}{#v/1}{@fill=#42fcff}At last."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/1}{@fill=#42fcff}Konečně."
 
 msgid "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}You're a hero!"
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}Jsi hrdina!"
 
 msgid "<99>{*}{#p/human}{#v/3}{@fill=#003cff}You've done the right thing."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/3}{@fill=#003cff}Udělal jsi správnou věc."
 
 msgid "<99>{*}{#p/human}{#v/4}{@fill=#d535d9}Thank you..."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/4}{@fill=#d535d9}Děkuji vám..."
 
 msgid "<99>{*}{#p/human}{#v/5}{@fill=#00c000}You're the best...!"
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/5}{@fill=#00c000}Jsi nejlepší...!"
 
 msgid "<99>{*}{#p/human}{#v/6}{@fill=#faff29}Our power is yours now."
-msgstr ""
+msgstr "<99>{*}{#p/human}{#v/6}{@fill=#faff29}Naše moc je nyní vaše."
 
 msgid "<99>{*}{@fill=#faff29}With it, the entity will collapse."
-msgstr ""
+msgstr "<99>{*}{@fill=#faff29}S ním se entita zhroutí."
 
 msgid "<99>{*}{@fill=#faff29}Then..."
-msgstr ""
+msgstr "<99>{*}{@fill=#faff29}Pak..."
 
 msgid "<99>{*}{@fill=#faff29}... you will do what you must."
-msgstr ""
+msgstr "<99>{*}{@fill=#faff29}... uděláte, co musíte."
 
 msgid "<99>{*}{@fill=#faff29}Now, end this!"
-msgstr ""
+msgstr "<99>{*}{@fill=#faff29}A teď to ukončete!"
 
 msgid "<99>{*}{#p/human}(Press [Z] to shoot.)"
-msgstr ""
+msgstr "<99>{*}{#p/human}(Pro střelit stiskněte [Z].)"
 
 msgid "REBOOTING..."
-msgstr ""
+msgstr "RESTARTUJE..."
 
 msgid "READY"
-msgstr ""
+msgstr "PŘIPRAV"
 
 msgid "WARNING..."
-msgstr ""
+msgstr "VAROVÁNÍ..."
 
 msgid "FILE 1 SAVED"
-msgstr ""
+msgstr "SOUBOR 1 ULOŽEN"
 
 msgid "FILE 1 LOADED"
-msgstr ""
+msgstr "SOUBOR 1 NAČTEN"
 
 msgid "FILE 2 SAVED"
-msgstr ""
+msgstr "SOUBOR 2 ULOŽEN"
 
 msgid "FILE 2 LOADED"
-msgstr ""
+msgstr "SOUBOR 2 NAČTEN"
 
 msgid "FILE 3 SAVED"
-msgstr ""
+msgstr "SOUBOR 3 ULOŽEN"
 
 msgid "FILE 3 LOADED"
-msgstr ""
+msgstr "SOUBOR 3 NAČTEN"
 
 msgid "FILE 4 SAVED"
-msgstr ""
+msgstr "SOUBOR 4 ULOŽEN"
 
 msgid "FILE 4 LOADED"
-msgstr ""
+msgstr "SOUBOR 4 NAČTEN"
 
 msgid "FILE 5 SAVED"
-msgstr ""
+msgstr "SOUBOR 5 ULOŽEN"
 
 msgid "FILE 5 LOADED"
-msgstr ""
+msgstr "SOUBOR 5 NAČTEN"
 
 msgid "FILE 6 SAVED"
-msgstr ""
+msgstr "SOUBOR 6 ULOŽEN"
 
 msgid "FILE 6 LOADED"
-msgstr ""
+msgstr "SOUBOR 6 NAČTEN"
 
 msgid "<32>{#p/human}* (You decide not to equip.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Rozhodneš se nevybavit.)"
 
 msgid "<26>{#p/asriel2}{#f/13}* As I was going to say..."
 msgstr ""

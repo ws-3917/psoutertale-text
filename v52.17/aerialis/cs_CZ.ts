@@ -85,8 +85,8 @@ export default {
       businessKILLER: [
          '<32>{#p/basic}{#npc/a}* Jen abys to věděl, chlapče...',
          "<32>* Královská garda se na vás kvůli takové věci vrhne.",
-         "<32>* If I were ya, I'd quit while I was ahead.",
-         "<32>* But that's just my take."
+         "<32>* Kdybych byl vámi, skončil bych, dokud jsem byl napřed.",
+         "<32>* Ale to je jen můj názor."
       ],
       harpyKILLER: [ "<32>{#p/basic}* Huhehehaw...\n* Golly gosharoo, I think I'm in mortal danger!" ],
       shopclosed: [ '<32>{#p/human}* (But there was nothing left for you to do here.)' ],

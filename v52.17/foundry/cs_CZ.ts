@@ -66,9 +66,9 @@ export default {
          '<25>{#f/1}* Jak jsi je mohl slyšet...?',
          '<25>{#f/0}* Je to téměř sto let, co jsem tato slova pronesl.',
          '<25>{#f/5}* ...',
-         '<25>{#f/1}* Well...\n* I will keep what you have told me in mind.'
+         '<25>{#f/1}* No...\n* Budu mít na paměti, co jste mi řekl.'
       ],
-      darktoriel5b: [ '<25>{#p/toriel}{#f/1}* Well, it would be a good time for you to go.' ],
+      darktoriel5b: [ '<25>{#p/toriel}{#f/1}* No, byl by to dobrý čas, kdybys šel.' ],
       darktoriel6: [
          '<25>{#f/5}* I know the transport ship is leaving soon, and I will not miss it.',
          '<25>{#f/9}* For now, however, I must collect my thoughts.',

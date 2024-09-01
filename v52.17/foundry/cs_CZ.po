@@ -118,9 +118,11 @@ msgid ""
 "<25>{#f/1}* Well...\n"
 "* I will keep what you have told me in mind."
 msgstr ""
+"<25>{#f/1}* No...\n"
+"* Budu mít na paměti, co jste mi řekl."
 
 msgid "<25>{#p/toriel}{#f/1}* Well, it would be a good time for you to go."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* No, byl by to dobrý čas, kdybys šel."
 
 msgid ""
 "<25>{#f/5}* I know the transport ship is leaving soon, and I will not miss "

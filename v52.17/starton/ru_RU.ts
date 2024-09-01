@@ -7083,44 +7083,44 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* (45 ОЗ. Вместо того чтобы съесть его, ты считаешь, что должен защитить этот предмет.)' ]
-            : [ '<32>{#p/basic}* \"Computer Chip\" Heals 45 HP\n* Please take this to the edge of the galaxy.' ],
-      name: 'Computer Chip',
+            : [ '<32>{#p/basic}* \"Компьютерный Чип\" восстанавливает 45 HP\n* Пожалуйста, отнеси это на край галактики.' ],
+      name: 'Компьютерный Чип',
       use: () => [
-         '<32>{#p/human}* (You bit into the Computer Chip.)',
+         '<32>{#p/human}* (Ты укусил Компьютерный Чип.)',
          ...(SAVE.data.b.svr && !SAVE.data.b.freedom
             ? [ "<25>{#p/asriel1}{#f/15}* Ух... ты разве не собирался защитить его?" ]
             : world.darker || SAVE.data.b.ufokinwotm8
             ? []
             : calcHP() - SAVE.data.n.hp > 45
             ? [ '<32>{#p/basic}* Seems your HP integer was increased.' ]
-            : [ '<32>{#p/basic}* Seems your injuries have been overwritten.' ])
+            : [ '<32>{#p/basic}* Похоже, твои ранения были перезаписаны.' ])
       ]
    },
    i_eye: {
       battle: {
-         description: 'A portable force field.',
-         name: 'Emitter'
+         description: 'Портативное силовое поле.',
+         name: 'Излучатель'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Field Emitter.)' ],
+      drop: [ '<32>{#p/human}* (Ты выбрасываешь Излучателя Поля).' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (7 DF.)' ]
-            : [ '<32>{#p/basic}* \"Field Emitter\" (7 DF)\n* A portable force field.' ],
-      name: 'Field Emitter',
-      use: [ '<32>{#p/human}* (You deployed the Field Emitter.)' ]
+            ? [ '<32>{#p/human}* (7 ЗЩТ.)' ]
+            : [ '<32>{#p/basic}* \"Излучатель Поля\" (7 ЗЩТ)\n* Портативное силовое поле.' ],
+      name: 'Излучатель Поля',
+      use: [ '<32>{#p/human}* (Ты развернул Излучателя поля.)' ]
    },
    i_eye_x: {
       battle: {
          description: 'Несколько недостаточно мощное портативное силовое поле.',
          name: 'Emitter?'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Field Emitter.)' ],
+      drop: [ '<32>{#p/human}* (Ты выбрасываешь Излучателя Поля).' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* (5 DF.)' ]
             : [ '<32>{#p/basic}* \"Field Emitter?\" (5 DF)\n* A somewhat underpowered portable force field.' ],
       name: 'Field Emitter?',
-      use: [ '<32>{#p/human}* (You deployed the Field Emitter.)' ]
+      use: [ '<32>{#p/human}* (Ты развернул Излучателя поля.)' ]
    },
    i_fruit: {
       battle: {

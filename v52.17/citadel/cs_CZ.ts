@@ -26,20 +26,20 @@ export default {
          [ '<32>{#p/human}* (...)', '<32>{#p/human}* (Víte, co je třeba udělat.)' ]
       ],
       hypertext: {
-         count: 'RESTARTUJE SE V $(x)',
-         death1: [ '{#p/human}(You take a deep breath.)', "(Jsi plný odhodlání.)" ],
+         count: 'RESTARTUJE V $(x)',
+         death1: [ '{#p/human}(Zhluboka se nadechnete.)', "(Jsi plný odhodlání.)" ],
          death2: [
             "{#p/human}{#v/1}{@fill=#42fcff}Nakonec to bude v pořádku...",
             '{@fill=#42fcff}Jen se uklidněte...'
          ],
          death3: [ '{#p/human}{#v/2}{@fill=#ff993d}Teď není čas to vzdávat.', '{@fill=#ff993d}Vraťte se tam!' ],
-         death4: [ "{#p/člověk} {#v/3} {@fill=#003cff} Víte, čeho jste schopni.", "{@fill=#003cff} Nezdržujte se!" ],
+         death4: [ "{#p/human}{#v/3}{@fill=#003cff} Víte, čeho jste schopni.", "{@fill=#003cff} Nezdržujte se!" ],
          death5: [
-            '{#p/člověk} {#v/4} {@fill=#d535d9} Víš, že tohle můžeš přežít...',
+            '{#p/human}{#v/4}{@fill=#d535d9} Víš, že tohle můžeš přežít...',
             '{@fill=#d535d9} Pokračujte vpřed.'
          ],
          death6: [
-            "{#p/člověk} {#v/5} {@fill=#00c000} Jsi poslední naděje tohoto světa...",
+            "{#p/human}{#v/5}{@fill=#00c000} Jsi poslední naděje tohoto světa...",
             '{@fill=#00c000} Věřte si!'
          ],
          death7: [ "{#p/human}{#v/6}\n{@fill=#faff29}Je to jen otázka času." ],
@@ -61,68 +61,68 @@ export default {
          ],
          orange2: [
             '<99>{*}{#p/human}{#v/2}{@fill=#ff993d}Entita se tyčí nad ...',
-            '­<99>{*}{@fill=#ff993d}SE STATEČNOSTEM to můžete překonat!'
+            '<99>{*}{@fill=#ff993d}SE STATEČNOSTEM to můžete překonat!'
          ],
          blue1: [
             '<99>{*}{#p/human}{#v/6}{@fill=#faff29}Ztracená DUŠE na tebe volá.',
-            '<99>{*}{@fill=#faff29}With {@mystify=INTEGRITY}INTEGRITY{@mystify=}, they can escape.',
-            "<99>{*}{#p/human}{#v/3}{@fill=#003cff}I'll need my trusty Hoverboots."
+            '<99>{*}{@fill=#faff29}S {@mystify=INTEGRITOU}INTEGRITOU{@mystify=}, mohou uniknout.',
+            "<99>{*}{#p/human}{#v/3}{@fill=#003cff}Budu potřebovat své věrné vznášedla."
          ],
          blue2: [
-            '<99>{*}{#p/human}{#v/3}{@fill=#003cff}The entity holds its position.',
-            '<99>{*}{@fill=#003cff}With INTEGRITY, you can surpass it.'
+            '<99>{*}{#p/human}{#v/3}{@fill=#003cff}Entita drží svou pozici.',
+            '<99>{*}{@fill=#003cff}S INTEGRITOU ji můžete překonat.'
          ],
          purple1: [
             '<99>{*}{#p/human}{#v/6}{@fill=#faff29}Ztracená DUŠE na tebe volá.',
-            '<99>{*}{@fill=#faff29}With {@mystify=PERSEVERANCE}PERSEVERANCE{@mystify=}, they can escape.',
-            '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}A single Datapad can go a long way.'
+            '<99>{*}{@fill=#faff29}S {@mystify=VYTRVALOSTEM}VYTRVALOSTEM{@mystify=}, mohou uniknout.',
+            '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}Jeden Datapad může udělat hodně.'
          ],
          purple2: [
-            '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}The entity is losing its hold.',
-            '<99>{*}{@fill=#d535d9}With PERSEVERANCE, you can outlast it!'
+            '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}Entita ztrácí svou moc.',
+            '<99>{*}{@fill=#d535d9}S VYTRVALOSTEM to můžete přežít!'
          ],
          green1: [
             '<99>{*}{#p/human}{#v/6}{@fill=#faff29}Ztracená DUŠE na tebe volá.',
-            '<99>{*}{@fill=#faff29}With {@mystify=KINDNESS}KINDNESS{@mystify=}, they can escape.',
-            '<99>{*}{#p/human}{#v/5}{@fill=#00c000}The Tablaphone will set me free!'
+            '<99>{*}{@fill=#faff29}S {@mystify=LASKAVOSTI}LASKAVOSTI{@mystify=}, mohou uniknout.',
+            '<99>{*}{#p/human}{#v/5}{@fill=#00c000}Tablafon mě osvobodí!'
          ],
          green2: [
-            '<99>{*}{#p/human}{#v/5}{@fill=#00c000}The entity is destabilizing...',
-            '<99>{*}{@fill=#00c000}With KINDNESS, you can outshine it...'
+            '<99>{*}{#p/human}{#v/5}{@fill=#00c000}Entita destabilizuje...',
+            '<99>{*}{@fill=#00c000}S LASKAVOSTÍ ji můžete zastínit...'
          ],
          yellow: [
-            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}The lost SOULs called out to you.',
-            '<99>{*}{@fill=#faff29}With JUSTICE, you have answered.',
-            '<99>{*}{@fill=#faff29}You have freed them of their prisons.',
-            '<99>{*}{#p/human}{#v/1}{@fill=#42fcff}At last.',
-            "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}You're a hero!",
-            "<99>{*}{#p/human}{#v/3}{@fill=#003cff}You've done the right thing.",
-            '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}Thank you...',
-            "<99>{*}{#p/human}{#v/5}{@fill=#00c000}You're the best...!",
-            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}Our power is yours now.',
-            '<99>{*}{@fill=#faff29}With it, the entity will collapse.',
-            '<99>{*}{@fill=#faff29}Then...',
-            '<99>{*}{@fill=#faff29}... you will do what you must.',
-            '<99>{*}{@fill=#faff29}Now, end this!',
-            '<99>{*}{#p/human}(Press [Z] to shoot.)'
+            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}Ztracené DUŠE na vás volaly.',
+            '<99>{*}{@fill=#faff29}S SPRAVEDLNOSTÍ, odpověděl jsi.',
+            '<99>{*}{@fill=#faff29}Osvobodil jsi je z vězení jejich.',
+            '<99>{*}{#p/human}{#v/1}{@fill=#42fcff}Konečně.',
+            "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}Jsi hrdina!",
+            "<99>{*}{#p/human}{#v/3}{@fill=#003cff}Udělal jsi správnou věc.",
+            '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}Děkuji vám...',
+            "<99>{*}{#p/human}{#v/5}{@fill=#00c000}Jsi nejlepší...!",
+            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}Naše moc je nyní vaše.',
+            '<99>{*}{@fill=#faff29}S ním se entita zhroutí.',
+            '<99>{*}{@fill=#faff29}Pak...',
+            '<99>{*}{@fill=#faff29}... uděláte, co musíte.',
+            '<99>{*}{@fill=#faff29}A teď to ukončete!',
+            '<99>{*}{#p/human}(Pro střelit stiskněte [Z].)'
          ],
-         boot: 'REBOOTING...',
-         init: 'READY',
-         warn: 'WARNING...',
-         file1saved: 'FILE 1 SAVED',
-         file1loaded: 'FILE 1 LOADED',
-         file2saved: 'FILE 2 SAVED',
-         file2loaded: 'FILE 2 LOADED',
-         file3saved: 'FILE 3 SAVED',
-         file3loaded: 'FILE 3 LOADED',
-         file4saved: 'FILE 4 SAVED',
-         file4loaded: 'FILE 4 LOADED',
-         file5saved: 'FILE 5 SAVED',
-         file5loaded: 'FILE 5 LOADED',
-         file6saved: 'FILE 6 SAVED',
-         file6loaded: 'FILE 6 LOADED'
+         boot: 'RESTARTUJE...',
+         init: 'PŘIPRAV',
+         warn: 'VAROVÁNÍ...',
+         file1saved: 'SOUBOR 1 ULOŽEN',
+         file1loaded: 'SOUBOR 1 NAČTEN',
+         file2saved: 'SOUBOR 2 ULOŽEN',
+         file2loaded: 'SOUBOR 2 NAČTEN',
+         file3saved: 'SOUBOR 3 ULOŽEN',
+         file3loaded: 'SOUBOR 3 NAČTEN',
+         file4saved: 'SOUBOR 4 ULOŽEN',
+         file4loaded: 'SOUBOR 4 NAČTEN',
+         file5saved: 'SOUBOR 5 ULOŽEN',
+         file5loaded: 'SOUBOR 5 NAČTEN',
+         file6saved: 'SOUBOR 6 ULOŽEN',
+         file6loaded: 'SOUBOR 6 NAČTEN'
       },
-      noequip: [ '<32>{#p/human}* (You decide not to equip.)' ],
+      noequip: [ '<32>{#p/human}* (Rozhodneš se nevybavit.)' ],
       genotext: {
          monologue: [
             (re: boolean) => [

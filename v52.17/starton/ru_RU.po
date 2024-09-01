@@ -15662,41 +15662,45 @@ msgid ""
 "<32>{#p/basic}* \"Computer Chip\" Heals 45 HP\n"
 "* Please take this to the edge of the galaxy."
 msgstr ""
+"<32>{#p/basic}* \"Компьютерный Чип\" восстанавливает 45 HP\n"
+"* Пожалуйста, отнеси это на край галактики."
 
 msgid "Computer Chip"
-msgstr ""
+msgstr "Компьютерный Чип"
 
 msgid "<32>{#p/human}* (You bit into the Computer Chip.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты укусил Компьютерный Чип.)"
 
 msgid "<32>{#p/basic}* Seems your HP integer was increased."
 msgstr ""
 
 msgid "<32>{#p/basic}* Seems your injuries have been overwritten."
-msgstr ""
+msgstr "<32>{#p/basic}* Похоже, твои ранения были перезаписаны."
 
 msgid "A portable force field."
-msgstr ""
+msgstr "Портативное силовое поле."
 
 msgid "Emitter"
-msgstr ""
+msgstr "Излучатель"
 
 msgid "<32>{#p/human}* (You throw away the Field Emitter.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты выбрасываешь Излучателя Поля)."
 
 msgid "<32>{#p/human}* (7 DF.)"
-msgstr ""
+msgstr "<32>{#p/human}* (7 ЗЩТ.)"
 
 msgid ""
 "<32>{#p/basic}* \"Field Emitter\" (7 DF)\n"
 "* A portable force field."
 msgstr ""
+"<32>{#p/basic}* \"Излучатель Поля\" (7 ЗЩТ)\n"
+"* Портативное силовое поле."
 
 msgid "Field Emitter"
-msgstr ""
+msgstr "Излучатель Поля"
 
 msgid "<32>{#p/human}* (You deployed the Field Emitter.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты развернул Излучателя поля.)"
 
 msgid "A somewhat underpowered portable force field."
 msgstr "Несколько недостаточно мощное портативное силовое поле."
