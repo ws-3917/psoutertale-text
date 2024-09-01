@@ -2074,7 +2074,7 @@ msgid "LANGUAGE"
 msgstr ""
 
 msgid "ENGLISH"
-msgstr ""
+msgstr "FRANÇAIS"
 
 msgid "SOUND FX"
 msgstr ""

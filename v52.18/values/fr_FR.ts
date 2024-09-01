@@ -3,7 +3,7 @@ import { CosmosFont, CosmosKeyed, CosmosMath, CosmosTyper } from '../../../code/
 
 // START-TRANSLATE
 
-export const LANGUAGE = 'en_US';
+export const LANGUAGE = 'fr_FR';
 
 export default {
    cellInventoryX: 0,

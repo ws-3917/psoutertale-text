@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 
 msgid "en_US"
-msgstr ""
+msgstr "fr_FR"
 
 msgid ""
 msgstr ""
