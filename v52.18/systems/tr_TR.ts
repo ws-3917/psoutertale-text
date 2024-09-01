@@ -442,7 +442,7 @@ export default {
                }
             },
             moldsmal: {
-               name: 'GELATINI',
+               name: 'GELATİNİ',
                author: 'spacey_432',
                text: {
                   basic: 'Yeni Bir Uzay\nİstasyonu Buldu',
@@ -462,7 +462,7 @@ export default {
                }
             },
             migosp: {
-               name: 'SILENTE',
+               name: 'SİLENTE',
                author: 'ScarletScaledDragon',
                text: {
                   basic: 'İnanılmaz\nUzlaşmacı',
@@ -477,7 +477,7 @@ export default {
                text: {
                   basic: 'Kurusıkı\nAtıyor',
                   spare: 'Eli Çabuk\nSihirbaz',
-                  flirt: 'Tam Kalbinden\nVurdu',
+                  flirt: 'Tam Kalbinden\nVuruldu',
                   bully: 'Sıkıyor Ve\nDua Ediyor'
                }
             },
@@ -527,12 +527,12 @@ export default {
                text: {
                   basic: 'Her Gün\nEkilmeye Devam',
                   spare: 'Artık Daha\nAz Ekiliyor',
-                  flirt: 'Islah Olma\nYolunda',
+                  flirt: 'Kendini Affettirme\nYolunda',
                   bully: ''
                }
             },
             mouse: {
-               name: 'WHIZKARAT',
+               name: 'WHİZKARAT',
                author: 'Zaxento The Greedy & semi',
                text: {
                   basic: 'Benlik Krizi\nAltında',
@@ -552,7 +552,7 @@ export default {
                }
             },
             lesserdog: {
-               name: 'CANIS MINOR',
+               name: 'CANİS MİNOR',
                author: 'major_memestar',
                text: {
                   basic: 'İlgi Arayışında',
@@ -565,14 +565,14 @@ export default {
                name: 'DOGAMY & DOGARESSA',
                author: 'major_memestar',
                text: {
-                  basic: 'Hala Git Getir\nOyununu Düşünüyorlar',
+                  basic: 'Hala Git Getir\nOynamayı Düşünüyorlar',
                   spare: 'Yavru Köpek\nBakışı Şampiyonları',
                   flirt: "Birbirlerinin\nBakışlarında Kayıplar",
                   bully: 'Defansif Köpek\nBakışı Aktif'
                }
             },
             greatdog: {
-               name: 'CANIS MAJOR',
+               name: 'CANİS MAJOR',
                author: 'major_memestar',
                text: {
                   basic: "Hayatın Değişiminden\nBihaber",
@@ -582,7 +582,7 @@ export default {
                }
             },
             woshua: {
-               name: 'SKRUBBINGTON',
+               name: 'SKRUBBİNGTON',
                author: 'Discarded Vessel',
                text: {
                   basic: 'Sadece Yüzde\n99.1 Arınmış',
@@ -602,7 +602,7 @@ export default {
                }
             },
             radtile: {
-               name: 'RADTILE',
+               name: 'RADTİLE',
                author: 'Balgamlı Kedi & Zaxento The Greedy',
                text: {
                   basic: 'Kusurluluk\nİçinde Yüzüyor',
@@ -642,7 +642,7 @@ export default {
                }
             },
             pyrope: {
-               name: 'HOTWIRE',
+               name: 'HOTWİRE',
                author: 'semi',
                text: {
                   basic: 'Ritmin Düşeceği\nAnı Bekliyor',
@@ -662,7 +662,7 @@ export default {
                }
             },
             perigee: {
-               name: 'PERIGEE',
+               name: 'PERİGEE',
                author: 'Discarded Vessel',
                text: {
                   basic: 'Yeni Bir Gün,\nYeni Bir Sorun',
@@ -685,9 +685,9 @@ export default {
                name: 'GLYDE',
                author: 'Burge',
                text: {
-                  basic: 'Pek Yeğ Bir\nİş Ortağı Değil',
+                  basic: 'Pek Uygun Bir\nİş Ortağı Değil',
                   spare: 'Normalden Daha\nAz Sıkıntılı',
-                  flirt: 'Pek Yeğ Bir\nYatak Arkadaşı Değil',
+                  flirt: 'Pek Uygun Bir\nYatak Arkadaşı Değil',
                   bully: ''
                }
             },
@@ -938,7 +938,7 @@ export default {
       heal4: '* (CAN\'ın tamamen sıfırlandı.)',
       heal5: '* ($(x) CAN kazandın.)',
 
-      item1: '{@stretch=0.5}KULLAN',
+      item1: '\xa7stretch=0.5\xa7KULLAN',
       item2: 'KUŞAN',
       item3: 'BİLGİ',
       item4: 'BIRAK',
@@ -999,7 +999,7 @@ export default {
       stat4: 'ZIRH',
       stat5: 'ALTIN',
       stat6: 'EXP',
-      stat7: 'SONRAKİ',
+      stat7: '\xa7stretch=0.5\xa7SONRAKİ',
       stat8: '§fill=#ff0§Uyarı:\nAsıl zaman\nçizelgesi\ndeğil.',
       stat9: 'ÖLEN',
       stat10: 'ZORBA',

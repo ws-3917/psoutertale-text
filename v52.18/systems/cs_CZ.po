@@ -2074,7 +2074,7 @@ msgid "[PRESS Z OR ENTER]"
 msgstr ""
 
 msgid "LV"
-msgstr ""
+msgstr "ÚN"
 
 msgid ""
 "§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§"

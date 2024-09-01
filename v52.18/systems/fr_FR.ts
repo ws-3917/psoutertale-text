@@ -2,50 +2,50 @@
 
 export default {
    battle: {
-      death0: [ '(Zhluboka se nadechnete.)', "(Jsi plný odhodlání.)" ],
-      death1: [ 'Ještě se nesmíš vzdát...', '$(name)!\nZůstaňte odhodlaní...' ],
-      death2: [ 'Náš osud spočívá na tobě...', '$(name)!\nZůstaňte odhodlaní...' ],
-      death3: [ "Budeš v pořádku!", '$(name)!\nZůstaňte odhodlaní...' ],
-      death4: [ "Neztrácejte naději!", '$(name)!\nZůstaňte odhodlaní...' ],
-      death5: [ 'Teď to nemůže skončit!', '$(name)!\nZůstaňte odhodlaní...' ],
+      death0: [ '(You take a deep breath.)', "(You're filled with determination.)" ],
+      death1: [ 'You cannot give up just yet...', '$(name)!\nStay determined...' ],
+      death2: [ 'Our fate rests upon you...', '$(name)!\nStay determined...' ],
+      death3: [ "You're going to be alright!", '$(name)!\nStay determined...' ],
+      death4: [ "Don't lose hope!", '$(name)!\nStay determined...' ],
+      death5: [ 'It cannot end now!', '$(name)!\nStay determined...' ],
 
-      flee1: '    *Utekl jsi...',
-      flee2: "        * Jsem odsud pryč.",
-      flee3: "    * Mám lepší práci.",
-      flee4: "    * Nezpomaluj mě.",
-      flee5: '    * Utekl jsi s $(x) BP\n      a $(y)Z.',
+      flee1: '    * Escaped...',
+      flee2: "    * I'm outta here.",
+      flee3: "    * I've got better to do.",
+      flee4: "    * Don't slow me down.",
+      flee5: '    * Ran away with $(x) EXP\n      and $(y)G.',
 
-      mercy_assist: '* Asistence',
-      mercy_flee: '* Utéct',
-      mercy_spare: '* Ušetřete',
+      mercy_assist: '* Assist',
+      mercy_flee: '* Flee',
+      mercy_spare: '* Spare',
 
-      victory1: '<32>{#p/story}* YOU WON!\n* You earned $(x) BP and $(y)Z.',
-      victory2: '<32>{#p/story}* VYHRÁLI JSTE!\n* Dostali jste $(x) BP a $(y)Z.\n* Vaše ÚN vzrostla.'
+      victory1: '<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.',
+      victory2: '<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.\n* Your LOVE increased.'
    },
 
    developer: {
       console: {
-         header: 'CHYBA',
+         header: 'ERROR',
          p_resume: {
-            header: 'PROPUSTIT',
-            resume: 'Klepnutím zavřít'
+            header: 'DISMISS',
+            resume: 'Click To Dismiss'
          },
-         blurb: 'Došlo k chybě! Prosím o zaslání\nsnímek obrazovky vývojáři.'
+         blurb: 'An error occured! Please send\nscreenshot to developer.'
       },
       control: {
-         tab: 'ŘÍZENÍ',
-         headers: [ 'GENERÁL', 'BITVA' ],
+         tab: 'CONTROL',
+         headers: [ 'GENERAL', 'BATTLE' ],
          items: [
             [
-               'OpravitHudba',
-               'OpravitHráč',
-               'NekonečnýG',
-               'Interagujte',
-               'Vstup',
-               'Pohyb',
+               'FixMusic',
+               'FixPlayer',
+               'InfiniteG',
+               'Interact',
+               'Input',
+               'Movement',
                'Noclip',
-               'Uložit',
-               'PřeskočitText',
+               'Save',
+               'SkipText',
                'Freecam'
             ],
             [
@@ -54,50 +54,50 @@ export default {
                'Exit',
                'ResetBox',
                'ResetMenu',
-               'MůžeUtéct',
-               'NekonečnáHP',
+               'CanFlee',
+               'InfiniteHP',
                'PacifyAll',
-               'Sebevražda',
+               'Suicide',
                'WeakenAll'
             ]
          ],
          p_speed: {
-            fps: '$(x) SZS',
-            halt: 'Zastavit',
-            header: 'RYCHLOST HRY',
-            multiplier: '$(x)x ',
-            next: 'Více',
-            prev: 'Méně ',
-            sec: '$(x)s/snímek'
+            fps: '$(x) FPS',
+            halt: 'Halt',
+            header: 'GAME SPEED',
+            multiplier: '$(x)x',
+            next: 'More',
+            prev: 'Less',
+            sec: '$(x)s/frame'
          }
       },
       godhome: {
-         tab: 'KMOTR',
+         tab: 'GODHOME',
          p_teleport: {
-            header: 'POKOJ',
-            action: 'Teleportovat'
+            header: 'ROOM',
+            action: 'Teleport'
          },
          p_encounter: {
-            header: 'SETKÁNÍ',
+            header: 'ENCOUNTER',
             action: 'Start'
          },
          p_armor: {
-            header: 'BRNĚNÍ'
+            header: 'ARMOR'
          },
          p_weapon: {
-            header: 'ZBRAŇ'
+            header: 'WEAPON'
          }
       },
       inspect: {
-         tab: 'PROZKOUMAT',
-         headers: [ 'VRSTVY', 'TYPY' ],
+         tab: 'INSPECT',
+         headers: [ 'LAYERS', 'TYPES' ],
          switches: [
-            [ 'Základna', 'Pod', 'Hlavní', 'Nad', 'Menu' ],
-            [ 'Hitbox', 'Skřítek', 'Text' ]
+            [ 'Base', 'Below', 'Main', 'Above', 'Menu' ],
+            [ 'Hitbox', 'Sprite', 'Text' ]
          ],
          p_explorer: {
-            header: 'PRŮZKUMNÍK',
-            layers: [ 'Základní (Průzkumník)', 'Níže (Průzkumník)', 'Hlavní (Průzkumník)', 'Nahoře (průzkumník)', 'Nabídka (průzkumník)' ],
+            header: 'EXPLORER',
+            layers: [ 'Base (Explorer)', 'Below (Explorer)', 'Main (Explorer)', 'Above (Explorer)', 'Menu (Explorer)' ],
             letters: {
                animation: 'A',
                character: 'C',
@@ -110,131 +110,131 @@ export default {
                text: 'T'
             }
          },
-         debug_instructions: 'Stisknutím klávesy [TAB] můžete cyklicky přepínat informace o ladění',
+         debug_instructions: 'Press [TAB] to cycle debug info',
          debug: {
             a: 'A', 
-            acceleration: 'Zrychlení',
-            active: 'Aktivní',
-            alpha: 'Alfa',
-            anchor: 'Kotva',
+            acceleration: 'Acceleration',
+            active: 'Active',
+            alpha: 'Alpha',
+            anchor: 'Anchor',
             b: 'B', 
-            blend: 'Směs',
-            border: 'Hranice',
-            compute: 'Vypočtená velikost',
-            content: 'Obsah',
-            crop: 'Plodina',
-            down: 'Dolů',
-            duration: 'Trvání',
-            exp: 'BP',
-            extent: 'Rozsah',
+            blend: 'Blend',
+            border: 'Border',
+            compute: 'Computed Size',
+            content: 'Content',
+            crop: 'Crop',
+            down: 'Down',
+            duration: 'Duration',
+            exp: 'EXP',
+            extent: 'Extent',
             f: 'F', 
-            face: 'Obličej',
-            false: 'Falešný',
-            fill: 'Vyplnit',
-            fontFamily: 'Rodina písem',
-            fontSize: 'Velikost písma',
-            frames: 'Snímky',
-            gravity: 'Gravitace',
-            group: 'Skupina',
-            hp: 'ZB',
+            face: 'Face',
+            false: 'False',
+            fill: 'Fill',
+            fontFamily: 'Font Family',
+            fontSize: 'Font Size',
+            frames: 'Frames',
+            gravity: 'Gravity',
+            group: 'Group',
+            hp: 'HP',
             index: 'Index',
-            inert: 'Inertní',
-            key: 'Klíč',
-            lastSavedTime: 'Poslední uložený čas',
-            layer: 'Vrstva',
-            layers: 'Vrstvy',
-            left: 'Vlevo',
+            inert: 'Inert',
+            key: 'Key',
+            lastSavedTime: 'Last Saved Time',
+            layer: 'Layer',
+            layers: 'Layers',
+            left: 'Left',
             metadata: 'Metadata',
-            music: 'Hudba',
+            music: 'Music',
             namespace: 'Namespace',
-            none1: 'ŽÁDNÝ',
-            none2: 'žádný',
-            objects: 'Objekty',
-            oversaver: 'Přílišný spořič',
-            parallax: 'Paralaxa',
-            position: 'Postavení',
-            primed: 'Natřený základní barvou',
-            priority: 'Priorita',
-            registry: 'REGISTR',
-            renderer: 'Vykreslovač',
-            resources: 'Prostředky',
-            reverse: 'Rezerva',
-            right: 'Vpravo',
-            room: 'Místnost',
-            roomState: 'Stav místnosti',
-            rotation: 'Rotace',
+            none1: 'NONE',
+            none2: 'none',
+            objects: 'Objects',
+            oversaver: 'Oversaver',
+            parallax: 'Parallax',
+            position: 'Position',
+            primed: 'Primed',
+            priority: 'Priority',
+            registry: 'REGISTRY',
+            renderer: 'Renderer',
+            resources: 'Resources',
+            reverse: 'Reverse',
+            right: 'Right',
+            room: 'Room',
+            roomState: 'Room State',
+            rotation: 'Rotation',
             s: 'S', 
-            scale: 'Škála',
-            shopSelection: 'Výběr obchodu',
-            size: 'Velikost',
-            spacing: 'Rozteč',
-            spin: 'Příst',
-            sprites: 'Skřítci',
-            step: 'Krok',
-            stroke: 'Mrtvice',
-            subcrop: 'Dílčí plodina',
-            talk: 'Hovořit',
-            target: 'Cíl',
+            scale: 'Scale',
+            shopSelection: 'Shop Selection',
+            size: 'Size',
+            spacing: 'Spacing',
+            spin: 'Spin',
+            sprites: 'Sprites',
+            step: 'Step',
+            stroke: 'Stroke',
+            subcrop: 'Subcrop',
+            talk: 'Talk',
+            target: 'Target',
             text: 'Text',
-            tint: 'Odstín',
-            trackedAssets: 'Sledované datové zdroje',
-            true: 'Pravdivý',
-            unknown: 'NEZNÁMÝ',
-            up: 'Nahoru',
+            tint: 'Tint',
+            trackedAssets: 'Tracked Assets',
+            true: 'True',
+            unknown: 'UNKNOWN',
+            up: 'Up',
             vars: 'Vars',
-            velocity: 'Rychlost',
-            volatile: 'Nestálý'
+            velocity: 'Velocity',
+            volatile: 'Volatile'
          }
       },
       savemod: {
          tab: 'SAVEMOD',
-         header1: 'ULOŽIT EDITOR',
+         header1: 'SAVE EDITOR',
          domains: [
-            'Data (logické hodnoty)',
-            'Data (čísla)',
-            'Data (řetězce)',
-            'Příznaky (Booleans)',
-            'Příznaky (Čísla)',
-            'Příznaky (řetězce)'
+            'Data (Booleans)',
+            'Data (Numbers)',
+            'Data (Strings)',
+            'Flags (Booleans)',
+            'Flags (Numbers)',
+            'Flags (Strings)'
          ],
          p_page: {
-            header: 'NAVIGACE',
-            prev: 'Před',
-            next: 'Další'
+            header: 'NAVIGATION',
+            prev: 'Prev',
+            next: 'Next'
          },
-         prompt: 'Zadejte hodnotu',
-         back: 'Zpět'
+         prompt: 'Enter Value',
+         back: 'Back'
       },
       storage: {
-         tab: 'SKLADOVÁNÍ',
-         header: 'EDITOR ÚLOŽIŠTĚ',
-         p_container: { header: 'SELEKCE', prev: 'Před', next: 'Další' },
-         display: { inventory: 'Inventář', dimboxA: 'Roz. rámeček A', dimboxB: 'Roz. Rámeček B' }
+         tab: 'STORAGE',
+         header: 'STORAGE EDITOR',
+         p_container: { header: 'SELECTION', prev: 'Prev', next: 'Next' },
+         display: { inventory: 'Inventory', dimboxA: 'Dim. Box A', dimboxB: 'Dim. Box B' }
       }
    },
 
    dialog: {
-      dialog_clear_title: 'Vymazat soubor',
-      dialog_notice_title: 'Oznámení',
-      dialog_open: { buttonLabel: 'Otevřít', name: 'UKLÁDÁNÍ souborů', title: 'Otevřít soubor' },
-      dialog_save: { buttonLabel: 'Uložit', name: 'UKLÁDÁNÍ souborů', title: 'Uložit soubor' },
-      error_load: 'Tento soubor nebylo možné analyzovat.',
+      dialog_clear_title: 'Clear File',
+      dialog_notice_title: 'Notice',
+      dialog_open: { buttonLabel: 'Open', name: 'SAVE files', title: 'Open File' },
+      dialog_save: { buttonLabel: 'Save', name: 'SAVE files', title: 'Save File' },
+      error_load: 'That file could not be parsed.',
       message_alert: [ 'OK' ],
-      message_confirm: [ 'Zrušit', 'OK' ],
-      prompt_clear: 'Vymazat tento soubor?',
-      prompt_demo: 'Váš soubor SAVE z\nOUTERTALE demo bylo\npřesunuto do slotu časové osy.',
-      prompt_save: 'Uložit tento soubor?',
-      prompt_save_alternate: 'Zkopírujte níže uvedený text do\nsoubor JSON pro jeho uložení\ndo vašeho zařízení.',
-      prompt_open: 'Načíst tento soubor?'
+      message_confirm: [ 'Cancel', 'OK' ],
+      prompt_clear: 'Clear this file?',
+      prompt_demo: 'Your SAVE file from the\nOUTERTALE demo has been\nmoved to a timeline slot.',
+      prompt_save: 'Save this file?',
+      prompt_save_alternate: 'Copy the text below into\na JSON file to save it\nto your device.',
+      prompt_open: 'Load this file?'
    },
 
    extra: {
       credits: [
          [
-            '§fill=#ff0§< VÝVOJÁŘ >§fill=#fff§',
+            '§fill=#ff0§< DEVELOPER >§fill=#fff§',
             'spacey_432',
             '',
-            '§fill=#ff0§< SPISOVATEL >§fill=#fff§',
+            '§fill=#ff0§< WRITER >§fill=#fff§',
             'Balgamlı Kedi',
             'Bilge \"mnwary\"',
             'Dischnie',
@@ -248,12 +248,12 @@ export default {
             'Rise'
          ],
          [
-            '§fill=#ff0§< SPISOVATEL >§fill=#fff§',
+            '§fill=#ff0§< WRITER >§fill=#fff§',
             'ThatGuyWhoLikesFood',
             'Turbulation',
             'Zaxento The Greedy',
             '',
-            '§fill=#ff0§< UMĚLEC >§fill=#fff§',
+            '§fill=#ff0§< ARTIST >§fill=#fff§',
             'Balgamlı Kedi',
             'Burge',
             'Deskius',
@@ -265,7 +265,7 @@ export default {
             'Ghostly'
          ],
          [
-            '§fill=#ff0§< UMĚLEC >§fill=#fff§',
+            '§fill=#ff0§< ARTIST >§fill=#fff§',
             'HolyOranges',
             'major_memestar',
             'MattSpriteMaster',
@@ -282,24 +282,24 @@ export default {
             'Starkiteckt'
          ],
          [
-            '§fill=#ff0§< UMĚLEC >§fill=#fff§',
+            '§fill=#ff0§< ARTIST >§fill=#fff§',
             'supper12',
             'Valor52',
             'Zaxento The Greedy',
             '',
-            '§fill=#ff0§< TECHNIK >§fill=#fff§',
+            '§fill=#ff0§< TECHNICIAN >§fill=#fff§',
             'Codetoil',
             'ryi3r',
             'ws3917',
             '',
-            '§fill=#ff0§< ZKOUŠEČ >§fill=#fff§',
+            '§fill=#ff0§< TESTER >§fill=#fff§',
             'Alden',
             'Aspey',
             'Balgamlı Kedi',
             'Bilge \"mnwary\"'
          ],
          [
-            '§fill=#ff0§< ZKOUŠEČ >§fill=#fff§',
+            '§fill=#ff0§< TESTER >§fill=#fff§',
             'blue',
             'Brad',
             'brayjamin',
@@ -316,7 +316,7 @@ export default {
             'Fired'
          ],
          [
-            '§fill=#ff0§< ZKOUŠEČ >§fill=#fff§',
+            '§fill=#ff0§< TESTER >§fill=#fff§',
             'FireWizard72X',
             'FuLiNT',
             'Funtermore',
@@ -333,7 +333,7 @@ export default {
             'Jonkler'
          ],
          [
-            '§fill=#ff0§< ZKOUŠEČ >§fill=#fff§',
+            '§fill=#ff0§< TESTER >§fill=#fff§',
             'Kiwi \"Quinn\"',
             'lil tanski',
             'MR. PETER',
@@ -350,7 +350,7 @@ export default {
             'petar3644'
          ],
          [
-            '§fill=#ff0§< ZKOUŠEČ >§fill=#fff§',
+            '§fill=#ff0§< TESTER >§fill=#fff§',
             'PixelToons Jaafar',
             'Prezmop',
             'prymus-agd',
@@ -367,7 +367,7 @@ export default {
             'superkippy'
          ],
          [
-            '§fill=#ff0§< ZKOUŠEČ >§fill=#fff§',
+            '§fill=#ff0§< TESTER >§fill=#fff§',
             'Teecup',
             'Tem in a Cowboy Hat',
             'Tenbrooks',
@@ -381,83 +381,83 @@ export default {
             'Zaxento The Greedy'
          ],
          [
-            '§fill=#ff0§< ZVLÁŠTNÍ PODĚKOVÁNÍ >§fill=#fff§',
+            '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
             'Alden',
-            '§fill=#808080§Za to, že je tu pro mě, když\nPotřebuji někoho, o koho se může opřít, a\nUčí mě životní lekce, které\nze mě udělaly lepšího člověka.§fill=#fff§'
+            '§fill=#808080§For being there for me when I\nneed someone to lean on, and\nteaching me life lessons that\nhave made me a better person.§fill=#fff§'
          ],
          [
-            '§fill=#ff0§< ZVLÁŠTNÍ PODĚKOVÁNÍ >§fill=#fff§',
+            '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
             'My Aster',
-            '§fill=#808080§Za to, že je jedním z nejpřátelštějších\nlidé, které znám, první osoba\nvěřit v mou vizi a\ninspirující mě k dokončení hry.§fill=#fff§'
+            '§fill=#808080§For being one of the friendliest\npeople I know, the first person\nto believe in my vision, and\ninspiring me to finish the game.§fill=#fff§'
          ],
          [
-            '§fill=#ff0§< ZVLÁŠTNÍ PODĚKOVÁNÍ >§fill=#fff§',
+            '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
             'Balgamlı Kedi',
-            "§fill=#808080§Za to, že je se mnou zůstal na každém\nfáze vývoje, již od\nzačátek. Bez ohledu na dobu,\nvždycky tu byl, aby pomohl.§fill=#fff§"
+            "§fill=#808080§For sticking with me at every\nstage of development, right from\nthe start. Regardless of the era,\nhe's always been there to help.§fill=#fff§"
          ],
          [
-            '§fill=#ff0§< ZVLÁŠTNÍ PODĚKOVÁNÍ >§fill=#fff§',
+            '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
             'Ghostly',
-            '§fill=#808080§Za to, že je hlasem rozumu, když\ntýká se to mnoha aspektů\nhry, a povzbuzuje mě, abych si vzal\ntestování vážně.§fill=#fff§'
+            '§fill=#808080§For being a voice of reason when\nit comes to many aspects of the\ngame, and encouraging me to take\ntesting seriously.§fill=#fff§'
          ],
          [
-            '§fill=#ff0§< ZVLÁŠTNÍ PODĚKOVÁNÍ >§fill=#fff§',
+            '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
             'Zaxento The Greedy',
-            '§fill=#808080§Za to, že je spolehlivý, brutální\nupřímný, dává mi spoustu\nkritika a myšlenky a bytí\ndůvěryhodný ode dne, kdy jsme se potkali.§fill=#fff§'
+            '§fill=#808080§For being reliable, brutally\nhonest, giving me lots of\ncriticism and ideas, and being\ntrustworthy from the day we met.§fill=#fff§'
          ],
          [
-            '§fill=#ff0§< ZVLÁŠTNÍ PODĚKOVÁNÍ >§fill=#fff§',
+            '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
             'ThatGuyWhoLikesFood',
-            '§fill=#808080§Za pomoc při psaní zásadních\nčásti hry, podporující můj\nvize a pomáhá mi vyjádřit\nÚplně novým způsobem.§fill=#fff§'
+            '§fill=#808080§For helping me write crucial\nparts of the game, supporting my\nvision, and helping me express\nmyself in a whole new way.§fill=#fff§'
          ],
          [
-            '§fill=#ff0§< ZVLÁŠTNÍ PODĚKOVÁNÍ >§fill=#fff§',
+            '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
             'Bilge \"mnwary\"',
-            "§fill=#808080§Za to, že je tam byl, abys pomohl\nukončení vývoje a\nzajištění psaní hry\ndosahuje svého plného potenciálu.§fill=#fff§"
+            "§fill=#808080§For being there to help towards\nthe end of development, and\nensuring the game's writing\nreaches its full potential.§fill=#fff§"
          ],
-         [ 'Přináší vám §fill=#ff0§The Mavis & Co.§fill=#fff§' ]
+         [ 'Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§' ]
       ],
 
       final_frontier: {
-         header: '(( OBSAZENÍ ))',
+         header: '(( CAST ))',
          opponents: {
             froggit: {
                name: 'FROGGIT',
                author: 'ScarletScaledDragon',
                text: {
-                  basic: 'Přemítání\no životě',
-                  spare: 'Profesionální\nžába',
-                  flirt: 'Přemítání\no lásce',
-                  bully: 'Poskakování\nve strachu'
+                  basic: 'Pondering\nLife',
+                  spare: 'Professional\nFrog',
+                  flirt: 'Pondering\nLove',
+                  bully: 'Hopping In\nFear'
                }
             },
             whimsun: {
                name: 'FLUTTERLYTE',
                author: 'ScarletScaledDragon',
                text: {
-                  basic: 'Učí se\nlétat',
-                  spare: 'Povzbudivý\nletec',
-                  flirt: 'Prohledávání\noblohy',
-                  bully: 'Vyhýbavé\nmanévrování'
+                  basic: 'Learning To\nFly',
+                  spare: 'Emboldening\nAviator',
+                  flirt: 'Searching The\nSkies',
+                  bully: 'Evasively\nManeuvering'
                }
             },
             moldsmal: {
                name: 'GELATINI',
                author: 'spacey_432',
                text: {
-                  basic: 'Našel novou\nvesmírnou stanici',
-                  spare: 'Doprovodný\nTanečník',
-                  flirt: 'Exotická želé\nTanečnice',
-                  bully: 'Objevil novou\ngalaxii'
+                  basic: 'Found A New\nSpace Station',
+                  spare: 'Backup\nDancer',
+                  flirt: 'Exotic Jelly\nDancer',
+                  bully: 'Found A New\nGalaxy'
                }
             },
             loox: {
                name: 'OCULOUX',
                author: 'ScarletScaledDragon',
                text: {
-                  basic: 'Mírně\ntyranský',
-                  spare: 'Reformovaný\ntyran',
-                  flirt: 'Mírně\nkoketní',
+                  basic: 'Slightly\nBully-Like',
+                  spare: 'Reformed\nBully',
+                  flirt: 'Slightly\nFlirtatious',
                   bully: ''
                }
             },
@@ -465,29 +465,29 @@ export default {
                name: 'SILENTE',
                author: 'ScarletScaledDragon',
                text: {
-                  basic: 'Nesmírně\nPříjemné',
-                  spare: 'Příležitostně\nsi užívá života',
-                  flirt: 'Zamilovaní\nZ daleka',
-                  bully: 'Popírač\nOhrožení'
+                  basic: 'Exceedingly\nAgreeable',
+                  spare: 'Casually\nEnjoys Life',
+                  flirt: 'In Love From\nAfar',
+                  bully: 'Endangerment\nDenier'
                }
             },
             mushy: {
                name: 'MUSHY',
                author: 'Balgamlı Kedi & ScarletScaledDragon',
                text: {
-                  basic: 'Střílí slepými\nNáboji',
-                  spare: 'Kouzelník\nrychlého tahu',
-                  flirt: 'Výstřel z\nPistole Srdcař',
-                  bully: 'Stříká\na modlí se'
+                  basic: 'Shooting\nBlanks',
+                  spare: 'Quick-Draw\nMagician',
+                  flirt: 'Gunshot\nHeart-Throb',
+                  bully: 'Spraying And\nPraying'
                }
             },
             finalghost: {
                name: 'LURKSALOT',
                author: 'spacey_432',
                text: {
-                  basic: 'Drží se\nsami sebe',
-                  spare: 'Vyhledání\nFyzického kontaktu',
-                  flirt: 'Stoicky\nnezúčastněný',
+                  basic: 'Keeping To\nThemselves',
+                  spare: 'Seeking\nPhysical Contact',
+                  flirt: 'Stoically\nUninvolved',
                   bully: ''
                }
             },
@@ -495,9 +495,9 @@ export default {
                name: 'STARDRAKE',
                author: 'Burge',
                text: {
-                  basic: 'Stále\nhledá smích',
-                  spare: 'Poloúspěšný\nkomik',
-                  flirt: 'Oblíbený\nu dospělý',
+                  basic: 'Still Looking\nFor Laughs',
+                  spare: 'Semi-Successful\nComedian',
+                  flirt: 'Popular With The\nGrown-Ups',
                   bully: ''
                }
             },
@@ -505,29 +505,29 @@ export default {
                name: 'CHILLDRAKE',
                author: 'Burge',
                text: {
-                  basic: 'Stále hledá\npodporovatele',
-                  spare: 'Získal kultovní\nnásledovníky',
-                  flirt: '­Výměna polibků\nPro fanoušky',
-                  bully: 'Aktivista proti\nŠikaně'
+                  basic: 'Still Looking\nFor Supporters',
+                  spare: 'Gained A Cult\nFollowing',
+                  flirt: 'Trades Kisses\nFor Supporters',
+                  bully: 'Anti-Bullying\nActivist'
                }
             },
             spacetop: {
                name: 'ASTRO SERF',
                author: 'DESM.al',
                text: {
-                  basic: 'Přemýšlení o\njeho anténě',
-                  spare: 'Rozhlasová\nsenzace',
-                  flirt: 'Láska je\nVe vzduchu',
-                  bully: '‘Nouzový vysílač'
+                  basic: 'Thinking About\nIts Antenna',
+                  spare: 'Radio Station\nSensation',
+                  flirt: 'Love Is On\nThe Air',
+                  bully: 'Emergency\nBroadcaster'
                }
             },
             jerry: {
                name: 'JERRY',
                author: 'Discarded Vessel',
                text: {
-                  basic: 'Každodenní\npříkop',
-                  spare: 'Dostává se do\nPříkopů něco méně',
-                  flirt: 'Na cestě k\nvykoupení',
+                  basic: 'Getting Ditched\nOn The Daily',
+                  spare: 'Getting Ditched\nSlightly Less',
+                  flirt: 'On The Road To\nRedemption',
                   bully: ''
                }
             },
@@ -535,17 +535,17 @@ export default {
                name: 'WHIZKARAT',
                author: 'Zaxento The Greedy & semi',
                text: {
-                  basic: 'Krize\nidentity',
-                  spare: 'Nejnovější člen\nmyší společnosti',
-                  flirt: 'Začíná si\nHrát s myšmi',
-                  bully: 'Uháněl zpět do\nkočičí společnosti'
+                  basic: 'Having An\nIdentity Crisis',
+                  spare: 'Newest Member Of\nMouse Society',
+                  flirt: 'Getting Frisky\nWith The Mice',
+                  bully: 'Scurried Back To\nCat Society'
                }
             },
             doggo: {
                name: 'DOGGO',
                author: 'Discarded Vessel',
                text: {
-                  basic: 'Věří ve\nvšemocný klíč',
+                  basic: 'Believes In The\nAlmighty Wrench',
                   spare: 'Found His Own\nSeeing-Eye Wolf',
                   flirt: 'In Love With His\nSeeing-Eye Wolf',
                   bully: 'Running To His\nSeeing-Eye Wolf'
@@ -882,12 +882,12 @@ export default {
          'Use an input on your gamepad to assign\nit to the in-game action.\n\nUse the input again to confirm, or use\nother inputs to assign those as well.\n\nPress ESC to skip setup.',
       prompt_counter: 'Inputs Assigned: $(x)',
       z: '[Z or ENTER] - Confirm',
-      x: '[X nebo SHIFT] - Zrušit',
-      c: '[C nebo CTRL] - Menu (V her)',
-      u: '[UP nebo W] - Pohyb nahoru',
-      l: '[LEFT nebo A] - Pohyb Levé',
-      d: '[DOWN nebo S] - Pohyb Dolů',
-      r: '[RIGHT nebo D] - Pohyb Pravá',
+      x: '[X or SHIFT] - Cancel',
+      c: '[C or CTRL] - Menu (In-game)',
+      u: '[UP or W] - Move Up',
+      l: '[LEFT or A] - Move Left',
+      d: '[DOWN or S] - Move Down',
+      r: '[RIGHT or D] - Move Right',
       f: '[F4] - Fullscreen',
       prompt_done: 'Setup complete.\nPress any button to continue.',
       prompt_done_browser: '\nNote: On this platform, the gamepad may\nnot always be able to enter fullscreen.',
@@ -903,10 +903,10 @@ export default {
       finish: 'Press [X] to Finish',
       frisk: 'Frisk',
       g: 'G',
-      hp: 'ZB',
+      hp: 'HP',
       inf: 'INF',
       landing1: '[PRESS Z OR ENTER]',
-      lv: 'ÚN',
+      lv: 'LV',
       mystery1: '§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§',
       mystery2: '{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}',
       mystery2l: '{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}',
@@ -918,7 +918,7 @@ export default {
       settings: 'Settings',
       unknown: '?',
       xm: 'XM',
-      yes: 'Ano'
+      yes: 'Yes'
    },
 
    menu: {
@@ -943,7 +943,7 @@ export default {
       item3: 'INFO',
       item4: 'DROP',
 
-      load1: 'Pokračovat',
+      load1: 'Continue',
       load2: 'Observe',
       load3: 'Reset',
       load4: 'True Reset',
@@ -954,14 +954,14 @@ export default {
       name4: 'Done',
       name5: '§fill=#808080§ [ESC] - Quit / [ENTER] - Done',
 
-      save1: 'Uložit',
+      save1: 'Save',
       save2: 'Return',
       save3: 'File saved.',
 
       settings1: 'SETTINGS',
       settings2: 'EXIT',
       settings3: 'LANGUAGE',
-      settings3a: 'ČEŠTINA',
+      settings3a: 'ENGLISH',
       settings4: 'SOUND FX',
       settings5: 'MUSIC',
       settings6: 'FANCY GRAPHICS',
@@ -985,8 +985,8 @@ export default {
       start1: [
          '--- Instruction ---',
          '[Z or ENTER] - Confirm',
-         '[X nebo SHIFT] - Zrušit',
-         '[C nebo CTRL] - Menu (V her)',
+         '[X or SHIFT] - Cancel',
+         '[C or CTRL] - Menu (In-game)',
          '[F4] - Fullscreen',
          '[Hold ESC] - Restart',
          'When HP is 0, you lose.'
@@ -995,10 +995,10 @@ export default {
 
       stat1: 'AT',
       stat2: 'DF',
-      stat3: 'ZBRAŇ',
-      stat4: 'BRNĚNÍ',
+      stat3: 'WEAPON',
+      stat4: 'ARMOR',
       stat5: 'GOLD',
-      stat6: 'BP',
+      stat6: 'EXP',
       stat7: 'NEXT',
       stat8: '§fill=#ff0§Warning:\nNon-canon\ntimeline.',
       stat9: 'KILLS',
