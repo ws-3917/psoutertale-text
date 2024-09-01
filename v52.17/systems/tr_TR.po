@@ -761,130 +761,130 @@ msgid "DR4GON HE4RT"
 msgstr "DR4GON HE4RT"
 
 msgid "Dubituar"
-msgstr ""
+msgstr "Dubituar"
 
 msgid "Emurry"
-msgstr ""
+msgstr "Emurry"
 
 msgid "Enzolos"
-msgstr ""
+msgstr "Enzolos"
 
 msgid "EvanGamesGoodman"
-msgstr ""
+msgstr "EvanGamesGoodman"
 
 msgid "FireWizard72X"
-msgstr ""
+msgstr "FireWizard72X"
 
 msgid "FuLiNT"
-msgstr ""
+msgstr "FuLiNT"
 
 msgid "gardnaeden"
-msgstr ""
+msgstr "gardnaeden"
 
 msgid "Gon UT"
-msgstr ""
+msgstr "Gon UT"
 
 msgid "Green Tea"
-msgstr ""
+msgstr "Green Tea"
 
 msgid "Huggies!"
-msgstr ""
+msgstr "Huggies!"
 
 msgid "ilovecookies"
-msgstr ""
+msgstr "ilovecookies"
 
 msgid "Jago128"
-msgstr ""
+msgstr "Jago128"
 
 msgid "Joe98912"
-msgstr ""
+msgstr "Joe98912"
 
 msgid "Jonkler"
-msgstr ""
+msgstr "Jonkler"
 
 msgid "lil tanski"
-msgstr ""
+msgstr "lil tanski"
 
 msgid "MR. PETER"
-msgstr ""
+msgstr "MR. PETER"
 
 msgid "MSBen"
-msgstr ""
+msgstr "MSBen"
 
 msgid "Murder--Sans_MDR"
-msgstr ""
+msgstr "Murder--Sans_MDR"
 
 msgid "Nanorasmus"
-msgstr ""
+msgstr "Nanorasmus"
 
 msgid "NepAnime"
-msgstr ""
+msgstr "NepAnime"
 
 msgid "Shaun Duz Stuffs"
-msgstr ""
+msgstr "Shaun Duz Stuffs"
 
 msgid "SHCyank"
-msgstr ""
+msgstr "SHCyank"
 
 msgid "petar3644"
-msgstr ""
+msgstr "petar3644"
 
 msgid "PixelToons Jaafar"
-msgstr ""
+msgstr "PixelToons Jaafar"
 
 msgid "Prezmop"
-msgstr ""
+msgstr "Prezmop"
 
 msgid "prymus-agd"
-msgstr ""
+msgstr "prymus-agd"
 
 msgid "Quin"
-msgstr ""
+msgstr "Quin"
 
 msgid "RadicalRic"
-msgstr ""
+msgstr "RadicalRic"
 
 msgid "Raelynn"
-msgstr ""
+msgstr "Raelynn"
 
 msgid "retr22800"
-msgstr ""
+msgstr "retr22800"
 
 msgid "RoCtD_14159"
-msgstr ""
+msgstr "RoCtD_14159"
 
 msgid "sonicisawesome222"
-msgstr ""
+msgstr "sonicisawesome222"
 
 msgid "spaceknife234"
-msgstr ""
+msgstr "spaceknife234"
 
 msgid "superkippy"
-msgstr ""
+msgstr "superkippy"
 
 msgid "Teecup"
-msgstr ""
+msgstr "Teecup"
 
 msgid "Tem in a Cowboy Hat"
-msgstr ""
+msgstr "Tem in a Cowboy Hat"
 
 msgid "Tenbrooks"
-msgstr ""
+msgstr "Tenbrooks"
 
 msgid "The Fallen Angel"
-msgstr ""
+msgstr "The Fallen Angel"
 
 msgid "TheAsriel"
-msgstr ""
+msgstr "TheAsriel"
 
 msgid "Wild Pasta"
-msgstr ""
+msgstr "Wild Pasta"
 
 msgid "Xiao_Akatsuki"
-msgstr ""
+msgstr "Xiao_Akatsuki"
 
 msgid "xNoodlePlayz"
-msgstr ""
+msgstr "xNoodlePlayz"
 
 msgid "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§"
 msgstr "§fill=#ff0§< ÖZEL TEŞEKKÜRLER >§fill=#fff§"
@@ -895,6 +895,10 @@ msgid ""
 "teaching me life lessons that\n"
 "have made me a better person.§fill=#fff§"
 msgstr ""
+"§fill=#808080§Ne zaman arkamı birine yaslamam\n"
+"gerektiğinde benim için her zaman burada oldugu\n"
+"icin, ve beni daha iyi birisi yapan hayat dersleri\n"
+"verdiği için.§fill=#fff§"
 
 msgid ""
 "§fill=#808080§For being one of the friendliest\n"
@@ -902,6 +906,9 @@ msgid ""
 "to believe in my vision, and\n"
 "inspiring me to finish the game.§fill=#fff§"
 msgstr ""
+"§fill=#808080§Bildiğim en dost canlısı insanlardan birisi\n"
+"olduğu için, bana göre güvenilebilir ilk kişi, ve bana\n"
+"oyunu bitirebilmemde ilham verdiği için.§fill=#fff§"
 
 msgid ""
 "§fill=#808080§For sticking with me at every\n"
@@ -909,6 +916,10 @@ msgid ""
 "the start. Regardless of the era,\n"
 "he's always been there to help.§fill=#fff§"
 msgstr ""
+"§fill=#808080§Oyunun gelişiminin her aşamasında\n"
+"yanımda olduğu için, en baştan beri, çağ\n"
+"ne olursa olsun her zaman yardım için\n"
+"buradaydı.§fill=#fff§"
 
 msgid ""
 "§fill=#808080§For being a voice of reason when\n"

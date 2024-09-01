@@ -335,7 +335,7 @@ msgid "<32>{#p/basic}* There is an inscription inscribed on the pedastal."
 msgstr "<32>{#p/basic}* 底座上刻著銘文。"
 
 msgid "<32>* \"Two halves, split by the ivories.\""
-msgstr "<32>* 「雅樂喈喈，分為二別。」"
+msgstr "<32>* 「琴音喈喈，分為二別。」"
 
 msgid "<32>* \"If the prince's is your left, then whose is your right?"
 msgstr "<32>* 「左居王子，右居者誰？」"
@@ -7100,7 +7100,7 @@ msgid ""
 msgstr "<32>* 「開關既已啟，同友歸故地。」"
 
 msgid "<32>* \"A figure not unlike my own, a statue carved and set in stone.\""
-msgstr "<32>* 「石像同我輩，不爽一毫釐。」"
+msgstr "<32>* 「石像同我輩，不差一毫釐。」"
 
 msgid ""
 "<32>* \"Follow the sequence of notes divined, to unlock the path to the "

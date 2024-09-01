@@ -14910,10 +14910,10 @@ msgid "<15>{#f/20}NYEH HEH HEH HEH HEH HEH HEH HEH HEH!!!"
 msgstr "<15>{#f/20}Ньех хе-хе!!!"
 
 msgid "<15>{#p/papyrus}{#f/20}BEHOLD!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/20}СМОТРИ!"
 
 msgid "<15>{#p/papyrus}{#f/20}HMMM... I WONDER WHAT I SHOULD WEAR..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/20}ХМММ... ИНТЕРЕСНО, ЧТО МНЕ НАДЕТЬ..."
 
 msgid "<15>{#p/papyrus}{#f/20}HOW HIGH CAN YOU JUMP?"
 msgstr "<15>{#p/papyrus}{#f/20}КАК ВЫСОКО ТЫ МОЖЕШЬ ПРЫГНУТЬ?"
@@ -15098,88 +15098,105 @@ msgstr "<15>{#f/20}Я ХОЧУ {@fill=#f00}ПОЩАДИТЬ ТЕБЯ{@fill=#000}
 msgid ""
 "<15>{#f/10}NOW'S YOUR CHANCE TO ACCEPT MY {@fill=#f00}MERCY{@fill=#000}."
 msgstr ""
+"<15>{#f/10}СЕЙЧАС У ТЕБЯ ЕСТЬ ШАНС ПРИНЯТЬ МОЮ "
+"{@fill=#f00}ПОЩАДУ{@fill=#000}."
 
 msgid "<18>{#p/papyrus}{#f/27}..."
-msgstr ""
+msgstr "<18>{#p/papyrus}{#f/27}..."
 
 msgid "<15>{#p/papyrus}{#f/27}YOU WISH TO REMAIN WITH ME... FOREVER?"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/27}ТЫ ХОЧЕШЬ ОСТАТЬСЯ СО МНОЙ... НАВСЕГДА?"
 
 msgid "<15>{#p/papyrus}{#f/21}HMM..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/21}ХММ..."
 
 msgid "<15>{#p/papyrus}{#f/27}SOMETHING IS TRYING TO TEAR OUR LOVE APART?"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/27}ЧТО-ТО ПЫТАЕТСЯ РАЗЛУЧИТЬ НАШУ ЛЮБОВЬ?"
 
 msgid "<15>{#p/papyrus}{#f/21}I WONDER..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/21}Я УДИВЛЯЮСЬ..."
 
 msgid "<15>{#p/papyrus}{#f/27}SO YOU -DON'T- WISH TO REMAIN WITH ME?"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/27}ЗНАЧИТ, ТЫ НЕ ХОЧЕШЬ ОСТАВАТЬСЯ СО МНОЙ?"
 
 msgid ""
 "<15>{#p/papyrus}{#f/14}BUT THEN... WHY WON'T YOU ACCEPT MY MERCY AND LEAVE "
 "ME?"
 msgstr ""
+"<15>{#p/papyrus}{#f/14}НО ПОТОМ... ПОЧЕМУ ТЫ НЕ ПРИМЕШЬ МОЮ ПОЩАДУ И НЕ "
+"УЙДЕШЬ ОТ МЕНЯ?"
 
 msgid ""
 "<15>{#p/papyrus}{#f/25}UH, I DON'T THINK WE'VE GOTTEN -THAT- FAR YET..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/25}УХ, Я НЕ ДУМАЮ, ЧТО МЫ ЗАШЛИ ТАК ДАЛЕКО..."
 
 msgid "<15>{#p/papyrus}{#f/15}... BUT WE CAN SURE TRY LATER!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/15}... НО МЫ МОЖЕМ ПОПРОБОВАТЬ ПОЗЖЕ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/27}WAIT, ARE -YOU- THE ONE WHO'S TRYING TO TEAR OUR LOVE"
 " APART?"
 msgstr ""
+"<15>{#p/papyrus}{#f/27}ПОДОЖДИ, ЭТО ТЫ ПЫТАЕШЬСЯ РАЗЛУЧИТЬ НАШУ ЛЮБОВЬ?"
 
 msgid ""
 "<15>{#p/papyrus}{#f/24}WAIT, ARE YOU SUGGESTING SOME KIND OF... LOVE "
 "TRIANGLE???"
 msgstr ""
+"<15>{#p/papyrus}{#f/24}ПОДОЖДИ, ТЫ ПРЕДЛАГАЕШЬ КАКОЙ-ТО... ЛЮБОВНЫЙ "
+"ТРЕУГОЛЬНИК???"
 
 msgid "<15>{#p/papyrus}{#f/26}... SO YOU -DON'T- WANT TO TRY THAT LATER?"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/26}... ТАК ТЫ НЕ ХОЧЕШЬ ПОПРОБОВАТЬ ЭТО ПОЗЖЕ?"
 
 msgid "<15>{#p/papyrus}{#f/24}AND NOT ONLY THAT, BUT..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/24}И НЕ ТОЛЬКО ЭТО, НО..."
 
 msgid ""
 "<15>{#p/papyrus}{#f/22}YOU NEVER EVEN WANTED TO BE WITH ME TO BEGIN WITH!?"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/22}ТЫ НИКОГДА НЕ ХОТЕЛ БЫТЬ СО МНОЙ!?"
 
 msgid "<15>{#p/papyrus}{#f/22}OR MAYBE IT'S MORE LIKE... A LOVE TRAPEZOID!"
 msgstr ""
+"<15>{#p/papyrus}{#f/22}ИЛИ, МОЖЕТ БЫТЬ, ЭТО БОЛЬШЕ ПОХОЖЕ НА... ЛЮБОВНУЮ "
+"ТРАПЕЦИЮ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/21}NO?\n"
 "IT'S ACTUALLY A LOVE DI-ANGLE INSTEAD?"
 msgstr ""
+"<15>{#p/papyrus}{#f/21}НЕТ?\n"
+"НА САМОМ ДЕЛЕ ЭТО ЛЮБОВНЫЙ УГОЛ?"
 
 msgid "<15>{#p/papyrus}{#f/18}BUT... THAT'S NOT EVEN A REAL SHAPE!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/18}НО... ЭТО ДАЖЕ НЕ НАСТОЯЩАЯ ОДЕЖДА!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/27}ARE YOU SAYING THAT OUR LOVE, ISN'T TRULY REAL AFTER "
 "ALL!?"
 msgstr ""
+"<15>{#p/papyrus}{#f/27}ТЫ ХОЧЕШЬ СКАЗАТЬ, ЧТО НАША ЛЮБОВЬ ВСЁ-ТАКИ НЕ "
+"НАСТОЯЩАЯ?"
 
 msgid "<15>{#p/papyrus}{#f/14}WAIT... I THINK I GET IT NOW!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/14}ПОДОЖДИТЕ... КАЖЕТСЯ, ТЕПЕРЬ Я ПОНЯЛ!"
 
 msgid "<15>{#p/papyrus}{#f/15}THE PRINCE IS JEALOUS OF YOUR AFFECTION FOR ME!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/15}ПРИНЦ ЗАВИДУЕТ ТВОЕЙ СИМПАТИИ КО МНЕ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/24}SO... HE SPRUNG A TRAP TO PREVENT US FROM BEING "
 "TOGETHER!"
 msgstr ""
+"<15>{#p/papyrus}{#f/24}ТАК ЧТО... ОН УСТРОИЛ ЛОВУШКУ, ЧТОБЫ ПОМЕШАТЬ НАМ "
+"БЫТЬ ВМЕСТЕ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/27}NO?\n"
 "BUT AT LEAST I'M ON THE RIGHT TRACK?"
 msgstr ""
+"<15>{#p/papyrus}{#f/27}НЕТ?\n"
+"НО, ПО КРАЙНЕЙ МЕРЕ, Я НА ПРАВИЛЬНОМ ПУТИ?"
 
 msgid "<15>{#p/papyrus}{#f/24}WAIT... TRAPEZOID..."
 msgstr ""
@@ -15188,45 +15205,56 @@ msgid ""
 "<15>{#p/papyrus}{#f/22}ARE YOU SAYING THAT YOU'RE TRAPPED WITH ME, RIGHT "
 "NOW!?"
 msgstr ""
+"<15>{#p/papyrus}{#f/22}ТЫ ХОЧЕШЬ СКАЗАТЬ, ЧТО ТЫ В ЛОВУШКЕ СО МНОЙ, ПРЯМО "
+"СЕЙЧАС!?"
 
 msgid ""
 "<15>{#p/papyrus}{#f/14}BUT THEN... WHY WON'T YOU ACCEPT MY MERCY AND ESCAPE?"
 msgstr ""
+"<15>{#p/papyrus}{#f/14}НО ПОТОМ... ПОЧЕМУ ТЫ НЕ ПРИМЕШЬ МОЮ ПОЩАДУ И НЕ "
+"СБЕЖИШЬ?"
 
 msgid "<15>{#p/papyrus}{#f/21}... THERE MUST BE SOMETHING ELSE GOING ON HERE."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/21}... ЗДЕСЬ ДОЛЖНО БЫТЬ ЧТО-ТО ЕЩЁ."
 
 msgid "<15>{#p/papyrus}{#f/26}NO... YES."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/26}НЕТ... ДА."
 
 msgid "<15>{#p/papyrus}{#f/20}YES, YES, YES!!!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/20}ДА, ДА, ДА!!!"
 
 msgid "<15>{#p/papyrus}{#f/20}I FINALLY UNDERSTAND IT NOW!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/20}НАКОНЕЦ-ТО Я ЭТО ПОНЯЛ!"
 
 msgid "<15>{#p/papyrus}{#f/15}THIS MUST BE THE WORK OF THAT \"ASRIEL\" FELLOW!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/15}ЭТО, ДОЛЖНО БЫТЬ, РАБОТА ТОГО САМОГО \"АЗРИЭЛЯ!\""
 
 msgid ""
 "<15>{#p/papyrus}{#f/14}SOMEHOW, HE'S OUTRIGHT PREVENTED YOU FROM SHOWING "
 "MERCY TO ME!"
 msgstr ""
+"<15>{#p/papyrus}{#f/14}КАКИМ-ТО ОБРАЗОМ ОН НЕ ПОЗВОЛИЛ ТЕБЕ ПРОЯВИТЬ КО МНЕ "
+"ПОЩАДУ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/14}WELL.\n"
 "THIS SIMPLY WILL NOT STAND!"
 msgstr ""
+"<15>{#p/papyrus}{#f/14НУ.\n"
+"ЭТО ПРОСТО НЕ МОЖЕТ СТОЯТЬ!"
 
 msgid "<15>{#p/papyrus}{#f/20}IN FACT, I HAVE THE PERFECT SOLUTION ALREADY!"
 msgstr ""
+"<15>{#p/papyrus}{#f/20}НА САМОМ ДЕЛЕ, У МЕНЯ УЖЕ ЕСТЬ ИДЕАЛЬНОЕ РЕШЕНИЕ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/10}TO AVOID ANY ROMANTIC DRAMA, I'LL LEAVE POLITELY."
 msgstr ""
+"<15>{#p/papyrus}{#f/10}ЧТОБЫ ИЗБЕЖАТЬ РОМАНТИЧЕСКОЙ ДРАМЫ, Я ВЕЖЛИВО УЙДУ."
 
 msgid "<15>{#p/papyrus}{#f/24}THEN, WHEN YOU'RE ALONE WITH HIM ONCE AGAIN..."
 msgstr ""
+"<15>{#p/papyrus}{#f/24}ПОТОМ, КОГДА ТЫ СНОВА ОСТАНЕШЬСЯ С НИМ НАЕДИНЕ..."
 
 msgid "<15>{#p/papyrus}{#f/25}YOU'LL BE IN THE PERFECT POSITION..."
 msgstr "<15>{#p/papyrus}{#f/25}ТЫ ОКАЖЕШЬСЯ В ИДЕАЛЬНОМ ПОЛОЖЕНИИ..."
@@ -15237,344 +15265,398 @@ msgid ""
 msgstr "<15>{#p/papyrus}{#f/15}ЧТОБЫ НЕ МЕШАТЬ ВАШИМ ЧУВСТВАМ!"
 
 msgid "<15>{#p/papyrus}{#f/20}NYEH HEH HEH HEH HEH HEH HEH HEH HEH HEH!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/20}НЬЕХ ХЕ-ХЕ!"
 
 msgid "<15>{#p/papyrus}{#f/20}FRET NOT, HUMAN!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/20}НЕ БОЙСЯ, ЧЕЛОВЕК!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/14}I, PAPYRUS, WILL MAKE SURE NO HARM COMES TO EITHER OF"
 " US!"
 msgstr ""
+"<15>{#p/papyrus}{#f/14}Я, ПАПИРУС, ПОЗАБОЧУСЬ О ТОМ, ЧТОБЫ НИКТО ИЗ НАС НЕ "
+"ПОСТРАДАЛ!"
 
 msgid "<15>{#p/papyrus}{#f/20}I WILL SPARE MYSELF FOR YOU!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/20}Я ПОЩАЖУ СЕБЯ РАДИ ТЕБЯ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/20}AND THEN, I WILL FIND A VERY SAFE PLACE TO HIDE."
 msgstr ""
+"<15>{#p/papyrus}{#f/20}И ТОГДА Я НАЙДУ ОЧЕНЬ БЕЗОПАСНОЕ МЕСТО, ЧТОБЫ "
+"СПРЯТАТЬСЯ."
 
 msgid ""
 "<15>{#p/papyrus}{#f/15}DON'T WORRY, HUMAN!\n"
 "PAPYRUS HAS THIS UNDER CONTROL!"
 msgstr ""
+"<15>{#p/papyrus}{#f/15}НЕ ВОЛНУЙСЯ, ЧЕЛОВЕК!\n"
+"ПАПИРУС ДЕРЖИТ ВСЁ ПОД КОНТРОЛЕМ!"
 
 msgid "<15>{#p/papyrus}{#f/27}UH... THANKS???"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/27}УХ... СПАСИБО???"
 
 msgid "<15>{#p/papyrus}{#f/21}IDIOT... WHERE HAVE I HEARD THAT BEFORE..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/21}ИДИОТ... ГДЕ-ТО Я ЭТО СЛЫШАЛ..."
 
 msgid "<15>{#p/papyrus}{#f/22}OR... NOT?"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/22}ИЛИ... НЕТ?"
 
 msgid "<15>{#p/papyrus}{#f/24}SO, LET ME GET THIS STRAIGHT."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/24}ИТАК, ПОЗВОЛЬ МНЕ ПРОЯСНИТЬ СИТУАЦИЮ."
 
 msgid "<15>{#p/papyrus}{#f/27}YOU MEANT TO SAY YOU... LOVE ME???"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/27}ТЫ ХОТЕЛ СКАЗАТЬ, ЧТО ТЫ... ЛЮБИШЬ МЕНЯ???"
 
 msgid ""
 "<15>{#p/papyrus}{#f/27}AND THAT SOMETHING IS TRYING TO TEAR OUR LOVE APART?"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/27}И ЭТО ЧТО-ТО ПЫТАЕТСЯ РАЗЛУЧИТЬ НАШУ ЛЮБОВЬ?"
 
 msgid "<15>{#p/papyrus}{#f/29}NOW WHAT..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/29}СЕЙЧАС ПОДОЖДИ..."
 
 msgid ""
 "<15>{#p/papyrus}{#f/27}YOU MEAN I'M AN IDIOT FOR NOT NOTICING HOW MUCH YOU "
 "LOVE ME?"
 msgstr ""
+"<15>{#p/papyrus}{#f/27}ТЫ ХОЧЕШЬ СКАЗАТЬ, ЧТО Я ИДИОТ, РАЗ НЕ ЗАМЕЧАЮ, КАК "
+"СИЛЬНО ТЫ МЕНЯ ЛЮБИШЬ?"
 
 msgid "<15>{#p/papyrus}{#f/28}AND THAT YOU WANT TO... UH..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/28}И ЧТО ТЫ ХОЧЕШЬ... УХ..."
 
 msgid ""
 "<15>{#p/papyrus}{#f/25}I-I MEAN, I DON'T THINK WE'VE GOTTEN -THAT- FAR "
 "YET..."
 msgstr ""
+"<15>{#p/papyrus}{#f/25}Я-Я ИМЕЮ В ВИДУ, Я НЕ ДУМАЮ, ЧТО МЫ ЗАШЛИ ТАК "
+"ДАЛЕКО..."
 
 msgid ""
 "<15>{#p/papyrus}{#f/27}I'M NOT SMART ENOUGH TO REALIZE WHAT'S GOING ON...?"
 msgstr ""
+"<15>{#p/papyrus}{#f/27}Я НЕДОСТАТОЧНО УМЁН, ЧТОБЫ ПОНЯТЬ, ЧТО ПРОИСХОДИТ...?"
 
 msgid ""
 "<15>{#p/papyrus}{#f/27}SO... YOU MEANT TO SAY WE'RE IN A LOVE TRIANGLE?"
 msgstr ""
+"<15>{#p/papyrus}{#f/27}ТАК... ТЫ ХОТЕЛ СКАЗАТЬ, ЧТО МЫ В ЛЮБОВНОМ "
+"ТРЕУГОЛЬНИКЕ?"
 
 msgid ""
 "<15>{#p/papyrus}{#f/19}WELL, IT'D CERTAINLY EXPLAIN YOUR ABRASIVE ATTITUDE!"
 msgstr ""
+"<15>{#p/papyrus}{#f/19}НУ, ЭТО, КОНЕЧНО, ОБЪЯСНЯЕТ ТВОЁ РЕЗКОЕ ОТНОШЕНИЕ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/27}HUH? SHOOT FOR THE STARS INSTEAD OF SHOOTING MYSELF?"
 msgstr ""
+"<15>{#p/papyrus}{#f/27}А? СТРЕЛЯТЬ ПО ЗВЁЗДАМ ВМЕСТО ТОГО, ЧТОБЫ СТРЕЛЯТЬ В "
+"СЕБЯ?"
 
 msgid "<15>{#p/papyrus}{#f/17}BUT WHAT DOES IT MEAN...!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/17}НО ЧТО ЭТО ЗНАЧИТ...!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/25}WAIT... YOU WANTED ME TO REALIZE THAT YOU SECRETLY "
 "LOVED ME?"
 msgstr ""
+"<15>{#p/papyrus}{#f/25}ПОДОЖДИ... ТЫ ХОТЕЛ, ЧТОБЫ Я ПОНЯЛ, ЧТО ТЫ ТАЙНО "
+"ЛЮБИШЬ МЕНЯ?"
 
 msgid ""
 "<15>{#p/papyrus}{#f/22}AND THAT WE'RE ACTUALLY IN A... LOVE TRAPEZOID!?"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/22}И ЧТО МЫ НА САМОМ ДЕЛЕ В... ЛЮБИМ ТРАПЕЦИЮ!?"
 
 msgid "<15>{#p/papyrus}{#f/21}IDIOT..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/21}ИДИОТ..."
 
 msgid "<15>{#p/papyrus}{#f/21}SHOOT FOR THE STARS..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/21}СТРЕЛЯЙ В ЗВЁЗДЫ..."
 
 msgid ""
 "<15>{#p/papyrus}{#f/20}TWINKLY WAS A STAR, AND HE LOVED TO CALL PEOPLE "
 "IDIOTS!"
 msgstr ""
+"<15>{#p/papyrus}{#f/20}ТВИНКЛИ БЫЛ ЗВЕЗДОЙ, И ЕМУ НРАВИЛОСЬ НАЗЫВАТЬ ЛЮДЕЙ "
+"ИДИОТАМИ!"
 
 msgid "<15>{#p/papyrus}{#f/25}OBLIVIOUS..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/25}НЕВНИМАТЕЛЬНЫЙ..."
 
 msgid "<15>{#p/papyrus}{#f/22}I'VE BEEN OBLIVIOUS THIS WHOLE TIME!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/22}Я ВСЁ ЭТО ВРЕМЯ НЕ ЗАМЕЧАЛ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/20}THAT \"ASRIEL\" FELLOW SEEMS TO LOVE CALLING PEOPLE "
 "IDIOTS AS WELL!"
 msgstr ""
+"<15>{#p/papyrus}{#f/20}ЭТОТ \"АЗРИЭЛЬ\", ПОХОЖЕ, ТОЖЕ ЛЮБИТ НАЗЫВАТЬ ЛЮДЕЙ "
+"ИДИОТАМИ!"
 
 msgid "<15>{#p/papyrus}{#f/24}WHICH MEANS..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/24}ЧТО ЗНАЧИТ..."
 
 msgid "<15>{#p/papyrus}{#f/22}THE \"STAR\" IN THIS SCENARIO MUST BE HIM!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/22}\"ЗВЕЗДОЙ\" В ЭТОМ СЦЕНАРИИ ДОЛЖЕН БЫТЬ ОН!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/19}HE MUST HAVE DONE SOMETHING TO MAKE -ME- LOOK LIKE AN"
 " IDIOT!"
 msgstr ""
+"<15>{#p/papyrus}{#f/19}ОН ДОЛЖЕН БЫЛ СДЕЛАТЬ ЧТО-ТО, ЧТОБЫ ВЫСТАВИТЬ МЕНЯ "
+"ИДИОТОМ!"
 
 msgid "<15>{#p/papyrus}{#f/10}OH... OH!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/10}О... ОХ!"
 
 msgid "<15>{#p/papyrus}{#f/10}YOU'RE THE STAR I'M SUPPOSED TO SHOOT FOR!"
 msgstr ""
+"<15>{#p/papyrus}{#f/10}ТЫ - ТА ЗВЕЗДА, В КОТОРУЮ Я ДОЛЖЕН РАССТРЕЛЯТЬ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/20}YOU'VE BEEN TRYING TO WIN MY AFFECTION THIS WHOLE "
 "TIME!"
 msgstr ""
+"<15>{#p/papyrus}{#f/20}ТЫ ВСЁ ЭТО ВРЕМЯ ПЫТАЛСЯ ЗАВОЕВАТЬ МОЁ ДОВЕРИЕ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/27}WOWIE... YOU SURE DO HAVE A STRANGE WAY OF GOING "
 "ABOUT IT..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/27}ВАУ... ТЫ, КОНЕЧНО, СТРАННО СЕБЯ ВЕДЁШЬ..."
 
 msgid "<15>{#p/papyrus}{#f/24}STRANGE ENOUGH..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/24}КАК НИ СТРАННО..."
 
 msgid ""
 "<15>{#p/papyrus}{#f/15}... THAT I'M CONVINCED THERE'S MORE GOING ON HERE!"
 msgstr ""
+"<15>{#p/papyrus}{#f/15}... ЧТО Я УВЕРЕН, ЧТО ЗДЕСЬ ПРОИСХОДИТ НЕЧТО БОЛЬШЕЕ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/21}AFTER ALL, IF THAT'S WHAT YOU WANTED TO TELL ME..."
 msgstr ""
+"<15>{#p/papyrus}{#f/21}В КОНЦЕ КОНЦОВ, ЕСЛИ ЭТО ТО, ЧТО ТЫ ХОТЕЛ МНЕ "
+"СКАЗАТЬ..."
 
 msgid "<15>{#p/papyrus}{#f/21}WHY GO TO ALL THIS TROUBLE..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/21}ЗАЧЕМ ТАК СТАРАТЬСЯ..."
 
 msgid ""
 "<15>{#p/papyrus}{#f/27}INSTEAD OF SPARING ME AND TALKING ABOUT IT "
 "AFTERWARDS?"
 msgstr ""
+"<15>{#p/papyrus}{#f/27}ВМЕСТО ТОГО, ЧТОБЫ ПОЩАДИТЬ МЕНЯ И ПОГОВОРИТЬ ОБ ЭТОМ"
+" ПОСЛЕ?"
 
 msgid "<15>{#p/papyrus}{#f/21}UNLESS... YOU REALLY -CAN'T- SPARE ME."
 msgstr ""
+"<15>{#p/papyrus}{#f/21}ЕСЛИ ТОЛЬКО... ТЫ ДЕЙСТВИТЕЛЬНО НЕ МОЖЕШЬ МЕНЯ "
+"ПОЩАДИТЬ."
 
 msgid "<15>{#p/papyrus}{#f/24}THAT \"ASRIEL\" FELLOW WAS SO SURE YOU'D KILL ME..."
 msgstr ""
+"<15>{#p/papyrus}{#f/24}ЭТОТ \"АЗРИЭЛЬ\" БЫЛ ТАК УВЕРЕН, ЧТО ТЫ МЕНЯ "
+"УБЬЕШЬ..."
 
 msgid ""
 "<15>{#p/papyrus}{#f/20}SOMETHING TELLS ME, HE MUST BE THE ONE WHO'S GETTING "
 "IN YOUR WAY!"
 msgstr ""
+"<15>{#p/papyrus}{#f/20}ЧТО-ТО ПОДСКАЗЫВАЕТ МНЕ, ЧТО ЭТО ОН МЕШАЕТ ТЕБЕ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/15}HE'S BEEN JEALOUS OF YOUR AFFECTION FOR ME ALL THIS "
 "TIME!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/15}ОН ВСЁ ЭТО ВРЕМЯ ЗАВИДОВАЛ ТВОЕЙ ЛЮБВИ КО МНЕ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/14}WELL.\n"
 "I WILL NOT BE FOOLED BY THE LIKES OF HIM!"
 msgstr ""
+"<15>{#p/papyrus}{#f/14}НУ.\n"
+"МЕНЯ НЕ ОДУРАЧАТ ТАКИЕ, КАК ОН!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/20}I, PAPYRUS, WILL MAKE SURE HE NEVER FINDS ME AGAIN!"
 msgstr ""
+"<15>{#p/papyrus}{#f/20}Я, ПАПИРУС, СДЕЛАЮ ТАК, ЧТО ОН БОЛЬШЕ НИКОГДА МЕНЯ НЕ"
+" НАЙДЕТ!"
 
 msgid "<15>{#p/papyrus}{#f/27}YOU'RE SUPPOSED TO BE SPARING, NOT FLIRTING!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/27}ТЫ ДОЛЖЕН БЫЛ ПОЩАДИТЬ, А НЕ ФЛИРТОВАТЬ!"
 
 msgid "<15>{#f/14}I MUST RESIST!"
-msgstr ""
+msgstr "<15>{#f/14}Я ДОЛЖЕН СОПРОТИВЛЯТЬСЯ!"
 
 msgid ""
 "<15>{#p/papyrus}{#f/27}HUH?\n"
 "FLIRTING, AT A TIME LIKE THIS?"
 msgstr ""
+"<15>{#p/papyrus}{#f/27}А?\n"
+"ФЛИРТ В ТАКОЕ ВРЕМЯ?"
 
 msgid "<15>{#f/14}WELL, THAT'S ONE WAY TO REDEEM YOURSELF!"
-msgstr ""
+msgstr "<15>{#f/14}НУ, ЭТО ОДИН ИЗ СПОСОБОВ ИСКУПИТЬ ВИНУ!"
 
 msgid "<15>{#p/papyrus}{#f/14}N-NO...!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/14}Н-НЕТ...!"
 
 msgid "<15>{#p/papyrus}{#f/14}A-AH...!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/14}А-АХ...!"
 
 msgid "<15>{#p/papyrus}{#f/14}..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/14}..."
 
 msgid "<15>{#p/papyrus}{#f/20}HEY, THERE'S NO NEED TO INSULT YOURSELF!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/20}ЭЙ, НЕ НУЖНО ОСКОРБЛЯТЬ СЕБЯ!"
 
 msgid "<15>{#f/21}I KNOW YOU DID YOUR BEST..."
-msgstr ""
+msgstr "<15>{#f/21}Я ЗНАЮ, ТЫ СДЕЛАЛ ВСЁ, ЧТО МОГ..."
 
 msgid "<15>{#f/15}YOU'RE HERE TO BETTER YOURSELF, REMEMBER?"
-msgstr ""
+msgstr "<15>{#f/15}ТЫ ЗДЕСЬ, ЧТОБЫ СТАТЬ ЛУЧШЕ, ПОМНИШЬ?"
 
 msgid "<15>{#p/papyrus}{#f/21}HUMAN..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/21}ЧЕЛОВЕК..."
 
 msgid "<15>{#p/papyrus}{#f/15}COME ON...!"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/15}НУ ЖЕ...!"
 
 msgid "<15>{#p/papyrus}{#f/21}..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#f/21}..."
 
 msgid ""
 "<32>{#p/asriel2}* Asgore.\n"
 "* The king who got his home planet destroyed."
 msgstr ""
+"<32>{#p/asriel2}* Азгор.\n"
+"* Король, из-за которого была уничтожена его родная планета."
 
 msgid "<32>{#p/human}* (You attempt to hug Asgore...)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты пытаешься обнять Азгора...)"
 
 msgid "<32>{#p/human}* (... but your body goes right through him.)"
-msgstr ""
+msgstr "<32>{#p/human}* (... но твоё тело проходит сквозь него.)"
 
 msgid "<32>{#p/asriel2}* ... huh?"
-msgstr ""
+msgstr "<32>{#p/asriel2}* ... а?"
 
 msgid "<11>{#p/asgore}{#f/5}Is that..."
-msgstr ""
+msgstr "<11>{#p/asgore}{#f/5}Это..."
 
 msgid "<11>{#p/asgore}{#f/1}Really now..."
-msgstr ""
+msgstr "<11>{#p/asgore}{#f/1}Правда, сейчас..."
 
 msgid "<11>{#p/asgore}{#f/1}Must we resort to violence?"
-msgstr ""
+msgstr "<11>{#p/asgore}{#f/1}Должны ли мы применять насилие?"
 
 msgid "<11>{#p/asgore}{#f/1}Can we not settle this peacefully?"
-msgstr ""
+msgstr "<11>{#p/asgore}{#f/1}Неужели мы не можем решить это мирным путем?"
 
 msgid "<11>{#p/asgore}{#f/1}Is this really necessary?"
-msgstr ""
+msgstr "<11>{#p/asgore}{#f/1}Действительно ли это необходимо?"
 
 msgid ""
 "<32>{#p/human}* (You throw the spanner.)\n"
 "* (Asgore lets it pass right through him.)"
 msgstr ""
+"<32>{#p/human}* (Ты бросаешь гаечный ключ.)\n"
+"* (Азгор пропускает его сквозь себя.)"
 
 msgid "<11>{#p/asgore}{#f/2}..."
-msgstr ""
+msgstr "<11>{#p/asgore}{#f/2}..."
 
 msgid "<11>{#f/1}I am not really here, Asriel."
-msgstr ""
+msgstr "<11>{#f/1}На самом деле меня здесь нет, Азриэль."
 
 msgid "<11>{#f/2}It's just a projection."
-msgstr ""
+msgstr "<11>{#f/2}Это всего лишь проекция."
 
 msgid "* Asgore"
-msgstr ""
+msgstr "* Азгор"
 
 msgid "<32>{#p/asriel2}* Kill him, $(name)."
-msgstr ""
+msgstr "<32>{#p/asriel2}* Убей его, $(name)."
 
 msgid "A small branch of semi-translucent berries."
-msgstr ""
+msgstr "Небольшая ветка с полупрозрачными ягодами."
 
 msgid "Exoberries"
-msgstr ""
+msgstr "Экзоягоды"
 
 msgid "<32>{#p/human}* (You throw away the Exoberries.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты выбрасываешь Экзоягоды.)"
 
 msgid "<32>{#p/human}* (7 HP.)"
-msgstr ""
+msgstr "<32>{#p/human}* (7 ОЗ.)"
 
 msgid ""
 "<32>{#p/basic}* \"Exoberries\" Heals 7 HP\n"
 "* A small branch of semi-translucent berries."
 msgstr ""
+"<32>{#p/basic}* \"Экзоягоды\" Восстанавливает 7 ОЗ.\n"
+"* Небольшая ветка с полупрозрачными ягодами."
 
 msgid "<32>{#p/human}* (You eat the Exoberries.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты ешь Экзоягоды.)"
 
 msgid "Fresh exoberries, bathed in a sea of moist Jell-O."
-msgstr ""
+msgstr "Свежие экзоягоды, купающиеся в море влажного желе."
 
 msgid "Berry Pie"
-msgstr ""
+msgstr "Ягодный Пирог"
 
 msgid "<32>{#p/human}* (You throw away the Exoberry Pie.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты выбрасываешь Экзоягодный Пирог.)"
 
 msgid "<32>{#p/napstablook}* ......... huh?"
-msgstr ""
+msgstr "<32>{#p/napstablook}* ......... а?"
 
 msgid "<32>{#p/napstablook}* oh.................."
-msgstr ""
+msgstr "<32>{#p/napstablook}* ох.................."
 
 msgid "<32>{#p/human}* (99 HP.)"
-msgstr ""
+msgstr "<32>{#p/human}* (99 ОЗ.)"
 
 msgid ""
 "<32>{#p/basic}* \"Exoberry Pie\" Heals 99 HP\n"
 "* Fresh exoberries, bathed in a sea of moist Jell-O."
 msgstr ""
+"<32>{#p/basic}* \"Экзоягодный Пирог\" Восстанавливает 99 ОЗ.\n"
+"* Свежие экзоягоды, купающиеся в море влажного желе."
 
 msgid "Exoberry Pie"
-msgstr ""
+msgstr "Экзоягодный Пирог"
 
 msgid "<32>{#p/human}* (You eat the Exoberry Pie.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты ешь Экзоягодный Пирог.)"
 
 msgid ""
 "<32>{#p/napstablook}* aw.........\n"
 "* i hope you like it........."
 msgstr ""
+"<32>{#p/napstablook}* ау.........\n"
+"* Надеюсь, вам понравится........."
 
 msgid "Please take this to the edge of the galaxy."
-msgstr ""
+msgstr "Пожалуйста, отнеси это на край галактики."
 
 msgid "Chip"
-msgstr ""
+msgstr "Чип"
 
 msgid "<32>{#p/human}* (You throw away the Computer Chip.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ты выбрасываешь Компьютерный Чип.)"
 
 msgid "<25>{#p/asriel1}{#f/15}* Uh... weren't you going to protect that?"
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/15}* Ух... ты разве не собирался защитить его?"
 
 msgid ""
 "<32>{#p/human}* (45 HP. Rather than eating it, you feel you should keep this"
 " item safe.)"
 msgstr ""
+"<32>{#p/human}* (45 ОЗ. Вместо того чтобы съесть его, ты считаешь, что "
+"должен защитить этот предмет.)"
 
 msgid ""
 "<32>{#p/basic}* \"Computer Chip\" Heals 45 HP\n"
@@ -15617,7 +15699,7 @@ msgid "<32>{#p/human}* (You deployed the Field Emitter.)"
 msgstr ""
 
 msgid "A somewhat underpowered portable force field."
-msgstr ""
+msgstr "Несколько недостаточно мощное портативное силовое поле."
 
 msgid "Emitter?"
 msgstr ""

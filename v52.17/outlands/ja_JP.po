@@ -1261,191 +1261,205 @@ msgid "<25>{#p/toriel}{#f/1}{#npc/a}* Don't stay in there for too long..."
 msgstr "<13>{#p/toriel}{#f/1}{#npc/a}＊そんなにながく　そこにいなくても　いいのよ…"
 
 msgid "<32>{#p/basic}* ..."
-msgstr ""
+msgstr "<17>{#p/basic}＊…"
 
 msgid "<32>* This is fine."
-msgstr ""
+msgstr "<17>＊もう　まんぞくした。"
 
 msgid "<25>{#p/asriel2}{#f/10}* Something you missed back here?"
-msgstr ""
+msgstr "<13>{#p/asriel2}{#f/10}＊なにか　わすれもの　でもしたの？"
 
 msgid "<25>{#p/asriel2}{#f/3}* Ah, the place where it all began."
-msgstr ""
+msgstr "<13>{#p/asriel2}{#f/3}＊すべてが　はじまった　ばしょだね。"
 
 msgid ""
 "<25>{#p/asriel2}{#f/4}* We've certainly come along since then, haven't we, "
 "$(name)?"
-msgstr ""
+msgstr "<13>{#p/asriel2}{#f/4}＊ボクたちは　あれから　いっしょに　ここまでたどりついた。"
 
 msgid "<25>{#p/asriel2}{#f/3}* ..."
-msgstr ""
+msgstr "<13>{#p/asriel2}{#f/3}＊…"
 
 msgid "<25>{#p/asriel2}{#f/10}* Wasn't there a dummy here before...?"
-msgstr ""
+msgstr "<13>{#p/asriel2}{#f/10}＊ここにマネキンが　なかったっけ…？"
 
 msgid "<32>{#p/basic}{#n1}* Just between you and me..."
-msgstr ""
+msgstr "<17>{#p/basic}{#n1}＊ケロケロ。　（ここだけのはなしダケド）"
 
 msgid "<32>* I saw that goat lady come through here just a little while ago."
-msgstr ""
+msgstr "<17>＊（ほんのすこしまえに　おんなのひとが　ここをとおりすぎるのを　みたケロ）"
 
 msgid "<32>* She had groceries, so I asked her what they were for, and..."
-msgstr ""
+msgstr "<17>＊（しょくざいを　かいこんでたから　なんのためのものか　きいたケロ）"
 
 msgid "<32>* Well, you're in for a treat."
-msgstr ""
+msgstr "<17>＊（あなたに　サプライズをする　みたい　ケロよ）"
 
 msgid "<32>* I saw that goat lady come through here earlier."
-msgstr ""
+msgstr "<17>＊（さっき　おんなのひとが　ここをとおりすぎるのを　みたケロ）"
 
 msgid "<32>* She said it was time to \"confront her fears.\""
-msgstr ""
+msgstr "<17>＊（「きょうふにたちむかう」のに　いい　ころあいだ　っていってたケロ）"
 
 msgid ""
 "<32>* Well, whatever she did clearly led to something!\n"
 "* We're all free now!"
 msgstr ""
+"<17>＊（まあ　なんにせよ　トリエルなら　どうにかなるケロ）\n"
+"＊（とにかく　ボクたちは　じゆうだケロ！）"
 
 msgid ""
 "<32>{#p/basic}{#n1}* Did you see her?\n"
 "* She just came through here right now!"
 msgstr ""
+"<17>{#p/basic}{#n1}＊ケロケロ　ケロケロ。\n"
+"（トリエルとあったケロ？　たったいま　とおりすぎて　いったケロよ！）"
 
 msgid ""
 "<32>* I wonder what she could have meant...?\n"
 "* She seemed determined."
 msgstr ""
+"<17>＊（なにがいいたかったケロ…？）\n"
+"＊（ケツイを　いだいている　ようにみえたケロ）"
 
 msgid "<32>* I saw that goat lady take the taxi to the supermarket earlier."
-msgstr ""
+msgstr "<17>＊（さっき　おんなのひとが　タクシーで　かいものにいってるのを　みたケロ）"
 
 msgid ""
 "<32>* She said she was going off to buy milk, but she still hasn't come "
 "back..."
-msgstr ""
+msgstr "<17>＊（ぎゅうにゅうを　かいにいく　っていってたケド…　まだかえってきてないケロ）"
 
 msgid "<32>* I hope she's alright."
-msgstr ""
+msgstr "<17>＊（だいじょうぶケロね？）"
 
 msgid ""
 "<32>* Sometimes, when I'm alone, I like to ride the taxi to the marketplace."
-msgstr ""
+msgstr "<17>＊（ときどき　ひとりで　タクシーにのって　かいものにいくのが　すきだケロ）"
 
 msgid "<32>* It's a quaint little shop, but there's loads of stuff to buy."
-msgstr ""
+msgstr "<17>＊（ふんいきのある　ちいさな　みせだケド　たくさん　かえるものが　あるケロ）"
 
 msgid "<32>* Maybe I'll take you there sometime... you'd adore it!"
-msgstr ""
+msgstr "<17>＊（いつか　あなたをつれていく　かもケロ…　ぜったい　いきつけのみせに　なるケロ）"
 
 msgid "<32>* I'm not a fan of how you beat us all up at first."
-msgstr ""
+msgstr "<17>＊（いっておくけど　ボクたちを　きづつける　やりかたは　すきじゃないケロ）"
 
 msgid "<32>* We were all so scared and confused..."
-msgstr ""
+msgstr "<17>＊（みんなおびえて　こんわくしてるケロ…）"
 
 msgid "<32>* ... at least you did something good in the end."
-msgstr ""
+msgstr "<17>＊（すくなくとも　さいごに　なにかいいことを　してくれることに）"
 
 msgid "<32>* The people you've been beating up aren't happy about it."
-msgstr ""
+msgstr "<17>＊（あなたに　きづつけられたコは　ぼうりょくを　よくおもってないケロ）"
 
 msgid ""
 "<32>* Just be glad I'm off-duty...\n"
 "* 'Cause otherwise..."
 msgstr ""
+"<17>＊（ボクが　きんむじかんがいで　よかったケロね…）\n"
+"＊（さもなければ…）"
 
 msgid "<32>* I'd have your head."
-msgstr ""
+msgstr "<17>＊（ボクが　あなたに　なにをするか　わからないケロ）"
 
 msgid "<32>{#p/basic}{#n1}* No... no!"
 msgstr ""
+"<17>{#p/basic}{#n1}＊ケ…ケロ。\n"
+"（や…やめるケロ！）"
 
 msgid "<32>* G-get away from me!"
-msgstr ""
+msgstr "<17>＊（はなれるケロ！）"
 
 msgid ""
 "<25>{#p/asriel2}{#f/5}* ... but that's okay, I know you'll be there on time!"
-msgstr ""
+msgstr "<13>{#p/asriel2}{#f/5}＊…よかった。　キミなら　じかんどおりに　くると　おもってたよ！"
 
 msgid "<25>{#p/asriel2}{#f/1}* You wouldn't want to let me down, would you?"
-msgstr ""
+msgstr "<13>{#p/asriel2}{#f/1}＊ボクをしつぼうさせないでね。"
 
 msgid ""
 "<25>{#p/asriel2}{#f/2}* Sorry about that, I had to use Toriel's phone to "
 "call someone."
-msgstr ""
+msgstr "<13>{#p/asriel2}{#f/2}＊ごめん。　トリエルのでんわで　よばないといけない　ひとがいて。"
 
 msgid ""
 "<25>{#p/asriel2}{#f/1}* Don't worry...\n"
 "* You'll find out why soon enough."
 msgstr ""
+"<13>{#p/asriel2}{#f/1}＊いそぐひつようはないよ。\n"
+"＊すぐにだれかわかるから。"
 
 msgid ""
 "<25>{#p/asriel2}{#f/2}* ... hee hee hee.\n"
 "* I'll be waiting for you up ahead."
 msgstr ""
+"<13>{#p/asriel2}{#f/2}＊…ハハハ。\n"
+"＊ボクは　さきのほうで　まってるよ。"
 
 msgid "<25>{#p/asriel2}{#f/4}* I'll be waiting for you up ahead."
-msgstr ""
+msgstr "<13>{#p/asriel2}{#f/4}＊ボクは　さきのほうで　まってるよ。"
 
 msgid "<25>{#p/asriel2}{#f/1}* Ready, $(name)?"
-msgstr ""
+msgstr "<13>{#p/asriel2}{#f/1}＊じゅんびできた？　$(name)。"
 
 msgid "<25>{#f/2}* 'Cause once we move forward, there's no turning back."
-msgstr ""
+msgstr "<13>{#f/2}＊いったん　まえにすすんだら　もう　もどれないよ。"
 
 msgid "* (Follow Him?)"
-msgstr ""
+msgstr "＊（ついていく？）"
 
 msgid "<25>{#p/asriel2}{#f/1}* Ready?"
-msgstr ""
+msgstr "<13>{#p/asriel2}{#f/1}＊じゅんびできた？"
 
 msgid "<25>{#p/asriel2}{#f/2}* Okay..."
-msgstr ""
+msgstr "<13>{#p/asriel2}{#f/2}＊オッケー…"
 
 msgid "<25>{#f/1}* Let's do this."
-msgstr ""
+msgstr "<13>{#f/1}＊じゃあいくよ。"
 
 msgid "<25>{#p/asriel2}{#f/4}* I'll be waiting, then."
-msgstr ""
+msgstr "<13>{#p/asriel2}{#f/4}＊じゃあここでまってるよ。"
 
 msgid ""
 "<32>{#p/human}* (You turn to the first page... you can barely make out the "
 "words.)"
-msgstr ""
+msgstr "<17>{#p/human}＊（あなたは　さいしょのページを　ひらいた…　かろうじて　ぶんしょうがよめた。）"
 
 msgid ""
 "<32>{#p/asriel1}{#v/2}* \"i am starting a dairy Cuz mommy said it wood be "
 "fun.\""
-msgstr ""
+msgstr "<17>{#p/asriel1}{#v/2}＊「ママか　たのしいつて　いつてたのて　にっさを　かくことにします。」"
 
 msgid "<32>* \"today i lerned how to put seeds in daddys garden\""
-msgstr ""
+msgstr "<17>＊「さよう　べんさよう　したのわ　おにわに　たねおまく　ことです」"
 
 msgid "<32>* \"he says they will grow up soon But it wil take a long tiem.\""
-msgstr ""
+msgstr "<17>＊「パパわ　すくに　おつきくなろ　っていつてたのに　すこくしかんか　かかりまもた。」"
 
 msgid "<32>* \"mommy is gona make a snail pie tonite And im exsited\""
-msgstr ""
+msgstr "<17>＊「ママか　カタシムリハイお　つくつてくれて　たのしかつたてす」"
 
 msgid "<32>* \"other then that im having a good day.\""
-msgstr ""
+msgstr "<17>＊「それいかいわ　ちいこうの　ひてした。」"
 
 msgid "<32>{#p/human}* (You turn to the second page...)"
-msgstr ""
+msgstr "<17>{#p/human}＊（2ページめをひらいた…）"
 
 msgid "<32>{#p/asriel1}{#v/2}* \"azzys dairy, k-504\""
-msgstr ""
+msgstr "<17>{#p/asriel1}{#v/2}＊「アズのにっき　504ねん」"
 
 msgid ""
 "<32>* \"mommy said i shood rite down the date So folks can no when i rote "
 "it.\""
-msgstr ""
+msgstr "<17>＊「ママか　あとてわかるよう　ひつけおかいとくように　しなちいっていいました。」"
 
 msgid ""
 "<32>* \"my starling flower stil hasnt grown yet but daddy promises it wil be"
 " soon\""
-msgstr ""
+msgstr "<17>「」"
 
 msgid ""
 "<32>* \"i wish there was a window on my room but daddy said there is pluming"

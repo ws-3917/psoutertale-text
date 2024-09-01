@@ -9368,18 +9368,24 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* It's a globe."
-msgstr ""
+msgstr "<32>{#p/basic}* 一個「地球儀」。"
 
 msgid "<32>{#p/basic}* It's a globe of monsterkind's... former homeworld."
 msgstr ""
+"<32>{#p/basic}* 一個「地球儀」，\n"
+"  展現著怪物...曾經的家園。"
 
 msgid "<32>{#p/basic}* It's a globe of monsterkind's great homeworld."
 msgstr ""
+"<32>{#p/basic}* 一個「地球儀」，\n"
+"  展現著怪物偉大的家園。"
 
 msgid ""
 "<32>{#p/mettaton}* IT WOULDN'T BE A SCIENCE LAB WITHOUT THE OBLIGATORY "
 "GLOBE."
 msgstr ""
+"<32>{#p/mettaton}* 沒有必備的「地球儀」，\n"
+"  這裡就不能叫做科學實驗室。"
 
 msgid "<32>* UNLIKE MOST OF WHAT'S HERE, IT'S NOT AN MTT-BRAND ITEM."
 msgstr ""
@@ -9388,6 +9394,8 @@ msgstr ""
 
 msgid "<32>* STILL, SINCE ALPHYS MADE IT FOR ME, AND MADE -ME- MYSELF..."
 msgstr ""
+"<32>* 不過，既然ALPHYS為我製作了它，\n"
+"  況且【我】自己也出自她之手..."
 
 msgid "<32>* THERE'S NO REASON TO DOUBT ITS QUALITY FOR A SECOND!"
 msgstr "<32>* 就沒有理由懷疑它的質量！"

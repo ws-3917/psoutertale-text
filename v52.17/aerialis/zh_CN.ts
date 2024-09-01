@@ -4580,15 +4580,15 @@ export default {
                  ][Math.min(asrielinter.labglobe++, 3)]
                : [
                     world.darker
-                       ? "<32>{#p/basic}* It's a globe."
+                       ? "<32>{#p/basic}* 一个“地球仪”。"
                        : SAVE.data.n.plot === 72
-                       ? "<32>{#p/basic}* It's a globe of monsterkind's... former homeworld."
-                       : "<32>{#p/basic}* It's a globe of monsterkind's great homeworld.",
+                       ? "<32>{#p/basic}* 一个“地球仪”，\n  展现着怪物...曾经的家园。"
+                       : "<32>{#p/basic}* 一个“地球仪”，\n  展现着怪物伟大的家园。",
                     ...(mtt
                        ? [
-                            "<32>{#p/mettaton}* IT WOULDN'T BE A SCIENCE LAB WITHOUT THE OBLIGATORY GLOBE.",
+                            "<32>{#p/mettaton}* 没有必备的“地球仪”，\n  这里就不能叫做科学实验室。",
                             "<32>* 不像大部分这儿的东西，\n  这不是MTT牌的产品。",
-                            '<32>* STILL, SINCE ALPHYS MADE IT FOR ME, AND MADE -ME- MYSELF...',
+                            '<32>* 不过，既然ALPHYS为我制作了它，\n  况且【我】自己也出自她之手...',
                             "<32>* 就没有理由怀疑它的质量！"
                          ]
                        : [])

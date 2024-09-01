@@ -1039,8 +1039,8 @@ export default {
          a1: () =>
             SAVE.flag.b.$svr
                ? [
-                    "<32>{#p/human}* I've seen the effect you've had on this world...",
-                    '<32>* A perfect ending, where everyone gets to be happy...',
+                    "<32>{#p/human}* Bu dünyada yarattığın etkiyi gördüm...",
+                    '<32>* Herkesin mutlu olduğu, mükemmel bir son...',
                     "<32>* Bunun hakkında özel bir şey var."
                  ]
                : [
@@ -1050,7 +1050,7 @@ export default {
                  ],
          a2: () =>
             SAVE.flag.b.$svr
-               ? [ '<32>* That being said...', "<32>* It seems it wasn't enough to satisfy your... curiosity." ]
+               ? [ '<32>* Bununla birlikte...', "<32>* Görünüşe göre bu... merakını gidermeye yetmemiş." ]
                : [ '<32>* Söyle bana...', '<32>* Bu senin... merakını uyandırmıyor mu?' ]
       },
       danger_puzzle1: () => [
@@ -1175,7 +1175,7 @@ export default {
          '<25>{#f/1}* ...',
          '<25>{#f/0}* Neyse ki, bu sadece bir eğitim mankeniydi.',
          '<25>{#f/1}* Ancak gelecekte, akıllıca olacak şey...',
-         '<25>{#f/0}* ... başkalarına neredeyse ölüme kadar vurmamaktır!',
+         '<25>{#f/0}* ... başkalarına öldüresiye vurmamaktır!',
          '<26>{#f/0}* Her neyse.\n* Bir sonraki oda bekliyor.'
       ],
       eat_pie: [ '<25>{#p/toriel}{#f/1}{#n1}* Lezzetli, değil mi?' ],
@@ -1850,7 +1850,7 @@ export default {
          '<25>{#f/5}* Elimi tut, ufaklık...',
          '<25>{#f/5}* Eve gitme zamanı.'
       ],
-      indie2f: [ '<32>{#p/human}{#s/equip}* (You got the CELL.)' ],
+      indie2f: [ '<32>{#p/human}{#s/equip}* (CEP\'i aldın.)' ],
       indie3a: [ '<25>{#p/toriel}* Başardın!' ],
       indie3b: [
          '<25>{#p/toriel}{#f/3}* Çocuğum, neden bu kadar geciktin!?',
@@ -1875,13 +1875,13 @@ export default {
          '<25>{#f/1}* İlerideki bulmacaların açıklanmaları gerekiyor, ve...',
          '<25>{#f/0}* Bu odadan tek başına ayrılman tehlikeli olabilir.',
          '<25>{#f/10}* İşte.\n* Bu CEP telefonunu al.',
-         '<32>{#p/human}{#s/equip}* (You got the CELL.)',
+         '<32>{#p/human}{#s/equip}* (CEP\'i aldın.)',
          ...([ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
             ? [
                  '<25>{#p/toriel}{#f/1}* Ben yokken bir şeye ihtiyacın olursa, lütfen...',
                  '<25>{#f/0}* Beni aramaktan çekinme.',
                  '<25>{#f/5}* ...',
-                 '<26>{#f/23}* And stay out of trouble.'
+                 '<26>{#f/23}* Ve başını belaya sokma.'
               ]
             : [
                  '<25>{#p/toriel}{#f/1}* Ben yokken bir şeye ihtiyacın olursa, lütfen...',
@@ -2001,16 +2001,16 @@ export default {
       loox: {
          a: [
             "<32>{#p/basic}{#n1}* I heard you're quite flirty, for a human.",
-            "<32>* As you {@fill=#cf7fff}FLIRT{@fill=#fff} with different kinds of monsters, you'll see hearts next to their names.",
-            "<32>* The more types of monsters you {@fill=#cf7fff}FLIRT{@fill=#fff} with, the more hearts you'll have.",
-            '<32>* I wonder...',
-            '<32>* Just how far can you go?',
-            '<32>* Perhaps, my friend, you could even become... a legend.'
+            "<32>* Farklı türden canavarlarla {@fill=#cf7fff}FLÖRT{@fill=#fff} ettikçe, isimlerinin yanında kalpler göreceksin.",
+            "<32>* Ne kadar çok canavar türüyle {@fill=#cf7fff}FLÖRT{@fill=#fff} edersen, o kadar çok kalbin olacak.",
+            '<32>* Merak ediyorum da...',
+            '<32>* Ne kadar ileri gidebilirsin?',
+            '<32>* Belki de, dostum, sen bir... efsane bile olabilirsin.'
          ],
          b: [
-            '<32>{#p/basic}{#n1}* Hey human, have you tried flirting yet?',
-            "<32>* Ha!\n* I can tell by the look on your face that you haven't yet.",
-            "<32>* I gotta tell you, it's tons of fun.",
+            '<32>{#p/basic}{#n1}* Hey insan, henüz flört etmeyi denedin mi?',
+            "<32>* Ha!\n* Suratındaki ifadeye bakılırsa henüz denemediğini biliyorum.",
+            "<32>* Sana söylemeliyim, bunu yapmak çok eğlenceli.",
             "<32>* Your enemies won't know what to do with themselves!",
             '<32>* Psst... if you DO start flirting, I might have more to tell you.',
             '<32>* Good luck with that!'
@@ -2019,11 +2019,11 @@ export default {
             "<32>{#p/basic}{#n1}* Hey human, now that you've started flirting...",
             '<32>* How does it feel?',
             "<32>* It's pretty great, right?",
-            "<32>* As you {@fill=#cf7fff}FLIRT{@fill=#fff} with different kinds of monsters, you'll see hearts next to their names.",
-            "<32>* The more types of monsters you {@fill=#cf7fff}FLIRT{@fill=#fff} with, the more hearts you'll have.",
-            '<32>* I wonder...',
-            '<32>* Just how far can you go?',
-            '<32>* Perhaps, my friend, you could even become... a legend.'
+            "<32>* Farklı türden canavarlarla {@fill=#cf7fff}FLÖRT{@fill=#fff} ettikçe, isimlerinin yanında kalpler göreceksin.",
+            "<32>* Ne kadar çok canavar türüyle {@fill=#cf7fff}FLÖRT{@fill=#fff} edersen, o kadar çok kalbin olacak.",
+            '<32>* Merak ediyorum da...',
+            '<32>* Ne kadar ileri gidebilirsin?',
+            '<32>* Belki de, dostum, sen bir... efsane bile olabilirsin.'
          ],
          d: [
             "<32>{#p/basic}{#n1}* I hear you're somewhat of a bully in these parts.",
@@ -2110,7 +2110,7 @@ export default {
          ],
          e: [ '<32>{#p/basic}{#n1}* Back again, huh?', "<32>* Sorry bud, I've got nothin' left to sell." ],
          f: [
-            "<32>{#p/human}{#n1!}* (You're carrying too much.)",
+            "<32>{#p/human}{#n1!}* (Çok fazla şey taşıyorsun.)",
             "<32>{#p/basic}{#n1}* Them pockets of yours are lookin' kinda full..."
          ],
          g: [
@@ -2135,8 +2135,8 @@ export default {
          ][Math.min(roomKills().w_puzzle4++, 2)],
       afrogX: (k: number) =>
          [
-            [ "<32>{#p/basic}{#n1}* If... if you d-do that again... I-I'm gonna have to stop you!" ],
-            [ '<32>{#p/basic}{#n1}* N-no...\n* Not again...' ]
+            [ "<32>{#p/basic}{#n1}* Eğer... eğer b-bunu bir daha yaparsan... s-seni durdurmak zorunda kalacağım!" ],
+            [ '<32>{#p/basic}{#n1}* H-hayır...\n* Yine mi...' ]
          ][k],
       patron: {
          a: pager.create(
@@ -2505,7 +2505,7 @@ export default {
                : choicer.create('* (Buy the Sizzli Steak for 20G?)', 'Evet', 'Hayır')
          ],
          b1: [ '<32>{#p/human}{#n1!}* (You got the Sizzli Steak.)', '<32>{#p/basic}{#n1}* Slick choice, lassy ;)' ],
-         b2: [ '<32>{#p/human}{#n1!}* (You decide not to buy.)' ],
+         b2: [ '<32>{#p/human}{#n1!}* (Satın almamaya karar verdin.)' ],
          c: () => [
             SAVE.data.b.napsta_performance
                ? world.darker
@@ -2519,7 +2519,7 @@ export default {
                : choicer.create('* (Buy the Fizzli Soda for 5G?)', 'Evet', 'Hayır')
          ],
          c1: [ '<32>{#p/human}{#n1!}* (You got the Fizzli Soda.)', "<32>{#p/basic}{#n1}* Careful, it's sweet ;)" ],
-         c2: [ '<32>{#p/human}{#n1!}* (You decide not to buy.)' ],
+         c2: [ '<32>{#p/human}{#n1!}* (Satın almamaya karar verdin.)' ],
          d: pager.create(
             0,
             () => [
@@ -2534,14 +2534,14 @@ export default {
          e: pager.create(
             0,
             [
-               "<32>{#p/human}{#n1!}* (You're carrying too much.)",
+               "<32>{#p/human}{#n1!}* (Çok fazla şey taşıyorsun.)",
                '<32>{#p/basic}{#n1}* Maybe you should come back later ;)'
             ],
-            [ "<32>{#p/human}{#n1!}* (You're carrying too much.)" ]
+            [ "<32>{#p/human}{#n1!}* (Çok fazla şey taşıyorsun.)" ]
          ),
          f: [ '<32>{#p/human}{#n1!}* (You got the Sizzli Steak.)' ],
          g: [ '<32>{#p/human}{#n1!}* (You got the Fizzli Soda.)' ],
-         h: [ "<32>{#p/human}{#n1!}* (You're carrying too much.)" ],
+         h: [ "<32>{#p/human}{#n1!}* (Çok fazla şey taşıyorsun.)" ],
          i: [
             "<32>{#p/basic}{#n1}* By the way, we're outta stock ;)",
             "<32>* Seems you can't get enough of our stuff ;)",
@@ -2582,33 +2582,33 @@ export default {
       terminal: {
          a: () =>
             postSIGMA()
-               ? [ "<32>{#p/human}* (You activate the terminal, but there's no incoming message.)" ]
+               ? [ "<32>{#p/human}* (Terminali aktifleştiriyorsun, ancak gelen bir mesaj yok.)" ]
                : SAVE.data.n.plot === 72
                ? !world.runaway
                   ? [
-                       '<32>{#p/human}* (You activate the terminal and play the incoming message.)',
-                       "<32>{#p/alphys}* We're free, everyone!\n* This isn't a joke, the force field's gone!",
-                       "<32>* Seriously, they're shutting down the core in a few days, so it's time to go!",
-                       "<32>* You don't want to die here, do you?"
+                       '<32>{#p/human}* (Terminali aktifleştirip gelen mesajı oynatıyorsun.)',
+                       "<32>{#p/alphys}* Özgürüz, millet!\n* Bu bir şaka değil, güç kalkanı ortadan kalktı!",
+                       "<32>* Gerçekten, birkaç gün içinde çekirdeği kapatacaklar, artık gitme zamanı!",
+                       "<32>* Burada ölmek istemiyorsunuz, değil mi?"
                     ]
                   : [
-                       '<32>{#p/human}* (You activate the terminal and play the incoming message.)',
-                       "<32>{#p/alphys}* The force field's gone.\n* Calling all citizens for immediate evacuation.",
-                       "<32>* ... I know you're all afraid, but it's going to be okay.",
-                       "<32>* They can't hurt us if we leave them behind."
+                       '<32>{#p/human}* (Terminali aktifleştirip gelen mesajı oynatıyorsun.)',
+                       "<32>{#p/alphys}* Güç kalkanı ortadan kalktı.\n* Tüm vatandaşları derhal tahliye etmeye çağırıyoruz.",
+                       "<32>* ... Hepinizin korktuğunu biliyorum, ama her şey yoluna girecek.",
+                       "<32>* Onu geride bırakırsak bize zarar veremez."
                     ]
                : 37.2 <= SAVE.data.n.plot
                ? [
-                    '<32>{#p/human}* (You activate the terminal and play the incoming message.)',
-                    "<32>{#p/alphys}* The Foundry's fluid network has been repaired, thanks to our... v-very kind workers.",
+                    '<32>{#p/human}* (Terminali aktifleştirip gelen mesajı oynatıyorsun.)',
+                    "<32>{#p/alphys}* Dökümhane'mizin sıvı şebekesi, çok... n-nazik çalışanlarımız sayesinde onarıldı.",
                     '<32>* ...',
-                    "<32>* On an unrelated note, we're... l-looking for new workers."
+                    "<32>* Konuyla alakasız olarak, y-yeni işçiler arıyoruz."
                  ]
                : [
-                    '<32>{#p/human}* (You activate the terminal and play the incoming message.)',
-                    "<32>{#p/alphys}* The Foundry's fluid network is f-falling apart again.",
-                    '<32>* The workers have promised a short turnaround, but things are looking bleak.',
-                    '<32>* Please, i-if anyone out there can help, we need you...'
+                    '<32>{#p/human}* (Terminali aktifleştirip gelen mesajı oynatıyorsun.)',
+                    "<32>{#p/alphys}* Dökümhane'nin sıvı şebekesi yine d-dağılıyor.",
+                    '<32>* Çalışanlar kısa bir dönüş sözü verdiler, ancak durum pek iç açıcı görünmüyor.',
+                    '<32>* Lütfen, e-eğer orada yardım edebilecek biri varsa, size ihtiyacımız var...'
                  ]
       },
       torieldanger: {
@@ -2725,9 +2725,9 @@ export default {
             [ '<25>{#p/asriel1}{#f/13}* Frisk...', "<25>{#f/15}* Don't you have anything better to do?" ],
             []
          ][Math.min(SAVE.data.n.lateasriel++, 8)],
-      securefield: [ '<33>{#p/basic}* There is a security field here.\n* It is active.' ],
+      securefield: [ '<33>{#p/basic}* Burada bir güvenlik kalkanı var.\n* Aktif.' ],
       trivia: {
-         w_security: [ "<32>{#p/basic}* It's a security field." ],
+         w_security: [ "<32>{#p/basic}* Bu bir güvenlik kalkanı." ],
          photoframe: () =>
             SAVE.data.b.svr
                ? [
@@ -2744,8 +2744,8 @@ export default {
                     [ '<25>{#p/asriel1}{#f/22}* Too many of these in this strange place.' ]
                  ][Math.min(asrielinter.photoframe++, 1)]
                : SAVE.data.n.plot === 72 && !world.runaway
-               ? [ '<32>{#p/basic}* Still an empty photo frame.' ]
-               : [ '<32>{#p/basic}* An empty photo frame.' ],
+               ? [ '<32>{#p/basic}* Hala boş bir fotoğraf çerçevesi.' ]
+               : [ '<32>{#p/basic}* Boş bir fotoğraf çerçevesi.' ],
          w_paintblaster: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (This device seems to be a few decades out of date.)' ]
@@ -2767,22 +2767,22 @@ export default {
          w_froggit: () =>
             SAVE.data.n.plot === 72
                ? [
-                    '<32>{#p/basic}* Ribbit, ribbit.\n* (Excuse me, human.)',
-                    '<32>* (You seem like you have grown into a thoughtful and conscientious person.)',
-                    "<32>* (Whether that was from my advice or not...)\n* (I'm quite proud.)",
-                    '<32>* Ribbit.'
+                    '<32>{#p/basic}* Vırak, vırak.\n* (Affedersin, insan.)',
+                    '<32>* (Düşünceli ve bilinçli biri olarak büyümüşsün gibi görünüyorsun.)',
+                    "<32>* (Benim tavsiyemin bir etkisi olsun ya da olmasın...)\n* (Oldukça gururluyum.)",
+                    '<32>* Vırak.'
                  ]
                : [
-                    '<32>{#p/basic}* Ribbit, ribbit.\n* (Excuse me, human...)',
-                    '<32>* (I have some advice for you about battling monsters.)',
+                    '<32>{#p/basic}* Vırak, Vırak.\n* (Affedersin, insan...)',
+                    '<32>* (Canavarlarla savaşmak konusunda sana birkaç tavsiyem var.)',
                     '<32>* (If you {@fill=#ff0}ACT{@fill=#fff} a certain way or {@fill=#3f00ff}FIGHT{@fill=#fff} until you almost defeat them...)',
                     '<32>* (They might not want to battle you anymore.)',
-                    '<32>* (If a monster does not want to fight you, please...)',
-                    '<32>* (Use some {@fill=#ff0}MERCY{@fill=#fff}, human.)\n* Ribbit.'
+                    '<32>* (Eğer bir canavar seninle savaşmak istemiyorsa, lütfen...)',
+                    '<32>* (Biraz {@fill=#ff0}İNSAF{@fill=#fff} göster, insan.)\n* Vırak.'
                  ],
          w_froggit_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare thoughtfully into the cosmos beyond...)' ]
+               ? [ '<32>{#p/human}* (Kozmosun ötesine düşünceli bir şekilde bakıyorsun...)' ]
                : world.darker
                ? []
                : SAVE.data.n.plot === 72
@@ -2892,14 +2892,14 @@ export default {
                  ],
          w_puzzle1_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare deeply into the cosmos beyond...)' ]
+               ? [ '<32>{#p/human}* (Kozmosun ötesine dalarak bakıyorsun...)' ]
                : world.darker
                ? []
                : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* In the end, these rooms still feel like nothing more than lookout areas.' ]
+               ? [ '<32>{#p/basic}* İşin sonunda, bu odalar hala sadece manzara alanları gibi hissettiriyor.' ]
                : [
-                    '<32>{#p/basic}* Why does it feel like some of these rooms...',
-                    '<32>* ... were just made solely to be lookout areas?'
+                    '<32>{#p/basic}* Neden bu odaların bazıları yalnızca...',
+                    '<32>* ... manzara olsun diye yapılmış gibi hissettiriyor?'
                  ],
          w_puzzle2: () =>
             SAVE.data.b.svr
@@ -2978,8 +2978,8 @@ export default {
                     Math.min(asrielinter.w_ta_frame++, 1)
                  ]
                : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* An empty photo frame.', "<32>* There still isn't much else to say." ]
-               : [ '<32>{#p/basic}* An empty photo frame.', "<32>* There's not much else to say." ],
+               ? [ '<32>{#p/basic}* Boş bir fotoğraf çerçevesi.', "<32>* There still isn't much else to say." ]
+               : [ '<32>{#p/basic}* Boş bir fotoğraf çerçevesi.', "<32>* There's not much else to say." ],
          w_ta_paper: () =>
             SAVE.data.b.svr
                ? [
@@ -3638,23 +3638,23 @@ export default {
       piesmash2: [ '<32>{#p/human}* (You take a swing...)' ],
       piesmash3: [ "<32>{#p/basic}* It's been utterly destroyed." ],
       tutorial_puzzle1: [
-         '<25>{#p/toriel}* Unlike the puzzle beforehand, this one is a little different.',
-         '<25>{#f/1}* It IS rare, but certain puzzles on the outpost...'
+         '<25>{#p/toriel}* Bir önceki bulmacanın aksine, bu biraz daha farklı.',
+         '<25>{#f/1}* NADİR olsa da, karakoldaki bazı bulmacalar...'
       ],
       tutorial_puzzle2: [
-         '<25>{#p/toriel}* ... require the assistance of another monster.',
-         '<25>{#f/1}* Do you understand what you must do next?'
+         '<25>{#p/toriel}* ... bir başka canavarın yardımına ihtiyaç duyarlar.',
+         '<25>{#f/1}* Sırada ne yapman gerektiğini anlıyor musun?'
       ],
-      tutorial_puzzle2a: [ '<25>{#p/toriel}{#f/1}* Do you understand what you must do next?' ],
-      tutorial_puzzle3: [ '<25>{#p/toriel}* Very good, little one!\n* Very good.' ],
-      tutorial_puzzle4: [ '<25>{#p/toriel}{#f/1}* Your turn...' ],
-      tutorial_puzzle4a: [ '<25>{#p/toriel}{#f/0}* It is your turn.' ],
-      tutorial_puzzle5: [ '<25>{#p/toriel}* Well done!\n* Only one row to go.' ],
-      tutorial_puzzle6: [ '<25>{#p/toriel}{#f/1}* Yes, yes!\n* I am proud of you, my child...' ],
-      tutorial_puzzle7: [ '<25>{#p/toriel}* Come with me when you are ready to begin your next lesson.' ],
-      tutorial_puzzle8a: [ '<25>{#p/toriel}* The answer does not lie with me, little one.' ],
-      tutorial_puzzle8b: [ '<25>{#p/toriel}* Try repeating what you have done before.' ],
-      tutorial_puzzle8c: [ '<25>{#p/toriel}{#f/1}* Go on...' ],
+      tutorial_puzzle2a: [ '<25>{#p/toriel}{#f/1}* Sırada ne yapman gerektiğini anlıyor musun?' ],
+      tutorial_puzzle3: [ '<25>{#p/toriel}* Çok iyi, ufaklık!\n* Çok iyi.' ],
+      tutorial_puzzle4: [ '<25>{#p/toriel}{#f/1}* Senin sıran...' ],
+      tutorial_puzzle4a: [ '<25>{#p/toriel}{#f/0}* Sıra sende.' ],
+      tutorial_puzzle5: [ '<25>{#p/toriel}* Aferin!\n* Yalnızca bir sıra kaldı.' ],
+      tutorial_puzzle6: [ '<25>{#p/toriel}{#f/1}* Evet, evet!\n* Seninle gurur duyuyorum, çocuğum.' ],
+      tutorial_puzzle7: [ '<25>{#p/toriel}* Sıradaki dersine başlamaya hazır olduğunda benimle gel.' ],
+      tutorial_puzzle8a: [ '<25>{#p/toriel}* Cevap bende saklı değil, ufaklık.' ],
+      tutorial_puzzle8b: [ '<25>{#p/toriel}* Daha önce yaptığın şeyi tekrarlamayı dene.' ],
+      tutorial_puzzle8c: [ '<25>{#p/toriel}{#f/1}* Devam et...' ],
       twinkly1: [
          "<25>{#p/twinkly}{#f/5}* Selam!\n* Ben {@fill=#ff0}TWİNKLY{@fill=#fff}.\n* {@fill=#ff0}YILDIZ TWİNKLY{@fill=#fff}!"
       ],
@@ -3781,8 +3781,8 @@ export default {
          '<25>{#p/toriel}{#f/1}* Amanın!\n* Sen de nereden geldin, ufaklık?',
          '<25>{#f/1}* Yaralandın mı?',
          '<25>{#f/0}* ...\n* Sana çok fazla soru sorduğum için üzgünüm.',
-         '<25>{#f/0}* Ben {@fill=#003cff}TORİEL{@fill=#fff}, {@fill=#f00}OUTLANDS\'in{@fill=#fff} idarecisiyim.',
-         '<26>{#f/0}* Her gün buraya uğrayıp kaza yapmış biri\n  var mı diye kontrol ederim.',
+         '<25>{#f/0}* Ben {@fill=#003cff}TORİEL{@fill=#fff}, {@fill=#f00}OUTLANDS\'in{@fill=#fff} gözetmeniyim.',
+         '<26>{#f/0}* Her gün burada kaza yapmış biri var mı diye kontrol ederim.',
          '<25>{#f/0}* Beni takip et, çocuk.\n* Sana öğretmek istediğim çok fazla şey var.'
       ],
       twinkly22: [ '<25>{#f/0}* Bu taraftan.' ],
@@ -4472,88 +4472,88 @@ export default {
    },
    i_pie: {
       battle: {
-         description: 'Ev yapımı karamelli-tarçınlı turta, bir dilim.',
+         description: 'Ev yapımı karamelli-tarçınlı turta, tek dilim.',
          name: 'Turta'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Butterscotch Pie.)' ],
+      drop: [ '<32>{#p/human}* (Karamelli Turta\'yı attın.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (99 HP.)' ]
-            : [ '<32>{#p/basic}* \"Butterscotch Pie\" Heals 99 HP\n* Homemade butterscotch-cinnamon pie, one slice.' ],
+            ? [ '<32>{#p/human}* (99 CAN.)' ]
+            : [ '<32>{#p/basic}* \"Karamelli Turta\" 99 CAN iyileştirir\n* Ev yapımı karamelli-tarçınlı turta, tek dilim.' ],
       name: 'Karamelli Turta',
-      use: [ '<32>{#p/human}* (You eat the Butterscotch Pie.)' ]
+      use: [ '<32>{#p/human}* (Karamelli Turta\'yı yedin.)' ]
    },
    i_pie2: {
       battle: {
          description: 'Klasik aile tarifi.',
          name: 'Salyangozlu Turta'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Snail Pie.)' ],
+      drop: [ '<32>{#p/human}* (Salyangozlu Turta\'yı attın.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (99 HP.)' ]
-            : [ '<32>{#p/basic}* \"Snail Pie\" Heals 99 HP\n* Classic family recipe.' ],
+            ? [ '<32>{#p/human}* (99 CAN.)' ]
+            : [ '<32>{#p/basic}* \"Salyangozlu Turta\" 99 CAN iyileştirir\n* Klasik aile tarifi.' ],
       name: 'Salyangozlu Turta',
-      use: [ '<32>{#p/human}* (You eat the Snail Pie.)' ]
+      use: [ '<32>{#p/human}* (Salyangozlu Turta\'yı yedin.)' ]
    },
    i_pie3: {
       battle: {
-         description: 'Despite being soup-ified, the pie remains delicious.',
+         description: 'Çorbalaştırılmış olsa bile, turta hala lezzetli.',
          name: 'Turta Çorbası'
       },
-      drop: [ '<32>{#p/human}* (You dump the Pie Soup and the spoon that came with it.)' ],
-      info: [ '<32>{#p/basic}* \"Pie Soup\" Heals 49 HP\n* Despite being soup-ified, the pie remains delicious.' ],
+      drop: [ '<32>{#p/human}* (Turta Çorbası\'nı döktün ve onunla gelen kaşığı attın.)' ],
+      info: [ '<32>{#p/basic}* \"Turta Çorbası\" 49 CAN iyileştirir\n* Çorbalaştırılmış olsa bile, turta hala lezzetli.' ],
       name: 'Turta Çorbası',
-      use: [ '<32>{#p/human}* (You consume the Pie Soup with the provided spoon.)' ]
+      use: [ '<32>{#p/human}* (Kaşığıyla birlikte gelen Turta Çorbası\'nı içtin.)' ]
    },
    i_pie4: {
       battle: {
          description: 'Neticede eylemlerin sonuçları vardır...',
          name: 'Yanmış Turta'
       },
-      drop: [ '<32>{#p/human}* (You toss the Burnt Pie to the side like it never existed.)' ],
-      info: [ '<32>{#p/basic}* \"Burnt Pie\" Heals 39 HP\n* Actions do have their consequences...' ],
+      drop: [ '<32>{#p/human}* (Yanmış Turta\'yı sanki hiç var olmamış gibi kenara fırlattın.)' ],
+      info: [ '<32>{#p/basic}* \"Yanmış Turta\" 39 CAN iyileştirir\n* Neticede eylemlerin sonuçları vardır...' ],
       name: 'Yanmış Turta',
-      use: [ '<32>{#p/human}* (You eat the Burnt Pie.)' ]
+      use: [ '<32>{#p/human}* (Yanmış Turta\'yı yedin.)' ]
    },
    i_snails: {
       battle: {
-         description: 'A plate of fried snails.\nFor breakfast, of course.',
+         description: 'Bir tabak kızarmış salyangoz.\nKahvaltı için tabi.',
          name: 'Salyangozlar'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Fried Snails.)' ],
+      drop: [ '<32>{#p/human}* (Kızarmış Salyangozlar\'ı attın.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (19 HP.)' ]
-            : [ '<32>{#p/basic}* \"Fried Snails\" Heals 19 HP\n* A plate of fried snails.\n* For breakfast, of course.' ],
-      name: 'Fried Snails',
-      use: [ '<32>{#p/human}* (You eat the Fried Snails.)' ]
+            ? [ '<32>{#p/human}* (19 CAN.)' ]
+            : [ '<32>{#p/basic}* \"Kızarmış Salyangozlar\" 19 CAN iyileştirir\n* Bir tabak kızarmış salyangoz.\n* Kahvaltı için tabi.' ],
+      name: 'Kızarmış Salyangozlar',
+      use: [ '<32>{#p/human}* (Kızarmış Salyangozlar\'ı yedin.)' ]
    },
    i_soda: {
       battle: {
-         description: 'A sickly, dark yellow liquid.',
+         description: 'Tiksindirici, koyu sarı bir sıvı.',
          name: 'Soda'
       },
       drop: () => [
-         '<32>{#p/human}* (You throw away the Fizzli Soda.)',
-         ...(SAVE.data.b.svr || world.darker ? [] : [ '<32>{#p/basic}* Good riddance.' ])
+         '<32>{#p/human}* (Fışırtılı Soda\'yı attın.)',
+         ...(SAVE.data.b.svr || world.darker ? [] : [ '<32>{#p/basic}* Hele şükür.' ])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (8 HP.)' ]
-            : [ '<32>{#p/basic}* \"Fizzli Soda\" Heals 8 HP\n* A dark, sickly yellow liquid.' ],
-      name: 'Fizzli Soda',
+            ? [ '<32>{#p/human}* (8 CAN.)' ]
+            : [ '<32>{#p/basic}* \"Fışırtılı Soda\" 8 CAN iyileştirir\n* Tiksindirici, koyu sarı bir sıvı.' ],
+      name: 'Fışırtılı Soda',
       use: () => [
-         '<32>{#p/human}* (You drink the Fizzli Soda.)',
-         ...(SAVE.data.b.svr || world.darker ? [] : [ '<32>{#p/basic}* Yuck!' ])
+         '<32>{#p/human}* (Fışırtılı Soda\'yı içtin.)',
+         ...(SAVE.data.b.svr || world.darker ? [] : [ '<32>{#p/basic}* Öğk!' ])
       ]
    },
    i_spacesuit: {
       battle: {
-         description: 'It came with the craft you crash-landed in.',
-         name: 'Spacesuit'
+         description: 'Kaza yaptığın mekikle birlikte geldi.',
+         name: 'Uzay Elbisesi'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Worn Spacesuit.)' ],
+      drop: [ '<32>{#p/human}* (Kullanılmış Uzay Elbisesi\'ni attın.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* (20 HP. The last remaining fragment of a spacecraft flown in exile.)' ]
@@ -4563,7 +4563,7 @@ export default {
    },
    i_spanner: {
       battle: {
-         description: 'A rusty old wrench.',
+         description: 'Paslı ve eski bir alet anahtarı.',
          name: 'Alet Anahtarı'
       },
       drop: [ '<32>{#p/human}* (Paslı Anahtar’ı attın.)' ],

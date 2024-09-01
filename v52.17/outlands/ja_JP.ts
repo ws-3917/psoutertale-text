@@ -504,99 +504,99 @@ export default {
             : [])
       ],
       fireplace2c: [ "<13>{#p/toriel}{#f/1}{#npc/a}＊そんなにながく　そこにいなくても　いいのよ…" ],
-      fireplace2d: [ '<32>{#p/basic}* ...', '<32>* This is fine.' ],
-      noticereturn: [ '<25>{#p/asriel2}{#f/10}* Something you missed back here?' ],
+      fireplace2d: [ '<17>{#p/basic}＊…', '<17>＊もう　まんぞくした。' ],
+      noticereturn: [ '<13>{#p/asriel2}{#f/10}＊なにか　わすれもの　でもしたの？' ],
       noticestart: [
-         '<25>{#p/asriel2}{#f/3}* Ah, the place where it all began.',
-         "<25>{#p/asriel2}{#f/4}* We've certainly come along since then, haven't we, $(name)?"
+         '<13>{#p/asriel2}{#f/3}＊すべてが　はじまった　ばしょだね。',
+         "<13>{#p/asriel2}{#f/4}＊ボクたちは　あれから　いっしょに　ここまでたどりついた。"
       ],
-      noticedummy: [ '<25>{#p/asriel2}{#f/3}* ...', "<25>{#p/asriel2}{#f/10}* Wasn't there a dummy here before...?" ],
+      noticedummy: [ '<13>{#p/asriel2}{#f/3}＊…', "<13>{#p/asriel2}{#f/10}＊ここにマネキンが　なかったっけ…？" ],
       afrog: {
          a: [
-            '<32>{#p/basic}{#n1}* Just between you and me...',
-            '<32>* I saw that goat lady come through here just a little while ago.',
-            '<32>* She had groceries, so I asked her what they were for, and...',
-            "<32>* Well, you're in for a treat."
+            '<17>{#p/basic}{#n1}＊ケロケロ。　（ここだけのはなしダケド）',
+            '<17>＊（ほんのすこしまえに　おんなのひとが　ここをとおりすぎるのを　みたケロ）',
+            '<17>＊（しょくざいを　かいこんでたから　なんのためのものか　きいたケロ）',
+            "<17>＊（あなたに　サプライズをする　みたい　ケロよ）"
          ],
          b: () =>
             SAVE.data.n.plot === 72
                ? [
-                    '<32>{#p/basic}{#n1}* Just between you and me...',
-                    '<32>* I saw that goat lady come through here earlier.',
-                    '<32>* She said it was time to \"confront her fears.\"',
-                    "<32>* Well, whatever she did clearly led to something!\n* We're all free now!"
+                    '<17>{#p/basic}{#n1}＊ケロケロ。　（ここだけのはなしダケド）',
+                    '<17>＊（さっき　おんなのひとが　ここをとおりすぎるのを　みたケロ）',
+                    '<17>＊（「きょうふにたちむかう」のに　いい　ころあいだ　っていってたケロ）',
+                    "<17>＊（まあ　なんにせよ　トリエルなら　どうにかなるケロ）\n＊（とにかく　ボクたちは　じゆうだケロ！）"
                  ]
                : SAVE.data.n.plot === 71.2
                ? [
-                    '<32>{#p/basic}{#n1}* Did you see her?\n* She just came through here right now!',
-                    '<32>* She said it was time to \"confront her fears.\"',
-                    '<32>* I wonder what she could have meant...?\n* She seemed determined.'
+                    '<17>{#p/basic}{#n1}＊ケロケロ　ケロケロ。\n（トリエルとあったケロ？　たったいま　とおりすぎて　いったケロよ！）',
+                    '<17>＊（「きょうふにたちむかう」のに　いい　ころあいだ　っていってたケロ）',
+                    '<17>＊（なにがいいたかったケロ…？）\n＊（ケツイを　いだいている　ようにみえたケロ）'
                  ]
                : SAVE.data.b.w_state_lateleave
                ? [
-                    '<32>{#p/basic}{#n1}* Just between you and me...',
-                    '<32>* I saw that goat lady take the taxi to the supermarket earlier.',
-                    "<32>* She said she was going off to buy milk, but she still hasn't come back...",
-                    "<32>* I hope she's alright."
+                    '<17>{#p/basic}{#n1}＊ケロケロ。　（ここだけのはなしダケド）',
+                    '<17>＊（さっき　おんなのひとが　タクシーで　かいものにいってるのを　みたケロ）',
+                    "<17>＊（ぎゅうにゅうを　かいにいく　っていってたケド…　まだかえってきてないケロ）",
+                    "<17>＊（だいじょうぶケロね？）"
                  ]
                : [
-                    '<32>{#p/basic}{#n1}* Just between you and me...',
-                    "<32>* Sometimes, when I'm alone, I like to ride the taxi to the marketplace.",
-                    "<32>* It's a quaint little shop, but there's loads of stuff to buy.",
-                    "<32>* Maybe I'll take you there sometime... you'd adore it!"
+                    '<17>{#p/basic}{#n1}＊ケロケロ。　（ここだけのはなしダケド）',
+                    "<17>＊（ときどき　ひとりで　タクシーにのって　かいものにいくのが　すきだケロ）",
+                    "<17>＊（ふんいきのある　ちいさな　みせだケド　たくさん　かえるものが　あるケロ）",
+                    "<17>＊（いつか　あなたをつれていく　かもケロ…　ぜったい　いきつけのみせに　なるケロ）"
                  ],
          c: () =>
             SAVE.data.n.plot === 72
                ? [
-                    '<32>{#p/basic}{#n1}* Just between you and me...',
-                    "<32>* I'm not a fan of how you beat us all up at first.",
-                    '<32>* We were all so scared and confused...',
-                    '<32>* ... at least you did something good in the end.'
+                    '<17>{#p/basic}{#n1}＊ケロケロ。　（ここだけのはなしダケド）',
+                    "<17>＊（いっておくけど　ボクたちを　きづつける　やりかたは　すきじゃないケロ）",
+                    '<17>＊（みんなおびえて　こんわくしてるケロ…）',
+                    '<17>＊（すくなくとも　さいごに　なにかいいことを　してくれることに）'
                  ]
                : [
-                    '<32>{#p/basic}{#n1}* Just between you and me...',
-                    "<32>* The people you've been beating up aren't happy about it.",
-                    "<32>* Just be glad I'm off-duty...\n* 'Cause otherwise...",
-                    "<32>* I'd have your head."
+                    '<17>{#p/basic}{#n1}＊ケロケロ。　（ここだけのはなしダケド）',
+                    "<17>＊（あなたに　きづつけられたコは　ぼうりょくを　よくおもってないケロ）",
+                    "<17>＊（ボクが　きんむじかんがいで　よかったケロね…）\n＊（さもなければ…）",
+                    "<17>＊（ボクが　あなたに　なにをするか　わからないケロ）"
                  ],
-         d: [ '<32>{#p/basic}{#n1}* No... no!', '<32>* G-get away from me!' ]
+         d: [ '<17>{#p/basic}{#n1}＊ケ…ケロ。\n（や…やめるケロ！）', '<17>＊（はなれるケロ！）' ]
       },
       asriel0: [
-         "<25>{#p/asriel2}{#f/5}* ... but that's okay, I know you'll be there on time!",
-         "<25>{#p/asriel2}{#f/1}* You wouldn't want to let me down, would you?"
+         "<13>{#p/asriel2}{#f/5}＊…よかった。　キミなら　じかんどおりに　くると　おもってたよ！",
+         "<13>{#p/asriel2}{#f/1}＊ボクをしつぼうさせないでね。"
       ],
       asriel1: () =>
          [
             [
-               "<25>{#p/asriel2}{#f/2}* Sorry about that, I had to use Toriel's phone to call someone.",
-               "<25>{#p/asriel2}{#f/1}* Don't worry...\n* You'll find out why soon enough.",
-               "<25>{#p/asriel2}{#f/2}* ... hee hee hee.\n* I'll be waiting for you up ahead."
+               "<13>{#p/asriel2}{#f/2}＊ごめん。　トリエルのでんわで　よばないといけない　ひとがいて。",
+               "<13>{#p/asriel2}{#f/1}＊いそぐひつようはないよ。\n＊すぐにだれかわかるから。",
+               "<13>{#p/asriel2}{#f/2}＊…ハハハ。\n＊ボクは　さきのほうで　まってるよ。"
             ],
-            [ "<25>{#p/asriel2}{#f/4}* I'll be waiting for you up ahead." ],
-            [ '<25>{#p/asriel2}{#f/3}* ...' ]
+            [ "<13>{#p/asriel2}{#f/4}＊ボクは　さきのほうで　まってるよ。" ],
+            [ '<13>{#p/asriel2}{#f/3}＊…' ]
          ][Math.min(SAVE.flag.n.ga_asrielNegative1++, 1)],
       asriel2: () => [
-         '<25>{#p/asriel2}{#f/1}* Ready, $(name)?',
-         "<25>{#f/2}* 'Cause once we move forward, there's no turning back.",
-         choicer.create('* (Follow Him?)', 'はい', 'いいえ')
+         '<13>{#p/asriel2}{#f/1}＊じゅんびできた？　$(name)。',
+         "<13>{#f/2}＊いったん　まえにすすんだら　もう　もどれないよ。",
+         choicer.create('＊（ついていく？）', 'はい', 'いいえ')
       ],
-      asriel2b: () => [ '<25>{#p/asriel2}{#f/1}* Ready?', choicer.create('* (Follow Him?)', 'はい', 'いいえ') ],
-      asriel3: [ '<25>{#p/asriel2}{#f/2}* Okay...', "<25>{#f/1}* Let's do this." ],
-      asriel4: [ "<25>{#p/asriel2}{#f/4}* I'll be waiting, then." ],
+      asriel2b: () => [ '<13>{#p/asriel2}{#f/1}＊じゅんびできた？', choicer.create('＊（ついていく？）', 'はい', 'いいえ') ],
+      asriel3: [ '<13>{#p/asriel2}{#f/2}＊オッケー…', "<13>{#f/1}＊じゃあいくよ。" ],
+      asriel4: [ "<13>{#p/asriel2}{#f/4}＊じゃあここでまってるよ。" ],
       asrielDiary: [
          [
-            '<32>{#p/human}* (You turn to the first page... you can barely make out the words.)',
-            '<32>{#p/asriel1}{#v/2}* \"i am starting a dairy Cuz mommy said it wood be fun.\"',
-            '<32>* \"today i lerned how to put seeds in daddys garden\"',
-            '<32>* \"he says they will grow up soon But it wil take a long tiem.\"',
-            '<32>* \"mommy is gona make a snail pie tonite And im exsited\"',
-            '<32>* \"other then that im having a good day.\"'
+            '<17>{#p/human}＊（あなたは　さいしょのページを　ひらいた…　かろうじて　ぶんしょうがよめた。）',
+            '<17>{#p/asriel1}{#v/2}＊「ママか　たのしいつて　いつてたのて　にっさを　かくことにします。」',
+            '<17>＊「さよう　べんさよう　したのわ　おにわに　たねおまく　ことです」',
+            '<17>＊「パパわ　すくに　おつきくなろ　っていつてたのに　すこくしかんか　かかりまもた。」',
+            '<17>＊「ママか　カタシムリハイお　つくつてくれて　たのしかつたてす」',
+            '<17>＊「それいかいわ　ちいこうの　ひてした。」'
          ],
          [
-            '<32>{#p/human}* (You turn to the second page...)',
-            '<32>{#p/asriel1}{#v/2}* \"azzys dairy, k-504\"',
-            '<32>* \"mommy said i shood rite down the date So folks can no when i rote it.\"',
-            '<32>* \"my starling flower stil hasnt grown yet but daddy promises it wil be soon\"',
+            '<17>{#p/human}＊（2ページめをひらいた…）',
+            '<17>{#p/asriel1}{#v/2}＊「アズのにっき　504ねん」',
+            '<17>＊「ママか　あとてわかるよう　ひつけおかいとくように　しなちいっていいました。」',
+            '<17>「」',
             '<32>* \"i wish there was a window on my room but daddy said there is pluming here.\"',
             '<32>* \"they said they wood put a window in the front room tho\"',
             '<32>* \"i am having a nice day today as wel.\"'
@@ -678,7 +678,7 @@ export default {
             '<32>* \"Me and $(name) are gonna do everything together!\"',
             '<32>* \"Also they said sorry for what happend in the last diary page.\"',
             '<32>* \"I didnt tell them yet but, I forgive them.\"',
-            '<32>{#p/basic}* ...'
+            '<17>{#p/basic}＊…'
          ],
          [
             '<32>{#p/human}* (You turn to the eleventh page.)',
@@ -689,7 +689,7 @@ export default {
             '<32>* \"And then we can save everyone together.\"',
             '<32>* \"If something goes wrong, and you\'re reading this later...\"',
             '<32>* \"I want you to know that you\'re the best, $(name).\"',
-            '<32>{#p/basic}* ...',
+            '<17>{#p/basic}＊…',
             '<32>{#p/human}* (It sounds like someone is crying...)'
          ]
       ],
@@ -1651,7 +1651,7 @@ export default {
                ? [ "<32>{#p/basic}* You wouldn't like what's in the fridge." ]
                : [ '<32>{#p/basic}* There is a brand-name chocolate bar in the fridge.' ],
          b: () => [
-            ...(SAVE.data.b.svr ? [] : [ '<32>{#p/basic}* ...', '<32>* Do you want it?' ]),
+            ...(SAVE.data.b.svr ? [] : [ '<17>{#p/basic}＊…', '<32>* Do you want it?' ]),
             choicer.create('* (Take the Chocolate Bar?)', 'はい', 'いいえ')
          ],
          b1: [ '<32>{#p/human}* (You decide not to take anything.)' ],
@@ -2701,7 +2701,7 @@ export default {
                "<25>{#f/16}* ... I can't say for certain what happened to them after we died.",
                '<25>{#f/15}* Nothing was ever found... not even their SOUL.',
                "<25>{#f/15}* So... I can't help but wonder if they're... still out there.",
-               '<32>{#p/basic}* ...',
+               '<17>{#p/basic}＊…',
                '<32>{#p/human}* (It sounds like someone is crying...)'
             ],
             [
@@ -3067,7 +3067,7 @@ export default {
             SAVE.data.b.svr
                ? [ "<25>{#p/asriel1}{#f/24}* It's us..." ]
                : world.genocide
-               ? [ '<32>{#p/basic}* ...' ]
+               ? [ '<17>{#p/basic}＊…' ]
                : world.darker
                ? [ "<32>{#p/basic}* It's you." ]
                : SAVE.data.b.w_state_catnap || SAVE.data.n.plot > 17
@@ -3471,7 +3471,7 @@ export default {
                   '<32>* \"I would rather not force him to do so.\"',
                   '<32>* \"Besides, can one royal sentry really protect them from the rest of the outpost?\"',
                   '<32>* \"Hopefully those kinds of questions will soon be pointless.\"',
-                  '<32>{#p/basic}* ...'
+                  '<17>{#p/basic}＊…'
                ],
                [ '<32>{#p/human}* (There are no more written entries here.)' ]
             ].map(

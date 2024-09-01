@@ -6796,8 +6796,8 @@ export default {
          "<15>{#f/10}ЭТО МОЯ АТАКА!",
          '<15>{#f/20}Ньех хе-хе!!!'
       ],
-      turnTalk1a: [ '<15>{#p/papyrus}{#f/20}BEHOLD!' ],
-      turnTalk1b: [ '<15>{#p/papyrus}{#f/20}HMMM... I WONDER WHAT I SHOULD WEAR...' ],
+      turnTalk1a: [ '<15>{#p/papyrus}{#f/20}СМОТРИ!' ],
+      turnTalk1b: [ '<15>{#p/papyrus}{#f/20}ХМММ... ИНТЕРЕСНО, ЧТО МНЕ НАДЕТЬ...' ],
       turnTalk2a: [ '<15>{#p/papyrus}{#f/20}КАК ВЫСОКО ТЫ МОЖЕШЬ ПРЫГНУТЬ?' ],
       turnTalk2b: [ "<15>{#p/papyrus}{#f/22}ЧТО!!!\nЯ НЕ ДУМАЮ О СВИДАНИИ!!!" ],
       turnTalk3: () =>
@@ -6853,242 +6853,242 @@ export default {
          '<15>{#f/15}ДА!!! Я ВИЖУ, КАК ТЫ ДРОЖИШЬ В СВОИХ САПОГАХ!!!',
          '<15>{#f/20}Я, ВЕЛИКИЙ ПАПИРУС, РЕШИЛ ДАРОВАТЬ ТЕБЕ ЖАЛОСТЬ!!',
          '<15>{#f/20}Я ХОЧУ {@fill=#f00}ПОЩАДИТЬ ТЕБЯ{@fill=#000}, ЧЕЛОВЕК!!!',
-         "<15>{#f/10}NOW'S YOUR CHANCE TO ACCEPT MY {@fill=#f00}MERCY{@fill=#000}."
+         "<15>{#f/10}СЕЙЧАС У ТЕБЯ ЕСТЬ ШАНС ПРИНЯТЬ МОЮ {@fill=#f00}ПОЩАДУ{@fill=#000}."
       ],
       idleTalk: [ '<15>{#p/papyrus}{#f/20}...' ],
       idleTalkBullied: [ '<18>{#p/papyrus}{#f/27}...' ],
-      secretFlirt1: [ '<15>{#p/papyrus}{#f/27}YOU WISH TO REMAIN WITH ME... FOREVER?', '<15>{#p/papyrus}{#f/21}HMM...' ],
+      secretFlirt1: [ '<15>{#p/papyrus}{#f/27}ТЫ ХОЧЕШЬ ОСТАТЬСЯ СО МНОЙ... НАВСЕГДА?', '<15>{#p/papyrus}{#f/21}ХММ...' ],
       secretFlirt2: [
-         '<15>{#p/papyrus}{#f/27}SOMETHING IS TRYING TO TEAR OUR LOVE APART?',
-         '<15>{#p/papyrus}{#f/21}I WONDER...'
+         '<15>{#p/papyrus}{#f/27}ЧТО-ТО ПЫТАЕТСЯ РАЗЛУЧИТЬ НАШУ ЛЮБОВЬ?',
+         '<15>{#p/papyrus}{#f/21}Я УДИВЛЯЮСЬ...'
       ],
       secretFlirt2x: [
-         "<15>{#p/papyrus}{#f/27}SO YOU -DON'T- WISH TO REMAIN WITH ME?",
-         "<15>{#p/papyrus}{#f/14}BUT THEN... WHY WON'T YOU ACCEPT MY MERCY AND LEAVE ME?"
+         "<15>{#p/papyrus}{#f/27}ЗНАЧИТ, ТЫ НЕ ХОЧЕШЬ ОСТАВАТЬСЯ СО МНОЙ?",
+         "<15>{#p/papyrus}{#f/14}НО ПОТОМ... ПОЧЕМУ ТЫ НЕ ПРИМЕШЬ МОЮ ПОЩАДУ И НЕ УЙДЕШЬ ОТ МЕНЯ?"
       ],
       secretFlirt3: [
-         "<15>{#p/papyrus}{#f/25}UH, I DON'T THINK WE'VE GOTTEN -THAT- FAR YET...",
-         '<15>{#p/papyrus}{#f/15}... BUT WE CAN SURE TRY LATER!'
+         "<15>{#p/papyrus}{#f/25}УХ, Я НЕ ДУМАЮ, ЧТО МЫ ЗАШЛИ ТАК ДАЛЕКО...",
+         '<15>{#p/papyrus}{#f/15}... НО МЫ МОЖЕМ ПОПРОБОВАТЬ ПОЗЖЕ!'
       ],
-      secretFlirt3x: [ "<15>{#p/papyrus}{#f/27}WAIT, ARE -YOU- THE ONE WHO'S TRYING TO TEAR OUR LOVE APART?" ],
-      secretFlirt4: [ '<15>{#p/papyrus}{#f/24}WAIT, ARE YOU SUGGESTING SOME KIND OF... LOVE TRIANGLE???' ],
+      secretFlirt3x: [ "<15>{#p/papyrus}{#f/27}ПОДОЖДИ, ЭТО ТЫ ПЫТАЕШЬСЯ РАЗЛУЧИТЬ НАШУ ЛЮБОВЬ?" ],
+      secretFlirt4: [ '<15>{#p/papyrus}{#f/24}ПОДОЖДИ, ТЫ ПРЕДЛАГАЕШЬ КАКОЙ-ТО... ЛЮБОВНЫЙ ТРЕУГОЛЬНИК???' ],
       secretFlirt4x: [
-         "<15>{#p/papyrus}{#f/26}... SO YOU -DON'T- WANT TO TRY THAT LATER?",
-         '<15>{#p/papyrus}{#f/24}AND NOT ONLY THAT, BUT...',
-         '<15>{#p/papyrus}{#f/22}YOU NEVER EVEN WANTED TO BE WITH ME TO BEGIN WITH!?'
+         "<15>{#p/papyrus}{#f/26}... ТАК ТЫ НЕ ХОЧЕШЬ ПОПРОБОВАТЬ ЭТО ПОЗЖЕ?",
+         '<15>{#p/papyrus}{#f/24}И НЕ ТОЛЬКО ЭТО, НО...',
+         '<15>{#p/papyrus}{#f/22}ТЫ НИКОГДА НЕ ХОТЕЛ БЫТЬ СО МНОЙ!?'
       ],
-      secretFlirt5: [ "<15>{#p/papyrus}{#f/22}OR MAYBE IT'S MORE LIKE... A LOVE TRAPEZOID!" ],
+      secretFlirt5: [ "<15>{#p/papyrus}{#f/22}ИЛИ, МОЖЕТ БЫТЬ, ЭТО БОЛЬШЕ ПОХОЖЕ НА... ЛЮБОВНУЮ ТРАПЕЦИЮ!" ],
       secretFlirt5x: [
-         "<15>{#p/papyrus}{#f/21}NO?\nIT'S ACTUALLY A LOVE DI-ANGLE INSTEAD?",
-         "<15>{#p/papyrus}{#f/18}BUT... THAT'S NOT EVEN A REAL SHAPE!",
-         "<15>{#p/papyrus}{#f/27}ARE YOU SAYING THAT OUR LOVE, ISN'T TRULY REAL AFTER ALL!?"
+         "<15>{#p/papyrus}{#f/21}НЕТ?\nНА САМОМ ДЕЛЕ ЭТО ЛЮБОВНЫЙ УГОЛ?",
+         "<15>{#p/papyrus}{#f/18}НО... ЭТО ДАЖЕ НЕ НАСТОЯЩАЯ ОДЕЖДА!",
+         "<15>{#p/papyrus}{#f/27}ТЫ ХОЧЕШЬ СКАЗАТЬ, ЧТО НАША ЛЮБОВЬ ВСЁ-ТАКИ НЕ НАСТОЯЩАЯ?"
       ],
       secretFlirt6: [
-         '<15>{#p/papyrus}{#f/14}WAIT... I THINK I GET IT NOW!',
-         '<15>{#p/papyrus}{#f/15}THE PRINCE IS JEALOUS OF YOUR AFFECTION FOR ME!',
-         '<15>{#p/papyrus}{#f/24}SO... HE SPRUNG A TRAP TO PREVENT US FROM BEING TOGETHER!'
+         '<15>{#p/papyrus}{#f/14}ПОДОЖДИТЕ... КАЖЕТСЯ, ТЕПЕРЬ Я ПОНЯЛ!',
+         '<15>{#p/papyrus}{#f/15}ПРИНЦ ЗАВИДУЕТ ТВОЕЙ СИМПАТИИ КО МНЕ!',
+         '<15>{#p/papyrus}{#f/24}ТАК ЧТО... ОН УСТРОИЛ ЛОВУШКУ, ЧТОБЫ ПОМЕШАТЬ НАМ БЫТЬ ВМЕСТЕ!'
       ],
       secretFlirt6x: [
-         "<15>{#p/papyrus}{#f/27}NO?\nBUT AT LEAST I'M ON THE RIGHT TRACK?",
+         "<15>{#p/papyrus}{#f/27}НЕТ?\nНО, ПО КРАЙНЕЙ МЕРЕ, Я НА ПРАВИЛЬНОМ ПУТИ?",
          '<15>{#p/papyrus}{#f/24}WAIT... TRAPEZOID...',
-         "<15>{#p/papyrus}{#f/22}ARE YOU SAYING THAT YOU'RE TRAPPED WITH ME, RIGHT NOW!?",
-         "<15>{#p/papyrus}{#f/14}BUT THEN... WHY WON'T YOU ACCEPT MY MERCY AND ESCAPE?",
-         '<15>{#p/papyrus}{#f/21}... THERE MUST BE SOMETHING ELSE GOING ON HERE.',
-         '<15>{#p/papyrus}{#f/26}NO... YES.',
-         '<15>{#p/papyrus}{#f/20}YES, YES, YES!!!',
-         '<15>{#p/papyrus}{#f/20}I FINALLY UNDERSTAND IT NOW!',
-         '<15>{#p/papyrus}{#f/15}THIS MUST BE THE WORK OF THAT \"ASRIEL\" FELLOW!',
-         "<15>{#p/papyrus}{#f/14}SOMEHOW, HE'S OUTRIGHT PREVENTED YOU FROM SHOWING MERCY TO ME!"
+         "<15>{#p/papyrus}{#f/22}ТЫ ХОЧЕШЬ СКАЗАТЬ, ЧТО ТЫ В ЛОВУШКЕ СО МНОЙ, ПРЯМО СЕЙЧАС!?",
+         "<15>{#p/papyrus}{#f/14}НО ПОТОМ... ПОЧЕМУ ТЫ НЕ ПРИМЕШЬ МОЮ ПОЩАДУ И НЕ СБЕЖИШЬ?",
+         '<15>{#p/papyrus}{#f/21}... ЗДЕСЬ ДОЛЖНО БЫТЬ ЧТО-ТО ЕЩЁ.',
+         '<15>{#p/papyrus}{#f/26}НЕТ... ДА.',
+         '<15>{#p/papyrus}{#f/20}ДА, ДА, ДА!!!',
+         '<15>{#p/papyrus}{#f/20}НАКОНЕЦ-ТО Я ЭТО ПОНЯЛ!',
+         '<15>{#p/papyrus}{#f/15}ЭТО, ДОЛЖНО БЫТЬ, РАБОТА ТОГО САМОГО \"АЗРИЭЛЯ!\"',
+         "<15>{#p/papyrus}{#f/14}КАКИМ-ТО ОБРАЗОМ ОН НЕ ПОЗВОЛИЛ ТЕБЕ ПРОЯВИТЬ КО МНЕ ПОЩАДУ!"
       ],
       secretFlirt7: [
-         '<15>{#p/papyrus}{#f/14}WELL.\nTHIS SIMPLY WILL NOT STAND!',
-         '<15>{#p/papyrus}{#f/20}IN FACT, I HAVE THE PERFECT SOLUTION ALREADY!',
-         "<15>{#p/papyrus}{#f/10}TO AVOID ANY ROMANTIC DRAMA, I'LL LEAVE POLITELY.",
-         "<15>{#p/papyrus}{#f/24}THEN, WHEN YOU'RE ALONE WITH HIM ONCE AGAIN...",
+         '<15>{#p/papyrus}{#f/14НУ.\nЭТО ПРОСТО НЕ МОЖЕТ СТОЯТЬ!',
+         '<15>{#p/papyrus}{#f/20}НА САМОМ ДЕЛЕ, У МЕНЯ УЖЕ ЕСТЬ ИДЕАЛЬНОЕ РЕШЕНИЕ!',
+         "<15>{#p/papyrus}{#f/10}ЧТОБЫ ИЗБЕЖАТЬ РОМАНТИЧЕСКОЙ ДРАМЫ, Я ВЕЖЛИВО УЙДУ.",
+         "<15>{#p/papyrus}{#f/24}ПОТОМ, КОГДА ТЫ СНОВА ОСТАНЕШЬСЯ С НИМ НАЕДИНЕ...",
          "<15>{#p/papyrus}{#f/25}ТЫ ОКАЖЕШЬСЯ В ИДЕАЛЬНОМ ПОЛОЖЕНИИ...",
          '<15>{#p/papyrus}{#f/15}ЧТОБЫ НЕ МЕШАТЬ ВАШИМ ЧУВСТВАМ!',
-         '<15>{#p/papyrus}{#f/20}NYEH HEH HEH HEH HEH HEH HEH HEH HEH HEH!'
+         '<15>{#p/papyrus}{#f/20}НЬЕХ ХЕ-ХЕ!'
       ],
       secretFlirt8: [
-         '<15>{#p/papyrus}{#f/20}FRET NOT, HUMAN!',
-         '<15>{#p/papyrus}{#f/14}I, PAPYRUS, WILL MAKE SURE NO HARM COMES TO EITHER OF US!',
-         '<15>{#p/papyrus}{#f/20}I WILL SPARE MYSELF FOR YOU!',
-         '<15>{#p/papyrus}{#f/20}AND THEN, I WILL FIND A VERY SAFE PLACE TO HIDE.',
-         "<15>{#p/papyrus}{#f/15}DON'T WORRY, HUMAN!\nPAPYRUS HAS THIS UNDER CONTROL!"
+         '<15>{#p/papyrus}{#f/20}НЕ БОЙСЯ, ЧЕЛОВЕК!',
+         '<15>{#p/papyrus}{#f/14}Я, ПАПИРУС, ПОЗАБОЧУСЬ О ТОМ, ЧТОБЫ НИКТО ИЗ НАС НЕ ПОСТРАДАЛ!',
+         '<15>{#p/papyrus}{#f/20}Я ПОЩАЖУ СЕБЯ РАДИ ТЕБЯ!',
+         '<15>{#p/papyrus}{#f/20}И ТОГДА Я НАЙДУ ОЧЕНЬ БЕЗОПАСНОЕ МЕСТО, ЧТОБЫ СПРЯТАТЬСЯ.',
+         "<15>{#p/papyrus}{#f/15}НЕ ВОЛНУЙСЯ, ЧЕЛОВЕК!\nПАПИРУС ДЕРЖИТ ВСЁ ПОД КОНТРОЛЕМ!"
       ],
-      secretInsult1: [ '<15>{#p/papyrus}{#f/27}UH... THANKS???' ],
-      secretInsult2: [ '<15>{#p/papyrus}{#f/21}IDIOT... WHERE HAVE I HEARD THAT BEFORE...' ],
+      secretInsult1: [ '<15>{#p/papyrus}{#f/27}УХ... СПАСИБО???' ],
+      secretInsult2: [ '<15>{#p/papyrus}{#f/21}ИДИОТ... ГДЕ-ТО Я ЭТО СЛЫШАЛ...' ],
       secretInsult2x: [
-         '<15>{#p/papyrus}{#f/22}OR... NOT?',
-         '<15>{#p/papyrus}{#f/24}SO, LET ME GET THIS STRAIGHT.',
-         '<15>{#p/papyrus}{#f/27}YOU MEANT TO SAY YOU... LOVE ME???',
-         '<15>{#p/papyrus}{#f/27}AND THAT SOMETHING IS TRYING TO TEAR OUR LOVE APART?'
+         '<15>{#p/papyrus}{#f/22}ИЛИ... НЕТ?',
+         '<15>{#p/papyrus}{#f/24}ИТАК, ПОЗВОЛЬ МНЕ ПРОЯСНИТЬ СИТУАЦИЮ.',
+         '<15>{#p/papyrus}{#f/27}ТЫ ХОТЕЛ СКАЗАТЬ, ЧТО ТЫ... ЛЮБИШЬ МЕНЯ???',
+         '<15>{#p/papyrus}{#f/27}И ЭТО ЧТО-ТО ПЫТАЕТСЯ РАЗЛУЧИТЬ НАШУ ЛЮБОВЬ?'
       ],
-      secretInsult3: [ '<15>{#p/papyrus}{#f/29}NOW WHAT...' ],
+      secretInsult3: [ '<15>{#p/papyrus}{#f/29}СЕЙЧАС ПОДОЖДИ...' ],
       secretInsult3x: [
-         "<15>{#p/papyrus}{#f/27}YOU MEAN I'M AN IDIOT FOR NOT NOTICING HOW MUCH YOU LOVE ME?",
-         '<15>{#p/papyrus}{#f/28}AND THAT YOU WANT TO... UH...',
-         "<15>{#p/papyrus}{#f/25}I-I MEAN, I DON'T THINK WE'VE GOTTEN -THAT- FAR YET...",
-         '<15>{#p/papyrus}{#f/15}... BUT WE CAN SURE TRY LATER!'
+         "<15>{#p/papyrus}{#f/27}ТЫ ХОЧЕШЬ СКАЗАТЬ, ЧТО Я ИДИОТ, РАЗ НЕ ЗАМЕЧАЮ, КАК СИЛЬНО ТЫ МЕНЯ ЛЮБИШЬ?",
+         '<15>{#p/papyrus}{#f/28}И ЧТО ТЫ ХОЧЕШЬ... УХ...',
+         "<15>{#p/papyrus}{#f/25}Я-Я ИМЕЮ В ВИДУ, Я НЕ ДУМАЮ, ЧТО МЫ ЗАШЛИ ТАК ДАЛЕКО...",
+         '<15>{#p/papyrus}{#f/15}... НО МЫ МОЖЕМ ПОПРОБОВАТЬ ПОЗЖЕ!'
       ],
-      secretInsult4: [ "<15>{#p/papyrus}{#f/27}I'M NOT SMART ENOUGH TO REALIZE WHAT'S GOING ON...?" ],
+      secretInsult4: [ "<15>{#p/papyrus}{#f/27}Я НЕДОСТАТОЧНО УМЁН, ЧТОБЫ ПОНЯТЬ, ЧТО ПРОИСХОДИТ...?" ],
       secretInsult4x: [
-         "<15>{#p/papyrus}{#f/27}SO... YOU MEANT TO SAY WE'RE IN A LOVE TRIANGLE?",
-         "<15>{#p/papyrus}{#f/19}WELL, IT'D CERTAINLY EXPLAIN YOUR ABRASIVE ATTITUDE!"
+         "<15>{#p/papyrus}{#f/27}ТАК... ТЫ ХОТЕЛ СКАЗАТЬ, ЧТО МЫ В ЛЮБОВНОМ ТРЕУГОЛЬНИКЕ?",
+         "<15>{#p/papyrus}{#f/19}НУ, ЭТО, КОНЕЧНО, ОБЪЯСНЯЕТ ТВОЁ РЕЗКОЕ ОТНОШЕНИЕ!"
       ],
       secretInsult5: [
-         '<15>{#p/papyrus}{#f/27}HUH? SHOOT FOR THE STARS INSTEAD OF SHOOTING MYSELF?',
-         '<15>{#p/papyrus}{#f/17}BUT WHAT DOES IT MEAN...!'
+         '<15>{#p/papyrus}{#f/27}А? СТРЕЛЯТЬ ПО ЗВЁЗДАМ ВМЕСТО ТОГО, ЧТОБЫ СТРЕЛЯТЬ В СЕБЯ?',
+         '<15>{#p/papyrus}{#f/17}НО ЧТО ЭТО ЗНАЧИТ...!'
       ],
       secretInsult5x: [
-         '<15>{#p/papyrus}{#f/25}WAIT... YOU WANTED ME TO REALIZE THAT YOU SECRETLY LOVED ME?',
-         "<15>{#p/papyrus}{#f/22}AND THAT WE'RE ACTUALLY IN A... LOVE TRAPEZOID!?"
+         '<15>{#p/papyrus}{#f/25}ПОДОЖДИ... ТЫ ХОТЕЛ, ЧТОБЫ Я ПОНЯЛ, ЧТО ТЫ ТАЙНО ЛЮБИШЬ МЕНЯ?',
+         "<15>{#p/papyrus}{#f/22}И ЧТО МЫ НА САМОМ ДЕЛЕ В... ЛЮБИМ ТРАПЕЦИЮ!?"
       ],
       secretInsult6: [
-         '<15>{#p/papyrus}{#f/14}WAIT... I THINK I GET IT NOW!',
-         '<15>{#p/papyrus}{#f/21}IDIOT...',
-         '<15>{#p/papyrus}{#f/21}SHOOT FOR THE STARS...',
-         '<15>{#p/papyrus}{#f/20}TWINKLY WAS A STAR, AND HE LOVED TO CALL PEOPLE IDIOTS!',
-         '<15>{#p/papyrus}{#f/25}OBLIVIOUS...',
-         "<15>{#p/papyrus}{#f/22}I'VE BEEN OBLIVIOUS THIS WHOLE TIME!",
-         '<15>{#p/papyrus}{#f/20}THAT \"ASRIEL\" FELLOW SEEMS TO LOVE CALLING PEOPLE IDIOTS AS WELL!',
-         '<15>{#p/papyrus}{#f/24}WHICH MEANS...',
-         '<15>{#p/papyrus}{#f/22}THE \"STAR\" IN THIS SCENARIO MUST BE HIM!',
-         '<15>{#p/papyrus}{#f/19}HE MUST HAVE DONE SOMETHING TO MAKE -ME- LOOK LIKE AN IDIOT!'
+         '<15>{#p/papyrus}{#f/14}ПОДОЖДИТЕ... КАЖЕТСЯ, ТЕПЕРЬ Я ПОНЯЛ!',
+         '<15>{#p/papyrus}{#f/21}ИДИОТ...',
+         '<15>{#p/papyrus}{#f/21}СТРЕЛЯЙ В ЗВЁЗДЫ...',
+         '<15>{#p/papyrus}{#f/20}ТВИНКЛИ БЫЛ ЗВЕЗДОЙ, И ЕМУ НРАВИЛОСЬ НАЗЫВАТЬ ЛЮДЕЙ ИДИОТАМИ!',
+         '<15>{#p/papyrus}{#f/25}НЕВНИМАТЕЛЬНЫЙ...',
+         "<15>{#p/papyrus}{#f/22}Я ВСЁ ЭТО ВРЕМЯ НЕ ЗАМЕЧАЛ!",
+         '<15>{#p/papyrus}{#f/20}ЭТОТ \"АЗРИЭЛЬ\", ПОХОЖЕ, ТОЖЕ ЛЮБИТ НАЗЫВАТЬ ЛЮДЕЙ ИДИОТАМИ!',
+         '<15>{#p/papyrus}{#f/24}ЧТО ЗНАЧИТ...',
+         '<15>{#p/papyrus}{#f/22}\"ЗВЕЗДОЙ\" В ЭТОМ СЦЕНАРИИ ДОЛЖЕН БЫТЬ ОН!',
+         '<15>{#p/papyrus}{#f/19}ОН ДОЛЖЕН БЫЛ СДЕЛАТЬ ЧТО-ТО, ЧТОБЫ ВЫСТАВИТЬ МЕНЯ ИДИОТОМ!'
       ],
       secretInsult6x: [
-         '<15>{#p/papyrus}{#f/10}OH... OH!',
-         "<15>{#p/papyrus}{#f/10}YOU'RE THE STAR I'M SUPPOSED TO SHOOT FOR!",
-         "<15>{#p/papyrus}{#f/20}YOU'VE BEEN TRYING TO WIN MY AFFECTION THIS WHOLE TIME!",
-         '<15>{#p/papyrus}{#f/27}WOWIE... YOU SURE DO HAVE A STRANGE WAY OF GOING ABOUT IT...',
-         '<15>{#p/papyrus}{#f/24}STRANGE ENOUGH...',
-         "<15>{#p/papyrus}{#f/15}... THAT I'M CONVINCED THERE'S MORE GOING ON HERE!",
-         "<15>{#p/papyrus}{#f/21}AFTER ALL, IF THAT'S WHAT YOU WANTED TO TELL ME...",
-         '<15>{#p/papyrus}{#f/21}WHY GO TO ALL THIS TROUBLE...',
-         '<15>{#p/papyrus}{#f/27}INSTEAD OF SPARING ME AND TALKING ABOUT IT AFTERWARDS?',
-         "<15>{#p/papyrus}{#f/21}UNLESS... YOU REALLY -CAN'T- SPARE ME.",
-         '<15>{#p/papyrus}{#f/26}NO... YES.',
-         '<15>{#p/papyrus}{#f/20}YES, YES, YES!!!',
-         '<15>{#p/papyrus}{#f/20}I FINALLY UNDERSTAND IT NOW!',
-         '<15>{#p/papyrus}{#f/24}THAT \"ASRIEL\" FELLOW WAS SO SURE YOU\'D KILL ME...',
-         "<15>{#p/papyrus}{#f/20}SOMETHING TELLS ME, HE MUST BE THE ONE WHO'S GETTING IN YOUR WAY!",
-         "<15>{#p/papyrus}{#f/15}HE'S BEEN JEALOUS OF YOUR AFFECTION FOR ME ALL THIS TIME!"
+         '<15>{#p/papyrus}{#f/10}О... ОХ!',
+         "<15>{#p/papyrus}{#f/10}ТЫ - ТА ЗВЕЗДА, В КОТОРУЮ Я ДОЛЖЕН РАССТРЕЛЯТЬ!",
+         "<15>{#p/papyrus}{#f/20}ТЫ ВСЁ ЭТО ВРЕМЯ ПЫТАЛСЯ ЗАВОЕВАТЬ МОЁ ДОВЕРИЕ!",
+         '<15>{#p/papyrus}{#f/27}ВАУ... ТЫ, КОНЕЧНО, СТРАННО СЕБЯ ВЕДЁШЬ...',
+         '<15>{#p/papyrus}{#f/24}КАК НИ СТРАННО...',
+         "<15>{#p/papyrus}{#f/15}... ЧТО Я УВЕРЕН, ЧТО ЗДЕСЬ ПРОИСХОДИТ НЕЧТО БОЛЬШЕЕ!",
+         "<15>{#p/papyrus}{#f/21}В КОНЦЕ КОНЦОВ, ЕСЛИ ЭТО ТО, ЧТО ТЫ ХОТЕЛ МНЕ СКАЗАТЬ...",
+         '<15>{#p/papyrus}{#f/21}ЗАЧЕМ ТАК СТАРАТЬСЯ...',
+         '<15>{#p/papyrus}{#f/27}ВМЕСТО ТОГО, ЧТОБЫ ПОЩАДИТЬ МЕНЯ И ПОГОВОРИТЬ ОБ ЭТОМ ПОСЛЕ?',
+         "<15>{#p/papyrus}{#f/21}ЕСЛИ ТОЛЬКО... ТЫ ДЕЙСТВИТЕЛЬНО НЕ МОЖЕШЬ МЕНЯ ПОЩАДИТЬ.",
+         '<15>{#p/papyrus}{#f/26}НЕТ... ДА.',
+         '<15>{#p/papyrus}{#f/20}ДА, ДА, ДА!!!',
+         '<15>{#p/papyrus}{#f/20}НАКОНЕЦ-ТО Я ЭТО ПОНЯЛ!',
+         '<15>{#p/papyrus}{#f/24}ЭТОТ \"АЗРИЭЛЬ\" БЫЛ ТАК УВЕРЕН, ЧТО ТЫ МЕНЯ УБЬЕШЬ...',
+         "<15>{#p/papyrus}{#f/20}ЧТО-ТО ПОДСКАЗЫВАЕТ МНЕ, ЧТО ЭТО ОН МЕШАЕТ ТЕБЕ!",
+         "<15>{#p/papyrus}{#f/15}ОН ВСЁ ЭТО ВРЕМЯ ЗАВИДОВАЛ ТВОЕЙ ЛЮБВИ КО МНЕ!"
       ],
       secretInsult7: [
-         '<15>{#p/papyrus}{#f/14}WELL.\nI WILL NOT BE FOOLED BY THE LIKES OF HIM!',
-         '<15>{#p/papyrus}{#f/20}I, PAPYRUS, WILL MAKE SURE HE NEVER FINDS ME AGAIN!',
-         "<15>{#p/papyrus}{#f/15}DON'T WORRY, HUMAN!\nPAPYRUS HAS THIS UNDER CONTROL!"
+         '<15>{#p/papyrus}{#f/14}НУ.\nМЕНЯ НЕ ОДУРАЧАТ ТАКИЕ, КАК ОН!',
+         '<15>{#p/papyrus}{#f/20}Я, ПАПИРУС, СДЕЛАЮ ТАК, ЧТО ОН БОЛЬШЕ НИКОГДА МЕНЯ НЕ НАЙДЕТ!',
+         "<15>{#p/papyrus}{#f/15}НЕ ВОЛНУЙСЯ, ЧЕЛОВЕК!\nПАПИРУС ДЕРЖИТ ВСЁ ПОД КОНТРОЛЕМ!"
       ],
       sparableFlirt1: [
-         "<15>{#p/papyrus}{#f/27}YOU'RE SUPPOSED TO BE SPARING, NOT FLIRTING!",
-         '<15>{#f/14}I MUST RESIST!'
+         "<15>{#p/papyrus}{#f/27}ТЫ ДОЛЖЕН БЫЛ ПОЩАДИТЬ, А НЕ ФЛИРТОВАТЬ!",
+         '<15>{#f/14}Я ДОЛЖЕН СОПРОТИВЛЯТЬСЯ!'
       ],
       sparableFlirt1x: [
-         '<15>{#p/papyrus}{#f/27}HUH?\nFLIRTING, AT A TIME LIKE THIS?',
-         "<15>{#f/14}WELL, THAT'S ONE WAY TO REDEEM YOURSELF!"
+         '<15>{#p/papyrus}{#f/27}А?\nФЛИРТ В ТАКОЕ ВРЕМЯ?',
+         "<15>{#f/14}НУ, ЭТО ОДИН ИЗ СПОСОБОВ ИСКУПИТЬ ВИНУ!"
       ],
-      sparableFlirt2: [ '<15>{#p/papyrus}{#f/14}N-NO...!' ],
-      sparableFlirt2x: [ '<15>{#p/papyrus}{#f/14}A-AH...!' ],
+      sparableFlirt2: [ '<15>{#p/papyrus}{#f/14}Н-НЕТ...!' ],
+      sparableFlirt2x: [ '<15>{#p/papyrus}{#f/14}А-АХ...!' ],
       sparableFlirt3: [ '<15>{#p/papyrus}{#f/14}...' ],
       sparableInsult1: [
-         "<15>{#p/papyrus}{#f/20}HEY, THERE'S NO NEED TO INSULT YOURSELF!",
-         '<15>{#f/21}I KNOW YOU DID YOUR BEST...'
+         "<15>{#p/papyrus}{#f/20}ЭЙ, НЕ НУЖНО ОСКОРБЛЯТЬ СЕБЯ!",
+         '<15>{#f/21}Я ЗНАЮ, ТЫ СДЕЛАЛ ВСЁ, ЧТО МОГ...'
       ],
       sparableInsult1x: [
-         "<15>{#p/papyrus}{#f/20}HEY, THERE'S NO NEED TO INSULT YOURSELF!",
-         "<15>{#f/15}YOU'RE HERE TO BETTER YOURSELF, REMEMBER?"
+         "<15>{#p/papyrus}{#f/20}ЭЙ, НЕ НУЖНО ОСКОРБЛЯТЬ СЕБЯ!",
+         "<15>{#f/15}ТЫ ЗДЕСЬ, ЧТОБЫ СТАТЬ ЛУЧШЕ, ПОМНИШЬ?"
       ],
-      sparableInsult2: [ '<15>{#p/papyrus}{#f/21}HUMAN...' ],
-      sparableInsult2x: [ '<15>{#p/papyrus}{#f/15}COME ON...!' ],
+      sparableInsult2: [ '<15>{#p/papyrus}{#f/21}ЧЕЛОВЕК...' ],
+      sparableInsult2x: [ '<15>{#p/papyrus}{#f/15}НУ ЖЕ...!' ],
       sparableInsult3: [ '<15>{#p/papyrus}{#f/21}...' ]
    },
    b_opponent_shockasgore: {
-      act_check: [ '<32>{#p/asriel2}* Asgore.\n* The king who got his home planet destroyed.' ],
-      act_hug: [ '<32>{#p/human}* (You attempt to hug Asgore...)' ],
-      hugText: [ '<32>{#p/human}* (... but your body goes right through him.)', '<32>{#p/asriel2}* ... huh?' ],
-      foodText: [ '<11>{#p/asgore}{#f/5}Is that...' ],
-      idleText1: [ '<11>{#p/asgore}{#f/1}Really now...' ],
-      idleText2: [ '<11>{#p/asgore}{#f/1}Must we resort to violence?' ],
-      idleText3: [ '<11>{#p/asgore}{#f/1}Can we not settle this peacefully?' ],
-      idleText4: [ '<11>{#p/asgore}{#f/1}Is this really necessary?' ],
+      act_check: [ '<32>{#p/asriel2}* Азгор.\n* Король, из-за которого была уничтожена его родная планета.' ],
+      act_hug: [ '<32>{#p/human}* (Ты пытаешься обнять Азгора...)' ],
+      hugText: [ '<32>{#p/human}* (... но твоё тело проходит сквозь него.)', '<32>{#p/asriel2}* ... а?' ],
+      foodText: [ '<11>{#p/asgore}{#f/5}Это...' ],
+      idleText1: [ '<11>{#p/asgore}{#f/1}Правда, сейчас...' ],
+      idleText2: [ '<11>{#p/asgore}{#f/1}Должны ли мы применять насилие?' ],
+      idleText3: [ '<11>{#p/asgore}{#f/1}Неужели мы не можем решить это мирным путем?' ],
+      idleText4: [ '<11>{#p/asgore}{#f/1}Действительно ли это необходимо?' ],
       stickText: [
-         '<32>{#p/human}* (You throw the spanner.)\n* (Asgore lets it pass right through him.)',
-         '<32>{#p/asriel2}* ... huh?'
+         '<32>{#p/human}* (Ты бросаешь гаечный ключ.)\n* (Азгор пропускает его сквозь себя.)',
+         '<32>{#p/asriel2}* ... а?'
       ],
       miss: [
          '<11>{#p/asgore}{#f/2}...',
-         '<11>{#f/1}I am not really here, Asriel.',
-         "<11>{#f/2}It's just a projection."
+         '<11>{#f/1}На самом деле меня здесь нет, Азриэль.',
+         "<11>{#f/2}Это всего лишь проекция."
       ],
-      name: '* Asgore',
-      status1: [ '<32>{#p/asriel2}* Kill him, $(name).' ],
+      name: '* Азгор',
+      status1: [ '<32>{#p/asriel2}* Убей его, $(name).' ],
       status2: [ '<32>{#p/asriel2}* ...' ]
    },
 
    i_berry: {
       battle: {
-         description: 'A small branch of semi-translucent berries.',
-         name: 'Exoberries'
+         description: 'Небольшая ветка с полупрозрачными ягодами.',
+         name: 'Экзоягоды'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Exoberries.)' ],
+      drop: [ '<32>{#p/human}* (Ты выбрасываешь Экзоягоды.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (7 HP.)' ]
-            : [ '<32>{#p/basic}* \"Exoberries\" Heals 7 HP\n* A small branch of semi-translucent berries.' ],
-      name: 'Exoberries',
-      use: [ '<32>{#p/human}* (You eat the Exoberries.)' ]
+            ? [ '<32>{#p/human}* (7 ОЗ.)' ]
+            : [ '<32>{#p/basic}* \"Экзоягоды\" Восстанавливает 7 ОЗ.\n* Небольшая ветка с полупрозрачными ягодами.' ],
+      name: 'Экзоягоды',
+      use: [ '<32>{#p/human}* (Ты ешь Экзоягоды.)' ]
    },
    i_blookpie: {
       battle: {
-         description: 'Fresh exoberries, bathed in a sea of moist Jell-O.',
-         name: 'Berry Pie'
+         description: 'Свежие экзоягоды, купающиеся в море влажного желе.',
+         name: 'Ягодный Пирог'
       },
       drop: () => [
-         '<32>{#p/human}* (You throw away the Exoberry Pie.)',
+         '<32>{#p/human}* (Ты выбрасываешь Экзоягодный Пирог.)',
          ...(instance('main', 'blookishly') !== void 0 // NO-TRANSLATE
 
             ? game.room === '_frontier4' // NO-TRANSLATE
 
-               ? [ '<32>{#p/napstablook}* ......... huh?' ]
-               : [ '<32>{#p/napstablook}* oh..................' ]
+               ? [ '<32>{#p/napstablook}* ......... а?' ]
+               : [ '<32>{#p/napstablook}* ох..................' ]
             : [])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (99 HP.)' ]
-            : [ '<32>{#p/basic}* \"Exoberry Pie\" Heals 99 HP\n* Fresh exoberries, bathed in a sea of moist Jell-O.' ],
-      name: 'Exoberry Pie',
+            ? [ '<32>{#p/human}* (99 ОЗ.)' ]
+            : [ '<32>{#p/basic}* \"Экзоягодный Пирог\" Восстанавливает 99 ОЗ.\n* Свежие экзоягоды, купающиеся в море влажного желе.' ],
+      name: 'Экзоягодный Пирог',
       use: () => [
-         '<32>{#p/human}* (You eat the Exoberry Pie.)',
+         '<32>{#p/human}* (Ты ешь Экзоягодный Пирог.)',
          ...(instance('main', 'blookishly') !== void 0 // NO-TRANSLATE
 
             ? game.room === '_frontier4' // NO-TRANSLATE
 
-               ? [ '<32>{#p/napstablook}* ......... huh?' ]
-               : [ '<32>{#p/napstablook}* aw.........\n* i hope you like it.........' ]
+               ? [ '<32>{#p/napstablook}* ......... а?' ]
+               : [ '<32>{#p/napstablook}* ау.........\n* Надеюсь, вам понравится.........' ]
             : [])
       ]
    },
    i_chip: {
       battle: {
-         description: 'Please take this to the edge of the galaxy.',
-         name: 'Chip'
+         description: 'Пожалуйста, отнеси это на край галактики.',
+         name: 'Чип'
       },
       drop: () => [
-         '<32>{#p/human}* (You throw away the Computer Chip.)',
+         '<32>{#p/human}* (Ты выбрасываешь Компьютерный Чип.)',
          ...(SAVE.data.b.svr && !SAVE.data.b.freedom
-            ? [ "<25>{#p/asriel1}{#f/15}* Uh... weren't you going to protect that?" ]
+            ? [ "<25>{#p/asriel1}{#f/15}* Ух... ты разве не собирался защитить его?" ]
             : [])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (45 HP. Rather than eating it, you feel you should keep this item safe.)' ]
+            ? [ '<32>{#p/human}* (45 ОЗ. Вместо того чтобы съесть его, ты считаешь, что должен защитить этот предмет.)' ]
             : [ '<32>{#p/basic}* \"Computer Chip\" Heals 45 HP\n* Please take this to the edge of the galaxy.' ],
       name: 'Computer Chip',
       use: () => [
          '<32>{#p/human}* (You bit into the Computer Chip.)',
          ...(SAVE.data.b.svr && !SAVE.data.b.freedom
-            ? [ "<25>{#p/asriel1}{#f/15}* Uh... weren't you going to protect that?" ]
+            ? [ "<25>{#p/asriel1}{#f/15}* Ух... ты разве не собирался защитить его?" ]
             : world.darker || SAVE.data.b.ufokinwotm8
             ? []
             : calcHP() - SAVE.data.n.hp > 45
@@ -7111,7 +7111,7 @@ export default {
    },
    i_eye_x: {
       battle: {
-         description: 'A somewhat underpowered portable force field.',
+         description: 'Несколько недостаточно мощное портативное силовое поле.',
          name: 'Emitter?'
       },
       drop: [ '<32>{#p/human}* (You throw away the Field Emitter.)' ],

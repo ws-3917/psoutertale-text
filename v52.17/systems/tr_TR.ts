@@ -383,17 +383,17 @@ export default {
          [
             '§fill=#ff0§< ÖZEL TEŞEKKÜRLER >§fill=#fff§',
             'Alden',
-            '§fill=#808080§For being there for me when I\nneed someone to lean on, and\nteaching me life lessons that\nhave made me a better person.§fill=#fff§'
+            '§fill=#808080§Ne zaman arkamı birine yaslamam\ngerektiğinde benim için her zaman burada oldugu\nicin, ve beni daha iyi birisi yapan hayat dersleri\nverdiği için.§fill=#fff§'
          ],
          [
             '§fill=#ff0§< ÖZEL TEŞEKKÜRLER >§fill=#fff§',
             'My Aster',
-            '§fill=#808080§For being one of the friendliest\npeople I know, the first person\nto believe in my vision, and\ninspiring me to finish the game.§fill=#fff§'
+            '§fill=#808080§Bildiğim en dost canlısı insanlardan birisi\nolduğu için, bana göre güvenilebilir ilk kişi, ve bana\noyunu bitirebilmemde ilham verdiği için.§fill=#fff§'
          ],
          [
             '§fill=#ff0§< ÖZEL TEŞEKKÜRLER >§fill=#fff§',
             'Balgamlı Kedi',
-            "§fill=#808080§For sticking with me at every\nstage of development, right from\nthe start. Regardless of the era,\nhe's always been there to help.§fill=#fff§"
+            "§fill=#808080§Oyunun gelişiminin her aşamasında\nyanımda olduğu için, en baştan beri, çağ\nne olursa olsun her zaman yardım için\nburadaydı.§fill=#fff§"
          ],
          [
             '§fill=#ff0§< ÖZEL TEŞEKKÜRLER >§fill=#fff§',
