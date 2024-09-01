@@ -7110,7 +7110,7 @@ msgstr "<32>* 「循音復奏曲，別路方可蒞。」"
 msgid ""
 "<32>* \"Bring the item to the room nextdoor, and all the power will be "
 "yours.\""
-msgstr "<32>* 「攜物鄰間至，陶然力盈體。」"
+msgstr "<32>* 「攜物鄰間至，隨後力盈體。」"
 
 msgid ""
 "<32>{#p/human}* (It also mentions bringing an item to a specific area.)"
