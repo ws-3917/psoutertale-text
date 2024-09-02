@@ -11242,17 +11242,16 @@ msgid "* (What should Asriel cast?)"
 msgstr "* (За что должен голосовать Asriel?)"
 
 msgid "${i === 0 ? '{@fill=#808080}' : ''}Nocturne{@fill=#fff}"
-msgstr "${i = = 0? '{{@ fill = #80080}': '} Ночная песня {@ fill = #fff}"
+msgstr "${i === 0 ? '{@fill=#808080}' : ''}Ночная песня{@fill=#fff}"
 
 msgid "${i === 1 ? '{@fill=#808080}' : ''}Solstice{@fill=#fff}"
-msgstr ""
-"${i = = 1? '{{@ fill = #80080}': '} Зимнее солнцестояние {@ fill = #fff}"
+msgstr "${i === 1 ? '{@fill=#808080}' : ''}Зимнее солнцестояние{@fill=#fff}"
 
 msgid "${i === 2 ? '{@fill=#808080}' : ''}Serenade{@fill=#fff}"
-msgstr "${i = = 2? '{{@ fill = #80080}': '} серенада {@ fill = #fff}"
+msgstr "${i === 1 ? '{@fill=#808080}' : ''}серенада{@fill=#fff}"
 
 msgid "${i === 3 ? '{@fill=#808080}' : ''}Eclipse{@fill=#fff}"
-msgstr "${i = = 3? '{@ fill = #80080}': '} Eclipse {@ fill = #fff}"
+msgstr "${i === 3 ? '{@fill=#808080}' : ''}Eclipse{@fill=#fff}"
 
 msgid ""
 "<32>{#p/human}* (Asriel places his hands on your head, and sends a surge of "

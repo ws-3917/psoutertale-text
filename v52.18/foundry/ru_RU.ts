@@ -7357,7 +7357,7 @@ export default {
             ? [
                  '<32>{#p/human}* (Ты порвал открытку.)',
                  battler.active
-                    ? "<32>{#p/story}* Атакуйте монеты {2 + batter.at bonus}!"
+                    ? `<32>{#p/story}* Атакуйте монеты ${2 + battler.at_bonus}!`
                     : '<32>{#p/human}* (Эффект вне боя отсутствует).'
               ]
             : battler.active
@@ -7465,7 +7465,7 @@ export default {
             ? [
                  '<32>* (Вкус наполняет вас определенным чувством...)',
                  battler.active
-                    ? `<32>{#p/story}* Атака плюс ${4 + batter.at bonus}!`
+                    ? `<32>{#p/story}* Атака плюс ${4 + battler.at_bonus}!`
                     : '<32>{#p/human}* (Эффект вне боя отсутствует).'
               ]
             : [])
@@ -7574,7 +7574,7 @@ export default {
                  SAVE.data.b.item_temyarmor || temgone()
                     ? '§ fill = #80080 § - - недоступен - -'
                     : SAVE.data.b.colleg
-                    ? "$ {armorprice}G - Тэмми Амор!"
+                    ? `${armorprice}G - Тэмми Амор!`
                     : '1000 G - Платежи по проекту 4 долл. США',
                  'Экспорт'
               ]
@@ -7585,7 +7585,7 @@ export default {
                  SAVE.data.b.item_temyarmor
                     ? '§ fill = #80080 § - - недоступен - -'
                     : SAVE.data.b.colleg
-                    ? "$ {armorprice}G - Тэмми Амор!"
+                    ? `${armorprice}G - Тэмми Амор!`
                     : '1000 G - Платежи по проекту 4 долл. США',
                  'Экспорт'
               ],

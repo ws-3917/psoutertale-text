@@ -4763,10 +4763,10 @@ export default {
          ][Math.min(SAVE.flag.n.ga_asrielAssist++, 3)],
          choicer.create(
             '* (За что должен голосовать Asriel?)',
-            `${i = = 0? '{{@ fill = #80080}': '} Ночная песня {@ fill = #fff}`,
-            `${i = = 1? '{{@ fill = #80080}': '} Зимнее солнцестояние {@ fill = #fff}`,
-            `${i = = 2? '{{@ fill = #80080}': '} серенада {@ fill = #fff}`,
-            `${i = = 3? '{@ fill = #80080}': '} Eclipse {@ fill = #fff}`
+            `${i === 0 ? '{@fill=#808080}' : ''}Ночная песня{@fill=#fff}`,
+            `${i === 1 ? '{@fill=#808080}' : ''}Зимнее солнцестояние{@fill=#fff}`,
+            `${i === 1 ? '{@fill=#808080}' : ''}серенада{@fill=#fff}`,
+            `${i === 3 ? '{@fill=#808080}' : ''}Eclipse{@fill=#fff}`
          )
       ],
       act_asriel_text: [

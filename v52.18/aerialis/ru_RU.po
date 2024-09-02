@@ -20748,7 +20748,7 @@ msgstr ""
 "вручную)."
 
 msgid "<32>{#p/story}* ATTACK up by ${8 + battler.at_bonus}!"
-msgstr "<32>{#p/story}* Атака ${8 + Fighter.at bonus}!"
+msgstr "<32>{#p/story}* Атака ${8 + battler.at_bonus}!"
 
 msgid "<25>{#p/alphys}{#g/alphysOhGodNo}* W-was that my drink!?"
 msgstr "<25>{#p/alphys}{#g/alphysOhGodNo}* W - это мой напиток?"

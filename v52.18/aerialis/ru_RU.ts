@@ -10042,7 +10042,7 @@ export default {
             ? [
                  '<32>{#p/human}* (Вы пьете содовую с апельсиновым соком и измельчаете ее вручную).',
                  battler.active
-                    ? `<32>{#p/story}* Атака ${8 + Fighter.at bonus}!`
+                    ? `<32>{#p/story}* Атака ${8 + battler.at_bonus}!`
                     : '<32>{#p/human}* (Эффект вне боя отсутствует).',
                  ...((fetchCharacters()
                     .find(c => c.key === 'alphys') // NO-TRANSLATE

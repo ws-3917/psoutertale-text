@@ -15200,7 +15200,7 @@ msgid "<32>{#p/human}* (You rip up the Postcard.)"
 msgstr "<32>{#p/human}* (Ты порвал открытку.)"
 
 msgid "<32>{#p/story}* ATTACK up by ${2 + battler.at_bonus}!"
-msgstr "<32>{#p/story}* Атакуйте монеты {2 + batter.at bonus}!"
+msgstr "<32>{#p/story}* Атакуйте монеты ${2 + battler.at_bonus}!"
 
 msgid ""
 "<32>{#p/human}* (You daydream about the landscape on the Postcard.)\n"
@@ -15342,7 +15342,7 @@ msgid "<32>* (The taste fills you with a certain kind of feeling...)"
 msgstr "<32>* (Вкус наполняет вас определенным чувством...)"
 
 msgid "<32>{#p/story}* ATTACK up by ${4 + battler.at_bonus}!"
-msgstr "<32>{#p/story}* Атака плюс ${4 + batter.at bonus}!"
+msgstr "<32>{#p/story}* Атака плюс ${4 + battler.at_bonus}!"
 
 msgid "Finally, a proper breakfast."
 msgstr "Наконец, хороший завтрак."
@@ -15493,7 +15493,7 @@ msgid "§fill=#808080§--- UNAVAILABLE ---"
 msgstr "§ fill = #80080 § - - недоступен - -"
 
 msgid "${armorprice}G - temy ARMOR!!!"
-msgstr "$ {armorprice}G - Тэмми Амор!"
+msgstr "${armorprice}G - Тэмми Амор!"
 
 msgid "1000G - tem pay 4 colleg"
 msgstr "1000 G - Платежи по проекту 4 долл. США"
