@@ -237,251 +237,251 @@ export default {
          d18: [ '<25>{#p/asriel1}{#f/21}* El que?' ],
          d19: [
             '<32>{#p/basic}* ¿Te acuerdas cuando cruzamos el campo de fuerza juntos?',
-            '<32>* When we arrived at the ruins of the old homeworld, and got found out by those humans?',
-            '<32>* I wanted to use our power to destroy them... but you stopped me, remember?'
+            '<32>* ¿Cuando llegamos a las ruinas del viejo planeta natal, y nos encontraron esos humanos?',
+            '<32>* Quería usar nuestro poder para destruirlos... pero me detuviste, ¿recuerdas?'
          ],
-         d20: [ '<25>{#p/asriel1}{#f/16}* ... right.' ],
+         d20: [ '<25>{#p/asriel1}{#f/16}* ... correcto.' ],
          d21: [
-            "<32>{#p/basic}* I didn't understand it back then, but...",
-            '<32>* I get it now.',
-            '<32>* ... you were just trying to stop me... from making a terrible mistake.'
+            "<32>{#p/basic}* No lo entendí en aquellos tiempos, pero...",
+            '­<32>* Lo entiendo ahora.',
+            '<32>* ... solo estabas intentando pararme... de hacer un error terrible.'
          ],
          d22: [ '<25>{#p/asriel1}{#f/15}* $(name)...' ],
          d23: [
-            "<32>{#p/basic}* If not for you, the outpost would've been destroyed in a second war.",
-            '<32>* If not for you, the very same monsters I was supposedly trying to save...',
-            '<32>* ... would have died right along with us.'
+            "<32>{#p/basic}* Si no fuera por ti, el puesto habría sido destruido en una segunda guerra.",
+            '<32>* Si no fuera por ti, los mismos monstruos que supuestamente intentaba salvar...',
+            '<32>* ... habrían muerto junto a nosotros.'
          ],
-         d24: [ '<25>{#p/asriel1}{#f/25}* $(name), I...' ],
+         d24: [ '<25>{#p/asriel1}{#f/25}* $(name), Yo...' ],
          d25: [
-            '<32>{#p/basic}* Even now, your choice back then still matters.',
-            '<32>* Even now...',
-            "<32>* You're still a better sibling to me than I ever was."
+            '<32>{#p/basic}* Aún ahora, tu decisión hace tiempo sigue importando.',
+            '<32>* Aún ahora...',
+            "<32>* Tú sigues siendo un mejor hermano para mí de lo que yo fui."
          ],
          d26: [
-            '<25>{#p/asriel1}{#f/25}* I forgive you, $(name)!',
-            "<25>{#f/23}* Alright?\n* You don't have to do this...",
-            '<25>{#f/22}* I know how strongly you felt back then, and...',
-            "<25>{#f/15}* I wouldn't want you to change your mind just because I..."
+            '<25>{#p/asriel1}{#f/25}* ¡Te perdono, $(name)!',
+            "<25>{#f/23}* ¿Vale?\n* No tienes que hacer esto...",
+            '<25>{#f/22}* Sé como te sentiste hace tiempo, y...',
+            "<25>{#f/15}* No quiero que cambies de idea solo por que yo..."
          ],
          d27: [
-            '<32>{#p/basic}* No.\n* Not anymore.',
-            '<32>* People CAN change, Asriel...',
-            "<32>* Isn't that what you always believed?"
+            '<32>{#p/basic}* No.\n* No más.',
+            '<32>* Personas PUEDEN cambiar, Asriel...',
+            "<32>* ¿No era eso lo que tú siempre creíste?"
          ],
-         d28: [ '<25>{#p/asriel1}{#f/13}* ... I still do.' ],
+         d28: [ '<25>{#p/asriel1}{#f/13}* ... lo sigo haciendo.' ],
          d29: [
-            "<32>{#p/basic}* I've spent the past hundred years wallowing in self-pity.",
-            "<32>* I've spent the past hundred years holding a grudge I never should've had.",
-            '<32>* In all that time, I wondered what kept me alive...',
-            '<32>* And now, I finally know the answer.'
+            "<32>{#p/basic}* He pasado los últimos cien años hundiéndome en mi autocompasión.",
+            "<32>* He pasado los últimos cien años aguantando un rencor que nunca debería haber tenido.",
+            '<32>* En todo ese tiempo, me preguntaba que me mantenía vivo...',
+            '<32>* Y ahora, finalmente se la respuesta.'
          ],
          d30: [ '<25>{#p/asriel1}{#f/15}* ...?' ],
-         d31: [ "<32>{#p/basic}* ... it's you, Asriel.", "<32>* You're the one who's been keeping me alive." ],
+         d31: [ "<32>{#p/basic}* ... eres tú, Asriel.", "<32>* Tú eres quien me mantenía con vida." ],
          d32: [
-            '<32>{#p/basic}* Think of it like... an unfulfilled promise.',
-            '<32>* Holding that grudge... thinking about you in the way that I did...',
-            "<32>* Knowing I could've been so much more for you than I ultimately was.",
-            "<32>* All this time, that's what's been holding me back."
+            '<32>{#p/basic}* Piensa en ello como... una promesa incumplida.',
+            '<32>* Aguantando ese rencor... pensando sobre ti en la forma en que lo hice...',
+            "<32>* Sabiendo que podría haber sido mucho más para ti de lo que fui.",
+            "<32>* Todo este tiempo, eso es lo que me ha estado echando atrás."
          ],
          d33: [ '<25>{#p/asriel1}{#f/23}* $(name)...' ],
-         d34: [ '<32>{#p/basic}* Asriel.\n* My brother.', '<32>* You deserve to know the truth.' ],
-         d35: [ '<25>{*}{#p/asriel1}{#f/25}* Huh?\n* But you already- {%}' ],
-         d36: [ '<32>{#p/basic}* I forgive you, too.' ],
+         d34: [ '<32>{#p/basic}* Asriel.\n* Mi hermano.', '<32>* Deseas saber la verdad.' ],
+         d35: [ '<25>{*}{#p/asriel1}{#f/25}* ¿Eh?\n* Pero tu ya has- {%}' ],
+         d36: [ '<32>{#p/basic}* Te perdono a ti, también.' ],
          d37: [ '<25>{#p/asriel1}{#f/30}{#i/4}* ...!', '<25>{#p/asriel1}{#f/26}{#i/4}* $(name)...' ],
-         d38: [ '<32>{#p/basic}* Shh...', "<32>* It's alright.", "<32>* I've got you, okay?" ],
-         d39: [ '<25>{#p/asriel1}{#f/25}{#i/4}* I...' ],
-         d40: [ "<32>{#p/basic}* I've got you, Asriel." ],
+         d38: [ '<32>{#p/basic}* Shh...', "<32>* Está bien.", "<32>* Estoy aquí, ¿vale?" ],
+         d39: [ '<25>{#p/asriel1}{#f/25}{#i/4}* Yo...' ],
+         d40: [ "<32>{#p/basic}* Estoy aquí, Asriel." ],
          d41: [
-            '<32>{#p/basic}* ... I can feel it.',
-            '<32>* Even after a hundred years have passed...',
-            "<32>* He's still in there, isn't he?",
-            '<32>* Like a little angel...',
-            '<32>* Watching over me, protecting me from my own bad choices...',
-            '<32>* ... all so I could one day return him the favor.'
+            '<32>{#p/basic}* ... puedo sentirlo.',
+            '<32>* Aunque hayan pasado cien años...',
+            "<32>* Él todavía está aquí, ¿no?",
+            '<32>* Como un pequeño angel...',
+            '<32>* Mirándome, protegiéndome de mis propias malas deciosiones...',
+            '<32>* ... todo para que un día yo pueda devolverle el favor.'
          ],
-         d42: [ "<32>{#p/basic}* It's all starting to make sense now.", '<32>* I know what I have to do.' ],
-         d43: [ '<25>{*}{#p/asriel1}{#f/25}* Huh?\n* What are you... {^60}{%}' ],
-         d44: [ '<25>{*}{#f/25}* No...!{^60}{%}', '<25>{*}{#f/26}* L... let me go!{^60}{%}' ],
-         d45: [ '<32>{*}{#p/basic}* Heh...{^60}{%}', '<32>{*}* ... take care of Mom and Dad for me, okay?{^60}{%}' ],
-         d46: [ '<25>{#p/asriel1}{#f/25}* Frisk, are you there?', '<25>{#f/22}* Please... wake up...' ],
-         d47: [ "<25>{#p/asriel1}{#f/23}* I...\n* I don't want to lose you too..." ],
-         d48: [ '<25>{#p/asriel1}{#f/17}* ... there you are.' ],
+         d42: [ "<32>{#p/basic}* Todo empieza a tener sentido ahora.", '<32>* Sé lo que tengo que hacer.' ],
+         d43: [ '<25>{*}{#p/asriel1}{#f/25}* ¿Eh?\n* ¿Qué estás... {^60}{%}' ],
+         d44: [ '<25>{*}{#f/25}* ¡No...!{^60}{%}', '<25>{*}{#f/26}* ¡D... déjame ir!{^60}{%}' ],
+         d45: [ '<32>{*}{#p/basic}* Je...{^60}{%}', '<32>{*}* ... cuida de mamá y papá por mi, ¿vale?{^60}{%}' ],
+         d46: [ '<25>{#p/asriel1}{#f/25}* Frisk, ¿estás ahí?', '<25>{#f/22}* Por favor... despierta...' ],
+         d47: [ "<25>{#p/asriel1}{#f/23}* Yo...\n* No quiero perderte a ti también..." ],
+         d48: [ '<25>{#p/asriel1}{#f/17}* ... ahí estás.' ],
          d49: [
-            "<25>{#p/asriel1}{#f/23}* Ha... I thought I'd lost you for a minute there.",
-            "<25>{#f/22}* Don't scare me like that again, okay?",
+            "<25>{#p/asriel1}{#f/23}* Ja... pensé que te perdí por un minuto.",
+            "<25>{#f/22}* No me asustes así otra vez, ¿vale?",
             '<25>{#f/13}* ...'
          ],
          d50: [
-            '<25>{#p/asriel1}{#f/13}* Well...\n* I have my SOUL back inside of me now.',
-            '<25>{#f/15}* My original one.',
+            '<25>{#p/asriel1}{#f/13}* Bueno...\n* Tengo mi ALMA de nuevo dentro de mi ahora.',
+            '<25>{#f/15}* La original.',
             '<25>{#f/16}* ...',
-            "<26>{#f/16}* When $(name) and I died, they must've wrapped themselves around me...",
-            '<25>{#f/13}* ... keeping me safe until I could be brought back here.',
-            '<26>{#f/17}* They held on that whole time, just for a chance to see me, Frisk...',
-            '<25>{#f/13}* ... so, the least I can do is honor it.',
-            '<25>{#f/15}* Live the life they always wanted me to have.'
+            "<26>{#f/16}* Cuando $(name) y yo morimos, él debería haberse envuelto sobre mí...",
+            '<25>{#f/13}* ... protegiéndome hasta que pueda ser devuelto aquí.',
+            '<26>{#f/17}* Se mantuvieron todo este tiempo, solo para volver a verme, Frisk...',
+            '<25>{#f/13}* ... así que, lo que menos puedo hacer es honorarlo.',
+            '<25>{#f/15}* Vivir la vida que siempre quisieron que tuve.'
          ],
          d51: [
             '<25>{#p/asriel1}{#f/23}* ... Frisk.',
-            "<25>{#f/23}* I'm going to stay with you from now on.",
-            "<25>{#f/17}* Wherever you go... I'll follow you.",
-            '<25>{#f/13}* I feel like...\n* I can trust you with that sort of thing.',
-            "<25>{#f/13}* Even if we don't know much about each other.",
-            "<25>{#f/15}* ... I don't know.",
+            "<25>{#f/23}* Voy a estar contigo a partir de ahora.",
+            "<25>{#f/17}* Donde sea que vayas... te seguiré.",
+            '<25>{#f/13}* Siento que...\n* Puedo confiar en ti en ese tipo de cosas.',
+            "<25>{#f/13}* Aunque no nos conozcamos mucho.",
+            "<25>{#f/15}* ... No sé.",
             '<25>{#f/15}* ...',
-            '<25>{#f/13}* Frisk... are you really sure about this?',
-            "<25>{#f/13}* All the times I've hurt you, hurt your friends...",
-            "<25>{#f/22}* It's... all I can think about right now.",
-            '<25>{#f/21}* Seeing them die like that in my mind, over and over...',
-            "<25>{#f/22}* Knowing that I'm the one who did it.",
+            '<25>{#f/13}* Frisk... ¿estás seguro de esto?',
+            "<25>{#f/13}* Todas las veces que te he hecho a ti, a tus amigos...",
+            "<25>{#f/22}* Es... todo lo que puedo pensar ahora.",
+            '<25>{#f/21}* Verlos morir de esa forma en mi mente, una y otra vez...',
+            "<25>{#f/22}* Sabiendo que soy yo quien lo hizo.",
             '<25>{#f/15}* ...',
-            '<25>{#f/15}* Are you really sure you can be there for someone like that?',
+            '<25>{#f/15}* ¿Estás seguro que puedes estar ahí para alguien como él?',
             '<32>{#p/human}* (...)',
             '<25>{#p/asriel1}{#f/15}* ...',
-            "<25>{#f/17}* ... I guess I just don't understand you, Frisk.",
-            "<25>{#f/23}* No matter what I do to you... you just won't give in.",
+            "<25>{#f/17}* ... Supongo que no te entiendo, Frisk.",
+            "<25>{#f/23}* Sin importar lo que te haga... tú no vas a ceder.",
             '<25>{#f/22}* ...',
-            "<25>{#f/13}* Hey.\n* Maybe it won't be so bad.",
-            "<25>{#f/17}* Having you there with me definitely won't hurt matters.",
-            '<25>{#f/13}* ...\n* The thing is...\n* If I stayed here now...',
-            "<25>{#f/15}* It wouldn't be right by $(name)... you know?",
-            '<25>{#f/13}* And besides, with my SOUL back inside of me...',
-            "<25>{#f/13}* I won't turn back into a star.",
-            "<25>{#f/13}* So... there's no point in me staying here."
+            "<25>{#f/13}* Ey.\n* Quizás no será tan malo.",
+            "<25>{#f/17}* Tenerte ahí conmigo no dañará las cosas.",
+            '<25>{#f/13}* ...\n* La cosa es...\n* Si me quedo aquí ahora...',
+            "<25>{#f/15}* No sería justo para $(name)... ¿sabes?",
+            '<25>{#f/13}* Y además, con mi ALMA devuelta dentro de mi...',
+            "<25>{#f/13}* No volveré a ser una estrella.",
+            "<25>{#f/13}* Así que... no hay motivo para que esté aquí."
          ],
          d52: [
-            '<25>{#p/asriel1}{#f/17}* Well.\n* Better get going.',
-            '<25>{#f/20}* Your friends are probably worried sick about you by now.'
+            '<25>{#p/asriel1}{#f/17}* Bueno.\n* Mejor pongámonos en marcha.',
+            '<25>{#f/20}* Tus amigos probablemente esten preocupados por ti ahora.'
          ],
          e1: [
             '<25>{#p/asriel1}{#f/15}* ...',
-            "<25>{#f/16}* I don't know what's going to happen to $(name) after this.",
-            "<25>{#f/13}* They held on for a chance to see me, but that's...",
-            '<25>{#f/15}* ... in the past now.'
+            "<25>{#f/16}* No sé que le va a pasar a $(name) después de esto.",
+            "<25>{#f/13}* Esperaron una oportunidad para verme, pero eso es...",
+            '<25>{#f/15}* ... cosa del pasado ahora.'
          ],
          e2: [
-            "<25>{#p/asriel1}{#f/13}* I still can't believe they waited all that time just to see me...",
-            '<25>{#f/23}* Stubborn idiot.',
-            '<25>{#f/17}* ... is what I would have said, if I was still a talking star.',
-            "<25>{#f/13}* But... I don't really think they're an idiot."
+            "<25>{#p/asriel1}{#f/13}* Todavía no me puedo creer que haya esperado tanto tiempo solo para verme...",
+            '<25>{#f/23}* Maldito idiota.',
+            '<25>{#f/17}* ... es lo que habría dicho, si aún fuera una estrella parlante.',
+            "<25>{#f/13}* Pero... no creo que sea un idiota."
          ],
          e3: [
-            "<25>{#p/asriel1}{#f/13}* $(name)'s not stupid.\n* And I...",
-            '<25>{#f/13}* I agreed with a lot of what they said about themselves...',
-            '<25>{#f/15}* About them not being the kind of friend I wish I had...',
-            "<25>{#f/7}* ... but it doesn't mean I wanted them gone!"
+            "<25>{#p/asriel1}{#f/13}* $(name) no es estúpido.\n* Y yo...",
+            '<25>{#f/13}* Confirmo con mucho de lo que dijeron sobre si mismo...',
+            '<25>{#f/15}* Sobre que él no sea el tipo de amigo que quería tener...',
+            "<25>{#f/7}* ... ¡pero no significa que quería que se fuera!"
          ],
          e4: [
-            "<25>{#p/asriel1}{#f/13}* It's not like $(name) has to go away...",
-            "<25>{#f/17}* If they wanted to, they could stay with us.\n* I'd like them to.",
-            "<25>{#f/15}* But I'd understand if they wanted to go.",
-            '<25>{#f/16}* They \"won\" their game.\n* They shouldn\'t want to \"play\" with me anymore.'
+            "<25>{#p/asriel1}{#f/13}* No es que $(name) tenga que irse...",
+            "<25>{#f/17}* Si quisiera, podría estar con nosotros.\n* Me gustaría.",
+            "<25>{#f/15}* Pero entiendo si quería irse.",
+            '<25>{#f/16}* Él \"ganó\" su juego.\n* Él no debería querer \"jugar\" conmigo más.'
          ],
          e5: [
-            "<25>{#p/asriel1}{#f/13}* ... $(name)...\n* If you're still there, listening...",
-            '<25>{#f/15}* I want you to know that I love you.',
-            '<25>{#f/23}* You might not have been the greatest person...',
-            '<25>{#f/22}* But, deep down, you still cared about me.'
+            "<25>{#p/asriel1}{#f/13}* ... $(name)...\n* Si aún estás ahí, escuchando...",
+            '<25>{#f/15}* Quiero que sepas que te amo.',
+            '<25>{#f/23}* Puede que no hayas sido la mejor persona...',
+            '<25>{#f/22}* Pero profundamente, todavía te preocupabas por mí.'
          ],
          e6: [
-            '<25>{#p/asriel1}{#f/23}* Ha...',
-            '<25>{#f/22}* I probably seem like a crazy person right now.',
-            '<25>{#f/15}* Obsessing over someone I should have moved on from already...',
-            '<26>{#f/17}* ... I guess $(name) and I really are just a \n  pair of stubborn idiots.'
+            '<25>{#p/asriel1}{#f/23}* Ja...',
+            '<25>{#f/22}* Probablemente parezca una persona loca ahora.',
+            '<25>{#f/15}* Obsesionándome sobre alguien de quien debería haber superado...',
+            '<26>{#f/17}* ... Supongo que $(name) y yo somos un\n  par de malditos idiotas.'
          ],
          e7: [
-            '<25>{#p/asriel1}{#f/13}* One time, $(name) and I were fighting over a bed...',
-            "<25>{#f/10}* 'Cause, both of us wanted the one with the nightstand next to it.",
-            '<26>{#f/15}* We were both pushing each other off the side, trying to make room...',
-            '<25>{#f/4}* All that fighting got us so tired, that we fell asleep.',
-            '<25>{#f/13}* But when we woke up...',
-            '<25>{#f/17}* We were lying right next to each other.',
-            "<25>{#f/13}* I tried to get up, but... they didn't want to let go.",
-            '<26>{#f/15}* They just kept saying...',
-            '<25>{#f/15}* \"... warm...\"',
-            '<25>{#f/15}* \"... fluffy...\"',
-            '<25>{#f/20}* I would have complained about it, but...',
-            "<25>{#f/17}* ... at that point, I was just happy we weren't fighting."
+            '<25>{#p/asriel1}{#f/13}* Una vez, $(name) y yo nos estábamos peleando sobre una cama...',
+            "<25>{#f/10}* Porque los dos queríamos la que tenía una mesita al lado.",
+            '<26>{#f/15}* Estábamos los dos empujándonos el uno al otro, intentando hacer espacio...',
+            '<25>{#f/4}* Toda esa pelea no cansó tanto, que nos dormimos.',
+            '<25>{#f/13}* Pero cuando nos despertamos...',
+            '<25>{#f/17}* Estábamos tumbados el uno al lado del otro.',
+            "<25>{#f/13}* Intenté levantarme, pero... él no quería dejarme ir.",
+            '<26>{#f/15}* No paraba de decir...',
+            '<25>{#f/15}* \"... caliente...\"',
+            '<25>{#f/15}* \"... esponjoso...\"',
+            '<25>{#f/20}* Me habría quejado, pero...',
+            "<25>{#f/17}* ... en ese momento, solo estaba feliz de que no estuviéramos peleando."
          ],
          e8: [
-            '<25>{#p/asriel1}{#f/13}* This other time, $(name) and I were making dinner for Mom and Dad.',
-            '<25>{#f/15}* They kept wanting to make it more spicy...',
-            '<25>{#f/3}* To be honest, if they insisted on that now, I would not complain.',
-            '<25>{#f/20}* I could go for something spicy right about now.',
-            '<25>{#f/13}* But, back then, I was more into sweets.\n* Most monsters are.',
-            '<25>{#f/15}* We ended up playing tug-of-war with the mixing bowl, and...',
-            '<25>{#f/20}* You can imagine how that turned out.',
-            '<25>{#f/17}* Mom made us clean up the mess, of course.',
-            '<25>{#f/13}* Then, Dad took us out to eat, and we both got what we wanted.'
+            '<25>{#p/asriel1}{#f/13}* Esta otra vez, $(name) y yo estábamos haciendo la cena para Mamá y Papá.',
+            '<25>{#f/15}* Él quería hacerla más picante...',
+            '<25>{#f/3}* Para ser honesto, si él insistiera en eso ahora, no me quejaría.',
+            '<25>{#f/20}* Podría ir a por algo picante justo ahora.',
+            '<25>{#f/13}* Pero en esos tiempos, me gustaban más dulce.\n* Como la mayoría de los monstruos.',
+            '<25>{#f/15}* Acabamos jugando Tira y Afloja con el bol, y...',
+            '<25>{#f/20}* Te puedes imaginar lo que pasó después.',
+            '<25>{#f/17}* Mamá nos hizo limpiar la faena, por supuesto.',
+            '<25>{#f/13}* Luego, Papá nos llevo a comer, y cada uno consiguió lo que quería.'
          ],
          e9: [
-            "<25>{#p/asriel1}{#f/15}* $(name) and I...\n* It's like we couldn't agree on anything...",
-            '<25>{#f/20}* Besides spending time together, that is.',
-            '<26>{#f/17}* Despite our differences, $(name) and I really were inseparable.',
-            "<25>{#f/13}* Even death itself couldn't keep us apart forever."
+            "<25>{#p/asriel1}{#f/15}* $(name) y yo...\n* Era como si no podíamos coincidir en nada...",
+            '<25>{#f/20}* Quitando pasar el tiempo juntos, claro.',
+            '<26>{#f/17}* A pesar de nuestras diferencias, $(name) y yo éramos inseparables.',
+            "<25>{#f/13}* Ni siquiera la muerte pudo separarnos para siempre."
          ],
          e10: [
-            "<25>{#p/asriel1}{#f/17}* ... do you think they're still around, Frisk?",
-            '<25>{#f/17}* For all you know, they could be watching us right now.',
-            "<25>{#f/23}* Wouldn't that be something.",
-            "<25>{#f/22}* But it's impossible to know for sure."
+            "<25>{#p/asriel1}{#f/17}* ... ¿crees que sigue aquí, Frisk?",
+            '<25>{#f/17}* Todo lo que sabemos, nos podría estar vigilando ahora mismo.',
+            "<25>{#f/23}* ¿No sería algo guay?.",
+            "<25>{#f/22}* Pero es imposible saber con certeza."
          ],
          e11: [
-            "<25>{#p/asriel1}{#f/17}* Golly.\n* For someone who'll be staying with you...",
-            "<25>{#f/20}* I sure am making it sound like I'd rather be with $(name).",
-            "<25>{#f/13}* But... it's not like that at all.",
-            "<25>{#f/17}* I just can't help but reminisce about someone I used to know."
+            "<25>{#p/asriel1}{#f/17}* Dios mío.\n* Para alguien que va a estar contigo...",
+            "<25>{#f/20}* Estoy seguro que parece que preferiría estar con $(name).",
+            "<25>{#f/13}* Pero... no es así del todo.",
+            "<25>{#f/17}* No puedo hacer nada más que recordar sobre alguien que conocía."
          ],
          e12: () => [
-            '<25>{#p/asriel1}{#f/17}* Frisk...\n* I want you to know.',
-            '<25>{#f/13}* Thanks to you...',
-            '<25>{#f/23}* I feel like I have a future again.',
+            '<25>{#p/asriel1}{#f/17}* Frisk...\n* Quiero que sepas.',
+            '<25>{#f/13}* Gracias a ti...',
+            '<25>{#f/23}* Siento que tengo un futuro otra vez.',
             '<25>{#f/22}* ...',
             ...(!SAVE.flag.b.pacifist_marker_forgive
-               ? [ "<25>{#f/22}* Even though you couldn't forgive me for what I'd done..." ]
+               ? [ "<25>{#f/22}* Aunque no me hayas podido perdonar por lo que he hecho..." ]
                : SAVE.flag.n.killed_sans > 0
-               ? [ '<25>{#f/22}* Even though I wanted you to do all those terrible things...' ]
-               : [ '<25>{#f/22}* Even though I tortured you, and threatened everyone you love...' ]),
-            "<25>{#f/13}* You're still willing to help me move past it all.",
-            '<25>{#f/23}* ... it means a lot.',
+               ? [ '<25>{#f/22}* Aunque quería que hicieras esas cosas terribles...' ]
+               : [ '<25>{#f/22}* Aunque te torturé, y amenacé a todos los que amas...' ]),
+            "<25>{#f/13}* Tú aún quieres ayudarme a superarlo.",
+            '<25>{#f/23}* ... significa mucho para mí.',
             '<25>{#f/22}* ...',
-            '<25>{#f/13}* Mom, Dad...',
+            '<25>{#f/13}* Mamá, Papá...',
             '<25>{#f/13}* Sans, Papyrus, Undyne, Alphys...',
-            "<25>{#f/15}* Everyone I've killed in past realities...",
-            "<25>{#f/16}* ... it's going to be difficult for me to face them.",
+            "<25>{#f/15}* Todos los que he matado en realidades pasadas...",
+            "<25>{#f/16}* ... va a ser difícil para mí confrontarlo.",
             '<25>{#f/13}* ...',
-            "<25>{#f/17}* But I'll try.",
-            "<25>{#f/23}* I'll try to be a better person.",
-            '<25>{#f/22}* And, If I ever screw up...',
-            "<25>{#f/13}* ... I know you'll be there to help me pick up the pieces."
+            "<25>{#f/17}* Pero lo intentaré.",
+            "<25>{#f/23}* Intentaré ser una mejor persona.",
+            '<25>{#f/22}* Y, si meto la pata...',
+            "<25>{#f/13}* ... Sé que estarás ahí para ayudarme a recoger las piezas."
          ],
          e13: [
-            '<25>{#p/asriel1}{#f/17}* Ha... $(name).',
-            "<25>{#f/23}* I won't let you down, okay?",
-            "<25>{#f/22}* I'll make the most out of this chance you've given me.",
-            "<25>{#f/17}* I'll make it count."
+            '<25>{#p/asriel1}{#f/17}* Ja... $(name).',
+            "<25>{#f/23}* No te abandonaré, ¿vale?",
+            "<25>{#f/22}* Voy a aprovechar al máximo esta oportunidad que me has dado.",
+            "<25>{#f/17}* Haré que cuente."
          ]
       },
-      evac: [ '<32>{#p/human}* (You feel the nearby monster presence dwindling.)' ],
+      evac: [ '<32>{#p/human}* (Sientes la presencia de monstruo cercana menguar.)' ],
       stargum1: () =>
          SAVE.data.b.svr
             ? [
-                 '<32>{#p/human}* (You saw a piece of gum taped to the comic strip...)',
-                 choicer.create('* (Chew the gum?)', 'Si', 'No')
+                 '<32>{#p/human}* (Ves un trozo de chicle pegado en la portada del comic...)',
+                 choicer.create('* (¿Masticar el chicle?)', 'Si', 'No')
               ]
             : [
-                 '<32>{#p/basic}* There was a piece of gum taped to the comic strip.',
-                 choicer.create('* (Chew the gum?)', 'Si', 'No')
+                 '<32>{#p/basic}* Había un trozo de chicle pegado en la portada del comic.',
+                 choicer.create('* (¿Masticar el chicle?)', 'Si', 'No')
               ],
-      stargum2: [ '<32>{#p/human}* (You decide not to chew.)' ],
-      stargum3: [ '<32>{#p/human}* (You recovered $(x) HP.)' ],
-      stargum4: [ '<32>{#p/human}* (HP fully restored.)' ],
+      stargum2: [ '<32>{#p/human}* (Decidiste no masticar.)' ],
+      stargum3: [ '<32>{#p/human}* (Has recuperado $(x) PV.)' ],
+      stargum4: [ '<32>{#p/human}* (PV restaurados.)' ],
       fireplace1: () =>
          SAVE.data.b.svr
             ? [
-                 '<32>{#p/human}* (You feel the inviting warmth of the fireplace...)',
-                 choicer.create('* (Crawl inside?)', 'Si', 'No')
+                 '<32>{#p/human}* (Sientes la calidez acogedora de la chimenea...)',
+                 choicer.create('* (¿Entrar?)', 'Si', 'No')
               ]
             : [
                  SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
@@ -489,7 +489,7 @@ export default {
                     : "<32>{#p/basic}* Toriel's fireplace.\n* It's not too hot, just pleasantly warm.",
                  ...(world.darker
                     ? []
-                    : [ '<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Si', 'No') ])
+                    : [ '<32>* You could probably crawl in.', choicer.create('* (¿Entrar?)', 'Si', 'No') ])
               ],
       fireplace2a: [ '<32>{#p/human}* (You chose not to crawl in.)' ],
       fireplace2b: () => [
@@ -5343,17 +5343,17 @@ export default {
             world.runaway
                ? [
                     '<32>{#p/human}* (The industrious Outlands falls silent, filling you with determination.)',
-                    '<32>{#p/human}* (HP fully restored.)'
+                    '<32>{#p/human}* (PV restaurados.)'
                  ]
                : SAVE.data.n.plot < 48
                ? [
                     '<32>{#p/human}* (The industrious Outlands lies ahead, filling you with determination.)',
-                    '<32>{#p/human}* (HP fully restored.)'
+                    '<32>{#p/human}* (PV restaurados.)'
                  ]
                : [
                     '<32>{#p/human}* (Returning to where it all began, after so long...)',
                     '<32>{#p/human}* (This fills you with determination.)',
-                    '<32>{#p/human}* (HP fully restored.)'
+                    '<32>{#p/human}* (PV restaurados.)'
                  ]
       },
       w_froggit: {
@@ -5363,21 +5363,21 @@ export default {
                ? SAVE.data.n.plot < 8.1
                   ? [
                        '<32>{#p/human}* (The air grows stale.)\n* (Somehow, this fills you with determination.)',
-                       '<32>{#p/human}* (HP fully restored.)'
+                       '<32>{#p/human}* (PV restaurados.)'
                     ]
                   : [
                        '<32>{#p/human}* (The air has fully dried up.)\n* (Indeed, this fills you with determination.)',
-                       '<32>{#p/human}* (HP fully restored.)'
+                       '<32>{#p/human}* (PV restaurados.)'
                     ]
                : SAVE.data.b.svr
                ? [
                     '<32>{#p/human}* (The area has been vacated, but the air remains fresh.)',
                     '<32>{#p/human}* (This, of course, fills you with determination.)',
-                    '<32>{#p/human}* (HP fully restored.)'
+                    '<32>{#p/human}* (PV restaurados.)'
                  ]
                : [
                     '<32>{#p/human}* (The sight of weird and wonderful creatures fills you with determination.)',
-                    '<32>{#p/human}* (HP fully restored.)'
+                    '<32>{#p/human}* (PV restaurados.)'
                  ]
       },
       w_mouse: {

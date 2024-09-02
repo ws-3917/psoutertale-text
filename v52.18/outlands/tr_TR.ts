@@ -2009,16 +2009,16 @@ export default {
          ],
          b: [
             '<32>{#p/basic}{#n1}* Hey insan, henüz flört etmeyi denedin mi?',
-            "<32>* Ha!\n* Suratındaki ifadeye bakılırsa henüz denemediğini biliyorum.",
+            "<32>* Ha!\n* Suratındaki ifadeye bakılırsa henüz denememiş olmalısın.",
             "<32>* Sana söylemeliyim, bunu yapmak çok eğlenceli.",
-            "<32>* Your enemies won't know what to do with themselves!",
-            '<32>* Psst... if you DO start flirting, I might have more to tell you.',
-            '<32>* Good luck with that!'
+            "<32>* Düşmanların bunun üstesinden gelemeyecekler!",
+            '<32>* Psst... eğer flört etmeye BAŞLARSAN, sana daha anlatacaklarım olabilir.',
+            '<32>* Bununla bol şans!'
          ],
          c: [
-            "<32>{#p/basic}{#n1}* Hey human, now that you've started flirting...",
-            '<32>* How does it feel?',
-            "<32>* It's pretty great, right?",
+            "<32>{#p/basic}{#n1}* Hey insan, madem flört etmeye başladın...",
+            '<32>* Nasıl hissettiriyor?',
+            "<32>* Oldukça iyi, değil mi?",
             "<32>* Farklı türden canavarlarla {@fill=#cf7fff}FLÖRT{@fill=#fff} ettikçe, isimlerinin yanında kalpler göreceksin.",
             "<32>* Ne kadar çok canavar türüyle {@fill=#cf7fff}FLÖRT{@fill=#fff} edersen, o kadar çok kalbin olacak.",
             '<32>* Merak ediyorum da...',
@@ -2045,16 +2045,16 @@ export default {
                     ]
                   : 20 <= world.flirt
                   ? [
-                       "<32>{#p/basic}{#n1}* I heard you're quite the romantic around here now.",
-                       '<32>* Everyone loves you, huh?'
+                       "<32>{#p/basic}{#n1}* Artık buralarda oldukça romantik olarak tanındığını duydum.",
+                       '<32>* Herkes seni seviyor, ha?'
                     ]
                   : [
-                       "<32>{#p/basic}{#n1}* I heard you're quite the hero around here now.",
-                       '<32>* Everyone likes you, huh?'
+                       "<32>{#p/basic}{#n1}* Artık buralarda bir kahraman olarak tanındığını duydum.",
+                       '<32>* Herkes seni takdir ediyor, ha?'
                     ]),
-               '<32>* Well... personally, I think you have too much free time.'
+               '<32>* Yani... şahsen, senin çok fazla boş vaktin olduğunu düşünüyorum.'
             ],
-            [ '<32>{#p/basic}{#n1}* What?\n* Am I wrong?' ]
+            [ '<32>{#p/basic}{#n1}* Ne?\n* Haksız mıyım?' ]
          )
       },
       manana: {
@@ -2063,8 +2063,8 @@ export default {
             () =>
                SAVE.data.b.napsta_performance
                   ? [
-                       "<32>{#p/basic}{#n1}* So, you're the one who co-hosted that music show, eh?",
-                       "<32>* Maybe now you'll have the means to accept my offer.",
+                       "<32>{#p/basic}{#n1}* Demek o müzik şovunun ortak sunuculuğunu yapan sendin, ha?",
+                       "<32>* Belki şimdi teklifimi kabul etme imkânına sahipsindir.",
                        "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip.",
                        "<32>* Now I liked that little show, so you'll get a discount.\n* 5G, take it or leave it.",
                        choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Evet', 'Hayır')
@@ -2108,7 +2108,7 @@ export default {
             '<32>{#s/equip}{#p/human}{#n1!}* (You got the Super Starwalker 1.)',
             '<32>{#p/basic}{#n1}* Splendid!\n* Enjoy the comic strip.'
          ],
-         e: [ '<32>{#p/basic}{#n1}* Back again, huh?', "<32>* Sorry bud, I've got nothin' left to sell." ],
+         e: [ '<32>{#p/basic}{#n1}* Yine geri geldin, ha?', "<32>* Sorry bud, I've got nothin' left to sell." ],
          f: [
             "<32>{#p/human}{#n1!}* (Çok fazla şey taşıyorsun.)",
             "<32>{#p/basic}{#n1}* Them pockets of yours are lookin' kinda full..."
@@ -2146,7 +2146,7 @@ export default {
                   ? 6 <= world.population
                      ? [
                           "<32>{#p/basic}{#n1}* I'm sad.\n* They took the DJ table to use for some tacky show later.",
-                          '<32>* ... wait, that might actually be kind of cool.'
+                          '<32>* ... dur, aslında bu biraz havalı olabilir.'
                        ]
                      : [
                           "<32>{#p/basic}{#n1}* I'm sad.\n* The bully who came through here earlier...",
@@ -2177,12 +2177,12 @@ export default {
       },
       pie: () =>
          3 <= SAVE.data.n.cell_insult
-            ? [ '<32>{#p/human}* (You got the Burnt Pie.)' ]
+            ? [ '<32>{#p/human}* (Yanmış Turta\'yı aldın.)' ]
             : SAVE.data.n.state_wastelands_mash === 1
-            ? [ '<32>{#p/human}* (You got the Pie Soup.)' ]
+            ? [ '<32>{#p/human}* (Turta Çorbası\'nı aldın.)' ]
             : SAVE.data.b.snail_pie
-            ? [ '<32>{#p/human}* (You got the Snail Pie.)' ]
-            : [ '<32>{#p/human}* (You got the Butterscotch Pie.)' ],
+            ? [ '<32>{#p/human}* (Salyangozlu Turta\'yı aldın.)' ]
+            : [ '<32>{#p/human}* (Karamelli Turta\'yı aldın.)' ],
       plot_call: {
          a: () => [
             '<32>{#p/event}* Zırr, zırr...',
@@ -2606,9 +2606,9 @@ export default {
                  ]
                : [
                     '<32>{#p/human}* (Terminali aktifleştirip gelen mesajı oynatıyorsun.)',
-                    "<32>{#p/alphys}* Dökümhane'nin sıvı şebekesi yine d-dağılıyor.",
+                    "<32>{#p/alphys}* Dökümhane'nin sıvı şebekesi y-yine dağılıyor.",
                     '<32>* Çalışanlar kısa bir dönüş sözü verdiler, ancak durum pek iç açıcı görünmüyor.',
-                    '<32>* Lütfen, e-eğer orada yardım edebilecek biri varsa, size ihtiyacımız var...'
+                    '<32>* Lütfen, eğer orada y-yardım edebilecek biri varsa, size ihtiyacımız var...'
                  ]
       },
       torieldanger: {
@@ -2636,23 +2636,23 @@ export default {
                "<25>{#f/13}* Beni asla görmesinler daha iyi."
             ],
             [
-               '<25>{#p/asriel1}{#f/15}* ... what are you doing?',
-               '<25>{#f/15}* Are you trying to keep me company?',
+               '<25>{#p/asriel1}{#f/15}* ... ne yapıyorsun?',
+               '<25>{#f/15}* Bana eşlik etmeye mi çalışıyorsun?',
                '<25>{#f/23}* Frisk...',
                '<25>{#f/22}* ...',
                '<25>{#f/13}* Hey.',
-               '<25>{#f/13}* Let me ask you a question.',
-               '<25>{#f/15}* Frisk...\n* Why did you come here?',
-               '<25>{#f/13}* Everyone knows the story, right...?',
-               '<25>{#f/23}* \"Spacecraft who fly into the Ebott sector are said to disappear.\"',
+               '<25>{#f/13}* Sana bir soru sormama izin ver.',
+               '<25>{#f/15}* Frisk...\n* Neden buraya geldin?',
+               '<25>{#f/13}* Hikayeyi herkes biliyor, değil mi?',
+               '<25>{#f/23}* \"Ebott sektörüne uçan uzay mekiklerinin kaybolduğu söyleniyor.\"',
                '<25>{#f/22}* ...',
-               '<32>{#p/human}* (...)\n* (You tell Asriel the truth.)',
+               '<32>{#p/human}* (...)\n* (Asriel\'a gerçeği söylüyorsun.)',
                '<25>{#p/asriel1}{#f/25}* ...',
-               '<25>{#f/25}* Frisk... you...',
+               '<25>{#f/25}* Frisk... sen...',
                '<25>{#f/23}* ...',
-               "<25>{#f/23}* You don't have to be alone anymore, okay?",
-               "<25>{#f/17}* You've made so many wonderful friends here...",
-               "<25>{#f/17}* They'll look out for you, okay?"
+               "<25>{#f/23}* Artık yalnız kalmana gerek yok, tamam mı?",
+               "<25>{#f/17}* Burada birçok harika arkadaş edindin...",
+               "<25>{#f/17}* Onlar sana göz kulak olacaklar, tamam mı?"
             ],
             [
                '<25>{#p/asriel1}{#f/15}* ...',
@@ -2664,65 +2664,65 @@ export default {
                '<25>{#f/15}* But they felt very strongly about that.'
             ],
             [
-               "<25>{#p/asriel1}{#f/17}* Frisk, it's okay.\n* You're not like $(name) at all.",
-               '<25>{#f/15}* In fact, though you have similar, uh, fashion choices...',
-               "<25>{#f/13}* I don't know why I ever acted like you were the same person.",
-               '<25>{#f/15}* Maybe...\n* The truth is...',
-               "<25>{#f/16}* $(name) just wasn't who I wanted them to be.",
-               '<25>{#f/13}* While, Frisk...',
-               "<25>{#f/17}* You're the kind of friend I've always wanted to have.",
-               '<25>{#f/20}* So maybe I was kind of projecting a little.',
-               "<25>{#f/17}* Let's be honest.\n* I did some weird stuff as a star."
+               "<25>{#p/asriel1}{#f/17}* Frisk, sorun yok.\n* Sen hiç $(name) gibi değilsin.",
+               '<25>{#f/15}* Hatta, oldukça benzer, uh, moda tercihleriniz olsa da...',
+               "<25>{#f/13}* Neden aynı kişiymişsiniz gibi davrandığımı bilmiyorum.",
+               '<25>{#f/15}* Belki de...\n* Gerçek şu ki...',
+               "<25>{#f/16}* $(name) benim olmasını istediğim kişi değildi.",
+               '<25>{#f/13}* O sırada, Frisk...',
+               "<25>{#f/17}* Sen benim hep istediğim türden bir arkadaşsın.",
+               '<25>{#f/20}* Yani belki de biraz bunu yansıtıyordum.',
+               "<25>{#f/17}* Dürüst olalım.\n* Yıldız olarak biraz tuhaf şeyler yaptım."
             ],
             [
-               "<25>{#p/asriel1}{#f/13}* There's one last thing I feel like I should tell you.",
-               '<25>{#f/15}* When $(name) and I combined our SOULs together...',
-               '<25>{#f/16}* The control over our body was actually split between us.',
-               '<25>{#f/15}* They were the one that picked up their own empty body.',
-               "<25>{#f/13}* And then, when we made it to the planet's remains...",
-               '<25>{#f/13}* They were the one that wanted to...',
-               '<25>{#f/16}* ... to use our full power.',
-               '<25>{#f/13}* It took everything I had to resist it.',
-               '<25>{#f/15}* And then, because of me, we...',
-               "<25>{#f/22}* Well, that's why I ended up the way I did.",
+               "<25>{#p/asriel1}{#f/13}* Söylemem gereken son bir şey daha varmış gibi hissediyorum.",
+               '<25>{#f/15}* $(name) ve ben RUH\'larımızı birleştirdiğimizde...',
+               '<25>{#f/16}* Bedenimiz üzerindeki kontrol aslında aramızda bölünmüştü.',
+               '<25>{#f/15}* Kendi boş bedenini alıp taşıyan oydu.',
+               "<25>{#f/13}* Ve sonra, gezegenin kalıntılarına ulaştığımızda...",
+               '<25>{#f/13}* Bizim tüm gücümüzü kullanmayı...',
+               '<25>{#f/16}* ... isteyen kişi oydu.',
+               '<25>{#f/13}* Buna karşı koymak için elimden geldiğince direndim.',
+               '<25>{#f/15}* Ve sonra, benim yüzümden, biz...',
+               "<25>{#f/22}* İşte, bu yüzden bu hale düştüm.",
                '<25>{#f/23}* ... Frisk.',
-               "<25>{#f/17}* This whole time, I've blamed myself for that decision.",
-               "<25>{#f/13}* It's why I adopted that horrible view of the world.",
-               '<25>{#f/13}* \"Kill or be killed.\"',
-               '<25>{#f/17}* But now...\n* After meeting you...',
-               "<25>{#f/23}* Frisk, I don't regret that decision anymore.",
-               '<25>{#f/22}* I did the right thing.',
-               "<25>{#f/13}* If we'd killed those humans...",
-               '<25>{#f/15}* We would have had to wage war against all of humanity.',
-               '<25>{#f/17}* And in the end, everyone went free, right?',
-               '<25>{#f/17}* Even the others who came here made it out alive.',
+               "<25>{#f/17}* Bunca zamandır, bu karar için hep kendimi suçladım.",
+               "<25>{#f/13}* Dünyaya karşı bu korkunç bakış açısını benimsememin sebebi bu.",
+               '<25>{#f/13}* \"Öldür ya da öl.\"',
+               '<25>{#f/17}* Ama şimdi...\n* Seninle tanıştıktan sonra...',
+               "<25>{#f/23}* Frisk, artık bu kararımdan pişman değilim.",
+               '<25>{#f/22}* Ben doğru olanı yaptım.',
+               "<25>{#f/13}* Eğer o insanları öldürmüş olsaydık...",
+               '<25>{#f/15}* Bütün insanlığa karşı savaş açmak zorunda kalacaktık.',
+               '<25>{#f/17}* Ve işin sonunda herkes özgürlüğüne kavuştu, değil mi?',
+               '<25>{#f/17}* Buraya gelen diğerleri bile sağ çıkmayı başardı.',
                '<25>{#f/13}* ...',
-               '<25>{#f/15}* But, $(name)...',
-               "<25>{#f/16}* ... I can't say for certain what happened to them after we died.",
-               '<25>{#f/15}* Nothing was ever found... not even their SOUL.',
-               "<25>{#f/15}* So... I can't help but wonder if they're... still out there.",
+               '<25>{#f/15}* Ama, $(name)...',
+               "<25>{#f/16}* ... Biz öldükten sonra ona ne olduğunu kesin olarak söyleyemem.",
+               '<25>{#f/15}* Ona ait hiçbir şey bulunamadı... RUH\'u bile.',
+               "<25>{#f/15}* Yani... Acaba hala orada mı diye... merak etmeden duramıyorum.",
                '<32>{#p/basic}* ...',
                '<32>{#p/human}* (Sanki birisi ağlıyor gibi...)'
             ],
             [
-               '<25>{#p/asriel1}{#f/17}* Frisk, thank you for listening to me.',
-               '<25>{#f/17}* You should really go be with your friends now, okay?',
-               '<25>{#f/13}* Oh, and, please...',
-               '<25>{#f/20}* In the future, if you, uh, see me...',
-               "<25>{#f/15}* ... don't think of it as me, okay?",
-               '<25>{#f/16}* I just want you to remember me like... this.',
-               '<25>{#f/17}* Someone that was your friend for a little while.',
+               '<25>{#p/asriel1}{#f/17}* Frisk, beni dinlediğin için teşekkür ederim.',
+               '<25>{#f/17}* Artık gerçekten arkadaşlarının yanına gitmelisin, tamam mı?',
+               '<25>{#f/13}* Ah, ve, lütfen...',
+               '<25>{#f/20}* Eğer gelecekte, şey, uh, beni görürsen...',
+               "<25>{#f/15}* ... benmişim gibi düşünme, tamam mı?",
+               '<25>{#f/16}* Beni sadece... böyle hatırlamanı istiyorum.',
+               '<25>{#f/17}* Kısa bir süreliğine arkadaşın olan biri.',
                '<25>{#f/13}* ...',
-               '<32>{|}{#p/human}* (You tell Asriel you really- {%}',
-               "<25>{#p/asriel1}{#f/23}* Frisk, it's okay.",
-               "<25>{#f/22}* You don't have to save everyone to be a good person.",
-               '<25>{#f/13}* Besides... even if I could keep this form...',
-               "<25>{#f/15}* I don't know if I could move on from what happened in the past.",
-               "<25>{#f/17}* ... just promise me you'll take care of yourself, alright?",
+               '<32>{|}{#p/human}* (Asriel\'a onu gerçekten- {%}',
+               "<25>{#p/asriel1}{#f/23}* Frisk, sorun değil.",
+               "<25>{#f/22}* İyi biri olmak için herkesi kurtarmana gerek yok.",
+               '<25>{#f/13}* Ayrıca... bu formumu koruyabilecek olsaydım bile...',
+               "<25>{#f/15}* Geçmişte olanların üstesinden gelebilir miydim bilmiyorum.",
+               "<25>{#f/17}* ... bana sadece kendine iyi bakacağına söz ver, olur mu?",
                '<25>{#f/13}* ...',
-               '<25>{#f/15}* Well, see you.'
+               '<25>{#f/15}* Öyleyse, görüşmek üzere.'
             ],
-            [ '<25>{#p/asriel1}{#f/13}* Frisk...', "<25>{#f/15}* Don't you have anything better to do?" ],
+            [ '<25>{#p/asriel1}{#f/13}* Frisk...', "<25>{#f/15}* Yapacak daha iyi bir şeyin yok mu?" ],
             []
          ][Math.min(SAVE.data.n.lateasriel++, 8)],
       securefield: [ '<33>{#p/basic}* Burada bir güvenlik kalkanı var.\n* Aktif.' ],
@@ -3837,11 +3837,11 @@ export default {
    },
 
    b_opponent_froggit: {
-      act_check: [ '<32>{#p/story}* FROGGIT - SAL 4 SAV 5\n* Hayat bu canavar için zor.' ],
-      act_check2: [ '<32>{#p/story}* FROGGIT - SAL 4 SAV 5\n* Hayat bu canavar için iyiye gidiyor.' ],
-      act_check3: [ "<32>{#p/story}* FROGGIT - SAL 4 SAV 5\n* Hayat bu canavarın yüzüne hiç gülmüyor gibi." ],
-      act_check4: [ '<32>{#p/story}* FROGGIT - SAL 4 SAV 5\n* Hayat bu canavar için çok kafa karıştırıcı.' ],
-      act_check5: [ '<32>{#p/story}* FROGGIT - SAL 4 SAV 5\n* Hayat bu canavar için sevgi dolu.' ],
+      act_check: [ '<32>{#p/story}* FROGGİT - SAL 4 SAV 5\n* Hayat bu canavar için zor.' ],
+      act_check2: [ '<32>{#p/story}* FROGGİT - SAL 4 SAV 5\n* Hayat bu canavar için iyiye gidiyor.' ],
+      act_check3: [ "<32>{#p/story}* FROGGİT - SAL 4 SAV 5\n* Hayat bu canavarın yüzüne hiç gülmüyor gibi." ],
+      act_check4: [ '<32>{#p/story}* FROGGİT - SAL 4 SAV 5\n* Hayat bu canavar için çok kafa karıştırıcı.' ],
+      act_check5: [ '<32>{#p/story}* FROGGİT - SAL 4 SAV 5\n* Hayat bu canavar için sevgi dolu.' ],
       act_threat: [
          '<32>{#p/human}* (Froggit\'i tehdit ettin.)',
          "<32>{#p/basic}* Froggit ne dediğini anlamadı..."
@@ -3860,24 +3860,24 @@ export default {
       ],
       act_translate0: [ "<32>{#p/human}* (Ama daha tercüme edecek bir şey söylemedin.)" ],
       act_translate1: [
-         '<32>{#p/human}* (Söylediklerini tercüme ettin.)\n* (Froggit artık seni anlayabiliyor.)',
+         '<32>{#p/human}* (Söylediklerini tercüme ettin.)\n* (Froggit artık seni anlıyor.)',
          '<32>{#p/basic}* Froggit pohpohlandı.'
       ],
       act_translate1x: [
-         '<32>{#p/human}* (Söylediklerini tercüme ettin.)\n* (Froggit artık seni anlayabiliyor.)',
+         '<32>{#p/human}* (Söylediklerini tercüme ettin.)\n* (Froggit artık seni anlıyor.)',
          '<32>{#p/basic}* Froggit bu savaşa devam etme konusunda tereddütlü.'
       ],
       act_translate1y: [
-         '<32>{#p/human}* (Söylediklerini tercüme ettin.)\n* (Froggit artık seni anlayabiliyor.)',
+         '<32>{#p/human}* (Söylediklerini tercüme ettin.)\n* (Froggit artık seni anlıyor.)',
          '<32>* İçten içe tehdit edilmiş halde Froggit kaçıyor!'
       ],
       act_translate1z: [
-         '<32>{#p/human}* (Söylediklerini tercüme ettin.)\n* (Froggit artık seni anlayabiliyor.)',
+         '<32>{#p/human}* (Söylediklerini tercüme ettin.)\n* (Froggit artık seni anlıyor.)',
          '<32>{#p/basic}* Froggit korku belirtisi göstermiyor.'
       ],
       act_translate2: [
-         '<32>{#p/human}* (Söylediklerini tercüme ettin.)\n* (Froggit artık seni anlayabiliyor.)',
-         '<32>{#p/basic}* Froggit\'in yanakları kızardı, en azından içinde öyle.'
+         '<32>{#p/human}* (Söylediklerini tercüme ettin.)\n* (Froggit artık seni anlıyor.)',
+         '<32>{#p/basic}* Froggit dışına yansıtmasa da, içten içe kızarıyor.'
       ],
       confuseText: [ '<08>{#p/basic}{~}Vırak, Vırak?' ],
       flirtText: [ '<08>{#p/basic}{~}(Yanakları cidden kızarır.)\nVırak..' ],
@@ -3960,10 +3960,10 @@ export default {
       status7: [ '<32>{#p/story}* Oculoux artık yalnız.' ]
    },
    b_opponent_migosp: {
-      act_check: [ "<32>{#p/story}* SILENTE - SAL 7 SAV 5\n* Kötü görünebilir, ama sadece yanlış kişilerle birlikte..." ],
-      act_check2: [ '<33>{#p/story}* SILENTE - SAL 7 SAV 5\n* Şimdi yalnız, ve neşeyle dans ederek kendisini gösteriyor.' ],
-      act_check3: [ '<32>{#p/story}* SILENTE - SAL 7 SAV 5\n* Seninle birlikteyken rahat hissediyor.\n* FAZLA rahat.' ],
-      act_check4: [ "<32>{#p/story}* SILENTE - SAL 7 SAV 5\n* Sert durmasına rağmen, acı içinde olduğu bariz..." ],
+      act_check: [ "<32>{#p/story}* SİLENTE - SAL 7 SAV 5\n* Kötü görünebilir, ama sadece yanlış kişilerle birlikte..." ],
+      act_check2: [ '<33>{#p/story}* SİLENTE - SAL 7 SAV 5\n* Şimdi yalnız, ve neşeyle dans ederek kendisini gösteriyor.' ],
+      act_check3: [ '<32>{#p/story}* SİLENTE - SAL 7 SAV 5\n* Seninle birlikteyken rahat hissediyor.\n* FAZLA rahat.' ],
+      act_check4: [ "<32>{#p/story}* SİLENTE - SAL 7 SAV 5\n* Sert durmasına rağmen, acı içinde olduğu bariz..." ],
       act_flirt: [ '<32>{#p/human}* (Silente ile flört ettin.)' ],
       flirtTalk: [ '<08>{#p/basic}{~}Selamm~' ],
       groupInsult: [ "<32>{#p/human}* (Silente'ye hakaret etmeye çalıştın, ancak o diğerlerine çok odaklı.)" ],

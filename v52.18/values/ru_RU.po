@@ -217,7 +217,7 @@ msgid "(The dog jumped into your lap.)"
 msgstr "(Пёс запрыгнул к вам на колени.)"
 
 msgid "(Pant pant)"
-msgstr ""
+msgstr "(Брюки)"
 
 msgid "I'LL ALLOW IT!!!!"
 msgstr "Я РАЗРЕШАЮ ЭТО!!!!"
@@ -309,10 +309,10 @@ msgid "Now you're just being rude, darling."
 msgstr "Теперь ты просто грубишь, дорогая."
 
 msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
-msgstr ""
+msgstr "Ооо! Вы продвигаете мой бренд?"
 
 msgid "Is this name correct? ;)"
-msgstr ""
+msgstr "Правильно ли это имя?)"
 
 msgid "Hot, but not hot enough."
 msgstr "Горячо, но недостаточно."

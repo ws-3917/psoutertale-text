@@ -712,7 +712,7 @@ export default {
                }
             },
             knightknight: {
-               name: 'TERRESTRIA',
+               name: 'TERRESTRİA',
                author: 'major_memestar',
                text: {
                   basic: 'Geçmişin\nArayışında',
@@ -722,7 +722,7 @@ export default {
                }
             },
             froggitex: {
-               name: 'FINAL FROGGIT',
+               name: 'SON FROGGİT',
                author: 'PoTheWinterCorder',
                text: {
                   basic: 'Bilgeliğini Kendine\nSaklamakta',
@@ -742,7 +742,7 @@ export default {
                }
             },
             astigmatism: {
-               name: 'EYEWALKER PRIME',
+               name: 'EYEWALKER PRİME',
                author: 'semi',
                text: {
                   basic: 'Hala Koca\nBir Zorba',
@@ -752,7 +752,7 @@ export default {
                }
             },
             migospel: {
-               name: 'SILENCIO',
+               name: 'SİLENCİO',
                author: 'Balgamlı Kedi',
                text: {
                   basic: 'Hala Utanmaz\nBir Korkak',
@@ -802,7 +802,7 @@ export default {
                author: 'MattSpriteMaster'
             },
             toriel: {
-               name: 'TORIEL',
+               name: 'TORİEL',
                author: 'MattSpriteMaster'
             },
             asgore: {
@@ -810,11 +810,11 @@ export default {
                author: 'MattSpriteMaster'
             },
             monsterkid: {
-               name: 'MONSTER KID',
+               name: 'CANAVAR ÇOCUK',
                author: 'spacey_432'
             },
             asriel: {
-               name: 'ASRIEL',
+               name: 'ASRİEL',
                author: 'Medi0creking & MattSpriteMaster'
             }
          }

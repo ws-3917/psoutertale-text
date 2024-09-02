@@ -220,7 +220,7 @@ export default {
       dialog_save: { buttonLabel: 'Сохранить', name: 'Сохранить файлы', title: 'Сохранить Файл' },
       error_load: 'Этот файл не удалось разобрать.',
       message_alert: [ 'ОК' ],
-      message_confirm: [ 'Отменить', 'ОК' ],
+      message_confirm: [ 'Отмена', 'ОК' ],
       prompt_clear: 'Очистить этот файл?',
       prompt_demo: 'Ваш сохраненный файл из\nдемо-версии OUTERTALE был\nперемещен в раздел временной шкалы.',
       prompt_save: 'Сохранить этот файл?',
@@ -243,7 +243,7 @@ export default {
             'InvincibleRacoon',
             'Jojoton56',
             'Kiwi \"Quinn\"',
-            'My Aster',
+            'Моя Астор.',
             'neo9174',
             'Rise'
          ],
@@ -289,7 +289,7 @@ export default {
             '',
             '§fill=#ff0§< СПЕЦИАЛИСТ >§fill=#fff§',
             'Codetoil',
-            'ryi3r',
+            'Ryi3r',
             'ws3917',
             '',
             '§fill=#ff0§< ТЕСТЕР >§fill=#fff§',
@@ -335,49 +335,49 @@ export default {
          [
             '§fill=#ff0§< ТЕСТЕР >§fill=#fff§',
             'Kiwi \"Quinn\"',
-            'lil tanski',
-            'MR. PETER',
-            'MSBen',
-            'Murder--Sans_MDR',
-            'My Aster',
-            'Nanorasmus',
+            'Тански, Лил',
+            'Мистер Питер.',
+            'Мсбен',
+            'Убийство - Sans MDR',
+            'Моя Астор.',
+            'Нанорасмус',
             'neo9174',
-            'NepAnime',
+            'Непал',
             'полу',
-            'Shaun Duz Stuffs',
-            'SHCyank',
+            'Шон Дуз Стаффс',
+            'ШКьянк',
             'NerNot1',
-            'petar3644'
+            'Пайта 3644'
          ],
          [
             '§fill=#ff0§< ТЕСТЕР >§fill=#fff§',
-            'PixelToons Jaafar',
-            'Prezmop',
-            'prymus-agd',
-            'Quin',
-            'RadicalRic',
-            'Raelynn',
-            'retr22800',
+            'Пиксель Тоонс Джаафар',
+            'Пресмоп',
+            'Праймус АГД',
+            'Квин.',
+            'Радикальный Рик',
+            'Рэйлин.',
+            'Попробуйте 22800',
             'Rise',
-            'RoCtD_14159',
-            'sonicisawesome222',
+            'RoCtD 14159',
+            'Sonicisawesome 222',
             'Soup Taels',
-            'spaceknife234',
+            'Космический нож 234',
             'Волнистый, извивающийся',
-            'superkippy'
+            'Суперкиппи'
          ],
          [
             '§fill=#ff0§< ТЕСТЕР >§fill=#fff§',
-            'Teecup',
-            'Tem in a Cowboy Hat',
-            'Tenbrooks',
+            'Текуп',
+            'Тема в ковбойской шляпе',
+            'Тембрукс',
             'ThatGuyWhoLikesFood',
-            'The Fallen Angel',
-            'TheAsriel',
+            'Падший ангел',
+            'Асриль',
             'Turbulation',
-            'Wild Pasta',
-            'Xiao_Akatsuki',
-            'xNoodlePlayz',
+            'Дикая Италия',
+            'Маленький Кацуки',
+            'XNoodlePlayz',
             'Zaxento The Greedy'
          ],
          [
@@ -387,387 +387,387 @@ export default {
          ],
          [
             '§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§',
-            'My Aster',
-            '§fill=#808080§For being one of the friendliest\npeople I know, the first person\nto believe in my vision, and\ninspiring me to finish the game.§fill=#fff§'
+            'Моя Астор.',
+            '§fill=#808080§За то что ты один из \nсамых приветливых людей которых я знаю,\nверу в моё виденье и вдохновение завершить игру.§fill=#fff§'
          ],
          [
             '§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§',
             'Balgamlı Kedi',
-            "§fill=#808080§For sticking with me at every\nstage of development, right from\nthe start. Regardless of the era,\nhe's always been there to help.§fill=#fff§"
+            "Он всегда там помогает. § fill = # fff §"
          ],
          [
             '§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§',
             'Ghostly',
-            '§fill=#808080§For being a voice of reason when\nit comes to many aspects of the\ngame, and encouraging me to take\ntesting seriously.§fill=#fff§'
+            'Тщательное тестирование. § fill = # fff §'
          ],
          [
             '§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§',
             'Zaxento The Greedy',
-            '§fill=#808080§For being reliable, brutally\nhonest, giving me lots of\ncriticism and ideas, and being\ntrustworthy from the day we met.§fill=#fff§'
+            'С того дня, как мы встретились, мы заслужили доверие. § fill = # fff §'
          ],
          [
             '§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§',
             'ThatGuyWhoLikesFood',
-            '§fill=#808080§For helping me write crucial\nparts of the game, supporting my\nvision, and helping me express\nmyself in a whole new way.§fill=#fff§'
+            'Я по - новому. § fill = # fff §'
          ],
          [
             '§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§',
             'Bilge \"mnwary\"',
-            "§fill=#808080§For being there to help towards\nthe end of development, and\nensuring the game's writing\nreaches its full potential.§fill=#fff§"
+            "Полностью реализовать свой потенциал. § fill = # fff §"
          ],
-         [ 'Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§' ]
+         [ 'От § fill = # ff0 § The Mavis & Co. для вас § fill = # fff §' ]
       ],
 
       final_frontier: {
-         header: '(( CAST ))',
+         header: '((Актерский состав)',
          opponents: {
             froggit: {
-               name: 'FROGGIT',
+               name: '* ФРОГГИТ',
                author: 'Алый чешуйчатый дракон',
                text: {
-                  basic: 'Pondering\nLife',
-                  spare: 'Professional\nFrog',
-                  flirt: 'Pondering\nLove',
-                  bully: 'Hopping In\nFear'
+                  basic: 'Жизнь',
+                  spare: 'Лягушка',
+                  flirt: 'Любовь',
+                  bully: 'Страх'
                }
             },
             whimsun: {
-               name: 'FLUTTERLYTE',
+               name: '* Трепетун',
                author: 'Алый чешуйчатый дракон',
                text: {
-                  basic: 'Learning To\nFly',
-                  spare: 'Emboldening\nAviator',
-                  flirt: 'Searching The\nSkies',
-                  bully: 'Evasively\nManeuvering'
+                  basic: 'Лети.',
+                  spare: 'Пилоты',
+                  flirt: 'Небо',
+                  bully: 'Мобильность'
                }
             },
             moldsmal: {
-               name: 'GELATINI',
+               name: '* желатин',
                author: 'spacey_432',
                text: {
-                  basic: 'Found A New\nSpace Station',
-                  spare: 'Backup\nDancer',
-                  flirt: 'Exotic Jelly\nDancer',
-                  bully: 'Found A New\nGalaxy'
+                  basic: 'Космическая станция',
+                  spare: 'Танцоры',
+                  flirt: 'Танцоры',
+                  bully: 'Галактика'
                }
             },
             loox: {
-               name: 'OCULOUX',
+               name: '* Окулус',
                author: 'Алый чешуйчатый дракон',
                text: {
-                  basic: 'Slightly\nBully-Like',
-                  spare: 'Reformed\nBully',
-                  flirt: 'Slightly\nFlirtatious',
+                  basic: 'Понравилось издеваться',
+                  spare: 'Угрозы',
+                  flirt: 'легкомысленный',
                   bully: ''
                }
             },
             migosp: {
-               name: 'SILENTE',
+               name: '* Силенте',
                author: 'Алый чешуйчатый дракон',
                text: {
-                  basic: 'Exceedingly\nAgreeable',
-                  spare: 'Casually\nEnjoys Life',
-                  flirt: 'In Love From\nAfar',
-                  bully: 'Endangerment\nDenier'
+                  basic: 'Согласен.',
+                  spare: 'Наслаждайтесь жизнью',
+                  flirt: 'Афар',
+                  bully: 'Даниэль.'
                }
             },
             mushy: {
-               name: 'MUSHY',
-               author: 'Balgamlı Kedi & ScarletScaledDragon',
+               name: '* Мушка',
+               author: 'Скачать Balgamlı Kedi & ScarletScaledDragon',
                text: {
-                  basic: 'Shooting\nBlanks',
-                  spare: 'Quick-Draw\nMagician',
-                  flirt: 'Gunshot\nHeart-Throb',
-                  bully: 'Spraying And\nPraying'
+                  basic: 'Одеяло',
+                  spare: 'Волшебник.',
+                  flirt: 'Тромб сердца',
+                  bully: 'Молитва.'
                }
             },
             finalghost: {
-               name: 'LURKSALOT',
+               name: 'ЛУРКСАЛОТ',
                author: 'spacey_432',
                text: {
-                  basic: 'Keeping To\nThemselves',
-                  spare: 'Seeking\nPhysical Contact',
-                  flirt: 'Stoically\nUninvolved',
+                  basic: 'Они сами.',
+                  spare: 'Физический контакт',
+                  flirt: 'Не участвовать',
                   bully: ''
                }
             },
             stardrake: {
-               name: 'STARDRAKE',
+               name: '* Стардрейк',
                author: 'Burge',
                text: {
-                  basic: 'Still Looking\nFor Laughs',
-                  spare: 'Semi-Successful\nComedian',
-                  flirt: 'Popular With The\nGrown-Ups',
+                  basic: 'Для смеха',
+                  spare: 'Комедианты',
+                  flirt: 'Взрослые',
                   bully: ''
                }
             },
             chilldrake: {
-               name: 'CHILLDRAKE',
+               name: '* Чилдрейк',
                author: 'Burge',
                text: {
-                  basic: 'Still Looking\nFor Supporters',
-                  spare: 'Gained A Cult\nFollowing',
-                  flirt: 'Trades Kisses\nFor Supporters',
-                  bully: 'Anti-Bullying\nActivist'
+                  basic: 'Для сторонников',
+                  spare: 'Ниже приводится',
+                  flirt: 'Для сторонников',
+                  bully: 'Активисты'
                }
             },
             spacetop: {
-               name: 'ASTRO SERF',
+               name: '* Астро Серф',
                author: 'DESM.al',
                text: {
-                  basic: 'Thinking About\nIts Antenna',
-                  spare: 'Radio Station\nSensation',
-                  flirt: 'Love Is On\nThe Air',
-                  bully: 'Emergency\nBroadcaster'
+                  basic: 'Его антенна',
+                  spare: 'Чувство',
+                  flirt: 'Воздух',
+                  bully: 'Радиовещательная компания'
                }
             },
             jerry: {
-               name: 'JERRY',
+               name: 'Джерри.',
                author: 'Discarded Vessel',
                text: {
-                  basic: 'Getting Ditched\nOn The Daily',
-                  spare: 'Getting Ditched\nSlightly Less',
-                  flirt: 'On The Road To\nRedemption',
+                  basic: 'The Daily Mail',
+                  spare: 'Немного меньше.',
+                  flirt: 'Выкуп.',
                   bully: ''
                }
             },
             mouse: {
-               name: 'WHIZKARAT',
-               author: 'Zaxento The Greedy & semi',
+               name: '* Визкарат',
+               author: 'Жадность и наполовину',
                text: {
-                  basic: 'Having An\nIdentity Crisis',
-                  spare: 'Newest Member Of\nMouse Society',
-                  flirt: 'Getting Frisky\nWith The Mice',
-                  bully: 'Scurried Back To\nCat Society'
+                  basic: 'Кризис идентичности',
+                  spare: 'Общество крыс',
+                  flirt: '& Мыши',
+                  bully: 'Общество кошек'
                }
             },
             doggo: {
-               name: 'DOGGO',
+               name: '* Догго',
                author: 'Discarded Vessel',
                text: {
-                  basic: 'Believes In The\nAlmighty Wrench',
-                  spare: 'Found His Own\nSeeing-Eye Wolf',
-                  flirt: 'In Love With His\nSeeing-Eye Wolf',
-                  bully: 'Running To His\nSeeing-Eye Wolf'
+                  basic: 'Всемогущий ключ',
+                  spare: 'Увидеть глаза волка',
+                  flirt: 'Увидеть глаза волка',
+                  bully: 'Увидеть глаза волка'
                }
             },
             lesserdog: {
-               name: 'CANIS MINOR',
+               name: '* Малый Пёс',
                author: 'major_memestar',
                text: {
-                  basic: 'Searching For\nAffection',
-                  spare: 'Found A Loving\nOwner',
-                  flirt: 'Found An Owning\nLover',
-                  bully: 'Desperate For\nAffection'
+                  basic: 'Эмоции',
+                  spare: 'Владелец',
+                  flirt: 'Любовник.',
+                  bully: 'Эмоции'
                }
             },
             dogs: {
-               name: 'DOGAMY & DOGARESSA',
+               name: 'Догами и Догареса',
                author: 'major_memestar',
                text: {
-                  basic: 'Still Thinking\nAbout Fetch',
-                  spare: 'Reigning Puppy-Dog\nEyes Champions',
-                  flirt: "Caught In Each-\nOther's Gaze",
-                  bully: 'Defensive Puppy-\nDog Eyes Engaged'
+                  basic: 'О компании Fetch',
+                  spare: 'Чемпион по глазам',
+                  flirt: "Взгляд других",
+                  bully: 'Обручение глаз собаки'
                }
             },
             greatdog: {
-               name: 'CANIS MAJOR',
+               name: '* Большой Пёс',
                author: 'major_memestar',
                text: {
-                  basic: "Unaware Of\nLife's Changes",
-                  spare: "Excited By\nLife's Changes",
-                  flirt: "Touched By\nLife's Changes",
+                  basic: "Жизнь меняется.",
+                  spare: "Жизнь меняется.",
+                  flirt: "Жизнь меняется.",
                   bully: ''
                }
             },
             woshua: {
-               name: 'SKRUBBINGTON',
+               name: '* Скрубингтон',
                author: 'Discarded Vessel',
                text: {
-                  basic: 'Only 99.1\nPercent Clean',
-                  spare: 'Power-Washing\nPowerhouse',
-                  flirt: 'Hot Tub\nManufacturer',
-                  bully: 'Overpowered\nPressure Washer'
+                  basic: 'Процент чистоты',
+                  spare: 'Здание электростанции',
+                  flirt: 'Производитель',
+                  bully: 'стиральная машина высокого давления'
                }
             },
             moldbygg: {
-               name: 'GELATA',
+               name: '* Гелата',
                author: 'spacey_432',
                text: {
-                  basic: 'Looking For A\nBaby Sitter',
-                  spare: 'Slime-Powered\nBarstool',
-                  flirt: 'Sexy Sitcom\nRegular',
-                  bully: 'Glorified\nWrestling Prop'
+                  basic: 'Детская няня',
+                  spare: 'Барный стул',
+                  flirt: 'Обычный',
+                  bully: 'Борьба с опорой'
                }
             },
             radtile: {
-               name: 'RADTILE',
-               author: 'Balgamlı Kedi & Zaxento The Greedy',
+               name: ':: Радиоактивные материалы',
+               author: 'Balgamlı Kedi & Zaxento - Жадность',
                text: {
-                  basic: 'Wallowing In\nImperfection',
-                  spare: 'Improving His\nSelf-Image',
-                  flirt: 'Dating His Own\nReflection',
-                  bully: 'Headed For An\nUgly Future'
+                  basic: 'Несовершенство.',
+                  spare: 'Самообразие',
+                  flirt: 'Размышления',
+                  bully: 'Уродливое будущее'
                }
             },
             shyren: {
-               name: 'SHYREN',
+               name: '* Хирон',
                author: 'Ghostly',
                text: {
-                  basic: 'Back To Taking\nPiano Lessons',
-                  spare: "Mettaton's\nNew Lead Singer",
-                  flirt: 'In Love With\nA Ghost',
-                  bully: "Can't Sing Without\nA Synthesizer"
+                  basic: 'Уроки фортепиано',
+                  spare: "Новый вокалист",
+                  flirt: 'Призрак.',
+                  bully: "Синтезатор"
                }
             },
             doge: {
-               name: 'DOGE',
+               name: '* Щенок',
                author: 'major_memestar',
                text: {
-                  basic: 'Construction Site\nDrill Sergeant',
-                  spare: 'Bought A Lifetime\nSpa Subscription',
-                  flirt: 'Felt Puppy Love\nFor The First Time',
+                  basic: 'Инструкторы',
+                  spare: 'Спа - пакеты',
+                  flirt: 'Впервые',
                   bully: ''
                }
             },
             muffet: {
-               name: 'MUFFET',
+               name: '* Маффины',
                author: 'major_memestar',
                text: {
-                  basic: 'Looking For Her\nNext Payout',
-                  spare: 'Caring For The\nSpider Clans',
-                  flirt: 'Picnic Date\nMatchmaker',
+                  basic: 'Следующий платеж',
+                  spare: 'Пауки',
+                  flirt: 'Лунный старость',
                   bully: ''
                }
             },
             pyrope: {
-               name: 'HOTWIRE',
+               name: '* Горячая линия',
                author: 'полу',
                text: {
-                  basic: 'Waiting For The\nBeat To Drop',
-                  spare: 'Lightning-Fast\nRapper',
-                  flirt: 'Rapper Turned\nLove Song Writer',
-                  bully: 'Rap Battling To\nThe Near-Death'
+                  basic: 'Ударь.',
+                  spare: 'Хищные птицы',
+                  flirt: 'Любовные писатели',
+                  bully: 'На грани смерти'
                }
             },
             tsundere: {
-               name: 'TSUNDERIDEX',
+               name: '* Синдрекс',
                author: 'spacey_432',
                text: {
-                  basic: 'Flying Deeper\nInto Denial',
-                  spare: 'Sneaking Up On\nYou At Warp Speed',
-                  flirt: 'Tsun To Be\nYour Dere-Dere',
-                  bully: 'Finally Met\nIts Match'
+                  basic: 'Отрицание',
+                  spare: 'Ты на кривой скорости.',
+                  flirt: 'Твои права.',
+                  bully: 'Это соревнование.'
                }
             },
             perigee: {
-               name: 'PERIGEE',
+               name: '* Перигей',
                author: 'Discarded Vessel',
                text: {
-                  basic: 'Another Day,\nAnother Conflict',
-                  spare: 'Interplanetary\nAmbassador',
-                  flirt: 'Encouraging Love\nIn Others',
-                  bully: 'Showing Kindness\nThrough The Pain'
+                  basic: 'Еще один конфликт',
+                  spare: 'Посол',
+                  flirt: 'В других',
+                  bully: 'Через боль'
                }
             },
             rg: {
-               name: 'RG 03 & RG 04',
+               name: 'RG 03 и RG 04',
                author: 'полу',
                text: {
-                  basic: 'In Search Of\nChildhood Friends',
-                  spare: 'Use Your\nImagination',
-                  flirt: 'Please Use Your\nImagination',
-                  bully: 'Royal Guard\nRetirees'
+                  basic: 'Друзья детства',
+                  spare: 'Воображение',
+                  flirt: 'Воображение',
+                  bully: 'Пенсионеры'
                }
             },
             glyde: {
-               name: 'GLYDE',
+               name: 'Грэд!',
                author: 'Burge',
                text: {
-                  basic: 'Not Your Ideal\nBusiness Partner',
-                  spare: 'A Little Less\nShady Than Usual',
-                  flirt: 'Not Your Ideal\nBedfellow',
+                  basic: 'Оперативные партнеры',
+                  spare: 'Темнее, чем обычно',
+                  flirt: 'Бедферро',
                   bully: ''
                }
             },
             burgie: {
-               name: 'BURGERPANTS',
+               name: 'Воры.',
                author: 'Pongy25',
                text: {
-                  basic: 'Running Hastily\nAt The Life Ahead',
-                  spare: 'Looking Forward\nTo The Life Ahead',
-                  flirt: 'Finding Love\nIn The Life Ahead',
+                  basic: 'В будущей жизни',
+                  spare: 'Жизнь в будущее',
+                  flirt: 'В будущей жизни',
                   bully: ''
                }
             },
             madjick: {
-               name: 'COZMO',
+               name: '* Козмо',
                author: 'полу',
                text: {
-                  basic: 'Looking For A\nDictionary',
-                  spare: 'Famous\nMagician',
-                  flirt: 'Found A New Kind\nOf Magic',
+                  basic: 'Словарь',
+                  spare: 'Волшебник.',
+                  flirt: 'Магия',
                   bully: ''
                }
             },
             knightknight: {
-               name: 'TERRESTRIA',
+               name: '* Террестрия',
                author: 'major_memestar',
                text: {
-                  basic: 'In Search Of\nThe Past',
-                  spare: 'Renowned\nHistorian',
-                  flirt: 'Has A Crush On\nThe Homeworld',
+                  basic: 'В прошлом.',
+                  spare: 'Историки',
+                  flirt: 'Дом',
                   bully: ''
                }
             },
             froggitex: {
-               name: 'FINAL FROGGIT',
+               name: '* Последняя лягушка',
                author: 'По Зимней границе',
                text: {
-                  basic: 'Keeping Its\nWisdom To Itself',
-                  spare: 'Sharing Its\nWisdom Openly',
-                  flirt: 'Using Its Wisdom\nFor Love',
-                  bully: 'Using Its Wisdom\nFor Survival'
+                  basic: 'Сама мудрость',
+                  spare: 'Мудрость открыто',
+                  flirt: 'Ради любви',
+                  bully: 'Чтобы выжить'
                }
             },
             whimsalot: {
-               name: 'FLUTTERKNYTE',
+               name: '* Флуттеркнит',
                author: 'spacey_432',
                text: {
-                  basic: 'Still Working\nEvery Day',
-                  spare: 'Finally Took\nA Break',
-                  flirt: 'Looking For Some\nPrivate Time',
-                  bully: 'Working Harder\nOut Of Fear'
+                  basic: 'Каждый день.',
+                  spare: 'Отдохни.',
+                  flirt: 'Частное время',
+                  bully: 'Из страха'
                }
             },
             astigmatism: {
-               name: 'EYEWALKER PRIME',
+               name: '* Eyewalker Prime',
                author: 'полу',
                text: {
                   basic: 'Остался\nБольшим задирой',
-                  spare: 'Domineering\nEye Doctor',
-                  flirt: 'Domineering\nLeather Tailor',
-                  bully: 'Overthrown By\nAn Oculoux'
+                  spare: 'Офтальмолог',
+                  flirt: 'Кожаный портной',
+                  bully: 'Глаз дьявола'
                }
             },
             migospel: {
-               name: 'SILENCIO',
+               name: '* Силенсио',
                author: 'Balgamlı Kedi',
                text: {
-                  basic: 'Still A\nShameless Coward',
-                  spare: 'A Little Less Of\nA Coward',
-                  flirt: 'In Love With\nIts Fear',
-                  bully: 'Running Faster\nThan Ever Before'
+                  basic: 'Бесстыдный трус.',
+                  spare: 'Трус.',
+                  flirt: 'Это страх.',
+                  bully: 'Больше, чем когда - либо'
                }
             },
             mushketeer: {
-               name: 'MUSHKETEER',
-               author: 'Balgamlı Kedi & Ghostly',
+               name: ':: Мушкеттер',
+               author: 'Balgamlı Kedi & Призрак',
                text: {
-                  basic: 'One Mushroom\nArmy',
-                  spare: 'Hardened Warrior\nSeeking Peace',
-                  flirt: 'Defeated By The\nPower Of Love',
+                  basic: 'Армия',
+                  spare: 'В поисках мира',
+                  flirt: 'Сила любви.',
                   bully: 'Боится\nСилы'
                }
             }
@@ -779,7 +779,7 @@ export default {
             },
             sans: {
                name: 'САНС',
-               author: 'ProctorDorkchop02 & Fired'
+               author: 'Прокурор Dorkchop02 & уволен'
             },
             undyne: {
                name: 'АНДАЙН',
@@ -822,8 +822,8 @@ export default {
 
       langPrompt: '[↑ или ↓] чтобы Выбрать / [Z или ENTER] чтобы Подтвердить',
       epilepsyInfo:
-         'To whom it may concern,\n\nThis game contains §fill=#ff0§flashing images§fill=#fff§\nwhich may be reduced via the\n§fill=#ff0§settings menu§fill=#fff§.\n\n',
-      epilepsyKeys: '§fill=#808080§Press [Z or ENTER] to Continue',
+         '§ fill = # ff0 § Меню Настройки § fill = # fff §.',
+      epilepsyKeys: '§ fill = # 80080 § Нажмите [Z или ENTER] Продолжить',
 
       quitText1: 'Выходим',
       quitText2: 'Выходим.',

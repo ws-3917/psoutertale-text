@@ -1766,7 +1766,7 @@ msgstr ""
 "Aşkı Arıyor"
 
 msgid "COZMO"
-msgstr ""
+msgstr "COZMO"
 
 msgid ""
 "Looking For A\n"
@@ -1790,7 +1790,7 @@ msgstr ""
 "Sihir Buldu"
 
 msgid "TERRESTRIA"
-msgstr ""
+msgstr "TERRESTRİA"
 
 msgid ""
 "In Search Of\n"
@@ -1814,7 +1814,7 @@ msgstr ""
 "Hoşlanıyor"
 
 msgid "FINAL FROGGIT"
-msgstr ""
+msgstr "SON FROGGİT"
 
 msgid ""
 "Keeping Its\n"
@@ -1845,7 +1845,7 @@ msgstr ""
 "İçin Kullanmakta"
 
 msgid "FLUTTERKNYTE"
-msgstr ""
+msgstr "FLUTTERKNYTE"
 
 msgid ""
 "Still Working\n"
@@ -1876,7 +1876,7 @@ msgstr ""
 "Çok Çalışıyor"
 
 msgid "EYEWALKER PRIME"
-msgstr ""
+msgstr "EYEWALKER PRİME"
 
 msgid ""
 "Still A\n"
@@ -1907,7 +1907,7 @@ msgstr ""
 "Oculoux Geçti"
 
 msgid "SILENCIO"
-msgstr ""
+msgstr "SİLENCİO"
 
 msgid ""
 "Still A\n"
@@ -1938,10 +1938,10 @@ msgstr ""
 "Daha Hızlı Koşuyor"
 
 msgid "MUSHKETEER"
-msgstr ""
+msgstr "MUSHKETEER"
 
 msgid "Balgamlı Kedi & Ghostly"
-msgstr ""
+msgstr "Balgamlı Kedi & Ghostly"
 
 msgid ""
 "One Mushroom\n"
@@ -1972,46 +1972,46 @@ msgstr ""
 "Korkmuş"
 
 msgid "PAPYRUS"
-msgstr ""
+msgstr "PAPYRUS"
 
 msgid "ProctorDorkchop02 & MattSpriteMaster"
-msgstr ""
+msgstr "ProctorDorkchop02 & MattSpriteMaster"
 
 msgid "SANS"
-msgstr ""
+msgstr "SANS"
 
 msgid "ProctorDorkchop02 & Fired"
-msgstr ""
+msgstr "ProctorDorkchop02 & Fired"
 
 msgid "UNDYNE"
-msgstr ""
+msgstr "UNDYNE"
 
 msgid "ALPHYS"
-msgstr ""
+msgstr "ALPHYS"
 
 msgid "MEW MEW"
-msgstr ""
+msgstr "MEW MEW"
 
 msgid "NAPSTABLOOK"
-msgstr ""
+msgstr "NAPSTABLOOK"
 
 msgid "METTATON"
-msgstr ""
+msgstr "METTATON"
 
 msgid "TORIEL"
-msgstr ""
+msgstr "TORİEL"
 
 msgid "ASGORE"
-msgstr ""
+msgstr "ASGORE"
 
 msgid "MONSTER KID"
-msgstr ""
+msgstr "CANAVAR ÇOCUK"
 
 msgid "ASRIEL"
-msgstr ""
+msgstr "ASRİEL"
 
 msgid "Medi0creking & MattSpriteMaster"
-msgstr ""
+msgstr "Medi0creking & MattSpriteMaster"
 
 msgid "[↑ or ↓] to Select / [Z or ENTER] to Confirm"
 msgstr "Seçmek için [↑ veya ↓] / Onaylamak için [Z veya ENTER]"

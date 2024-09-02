@@ -5,15 +5,15 @@ export default {
       death0: [ '(Tomas un respiro profundo.)', "(Estas lleno de determinación.)" ],
       death1: [ 'No puedes rendirte aún...', '$¡(nombre)!\nMantente determinado...' ],
       death2: [ 'Nuestro destino está en tus manos...', '$¡(nombre)!\nMantente determinado...' ],
-      death3: [ "Estarás bien!", '$¡(nombre)!\nMantente determinado...' ],
+      death3: [ "¡Estarás bien!", '$¡(nombre)!\nMantente determinado...' ],
       death4: [ "¡No te rindas!", '$¡(nombre)!\nMantente determinado...' ],
       death5: [ '¡No puede acabar ahora!', '$¡(nombre)!\nMantente determinado...' ],
 
       flee1: '. . . . * Escapaste...',
       flee2: ". . . . * Me largo.",
       flee3: ". . . . * Tengo mejores cosas que hacer.",
-      flee4: ". . . . * No me relentices.",
-      flee5: '. . . . * Huiste con $(x) de EXP\n. . . . . . y $(y) de O.',
+      flee4: ". . . . * No me ralentices.",
+      flee5: '. . . . * Huiste con $(x) de EXP\n. . . . . . y $(y) de G.',
 
       mercy_assist: '* Asistir',
       mercy_flee: '* Huir',
@@ -55,7 +55,7 @@ export default {
                'ResetCaja',
                'ResetMenu',
                'PuedeHuir',
-               'HPInfinita',
+               'PVInfinita',
                'PacificarTodos',
                'Suicidar',
                'DebilitarTodos'
@@ -153,7 +153,7 @@ export default {
             oversaver: 'SobreGuardado',
             parallax: 'Paralax',
             position: 'Posición',
-            primed: 'Primed',
+            primed: 'Imprimado',
             priority: 'Prioridad',
             registry: 'REGISTRAR',
             renderer: 'Renderizar',
@@ -172,7 +172,7 @@ export default {
             sprites: 'Sprites',
             step: 'Paso',
             stroke: 'Golpe',
-            subcrop: 'Subcrop',
+            subcrop: 'Subcultivo',
             talk: 'Hablar',
             target: 'Objetivo',
             text: 'Texto',
@@ -190,20 +190,20 @@ export default {
          tab: 'GUARDARMOD',
          header1: 'GUARDAR EDITOR',
          domains: [
-            'Data (Booleans)',
+            'Info (Estado)',
             'Info (Números)',
-            'Data (Strings)',
-            'Flags (Booleans)',
-            'Flags (Numbers)',
-            'Flags (Strings)'
+            'Info (Texto)',
+            'Banderas (Estado)',
+            'Banderas (Número)',
+            'Banderas (Texto)'
          ],
          p_page: {
             header: 'NAVEGACIÓN',
             prev: 'Anterior',
             next: 'Siguiente'
          },
-         prompt: 'Enter Value',
-         back: 'Back'
+         prompt: 'Introduzca Valor',
+         back: 'Volver'
       },
       storage: {
          tab: 'ALMACENAMIENTO',
@@ -215,26 +215,26 @@ export default {
 
    dialog: {
       dialog_clear_title: 'Limpiar Archivo',
-      dialog_notice_title: 'Notice',
-      dialog_open: { buttonLabel: 'Open', name: 'SAVE files', title: 'Abrir Archivo' },
-      dialog_save: { buttonLabel: 'Guardar', name: 'SAVE files', title: 'Guardar Archivo' },
-      error_load: 'That file could not be parsed.',
-      message_alert: [ 'OK' ],
-      message_confirm: [ 'Cancel', 'OK' ],
-      prompt_clear: 'Clear this file?',
-      prompt_demo: 'Your SAVE file from the\nOUTERTALE demo has been\nmoved to a timeline slot.',
+      dialog_notice_title: 'Aviso',
+      dialog_open: { buttonLabel: 'Abrir', name: 'Archivo de GUARDADO', title: 'Abrir Archivo' },
+      dialog_save: { buttonLabel: 'Guardar', name: 'Archivo de GUARDADO', title: 'Guardar Archivo' },
+      error_load: 'Ese archivo no pudo ser analizado.',
+      message_alert: [ 'Vale' ],
+      message_confirm: [ 'Cancelar', 'Vale' ],
+      prompt_clear: '¿Desea eliminar este archivo?',
+      prompt_demo: 'Su archivo de GUARDADO\nde la demo de OUTERTALE\nse ha movido a una línea temporal.',
       prompt_save: '¿Guardar este archivo?',
-      prompt_save_alternate: 'Copy the text below into\na JSON file to save it\nto your device.',
+      prompt_save_alternate: 'Copia el texto de abajo\nen archivo JSON para\nguardarlo en su dispositivo.',
       prompt_open: '¿Cargar este archivo?'
    },
 
    extra: {
       credits: [
          [
-            '§fill=#ff0§< DEVELOPER >§fill=#fff§',
+            '§fill=#ff0§< DESARROLLADOR >§fill=#fff§',
             'spacey_432',
             '',
-            '§fill=#ff0§< WRITER >§fill=#fff§',
+            '§fill=#ff0§< ESCRITOR >§fill=#fff§',
             'Balgamlı Kedi',
             'Bilge \"mnwary\"',
             'Dischnie',
@@ -248,12 +248,12 @@ export default {
             'Rise'
          ],
          [
-            '§fill=#ff0§< WRITER >§fill=#fff§',
+            '§fill=#ff0§< ESCRITOR >§fill=#fff§',
             'ThatGuyWhoLikesFood',
             'Turbulation',
             'Zaxento The Greedy',
             '',
-            '§fill=#ff0§< ARTIST >§fill=#fff§',
+            '§fill=#ff0§< ARTISTA >§fill=#fff§',
             'Balgamlı Kedi',
             'Burge',
             'Deskius',
@@ -265,7 +265,7 @@ export default {
             'Ghostly'
          ],
          [
-            '§fill=#ff0§< ARTIST >§fill=#fff§',
+            '§fill=#ff0§< ARTISTA >§fill=#fff§',
             'HolyOranges',
             'major_memestar',
             'MattSpriteMaster',
@@ -282,24 +282,24 @@ export default {
             'Starkiteckt'
          ],
          [
-            '§fill=#ff0§< ARTIST >§fill=#fff§',
+            '§fill=#ff0§< ARTISTA >§fill=#fff§',
             'supper12',
             'Valor52',
             'Zaxento The Greedy',
             '',
-            '§fill=#ff0§< TECHNICIAN >§fill=#fff§',
+            '§fill=#ff0§< TECNICISTA >§fill=#fff§',
             'Codetoil',
             'ryi3r',
             'ws3917',
             '',
-            '§fill=#ff0§< TESTER >§fill=#fff§',
+            '§fill=#ff0§< TESTEADOR >§fill=#fff§',
             'Alden',
             'Aspey',
             'Balgamlı Kedi',
             'Bilge \"mnwary\"'
          ],
          [
-            '§fill=#ff0§< TESTER >§fill=#fff§',
+            '§fill=#ff0§< TESTEADOR >§fill=#fff§',
             'blue',
             'Brad',
             'brayjamin',
@@ -316,7 +316,7 @@ export default {
             'Fired'
          ],
          [
-            '§fill=#ff0§< TESTER >§fill=#fff§',
+            '§fill=#ff0§< TESTEADOR >§fill=#fff§',
             'FireWizard72X',
             'FuLiNT',
             'Funtermore',
@@ -333,7 +333,7 @@ export default {
             'Jonkler'
          ],
          [
-            '§fill=#ff0§< TESTER >§fill=#fff§',
+            '§fill=#ff0§< TESTEADOR >§fill=#fff§',
             'Kiwi \"Quinn\"',
             'lil tanski',
             'MR. PETER',
@@ -350,7 +350,7 @@ export default {
             'petar3644'
          ],
          [
-            '§fill=#ff0§< TESTER >§fill=#fff§',
+            '§fill=#ff0§< TESTEADOR >§fill=#fff§',
             'PixelToons Jaafar',
             'Prezmop',
             'prymus-agd',
@@ -367,7 +367,7 @@ export default {
             'superkippy'
          ],
          [
-            '§fill=#ff0§< TESTER >§fill=#fff§',
+            '§fill=#ff0§< TESTEADOR >§fill=#fff§',
             'Teecup',
             'Tem in a Cowboy Hat',
             'Tenbrooks',
@@ -381,41 +381,41 @@ export default {
             'Zaxento The Greedy'
          ],
          [
-            '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+            '§fill=#ff0§< GRACIAS ESPECIALES >§fill=#fff§',
             'Alden',
-            '§fill=#808080§For being there for me when I\nneed someone to lean on, and\nteaching me life lessons that\nhave made me a better person.§fill=#fff§'
+            '§fill=#808080§Por estar ahí por mí cuando\nnecesitaba alguien para apoyarme, y\nenseñarme lecciones de vida que\nme han hecho una mejor persona.§fill=#fff§'
          ],
          [
-            '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+            '§fill=#ff0§< GRACIAS ESPECIALES >§fill=#fff§',
             'My Aster',
-            '§fill=#808080§For being one of the friendliest\npeople I know, the first person\nto believe in my vision, and\ninspiring me to finish the game.§fill=#fff§'
+            '§fill=#808080§Por ser una de las personas\nmás amigables que conozco, la primera persona\nen cree en mi visión, e\ninspirarme en terminar el juego.§fill=#fff§'
          ],
          [
-            '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+            '§fill=#ff0§< GRACIAS ESPECIALES >§fill=#fff§',
             'Balgamlı Kedi',
-            "§fill=#808080§For sticking with me at every\nstage of development, right from\nthe start. Regardless of the era,\nhe's always been there to help.§fill=#fff§"
+            "§fill=#808080§Por estar conmigo en cualquier etapa de desarrollo,\n desde el inicio.\n Independientemente de la etapa,\n siempre ha estado ahí para ayudar.§fill=#fff§"
          ],
          [
-            '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+            '§fill=#ff0§< GRACIAS ESPECIALES >§fill=#fff§',
             'Ghostly',
-            '§fill=#808080§For being a voice of reason when\nit comes to many aspects of the\ngame, and encouraging me to take\ntesting seriously.§fill=#fff§'
+            '§fill=#808080§Por ser una voz razonante\nen muchos aspectos del juego,\n y por hacerme testear seriamente.§fill=#fff§'
          ],
          [
-            '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+            '§fill=#ff0§< GRACIAS ESPECIALES >§fill=#fff§',
             'Zaxento The Greedy',
-            '§fill=#808080§For being reliable, brutally\nhonest, giving me lots of\ncriticism and ideas, and being\ntrustworthy from the day we met.§fill=#fff§'
+            '§fill=#808080§Por ser confiable, brutalmente\nhonesto, darme mucha crítica\ne ideas, y ser\nconfiable desde que nos conocimos.§fill=#fff§'
          ],
          [
-            '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+            '§fill=#ff0§< GRACIAS ESPECIALES >§fill=#fff§',
             'ThatGuyWhoLikesFood',
-            '§fill=#808080§For helping me write crucial\nparts of the game, supporting my\nvision, and helping me express\nmyself in a whole new way.§fill=#fff§'
+            '§fill=#808080§Por ayudarme a escribir partes\nimportantes del juego, apoyando mi\nvisión, y ayudarme a\nexpresarme de una nueva manera.§fill=#fff§'
          ],
          [
-            '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+            '§fill=#ff0§< GRACIAS ESPECIALES >§fill=#fff§',
             'Bilge \"mnwary\"',
-            "§fill=#808080§For being there to help towards\nthe end of development, and\nensuring the game's writing\nreaches its full potential.§fill=#fff§"
+            "§fill=#808080§Por estar ahí para ayudar al\nfinal del desarrollo, y\nasegurando que la escritura del juego\nllegue a su potencial máximo.§fill=#fff§"
          ],
-         [ 'Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§' ]
+         [ 'Traído a usted por §fill=#ff0§The Mavis & Co.§fill=#fff§' ]
       ],
 
       final_frontier: {
@@ -425,39 +425,39 @@ export default {
                name: 'FROGGIT',
                author: 'ScarletScaledDragon',
                text: {
-                  basic: 'Pondering\nLife',
-                  spare: 'Professional\nFrog',
-                  flirt: 'Pondering\nLove',
-                  bully: 'Hopping In\nFear'
+                  basic: 'Reflexionando Sobre\nLa Vida',
+                  spare: 'Rana\n Profesional',
+                  flirt: 'Reflexionando Sobre\nEl Amor',
+                  bully: 'Deseando Con\n Miedo'
                }
             },
             whimsun: {
                name: 'FLUTTERLYTE',
                author: 'ScarletScaledDragon',
                text: {
-                  basic: 'Learning To\nFly',
-                  spare: 'Emboldening\nAviator',
-                  flirt: 'Searching The\nSkies',
-                  bully: 'Evasively\nManeuvering'
+                  basic: 'Aprendiendo A\nVolar',
+                  spare: 'Aviador\nValiente',
+                  flirt: 'Surcando Los\nCielos',
+                  bully: 'Maniobrando\nEvasivamente'
                }
             },
             moldsmal: {
                name: 'GELATINI',
                author: 'spacey_432',
                text: {
-                  basic: 'Found A New\nSpace Station',
-                  spare: 'Backup\nDancer',
-                  flirt: 'Exotic Jelly\nDancer',
-                  bully: 'Found A New\nGalaxy'
+                  basic: 'Encontró Una Nueva\nEstación Espacial',
+                  spare: 'Bailarín/a\nDe Repuesto',
+                  flirt: 'Gelatina Exótica\nBailadora',
+                  bully: 'Encontró Una Nueva\nGalaxia'
                }
             },
             loox: {
                name: 'OCULOUX',
                author: 'ScarletScaledDragon',
                text: {
-                  basic: 'Slightly\nBully-Like',
-                  spare: 'Reformed\nBully',
-                  flirt: 'Slightly\nFlirtatious',
+                  basic: 'Un Poco\nBully',
+                  spare: 'Bully\nReformado',
+                  flirt: 'Un Poco\nCoqueto',
                   bully: ''
                }
             },
@@ -465,29 +465,29 @@ export default {
                name: 'SILENTE',
                author: 'ScarletScaledDragon',
                text: {
-                  basic: 'Exceedingly\nAgreeable',
-                  spare: 'Casually\nEnjoys Life',
-                  flirt: 'In Love From\nAfar',
-                  bully: 'Endangerment\nDenier'
+                  basic: 'Excesivamente\nAcordante',
+                  spare: 'Disfruta De La Vida\nCasualmente',
+                  flirt: 'Enamorado\nDe Lejos',
+                  bully: 'Negador\nDel Peligro'
                }
             },
             mushy: {
                name: 'MUSHY',
                author: 'Balgamlı Kedi & ScarletScaledDragon',
                text: {
-                  basic: 'Shooting\nBlanks',
-                  spare: 'Quick-Draw\nMagician',
-                  flirt: 'Gunshot\nHeart-Throb',
-                  bully: 'Spraying And\nPraying'
+                  basic: 'Disparando\nA Dianas',
+                  spare: 'Mago\nRápido',
+                  flirt: 'Disparo De La \nPistola Rompecorazones',
+                  bully: 'Rociando y\nRezando'
                }
             },
             finalghost: {
                name: 'LURKSALOT',
                author: 'spacey_432',
                text: {
-                  basic: 'Keeping To\nThemselves',
-                  spare: 'Seeking\nPhysical Contact',
-                  flirt: 'Stoically\nUninvolved',
+                  basic: 'Quedándoselo\nPara Él',
+                  spare: 'Buscando\nContacto Físico',
+                  flirt: 'No Involucrado\nEstoicamente',
                   bully: ''
                }
             },
@@ -495,9 +495,9 @@ export default {
                name: 'STARDRAKE',
                author: 'Burge',
                text: {
-                  basic: 'Still Looking\nFor Laughs',
-                  spare: 'Semi-Successful\nComedian',
-                  flirt: 'Popular With The\nGrown-Ups',
+                  basic: 'Aún Buscando\nRisas',
+                  spare: 'Comediante\nMedio Exitoso',
+                  flirt: 'Popular Con Los\nAdultos',
                   bully: ''
                }
             },
@@ -505,29 +505,29 @@ export default {
                name: 'CHILLDRAKE',
                author: 'Burge',
                text: {
-                  basic: 'Still Looking\nFor Supporters',
-                  spare: 'Gained A Cult\nFollowing',
-                  flirt: 'Trades Kisses\nFor Supporters',
-                  bully: 'Anti-Bullying\nActivist'
+                  basic: 'Aún Buscando\nAyudantes',
+                  spare: 'Consiguió Un\nCulto',
+                  flirt: 'Cambia Besos\nPor Ayudantes',
+                  bully: 'Activista\nAnti-Acoso'
                }
             },
             spacetop: {
                name: 'ASTRO SERF',
                author: 'DESM.al',
                text: {
-                  basic: 'Thinking About\nIts Antenna',
-                  spare: 'Radio Station\nSensation',
-                  flirt: 'Love Is On\nThe Air',
-                  bully: 'Emergency\nBroadcaster'
+                  basic: 'Pensando Sobre\nSu Antena',
+                  spare: 'Sensación Sobre\nUna Estación De Radio',
+                  flirt: 'Amor Está\nEn El Aire',
+                  bully: 'Locutor De\nEmergencias'
                }
             },
             jerry: {
                name: 'JERRY',
                author: 'Discarded Vessel',
                text: {
-                  basic: 'Getting Ditched\nOn The Daily',
-                  spare: 'Getting Ditched\nSlightly Less',
-                  flirt: 'On The Road To\nRedemption',
+                  basic: 'Siendo Abandonado\nDiariamente',
+                  spare: 'Siendo Abandonado\nUn Poco Menos',
+                  flirt: 'En Camino A\nRedención',
                   bully: ''
                }
             },
@@ -535,49 +535,49 @@ export default {
                name: 'WHIZKARAT',
                author: 'Zaxento The Greedy & semi',
                text: {
-                  basic: 'Having An\nIdentity Crisis',
-                  spare: 'Newest Member Of\nMouse Society',
-                  flirt: 'Getting Frisky\nWith The Mice',
-                  bully: 'Scurried Back To\nCat Society'
+                  basic: 'Teniendo Una\nCrisis de Identidad',
+                  spare: 'El Nuevo Miembro\nDe Los Ratones',
+                  flirt: 'Volviéndose Retozón\nCon Los Ratones',
+                  bully: 'Echado De Vuelta\nA La Sociedad Gatuna'
                }
             },
             doggo: {
                name: 'DOGGO',
                author: 'Discarded Vessel',
                text: {
-                  basic: 'Believes In The\nAlmighty Wrench',
-                  spare: 'Found His Own\nSeeing-Eye Wolf',
-                  flirt: 'In Love With His\nSeeing-Eye Wolf',
-                  bully: 'Running To His\nSeeing-Eye Wolf'
+                  basic: 'Cree En La\nLlave Inglesa Suprema',
+                  spare: 'Encontró Su Propio\nLobo De Ojos Videntes',
+                  flirt: 'En Amor Con Su\nLobo De Ojos Videntes',
+                  bully: 'Corriendo A Su\nLobo De Ojos Videntes'
                }
             },
             lesserdog: {
-               name: 'CANIS MINOR',
+               name: 'CANINO MENOR',
                author: 'major_memestar',
                text: {
-                  basic: 'Searching For\nAffection',
-                  spare: 'Found A Loving\nOwner',
-                  flirt: 'Found An Owning\nLover',
-                  bully: 'Desperate For\nAffection'
+                  basic: 'Buscando\nAfecto',
+                  spare: 'Encontró Un Dueño\nAmante',
+                  flirt: 'Encontró Amor\nPropio',
+                  bully: 'Desesperado Por\nAfecto'
                }
             },
             dogs: {
                name: 'DOGAMY & DOGARESSA',
                author: 'major_memestar',
                text: {
-                  basic: 'Still Thinking\nAbout Fetch',
-                  spare: 'Reigning Puppy-Dog\nEyes Champions',
-                  flirt: "Caught In Each-\nOther's Gaze",
-                  bully: 'Defensive Puppy-\nDog Eyes Engaged'
+                  basic: 'Aún Pensando\nSobre Buscar',
+                  spare: 'Reinante Ojos De\nPerros Campeones',
+                  flirt: "Atrapado En La\nMirada Del Otro",
+                  bully: 'Ojos De Perro\nDefensivo Comprometido'
                }
             },
             greatdog: {
-               name: 'CANIS MAJOR',
+               name: 'CANINO MAYOR',
                author: 'major_memestar',
                text: {
-                  basic: "Unaware Of\nLife's Changes",
-                  spare: "Excited By\nLife's Changes",
-                  flirt: "Touched By\nLife's Changes",
+                  basic: "Inconsciente De Los\nCambios De La Vida",
+                  spare: "Emocionado De Los\nCambios De La Vida",
+                  flirt: "Afectado Por\nLos Cambios De La Vida",
                   bully: ''
                }
             },
@@ -585,49 +585,49 @@ export default {
                name: 'SKRUBBINGTON',
                author: 'Discarded Vessel',
                text: {
-                  basic: 'Only 99.1\nPercent Clean',
-                  spare: 'Power-Washing\nPowerhouse',
-                  flirt: 'Hot Tub\nManufacturer',
-                  bully: 'Overpowered\nPressure Washer'
+                  basic: 'Solo 99.1%\nLimpio',
+                  spare: 'Central De\nLavado',
+                  flirt: 'Fabricante De \nJacuzzis',
+                  bully: 'Sobre Poderosa\nMáquina De Presión'
                }
             },
             moldbygg: {
                name: 'GELATA',
                author: 'spacey_432',
                text: {
-                  basic: 'Looking For A\nBaby Sitter',
-                  spare: 'Slime-Powered\nBarstool',
-                  flirt: 'Sexy Sitcom\nRegular',
-                  bully: 'Glorified\nWrestling Prop'
+                  basic: 'Buscando Una\nNiñera',
+                  spare: 'Taburete Con\nMotor Slime',
+                  flirt: 'Comediante Regular\nSexy',
+                  bully: 'Objeto De Lucha\nLibre Glorificado'
                }
             },
             radtile: {
                name: 'RADTILE',
                author: 'Balgamlı Kedi & Zaxento The Greedy',
                text: {
-                  basic: 'Wallowing In\nImperfection',
-                  spare: 'Improving His\nSelf-Image',
-                  flirt: 'Dating His Own\nReflection',
-                  bully: 'Headed For An\nUgly Future'
+                  basic: 'Revolcándose En\nImperfecciones',
+                  spare: 'Mejorando Su\nImagen Personal',
+                  flirt: 'Teniendo Citas Con\nSu Reflejo',
+                  bully: 'Preparado Por El\nFeo Futuro'
                }
             },
             shyren: {
                name: 'SHYREN',
                author: 'Ghostly',
                text: {
-                  basic: 'Back To Taking\nPiano Lessons',
-                  spare: "Mettaton's\nNew Lead Singer",
-                  flirt: 'In Love With\nA Ghost',
-                  bully: "Can't Sing Without\nA Synthesizer"
+                  basic: 'Volviendo A Tener\nClases De Piano',
+                  spare: "La Nueva Cantante Principal\nDe Mettaton",
+                  flirt: 'Enamorada De Un Fantasma',
+                  bully: "No Puede Cantar Sin\nUn Sintetizador"
                }
             },
             doge: {
                name: 'DOGE',
                author: 'major_memestar',
                text: {
-                  basic: 'Construction Site\nDrill Sergeant',
-                  spare: 'Bought A Lifetime\nSpa Subscription',
-                  flirt: 'Felt Puppy Love\nFor The First Time',
+                  basic: 'Sargento Excavadora\nDe Lugar De Construcción',
+                  spare: 'Compró Una Subscripción\nA Spa De Por Vida',
+                  flirt: 'Sintió Amor Perruno\nPor La Primera Vez',
                   bully: ''
                }
             },
@@ -635,9 +635,9 @@ export default {
                name: 'MUFFET',
                author: 'major_memestar',
                text: {
-                  basic: 'Looking For Her\nNext Payout',
-                  spare: 'Caring For The\nSpider Clans',
-                  flirt: 'Picnic Date\nMatchmaker',
+                  basic: 'Buscando Su\nSiguiente Paga',
+                  spare: 'Cuidando De\nLos Clanes De Arañas',
+                  flirt: 'Cita De Picnic\nProfesional',
                   bully: ''
                }
             },
@@ -645,49 +645,49 @@ export default {
                name: 'HOTWIRE',
                author: 'semi',
                text: {
-                  basic: 'Waiting For The\nBeat To Drop',
-                  spare: 'Lightning-Fast\nRapper',
-                  flirt: 'Rapper Turned\nLove Song Writer',
-                  bully: 'Rap Battling To\nThe Near-Death'
+                  basic: 'Esperando A Que\nBaje El Ritmo',
+                  spare: 'Rapeador\nVelocidad-Rayo',
+                  flirt: 'Rapero Convertido\nEscritor De Canciones De Amor',
+                  bully: 'Batallando Con Rap\nHasta La Muerte'
                }
             },
             tsundere: {
                name: 'TSUNDERIDEX',
                author: 'spacey_432',
                text: {
-                  basic: 'Flying Deeper\nInto Denial',
-                  spare: 'Sneaking Up On\nYou At Warp Speed',
-                  flirt: 'Tsun To Be\nYour Dere-Dere',
-                  bully: 'Finally Met\nIts Match'
+                  basic: 'Volando Profundamente\nEn Negación',
+                  spare: 'Acercándose A Ti\nA Velocidad De Transformación',
+                  flirt: 'Pronto será\nTu-sn Dere-Dere',
+                  bully: 'Finalmente Encontró\nSu Pareja'
                }
             },
             perigee: {
                name: 'PERIGEE',
                author: 'Discarded Vessel',
                text: {
-                  basic: 'Another Day,\nAnother Conflict',
-                  spare: 'Interplanetary\nAmbassador',
-                  flirt: 'Encouraging Love\nIn Others',
-                  bully: 'Showing Kindness\nThrough The Pain'
+                  basic: 'Otro Día,\nOtro Conflicto',
+                  spare: 'Embajador\nInterplanetario',
+                  flirt: 'Fomentando Amor\nEn Otros',
+                  bully: 'Mostrando Amabilidad\nA Través Del Dolor'
                }
             },
             rg: {
-               name: 'RG 03 & RG 04',
+               name: 'GR 03 & GR 04',
                author: 'semi',
                text: {
-                  basic: 'In Search Of\nChildhood Friends',
-                  spare: 'Use Your\nImagination',
-                  flirt: 'Please Use Your\nImagination',
-                  bully: 'Royal Guard\nRetirees'
+                  basic: 'En Busca De\nAmigos De La Infancia',
+                  spare: 'Usa Tu\nImaginación',
+                  flirt: 'Por Favor Usa Tu\nImaginación',
+                  bully: 'Retirados De La\nGuardia Real'
                }
             },
             glyde: {
                name: 'GLYDE',
                author: 'Burge',
                text: {
-                  basic: 'Not Your Ideal\nBusiness Partner',
-                  spare: 'A Little Less\nShady Than Usual',
-                  flirt: 'Not Your Ideal\nBedfellow',
+                  basic: 'No Tu Compañero\nDe Trabajo Ideal',
+                  spare: 'Un Poco Menos\nOscuro De Lo Usual',
+                  flirt: 'No Tu Compañero De Cama\nIdeal',
                   bully: ''
                }
             },
@@ -695,9 +695,9 @@ export default {
                name: 'BURGERPANTS',
                author: 'Pongy25',
                text: {
-                  basic: 'Running Hastily\nAt The Life Ahead',
-                  spare: 'Looking Forward\nTo The Life Ahead',
-                  flirt: 'Finding Love\nIn The Life Ahead',
+                  basic: 'Corriendo Precipitadamente\nA La Vida',
+                  spare: 'Mirando Adelante\nA Lo Que Le Viene En La Vida',
+                  flirt: 'Buscando Amor\nEn Lo Que Le Viene En La Vida',
                   bully: ''
                }
             },
@@ -705,9 +705,9 @@ export default {
                name: 'COZMO',
                author: 'semi',
                text: {
-                  basic: 'Looking For A\nDictionary',
-                  spare: 'Famous\nMagician',
-                  flirt: 'Found A New Kind\nOf Magic',
+                  basic: 'Buscando Un\nDiccionario',
+                  spare: 'Mago\nFamoso',
+                  flirt: 'Encontró Un Nuevo Tipo\nDe Magia',
                   bully: ''
                }
             },
@@ -715,60 +715,60 @@ export default {
                name: 'TERRESTRIA',
                author: 'major_memestar',
                text: {
-                  basic: 'In Search Of\nThe Past',
-                  spare: 'Renowned\nHistorian',
-                  flirt: 'Has A Crush On\nThe Homeworld',
+                  basic: 'En Busca Del\nPasado',
+                  spare: 'Historiador\nRenombrado',
+                  flirt: 'Está Enamorada Del\nMundo Natal',
                   bully: ''
                }
             },
             froggitex: {
-               name: 'FINAL FROGGIT',
+               name: 'FROGGIT FINAL',
                author: 'PoTheWinterCorder',
                text: {
-                  basic: 'Keeping Its\nWisdom To Itself',
-                  spare: 'Sharing Its\nWisdom Openly',
-                  flirt: 'Using Its Wisdom\nFor Love',
-                  bully: 'Using Its Wisdom\nFor Survival'
+                  basic: 'Quedándose Su\nSabiduría Para Él',
+                  spare: 'Compartiendo Su\nSabiduría Abiertamente',
+                  flirt: 'Usando Su Sabiduría\nPara El Amor',
+                  bully: 'Usando Su Sabiduría\nPara Sobrevivir'
                }
             },
             whimsalot: {
                name: 'FLUTTERKNYTE',
                author: 'spacey_432',
                text: {
-                  basic: 'Still Working\nEvery Day',
-                  spare: 'Finally Took\nA Break',
-                  flirt: 'Looking For Some\nPrivate Time',
-                  bully: 'Working Harder\nOut Of Fear'
+                  basic: 'Aún Trabajando\nTodos Los Días',
+                  spare: 'Finalmente Se Tomó\nUn Descanso',
+                  flirt: 'Buscando Tiempo\nA Solas',
+                  bully: 'Trabajando Más Duro\nPor Miedo'
                }
             },
             astigmatism: {
                name: 'EYEWALKER PRIME',
                author: 'semi',
                text: {
-                  basic: 'Still A\nBig Bully',
-                  spare: 'Domineering\nEye Doctor',
-                  flirt: 'Domineering\nLeather Tailor',
-                  bully: 'Overthrown By\nAn Oculoux'
+                  basic: 'Aún Un\nGran Acosador',
+                  spare: 'Dominador\nDoctor De Ojos',
+                  flirt: 'Sastre De Cuero\nDominante',
+                  bully: 'Derrocado Por\nUn Oculoux'
                }
             },
             migospel: {
                name: 'SILENCIO',
                author: 'Balgamlı Kedi',
                text: {
-                  basic: 'Still A\nShameless Coward',
-                  spare: 'A Little Less Of\nA Coward',
-                  flirt: 'In Love With\nIts Fear',
-                  bully: 'Running Faster\nThan Ever Before'
+                  basic: 'Aún Un\nCobarde Desvergonzado',
+                  spare: 'Un Poco Menos\nCobarde',
+                  flirt: 'Enamorado De\nSu Miedo',
+                  bully: 'Corriendo Más Rápido\nQue Nunca Antes'
                }
             },
             mushketeer: {
                name: 'MUSHKETEER',
                author: 'Balgamlı Kedi & Ghostly',
                text: {
-                  basic: 'One Mushroom\nArmy',
-                  spare: 'Hardened Warrior\nSeeking Peace',
-                  flirt: 'Defeated By The\nPower Of Love',
-                  bully: 'Scared\nStraight'
+                  basic: 'Un Ejército De\nChampiñones',
+                  spare: 'Guerrero Endurecido\nBuscando Paz',
+                  flirt: 'Derrotado Por El\nPoder Del Amor',
+                  bully: 'Miedo A\nLa Fuerza'
                }
             }
          },
@@ -820,87 +820,87 @@ export default {
          }
       },
 
-      langPrompt: '[↑ or ↓] to Select / [Z or ENTER] to Confirm',
+      langPrompt: '[↑ o ↓] para Elegir / [Z o INTRO] para Confirmar',
       epilepsyInfo:
-         'To whom it may concern,\n\nThis game contains §fill=#ff0§flashing images§fill=#fff§\nwhich may be reduced via the\n§fill=#ff0§settings menu§fill=#fff§.\n\n',
-      epilepsyKeys: '§fill=#808080§Press [Z or ENTER] to Continue',
+         'Para el que le preocupe,\n\nEste juego contiene §fill=#ff0§luces parpadeantes§fill=#fff§\nque podrán ser reducidas mediante el\n§fill=#ff0§menú de opciones§fill=#fff§.\n',
+      epilepsyKeys: '§fill=#808080§Presiona [Z o INTRO] para Continuar',
 
-      quitText1: 'Quitting',
-      quitText2: 'Quitting.',
-      quitText3: 'Quitting..',
+      quitText1: 'Saliendo',
+      quitText2: 'Saliendo.',
+      quitText3: 'Saliendo..',
 
       real1: [
          [
-            'Thank you for playing Outertale.',
-            'Working on this project has been an honor,',
-            'and a pleasure on my part.'
+            'Gracias por jugar Outertale.',
+            'Trabajar en este proyecto a sido un honor,',
+            'y un placer de mi parte.'
          ],
-         [ 'When I started this journey, I never', "thought I'd get this far, but here we", 'are anyway, at the end.' ],
+         [ 'Cuando empecé esta aventura, nunca', "pensé que llegaría tan lejos, pero aquí", 'estamos de todas formas, al final.' ],
          [
-            'For me, UNDERTALE was a life-changing',
-            'experience, and one that was very hard to',
-            'let go of after I first played it.'
-         ],
-         [
-            'So, with OUTERTALE, I wanted to give you',
-            'another chance to exist in a world like it,',
-            'as if it were your first time.'
+            'Para mí, UNDERTALE fue una experiencia',
+            'que me cambió la vida, y una que fue muy difícil',
+            'dejar pasar después de jugarlo por primera vez.'
          ],
          [
-            "I hope I've given you that chance.",
-            "I hope you've come away satisfied with",
-            "the time you've spent in this world."
+            'Entonces, con OUTERTALE, quería darte',
+            'otra oportunidad de existir en un mundo como aquel,',
+            'como si fuera tu primera vez.'
          ],
          [
-            "No matter what you've done in your life,",
-            'your actions here speak volumes about the',
-            'kind of person you really are.'
+            "Espero que haberte dado esa oportunidad.",
+            "Espero que estés satisfecho con",
+            "el rato que has pasado en este mundo."
          ],
          [
-            "It's because of you that you got the ending",
-            'you did, and nothing can take that',
-            'experience away from you.'
+            "Sin importar lo que hayas hecho en tu vida,",
+            'tus acciones aquí hablan sobre',
+            'el tipo de persona que eres en realidad.'
          ],
-         [ 'Despite your mistakes... you are awesome,', 'and you deserve love and attention.', 'Remember that, okay?' ]
+         [
+            "Es gracias a ti que conseguiste el final",
+            'que tu hiciste, y nada puede quitarte esa',
+            'experiencia de ti.'
+         ],
+         [ 'A pesar de tus errores... eres increíble,', 'y mereces amor y atención.', '¿Recuérdalo, vale?' ]
       ],
-      real2: 'Take care of yourself, \"$(x).\"',
+      real2: 'Cuida de ti, \"$(x).\"',
 
-      end1: 'THE END',
-      end2: 'THE END...?',
+      end1: 'FIN',
+      end2: '¿FIN...?',
 
-      restartText1: 'Restarting',
-      restartText2: 'Restarting.',
-      restartText3: 'Restarting..',
+      restartText1: 'Reiniciando',
+      restartText2: 'Reiniciando.',
+      restartText3: 'Reiniciando..',
 
       title: 'OUTERTALE',
-      title_timeline: 'OUTERTALE...?'
+      title_timeline: '¿OUTERTALE...?'
    },
 
    gamepad: {
-      prompt: 'GAMEPAD SETUP',
+      prompt: 'CONFIGURACIÓN DEL MANDO',
       prompt_desc:
-         'Use an input on your gamepad to assign\nit to the in-game action.\n\nUse the input again to confirm, or use\nother inputs to assign those as well.\n\nPress ESC to skip setup.',
-      prompt_counter: 'Inputs Assigned: $(x)',
-      z: '[Z or ENTER] - Confirm',
-      x: '[X or SHIFT] - Cancel',
-      c: '[C or CTRL] - Menu (In-game)',
+         'Pulsa un botón del mando para asignarlo\na la acción del juego.\n\nPulsa el botón otra vez para confirmar, o pulsa\notros botones para asignar la misma acción.\n\nPulsa ESC para saltarte la configuración.',
+      prompt_counter: 'Botones Asignados: $(x)',
+      z: '[Z o INTRO] - Confirmar',
+      x: '[X o SHIFT] - Cancelar',
+      c: '[C o CTRL] - Menú (En el juego)',
       u: '[FLECHA ARRIBA o W] - Moverte hacia Arriba',
       l: '[FLECHA IZQUIERDA o A] - Moverte hacia la izquierda',
       d: '[FLECHA ABAJO o S] - Moverte hacia abajo',
       r: '[FLECHA DERECHA o D] - Moverte hacia la derecha',
       f: '[F4] - Pantalla Completa',
-      prompt_done: 'Setup complete.\nPress any button to continue.',
-      prompt_done_browser: '\nNote: On this platform, the gamepad may\nnot always be able to enter fullscreen.',
+      prompt_done: 'Configuración completada.\nPulsa cualquier botón para continuar.',
+      prompt_done_browser: '\nNota: En esta plataforma, puede que el mando\nno pueda entrar pantalla completa.',
       prompt_load:
-         'A gamepad has already been set up.\nPress any button to continue, or press\nany button three times in rapid\nsuccession to restart setup.\n\nPress ESC to skip setup.'
+         'Un mando ya se ha configurado\nPulsa un botón para continuar, o pulsa\ncualquier botón 3 veces seguidas para reiniciar la configuración.\n\nPulsa ESC para saltarte la configuración.'
    },
 
    general: {
       asriel: 'Asriel',
-      asriel_location: 'The Oblivion',
-      disabled: 'DISABLED',
-      enabled: 'ENABLED',
-      finish: 'Press [X] to Finish',
+      asriel_location: 'El Olvido',
+      disabled: 'DESACTIVADO',
+      enabled: 'ACTIVADO',
+      finish: 'Pulsa [X] para Terminar.',
       frisk: 'Frisk',
       g: 'G',
       hp: 'PS',
@@ -914,17 +914,17 @@ export default {
       no: 'No',
       nominal: '§fill=#0f0§NOMINAL',
       percent: '$(x)%',
-      player: 'player',
+      player: 'jugador',
       settings: 'Ajustes',
       unknown: '?',
-      xm: 'XM',
+      xm: 'ME',
       yes: 'Si'
    },
 
    menu: {
       box1: 'INVENTARIO',
       box2: 'CAJA',
-      key1: 'KEYRING',
+      key1: 'LLAVERO',
 
       confirm1: '¿Es este nombre correcto?',
       confirm2: 'Un nombre ya ha sido\nescogido.',
@@ -932,11 +932,11 @@ export default {
 
       footer: 'OUTERTALE V5.02 (c) 2024 SPACEY_432',
 
-      heal1: '* (HP fully restored.)',
-      heal2: '* (You recovered $(x) HP.)',
-      heal3: '* (You lost $(x) HP.)',
-      heal4: '* (HP fully depleted.)',
-      heal5: '* (You gained $(x) HP.)',
+      heal1: '* (PV restaurados.)',
+      heal2: '* (Has recuperado $(x) PV.)',
+      heal3: '* (Has perdido $(x) PV.)',
+      heal4: '* (PV agotados.)',
+      heal5: '* (Has ganado $(x) PV.)',
 
       item1: 'USAR',
       item2: 'EQUIPAR',
@@ -948,11 +948,11 @@ export default {
       load3: 'Reiniciar',
       load4: 'Reinicio Real',
 
-      name1: 'Name the stranded human.',
-      name2: 'Quit',
-      name3: 'Backspace',
-      name4: 'Done',
-      name5: '§fill=#808080§ [ESC] - Quit / [ENTER] - Done',
+      name1: 'Nombra el humano estrellado.',
+      name2: 'Salir',
+      name3: 'Eliminar',
+      name4: 'Listo',
+      name5: '§fill=#808080§ [ESC] - Salir / [INTRO] - Listo',
 
       save1: 'Guardar',
       save2: 'Regresar',
@@ -962,77 +962,77 @@ export default {
       settings2: 'SALIR',
       settings3: 'IDIOMA',
       settings3a: 'ESPAÑOL',
-      settings4: 'SOUND FX',
+      settings4: 'EFECTOS DE SONIDO',
       settings5: 'MÚSICA',
-      settings6: 'FANCY GRAPHICS',
-      settings7: 'FLASHING IMAGERY',
+      settings6: 'GRÁFICOS ELEGANTES',
+      settings7: 'LUCES PARPADEANTES',
       settings7a: 'NORMAL',
-      settings7b: 'REDUCED',
-      settings8: 'TOUCH CONTROLS',
+      settings7b: 'REDUCIDAS',
+      settings8: 'CONTROLES TÁCTILES',
       settings8a: 'IZQUIERDA',
       settings8b: 'DERECHA',
-      settings8c: 'HIDDEN',
-      settings9: 'DEADZONE',
-      settings10: 'OPEN MOD FOLDER',
-      settings11: 'RESTART',
+      settings8c: 'ESCONDIDOS',
+      settings9: 'ZONA MUERTA',
+      settings10: 'ABRIR CARPETA DE MODS',
+      settings11: 'REINICIAR',
 
-      sidebar1: 'ITEM',
+      sidebar1: 'OBJT',
       sidebar2: 'STAT',
-      sidebar3: 'CELL',
+      sidebar3: 'TELF',
       sidebar4: 'CONF',
       sidebar5: 'S',
 
       start1: [
-         '--- Instruction ---',
-         '[Z or ENTER] - Confirm',
-         '[X or SHIFT] - Cancel',
-         '[C or CTRL] - Menu (In-game)',
+         '--- Instrucciones ---',
+         '[Z o INTRO] - Confirmar',
+         '[X o SHIFT] - Cancelar',
+         '[C o CTRL] - Menú (En el juego)',
          '[F4] - Pantalla Completa',
-         '[Hold ESC] - Restart',
-         'When HP is 0, you lose.'
+         '[Mantén ESC] - Reiniciar',
+         'Cuando sus PV llegan a 0, pierdes.'
       ],
-      start2: 'Begin Game',
+      start2: 'Empezar el Juego',
 
       stat1: 'AT',
       stat2: 'DF',
       stat3: 'ARMA',
       stat4: 'ARMADURA',
-      stat5: 'GOLD',
+      stat5: 'ORO',
       stat6: 'EXP',
       stat7: 'NEXT',
-      stat8: '§fill=#ff0§Warning:\nNon-canon\ntimeline.',
-      stat9: 'KILLS',
-      stat10: 'BULLY',
-      stat11: 'FLIRT',
-      stat12: 'STATUS',
+      stat8: '§fill=#ff0§Advertencia:\nLínea temporal\nno canónica.',
+      stat9: 'MUERTES',
+      stat10: 'ACOSO',
+      stat11: 'COQUETEO',
+      stat12: 'ESTADO',
       stat13: '\"$(x)\"',
 
-      story1: [ '<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and MONSTERS.{^35}{}' ],
-      story2: [ '<24>As time passed, a war broke out between the two species.{^35}{}' ],
-      story3: [ "<24>After the MONSTERS' home planet was destroyed, HUMANS declared victory.{^35}{}" ],
-      story4: [ '<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}' ],
-      story5: [ '<24>A powerful force field was erected, and the MONSTERS were sealed in.{^35}{}' ],
-      story6: [ '<24>Many years later.{^8}.{^8}.{^35}{}' ],
-      story7: [ '<#24>     EBOTT SECTOR     \n         251X{^35}{}' ],
-      story8: [ '<24>Tales speak of a place from which spacecraft never return.{^35}{}' ],
+      story1: [ '<24>{#p/storyteller}Hace tiempo, dos especies habitaban el sistema solar: HUMANOS y MONSTROUS.{^35}{}' ],
+      story2: [ '<24>Cuando el tiempo pasó, una guerra empezó entre las especies.{^35}{}' ],
+      story3: [ "<24>Después de que el planeta natal de los MONSTRUOS fuera destruido, los HUMANOS declararon victoria.{^35}{}" ],
+      story4: [ '<24>Los MONSTRUOS restantes fueron expulsados a un puesto abandonado.{^35}{}' ],
+      story5: [ '<24>Un poderoso campo de fuerza fue creado, y los MONSTRUOS fueron sellados dentro.{^35}{}' ],
+      story6: [ '<24>Muchos años después.{^8}.{^8}.{^35}{}' ],
+      story7: [ '<#24>     SECTOR EBOTT     \n         251X{^35}{}' ],
+      story8: [ '<24>Leyendas hablan de un lugar del que las naves nunca vuelven.{^35}{}' ],
       story9: [ '<24>{^100}{}' ],
       story10: [ '<24>{^100}{}' ],
       story11: [ '<24>{^35}{}' ]
    },
 
    timeline: {
-      main: 'Resume Canon Timeline',
-      main_ex: 'Start Canon Timeline',
-      timelines: 'Other Slots',
-      bisect: 'Bisect',
-      delete: 'Delete',
-      instruction: '[ESC] to Cancel / [ENTER] to Confirm',
-      instruction_gamepad: 'Press any button on your gamepad to open the keyboard.',
-      launch: 'Launch',
-      rename: 'Rename',
-      create: 'Create New',
-      placeholder: 'Enter Timeline Name',
-      confirm: 'Are You Sure?'
+      main: 'Continuar Línea Temporal Canónica',
+      main_ex: 'Empezar Línea Temporal Canónica',
+      timelines: 'Otras Ranuras',
+      bisect: 'Dividir',
+      delete: 'Borrar',
+      instruction: '[ESC] para Cancelar / [INTRO] para Confirmar',
+      instruction_gamepad: 'Pulsa cualquier botón del mando para abrir el teclado.',
+      launch: 'Iniciar',
+      rename: 'Renombrar',
+      create: 'Crear Nuevo',
+      placeholder: 'Introduzca Nombre de la Línea Temporal',
+      confirm: '¿Estás Seguro?'
    }
 };
 

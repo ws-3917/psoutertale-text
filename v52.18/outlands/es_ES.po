@@ -636,638 +636,724 @@ msgid ""
 "<32>* When we arrived at the ruins of the old homeworld, and got found out "
 "by those humans?"
 msgstr ""
+"<32>* ¿Cuando llegamos a las ruinas del viejo planeta natal, y nos "
+"encontraron esos humanos?"
 
 msgid ""
 "<32>* I wanted to use our power to destroy them... but you stopped me, "
 "remember?"
 msgstr ""
+"<32>* Quería usar nuestro poder para destruirlos... pero me detuviste, "
+"¿recuerdas?"
 
 msgid "<25>{#p/asriel1}{#f/16}* ... right."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/16}* ... correcto."
 
 msgid "<32>{#p/basic}* I didn't understand it back then, but..."
-msgstr ""
+msgstr "<32>{#p/basic}* No lo entendí en aquellos tiempos, pero..."
 
 msgid "<32>* I get it now."
-msgstr ""
+msgstr "­<32>* Lo entiendo ahora."
 
 msgid ""
 "<32>* ... you were just trying to stop me... from making a terrible mistake."
 msgstr ""
+"<32>* ... solo estabas intentando pararme... de hacer un error terrible."
 
 msgid "<25>{#p/asriel1}{#f/15}* $(name)..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/15}* $(name)..."
 
 msgid ""
 "<32>{#p/basic}* If not for you, the outpost would've been destroyed in a "
 "second war."
 msgstr ""
+"<32>{#p/basic}* Si no fuera por ti, el puesto habría sido destruido en una "
+"segunda guerra."
 
 msgid ""
 "<32>* If not for you, the very same monsters I was supposedly trying to "
 "save..."
 msgstr ""
+"<32>* Si no fuera por ti, los mismos monstruos que supuestamente intentaba "
+"salvar..."
 
 msgid "<32>* ... would have died right along with us."
-msgstr ""
+msgstr "<32>* ... habrían muerto junto a nosotros."
 
 msgid "<25>{#p/asriel1}{#f/25}* $(name), I..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/25}* $(name), Yo..."
 
 msgid "<32>{#p/basic}* Even now, your choice back then still matters."
-msgstr ""
+msgstr "<32>{#p/basic}* Aún ahora, tu decisión hace tiempo sigue importando."
 
 msgid "<32>* Even now..."
-msgstr ""
+msgstr "<32>* Aún ahora..."
 
 msgid "<32>* You're still a better sibling to me than I ever was."
-msgstr ""
+msgstr "<32>* Tú sigues siendo un mejor hermano para mí de lo que yo fui."
 
 msgid "<25>{#p/asriel1}{#f/25}* I forgive you, $(name)!"
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/25}* ¡Te perdono, $(name)!"
 
 msgid ""
 "<25>{#f/23}* Alright?\n"
 "* You don't have to do this..."
 msgstr ""
+"<25>{#f/23}* ¿Vale?\n"
+"* No tienes que hacer esto..."
 
 msgid "<25>{#f/22}* I know how strongly you felt back then, and..."
-msgstr ""
+msgstr "<25>{#f/22}* Sé como te sentiste hace tiempo, y..."
 
 msgid "<25>{#f/15}* I wouldn't want you to change your mind just because I..."
-msgstr ""
+msgstr "<25>{#f/15}* No quiero que cambies de idea solo por que yo..."
 
 msgid ""
 "<32>{#p/basic}* No.\n"
 "* Not anymore."
 msgstr ""
+"<32>{#p/basic}* No.\n"
+"* No más."
 
 msgid "<32>* People CAN change, Asriel..."
-msgstr ""
+msgstr "<32>* Personas PUEDEN cambiar, Asriel..."
 
 msgid "<32>* Isn't that what you always believed?"
-msgstr ""
+msgstr "<32>* ¿No era eso lo que tú siempre creíste?"
 
 msgid "<25>{#p/asriel1}{#f/13}* ... I still do."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/13}* ... lo sigo haciendo."
 
 msgid ""
 "<32>{#p/basic}* I've spent the past hundred years wallowing in self-pity."
 msgstr ""
+"<32>{#p/basic}* He pasado los últimos cien años hundiéndome en mi "
+"autocompasión."
 
 msgid ""
 "<32>* I've spent the past hundred years holding a grudge I never should've "
 "had."
 msgstr ""
+"<32>* He pasado los últimos cien años aguantando un rencor que nunca debería"
+" haber tenido."
 
 msgid "<32>* In all that time, I wondered what kept me alive..."
-msgstr ""
+msgstr "<32>* En todo ese tiempo, me preguntaba que me mantenía vivo..."
 
 msgid "<32>* And now, I finally know the answer."
-msgstr ""
+msgstr "<32>* Y ahora, finalmente se la respuesta."
 
 msgid "<25>{#p/asriel1}{#f/15}* ...?"
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/15}* ...?"
 
 msgid "<32>{#p/basic}* ... it's you, Asriel."
-msgstr ""
+msgstr "<32>{#p/basic}* ... eres tú, Asriel."
 
 msgid "<32>* You're the one who's been keeping me alive."
-msgstr ""
+msgstr "<32>* Tú eres quien me mantenía con vida."
 
 msgid "<32>{#p/basic}* Think of it like... an unfulfilled promise."
-msgstr ""
+msgstr "<32>{#p/basic}* Piensa en ello como... una promesa incumplida."
 
 msgid ""
 "<32>* Holding that grudge... thinking about you in the way that I did..."
 msgstr ""
+"<32>* Aguantando ese rencor... pensando sobre ti en la forma en que lo "
+"hice..."
 
 msgid ""
 "<32>* Knowing I could've been so much more for you than I ultimately was."
-msgstr ""
+msgstr "<32>* Sabiendo que podría haber sido mucho más para ti de lo que fui."
 
 msgid "<32>* All this time, that's what's been holding me back."
-msgstr ""
+msgstr "<32>* Todo este tiempo, eso es lo que me ha estado echando atrás."
 
 msgid "<25>{#p/asriel1}{#f/23}* $(name)..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/23}* $(name)..."
 
 msgid ""
 "<32>{#p/basic}* Asriel.\n"
 "* My brother."
 msgstr ""
+"<32>{#p/basic}* Asriel.\n"
+"* Mi hermano."
 
 msgid "<32>* You deserve to know the truth."
-msgstr ""
+msgstr "<32>* Deseas saber la verdad."
 
 msgid ""
 "<25>{*}{#p/asriel1}{#f/25}* Huh?\n"
 "* But you already- {%}"
 msgstr ""
+"<25>{*}{#p/asriel1}{#f/25}* ¿Eh?\n"
+"* Pero tu ya has- {%}"
 
 msgid "<32>{#p/basic}* I forgive you, too."
-msgstr ""
+msgstr "<32>{#p/basic}* Te perdono a ti, también."
 
 msgid "<25>{#p/asriel1}{#f/30}{#i/4}* ...!"
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/30}{#i/4}* ...!"
 
 msgid "<25>{#p/asriel1}{#f/26}{#i/4}* $(name)..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/26}{#i/4}* $(name)..."
 
 msgid "<32>{#p/basic}* Shh..."
-msgstr ""
+msgstr "<32>{#p/basic}* Shh..."
 
 msgid "<32>* It's alright."
-msgstr ""
+msgstr "<32>* Está bien."
 
 msgid "<32>* I've got you, okay?"
-msgstr ""
+msgstr "<32>* Estoy aquí, ¿vale?"
 
 msgid "<25>{#p/asriel1}{#f/25}{#i/4}* I..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/25}{#i/4}* Yo..."
 
 msgid "<32>{#p/basic}* I've got you, Asriel."
-msgstr ""
+msgstr "<32>{#p/basic}* Estoy aquí, Asriel."
 
 msgid "<32>{#p/basic}* ... I can feel it."
-msgstr ""
+msgstr "<32>{#p/basic}* ... puedo sentirlo."
 
 msgid "<32>* Even after a hundred years have passed..."
-msgstr ""
+msgstr "<32>* Aunque hayan pasado cien años..."
 
 msgid "<32>* He's still in there, isn't he?"
-msgstr ""
+msgstr "<32>* Él todavía está aquí, ¿no?"
 
 msgid "<32>* Like a little angel..."
-msgstr ""
+msgstr "<32>* Como un pequeño angel..."
 
 msgid "<32>* Watching over me, protecting me from my own bad choices..."
-msgstr ""
+msgstr "<32>* Mirándome, protegiéndome de mis propias malas deciosiones..."
 
 msgid "<32>* ... all so I could one day return him the favor."
-msgstr ""
+msgstr "<32>* ... todo para que un día yo pueda devolverle el favor."
 
 msgid "<32>{#p/basic}* It's all starting to make sense now."
-msgstr ""
+msgstr "<32>{#p/basic}* Todo empieza a tener sentido ahora."
 
 msgid "<32>* I know what I have to do."
-msgstr ""
+msgstr "<32>* Sé lo que tengo que hacer."
 
 msgid ""
 "<25>{*}{#p/asriel1}{#f/25}* Huh?\n"
 "* What are you... {^60}{%}"
 msgstr ""
+"<25>{*}{#p/asriel1}{#f/25}* ¿Eh?\n"
+"* ¿Qué estás... {^60}{%}"
 
 msgid "<25>{*}{#f/25}* No...!{^60}{%}"
-msgstr ""
+msgstr "<25>{*}{#f/25}* ¡No...!{^60}{%}"
 
 msgid "<25>{*}{#f/26}* L... let me go!{^60}{%}"
-msgstr ""
+msgstr "<25>{*}{#f/26}* ¡D... déjame ir!{^60}{%}"
 
 msgid "<32>{*}{#p/basic}* Heh...{^60}{%}"
-msgstr ""
+msgstr "<32>{*}{#p/basic}* Je...{^60}{%}"
 
 msgid "<32>{*}* ... take care of Mom and Dad for me, okay?{^60}{%}"
-msgstr ""
+msgstr "<32>{*}* ... cuida de mamá y papá por mi, ¿vale?{^60}{%}"
 
 msgid "<25>{#p/asriel1}{#f/25}* Frisk, are you there?"
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/25}* Frisk, ¿estás ahí?"
 
 msgid "<25>{#f/22}* Please... wake up..."
-msgstr ""
+msgstr "<25>{#f/22}* Por favor... despierta..."
 
 msgid ""
 "<25>{#p/asriel1}{#f/23}* I...\n"
 "* I don't want to lose you too..."
 msgstr ""
+"<25>{#p/asriel1}{#f/23}* Yo...\n"
+"* No quiero perderte a ti también..."
 
 msgid "<25>{#p/asriel1}{#f/17}* ... there you are."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/17}* ... ahí estás."
 
 msgid ""
 "<25>{#p/asriel1}{#f/23}* Ha... I thought I'd lost you for a minute there."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/23}* Ja... pensé que te perdí por un minuto."
 
 msgid "<25>{#f/22}* Don't scare me like that again, okay?"
-msgstr ""
+msgstr "<25>{#f/22}* No me asustes así otra vez, ¿vale?"
 
 msgid "<25>{#f/13}* ..."
-msgstr ""
+msgstr "<25>{#f/13}* ..."
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* Well...\n"
 "* I have my SOUL back inside of me now."
 msgstr ""
+"<25>{#p/asriel1}{#f/13}* Bueno...\n"
+"* Tengo mi ALMA de nuevo dentro de mi ahora."
 
 msgid "<25>{#f/15}* My original one."
-msgstr ""
+msgstr "<25>{#f/15}* La original."
 
 msgid "<25>{#f/16}* ..."
-msgstr ""
+msgstr "<25>{#f/16}* ..."
 
 msgid ""
 "<26>{#f/16}* When $(name) and I died, they must've wrapped themselves around"
 " me..."
 msgstr ""
+"<26>{#f/16}* Cuando $(name) y yo morimos, él debería haberse envuelto sobre "
+"mí..."
 
 msgid "<25>{#f/13}* ... keeping me safe until I could be brought back here."
-msgstr ""
+msgstr "<25>{#f/13}* ... protegiéndome hasta que pueda ser devuelto aquí."
 
 msgid ""
 "<26>{#f/17}* They held on that whole time, just for a chance to see me, "
 "Frisk..."
 msgstr ""
+"<26>{#f/17}* Se mantuvieron todo este tiempo, solo para volver a verme, "
+"Frisk..."
 
 msgid "<25>{#f/13}* ... so, the least I can do is honor it."
-msgstr ""
+msgstr "<25>{#f/13}* ... así que, lo que menos puedo hacer es honorarlo."
 
 msgid "<25>{#f/15}* Live the life they always wanted me to have."
-msgstr ""
+msgstr "<25>{#f/15}* Vivir la vida que siempre quisieron que tuve."
 
 msgid "<25>{#p/asriel1}{#f/23}* ... Frisk."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/23}* ... Frisk."
 
 msgid "<25>{#f/23}* I'm going to stay with you from now on."
-msgstr ""
+msgstr "<25>{#f/23}* Voy a estar contigo a partir de ahora."
 
 msgid "<25>{#f/17}* Wherever you go... I'll follow you."
-msgstr ""
+msgstr "<25>{#f/17}* Donde sea que vayas... te seguiré."
 
 msgid ""
 "<25>{#f/13}* I feel like...\n"
 "* I can trust you with that sort of thing."
 msgstr ""
+"<25>{#f/13}* Siento que...\n"
+"* Puedo confiar en ti en ese tipo de cosas."
 
 msgid "<25>{#f/13}* Even if we don't know much about each other."
-msgstr ""
+msgstr "<25>{#f/13}* Aunque no nos conozcamos mucho."
 
 msgid "<25>{#f/15}* ... I don't know."
-msgstr ""
+msgstr "<25>{#f/15}* ... No sé."
 
 msgid "<25>{#f/15}* ..."
-msgstr ""
+msgstr "<25>{#f/15}* ..."
 
 msgid "<25>{#f/13}* Frisk... are you really sure about this?"
-msgstr ""
+msgstr "<25>{#f/13}* Frisk... ¿estás seguro de esto?"
 
 msgid "<25>{#f/13}* All the times I've hurt you, hurt your friends..."
-msgstr ""
+msgstr "<25>{#f/13}* Todas las veces que te he hecho a ti, a tus amigos..."
 
 msgid "<25>{#f/22}* It's... all I can think about right now."
-msgstr ""
+msgstr "<25>{#f/22}* Es... todo lo que puedo pensar ahora."
 
 msgid "<25>{#f/21}* Seeing them die like that in my mind, over and over..."
-msgstr ""
+msgstr "<25>{#f/21}* Verlos morir de esa forma en mi mente, una y otra vez..."
 
 msgid "<25>{#f/22}* Knowing that I'm the one who did it."
-msgstr ""
+msgstr "<25>{#f/22}* Sabiendo que soy yo quien lo hizo."
 
 msgid ""
 "<25>{#f/15}* Are you really sure you can be there for someone like that?"
-msgstr ""
+msgstr "<25>{#f/15}* ¿Estás seguro que puedes estar ahí para alguien como él?"
 
 msgid "<32>{#p/human}* (...)"
-msgstr ""
+msgstr "<32>{#p/human}* (...)"
 
 msgid "<25>{#p/asriel1}{#f/15}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/15}* ..."
 
 msgid "<25>{#f/17}* ... I guess I just don't understand you, Frisk."
-msgstr ""
+msgstr "<25>{#f/17}* ... Supongo que no te entiendo, Frisk."
 
 msgid "<25>{#f/23}* No matter what I do to you... you just won't give in."
-msgstr ""
+msgstr "<25>{#f/23}* Sin importar lo que te haga... tú no vas a ceder."
 
 msgid "<25>{#f/22}* ..."
-msgstr ""
+msgstr "<25>{#f/22}* ..."
 
 msgid ""
 "<25>{#f/13}* Hey.\n"
 "* Maybe it won't be so bad."
 msgstr ""
+"<25>{#f/13}* Ey.\n"
+"* Quizás no será tan malo."
 
 msgid "<25>{#f/17}* Having you there with me definitely won't hurt matters."
-msgstr ""
+msgstr "<25>{#f/17}* Tenerte ahí conmigo no dañará las cosas."
 
 msgid ""
 "<25>{#f/13}* ...\n"
 "* The thing is...\n"
 "* If I stayed here now..."
 msgstr ""
+"<25>{#f/13}* ...\n"
+"* La cosa es...\n"
+"* Si me quedo aquí ahora..."
 
 msgid "<25>{#f/15}* It wouldn't be right by $(name)... you know?"
-msgstr ""
+msgstr "<25>{#f/15}* No sería justo para $(name)... ¿sabes?"
 
 msgid "<25>{#f/13}* And besides, with my SOUL back inside of me..."
-msgstr ""
+msgstr "<25>{#f/13}* Y además, con mi ALMA devuelta dentro de mi..."
 
 msgid "<25>{#f/13}* I won't turn back into a star."
-msgstr ""
+msgstr "<25>{#f/13}* No volveré a ser una estrella."
 
 msgid "<25>{#f/13}* So... there's no point in me staying here."
-msgstr ""
+msgstr "<25>{#f/13}* Así que... no hay motivo para que esté aquí."
 
 msgid ""
 "<25>{#p/asriel1}{#f/17}* Well.\n"
 "* Better get going."
 msgstr ""
+"<25>{#p/asriel1}{#f/17}* Bueno.\n"
+"* Mejor pongámonos en marcha."
 
 msgid "<25>{#f/20}* Your friends are probably worried sick about you by now."
-msgstr ""
+msgstr "<25>{#f/20}* Tus amigos probablemente esten preocupados por ti ahora."
 
 msgid ""
 "<25>{#f/16}* I don't know what's going to happen to $(name) after this."
-msgstr ""
+msgstr "<25>{#f/16}* No sé que le va a pasar a $(name) después de esto."
 
 msgid "<25>{#f/13}* They held on for a chance to see me, but that's..."
-msgstr ""
+msgstr "<25>{#f/13}* Esperaron una oportunidad para verme, pero eso es..."
 
 msgid "<25>{#f/15}* ... in the past now."
-msgstr ""
+msgstr "<25>{#f/15}* ... cosa del pasado ahora."
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* I still can't believe they waited all that time "
 "just to see me..."
 msgstr ""
+"<25>{#p/asriel1}{#f/13}* Todavía no me puedo creer que haya esperado tanto "
+"tiempo solo para verme..."
 
 msgid "<25>{#f/23}* Stubborn idiot."
-msgstr ""
+msgstr "<25>{#f/23}* Maldito idiota."
 
 msgid ""
 "<25>{#f/17}* ... is what I would have said, if I was still a talking star."
 msgstr ""
+"<25>{#f/17}* ... es lo que habría dicho, si aún fuera una estrella parlante."
 
 msgid "<25>{#f/13}* But... I don't really think they're an idiot."
-msgstr ""
+msgstr "<25>{#f/13}* Pero... no creo que sea un idiota."
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* $(name)'s not stupid.\n"
 "* And I..."
 msgstr ""
+"<25>{#p/asriel1}{#f/13}* $(name) no es estúpido.\n"
+"* Y yo..."
 
 msgid "<25>{#f/13}* I agreed with a lot of what they said about themselves..."
-msgstr ""
+msgstr "<25>{#f/13}* Confirmo con mucho de lo que dijeron sobre si mismo..."
 
 msgid "<25>{#f/15}* About them not being the kind of friend I wish I had..."
-msgstr ""
+msgstr "<25>{#f/15}* Sobre que él no sea el tipo de amigo que quería tener..."
 
 msgid "<25>{#f/7}* ... but it doesn't mean I wanted them gone!"
-msgstr ""
+msgstr "<25>{#f/7}* ... ¡pero no significa que quería que se fuera!"
 
 msgid "<25>{#p/asriel1}{#f/13}* It's not like $(name) has to go away..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/13}* No es que $(name) tenga que irse..."
 
 msgid ""
 "<25>{#f/17}* If they wanted to, they could stay with us.\n"
 "* I'd like them to."
 msgstr ""
+"<25>{#f/17}* Si quisiera, podría estar con nosotros.\n"
+"* Me gustaría."
 
 msgid "<25>{#f/15}* But I'd understand if they wanted to go."
-msgstr ""
+msgstr "<25>{#f/15}* Pero entiendo si quería irse."
 
 msgid ""
 "<25>{#f/16}* They \"won\" their game.\n"
 "* They shouldn't want to \"play\" with me anymore."
 msgstr ""
+"<25>{#f/16}* Él \"ganó\" su juego.\n"
+"* Él no debería querer \"jugar\" conmigo más."
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* ... $(name)...\n"
 "* If you're still there, listening..."
 msgstr ""
+"<25>{#p/asriel1}{#f/13}* ... $(name)...\n"
+"* Si aún estás ahí, escuchando..."
 
 msgid "<25>{#f/15}* I want you to know that I love you."
-msgstr ""
+msgstr "<25>{#f/15}* Quiero que sepas que te amo."
 
 msgid "<25>{#f/23}* You might not have been the greatest person..."
-msgstr ""
+msgstr "<25>{#f/23}* Puede que no hayas sido la mejor persona..."
 
 msgid "<25>{#f/22}* But, deep down, you still cared about me."
-msgstr ""
+msgstr "<25>{#f/22}* Pero profundamente, todavía te preocupabas por mí."
 
 msgid "<25>{#p/asriel1}{#f/23}* Ha..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/23}* Ja..."
 
 msgid "<25>{#f/22}* I probably seem like a crazy person right now."
-msgstr ""
+msgstr "<25>{#f/22}* Probablemente parezca una persona loca ahora."
 
 msgid ""
 "<25>{#f/15}* Obsessing over someone I should have moved on from already..."
 msgstr ""
+"<25>{#f/15}* Obsesionándome sobre alguien de quien debería haber superado..."
 
 msgid ""
 "<26>{#f/17}* ... I guess $(name) and I really are just a \n"
 "  pair of stubborn idiots."
 msgstr ""
+"<26>{#f/17}* ... Supongo que $(name) y yo somos un\n"
+"  par de malditos idiotas."
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* One time, $(name) and I were fighting over a bed..."
 msgstr ""
+"<25>{#p/asriel1}{#f/13}* Una vez, $(name) y yo nos estábamos peleando sobre "
+"una cama..."
 
 msgid ""
 "<25>{#f/10}* 'Cause, both of us wanted the one with the nightstand next to "
 "it."
 msgstr ""
+"<25>{#f/10}* Porque los dos queríamos la que tenía una mesita al lado."
 
 msgid ""
 "<26>{#f/15}* We were both pushing each other off the side, trying to make "
 "room..."
 msgstr ""
+"<26>{#f/15}* Estábamos los dos empujándonos el uno al otro, intentando hacer"
+" espacio..."
 
 msgid "<25>{#f/4}* All that fighting got us so tired, that we fell asleep."
-msgstr ""
+msgstr "<25>{#f/4}* Toda esa pelea no cansó tanto, que nos dormimos."
 
 msgid "<25>{#f/13}* But when we woke up..."
-msgstr ""
+msgstr "<25>{#f/13}* Pero cuando nos despertamos..."
 
 msgid "<25>{#f/17}* We were lying right next to each other."
-msgstr ""
+msgstr "<25>{#f/17}* Estábamos tumbados el uno al lado del otro."
 
 msgid "<25>{#f/13}* I tried to get up, but... they didn't want to let go."
-msgstr ""
+msgstr "<25>{#f/13}* Intenté levantarme, pero... él no quería dejarme ir."
 
 msgid "<26>{#f/15}* They just kept saying..."
-msgstr ""
+msgstr "<26>{#f/15}* No paraba de decir..."
 
 msgid "<25>{#f/15}* \"... warm...\""
-msgstr ""
+msgstr "<25>{#f/15}* \"... caliente...\""
 
 msgid "<25>{#f/15}* \"... fluffy...\""
-msgstr ""
+msgstr "<25>{#f/15}* \"... esponjoso...\""
 
 msgid "<25>{#f/20}* I would have complained about it, but..."
-msgstr ""
+msgstr "<25>{#f/20}* Me habría quejado, pero..."
 
 msgid "<25>{#f/17}* ... at that point, I was just happy we weren't fighting."
 msgstr ""
+"<25>{#f/17}* ... en ese momento, solo estaba feliz de que no estuviéramos "
+"peleando."
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* This other time, $(name) and I were making dinner "
 "for Mom and Dad."
 msgstr ""
+"<25>{#p/asriel1}{#f/13}* Esta otra vez, $(name) y yo estábamos haciendo la "
+"cena para Mamá y Papá."
 
 msgid "<25>{#f/15}* They kept wanting to make it more spicy..."
-msgstr ""
+msgstr "<25>{#f/15}* Él quería hacerla más picante..."
 
 msgid ""
 "<25>{#f/3}* To be honest, if they insisted on that now, I would not "
 "complain."
 msgstr ""
+"<25>{#f/3}* Para ser honesto, si él insistiera en eso ahora, no me quejaría."
 
 msgid "<25>{#f/20}* I could go for something spicy right about now."
-msgstr ""
+msgstr "<25>{#f/20}* Podría ir a por algo picante justo ahora."
 
 msgid ""
 "<25>{#f/13}* But, back then, I was more into sweets.\n"
 "* Most monsters are."
 msgstr ""
+"<25>{#f/13}* Pero en esos tiempos, me gustaban más dulce.\n"
+"* Como la mayoría de los monstruos."
 
 msgid ""
 "<25>{#f/15}* We ended up playing tug-of-war with the mixing bowl, and..."
-msgstr ""
+msgstr "<25>{#f/15}* Acabamos jugando Tira y Afloja con el bol, y..."
 
 msgid "<25>{#f/20}* You can imagine how that turned out."
-msgstr ""
+msgstr "<25>{#f/20}* Te puedes imaginar lo que pasó después."
 
 msgid "<25>{#f/17}* Mom made us clean up the mess, of course."
-msgstr ""
+msgstr "<25>{#f/17}* Mamá nos hizo limpiar la faena, por supuesto."
 
 msgid ""
 "<25>{#f/13}* Then, Dad took us out to eat, and we both got what we wanted."
 msgstr ""
+"<25>{#f/13}* Luego, Papá nos llevo a comer, y cada uno consiguió lo que "
+"quería."
 
 msgid ""
 "<25>{#p/asriel1}{#f/15}* $(name) and I...\n"
 "* It's like we couldn't agree on anything..."
 msgstr ""
+"<25>{#p/asriel1}{#f/15}* $(name) y yo...\n"
+"* Era como si no podíamos coincidir en nada..."
 
 msgid "<25>{#f/20}* Besides spending time together, that is."
-msgstr ""
+msgstr "<25>{#f/20}* Quitando pasar el tiempo juntos, claro."
 
 msgid ""
 "<26>{#f/17}* Despite our differences, $(name) and I really were inseparable."
 msgstr ""
+"<26>{#f/17}* A pesar de nuestras diferencias, $(name) y yo éramos "
+"inseparables."
 
 msgid "<25>{#f/13}* Even death itself couldn't keep us apart forever."
-msgstr ""
+msgstr "<25>{#f/13}* Ni siquiera la muerte pudo separarnos para siempre."
 
 msgid "<25>{#p/asriel1}{#f/17}* ... do you think they're still around, Frisk?"
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/17}* ... ¿crees que sigue aquí, Frisk?"
 
 msgid "<25>{#f/17}* For all you know, they could be watching us right now."
 msgstr ""
+"<25>{#f/17}* Todo lo que sabemos, nos podría estar vigilando ahora mismo."
 
 msgid "<25>{#f/23}* Wouldn't that be something."
-msgstr ""
+msgstr "<25>{#f/23}* ¿No sería algo guay?."
 
 msgid "<25>{#f/22}* But it's impossible to know for sure."
-msgstr ""
+msgstr "<25>{#f/22}* Pero es imposible saber con certeza."
 
 msgid ""
 "<25>{#p/asriel1}{#f/17}* Golly.\n"
 "* For someone who'll be staying with you..."
 msgstr ""
+"<25>{#p/asriel1}{#f/17}* Dios mío.\n"
+"* Para alguien que va a estar contigo..."
 
 msgid ""
 "<25>{#f/20}* I sure am making it sound like I'd rather be with $(name)."
 msgstr ""
+"<25>{#f/20}* Estoy seguro que parece que preferiría estar con $(name)."
 
 msgid "<25>{#f/13}* But... it's not like that at all."
-msgstr ""
+msgstr "<25>{#f/13}* Pero... no es así del todo."
 
 msgid ""
 "<25>{#f/17}* I just can't help but reminisce about someone I used to know."
 msgstr ""
+"<25>{#f/17}* No puedo hacer nada más que recordar sobre alguien que conocía."
 
 msgid ""
 "<25>{#p/asriel1}{#f/17}* Frisk...\n"
 "* I want you to know."
 msgstr ""
+"<25>{#p/asriel1}{#f/17}* Frisk...\n"
+"* Quiero que sepas."
 
 msgid "<25>{#f/13}* Thanks to you..."
-msgstr ""
+msgstr "<25>{#f/13}* Gracias a ti..."
 
 msgid "<25>{#f/23}* I feel like I have a future again."
-msgstr ""
+msgstr "<25>{#f/23}* Siento que tengo un futuro otra vez."
 
 msgid "<25>{#f/22}* Even though you couldn't forgive me for what I'd done..."
 msgstr ""
+"<25>{#f/22}* Aunque no me hayas podido perdonar por lo que he hecho..."
 
 msgid ""
 "<25>{#f/22}* Even though I wanted you to do all those terrible things..."
-msgstr ""
+msgstr "<25>{#f/22}* Aunque quería que hicieras esas cosas terribles..."
 
 msgid ""
 "<25>{#f/22}* Even though I tortured you, and threatened everyone you love..."
-msgstr ""
+msgstr "<25>{#f/22}* Aunque te torturé, y amenacé a todos los que amas..."
 
 msgid "<25>{#f/13}* You're still willing to help me move past it all."
-msgstr ""
+msgstr "<25>{#f/13}* Tú aún quieres ayudarme a superarlo."
 
 msgid "<25>{#f/23}* ... it means a lot."
-msgstr ""
+msgstr "<25>{#f/23}* ... significa mucho para mí."
 
 msgid "<25>{#f/13}* Mom, Dad..."
-msgstr ""
+msgstr "<25>{#f/13}* Mamá, Papá..."
 
 msgid "<25>{#f/13}* Sans, Papyrus, Undyne, Alphys..."
-msgstr ""
+msgstr "<25>{#f/13}* Sans, Papyrus, Undyne, Alphys..."
 
 msgid "<25>{#f/15}* Everyone I've killed in past realities..."
-msgstr ""
+msgstr "<25>{#f/15}* Todos los que he matado en realidades pasadas..."
 
 msgid "<25>{#f/16}* ... it's going to be difficult for me to face them."
-msgstr ""
+msgstr "<25>{#f/16}* ... va a ser difícil para mí confrontarlo."
 
 msgid "<25>{#f/17}* But I'll try."
-msgstr ""
+msgstr "<25>{#f/17}* Pero lo intentaré."
 
 msgid "<25>{#f/23}* I'll try to be a better person."
-msgstr ""
+msgstr "<25>{#f/23}* Intentaré ser una mejor persona."
 
 msgid "<25>{#f/22}* And, If I ever screw up..."
-msgstr ""
+msgstr "<25>{#f/22}* Y, si meto la pata..."
 
 msgid "<25>{#f/13}* ... I know you'll be there to help me pick up the pieces."
 msgstr ""
+"<25>{#f/13}* ... Sé que estarás ahí para ayudarme a recoger las piezas."
 
 msgid "<25>{#p/asriel1}{#f/17}* Ha... $(name)."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/17}* Ja... $(name)."
 
 msgid "<25>{#f/23}* I won't let you down, okay?"
-msgstr ""
+msgstr "<25>{#f/23}* No te abandonaré, ¿vale?"
 
 msgid "<25>{#f/22}* I'll make the most out of this chance you've given me."
 msgstr ""
+"<25>{#f/22}* Voy a aprovechar al máximo esta oportunidad que me has dado."
 
 msgid "<25>{#f/17}* I'll make it count."
-msgstr ""
+msgstr "<25>{#f/17}* Haré que cuente."
 
 msgid "<32>{#p/human}* (You feel the nearby monster presence dwindling.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Sientes la presencia de monstruo cercana menguar.)"
 
 msgid "<32>{#p/human}* (You saw a piece of gum taped to the comic strip...)"
 msgstr ""
+"<32>{#p/human}* (Ves un trozo de chicle pegado en la portada del comic...)"
 
 msgid "* (Chew the gum?)"
-msgstr ""
+msgstr "* (¿Masticar el chicle?)"
 
 msgid "<32>{#p/basic}* There was a piece of gum taped to the comic strip."
 msgstr ""
+"<32>{#p/basic}* Había un trozo de chicle pegado en la portada del comic."
 
 msgid "<32>{#p/human}* (You decide not to chew.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Decidiste no masticar.)"
 
 msgid "<32>{#p/human}* (You recovered $(x) HP.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Has recuperado $(x) PV.)"
 
 msgid "<32>{#p/human}* (HP fully restored.)"
-msgstr ""
+msgstr "<32>{#p/human}* (PV restaurados.)"
 
 msgid "<32>{#p/human}* (You feel the inviting warmth of the fireplace...)"
-msgstr ""
+msgstr "<32>{#p/human}* (Sientes la calidez acogedora de la chimenea...)"
 
 msgid "* (Crawl inside?)"
-msgstr ""
+msgstr "* (¿Entrar?)"
 
 msgid "<32>{#p/basic}* An ordinary fireplace."
 msgstr ""

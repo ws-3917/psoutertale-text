@@ -1953,7 +1953,7 @@ msgid ""
 "<32>{#p/basic}* What's this?\n"
 "* A limited edition Super Starwalker comic strip?"
 msgstr ""
-"<32>{#p/basic}*Что это такое?\n"
+"<32>{#p/basic|* Что это такое?\n"
 "* Комикс о Суперзвездном страннике, выпущенный ограниченным тиражом?"
 
 msgid "<32>{#s/equip}{#p/human}* (You got the Super Starwalker 2.)"
@@ -2735,10 +2735,10 @@ msgid "<32>{#s/equip}{#p/human}* (You got the Super Starwalker 3.)"
 msgstr "<32>{#s/equip}{#p/human}* (У тебя есть Суперзвездный странник 3.)"
 
 msgid "<32>{#p/human}* I've seen the effect you've had on this world..."
-msgstr ""
+msgstr "<32>{#p/human}* Я вижу ваше влияние на этот мир."
 
 msgid "<32>* A perfect ending, where everyone gets to be happy..."
-msgstr ""
+msgstr "<32>* Идеальный конец, все могут быть счастливы..."
 
 msgid "<32>* There's something special about that."
 msgstr "<32>* В этом есть что-то особенное."
@@ -2750,10 +2750,11 @@ msgid "<32>* Existing purely for the sake of its own beauty..."
 msgstr "<32>* Существующий исключительно ради собственной красоты..."
 
 msgid "<32>* That being said..."
-msgstr ""
+msgstr "<32>* Хотя это так."
 
 msgid "<32>* It seems it wasn't enough to satisfy your... curiosity."
 msgstr ""
+"<32>* Это кажется недостаточным, чтобы удовлетворить вас. Любопытство."
 
 msgid "<32>* Tell me..."
 msgstr "<32>* Скажи мне..."
@@ -3718,7 +3719,7 @@ msgid "<25>{#f/11}{#v/0}* What an idiot!"
 msgstr "<25>{#f/11}{#v/0}* Что за идиот!"
 
 msgid "<25>{#f/7}{#v/0}* What a shame for her."
-msgstr "<25>{#f/7}{#v/0}*Какой позор для неё."
+msgstr "<25>{#f/7}{#v/0|* Какой позор для неё."
 
 msgid "<25>{#f/6}{#v/0}* As for you..."
 msgstr "<25>{#f/6}{#v/0}* Что касается тебя..."
@@ -3880,7 +3881,7 @@ msgstr ""
 "<25>{#f/7}{#v/0}* И поверь мне, после того, как ты сделал то, что сделал..."
 
 msgid "<25>{#f/2}{#v/1}* It doesn't mean JACK."
-msgstr ""
+msgstr "<25>{#f/2} {#v/1}* Это не означает Джека."
 
 msgid ""
 "<25>{#f/11}{#v/0}* What's wrong with killing Toriel, huh?\n"
@@ -5311,7 +5312,7 @@ msgid ""
 "<32>{#n1!}{#n2}* Hey! ;)\n"
 "* Quit bad-mouthing my shop in front of the customers! ;)"
 msgstr ""
-"<32>{#n1!}{#n2}*Эй! ;)\n"
+"<32>{#n1!}{#n2|* Эй! ;)\n"
 "* Прекрати поливать грязью мой магазин перед покупателями! ;)"
 
 msgid "<32>* Besides, what if your sense of taste is to blame ;)"
@@ -7249,7 +7250,7 @@ msgid "<32>{#p/basic}* It's just another window."
 msgstr "<32>{#p/basic}* Это просто ещё одно окно."
 
 msgid "<32>{#p/basic}* As always, it's a beautiful view of outer space."
-msgstr ""
+msgstr "<32>{#p/basic}* Как всегда, это прекрасный вид из космоса."
 
 msgid "<32>{#p/basic}* It's a beautiful view of outer space."
 msgstr "<32>{#p/basic}* Это прекрасный вид на космос."
@@ -7596,6 +7597,8 @@ msgid ""
 "<32>{#p/basic}* \"Did you know that snails have a chainsaw-like tongue "
 "called a radula?\""
 msgstr ""
+"<32>{#p/basic}* « Знаете ли вы, что у улиток есть язык, похожий на цепную "
+"пилу, называемую языком? »"
 
 msgid "<32>* \"Not many folks know about that one.\""
 msgstr "<32>* «Не многие знают об этом»."
@@ -10559,7 +10562,7 @@ msgstr ""
 "* Пахнет ди-водородным монооксидом."
 
 msgid "<32>{#p/human}* (You drink the Water.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Вы пьете воду.)"
 
 msgid "<33>{#p/human}* (You're filled with hydration.)"
 msgstr "<33>{#p/human}* (Вы наполнены влагой)."
@@ -10571,7 +10574,7 @@ msgid "Chocolate"
 msgstr "Шоколад"
 
 msgid "<32>{#p/human}* (You throw away the Chocolate Bar.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Вы выбросили шоколадные батончики.)"
 
 msgid "<32>{#p/basic}* ... oh well."
 msgstr "<32>{#p/basic}* ... ну и ладно."
@@ -10793,7 +10796,7 @@ msgid "Soda"
 msgstr "Сода"
 
 msgid "<32>{#p/human}* (You throw away the Fizzli Soda.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Вы выбросили содовую Физзли.)"
 
 msgid "<32>{#p/basic}* Good riddance."
 msgstr "<32>{#p/basic}* Хорошее избавление."
@@ -10812,7 +10815,7 @@ msgid "Fizzli Soda"
 msgstr "Шипучая сода"
 
 msgid "<32>{#p/human}* (You drink the Fizzli Soda.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Вы пьете содовую Fizzli.)"
 
 msgid "<32>{#p/basic}* Yuck!"
 msgstr "<32>{#p/basic}* Фу!"
@@ -10960,7 +10963,7 @@ msgid "Steak"
 msgstr "Стейк"
 
 msgid "<32>{#p/human}* (You throw away the Sizzli Steak.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Вы выбрасываете стейк Сизли.)"
 
 msgid "<32>{#p/basic}* Well, that won't be missed."
 msgstr "<32>{#p/basic}* Что ж, это не останется незамеченным."
@@ -12100,7 +12103,7 @@ msgstr ""
 "лучшим."
 
 msgid "<25>{#f/2}* ... in other words, go BIGOLI or go home!"
-msgstr ""
+msgstr "<25>{#f/2}* ... Другими словами, либо в Биголи, либо домой!"
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* Whatever the puzzles in Starton are like now, I am "
@@ -12153,7 +12156,7 @@ msgid ""
 "<25>{#f/0}* I am sure she is more than capable of finding her own path "
 "forward."
 msgstr ""
-"<25>{#f/0}*Я уверена, что она более чем способна найти свой собственный "
+"<25>{#f/0|* Я уверена, что она более чем способна найти свой собственный "
 "путь."
 
 msgid ""

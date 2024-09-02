@@ -4765,28 +4765,30 @@ msgid ""
 "* I can tell by the look on your face that you haven't yet."
 msgstr ""
 "<32>* Ha!\n"
-"* Suratındaki ifadeye bakılırsa henüz denemediğini biliyorum."
+"* Suratındaki ifadeye bakılırsa henüz denememiş olmalısın."
 
 msgid "<32>* I gotta tell you, it's tons of fun."
 msgstr "<32>* Sana söylemeliyim, bunu yapmak çok eğlenceli."
 
 msgid "<32>* Your enemies won't know what to do with themselves!"
-msgstr ""
+msgstr "<32>* Düşmanların bunun üstesinden gelemeyecekler!"
 
 msgid "<32>* Psst... if you DO start flirting, I might have more to tell you."
 msgstr ""
+"<32>* Psst... eğer flört etmeye BAŞLARSAN, sana daha anlatacaklarım "
+"olabilir."
 
 msgid "<32>* Good luck with that!"
-msgstr ""
+msgstr "<32>* Bununla bol şans!"
 
 msgid "<32>{#p/basic}{#n1}* Hey human, now that you've started flirting..."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Hey insan, madem flört etmeye başladın..."
 
 msgid "<32>* How does it feel?"
-msgstr ""
+msgstr "<32>* Nasıl hissettiriyor?"
 
 msgid "<32>* It's pretty great, right?"
-msgstr ""
+msgstr "<32>* Oldukça iyi, değil mi?"
 
 msgid "<32>{#p/basic}{#n1}* I hear you're somewhat of a bully in these parts."
 msgstr ""
@@ -4827,30 +4829,38 @@ msgstr ""
 msgid ""
 "<32>{#p/basic}{#n1}* I heard you're quite the romantic around here now."
 msgstr ""
+"<32>{#p/basic}{#n1}* Artık buralarda oldukça romantik olarak tanındığını "
+"duydum."
 
 msgid "<32>* Everyone loves you, huh?"
-msgstr ""
+msgstr "<32>* Herkes seni seviyor, ha?"
 
 msgid "<32>{#p/basic}{#n1}* I heard you're quite the hero around here now."
 msgstr ""
+"<32>{#p/basic}{#n1}* Artık buralarda bir kahraman olarak tanındığını duydum."
 
 msgid "<32>* Everyone likes you, huh?"
-msgstr ""
+msgstr "<32>* Herkes seni takdir ediyor, ha?"
 
 msgid "<32>* Well... personally, I think you have too much free time."
 msgstr ""
+"<32>* Yani... şahsen, senin çok fazla boş vaktin olduğunu düşünüyorum."
 
 msgid ""
 "<32>{#p/basic}{#n1}* What?\n"
 "* Am I wrong?"
 msgstr ""
+"<32>{#p/basic}{#n1}* Ne?\n"
+"* Haksız mıyım?"
 
 msgid ""
 "<32>{#p/basic}{#n1}* So, you're the one who co-hosted that music show, eh?"
 msgstr ""
+"<32>{#p/basic}{#n1}* Demek o müzik şovunun ortak sunuculuğunu yapan sendin, "
+"ha?"
 
 msgid "<32>* Maybe now you'll have the means to accept my offer."
-msgstr ""
+msgstr "<32>* Belki şimdi teklifimi kabul etme imkânına sahipsindir."
 
 msgid ""
 "<32>* I'm just lookin' for someone to buy this limited edition Super "
@@ -4931,7 +4941,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}{#n1}* Back again, huh?"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Yine geri geldin, ha?"
 
 msgid "<32>* Sorry bud, I've got nothin' left to sell."
 msgstr ""
@@ -5002,7 +5012,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>* ... wait, that might actually be kind of cool."
-msgstr ""
+msgstr "<32>* ... dur, aslında bu biraz havalı olabilir."
 
 msgid ""
 "<32>{#p/basic}{#n1}* I'm sad.\n"
@@ -5062,16 +5072,16 @@ msgid "<32>{#p/basic}{#n1}* ... it is what it is."
 msgstr ""
 
 msgid "<32>{#p/human}* (You got the Burnt Pie.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Yanmış Turta'yı aldın.)"
 
 msgid "<32>{#p/human}* (You got the Pie Soup.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Turta Çorbası'nı aldın.)"
 
 msgid "<32>{#p/human}* (You got the Snail Pie.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Salyangozlu Turta'yı aldın.)"
 
 msgid "<32>{#p/human}* (You got the Butterscotch Pie.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Karamelli Turta'yı aldın.)"
 
 msgid "<32>{#p/event}* Ring, ring..."
 msgstr "<32>{#p/event}* Zırr, zırr..."
@@ -5927,7 +5937,7 @@ msgid "<32>* On an unrelated note, we're... l-looking for new workers."
 msgstr "<32>* Konuyla alakasız olarak, y-yeni işçiler arıyoruz."
 
 msgid "<32>{#p/alphys}* The Foundry's fluid network is f-falling apart again."
-msgstr "<32>{#p/alphys}* Dökümhane'nin sıvı şebekesi yine d-dağılıyor."
+msgstr "<32>{#p/alphys}* Dökümhane'nin sıvı şebekesi y-yine dağılıyor."
 
 msgid ""
 "<32>* The workers have promised a short turnaround, but things are looking "
@@ -5938,7 +5948,7 @@ msgstr ""
 
 msgid "<32>* Please, i-if anyone out there can help, we need you..."
 msgstr ""
-"<32>* Lütfen, e-eğer orada yardım edebilecek biri varsa, size ihtiyacımız "
+"<32>* Lütfen, eğer orada y-yardım edebilecek biri varsa, size ihtiyacımız "
 "var..."
 
 msgid "<25>{#p/toriel}{#f/1}* Have you tried checking the terminal?"
@@ -5995,10 +6005,10 @@ msgid "<25>{#f/13}* It's better if they never see me at all."
 msgstr "<25>{#f/13}* Beni asla görmesinler daha iyi."
 
 msgid "<25>{#p/asriel1}{#f/15}* ... what are you doing?"
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/15}* ... ne yapıyorsun?"
 
 msgid "<25>{#f/15}* Are you trying to keep me company?"
-msgstr ""
+msgstr "<25>{#f/15}* Bana eşlik etmeye mi çalışıyorsun?"
 
 msgid "<25>{#f/23}* Frisk..."
 msgstr "<25>{#f/23}* Frisk..."
@@ -6007,43 +6017,49 @@ msgid "<25>{#f/13}* Hey."
 msgstr "<25>{#f/13}* Hey."
 
 msgid "<25>{#f/13}* Let me ask you a question."
-msgstr ""
+msgstr "<25>{#f/13}* Sana bir soru sormama izin ver."
 
 msgid ""
 "<25>{#f/15}* Frisk...\n"
 "* Why did you come here?"
 msgstr ""
+"<25>{#f/15}* Frisk...\n"
+"* Neden buraya geldin?"
 
 msgid "<25>{#f/13}* Everyone knows the story, right...?"
-msgstr ""
+msgstr "<25>{#f/13}* Hikayeyi herkes biliyor, değil mi?"
 
 msgid ""
 "<25>{#f/23}* \"Spacecraft who fly into the Ebott sector are said to "
 "disappear.\""
 msgstr ""
+"<25>{#f/23}* \"Ebott sektörüne uçan uzay mekiklerinin kaybolduğu "
+"söyleniyor.\""
 
 msgid ""
 "<32>{#p/human}* (...)\n"
 "* (You tell Asriel the truth.)"
 msgstr ""
+"<32>{#p/human}* (...)\n"
+"* (Asriel'a gerçeği söylüyorsun.)"
 
 msgid "<25>{#p/asriel1}{#f/25}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/25}* ..."
 
 msgid "<25>{#f/25}* Frisk... you..."
-msgstr ""
+msgstr "<25>{#f/25}* Frisk... sen..."
 
 msgid "<25>{#f/23}* ..."
-msgstr ""
+msgstr "<25>{#f/23}* ..."
 
 msgid "<25>{#f/23}* You don't have to be alone anymore, okay?"
-msgstr ""
+msgstr "<25>{#f/23}* Artık yalnız kalmana gerek yok, tamam mı?"
 
 msgid "<25>{#f/17}* You've made so many wonderful friends here..."
-msgstr ""
+msgstr "<25>{#f/17}* Burada birçok harika arkadaş edindin..."
 
 msgid "<25>{#f/17}* They'll look out for you, okay?"
-msgstr ""
+msgstr "<25>{#f/17}* Onlar sana göz kulak olacaklar, tamam mı?"
 
 msgid "<25>{#f/15}* I know why $(name) flew out here."
 msgstr ""
@@ -6069,167 +6085,183 @@ msgid ""
 "<25>{#p/asriel1}{#f/17}* Frisk, it's okay.\n"
 "* You're not like $(name) at all."
 msgstr ""
+"<25>{#p/asriel1}{#f/17}* Frisk, sorun yok.\n"
+"* Sen hiç $(name) gibi değilsin."
 
 msgid "<25>{#f/15}* In fact, though you have similar, uh, fashion choices..."
-msgstr ""
+msgstr "<25>{#f/15}* Hatta, oldukça benzer, uh, moda tercihleriniz olsa da..."
 
 msgid ""
 "<25>{#f/13}* I don't know why I ever acted like you were the same person."
-msgstr ""
+msgstr "<25>{#f/13}* Neden aynı kişiymişsiniz gibi davrandığımı bilmiyorum."
 
 msgid ""
 "<25>{#f/15}* Maybe...\n"
 "* The truth is..."
 msgstr ""
+"<25>{#f/15}* Belki de...\n"
+"* Gerçek şu ki..."
 
 msgid "<25>{#f/16}* $(name) just wasn't who I wanted them to be."
-msgstr ""
+msgstr "<25>{#f/16}* $(name) benim olmasını istediğim kişi değildi."
 
 msgid "<25>{#f/13}* While, Frisk..."
-msgstr ""
+msgstr "<25>{#f/13}* O sırada, Frisk..."
 
 msgid "<25>{#f/17}* You're the kind of friend I've always wanted to have."
-msgstr ""
+msgstr "<25>{#f/17}* Sen benim hep istediğim türden bir arkadaşsın."
 
 msgid "<25>{#f/20}* So maybe I was kind of projecting a little."
-msgstr ""
+msgstr "<25>{#f/20}* Yani belki de biraz bunu yansıtıyordum."
 
 msgid ""
 "<25>{#f/17}* Let's be honest.\n"
 "* I did some weird stuff as a star."
 msgstr ""
+"<25>{#f/17}* Dürüst olalım.\n"
+"* Yıldız olarak biraz tuhaf şeyler yaptım."
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* There's one last thing I feel like I should tell "
 "you."
 msgstr ""
+"<25>{#p/asriel1}{#f/13}* Söylemem gereken son bir şey daha varmış gibi "
+"hissediyorum."
 
 msgid "<25>{#f/15}* When $(name) and I combined our SOULs together..."
-msgstr ""
+msgstr "<25>{#f/15}* $(name) ve ben RUH'larımızı birleştirdiğimizde..."
 
 msgid "<25>{#f/16}* The control over our body was actually split between us."
 msgstr ""
+"<25>{#f/16}* Bedenimiz üzerindeki kontrol aslında aramızda bölünmüştü."
 
 msgid "<25>{#f/15}* They were the one that picked up their own empty body."
-msgstr ""
+msgstr "<25>{#f/15}* Kendi boş bedenini alıp taşıyan oydu."
 
 msgid "<25>{#f/13}* And then, when we made it to the planet's remains..."
-msgstr ""
+msgstr "<25>{#f/13}* Ve sonra, gezegenin kalıntılarına ulaştığımızda..."
 
 msgid "<25>{#f/13}* They were the one that wanted to..."
-msgstr ""
+msgstr "<25>{#f/13}* Bizim tüm gücümüzü kullanmayı..."
 
 msgid "<25>{#f/16}* ... to use our full power."
-msgstr ""
+msgstr "<25>{#f/16}* ... isteyen kişi oydu."
 
 msgid "<25>{#f/13}* It took everything I had to resist it."
-msgstr ""
+msgstr "<25>{#f/13}* Buna karşı koymak için elimden geldiğince direndim."
 
 msgid "<25>{#f/15}* And then, because of me, we..."
-msgstr ""
+msgstr "<25>{#f/15}* Ve sonra, benim yüzümden, biz..."
 
 msgid "<25>{#f/22}* Well, that's why I ended up the way I did."
-msgstr ""
+msgstr "<25>{#f/22}* İşte, bu yüzden bu hale düştüm."
 
 msgid "<25>{#f/23}* ... Frisk."
-msgstr ""
+msgstr "<25>{#f/23}* ... Frisk."
 
 msgid "<25>{#f/17}* This whole time, I've blamed myself for that decision."
-msgstr ""
+msgstr "<25>{#f/17}* Bunca zamandır, bu karar için hep kendimi suçladım."
 
 msgid "<25>{#f/13}* It's why I adopted that horrible view of the world."
 msgstr ""
+"<25>{#f/13}* Dünyaya karşı bu korkunç bakış açısını benimsememin sebebi bu."
 
 msgid "<25>{#f/13}* \"Kill or be killed.\""
-msgstr ""
+msgstr "<25>{#f/13}* \"Öldür ya da öl.\""
 
 msgid ""
 "<25>{#f/17}* But now...\n"
 "* After meeting you..."
 msgstr ""
+"<25>{#f/17}* Ama şimdi...\n"
+"* Seninle tanıştıktan sonra..."
 
 msgid "<25>{#f/23}* Frisk, I don't regret that decision anymore."
-msgstr ""
+msgstr "<25>{#f/23}* Frisk, artık bu kararımdan pişman değilim."
 
 msgid "<25>{#f/22}* I did the right thing."
-msgstr ""
+msgstr "<25>{#f/22}* Ben doğru olanı yaptım."
 
 msgid "<25>{#f/13}* If we'd killed those humans..."
-msgstr ""
+msgstr "<25>{#f/13}* Eğer o insanları öldürmüş olsaydık..."
 
 msgid "<25>{#f/15}* We would have had to wage war against all of humanity."
-msgstr ""
+msgstr "<25>{#f/15}* Bütün insanlığa karşı savaş açmak zorunda kalacaktık."
 
 msgid "<25>{#f/17}* And in the end, everyone went free, right?"
-msgstr ""
+msgstr "<25>{#f/17}* Ve işin sonunda herkes özgürlüğüne kavuştu, değil mi?"
 
 msgid "<25>{#f/17}* Even the others who came here made it out alive."
-msgstr ""
+msgstr "<25>{#f/17}* Buraya gelen diğerleri bile sağ çıkmayı başardı."
 
 msgid "<25>{#f/15}* But, $(name)..."
-msgstr ""
+msgstr "<25>{#f/15}* Ama, $(name)..."
 
 msgid ""
 "<25>{#f/16}* ... I can't say for certain what happened to them after we "
 "died."
 msgstr ""
+"<25>{#f/16}* ... Biz öldükten sonra ona ne olduğunu kesin olarak söyleyemem."
 
 msgid "<25>{#f/15}* Nothing was ever found... not even their SOUL."
-msgstr ""
+msgstr "<25>{#f/15}* Ona ait hiçbir şey bulunamadı... RUH'u bile."
 
 msgid ""
 "<25>{#f/15}* So... I can't help but wonder if they're... still out there."
 msgstr ""
+"<25>{#f/15}* Yani... Acaba hala orada mı diye... merak etmeden duramıyorum."
 
 msgid "<25>{#p/asriel1}{#f/17}* Frisk, thank you for listening to me."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/17}* Frisk, beni dinlediğin için teşekkür ederim."
 
 msgid "<25>{#f/17}* You should really go be with your friends now, okay?"
 msgstr ""
+"<25>{#f/17}* Artık gerçekten arkadaşlarının yanına gitmelisin, tamam mı?"
 
 msgid "<25>{#f/13}* Oh, and, please..."
-msgstr ""
+msgstr "<25>{#f/13}* Ah, ve, lütfen..."
 
 msgid "<25>{#f/20}* In the future, if you, uh, see me..."
-msgstr ""
+msgstr "<25>{#f/20}* Eğer gelecekte, şey, uh, beni görürsen..."
 
 msgid "<25>{#f/15}* ... don't think of it as me, okay?"
-msgstr ""
+msgstr "<25>{#f/15}* ... benmişim gibi düşünme, tamam mı?"
 
 msgid "<25>{#f/16}* I just want you to remember me like... this."
-msgstr ""
+msgstr "<25>{#f/16}* Beni sadece... böyle hatırlamanı istiyorum."
 
 msgid "<25>{#f/17}* Someone that was your friend for a little while."
-msgstr ""
+msgstr "<25>{#f/17}* Kısa bir süreliğine arkadaşın olan biri."
 
 msgid "<32>{|}{#p/human}* (You tell Asriel you really- {%}"
-msgstr ""
+msgstr "<32>{|}{#p/human}* (Asriel'a onu gerçekten- {%}"
 
 msgid "<25>{#p/asriel1}{#f/23}* Frisk, it's okay."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/23}* Frisk, sorun değil."
 
 msgid "<25>{#f/22}* You don't have to save everyone to be a good person."
-msgstr ""
+msgstr "<25>{#f/22}* İyi biri olmak için herkesi kurtarmana gerek yok."
 
 msgid "<25>{#f/13}* Besides... even if I could keep this form..."
-msgstr ""
+msgstr "<25>{#f/13}* Ayrıca... bu formumu koruyabilecek olsaydım bile..."
 
 msgid ""
 "<25>{#f/15}* I don't know if I could move on from what happened in the past."
 msgstr ""
+"<25>{#f/15}* Geçmişte olanların üstesinden gelebilir miydim bilmiyorum."
 
 msgid ""
 "<25>{#f/17}* ... just promise me you'll take care of yourself, alright?"
-msgstr ""
+msgstr "<25>{#f/17}* ... bana sadece kendine iyi bakacağına söz ver, olur mu?"
 
 msgid "<25>{#f/15}* Well, see you."
-msgstr ""
+msgstr "<25>{#f/15}* Öyleyse, görüşmek üzere."
 
 msgid "<25>{#p/asriel1}{#f/13}* Frisk..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/13}* Frisk..."
 
 msgid "<25>{#f/15}* Don't you have anything better to do?"
-msgstr ""
+msgstr "<25>{#f/15}* Yapacak daha iyi bir şeyin yok mu?"
 
 msgid ""
 "<33>{#p/basic}* There is a security field here.\n"
@@ -8307,35 +8339,35 @@ msgid ""
 "<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n"
 "* Life is difficult for this monster."
 msgstr ""
-"<32>{#p/story}* FROGGIT - SAL 4 SAV 5\n"
+"<32>{#p/story}* FROGGİT - SAL 4 SAV 5\n"
 "* Hayat bu canavar için zor."
 
 msgid ""
 "<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n"
 "* Life is getting better for this monster."
 msgstr ""
-"<32>{#p/story}* FROGGIT - SAL 4 SAV 5\n"
+"<32>{#p/story}* FROGGİT - SAL 4 SAV 5\n"
 "* Hayat bu canavar için iyiye gidiyor."
 
 msgid ""
 "<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n"
 "* Life just doesn't seem to get easier for this monster."
 msgstr ""
-"<32>{#p/story}* FROGGIT - SAL 4 SAV 5\n"
+"<32>{#p/story}* FROGGİT - SAL 4 SAV 5\n"
 "* Hayat bu canavarın yüzüne hiç gülmüyor gibi."
 
 msgid ""
 "<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n"
 "* Life is very confusing for this monster."
 msgstr ""
-"<32>{#p/story}* FROGGIT - SAL 4 SAV 5\n"
+"<32>{#p/story}* FROGGİT - SAL 4 SAV 5\n"
 "* Hayat bu canavar için çok kafa karıştırıcı."
 
 msgid ""
 "<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n"
 "* Life seems to be very lovely for this monster."
 msgstr ""
-"<32>{#p/story}* FROGGIT - SAL 4 SAV 5\n"
+"<32>{#p/story}* FROGGİT - SAL 4 SAV 5\n"
 "* Hayat bu canavar için sevgi dolu."
 
 msgid "<32>{#p/human}* (You threaten Froggit.)"
@@ -8368,7 +8400,7 @@ msgid ""
 "* (Froggit seems to understand you now.)"
 msgstr ""
 "<32>{#p/human}* (Söylediklerini tercüme ettin.)\n"
-"* (Froggit artık seni anlayabiliyor.)"
+"* (Froggit artık seni anlıyor.)"
 
 msgid "<32>{#p/basic}* Froggit is flattered."
 msgstr "<32>{#p/basic}* Froggit pohpohlandı."
@@ -8383,7 +8415,7 @@ msgid "<32>{#p/basic}* Froggit shows no sign of fear."
 msgstr "<32>{#p/basic}* Froggit korku belirtisi göstermiyor."
 
 msgid "<32>{#p/basic}* Froggit is blushing, if only on the inside."
-msgstr "<32>{#p/basic}* Froggit'in yanakları kızardı, en azından içinde öyle."
+msgstr "<32>{#p/basic}* Froggit dışına yansıtmasa da, içten içe kızarıyor."
 
 msgid "<08>{#p/basic}{~}Ribbit, ribbit?"
 msgstr "<08>{#p/basic}{~}Vırak, Vırak?"
@@ -8642,14 +8674,14 @@ msgid ""
 "<32>{#p/story}* SILENTE - ATK 7 DEF 5\n"
 "* It seems evil, but it's just with the wrong crowd..."
 msgstr ""
-"<32>{#p/story}* SILENTE - SAL 7 SAV 5\n"
+"<32>{#p/story}* SİLENTE - SAL 7 SAV 5\n"
 "* Kötü görünebilir, ama sadece yanlış kişilerle birlikte..."
 
 msgid ""
 "<33>{#p/story}* SILENTE - ATK 7 DEF 5\n"
 "* Now alone, it joyfully expresses itself through dance."
 msgstr ""
-"<33>{#p/story}* SILENTE - SAL 7 SAV 5\n"
+"<33>{#p/story}* SİLENTE - SAL 7 SAV 5\n"
 "* Şimdi yalnız, ve neşeyle dans ederek kendisini gösteriyor."
 
 msgid ""
@@ -8657,7 +8689,7 @@ msgid ""
 "* It seems comfortable with you.\n"
 "* VERY comfortable."
 msgstr ""
-"<32>{#p/story}* SILENTE - SAL 7 SAV 5\n"
+"<32>{#p/story}* SİLENTE - SAL 7 SAV 5\n"
 "* Seninle birlikteyken rahat hissediyor.\n"
 "* FAZLA rahat."
 
@@ -8665,7 +8697,7 @@ msgid ""
 "<32>{#p/story}* SILENTE - ATK 7 DEF 5\n"
 "* Despite its tough act, it's clearly in pain..."
 msgstr ""
-"<32>{#p/story}* SILENTE - SAL 7 SAV 5\n"
+"<32>{#p/story}* SİLENTE - SAL 7 SAV 5\n"
 "* Sert durmasına rağmen, acı içinde olduğu bariz..."
 
 msgid "<32>{#p/human}* (You flirt with Silente.)"
