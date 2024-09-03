@@ -939,7 +939,7 @@ export default {
       heal4: '* (CAN\'ın tamamen sıfırlandı.)',
       heal5: '* ($(x) CAN kazandın.)',
 
-      item1: '\xa7stretch=0.5\xa7KULLAN',
+      item1: 'KULLAN',
       item2: 'KUŞAN',
       item3: 'BİLGİ',
       item4: 'BIRAK',
@@ -1000,7 +1000,7 @@ export default {
       stat4: 'ZIRH',
       stat5: 'ALTIN',
       stat6: 'EXP',
-      stat7: '\xa7stretch=0.5\xa7SONRAKİ',
+      stat7: 'SONRAKİ',
       stat8: '§fill=#ff0§Uyarı:\nAsıl zaman\nçizelgesi\ndeğil.',
       stat9: 'ÖLEN',
       stat10: 'ZORBA',

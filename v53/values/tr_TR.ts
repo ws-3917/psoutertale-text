@@ -15,7 +15,7 @@ export default {
    itemInfoX_equip: 0,
    itemInfoX_use: 0,
    itemDropX_equip: 0,
-   itemDropX_use: 0,
+   itemDropX_use: 15,
    loadContinueX: 0,
    loadLVX: 0,
    loadObserveX: 0,
@@ -249,7 +249,7 @@ export default {
    saveReturnX: 0,
    saveSaveX: 0,
    settingsHeaderX: 0,
-   statBoxSizeX: 0,
+   statBoxSizeX: 24,
    textFormat(text: string, length = Infinity, plain = false) {
       let output = '';
       const raw = CosmosTyper.strip(text);
