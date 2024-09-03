@@ -22849,7 +22849,7 @@ msgstr ""
 "就到這裡的啊？"
 
 msgid "<25>{#p/undyne}{#f/17}* I ran."
-msgstr ""
+msgstr "<25>{#p/undyne}{#f/17}* 我跑過來的。"
 
 msgid ""
 "<18>{#p/papyrus}{#f/1}WHAT??\n"
