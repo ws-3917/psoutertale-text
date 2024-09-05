@@ -7489,7 +7489,7 @@ export default {
          description: 'The things you can do with a college education!',
          name: 'Temmie盔甲'
       },
-      drop: [ '<32>{#p/human}* （你把提米盔甲扔掉了。）' ],
+      drop: [ '<32>{#p/human}* （你把Temmie盔甲扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （10攻击，20防御。）' ]
@@ -7502,7 +7502,7 @@ export default {
                  '<32>* 它有一切其他物品的功效，\n  并更加强大。'
               ],
       name: 'Temmie盔甲',
-      use: [ '<32>{#p/human}* （你穿上了提米盔甲。）' ]
+      use: [ '<32>{#p/human}* （你穿上了Temmie盔甲。）' ]
    },
    i_boots: {
       battle: {
@@ -7644,7 +7644,7 @@ export default {
                     '<32>{#k/1}* tem盔甲太太吼了！\n* 任何战斗都变哒！\n* 炒鸡容易胜利！！！',
                     '<32>{#k/4}* 但，哼嗯嗯嗯，tem想...\n* 如果尼用了盔甲，\n  战斗就卜再有挑战性了，',
                     '<32>{#k/3}* 但tem...\n* 有一个姐决番案。',
-                    '<32>{#k/6}* 提米会提供...\n* 一份{@fill=#ff0}奖鞋金{@fill=#fff}！',
+                    '<32>{#k/6}* tem会提供...\n* 一份{@fill=#ff0}奖鞋金{@fill=#fff}！',
                     '<32>{#k/3}* 如果尼{@fill=#ff0}输了好多战斗{@fill=#fff}，\n  tem就费{@fill=#ff0}降低价格{@fill=#fff}！',
                     ...(armorprice() <= 1000
                        ? [
@@ -7652,7 +7652,7 @@ export default {
                             '<32>{#k/6}* Congra-tem-lations!!!'
                          ]
                        : [
-                            '<32>{#k/3}* 所以如果你陷入了吼难的\n  战逗中觉得好灰森啊，\n  那你就可以买下提米盔甲\n  作为你的救命稻草！',
+                            '<32>{#k/3}* 所以如果你陷入了吼难的\n  战逗中觉得好灰森啊，\n  那你就可以买下TEM盔甲\n  作为你的救命稻草！',
                             '<32>{#k/5}* 但tem盔甲太吼了，\n* 答应窝一定在真的需要的\n  时候才买吼，'
                          ])
                  ]
@@ -7683,7 +7683,7 @@ export default {
          '<32>{#k/6}* 好哒！！！！\n* tem要去上大鞋然后\n  让尼感到骄傲！！！'
       ],
       colleg2: [
-         '<32>{#p/tem}* 提米从大鞋回来了，',
+         '<32>{#p/tem}* tem从大鞋回来了，',
          '<32>{#k/0}* tem学会啦好多东东，\n* 学会卖新道具辣！\n* 嚎吖！！！'
       ],
       sellExit: '离开',

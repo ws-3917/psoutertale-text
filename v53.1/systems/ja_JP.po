@@ -2018,7 +2018,7 @@ msgid "Medi0creking & MattSpriteMaster"
 msgstr "Medi0creking & MattSpriteMaster"
 
 msgid "[↑ or ↓] to Select / [Z or ENTER] to Confirm"
-msgstr "[↑ / ↓]で　せんたく / [Z or ENTER]で　けってい"
+msgstr "[↑ / ↓]で　せんたく / [Z / ENTER]で　けってい"
 
 msgid ""
 "To whom it may concern,\n"
@@ -2463,7 +2463,7 @@ msgid "CELL"
 msgstr "PHONE"
 
 msgid "CONF"
-msgstr "CONF"
+msgstr "SETT"
 
 msgid "--- Instruction ---"
 msgstr "― ボタンそうさ ―"

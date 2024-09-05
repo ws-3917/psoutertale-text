@@ -1457,72 +1457,72 @@ export default {
                  ]
                : world.bad_robot
                ? [
-                    "<32>{#p/mettaton}* YOU'RE LATE, DARLING...",
-                    "<32>{#p/mettaton}* MAYBE IF YOU'D STOPPED KILLING PEOPLE, THAT WOULDN'T BE A PROBLEM."
+                    "<32>{#p/mettaton}* 你迟到了，亲爱的...",
+                    "<32>{#p/mettaton}* 要是你不再杀人，\n  那不成问题的。"
                  ]
                : [ '<32>{#p/mettaton}* SALUTATIONS, HUMAN.', "<32>* YOU'RE JUST A FEW MOMENTS EARLY FOR THE SHOW." ],
          moneyPre2: () =>
             iFancyYourVilliany()
                ? [ '<32>* ... STILL, DO YOU HAVE WHAT IT TAKES TO KEEP THIS UP?' ]
-               : [ '<32>* ... WOULD YOU MIND MOVING STAGE LEFT FOR ME?' ],
+               : [ '<32>* ...我说，\n  你介意移到舞台左侧吗？' ],
          moneyPre3: () => [
             ...(iFancyYourVilliany()
                ? [ "<32>{#p/mettaton}* WELL, FOR NOW, I'LL NEED YOU TO MOVE LEFT OF THE STAGE." ]
                : []),
-            '<32>* YOU CAN COME BACK INTO FRAME WHEN I CALL OUT FOR YOU.'
+            '<32>* 我叫你时你再回到画面中来。'
          ],
-         moneyPre4: [ '<32>{#p/basic}* A few moments later...' ],
+         moneyPre4: [ '<32>{#p/basic}* 过了一会儿...' ],
          moneyIntro1: [
-            "<32>{#p/mettaton}* FOLKS, TODAY WE'RE GOING TO DO SOMETHING A LITTLE DIFFERENT.",
-            '<32>{#z2}* WELCOME, ONE AND ALL...',
-            '<32>{*}{#z0}* TO {#x1}TIME!{^10}\n* {#x2}VERSUS!{^10}\n* {#x3}MONEY!{^30}{%}'
+            "<32>{#p/mettaton}* 伙计们，\n  今天我们要做点不一样的事。",
+            '<32>{#z2}* 欢迎各位来到...',
+            '<32>{*}{#z0}* {#x1}特别节目：{^10}\n* {#x2}时过！{^10}\n* {#x3}{@fill=#ff0}金{@fill=#fff}迁！{^30}{%}'
          ],
-         moneyIntro2: [ "<32>{#p/mettaton}{#z1}* LET'S GIVE A WARM WELCOME TO OUR CONTESTANTS..." ],
+         moneyIntro2: [ "<32>{#p/mettaton}{#z1}* 让我们热烈欢迎选手们..." ],
          moneyIntro3a: () =>
             iRespeccYourVilliany()
-               ? [ '<32>{#p/mettaton}{#z0}* UNDYNE, CAPTAIN OF THE GUARD!' ]
-               : [ '<32>{#p/mettaton}{#z0}* SANS THE SKELETON!' ],
+               ? [ '<32>{#p/mettaton}{#z0}* 卫队队长，安黛因！' ]
+               : [ '<32>{#p/mettaton}{#z0}* 骷髅衫斯！' ],
          moneyIntro3b: () =>
             iRespeccYourVilliany()
                ? [ '<25>{#p/undyne}{#f/1}* Right on!' ]
                : world.dead_skeleton
                ? [
-                    '<25>{#p/sans}{#g/sansWink}* this is just about the only good thing to happen to me today.',
-                    '<25>* if you could even call it a good thing.'
+                    '<25>{#p/sans}{#g/sansWink}* 这大概是我今天\n  唯一的好事了。',
+                    '<25>* 如果这能\n  称之为好事的话。'
                  ]
                : [ '<25>{#p/sans}{#g/sansWink}* loving the pre-recorded applause you got there.' ],
-         moneyIntro4a: [ '<32>{#p/mettaton}* NAPSTABLOOK!' ],
+         moneyIntro4a: [ '<32>{#p/mettaton}* 纳普斯特！' ],
          moneyIntro4b: () =>
             iRespeccYourVilliany()
                ? [ "<32>{#p/napstablook}* you don't always have to use the same applause..." ]
                : alphysPhoneDisplay() && SAVE.data.n.state_foundry_undyne === 1
-               ? [ '<32>{#p/napstablook}* hi everyone' ]
-               : [ '<32>{#p/napstablook}* hi everyone...' ],
+               ? [ '<32>{#p/napstablook}* 大家好' ]
+               : [ '<32>{#p/napstablook}* 大家好...' ],
          moneyIntro5a: () =>
-            iFancyYourVilliany() ? [ '<32>{#p/mettaton}* $(moniker1u)!' ] : [ '<32>{#p/mettaton}* THE ENIGMATIC HUMAN!' ],
-         moneyIntro6a: [ '<32>{#p/mettaton}* AND... SOME RANDOM KID!' ],
+            iFancyYourVilliany() ? [ '<32>{#p/mettaton}* $(moniker1u)!' ] : [ '<32>{#p/mettaton}* 神秘的人类！' ],
+         moneyIntro6a: [ '<32>{#p/mettaton}* 以及... 随便找的小孩！' ],
          moneyIntro6b: () =>
             SAVE.data.b.f_state_kidd_betray ? [ '<25>{#p/kidd}{#f/3}* Hey, guys.' ] : [ '<25>{#p/kidd}{#f/1}* YO!' ],
          moneyIntro7: [
             '<32>{#p/mettaton}{#z0}* THANK YOU ALL SO MUCH FOR COMING!',
-            "<32>{#z2}* WHY DON'T YOU SHARE A LITTLE ABOUT YOURSELVES, HMM?"
+            "<32>{#z2}* 为什么不来谈谈你们自己呢，\n  嗯？"
          ],
          moneyIntro8: [
             '<32>{#p/mettaton}{#z0}* ...',
             '<32>{#z1}* ...',
-            "<32>* MY CONTESTANT DOESN'T SEEM TO BE SHOWING UP.",
+            "<32>* 我的选手好像不来了。",
             '<32>* ...',
-            '<32>* THIS IS GOING TO BE A PROBLEM.',
+            '<32>* 这将是一个问题。',
             '<32>* ...',
-            '<32>{#z2}* WOULD ANYONE ELSE LIKE TO PLAY IN THEIR PLACE?',
-            '<32>* ANYONE AT ALL?'
+            '<32>{#z2}* 有人想顶替那人吗？',
+            '<32>* 有人吗？'
          ],
-         moneyIntro9: [ '<32>{#p/tem}* hOI!!\n* im temmie!!!' ],
+         moneyIntro9: [ '<32>{#p/tem}* 你吼！！\n* 我素提米！！！' ],
          moneyIntro10: [
             '<32>{#p/mettaton}{#z5}* A SURPRISE GUEST!?!?\n* WOW, THIS SHOW GETS CRAZIER BY THE SECOND!',
             '<32>{#p/mettaton}{#z2}* THEY DO APPEAR TO BE FACING THE WRONG WAY, BUT... OH WELL.'
          ],
-         moneyIntro11: [ '<32>{#p/mettaton}{#z1}* NEW FACES ASIDE...' ],
+         moneyIntro11: [ '<32>{#p/mettaton}{#z1}* 新面孔除外...' ],
          moneyChat1: () =>
             iRespeccYourVilliany()
                ? [
@@ -1533,7 +1533,7 @@ export default {
                     '<25>{#p/undyne}{#f/16}* Actually, I only really came for one reason.'
                  ]
                : world.dead_skeleton
-               ? [ '<25>{#p/sans}{#g/sansNormal}* heya.' ]
+               ? [ '<25>{#p/sans}{#g/sansNormal}* 你好啊。' ]
                : [
                     '<25>{#p/sans}{#g/sansLaugh2}* oh, heheh...',
                     "<25>{#g/sansNormal}* i'm sans.\n* sans the skeleton.",
@@ -1545,13 +1545,13 @@ export default {
             iRespeccYourVilliany()
                ? [ "<32>{#p/mettaton}* AND WHAT'S THAT?" ]
                : world.dead_skeleton
-               ? [ '<32>{#p/mettaton}* ANYTHING ELSE?' ]
+               ? [ '<32>{#p/mettaton}* 还有吗？' ]
                : [ '<32>{#p/mettaton}* GOT ANY OF YOUR LAME JOKES FOR US TODAY?' ],
          moneyChat1b: () =>
             iRespeccYourVilliany()
                ? [ '<25>{#p/undyne}{#f/8}* To see $(moniker1), of course!\n* Fuhuhu!' ]
                : world.dead_skeleton
-               ? [ '<25>{#p/sans}{#g/sansNormal}* nope.' ]
+               ? [ '<25>{#p/sans}{#g/sansNormal}* 没了。' ]
                : [
                     "<25>{#p/sans}{#g/sansLaugh1}* 蹩脚？\n* 哇塞，镁塔顿，你还有脸\n  对我说教？",
                     "<25>{#g/sansBlink}* 不要再如玩游戏般乱闹。\n* 你的所有电视节目主持都是\n  一个样貌。",
@@ -1563,9 +1563,9 @@ export default {
             iRespeccYourVilliany()
                ? [ '<32>{#p/mettaton}* RIGHT.' ]
                : world.dead_skeleton
-               ? [ "<32>{#p/mettaton}* SOMEONE'S NOT FEELING THEMSELVES TODAY, EH?" ]
+               ? [ "<32>{#p/mettaton}* 有人今天不舒服，是吗？" ]
                : [ '<32>{#p/mettaton}* VERY FUNNY.' ],
-         moneyChat2: [ '<32>{#p/napstablook}* is it... my turn to talk...' ],
+         moneyChat2: [ '<32>{#p/napstablook}* 轮到... 我讲了吗...' ],
          moneyChat2a: () =>
             iRespeccYourVilliany()
                ? [ "<25>{#p/undyne}{#f/14}* It's certainly not mine anymore, is it?" ]
@@ -1576,7 +1576,7 @@ export default {
             iRespeccYourVilliany()
                ? '<32>{#p/napstablook}* 哦...\n* 嗨......'
                : world.dead_skeleton
-               ? "<32>{#p/napstablook}* it is, isn't it........."
+               ? "<32>{#p/napstablook}* 看来，是的........."
                : '<32>{#p/napstablook}* 嗯.........\n* 大家好............',
             ...(world.scared_ghost
                ? [ "<32>* ............我叫纳普斯特。" ]
@@ -1597,18 +1597,18 @@ export default {
             world.scared_ghost
                ? [ '<32>{#p/mettaton}{#z0}* ... OKAY...' ]
                : [
-                    "<32>{#p/mettaton}{#z0}* THAT'S ALRIGHT, BLOOKY...",
-                    "<32>* WE ALL GET NERVOUS SOMETIMES, DON'T WE, COUS-",
-                    '<32>{#z2}* ER... CUISINE!\n* BECAUSE THIS OPPORTUNITY SURE IS A TASTY ONE!',
-                    '<32>{#z4}* HAHAHA...'
+                    "<32>{#p/mettaton}{#z0}* 没关系，小幽...",
+                    "<32>* 我们都有紧张的时候，\n  不是吗，表-",
+                    '<32>{#z2}* 额... 宝贵！\n* 因为这次机会确实很难得！',
+                    '<32>{#z4}* 哈哈哈...'
                  ],
          moneyChat3: () =>
             world.scared_ghost
-               ? [ "<32>{#p/napstablook}* it's your turn.", "<32>{#p/human}* (But you didn't have anything to say.)" ]
+               ? [ "<32>{#p/napstablook}* it's your turn.", "<32>{#p/human}* (但你无话可说。)" ]
                : [
-                    '<32>{#p/napstablook}* uh......',
-                    '<32>* you can talk now?',
-                    "<32>{#p/human}* (But you didn't have anything to say.)"
+                    '<32>{#p/napstablook}* 呃......',
+                    '<32>* 你可以开始讲了？',
+                    "<32>{#p/human}* (但你无话可说。)"
                  ],
          moneyChat3a: () =>
             iFancyYourVilliany()
@@ -1617,11 +1617,11 @@ export default {
                     '<32>{#p/mettaton}* THE BIGGER THE TALK, THE SMALLER THE ACTION!',
                     "<32>{#p/mettaton}* IT'S NO SURPRISE THIS BULLY OF BULLIES WOULD BE SO RELUCTANT TO PART WITH THEIR WORDS."
                  ]
-               : [ '<32>{#p/mettaton}* THE \"ENIGMATIC HUMAN\" SURE IS LIVING UP TO THEIR TITLE.' ],
+               : [ '<32>{#p/mettaton}* “神秘的人类”果然名副其实。' ],
          moneyChat4: () =>
             SAVE.data.n.state_foundry_muffet === 1
                ? SAVE.data.b.colleg
-                  ? [ '<32>{#p/tem}* tem... went to cool leg,' ]
+                  ? [ '<32>{#p/tem}* 提咪... 去了大鞋,' ]
                   : [ '<32>{#p/tem}* tem... on TV!!' ]
                : [
                     '<25>{#p/kidd}{#f/1}* Haha, I guess so.',
@@ -1642,99 +1642,99 @@ export default {
                  ],
          moneyChat4a: () =>
             SAVE.data.n.state_foundry_muffet === 1
-               ? [ '<32>{#p/mettaton}* AND...?' ]
+               ? [ '<32>{#p/mettaton}* 然后呢...?' ]
                : [ "<32>{#p/mettaton}* WAIT, THAT'S YOUR ACTUAL NAME?" ],
          moneyChat4b: () =>
             SAVE.data.n.state_foundry_muffet === 1
                ? SAVE.data.b.colleg
-                  ? [ '<32>{#p/tem}* tem know ALL PRICES!!' ]
+                  ? [ '<32>{#p/tem}* 提咪知道了所有的标价！！' ]
                   : [ '<32>{#p/tem}* tem... love to be on TV!!' ]
                : SAVE.data.b.f_state_kidd_betray
                ? [ '<25>{#p/kidd}{#f/4}* ...' ]
                : [ "<25>{#p/kidd}{#f/1}* Why wouldn't it be?" ],
-         moneyChat4c1: [ '<32>{#p/mettaton}* HUH...' ],
+         moneyChat4c1: [ '<32>{#p/mettaton}* 额...' ],
          moneyChat5: () =>
             SAVE.data.n.state_foundry_muffet === 1
-               ? [ '<32>{#p/mettaton}* WELL, I GUESS THAT WRAPS UP OUR INTRODUCTIONS.' ]
+               ? [ '<32>{#p/mettaton}* 好了，\n  我想我们的介绍圆满结束了。' ]
                : [ '<32>{#p/mettaton}* HEH. I THINK THAT WRAPS UP OUR INTRODUCTIONS QUITE NICELY.' ],
          moneyTr1: [
-            '<32>* SO. THIS GAME IS ALL ABOUT VALUE.',
-            "<32>* TODAY, WE'VE GOT A TRIO OF RARE EARTH ARTIFACTS...",
-            "<32>* IT'S UP TO YOU CONTESTANTS TO DETERMINE THEIR EXACT COST!",
-            '<32>* WHOEVER GUESSES THE CLOSEST -WITHOUT GOING OVER- GETS TO TAKE IT HOME!'
+            '<32>* 是这样，\n  这个游戏是关于价格的。',
+            "<32>* 今天，我们有三件\n  稀有的地球文物。",
+            "<32>* 将由你们选手来推敲\n  它们的确切价格！",
+            '<32>* 猜得最接近【且不超过】的人\n  就能把它带回家!'
          ],
-         moneyTr2: [ "<32>{*}* LET'S PLAY..." ],
-         moneyTr3: [ '<32>{*}* {#x1}TIME!{^10}\n* {#x2}VERSUS!{^10}\n* {#x3}MONEY!{^30}{%}' ],
+         moneyTr2: [ "<32>{*}* 我宣布..." ],
+         moneyTr3: [ '<32>{*}* {#x1}时过！{^10}\n* {#x2}{@fill=#ff0}金{@fill=#fff}迁！{^10}\n* {#x3}正式开始！{^30}{%}' ],
          moneyHelper: '* Use left and right to adjust,\nthen confirm with [Z]. §fill=#ff0§$(x)G',
          moneyHelperConfirmed: '* Use left and right to adjust,\nthen confirm with [Z]. §fill=#f00§$(x)G',
          moneyItem1: {
             a: [
-               '<32>{#p/mettaton}* OUR FIRST ITEM TODAY IS SOMETHING I FOUND RATHER RECENTLY...',
-               '<32>* ON EARTH, THIS DEVICE WAS USED TO RECEIVE TRANSMISSIONS ON SO-CALLED \"RADIO STATIONS.\"',
-               "<32>* NEWS, WEATHER, MUSIC...\n* EVEN GAME SHOWS LIKE THE ONE YOU'RE ON RIGHT NOW!",
-               "<32>* LET'S SEE IF ANYONE HERE KNOWS THEIR TECH."
+               '<32>{#p/mettaton}* 我们的第一件物品\n  是我最近找着的...',
+               '<32>* 在地球上，这个装置被用来接收\n  所谓的“无线电台”的播送内容。',
+               "<32>* 包括新闻，天气，音乐...\n* 甚至是你现在正参加的游戏节目！",
+               "<32>* 看看这里有没有人懂这种设备。"
             ],
             b: [
-               "<32>{#p/mettaton}* EVERYONE'S DECIDED, THEN?",
-               '<32>* SPLENDID!',
-               "<32>* NOW, LET'S REVEAL THE PRICE..."
+               "<32>{#p/mettaton}* 那么，大家都决定好了？",
+               '<32>* 好极了！',
+               "<32>* 现在，让我们揭晓一下价格..."
             ],
             c: [ '<32>{#p/mettaton}* 80G！' ],
             d: () =>
                SAVE.data.n.state_foundry_muffet === 1 && SAVE.data.b.colleg
                   ? [
-                       "<32>{#p/mettaton}* CONGRATULATIONS, TEMMIE.\n* YOU'VE WON YOUR VERY OWN OLD EARTH RADIO!",
-                       '<32>{#p/tem}* uwawawawah.....'
+                       "<32>{#p/mettaton}* 恭喜你，提米。\n* 你赢得了属于你自己的\n  老式地球收音机！",
+                       '<32>{#p/tem}* 呜哇哦哇哦哇哦.....'
                     ]
                   : [
-                       "<32>{#p/mettaton}* CONGRATULATIONS, BLOOKY.\n* YOU'VE WON YOUR VERY OWN OLD EARTH RADIO!",
-                       world.scared_ghost ? '<32>{#p/napstablook}* cool' : '<32>{#p/napstablook}* oooooooooooooooo'
+                       "<32>{#p/mettaton}* 恭喜你，小幽。\n* 你赢得了属于你自己的\n  老式地球收音机！",
+                       world.scared_ghost ? '<32>{#p/napstablook}* 酷' : '<32>{#p/napstablook}* 唔唔唔唔唔唔唔'
                     ],
             e: () =>
                iFancyYourVilliany()
                   ? [ "<32>{#p/mettaton}* WELL PLAYED, $(moniker3u).\n* YOU'VE WON YOUR VERY OWN OLD EARTH RADIO!" ]
-                  : [ "<32>{#p/mettaton}* CONGRATULATIONS, HUMAN.\n* YOU'VE WON YOUR VERY OWN OLD EARTH RADIO!" ],
+                  : [ "<32>{#p/mettaton}* 恭喜你，人类。\n* 你赢得了属于你自己的\n  老式地球收音机！" ],
             f: () =>
                SAVE.data.n.state_foundry_muffet === 1 && SAVE.data.b.colleg
                   ? [
                        iFancyYourVilliany()
                           ? '<32>{#p/mettaton}* TEMMIE, SINCE YOU GUESSED BEFORE $(moniker3u)...'
-                          : '<32>{#p/mettaton}* TEMMIE, SINCE YOU GUESSED BEFORE THE HUMAN...',
-                       "<32>* CONGRATULATIONS!\n* YOU'VE WON YOUR VERY OWN OLD EARTH RADIO!",
-                       '<32>{#p/tem}* uwawawawah.....'
+                          : '<32>{#p/mettaton}* 提米，由于你比人类早猜中...',
+                       "<32>{#p/mettaton}* 恭喜!\n* 你赢得了属于你自己的\n  老式地球收音机！",
+                       '<32>{#p/tem}* 呜哇哦哇哦哇哦.....'
                     ]
                   : [
                        iFancyYourVilliany()
                           ? '<32>{#p/mettaton}* BLOOKY, SINCE YOU GUESSED BEFORE $(moniker3u)...'
-                          : '<32>{#p/mettaton}* BLOOKY, SINCE YOU GUESSED BEFORE THE HUMAN...',
-                       "<32>* CONGRATULATIONS!\n* YOU'VE WON YOUR VERY OWN OLD EARTH RADIO!",
-                       world.scared_ghost ? '<32>{#p/napstablook}* cool' : '<32>{#p/napstablook}* oooooooooooooooo'
+                          : '<32>{#p/mettaton}* 小幽，由于你比人类早猜中...',
+                       "<32>{#p/mettaton}* 恭喜!\n* 你赢得了属于你自己的\n  老式地球收音机！",
+                       world.scared_ghost ? '<32>{#p/napstablook}* 酷' : '<32>{#p/napstablook}* 唔唔唔唔唔唔唔'
                     ],
             g: () => [
                SAVE.data.n.state_foundry_muffet === 1 && SAVE.data.b.colleg
                   ? iFancyYourVilliany()
                      ? '<32>{#p/mettaton}* WELL PLAYED, $(moniker3u).\n* SINCE YOU GUESSED BEFORE TEMMIE...'
-                     : '<32>{#p/mettaton}* HUMAN, SINCE YOU GUESSED BEFORE TEMMIE...'
+                     : '<32>{#p/mettaton}* 人类，由于你比提米早猜中...'
                   : iFancyYourVilliany()
                   ? '<32>{#p/mettaton}* WELL PLAYED, $(moniker3u).\n* SINCE YOU GUESSED BEFORE BLOOKY...'
-                  : '<32>{#p/mettaton}* HUMAN, SINCE YOU GUESSED BEFORE BLOOKY...',
-               "<32>* CONGRATULATIONS!\n* YOU'VE WON YOUR VERY OWN OLD EARTH RADIO!"
+                  : '<32>{#p/mettaton}* 人类，由于你比小幽早猜中...',
+               "<32>{#p/mettaton}* 恭喜!\n* 你赢得了属于你自己的\n  老式地球收音机！"
             ]
          },
          moneyVote1: () => [
-            '<32>{#p/mettaton}* WELL, CONTESTANTS, THAT CONCLUDES THIS ROUND.',
-            "<32>* SINCE THIS IS THE FIRST ROUND, YOU'LL VOTE ON WHO YOU THINK SHOULD BE ELIMINATED.",
+            '<32>{#p/mettaton}* 好了，选手们，\n  这一轮到此结束。',
+            "<32>* 由于这是第一轮，\n  你们得投票决定谁被淘汰。",
             ...(world.scared_ghost
                ? []
                : [
-                    '<32>{#p/napstablook}* hey, um.........\n* i have a question.........',
-                    "<32>{#p/mettaton}* NO, BLOOKY, YOU CAN'T VOTE FOR YOURSELF.",
-                    '<32>{#p/napstablook}* oh............'
+                    '<32>{#p/napstablook}* 嘿，额.........\n* 我有个问题.........',
+                    "<32>{#p/mettaton}* 不，小幽，你不能投自己。",
+                    '<32>{#p/napstablook}* 噢............'
                  ]),
             iRespeccYourVilliany()
-               ? "<32>{#p/mettaton}* IT'S ELIMINATION TIME, PEOPLE!\n* UNDYNE, YOU'RE UP FIRST."
-               : "<32>{#p/mettaton}* IT'S ELIMINATION TIME, PEOPLE!\n* SANS, YOU'RE UP FIRST.",
-            "<32>{#p/mettaton}* WHO'S IT GONNA BE?"
+               ? "<32>{#p/mettaton}* 淘汰时间到了，伙计们！\n* 安黛因，你先来。"
+               : "<32>{#p/mettaton}* 淘汰时间到了，伙计们！\n* 衫斯，你先来。",
+            "<32>{#p/mettaton}* 你要票谁？"
          ],
          moneyVote2: () =>
             iRespeccYourVilliany()
@@ -1743,7 +1743,7 @@ export default {
                     "<26>{#p/undyne}{#f/16}* It's nothing personal...\n* I just know the other contestants better."
                  ]
                : world.dead_skeleton
-               ? [ '<25>{#p/sans}* ...', "<25>{#p/sans}{#g/sansBlink}* eh, i'm not really in the mood." ]
+               ? [ '<25>{#p/sans}* ...', "<25>{#p/sans}{#g/sansBlink}* 呃，我现在没心情。" ]
                : [ '<25>{#p/sans}* anne.' ],
          moneyVote2a: () =>
             iRespeccYourVilliany()
@@ -1751,7 +1751,7 @@ export default {
                : world.dead_skeleton
                ? [ "<32>{#p/mettaton}* WELL, THAT'S ONE VOTE GONE.", '<32>{#p/mettaton}* 小幽，你想票掉谁呢？' ]
                : [
-                    '<32>{#p/mettaton}* HMM...',
+                    '<32>{#p/mettaton}* 嗯...',
                     '<32>* WHY \"ANNE?\"',
                     "<25>{#p/sans}{#g/sansLaugh1}* 'cause this ANNE droid is driving me crazy.",
                     "<32>{#p/mettaton}* YOU'RE DISQUALIFIED!",
@@ -1795,13 +1795,13 @@ export default {
          moneyVote4p: () => [
             iFancyYourVilliany()
                ? '<32>{#p/mettaton}* YOU VOTING FOR ANYONE, DEAR $(moniker2u)?'
-               : '<32>{#p/mettaton}* YOU VOTING FOR ANYONE, HUMAN?',
+               : '<32>{#p/mettaton}* 你要给谁投票吗，人类？',
             choicer.create('* （你要怎么回答？）', '是', '否')
          ],
          moneyVote4: () => [
-            '<32>{#p/mettaton}* NO, I MEAN -WHO- WILL YOU BE VOTING FOR?',
+            '<32>{#p/mettaton}* 不，我该问你要给【谁】投票？',
             choicer.create(
-               '* (Who will you vote for?)',
+               '* (你要给谁投票？)',
                iRespeccYourVilliany() ? '安黛因' : '衫斯',
                '纳普斯特',
                SAVE.data.n.state_foundry_muffet === 1 ? '提米' : '怪物小孩',
@@ -1810,8 +1810,8 @@ export default {
          ],
          moneyVote4a1: () =>
             SAVE.data.n.state_foundry_muffet === 1
-               ? [ '<32>{#p/mettaton}* MHM, MHM...', '<32>{#p/mettaton}* AND TEMMIE, YOUR VOTE?' ]
-               : [ '<32>{#p/mettaton}* MHM, MHM...', '<32>{#p/mettaton}* AND MONSTER KID, YOUR VOTE?' ],
+               ? [ '<32>{#p/mettaton}* 嗯，嗯...', '<32>{#p/mettaton}* 那提米，你呢？' ]
+               : [ '<32>{#p/mettaton}* 嗯，嗯...', '<32>{#p/mettaton}* 那怪物小孩，你呢？' ],
          moneyVote4a2: [ "<32>{#p/mettaton}* SO YOU'RE -NOT- VOTING FOR ANYONE, THEN.", '<32>* GOT IT.' ],
          moneyVote4a3: () => [
             "<32>{#p/mettaton}* REALLY? JUST BECAUSE THEY'RE STUCK WITH YOU DOESN'T MAKE THEM A CONTESTANT.",
@@ -1826,11 +1826,11 @@ export default {
          ],
          moneyVote4a4: () =>
             SAVE.data.n.state_foundry_muffet === 1
-               ? [ '<32>{#p/mettaton}* ... TEMMIE, YOUR VOTE?' ]
-               : [ '<32>{#p/mettaton}* ... MONSTER KID, YOUR VOTE?' ],
+               ? [ '<32>{#p/mettaton}* ...提米，你呢？' ]
+               : [ '<32>{#p/mettaton}* ...怪物小孩，你呢？' ],
          moneyVote5a: () =>
             SAVE.data.n.state_foundry_muffet === 1
-               ? [ '<32>{#p/tem}* tem vote... CYOOT GHOST!', '<32>* tem live near cyoot ghost... love cyoot ghost!' ]
+               ? [ '<32>{#p/tem}* 提咪投... 阔爱幽灵！', '<32>* 提咪住的离阔爱幽灵近... \n  喜欢阔爱幽灵！' ]
                : [
                     iFancyYourVilliany()
                        ? "<25>{#p/kidd}{#f/1}* I'm voting for $(moniker1) because they're AWESOME!"
@@ -1849,11 +1849,11 @@ export default {
                          ]
                        : [ '<25>{#f/3}* I... kind of owe them my life, haha...' ])
                  ],
-         moneyVote5b: [ '<32>{#p/mettaton}* YOU DO REALIZE THAT THE VOTE IS A VOTE TO ELIMINATE, RIGHT?' ],
+         moneyVote5b: [ '<32>{#p/mettaton}* 你知道这投票是为了淘汰，\n  对吧？' ],
          moneyVote5c: () =>
             SAVE.data.n.state_foundry_muffet === 1
                ? [
-                    '<32>{#p/tem}* wait...',
+                    '<32>{#p/tem}* 等等...',
                     '<32>{#p/tem}* ... nu!!!\n* tem dont wana elimnat cyoot ghost!',
                     '<32>{#p/tem}* tem vote for skely instead!'
                  ]
@@ -1876,13 +1876,13 @@ export default {
          moneyVote5x2a: [ '<32>{#p/mettaton}* BUT EVEN WITH THAT VOTE, SANS STILL HAS THE LOSING EDGE.' ],
          moneyPun1: () =>
             world.dead_skeleton
-               ? [ '<25>{#p/sans}* ...', '<25>{#p/sans}{#f/3}* i might as well show myself out.' ]
+               ? [ '<25>{#p/sans}* ...', '<25>{#p/sans}{#f/3}* 我还是自己走吧。' ]
                : [ '<25>{#p/sans}* welp.', "<25>{#p/sans}{#g/sansWink}* i'm {@fill=#ff0}boned{@fill=#fff}." ],
          moneyPun1a: () =>
             iRespeccYourVilliany()
                ? [ "<32>{#p/napstablook}* it's okay....................." ]
                : world.dead_skeleton
-               ? [ '<32>{#p/mettaton}* YES, YOU MOST CERTAINLY SHALL.' ]
+               ? [ '<32>{#p/mettaton}* 是的，你当然要。' ]
                : [ '<32>{#p/mettaton}* YES, YOU MOST CERTAINLY ARE.' ],
          moneyPun1b: [ "<32>{#p/mettaton}* WOW, IT'S ALMOST LIKE YOU KNOW HOW ANNOYING YOU ARE." ],
          moneyVote5x2b: [ '<32>{#p/human}* (You feel your sins crawling on your back.)' ],
@@ -9614,7 +9614,7 @@ export default {
                       !world.genocide &&
                       SAVE.data.n.plot !== 47.2 &&
                       !SAVE.data.b.a_state_napstadecline
-                    ? [ '<32>{#p/napstablook}* oh............' ]
+                    ? [ '<32>{#p/napstablook}* 噢............' ]
                     : SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
                     ? []
                     : [ '<32>{#p/basic}* What were you even expecting to happen here...?' ])

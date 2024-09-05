@@ -1057,7 +1057,7 @@ msgid "<18>{#p/papyrus}{#f/0}WE STOPPED THE EXPLOSION!"
 msgstr "<18>{#p/papyrus}{#f/0}核心不会爆炸了！"
 
 msgid "<32>{#p/basic}* ... my cousin Blooky, they..."
-msgstr "<32>{#p/basic}* ...我的表亲，小幽，它..."
+msgstr "<32>{#p/basic}* ...我的表亲，Blooky，它..."
 
 msgid "<18>{#p/papyrus}{#f/5}THEIR COUSIN DID A VERY NOBLE THING."
 msgstr ""

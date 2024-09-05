@@ -3095,12 +3095,14 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/mettaton}* YOU'RE LATE, DARLING..."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 你遲到了，親愛的..."
 
 msgid ""
 "<32>{#p/mettaton}* MAYBE IF YOU'D STOPPED KILLING PEOPLE, THAT WOULDN'T BE A"
 " PROBLEM."
 msgstr ""
+"<32>{#p/mettaton}* 要是你不再殺人，\n"
+"  那不成問題的。"
 
 msgid "<32>{#p/mettaton}* SALUTATIONS, HUMAN."
 msgstr ""
@@ -3113,40 +3115,47 @@ msgstr ""
 
 msgid "<32>* ... WOULD YOU MIND MOVING STAGE LEFT FOR ME?"
 msgstr ""
+"<32>* ...我說，\n"
+"  你介意移到舞臺左側嗎？"
 
 msgid ""
 "<32>{#p/mettaton}* WELL, FOR NOW, I'LL NEED YOU TO MOVE LEFT OF THE STAGE."
 msgstr ""
 
 msgid "<32>* YOU CAN COME BACK INTO FRAME WHEN I CALL OUT FOR YOU."
-msgstr ""
+msgstr "<32>* 我叫你時你再回到畫面中來。"
 
 msgid "<32>{#p/basic}* A few moments later..."
-msgstr ""
+msgstr "<32>{#p/basic}* 過了一會兒..."
 
 msgid ""
 "<32>{#p/mettaton}* FOLKS, TODAY WE'RE GOING TO DO SOMETHING A LITTLE "
 "DIFFERENT."
 msgstr ""
+"<32>{#p/mettaton}* 夥計們，\n"
+"  今天我們要做點不一樣的事。"
 
 msgid "<32>{#z2}* WELCOME, ONE AND ALL..."
-msgstr ""
+msgstr "<32>{#z2}* 歡迎各位來到..."
 
 msgid ""
 "<32>{*}{#z0}* TO {#x1}TIME!{^10}\n"
 "* {#x2}VERSUS!{^10}\n"
 "* {#x3}MONEY!{^30}{%}"
 msgstr ""
+"<32>{*}{#z0}* {#x1}特別節目：{^10}\n"
+"* {#x2}時過！{^10}\n"
+"* {#x3}{@fill=#ff0}金{@fill=#fff}遷！{^30}{%}"
 
 msgid ""
 "<32>{#p/mettaton}{#z1}* LET'S GIVE A WARM WELCOME TO OUR CONTESTANTS..."
-msgstr ""
+msgstr "<32>{#p/mettaton}{#z1}* 讓我們熱烈歡迎選手們..."
 
 msgid "<32>{#p/mettaton}{#z0}* UNDYNE, CAPTAIN OF THE GUARD!"
-msgstr ""
+msgstr "<32>{#p/mettaton}{#z0}* 衛隊隊長，UNDYNE！"
 
 msgid "<32>{#p/mettaton}{#z0}* SANS THE SKELETON!"
-msgstr ""
+msgstr "<32>{#p/mettaton}{#z0}* 骷髏SANS！"
 
 msgid "<25>{#p/undyne}{#f/1}* Right on!"
 msgstr ""
@@ -3155,35 +3164,39 @@ msgid ""
 "<25>{#p/sans}{#g/sansWink}* this is just about the only good thing to happen"
 " to me today."
 msgstr ""
+"<25>{#p/sans}{#g/sansWink}* 這大概是我今天\n"
+"  唯一的好事了。"
 
 msgid "<25>* if you could even call it a good thing."
 msgstr ""
+"<25>* 如果這能\n"
+"  稱之為好事的話。"
 
 msgid ""
 "<25>{#p/sans}{#g/sansWink}* loving the pre-recorded applause you got there."
 msgstr ""
 
 msgid "<32>{#p/mettaton}* NAPSTABLOOK!"
-msgstr ""
+msgstr "<32>{#p/mettaton}* NAPSTABLOOK！"
 
 msgid ""
 "<32>{#p/napstablook}* you don't always have to use the same applause..."
 msgstr ""
 
 msgid "<32>{#p/napstablook}* hi everyone"
-msgstr ""
+msgstr "<32>{#p/napstablook}* 大家好"
 
 msgid "<32>{#p/napstablook}* hi everyone..."
-msgstr ""
+msgstr "<32>{#p/napstablook}* 大家好..."
 
 msgid "<32>{#p/mettaton}* $(moniker1u)!"
 msgstr ""
 
 msgid "<32>{#p/mettaton}* THE ENIGMATIC HUMAN!"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 神秘的人類！"
 
 msgid "<32>{#p/mettaton}* AND... SOME RANDOM KID!"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 以及... 隨便找的小孩！"
 
 msgid "<25>{#p/kidd}{#f/3}* Hey, guys."
 msgstr ""
@@ -3196,6 +3209,8 @@ msgstr ""
 
 msgid "<32>{#z2}* WHY DON'T YOU SHARE A LITTLE ABOUT YOURSELVES, HMM?"
 msgstr ""
+"<32>{#z2}* 為什麼不來談談你們自己呢，\n"
+"  嗯？"
 
 msgid "<32>{#p/mettaton}{#z0}* ..."
 msgstr "<32>{#p/mettaton}{#z0}* ..."
@@ -3204,21 +3219,23 @@ msgid "<32>{#z1}* ..."
 msgstr "<32>{#z1}* ..."
 
 msgid "<32>* MY CONTESTANT DOESN'T SEEM TO BE SHOWING UP."
-msgstr ""
+msgstr "<32>* 我的選手好像不來了。"
 
 msgid "<32>* THIS IS GOING TO BE A PROBLEM."
-msgstr ""
+msgstr "<32>* 這將是一個問題。"
 
 msgid "<32>{#z2}* WOULD ANYONE ELSE LIKE TO PLAY IN THEIR PLACE?"
-msgstr ""
+msgstr "<32>{#z2}* 有人想頂替那人嗎？"
 
 msgid "<32>* ANYONE AT ALL?"
-msgstr ""
+msgstr "<32>* 有人嗎？"
 
 msgid ""
 "<32>{#p/tem}* hOI!!\n"
 "* im temmie!!!"
 msgstr ""
+"<32>{#p/tem}* 你吼！！\n"
+"* 我素temmie！！！"
 
 msgid ""
 "<32>{#p/mettaton}{#z5}* A SURPRISE GUEST!?!?\n"
@@ -3231,7 +3248,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/mettaton}{#z1}* NEW FACES ASIDE..."
-msgstr ""
+msgstr "<32>{#p/mettaton}{#z1}* 新面孔除外..."
 
 msgid ""
 "<25>{#p/undyne}{#f/17}* Huh?\n"
@@ -3256,7 +3273,7 @@ msgid "<25>{#p/undyne}{#f/16}* Actually, I only really came for one reason."
 msgstr ""
 
 msgid "<25>{#p/sans}{#g/sansNormal}* heya."
-msgstr ""
+msgstr "<25>{#p/sans}{#g/sansNormal}* 你好啊。"
 
 msgid "<25>{#p/sans}{#g/sansLaugh2}* oh, heheh..."
 msgstr ""
@@ -3283,7 +3300,7 @@ msgid "<32>{#p/mettaton}* AND WHAT'S THAT?"
 msgstr ""
 
 msgid "<32>{#p/mettaton}* ANYTHING ELSE?"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 還有嗎？"
 
 msgid "<32>{#p/mettaton}* GOT ANY OF YOUR LAME JOKES FOR US TODAY?"
 msgstr ""
@@ -3294,7 +3311,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/sans}{#g/sansNormal}* nope."
-msgstr ""
+msgstr "<25>{#p/sans}{#g/sansNormal}* 沒了。"
 
 msgid ""
 "<25>{#p/sans}{#g/sansLaugh1}* lame?\n"
@@ -3331,13 +3348,13 @@ msgid "<32>{#p/mettaton}* RIGHT."
 msgstr ""
 
 msgid "<32>{#p/mettaton}* SOMEONE'S NOT FEELING THEMSELVES TODAY, EH?"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 有人今天不舒服，是嗎？"
 
 msgid "<32>{#p/mettaton}* VERY FUNNY."
 msgstr ""
 
 msgid "<32>{#p/napstablook}* is it... my turn to talk..."
-msgstr ""
+msgstr "<32>{#p/napstablook}* 輪到... 我講了嗎..."
 
 msgid "<25>{#p/undyne}{#f/14}* It's certainly not mine anymore, is it?"
 msgstr ""
@@ -3356,7 +3373,7 @@ msgstr ""
 "* 嗨......"
 
 msgid "<32>{#p/napstablook}* it is, isn't it........."
-msgstr ""
+msgstr "<32>{#p/napstablook}* 看來，是的........."
 
 msgid ""
 "<32>{#p/napstablook}* oh.........\n"
@@ -3403,30 +3420,34 @@ msgid "<32>{#p/mettaton}{#z0}* ... OKAY..."
 msgstr ""
 
 msgid "<32>{#p/mettaton}{#z0}* THAT'S ALRIGHT, BLOOKY..."
-msgstr ""
+msgstr "<32>{#p/mettaton}{#z0}* 沒關係，BLOOKY..."
 
 msgid "<32>* WE ALL GET NERVOUS SOMETIMES, DON'T WE, COUS-"
 msgstr ""
+"<32>* 我們都有緊張的時候，\n"
+"  不是嗎，表-"
 
 msgid ""
 "<32>{#z2}* ER... CUISINE!\n"
 "* BECAUSE THIS OPPORTUNITY SURE IS A TASTY ONE!"
 msgstr ""
+"<32>{#z2}* 額... 寶貴！\n"
+"* 因為這次機會確實很難得！"
 
 msgid "<32>{#z4}* HAHAHA..."
-msgstr ""
+msgstr "<32>{#z4}* 哈哈哈..."
 
 msgid "<32>{#p/napstablook}* it's your turn."
 msgstr ""
 
 msgid "<32>{#p/human}* (But you didn't have anything to say.)"
-msgstr ""
+msgstr "<32>{#p/human}* (但你無話可說。)"
 
 msgid "<32>{#p/napstablook}* uh......"
-msgstr ""
+msgstr "<32>{#p/napstablook}* 呃......"
 
 msgid "<32>* you can talk now?"
-msgstr ""
+msgstr "<32>* 你可以開始講了？"
 
 msgid "<33>{#p/mettaton}* WELL, YOU KNOW WHAT THEY SAY..."
 msgstr ""
@@ -3441,10 +3462,10 @@ msgstr ""
 
 msgid ""
 "<32>{#p/mettaton}* THE \"ENIGMATIC HUMAN\" SURE IS LIVING UP TO THEIR TITLE."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 「神秘的人類」果然名副其實。"
 
 msgid "<32>{#p/tem}* tem... went to cool leg,"
-msgstr ""
+msgstr "<32>{#p/tem}* tem... 去了大鞋,"
 
 msgid "<32>{#p/tem}* tem... on TV!!"
 msgstr ""
@@ -3486,13 +3507,13 @@ msgid "<25>{#f/2}* Anyway, I'm Monster Kid."
 msgstr ""
 
 msgid "<32>{#p/mettaton}* AND...?"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 然後呢...?"
 
 msgid "<32>{#p/mettaton}* WAIT, THAT'S YOUR ACTUAL NAME?"
 msgstr ""
 
 msgid "<32>{#p/tem}* tem know ALL PRICES!!"
-msgstr ""
+msgstr "<32>{#p/tem}* tem知道了所有的標價！！"
 
 msgid "<32>{#p/tem}* tem... love to be on TV!!"
 msgstr ""
@@ -3504,10 +3525,12 @@ msgid "<25>{#p/kidd}{#f/1}* Why wouldn't it be?"
 msgstr ""
 
 msgid "<32>{#p/mettaton}* HUH..."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 額..."
 
 msgid "<32>{#p/mettaton}* WELL, I GUESS THAT WRAPS UP OUR INTRODUCTIONS."
 msgstr ""
+"<32>{#p/mettaton}* 好了，\n"
+"  我想我們的介紹圓滿結束了。"
 
 msgid ""
 "<32>{#p/mettaton}* HEH. I THINK THAT WRAPS UP OUR INTRODUCTIONS QUITE "
@@ -3516,25 +3539,36 @@ msgstr ""
 
 msgid "<32>* SO. THIS GAME IS ALL ABOUT VALUE."
 msgstr ""
+"<32>* 是這樣，\n"
+"  這個遊戲是關於價格的。"
 
 msgid "<32>* TODAY, WE'VE GOT A TRIO OF RARE EARTH ARTIFACTS..."
 msgstr ""
+"<32>* 今天，我們有三件\n"
+"  稀有的地球文物。"
 
 msgid "<32>* IT'S UP TO YOU CONTESTANTS TO DETERMINE THEIR EXACT COST!"
 msgstr ""
+"<32>* 將由你們選手來推敲\n"
+"  它們的確切價格！"
 
 msgid ""
 "<32>* WHOEVER GUESSES THE CLOSEST -WITHOUT GOING OVER- GETS TO TAKE IT HOME!"
 msgstr ""
+"<32>* 猜得最接近【且不超過】的人\n"
+"  就能把它帶回家!"
 
 msgid "<32>{*}* LET'S PLAY..."
-msgstr ""
+msgstr "<32>{*}* 我宣布..."
 
 msgid ""
 "<32>{*}* {#x1}TIME!{^10}\n"
 "* {#x2}VERSUS!{^10}\n"
 "* {#x3}MONEY!{^30}{%}"
 msgstr ""
+"<32>{*}* {#x1}時過！{^10}\n"
+"* {#x2}{@fill=#ff0}金{@fill=#fff}遷！{^10}\n"
+"* {#x3}正式開始！{^30}{%}"
 
 msgid ""
 "* Use left and right to adjust,\n"
@@ -3550,28 +3584,34 @@ msgid ""
 "<32>{#p/mettaton}* OUR FIRST ITEM TODAY IS SOMETHING I FOUND RATHER "
 "RECENTLY..."
 msgstr ""
+"<32>{#p/mettaton}* 我們的第一件物品\n"
+"  是我最近找著的..."
 
 msgid ""
 "<32>* ON EARTH, THIS DEVICE WAS USED TO RECEIVE TRANSMISSIONS ON SO-CALLED "
 "\"RADIO STATIONS.\""
 msgstr ""
+"<32>* 在地球上，這個裝置被用來接收\n"
+"  所謂的「無線電臺」的播送內容。"
 
 msgid ""
 "<32>* NEWS, WEATHER, MUSIC...\n"
 "* EVEN GAME SHOWS LIKE THE ONE YOU'RE ON RIGHT NOW!"
 msgstr ""
+"<32>* 包括新聞，天氣，音樂...\n"
+"* 甚至是你現在正參加的遊戲節目！"
 
 msgid "<32>* LET'S SEE IF ANYONE HERE KNOWS THEIR TECH."
-msgstr ""
+msgstr "<32>* 看看這裡有沒有人懂這種裝置。"
 
 msgid "<32>{#p/mettaton}* EVERYONE'S DECIDED, THEN?"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 那麼，大家都決定好了？"
 
 msgid "<32>* SPLENDID!"
-msgstr ""
+msgstr "<32>* 好極了！"
 
 msgid "<32>* NOW, LET'S REVEAL THE PRICE..."
-msgstr ""
+msgstr "<32>* 現在，讓我們揭曉一下價格..."
 
 msgid "<32>{#p/mettaton}* 80G!"
 msgstr "<32>{#p/mettaton}* 80G！"
@@ -3580,20 +3620,26 @@ msgid ""
 "<32>{#p/mettaton}* CONGRATULATIONS, TEMMIE.\n"
 "* YOU'VE WON YOUR VERY OWN OLD EARTH RADIO!"
 msgstr ""
+"<32>{#p/mettaton}* 恭喜你，TEMMIE。\n"
+"* 你贏得了屬於你自己的\n"
+"  老式地球收音機！"
 
 msgid "<32>{#p/tem}* uwawawawah....."
-msgstr ""
+msgstr "<32>{#p/tem}* 嗚哇喔哇喔哇喔....."
 
 msgid ""
 "<32>{#p/mettaton}* CONGRATULATIONS, BLOOKY.\n"
 "* YOU'VE WON YOUR VERY OWN OLD EARTH RADIO!"
 msgstr ""
+"<32>{#p/mettaton}* 恭喜你，BLOOKY。\n"
+"* 你贏得了屬於你自己的\n"
+"  老式地球收音機！"
 
 msgid "<32>{#p/napstablook}* cool"
-msgstr ""
+msgstr "<32>{#p/napstablook}* 酷"
 
 msgid "<32>{#p/napstablook}* oooooooooooooooo"
-msgstr ""
+msgstr "<32>{#p/napstablook}* 唔唔唔唔唔唔唔"
 
 msgid ""
 "<32>{#p/mettaton}* WELL PLAYED, $(moniker3u).\n"
@@ -3604,23 +3650,29 @@ msgid ""
 "<32>{#p/mettaton}* CONGRATULATIONS, HUMAN.\n"
 "* YOU'VE WON YOUR VERY OWN OLD EARTH RADIO!"
 msgstr ""
+"<32>{#p/mettaton}* 恭喜你，人類。\n"
+"* 你贏得了屬於你自己的\n"
+"  老式地球收音機！"
 
 msgid "<32>{#p/mettaton}* TEMMIE, SINCE YOU GUESSED BEFORE $(moniker3u)..."
 msgstr ""
 
 msgid "<32>{#p/mettaton}* TEMMIE, SINCE YOU GUESSED BEFORE THE HUMAN..."
-msgstr ""
+msgstr "<32>{#p/mettaton}* TEMMIE，由於你比人類早猜中..."
 
 msgid ""
 "<32>* CONGRATULATIONS!\n"
 "* YOU'VE WON YOUR VERY OWN OLD EARTH RADIO!"
 msgstr ""
+"<32>{#p/mettaton}* 恭喜!\n"
+"* 你贏得了屬於你自己的\n"
+"  老式地球收音機！"
 
 msgid "<32>{#p/mettaton}* BLOOKY, SINCE YOU GUESSED BEFORE $(moniker3u)..."
 msgstr ""
 
 msgid "<32>{#p/mettaton}* BLOOKY, SINCE YOU GUESSED BEFORE THE HUMAN..."
-msgstr ""
+msgstr "<32>{#p/mettaton}* BLOOKY，由於你比人類早猜中..."
 
 msgid ""
 "<32>{#p/mettaton}* WELL PLAYED, $(moniker3u).\n"
@@ -3628,7 +3680,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/mettaton}* HUMAN, SINCE YOU GUESSED BEFORE TEMMIE..."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 人類，由於你比TEMMIE早猜中..."
 
 msgid ""
 "<32>{#p/mettaton}* WELL PLAYED, $(moniker3u).\n"
@@ -3636,39 +3688,49 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/mettaton}* HUMAN, SINCE YOU GUESSED BEFORE BLOOKY..."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 人類，由於你比BLOOKY早猜中..."
 
 msgid "<32>{#p/mettaton}* WELL, CONTESTANTS, THAT CONCLUDES THIS ROUND."
 msgstr ""
+"<32>{#p/mettaton}* 好了，選手們，\n"
+"  這一輪到此結束。"
 
 msgid ""
 "<32>* SINCE THIS IS THE FIRST ROUND, YOU'LL VOTE ON WHO YOU THINK SHOULD BE "
 "ELIMINATED."
 msgstr ""
+"<32>* 由於這是第一輪，\n"
+"  你們得投票決定誰被淘汰。"
 
 msgid ""
 "<32>{#p/napstablook}* hey, um.........\n"
 "* i have a question........."
 msgstr ""
+"<32>{#p/napstablook}* 嘿，額.........\n"
+"* 我有個問題........."
 
 msgid "<32>{#p/mettaton}* NO, BLOOKY, YOU CAN'T VOTE FOR YOURSELF."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 不，BLOOKY，你不能投自己。"
 
 msgid "<32>{#p/napstablook}* oh............"
-msgstr ""
+msgstr "<32>{#p/napstablook}* 噢............"
 
 msgid ""
 "<32>{#p/mettaton}* IT'S ELIMINATION TIME, PEOPLE!\n"
 "* UNDYNE, YOU'RE UP FIRST."
 msgstr ""
+"<32>{#p/mettaton}* 淘汰時間到了，夥計們！\n"
+"* UNDYNE，你先來。"
 
 msgid ""
 "<32>{#p/mettaton}* IT'S ELIMINATION TIME, PEOPLE!\n"
 "* SANS, YOU'RE UP FIRST."
 msgstr ""
+"<32>{#p/mettaton}* 淘汰時間到了，夥計們！\n"
+"* SANS，你先來。"
 
 msgid "<32>{#p/mettaton}* WHO'S IT GONNA BE?"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 你要票誰？"
 
 msgid "<25>{#p/undyne}{#f/14}* Yeah... I'm gonna vote for Napstablook."
 msgstr ""
@@ -3682,19 +3744,19 @@ msgid "<25>{#p/sans}* ..."
 msgstr "<25>{#p/sans}* ..."
 
 msgid "<25>{#p/sans}{#g/sansBlink}* eh, i'm not really in the mood."
-msgstr ""
+msgstr "<25>{#p/sans}{#g/sansBlink}* 呃，我現在沒心情。"
 
 msgid "<25>{#p/sans}* anne."
 msgstr ""
 
 msgid "<32>{#p/mettaton}* HOW ABOUT YOU, BLOOKY?"
-msgstr "<32>{#p/mettaton}* 小幽，你想票掉誰呢？"
+msgstr "<32>{#p/mettaton}* BLOOKY，你想票掉誰呢？"
 
 msgid "<32>{#p/mettaton}* WELL, THAT'S ONE VOTE GONE."
 msgstr ""
 
 msgid "<32>{#p/mettaton}* HMM..."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 嗯..."
 
 msgid "<32>* WHY \"ANNE?\""
 msgstr ""
@@ -3710,7 +3772,7 @@ msgid "<25>{#p/sans}{#g/sansLaugh2}* heheheh, worth it."
 msgstr ""
 
 msgid "<32>{#p/mettaton}* UGH... HOW ABOUT YOU, BLOOKY?"
-msgstr "<32>{#p/mettaton}* 呃... 小幽，你想票掉誰呢？"
+msgstr "<32>{#p/mettaton}* 呃... BLOOKY，你想票掉誰呢？"
 
 msgid "<32>{#p/napstablook}* ..............."
 msgstr "<32>{#p/napstablook}* ..............."
@@ -3777,13 +3839,13 @@ msgid "<32>{#p/mettaton}* YOU VOTING FOR ANYONE, DEAR $(moniker2u)?"
 msgstr ""
 
 msgid "<32>{#p/mettaton}* YOU VOTING FOR ANYONE, HUMAN?"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 你要給誰投票嗎，人類？"
 
 msgid "<32>{#p/mettaton}* NO, I MEAN -WHO- WILL YOU BE VOTING FOR?"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 不，我該問你要給【誰】投票？"
 
 msgid "* (Who will you vote for?)"
-msgstr ""
+msgstr "* (你要給誰投票？)"
 
 msgid "Sans"
 msgstr "Sans"
@@ -3801,13 +3863,13 @@ msgid "$(name)"
 msgstr "$(name)"
 
 msgid "<32>{#p/mettaton}* MHM, MHM..."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 嗯，嗯..."
 
 msgid "<32>{#p/mettaton}* AND TEMMIE, YOUR VOTE?"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 那TEMMIE，你呢？"
 
 msgid "<32>{#p/mettaton}* AND MONSTER KID, YOUR VOTE?"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 那怪物小孩，你呢？"
 
 msgid "<32>{#p/mettaton}* SO YOU'RE -NOT- VOTING FOR ANYONE, THEN."
 msgstr ""
@@ -3835,16 +3897,18 @@ msgid "<32>{#p/basic}* Hmph."
 msgstr ""
 
 msgid "<32>{#p/mettaton}* ... TEMMIE, YOUR VOTE?"
-msgstr ""
+msgstr "<32>{#p/mettaton}* ...TEMMIE，你呢？"
 
 msgid "<32>{#p/mettaton}* ... MONSTER KID, YOUR VOTE?"
-msgstr ""
+msgstr "<32>{#p/mettaton}* ...怪物小孩，你呢？"
 
 msgid "<32>{#p/tem}* tem vote... CYOOT GHOST!"
-msgstr ""
+msgstr "<32>{#p/tem}* tem投... 闊愛幽靈！"
 
 msgid "<32>* tem live near cyoot ghost... love cyoot ghost!"
 msgstr ""
+"<32>* tem住的離闊愛幽靈近... \n"
+"  喜歡闊愛幽靈！"
 
 msgid ""
 "<25>{#p/kidd}{#f/1}* I'm voting for $(moniker1) because they're AWESOME!"
@@ -3894,9 +3958,11 @@ msgid ""
 "<32>{#p/mettaton}* YOU DO REALIZE THAT THE VOTE IS A VOTE TO ELIMINATE, "
 "RIGHT?"
 msgstr ""
+"<32>{#p/mettaton}* 你知道這投票是為了淘汰，\n"
+"  對吧？"
 
 msgid "<32>{#p/tem}* wait..."
-msgstr ""
+msgstr "<32>{#p/tem}* 等等..."
 
 msgid ""
 "<32>{#p/tem}* ... nu!!!\n"
@@ -3949,7 +4015,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/sans}{#f/3}* i might as well show myself out."
-msgstr ""
+msgstr "<25>{#p/sans}{#f/3}* 我還是自己走吧。"
 
 msgid "<25>{#p/sans}* welp."
 msgstr ""
@@ -3961,7 +4027,7 @@ msgid "<32>{#p/napstablook}* it's okay....................."
 msgstr ""
 
 msgid "<32>{#p/mettaton}* YES, YOU MOST CERTAINLY SHALL."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 是的，你當然要。"
 
 msgid "<32>{#p/mettaton}* YES, YOU MOST CERTAINLY ARE."
 msgstr ""
@@ -6960,7 +7026,7 @@ msgid ""
 "people."
 msgstr ""
 "<32>* 那些事...\n"
-"  並不全都是小幽的錯。"
+"  並不全都是Blooky的錯。"
 
 msgid ""
 "<32>* I guess, for now, I'll just have to do my best to keep moving "

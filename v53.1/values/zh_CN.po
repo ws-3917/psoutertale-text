@@ -109,7 +109,7 @@ msgstr ""
 msgid "May the tapestry of chaos and order satisfy you on your journey."
 msgstr ""
 "愿你安之若素，\n"
-"享受混沌与秩序交织的图景。"
+"饱览混沌与秩序交织的图景。"
 
 msgid "May your story gain meaning in this cocoon amidst the darkness."
 msgstr ""
@@ -161,10 +161,14 @@ msgstr ""
 "友情将伴你而行。"
 
 msgid "May your fortune carry you forward on your journey."
-msgstr "愿你好运连连，"
+msgstr ""
+"愿你好运连连，\n"
+"总有顺水顺风推助你前行。"
 
 msgid "May the tapestry of chaos and order please you on your journey."
 msgstr ""
+"愿你安之若素，\n"
+"享受混沌与秩序交织的图景。"
 
 msgid ""
 "Take heart.\n"
@@ -184,9 +188,13 @@ msgstr ""
 
 msgid "May the experience be as comforting as you desire."
 msgstr ""
+"愿从你心所欲，\n"
+"享受此番经历的抚慰与关怀。"
 
 msgid "May the experience provide the energy you require."
 msgstr ""
+"愿你恢复元气，\n"
+"摄取旅途一点一滴的能量。"
 
 msgid "May your overflowing energy power you through your journey."
 msgstr ""

@@ -821,7 +821,7 @@ export default {
          }
       },
 
-      langPrompt: '[↑ / ↓]で　せんたく / [Z or ENTER]で　けってい',
+      langPrompt: '[↑ / ↓]で　せんたく / [Z / ENTER]で　けってい',
       epilepsyInfo:
          '注意：\n\nこのゲームは§fill=#ff0§フラッシュによる\n光の点滅§fill=#fff§を含みます。\n苦手な方は§fill=#ff0§せってい§fill=#fff§画面から\n変更してください。\n',
       epilepsyKeys: '§fill=#808080§Press [Z or ENTER] to Continue',
@@ -980,7 +980,7 @@ export default {
       sidebar1: 'ITEM',
       sidebar2: 'STAT',
       sidebar3: 'PHONE',
-      sidebar4: 'CONF',
+      sidebar4: 'SETT',
       sidebar5: 'S',
 
       start1: [

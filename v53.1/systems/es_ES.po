@@ -466,7 +466,7 @@ msgid "Target"
 msgstr "Objetivo"
 
 msgid "Time"
-msgstr ""
+msgstr "Tiempo"
 
 msgid "Tint"
 msgstr "Tinte"
@@ -2329,7 +2329,7 @@ msgid "Go back"
 msgstr "Regresar"
 
 msgid "OUTERTALE V5.03 (c) 2024 SPACEY_432"
-msgstr ""
+msgstr "OUTERTALE V5.03 (c) 2024 SPACEY_432"
 
 msgid "* (HP fully restored.)"
 msgstr "* (PV restaurados.)"

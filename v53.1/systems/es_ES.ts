@@ -176,7 +176,7 @@ export default {
             talk: 'Hablar',
             target: 'Objetivo',
             text: 'Texto',
-            time: 'Time',
+            time: 'Tiempo',
             tint: 'Tinte',
             trackedAssets: 'Recursos Monitoreados',
             true: 'Verdad',

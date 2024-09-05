@@ -1834,7 +1834,7 @@ msgstr ""
 "чтобы заставить ее гордиться."
 
 msgid "<18>{#p/papyrus}{#f/6}WELL, I DISAGREED!"
-msgstr "<18>{#p/папирус}{#f/6} Ладно, я не согласен!"
+msgstr "<18>{#p/папирус}{#f/6}НУ, Я НЕ СОГЛАСИЛСЯ!"
 
 msgid "<18>{#p/papyrus}{#f/5}I KNEW SHE'D JUST BE GLAD IT WAS STILL ALIVE."
 msgstr "<18>{#p/папирус}{#f/5} Я знаю, что она будет рада, что он жив."
@@ -8777,8 +8777,8 @@ msgstr "<18>{{#p/папирус}{#f/4} Второй бизнес по перер
 
 msgid "<18>{#p/papyrus}{#f/5}I CAN'T SAY I APPROVE, BUT AT LEAST HE'S HAPPY."
 msgstr ""
-"<18>{#p/папирус}{#f/5} Я не могу сказать, что согласен, но, по крайней мере,"
-" он счастлив."
+"<18>{#p/papyrus}{#f/5}НЕ МОГУ СКАЗАТЬ, ЧТО ОДОБРЯЮ, НО, ПО КРАЙНЕЙ МЕРЕ, ОН "
+"СЧАСТЛИВ."
 
 msgid ""
 "<25>{#p/sans}{#f/0}* of course i'm happy.\n"
@@ -10351,7 +10351,7 @@ msgid "<25>{*}{#p/asgore}{#f/6}* Systems powering down.{^20}{%}"
 msgstr "<25>{*}{#p/asgore}{#f/6}* Система отключена. {^ 20}{%}"
 
 msgid "<32>{#p/human}{@fill=#f00}* ($(x) left.)"
-msgstr "<32>{#p/human}{@ fill = #f00}* (слева - $(x))."
+msgstr "<32>{#p/human}{@fill=#f00}* ($(x) осталось.)"
 
 msgid "<32>{#p/human}{@fill=#f00}* (Determination.)"
 msgstr "<32>{#p/human}{@fill=#f00}* (Решимость)."
@@ -12770,7 +12770,7 @@ msgid "* Advice"
 msgstr "* Рекомендации"
 
 msgid "* Agree"
-msgstr "* Согласен"
+msgstr "* Согласиться"
 
 msgid "* Alphys"
 msgstr "* Альфис"
@@ -12870,7 +12870,7 @@ msgid "* Counter"
 msgstr "* прилавок"
 
 msgid "* Create"
-msgstr "* Создание"
+msgstr "* Создать"
 
 msgid "* Criticize"
 msgstr "* Критика"
@@ -12909,7 +12909,7 @@ msgid "* Distract"
 msgstr "* Отвлечение"
 
 msgid "* Ditch"
-msgstr "* Канавы"
+msgstr "* избавиться"
 
 msgid "* Dont Pick On"
 msgstr "* Не выбирайте"
@@ -12924,7 +12924,7 @@ msgid "* Flash"
 msgstr "* Вспышка"
 
 msgid "* Flirt"
-msgstr "* Флирт"
+msgstr "* Флиртовать"
 
 msgid "* Grin"
 msgstr "* Измельчение"
@@ -12939,7 +12939,7 @@ msgid "* Hang Out"
 msgstr "* Гулять"
 
 msgid "* Heckle"
-msgstr "* Херкель"
+msgstr "* Насмехаться"
 
 msgid "* Heel Turn"
 msgstr "* Поворот каблука"
@@ -12972,7 +12972,7 @@ msgid "* Insult"
 msgstr "* Оскорбление"
 
 msgid "* Joke"
-msgstr "* Шутки"
+msgstr "* Шутить"
 
 msgid "* Agreement"
 msgstr "* Письмо - соглашение"
@@ -13029,7 +13029,7 @@ msgid "* Perch"
 msgstr "* Перт"
 
 msgid "* Pet"
-msgstr "* Домашние животные"
+msgstr "* Гладить"
 
 msgid "* Pick On"
 msgstr "* Выбор"
@@ -13083,7 +13083,7 @@ msgid "* Rest"
 msgstr "* Отдых"
 
 msgid "* Roll Around"
-msgstr "* Вон отсюда, катись!"
+msgstr "* Перекатываться"
 
 msgid "* Sample"
 msgstr "* Образец"
@@ -13125,7 +13125,7 @@ msgid "* Stare"
 msgstr "* Взгляд"
 
 msgid "* Steal"
-msgstr "* Кража"
+msgstr "* Украсть"
 
 msgid "* Story Time"
 msgstr "* Время истории"
@@ -13143,7 +13143,7 @@ msgid "* Tea"
 msgstr "* Чай"
 
 msgid "* Tell Off"
-msgstr "* Скажи кому - нибудь"
+msgstr "* Рассказать"
 
 msgid "* Terrorize"
 msgstr "* Терроризация"

@@ -438,7 +438,7 @@ export default {
             '<25>{#p/asgore}{#f/6}* 怎麼樣了？',
             '<18>{#p/papyrus}{#f/0}ASGORE！我們成功了！',
             '<18>{#p/papyrus}{#f/0}核心不會爆炸了！',
-            '<32>{#p/basic}* ...我的表親，小幽，它...',
+            '<32>{#p/basic}* ...我的表親，Blooky，它...',
             '<18>{#p/papyrus}{#f/5}人偶的表親做了件\n很了不起的事。'
          ],
          coretext21: [ '<25>{#p/asgore}{#f/1}* 你叫什麼名字？' ],
