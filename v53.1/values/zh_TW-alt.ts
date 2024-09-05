@@ -407,7 +407,7 @@ export default {
       "3.1415",
       "π"
    ],
-   namePromptX: 16,
+   namePromptX: 20,
    nameValueY: 0,
    nameLetterMap: [],
    nameLetterPosition: () => ({ x: 0, y: 0 }),
