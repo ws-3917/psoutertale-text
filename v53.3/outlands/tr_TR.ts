@@ -604,11 +604,11 @@ export default {
          [
             '<32>{#p/human}* (Üçüncü sayfayı açtın... sanki birkaç yıl geçmiş gibi görünüyor.)',
             '<32>{#p/asriel1}{#v/2}* \"Azzy\'nin günlüğü, K-506.03.\"',
-            '<32>* \"My old diary was in a box of toys And i wanted to put more in it.\"',
-            '<32>* \"Looks like I only rote the first part of The date last time.\"',
-            '<32>* \"By the way the Starling flower I planted before grew up.\"',
-            '<32>* \"But I got in a fite with a frend The other day and we havent talked since that.\"',
-            '<32>* \"Im worryed about them... i hope theyre not still mad.\"'
+            '<32>* \"Eski günlüğüm oyuncak kutusunun içindeydi ben de içine daha fazla yazayım dedim.\"',
+            '<32>* \"Görnüşe göre geçen sefer tarihin yalnızca ilk kısmını yazmışım.\"',
+            '<32>* \"Bu arada daha önce diktiğim Yıldızcık çiçeği büyüdü.\"',
+            '<32>* \"Ama geçen gün bi arkadaşımla kavga ettim o gündendir konuşmuyoz.\"',
+            '<32>* \"Onun için endişeleniyom... umarım hala kızgın değildir.\"'
          ],
          [
             '<32>{#p/human}* (Dördüncü sayfayı açtın...)',
@@ -639,56 +639,56 @@ export default {
          ],
          [
             '<32>{#p/human}* (Yedinci sayfayı açtın...)',
-            '<32>{#p/asriel1}{#v/1}* \"Azzy\'s Diary, K-510.08.\"',
-            '<32>* \"That smart guy visited again today. He said he had a bad dream about a human.\"',
-            '<32>* \"Oh, did I mention him? He is the science person dad talks to alot.\"',
-            '<32>* \"He invented alot of things that we use now.\"',
-            '<32>* \"Like the replicaters and fabricaters and gravity plate things.\"',
-            '<32>* \"But he looked at me really odd Like I was so scary.\"',
-            '<32>* \"Did I do somthing wrong?\"'
+            '<32>{#p/asriel1}{#v/1}* \"Azzy\'nin günlüğü, K-510.08.\"',
+            '<32>* \"O zeki adam bugün yine geldi. Bir insan hakkında kötü bir rüya gördüğünü söyledi.\"',
+            '<32>* \"Ah, ondan bahsetmiş miydim? O, babamın çok konuştuğu bilim insanı.\"',
+            '<32>* \"Şu anda kullandığımız birçok şeyi o icat etti.\"',
+            '<32>* \"Replikatörler, Fabrikatörler, Yerçekimi plakası şeyleri falan.\"',
+            '<32>* \"Ama bana gerçekten tuhaf baktı, sanki çok korkutucuymuşum gibi.\"',
+            '<32>* \"Yanlış bir şey mi yaptım?\"'
          ],
          [
             '<32>{#p/human}* (Sekizinci sayfayı açtın...)',
-            '<32>{#p/asriel1}{#v/1}* \"Azzy\'s Diary, K-510.08.\"',
-            '<32>* \"A new star appeared in the sky today.\"',
-            '<32>* \"A really brite one.\"',
-            '<32>* \"I wonder why more stars dont appear like that all the time.\"',
-            '<32>* \"Also we are gonna move to the new citadel when its made.\"',
-            '<32>* \"I saw the blue prints of it, it looks amazing so far!\"',
-            '<32>* \"It will be alot better than living in the factory too.\"'
+            '<32>{#p/asriel1}{#v/1}* \"Azzy\'nin günlüğü, K-510.08.\"',
+            '<32>* \"Bugün gökyüzünde yeni bir yıldız belirdi.\"',
+            '<32>* \"Baya parlaktı.\"',
+            '<32>* \"Neden daha çok yıldız bir anda ortaya çıkmıyor merak ediyorum.\"',
+            '<32>* \"Bi de yapıldığında yeni hisara taşıncaz.\"',
+            '<32>* \"Yapı planlarını gördüm, harika görünüyor!\"',
+            '<32>* \"Fabrikada yaşamaktan da çok daha iyi olacak.\"'
          ],
          [
             '<32>{#p/human}* (Dokuzuncu sayfayı açtın... görünüşe göre bir gün atlanmış.)',
-            '<32>{#p/asriel1}{#v/1}* \"Azzy\'s Diary, K-510.09.\"',
-            '<32>* \"I met a real human yesterday. They crashed in the trash area near our house.\"',
-            '<32>* \"I helped them out of the reck and they said thanks.\"',
-            '<32>* \"I didnt think it would ever happen, but here they are.\"',
-            '<32>* \"And they are actually he{#p/basic}f{#p/asriel1}{#v/1}h{#p/basic}sj haha azzy is a stinky butt and he{#p/asriel1}{#v/1}vh{#p/basic}v{#p/asriel1}{#v/1}j{#p/basic}a{#p/asriel1}{#v/1}s\"',
-            '<32>* \"Okay so Im actually hiding under the covers so $(name) cant mess up what Im writing.\"',
-            '<32>* \"They can be a bit mean some times, but thats ok.\"',
-            '<32>* \"Mom did that battle thing with them and there heart was red and upside down.\"',
-            '<32>* \"Its really nice to have someone else to talk to everyday.\"'
+            '<32>* \"Replikatörler, Fabrikatörler, yerçekimi plakası şeyleri falan.\"',
+            '<32>* \"Dün gerçek bir insanla tanıştım. Evimizin yakınındaki çöp alanına çakıldı.\"',
+            '<32>* \"Enkazdan çıkardım onu o da teşekkür etti.\"',
+            '<32>* \"Bunun olacağını hiç düşünmemiştim ama işte burada.\"',
+            '<32>* \"Ve o gerç{#p/basic}f{#p/asriel1}{#v/1}h{#p/basic}sj haha azzy pis kokuyo ve{#p/asriel1}{#v/1}vh{#p/basic}v{#p/asriel1}{#v/1}j{#p/basic}a{#p/asriel1}{#v/1}s\"\n',
+            '<32>* \"Tamam şimdi örtünün altına saklanıyorum ki $(name) yazdıklarımı bozamasın.\"',
+            '<32>* \"Bazen biraz kaba olabiliyor ama bişey olmaz.\"',
+            '<32>* \"Annem onla o savaş şeyini yaptı ve kalbi kırmızı ve baş aşağıydı.\"',
+            '<32>* \"Her gün konuşacak birinin olması gerçekten çok iyi.\"'
          ],
          [
             '<32>{#p/human}* (Onuncu sayfayı açtın...)',
-            '<32>{#p/asriel1}{#v/1}* \"Azzy\'s Diary, K-510.09.\"',
-            '<32>* \"Mom said shes gonna adopt $(name) into the family.\"',
-            '<32>* \"I dont know what adopt means but she said I will be like their brother.\"',
-            '<32>* \"But thats good Cuz then I can spend more time with them.\"',
-            '<32>* \"Me and $(name) are gonna do everything together!\"',
-            '<32>* \"Also they said sorry for what happend in the last diary page.\"',
-            '<32>* \"I didnt tell them yet but, I forgive them.\"',
+            '<32>* \"Replikatörler, Fabrikatörler, yerçekimi plakası şeyleri falan.\"',
+            '<32>* \"Annem $(name)\'i aileye evlat edineceğini söyledi.\"',
+            '<32>* \"Evlat edinmenin ne demek olduğunu bilmiyorum ama onun kardeşi gibi olacağımı söyledi.\"',
+            '<32>* \"Ama bu iyi çünkü o zaman onla daha fazla zaman geçirebilirim.\"',
+            '<32>* \"Ben ve $(name) her şeyi birlikte yapacağız!\"',
+            '<32>* \"Bide günlüğün son sayfasında olanlardan dolayı özür diledi.\"',
+            '<32>* \"Henüz ona söylemedim ama onu affediyom.\"',
             '<32>{#p/basic}* ...'
          ],
          [
             '<32>{#p/human}* (On birinci sayfayı açtın.)',
-            '<32>{#p/asriel1}* \"Asriel\'s Diary, K-515.09\"',
-            '<32>* \"$(name) said it\'s time for the plan.\"',
-            '<32>* \"I was scared, but they said I could do it.\"',
-            '<32>* \"After this entry, I\'ll wait for them to eat the poisoned pie we made...\"',
-            '<32>* \"And then we can save everyone together.\"',
-            '<32>* \"If something goes wrong, and you\'re reading this later...\"',
-            '<32>* \"I want you to know that you\'re the best, $(name).\"',
+            '<32>{#p/asriel1}* \"Asriel\'ın Günlüğü, K-515.09\"',
+            '<32>* \"$(name) plan zamanının geldiğini söyledi.\"',
+            '<32>* \"Korkuyordum ama yapabileceğimi söyledi.\"',
+            '<32>* \"Bu sayfadan sonra yaptığımız zehirli turtayı yemesini bekleyeceğim...\"',
+            '<32>* \"Ve sonra herkesi birlikte kurtarabiliriz.\"',
+            '<32>* \"Eğer bir şeyler ters giderse ve bunu daha sonra okuyorsan...\"',
+            '<32>* \"Senin en iyisi olduğunu bilmeni istiyorum, $(name).\"',
             '<32>{#p/basic}* ...',
             '<32>{#p/human}* (Sanki birisi ağlıyor gibi...)'
          ]
@@ -740,36 +740,36 @@ export default {
          choicer.create('* (Üstünden yürümeye çalış?)', 'Evet', 'Hayır')
       ],
       blooky3: [
-         '<32>{#p/napstablook}* genellikle buraya biraz huzur ve sessizlik bulmak için uğrarım…',
+         '<32>{#p/napstablook}* genellikle buraya biraz huzur ve sessizlik bulmak için uğrarım...',
          '<32>* ancak bugün iyi biriyle tanıştım...',
          "<32>* öyleyse, yolundan çekileyim bari",
          '<32>* görüşürüz...'
       ],
       blooky4: [
-         '<32>{#p/napstablook}* demek ımm…\n* beni cidden seviyorsun, ha',
+         '<32>{#p/napstablook}* demek ımm...\n* beni cidden seviyorsun, ha',
          '<32>* hehe... teşekkürler...',
          '<32>* ve şey... az önce yolunda durduğum için üzgünüm...',
          "<32>* şimdi başka bir yere gideyim madem",
-         "<32>* ama… endişelenme...",
+         "<32>* ama... endişelenme...",
          "<32>* beni tekrar göreceksin...",
-         '<32>* eğer istersen…',
+         '<32>* eğer istersen...',
          '<32>* öyleyse, görüşürüz...'
       ],
       blooky5: [
-         '<32>{#p/napstablook}* demek ımm… beni cidden çekemiyorsun, ha',
-         "<32>* bu… güzel...",
+         '<32>{#p/napstablook}* demek ımm... beni cidden çekemiyorsun, ha',
+         "<32>* bu... güzel...",
          "<32>* öyleyse, ben de yoluma gideyim bari",
          '<32>* bay...'
       ],
       blooky6: [
          '<32>{#p/napstablook}* demek ımm... o yaşandı...',
          '<32>* ...',
-         '<32>* şey… şimdi gitmem gerek',
+         '<32>* şey... şimdi gitmem gerek',
          '<32>* görüşürüz...'
       ],
       blooky7: [
-         "<32>{#p/napstablook}* bana hiçbir şey söylemedin bile…",
-         "<32>* bu… buna ne diyeceğimi bile bilmiyorum...",
+         "<32>{#p/napstablook}* bana hiçbir şey söylemedin bile...",
+         "<32>* bu... bunun ne olduğunu bile bilmiyorum...",
          "<32>* öyleyse, ben de gideyim madem",
          '<32>* bay...'
       ],
@@ -958,11 +958,11 @@ export default {
       chair2c8: [ '<25>{#f/0}{#n1}* İşte bu kadar.' ],
       chair2d1: [
          '<25>{#p/toriel}{#f/1}{#n1}* Ev...?\n* Biraz daha spesifik olabilir misin?',
-         '<99>{#p/human}{#n1!}* (Ne diyeceksin?){!}\n§shift=48§Never§shift=72§Ne zaman eve\n§shift=48§mind§shift=80§gidebilirim?{#c/0/6/4}'
+         '<99>{#p/human}{#n1!}* (Ne diyeceksin?){!}\n§shift=48§Unut§shift=72§Ne zaman eve\n§shift=48§Gitsin§shift=78§gidebilirim?{#c/0/6/4}'
       ],
       chair2d2: [
          '<25>{#p/toriel}{#f/1}{#n1}* Ama... burası artık senin evin, değil mi?',
-         '<99>{#p/human}{#n1!}* (Ne diyeceksin?){!}\n§shift=144§Outlands\'den\n§shift=64§Sorry§shift=40§nasıl çıkılır{#c/0/8/2}'
+         '<99>{#p/human}{#n1!}* (Ne diyeceksin?){!}\n§shift=144§Outlands\'den\n§shift=64§Üzgünüm§shift=38§nasıl çıkılır{#c/0/8/2}'
       ],
       chair2d3: [
          '<25>{#p/toriel}{#f/5}{#n1}* Lütfen, anlamaya çalış...',
@@ -970,7 +970,7 @@ export default {
       ],
       chair2d4: [
          '<25>{#p/toriel}{#f/5}{#n1}* Çocuğum...',
-         '<99>{#p/human}{#n1!}* (Ne diyeceksin?){!}\n§shift=144§Outlands\'den\n§shift=64§Sorry§shift=40§nasıl çıkılır{#c/0/8/2}'
+         '<99>{#p/human}{#n1!}* (Ne diyeceksin?){!}\n§shift=144§Outlands\'den\n§shift=64§Üzgünüm§shift=38§nasıl çıkılır{#c/0/8/2}'
       ],
       chair2d5: [ '<25>{#p/toriel}{#f/5}{#n1}* ...' ],
       chair2d6: [
@@ -1344,17 +1344,17 @@ export default {
          '<25>{#f/6}{#v/0}* Sadece saf azminle, evreni yeniden şekillendirme gücü...',
          '<25>{#f/8}{#v/0}* KAYDETME gücü...',
          '<25>{#f/7}{#v/0}* Biliyor musun, o güç eskiden BENİM gücümdü.',
-         '<25>{#f/6}{#v/0}* Anlaşılan SENİN bu dünyayla ilgili emellerin BENİMKİLERİ aşıyor.',
-         '<25>{#f/5}{#v/0}* İyi madem.\n* Gücünün tadını çıkarabildiğin kadar çıkar.',
+         '<25>{#f/6}{#v/0}* Demek SENİN bu dünyayla ilgili emel- lerin BENİMKİLERİ aşıyor.',
+         '<25>{#f/5}{#v/0}* İyi madem.\n* Gücünün tadını iyiden iyiye çıkar.',
          "<25>{#f/9}{#v/0}* İzliyor olacağım!"
       ],
       endtwinklyC: [
-         '<25>{#f/7}{#v/0}* Sonuçta, bu güç eskiden BENİM gücümdü.',
+         '<25>{#f/7}{#v/0}* Ne de olsa, bu güç eskiden BENİM gücümdü.',
          '<25>{#f/6}{#v/0}* Sadece saf azminle, evreni yeniden şekillendirme gücü...',
          '<25>{#f/8}{#v/0}* KAYDETME gücü...',
          '<25>{#f/6}{#v/0}* Bunu yapabilen tek ben varım sanmıştım.',
-         '<25>{#f/6}{#v/0}* Anlaşılan SENİN bu dünyayla ilgili emellerin BENİMKİLERİ aşıyor.',
-         '<25>{#f/5}{#v/0}* İyi madem.\n* Gücünün tadını çıkarabildiğin kadar çıkar.',
+         '<25>{#f/6}{#v/0}* Demek SENİN bu dünyayla ilgili emel- lerin BENİMKİLERİ aşıyor.',
+         '<25>{#f/5}{#v/0}* İyi madem.\n* Gücünün tadını iyiden iyiye çıkar.',
          "<25>{#f/9}{#v/0}* İzliyor olacağım!"
       ],
       endtwinklyD: [
@@ -1383,7 +1383,7 @@ export default {
       endtwinklyFXA: [
          "<25>{#f/11}{#v/0}* Eğlenceli, değil mi?",
          '<25>{#f/6}{#v/0}* Herkesin hayatıyla durmadan oyuncak gibi oynamak...',
-         '<25>{#f/8}{#v/0}* Olası her kararına nasıl tepki vereceklerini seyretmek...',
+         '<25>{#f/8}{#v/0}* Olası her kararına nasıl tepki verdik- lerini seyretmek..',
          "<25>{#f/11}{#v/0}* Çok heyecanlı değil mi?",
          '<25>{#f/7}{#v/0}* Hee hee hee...',
          "<25>{#f/9}{#v/0}* Şimdi ne yapacaksın merak ediyorum.",
@@ -1701,7 +1701,7 @@ export default {
               ]),
          '<25>{#f/0}* Napstablook, buradaki bir ziyaretçi, müziğini çalmayı teklif etti.',
          '<25>{#f/0}* Aslında, özellikle seni sahnede olman için davet etti!',
-         '<25>{#f/1}* Onu görmek için aktivite odasını ziyaret etmek ister misin?',
+         '<25>{#f/1}* Onu görmek için aktivite odasına gitmek ister misin?',
          ...(SAVE.data.n.state_wastelands_mash === 1
             ? [
                  '<25>{#f/3}* Ah, ayrıca, turtanın durumu için özür diliyorum.',
@@ -1815,7 +1815,7 @@ export default {
          '<25>{#f/0}* Bu benim için çok şey ifade ediyor.'
       ],
       halo: {
-         a: () => [ '<32>{#p/human}* (You got the Halo.)', choicer.create('* (Equip the Halo?)', 'Evet', 'Hayır') ],
+         a: () => [ '<32>{#p/human}* (Hale\'yi aldın.)', choicer.create('* (Hale\'yi giymek mi istiyorsun?)', 'Evet', 'Hayır') ],
          b: [ "<32>{#p/human}* (Onu alamayacak kadar çok şey taşıyorsun.)" ]
       },
       indie1: () => [
@@ -2000,7 +2000,7 @@ export default {
       lobby_puzzle3: [ '<25>{#p/toriel}* Hazır olduğunda devam edebiliriz.' ],
       loox: {
          a: [
-            "<32>{#p/basic}{#n1}* I heard you're quite flirty, for a human.",
+            "<32>{#p/basic}{#n1}* Bir insana göre oldukça cilveli olduğunu duydum.",
             "<32>* Farklı türden canavarlarla {@fill=#cf7fff}FLÖRT{@fill=#fff} ettikçe, isimlerinin yanında kalpler göreceksin.",
             "<32>* Ne kadar çok canavar türüyle {@fill=#cf7fff}FLÖRT{@fill=#fff} edersen, o kadar çok kalbin olacak.",
             '<32>* Merak ediyorum da...',
@@ -2026,22 +2026,22 @@ export default {
             '<32>* Belki de, dostum, sen bir... efsane bile olabilirsin.'
          ],
          d: [
-            "<32>{#p/basic}{#n1}* I hear you're somewhat of a bully in these parts.",
-            '<32>* Ha!\n* Join the club, pal.',
-            "<32>* You're talking to the number one bully around.",
-            "<32>* As you {@fill=#3f00ff}BULLY{@fill=#fff} different kinds of monsters, you'll see swords next to their names.",
-            "<32>* The more types of monsters you {@fill=#3f00ff}BULLY{@fill=#fff}, the more swords you'll have.",
-            '<32>* Though, as a disclaimer, not ALL monsters can be bullied.',
-            "<32>* It's like flirting... but with death.",
-            '<32>* Fun, right?'
+            "<32>{#p/basic}{#n1}* Buralarda bir nevi zorba olduğunu duyuyorum.",
+            '<32>* Ha!\n* Kulübe katıl, ahbap.',
+            "<32>* Bu civarlardaki bir numaralı zorbayla konuşuyorsun.",
+            "<32>* Farklı canavar türlerine karşı {@fill=#3f00ff}ZORBA{@fill=#fff} oldukça, onların isimlerinin yanında kılıçlar göreceksin.",
+            "<32>* Ne kadar çok canavar türüne karşı bir {@fill=#3f00ff}ZORBA{@fill=#fff} olursan, o kadar çok kılıcın olacak.",
+            '<32>* Tabii, şunu da belirtelim ki, TÜM canavarlara zorbalık yapılamaz.',
+            "<32>* Tıpkı flört etmek gibi... ama ölümle.",
+            '<32>* Eğlenceli, değil mi?'
          ],
          e: pager.create(
             0,
             () => [
                ...(30 <= SAVE.data.n.bully
                   ? [
-                       "<32>{#p/basic}{#n1}* I heard you're quite the bully around here now.",
-                       "<32>* Everyone's afraid of you, huh?"
+                       "<32>{#p/basic}{#n1}* Buralarda epey zorba olduğunu duydum.",
+                       "<32>* Herkes senden korkuyor, ha?"
                     ]
                   : 20 <= world.flirt
                   ? [
@@ -2065,9 +2065,9 @@ export default {
                   ? [
                        "<32>{#p/basic}{#n1}* Demek o müzik şovunun ortak sunuculuğunu yapan sendin, ha?",
                        "<32>* Belki şimdi teklifimi kabul etme imkânına sahipsindir.",
-                       "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip.",
-                       "<32>* Now I liked that little show, so you'll get a discount.\n* 5G, take it or leave it.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Evet', 'Hayır')
+                       "<32>* Bu sınırlı sayıdaki Süper Starwalker çizgi romanını satın alacak birini arıyorum.",
+                       "<32>* O küçük gösterini beğendim, o yüzden indirim alacaksın.\n* 5A, ya al ya da git.",
+                       choicer.create('{#n1!}* (Süper Starwalker 1\'i 5A fiyatına alacak mısın?)', 'Evet', 'Hayır')
                     ]
                   : [
                        ...(world.postnoot
@@ -2079,7 +2079,7 @@ export default {
                           : [
                                '<32>{#p/basic}{#n1}* Finally, someone speaks to me!',
                                "<32>* I've been standin' out here for ages, and nobody's takin' my offer.",
-                               "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip."
+                               "<32>* Bu sınırlı sayıdaki Süper Starwalker çizgi romanını satın alacak birini arıyorum."
                             ]),
                        "<32>* Interested?\n* All I'm askin' for is 10G.",
                        choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Evet', 'Hayır')
@@ -2089,7 +2089,7 @@ export default {
                   ? [
                        "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
                        "<32>* All I'm askin' for is 5G.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Evet', 'Hayır')
+                       choicer.create('{#n1!}* (Süper Starwalker 1\'i 5A fiyatına alacak mısın?)', 'Evet', 'Hayır')
                     ]
                   : [
                        "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
@@ -2145,33 +2145,33 @@ export default {
                SAVE.data.n.plot === 72
                   ? 6 <= world.population
                      ? [
-                          "<32>{#p/basic}{#n1}* I'm sad.\n* They took the DJ table to use for some tacky show later.",
+                          "<32>{#p/basic}{#n1}* Mutsuzum.\n* DJ masasını daha sonra yapılacak zevksiz bir gösteri için aldılar.",
                           '<32>* ... dur, aslında bu biraz havalı olabilir.'
                        ]
                      : [
-                          "<32>{#p/basic}{#n1}* I'm sad.\n* The bully who came through here earlier...",
-                          '<32>* ... turned out to be you.',
-                          '<32>* You saved us in the end, but why resort to such violence along the way?'
+                          "<32>{#p/basic}{#n1}* Mutsuzum.\n* Daha önce buradan geçmiş olan zorba...",
+                          '<32>* ... meğer senmişsin.',
+                          '<32>* En sonda bizi kurtardın, ama bu yolda niye şiddete başvurdun ki?'
                        ]
                   : SAVE.data.b.napsta_performance
                   ? [
-                       "<32>{#p/basic}{#n1}* I'm sad.\n* Musicians these days are way too hard on themselves...",
-                       '<32>* Personally, I really liked that tune of theirs.',
-                       "<32>* It's a shame we'll probably never get to hear it again.",
-                       '<32>{#n1!}{#n2}* At least you still have steak to keep you company, right? ;)',
-                       '<32>{#n2!}{#n1}* ... not this again.'
+                       "<32>{#p/basic}{#n1}* Mutsuzum.\n* Günümüz müzisyenleri kendilerine çok fazla yükleniyor...",
+                       '<32>* Şahsen ben, onun o küçük bestesini beğenmiştim.',
+                       "<32>* Onu bir daha asla dinleyemeyecek olmamız ne yazık.",
+                       '<32>{#n1!}{#n2}* En azından sana dostluk edebilecek biftekler var, di mi? ;)',
+                       '<32>{#n2!}{#n1}* ... yine mi sen.'
                     ]
                   : [
-                       "<32>{#p/basic}{#n1}* I'm sad.\n* The food these days just gets worse and worse...",
-                       '<32>* I was promised something \"real,\" but all I got was a cheap copy.',
-                       '<32>{#n1!}{#n2}* Hey! ;)\n* Quit bad-mouthing my shop in front of the customers! ;)',
-                       '<32>* Besides, what if your sense of taste is to blame ;)',
-                       '<32>{#n2!}{#n1}* ... typical.'
+                       "<32>{#p/basic}{#n1}* Mutsuzum.\n* Buradaki yemekler her gün daha da beter hale geliyor...",
+                       '<32>* Bana \"gerçek\" bir şey vadedilmişti, ama bana ucuz bir kopya verdiler.',
+                       '<32>{#n1!}{#n2}* Hey! ;)\n* Müşterilerin önünde dükkanımı kötülemeyi kessene! ;)',
+                       '<32>* Ayrıca, ya senin tat alma duyunda sorun varsa ;)',
+                       '<32>{#n2!}{#n1}* ... şaşırtmadı.'
                     ],
             () => [
                SAVE.data.n.plot === 72 && 6 <= world.population
-                  ? "<32>{#p/basic}{#n1}* ... it isn't what it is?"
-                  : '<32>{#p/basic}{#n1}* ... it is what it is.'
+                  ? "<32>{#p/basic}{#n1}* ... işler göründüğü gibi değil mi?"
+                  : '<32>{#p/basic}{#n1}* ... işler aynı göründüğü gibi.'
             ]
          )
       },
@@ -2235,7 +2235,7 @@ export default {
             '<25>{#p/toriel}{#f/1}* Merhaba, ufaklık.',
             '<25>{#f/0}* Şimdi fark ediyorum ki, en son temizlik yapalı epey zaman geçmiş.',
             '<25>{#f/1}* Muhtemelen etrafta saçılmış bir sürü şey vardır...',
-            '<25>{#f/0}* Bunları yanına alabilirsin, ama çok fazla şey taşımamaya çalış.',
+            '<25>{#f/0}* Onları alabilirsin, ama çok fazla şey taşımamaya çalış.',
             '<25>{#f/1}* Ya gerçekten çok isteyeceğin bir şey görecek olursan?',
             '<25>{#f/0}* Bunun için cebinde biraz yer bırakmak isteyeceksindir.'
          ]
@@ -2385,7 +2385,7 @@ export default {
                     ]
                   : [
                        '<32>{#p/basic}{#n1}* Selam.\n* Seninle tanışmak güzel.',
-                       "<32>* İsmim Silencio… yani en azından bana öyle diyorlar, neyse.",
+                       "<32>* İsmim Silencio... yani en azından bana öyle diyorlar, neyse.",
                        '<32>* Bana niye öyle hitap ettiklerini bilmek ister misin?',
                        "<32>* Uzay ninjası gibiyimdir, en sessiz yıldızlar kadar da sessiz.",
                        '<32>* Her türlü tehlikeden sıvışabilirim, istisnasız.',
@@ -2399,7 +2399,7 @@ export default {
                     ]
                   : SAVE.data.b.napsta_performance
                   ? [
-                       '<32>{#p/basic}{#n1}* Bir bakıma, performansım onlar için…',
+                       '<32>{#p/basic}{#n1}* Bir bakıma, performansım onlar için...',
                        '<32>* “Nefes kesiciydi\" diyebilirsin.'
                     ]
                   : [
@@ -2409,21 +2409,21 @@ export default {
          )
       },
       
-      socks0: [ '<32>{#p/human}* (You peek inside.)', '<32>{#p/human}* (It appears the drawer is empty.)' ],
+      socks0: [ '<32>{#p/human}* (İçeriye bir göz atıyorsun.)', '<32>{#p/human}* (Çekmece boş görünüyor.)' ],
       socks1: () =>
          world.darker
-            ? [ '<32>{#p/human}* (You peek inside.)', "<32>{#p/basic}* It's just a sock drawer." ]
+            ? [ '<32>{#p/human}* (İçeriye bir göz atıyorsun.)', "<32>{#p/basic}* Yalnızca bir çorap çekmecesi." ]
             : [
-                 '<32>{#p/human}* (You peek inside.)',
-                 '<32>{#p/basic}* Scandalous!',
-                 "<32>* It's Toriel's sock collection.\n* A little messy...",
+                 '<32>{#p/human}* (İçeriye bir göz atıyorsun.)',
+                 '<32>{#p/basic}* Rezalet!',
+                 "<32>* Toriel'in çorap koleksiyonu.\n* Biraz dağınık...",
                  world.meanie
-                    ? choicer.create('* (Make it messier?)', 'Evet', 'Hayır')
-                    : choicer.create('* (Clean up the mess?)', 'Evet', 'Hayır')
+                    ? choicer.create('* (Daha fazla dağıt?)', 'Evet', 'Hayır')
+                    : choicer.create('* (Dağınıklığı temizle?)', 'Evet', 'Hayır')
               ],
       socks2: () =>
          world.meanie
-            ? [ '<33>{#p/human}* (You make a mess of the socks.)' ]
+            ? [ '<33>{#p/human}* (Çorapları ortalığa saçıyorsun.)' ]
             : [
                  '<32>{#p/human}* (Çorapları eşleşen çiftleriyle düzenliyorsun.)',
                  ...(SAVE.data.b.oops
@@ -2450,7 +2450,7 @@ export default {
                  "<32>{#p/human}* (Bu olmasaydı nerelerde olacağını merak etmeden duramıyorsun.)"
               ]
             : world.darker
-            ? [ "<32>{#p/basic}* It's just a sock drawer." ]
+            ? [ "<32>{#p/basic}* Yalnızca bir çorap çekmecesi." ]
             : SAVE.data.n.plot < 72
             ? [ "<32>{#p/basic}* Çoraplara bakmaktan kendini alamıyorsun." ]
             : SAVE.data.b.oops
@@ -2468,66 +2468,66 @@ export default {
             () =>
                SAVE.data.b.napsta_performance
                   ? [
-                       '<32>{#p/basic}{#n1}* Sup, lassy ;)',
-                       "<32>* It was good seeyin' ya at the show, ya know? ;)",
-                       '<32>* You did a real bang-up job ;)',
-                       "<32>* If one thing's for sure, I think that calls for a special offer ;)",
-                       '<32>* For a limited time only, our products will be infused with our \"premium\" ingredients ;)',
-                       "<32>* And believe me, lassy, this ain't just the same old stuff as before, aw naw ;)",
-                       '<32>* This stuff is GENUINE, yo ;)',
-                       "<32>* It's a little more expensive, so I hope ya don't mind ;)",
-                       "<32>* Now... why don'tcha check out what's for sale? ;)"
+                       '<32>{#p/basic}{#n1}* Naber kız ;)',
+                       "<32>* Seni o gösteride görmek güzeldi biliyo musun? ;)",
+                       '<32>* Müthiş bir iş çıkardın ;)',
+                       "<32>* Eğer bir şeyden eminsem, o da özel teklif vaktinin geldiğidir ;)",
+                       '<32>* Sadece kısa bir süreliğine, ürünlerimize \"premium\" malzemeler katılacak ;)',
+                       "<32>* Ve inan bana kız, bu o eski şeylerden değil ha, hiç de bile ;)",
+                       '<32>* Bu şeyler HARBİ, yo ;)',
+                       "<32>* Fiyatı biraz daha fazla, umarım buna takılmıyosundur ;)",
+                       "<32>* Öyleyse... niye nelerin satıldığına bi bakmıyorsun? ;)"
                     ]
                   : [
-                       '<32>{#p/basic}{#n1}* Sup, lassy ;)',
-                       '<32>* The boss man sent me out here to see what you country peeps are up to, ya know? ;)',
-                       "<32>* You could say we're expanding our enterprise ;)",
-                       "<32>* What's our enterprise, you ask? ;)",
-                       "<32>* Well, it's quite simple really... we sell steak ;)",
-                       "<32>* And this ain't the replicated stuff, aw naw ;)",
-                       '<32>* This stuff is REAL, yo ;)',
-                       '<32>* Anyone who says otherwise is a poser, ya feel me? ;)',
-                       "<32>* That being said, why don'tcha check out what's for sale? ;)"
+                       '<32>{#p/basic}{#n1}* Naber kız ;)',
+                       '<32>* Bilir misin, patron adam beni buraya siz taşracılar napıyorsunuz bakayım diye yolladı ;)',
+                       "<32>* İşletmeyi büyüttüğümüzü söyleyebilirsin ;)",
+                       "<32>* İşletmemiz neyle ilgili diye mi sordun? ;)",
+                       "<32>* Aslında, gayet basit... biftek satıyoruz ;)",
+                       "<32>* Bu o çoğaltılmış şeylerden değil ha, hiç de bile ;)",
+                       '<32>* Bu şeyler HARBİ, yo ;)',
+                       '<32>* Aksini iddia eden kandırıkçıdır, anlıyo musun? ;)',
+                       "<32>* Bunları demişken, niye nelerin satıldığına bi bakmıyorsun? ;)"
                     ],
-            [ "<32>{#p/basic}{#n1}* Why don'tcha check out what's for sale? ;)" ]
+            [ "<32>{#p/basic}{#n1}* Niye nelerin satıldığına bi bakmıyorsun? ;)" ]
          ),
-         a1: [ '<32>{#p/basic}{#n1}* Thanks for everything, lassy ;)' ],
+         a1: [ '<32>{#p/basic}{#n1}* Her şey için teşekkürler kız ;)' ],
          b: () => [
             SAVE.data.b.napsta_performance
                ? world.darker
-                  ? '<32>{#p/basic}{#n1!}* \"Sizzli Steak\" for 40G.'
-                  : '<32>{#p/basic}{#n1!}* It\'s labelled \"Sizzli Steak\" and costs 40G.\n* Smells like ultra-hyperbole.'
+                  ? '<32>{#p/basic}{#n1!}* 40A\'ya \"Cızırtılı Biftek\".'
+                  : '<32>{#p/basic}{#n1!}* Üstünde \"Cızırtılı Biftek\" yazıyor ve 40A tutuyor.\n* Mübalağa gibi kokuyor.'
                : world.darker
-               ? '<32>{#p/basic}{#n1!}* \"Sizzli Steak\" for 20G.'
-               : '<32>{#p/basic}{#n1!}* It\'s labelled \"Sizzli Steak\" and costs 20G.\n* Smells like hyperbole.',
+               ? '<32>{#p/basic}{#n1!}* 20A\'ya \"Cızırtılı Biftek\".'
+               : '<32>{#p/basic}{#n1!}* Üstünde \"Cızırtılı Biftek\" yazıyor ve 20A tutuyor.\n* Abartı gibi kokuyor.',
             SAVE.data.b.napsta_performance
-               ? choicer.create('* (Buy the Sizzli Steak for 40G?)', 'Evet', 'Hayır')
-               : choicer.create('* (Buy the Sizzli Steak for 20G?)', 'Evet', 'Hayır')
+               ? choicer.create('* (Cızırtılı Biftek\'i 40A\'ya al?)', 'Evet', 'Hayır')
+               : choicer.create('* (Cızırtılı Biftek\'i 20A\'ya al?)', 'Evet', 'Hayır')
          ],
-         b1: [ '<32>{#p/human}{#n1!}* (You got the Sizzli Steak.)', '<32>{#p/basic}{#n1}* Slick choice, lassy ;)' ],
+         b1: [ '<32>{#p/human}{#n1!}* (Cızırtılı Biftek\'i aldın.)', '<32>{#p/basic}{#n1}* Güzel seçim kız ;)' ],
          b2: [ '<32>{#p/human}{#n1!}* (Satın almamaya karar verdin.)' ],
          c: () => [
             SAVE.data.b.napsta_performance
                ? world.darker
-                  ? '<32>{#p/basic}{#n1!}* \"Fizzli Soda\" for 10G.'
-                  : '<32>{#p/basic}{#n1!}* It\'s labelled \"Fizzli Soda\" and costs 10G.\n* Who would EVER buy this?'
+                  ? '<32>{#p/basic}{#n1!}* 10A\'ya \"Fışırtılı Soda\".'
+                  : '<32>{#p/basic}{#n1!}* Üstünde \"Fışırtılı Soda\" yazıyor ve 10A tutuyor.\n* Bunu KİM alır ki?'
                : world.darker
-               ? '<32>{#p/basic}{#n1!}* \"Fizzli Soda\" for 5G.'
-               : '<32>{#p/basic}{#n1!}* It\'s labelled \"Fizzli Soda\" and costs 5G.\n* Who would buy this?',
+               ? '<32>{#p/basic}{#n1!}* 5A\'ya \"Fışırtılı Soda\".'
+               : '<32>{#p/basic}{#n1!}* Üstünde \"Fışırtılı Soda\" yazıyor ve 5A tutuyor.\n* Bunu kim alır?',
             SAVE.data.b.napsta_performance
-               ? choicer.create('* (Buy the Fizzli Soda for 10G?)', 'Evet', 'Hayır')
-               : choicer.create('* (Buy the Fizzli Soda for 5G?)', 'Evet', 'Hayır')
+               ? choicer.create('* (Fışırtılı Soda\'yı 10A\'ya al?)', 'Evet', 'Hayır')
+               : choicer.create('* (Fışırtılı Soda\'yı 5A\'ya al?)', 'Evet', 'Hayır')
          ],
-         c1: [ '<32>{#p/human}{#n1!}* (You got the Fizzli Soda.)', "<32>{#p/basic}{#n1}* Careful, it's sweet ;)" ],
+         c1: [ '<32>{#p/human}{#n1!}* (Fışırtılı Soda\'yı aldın.)', "<32>{#p/basic}{#n1}* Dikkat et, şekerlidir ;)" ],
          c2: [ '<32>{#p/human}{#n1!}* (Satın almamaya karar verdin.)' ],
          d: pager.create(
             0,
             () => [
                "<32>{#p/human}{#n1!}* (You don't have enough G.)",
-               '<32>{#p/basic}{#n1}* Not enough money, huh? ;)',
+               '<32>{#p/basic}{#n1}* Paran yetmedi mi, ha? ;)',
                SAVE.data.b.napsta_performance
-                  ? '<32>{#p/basic}* That\'s alright, lassy ;)\n* Not everyone can afford the \"premium\" ingredients ;)'
-                  : "<32>{#p/basic}* That's alright, lassy ;)\n* Just be sure to come back when you've got some ;)"
+                  ? '<32>{#p/basic}* Sorun değil kız ;)\n* Sonuçta herkesin parası \"premium\" malzemelere yetecek değil ;)'
+                  : "<32>{#p/basic}* Sorun değil kız ;)\n* Biraz paran olduğunda geri gelmeyi unutma ;)"
             ],
             [ "<32>{#p/human}{#n1!}* (You don't have enough G.)" ]
          ),
@@ -2535,30 +2535,30 @@ export default {
             0,
             [
                "<32>{#p/human}{#n1!}* (Çok fazla şey taşıyorsun.)",
-               '<32>{#p/basic}{#n1}* Maybe you should come back later ;)'
+               '<32>{#p/basic}{#n1}* Belki de daha sonra gelmelisin ;)'
             ],
             [ "<32>{#p/human}{#n1!}* (Çok fazla şey taşıyorsun.)" ]
          ),
-         f: [ '<32>{#p/human}{#n1!}* (You got the Sizzli Steak.)' ],
-         g: [ '<32>{#p/human}{#n1!}* (You got the Fizzli Soda.)' ],
+         f: [ '<32>{#p/human}{#n1!}* (Cızırtılı Biftek\'i aldın.)' ],
+         g: [ '<32>{#p/human}{#n1!}* (Fışırtılı Soda\'yı aldın.)' ],
          h: [ "<32>{#p/human}{#n1!}* (Çok fazla şey taşıyorsun.)" ],
          i: [
-            "<32>{#p/basic}{#n1}* By the way, we're outta stock ;)",
-            "<32>* Seems you can't get enough of our stuff ;)",
-            '<32>* Say, if- no, when you meet the boss-man... tell him this ;)',
-            '<32>{#p/human}{#n1!}* (Aaron whispered something in your ear.)',
-            '<32>{#p/basic}{#n1}* Good luck out there, lassy ;)'
+            "<32>{#p/basic}{#n1}* Bu arada, stoklarımız tükendi ;)",
+            "<32>* Anlaşılan bizim mallara bir türlü doyamıyorsun ;)",
+            '<32>* Bak ne dicem- dur, patron adamla tanıştığında... ona bunu söyle ;)',
+            '<32>{#p/human}{#n1!}* (Aaron kulağına bir şey fısıldadı.)',
+            '<32>{#p/basic}{#n1}* Oralarda bol şans, kız ;)'
          ]
       },
       supervisor: {
          a: [ '<32>{#p/basic}* Sonra...' ],
          b: [
             '<32>{#p/napstablook}* hey millet...',
-            '<32>* bu bir süre önce yazdığım küçük bir melodi…',
-            "<32>* kendi tarzımla yeni şeyler deniyordum, o yüzden…",
+            '<32>* bu bir süre önce yazdığım küçük bir melodi...',
+            "<32>* kendi tarzımla yeni şeyler deniyordum, o yüzden...",
             "<32>* umarım ki sizler için yeterli olur",
             '<32>* ...',
-            '<32>* pekala, işte başlıyor…'
+            '<32>* pekala, işte başlıyor...'
          ],
          c1: [ '<32>{*}{#p/basic}* Hımm, bu caz gibi.{^30}{%}' ],
          c2: [
@@ -2732,16 +2732,16 @@ export default {
             SAVE.data.b.svr
                ? [
                     [
-                       '<25>{#p/asriel1}{#f/13}* An empty photo frame...',
-                       '<25>{#f/16}* Once upon a time, there WERE pictures in these frames.',
-                       '<25>{#f/15}* Then, she took them out and never put them back.',
-                       "<25>{#f/16}* ... must've hurt too much to look at them."
+                       '<25>{#p/asriel1}{#f/13}* Boş bir fotoğraf çerçevesi...',
+                       '<25>{#f/16}* Bir zamanlar, bu çerçevelerin içinde RESİMLER vardı.',
+                       '<25>{#f/15}* Sonra, o onları çıkardı ve bir daha asla geri koymadı.',
+                       "<25>{#f/16}* ... onlara bakmak çok acı verici olmuş olmalı."
                     ],
                     [
-                       '<25>{#p/asriel1}{#f/13}* Empty photo frames are like missing memories...',
-                       '<25>{#p/asriel1}{#f/15}* This place has way too many of them.'
+                       '<25>{#p/asriel1}{#f/13}* Boş fotoğraf çerçeveleri tıpkı kaybolmuş anılar gibi...',
+                       '<25>{#p/asriel1}{#f/15}* Bu yerde onlardan çok fazla var.'
                     ],
-                    [ '<25>{#p/asriel1}{#f/22}* Too many of these in this strange place.' ]
+                    [ '<25>{#p/asriel1}{#f/22}* Bu tuhaf yerde bunlardan çok var.' ]
                  ][Math.min(asrielinter.photoframe++, 1)]
                : SAVE.data.n.plot === 72 && !world.runaway
                ? [ '<32>{#p/basic}* Hala boş bir fotoğraf çerçevesi.' ]
@@ -2775,8 +2775,8 @@ export default {
                : [
                     '<32>{#p/basic}* Vırak, Vırak.\n* (Affedersin, insan...)',
                     '<32>* (Canavarlarla savaşmak konusunda sana birkaç tavsiyem var.)',
-                    '<32>* (If you {@fill=#ff0}ACT{@fill=#fff} a certain way or {@fill=#3f00ff}FIGHT{@fill=#fff} until you almost defeat them...)',
-                    '<32>* (They might not want to battle you anymore.)',
+                    '<32>* (Eğer belirli bir {@fill=#ff0}EYLEM{@fill=#fff} sergiler ya da onları neredeyse yenene kadar {@fill=#3f00ff}SAVAŞ{@fill=#fff} edersen...)',
+                    '<32>* (Seninle daha fazla savaşmak istemeyebilirler.)',
                     '<32>* (Eğer bir canavar seninle savaşmak istemiyorsa, lütfen...)',
                     '<32>* (Biraz {@fill=#ff0}İNSAF{@fill=#fff} göster, insan.)\n* Vırak.'
                  ],
@@ -2787,108 +2787,108 @@ export default {
                ? []
                : SAVE.data.n.plot === 72
                ? [
-                    "<32>{#p/basic}* It's ironic how staring at outer space...",
-                    '<32>* Tends to be a great way to channel your inner thoughts.'
+                    "<32>{#p/basic}* Dış uzaya bakmanın...",
+                    '<32>* Düşüncelerini yönlendirmenin harika bir yolu olması ironik.'
                  ]
                : [
-                    "<32>{#p/basic}* It's a view of outer space.",
+                    "<32>{#p/basic}* Dış uzayın bir görüntüsü.",
                     '<32>* Certainly no shortage of those around here, is there?'
                  ],
          w_kitchenwall: () =>
             SAVE.data.n.plot === 9
-               ? [ '<26>{#p/toriel}{#f/1}* Patience, my child!' ]
-               : [ '<26>{#p/toriel}{#f/1}* This may take a while...' ],
+               ? [ '<26>{#p/toriel}{#f/1}* Sabret, çocuğum!' ]
+               : [ '<26>{#p/toriel}{#f/1}* Bu biraz zaman alabilir...' ],
          w_lobby1: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The sign speaks of strength of will in times of trouble.)' ]
-               : [ '<32>{#p/basic}* \"Even when you stumble, the will to push onward shows through.\"' ],
+               ? [ '<32>{#p/human}* (Tabela, sıkıntılı zamanlarda iradenin gücünden bahsediyor.)' ]
+               : [ '<32>{#p/basic}* \"Tökezlediğinizde bile, ilerleme isteğiniz kendini gösterir.\"' ],
          w_pacing_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare happily into the cosmos beyond...)' ]
+               ? [ '<32>{#p/human}* (Kozmosun ötesine mutlulukla bakıyorsun...)' ]
                : world.darker
                ? []
                : SAVE.data.n.plot === 72
                ? [
-                    "<32>{#p/basic}* After such a long journey, the glass doesn't seem to scare you.",
-                    '<32>* Not that it ever did in the first place.'
+                    "<32>{#p/basic}* Bu kadar uzun bir yolculuktan sonra, cam seni korkutuyor gibi görünmüyor.",
+                    '<32>* Zaten ilk başta korkuttuğu da yoktu.'
                  ]
                : [
-                    '<32>{#p/basic}* To think the only thing between you and the endless expanse is a sheet of glass...',
-                    "<32>* Despite all common sense, this doesn't seem to bother you."
+                    '<32>{#p/basic}* Seninle sonsuz genişlik arasında sadece bir cam parçası olduğunu düşünmek...',
+                    "<32>* Bütün sağduyuya rağmen, bu durum seni rahatsız etmiyor gibi görünüyor."
                  ],
          w_pacing1: () =>
             SAVE.data.n.plot === 72
                ? [
-                    '<32>{#p/basic}* Ribbit, ribbit.\n* (Someone passed by here not too long ago.)',
-                    '<32>* (He told me not to tell you where he was going.)',
-                    "<32>* (I wasn't going to, but then, he just seemed so sad...)",
-                    "<32>* (He's probably at the platform just past the entrance now.)",
-                    '<32>* (Go. Speak to him. Something good will come of it.)\n* Ribbit.',
+                    '<32>{#p/basic}* Vırak, vırak.\n* (Kısa bir süre önce buradan birisi geçti.)',
+                    '<32>* (Bana onun nereye gittiğini söylemememi söyledi.)',
+                    "<32>* (Zaten söylemeyecektim, ama yine de, o çok üzgün görünüyordu...)",
+                    "<32>* (Muhtemelen şu anda girişin hemen ilerisindeki bölgededir.)",
+                    '<32>* (Git. Onunla konuş. Bundan iyi bir şey çıkacak.)\n* Vırak.',
                     '<32>{#p/basic}* ... Asriel...'
                  ]
                : [
-                    '<32>{#p/basic}* Ribbit, ribbit.\n* (Sigh...)',
-                    '<32>* (My \"friend\" doesn\'t really like being kind to me.)',
-                    '<32>* (If given the option, they choose to hurt me instead.)',
-                    "<32>* (That's right.......)\n* (Hurting me............)\n* (................)",
-                    "<32>* (At least you're kind to me.)\n* Ribbit."
+                    '<32>{#p/basic}* Vırak, Vırak.\n* (İç çeker...)',
+                    '<32>* (\"Arkadaşım\" bana karşı nazik olmayı pek sevmiyor.)',
+                    '<32>* (Eğer seçenek verilirse, bana zarar vermeyi seçiyor.)',
+                    "<32>* (Bu doğru.......)\n* (Bana zarar vermeyi............)\n* (................)",
+                    "<32>* (En azından sen bana karşı naziksin.)\n* Vırak."
                  ],
          w_pacing2: () =>
             SAVE.data.n.plot === 72
                ? SAVE.data.b.oops
                   ? [
-                       '<32>{#p/basic}* Ribbit, ribbit.\n* (Hello, human...)',
-                       '<32>* (Have you heard from my friend?)',
-                       '<32>* (They were standing here a few days ago, just to my left...)',
-                       '<32>* (But some time after your arrival, they disappeared.)',
-                       "<32>* (They did say they'd leave if you hurt anyone...)",
+                       '<32>{#p/basic}* Vırak, vırak.\n* (Merhaba, insan...)',
+                       '<32>* (Arkadaşımdan haber aldın mı?)',
+                       '<32>* (Birkaç gün önce burada duruyordu, tam solumda...)',
+                       '<32>* (Ama senin gelişinden bir süre sonra, ortadan kayboldu.)',
+                       "<32>* (Eğer birine zarar verirsen buradan gideceğini söylemişti...)",
                        SAVE.data.n.exp <= 0
-                          ? "<32>* (Which is confusing, since you definitely haven't done that.)\n* Ribbit."
-                          : '<32>* (Maybe next time, you could try being a little nicer?)\n* Ribbit.'
+                          ? "<32>* (Bu kafa karıştırıcı, ne de olsa bunu kesinlikle yapmadın.)\n* Vırak."
+                          : '<32>* (Belki bir dahaki sefere biraz daha nazik olmayı deneyebilirsin?)\n* Vırak.'
                     ]
                   : [
-                       '<32>{#p/basic}* Ribbit, ribbit.\n* (Hello, human...)',
-                       "<32>* (My friend is the happiest they've ever been.)",
-                       "<32>* (They said they'd leave if you hurt anyone, but you haven't.)",
-                       "<32>* (In fact, they've decided to stay to my left forever.)",
-                       '<32>* (As for that \"friend\" of theirs who always tried to hurt them...)',
-                       '<32>* (Oh, he seems to have turned himself into a goat.)\n* Ribbit.'
+                       '<32>{#p/basic}* Vırak, vırak.\n* (Merhaba, insan...)',
+                       "<32>* (Arkadaşım şu an hayatında hiç olmadığı kadar mutlu.)",
+                       "<32>* (Eğer birine zarar verirsen buradan gideceğini söylemişti, ama yapmadın.)",
+                       "<32>* (Hatta, sonsuza kadar solumda kalmaya karar verdi.)",
+                       '<32>* (Ve ona hep zarar vermeye çalışmış \"arkadaşı\" hakkında...)',
+                       '<32>* (Ah, o galiba kendini bir keçiye dönüştürdü.)\n* Vırak.'
                     ]
                : [
-                    '<32>{#p/basic}* Ribbit, ribbit.\n* (Hello, human...)',
-                    '<32>* (Have you ever tried checking your ITEMs?)',
-                    "<32>* (If you've picked up anything, that's where you'll find it.)",
-                    '<32>* (What do I have in my ITEMs, you ask?)',
-                    "<32>* (Oh, you're silly... monsters don't have ITEMs!)\n* Ribbit."
+                    '<32>{#p/basic}* Vırak, vırak.\n* (Merhaba, insan...)',
+                    '<32>* (Hiç EŞYAlarını kontrol etmeyi denedin mi?)',
+                    "<32>* (Eğer yanına bir şey aldıysan, onu bulacağın yer orası.)",
+                    '<32>* (Benim EŞYAlarımda ne olduğunu mu soruyorsun?)',
+                    "<32>* (Ah, ahmaksın... canavarların EŞYAları yoktur!)\n* Vırak."
                  ],
          w_pacing3: () =>
             SAVE.data.n.plot === 72
                ? SAVE.data.n.bully < 1
                   ? [
-                       '<32>{#p/basic}* Ribbit, ribbit.\n* (Thank you for always showing mercy to us monsters.)',
-                       '<32>* (I know I gave you advice on how to beat people up safely...)',
-                       "<32>* (But that didn't mean I wanted you to do it.)",
-                       '<32>* (You are a kind human indeed.)\n* Ribbit.'
+                       '<32>{#p/basic}* Vırak, vırak.\n* (Biz canavarlara karşı her zaman merhamet gösterdiğin için teşekkür ederiz.)',
+                       '<32>* (Sana başkalarını güvenli de olsa nasıl döveceğine dair tavsiyede bulunduğumu biliyorum...)',
+                       "<32>* (Ama bu senin bunu yapmanı istediğim anlamına gelmiyordu.)",
+                       '<32>* (Gerçekten çok nazik bir insansın.)\n* Vırak.'
                     ]
                   : SAVE.data.n.bully < 15
                   ? [
-                       '<32>{#p/basic}* Ribbit, ribbit.\n* (Thank you for keeping the beatings to a minimum.)',
-                       '<32>* (I know I gave you advice on how to beat people up safely...)',
-                       "<32>* (But that didn't mean I wanted you to do it.)",
-                       "<32>* (You aren't too terrible, at least for a human.)\n* Ribbit."
+                       '<32>{#p/basic}* Vırak, vırak.\n* (Şiddeti minimumda tuttuğun için teşekkür ederim.)',
+                       '<32>* (Sana başkalarını güvenli de olsa nasıl döveceğine dair tavsiyede bulunduğumu biliyorum...)',
+                       "<32>* (Ama bu senin bunu yapmanı istediğim anlamına gelmiyordu.)",
+                       "<32>* (En azından bir insana göre, o kadar da korkunç değilsin.)\n* Vırak."
                     ]
                   : [
-                       '<32>{#p/basic}* Ribbit, ribbit.\n* (So you have proven to be a formidable threat.)',
-                       "<32>* (Yet, somehow, I'm still not afraid of you...)",
-                       '<32>* (Perhaps at the end, you offered mercy when you could have attacked.)',
-                       '<32>* (I do appreciate the restraint you have shown.)\n* Ribbit.'
+                       '<32>{#p/basic}* Vırak, vırak.\n* (Demek kendinin çok büyük bir tehdit olduğunu kanıtladın.)',
+                       "<32>* (Buna rağmen, nedense, hala senden korkmuyorum...)",
+                       '<32>* (Belki de işin sonunda, saldırabilecekken merhamet gösterdin.)',
+                       '<32>* (Gösterdiğin ölçülülüğü takdir ediyorum.)\n* Vırak.'
                     ]
                : [
-                    "<32>{#p/basic}* Ribbit, ribbit.\n* (If you beat up a monster until it's almost dead...)",
-                    '<32>* (Its name will turn blue.)',
-                    '<32>* (Weird, right?)\n* (But I heard humans turn blue when they get beat up, too.)',
-                    '<32>* (So, I suppose you can relate to that.)',
-                    '<32>* (Well, thank you for listening to my head-talk.)\n* Ribbit.'
+                    "<32>{#p/basic}* Vırak, vırak.\n* (Bir canavarı neredeyse öldürene kadar döversen...)",
+                    '<32>* (İsmi maviye dönecek.)',
+                    '<32>* (Tuhaf, değil mi?)\n* (Ama insanların da dövüldüklerinde maviye döndüklerini duydum.)',
+                    '<32>* (Öyleyse, bunu anlayabildiğini sanıyorum.)',
+                    '<32>* (Pekala, kafamın içindekileri dinlediğin için teşekkür ederim.)\n* Vırak.'
                  ],
          w_puzzle1_view: () =>
             SAVE.data.b.svr
@@ -2906,38 +2906,38 @@ export default {
                ? world.nootflags.has('w_puzzle2') // NO-TRANSLATE
 
                   ? [
-                       '<32>{#p/human}* (The sign describes puzzle- solving as an unnecessary part of space exploration.)',
+                       '<32>{#p/human}* (Tabelada bulmaca çözmenin uzay keşfinin gereksiz bir parçası olduğu anlatılıyor.)',
                        ...[
                           [
-                             '<25>{#p/asriel1}{#f/13}* Unlike most signs, this one has a point.',
-                             "<25>{#f/15}* And that's not just because I'm the one who wrote it."
+                             '<25>{#p/asriel1}{#f/13}* Çoğu tabelanın aksine, bu gerçekten haklı.',
+                             "<25>{#f/15}* Ve bunu sadece yazan kişi ben olduğum için söylemiyorum."
                           ],
-                          [ "<25>{#p/asriel1}{#f/3}* ... don't tell me you actually enjoyed these puzzles." ],
-                          [ "<25>{#p/asriel1}{#f/10}* Frisk, even you're not THAT weird." ]
+                          [ "<25>{#p/asriel1}{#f/3}* ... bana bu bulmacaları gerçekten sevdiğini söyleme." ],
+                          [ "<25>{#p/asriel1}{#f/10}* Frisk, sen bile bu KADAR tuhaf değilsin." ]
                        ][Math.min(asrielinter.w_puzzle2++, 2)]
                     ]
-                  : [ '<32>{#p/human}* (The sign describes the value of patience in space.)' ]
+                  : [ '<32>{#p/human}* (Tabela uzayda sabrın değerini anlatıyor.)' ]
                : world.nootflags.has('w_puzzle2') // NO-TRANSLATE
 
                ? [
-                    '<32>{#p/basic}* \"The final frontier is a deep dark sea.\"',
-                    '<32>* \"Navigating its waters should NEVER require solving badly designed puzzles!\"'
+                    '<32>{#p/basic}* \"Son sınır derin ve karanlık bir denizdir.\"',
+                    '<32>* \"Sularında yol almak ASLA kötü tasarlanmış bulmacaları çözmeyi gerektirmemelidir!\"'
                  ]
                : [
-                    '<32>{#p/basic}* \"The final frontier is a deep dark sea.\"',
-                    '<32>{#p/basic}* \"Before charging into the {@fill=#ff993d}great unknown{@fill=#fff}, you must wait for its {@fill=#00a2e8}currents to align{@fill=#fff}.\"'
+                    '<32>{#p/basic}* \"Son sınır derin ve karanlık bir denizdir.\"',
+                    '<32>{#p/basic}* \"{@fill=#ff993d}Büyük bilinmezliğe{@fill=#fff} dalmadan önce, onun {@fill=#00a2e8}akıntılarının hizalanmasını{@fill=#fff} beklemelisiniz.\"'
                  ],
          w_puzzle3_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare reflectively into the cosmos beyond...)' ]
+               ? [ '<32>{#p/human}* (Düşünceli bir şekilde ötedeki kozmosa bakıyorsun...)' ]
                : world.darker
                ? []
                : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* It sure... was... a nice view.' ]
-               : [ '<32>{#p/basic}* It sure is a nice view.' ],
+               ? [ '<32>{#p/basic}* Bu gerçekten de... güzel bir manzaraydı.' ]
+               : [ '<32>{#p/basic}* Bu gerçekten de güzel bir manzara.' ],
          w_puzzle4: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The sign appears to be an advertisement for a now- defunct steak sale.)' ]
+               ? [ '<32>{#p/human}* (Tabelanın, artık faaliyette olmayan bir biftek satışı reklamı olduğu görülüyor.)' ]
                : [
                     '<32>{#p/basic}* \"Be sure to catch a slice of Glyde\'s Signature Steak (TM) in the activities room!\"'
                  ],
@@ -2945,49 +2945,49 @@ export default {
             SAVE.data.b.svr
                ? [
                     [
-                       '<25>{#p/asriel1}{#f/20}* Yeah... Toriel was never one to keep these in one piece.',
-                       '<25>{#f/21}* Even these replicas of my model starships got smashed...'
+                       '<25>{#p/asriel1}{#f/20}* Evet... Toriel hiç bunları tek parça halinde tutan biri olmamıştır.',
+                       '<25>{#f/21}* Bu model yıldız gemilerimin kopyaları bile parçalanmış,..'
                     ],
                     [
-                       "<25>{#f/13}* It's surprising.\n* She's usually such an organized person.",
-                       '<25>{#p/asriel1}{#f/17}* ... she must have been having a bad day.'
+                       "<25>{#f/13}* Bu şaşırtıcı.\n* O genellikle oldukça organize biridir.",
+                       '<25>{#p/asriel1}{#f/17}* ... kötü bir gün geçirmiş olmalı.'
                     ],
-                    [ '<25>{#p/asriel1}{#f/13}* It happens...' ]
+                    [ '<25>{#p/asriel1}{#f/13}* Olur böyle şeyler...' ]
                  ][Math.min(asrielinter.w_ta_box++, 2)]
                : world.darker
-               ? [ "<32>{#p/basic}* It's a toy box.\n* The model starships have been smashed to pieces." ]
+               ? [ "<32>{#p/basic}* Bu bir oyuncak kutusu.\n* Model yıldız gemileri parçalanmış." ]
                : SAVE.data.n.plot === 72
                ? [
-                    '<32>{#p/basic}* The little ships in this box were never repaired.',
-                    "<32>* If this was at Asgore's house, they'd be in perfect shape."
+                    '<32>{#p/basic}* Bu kutunun içindeki küçük gemiler hiç tamir edilmedi.',
+                    "<32>* Eğer bu Asgore'un evinde olsaydı, kusursuz durumda olurlardı."
                  ]
                : [
-                    '<32>{#p/basic}* A box of model starships!\n* And... shattered glass?',
-                    '<32>* Looks like someone broke their little ships.'
+                    '<32>{#p/basic}* Bir kutu model yıldız gemisi!\n* Ve... kırık cam?',
+                    '<32>* Görünüşe göre birileri küçük gemilerini kırmış.'
                  ],
          w_ta_cabinet: () =>
             SAVE.data.b.svr
-               ? [ "<32>{#p/human}* (You can't find anything in here besides several of the exact same outfit.)" ]
+               ? [ "<32>{#p/human}* (Burada, birbirinin aynısı birkaç kıyafetten başka bir şey bulamıyorsun.)" ]
                : [
-                    '<32>{#p/basic}* A cabinet full of blue and yellow striped shirts.',
-                    ...(SAVE.data.n.plot === 72 ? [ "<32>* Like that's ever gonna change." ] : [])
+                    '<32>{#p/basic}* Mavi ve sarı çizgili gömleklerle dolu bir dolap.',
+                    ...(SAVE.data.n.plot === 72 ? [ "<32>* Sanki bu hiç değişecekmiş gibi." ] : [])
                  ],
          w_ta_frame: () =>
             SAVE.data.b.svr
-               ? [ [ "<25>{#p/asriel1}{#f/21}* ... it's missing..." ], [ '<25>{#p/asriel1}{#f/21}* ...' ] ][
+               ? [ [ "<25>{#p/asriel1}{#f/21}* ... burada yok..." ], [ '<25>{#p/asriel1}{#f/21}* ...' ] ][
                     Math.min(asrielinter.w_ta_frame++, 1)
                  ]
                : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* Boş bir fotoğraf çerçevesi.', "<32>* There still isn't much else to say." ]
-               : [ '<32>{#p/basic}* Boş bir fotoğraf çerçevesi.', "<32>* There's not much else to say." ],
+               ? [ '<32>{#p/basic}* Boş bir fotoğraf çerçevesi.', "<32>* Hala söylenecek pek başka bir şey yok." ]
+               : [ '<32>{#p/basic}* Boş bir fotoğraf çerçevesi.', "<32>* Söylenecek başka pek bir şey yok." ],
          w_ta_paper: () =>
             SAVE.data.b.svr
                ? [
-                    "<32>{#p/human}* (The drawing doesn't appear to be anything of importance.)",
+                    "<32>{#p/human}* (Çizim önemli bir şeymiş gibi görünmüyor.)",
                     ...[
                        [
-                          "<25>{#p/asriel1}{#f/13}* It's long gone now, but the real drawing I made here...",
-                          '<25>{#f/17}* ... was basically the blueprint for my \"god of hyperdeath\" form.',
+                          "<25>{#p/asriel1}{#f/13}* Şimdiye kadar çoktan gitti, ama burada yaptığım asıl çizim...",
+                          '<25>{#f/17}* ... esasen \"hiper ölüm tanrısı\" formumun taslağıydı.',
                           '<25>{#f/17}* Super skybreaker, titanium striker...',
                           '<25>{#f/20}* And, of course, the legendary \"hyper goner.\"'
                        ],
@@ -2997,48 +2997,48 @@ export default {
                           '<25>{#f/1}* Ooh, you would have ADORED my pan-galactic starship concept.'
                        ],
                        [
-                          '<25>{#p/asriel1}{#f/17}* Frisk, I hope...',
-                          '<25>{#f/23}* I really hope we can have a moment like that between us.',
-                          '<25>{#f/22}* Back with $(name), it was always...',
-                          '<25>{#f/15}* ... difficult.'
+                          '<25>{#p/asriel1}{#f/17}* Frisk, umarım...',
+                          '<25>{#f/23}* Umarım birlikte böyle bir an yaşayabiliriz.',
+                          '<25>{#f/22}* $(name) ile birlikte hep...',
+                          '<25>{#f/15}* ... zordu.'
                        ],
-                       [ "<25>{#p/asriel1}{#f/20}* Don't worry.\n* If you can't draw, I'll just teach you." ]
+                       [ "<25>{#p/asriel1}{#f/20}* Endişelenme.\n* Eğer çizemiyorsan, ben sana öğretirim." ]
                     ][Math.min(asrielinter.w_ta_paper++, 3)]
                  ]
                : world.darker
-               ? [ '<32>{#p/basic}* A forgettable drawing.\n* Nothing like the original.' ]
+               ? [ '<32>{#p/basic}* Unutulabilir bir çizim.\n* Orijinaline hiç benzemiyor.' ]
                : [
-                    "<32>{#p/basic}* A children's drawing, depicting a giant monster with rainbow wings.",
-                    "<32>* It's just like the one at home..."
+                    "<32>{#p/basic}* Bir çocuğun resmi, gökkuşağı kanatlı dev bir canavarı tasvir ediyor.",
+                    "<32>* Tıpkı evdeki gibi..."
                  ],
          w_tf_couch: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The couch appears to have never been used.)' ]
+               ? [ '<32>{#p/human}* (Kanepe hiç kullanılmamış gibi görünüyor.)' ]
                : SAVE.data.n.plot === 72
-               ? [ "<32>{#p/basic}* No matter how much time passes, it's unlikely anyone will ever sit here." ]
+               ? [ "<32>{#p/basic}* Ne kadar zaman geçerse geçsin, buraya kimse oturmayacak gibi görünüyor." ]
                : world.darker
-               ? [ "<32>{#p/basic}* It's a couch.\n* What else were you expecting?" ]
+               ? [ "<32>{#p/basic}* Bu bir kanepe.\n* Başka ne bekliyordun?" ]
                : [
-                    '<32>{#p/basic}* A comfortable-looking couch.',
-                    '<32>* The temptation to sink into its luscious cushions is hard to resist...'
+                    '<32>{#p/basic}* Rahat görünümlü bir kanepe.',
+                    '<32>* O yumuşacık yastıklarına gömülme isteğine karşı koymak zor...'
                  ],
          w_tf_table: () =>
             SAVE.data.b.svr
-               ? [ "<32>{#p/human}* (You glance at the end table, but it doesn't appear to glance back.)" ]
+               ? [ "<32>{#p/human}* (Sehpaya bir göz atıyorsun, ama sana geri bakıyor gibi görünmüyor.)" ]
                : [
-                    '<32>{#p/basic}* An unremarkable end table.',
-                    "<32>{#p/basic}* Rather unrealistically, it's in near-perfect condition."
+                    '<32>{#p/basic}* Sıradan bir sehpa.',
+                    "<32>{#p/basic}* Gerçekçi olmasa da, neredeyse mükemmel bir durumda."
                  ],
          w_tf_window: () =>
             SAVE.data.b.svr
                ? SAVE.data.b.c_state_secret1_used && SAVE.data.b.c_state_secret5_used
-                  ? [ '<32>{#p/human}* (You stare wishfully into the cosmos beyond...)' ]
-                  : [ '<32>{#p/human}* (You stare wistfully into the cosmos beyond...)' ]
+                  ? [ '<32>{#p/human}* (Kozmosun ötesine özlemle bakıyorsun...)' ]
+                  : [ '<32>{#p/human}* (Kozmosun ötesine hasretle bakıyorsun...)' ]
                : world.darker
-               ? [ "<32>{#p/basic}* It's just another window." ]
+               ? [ "<32>{#p/basic}* Bu yalnızca bir başka pencere." ]
                : SAVE.data.n.plot === 72
-               ? [ "<32>{#p/basic}* As always, it's a beautiful view of outer space." ]
-               : [ "<32>{#p/basic}* It's a beautiful view of outer space." ],
+               ? [ "<32>{#p/basic}* Her zamanki gibi, dış uzayın çok güzel bir manzarası." ]
+               : [ "<32>{#p/basic}* Dış uzayın çok güzel bir manzarası." ],
          w_th_door: () =>
             SAVE.data.b.svr
                ? [
@@ -3309,7 +3309,7 @@ export default {
                : SAVE.data.n.plot === 72
                ? [
                     "<32>{#p/basic}* They're just fire pokers...\n* Or are they?",
-                    "<32>* Consider that Toriel's fire is only pleasantly warm, and not hot at all.",
+                    "<32>* Toriel'in ateşinin sadece hoş bir ılıklık olduğunu, hiç de sıcak olmadığını düşün.",
                     '<32>* Why would she need these?',
                     '<32>* Thus, by the process of elimination, these must be advanced musical instruments.'
                  ]
@@ -3569,10 +3569,10 @@ export default {
          ),
          w_tutorial_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare excitedly into the cosmos beyond...)' ]
+               ? [ '<32>{#p/human}* (Kozmosun ötesine heyecanla bakıyorsun...)' ]
                : world.darker
                ? []
-               : [ '<32>{#p/basic}* The first of many windows in this part of the Outlands.' ],
+               : [ '<32>{#p/basic}* Outlands\'in bu bölümündeki birçok pencereden ilki.' ],
          w_tutorial1: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (The sign describes the qualities of a good relationship.)' ]
@@ -3880,15 +3880,15 @@ export default {
          '<32>{#p/basic}* Froggit dışına yansıtmasa da, içten içe kızarıyor.'
       ],
       confuseText: [ '<08>{#p/basic}{~}Vırak, Vırak?' ],
-      flirtText: [ '<08>{#p/basic}{~}(Yanakları cidden kızarır.)\nVırak..' ],
+      flirtText: [ '<08>{#p/basic}{~}(Yanak- ları cidden kızarır.)\nVırak...' ],
       idleText1: [ '<08>{#p/basic}{~}Vırak, vırak.' ],
       idleText2: [ '<08>{#p/basic}{~}Gak, Gak.' ],
       idleText3: [ '<08>{#p/basic}{~}Zıp, zıp.' ],
       idleText4: [ '<08>{#p/basic}{~}Miyav.' ],
       mercyStatus: [ '<32>{#p/story}* Froggit seninle savaşmaya çekiniyor.' ],
       name: '* Froggit',
-      meanText: [ '<08>{#p/basic}{~}(Titre, sallan.)\nVırak..' ],
-      niceText: [ '<08>{#p/basic}{~}(Yanakları hafiften kızarır.)\nVırak..' ],
+      meanText: [ '<08>{#p/basic}{~}(Titre, sallan.)\nVırak...' ],
+      niceText: [ '<08>{#p/basic}{~}(Yanak- ları hafif- ten kızarır.)\nVırak...' ],
       perilStatus: [ '<32>{#p/story}* Froggit kaçacak yer arıyor.' ],
       status1: [ '<32>{#p/story}* Froggit yakınına zıpladı!' ],
       status2: [ '<32>{#p/story}* Savaş alanı egzotik çiçek kokusuyla doldu.' ],
@@ -3990,14 +3990,14 @@ export default {
          '<32>{#p/human}* (Mushy\'e düelloda meydan okudun.)',
          "<33>{#p/story}* Mushy'nin bu turluğuna HIZI arttı!"
       ],
-      act_check: [ '<32>{#p/story}* MUSHY - SAL 6 SAV 6\n* Uzay kovboylarının dehşet hayranı.\n* Silahşör.' ],
-      act_check2: [ '<32>{#p/story}* MUSHY - SAL 6 SAV 6\n* Uzay kovboylarının dehşet hayranı.\n* Seksi olanlar dahil.' ],
+      act_check: [ '<32>{#p/story}* MUSHY - SAL 6 SAV 6\n* Uzay kovboylarının dehşet hayranı. Silahşör.' ],
+      act_check2: [ '<32>{#p/story}* MUSHY - SAL 6 SAV 6\n* Uzay kovboylarının dehşet hayranı. Seksi olanların bile.' ],
       act_check3: [ '<32>{#p/story}* MUSHY - SAL 6 SAV 6\n* Elinden geleni yaptığından ötürü bu silahşör etkilendi.' ],
       act_flirt: [ '<32>{#p/human}* (Mushy ile flört ettin.)' ],
       act_taunt: [ '<32>{#p/human}* (Mushy ile alay ettin.)' ],
       challengeStatus: [ '<32>{#p/story}* Mushy sıradaki meydan okumayı bekliyor.' ],
       challengeTalk1: [ "<08>{#p/basic}{~}Neyin varmış görelim." ],
-      challengeTalk2: [ '<08>{#p/basic}{~}Beni alabileceğini mi sanıyorsun?' ],
+      challengeTalk2: [ '<08>{#p/basic}{~}Beni yenebi- leceğini mi sanıyor- sun?' ],
       flirtStatus1: [ '<32>{#p/story}* Mushy, şaşkın ve azgın olan.' ],
       flirtTalk1: [ '<08>{#p/basic}{~}H-hey, kes şunu!' ],
       hurtStatus: [ '<32>{#p/story}* Mushy son mücadelesini veriyor.' ],
@@ -4012,7 +4012,7 @@ export default {
       status4: [ '<32>{#p/story}* Mushy tabanca kılıfına sarılıyor.' ],
       status5: [ '<32>{#p/story}* Yağmur yağmış gibi kokuyor.' ],
       tauntStatus1: [ "<32>{#p/story}* Mushy alay etmenden etkilenmemiş gibi davranıyor." ],
-      tauntTalk1: [ "<08>{#p/basic}{~}Güya o bana işleyecek." ]
+      tauntTalk1: [ "<08>{#p/basic}{~}Güya o bana işle- yecek." ]
    },
    b_opponent_napstablook: {
       act_check: [ "<32>{#p/story}* NAPSTABLOOK - SAL 10 SAV 255\n* İşte Napstablook." ],
@@ -4022,7 +4022,7 @@ export default {
       act_check3: [ '<32>{#p/story}* NAPSTABLOOK - SAL 10 SAV 255\n* Uzun bir aradan sonra, yeniden ümitli...' ],
       act_check4: [ '<32>{#p/story}* NAPSTABLOOK - SAL 10 SAV 255\n* Romantik gerilim hat safhaya ulaşmış durumda.' ],
       awkwardTalk: [ '<11>{#p/napstablook}{~}ııı...', '<11>{#p/napstablook}{~}tamam, öyleyse...?' ],
-      checkTalk: [ "<11>{#p/napstablook}{~}o benim..." ],
+      checkTalk: [ "<11>{#p/napstablook}{~}o ben olu- yorum..." ],
       cheer0: [ '<32>{#p/human}* (Napstablook\'u teselli etmeye çalıştın.)' ],
       cheer1: [ '<32>{#p/human}* (Napstablook\'a sabırla gülümsedin.)' ],
       cheer2: [ '<32>{#p/human}* (Napstablook\'a ufak bir espri yaptın.)' ],
@@ -4051,13 +4051,13 @@ export default {
       flirt3: [ '<32>{#p/human}* (Napstablook\'a kalpten bir iltifat ettin.)' ],
       flirt4: [ '<32>{#p/human}* (Napstablook\'u ona karşı olan duygularınla ilgili temin ediyorsun.)' ],
       flirtTalk1: [ "<11>{#p/napstablook}{~}seni sadece aşağıya çekerdim" ],
-      flirtTalk2: [ "<11>{#p/napstablook}{~}oh.....\nonu daha önce duymuştum....." ],
+      flirtTalk2: [ "<11>{#p/napstablook}{~}oh.....\nonu daha önce duy- muştum....." ],
       flirtTalk3: [ '<11>{#p/napstablook}{~}ııı... gerçekten de öyle mi?' ],
       flirtTalk4: [ "<11>{#p/napstablook}{~}ah, sen ciddisin...", '<11>{~}eyvah.....' ],
       idleTalk1: [ "<11>{#p/napstablook}{~}ben iyiyim, sağ ol" ],
       idleTalk2: [ '<11>{#p/napstablook}{~}sadece yuvarlanıyorum işte...' ],
       idleTalk3: [ '<11>{#p/napstablook}{~}kendi şeyime bakıyorum...' ],
-      insultTalk1: [ '<11>{#p/napstablook}{~}biliyordum…' ],
+      insultTalk1: [ '<11>{#p/napstablook}{~}biliyordum...' ],
       insultTalk2: [ '<11>{#p/napstablook}{~}her neyse...' ],
       insultTalk3: [ '<11>{#p/napstablook}{~}ne söyleyeceksen söyle...' ],
       insultTalk4: [ '<11>{#p/napstablook}{~}at hepsini içinden...' ],
@@ -4082,7 +4082,7 @@ export default {
    },
    b_opponent_toriel: {
       spannerText: [ '<32>{#p/human}* (Alet anahtarını fırlattın.)\n* (Toriel onu alıp sana geri getiriyor.)' ],
-      spannerTalk: [ '<11>{#p/toriel}{#f/22}Bu hiçbir işe yaramayacak, çocuğum.' ],
+      spannerTalk: [ '<11>{#p/toriel}{#f/22}Bu hiçbir işe yarama- yacak, çocuğum.' ],
       spannerTalkRepeat: [ '<11>{#p/toriel}{#f/22}...' ],
       act_check: [ '<32>{#p/story}* TORİEL - SAL 80 SAV 80\n* Senin için en iyisini biliyor.' ],
       act_check2: [ '<32>{#p/story}* TORİEL - SAL 80 SAV 80\n* Kendini tutuyor gibi görünüyor.' ],
@@ -4098,7 +4098,7 @@ export default {
          ...(reveal
             ? [ "<20>{#f/1}Bunun olmasını uzun zamandır bekliyorum." ]
             : [
-                 "<20>{#f/15}Bir yıldızın içinde o kadar uzun hapis kalmıştım ki ben…",
+                 "<20>{#f/15}Bir yıldızın içinde o kadar uzun hapis kalmıştım ki ben...",
                  '<20>{#f/15}...',
                  "<20>{#f/16}Neyse, artık bunun önemi yok.",
                  '<20>{#f/1}Önemli olan her şeyin tekrar eskisi gibi olması.'
@@ -4189,7 +4189,7 @@ export default {
          '<11>{#v/1}{#i/3}{#x1}{@random=1.1/1.1}Sen düşün- düğümden daha güçlüsün...',
          '<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}Dinle beni, küçüğüm...',
          '<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}Birkaç dakika içinde, toza döne- ceğim...',
-         '<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}Bu olduğunda, benim RUH\'umu almalısın...',
+         '<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}Bu olduğunda, benim RUH\'umu alma- lısın...',
          '<11>{#v/1}{#i/3}{#x1}{@random=1.1/1.1}Buradan kaçabil- menin tek gerçek yolu bu.',
          "<11>{#v/2}{#i/4}{#x3}{@random=1.1/1.1}Asgore'un planının... başarılı olmasına... izin veremezsin.",
          '<11>{#v/2}{#i/4}{#x1}{@random=1.1/1.1}...',
@@ -4204,7 +4204,7 @@ export default {
       spareTalk4: [ '<11>{#p/toriel}{#f/17}...?' ],
       spareTalk5: [ '<11>{#p/toriel}{#f/17}Ne yapıyorsun?' ],
       spareTalk6: [ '<11>{#p/toriel}{#f/17}...' ],
-      spareTalk7: [ '<11>{#p/toriel}{#f/17}Ne ispatlamaya çalışıyorsun?' ],
+      spareTalk7: [ '<11>{#p/toriel}{#f/17}Neyi ispatlamaya çalışı- yorsun?' ],
       spareTalk8: [ '<11>{#p/toriel}{#f/17}...' ],
       spareTalk9: [ '<11>{#p/toriel}{#f/12}Ya benimle savaş ya da uzaklaş!' ],
       spareTalk10: [ '<11>{#p/toriel}{#f/12}Bana öyle bakmayı bırak!' ],
@@ -4213,12 +4213,12 @@ export default {
       spareTalk13: [ '<11>{#p/toriel}{#f/13}...\n...' ],
       spareTalk14: [ '<11>{#p/toriel}{#f/13}...\n...\n...' ],
       spareTalk15: [
-         '<11>{#p/toriel}{#f/13}Eve gitmek istediğini biliyorum...',
+         '<11>{#p/toriel}{#f/13}Eve gitmek istediğini bili- yorum...',
          '<11>{#p/toriel}{#f/9}Ama oraya giden yol tehlikeli olacaktır.'
       ],
       spareTalk16: [ '<11>{#p/toriel}{#f/14}O yüzden lütfen... diğer tarafa geri dön.' ],
       spareTalk17: [
-         '<11>{#p/toriel}{#f/13}Çok fazla şeyimiz olmadığını biliyorum...',
+         '<11>{#p/toriel}{#f/13}Çok fazla şeyimiz olmadığını bili- yorum...',
          '<11>{#p/toriel}{#f/10}Ama yine de güzel bir hayatımız olabilir.'
       ],
       spareTalk18: [
@@ -4226,15 +4226,15 @@ export default {
          '<11>{#p/toriel}{#f/10}Bu kulağa hoş gelmiyor mu?'
       ],
       spareTalk19: [ '<11>{#p/toriel}{#f/21}...' ],
-      spareTalk20: [ '<11>{#p/toriel}{#f/18}Neden bunu bu kadar zorlaştırıyorsun?' ],
+      spareTalk20: [ '<11>{#p/toriel}{#f/18}Neden bunu bu kadar zorlaştı- rıyorsun?' ],
       spareTalk21: [ '<11>{#p/toriel}{#f/21}...' ],
       spareTalk22: [ '<11>{#p/toriel}{#f/18}Lütfen, sadece...', '<11>{#p/toriel}{#f/9}Diğer tarafa geri dön.' ],
       spareTalk23: [ '<11>{#p/toriel}{#f/21}...' ],
       spareTalk24: [ '<11>{#p/toriel}{#f/18}Ah, çocuk...' ],
       spareTalk28b: [
          '<11>{#p/toriel}{#f/9}Belki de seni böyle durdurmaya çalışmak...',
-         '<11>{#f/13}Yalnızca benim aptallığımdı...',
-         '<11>{#f/9}Belki de sadece gitmene izin vermeliydim.'
+         '<11>{#f/13}Yalnızca benim aptallı- ğımdı...',
+         '<11>{#f/9}Belki de sadece gitmene izin verme- liydim.'
       ],
       spareTalk28c: [ '<11>{#p/toriel}{#f/17}...?', '<11>{#f/17}Neden \"$(name)\" için sesleniyorsun?' ],
       status1: [ '<32>{#p/story}* Toriel artık karşında duruyor.' ],
@@ -4553,13 +4553,13 @@ export default {
          description: 'Kaza yaptığın mekikle birlikte geldi.',
          name: 'Uzay Elbisesi'
       },
-      drop: [ '<32>{#p/human}* (Kullanılmış Uzay Elbisesi\'ni attın.)' ],
+      drop: [ '<32>{#p/human}* (Eski Uzay Elbisesi\'ni attın.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (20 HP. The last remaining fragment of a spacecraft flown in exile.)' ]
-            : [ '<32>{#p/basic}* \"Worn Spacesuit\" Heals 20 HP\n* It came with the craft you crash-landed in.' ],
-      name: 'Worn Spacesuit',
-      use: [ '<33>{#p/human}* (After using its last heal-pak, the Worn Spacesuit fell apart.)' ]
+            ? [ '<32>{#p/human}* (20 CAN. Sürgün sırasında uçurulmuş bir uzay mekiğinin en son parçası.)' ]
+            : [ '<32>{#p/basic}* \"Eski Uzay Elbisesi\" 20 CAN iyileştirir\n* Kaza yaptığın mekikle birlikte geldi.' ],
+      name: 'Eski Uzay Elbisesi',
+      use: [ '<33>{#p/human}* (Son iyileşme paketini kullanmanın ardından, Eski Uzay Elbisesi parçalara ayrılıyor.)' ]
    },
    i_spanner: {
       battle: {
@@ -4569,8 +4569,8 @@ export default {
       drop: [ '<32>{#p/human}* (Paslı Anahtar’ı attın.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* (A trusty tool forged from beyond the galaxy's edge.)" ]
-            : [ '<32>{#p/basic}* A rusty old wrench.' ],
+            ? [ "<32>{#p/human}* (Galaksinin sınırlarının ötesinde dövülmüş güvenilir bir alet.)" ]
+            : [ '<32>{#p/basic}* Paslı ve eski bir alet anahtarı.' ],
       name: 'Paslı Anahtar',
       use: () => [
          ...(battler.active && battler.alive[0].opponent.metadata.reactSpanner
@@ -4580,72 +4580,72 @@ export default {
    },
    i_starbertA: {
       battle: {
-         description: 'The first of a limited run of Super Starwalker comics.',
+         description: 'Sınırlı sayıdaki Süper Starwalker çizgi romanlarının ilk serisi.',
          name: 'Starwalker 1'
       },
-      drop: [ '<32>{#p/human}* (You throw away Super Starwalker 1.)' ],
+      drop: [ '<32>{#p/human}* (Süper Starwalker 1’i attın.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (It seems like the beginning of a journey.)' ]
-            : [ '<32>{#p/basic}* The first of a limited run of Super Starwalker comics.' ],
-      name: 'Super Starwalker 1',
-      use: () => (battler.active ? [ '<32>{#p/human}* (You read Super Starwalker 1.)', '<32>* (Nothing happens.)' ] : [])
+            ? [ '<32>{#p/human}* (Bir yolculuğun başlangıcıymış gibi duruyor.)' ]
+            : [ '<32>{#p/basic}* Sınırlı sayıdaki Süper Starwalker çizgi romanlarının ilk serisi.' ],
+      name: 'Süper Starwalker 1',
+      use: () => (battler.active ? [ '<32>{#p/human}* (Süper Starwalker 1’i okudun.)', '<32>* (Hiçbir şey olmadı.)' ] : [])
    },
    i_starbertB: {
       battle: {
-         description: 'The second of a limited run of Super Starwalker comics.',
+         description: 'Sınırlı sayıdaki Süper Starwalker çizgi romanlarının ikinci serisi.',
          name: 'Starwalker 2'
       },
-      drop: [ '<32>{#p/human}* (You throw away Super Starwalker 2.)' ],
+      drop: [ '<32>{#p/human}* (Süper Starwalker 2’yi attın.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (It seems like the middle of a journey.)' ]
-            : [ '<32>{#p/basic}* The second of a limited run of Super Starwalker comics.' ],
-      name: 'Super Starwalker 2',
+            ? [ '<32>{#p/human}* (Bir yolculuğun ortasıymış gibi duruyor.)' ]
+            : [ '<32>{#p/basic}* Sınırlı sayıdaki Süper Starwalker çizgi romanlarının ikinci serisi.' ],
+      name: 'Süper Starwalker 2',
       use: () =>
          battler.active
             ? [
-                 '<32>{#p/human}* (You read Super Starwalker 2.)',
+                 '<32>{#p/human}* (Süper Starwalker 2\'yi okudun.)',
                  ...(SAVE.data.b.stargum
-                    ? [ '<32>* (Nothing happens.)' ]
+                    ? [ '<32>* (Hiçbir şey olmadı.)' ]
                     : [
-                         '<32>* (You found a piece of gum taped to the comic strip.)',
-                         choicer.create('* (Use the gum?)', 'Evet', 'Hayır')
+                         '<32>* (Çizgi romana bantlanmış bir sakız buldun.)',
+                         choicer.create('* (Sakızı çiğne?)', 'Evet', 'Hayır')
                       ])
               ]
             : []
    },
    i_starbertC: {
       battle: {
-         description: 'The third of a limited run of Super Starwalker comics.',
+         description: 'Sınırlı sayıdaki Süper Starwalker çizgi romanlarının üçüncü serisi.',
          name: 'Starwalker 3'
       },
-      drop: [ '<32>{#p/human}* (You throw away Super Starwalker 3.)' ],
+      drop: [ '<32>{#p/human}* (Süper Starwalker 3\'ü attın.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (It seems like the end of a journey... or is it a new beginning?)' ]
-            : [ '<32>{#p/basic}* The third of a limited run of Super Starwalker comics.' ],
-      name: 'Super Starwalker 3',
-      use: () => (battler.active ? [ '<32>{#p/human}* (You read Super Starwalker 3.)', '<32>* (Nothing happens.)' ] : [])
+            ? [ '<32>{#p/human}* (Bir yolculuğun sonuymuş gibi duruyor... yoksa başlangıcı mı?)' ]
+            : [ '<32>{#p/basic}* Sınırlı sayıdaki Süper Starwalker çizgi romanlarının üçüncü serisi.' ],
+      name: 'Süper Starwalker 3',
+      use: () => (battler.active ? [ '<32>{#p/human}* (Süper Starwalker 3\'ü okudun.)', '<32>* (Hiçbir şey olmadı.)' ] : [])
    },
    i_steak: {
       battle: {
-         description: 'Questionable at best.',
-         name: 'Steak'
+         description: 'En iyi ihtimalde bile şüpheli.',
+         name: 'Biftek'
       },
       drop: () => [
-         '<32>{#p/human}* (You throw away the Sizzli Steak.)',
+         '<32>{#p/human}* (Cızırtılı Biftek\'i attın.)',
          ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
             ? []
-            : [ "<32>{#p/basic}* Well, that won't be missed." ])
+            : [ "<32>{#p/basic}* Neyse, onu özleyen olmayacak." ])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (14 HP.)' ]
-            : [ '<32>{#p/basic}* \"Sizzli Steak\" Heals 14 HP\n* Questionable.' ],
-      name: 'Sizzli Steak',
+            ? [ '<32>{#p/human}* (14 CAN.)' ]
+            : [ '<32>{#p/basic}* \"Cızırtılı Biftek\" 14 CAN iyileştirir\n* Şüpheli.' ],
+      name: 'Cızırtılı Biftek',
       use: () => [
-         '<32>{#p/human}* (You eat the Sizzli Steak.)',
+         '<32>{#p/human}* (Cızırtılı Biftek\'i yedin.)',
          ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8 ? [] : [ '<32>{#p/basic}* İğrenç!' ])
       ]
    },
@@ -5019,10 +5019,10 @@ export default {
                  '<25>{#f/1}* İlerlemeye devam et...'
               ]
             : [
-                 '<25>{#p/toriel}{#f/1}* From what I recall, this long room...',
-                 '<26>{#f/0}* ... would have been the basis for a town on the outskirts of Starton.',
-                 '<25>{#f/0}* Of course, that never came to pass.',
-                 '<25>{#f/2}* One town was more than enough!'
+                 '<25>{#p/toriel}{#f/1}* Hatırladığım kadarıyla, bu uzun oda...',
+                 '<26>{#f/0}* ... Starton\'un eteklerindeki bir kasabanın temelini oluşturmuş olacaktı.',
+                 '<25>{#f/0}* Elbette, bu hiçbir zaman gerçekleşmedi.',
+                 '<25>{#f/2}* Bir kasaba fazlasıyla yeterliydi!'
               ],
       s_sans: () =>
          SAVE.data.n.plot < 17.001
@@ -5033,170 +5033,170 @@ export default {
               ]
             : [
                  '<25>{#p/toriel}{#f/1}* I presume by now you have heard of the \"gravometric inverter?\"',
-                 '<26>{#f/0}* It is a device Sans has told me all about.',
-                 '<25>{#f/1}* Apparently, there is another world up there...',
-                 '<25>{#f/0}* A place where things do not always face the right way up.'
+                 '<26>{#f/0}* Sans\'in bana hakkında pek çok şey anlattığı bir cihaz bu.',
+                 '<25>{#f/1}* Meğer orada bambaşka bir dünya varmış...',
+                 '<25>{#f/0}* Öyle bir yer ki, her şey her zaman doğru yöne bakmıyormuş.'
               ],
       s_crossroads: [
-         '<25>{#p/toriel}{#f/1}* This old landing pad was once a bustling intersection...',
-         '<25>{#f/1}* Supply ships coming and going...',
-         '<25>{#f/1}* Ready to aid in whatever was being built next...',
-         '<25>{#f/5}* It is a shame the outpost seems to have stopped expanding.',
-         '<25>{#f/0}* For a while, building new areas defined our culture!'
+         '<25>{#p/toriel}{#f/1}* Bu eski iniş pisti bir zamanlar hareketli bir kavşaktı...',
+         '<25>{#f/1}* Gelip giden erzak gemileri...',
+         '<25>{#f/1}* Sırada her ne inşa edilecekse yardım etmeye hazırlardı...',
+         '<25>{#f/5}* Karakolun genişlemesinin durmuş gibi görünüyor olması üzücü.',
+         '<25>{#f/0}* Bir süre için, yeni alanlar inşa etmek kültürümüzü tanımlıyordu!'
       ],
       s_human: [
-         "<25>{#p/toriel}* I heard Sans's brother wants to join the Royal Guard someday.",
-         '<25>{#f/1}* Such an aspirational young skeleton...',
-         '<25>{#f/0}* Despite my feelings about the guard, it is good for him to dream.',
-         '<25>{#f/5}* I worry that too many have given up on their dreams lately...',
-         '<25>{#f/0}* But not him!\n* That skeleton knows what is best for him.'
+         "<25>{#p/toriel}* Sans'ın kardeşinin Kraliyet Muhafızına katılmak istediğini duydum.",
+         '<25>{#f/1}* Ne kadar da istekli bir genç iskelet...',
+         '<25>{#f/0}* Muhafızlara karşı hislerime rağmen, onun hayal etmesi güzel bir şey.',
+         '<25>{#f/5}* Son zamanlarda çok fazla kişinin hayallerinden vazgeçtiğinden endişeleniyorum...',
+         '<25>{#f/0}* Ama o değil!\n* O iskelet kendisi için en iyisini biliyor.'
       ],
       s_papyrus: [
          '<25>{#p/toriel}* Sans told me all about the gadgets Papyrus added to his station.',
-         '<25>{#f/1}* First, a handle, so he can \"swing\" into duty...',
-         '<25>{#f/1}* A so-called \"sky wrench\" used to get a \"fix\" on the stars...',
-         '<25>{#f/0}* And a screen attachment to keep track of his many responsibilities.',
-         '<25>{#f/6}* With inventions like these, you would think he works at a lab.'
+         '<25>{#f/1}* İlk olarak, görevine \"sarkabilmesi\" için bir tutacak...',
+         '<25>{#f/1}* Yıldızlar üzerinde \"düzeltme\" yapmak için kullanılan sözde bir \"gökyüzü anahtarı...\"',
+         '<25>{#f/0}* Ve birçok sorumluluğunu takip edebilmesi için bir ekran bağlantısı.',
+         '<25>{#f/6}* Bu tür icatlara bakınca onun bir laboratuvarda çalıştığını sanırsın.'
       ],
       s_doggo: [
-         '<25>{#p/toriel}{#f/5}* Is the Royal Guard giving you too much trouble?',
-         '<25>{#f/0}* Sans did say he would warn you of potential encounters.',
+         '<25>{#p/toriel}{#f/5}* Kraliyet Muhafızları sana çok sorun çıkarıyor mu?',
+         '<25>{#f/0}* Sans, olası karşılaşmalar konusunda seni uyaracağını söylemişti.',
          '<25>{#f/1}* ...',
-         '<25>{#f/1}* Perhaps I should be more worried, but...',
-         '<25>{#f/0}* Something tells me you will be alright.',
-         '<25>{#f/0}* I have faith in that skeleton to look out for you.'
+         '<25>{#f/1}* Belki de daha fazla endişeli olmalıyım, ama...',
+         '<25>{#f/0}* Bir şeyler bana iyi olacağını söylüyor.',
+         '<25>{#f/0}* O iskeletin sana göz kulak olacağına inanıyorum.'
       ],
       s_robot: [
-         '<25>{#p/toriel}{#f/1}* Ah, what a lovely sound...',
-         '<25>{#f/0}* I would recognize a builder bot anywhere.',
-         '<25>{#f/5}* After the ban on AI programs, we had most of them disabled...',
+         '<25>{#p/toriel}{#f/1}* Ah, ne hoş bir ses...',
+         '<25>{#f/0}* Bir inşaatçı botunu her yerde tanırım.',
+         '<25>{#f/5}* Yapay zeka programları yasaklandıktan sonra, çoğu devre dışı kaldı...',
          '<25>{#f/1}* But the two whose sentience did not corrupt them...',
          '<25>{#f/0}* Were allowed a more graceful retirement.',
-         '<25>{#f/0}* It is nice to know that they have survived to this day.'
+         '<25>{#f/0}* Bunların günümüze kadar ulaşabilmiş olduğunu bilmek güzel.'
       ],
       s_maze: [
-         "<25>{#p/toriel}* Sans has told me all about his brother's fondness for puzzles.",
-         '<25>{#f/1}* I hear he has even created some of his own...?',
+         "<25>{#p/toriel}* Sans bana kardeşinin bulmacalara olan düşkünlüğünden bahsetti.",
+         '<25>{#f/1}* Hatta duyduğuma göre kendi oluşturduğu birkaç tanesi bile varmış...?',
          '<25>{#f/0}* I am most curious about the \"wall of fire.\"',
-         '<25>{#f/1}* Are the flames hot?\n* Or are they merely pleasantly warm?',
-         '<25>{#f/5}* For your sake, I would hope it is the latter.'
+         '<25>{#f/1}* Alevler sıcak mı?\n* Yoksa sadece hoşça ılık mı?',
+         '<25>{#f/5}* Senin iyiliğin için, ikincisinin doğru olmasını umarım.'
       ],
       s_dogs: [
-         '<25>{#p/toriel}{#f/1}* I hear the Royal Guard employs a pair of married dogs.',
-         '<25>{#f/3}* To be married at the same time as being a royal guard...',
-         '<25>{#f/4}* That relationship must have some \"interesting\" motivations.',
-         '<25>{#f/6}* But what do I know.\n* As Sans would say, I am merely a \"goat!\"'
+         '<25>{#p/toriel}{#f/1}* Kraliyet Muhafızlarında evli bir köpek çiftin görev aldığını duydum.',
+         '<25>{#f/3}* Aynı anda kraliyet muhafızıyken evli olmak...',
+         '<25>{#f/4}* Bu ilişkinin bazı \"ilginç\" motivasyonları olmalı.',
+         '<25>{#f/6}* Ama ben ne anlarım ki.\n* Sans\'in dediği gibi, ben sadece bir \"keçiyim!\"'
       ],
       s_lesser: [
-         '<25>{#p/toriel}* I wonder what kind of food is sold in Starton these days.',
-         '<25>{#f/1}* When I was last here, everyone loved to eat ghost fruit...',
-         '<25>{#f/0}* A strange food which could be eaten both by ghosts and non-ghosts.',
-         '<26>{#f/0}* Whatever the favorite\n  is now, I am sure I could never dream of it.'
+         '<25>{#p/toriel}* Bu günlerde Starton\'da ne tür yiyeceklerin satıldığını merak ediyorum.',
+         '<25>{#f/1}* Ben en son buradayken, herkes hayalet meyvesi yemeyi severdi...',
+         '<25>{#f/0}* Hem hayalet hem de hayalet olmayanların yiyebildiği garip bir yiyecek.',
+         '<26>{#f/0}* Şu anki favori her ne ise, eminim onu asla düşleyemezdim.'
       ],
       s_bros: [
-         "<25>{#p/toriel}{#f/1}* Sans's fondness for spot-the-difference puzzles...",
-         '<25>{#f/0}* Well, it has never really made sense to me.',
-         '<25>{#f/1}* How could such a simple puzzle be appealing to him?',
-         '<26>{#f/3}* ... more specifically...',
-         '<25>{#f/1}* Where is the humor in such a puzzle?'
+         "<25>{#p/toriel}{#f/1}* Sans'in fark-bulma bulmacalarına olan düşkünlüğü...",
+         '<25>{#f/0}* Yani, bana hiç mantıklı gelmedi.',
+         '<25>{#f/1}* Bu kadar basit bir bulmaca ona nasıl cazip gelebilir?',
+         '<26>{#f/3}* ... spesifik olmak gerekirse...',
+         '<25>{#f/1}* Bu tür bir bulmacanın içinde mizah nerede?'
       ],
       s_spaghetti: [
-         "<25>{#p/toriel}* Sans has often spoken of Papyrus's interest in spaghetti dishes.",
+         "<25>{#p/toriel}* Sans, Papyrus'un spagetti yemeklerine olan ilgisinden bahsetmişti.",
          '<25>{#f/6}* But why stop there?\n* Just imagine the PASTABILITIES...',
          '<25>{#f/8}* Rigatoni!\n* Fettuccine!\n* Acini di Pepe!',
          '<25>{#f/0}* Some variety could really help him go FARFALLE.',
          '<25>{#f/2}* ... in other words, go BIGOLI or go home!'
       ],
       s_puzzle1: [
-         '<25>{#p/toriel}{#f/1}* Whatever the puzzles in Starton are like now, I am sure...',
-         '<25>{#f/0}* They are nothing like the ones that were here when I left.',
-         '<25>{#f/5}* A level of difficulty so unrealistic...',
-         '<25>{#f/5}* It is a wonder anyone could solve them at all.'
+         '<25>{#p/toriel}{#f/1}* Starton\'daki bulmacalar her nasılsa, eminim ki...',
+         '<25>{#f/0}* Benim ayrıldığım zamanki olanlara hiç benzemiyorlardır.',
+         '<25>{#f/5}* Gerçek dışı zorluklarını düşününce...',
+         '<25>{#f/5}* Onları birilerinin çözebilmiş olması bile şaşırtıcı.'
       ],
       s_puzzle2: [
-         '<25>{#p/toriel}{#f/1}* They say some puzzles have secret solutions...',
-         '<25>{#f/0}* ... a statement I find utterly unbelievable!',
-         '<25>{#f/0}* A secret solution would defeat the whole purpose of a puzzle.',
-         '<25>{#f/1}* Puzzles, at least ones with realistic difficulty...',
-         '<25>{#f/2}* Should be solved the intended way only!'
+         '<25>{#p/toriel}{#f/1}* Bazı bulmacaları çözmenin gizli yolları olduğunu söylerler...',
+         '<25>{#f/0}* ... bu tamamen akıl almaz bulduğum bir ifade!',
+         '<25>{#f/0}* Gizli bir çözümün olması bulmacanın tüm amacını boşa çıkarır.',
+         '<25>{#f/1}* Bulmacalar, en azından gerçekçi zorlukta olanlar...',
+         '<25>{#f/2}* Yalnızca amaçlanan şekilde çözülmelidir!'
       ],
       s_jenga: [
-         '<25>{#p/toriel}* To my knowledge, Dr. Alphys is the current royal scientist.',
-         '<25>{#f/1}* She may never replace the experience of her predecessor, but...',
-         '<25>{#f/0}* I am sure she is more than capable of finding her own path forward.',
-         '<25>{#f/0}* This may surprise you, but I have a certain respect for scientists.',
-         '<25>{#f/2}* Such brilliant minds!'
+         '<25>{#p/toriel}* Bildiğim kadarıyla, Dr. Alphys şu anki kraliyet bilimcisi.',
+         '<25>{#f/1}* Selefinin deneyiminin yerini asla tutamayabilir, ama...',
+         '<25>{#f/0}* Kendi yolunu bulabilecek kapasitede olduğundan oldukça eminim.',
+         '<25>{#f/0}* Bu seni şaşırtabilir, ama bilimcilere karşı belli bir saygım var.',
+         '<25>{#f/2}* Ne kadar da parlak zekalar!'
       ],
       s_pacing: [
-         '<25>{#p/toriel}{#f/1}* You would be wise to steer clear of dubious salesfolk...',
-         '<25>{#f/0}* For you never know what strings they may pull.',
-         '<25>{#f/0}* Or what moon rocks may end up falling into your lap.',
-         '<25>{#f/3}* It is a lesson I have learned the hard way, unfortunately...'
+         '<25>{#p/toriel}{#f/1}* Şüpheli duran satış elemanlarından uzak durman akıllıca olacaktır...',
+         '<25>{#f/0}* Onların dizginleri nasıl ellerine alacağını asla bilemezsin.',
+         '<25>{#f/0}* Ya da kucağına ne tür ay taşların düşebileceğini.',
+         '<25>{#f/3}* Bu, ne yazık ki zor yoldan öğrendiğim bir derstir...'
       ],
       s_puzzle3: [
-         '<25>{#p/toriel}{#f/1}* The puzzle in this room is one of memorization, is it not?',
-         '<25>{#f/1}* Sans mentioned that his brother often updates the pattern...',
-         '<25>{#f/0}* ... to maintain a strong \"rotating password.\"',
-         '<25>{#f/6}* How silly!',
-         '<25>{#f/0}* In the Outlands, our memorization puzzles update on-demand.'
+         '<25>{#p/toriel}{#f/1}* Bu odadaki bulmaca bir hafıza bulmacası, öyle değil mi?',
+         '<25>{#f/1}* Sans, kardeşinin düzeni sık sık güncellediğinden bahsetti...',
+         '<25>{#f/0}* ... böylece güçlü bir \"döngüsel şifreyi\" koruyabilirmiş.',
+         '<25>{#f/6}* Ne komik!',
+         '<25>{#f/0}* Outlands\'de, hafıza bulmacalarımız talep üzerine güncellenir.'
       ],
       s_greater: [
-         '<25>{#p/toriel}{#f/1}* The old owner of that doghouse, Canis Maximus...',
-         '<25>{#f/0}* ... retired from the guard a long while ago.',
-         '<25>{#f/7}* Fortunately, its new owner is said to be a bundle of puppy energy!',
-         '<25>{#f/0}* Clearly, it has learned well from such a wise master.'
+         '<25>{#p/toriel}{#f/1}* O köpek kulübesinin eski sahibi, Canis Maximus...',
+         '<25>{#f/0}* ... uzun zaman önce muhafızlıktan emekli olmuştu.',
+         '<25>{#f/7}* Neyse ki, yeni sahibinin köpek yavrusu gibi enerjik olduğu söyleniyor!',
+         '<25>{#f/0}* Açıkça, böyle bilge bir ustadan çok iyi bir şekilde öğrenmiş.'
       ],
       s_math: [
-         '<25>{#p/toriel}{#f/1}* Please, can somebody explain \"dog justice?\"',
-         '<25>{#f/0}* It is an odd phrase I continue to hear every so often.',
-         '<25>{#f/5}* I do know of one little puppy that visits the Outlands sometimes...',
-         '<25>{#f/0}* Perhaps that is who is deserving of justice.'
+         '<25>{#p/toriel}{#f/1}* Lütfen, birisi \"köpek adaletini\" açıklayabilir mi?',
+         '<25>{#f/0}* Bu ara sıra duymaya devam ettiğim tuhaf bir ifade.',
+         '<25>{#f/5}* Bazen Outlands\'i ziyaret eden küçük bir yavru köpeği biliyorum...',
+         '<25>{#f/0}* Belki de adaleti hak eden odur.'
       ],
       s_bridge: [
-         '<25>{#p/toriel}{#f/1}* When this bridge was first constructed...',
-         "<25>{#f/0}* Its precarious nature prompted an upgrade to the outpost's systems.",
-         '<25>{#f/0}* In short time, the aptly-named \"gravity guardrails\" were added.',
-         '<25>{#f/0}* These are what prevent you from falling off the platforms.'
+         '<25>{#p/toriel}{#f/1}* Bu köprü ilk inşa edildiğinde...',
+         "<25>{#f/0}* Tehlikeli yapısı karakolun sistemlerinin yükseltilmesine yol açtı.",
+         '<25>{#f/0}* Kısa sürede, yerinde bir isimle \"yerçekimi korkulukları\" eklendi.',
+         '<25>{#f/0}* Bunlar platformlardan düşmeni engelleyen şeylerdir.'
       ],
       s_town1: [
-         '<25>{#p/toriel}{#f/0}* Ah...\n* The town of Starton.',
-         '<25>{#f/1}* I have heard much about a \"Grillby\'s\" there...',
-         '<25>{#f/0}* ... and its diverse array of patrons both new and old.',
-         '<25>{#f/0}* Sans often goes there to eat, you see.',
-         '<25>{#f/7}* I hear the bartender is quite \"hot.\"'
+         '<25>{#p/toriel}{#f/0}* Ah...\n* Starton\'un kasabası.',
+         '<25>{#f/1}* Oradaki bir \"Grillby\'nin Yeri\" hakkında çok şey duydum...',
+         '<25>{#f/0}* ... ve hem yeni hem eski, çok çeşitli müşterilere sahipmiş.',
+         '<25>{#f/0}* Sans sık sık oraya yemek yemeye gidiyor, anlarsın.',
+         '<25>{#f/7}* Barmenin oldukça \"ateşli\" olduğunu duydum.'
       ],
       s_taxi: [
-         '<25>{#p/toriel}{#f/1}* A taxi stop near town?',
+         '<25>{#p/toriel}{#f/1}* Kasabanın yanında bir taksi durağı mı?',
          '<25>{#f/1}* ... hmm...',
-         '<25>{#f/0}* I wonder if it is any different from the one in the Outlands.',
-         '<25>{#f/1}* Of course, I would have no way of knowing until I saw it...',
-         '<25>{#f/0}* Which I have no way of doing without a fancy telescope.',
-         '<25>{#f/0}* I wonder where I could find one of those.'
+         '<25>{#f/0}* Acaba Outlands\'dekinden farklı mı, merak ediyorum.',
+         '<25>{#f/1}* Elbette, bunu görmeden bilmemin imkanı olmazdı...',
+         '<25>{#f/0}* Bunu lüks bir teleskop olmadan yapmamın bir yolu yok.',
+         '<25>{#f/0}* Onlardan birini nereden bulabilirim, merak ediyorum.'
       ],
       s_town2: [
-         '<25>{#p/toriel}{#f/1}* Napstablook recently told me they opened a shop...',
-         '<25>{#f/5}* ... on the \"south side\" of town.',
-         '<25>{#f/1}* What could this mean?',
-         '<25>{#f/0}* The town I remember organizing was a large, unified square.',
-         '<25>{#f/1}* Perhaps there was a split at some point?',
-         '<25>{#f/5}* That would be a shame, considering the original vision...'
+         '<25>{#p/toriel}{#f/1}* Napstablook yakın bir zamanda bana bir dükkan açtığından bahsetti.',
+         '<25>{#f/5}* ... kasabanın \"güney tarafında.\"',
+         '<25>{#f/1}* Bu ne anlama geliyor olabilir?',
+         '<25>{#f/0}* Organize ettiğimi hatırladığım kasaba, büyük ve birleşik bir meydandı.',
+         '<25>{#f/1}* Belki de bir noktada bir ayrışma olmuştur?',
+         '<25>{#f/5}* Orijinal görünüşü düşününce, bu çok yazık olurdu...'
       ],
       s_battle: [
-         '<25>{#p/toriel}{#f/1}* The thing Sans seemed most eager to warn me about...',
-         '<25>{#f/0}* Was his brother\'s so- called \"special attack.\"',
-         '<25>{#f/1}* If Papyrus chooses to spar with you, you must avoid it at all costs.',
-         '<25>{#f/2}* I repeat, avoid the special attack!\n* At all costs!',
-         '<25>{#f/0}* That is all I have to say on this matter.'
+         '<25>{#p/toriel}{#f/1}* Sans\'in beni en çok uyarmak istediği şey...',
+         '<25>{#f/0}* Kardeşinin sözde \"özel saldırısıydı.\"',
+         '<25>{#f/1}* Eğer Papyrus seninle karşılaşmayı seçerse, mutlaka kaçınmalısın.',
+         '<25>{#f/2}* Tekrar ediyorum, özel saldırıdan kaçın!\n* Ne pahasına olursa olsun!',
+         '<25>{#f/0}* Bu konuda söyleyeceklerim bu kadar.'
       ],
       s_exit: [
-         '<25>{#p/toriel}{#f/1}* If you ever decide to leave Starton, you must understand...',
-         '<25>{#f/5}* My phone is old, and can only reach certain rooms in the factory.',
-         '<25>{#f/9}* It would be difficult to call me until you find your way out.',
-         '<25>{#f/1}* Forgive me.\n* I just thought that I should let you know.'
+         '<25>{#p/toriel}{#f/1}* Eğer Starton\'dan ayrılmaya karar verirsen, şunu anlamalısın...',
+         '<25>{#f/5}* Benim telefonum eski, ve fabrikanın yalnızca belirli odalarına erişebiliyor.',
+         '<25>{#f/9}* Çıkış yolunu bulana kadar beni araman zor olacaktır.',
+         '<25>{#f/1}* Beni affet.\n* Sadece sana haber vermem gerektiğini düşündüm.'
       ],
       f_entrance: [
-         '<25>{#p/toriel}{#f/7}* So you found a place in the factory with good reception...?',
-         '<25>{#f/1}* ... that must mean you are somewhere unenclosed...',
+         '<25>{#p/toriel}{#f/7}* Demek fabrikada iyi sinyal alan bir yer buldun...?',
+         '<25>{#f/1}* ... kapalı olmayan bir alanda bulunuyor olmalısın...',
          '<25>{#f/0}* Which also implies the nearby presence of synth-bushes.',
          '<25>{#f/3}* Those things are terrible to get stuck in...',
          '<25>{#f/4}* Getting you all itchy and scratchy...',
@@ -5206,34 +5206,34 @@ export default {
          SAVE.data.n.plot !== 47.2 && SAVE.data.n.plot > 42 && SAVE.data.s.state_foundry_deathroom !== 'f_bird' // NO-TRANSLATE
 
             ? [
-                 '<25>{#p/toriel}{#f/0}* There truly is nothing like the chirp of that fearless little bird.',
-                 '<25>{#f/1}* Even when it still lived within a bucket of water...',
-                 '<25>{#f/1}* It would fly its mighty little wings...',
-                 '<25>{#f/1}* Taking us places...',
-                 '<25>{#f/0}* I used its services to carry groceries often.',
-                 '<25>{#f/5}* ... back when we as a species all lived in that old factory.'
+                 '<25>{#p/toriel}{#f/0}* O korkusuz küçük kuşun cıvıltısına benzeyen hiçbir şey yok.',
+                 '<25>{#f/1}* Bir kova suyun içinde yaşadığı zamanlarda bile...',
+                 '<25>{#f/1}* O küçük kudretli kanatlarını uçururdu...',
+                 '<25>{#f/1}* Bizi bir yerlere götürürdü...',
+                 '<25>{#f/0}* Market alışverişlerimi taşımak için sık sık bu hizmeti kullanıyordum.',
+                 '<25>{#f/5}* ... o zamanlar biz tür olarak hepimiz o eski fabrikada yaşıyorduk.'
               ]
             : [
-                 '<25>{#p/toriel}{#f/5}* Things sound awfully silent where you are...',
-                 '<25>{#f/5}* Almost like there is something missing.',
-                 '<25>{#f/5}* Something important...',
-                 '<25>{#f/0}* Well, no matter.\n* My imagination does run wild sometimes.',
+                 '<25>{#p/toriel}{#f/5}* Bulunduğun yerde her şey fazlasıyla sessiz gibi...',
+                 '<25>{#f/5}* Sanki bir şey eksikmiş gibi.',
+                 '<25>{#f/5}* Önemli bir şey...',
+                 '<25>{#f/0}* Neyse, sorun değil.\n* Hayal gücüm bazen fazlasıyla çılgınlaşıyor.',
                  '<25>{#f/1}* ...',
-                 '<25>{#f/1}* Chirp, chirp, chirp, chirp, chirp...'
+                 '<25>{#f/1}* Cik, cik, cik, cik, cik...'
               ],
       f_taxi: [
-         "<25>{#p/toriel}{#f/1}* So you found the factory's taxi stop...?",
-         '<25>{#f/0}* Perhaps you could use it to escape that Royal Guard captain.',
-         '<25>{#f/1}* A visitor here once spoke of her obsession with spears...',
-         '<25>{#f/0}* How odd.\n* The captain I knew was into sabers.'
+         "<25>{#p/toriel}{#f/1}* Demek fabrikanın taksi durağını buldun...?",
+         '<25>{#f/0}* Belki de o Kraliyet Muhafızı kaptanından kaçmak için kullanabilirsin.',
+         '<25>{#f/1}* Buradaki bir ziyaretçi onun mızraklara olan tutkusundan bahsetmişti...',
+         '<25>{#f/0}* Ne kadar da tuhaf.\n* Tanıdığım kaptan kılıç meraklısıydı.'
       ],
       f_battle: [
-         '<25>{#p/toriel}{#f/0}* Ah, there you are.',
-         "<25>{#f/0}* You're at the edge of the factory there.",
-         '<26>{#f/1}* From this point forward, I do not know what lies ahead of you...',
-         '<25>{#f/5}* Before I left, there was only an elevator to the Citadel.',
-         '<25>{#f/1}* Now, however, exists the area called \"Aerialis...\"',
-         '<25>{#f/23}* ... I wonder who came up with THAT name.'
+         '<25>{#p/toriel}{#f/0}* Ah, işte buradasın.',
+         "<25>{#f/0}* Şu an orada fabrikanın kenarındasın.",
+         '<26>{#f/1}* Bu noktadan sonra, seni neyin beklediğini bilmiyorum.',
+         '<25>{#f/5}* Ben ayrılmadan önce, burada yalnızca Hisar\'a giden bir asansör vardı.',
+         '<25>{#f/1}* Ancak, şimdi, \"Aerialis\" adı verilen bir alan var...',
+         '<25>{#f/23}* ... Acaba bu ismi KİM buldu?'
       ],
       f_exit: toriel_aerialis,
       a_start: toriel_aerialis,

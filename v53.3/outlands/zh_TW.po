@@ -1,21 +1,6 @@
-#, fuzzy
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-08 02:02+0000\n"
-"PO-Revision-Date: 2024-09-08 02:02+0000\n"
-"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
-"Language-Team: Chinese (Traditional) <https://ws3917.site/projects/"
-"project-spacetime/1-outlands/zh_Hant/>\n"
-"Language: zh_TW\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
-
-#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -5057,7 +5042,7 @@ msgid ""
 msgstr ""
 "<32>* 每當你向各式各樣的怪物{@fill=#cf7fff}調情{@fill=#fff}時，\n"
 "  他們名字的右上角\n"
-"  就會出現一顆心{@fill=#cf7fff}䷁{@fill=#fff}。"
+"  就會出現一顆心{@fill=#cf7fff}\\u4dc1{@fill=#fff}。"
 
 msgid ""
 "<32>* The more types of monsters you {@fill=#cf7fff}FLIRT{@fill=#fff} with, "
@@ -5141,7 +5126,7 @@ msgid ""
 msgstr ""
 "<32>* 如果你{@fill=#3f00ff}欺負{@fill=#fff}了某幾種怪物，\n"
 "  你就會在它們的名字旁邊\n"
-"  看到一把劍{@fill=#3f00ff}䷂{@fill=#fff}。"
+"  看到一把劍{@fill=#3f00ff}\\u4dc2{@fill=#fff}。"
 
 msgid ""
 "<32>* The more types of monsters you {@fill=#3f00ff}BULLY{@fill=#fff}, the "

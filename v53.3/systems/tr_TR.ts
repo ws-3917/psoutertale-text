@@ -176,7 +176,7 @@ export default {
             talk: 'Konuş',
             target: 'Hedef',
             text: 'Text',
-            time: 'Time',
+            time: 'Süre',
             tint: 'Tint',
             trackedAssets: 'Tracked Assets',
             true: 'True',
@@ -384,39 +384,39 @@ export default {
          [
             '§fill=#ff0§< ÖZEL TEŞEKKÜRLER >§fill=#fff§',
             'Alden',
-            '§fill=#808080§Ne zaman arkamı birine yaslamam\ngerektiğinde benim için her zaman burada oldugu\nicin, ve beni daha iyi birisi yapan hayat dersleri\nverdiği için.§fill=#fff§'
+            '§fill=#808080§Arkamı yaslayacak birine ihtiyacım olduğunda\nyanımda olduğu için, ve beni\ndaha iyi biri haline getiren\nhayat dersleri verdiği için.§fill=#fff§'
          ],
          [
             '§fill=#ff0§< ÖZEL TEŞEKKÜRLER >§fill=#fff§',
             'My Aster',
-            '§fill=#808080§Bildiğim en dost canlısı insanlardan birisi\nolduğu için, bana göre güvenilebilir ilk kişi, ve bana\noyunu bitirebilmemde ilham verdiği için.§fill=#fff§'
+            '§fill=#808080§Bildiğim en dost canlısı\nkişilerden biri olduğu için,\nhayallerime inanan ilk kişi olup\noyunu bitirebilmemde bana ilham\nverdiği için.§fill=#fff§'
          ],
          [
             '§fill=#ff0§< ÖZEL TEŞEKKÜRLER >§fill=#fff§',
             'Balgamlı Kedi',
-            "§fill=#808080§Oyunun gelişiminin her aşamasında\nyanımda olduğu için, en baştan beri, çağ\nne olursa olsun her zaman yardım için\nburadaydı.§fill=#fff§"
+            "§fill=#808080§Oyunun gelişiminin her aşamasında\nyanımda olduğu için, en başından beri. Çağ\nne olursa olsun her zaman yardım için\nburadaydı.§fill=#fff§"
          ],
          [
             '§fill=#ff0§< ÖZEL TEŞEKKÜRLER >§fill=#fff§',
             'Ghostly',
-            '§fill=#808080§For being a voice of reason when\nit comes to many aspects of the\ngame, and encouraging me to take\ntesting seriously.§fill=#fff§'
+            '§fill=#808080§Oyunun birçok yönüyle ilgili\nsağduyulu olduğu ve beni\ntest etmeyi ciddiye almaya\nteşvik ettiği için.§fill=#fff§'
          ],
          [
             '§fill=#ff0§< ÖZEL TEŞEKKÜRLER >§fill=#fff§',
             'Zaxento The Greedy',
-            '§fill=#808080§For being reliable, brutally\nhonest, giving me lots of\ncriticism and ideas, and being\ntrustworthy from the day we met.§fill=#fff§'
+            '§fill=#808080§Güvenilir olduğu, acımasızca dürüst\ndavrandığı, bana pek çok eleştiri ve\nfikir verdiği ve tanıştığımız günden\nberi sadık olduğu için.§fill=#fff§'
          ],
          [
             '§fill=#ff0§< ÖZEL TEŞEKKÜRLER >§fill=#fff§',
             'ThatGuyWhoLikesFood',
-            '§fill=#808080§For helping me write crucial\nparts of the game, supporting my\nvision, and helping me express\nmyself in a whole new way.§fill=#fff§'
+            '§fill=#808080§Oyunun kritik bölümlerini yazmama\nyardım ettiği, hayalimi desteklediği\nve kendimi tamamen yeni bir şekilde\nifade etmeme yardımcı olduğu için.§fill=#fff§'
          ],
          [
             '§fill=#ff0§< ÖZEL TEŞEKKÜRLER >§fill=#fff§',
             'Bilge \"mnwary\"',
-            "§fill=#808080§For being there to help towards\nthe end of development, and\nensuring the game's writing\nreaches its full potential.§fill=#fff§"
+            "§fill=#808080§Geliştirmenin sonlarına doğru\nyardım etmek için orada olduğu ve\noyunun yazımının tam potansiyeline\nulaşmasını sağladığı için.§fill=#fff§"
          ],
-         [ 'Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§' ]
+         [ '§fill=#ff0§The Mavis & Co.§fill=#fff§ tarafından sizlere sunuldu' ]
       ],
 
       final_frontier: {
@@ -836,11 +836,11 @@ export default {
             'Outertale\'i oynadığın için teşekkürler.',
             'Bu projede çalışmak benim için bir gurur ve memnuniyetti.'
          ],
-         [ 'Bu yolculuğa başladığımda, hiç', "bu kadar mesafe kat edebileceğimi düşünmezdim,", 'Ama işte buradayız, işin sonunda.' ],
+         [ 'Bu yolculuğa başladığımda, hiç', "bu kadar mesafe kat edebileceğimi düşünmezdim,", 'ama işte buradayız, işin sonunda.' ],
          [
             'Benim için, UNDERTALE hayat değiştirici',
-            'bir deneyimdi ve ilk kez oynadıktan',
-            'sonra bırakması zor bir deneyim.'
+            'bir deneyimdi, ilk kez oynadıktan',
+            'sonra bırakması zor bir türden.'
          ],
          [
             'O yüzden OUTERTALE ile, sana',

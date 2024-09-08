@@ -15,7 +15,7 @@ export default {
       flee4: "    ＊とめないで。",
       flee5: '    ＊バトルからにげた。\n       $(x)EXPと$(y)ゴールドを　てにいれた。',
 
-      mercy_assist: '＊たすける',
+      mercy_assist: '＊たすけをもとめる',
       mercy_flee: '＊にげる',
       mercy_spare: '＊にがす',
 
@@ -953,7 +953,7 @@ export default {
       name2: 'やめる',
       name3: 'さくじょ',
       name4: 'かくてい',
-      name5: '§fill=#808080§キーボードで入力をお願いします\n(ひらがら、カタカナと\n半角アルファベット以外の文字は使用不可)\n[ESC] - やめる　[BACKSPACE] - さくじょ\n[ENTER] - かくてい',
+      name5: '§fill=#808080§キーボードで入力をお願いします\n(ひらがな、カタカナと半角英字のみ使用可\n 入力完了したのに表示されない場合は\n 　　　　　1回Enterキーを押してください)\n[ESC] - やめる　[ENTER] - かくてい',
 
       save1: 'セーブ',
       save2: 'もどる',
@@ -1003,8 +1003,8 @@ export default {
       stat7: 'NEXT',
       stat8: '§fill=#ff0§　けいこく\nひこうしきの\nタイムライン',
       stat9: 'KILLS',
-      stat10: '\u3971',
-      stat11: '\u3917',
+      stat10: '\u4dc2',
+      stat11: '\u4dc1',
       stat12: 'STATUS',
       stat13: '\"$(x)\"',
 

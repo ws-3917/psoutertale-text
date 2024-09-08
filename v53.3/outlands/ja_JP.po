@@ -1,20 +1,7 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-05 15:42+0000\n"
-"PO-Revision-Date: 2024-09-08 02:03+0000\n"
-"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
-"Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
-"1-outlands/ja/>\n"
-"Language: ja_JP\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
 
-#
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
@@ -1349,12 +1336,10 @@ msgid ""
 msgstr "<17>＊ときどき　ひとりで　タクシーにのって　かいものにいくのが　すきなの。"
 
 msgid "<32>* It's a quaint little shop, but there's loads of stuff to buy."
-msgstr "<17>＊ふんいきのある　ちいさな　みせだけど　たくさん　かえるものが　"
-"あるんだ。"
+msgstr "<17>＊ふんいきのある　ちいさな　みせだけど　たくさん　かえるものが　あるんだ。"
 
 msgid "<32>* Maybe I'll take you there sometime... you'd adore it!"
-msgstr "<17>＊いつか　あなたをつれていく　かもね…　ぜったい　いきつけのみせに　"
-"なるはず！"
+msgstr "<17>＊いつか　あなたをつれていく　かもね…　ぜったい　いきつけのみせに　なるはず！"
 
 msgid "<32>* I'm not a fan of how you beat us all up at first."
 msgstr "<17>＊いっておくけど　ボクたちを　きづつける　やりかたは　すきじゃないよ。"
@@ -1467,7 +1452,6 @@ msgid ""
 "it.\""
 msgstr "<17>＊「ママか　あとてわかるよう　ひつけおかいとくように　しなちいっていいました。」"
 
-#, fuzzy
 msgid ""
 "<32>* \"my starling flower stil hasnt grown yet but daddy promises it wil be"
 " soon\""
@@ -1476,8 +1460,7 @@ msgstr "<17>「」"
 msgid ""
 "<32>* \"i wish there was a window on my room but daddy said there is pluming"
 " here.\""
-msgstr "<17>＊「ボクのへやに　まどをつけて　ほしいといったけと　パパが　"
-"すいどうかんが　あるからムリって」"
+msgstr "<17>＊「ボクのへやに　まどをつけて　ほしいといったけと　パパが　すいどうかんが　あるからムリって」"
 
 msgid "<32>* \"they said they wood put a window in the front room tho\""
 msgstr "<17>＊「パパと　ママは　おもてのへやに　まどをつけろ　らしい」"
@@ -1495,13 +1478,11 @@ msgstr "<17>{#p/asriel1}{#v/2}＊「アズのにっき　Kれき506年　3月」
 
 msgid ""
 "<32>* \"My old diary was in a box of toys And i wanted to put more in it.\""
-msgstr "<17>＊「おもちゃばこに　むかしの　にっきが　ありました。　たしかに　"
-"もっとかこうって　おもってたな。」"
+msgstr "<17>＊「おもちゃばこに　むかしの　にっきが　ありました。　たしかに　もっとかこうって　おもってたな。」"
 
 msgid "<32>* \"Looks like I only rote the first part of The date last time.\""
 msgstr "<17>＊「さいごに　かいた　日のことは　まだかきかけの　ようです。」"
 
-#, fuzzy
 msgid "<32>* \"By the way the Starling flower I planted before grew up.\""
 msgstr "<17>＊「」"
 
@@ -4336,8 +4317,7 @@ msgid ""
 "<32>* As you {@fill=#cf7fff}FLIRT{@fill=#fff} with different kinds of "
 "monsters, you'll see hearts next to their names."
 msgstr ""
-"<17>＊モンスターに　{@fill=#cf7fff}くどいた{@fill=#fff}あと　そのなまえの　"
-"みぎうえに　「{@fill=#cf7fff}䷁{@fill=#fff}」マークが　ひょうじされます。"
+"<17>＊モンスターに　{@fill=#cf7fff}くどいた{@fill=#fff}あと　そのなまえの　みぎうえに　「{@fill=#cf7fff}\\u4dc1{@fill=#fff}」マークが　ひょうじされます。"
 
 msgid ""
 "<32>* The more types of monsters you {@fill=#cf7fff}FLIRT{@fill=#fff} with, "
@@ -7513,8 +7493,7 @@ msgstr "<13>{#f/5}そのハートはね　キミのタマシイさ　キミと�
 msgid ""
 "<20>{#f/5}Your SOUL is an important part of you, and needs LOVE to sustain "
 "itself."
-msgstr "<13>{#f/5}タマシイは　たいせつなもの　いじするためには　LOVEが　"
-"ひつようなんだ"
+msgstr "<13>{#f/5}タマシイは　たいせつなもの　いじするためには　LOVEが　ひつようなんだ"
 
 msgid ""
 "<20>{*}{#x2}{#f/5}Out here, LOVE is shared through... {#f/8}little white... "
@@ -8510,8 +8489,7 @@ msgstr "<13>{#p/toriel}{#f/16}＊…！？"
 msgid ""
 "<32>{#p/basic}* But what do I know, huh?\n"
 "* I'm just a sweet, innocent little child."
-msgstr "<17>{#p/basic}＊だが　私に　この状況を　説明できようか。　いや　"
-"ただの子供である　私には　できない。"
+msgstr "<17>{#p/basic}＊だが　私に　この状況を　説明できようか。　いや　ただの子供である　私には　できない。"
 
 msgid "<25>{#p/toriel}{#f/4}* This is impossible..."
 msgstr "<13>{#p/toriel}{#f/4}＊ありえない…"

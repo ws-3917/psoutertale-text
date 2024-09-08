@@ -2870,10 +2870,10 @@ export default {
             '<18>{#f/4}然後...',
             SAVE.data.b.flirt_papyrus
                ? '<18>{#f/9}做大家會在\n約會的時候\n做的事！'
-               : '<18>{#f/9}\"HANG OUT\" LIKE A PAIR OF VERY COOL FRIENDS!',
+               : '<18>{#f/9}像一對酷酷的朋友\n一樣「消遣」吧！',
             choicer.create('* （你要怎麼回答？）', '是', '否')
          ],
-         () => [ '<18>{#p/papyrus}READY?', choicer.create('* （你要怎麼回答？）', '是', '否') ]
+         () => [ '<18>{#p/papyrus}準備好了嗎？', choicer.create('* （你要怎麼回答？）', '是', '否') ]
       ),
       papdate4a: [ "<18>{#p/papyrus}好，我們進去吧！" ],
       papdate4b: [ "<18>{#p/papyrus}I'LL KEEP WAITING HERE THEN!" ],
@@ -2946,8 +2946,8 @@ export default {
          '<15>{#f/24}「咳咳。」',
          '<15>{#f/20}人類！\n我，偉大的\nPAPYRUS...',
          SAVE.data.b.flirt_papyrus
-            ? '<15>{#f/10}想和你\n進行一場\n約會！'
-            : '<15>{#f/10}WOULD LIKE TO HANG OUT WITH YOU!'
+            ? '<15>{#f/10}想和你一起\n約會！'
+            : '<15>{#f/10}想和你一起\n消遣！'
       ],
       papdate14: () => [ choicer.create('* （你要怎麼回答？）', '是', '否') ],
       papdate15a: [ '<15>{#p/papyrus}{#f/12}真-真的？？？', '<15>{#f/11}哇！！！' ],
@@ -2969,7 +2969,7 @@ export default {
                goggles_x: '<15>{#f/26}你頭上的\n那個玩意...',
                visor: '<15>{#f/26}THAT VISOR IN FRONT OF YOUR EYES...',
                visor_x: '<15>{#f/26}THAT VISOR IN FRONT OF YOUR EYES...',
-               sonic: "<15>{#f/26}THAT ODD DEVICE YOU'RE CARRYING...",
+               sonic: "<15>{#f/26}你帶著的那個\n奇怪的裝置...",
                heart_locket: '<15>{#f/26}THAT LOCKET AROUND YOUR NECK...'
             } as Partial<CosmosKeyed<string>>
          )[SAVE.data.s.armor] || '<15>{#f/26}你身上的\n那個東西...',
@@ -3312,18 +3312,18 @@ export default {
                     : [ "<15>{#f/10}AND HEY, UNDYNE'S NOT TOO FAR FROM HERE.", '<15>{#f/20}WE CAN HANG OUT WITH HER!' ])
               ]
             : [
-                 '<15>{#f/10}I LIKE YOU TOO!',
-                 '<15>{#f/10}YOU ARE A VERY NICE PERSON, AFTER ALL.',
-                 '<15>{#f/21}BUT, MAYBE...',
-                 "<15>{#f/21}YOU'D BE BETTER OFF IF YOU LIVED MORE FOR YOUR OWN SAKE.",
-                 '<15>{#f/21}RATHER THAN JUST FOR MINE.',
-                 '<15>{#f/10}FORTUNATELY, I KNOW THE SOLUTION!!!',
-                 '<15>{#f/20}A HANGOUT WITH MY BOSS, UNDYNE!!!',
-                 '<15>{#f/24}I THINK IF YOU SPREAD OUT YOUR FRIEND ENERGY A BIT MORE...',
-                 "<15>{#f/10}YOU'D LEAD A MUCH HEALTHIER LIFESTYLE.",
+                 '<15>{#f/10}我也喜歡你！',
+                 '<15>{#f/10}畢竟你是個\n超級大好人。',
+                 '<15>{#f/21}但也許...',
+                 "<15>{#f/21}如果你多為\n自己而活的話，\n你會過得更好的。",
+                 '<15>{#f/21}不能只為了\n我而活。',
+                 '<15>{#f/10}很幸運的是，\n我知道解決\n方案！！！',
+                 '<15>{#f/20}那就是跟我的上司，\nUNDYNE一起消遣！！！',
+                 '<15>{#f/24}我覺得如果你\n可以把你的友誼能量\n分散一點...',
+                 "<15>{#f/10}你的生活方式\n就會更健康。",
                  ...(SAVE.data.n.plot < 48
                     ? [ "<15>{#f/20}I'LL LET YOU KNOW WHEN I'M READY!" ]
-                    : [ "<15>{#f/20}SO LET'S DO IT!\nTOGETHER!!" ])
+                    : [ "<15>{#f/20}所以讓我們！\n一起加油吧！！" ])
               ]),
          '<15>{#f/20}捏嘿嘿\n嘿嘿！！！'
       ],
@@ -3336,7 +3336,7 @@ export default {
                  '<15>{#f/24}當然，\n是柏拉圖式的。',
                  ...(SAVE.data.n.plot < 48
                     ? [ '<15>{#f/10}那麼，\n我先走啦！' ]
-                    : [ "<15>{#f/10}WELL, SEE YOU AT UNDYNE'S HOUSE!" ])
+                    : [ "<15>{#f/10}那麼，我們\n在UNDYNE的房子那裡\n見面吧！" ])
               ]
             : SAVE.data.n.plot < 48
             ? [ '<15>{#f/10}那麼，\n我先走啦！' ]
@@ -3481,7 +3481,7 @@ export default {
             ...(dateready() && SAVE.data.n.state_starton_papyrus === 0
                ? [
                     "<18>{#p/papyrus}{#f/7}什麼！！！\n平常都比這個\n精彩的！",
-                    '<18>{#f/4}單純就是這一集\n質量不好。',
+                    '<18>{#f/4}單純就是這一期\n質量不好。',
                     "<18>{#f/7}你不許酸我！！！"
                  ]
                : [])
@@ -5623,16 +5623,16 @@ export default {
          sans8: [ "<32>{#p/basic}* I'm just as confused as you." ],
          sans9: [ '<32>{#p/basic}* Oh, come on!\n* I wanted to see it in action!', '<32>* ... oh well...' ],
          papdate: () => [
-            '<32>{#p/basic}* So... Papyrus, huh?',
+            '<32>{#p/basic}* 所以... Papyrus，嗯？',
             SAVE.data.n.plot > 64.1
-               ? '<32>* After all this time, you finally became friends.'
-               : '<32>* Somehow I knew you two would end up as friends.',
-            '<32>* ...\n* I watched that skeleton grow up here...',
-            '<32>* Always setting a good example for those around him...',
-            '<32>* ... and for me.',
-            "<32>* It's too bad I can't tell him that myself.",
-            "<32>* But that's okay.",
-            '<32>* Seeing you two get along more than makes up for it.'
+               ? '<32>* 過了這麼久，\n  你們終於成了朋友。'
+               : '<32>* 我就知道你們倆\n  最終會成為朋友。',
+            '<32>* ...\n* 我是看著那個骷髏在這裡\n  長大的...',
+            '<32>* 他總是會給他周圍的人\n  樹立一個好榜樣...',
+            '<32>* ...包括我也一樣。',
+            "<32>* 真可惜，\n  我沒法親自告訴他這些。",
+            "<32>* 但沒關係的。",
+            '<32>* 看到你們倆相處得這麼好，\n  就足夠彌補遺憾了。'
          ]
       },
       vegetoid: pager.create(

@@ -27,7 +27,7 @@ export default {
             '<32>{#p/human}* (Karakol uyumadan önce bıraktığın hali ile aynı.)'
          ],
          [
-            '<32>{#p/human}* (Karakolun herbir köşesini yaşam belirtileri bulmak için arıyorsun, ama kimse gelmiyor.)',
+            '<32>{#p/human}* (Karakolun her bir köşesini yaşam belirtileri bulmak için arıyorsun, ama kimse gelmiyor.)',
             '<32>{#p/human}* (Yeniden arıyorsun, tekrar ve tekrar...)',
             '<32>{#p/human}* (Ama kimse gelmiyor.)'
          ],
@@ -44,17 +44,17 @@ export default {
          [
             '<32>{#p/human}* (KAYIT dosyanı SIFIRLAMAYA çalışıyorsun.)\n* (Hiçbirşey olmuyor.)',
             '<32>{#p/human}* (Yeniden DOSYANI SIFIRLAMAYA çalışıyorsun.)',
-            '<32>{#p/human}* (Hiçbirşey olmuyor.)'
+            '<32>{#p/human}* (Hiçbir şey olmuyor.)'
          ],
          [
-            "<32>{#p/human}* (Umutsuzluk ile, Toriel'in Numarasını aramaya çalışıyorsun.)\n* (Cevap yok.)",
+            "<32>{#p/human}* (Umutsuzca, Toriel'in Numarasını aramaya çalışıyorsun.)\n* (Cevap yok.)",
             '<32>{#p/human}* (Papyrus ve Undyne\'ı aramaya çalışıyorsun.)',
             '<32>{#p/human}* (Cevap yok.)'
          ],
          [
             '<32>{#p/human}* (...)',
             "<32>{#p/human}* (Ne kadar süredir burada olduğunu unuttun.)",
-            "<32>{#p/human}* (Haftalarmı, aylarmı veya yıllarmı geçtiğini bilmiyorsun.)",
+            "<32>{#p/human}* (Haftalar mı, aylar mı yoksa yıllar mı geçtiğini bilmiyorsun.)",
             "<32>{#p/human}* (ÇEKİRDEĞİ mümkün olabildiğince düşük enerji kullanacak şekilde yapılandırdın...)",
             "<32>{#p/human}* (Ama sonsuza dek süremez.)"
          ],
@@ -67,8 +67,8 @@ export default {
          [
             '<32>{#p/human}* (Bir şekilde, huzur içinde hissettin.)',
             "<32>{#p/human}* (Kendi ölümün ile yüzleştin.)",
-            "<32>{#p/human}* (Bunun başka bir yolu olmadığını farkediyorsun.)",
-            '<32>{#p/human}* (Kalan hava kaybolurken, yolculuğunu son birkez hatırlıyorsun.)',
+            "<32>{#p/human}* (Bunun başka bir yolu olmadığını fark ediyorsun.)",
+            '<32>{#p/human}* (Kalan hava kaybolurken, yolculuğunu son bir kez hatırlıyorsun.)',
             '<32>{#p/human}* (Sürgün edildiğin günden, canavarların kaçtığı güne dek.)'
          ],
          [
@@ -107,7 +107,7 @@ export default {
             ? !SAVE.flag.b._flee
                ? [
                     '<25>{#x1}{#p/event}Hav!\n{#x1}{#p/event}Hav!\n{#x1}{#p/event}Hav!',
-                    '<25>{#p/basic}(Mükemmel!)\n(Bütün saldırıları ıskaladın, ve hiç kaçmadın!)',
+                    '<25>{#p/basic}(Mükemmel!)\n(Bütün saldırılardan kaçındın, ve hiç kaçmadın!)',
                     !SAVE.flag.b._equip
                        ? "<25>{#p/basic}(Herhangi bir zırh ve silaha ihtiyacın olmadığını biliyor olmalıydın!)"
                        : '<25>{#p/basic}(Kesinlikle çok cesur olmalısın!)'
@@ -126,8 +126,8 @@ export default {
                        '<25>{#x1}{#p/event}Hav!\n{#x1}{#p/event}Hav!\n{#x1}{#p/event}Hav!',
                        '<25>{#p/basic}(Mükemmel!)\n(Sadece hiç ölmemek ile kalmadın...)',
                        !SAVE.flag.b._equip
-                          ? '<25>{#p/basic}(Hiç kendini iyileştirmedin, hiç zırh ve silahta kuşanmadın!)'
-                          : '<25>{#p/basic}(Hiç iyileşmedinde!)'
+                          ? '<25>{#p/basic}(Hiç kendini iyileştirmedin, hiç zırh ve silah da kuşanmadın!)'
+                          : '<25>{#p/basic}(Hiç iyileşmedin de!)'
                     ]
                   : [
                        '<25>{#x1}{#p/event}Hav!\n{#x1}{#p/event}Hav!\n{#x1}{#p/event}Hav!',
@@ -236,8 +236,8 @@ export default {
          none
             ? [
                  '<25>{#x1}{#p/event}Hav!\n{#x1}{#p/event}Hav!',
-                 "<25>{#p/basic}(Görünüşe göre sıradışı birşey yapmadın.)",
-                 '<25>{#p/basic}(Belkide bu tek başına sıradışıdır!)'
+                 "<25>{#p/basic}(Görünüşe göre sıra dışı bir şey yapmadın.)",
+                 '<25>{#p/basic}(Belki de bu başlı başına sıra dışıdır!)'
               ]
             : [
                  '<25>{#x1}{#p/event}Hav!\n{#x1}{#p/event}Hav!',
@@ -292,10 +292,10 @@ export default {
                      "<25>{#p/undyne}{#f/4}* Sayende, HER ZAMAN istediğim gücü elde ettim, ve...",
                      '<25>{#p/undyne}{#f/17}* ... ve...',
                      "<25>{#p/undyne}{#f/16}* ... pekala, bundan önce, sana buraya nasıl geldiğimi söylemek isterim.",
-                     '<25>{#p/undyne}{#f/20}* Herşey sen karakoldan ayrıldığında başladı.',
-                     "<25>{#p/undyne}{#f/22}* Yaptığını öğrendim, ve ben... hisara kendim saldırdım.",
+                     '<25>{#p/undyne}{#f/20}* Her şey sen karakoldan ayrıldığında başladı.',
+                     "<25>{#p/undyne}{#f/22}* Ne yaptığını öğrendim, ve ben... Hisar'a kendim hücum ettim.",
                      '<25>{#p/undyne}{#f/22}* Alphys şok içindeydi.\n* Kral ölmüştü, ve muhafızlar gitmişti.',
-                     '<25>{#p/undyne}{#f/20}* Ayrıca, alphys seni mettaton ile bir şekilde durdurmaya çalıştıktan sonra...',
+                     '<25>{#p/undyne}{#f/20}* Ayrıca, o Mettaton ile seni her ne şekilde durdurmaya çalıştıysa...',
                      "<25>{#p/undyne}{#f/22}* Karakol'un güç sistemleri çılgınca davranmaya başladı.",
                      '<25>{#p/undyne}{#f/19}* Atmosfer, yerçekimi... dayandığımız şeyler...',
                      '<25>{#p/undyne}{#f/19}* Hepsi sapıtmaya başladı, ve sayısız ölümle sonuçlandı.',
@@ -313,12 +313,12 @@ export default {
                      '<25>{#p/undyne}{#f/1}* Bi\' bakayım...',
                      '<25>{#p/undyne}{#f/17}* ...',
                      '<25>{#p/alphys}{#f/18}* ...\n* Bu doğru mu!?',
-                     '<25>{#p/undyne}{#f/9}* Hmph.\n* \"Bu doğrumu.\"',
-                     '<25>{#p/undyne}{#f/11}* Benimle dalgamı geçiyorsun?',
+                     '<25>{#p/undyne}{#f/9}* Hmph.\n* \"Bu doğru mu.\"',
+                     '<25>{#p/undyne}{#f/11}* Benimle dalga mı geçiyorsun?',
                      '<25>{#p/alphys}{#f/20}* ...',
-                     "<25>{#p/undyne}{#f/8}* TABI KI DOĞRU!",
-                     '<25>{#p/undyne}{#f/7}* Böylece insan RUHLARINI bir araya getirdikten sonra...',
-                     '<25>{#p/undyne}{#f/11}* Alphys ve Ben, HERKESİ kurtarmak için bir plan ile çıkageldik.',
+                     "<25>{#p/undyne}{#f/8}* TABİİ Kİ DOĞRU!",
+                     '<25>{#p/undyne}{#f/7}* Böylece insan RUHlarını bir araya getirdikten sonra...',
+                     '<25>{#p/undyne}{#f/11}* Alphys ve ben, HERKESİ kurtarmak için bir plan ile çıkageldik.',
                      "<25>{#p/undyne}{#f/16}* Güç duvarını geçen bir mekik ile, seni avlayacaktık...",
                      '<25>{#p/undyne}{#f/7}* Ve RUHUNU bedeninden AYIRACAKTIK!',
                      "<25>{#p/undyne}{#f/1}* Sonra, geri dönüp güç duvarını parçalara ayıracaktık!",
@@ -333,11 +333,11 @@ export default {
                         '<18>{#p/papyrus}{#f/6}UNDYNE!?\nSEN İYİ MİSİN!?',
                         '<25>{#p/alphys}{#f/2}* ...!?',
                         '<25>{#p/undyne}{#f/13}* Huh??\n* SEN burada ne yapıyorsun?',
-                        '<18>{#p/papyrus}{#f/5}ŞEY... BIRCOK BAĞIRIŞMA\n VE ÇIĞLIK SESLERİ DUYDUM.',
-                        '<18>{#p/papyrus}{#f/6}SENIN İÇİN ENDİŞELENDİM.',
-                        '<25>{#p/undyne}{#f/14}* Ah, sağol Papyrus.\n* Ne kadar düşüncelisin.',
-                        "<18>{#p/papyrus}{#f/0}OH, RICA EDERIM!",
-                        "<25>{#p/undyne}{#f/7}* Belki sıradaki zaman, BAŞKALARININ MEKİĞİNE GİZLİCE GİRMEZSİN!!!",
+                        '<18>{#p/papyrus}{#f/5}ŞEY... BİRÇOK BAĞRIŞMA\nVE ÇIĞLIK SESLERİ DUYDUM.',
+                        '<18>{#p/papyrus}{#f/6}SENİN İÇİN ENDİŞELENDİM.',
+                        '<25>{#p/undyne}{#f/14}* Ah, sağ ol Papyrus.\n* Ne kadar düşüncelisin.',
+                        "<18>{#p/papyrus}{#f/0}AH, RİCA EDERİM!",
+                        "<25>{#p/undyne}{#f/7}* Belki sonraki sefere, BAŞKALARININ MEKİĞİNE GİZLİCE GİRMEZSİN!!!",
                         "<18>{#p/papyrus}{#f/6}Ü-ÜZGÜNÜM, MERAK EDIYORDUM TAMAM MI?",
                         '<18>{#p/papyrus}{#f/5}SADECE BAKMAK İÇİN GİRMİŞTİM, VE SONRA ÖĞRENDİĞİM ŞEY...',
                         '<18>{#p/papyrus}{#f/6}MEKİĞİN KARAKOLDAN KALKTIĞIYDI!',
@@ -351,19 +351,19 @@ export default {
                         "<25>{#p/alphys}{#f/17}* 2 saat.\n* Sana 2 saat veriyoruz.",
                         '<18>{#p/papyrus}{#f/0}TAMAM!!\nBOL ŞANS O ZAMAN!!',
                         '<25>{#p/alphys}{#f/20}* ... 2 saat insanı yakalamak için yeterli mi, yoksa...',
-                        '<25>{#p/undyne}{#f/14}* Pfft, 2 SAATMİ?',
-                        "<25>{#p/undyne}{#f/1}* Evet, öyle düşünmüyorum.",
+                        '<25>{#p/undyne}{#f/14}* Pfft, 2 SAAT Mİ?',
+                        "<25>{#p/undyne}{#f/1}* Evet, hiç sanmıyorum.",
                         '<25>{#p/undyne}{#f/4}* ...\n* Fuhuhuhuhu...',
-                        '<25>{*}{#x0}{#p/undyne}{#f/7}* Sadece 2 SANIYE dene.{^40}{%}'
+                        '<25>{*}{#x0}{#p/undyne}{#f/7}* Sadece 2 SANİYE yeter.{^40}{%}'
                      ]);
                   } else {
                      addB([
                         "<25>{#p/alphys}{#f/18}* Konumunu tespit etmeyi başardık!",
                         "<25>{#p/undyne}{#f/1}* Fuhuhu... bu doğru.",
                         "<25>{#p/undyne}{#f/7}* Çoktan buna KANDIN, serseri!",
-                        "<25>{#p/alphys}{#f/16}* E-Evet, yaptığın herşeyi y-yapmamış olmayı dileyeceksin!",
+                        "<25>{#p/alphys}{#f/16}* E-Evet, yaptığın her şeyi y-yapmamış olmayı dileyeceksin!",
                         "<25>{#p/alphys}{#f/16}* Nereye gidersen git, kaçış yok!",
-                        "<25>{#p/undyne}{#f/8}* EVET!!\n* SÖYLE ONLARA ALPHYS!!",
+                        "<25>{#p/undyne}{#f/8}* EVET!!\n* SÖYLE ONA ALPHYS!!",
                         '<25>{#p/undyne}{#f/4}* ...\n* Fuhuhuhuhu...',
                         "<25>{*}{#x0}{#p/undyne}{#f/7}* I've got you now.{^40}{%}"
                      ]);

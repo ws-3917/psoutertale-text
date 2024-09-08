@@ -123,11 +123,11 @@ export default {
          '<32>{#p/event}* 铃铃，铃铃...',
          '<32>{#p/alphys}* 嘿... 你-你好？',
          '<32>* 我知道你想继续前进，但是...',
-         "<32>* 如果你继续，她会... 杀了你...",
+         "<32>* 如果你还往前走，\n  她会... 杀了你...",
          "<32>* 我尝试阻止她... \n  但-但她不听我的！",
          "<32>* 她现在...",
          '<32>* ...',
-         "<32>* 但是，额，没事的！\n* 因为...",
+         "<32>* 但是，呃，没事的！\n* 因为...",
          "<32>* 因-因为还有一种\n  可以绕过她的办法！",
          "<32>* 我知道这可能...\n* 有点不方便...",
          "<32>* 但这是你活下去的唯一办法...！",
@@ -135,7 +135,7 @@ export default {
          '<32>* 回到那-那个塔架谜题前的阳台。',
          "<32>* 如果你不这么做，我...",
          '<32>* 我...',
-         "<32>* 我就... \n  你走吧。",
+         "<32>* 我就... 你走吧。",
          '<32>{#s/equip}{#p/event}* 滴...'
       ],
       artifact1: [ '<32>{#p/human}* （你获得了传说中的神器。）' ],
@@ -536,13 +536,13 @@ export default {
                : 65 <= SAVE.data.n.plot
                ? SAVE.data.b.a_state_hapstablook
                   ? 68 <= SAVE.data.n.plot
-                     ? [ "<32>{#p/napstablook}* hopefully next time you won't have to risk your life." ]
+                     ? [ "<32>{#p/napstablook}* 希望你下次别冒这个险了。" ]
                      : [ '<32>{#p/napstablook}* it is what it is...' ]
                   : [ '<32>{#p/napstablook}* it is what it is...' ]
                : 63 <= SAVE.data.n.plot && SAVE.data.b.a_state_hapstablook
-               ? [ "<33>{#p/napstablook}* don't worry, they're alright...", '<32>* at least, i hope so......' ]
+               ? [ "<33>{#p/napstablook}* don't worry, they're alright...", '<32>* 至少，我是那么希望的......' ]
                : 60 <= SAVE.data.n.plot
-               ? [ "<32>{#p/napstablook}* hopefully next time he's a little nicer to the contestants........." ]
+               ? [ "<32>{#p/napstablook}* 希望他下次能对其他选手好一点吧........." ]
                : 49 <= SAVE.data.n.plot
                ? [
                     '<32>{#p/napstablook}* 哦对了，我早些时候\n  看到你在达人秀上了...',
@@ -584,7 +584,7 @@ export default {
                ? [ '<32>{#p/napstablook}* .........' ]
                : 49 <= SAVE.data.n.plot
                ? SAVE.data.n.state_aerialis_talentfails === 0
-                  ? [ '<32>{#p/napstablook}* congratulations, i guess' ]
+                  ? [ '<32>{#p/napstablook}* 那么，恭喜你' ]
                   : [ '<32>{#p/napstablook}* ......' ]
                : [ '<32>{#p/napstablook}* 我没话讲了...' ]
       ),
@@ -599,7 +599,7 @@ export default {
             ? [ "<32>{#p/basic}* It's out of service." ]
             : SAVE.data.b.svr
             ? [
-                 '<32>{#p/human}* (You approach the vending machine.)',
+                 '<32>{#p/human}* （你靠近了售货机。）',
                  choicer.create('* （你想合成什么呢？）', '甘草糖', '薯片', '口粮', '放弃')
               ]
             : [
@@ -613,51 +613,51 @@ export default {
       candy6: [ "<32>{#p/human}* （你带的东西太多了。）" ],
       candy7: [ '<32>{#p/human}* （你打算什么也不合成。）' ],
       deathReaction: {
-         f_bird: [ '<32>{#p/basic}* This small bird no longer wants to carry you across the gap.' ],
+         f_bird: [ '<32>{#p/basic}* 这只小鸟再也不想带你过去了。' ],
          
          f_blooky: [
-            '<32>{#p/basic}{#npc/a}* Did you hear about Undyne?',
-            '<32>{#p/basic}{#npc/a}* Oh, not at all!',
+            '<32>{#p/basic}{#npc/a}* 你听说过Undyne吗？',
+            '<32>{#p/basic}{#npc/a}* 哦，完全没有！',
             "<32>{#p/basic}{#npc/a}* I heard she's doing well.",
             '<32>{#p/basic}{#npc/a}* Sounds good to me!',
-            '<32>{#p/basic}{#npc/a}* Undyne will never die.',
-            '<32>{#p/basic}{#npc/a}* Indeed not!'
+            '<32>{#p/basic}{#npc/a}* Undyne 永远不朽。',
+            '<32>{#p/basic}{#npc/a}* 肯定不是！'
          ],
          f_dummy: [
-            '<32>{#p/basic}{#npc/a}* Fatal energy signature detected.',
-            '<32>* Name... Undyne.',
-            '<32>* Relationship status... \"BESTIES!!!\"',
-            '<32>* Last interaction... asked about humans.',
+            '<32>{#p/basic}{#npc/a}* 检测到强烈的能量信号。',
+            '<32>* 名字是... Undyne。',
+            '<32>* 关系... “闺蜜！！！”',
+            '<32>* 上次互动... 询问了关于人类的信息。',
             '<32>* Time to compensate for loss...',
             '<32>* Indeterminate.'
          ],
          f_hub: [
-            "<32>{#p/basic}{#npc/a}* Wh...\n* What've you done!?",
+            "<32>{#p/basic}{#npc/a}* 什...\n* 你都干了什么！？",
             "<32>* Ole' Gerson's not gonna be a happy camper after that..."
          ],
          f_snail: () => [
             '<32>{#p/basic}* ...',
             SAVE.data.b.f_state_thundersnail_win
-               ? "<32>* I'll make sure you NEVER win another game of electrosnail."
-               : "<32>* I'll make sure you NEVER win a game of electrosnail."
+               ? "<32>* 下一局雷霆蜗牛\n  我可绝对不会让你赢了。"
+               : "<32>* 我绝对不会让你\n  再赢雷霆蜗牛了。"
          ],
          f_undyne: [
-            '<32>{#p/basic}* No.\n* No!\n* NO!!!',
-            '<32>* What. Have. You. DONE???',
-            '<32>* She was...',
+            '<32>{#p/basic}* 不。\n* 不行！\n* 不行！！！',
+            '<32>* 你。都。干了。什么？？？',
+            '<32>* 她...',
             '<32>* She was my FAVORITE bully!\n* How dare you take her away from me like that!?'
          ]
       },
       dummy1x: () =>
          SAVE.data.n.state_wastelands_dummy === 4
             ? [
-                 '<32>{#p/basic}* Gah!\n* I just KNEW you were going to do that!!',
+                 '<32>{#p/basic}* 呸！\n* 我就知道你会那么做！！',
                  '<32>* What an IMBECILE!!!\n* You just hugged someone with haphephobia!!!!',
                  "<32>* Guooohh, you're gonna PAY."
               ]
             : [
                  '<32>{#p/basic}* Gah!\n* Why would you EVER do that!?',
-                 "<32>* Don't you know who I am!?!?\n* You just hugged someone with haphephobia!!!!",
+                 "<32>* 你知道我是谁吗！？！？\n* 你刚才抱的那个人可是有接触恐惧症的！！！！",
                  "<32>* Guooohh, you're gonna PAY."
               ],
       dummy1a: () =>
@@ -702,16 +702,16 @@ export default {
                       ]
                     : SAVE.data.n.state_wastelands_dummy === 3
                     ? [
-                         '<32>* YOU... you...',
-                         '<32>* Shucks!\n* You were really boring!',
+                         '<32>* 你... 你...',
+                         '<32>* 该死，你这人无聊透顶！',
                          '<32>* They got annoyed and flew away like any self-respecting spectre.',
-                         '<32>* Well then.\n* Well then!\n* WELL THEN!',
+                         '<32>* 那好吧。\n* 那好吧！\n* 那好吧！！',
                          "<32>* I guess I'll just have to entertain MYSELF!",
                          "<32>* Buckle up, sleepyhead!\n* It's time to put on a show!"
                       ]
                     : SAVE.data.n.state_wastelands_dummy === 4
                     ? [
-                         '<32>* YOU... you...',
+                         '<32>* 你... 你...',
                          '<32>* 该死，喜欢当老好人是吧？',
                          '<32>* 自己当老好人不要紧，\n  还让我表亲染上抱瘾，\n  总想拥抱，戒不掉了！！！',
                          '<32>* 它丢掉了原本的身体，\n  每次发作时，就找我发泄自己的欲望。',
@@ -729,35 +729,35 @@ export default {
                               ]
                             : SAVE.data.n.state_wastelands_dummy === 1
                             ? [
-                                 '<32>* Us ghosts spend our whole lives looking for a proper vessel.',
-                                 '<32>* Slowly, slowly, we grow closer to our new bodies, until one day...',
-                                 '<32>* We too may become corporeal beings, able to laugh, love, and dance like any other.',
-                                 "<32>* But YOU!!!\n* My cousin's future...\n* You snatched it all away!",
-                                 '<32>* Uraaahhhhh!!!'
+                                 '<32>* 我们幽灵用一生时间来\n  寻找一个合适的容器。',
+                                 '<32>* 渐渐地，渐渐地，我们和\n  新身体的联系越来越近，\n  直到有一天...',
+                                 '<32>* 我们就可以变成有形的存在，\n  像其他人一样，欢笑，恋爱，舞蹈。',
+                                 "<32>* 但是你呢！！！\n* 我的表亲的未来...\n* 你把它给毁了！",
+                                 '<32>* 呃啊啊啊啊啊啊！！！'
                               ]
                             : SAVE.data.n.state_wastelands_dummy === 2
                             ? [
-                                 '<32>* They were a shy sort.\n* Living a lonely life in the Outlands...',
-                                 '<32>* They saw you and HOPED you might TALK to them.',
-                                 '<32>* But NO!\n* You ran away!',
-                                 '<32>* Pathetic.\n* Pathetic!\n* PATHETIC!!!',
-                                 "<32>* Nobody breaks my cousin's HEART and GETS AWAY with it!"
+                                 '<32>* 它一直羞于见人。\n* 自己孤独地住在外域...',
+                                 '<32>* 然后它遇到了你，\n  希望你跟它交流。',
+                                 '<32>* 但你没有！\n* 你逃跑了！',
+                                 '<32>* 可悲。\n* 可悲！\n* 可悲！！！',
+                                 "<32>* 没人能伤了我表亲的心\n  还能全身而退！"
                               ]
                             : SAVE.data.n.state_wastelands_dummy === 5
                             ? [
-                                 '<32>* When you first showed up, they were so excited to talk...',
-                                 '<32>* And then you went and SLAPPED them in the FACE!',
-                                 '<32>* Not just once.\n* Not just twice!',
-                                 '<32>* But THREE TIMES!!',
-                                 '<32>* How AWFUL do you have to BE!?'
+                                 '<32>* 你出现的时候，它多么希望\n  你能跟他聊聊...',
+                                 '<32>* 但你却给了它一巴掌！',
+                                 '<32>* 再一。\n* 再二。',
+                                 '<32>* 再三就过分了！！',
+                                 '<32>* 你这人怎么这么坏！？'
                               ]
                             : SAVE.data.n.state_wastelands_dummy === 6
                             ? [
-                                 '<32>* My cousin is a nice fellow.',
-                                 "<32>* But that doesn't mean you can just GO AROUND and FLIRT with them!",
-                                 '<32>* Your stupid advances weirded them out SO MUCH...',
-                                 "<32>* ... they just couldn't take it anymore!!",
-                                 '<32>* Disgusting.\n* Disgusting!\n* DISGUSTING!!!'
+                                 '<32>* 我表亲明明是个很好的人。',
+                                 "<32>* 但这不意味着你可以跟它调情！",
+                                 '<32>* 你那愚蠢的举动吓到了它...',
+                                 "<32>* ... 以至于它根本承受不住了！！",
+                                 '<32>* 令人作呕。\n* 令人作呕！\n* 令人作呕！！！'
                               ]
                             : []),
                          "<32>* 你会为此而死的，人类！！！！"
@@ -805,7 +805,7 @@ export default {
                  "<32>{#p/basic}* 一个训练人偶。\n* 教训教训它吗？",
                  choicer.create('* （动手吗？）', '是', '否')
               ]
-            : [ "<32>{#p/basic}* It's a training dummy.\n* Hug it?", choicer.create('* (Hug the dummy?)', '是', '否') ],
+            : [ "<32>{#p/basic}* 一个训练人偶。\n* 抱抱它吗？", choicer.create('* （抱一下人偶吗？）', '是', '否') ],
       dummypunch2a: [ '<32>{#p/human}* （你打算不这么做。）' ],
       dummypunch2b: () =>
          world.genocide || world.meanie
@@ -814,11 +814,11 @@ export default {
             ? [ '<32>{#p/human}* （你给人偶来了一拳。）' ]
             : SAVE.data.b.oops
             ? [ '<32>{#p/human}* （...你只是戳了戳人偶。）' ]
-            : [ '<32>{#p/human}* (You hugged the dummy.)' ],
+            : [ '<32>{#p/human}* （你抱了抱人偶。）' ],
       dummypunch3: () =>
          SAVE.data.b.f_state_dummypunch
             ? [ "<32>{#p/basic}* 人偶被你教训了一顿。" ]
-            : [ "<32>{#p/basic}* It's a happy hugging dummy." ],
+            : [ "<32>{#p/basic}* 一个很开心的抱抱人偶。" ],
       epicreaction: () =>
          [
             [ '<25>{#p/kidd}{#f/7}* 那是什么！？' ],
@@ -831,8 +831,8 @@ export default {
             [ '<25>{#p/kidd}{#f/4}* ...' ]
          ][Math.min(SAVE.data.n.state_foundry_kiddreaction++, 7)],
       fallenfish: [ '<33>{#p/basic}* 电流通过了她的全身。' ],
-      fallenfish2: [ "<32>{#p/basic}* She's fallen down." ],
-      fallenfish3: [ '<32>{#p/basic}* ... but nothing happened.' ],
+      fallenfish2: [ "<32>{#p/basic}* 她倒下了。" ],
+      fallenfish3: [ '<32>{#p/basic}* ... 但是什么也没发生。' ],
       finalfish1: [ '<25>{#p/undyne}{#f/19}* 嘎啊...' ],
       finalfish2: [ '<25>{#p/undyne}{#f/19}* 该死的...\n* 干扰...' ],
       finalpre: () => [ choicer.create('* (Continue to Aerialis?)', '是', '否') ],
@@ -1187,7 +1187,7 @@ export default {
                  '<18>所以，你知道我跟你\n当初是怎么相处的吗？',
                  '<18>{#f/5}我觉得... UNDYNE\n也应该跟你\n好好相处一下。',
                  '<18>{#f/4}而且，我敢打赌你们\n肯定能成为\n很好的朋友...',
-                 SAVE.data.b.flirt_papyrus ? '<18>{#f/6}...朋友而已！' : '<18>{#f/0}JUST LIKE WE WERE!',
+                 SAVE.data.b.flirt_papyrus ? '<18>{#f/6}...朋友而已！' : '<18>{#f/0}就像咱俩一样！',
                  "<18>{#f/0}那，等你准备好\n就来UNDYNE的家门口\n见我吧。"
               ]),
          '<18>{#f/9}肯定会经历一段\n非常棒的时光的！',
@@ -1236,9 +1236,9 @@ export default {
             : [ '<32>{#p/basic}* 啊呼呼呼呼...', '<32>* 刚才很有趣哦！\n* 下次再见，亲！' ],
       muffet2: () =>
          badSpider()
-            ? [ '<25>{#p/kidd}{#f/4}* Yo... that was weird...' ]
+            ? [ '<25>{#p/kidd}{#f/4}* 哟...\n  刚才那好奇怪...' ]
             : SAVE.data.b.flirt_muffet
-            ? [ "<25>{#p/kidd}{#f/4}* Yo... at least it's over now?" ]
+            ? [ "<25>{#p/kidd}{#f/4}* 哟...\n  至少现在没事了？" ]
             : [ '<25>{#p/kidd}{#f/4}* 哟...\n  一点都不好玩。' ],
       muffetGeno1: () =>
          SAVE.data.n.state_foundry_kidddeath < 1
@@ -1260,15 +1260,15 @@ export default {
       mushroomdance2: () =>
          SAVE.data.n.plot === 72
             ? SAVE.data.b.f_state_mushroomdanceEpilogue
-               ? [ '<32>{#p/basic}* It means the future is very uncertain indeed.' ]
+               ? [ '<32>{#p/basic}* 意思是模糊的未来。' ]
                : SAVE.data.b.f_state_mushroomdanceGeno
                ? [
-                    "<32>{#p/basic}* It means I'm going free.\n* They're going to transplant me to the new homeworld.",
+                    "<32>{#p/basic}* 意思是我将自由。\n* 会有人把我移植到新家乡。",
                     '<32>* But why should you care?\n* Unless...',
                     '<32>* ... unless you have absolved yourself of sin?'
                  ]
                : [
-                    "<32>{#p/basic}* It means I'm going free.\n* They're going to transplant me to the new homeworld.",
+                    "<32>{#p/basic}* 意思是我将自由。\n* 会有人把我移植到新家乡。",
                     '<32>{#p/basic}* Goodbye, old outpost, for you have been my abode...'
                  ]
             : world.meanie || SAVE.data.s.state_foundry_deathroom === 'f_village' // NO-TRANSLATE
@@ -1303,7 +1303,7 @@ export default {
             ? [ "<32>{#p/basic}* It's out of service." ]
             : [
                  SAVE.data.b.svr
-                    ? '<32>{#p/human}* (You move towards the computer...)'
+                    ? '<32>{#p/human}* （你走向了电脑...）'
                     : '<32>{#p/basic}* 电脑上打开了一个音乐分享软件。',
                  choicer.create('* （看一眼吗？）', '是', '否')
               ],
@@ -1337,7 +1337,7 @@ export default {
       npc86x: () =>
          SAVE.data.b.svr
             ? [ '<32>{#p/human}* (The robot appears to be asleep.)' ]
-            : [ "<32>{#p/basic}* It's in sleep mode." ],
+            : [ "<32>{#p/basic}* 它正处于休眠模式。" ],
       npc86z: () =>
          [
             [
@@ -3471,9 +3471,9 @@ export default {
                  ]
                : SAVE.data.n.bad_lizard < 2 && 49 <= SAVE.data.n.plot
                ? [
-                    '<32>{#p/basic}* So.\n* So!\n* SO!',
-                    "<32>* You're a TV star now, huh?",
-                    '<32>* Yeah, Mettaton usually has that effect on people.'
+                    '<32>{#p/basic}* 所以。\n* 所以！\n* 所-以！',
+                    "<32>* 你现在是电视明星了，\n  是吧？",
+                    '<32>* 是啊，Mettaton经常能对人\n  产生这样的影响。'
                  ]
                : SAVE.data.n.plot === 47.2
                ? [ '<32>{#p/basic}* 准备好了吗，\n  她要来了！！' ]
@@ -3868,10 +3868,10 @@ export default {
             '<32>* Show her the kindness she needs to see.'
          ],
          unddate: () => [
-            "<32>{#p/basic}* So.\n* One second, we're running for our lives from her...",
-            '<32>* And the next?',
-            "<32>* We're cooking spaghetti with her.\n* And burning her house down.",
-            '<32>{#p/human}* (You hear a small giggle.)',
+            "<32>{#p/basic}* 所以。\n* 我们前一秒还在逃命...",
+            '<32>* 下一秒呢？',
+            "<32>* 我们就跟她一起做意大利面。\n* 然后还把她的房子给烧了。",
+            '<32>{#p/human}* （你听到了小声咯咯笑的声音。）',
             ...(SAVE.data.n.plot > 64.1
                ? [
                     "<32>{#p/basic}* Jeez.\n* We've come a long way since you first arrived, huh?",
@@ -3879,13 +3879,13 @@ export default {
                     "<32>* I still appreciate the time I've spent with you."
                  ]
                : [
-                    '<32>{#p/basic}* Oh, uh, sorry!\n* I...',
-                    "<32>* It's been a while since I've felt... happy like this.",
-                    '<32>* With you here, things never seem to go wrong.'
+                    '<32>{#p/basic}* 哦，呃，抱歉！\n* 我...',
+                    "<32>* 我已经有一段时间没有...\n  这么开心过了。",
+                    '<32>* 只要有你在，\n  事情似乎永远都不会出错。'
                  ]),
-            "<32>* So... you just keep doing what you're doing, alright?",
-            "<32>* And I'll...",
-            "<32>* I'll be here for you."
+            "<32>* 所以... 你就这样继续\n  保持下去，好吗？",
+            "<32>* 至于我，我会...",
+            "<32>* 我会支持你的。"
          ],
          undyne1: [
             '<32>{#p/basic}* We did it.\n* We really did it!',
@@ -4481,7 +4481,7 @@ export default {
       unddate42a: [
          '<32>{#p/human}* （你将面条一根一根地\n  放进锅里。）',
          '<32>* 它们与锅底相碰，\n  叮叮作响。',
-         '<25>{#p/undyne}{#f/17}* 感觉，挺好？？?',
+         '<25>{#p/undyne}{#f/17}* 感觉，挺好？？？',
          "<25>{#f/1}* 那么，接下来就是\n  搅拌意面的时间了！"
       ],
       unddate42b: [
@@ -4521,7 +4521,7 @@ export default {
       unddate56: [ '<25>{*}{#p/undyne}{#f/8}* 再热些！！！{^20}{%}' ],
       unddate56x: [ '<25>{*}{#p/undyne}{#f/8}* 做就好了！！！{^20}{%}' ],
       unddate57a: [ '<25>{*}{#p/undyne}{#f/17}* 呃，让我来吧...{^10}{%}' ],
-      unddate57b: [ '<25>{*}{#p/undyne}{#f/17}* 看到了吗，这就是你-{^20}{%}' ],
+      unddate57b: [ '<25>{*}{#p/undyne}{#f/17}* 看到了吗，你就该-{^20}{%}' ],
       unddate58: [ "<25>{*}{#p/undyne}{#f/17}* 不，等下，有点太-{^10}{%}" ],
       unddate59: [ '<25>{#p/undyne}{#f/14}* 啊。' ],
       unddate60: [ "<25>{#p/undyne}{#f/14}* 啊，难怪Papyrus\n  厨艺再也没有进步了。" ],

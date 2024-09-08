@@ -548,37 +548,37 @@ export default {
                text: {
                   basic: 'Věří ve\nvšemocný klíč',
                   spare: 'Našel vlastního vlka\ns vidoucím okem',
-                  flirt: 'In Love With His\nSeeing-Eye Wolf',
-                  bully: 'Running To His\nSeeing-Eye Wolf'
+                  flirt: 'Zamilovaný do svého\nvlka s vidoucím okem',
+                  bully: 'Běží ke svému vlkovi\ns vidoucím okem'
                }
             },
             lesserdog: {
                name: 'CANIS MINOR',
                author: 'major_memestar',
                text: {
-                  basic: 'Searching For\nAffection',
-                  spare: 'Found A Loving\nOwner',
-                  flirt: 'Found An Owning\nLover',
-                  bully: 'Desperate For\nAffection'
+                  basic: 'Hledání\nnáklonnosti',
+                  spare: 'Našel milujícího\nmajitele',
+                  flirt: 'Našel vlastního\nmilence',
+                  bully: 'Zoufale touží\npo náklonnosti'
                }
             },
             dogs: {
                name: 'DOGAMY & DOGARESSA',
                author: 'major_memestar',
                text: {
-                  basic: 'Still Thinking\nAbout Fetch',
-                  spare: 'Reigning Puppy-Dog\nEyes Champions',
-                  flirt: "Caught In Each-\nOther's Gaze",
-                  bully: 'Defensive Puppy-\nDog Eyes Engaged'
+                  basic: 'Stále přemýšlejí\no aportování',
+                  spare: 'Úřadující šampióni\nv očích štěňat',
+                  flirt: "Chyceni v pohledu\ntoho druhého",
+                  bully: 'Obranné štěně-psí\nOči zapojené'
                }
             },
             greatdog: {
                name: 'CANIS MAJOR',
                author: 'major_memestar',
                text: {
-                  basic: "Unaware Of\nLife's Changes",
-                  spare: "Excited By\nLife's Changes",
-                  flirt: "Touched By\nLife's Changes",
+                  basic: "Nevědomý si\nživotních změn",
+                  spare: "Nadšeni životními\nzměnami",
+                  flirt: "Dojatý životními\nZměnami",
                   bully: ''
                }
             },
@@ -586,49 +586,49 @@ export default {
                name: 'SKRUBBINGTON',
                author: 'Discarded Vessel',
                text: {
-                  basic: 'Only 99.1\nPercent Clean',
-                  spare: 'Power-Washing\nPowerhouse',
-                  flirt: 'Hot Tub\nManufacturer',
-                  bully: 'Overpowered\nPressure Washer'
+                  basic: 'Pouze 99,1\nProcenta čisté',
+                  spare: 'Výkonný mycí\nMotor',
+                  flirt: 'Výrobce\nVířivky',
+                  bully: 'Nadměrně výkonná\ntlaková myčka'
                }
             },
             moldbygg: {
                name: 'GELATA',
                author: 'spacey_432',
                text: {
-                  basic: 'Looking For A\nBaby Sitter',
-                  spare: 'Slime-Powered\nBarstool',
-                  flirt: 'Sexy Sitcom\nRegular',
-                  bully: 'Glorified\nWrestling Prop'
+                  basic: 'Hledá\nchůvu',
+                  spare: 'Barová židle\nPoháněná slizem',
+                  flirt: 'Sexy sitcom\nstálý',
+                  bully: 'Oslavovaná wrestl-\n-ingová rekvizita'
                }
             },
             radtile: {
                name: 'RADTILE',
                author: 'Balgamlı Kedi & Zaxento The Greedy',
                text: {
-                  basic: 'Wallowing In\nImperfection',
-                  spare: 'Improving His\nSelf-Image',
-                  flirt: 'Dating His Own\nReflection',
-                  bully: 'Headed For An\nUgly Future'
+                  basic: 'Válení se v\nnedokonalosti',
+                  spare: 'Zlepšení jeho\nsebe-obrazu',
+                  flirt: 'Randění s\nvlastním odrazem',
+                  bully: 'Míří vstříc\nošklivé budoucnosti'
                }
             },
             shyren: {
                name: 'SHYREN',
                author: 'Ghostly',
                text: {
-                  basic: 'Back To Taking\nPiano Lessons',
-                  spare: "Mettaton's\nNew Lead Singer",
-                  flirt: 'In Love With\nA Ghost',
-                  bully: "Can't Sing Without\nA Synthesizer"
+                  basic: 'Zpět k lekcím\nklavíru',
+                  spare: "Nová hlavní zpěvačka \nspolečnosti Mettaton",
+                  flirt: 'Zamilovaná\ndo ducha',
+                  bully: "Nemůže zpívat\nbez syntezátoru"
                }
             },
             doge: {
                name: 'DOGE',
                author: 'major_memestar',
                text: {
-                  basic: 'Construction Site\nDrill Sergeant',
-                  spare: 'Bought A Lifetime\nSpa Subscription',
-                  flirt: 'Felt Puppy Love\nFor The First Time',
+                  basic: 'Cvičná seržantka\nna staveništi',
+                  spare: 'Koupila doživotního\npředplatného lázní',
+                  flirt: 'Poprvé pocítila\nštěněcí lásku',
                   bully: ''
                }
             },
@@ -636,9 +636,9 @@ export default {
                name: 'MUFFET',
                author: 'major_memestar',
                text: {
-                  basic: 'Looking For Her\nNext Payout',
-                  spare: 'Caring For The\nSpider Clans',
-                  flirt: 'Picnic Date\nMatchmaker',
+                  basic: 'Hledá její\ndalší výplatu',
+                  spare: 'Péče o\npavoučí klany',
+                  flirt: 'Dohazovačka na\nPiknikové rande',
                   bully: ''
                }
             },
@@ -646,38 +646,38 @@ export default {
                name: 'HOTWIRE',
                author: 'semi',
                text: {
-                  basic: 'Waiting For The\nBeat To Drop',
-                  spare: 'Lightning-Fast\nRapper',
-                  flirt: 'Rapper Turned\nLove Song Writer',
-                  bully: 'Rap Battling To\nThe Near-Death'
+                  basic: 'Čeká, až\nrytmus klesne',
+                  spare: 'Bleskurychlý\nrapper',
+                  flirt: 'Stal se rapperem a\nautorem milostných písní',
+                  bully: 'Rap bojující na\npokraji smrti'
                }
             },
             tsundere: {
                name: 'TSUNDERIDEX',
                author: 'spacey_432',
                text: {
-                  basic: 'Flying Deeper\nInto Denial',
-                  spare: 'Sneaking Up On\nYou At Warp Speed',
-                  flirt: 'Tsun To Be\nYour Dere-Dere',
-                  bully: 'Finally Met\nIts Match'
+                  basic: 'Letí hlouběji\ndo popírání',
+                  spare: 'Plíží se k tobě\nwarpovou rychlostí',
+                  flirt: 'Tsun být\nvaším dere-dere',
+                  bully: 'Konečně potkal\nsvůj protějšek'
                }
             },
             perigee: {
                name: 'PERIGEE',
                author: 'Discarded Vessel',
                text: {
-                  basic: 'Another Day,\nAnother Conflict',
-                  spare: 'Interplanetary\nAmbassador',
-                  flirt: 'Encouraging Love\nIn Others',
-                  bully: 'Showing Kindness\nThrough The Pain'
+                  basic: 'Další den,\ndalší konflikt',
+                  spare: 'Meziplanetární\nambasador',
+                  flirt: 'Povzbuzování lásky\nv druhých',
+                  bully: 'Projevování laskavosti\nSkrze bolest'
                }
             },
             rg: {
                name: 'RG 03 & RG 04',
                author: 'semi',
                text: {
-                  basic: 'In Search Of\nChildhood Friends',
-                  spare: 'Use Your\nImagination',
+                  basic: 'Hledá přáteli\nZ dětství',
+                  spare: 'Použijte svou\npředstavivost',
                   flirt: 'Please Use Your\nImagination',
                   bully: 'Royal Guard\nRetirees'
                }
@@ -821,186 +821,186 @@ export default {
          }
       },
 
-      langPrompt: '[↑ or ↓] to Select / [Z or ENTER] to Confirm',
+      langPrompt: '[↑ nebo ↓] vyberte / [Z nebo ENTER] potvrďte',
       epilepsyInfo:
-         'To whom it may concern,\n\nThis game contains §fill=#ff0§flashing images§fill=#fff§\nwhich may be reduced via the\n§fill=#ff0§settings menu§fill=#fff§.\n\n',
-      epilepsyKeys: '§fill=#808080§Press [Z or ENTER] to Continue',
+         'Všem zainteresovaným\n\nTato hra obsahuje §fill=#ff0§blikající obrázky§fill=#fff§\n, které mohou být sníženy prostřednictvím\n§fill=#ff0§nabídka nastavení§fill=#fff§.\n\n',
+      epilepsyKeys: '§fill=#808080§Pokračujte stisknutím [Z nebo ENTER]',
 
-      quitText1: 'Quitting',
-      quitText2: 'Quitting.',
-      quitText3: 'Quitting..',
+      quitText1: 'Končíte',
+      quitText2: 'Končíte.',
+      quitText3: 'Končíte..',
 
       real1: [
          [
-            'Thank you for playing Outertale.',
-            'Working on this project has been an honor,',
-            'and a pleasure on my part.'
+            'Děkujeme, že hrajete Outertale.',
+            'Práce na tomto projektu pro mě byla ctí,',
+            'a potěšení z mé strany.'
          ],
-         [ 'When I started this journey, I never', "thought I'd get this far, but here we", 'are anyway, at the end.' ],
+         [ 'Když jsem se vydal na tuto cestu, nikdy jsem', "nemyslel jsem, že se dostanu tak daleko, ale tady jsme", 'jsou každopádně na konci.' ],
          [
-            'For me, UNDERTALE was a life-changing',
-            'experience, and one that was very hard to',
-            'let go of after I first played it.'
-         ],
-         [
-            'So, with OUTERTALE, I wanted to give you',
-            'another chance to exist in a world like it,',
-            'as if it were your first time.'
+            'UNDERTALE mi změnilo život',
+            'zkušeností, a to takovou, která byla velmi těžko dostupná',
+            'pustit poté, co jsem to poprvé hrál.'
          ],
          [
-            "I hope I've given you that chance.",
-            "I hope you've come away satisfied with",
-            "the time you've spent in this world."
+            'Takže, s OUTERTALE, jsem vám chtěl dát',
+            'další šanci existovat ve světě jako je tento,',
+            'jako by to bylo poprvé.'
          ],
          [
-            "No matter what you've done in your life,",
-            'your actions here speak volumes about the',
-            'kind of person you really are.'
+            "Doufám, že jsem vám tu šanci dal.",
+            "Doufám, že jste odcházeli spokojeni s",
+            "čas, který jste strávili v tomto světě."
          ],
          [
-            "It's because of you that you got the ending",
-            'you did, and nothing can take that',
-            'experience away from you.'
+            "Nezáleží na tom, co jste ve svém životě udělali,",
+            'vaše činy zde vypovídají o',
+            'takový člověk opravdu jsi.'
          ],
-         [ 'Despite your mistakes... you are awesome,', 'and you deserve love and attention.', 'Remember that, okay?' ]
+         [
+            "Je to díky tobě, že jsi dostal tenhle konec",
+            'udělal jsi to a nic to nemůže vzít',
+            'zkušenosti daleko od vás.'
+         ],
+         [ 'Navzdory vašim chybám... jsi úžasný,', 'a vy si zasloužíte lásku a pozornost.', 'Pamatujete si to, dobře?' ]
       ],
-      real2: 'Take care of yourself, \"$(x).\"',
+      real2: 'Dávej na sebe pozor, \"$(x).\"',
 
-      end1: 'THE END',
-      end2: 'THE END...?',
+      end1: 'KONEC',
+      end2: 'KONEC...?',
 
-      restartText1: 'Restarting',
-      restartText2: 'Restarting.',
-      restartText3: 'Restarting..',
+      restartText1: 'Restartuje',
+      restartText2: 'Restartuje.',
+      restartText3: 'Restartuje..',
 
       title: 'OUTERTALE',
       title_timeline: 'OUTERTALE...?'
    },
 
    gamepad: {
-      prompt: 'GAMEPAD SETUP',
+      prompt: 'NASTAVENÍ GAMEPADU',
       prompt_desc:
-         'Use an input on your gamepad to assign\nit to the in-game action.\n\nUse the input again to confirm, or use\nother inputs to assign those as well.\n\nPress ESC to skip setup.',
-      prompt_counter: 'Inputs Assigned: $(x)',
-      z: '[Z or ENTER] - Confirm',
+         'Přiřazení pomocí vstupu na gamepadu\naž po akci ve hře.\n\nZnovu použijte vstup pro potvrzení, nebo použijte\ndalší vstupy pro jejich přiřazení.\n\nStisknutím klávesy ESC přeskočte nastavení.',
+      prompt_counter: 'Přiřazené vstupy: $(x)',
+      z: '[Z nebo ENTER] - Potvrdit',
       x: '[X nebo SHIFT] - Zrušit',
       c: '[C nebo CTRL] - Menu (V her)',
       u: '[UP nebo W] - Pohyb nahoru',
       l: '[LEFT nebo A] - Pohyb Levé',
       d: '[DOWN nebo S] - Pohyb Dolů',
       r: '[RIGHT nebo D] - Pohyb Pravá',
-      f: '[F4] - Fullscreen',
-      prompt_done: 'Setup complete.\nPress any button to continue.',
-      prompt_done_browser: '\nNote: On this platform, the gamepad may\nnot always be able to enter fullscreen.',
+      f: '[F4] – Celá obrazovka',
+      prompt_done: 'Nastavení dokončeno.\nPokračujte stisknutím libovolného tlačítka.',
+      prompt_done_browser: '\nPoznámka: Na této platformě může gamepad\nne vždy bude možné vstoupit na celou obrazovku.',
       prompt_load:
-         'A gamepad has already been set up.\nPress any button to continue, or press\nany button three times in rapid\nsuccession to restart setup.\n\nPress ESC to skip setup.'
+         'Gamepad je již nastaven.\nPokračujte stisknutím libovolného tlačítka nebo stisknutím tlačítka\nlibovolné tlačítko třikrát v rychlém\npro opětovné spuštění nastavení.\n\nStisknutím klávesy ESC přeskočte nastavení.'
    },
 
    general: {
       asriel: 'Asriel',
-      asriel_location: 'The Oblivion',
-      disabled: 'DISABLED',
-      enabled: 'ENABLED',
-      finish: 'Press [X] to Finish',
+      asriel_location: 'Zapomnění',
+      disabled: 'VYPNUTÝ',
+      enabled: 'ZAPNUTÝ',
+      finish: 'Stiskněte [X] pro dokončení',
       frisk: 'Frisk',
-      g: 'G',
+      g: 'Z',
       hp: 'ZB',
-      inf: 'INF',
-      landing1: '[PRESS Z OR ENTER]',
+      inf: 'NEK',
+      landing1: '[STISKNĚTE Z NEBO ENTER]',
       lv: 'ÚN',
       mystery1: '§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§',
       mystery2: '{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}',
       mystery2l: '{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}',
       mystery2u: '{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}',
-      no: 'No',
-      nominal: '§fill=#0f0§NOMINAL',
+      no: 'Ne',
+      nominal: '§fill=#0f0§NOMINÁLNÍ',
       percent: '$(x)%',
-      player: 'player',
-      settings: 'Settings',
+      player: 'hráč',
+      settings: 'Nastavení',
       unknown: '?',
-      xm: 'XM',
+      xm: 'XH',
       yes: 'Ano'
    },
 
    menu: {
-      box1: 'INVENTORY',
-      box2: 'BOX',
-      key1: 'KEYRING',
+      box1: 'INVENTÁŘ',
+      box2: 'KRABICE',
+      key1: 'KLÍČENKA',
 
-      confirm1: 'Is this name correct?',
-      confirm2: 'A name has already\nbeen chosen.',
-      confirm3: 'Go back',
+      confirm1: 'Je tento název správný?',
+      confirm2: 'Jméno již bylo\nbyl vybrán.',
+      confirm3: 'Zpět',
 
       footer: 'OUTERTALE V5.03 (c) 2024 SPACEY_432',
 
-      heal1: '* (HP fully restored.)',
-      heal2: '* (You recovered $(x) HP.)',
-      heal3: '* (You lost $(x) HP.)',
-      heal4: '* (HP fully depleted.)',
-      heal5: '* (You gained $(x) HP.)',
+      heal1: '* (ZB plně obnoveno.)',
+      heal2: '* (Získali jste zpět $(x) ZB.)',
+      heal3: '* (Ztratili jste o $(x) ZB.)',
+      heal4: '* (ZB je zcela vybitá.)',
+      heal5: '* (Získali jste $(x) ZB.)',
 
-      item1: 'USE',
-      item2: 'EQUIP',
+      item1: 'POUŽÍT',
+      item2: 'VYBAVIT',
       item3: 'INFO',
-      item4: 'DROP',
+      item4: 'ODEVZDÁT',
 
       load1: 'Pokračovat',
-      load2: 'Observe',
-      load3: 'Reset',
-      load4: 'True Reset',
+      load2: 'Pozorovat',
+      load3: 'Resetovat',
+      load4: 'Skutečný Resetovat',
 
-      name1: 'Name the stranded human.',
-      name2: 'Quit',
-      name3: 'Backspace',
-      name4: 'Done',
-      name5: '§fill=#808080§ [ESC] - Quit / [ENTER] - Done',
+      name1: 'Pojmenujte uvízlého člověka.',
+      name2: 'Ukončit',
+      name3: 'Smazat',
+      name4: 'Hotovo',
+      name5: '§fill=#808080§ [ESC] - Ukončení / [ENTER] - Hotovo',
 
       save1: 'Uložit',
-      save2: 'Return',
-      save3: 'File saved.',
+      save2: 'Vrátit',
+      save3: 'Soubor uložen.',
 
-      settings1: 'SETTINGS',
+      settings1: 'NASTAVENÍ',
       settings2: 'EXIT',
-      settings3: 'LANGUAGE',
+      settings3: 'JAZYK',
       settings3a: 'ČEŠTINA',
-      settings4: 'SOUND FX',
-      settings5: 'MUSIC',
-      settings6: 'FANCY GRAPHICS',
-      settings7: 'FLASHING IMAGERY',
-      settings7a: 'NORMAL',
-      settings7b: 'REDUCED',
-      settings8: 'TOUCH CONTROLS',
-      settings8a: 'LEFT',
-      settings8b: 'RIGHT',
-      settings8c: 'HIDDEN',
-      settings9: 'DEADZONE',
-      settings10: 'OPEN MOD FOLDER',
-      settings11: 'RESTART',
+      settings4: 'ZVUKOVÉ FX',
+      settings5: 'HUDBA',
+      settings6: 'EFEKTNÍ GRAFIKA',
+      settings7: 'BLIKAJÍCÍ OBRAZY',
+      settings7a: 'NORMÁLNÍ',
+      settings7b: 'REDUKOVANÝ',
+      settings8: 'DOTYKOVÉ OVLÁDÁNÍ',
+      settings8a: 'VLEVO',
+      settings8b: 'VPRAVO',
+      settings8c: 'SCHOVANÝ',
+      settings9: 'MRTVÁ ZÓNA',
+      settings10: 'OTEVŘÍT SLOŽKU MOD',
+      settings11: 'RESTARTOVAT',
 
-      sidebar1: 'ITEM',
+      sidebar1: 'VĚCI',
       sidebar2: 'STAT',
-      sidebar3: 'CELL',
-      sidebar4: 'CONF',
+      sidebar3: 'TEL',
+      sidebar4: 'KONF',
       sidebar5: 'S',
 
       start1: [
          '--- Instrukce ---',
-         '[Z or ENTER] - Confirm',
+         '[Z nebo ENTER] - Potvrdit',
          '[X nebo SHIFT] - Zrušit',
          '[C nebo CTRL] - Menu (V her)',
-         '[F4] - Fullscreen',
+         '[F4] – Celá obrazovka',
          '[Podržet klávesu ESC] - Restartovat',
          'Když je ZB 0, prohráváte.'
       ],
       start2: 'Začít hru',
 
-      stat1: 'AT',
-      stat2: 'DF',
+      stat1: 'ÚT',
+      stat2: 'OB',
       stat3: 'ZBRAŇ',
       stat4: 'BRNĚNÍ',
-      stat5: 'GOLD',
+      stat5: 'ZLATO',
       stat6: 'BP',
-      stat7: 'NEXT',
+      stat7: 'DALŠÍ',
       stat8: '§fill=#ff0§Varování:\nNekanonické\nčasová osa.',
       stat9: 'ZABÍJENÍ',
       stat10: 'TYRAN',

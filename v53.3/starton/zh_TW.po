@@ -6285,9 +6285,11 @@ msgstr ""
 
 msgid "<18>{#f/9}\"HANG OUT\" LIKE A PAIR OF VERY COOL FRIENDS!"
 msgstr ""
+"<18>{#f/9}像一對酷酷的朋友\n"
+"一樣「消遣」吧！"
 
 msgid "<18>{#p/papyrus}READY?"
-msgstr ""
+msgstr "<18>{#p/papyrus}準備好了嗎？"
 
 msgid "<18>{#p/papyrus}OKAY, LET'S GO!"
 msgstr "<18>{#p/papyrus}好，我們進去吧！"
@@ -6478,12 +6480,13 @@ msgstr ""
 
 msgid "<15>{#f/10}WOULD LIKE TO GO ON A DATE WITH YOU!"
 msgstr ""
-"<15>{#f/10}想和你\n"
-"進行一場\n"
+"<15>{#f/10}想和你一起\n"
 "約會！"
 
 msgid "<15>{#f/10}WOULD LIKE TO HANG OUT WITH YOU!"
 msgstr ""
+"<15>{#f/10}想和你一起\n"
+"消遣！"
 
 msgid "<15>{#p/papyrus}{#f/12}R-REALLY???"
 msgstr "<15>{#p/papyrus}{#f/12}真-真的？？？"
@@ -6555,6 +6558,8 @@ msgstr ""
 
 msgid "<15>{#f/26}THAT ODD DEVICE YOU'RE CARRYING..."
 msgstr ""
+"<15>{#f/26}你帶著的那個\n"
+"奇怪的裝置..."
 
 msgid "<15>{#f/26}THAT LOCKET AROUND YOUR NECK..."
 msgstr ""
@@ -7557,31 +7562,48 @@ msgid "<15>{#f/20}WE CAN HANG OUT WITH HER!"
 msgstr ""
 
 msgid "<15>{#f/10}I LIKE YOU TOO!"
-msgstr ""
+msgstr "<15>{#f/10}我也喜歡你！"
 
 msgid "<15>{#f/10}YOU ARE A VERY NICE PERSON, AFTER ALL."
 msgstr ""
+"<15>{#f/10}畢竟你是個\n"
+"超級大好人。"
 
 msgid "<15>{#f/21}BUT, MAYBE..."
-msgstr ""
+msgstr "<15>{#f/21}但也許..."
 
 msgid "<15>{#f/21}YOU'D BE BETTER OFF IF YOU LIVED MORE FOR YOUR OWN SAKE."
 msgstr ""
+"<15>{#f/21}如果你多為\n"
+"自己而活的話，\n"
+"你會過得更好的。"
 
 msgid "<15>{#f/21}RATHER THAN JUST FOR MINE."
 msgstr ""
+"<15>{#f/21}不能只為了\n"
+"我而活。"
 
 msgid "<15>{#f/10}FORTUNATELY, I KNOW THE SOLUTION!!!"
 msgstr ""
+"<15>{#f/10}很幸運的是，\n"
+"我知道解決\n"
+"方案！！！"
 
 msgid "<15>{#f/20}A HANGOUT WITH MY BOSS, UNDYNE!!!"
 msgstr ""
+"<15>{#f/20}那就是跟我的上司，\n"
+"UNDYNE一起消遣！！！"
 
 msgid "<15>{#f/24}I THINK IF YOU SPREAD OUT YOUR FRIEND ENERGY A BIT MORE..."
 msgstr ""
+"<15>{#f/24}我覺得如果你\n"
+"可以把你的友誼能量\n"
+"分散一點..."
 
 msgid "<15>{#f/10}YOU'D LEAD A MUCH HEALTHIER LIFESTYLE."
 msgstr ""
+"<15>{#f/10}你的生活方式\n"
+"就會更健康。"
 
 msgid "<15>{#f/20}I'LL LET YOU KNOW WHEN I'M READY!"
 msgstr ""
@@ -7590,6 +7612,8 @@ msgid ""
 "<15>{#f/20}SO LET'S DO IT!\n"
 "TOGETHER!!"
 msgstr ""
+"<15>{#f/20}所以讓我們！\n"
+"一起加油吧！！"
 
 msgid "<15>{#f/20}NYEH HEH HEH HEH HEH!!!"
 msgstr ""
@@ -7623,6 +7647,9 @@ msgstr ""
 
 msgid "<15>{#f/10}WELL, SEE YOU AT UNDYNE'S HOUSE!"
 msgstr ""
+"<15>{#f/10}那麼，我們\n"
+"在UNDYNE的房子那裡\n"
+"見面吧！"
 
 msgid "<15>{#f/20}WELL, GOTTA GO!"
 msgstr ""
@@ -8054,7 +8081,7 @@ msgstr ""
 
 msgid "<18>{#f/4}THIS IS JUST A BAD EPISODE."
 msgstr ""
-"<18>{#f/4}單純就是這一集\n"
+"<18>{#f/4}單純就是這一期\n"
 "質量不好。"
 
 msgid "<18>{#f/7}DON'T JUDGE ME!!!"
@@ -13133,33 +13160,46 @@ msgid "<32>* ... oh well..."
 msgstr ""
 
 msgid "<32>{#p/basic}* So... Papyrus, huh?"
-msgstr ""
+msgstr "<32>{#p/basic}* 所以... Papyrus，嗯？"
 
 msgid "<32>* After all this time, you finally became friends."
 msgstr ""
+"<32>* 過了這麼久，\n"
+"  你們終於成了朋友。"
 
 msgid "<32>* Somehow I knew you two would end up as friends."
 msgstr ""
+"<32>* 我就知道你們倆\n"
+"  最終會成為朋友。"
 
 msgid ""
 "<32>* ...\n"
 "* I watched that skeleton grow up here..."
 msgstr ""
+"<32>* ...\n"
+"* 我是看著那個骷髏在這裡\n"
+"  長大的..."
 
 msgid "<32>* Always setting a good example for those around him..."
 msgstr ""
+"<32>* 他總是會給他周圍的人\n"
+"  樹立一個好榜樣..."
 
 msgid "<32>* ... and for me."
-msgstr ""
+msgstr "<32>* ...包括我也一樣。"
 
 msgid "<32>* It's too bad I can't tell him that myself."
 msgstr ""
+"<32>* 真可惜，\n"
+"  我沒法親自告訴他這些。"
 
 msgid "<32>* But that's okay."
-msgstr ""
+msgstr "<32>* 但沒關係的。"
 
 msgid "<32>* Seeing you two get along more than makes up for it."
 msgstr ""
+"<32>* 看到你們倆相處得這麼好，\n"
+"  就足夠彌補遺憾了。"
 
 msgid ""
 "<32>{#p/basic}* I heard the taxi driver will be here when everyone else is "
