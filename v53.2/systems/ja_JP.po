@@ -1,7 +1,20 @@
-#
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-05 15:42+0000\n"
+"PO-Revision-Date: 2024-09-06 11:42+0000\n"
+"Last-Translator: Xiao Akatsuki <1321810592@qq.com>\n"
+"Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
+"0-systems/ja/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
 
+#
 msgid "(You take a deep breath.)"
 msgstr "(しんこきゅう　した)"
 
@@ -50,7 +63,7 @@ msgstr ""
 "       $(x)EXPと$(y)ゴールドを　てにいれた。"
 
 msgid "* Assist"
-msgstr "＊たすける"
+msgstr "＊たすけをもとめる"
 
 msgid "* Flee"
 msgstr "＊にげる"
@@ -607,9 +620,6 @@ msgstr "§fill=#ff0§< かいはつ >§fill=#fff§"
 
 msgid "spacey_432"
 msgstr "spacey_432"
-
-msgid ""
-msgstr ""
 
 msgid "§fill=#ff0§< WRITER >§fill=#fff§"
 msgstr "§fill=#ff0§< テキスト >§fill=#fff§"
@@ -2391,10 +2401,10 @@ msgstr "かくてい"
 msgid "§fill=#808080§ [ESC] - Quit / [ENTER] - Done"
 msgstr ""
 "§fill=#808080§キーボードで入力をお願いします\n"
-"(ひらがら、カタカナと\n"
-"半角アルファベット以外の文字は使用不可)\n"
-"[ESC] - やめる　[BACKSPACE] - さくじょ\n"
-"[ENTER] - かくてい"
+"(ひらがな、カタカナと半角英字のみ使用可\n"
+" 入力完了したのに表示されない場合は\n"
+" 　　　　　1回Enterキーを押してください)\n"
+"[ESC] - やめる　[ENTER] - かくてい"
 
 msgid "Return"
 msgstr "もどる"
