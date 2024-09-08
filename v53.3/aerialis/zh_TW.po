@@ -2,9 +2,6 @@
 msgid ""
 msgstr ""
 
-msgid ""
-msgstr ""
-
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
 
@@ -8245,6 +8242,9 @@ msgstr ""
 
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr "<32>{#p/human}* （你想去哪裡？）"
+
+msgid ""
+msgstr ""
 
 msgid "Floor L1"
 msgstr "左一層"
