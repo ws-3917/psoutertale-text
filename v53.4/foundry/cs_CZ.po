@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* ..."
-msgstr "<32>{#p/basic}* ..."
+msgstr ""
 
 msgid "<32>{#p/basic}* I'm going to pretend you didn't just sell that locket."
 msgstr ""
@@ -35,7 +35,7 @@ msgstr ""
 "<25>{#f/9}* Pokud jste se mi pokusili dovolat, měla jsem vypnutý telefon."
 
 msgid "<25>{#f/13}* ..."
-msgstr "<25>{#f/13}* ..."
+msgstr ""
 
 msgid "<25>{#f/13}* I am sorry for all that I did, little one."
 msgstr "<25>{#f/13}* Omlouvám se za všechno, co jsem udělala, maličká."
@@ -50,7 +50,7 @@ msgid ""
 msgstr "<25>{#f/9}* Teprve se začínám smiřovat se svým chováním v minulosti."
 
 msgid "<25>{#f/10}* ..."
-msgstr "<25>{#f/10}* ..."
+msgstr ""
 
 msgid "<25>{#f/10}* I suppose it is nice to see you here."
 msgstr "<25>{#f/10}* Myslím, že jsem ráda, že vás tu vidím."
@@ -86,7 +86,7 @@ msgstr ""
 "* Ale ne teď."
 
 msgid "<25>{#f/5}* ..."
-msgstr "<25>{#f/5}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/toriel}{#f/5}* ... huh?\n"
@@ -102,7 +102,7 @@ msgstr ""
 "<32>{#p/human}* (Opakujete radu, kterou vám dal Toriel v Archivu šest.)"
 
 msgid "<25>{#p/toriel}{#f/2}* ..."
-msgstr "<25>{#p/toriel}{#f/2}* ..."
+msgstr ""
 
 msgid "<25>{#f/1}* Those words..."
 msgstr "<25>{#f/1}* Ta slova..."

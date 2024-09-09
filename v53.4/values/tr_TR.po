@@ -195,7 +195,7 @@ msgid "It's m-moving! I-I-It's shaking!"
 msgstr "O ha-hareket ediyor... O-O... titriyor!"
 
 msgid "Jerry."
-msgstr "Jerry."
+msgstr ""
 
 msgid "(The dog jumped into your lap.)"
 msgstr "(Köpek kucağına zıpladı.)"
@@ -251,7 +251,7 @@ msgid "Sorry, but you're a letter shy."
 msgstr "Üzgünüm, ama bir harf eksik."
 
 msgid "...?"
-msgstr "...?"
+msgstr ""
 
 msgid "Clean name."
 msgstr "Temiz isim."
@@ -326,4 +326,4 @@ msgid "... fine."
 msgstr "... peki."
 
 msgid "..."
-msgstr "..."
+msgstr ""

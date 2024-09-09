@@ -100,28 +100,28 @@ msgid "BATTLE"
 msgstr "BATALHA"
 
 msgid "FixMusic"
-msgstr "FixMusic"
+msgstr ""
 
 msgid "FixPlayer"
-msgstr "FixPlayer"
+msgstr ""
 
 msgid "InfiniteG"
-msgstr "InfiniteG"
+msgstr ""
 
 msgid "Interact"
 msgstr "Interagir"
 
 msgid "Input"
-msgstr "Input"
+msgstr ""
 
 msgid "Movement"
-msgstr "Movement"
+msgstr ""
 
 msgid "Noclip"
-msgstr "Noclip"
+msgstr ""
 
 msgid "Save"
-msgstr "Save"
+msgstr ""
 
 msgid "SkipText"
 msgstr "Pular Texto"
@@ -160,7 +160,7 @@ msgid "WeakenAll"
 msgstr "Enfraquecer tudo"
 
 msgid "$(x) FPS"
-msgstr "$(x) FPS"
+msgstr ""
 
 msgid "Halt"
 msgstr "Parar"
@@ -169,7 +169,7 @@ msgid "GAME SPEED"
 msgstr "VELOCIDADE DO JOGO"
 
 msgid "$(x)x"
-msgstr "$(x)x"
+msgstr ""
 
 msgid "More"
 msgstr "Mais"
@@ -178,7 +178,7 @@ msgid "Less"
 msgstr "Menos"
 
 msgid "$(x)s/frame"
-msgstr "$(x)s/frame"
+msgstr ""
 
 msgid "GODHOME"
 msgstr "LAR"
@@ -211,7 +211,7 @@ msgid "TYPES"
 msgstr "TIPOS"
 
 msgid "Base"
-msgstr "Base"
+msgstr ""
 
 msgid "Below"
 msgstr "Abaixo"
@@ -223,13 +223,13 @@ msgid "Above"
 msgstr "Acima"
 
 msgid "Menu"
-msgstr "Menu"
+msgstr ""
 
 msgid "Hitbox"
-msgstr "Hitbox"
+msgstr ""
 
 msgid "Sprite"
-msgstr "Sprite"
+msgstr ""
 
 msgid "Text"
 msgstr "Texto"
@@ -238,7 +238,7 @@ msgid "EXPLORER"
 msgstr "EXPLORADOR"
 
 msgid "Base (Explorer)"
-msgstr "Base (Explorer)"
+msgstr ""
 
 msgid "Below (Explorer)"
 msgstr "Abaixo (Explorer)"
@@ -250,34 +250,34 @@ msgid "Above (Explorer)"
 msgstr "Acima (Explorer)"
 
 msgid "Menu (Explorer)"
-msgstr "Menu (Explorer)"
+msgstr ""
 
 msgid "A"
-msgstr "A"
+msgstr ""
 
 msgid "C"
-msgstr "C"
+msgstr ""
 
 msgid "R"
-msgstr "R"
+msgstr ""
 
 msgid "E"
-msgstr "E"
+msgstr ""
 
 msgid "H"
-msgstr "H"
+msgstr ""
 
 msgid "O"
-msgstr "O"
+msgstr ""
 
 msgid "P"
-msgstr "P"
+msgstr ""
 
 msgid "S"
-msgstr "S"
+msgstr ""
 
 msgid "T"
-msgstr "T"
+msgstr ""
 
 msgid "Press [TAB] to cycle debug info"
 msgstr "Pressione [TAB] para alternar as informações de depuração"
@@ -295,7 +295,7 @@ msgid "Anchor"
 msgstr "Âncora"
 
 msgid "B"
-msgstr "B"
+msgstr ""
 
 msgid "Blend"
 msgstr "Mistura"
@@ -319,13 +319,13 @@ msgid "Duration"
 msgstr "Duração"
 
 msgid "EXP"
-msgstr "EXP"
+msgstr ""
 
 msgid "Extent"
 msgstr "Extensão"
 
 msgid "F"
-msgstr "F"
+msgstr ""
 
 msgid "Face"
 msgstr "Rosto"
@@ -352,7 +352,7 @@ msgid "Group"
 msgstr "Grupo"
 
 msgid "HP"
-msgstr "HP"
+msgstr ""
 
 msgid "Index"
 msgstr "Índice"

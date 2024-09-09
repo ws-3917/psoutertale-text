@@ -38,7 +38,7 @@ msgid "I will not rest until the task is done."
 msgstr "Görev tamamlanana kadar dinlenmeyeceğim."
 
 msgid "<32>{#p/human}* (...)"
-msgstr "<32>{#p/human}* (...)"
+msgstr ""
 
 msgid "<32>{#p/human}* (You wake up.)"
 msgstr "<32>{#p/human}* (Uyanıyorsun.)"
@@ -570,7 +570,7 @@ msgstr ""
 "krallık ile birlikte..."
 
 msgid "<25>{#p/undyne}{#f/20}* ..."
-msgstr "<25>{#p/undyne}{#f/20}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/alphys}{#f/10}* Not to interrupt, but I think we found what you were"
@@ -586,7 +586,7 @@ msgid "<25>{#p/undyne}{#f/1}* Let me see that..."
 msgstr "<25>{#p/undyne}{#f/1}* Bi' bakayım..."
 
 msgid "<25>{#p/undyne}{#f/17}* ..."
-msgstr "<25>{#p/undyne}{#f/17}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/alphys}{#f/18}* ...\n"
@@ -606,7 +606,7 @@ msgid "<25>{#p/undyne}{#f/11}* Are you kidding me?"
 msgstr "<25>{#p/undyne}{#f/11}* Benimle dalga mı geçiyorsun?"
 
 msgid "<25>{#p/alphys}{#f/20}* ..."
-msgstr "<25>{#p/alphys}{#f/20}* ..."
+msgstr ""
 
 msgid "<25>{#p/undyne}{#f/8}* OF COURSE IT'S RIGHT!"
 msgstr "<25>{#p/undyne}{#f/8}* TABİİ Kİ DOĞRU!"
@@ -667,7 +667,7 @@ msgstr ""
 "SEN İYİ MİSİN!?"
 
 msgid "<25>{#p/alphys}{#f/2}* ...!?"
-msgstr "<25>{#p/alphys}{#f/2}* ...!?"
+msgstr ""
 
 msgid ""
 "<25>{#p/undyne}{#f/13}* Huh??\n"
@@ -770,8 +770,6 @@ msgid ""
 "<25>{#p/undyne}{#f/4}* ...\n"
 "* Fuhuhuhuhu..."
 msgstr ""
-"<25>{#p/undyne}{#f/4}* ...\n"
-"* Fuhuhuhuhu..."
 
 msgid "<25>{*}{#x0}{#p/undyne}{#f/7}* Try two SECONDS.{^40}{%}"
 msgstr "<25>{*}{#x0}{#p/undyne}{#f/7}* Sadece 2 SANİYE yeter.{^40}{%}"

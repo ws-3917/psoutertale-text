@@ -21,7 +21,7 @@ msgid "<32>{#p/human}* (You wish you could make this all just go away.)"
 msgstr "<32>{#p/human}* (Přejete si, aby to všechno zmizelo.)"
 
 msgid "<32>{#p/human}* (...)"
-msgstr "<32>{#p/human}* (...)"
+msgstr ""
 
 msgid ""
 "<32>{#p/human}* (You take a deep breath, and ready yourself for the end.)"

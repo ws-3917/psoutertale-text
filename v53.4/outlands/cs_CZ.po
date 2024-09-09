@@ -236,7 +236,7 @@ msgstr ""
 "<26>{#f/1}* I když, některé texty byly trochu... násilné, na můj vkus."
 
 msgid "<25>{#f/5}* ..."
-msgstr "<25>{#f/5}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#f/0}* Do not worry, my child.\n"
@@ -338,7 +338,7 @@ msgid "<25>{#p/toriel}{#f/5}* You have probably been to the Citadel by now."
 msgstr "<25>{#p/toriel}{#f/5}* Pravděpodobně jste už byli v Citadele."
 
 msgid "<25>{#p/toriel}{#f/9}* ..."
-msgstr "<25>{#p/toriel}{#f/9}* ..."
+msgstr ""
 
 msgid "<25>{#p/toriel}{#f/10}* Be good, won't you?"
 msgstr "<25>{#p/toriel}{#f/10}* Buď hodný, ne?"
@@ -412,7 +412,7 @@ msgid "<32>* If you've seen everyone else you wanted to see..."
 msgstr "<32>* Pokud jste viděli všechny ostatní, které jste chtěli vidět..."
 
 msgid "<32>* ..."
-msgstr "<32>* ..."
+msgstr ""
 
 msgid "<32>* You know what to do."
 msgstr "<32>* Víš, co máš dělat."
@@ -421,7 +421,7 @@ msgid "<32>* Otherwise, I'll wait until you're ready."
 msgstr "<32>* Jinak počkám, až budeš připraven."
 
 msgid "<32>{#p/basic}* Asriel."
-msgstr "<32>{#p/basic}* Asriel."
+msgstr ""
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* ... Frisk?\n"
@@ -437,10 +437,10 @@ msgid "<32>{#p/basic}* Your best friend, remember?"
 msgstr "<32>{#p/basic}* Váš nejlepší přítel, pamatujete?"
 
 msgid "<25>{#p/asriel1}{#f/25}* ...!"
-msgstr "<25>{#p/asriel1}{#f/25}* ...!"
+msgstr ""
 
 msgid "<25>{#f/25}* $(name)...?"
-msgstr "<25>{#f/25}* $(name)...?"
+msgstr ""
 
 msgid "<25>{#f/13}* But... you're..."
 msgstr "<25>{#f/13}* Ale... jsi..."
@@ -485,10 +485,10 @@ msgid "<32>* About everything."
 msgstr "<32>* O všem."
 
 msgid "<25>{#p/asriel1}{#f/23}* ..."
-msgstr "<25>{#p/asriel1}{#f/23}* ..."
+msgstr ""
 
 msgid "<25>{#f/23}* $(name)..."
-msgstr "<25>{#f/23}* $(name)..."
+msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/13}* But..."
 msgstr "<25>{#p/asriel1}{#f/13}* Ale..."
@@ -520,7 +520,7 @@ msgid "<32>* You don't have to make it out to be better than it is."
 msgstr "<32>* Nemusíte to předstírat, abyste byli lepší, než to je."
 
 msgid "<25>{#p/asriel1}{#f/22}* ..."
-msgstr "<25>{#p/asriel1}{#f/22}* ..."
+msgstr ""
 
 msgid "<25>{#f/22}* ... why now?"
 msgstr "<25>{#f/22}* ... proč teď?"
@@ -580,7 +580,7 @@ msgid "<32>* I'm the one to blame for it."
 msgstr "<32>* Já jsem ten, kdo za to může."
 
 msgid "<25>{#p/asriel1}{#f/13}* $(name)..."
-msgstr "<25>{#p/asriel1}{#f/13}* $(name)..."
+msgstr ""
 
 msgid "<25>{#f/15}* Have you been conscious this whole time?"
 msgstr "<25>{#f/15}* Byl jsi po celou dobu při vědomí?"
@@ -638,7 +638,7 @@ msgstr ""
 "strašlivou chybu."
 
 msgid "<25>{#p/asriel1}{#f/15}* $(name)..."
-msgstr "<25>{#p/asriel1}{#f/15}* $(name)..."
+msgstr ""
 
 msgid ""
 "<32>{#p/basic}* If not for you, the outpost would've been destroyed in a "

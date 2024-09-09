@@ -1089,8 +1089,8 @@ export default {
          ],
          bombshell2: [ '<32>{*}* 不...', '<32>{*}{@random=1.1/1.1}* 不...' ],
          bombshell3: [
-            '<32>{*}{@random=1.1/1.1}* 托丽尔...\n* 衫斯...\n* 帕派瑞斯...',
-            '<32>{*}{@random=1.1/1.1}* 安黛因...',
+            '<32>{*}{@random=1.1/1.1}* Toriel...\n* Sans...\n* Papyrus...',
+            '<32>{*}{@random=1.1/1.1}* Undyne...',
             "<32>{*}{@random=1.1/1.1}* 都-都怪我...",
             '<32>{*}{@random=1.1/1.1}{#i/4}* 啊... 天-天呐...'
          ],
@@ -1109,7 +1109,7 @@ export default {
             '<25>{#p/asriel2}{#f/3}* 别忘了我们来干嘛的就好。'
          ],
          kiddFinal2: () => [
-            '<25>{#p/kidd}{#f/9}* 安黛因...',
+            '<25>{#p/kidd}{#f/9}* Undyne...',
             '<25>{#p/asriel2}{#f/10}* ...？',
             '<25>{#f/6}* 我猜... 你还有顾虑？',
             "<25>{|}{#p/kidd}{#f/12}* 对不起，我- {%}",
@@ -1321,14 +1321,14 @@ export default {
             '酷炫骷髅95',
             '酷炫骷髅95',
             SAVE.data.n.plot === 72 ? '_舟亢忝洐_' : '_摋掱亾耦_',
-            '艾菲斯',
+            'ALPHYS',
             '懒骨.',
             '（游客）'
          ]
       },
       napcomputer4: {
          a: () => [ '鬼怪舞曲.kwac', '鬼怪混音集.kwac' ],
-         b: () => [ '纳普斯特22', '纳普斯特22' ]
+         b: () => [ 'NAPSTABLOOK22', 'NAPSTABLOOK22' ]
       },
       noTem: [ "<32>{#p/tem}* oh no, it's a... FISHES!!!" ],
       noShroom: [ "<32>{#p/basic}* Watch out\n* Watch out\n* There's a fish running about" ],
@@ -2644,7 +2644,7 @@ export default {
          "<32>* 好-好吧，我会回家的..."
       ],
       run11: (charged: boolean) => [
-         '<32>{#p/kidd}* 安黛因...',
+         '<32>{#p/kidd}* Undyne...',
          '<32>* 你救了我...？',
          '<32>* 哟... 我...\n* 我还以为自己死定了。\n* 哈哈...',
          '<32>* ...等等，你还好吗？\n* 你好像伤得很重...',
@@ -3473,7 +3473,7 @@ export default {
                ? [
                     '<32>{#p/basic}* So.\n* So!\n* SO!',
                     "<32>* You're a TV star now, huh?",
-                    '<32>* Yeah, 镁塔顿 usually has that effect on people.'
+                    '<32>* Yeah, Mettaton usually has that effect on people.'
                  ]
                : SAVE.data.n.plot === 47.2
                ? [ '<32>{#p/basic}* 准备好了吗，\n  她要来了！！' ]
@@ -5165,7 +5165,7 @@ export default {
                ? "<32>{#p/undyne}* No, they're not.\n* You really shouldn't be with them, kiddo."
                : "<32>{#p/undyne}* 回家吧，孩子。\n* 你跟这家伙不是一路人。"
          ],
-         rescue2: [ '<25>{*}{#p/kidd}{#f/8}* 安黛因...{#x1}{^20}{%}' ],
+         rescue2: [ '<25>{*}{#p/kidd}{#f/8}* Undyne...{#x1}{^20}{%}' ],
          rescue3: [
             "<25>{*}{#p/kidd}{#f/13}* 我保证，我...\n  我-我会回来找你的！{^20}{%}",
             "<25>{*}{#p/kidd}{#f/13}* 你可千万别死，好吗？{^20}{%}"
@@ -5284,7 +5284,7 @@ export default {
       act_check4: [
          "<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n* This humble germophobe's love story is as soapy as it gets."
       ],
-      name: '* 刷洁顿',
+      name: '* Skrubbington',
       status1: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 刷洁顿。' ]
@@ -5384,7 +5384,7 @@ export default {
       act_check4: [ '<32>{#p/story}* GELATA - ATK 18 DEF 18\n* Not your ideal relationship...' ],
       act_topple1: [ "<32>{#p/human}* (You try to topple Gelata, but it hasn't been weakened enough.)" ],
       act_topple2: [ '<32>{#p/human}* (You topple Gelata.)\n* (Its body parts collapse and roll into the distance.)' ],
-      name: '* 大黏簇',
+      name: '* Gelata',
       idleTalk1: [ '<08>{#p/basic}{~}Guoooh!' ],
       idleTalk2: [ '<08>{#p/basic}{~}\x00*slime sounds*' ],
       idleTalk3: [ '<08>{#p/basic}{~}吼。' ],
@@ -5440,7 +5440,7 @@ export default {
          world.goatbro
             ? [ "<32>{#p/asriel2}* 小黏团...\n* 直觉告诉我，这只怪物可没有\n  它外表看起来那么简单。" ]
             : [ '<32>{#p/story}* GELATINI - ATK 18 DEF 18\n* Not a squorch to be heard.' ],
-      name: '* 小黏团',
+      name: '* Gelatini',
       smalTalk: [ '<08>{#p/basic}{~}...' ],
       status1: () => (world.goatbro ? [ '<32>{#p/asriel2}* Gelatini.' ] : [ '<32>{#p/story}* 小黏团出现了？' ]),
       fakeStatus1: () =>
@@ -5562,7 +5562,7 @@ export default {
          '<32>* (You hum a farewell song.)'
       ],
       hurtStatus: [ "<32>{#p/story}* Shyren's voice is raspy." ],
-      name: '* 害羞塞壬',
+      name: '* Shyren',
       randStatus1: () =>
          SAVE.data.n.state_foundry_muffet === 1
             ? [ '<32>{#p/story}* Shyren hums very faintly.' ]
@@ -5640,7 +5640,7 @@ export default {
       act_check4: [
          '<32>{#p/story}* RADTILE - ATK 24 DEF 12\n* When it comes to romance, this cool crocodile is stone cold.'
       ],
-      name: '* 老顽鳄',
+      name: '* Radtile',
       status1: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 老顽鳄。' ]
@@ -5782,7 +5782,7 @@ export default {
          world.goatbro
             ? [ '<32>{#p/asriel2}* 离死不远了。' ]
             : [ "<32>{#p/story}* 督吉拼命装出一副没事的样子。" ],
-      name: '* 督吉',
+      name: '* Doge',
       petTalkPost: [ '<11>{#p/basic}{~}啊...' ],
       petText: [
          '<32>{#p/human}* （你试着抚摸督吉。）',
@@ -6116,7 +6116,7 @@ export default {
       ],
       counterTextLate: [ "<32>{#p/human}* （你尝试反驳玛菲特，\n  但她早已拿定了主意。）" ],
       counterTextPost: [ '<32>{#p/human}* （但玛菲特已经听过了\n  你的驳论。）' ],
-      name: '* 玛菲特',
+      name: '* Muffet',
       payTalkPost: [ "<11>{#p/basic}{~}谢谢你的好意，\n但我们的钱\n已经够多了~" ],
       payText: [
          '<32>{#p/human}* （你尝试给玛菲特付钱。）',
@@ -6394,7 +6394,7 @@ export default {
             : respecc()
             ? [ '<32>{#p/story}* 安黛因 - 攻击25 防御10\n* 曾经是你的死敌，如今是你\n  无与伦比的对手！' ]
             : [ '<32>{#p/story}* 安黛因 - 攻击50 防御20\n* 永不放弃的英雄。' ],
-      name: () => (world.genocide ? '* Undyne the Undying' : '* 安黛因'),
+      name: () => (world.genocide ? '* Undyne the Undying' : '* Undyne'),
       status1: () =>
          helmetdyne()
             ? [ '<32>{#p/story}* 安黛因高耸于你之上。' ]
@@ -6840,8 +6840,8 @@ export default {
                     ? [ '<20>This betrayal...\nThis... dishonor...', "<20>I won't let you get away with it!" ]
                     : [
                          SAVE.data.n.state_starton_papyrus === 1
-                            ? '<20>{#e/undyne/36}艾菲斯...\n艾斯戈尔...'
-                            : '<20>{#e/undyne/36}艾菲斯...\n艾斯戈尔...\n帕派瑞斯...',
+                            ? '<20>{#e/undyne/36}Alphys...\nAsgore...'
+                            : '<20>{#e/undyne/36}Alphys...\nAsgore...\nPapyrus...',
                          '<20>{#e/undyne/32}大家，都需要我来守护！'
                       ]),
                  '<20>{#e/undyne/32}嘎啊啊啊！！'
@@ -6876,7 +6876,7 @@ export default {
       death5: () => [
          helmetdyneAttack() ? '<20>{#p/undyne}{#e/undyne/43}...' : '<20>{#p/undyne}{#e/undyne/34}...',
          '<20>{#p/undyne}{#e/undyne/47}哈...\n哈...',
-         '<20>{#e/undyne/44}...\n艾菲斯...',
+         '<20>{#e/undyne/44}...\nAlphys...',
          '<20>知道为什么\n我一直没对你说...',
          '<20>{#e/undyne/49}因为我怕...',
          '<20>...'
@@ -6962,7 +6962,7 @@ export default {
          '<20>...才怪。不知怎么，\n只是那么一击...'
       ],
       genoCutscene12b: [ "<20>我就...", '<20>就...' ],
-      genoCutscene12c: [ '<20>该...\n该死...', '<20>帕派瑞斯...\n艾斯戈尔...\n艾菲斯...' ],
+      genoCutscene12c: [ '<20>该...\n该死...', '<20>Papyrus...\nAsgore...\nAlphys...' ],
       genoCutscene12d: [ '<20>我就这样...', "<20>{#e/undyne/8}让你们失望了。" ],
       genoCutscene12e: [ '<20>我...', "{#e/undyne/8}我不能..." ],
       genoCutscene13: [ '<20>{#p/undyne}...', '<11>{#e/undyne/12}不...' ],
@@ -7046,7 +7046,7 @@ export default {
       neutralFinalStatus: [ '<32>{#p/story}* 安黛因充满了决心。' ]
    },
    b_opponent_dateundyne: {
-      name: '* 安黛因',
+      name: '* Undyne',
       snacker: () =>
          SAVE.data.b.undyne_respecc
             ? [ '<20>{#p/undyne}{#e/undyne/13}希望你能喜欢，\n呋呼呼！' ]
@@ -7819,16 +7819,16 @@ export default {
       talk: () =>
          SAVE.data.n.plot === 72
             ? [
-                 '艾斯戈尔',
+                 'Asgore',
                  '新家园',
-                 '托丽尔',
+                 'Toriel',
                  SAVE.data.b.c_state_secret2 && !SAVE.data.b.c_state_secret2_used
                     ? '§fill=#ff0§握手'
                     : '我是英雄吗',
                  '离开'
               ]
             : world.genocide
-            ? [ '艾斯利尔', '（威胁他）', '（揍他）', '安黛因', '离开' ]
+            ? [ 'Asriel', '（威胁他）', '（揍他）', 'Undyne', '离开' ]
             : world.killed0 || startonATE()
             ? [ '你的下场', '（威胁他）', '（揍他）', '谁是英雄', '离开' ]
             : [
@@ -7837,13 +7837,13 @@ export default {
                     : [ '介绍下自己', '§fill=#ff0§那场战争（新）', '§fill=#ff0§退休生活（新）', '退休生活' ][
                          Math.min(SAVE.data.n.shop_gerson, 3)
                       ],
-                 [ '故园生活', '§fill=#ff0§你的家人（新）', '§fill=#ff0§艾罗戈（新）', '艾罗戈' ][
+                 [ '故园生活', '§fill=#ff0§你的家人（新）', '§fill=#ff0§艾罗戈（新）', 'Erogot' ][
                     Math.min(SAVE.data.n.shop_homeworld, 3)
                  ],
                  '铸厂',
                  SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
 
-                    ? '安黛因'
+                    ? 'Undyne'
                     : SAVE.data.b.c_state_secret2 && !SAVE.data.b.c_state_secret2_used
                     ? '§fill=#ff0§握手'
                     : '聊聊安黛因',

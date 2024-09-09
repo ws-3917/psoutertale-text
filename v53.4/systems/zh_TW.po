@@ -321,7 +321,7 @@ msgid "Duration"
 msgstr "動畫時長（幀）"
 
 msgid "EXP"
-msgstr "EXP"
+msgstr ""
 
 msgid "Extent"
 msgstr "延伸尺寸"
@@ -354,7 +354,7 @@ msgid "Group"
 msgstr "戰鬥組"
 
 msgid "HP"
-msgstr "HP"
+msgstr ""
 
 msgid "Index"
 msgstr "當前播放幀"
@@ -608,7 +608,7 @@ msgid "§fill=#ff0§< DEVELOPER >§fill=#fff§"
 msgstr "§fill=#ff0§< 遊戲開發者 >§fill=#fff§"
 
 msgid "spacey_432"
-msgstr "spacey_432"
+msgstr ""
 
 msgid ""
 msgstr ""
@@ -617,280 +617,280 @@ msgid "§fill=#ff0§< WRITER >§fill=#fff§"
 msgstr "§fill=#ff0§< 文本編寫 >§fill=#fff§"
 
 msgid "Balgamlı Kedi"
-msgstr "Balgamlı Kedi"
+msgstr ""
 
 msgid "Bilge \"mnwary\""
-msgstr "Bilge \"mnwary\""
+msgstr ""
 
 msgid "Dischnie"
-msgstr "Dischnie"
+msgstr ""
 
 msgid "Efe Kaya"
-msgstr "Efe Kaya"
+msgstr ""
 
 msgid "Ghostly"
-msgstr "Ghostly"
+msgstr ""
 
 msgid "InvincibleRacoon"
-msgstr "InvincibleRacoon"
+msgstr ""
 
 msgid "Jojoton56"
-msgstr "Jojoton56"
+msgstr ""
 
 msgid "Kiwi \"Quinn\""
-msgstr "Kiwi \"Quinn\""
+msgstr ""
 
 msgid "My Aster"
-msgstr "My Aster"
+msgstr ""
 
 msgid "neo9174"
-msgstr "neo9174"
+msgstr ""
 
 msgid "Rise"
-msgstr "Rise"
+msgstr ""
 
 msgid "ThatGuyWhoLikesFood"
-msgstr "ThatGuyWhoLikesFood"
+msgstr ""
 
 msgid "Turbulation"
-msgstr "Turbulation"
+msgstr ""
 
 msgid "Zaxento The Greedy"
-msgstr "Zaxento The Greedy"
+msgstr ""
 
 msgid "§fill=#ff0§< ARTIST >§fill=#fff§"
 msgstr "§fill=#ff0§< 美工 >§fill=#fff§"
 
 msgid "Burge"
-msgstr "Burge"
+msgstr ""
 
 msgid "Deskius"
-msgstr "Deskius"
+msgstr ""
 
 msgid "DESM.al"
-msgstr "DESM.al"
+msgstr ""
 
 msgid "Discarded Vessel"
-msgstr "Discarded Vessel"
+msgstr ""
 
 msgid "Fired"
-msgstr "Fired"
+msgstr ""
 
 msgid "Funtermore"
-msgstr "Funtermore"
+msgstr ""
 
 msgid "HolyOranges"
-msgstr "HolyOranges"
+msgstr ""
 
 msgid "major_memestar"
-msgstr "major_memestar"
+msgstr ""
 
 msgid "MattSpriteMaster"
-msgstr "MattSpriteMaster"
+msgstr ""
 
 msgid "Medi0creking"
-msgstr "Medi0creking"
+msgstr ""
 
 msgid "NerNot1"
-msgstr "NerNot1"
+msgstr ""
 
 msgid "PhyreFM"
-msgstr "PhyreFM"
+msgstr ""
 
 msgid "Pongy25"
-msgstr "Pongy25"
+msgstr ""
 
 msgid "PoTheWinterCorder"
-msgstr "PoTheWinterCorder"
+msgstr ""
 
 msgid "ProctorDorkchop02"
-msgstr "ProctorDorkchop02"
+msgstr ""
 
 msgid "ScarletScaledDragon"
-msgstr "ScarletScaledDragon"
+msgstr ""
 
 msgid "semi"
-msgstr "semi"
+msgstr ""
 
 msgid "Soup Taels"
-msgstr "Soup Taels"
+msgstr ""
 
 msgid "SquigglyWiggley"
-msgstr "SquigglyWiggley"
+msgstr ""
 
 msgid "Starkiteckt"
-msgstr "Starkiteckt"
+msgstr ""
 
 msgid "supper12"
-msgstr "supper12"
+msgstr ""
 
 msgid "Valor52"
-msgstr "Valor52"
+msgstr ""
 
 msgid "§fill=#ff0§< TECHNICIAN >§fill=#fff§"
 msgstr "§fill=#ff0§< 技術助理 >§fill=#fff§"
 
 msgid "Codetoil"
-msgstr "Codetoil"
+msgstr ""
 
 msgid "ryi3r"
-msgstr "ryi3r"
+msgstr ""
 
 msgid "ws3917"
-msgstr "ws3917"
+msgstr ""
 
 msgid "§fill=#ff0§< TESTER >§fill=#fff§"
 msgstr "§fill=#ff0§< 遊戲測試 >§fill=#fff§"
 
 msgid "Alden"
-msgstr "Alden"
+msgstr ""
 
 msgid "Aspey"
-msgstr "Aspey"
+msgstr ""
 
 msgid "blue"
-msgstr "blue"
+msgstr ""
 
 msgid "Brad"
-msgstr "Brad"
+msgstr ""
 
 msgid "brayjamin"
-msgstr "brayjamin"
+msgstr ""
 
 msgid "ClamsyMoe"
-msgstr "ClamsyMoe"
+msgstr ""
 
 msgid "delta"
-msgstr "delta"
+msgstr ""
 
 msgid "DR4GON HE4RT"
-msgstr "DR4GON HE4RT"
+msgstr ""
 
 msgid "Dubituar"
-msgstr "Dubituar"
+msgstr ""
 
 msgid "Emurry"
-msgstr "Emurry"
+msgstr ""
 
 msgid "Enzolos"
-msgstr "Enzolos"
+msgstr ""
 
 msgid "EvanGamesGoodman"
-msgstr "EvanGamesGoodman"
+msgstr ""
 
 msgid "FireWizard72X"
-msgstr "FireWizard72X"
+msgstr ""
 
 msgid "FuLiNT"
-msgstr "FuLiNT"
+msgstr ""
 
 msgid "gardnaeden"
-msgstr "gardnaeden"
+msgstr ""
 
 msgid "Gon UT"
-msgstr "Gon UT"
+msgstr ""
 
 msgid "Green Tea"
-msgstr "Green Tea"
+msgstr ""
 
 msgid "Huggies!"
-msgstr "Huggies!"
+msgstr ""
 
 msgid "ilovecookies"
-msgstr "ilovecookies"
+msgstr ""
 
 msgid "Jago128"
-msgstr "Jago128"
+msgstr ""
 
 msgid "Joe98912"
-msgstr "Joe98912"
+msgstr ""
 
 msgid "Jonkler"
-msgstr "Jonkler"
+msgstr ""
 
 msgid "lil tanski"
-msgstr "lil tanski"
+msgstr ""
 
 msgid "MR. PETER"
-msgstr "MR. PETER"
+msgstr ""
 
 msgid "MSBen"
-msgstr "MSBen"
+msgstr ""
 
 msgid "Murder--Sans_MDR"
-msgstr "Murder--Sans_MDR"
+msgstr ""
 
 msgid "Nanorasmus"
-msgstr "Nanorasmus"
+msgstr ""
 
 msgid "NepAnime"
-msgstr "NepAnime"
+msgstr ""
 
 msgid "Shaun Duz Stuffs"
-msgstr "Shaun Duz Stuffs"
+msgstr ""
 
 msgid "SHCyank"
-msgstr "SHCyank"
+msgstr ""
 
 msgid "petar3644"
-msgstr "petar3644"
+msgstr ""
 
 msgid "PixelToons Jaafar"
-msgstr "PixelToons Jaafar"
+msgstr ""
 
 msgid "Prezmop"
-msgstr "Prezmop"
+msgstr ""
 
 msgid "prymus-agd"
-msgstr "prymus-agd"
+msgstr ""
 
 msgid "Quin"
-msgstr "Quin"
+msgstr ""
 
 msgid "RadicalRic"
-msgstr "RadicalRic"
+msgstr ""
 
 msgid "Raelynn"
-msgstr "Raelynn"
+msgstr ""
 
 msgid "retr22800"
-msgstr "retr22800"
+msgstr ""
 
 msgid "RoCtD_14159"
-msgstr "RoCtD_14159"
+msgstr ""
 
 msgid "sonicisawesome222"
-msgstr "sonicisawesome222"
+msgstr ""
 
 msgid "spaceknife234"
-msgstr "spaceknife234"
+msgstr ""
 
 msgid "superkippy"
-msgstr "superkippy"
+msgstr ""
 
 msgid "Teecup"
-msgstr "Teecup"
+msgstr ""
 
 msgid "Tem in a Cowboy Hat"
-msgstr "Tem in a Cowboy Hat"
+msgstr ""
 
 msgid "Tenbrooks"
-msgstr "Tenbrooks"
+msgstr ""
 
 msgid "The Fallen Angel"
-msgstr "The Fallen Angel"
+msgstr ""
 
 msgid "TheAsriel"
-msgstr "TheAsriel"
+msgstr ""
 
 msgid "Wild Pasta"
-msgstr "Wild Pasta"
+msgstr ""
 
 msgid "Xiao_Akatsuki"
-msgstr "Xiao_Akatsuki"
+msgstr ""
 
 msgid "xNoodlePlayz"
-msgstr "xNoodlePlayz"
+msgstr ""
 
 msgid "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§"
 msgstr "§fill=#ff0§< 特別鳴謝 >§fill=#fff§"
@@ -977,7 +977,7 @@ msgid "(( CAST ))"
 msgstr "(( 演員表 ))"
 
 msgid "FROGGIT"
-msgstr "FROGGIT"
+msgstr ""
 
 msgid ""
 "Pondering\n"
@@ -1000,7 +1000,7 @@ msgid ""
 msgstr ""
 
 msgid "FLUTTERLYTE"
-msgstr "FLUTTERLYTE"
+msgstr ""
 
 msgid ""
 "Learning To\n"
@@ -1023,7 +1023,7 @@ msgid ""
 msgstr ""
 
 msgid "GELATINI"
-msgstr "GELATINI"
+msgstr ""
 
 msgid ""
 "Found A New\n"
@@ -1046,7 +1046,7 @@ msgid ""
 msgstr ""
 
 msgid "OCULOUX"
-msgstr "OCULOUX"
+msgstr ""
 
 msgid ""
 "Slightly\n"
@@ -1064,7 +1064,7 @@ msgid ""
 msgstr ""
 
 msgid "SILENTE"
-msgstr "SILENTE"
+msgstr ""
 
 msgid ""
 "Exceedingly\n"
@@ -1087,10 +1087,10 @@ msgid ""
 msgstr ""
 
 msgid "MUSHY"
-msgstr "MUSHY"
+msgstr ""
 
 msgid "Balgamlı Kedi & ScarletScaledDragon"
-msgstr "Balgamlı Kedi & ScarletScaledDragon"
+msgstr ""
 
 msgid ""
 "Shooting\n"
@@ -1113,7 +1113,7 @@ msgid ""
 msgstr ""
 
 msgid "LURKSALOT"
-msgstr "LURKSALOT"
+msgstr ""
 
 msgid ""
 "Keeping To\n"
@@ -1131,7 +1131,7 @@ msgid ""
 msgstr ""
 
 msgid "STARDRAKE"
-msgstr "STARDRAKE"
+msgstr ""
 
 msgid ""
 "Still Looking\n"
@@ -1149,7 +1149,7 @@ msgid ""
 msgstr ""
 
 msgid "CHILLDRAKE"
-msgstr "CHILLDRAKE"
+msgstr ""
 
 msgid ""
 "Still Looking\n"
@@ -1172,7 +1172,7 @@ msgid ""
 msgstr ""
 
 msgid "ASTRO SERF"
-msgstr "ASTRO SERF"
+msgstr ""
 
 msgid ""
 "Thinking About\n"
@@ -1195,7 +1195,7 @@ msgid ""
 msgstr ""
 
 msgid "JERRY"
-msgstr "JERRY"
+msgstr ""
 
 msgid ""
 "Getting Ditched\n"
@@ -1213,10 +1213,10 @@ msgid ""
 msgstr ""
 
 msgid "WHIZKARAT"
-msgstr "WHIZKARAT"
+msgstr ""
 
 msgid "Zaxento The Greedy & semi"
-msgstr "Zaxento The Greedy & semi"
+msgstr ""
 
 msgid ""
 "Having An\n"
@@ -1239,7 +1239,7 @@ msgid ""
 msgstr ""
 
 msgid "DOGGO"
-msgstr "DOGGO"
+msgstr ""
 
 msgid ""
 "Believes In The\n"
@@ -1262,7 +1262,7 @@ msgid ""
 msgstr ""
 
 msgid "CANIS MINOR"
-msgstr "CANIS MINOR"
+msgstr ""
 
 msgid ""
 "Searching For\n"
@@ -1285,7 +1285,7 @@ msgid ""
 msgstr ""
 
 msgid "DOGAMY & DOGARESSA"
-msgstr "DOGAMY & DOGARESSA"
+msgstr ""
 
 msgid ""
 "Still Thinking\n"
@@ -1308,7 +1308,7 @@ msgid ""
 msgstr ""
 
 msgid "CANIS MAJOR"
-msgstr "CANIS MAJOR"
+msgstr ""
 
 msgid ""
 "Unaware Of\n"
@@ -1326,7 +1326,7 @@ msgid ""
 msgstr ""
 
 msgid "SKRUBBINGTON"
-msgstr "SKRUBBINGTON"
+msgstr ""
 
 msgid ""
 "Only 99.1\n"
@@ -1349,7 +1349,7 @@ msgid ""
 msgstr ""
 
 msgid "GELATA"
-msgstr "GELATA"
+msgstr ""
 
 msgid ""
 "Looking For A\n"
@@ -1372,10 +1372,10 @@ msgid ""
 msgstr ""
 
 msgid "RADTILE"
-msgstr "RADTILE"
+msgstr ""
 
 msgid "Balgamlı Kedi & Zaxento The Greedy"
-msgstr "Balgamlı Kedi & Zaxento The Greedy"
+msgstr ""
 
 msgid ""
 "Wallowing In\n"
@@ -1398,7 +1398,7 @@ msgid ""
 msgstr ""
 
 msgid "SHYREN"
-msgstr "SHYREN"
+msgstr ""
 
 msgid ""
 "Back To Taking\n"
@@ -1421,7 +1421,7 @@ msgid ""
 msgstr ""
 
 msgid "DOGE"
-msgstr "DOGE"
+msgstr ""
 
 msgid ""
 "Construction Site\n"
@@ -1439,7 +1439,7 @@ msgid ""
 msgstr ""
 
 msgid "MUFFET"
-msgstr "MUFFET"
+msgstr ""
 
 msgid ""
 "Looking For Her\n"
@@ -1457,7 +1457,7 @@ msgid ""
 msgstr ""
 
 msgid "HOTWIRE"
-msgstr "HOTWIRE"
+msgstr ""
 
 msgid ""
 "Waiting For The\n"
@@ -1480,7 +1480,7 @@ msgid ""
 msgstr ""
 
 msgid "TSUNDERIDEX"
-msgstr "TSUNDERIDEX"
+msgstr ""
 
 msgid ""
 "Flying Deeper\n"
@@ -1503,7 +1503,7 @@ msgid ""
 msgstr ""
 
 msgid "PERIGEE"
-msgstr "PERIGEE"
+msgstr ""
 
 msgid ""
 "Another Day,\n"
@@ -1549,7 +1549,7 @@ msgid ""
 msgstr ""
 
 msgid "GLYDE"
-msgstr "GLYDE"
+msgstr ""
 
 msgid ""
 "Not Your Ideal\n"
@@ -1585,7 +1585,7 @@ msgid ""
 msgstr ""
 
 msgid "COZMO"
-msgstr "COZMO"
+msgstr ""
 
 msgid ""
 "Looking For A\n"
@@ -1603,7 +1603,7 @@ msgid ""
 msgstr ""
 
 msgid "TERRESTRIA"
-msgstr "TERRESTRIA"
+msgstr ""
 
 msgid ""
 "In Search Of\n"
@@ -1621,7 +1621,7 @@ msgid ""
 msgstr ""
 
 msgid "FINAL FROGGIT"
-msgstr "FINAL FROGGIT"
+msgstr ""
 
 msgid ""
 "Keeping Its\n"
@@ -1644,7 +1644,7 @@ msgid ""
 msgstr ""
 
 msgid "FLUTTERKNYTE"
-msgstr "FLUTTERKNYTE"
+msgstr ""
 
 msgid ""
 "Still Working\n"
@@ -1667,7 +1667,7 @@ msgid ""
 msgstr ""
 
 msgid "EYEWALKER PRIME"
-msgstr "EYEWALKER PRIME"
+msgstr ""
 
 msgid ""
 "Still A\n"
@@ -1690,7 +1690,7 @@ msgid ""
 msgstr ""
 
 msgid "SILENCIO"
-msgstr "SILENCIO"
+msgstr ""
 
 msgid ""
 "Still A\n"
@@ -1713,10 +1713,10 @@ msgid ""
 msgstr ""
 
 msgid "MUSHKETEER"
-msgstr "MUSHKETEER"
+msgstr ""
 
 msgid "Balgamlı Kedi & Ghostly"
-msgstr "Balgamlı Kedi & Ghostly"
+msgstr ""
 
 msgid ""
 "One Mushroom\n"
@@ -1739,46 +1739,46 @@ msgid ""
 msgstr ""
 
 msgid "PAPYRUS"
-msgstr "PAPYRUS"
+msgstr ""
 
 msgid "ProctorDorkchop02 & MattSpriteMaster"
-msgstr "ProctorDorkchop02 & MattSpriteMaster"
+msgstr ""
 
 msgid "SANS"
-msgstr "SANS"
+msgstr ""
 
 msgid "ProctorDorkchop02 & Fired"
-msgstr "ProctorDorkchop02 & Fired"
+msgstr ""
 
 msgid "UNDYNE"
-msgstr "UNDYNE"
+msgstr ""
 
 msgid "ALPHYS"
-msgstr "ALPHYS"
+msgstr ""
 
 msgid "MEW MEW"
-msgstr "MEW MEW"
+msgstr ""
 
 msgid "NAPSTABLOOK"
-msgstr "NAPSTABLOOK"
+msgstr ""
 
 msgid "METTATON"
-msgstr "METTATON"
+msgstr ""
 
 msgid "TORIEL"
-msgstr "TORIEL"
+msgstr ""
 
 msgid "ASGORE"
-msgstr "ASGORE"
+msgstr ""
 
 msgid "MONSTER KID"
 msgstr "怪物小孩"
 
 msgid "ASRIEL"
-msgstr "ASRIEL"
+msgstr ""
 
 msgid "Medi0creking & MattSpriteMaster"
-msgstr "Medi0creking & MattSpriteMaster"
+msgstr ""
 
 msgid "[↑ or ↓] to Select / [Z or ENTER] to Confirm"
 msgstr "[↑或↓] 選擇語言 / [Z 或 ENTER] 確認"
@@ -1982,7 +1982,7 @@ msgstr ""
 "重新設定控制器。"
 
 msgid "Asriel"
-msgstr "Asriel"
+msgstr ""
 
 msgid "The Oblivion"
 msgstr "幻境"
@@ -1997,10 +1997,10 @@ msgid "Press [X] to Finish"
 msgstr "按 [X] 返回"
 
 msgid "Frisk"
-msgstr "Frisk"
+msgstr ""
 
 msgid "G"
-msgstr "G"
+msgstr ""
 
 msgid "INF"
 msgstr "\\u221e"
@@ -2009,7 +2009,7 @@ msgid "[PRESS Z OR ENTER]"
 msgstr "[按 Z 或 ENTER]"
 
 msgid "LV"
-msgstr "LV"
+msgstr ""
 
 msgid ""
 "§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§"
@@ -2036,7 +2036,7 @@ msgid "§fill=#0f0§NOMINAL"
 msgstr "§fill=#0f0§正常"
 
 msgid "$(x)%"
-msgstr "$(x)%"
+msgstr ""
 
 msgid "player"
 msgstr "玩家"
@@ -2045,7 +2045,7 @@ msgid "Settings"
 msgstr "遊戲設定"
 
 msgid "?"
-msgstr "?"
+msgstr ""
 
 msgid "XM"
 msgstr "靈勢"
@@ -2303,10 +2303,10 @@ msgstr ""
 "都再也沒有返航。{^35}{}"
 
 msgid "<24>{^100}{}"
-msgstr "<24>{^100}{}"
+msgstr ""
 
 msgid "<24>{^35}{}"
-msgstr "<24>{^35}{}"
+msgstr ""
 
 msgid "Resume Canon Timeline"
 msgstr "重返主時間軸"

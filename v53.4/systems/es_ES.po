@@ -75,7 +75,7 @@ msgstr ""
 "* Tu AMOR aumentó."
 
 msgid "ERROR"
-msgstr "ERROR"
+msgstr ""
 
 msgid "DISMISS"
 msgstr "CERRAR"
@@ -91,10 +91,10 @@ msgstr ""
 "una captura de pantalla al desarrollador."
 
 msgid "CONTROL"
-msgstr "CONTROL"
+msgstr ""
 
 msgid "GENERAL"
-msgstr "GENERAL"
+msgstr ""
 
 msgid "BATTLE"
 msgstr "COMBATE"
@@ -118,7 +118,7 @@ msgid "Movement"
 msgstr "Movimiento"
 
 msgid "Noclip"
-msgstr "Noclip"
+msgstr ""
 
 msgid "Save"
 msgstr "Guardar"
@@ -142,7 +142,7 @@ msgid "ResetBox"
 msgstr "ResetCaja"
 
 msgid "ResetMenu"
-msgstr "ResetMenu"
+msgstr ""
 
 msgid "CanFlee"
 msgstr "PuedeHuir"
@@ -160,7 +160,7 @@ msgid "WeakenAll"
 msgstr "DebilitarTodos"
 
 msgid "$(x) FPS"
-msgstr "$(x) FPS"
+msgstr ""
 
 msgid "Halt"
 msgstr "Parar"
@@ -169,7 +169,7 @@ msgid "GAME SPEED"
 msgstr "VELOCIDAD DEL JUEGO"
 
 msgid "$(x)x"
-msgstr "$(x)x"
+msgstr ""
 
 msgid "More"
 msgstr "Más"
@@ -211,7 +211,7 @@ msgid "TYPES"
 msgstr "TIPOS"
 
 msgid "Base"
-msgstr "Base"
+msgstr ""
 
 msgid "Below"
 msgstr "Debajo"
@@ -226,10 +226,10 @@ msgid "Menu"
 msgstr "Menú"
 
 msgid "Hitbox"
-msgstr "Hitbox"
+msgstr ""
 
 msgid "Sprite"
-msgstr "Sprite"
+msgstr ""
 
 msgid "Text"
 msgstr "Texto"
@@ -253,31 +253,31 @@ msgid "Menu (Explorer)"
 msgstr "Menú (Explorador)"
 
 msgid "A"
-msgstr "A"
+msgstr ""
 
 msgid "C"
-msgstr "C"
+msgstr ""
 
 msgid "R"
-msgstr "R"
+msgstr ""
 
 msgid "E"
-msgstr "E"
+msgstr ""
 
 msgid "H"
-msgstr "H"
+msgstr ""
 
 msgid "O"
-msgstr "O"
+msgstr ""
 
 msgid "P"
-msgstr "P"
+msgstr ""
 
 msgid "S"
-msgstr "S"
+msgstr ""
 
 msgid "T"
-msgstr "T"
+msgstr ""
 
 msgid "Press [TAB] to cycle debug info"
 msgstr "Presiona [TAB] para ciclar la info"
@@ -295,7 +295,7 @@ msgid "Anchor"
 msgstr "Ancla"
 
 msgid "B"
-msgstr "B"
+msgstr ""
 
 msgid "Blend"
 msgstr "Mezclar"
@@ -319,13 +319,13 @@ msgid "Duration"
 msgstr "Duración"
 
 msgid "EXP"
-msgstr "EXP"
+msgstr ""
 
 msgid "Extent"
 msgstr "Extensión"
 
 msgid "F"
-msgstr "F"
+msgstr ""
 
 msgid "Face"
 msgstr "Cara"
@@ -343,7 +343,7 @@ msgid "Font Size"
 msgstr "Tamaño de Letra"
 
 msgid "Frames"
-msgstr "Frames"
+msgstr ""
 
 msgid "Gravity"
 msgstr "Gravedad"
@@ -448,7 +448,7 @@ msgid "Spin"
 msgstr "Giro"
 
 msgid "Sprites"
-msgstr "Sprites"
+msgstr ""
 
 msgid "Step"
 msgstr "Paso"
@@ -484,7 +484,7 @@ msgid "Up"
 msgstr "Arriba"
 
 msgid "Vars"
-msgstr "Vars"
+msgstr ""
 
 msgid "Velocity"
 msgstr "Velocidad"
@@ -607,7 +607,7 @@ msgid "§fill=#ff0§< DEVELOPER >§fill=#fff§"
 msgstr "§fill=#ff0§< DESARROLLADOR >§fill=#fff§"
 
 msgid "spacey_432"
-msgstr "spacey_432"
+msgstr ""
 
 msgid ""
 msgstr ""
@@ -616,280 +616,280 @@ msgid "§fill=#ff0§< WRITER >§fill=#fff§"
 msgstr "§fill=#ff0§< ESCRITOR >§fill=#fff§"
 
 msgid "Balgamlı Kedi"
-msgstr "Balgamlı Kedi"
+msgstr ""
 
 msgid "Bilge \"mnwary\""
-msgstr "Bilge \"mnwary\""
+msgstr ""
 
 msgid "Dischnie"
-msgstr "Dischnie"
+msgstr ""
 
 msgid "Efe Kaya"
-msgstr "Efe Kaya"
+msgstr ""
 
 msgid "Ghostly"
-msgstr "Ghostly"
+msgstr ""
 
 msgid "InvincibleRacoon"
-msgstr "InvincibleRacoon"
+msgstr ""
 
 msgid "Jojoton56"
-msgstr "Jojoton56"
+msgstr ""
 
 msgid "Kiwi \"Quinn\""
-msgstr "Kiwi \"Quinn\""
+msgstr ""
 
 msgid "My Aster"
-msgstr "My Aster"
+msgstr ""
 
 msgid "neo9174"
-msgstr "neo9174"
+msgstr ""
 
 msgid "Rise"
-msgstr "Rise"
+msgstr ""
 
 msgid "ThatGuyWhoLikesFood"
-msgstr "ThatGuyWhoLikesFood"
+msgstr ""
 
 msgid "Turbulation"
-msgstr "Turbulation"
+msgstr ""
 
 msgid "Zaxento The Greedy"
-msgstr "Zaxento The Greedy"
+msgstr ""
 
 msgid "§fill=#ff0§< ARTIST >§fill=#fff§"
 msgstr "§fill=#ff0§< ARTISTA >§fill=#fff§"
 
 msgid "Burge"
-msgstr "Burge"
+msgstr ""
 
 msgid "Deskius"
-msgstr "Deskius"
+msgstr ""
 
 msgid "DESM.al"
-msgstr "DESM.al"
+msgstr ""
 
 msgid "Discarded Vessel"
-msgstr "Discarded Vessel"
+msgstr ""
 
 msgid "Fired"
-msgstr "Fired"
+msgstr ""
 
 msgid "Funtermore"
-msgstr "Funtermore"
+msgstr ""
 
 msgid "HolyOranges"
-msgstr "HolyOranges"
+msgstr ""
 
 msgid "major_memestar"
-msgstr "major_memestar"
+msgstr ""
 
 msgid "MattSpriteMaster"
-msgstr "MattSpriteMaster"
+msgstr ""
 
 msgid "Medi0creking"
-msgstr "Medi0creking"
+msgstr ""
 
 msgid "NerNot1"
-msgstr "NerNot1"
+msgstr ""
 
 msgid "PhyreFM"
-msgstr "PhyreFM"
+msgstr ""
 
 msgid "Pongy25"
-msgstr "Pongy25"
+msgstr ""
 
 msgid "PoTheWinterCorder"
-msgstr "PoTheWinterCorder"
+msgstr ""
 
 msgid "ProctorDorkchop02"
-msgstr "ProctorDorkchop02"
+msgstr ""
 
 msgid "ScarletScaledDragon"
-msgstr "ScarletScaledDragon"
+msgstr ""
 
 msgid "semi"
-msgstr "semi"
+msgstr ""
 
 msgid "Soup Taels"
-msgstr "Soup Taels"
+msgstr ""
 
 msgid "SquigglyWiggley"
-msgstr "SquigglyWiggley"
+msgstr ""
 
 msgid "Starkiteckt"
-msgstr "Starkiteckt"
+msgstr ""
 
 msgid "supper12"
-msgstr "supper12"
+msgstr ""
 
 msgid "Valor52"
-msgstr "Valor52"
+msgstr ""
 
 msgid "§fill=#ff0§< TECHNICIAN >§fill=#fff§"
 msgstr "§fill=#ff0§< TECNICISTA >§fill=#fff§"
 
 msgid "Codetoil"
-msgstr "Codetoil"
+msgstr ""
 
 msgid "ryi3r"
-msgstr "ryi3r"
+msgstr ""
 
 msgid "ws3917"
-msgstr "ws3917"
+msgstr ""
 
 msgid "§fill=#ff0§< TESTER >§fill=#fff§"
 msgstr "§fill=#ff0§< TESTEADOR >§fill=#fff§"
 
 msgid "Alden"
-msgstr "Alden"
+msgstr ""
 
 msgid "Aspey"
-msgstr "Aspey"
+msgstr ""
 
 msgid "blue"
-msgstr "blue"
+msgstr ""
 
 msgid "Brad"
-msgstr "Brad"
+msgstr ""
 
 msgid "brayjamin"
-msgstr "brayjamin"
+msgstr ""
 
 msgid "ClamsyMoe"
-msgstr "ClamsyMoe"
+msgstr ""
 
 msgid "delta"
-msgstr "delta"
+msgstr ""
 
 msgid "DR4GON HE4RT"
-msgstr "DR4GON HE4RT"
+msgstr ""
 
 msgid "Dubituar"
-msgstr "Dubituar"
+msgstr ""
 
 msgid "Emurry"
-msgstr "Emurry"
+msgstr ""
 
 msgid "Enzolos"
-msgstr "Enzolos"
+msgstr ""
 
 msgid "EvanGamesGoodman"
-msgstr "EvanGamesGoodman"
+msgstr ""
 
 msgid "FireWizard72X"
-msgstr "FireWizard72X"
+msgstr ""
 
 msgid "FuLiNT"
-msgstr "FuLiNT"
+msgstr ""
 
 msgid "gardnaeden"
-msgstr "gardnaeden"
+msgstr ""
 
 msgid "Gon UT"
-msgstr "Gon UT"
+msgstr ""
 
 msgid "Green Tea"
-msgstr "Green Tea"
+msgstr ""
 
 msgid "Huggies!"
-msgstr "Huggies!"
+msgstr ""
 
 msgid "ilovecookies"
-msgstr "ilovecookies"
+msgstr ""
 
 msgid "Jago128"
-msgstr "Jago128"
+msgstr ""
 
 msgid "Joe98912"
-msgstr "Joe98912"
+msgstr ""
 
 msgid "Jonkler"
-msgstr "Jonkler"
+msgstr ""
 
 msgid "lil tanski"
-msgstr "lil tanski"
+msgstr ""
 
 msgid "MR. PETER"
-msgstr "MR. PETER"
+msgstr ""
 
 msgid "MSBen"
-msgstr "MSBen"
+msgstr ""
 
 msgid "Murder--Sans_MDR"
-msgstr "Murder--Sans_MDR"
+msgstr ""
 
 msgid "Nanorasmus"
-msgstr "Nanorasmus"
+msgstr ""
 
 msgid "NepAnime"
-msgstr "NepAnime"
+msgstr ""
 
 msgid "Shaun Duz Stuffs"
-msgstr "Shaun Duz Stuffs"
+msgstr ""
 
 msgid "SHCyank"
-msgstr "SHCyank"
+msgstr ""
 
 msgid "petar3644"
-msgstr "petar3644"
+msgstr ""
 
 msgid "PixelToons Jaafar"
-msgstr "PixelToons Jaafar"
+msgstr ""
 
 msgid "Prezmop"
-msgstr "Prezmop"
+msgstr ""
 
 msgid "prymus-agd"
-msgstr "prymus-agd"
+msgstr ""
 
 msgid "Quin"
-msgstr "Quin"
+msgstr ""
 
 msgid "RadicalRic"
-msgstr "RadicalRic"
+msgstr ""
 
 msgid "Raelynn"
-msgstr "Raelynn"
+msgstr ""
 
 msgid "retr22800"
-msgstr "retr22800"
+msgstr ""
 
 msgid "RoCtD_14159"
-msgstr "RoCtD_14159"
+msgstr ""
 
 msgid "sonicisawesome222"
-msgstr "sonicisawesome222"
+msgstr ""
 
 msgid "spaceknife234"
-msgstr "spaceknife234"
+msgstr ""
 
 msgid "superkippy"
-msgstr "superkippy"
+msgstr ""
 
 msgid "Teecup"
-msgstr "Teecup"
+msgstr ""
 
 msgid "Tem in a Cowboy Hat"
-msgstr "Tem in a Cowboy Hat"
+msgstr ""
 
 msgid "Tenbrooks"
-msgstr "Tenbrooks"
+msgstr ""
 
 msgid "The Fallen Angel"
-msgstr "The Fallen Angel"
+msgstr ""
 
 msgid "TheAsriel"
-msgstr "TheAsriel"
+msgstr ""
 
 msgid "Wild Pasta"
-msgstr "Wild Pasta"
+msgstr ""
 
 msgid "Xiao_Akatsuki"
-msgstr "Xiao_Akatsuki"
+msgstr ""
 
 msgid "xNoodlePlayz"
-msgstr "xNoodlePlayz"
+msgstr ""
 
 msgid "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§"
 msgstr "§fill=#ff0§< GRACIAS ESPECIALES >§fill=#fff§"
@@ -974,10 +974,10 @@ msgid "Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§"
 msgstr "Traído a usted por §fill=#ff0§The Mavis & Co.§fill=#fff§"
 
 msgid "(( CAST ))"
-msgstr "(( CAST ))"
+msgstr ""
 
 msgid "FROGGIT"
-msgstr "FROGGIT"
+msgstr ""
 
 msgid ""
 "Pondering\n"
@@ -1008,7 +1008,7 @@ msgstr ""
 " Miedo"
 
 msgid "FLUTTERLYTE"
-msgstr "FLUTTERLYTE"
+msgstr ""
 
 msgid ""
 "Learning To\n"
@@ -1039,7 +1039,7 @@ msgstr ""
 "Evasivamente"
 
 msgid "GELATINI"
-msgstr "GELATINI"
+msgstr ""
 
 msgid ""
 "Found A New\n"
@@ -1070,7 +1070,7 @@ msgstr ""
 "Galaxia"
 
 msgid "OCULOUX"
-msgstr "OCULOUX"
+msgstr ""
 
 msgid ""
 "Slightly\n"
@@ -1094,7 +1094,7 @@ msgstr ""
 "Coqueto"
 
 msgid "SILENTE"
-msgstr "SILENTE"
+msgstr ""
 
 msgid ""
 "Exceedingly\n"
@@ -1125,10 +1125,10 @@ msgstr ""
 "Del Peligro"
 
 msgid "MUSHY"
-msgstr "MUSHY"
+msgstr ""
 
 msgid "Balgamlı Kedi & ScarletScaledDragon"
-msgstr "Balgamlı Kedi & ScarletScaledDragon"
+msgstr ""
 
 msgid ""
 "Shooting\n"
@@ -1159,7 +1159,7 @@ msgstr ""
 "Rezando"
 
 msgid "LURKSALOT"
-msgstr "LURKSALOT"
+msgstr ""
 
 msgid ""
 "Keeping To\n"
@@ -1183,7 +1183,7 @@ msgstr ""
 "Estoicamente"
 
 msgid "STARDRAKE"
-msgstr "STARDRAKE"
+msgstr ""
 
 msgid ""
 "Still Looking\n"
@@ -1207,7 +1207,7 @@ msgstr ""
 "Adultos"
 
 msgid "CHILLDRAKE"
-msgstr "CHILLDRAKE"
+msgstr ""
 
 msgid ""
 "Still Looking\n"
@@ -1238,7 +1238,7 @@ msgstr ""
 "Anti-Acoso"
 
 msgid "ASTRO SERF"
-msgstr "ASTRO SERF"
+msgstr ""
 
 msgid ""
 "Thinking About\n"
@@ -1269,7 +1269,7 @@ msgstr ""
 "Emergencias"
 
 msgid "JERRY"
-msgstr "JERRY"
+msgstr ""
 
 msgid ""
 "Getting Ditched\n"
@@ -1293,10 +1293,10 @@ msgstr ""
 "Redención"
 
 msgid "WHIZKARAT"
-msgstr "WHIZKARAT"
+msgstr ""
 
 msgid "Zaxento The Greedy & semi"
-msgstr "Zaxento The Greedy & semi"
+msgstr ""
 
 msgid ""
 "Having An\n"
@@ -1327,7 +1327,7 @@ msgstr ""
 "A La Sociedad Gatuna"
 
 msgid "DOGGO"
-msgstr "DOGGO"
+msgstr ""
 
 msgid ""
 "Believes In The\n"
@@ -1389,7 +1389,7 @@ msgstr ""
 "Afecto"
 
 msgid "DOGAMY & DOGARESSA"
-msgstr "DOGAMY & DOGARESSA"
+msgstr ""
 
 msgid ""
 "Still Thinking\n"
@@ -1444,7 +1444,7 @@ msgstr ""
 "Los Cambios De La Vida"
 
 msgid "SKRUBBINGTON"
-msgstr "SKRUBBINGTON"
+msgstr ""
 
 msgid ""
 "Only 99.1\n"
@@ -1475,7 +1475,7 @@ msgstr ""
 "Máquina De Presión"
 
 msgid "GELATA"
-msgstr "GELATA"
+msgstr ""
 
 msgid ""
 "Looking For A\n"
@@ -1506,10 +1506,10 @@ msgstr ""
 "Libre Glorificado"
 
 msgid "RADTILE"
-msgstr "RADTILE"
+msgstr ""
 
 msgid "Balgamlı Kedi & Zaxento The Greedy"
-msgstr "Balgamlı Kedi & Zaxento The Greedy"
+msgstr ""
 
 msgid ""
 "Wallowing In\n"
@@ -1540,7 +1540,7 @@ msgstr ""
 "Feo Futuro"
 
 msgid "SHYREN"
-msgstr "SHYREN"
+msgstr ""
 
 msgid ""
 "Back To Taking\n"
@@ -1569,7 +1569,7 @@ msgstr ""
 "Un Sintetizador"
 
 msgid "DOGE"
-msgstr "DOGE"
+msgstr ""
 
 msgid ""
 "Construction Site\n"
@@ -1593,7 +1593,7 @@ msgstr ""
 "Por La Primera Vez"
 
 msgid "MUFFET"
-msgstr "MUFFET"
+msgstr ""
 
 msgid ""
 "Looking For Her\n"
@@ -1617,7 +1617,7 @@ msgstr ""
 "Profesional"
 
 msgid "HOTWIRE"
-msgstr "HOTWIRE"
+msgstr ""
 
 msgid ""
 "Waiting For The\n"
@@ -1648,7 +1648,7 @@ msgstr ""
 "Hasta La Muerte"
 
 msgid "TSUNDERIDEX"
-msgstr "TSUNDERIDEX"
+msgstr ""
 
 msgid ""
 "Flying Deeper\n"
@@ -1679,7 +1679,7 @@ msgstr ""
 "Su Pareja"
 
 msgid "PERIGEE"
-msgstr "PERIGEE"
+msgstr ""
 
 msgid ""
 "Another Day,\n"
@@ -1741,7 +1741,7 @@ msgstr ""
 "Guardia Real"
 
 msgid "GLYDE"
-msgstr "GLYDE"
+msgstr ""
 
 msgid ""
 "Not Your Ideal\n"
@@ -1765,7 +1765,7 @@ msgstr ""
 "Ideal"
 
 msgid "BURGERPANTS"
-msgstr "BURGERPANTS"
+msgstr ""
 
 msgid ""
 "Running Hastily\n"
@@ -1789,7 +1789,7 @@ msgstr ""
 "En Lo Que Le Viene En La Vida"
 
 msgid "COZMO"
-msgstr "COZMO"
+msgstr ""
 
 msgid ""
 "Looking For A\n"
@@ -1813,7 +1813,7 @@ msgstr ""
 "De Magia"
 
 msgid "TERRESTRIA"
-msgstr "TERRESTRIA"
+msgstr ""
 
 msgid ""
 "In Search Of\n"
@@ -1868,7 +1868,7 @@ msgstr ""
 "Para Sobrevivir"
 
 msgid "FLUTTERKNYTE"
-msgstr "FLUTTERKNYTE"
+msgstr ""
 
 msgid ""
 "Still Working\n"
@@ -1899,7 +1899,7 @@ msgstr ""
 "Por Miedo"
 
 msgid "EYEWALKER PRIME"
-msgstr "EYEWALKER PRIME"
+msgstr ""
 
 msgid ""
 "Still A\n"
@@ -1930,7 +1930,7 @@ msgstr ""
 "Un Oculoux"
 
 msgid "SILENCIO"
-msgstr "SILENCIO"
+msgstr ""
 
 msgid ""
 "Still A\n"
@@ -1961,10 +1961,10 @@ msgstr ""
 "Que Nunca Antes"
 
 msgid "MUSHKETEER"
-msgstr "MUSHKETEER"
+msgstr ""
 
 msgid "Balgamlı Kedi & Ghostly"
-msgstr "Balgamlı Kedi & Ghostly"
+msgstr ""
 
 msgid ""
 "One Mushroom\n"
@@ -1995,46 +1995,46 @@ msgstr ""
 "La Fuerza"
 
 msgid "PAPYRUS"
-msgstr "PAPYRUS"
+msgstr ""
 
 msgid "ProctorDorkchop02 & MattSpriteMaster"
-msgstr "ProctorDorkchop02 & MattSpriteMaster"
+msgstr ""
 
 msgid "SANS"
-msgstr "SANS"
+msgstr ""
 
 msgid "ProctorDorkchop02 & Fired"
-msgstr "ProctorDorkchop02 & Fired"
+msgstr ""
 
 msgid "UNDYNE"
-msgstr "UNDYNE"
+msgstr ""
 
 msgid "ALPHYS"
-msgstr "ALPHYS"
+msgstr ""
 
 msgid "MEW MEW"
-msgstr "MEW MEW"
+msgstr ""
 
 msgid "NAPSTABLOOK"
-msgstr "NAPSTABLOOK"
+msgstr ""
 
 msgid "METTATON"
-msgstr "METTATON"
+msgstr ""
 
 msgid "TORIEL"
-msgstr "TORIEL"
+msgstr ""
 
 msgid "ASGORE"
-msgstr "ASGORE"
+msgstr ""
 
 msgid "MONSTER KID"
-msgstr "MONSTER KID"
+msgstr ""
 
 msgid "ASRIEL"
-msgstr "ASRIEL"
+msgstr ""
 
 msgid "Medi0creking & MattSpriteMaster"
-msgstr "Medi0creking & MattSpriteMaster"
+msgstr ""
 
 msgid "[↑ or ↓] to Select / [Z or ENTER] to Confirm"
 msgstr "[↑ o ↓] para Elegir / [Z o INTRO] para Confirmar"
@@ -2156,7 +2156,7 @@ msgid "Restarting.."
 msgstr "Reiniciando.."
 
 msgid "OUTERTALE"
-msgstr "OUTERTALE"
+msgstr ""
 
 msgid "OUTERTALE...?"
 msgstr "¿OUTERTALE...?"
@@ -2239,7 +2239,7 @@ msgstr ""
 "Pulsa ESC para saltarte la configuración."
 
 msgid "Asriel"
-msgstr "Asriel"
+msgstr ""
 
 msgid "The Oblivion"
 msgstr "El Olvido"
@@ -2254,13 +2254,13 @@ msgid "Press [X] to Finish"
 msgstr "Pulsa [X] para Terminar."
 
 msgid "Frisk"
-msgstr "Frisk"
+msgstr ""
 
 msgid "G"
-msgstr "G"
+msgstr ""
 
 msgid "INF"
-msgstr "INF"
+msgstr ""
 
 msgid "[PRESS Z OR ENTER]"
 msgstr "[PRESIONA Z O ENTER]"
@@ -2283,13 +2283,13 @@ msgid "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}"
 msgstr ""
 
 msgid "No"
-msgstr "No"
+msgstr ""
 
 msgid "§fill=#0f0§NOMINAL"
-msgstr "§fill=#0f0§NOMINAL"
+msgstr ""
 
 msgid "$(x)%"
-msgstr "$(x)%"
+msgstr ""
 
 msgid "player"
 msgstr "jugador"
@@ -2298,7 +2298,7 @@ msgid "Settings"
 msgstr "Ajustes"
 
 msgid "?"
-msgstr "?"
+msgstr ""
 
 msgid "XM"
 msgstr "ME"
@@ -2329,7 +2329,7 @@ msgid "Go back"
 msgstr "Regresar"
 
 msgid "OUTERTALE V5.03 (c) 2024 SPACEY_432"
-msgstr "OUTERTALE V5.03 (c) 2024 SPACEY_432"
+msgstr ""
 
 msgid "* (HP fully restored.)"
 msgstr "* (PV restaurados.)"
@@ -2353,7 +2353,7 @@ msgid "EQUIP"
 msgstr "EQUIPAR"
 
 msgid "INFO"
-msgstr "INFO"
+msgstr ""
 
 msgid "DROP"
 msgstr "TIRAR"
@@ -2416,7 +2416,7 @@ msgid "FLASHING IMAGERY"
 msgstr "LUCES PARPADEANTES"
 
 msgid "NORMAL"
-msgstr "NORMAL"
+msgstr ""
 
 msgid "REDUCED"
 msgstr "REDUCIDAS"
@@ -2446,13 +2446,13 @@ msgid "ITEM"
 msgstr "OBJT"
 
 msgid "STAT"
-msgstr "STAT"
+msgstr ""
 
 msgid "CELL"
 msgstr "TELF"
 
 msgid "CONF"
-msgstr "CONF"
+msgstr ""
 
 msgid "--- Instruction ---"
 msgstr "--- Instrucciones ---"
@@ -2467,16 +2467,16 @@ msgid "Begin Game"
 msgstr "Empezar el Juego"
 
 msgid "AT"
-msgstr "AT"
+msgstr ""
 
 msgid "DF"
-msgstr "DF"
+msgstr ""
 
 msgid "GOLD"
 msgstr "ORO"
 
 msgid "NEXT"
-msgstr "NEXT"
+msgstr ""
 
 msgid ""
 "§fill=#ff0§Warning:\n"
@@ -2500,7 +2500,7 @@ msgid "STATUS"
 msgstr "ESTADO"
 
 msgid "\"$(x)\""
-msgstr "\"$(x)\""
+msgstr ""
 
 msgid ""
 "<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and"
@@ -2547,10 +2547,10 @@ msgstr ""
 "<24>Leyendas hablan de un lugar del que las naves nunca vuelven.{^35}{}"
 
 msgid "<24>{^100}{}"
-msgstr "<24>{^100}{}"
+msgstr ""
 
 msgid "<24>{^35}{}"
-msgstr "<24>{^35}{}"
+msgstr ""
 
 msgid "Resume Canon Timeline"
 msgstr "Continuar Línea Temporal Canónica"

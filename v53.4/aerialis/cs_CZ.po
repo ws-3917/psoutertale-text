@@ -40,7 +40,7 @@ msgid "<25>{#p/alphys}{#g/alphysNeutralSweat}* Seriously."
 msgstr "<25>{#p/alphys}{#g/alphysNeutralSweat}* Vážně."
 
 msgid "<25>{#p/alphys}{#g/alphysNeutralSweat}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysNeutralSweat}* ..."
+msgstr ""
 
 msgid "<32>{#p/human}* (You notice you're alone.)"
 msgstr "<32>{#p/human}* (Všimli jste si, že jste sami.)"

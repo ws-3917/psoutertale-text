@@ -1432,7 +1432,7 @@ export default {
                SAVE.data.b.killed_mettaton
                   ? [ '<32>{#p/basic}{#npc/a}* So c-c-cold...' ]
                   : SAVE.data.n.plot === 33
-                  ? [ '<32>{#p/basic}{#npc/a}* 衫~衫~' ]
+                  ? [ '<32>{#p/basic}{#npc/a}* Sansyyyy...' ]
                   : SAVE.data.n.plot === 72
                   ? [ '<32>{#p/basic}{#npc/a}* S-soooooo ready!' ]
                   : papreal() || world.dead_dog
@@ -2628,7 +2628,7 @@ export default {
                     SAVE.data.b.svr
                        ? '<32>{#p/human}* (You move towards the computer...)'
                        : "<32>{#p/basic}* 電腦的瀏覽器\n  打開了一個\n  社交媒體網站。",
-                    choicer.create("* (Log in to 帕派瑞斯's account?)", '是', '否')
+                    choicer.create("* (Log in to Papyrus's account?)", '是', '否')
                  ],
          () =>
             postSIGMA()
@@ -2637,14 +2637,14 @@ export default {
                     SAVE.data.b.svr
                        ? '<32>{#p/human}* (You move towards the computer...)'
                        : "<32>{#p/basic}* 電腦的瀏覽器\n  打開了一個\n  社交媒體網站。",
-                    choicer.create("* (Log in to 帕派瑞斯's account?)", '是', '否')
+                    choicer.create("* (Log in to Papyrus's account?)", '是', '否')
                  ]
       ),
       papcomputer2: [ '<32>{#p/human}* （你決定先不登入。）' ],
       papcomputer3: {
          a: '酷炫骷髏95',
          b: '-2 FOLLOWERS',
-         c: 'THIS ACCOUNT\nIS OWNED BY\nTHE GREAT\n帕派瑞斯.\nHIGH-QUALITY\nPOSTS ONLY!',
+         c: 'THIS ACCOUNT\nIS OWNED BY\nTHE GREAT\nPAPYRUS.\nHIGH-QUALITY\nPOSTS ONLY!',
          d: '- NEWS -',
          e: () =>
             world.runaway
@@ -2675,7 +2675,7 @@ export default {
          () =>
             world.runaway
                ? {
-                    a: '艾菲斯',
+                    a: 'ALPHYS',
                     b: 'TODAY',
                     c: '< 訊息已刪除 >'
                  }
@@ -2687,19 +2687,19 @@ export default {
                  }
                : SAVE.data.n.plot < 34
                ? {
-                    a: '納普斯特22',
+                    a: 'NAPSTABLOOK22',
                     b: 'TODAY',
                     c: 'this is why i never go\nonline anymore... nothing\nmeaningful ever happens'
                  }
                : world.genocide
                ? {
-                    a: '納普斯特22',
+                    a: 'NAPSTABLOOK22',
                     b: 'TODAY',
                     c: "沒關係的...\n我是幽靈..."
                  }
                : world.dead_skeleton
                ? {
-                    a: '納普斯特22',
+                    a: 'NAPSTABLOOK22',
                     b: 'TODAY',
                     c: "嗯...\n我還是去忙這首曲子的\n混音吧..."
                  }
@@ -2719,7 +2719,7 @@ export default {
                  }
                : SAVE.data.n.plot === 72
                ? {
-                    a: '艾菲斯',
+                    a: 'ALPHYS',
                     b: 'TODAY',
                     c: '哎呀，\n我忘了關伺服器了'
                  }
@@ -2727,7 +2727,7 @@ export default {
                ? {
                     a: '壯魚91',
                     b: 'YESTERDAY',
-                    c: 'uh... dont you say that\nEVERY day, 帕派瑞斯?'
+                    c: 'uh... dont you say that\nEVERY day, Papyrus?'
                  }
                : world.genocide
                ? {
@@ -2767,19 +2767,19 @@ export default {
                  }
                : world.genocide
                ? {
-                    a: '納普斯特22',
+                    a: 'NAPSTABLOOK22',
                     b: 'TODAY',
                     c: '呃...\n我有什麼能幫忙的嗎？\n事情變得更糟了...'
                  }
                : {
-                    a: '納普斯特22',
+                    a: 'NAPSTABLOOK22',
                     b: 'TODAY',
                     c: '所以... 帕派瑞斯\n抓到人類了嗎？還是...'
                  }
       ] as (() => { a: string; b: string; c: string; d?: boolean })[],
       papcomputer5: () =>
          world.runaway
-            ? [ '弗裡斯克', "你敢", '跟過來', '試試' ]
+            ? [ 'FRISK', "你敢", '跟過來', '試試' ]
             : SAVE.data.n.plot === 72
             ? [ '對不起', "但我們", '停服啦', 'LMAO' ]
             : [ '刷新頁面', '查看訊息', '聊天設定', '登出' ],
@@ -3318,7 +3318,7 @@ export default {
                  "<15>{#f/21}YOU'D BE BETTER OFF IF YOU LIVED MORE FOR YOUR OWN SAKE.",
                  '<15>{#f/21}RATHER THAN JUST FOR MINE.',
                  '<15>{#f/10}FORTUNATELY, I KNOW THE SOLUTION!!!',
-                 '<15>{#f/20}A HANGOUT WITH MY BOSS, 安黛因!!!',
+                 '<15>{#f/20}A HANGOUT WITH MY BOSS, UNDYNE!!!',
                  '<15>{#f/24}I THINK IF YOU SPREAD OUT YOUR FRIEND ENERGY A BIT MORE...',
                  "<15>{#f/10}YOU'D LEAD A MUCH HEALTHIER LIFESTYLE.",
                  ...(SAVE.data.n.plot < 48
@@ -3336,7 +3336,7 @@ export default {
                  '<15>{#f/24}當然，\n是柏拉圖式的。',
                  ...(SAVE.data.n.plot < 48
                     ? [ '<15>{#f/10}那麼，\n我先走啦！' ]
-                    : [ "<15>{#f/10}WELL, SEE YOU AT 安黛因'S HOUSE!" ])
+                    : [ "<15>{#f/10}WELL, SEE YOU AT UNDYNE'S HOUSE!" ])
               ]
             : SAVE.data.n.plot < 48
             ? [ '<15>{#f/10}那麼，\n我先走啦！' ]
@@ -3436,7 +3436,7 @@ export default {
          '<18>{#p/papyrus}{#f/1}什麼！？\n你是怎麼避開\n我的陷阱的？',
          '<18>{#f/4}還有，比起這個...',
          '<18>{#f/0}還有剩的給我嗎？？？',
-         choicer.create('* (What do you tell 帕派瑞斯\n  about his spaghetti?)', take ? 'Took it' : 'Left it', 'Ate it'),
+         choicer.create('* (What do you tell Papyrus\n  about his spaghetti?)', take ? 'Took it' : 'Left it', 'Ate it'),
          '<18>{#p/papyrus}真的！？'
       ],
       papspaghet1a: () => [
@@ -5623,7 +5623,7 @@ export default {
          sans8: [ "<32>{#p/basic}* I'm just as confused as you." ],
          sans9: [ '<32>{#p/basic}* Oh, come on!\n* I wanted to see it in action!', '<32>* ... oh well...' ],
          papdate: () => [
-            '<32>{#p/basic}* So... 帕派瑞斯, huh?',
+            '<32>{#p/basic}* So... Papyrus, huh?',
             SAVE.data.n.plot > 64.1
                ? '<32>* After all this time, you finally became friends.'
                : '<32>* Somehow I knew you two would end up as friends.',
@@ -5661,7 +5661,7 @@ export default {
             : [ '<32>{#p/basic}* ...但是誰也沒有來。' ],
       xtowerHiscoreNames: {
          kidd: '超愛安黛因10',
-         napstablook: '納普斯特22',
+         napstablook: 'NAPSTABLOOK22',
          papyrus: '酷炫骷髏95',
          sans: '懶骨.',
          undyne: '壯魚91',
@@ -5917,7 +5917,7 @@ export default {
          SAVE.data.b.s_state_chilldrake
             ? [ '<32>{#p/human}* (You double down on your agreement with Chilldrake.)' ]
             : [ "<32>{#p/human}* (You continue to laugh at Stardrake's puns.)" ],
-      name: () => (SAVE.data.b.s_state_chilldrake ? '* 小酷龍' : '* 星鐵龍'),
+      name: () => (SAVE.data.b.s_state_chilldrake ? '* Chilldrake' : '* Stardrake'),
       punTalk1: () =>
          SAVE.data.b.s_state_chilldrake
             ? [ '<08>{#p/basic}{~}Only Starry can do that.' ]
@@ -6017,7 +6017,7 @@ export default {
          SAVE.data.b.spared_jerry
             ? [ '<08>{#p/basic}{~}I love humans!' ]
             : [ '<08>{#p/basic}{~}Must be nice being HUMAN..' ],
-      name: '* 傑瑞',
+      name: '* Jerry',
       randStatus1: () =>
          SAVE.data.b.spared_jerry
             ? [ '<32>{#p/story}* Jerry is living care-free.' ]
@@ -6092,7 +6092,7 @@ export default {
       initTalk2: [ '<08>{#p/basic}{~}Oh, how I lose myself..' ],
       initTalk3: [ '<08>{#p/basic}{~}事態\n並不\n理想。' ],
       initTalk4: [ '<08>{#p/basic}{~}Could you help me?' ],
-      name: '* 紳鼠貓',
+      name: '* Whizkarat',
       randStatus1: [ '<32>{#p/story}* Whizkarat fantasizes about getting down on all fours.' ],
       randStatus2: [ '<32>{#p/story}* Whizkarat scans the area.' ],
       randStatus3: [ '<32>{#p/story}* 紳鼠貓正試圖裝成\n  自己很小的樣子。' ],
@@ -6133,7 +6133,7 @@ export default {
       flirt1: [ '<11>{#p/basic}{~}（情不自禁\n地臉紅）' ],
       invisStatus: () =>
          world.goatbro ? [ "<32>{#p/asriel2}* 不堪一擊。" ] : [ '<32>{#p/story}* 遁狗找不到你了。' ],
-      name: '* 遁狗',
+      name: '* Doggo',
       fetchStatus: [ '<32>{#p/story}* 遁狗喜歡巡迴遊戲！' ],
       fetchpet: [ '<32>{#p/human}* （但是遁狗忙於尋找扳手，\n  沒時間讓你摸。）' ],
       fetchflirt: [ '<32>{#p/human}* （但是遁狗忙於尋找扳手，\n  沒時間聽你說話。）' ],
@@ -6222,7 +6222,7 @@ export default {
          world.goatbro
             ? [ '<32>{#p/asriel2}* 離死不遠了。' ]
             : [ '<32>{#p/story}* 小犬座將它的尾巴\n  夾到兩條腿之間。' ],
-      name: '* 小犬座',
+      name: '* Canis Minor',
       petTalk1: [ '<11>{#p/basic}{~}（喘氣 \n喘氣）' ],
       petTalk2: [ '<11>{#p/basic}{~}（輕微的\n犬叫聲）' ],
       petTalk3: [ '<11>{#p/basic}{~}（尾巴\n搖搖）' ],
@@ -6390,7 +6390,7 @@ export default {
       loneTalk1: [ '<11>{#p/basic}{~}汪嗚！' ],
       loneTalk2: [ '<11>{#p/basic}{~}嗚——' ],
       loneTalk3: [ '<11>{#p/basic}{~}嗷嗚...' ],
-      name: '* 狗來米',
+      name: '* Dogamy',
       fetchStatus: [ '<32>{#p/story}* 已婚的狗喜歡巡迴遊戲！' ],
       fetchStatusX: [ "<32>{#p/story}* 狗狗們的思緒正指數增長！" ],
       otherPet: [ '<11>{#p/basic}{~}...' ],
@@ -6513,7 +6513,7 @@ export default {
          world.goatbro ? [ '<32>{#p/asriel2}* 只剩一個了。' ] : [ '<32>{#p/story}* 狗來米心碎了。' ],
       loneTalk1: [ '<11>{#p/basic}{~}（會讓你\n好受的。）' ],
       loneTalk2: [ "<11>{#p/basic}{~}（你會為此\n受苦的。）" ],
-      name: '* 狗媳兒',
+      name: '* Dogaressa',
       otherPet: [ '<11>{#p/basic}{~}（...）' ],
       petNeedStatus: () =>
          world.goatbro
@@ -6585,7 +6585,7 @@ export default {
             : [ '<32>{#p/story}* 大犬座只是想要一些關愛。' ],
       ignoreStatus2: () =>
          world.goatbro ? [ '<32>{#p/asriel2}* 大犬座。' ] : [ '<32>{#p/story}* 大犬座正在賣萌。' ],
-      name: '* 大犬座',
+      name: '* Canis Major',
       fetchStatus: [ '<32>{#p/story}* 大犬座喜歡巡迴遊戲！' ],
       petStatus1: () =>
          world.goatbro
@@ -6758,7 +6758,7 @@ export default {
       insult2: [ "<15>{#p/papyrus}{#f/15}THERE'S NO NEED TO LIE TO YOURSELF!!!" ],
       insult3: [ "<32>{#p/human}* (No effect...)\n* (Seems acting won't escalate this battle any further.)" ],
       insult4: [ '<32>{#p/human}* （但帕派瑞斯現在忙於戰鬥，\n  沒時間聽你說話。）' ],
-      name: '* 帕派瑞斯',
+      name: '* Papyrus',
       randomStatus1: [ '<32>{#p/story}* 帕派瑞斯正在準備一記\n  骨頭攻擊。' ],
       randomStatus2: [ '<32>{#p/story}* 帕派瑞斯準備了一記非骨頭攻擊，\n  然後花了一分鐘的時間來糾正錯誤。' ],
       randomStatus3: [ '<32>{#p/story}* 帕派瑞斯正在做飯。' ],
@@ -7020,7 +7020,7 @@ export default {
          '<11>{#f/1}我本人不在這，\n艾斯利爾。',
          "<11>{#f/2}這不過\n是個投影。"
       ],
-      name: '* 艾斯戈爾',
+      name: '* Asgore',
       status1: [ '<32>{#p/asriel2}* 現在殺了他，$(name)。' ],
       status2: [ '<32>{#p/asriel2}* ...' ]
    },
@@ -7525,7 +7525,7 @@ export default {
    i_fryz: {
       battle: {
          description: 'For once, it\'s not just \"pleasantly warm.\"',
-         name: '烤爾比'
+         name: 'Grillby'
       },
       drop: [ "<32>{#p/human}* (You tossed the Flamin' Grillby like a molotov.)" ],
       info: () =>
@@ -7588,7 +7588,7 @@ export default {
       description: () =>
          SAVE.data.b.s_state_inverter
             ? '用它激活了與之匹配的\n重力轉換器。'
-            : "Acquired from the unsealed envelope in 衫斯's room."
+            : "Acquired from the unsealed envelope in Sans's room."
    },
 
    k_security: {
@@ -7702,13 +7702,13 @@ export default {
                        ? '你的家人'
                        : 'Your Life'
                     : 63 <= SAVE.data.n.plot && SAVE.data.b.a_state_hapstablook
-                    ? '鎂塔頓'
+                    ? 'Mettaton'
                     : 60 <= SAVE.data.n.plot
                     ? '喵喵玩偶'
                     : 48 <= SAVE.data.n.plot
                     ? '旅途'
                     : SAVE.data.b.napsta_performance
-                    ? 'DJ 小幽?'
+                    ? 'DJ Blooky?'
                     : SAVE.data.n.state_wastelands_napstablook === 0
                     ? '納普斯文？'
                     : 'Your Life',
@@ -8056,8 +8056,8 @@ export default {
    c_name_starton: {
       papyrus: () =>
          SAVE.data.n.plot_date < 2 || (SAVE.data.n.exp > 0 && SAVE.data.b.a_state_fishbetray)
-            ? "帕派瑞斯's Phone"
-            : '帕派瑞斯 and 安黛因'
+            ? "Papyrus's Phone"
+            : 'Papyrus and Undyne'
    },
 
    c_call_papyrus: <Partial<CosmosKeyed<CosmosProvider<string[]>>>>{

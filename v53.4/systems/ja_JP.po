@@ -160,7 +160,7 @@ msgid "WeakenAll"
 msgstr "敵全体を弱体化"
 
 msgid "$(x) FPS"
-msgstr "$(x) FPS"
+msgstr ""
 
 msgid "Halt"
 msgstr "一時停止"
@@ -211,19 +211,19 @@ msgid "TYPES"
 msgstr "タイプ"
 
 msgid "Base"
-msgstr "Base"
+msgstr ""
 
 msgid "Below"
-msgstr "Below"
+msgstr ""
 
 msgid "Main"
-msgstr "Main"
+msgstr ""
 
 msgid "Above"
-msgstr "Above"
+msgstr ""
 
 msgid "Menu"
-msgstr "Menu"
+msgstr ""
 
 msgid "Hitbox"
 msgstr "攻撃枠"
@@ -319,7 +319,7 @@ msgid "Duration"
 msgstr "継続時間"
 
 msgid "EXP"
-msgstr "EXP"
+msgstr ""
 
 msgid "Extent"
 msgstr ""
@@ -352,7 +352,7 @@ msgid "Group"
 msgstr "グループ"
 
 msgid "HP"
-msgstr "HP"
+msgstr ""
 
 msgid "Index"
 msgstr ""
@@ -478,7 +478,7 @@ msgid "True"
 msgstr "はい"
 
 msgid "UNKNOWN"
-msgstr "UNKNOWN"
+msgstr ""
 
 msgid "Up"
 msgstr "上"
@@ -606,7 +606,7 @@ msgid "§fill=#ff0§< DEVELOPER >§fill=#fff§"
 msgstr "§fill=#ff0§< かいはつ >§fill=#fff§"
 
 msgid "spacey_432"
-msgstr "spacey_432"
+msgstr ""
 
 msgid ""
 msgstr ""
@@ -615,280 +615,280 @@ msgid "§fill=#ff0§< WRITER >§fill=#fff§"
 msgstr "§fill=#ff0§< テキスト >§fill=#fff§"
 
 msgid "Balgamlı Kedi"
-msgstr "Balgamlı Kedi"
+msgstr ""
 
 msgid "Bilge \"mnwary\""
-msgstr "Bilge \"mnwary\""
+msgstr ""
 
 msgid "Dischnie"
-msgstr "Dischnie"
+msgstr ""
 
 msgid "Efe Kaya"
-msgstr "Efe Kaya"
+msgstr ""
 
 msgid "Ghostly"
-msgstr "Ghostly"
+msgstr ""
 
 msgid "InvincibleRacoon"
-msgstr "InvincibleRacoon"
+msgstr ""
 
 msgid "Jojoton56"
-msgstr "Jojoton56"
+msgstr ""
 
 msgid "Kiwi \"Quinn\""
-msgstr "Kiwi \"Quinn\""
+msgstr ""
 
 msgid "My Aster"
 msgstr ""
 
 msgid "neo9174"
-msgstr "neo9174"
+msgstr ""
 
 msgid "Rise"
-msgstr "Rise"
+msgstr ""
 
 msgid "ThatGuyWhoLikesFood"
-msgstr "ThatGuyWhoLikesFood"
+msgstr ""
 
 msgid "Turbulation"
-msgstr "Turbulation"
+msgstr ""
 
 msgid "Zaxento The Greedy"
-msgstr "Zaxento The Greedy"
+msgstr ""
 
 msgid "§fill=#ff0§< ARTIST >§fill=#fff§"
 msgstr "§fill=#ff0§< びじゅつ >§fill=#fff§"
 
 msgid "Burge"
-msgstr "Burge"
+msgstr ""
 
 msgid "Deskius"
-msgstr "Deskius"
+msgstr ""
 
 msgid "DESM.al"
-msgstr "DESM.al"
+msgstr ""
 
 msgid "Discarded Vessel"
-msgstr "Discarded Vessel"
+msgstr ""
 
 msgid "Fired"
-msgstr "Fired"
+msgstr ""
 
 msgid "Funtermore"
-msgstr "Funtermore"
+msgstr ""
 
 msgid "HolyOranges"
-msgstr "HolyOranges"
+msgstr ""
 
 msgid "major_memestar"
-msgstr "major_memestar"
+msgstr ""
 
 msgid "MattSpriteMaster"
-msgstr "MattSpriteMaster"
+msgstr ""
 
 msgid "Medi0creking"
-msgstr "Medi0creking"
+msgstr ""
 
 msgid "NerNot1"
-msgstr "NerNot1"
+msgstr ""
 
 msgid "PhyreFM"
-msgstr "PhyreFM"
+msgstr ""
 
 msgid "Pongy25"
-msgstr "Pongy25"
+msgstr ""
 
 msgid "PoTheWinterCorder"
-msgstr "PoTheWinterCorder"
+msgstr ""
 
 msgid "ProctorDorkchop02"
-msgstr "ProctorDorkchop02"
+msgstr ""
 
 msgid "ScarletScaledDragon"
-msgstr "ScarletScaledDragon"
+msgstr ""
 
 msgid "semi"
-msgstr "semi"
+msgstr ""
 
 msgid "Soup Taels"
-msgstr "Soup Taels"
+msgstr ""
 
 msgid "SquigglyWiggley"
-msgstr "SquigglyWiggley"
+msgstr ""
 
 msgid "Starkiteckt"
-msgstr "Starkiteckt"
+msgstr ""
 
 msgid "supper12"
-msgstr "supper12"
+msgstr ""
 
 msgid "Valor52"
-msgstr "Valor52"
+msgstr ""
 
 msgid "§fill=#ff0§< TECHNICIAN >§fill=#fff§"
 msgstr "§fill=#ff0§< ぎじゅつ >§fill=#fff§"
 
 msgid "Codetoil"
-msgstr "Codetoil"
+msgstr ""
 
 msgid "ryi3r"
 msgstr ""
 
 msgid "ws3917"
-msgstr "ws3917"
+msgstr ""
 
 msgid "§fill=#ff0§< TESTER >§fill=#fff§"
 msgstr "§fill=#ff0§< テスター >§fill=#fff§"
 
 msgid "Alden"
-msgstr "Alden"
+msgstr ""
 
 msgid "Aspey"
-msgstr "Aspey"
+msgstr ""
 
 msgid "blue"
-msgstr "blue"
+msgstr ""
 
 msgid "Brad"
-msgstr "Brad"
+msgstr ""
 
 msgid "brayjamin"
-msgstr "brayjamin"
+msgstr ""
 
 msgid "ClamsyMoe"
-msgstr "ClamsyMoe"
+msgstr ""
 
 msgid "delta"
-msgstr "delta"
+msgstr ""
 
 msgid "DR4GON HE4RT"
-msgstr "DR4GON HE4RT"
+msgstr ""
 
 msgid "Dubituar"
-msgstr "Dubituar"
+msgstr ""
 
 msgid "Emurry"
-msgstr "Emurry"
+msgstr ""
 
 msgid "Enzolos"
-msgstr "Enzolos"
+msgstr ""
 
 msgid "EvanGamesGoodman"
-msgstr "EvanGamesGoodman"
+msgstr ""
 
 msgid "FireWizard72X"
-msgstr "FireWizard72X"
+msgstr ""
 
 msgid "FuLiNT"
-msgstr "FuLiNT"
+msgstr ""
 
 msgid "gardnaeden"
-msgstr "gardnaeden"
+msgstr ""
 
 msgid "Gon UT"
-msgstr "Gon UT"
+msgstr ""
 
 msgid "Green Tea"
-msgstr "Green Tea"
+msgstr ""
 
 msgid "Huggies!"
-msgstr "Huggies!"
+msgstr ""
 
 msgid "ilovecookies"
-msgstr "ilovecookies"
+msgstr ""
 
 msgid "Jago128"
-msgstr "Jago128"
+msgstr ""
 
 msgid "Joe98912"
-msgstr "Joe98912"
+msgstr ""
 
 msgid "Jonkler"
-msgstr "Jonkler"
+msgstr ""
 
 msgid "lil tanski"
-msgstr "lil tanski"
+msgstr ""
 
 msgid "MR. PETER"
-msgstr "MR. PETER"
+msgstr ""
 
 msgid "MSBen"
-msgstr "MSBen"
+msgstr ""
 
 msgid "Murder--Sans_MDR"
-msgstr "Murder--Sans_MDR"
+msgstr ""
 
 msgid "Nanorasmus"
-msgstr "Nanorasmus"
+msgstr ""
 
 msgid "NepAnime"
-msgstr "NepAnime"
+msgstr ""
 
 msgid "Shaun Duz Stuffs"
-msgstr "Shaun Duz Stuffs"
+msgstr ""
 
 msgid "SHCyank"
-msgstr "SHCyank"
+msgstr ""
 
 msgid "petar3644"
-msgstr "petar3644"
+msgstr ""
 
 msgid "PixelToons Jaafar"
-msgstr "PixelToons Jaafar"
+msgstr ""
 
 msgid "Prezmop"
-msgstr "Prezmop"
+msgstr ""
 
 msgid "prymus-agd"
-msgstr "prymus-agd"
+msgstr ""
 
 msgid "Quin"
-msgstr "Quin"
+msgstr ""
 
 msgid "RadicalRic"
-msgstr "RadicalRic"
+msgstr ""
 
 msgid "Raelynn"
-msgstr "Raelynn"
+msgstr ""
 
 msgid "retr22800"
-msgstr "retr22800"
+msgstr ""
 
 msgid "RoCtD_14159"
-msgstr "RoCtD_14159"
+msgstr ""
 
 msgid "sonicisawesome222"
-msgstr "sonicisawesome222"
+msgstr ""
 
 msgid "spaceknife234"
-msgstr "spaceknife234"
+msgstr ""
 
 msgid "superkippy"
-msgstr "superkippy"
+msgstr ""
 
 msgid "Teecup"
-msgstr "Teecup"
+msgstr ""
 
 msgid "Tem in a Cowboy Hat"
-msgstr "Tem in a Cowboy Hat"
+msgstr ""
 
 msgid "Tenbrooks"
-msgstr "Tenbrooks"
+msgstr ""
 
 msgid "The Fallen Angel"
-msgstr "The Fallen Angel"
+msgstr ""
 
 msgid "TheAsriel"
-msgstr "TheAsriel"
+msgstr ""
 
 msgid "Wild Pasta"
-msgstr "Wild Pasta"
+msgstr ""
 
 msgid "Xiao_Akatsuki"
-msgstr "Xiao_Akatsuki"
+msgstr ""
 
 msgid "xNoodlePlayz"
-msgstr "xNoodlePlayz"
+msgstr ""
 
 msgid "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§"
 msgstr "§fill=#ff0§< スペシャル・サンクス >§fill=#fff§"
@@ -978,7 +978,7 @@ msgid "Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§"
 msgstr "§fill=#ff0§Mavisとおともたち§fill=#fff§　ていきょう"
 
 msgid "(( CAST ))"
-msgstr "(( CAST ))"
+msgstr ""
 
 msgid "FROGGIT"
 msgstr "フロギー"
@@ -1127,7 +1127,7 @@ msgid "MUSHY"
 msgstr ""
 
 msgid "Balgamlı Kedi & ScarletScaledDragon"
-msgstr "Balgamlı Kedi & ScarletScaledDragon"
+msgstr ""
 
 msgid ""
 "Shooting\n"
@@ -1288,7 +1288,7 @@ msgid "WHIZKARAT"
 msgstr ""
 
 msgid "Zaxento The Greedy & semi"
-msgstr "Zaxento The Greedy & semi"
+msgstr ""
 
 msgid ""
 "Having An\n"
@@ -1500,7 +1500,7 @@ msgid "RADTILE"
 msgstr ""
 
 msgid "Balgamlı Kedi & Zaxento The Greedy"
-msgstr "Balgamlı Kedi & Zaxento The Greedy"
+msgstr ""
 
 msgid ""
 "Wallowing In\n"
@@ -1945,7 +1945,7 @@ msgid "MUSHKETEER"
 msgstr ""
 
 msgid "Balgamlı Kedi & Ghostly"
-msgstr "Balgamlı Kedi & Ghostly"
+msgstr ""
 
 msgid ""
 "One Mushroom\n"
@@ -1979,13 +1979,13 @@ msgid "PAPYRUS"
 msgstr "パピルス"
 
 msgid "ProctorDorkchop02 & MattSpriteMaster"
-msgstr "ProctorDorkchop02 & MattSpriteMaster"
+msgstr ""
 
 msgid "SANS"
 msgstr "サンズ"
 
 msgid "ProctorDorkchop02 & Fired"
-msgstr "ProctorDorkchop02 & Fired"
+msgstr ""
 
 msgid "UNDYNE"
 msgstr "アンダイン"
@@ -2015,7 +2015,7 @@ msgid "ASRIEL"
 msgstr "アズリエル"
 
 msgid "Medi0creking & MattSpriteMaster"
-msgstr "Medi0creking & MattSpriteMaster"
+msgstr ""
 
 msgid "[↑ or ↓] to Select / [Z or ENTER] to Confirm"
 msgstr "[↑ / ↓]で　せんたく / [Z / ENTER]で　けってい"
@@ -2036,7 +2036,7 @@ msgstr ""
 "変更してください。\n"
 
 msgid "§fill=#808080§Press [Z or ENTER] to Continue"
-msgstr "§fill=#808080§Press [Z or ENTER] to Continue"
+msgstr ""
 
 msgid "Quitting"
 msgstr "しゅうりょうしています"
@@ -2137,7 +2137,7 @@ msgid "Take care of yourself, \"$(x).\""
 msgstr "じぶんのことを　だいいちに。　$(x)。"
 
 msgid "THE END"
-msgstr "THE END"
+msgstr ""
 
 msgid "THE END...?"
 msgstr "THE END…？"
@@ -2152,10 +2152,10 @@ msgid "Restarting.."
 msgstr "さいきどうしています……"
 
 msgid "OUTERTALE"
-msgstr "OUTERTALE"
+msgstr ""
 
 msgid "OUTERTALE...?"
-msgstr "OUTERTALE...?"
+msgstr ""
 
 msgid "GAMEPAD SETUP"
 msgstr "コントローラーせってい"
@@ -2255,16 +2255,16 @@ msgid "Frisk"
 msgstr "フリスク"
 
 msgid "G"
-msgstr "G"
+msgstr ""
 
 msgid "INF"
-msgstr "INF"
+msgstr ""
 
 msgid "[PRESS Z OR ENTER]"
-msgstr "[PRESS Z OR ENTER]"
+msgstr ""
 
 msgid "LV"
-msgstr "LV"
+msgstr ""
 
 msgid ""
 "§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§"
@@ -2288,10 +2288,10 @@ msgid "No"
 msgstr "いいえ"
 
 msgid "§fill=#0f0§NOMINAL"
-msgstr "§fill=#0f0§NOMINAL"
+msgstr ""
 
 msgid "$(x)%"
-msgstr "$(x)%"
+msgstr ""
 
 msgid "player"
 msgstr ""
@@ -2300,10 +2300,10 @@ msgid "Settings"
 msgstr "せってい"
 
 msgid "?"
-msgstr "?"
+msgstr ""
 
 msgid "XM"
-msgstr "XM"
+msgstr ""
 
 msgid "Yes"
 msgstr "はい"
@@ -2351,16 +2351,16 @@ msgid "* (You gained $(x) HP.)"
 msgstr "＊(HPが　$(x)かくとくした)"
 
 msgid "USE"
-msgstr "USE"
+msgstr ""
 
 msgid "EQUIP"
-msgstr "EQUIP"
+msgstr ""
 
 msgid "INFO"
-msgstr "INFO"
+msgstr ""
 
 msgid "DROP"
-msgstr "DROP"
+msgstr ""
 
 msgid "Continue"
 msgstr "コンティニュー"
@@ -2454,10 +2454,10 @@ msgid "RESTART"
 msgstr "さいきどう"
 
 msgid "ITEM"
-msgstr "ITEM"
+msgstr ""
 
 msgid "STAT"
-msgstr "STAT"
+msgstr ""
 
 msgid "CELL"
 msgstr "PHONE"
@@ -2484,10 +2484,10 @@ msgid "DF"
 msgstr "DEF"
 
 msgid "GOLD"
-msgstr "GOLD"
+msgstr ""
 
 msgid "NEXT"
-msgstr "NEXT"
+msgstr ""
 
 msgid ""
 "§fill=#ff0§Warning:\n"
@@ -2499,7 +2499,7 @@ msgstr ""
 "タイムライン"
 
 msgid "KILLS"
-msgstr "KILLS"
+msgstr ""
 
 msgid "BULLY"
 msgstr "\\u4dc2"
@@ -2508,10 +2508,10 @@ msgid "FLIRT"
 msgstr "\\u4dc1"
 
 msgid "STATUS"
-msgstr "STATUS"
+msgstr ""
 
 msgid "\"$(x)\""
-msgstr "\"$(x)\""
+msgstr ""
 
 msgid ""
 "<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and"

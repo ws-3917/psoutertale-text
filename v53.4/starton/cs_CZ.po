@@ -84,7 +84,7 @@ msgstr ""
 "* Opravdu, to je nějaké nekonvenční myšlení."
 
 msgid "<32>{#p/basic}* ..."
-msgstr "<32>{#p/basic}* ..."
+msgstr ""
 
 msgid "<32>* Asriel and I had a telescope just like this."
 msgstr "<32>* Asriel a já jsme měli dalekohled přesně takový."
@@ -243,7 +243,7 @@ msgid "Track 01"
 msgstr "Trasa 01"
 
 msgid "???"
-msgstr "???"
+msgstr ""
 
 msgid "Track 02"
 msgstr "Trasa 02"
@@ -315,9 +315,6 @@ msgid ""
 "* ...\n"
 "* ..."
 msgstr ""
-"<32>{#p/basic}* ...\n"
-"* ...\n"
-"* ..."
 
 msgid "<32>{#npc/a}* Grillbz says he's heard this song somewhere before."
 msgstr "<32>{#npc/a}* Grillbz říká, že tuhle píseň už někde slyšel."
@@ -452,7 +449,7 @@ msgid "<32>{#p/asriel2}* Fight... the ideal choice."
 msgstr "<32>{#p/asriel2}* Boj... ideální volbou."
 
 msgid "<32>{#p/asriel2}* Hee hee hee..."
-msgstr "<32>{#p/asriel2}* Hee hee hee..."
+msgstr ""
 
 msgid ""
 "<15>{#p/papyrus}{#e/papyrus/27}SANS!\n"
@@ -465,13 +462,13 @@ msgid "<20>{#p/sans}papyrus, didn't i tell you to stay at home?"
 msgstr "<20>{#p/sans}papyrus, neříkal jsem ti, abys zůstal doma?"
 
 msgid "{*}{#e/papyrus/21}{%}"
-msgstr "{*}{#e/papyrus/21}{%}"
+msgstr ""
 
 msgid "<20>{#p/sans}... don't worry bro, it's just yamok sauce."
 msgstr "<20>{#p/sans}... Neboj se, brácho, je to jen yamok omáčka."
 
 msgid "{*}{#e/papyrus/26}{%}"
-msgstr "{*}{#e/papyrus/26}{%}"
+msgstr ""
 
 msgid "<15>{#p/papyrus}{#e/papyrus/21}BUT YOU'RE HURT..."
 msgstr "<15>{#p/papyrus}{#e/papyrus/21}ALE JSI ZRANĚNÝ..."
@@ -489,7 +486,7 @@ msgid "<20>guess that's it, huh?"
 msgstr "<20>to je asi ono, co?"
 
 msgid "<20>..."
-msgstr "<20>..."
+msgstr ""
 
 msgid "<20>just..."
 msgstr "<20>jen..."
@@ -727,7 +724,7 @@ msgid "<32>{#p/human}{#s/equip}* (You got the Ice Dream.)"
 msgstr "<32>{#p/human}{#s/equip}* (Dostali jste ledový sen.)"
 
 msgid "<32>{#p/human}* (...)"
-msgstr "<32>{#p/human}* (...)"
+msgstr ""
 
 msgid "<32>{#p/human}* (You're carrying too much to reach inside.)"
 msgstr "<32>{#p/human}* (Neseš toho příliš mnoho, než abys dosáhl dovnitř.)"
@@ -1052,10 +1049,10 @@ msgid "* (Which is harder?)"
 msgstr "* (Které je těžší?)"
 
 msgid "Sudoku"
-msgstr "Sudoku"
+msgstr ""
 
 msgid "Kakuro"
-msgstr "Kakuro"
+msgstr ""
 
 msgid "<18>{#p/papyrus}HA! HA! YES!"
 msgstr "<18>{#p/papyrus}HA! HA! ANO!"

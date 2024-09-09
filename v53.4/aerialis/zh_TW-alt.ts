@@ -1062,7 +1062,7 @@ export default {
             '<25>{#p/alphys}{#g/alphysNervousLaugh}* 最後一個問題...',
             '<25>{#g/alphysNeutralSweat}* 「鎂塔頓的真實身份\n  是什麼？」',
             '<25>{#g/alphysNeutralSweat}* ...',
-            choicer.create('* （你要怎麼回答？）', '42號模型', '納普斯樂', '阿德裡安', '鎂塔頓') 
+            choicer.create('* （你要怎麼回答？）', '42號模型', 'Hapstablook', 'Aidrian', 'Mettaton') 
          ],
          barricade3b1: [
             '<25>{#p/alphys}{#g/alphysCutscene2}* 啊，關於這個...',
@@ -1278,7 +1278,7 @@ export default {
                     '<25>{#p/alphys}{#g/alphysSide}* Hey, uh...',
                     '<25>{#g/alphysCutscene1}* I think I know a way you can get across!',
                     "<25>{#g/alphysNervousLaugh}* It's... well...",
-                    "<25>{#g/alphysSmileSweat}* It's not as good as 安黛因's, but, the phone I gave you...",
+                    "<25>{#g/alphysSmileSweat}* It's not as good as Undyne's, but, the phone I gave you...",
                     '<25>{#g/alphysHellYeah}* It has a one-time use portable jetpack!',
                     '<25>{#g/alphysNervousLaugh}* Maybe... now would be a good time to try it??'
                  ],
@@ -1536,7 +1536,7 @@ export default {
                ? [ '<25>{#p/sans}{#g/sansNormal}* 你好啊。' ]
                : [
                     '<25>{#p/sans}{#g/sansLaugh2}* oh, heheh...',
-                    "<25>{#g/sansNormal}* i'm 衫斯.\n* 衫斯 the skeleton.",
+                    "<25>{#g/sansNormal}* i'm sans.\n* sans the skeleton.",
                     '<25>{#g/sansLaugh1}* technically, my job is to capture humans like that one over there.',
                     "<25>{#g/sansBlink}* but, uh...\n* seeing as we're on a television program...",
                     "<25>{#g/sansWink}* i s'pose that'll have to wait for now."
@@ -1621,7 +1621,7 @@ export default {
          moneyChat4: () =>
             SAVE.data.n.state_foundry_muffet === 1
                ? SAVE.data.b.colleg
-                  ? [ '<32>{#p/tem}* 提咪... went to cool leg,' ]
+                  ? [ '<32>{#p/tem}* tem... went to cool leg,' ]
                   : [ '<32>{#p/tem}* tem... on TV!!' ]
                : [
                     '<25>{#p/kidd}{#f/1}* Haha, I guess so.',
@@ -1647,7 +1647,7 @@ export default {
          moneyChat4b: () =>
             SAVE.data.n.state_foundry_muffet === 1
                ? SAVE.data.b.colleg
-                  ? [ '<32>{#p/tem}* 提咪 know ALL PRICES!!' ]
+                  ? [ '<32>{#p/tem}* tem know ALL PRICES!!' ]
                   : [ '<32>{#p/tem}* tem... love to be on TV!!' ]
                : SAVE.data.b.f_state_kidd_betray
                ? [ '<25>{#p/kidd}{#f/4}* ...' ]
@@ -1698,26 +1698,26 @@ export default {
                SAVE.data.n.state_foundry_muffet === 1 && SAVE.data.b.colleg
                   ? [
                        iFancyYourVilliany()
-                          ? '<32>{#p/mettaton}* 提米, SINCE YOU GUESSED BEFORE $(moniker3u)...'
-                          : '<32>{#p/mettaton}* 提米, SINCE YOU GUESSED BEFORE THE HUMAN...',
+                          ? '<32>{#p/mettaton}* TEMMIE, SINCE YOU GUESSED BEFORE $(moniker3u)...'
+                          : '<32>{#p/mettaton}* TEMMIE, SINCE YOU GUESSED BEFORE THE HUMAN...',
                        "<32>{#p/mettaton}* 恭喜!\n* 你贏得了屬於你自己的\n  老式地球收音機！",
                        '<32>{#p/tem}* 嗚哇喔哇喔哇喔.....'
                     ]
                   : [
                        iFancyYourVilliany()
-                          ? '<32>{#p/mettaton}* 小幽, SINCE YOU GUESSED BEFORE $(moniker3u)...'
-                          : '<32>{#p/mettaton}* 小幽, SINCE YOU GUESSED BEFORE THE HUMAN...',
+                          ? '<32>{#p/mettaton}* BLOOKY, SINCE YOU GUESSED BEFORE $(moniker3u)...'
+                          : '<32>{#p/mettaton}* BLOOKY, SINCE YOU GUESSED BEFORE THE HUMAN...',
                        "<32>{#p/mettaton}* 恭喜!\n* 你贏得了屬於你自己的\n  老式地球收音機！",
                        world.scared_ghost ? '<32>{#p/napstablook}* 酷' : '<32>{#p/napstablook}* 唔唔唔唔唔唔唔'
                     ],
             g: () => [
                SAVE.data.n.state_foundry_muffet === 1 && SAVE.data.b.colleg
                   ? iFancyYourVilliany()
-                     ? '<32>{#p/mettaton}* WELL PLAYED, $(moniker3u).\n* SINCE YOU GUESSED BEFORE 提米...'
-                     : '<32>{#p/mettaton}* HUMAN, SINCE YOU GUESSED BEFORE 提米...'
+                     ? '<32>{#p/mettaton}* WELL PLAYED, $(moniker3u).\n* SINCE YOU GUESSED BEFORE TEMMIE...'
+                     : '<32>{#p/mettaton}* HUMAN, SINCE YOU GUESSED BEFORE TEMMIE...'
                   : iFancyYourVilliany()
-                  ? '<32>{#p/mettaton}* WELL PLAYED, $(moniker3u).\n* SINCE YOU GUESSED BEFORE 小幽...'
-                  : '<32>{#p/mettaton}* HUMAN, SINCE YOU GUESSED BEFORE 小幽...',
+                  ? '<32>{#p/mettaton}* WELL PLAYED, $(moniker3u).\n* SINCE YOU GUESSED BEFORE BLOOKY...'
+                  : '<32>{#p/mettaton}* HUMAN, SINCE YOU GUESSED BEFORE BLOOKY...',
                "<32>{#p/mettaton}* 恭喜!\n* 你贏得了屬於你自己的\n  老式地球收音機！"
             ]
          },
@@ -1728,7 +1728,7 @@ export default {
                ? []
                : [
                     '<32>{#p/napstablook}* hey, um.........\n* i have a question.........',
-                    "<32>{#p/mettaton}* NO, 小幽, YOU CAN'T VOTE FOR YOURSELF.",
+                    "<32>{#p/mettaton}* NO, BLOOKY, YOU CAN'T VOTE FOR YOURSELF.",
                     '<32>{#p/napstablook}* 噢............'
                  ]),
             iRespeccYourVilliany()
@@ -1768,13 +1768,13 @@ export default {
                  ]
                : [
                     '<32>{#p/napstablook}* ...............',
-                    '<32>* s... 衫斯, i guess...',
+                    '<32>* s... sans, i guess...',
                     "<32>* i don't have anything against you, i just... don't really know you... sorry......",
                     ...(world.dead_skeleton
                        ? [ '<25>{#p/sans}{#g/sansNormal}* ...', "<25>{#p/sans}{#g/sansBlink}* that's okay." ]
                        : [
                             "<25>{#p/sans}{#g/sansBlink}* nah, that's okay.\n* besides, i'm only here 'cause my bro declined.",
-                            '<25>{#g/sansWink}* he gets nervous around you, 鎂塔頓.'
+                            '<25>{#g/sansWink}* he gets nervous around you, mettaton.'
                          ])
                  ],
          moneyVote3b: () =>
@@ -1802,9 +1802,9 @@ export default {
             '<32>{#p/mettaton}* NO, I MEAN -WHO- WILL YOU BE VOTING FOR?',
             choicer.create(
                '* (你要給誰投票？)',
-               iRespeccYourVilliany() ? 'Undyne' : '衫斯',
-               '納普斯特',
-               SAVE.data.n.state_foundry_muffet === 1 ? '提米' : '怪物小孩',
+               iRespeccYourVilliany() ? 'Undyne' : 'Sans',
+               'Napstablook',
+               SAVE.data.n.state_foundry_muffet === 1 ? 'Temmie' : '怪物小孩',
                '$(name)'
             )
          ],
@@ -1835,11 +1835,11 @@ export default {
                     iFancyYourVilliany()
                        ? "<25>{#p/kidd}{#f/1}* I'm voting for $(moniker1) because they're AWESOME!"
                        : "<25>{#p/kidd}{#f/1}* I'm voting for the human because they're AWESOME!",
-                    '<25>{#f/7}* Not only did they face off against 安黛因...',
+                    '<25>{#f/7}* Not only did they face off against UNDYNE...',
                     "<25>* ... who's one of the strongest monsters EVER...",
                     '<25>* But when I was about to DIE...',
                     '<25>* ... they pulled me down at the LAST second and saved me!',
-                    '<25>{#f/2}* IN FRONT OF 安黛因!!!',
+                    '<25>{#f/2}* IN FRONT OF UNDYNE!!!',
                     ...(iRespeccYourVilliany()
                        ? [
                             "<25>{#p/undyne}{#f/14}* Uh, kid, I'm right here, you know.",
@@ -1868,8 +1868,8 @@ export default {
                : [
                     '<25>{#p/kidd}{#f/4}* ... it is?',
                     "<25>{#f/1}* Hmm... then I won't vote for them, because OBVIOUSLY, and...",
-                    '<25>{#f/4}* Voting for 納普斯特 might hurt their feelings...',
-                    "<25>{#f/3}* So... I guess it'll be 衫斯."
+                    '<25>{#f/4}* Voting for Napstablook might hurt their feelings...',
+                    "<25>{#f/3}* So... I guess it'll be Sans."
                  ],
          moneyVote5x: [ '<32>{#p/kidd}{#f/8}* ...', '<32>{#f/8}* The human.' ],
          moneyVote5x1: [ "<32>{#p/mettaton}* SHEESH, SOMEBODY'S NOT HAPPY TODAY." ],
@@ -1911,7 +1911,7 @@ export default {
             d: () =>
                SAVE.data.n.state_foundry_muffet === 1
                   ? [
-                       "<32>{#p/mettaton}* CONGRATULATIONS, 提米!\n* YOU'VE JUST WON YOURSELF SOME MTT-CERTIFIED FIREWORKS!",
+                       "<32>{#p/mettaton}* CONGRATULATIONS, TEMMIE!\n* YOU'VE JUST WON YOURSELF SOME MTT-CERTIFIED FIREWORKS!",
                        "<32>* IT MAY NOT BE MTT-BRAND, BUT IT'S THE NEXT BEST THING! (TM)",
                        '<32>{#p/tem}* AYAYA!'
                     ]
@@ -1932,7 +1932,7 @@ export default {
                   : '<32>{#p/mettaton}* SINCE YOU GUESSED BEFORE THE HUMAN...',
                ...(SAVE.data.n.state_foundry_muffet === 1
                   ? [
-                       "<32>{#p/mettaton}* CONGRATULATIONS, 提米!\n* YOU'VE JUST WON YOURSELF SOME MTT-CERTIFIED FIREWORKS!",
+                       "<32>{#p/mettaton}* CONGRATULATIONS, TEMMIE!\n* YOU'VE JUST WON YOURSELF SOME MTT-CERTIFIED FIREWORKS!",
                        "<32>* IT MAY NOT BE MTT-BRAND, BUT IT'S THE NEXT BEST THING! (TM)",
                        '<32>{#p/tem}* AYAYA!'
                     ]
@@ -1944,7 +1944,7 @@ export default {
             ],
             g: () => [
                SAVE.data.n.state_foundry_muffet === 1
-                  ? '<32>{#p/mettaton}* SINCE YOU GUESSED BEFORE 提米...'
+                  ? '<32>{#p/mettaton}* SINCE YOU GUESSED BEFORE TEMMIE...'
                   : '<32>{#p/mettaton}* SINCE YOU GUESSED BEFORE MONSTER KID...',
                iFancyYourVilliany()
                   ? "<32>* WELL PLAYED, $(moniker3u).\n* YOU'VE JUST WON YOURSELF SOME MTT-CERTIFIED FIREWORKS."
@@ -1957,9 +1957,9 @@ export default {
             "<32>* THERE WON'T BE ANY VOTING.",
             "<32>* INSTEAD, I'LL JUST GET RID OF WHOEVER I FEEL LIKE!\n* MY SHOW, MY RULES...",
             ...(iRespeccYourVilliany()
-               ? [ "<32>* I'M SORRY, 安黛因.\n* BUT YOUR TIME HAS EXPIRED.\n* GOODBYE." ]
+               ? [ "<32>* I'M SORRY, UNDYNE.\n* BUT YOUR TIME HAS EXPIRED.\n* GOODBYE." ]
                : SAVE.data.n.state_foundry_muffet === 1
-               ? [ "<32>* I'M SORRY, 提米.\n* BUT YOUR TIME HAS EXPIRED.\n* GOODBYE." ]
+               ? [ "<32>* I'M SORRY, TEMMIE.\n* BUT YOUR TIME HAS EXPIRED.\n* GOODBYE." ]
                : [ "<32>* I'M SORRY, MONSTER KID.\n* BUT YOUR TIME HAS EXPIRED.\n* GOODBYE." ])
          ],
          moneyFinal0b: () =>
@@ -1998,11 +1998,11 @@ export default {
                   : "<32>{#p/mettaton}* AT LEAST SHE'S... HAPPY?"
                : SAVE.data.b.f_state_kidd_betray
                ? "<32>{#p/mettaton}* AT LEAST THEY'RE... HAPPY?\n* I CAN'T REALLY SAY FOR SURE, TO BE HONEST..."
-               : '<32>{#p/mettaton}* AT LEAST THEY\'RE HAPPY.\n* AND FOR THE RECORD, IT\'S \"鎂塔頓,\" NOT \"METATRON.\"',
+               : '<32>{#p/mettaton}* AT LEAST THEY\'RE HAPPY.\n* AND FOR THE RECORD, IT\'S \"METTATON,\" NOT \"METATRON.\"',
             "<32>* ALAS... WITH ONLY TWO CONTESTANTS LEFT, IT'S TIME FOR THE FINAL ROUND.",
             "<32>* THE ONE ITEM WE'LL BE PRESENTING THIS ROUND IS TRULY UNLIKE ANY OTHER.",
             '<32>* 女士們，先生們...\n* 睜大你們的雙眼...',
-            '<32>{#z3}* ... UPON THIS ABSOLUTELY GORGEOUS LIFE-SIZED 喵喵 DOLL!'
+            '<32>{#z3}* ... UPON THIS ABSOLUTELY GORGEOUS LIFE-SIZED MEW MEW DOLL!'
          ],
          moneyFinal2: () =>
             iRespeccYourVilliany()
@@ -2025,7 +2025,7 @@ export default {
                     '<32>{#p/mettaton}* OH, DO YOU NOW?',
                     "<32>* I APOLOGIZE.\n* I WASN'T AWARE.\n* BUT...",
                     '<25>{#p/alphys}{#g/alphysWTF2}* BUT???',
-                    "<32>{#p/mettaton}* I'M AFRAID IT'S TOO LATE, DR. 艾菲斯..."
+                    "<32>{#p/mettaton}* I'M AFRAID IT'S TOO LATE, DR. ALPHYS..."
                  ]),
             '<32>{#z3}* THE CONTESTANTS HAVE ALREADY GOTTEN THEIR HOPES UP.',
             '<25>{#p/alphys}{#g/alphysWTF}{#z0}* Are you serious?',
@@ -2033,7 +2033,7 @@ export default {
          ],
          moneyFinal5: [
             '<32>{#p/mettaton}* OH NO.\n* THE CONNECTION SEEMS TO HAVE BEEN TERMINATED.',
-            '<32>* POOR DR. 艾菲斯.\n* NO 喵喵 DOLL FOR HER.',
+            '<32>* POOR DR. ALPHYS.\n* NO MEW MEW DOLL FOR HER.',
             '<32>{#z2}* INSTEAD, ONE OF YOU WILL GET TO KEEP IT!',
             '<32>{#z3}* BUT WHO?'
          ],
@@ -2065,7 +2065,7 @@ export default {
                        '<25>{#f/7}* ...',
                        '<25>{#f/14}* YOOOOOOOOOOO!!!!'
                     ]
-                  : [ '<32>{#p/mettaton}{#z0}* 小幽!', '<32>* IT IS MY HONOR TO BESTOW THIS GIFT UPON YOU.' ],
+                  : [ '<32>{#p/mettaton}{#z0}* BLOOKY!', '<32>* IT IS MY HONOR TO BESTOW THIS GIFT UPON YOU.' ],
             e: () =>
                iFancyYourVilliany()
                   ? [
@@ -2084,7 +2084,7 @@ export default {
                        '<25>{#f/14}* YOOOOOOOOOOO!!!!'
                     ]
                   : [
-                       '<32>{#p/mettaton}{#z0}* 小幽!',
+                       '<32>{#p/mettaton}{#z0}* BLOOKY!',
                        iFancyYourVilliany()
                           ? "<32>* YOUR GUESS MAY HAVE BEEN THE SAME AS $(moniker3u)'S, BUT YOU MADE YOURS FIRST."
                           : "<32>* YOUR GUESS MAY HAVE BEEN THE SAME AS THE HUMAN'S, BUT YOU MADE YOURS FIRST.",
@@ -2135,14 +2135,14 @@ export default {
                ? [ "<32>* (i hope it's not too much to ask, even if we're friends, but...)" ]
                : [ "<32>* (i hope it's not too much to ask, but...)" ]),
             '<32>* (i think that... after the show...)',
-            '<32>* (we should return the 喵喵 doll to 艾菲斯)',
+            '<32>* (we should return the mew mew doll to alphys)',
             ...(SAVE.data.n.state_foundry_undyne === 1
                ? [
                     "<32>* (she's been feeling kind of down today, and...)",
                     "<32>* (well...... it'd be nice to give it back to her, don't you think?)"
                  ]
                : [
-                    '<32>* (i watched 喵喵 space adventure with her one time...)',
+                    '<32>* (i watched mew mew space adventure with her one time...)',
                     '<32>* (she was... so happy......)'
                  ]),
             choicer.create('* （你要怎麼回答？）', '是', '否')
@@ -2154,7 +2154,7 @@ export default {
             '<32>{#p/napstablook}* (i guess... we should make a guess now...)',
             '<32>{#p/napstablook}* (heh)'
          ],
-         napchat0: [ '<32>{#p/human}* (You gave the 喵喵 Doll to 納普斯特.)' ],
+         napchat0: [ '<32>{#p/human}* (You gave the Mew Mew Doll to Napstablook.)' ],
          napchat1: () =>
             SAVE.data.n.state_foundry_undyne === 1
                ? [ "<32>{#p/napstablook}* i'll make sure she knows what you did for her" ]
@@ -2166,7 +2166,7 @@ export default {
             '<32>* 噴泉見............'
          ],
          truemtt3: [
-            '<32>{#p/basic}* 小幽...',
+            '<32>{#p/basic}* Blooky...',
             '<32>* ...',
             '<32>* I get the feeling things could turn serious here.'
          ],
@@ -2292,11 +2292,11 @@ export default {
          rg2d: () =>
             world.genocide
                ? [
-                    "<32>{#p/basic}{#x1}* Come on, girl.\n* Let's show 安黛因 what we're worth...{#x3}",
+                    "<32>{#p/basic}{#x1}* Come on, girl.\n* Let's show Undyne what we're worth...{#x3}",
                     '<32>{#x1}{#x2}* ... and whoop some traitor backside.{#x3}'
                  ]
                : [
-                    "<32>{#p/basic}{#x1}* Come on, girl.\n* Let's show 安黛因 what we're worth...{#x3}",
+                    "<32>{#p/basic}{#x1}* Come on, girl.\n* Let's show Undyne what we're worth...{#x3}",
                     iFancyYourVilliany()
                        ? '<32>{#x1}{#x2}* ... and whoop some bully backside.{#x3}'
                        : '<32>{#x1}{#x2}* ... and whoop some human backside.{#x3}'
@@ -2448,7 +2448,7 @@ export default {
                          ]
                        : [
                             "<25>{#g/alphysSideSad}* I've been really w-worried about you...",
-                            '<25>{#g/alphysSideSad}* About the puzzles, and about 鎂塔頓, and...',
+                            '<25>{#g/alphysSideSad}* About the puzzles, and about Mettaton, and...',
                             '<25>{#g/alphysHaveSomeCompassion}* ...',
                             '<25>{#g/alphysHaveSomeCompassion}* Those guards were NOT supposed to attack you.'
                          ]),
@@ -2461,7 +2461,7 @@ export default {
                          ]
                        : [
                             "<25>{#g/alphysWelp}* Well, uh, anyway, it looks like you're fine.",
-                            "<25>{#g/alphysFR}* Apart from that 喵喵 doll that doesn't belong to you."
+                            "<25>{#g/alphysFR}* Apart from that Mew Mew doll that doesn't belong to you."
                          ])
                  ],
          opera2: [ '<25>{#p/alphys}{#g/alphysInquisitive}* Are you coming?' ],
@@ -2491,7 +2491,7 @@ export default {
          opera8: [ '<32>{#p/basic}{#x1}* ... human?{#x3}', '<32>{#x1}* What human?{#x3}' ],
          opera9: [
             "<25>{|}{#p/alphys}{#g/alphysTheFactIs}* Uhhhhh I don't know I'm just trying to escor- {%}",
-            "<32>{#p/basic}{#x1}* 艾菲斯, you're like, the second highest authority on the outpost.{#x3}",
+            "<32>{#p/basic}{#x1}* Alphys, you're like, the second highest authority on the outpost.{#x3}",
             "<32>{#x2}* Yeah, you don't need to ask us for permission, haha.{#x3}",
             "<32>{#p/basic}{#x1}{#x2}* We haven't even made it out of guard training yet!{#x3}"
          ],
@@ -2856,10 +2856,10 @@ export default {
                ? [ "<25>{#p/alphys}{#f/10}* I-I'll stay in contact." ]
                : [ '<25>{#p/alphys}{#f/3}* N-not at all!!' ],
          opera38: [
-            '<32>{#p/basic}* ... now I understand why 小幽 feels how they do all the time.',
+            '<32>{#p/basic}* ... now I understand why Blooky feels how they do all the time.',
             "<32>* That guilt, thinking you could've done more to care about someone...",
             "<32>* Hmph.\n* Maybe there's something more I can do to help here.",
-            '<32>* Remember what happened with 托麗爾?',
+            '<32>* Remember what happened with Toriel?',
             '<32>* The way you called out for me, and I was able to talk?',
             '<32>* I know things about monsters.\n* Things that could help us get through more quickly.',
             '<32>* So, if I think of something...',
@@ -4064,9 +4064,9 @@ export default {
                     '<32>{#p/basic}* 「喵喵航天行：夢境奇旅\n   （同人故事）」',
                     '<32>* 「...就在那時，\n   喵喵終於親眼看到了。」',
                     '<32>* 「那是相當壯觀的景色。\n   孤身一人站在太空深處，\n   頗有遺世獨立之感...」',
-                    '<32>* \"... but 喵喵 knew better!\"\n* \"And it wasn\'t long before she learned of our plight.\"',
+                    '<32>* \"... but Mew Mew knew better!\"\n* \"And it wasn\'t long before she learned of our plight.\"',
                     '<32>* \"With a single blast of her infamous LAZER DELUXE, she punched through with ease!\"',
-                    '<32>* \"And so it was that 喵喵 became monsterkind\'s savior.\"',
+                    '<32>* \"And so it was that Mew Mew became monsterkind\'s savior.\"',
                     '<32>{#p/human}* （你把書放回了桌子上。）'
                  ],
          a_lab_books2: pager.create(
@@ -4094,7 +4094,7 @@ export default {
                        '<32>{#p/human}* （你取下了一本書...）',
                        '<32>{#p/basic}* \"Professor\'s notes, page 195.\"',
                        '<32>* \"It\'s a dark day for monsterkind, the royal family is in pieces.\"',
-                       '<32>* \"Queen 托麗爾 has abandoned the throne over a few rushed words from 艾斯戈爾.\"',
+                       '<32>* \"Queen Toriel has abandoned the throne over a few rushed words from Asgore.\"',
                        '<32>* \"But those words may have long-lasting implications for us...\"',
                        '<32>* \"Now, everyone expects him to take the human SOULs by force.\"',
                        '<32>* \"This is a disaster.\"',
@@ -4741,7 +4741,7 @@ export default {
                     ]
                   : SAVE.data.n.plot < 60
                   ? [
-                       "<32>{#p/basic}{#npc/a}* As 鎂塔頓's costume designer, it's my job to get him the right outfit.",
+                       "<32>{#p/basic}{#npc/a}* As Mettaton's costume designer, it's my job to get him the right outfit.",
                        '<32>* He needed a suit and tie today, and a dress for another upcoming show...',
                        '<32>* For some reason...\n* The idea of him in a dress...',
                        '<32>* Seems really cool...'
@@ -5018,7 +5018,7 @@ export default {
                           [ "<32>{#p/basic}{#npc/a}* Kinda seems like ya weren't." ],
                           [ '<32>{#p/basic}{#npc/a}* Ya might get another chance on the next episode.' ],
                           [ '<32>{#p/basic}{#npc/a}* Maybe next time ya could, I dunno, win more comfortably?' ],
-                          [ '<32>{#p/basic}{#npc/a}* Or maybe 鎂塔 just went a little easy on ya.' ]
+                          [ '<32>{#p/basic}{#npc/a}* Or maybe MTT just went a little easy on ya.' ]
                        ][SAVE.data.n.state_aerialis_crafterresult]
                   : [
                        '<32>{#p/basic}{#npc/a}* Yeah, ya heard that right.\n* Out of bounds.',
@@ -5031,7 +5031,7 @@ export default {
                SAVE.data.n.plot < 56
                   ? [
                        "<32>{#p/basic}* Don't worry about me, school went well today.",
-                       "<32>* I'm just really looking forward to 鎂塔's next show!",
+                       "<32>* I'm just really looking forward to MTT's next show!",
                        "<32>{#p/basic}* Do you know when it'll be on?"
                     ]
                   : SAVE.data.n.plot < 68
@@ -5052,7 +5052,7 @@ export default {
                     ],
             () =>
                SAVE.data.n.plot < 56
-                  ? [ '<32>{#p/basic}* 鎂塔頓 usually has a schedule, but he forgot to make one this time.' ]
+                  ? [ '<32>{#p/basic}* Mettaton usually has a schedule, but he forgot to make one this time.' ]
                   : SAVE.data.n.plot < 68
                   ? [ '<32>{#p/basic}* I swear you look like the actor Mettaton brought on...' ]
                   : world.bad_robot
@@ -5077,7 +5077,7 @@ export default {
                   : !world.badder_lizard
                   ? [
                        "<32>{#p/basic}* I'm a reporter!\n* Today's news story is about metal 'n' magic!",
-                       "<32>{#p/basic}* Did ya know 鎂塔頓's actually made of it??\n* Huhehehaw!"
+                       "<32>{#p/basic}* Did ya know Mettaton's actually made of it??\n* Huhehehaw!"
                     ]
                   : [
                        "<32>{#p/basic}* I'm a reporter!\n* Today's news story is about death 'n' destruction!",
@@ -5117,7 +5117,7 @@ export default {
                   : SAVE.data.n.bad_lizard < 2
                   ? [
                        '<32>{#p/basic}{#npc/a}* I was one of the builders of the ORIGINAL fountain here.',
-                       "<32>* Y'know.\n* Before 鎂塔頓 decided to rebuild the whole thing.",
+                       "<32>* Y'know.\n* Before Mettaton decided to rebuild the whole thing.",
                        "<32>* Like, who does that? Who'd rebuild it all just to change a single, tiny detail?",
                        '<32>* Kind of petty if you ask me.'
                     ]
@@ -5157,7 +5157,7 @@ export default {
                   : SAVE.data.n.bad_lizard < 2
                   ? [
                        "<32>{#p/basic}{#npc/a}* Mind you.\n* I'm not the only one.",
-                       '<32>* Ever heard of a \"Mr. 賽普洛夫?\"',
+                       '<32>* Ever heard of a \"Mr. Sepluv?\"',
                        '<32>* Yeah, he was in charge of the original build project here.',
                        '<32>* But now... he sells moon rocks for a living.'
                     ]
@@ -5218,7 +5218,7 @@ export default {
             [
                '<32>{#p/basic}{#npc/a}* They say things can get pretty weird if you go too far out in these repeating rooms.',
                '<32>* Time tunnels...\n* Invariant spatial flexures...',
-               "<32>* Eh, don't ask me what any of that means, I just overheard 艾菲斯 one time.",
+               "<32>* Eh, don't ask me what any of that means, I just overheard Alphys one time.",
                "<32>* If it wasn't her saying it, I'd probably just think it was made up..."
             ],
             [ "<32>{#p/basic}{#npc/a}* As long as you can still see clearly, you're probably fine." ]
@@ -5241,10 +5241,10 @@ export default {
                           '<32>* This is our world.'
                        ]
                   : [
-                       '<32>{#p/basic}{#npc/a}* 迷你火山 and I make up the rap group \"熱火朝天.\"',
+                       '<32>{#p/basic}{#npc/a}* Vulkin and I make up the rap group \"The Pyromaniacs.\"',
                        '<32>* Our beats? Fantastic.\n* Our flows? Pyroclastic.',
                        "<33>* When I hop on stage, I'm bomb- astically elastic, I make the crowd melt like molten plastic.",
-                       "<32>* And with 迷你火山?\n* It's a one-stop shop for hot mic-drop classics."
+                       "<32>* And with Vulkin?\n* It's a one-stop shop for hot mic-drop classics."
                     ],
             () =>
                SAVE.data.n.plot === 72
@@ -5397,7 +5397,7 @@ export default {
                     ]
                   : [
                        '<32>{#p/basic}{#npc/a}* I wanna learn how to play smart human games like chess.',
-                       "<32>* 星兒's mom over there is the best... she can beat anyone!"
+                       "<32>* Starry's mom over there is the best... she can beat anyone!"
                     ],
             () =>
                SAVE.data.n.plot === 72
@@ -5420,7 +5420,7 @@ export default {
                     ]
                   : SAVE.data.n.plot < 68
                   ? [
-                       "<32>{#p/basic}{#npc/a}* We came to see 鎂塔頓's grand finale, but...",
+                       "<32>{#p/basic}{#npc/a}* We came to see Mettaton's grand finale, but...",
                        ...(iFancyYourVilliany()
                           ? [
                                "<32>* I didn't think I'd get to see $(moniker1) up close!",
@@ -5473,8 +5473,8 @@ export default {
                   ? [
                        "<32>{#p/basic}{#npc/a}* Aren't you excited for the grand finale!?",
                        iFancyYourVilliany()
-                          ? '<32>* The final showdown between 鎂塔頓 and the human villain, $(moniker2)...'
-                          : '<32>* The final showdown between 鎂塔頓 and his human star...',
+                          ? '<32>* The final showdown between Mettaton and the human villain, $(moniker2)...'
+                          : '<32>* The final showdown between Mettaton and his human star...',
                        '<32>* One last dramatic stand for all the glory in the galaxy!'
                     ]
                   : SAVE.data.b.killed_mettaton
@@ -5489,7 +5489,7 @@ export default {
                   : SAVE.data.b.ubershortcut
                   ? [ "<32>{#p/basic}{#npc/a}* It's good to have him back." ]
                   : SAVE.data.n.plot < 68
-                  ? [ "<32>{#p/basic}{#npc/a}* I'm rooting for 鎂塔頓!" ]
+                  ? [ "<32>{#p/basic}{#npc/a}* I'm rooting for Mettaton!" ]
                   : SAVE.data.b.killed_mettaton
                   ? [ '<32>{#p/basic}{#npc/a}* I wanna go home...' ]
                   : [ "<32>{#p/basic}{#npc/a}* I wonder what he'll do next..." ]
@@ -5522,7 +5522,7 @@ export default {
                     ]
                   : [
                        '<32>{#p/basic}{#npc/a}* I feel bad for Gyftrot.\n* It, like many of us, has never lived in its natural habitat.',
-                       '<32>* 艾菲斯 has said recently that the force field might be broken soon...',
+                       '<32>* Alphys has said recently that the force field might be broken soon...',
                        '<32>* Perhaps when that happens, we may all find some respite.'
                     ],
             () =>
@@ -6071,7 +6071,7 @@ export default {
          0,
          [
             "<32>{#p/basic}{#x2}* Hey, aren't you like, that one quiet kid we saw earlier?{#x3}",
-            '<32>{#x2}* I wonder why 艾菲斯 had to escort you...{#x3}',
+            '<32>{#x2}* I wonder why Alphys had to escort you...{#x3}',
             '<32>{#x2}* You must be... MEGA important.{#x3}'
          ],
          [
@@ -6143,7 +6143,7 @@ export default {
                  "<25>{#f/0}* not many people around these days who'd care."
               ]
             : world.bad_lizard < 1 && SAVE.data.n.bully < 15
-            ? [ "<25>{#f/4}* shh, don't tell 安黛因 i said that.\n* she wouldn't like it." ]
+            ? [ "<25>{#f/4}* shh, don't tell undyne i said that.\n* she wouldn't like it." ]
             : [ "<25>{#f/0}* ... ironic, isn't it?" ]),
          "<25>{#f/0}* anyway, i've got this super boring job, right?",
          "<25>{#f/0}* fortunately, there's a little place near the edge of starton.",
@@ -6177,7 +6177,7 @@ export default {
          '<32>{#p/soriel}* \"... I have to protect them...\"',
          '<32>{#p/soriel}* \"... it\'ll never be like it was before...\"',
          '<25>{#p/sans}{#f/3}* turns out, there was more to this woman than meets the ear.',
-         '<25>{#f/0}* oh, and she also had a ton of weird stuff to say about 艾斯戈爾.',
+         '<25>{#f/0}* oh, and she also had a ton of weird stuff to say about asgore.',
          "<25>{#f/3}* i'll spare you on the details, but let's just say...",
          "<25>{#f/2}* isolation can really screw with a person's world view."
       ],
@@ -6232,7 +6232,7 @@ export default {
          ...(SAVE.data.n.exp <= 0
             ? SAVE.data.n.state_foundry_undyne === 1
                ? [ "<25>{#f/0}* ... regardless of who you could've saved." ]
-               : [ "<25>{#f/2}* ... even 安黛因's probably on your side by now." ]
+               : [ "<25>{#f/2}* ... even undyne's probably on your side by now." ]
             : world.bad_lizard < 1 && SAVE.data.n.bully < 15
             ? [ "<25>{#f/0}* ... regardless of what you've done." ]
             : [ '<25>{#f/0}* ... well, most of us, anyway.' ])
@@ -6646,7 +6646,7 @@ export default {
    },
 
    b_opponent_glyde: {
-      name: '* 老滑頭',
+      name: '* Glyde',
       epiphaNOPE: [ '<11>{#p/basic}{~}{#e/glyde/10}Get that thing out of my face, will you?' ],
       act_check: [ '<32>{#p/story}* GLYDE - ATK YES DEF YES\n* Refuses to give more details about its statistics.' ],
       act_secret: () =>
@@ -6812,7 +6812,7 @@ export default {
 
    b_opponent_mettaton1: {
       artifact: [ '<33>{#p/human}* (Mettaton shrugs at the sight.)' ],
-      name: '* 鎂塔頓',
+      name: '* Mettaton',
       epiphaNOPE: [ "<20>{#p/mettaton}I DON'T THINK SO, DARLING..." ],
       old_gun_text: [ '<32>{#p/human}* (You fire the gun.)\n* (Mettaton absorbs its charge.)' ],
       old_bomb_text: [
@@ -8023,7 +8023,7 @@ export default {
    },
 
    b_opponent_madjick: {
-      name: '* 謎宇人',
+      name: '* Cozmo',
       spanner: [ '<32>{#p/human}* (You brandish the spanner.)\n* (Cozmo does not mistake it for a magic wand.)' ],
       epiphaNOPE: [ '<20>{#p/basic}{~}That magic...', '<20>{#p/basic}{~}... I shall not give into its power!' ],
       hint: [ '<33>{#p/basic}* Hold on.\n* I think I know what to do here.' ],
@@ -8155,7 +8155,7 @@ export default {
    },
 
    b_opponent_knightknight: {
-      name: '* 特雷莉亞',
+      name: '* Terrestria',
       epiphaNOPE: [ '<20>{#p/basic}{~}... this magic... is forbidden...' ],
       hint: [ '<32>{#p/basic}* Wait...\n* Let me try something.' ],
       assistTalk1: [ '<20>{#p/basic}{~}...\n...\n...\nHmm?' ],
@@ -8305,7 +8305,7 @@ export default {
    },
 
    b_opponent_froggitex: {
-      name: '* 終極蛙吉特',
+      name: '* Final Froggit',
       epiphany: [
          
          [ '<08>{#p/basic}{~}In your mercy, I see wisdom.', '<08>{#p/basic}{~}My hopes have been ful- filled.' ],
@@ -8413,7 +8413,7 @@ export default {
    },
 
    b_opponent_whimsalot: {
-      name: '* 飄遊䗁士',
+      name: '* Flutterknyte',
       epiphany: [
          
          [ '<08>{#p/basic}{~}Thank good- ness..', '<08>{#p/basic}{~}I feared I would never escape.' ],
@@ -8552,7 +8552,7 @@ export default {
    },
 
    b_opponent_astigmatism: {
-      name: '* 眼行者',
+      name: '* Eyewalker Prime',
       epiphany: [
          
          [ '<08>{#p/basic}{~}Out of sight, out of mind.' ],
@@ -8718,7 +8718,7 @@ export default {
       groupTalk4: [ '<08>{#p/basic}Reject the swarm.' ],
       groupTalk5: [ '<08>{#p/basic}Danger is for fools.' ],
       groupTalk6: [ '<08>{#p/basic}Leave me alone.' ],
-      name: '* 默之蟑',
+      name: '* Silencio',
       soloStatus: () =>
          !world.badder_lizard
             ? [ '<32>{#p/alphys}* Looks like it never wanted to do this to begin with.' ]
@@ -8731,7 +8731,7 @@ export default {
       perilTalk: [ "<08>{#p/basic}{~}I'm outta here." ]
    },
    b_opponent_mushketeer: {
-      name: '* 蘑炮手',
+      name: '* Mushketeer',
       epiphany: [
          
          [ "<08>{#p/basic}{~}It's only fair to spare you too!" ],
@@ -8896,7 +8896,7 @@ export default {
 
    
    b_opponent_pyrope: {
-      name: '* 烈焰熱線',
+      name: '* Hotwire',
       epiphany: [
          [ '<08>{#p/basic}{~}No need to worry, pal', "<08>{#p/basic}{~}I'll be out of your way now." ],
          () =>
@@ -9013,7 +9013,7 @@ export default {
    },
 
    b_opponent_perigee: {
-      name: '* 呦呦雞',
+      name: '* Perigee',
       epiphany: [
          [ '<08>{#p/basic}{~}I shall be else- where.' ],
          () =>
@@ -9075,7 +9075,7 @@ export default {
    },
 
    b_opponent_tsundere: {
-      name: '* 傲嬌飛船',
+      name: '* Tsunderidex',
       epiphany: [
          [ "<08>{#p/basic}{~}Y-yeah, I didn't want you around anyway!" ],
          () =>
@@ -10096,7 +10096,7 @@ export default {
             pm: "Thank you for creating an account on the outpost's #1 social network!"
          },
          alphys1: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: () =>
                SAVE.data.n.state_foundry_undyne
                   ? 'uhhhh nobody saw that right' 
@@ -10106,19 +10106,19 @@ export default {
                     ][SAVE.data.n.bad_lizard]
          },
          alphys2: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: () =>
                SAVE.data.n.state_foundry_undyne
                   ? 'ok good' 
                   : [
                        iFancyYourVilliany()
                           ? 'still cant believe mettaton gave them a moniker???'
-                          : 'still cant believe 鎂塔頓 wanted me to fight them???', 
+                          : 'still cant believe mettaton wanted me to fight them???', 
                        'they seem... nice?' 
                     ][SAVE.data.n.bad_lizard]
          },
          alphys3: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: () =>
                SAVE.data.n.state_foundry_undyne
                   ? 'yeah that wouldve been pretty embarrasing otherwise' 
@@ -10130,7 +10130,7 @@ export default {
                     ][SAVE.data.n.bad_lizard]
          },
          alphys4: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: () =>
                SAVE.data.n.state_foundry_undyne
                   ? 'oh my god i thought those guys were about to provoke the human' 
@@ -10140,11 +10140,11 @@ export default {
                     ][SAVE.data.n.bad_lizard]
          },
          alphys6: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'oh no.'
          },
          alphys7: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: () =>
                SAVE.data.n.state_foundry_undyne === 1
                   ? 'ok mettaton could you like not keep doing this to me thanks' 
@@ -10160,21 +10160,21 @@ export default {
                   : 'well, there goes my last one-time use portable jetpack' 
          },
          alphys8: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: () =>
                SAVE.data.n.state_foundry_undyne === 1
                   ? 'wait how did the human get here if i never gave them a liftgate pass' 
-                  : 'BTW has anyone else seen 喵喵 space adventure???'
+                  : 'BTW has anyone else seen mew mew space adventure???'
          },
          alphys9: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: () =>
                SAVE.data.n.state_foundry_undyne === 1
                   ? 'like did they just steal my spare cell phone or something' 
                   : 'i finally started watching the last season and its actually good WTF'
          },
          alphys10: {
-            author: '納普斯特22',
+            author: 'NAPSTABLOOK22',
             pm: () =>
                SAVE.data.n.state_foundry_undyne === 1
                   ? 'alphys... can you please respond to my private messages...' 
@@ -10183,10 +10183,10 @@ export default {
          alphys11: {
             author: () =>
                SAVE.data.n.state_foundry_undyne === 1
-                  ? '納普斯特22'
+                  ? 'NAPSTABLOOK22'
                   : SAVE.data.n.state_starton_papyrus === 0
                   ? '酷炫骷髏95'
-                  : '艾菲斯',
+                  : 'ALPHYS',
             pm: () =>
                SAVE.data.n.state_foundry_undyne === 1
                   ? "i'm... getting worried" 
@@ -10199,15 +10199,15 @@ export default {
             pm: () =>
                SAVE.data.n.state_foundry_undyne === 1
                   ? 'Alphys, HUH?\nAre you IGNORING MY COUSIN!?!?' 
-                  : '喵喵 SPACE ADVENTURE???\nHAH! WHAT A LOAD OF HOT GARBAGE!'
+                  : 'Mew Mew SPACE ADVENTURE???\nHAH! WHAT A LOAD OF HOT GARBAGE!'
          },
          alphys13: {
-            author: () => (SAVE.data.n.state_foundry_undyne === 1 ? '納普斯特22' : '艾菲斯'),
+            author: () => (SAVE.data.n.state_foundry_undyne === 1 ? 'NAPSTABLOOK22' : 'ALPHYS'),
             pm: () =>
                SAVE.data.n.state_foundry_undyne === 1
                   ? 'please stay out of this' 
                   : [
-                       'let me guess youre one of those 喵喵 starfire fans arent you', 
+                       'let me guess youre one of those mew mew starfire fans arent you', 
                        'uhhhh' 
                     ][SAVE.data.n.bad_lizard]
          },
@@ -10222,7 +10222,7 @@ export default {
                     ][SAVE.data.n.bad_lizard]
          },
          alphys15: {
-            author: () => (SAVE.data.n.state_foundry_undyne === 1 ? '納普斯特22' : '艾菲斯'),
+            author: () => (SAVE.data.n.state_foundry_undyne === 1 ? 'NAPSTABLOOK22' : 'ALPHYS'),
             pm: () =>
                SAVE.data.n.state_foundry_undyne === 1
                   ? 'with all due respect\nplease shut up.' 
@@ -10232,21 +10232,21 @@ export default {
                     ][SAVE.data.n.bad_lizard]
          },
          alphys16: {
-            author: () => (SAVE.data.n.state_foundry_undyne === 1 ? '納普斯特22' : '艾菲斯'),
+            author: () => (SAVE.data.n.state_foundry_undyne === 1 ? 'NAPSTABLOOK22' : 'ALPHYS'),
             pm: () =>
                SAVE.data.n.state_foundry_undyne === 1
                   ? 'gotta go.' 
                   : 'another show already???'
          },
          alphys17: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: () =>
                SAVE.data.n.state_foundry_undyne === 1
                   ? 'well... alright\nill look at what you sent me now' 
-                  : 'for the record this 喵喵 doll thing never happened.'
+                  : 'for the record this mew mew doll thing never happened.'
          },
          alphys18: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: () =>
                SAVE.data.n.state_foundry_undyne === 1
                   ? SAVE.data.n.state_aerialis_royalguards === 1
@@ -10263,7 +10263,7 @@ export default {
             pm: '只是以防萬一。'
          },
          alphysX2: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '說的對\n我剛把記錄刪乾淨了'
          },
          alphysX3: {
@@ -10271,7 +10271,7 @@ export default {
             pm: 'heh... remember that time he showed off the new gravity plating?'
          },
          alphysX4: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'and the whole set just started floating into the sky? OMG YES LMAO'
          },
          alphysX5: {
@@ -10279,11 +10279,11 @@ export default {
             pm: 'pfft, he really thought that would work, huh?'
          },
          alphysX6: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'i remember asgore trying everything he could to hold it down XD'
          },
          alphysX7: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'man what a day\ni really miss working with you sans'
          },
          alphysX8: {
@@ -10291,7 +10291,7 @@ export default {
             pm: "i know you do.\nbut i've got a different job to dddd"
          },
          alphysX9: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '...\n人呢？'
          },
          alphysY1: {
@@ -10303,7 +10303,7 @@ export default {
             pm: 'no pun intended.'
          },
          alphysY3: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'right... wait really?'
          },
          alphysY4: {
@@ -10311,7 +10311,7 @@ export default {
             pm: "i wouldn't lie about making a pun, would i?"
          },
          alphysY5: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'you know what i mean.'
          },
          alphysY6: {
@@ -10319,15 +10319,15 @@ export default {
             pm: "don't worry, alphys.\ni've got this under control."
          },
          alphysY7: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'sure okay'
          },
          alphysY7A1: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'woah... did you see that?'
          },
          alphysY7A2: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: () =>
                SAVE.data.n.state_papyrus_capture < 3
                   ? 'papyrus and the human just fought and it was so intense'
@@ -10338,7 +10338,7 @@ export default {
             pm: () => (SAVE.data.n.state_papyrus_capture < 3 ? 'what?\nis he okay?' : 'what?\nwhat happened?')
          },
          alphysY7A4: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: () =>
                SAVE.data.n.state_papyrus_capture < 3
                   ? 'yeah yeah hes fine dont worry'
@@ -10352,7 +10352,7 @@ export default {
                   : "hey, just tell me if he's okay."
          },
          alphysY7A6: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: () => (SAVE.data.n.state_papyrus_capture < 3 ? 'yeah thats one way of putting it' : 'hes okay.')
          },
          alphysY7A7: {
@@ -10363,7 +10363,7 @@ export default {
                   : 'heh... glad to hear it.'
          },
          alphysYdoggo1: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'no... doggo...'
          },
          alphysYdoggo2: {
@@ -10371,15 +10371,15 @@ export default {
             pm: 'huh? what happened?'
          },
          alphysYdoggo3: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'after he lost his eyesight he would come to my lab after work...'
          },
          alphysYdoggo4: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'id teach him to use his ears with these little games we played'
          },
          alphysYdoggo5: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'he would always leave with a big smile on his face. but now...'
          },
          alphysYdoggo6: {
@@ -10387,23 +10387,23 @@ export default {
             pm: 'i see.'
          },
          alphysY8A1: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'you know the human is killing monsters in starton right?'
          },
          alphysY8A1a: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'theyre going after regular citizens'
          },
          alphysY8A1b: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'theyre targeting the sentries'
          },
          alphysY8A1c: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'theyre going after everyone'
          },
          alphysY8A1d: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'its not just doggo theyre after'
          },
          alphysY8A2: {
@@ -10411,19 +10411,19 @@ export default {
             pm: "i know. i'm doing my best to get people out before it's too late."
          },
          alphysY8A3: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'okay good'
          },
          alphysYdrake1: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'yknow... stardrakes mom came in the other day'
          },
          alphysYdrake2: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'she told me how proud she is of her son and the new friends he made...'
          },
          alphysYdrake3: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'what am i supposed to tell her now?'
          },
          alphysYdrake4: {
@@ -10431,7 +10431,7 @@ export default {
             pm: "you tell her that you'll do the best you can in your position."
          },
          alphysYdrake5: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'yeah... i guess thats all i really can tell her huh'
          },
          alphysYdrake6: {
@@ -10439,7 +10439,7 @@ export default {
             pm: "it's better than nothing."
          },
          alphysY8A4: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'that was close'
          },
          alphysY8A5: {
@@ -10447,11 +10447,11 @@ export default {
             pm: "yeah... guess i shouldn't have doubted my bro, heh."
          },
          alphysY8A6: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'yeah...'
          },
          alphysY8A7: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'never mind the human is back to killing again'
          },
          alphysY8A8: {
@@ -10459,15 +10459,15 @@ export default {
             pm: 'welp.'
          },
          alphysY8B1: {
-            author: '艾菲斯',
-            pm: '衫斯'
+            author: 'ALPHYS',
+            pm: 'sans'
          },
          alphysY8B2: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'the human just killed papyrus'
          },
          alphysY8B3: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'please tell me youre there'
          },
          alphysY8B4a: {
@@ -10479,7 +10479,7 @@ export default {
             pm: "i'm here. and i shouldn't have left him alone out there."
          },
          alphysY8B5: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'what are you gonna do now?'
          },
          alphysY8B6: {
@@ -10491,15 +10491,15 @@ export default {
             pm: "i don't feel like doing anything."
          },
          alphysY8B8: {
-            author: '艾菲斯',
-            pm: '衫斯...'
+            author: 'ALPHYS',
+            pm: 'sans...'
          },
          alphysY8B9: {
             author: '懶骨.',
             pm: "it's not your fault.\nthis would always have happened."
          },
          alphysY8B10: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'what do you mean?'
          },
          alphysY8B11: {
@@ -10511,7 +10511,7 @@ export default {
             pm: "he's just too damn good to stand by and watch as people die."
          },
          alphysY8B13: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'unlike us right?'
          },
          alphysY8B14: {
@@ -10519,11 +10519,11 @@ export default {
             pm: 'yeah.'
          },
          alphysY8B15: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '...'
          },
          alphysY8B16: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'things arent getting any better'
          },
          alphysY8B17: {
@@ -10531,11 +10531,11 @@ export default {
             pm: "let me guess, they're going after people in the foundry now?"
          },
          alphysY8B18: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'yeah but youre gonna help me evacuate right?'
          },
          alphysY8B18x: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'i mean i think so? maybe we should start evacuating or something'
          },
          alphysY8B19: {
@@ -10543,23 +10543,23 @@ export default {
             pm: "i can't make any promises.\nbut i'll try."
          },
          alphysY8B20: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'thanks'
          },
          alphysY8C1: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'sans people in the foundry are in serious danger'
          },
          alphysY8C2a: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'its the human... even the elite squad cant stop it'
          },
          alphysY8C2b: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'its the human... theyre going after the residents down there'
          },
          alphysY8C2c: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'its the human... theyre killing everybody down there'
          },
          alphysY8C3a: {
@@ -10571,11 +10571,11 @@ export default {
             pm: "well, aren't you gonna start evacuating people?"
          },
          alphysY8C4: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'oh right i need to do that'
          },
          alphysY8C5: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'gotta go'
          },
          alphysY8C6: {
@@ -10583,31 +10583,31 @@ export default {
             pm: "good luck, alphys.\ni'll help evacuate if i can."
          },
          alphysY8C7: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'thanks'
          },
          alphysY8C8: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'oh no'
          },
          alphysY8C9: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'undyne and the human are about to fight'
          },
          alphysY8C10a: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'this is kind of worrying'
          },
          alphysY8C10b: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'not gonna lie im kind of excited'
          },
          alphysY8C11a: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'and by kind of i mean very'
          },
          alphysY8C11b: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'but like really scared at the same time'
          },
          alphysY8C12a: {
@@ -10619,11 +10619,11 @@ export default {
             pm: "didn't you say you were trying to avoid this earlier?"
          },
          alphysY8C13a: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'yeah i dont really think undyne would listen to me'
          },
          alphysY8C13b: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'if the human got this far they can make it past her'
          },
          alphysY8C14: {
@@ -10631,35 +10631,35 @@ export default {
             pm: 'well, okay.\nif you say so, i guess.'
          },
          alphysY8D1: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'oh'
          },
          alphysY8D1a1: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'i guess killing papyrus wasnt enough for them then'
          },
          alphysY8D1a2: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'i guess slaughtering the elite squad wasnt enough for them then'
          },
          alphysY8D1a3: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'i guess slaughtering the canine unit wasnt enough for them then'
          },
          alphysY8D1a4: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'i guess killing people in the foundry wasnt enough for them then'
          },
          alphysY8D1a5: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'i guess killing people in starton wasnt enough for them then'
          },
          alphysY8D1b: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'never mind'
          },
          alphysY8D1c1: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'that cant be good'
          },
          alphysY8D1c2: {
@@ -10667,15 +10667,15 @@ export default {
             pm: 'what happened?'
          },
          alphysY8D1c3: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'she was trying to keep up with them and she stepped on something and...'
          },
          alphysY8D1c4: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'i see it...\ni think shes... fallen down'
          },
          alphysY8D1x: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'okay they spared her'
          },
          alphysY8D2a: {
@@ -10687,26 +10687,26 @@ export default {
             pm: "i guess there's nothing you can do, then. i'm sorry, alphys."
          },
          alphysY8D2x: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'though i dont think i want to be here after everything that happened'
          },
          alphysY8D3a: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: () =>
                world.bad_lizard < 2
                   ? 'i let this happen sans... i watched her die and did nothing to stop it'
                   : 'i should probably leave the lab while i still have the chance'
          },
          alphysY8D3b1: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'i get that it could have been an accident but i cant know for sure'
          },
          alphysY8D3b2: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'who knows what theyll do next?'
          },
          alphysY8D3x: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'its probably safer just to leave the lab anyway.'
          },
          alphysY8D4: {
@@ -10721,7 +10721,7 @@ export default {
             pm: "you can leave the lab if you want.\ni'll try to keep tabs on 'em though."
          },
          alphysY8D5: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: () =>
                world.bad_lizard < 2
                   ? 'yeah... youre probably right'
@@ -10735,7 +10735,7 @@ export default {
                   : "i'll be fine, just be sure to get a phone that works outside the lab."
          },
          alphysY8D7: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'oh yeah i almost forgot thanks'
          },
          alphysY8D8: {
@@ -10743,79 +10743,79 @@ export default {
             pm: "oh, and be sure to clear the message history while you're at it."
          },
          alphysY8D9: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'yeah ill do that dont worry'
          },
          alphysZ1: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '...\n人呢？'
          },
          alphysZ2: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '我有點擔心了'
          },
          alphysZ3: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '不... 不不不 你只是在唬我玩對吧'
          },
          alphysZ4: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '你肯定在唬我，對吧對吧？\n你不會就這麼死了的'
          },
          alphysZ5: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '衫斯快告訴我你還活著'
          },
          alphysZ6: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'im sorry if i upset you for some reason or did something bad'
          },
          alphysZ7: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '只是你一直沒訊息\n我有點慌'
          },
          alphysZ8: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '唉... 回來了\n他逮住你兄弟了'
          },
          alphysZ9: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '我只是辦點事\n一回來就見不著他了'
          },
          alphysZ10: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '嗯... 衫斯'
          },
          alphysZ11: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'i dont know if youre there in some form or not but'
          },
          alphysZ12: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '安黛因死了'
          },
          alphysZ13: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '安黛因死了\n我他媽卻不知道該怎麼辦'
          },
          alphysZ14: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '對不起'
          },
          alphysZ15: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: 'i should probably go.'
          },
          alphysZ16: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '見鬼\n我為什麼還在和你發訊息'
          },
          alphysZ17: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '喔順帶一提'
          },
          alphysZ18: {
-            author: '艾菲斯',
+            author: 'ALPHYS',
             pm: '一直是那朵星花在搞鬼'
          }
       },
@@ -10938,7 +10938,7 @@ export default {
                  '<30>{#p/basic}{#k/1}* ...',
                  '<30>{#k/4}* ...',
                  "<30>{#k/6}* You think you're real sly, huh?",
-                 "<30>{#k/7}* Hmm...\n* Why don't you try selling that to 布萊蒂 and 凱蒂?",
+                 "<30>{#k/7}* Hmm...\n* Why don't you try selling that to Bratty and Catty?",
                  '<30>{#k/0}* I\'m sure they\'ll, uh, \"bite.\"'
               ],
       sell2: () =>
@@ -10949,15 +10949,15 @@ export default {
             : [ "<30>{#p/basic}{#k/6}* It's not happening, pal." ],
       talk: () =>
          SAVE.data.n.plot === 72
-            ? [ 'Romantic Advice', '鎂塔頓', 'Where To Go Next', 'My Future', '離開' ]
+            ? [ 'Romantic Advice', 'Mettaton', 'Where To Go Next', 'My Future', '離開' ]
             : [
                  [ 'Life Advice', '§fill=#ff0§Taking Charge (NEW)', 'Taking Charge' ][
                     Math.min(SAVE.data.n.shop_bpants_advice, 2)
                  ],
-                 '鎂塔頓',
+                 'Mettaton',
                  postSIGMA()
                     ? 'Power Outage'
-                    : [ 'Where We Are', '§fill=#ff0§Glyde (NEW)', '老滑頭' ][Math.min(SAVE.data.n.shop_bpants_hub, 2)],
+                    : [ 'Where We Are', '§fill=#ff0§Glyde (NEW)', 'Glyde' ][Math.min(SAVE.data.n.shop_bpants_hub, 2)],
                  'Your Future',
                  '離開'
               ],
@@ -11018,7 +11018,7 @@ export default {
                : (world.genocide || world.bad_robot) && 68 <= SAVE.data.n.plot
                ? SAVE.data.n.shop_bpants_mtt2++ < 1
                   ? [
-                       '<32>{#p/basic}{#k/4}* 鎂塔頓...',
+                       '<32>{#p/basic}{#k/4}* Mettaton...',
                        "<32>{#k/4}* I'd rant about him, but uh...\n* Since you killed him...",
                        "<32>{#k/5}* I don't really think there's much to say."
                     ]
@@ -11026,7 +11026,7 @@ export default {
                : SAVE.data.n.shop_bpants_mtt1++ < 1
                ? world.population === 0 || burger()
                   ? [
-                       '<32>{#p/basic}{#k/4}* 鎂塔頓...',
+                       '<32>{#p/basic}{#k/4}* Mettaton...',
                        "<32>{#k/6}* I'd rant about HIM, but YOU make him look like a saint.",
                        '<32>{#k/5}* I guess you could call that an accomplishment... of a terrible, terrible sort.'
                     ]
@@ -11160,7 +11160,7 @@ export default {
       ],
       itemPrompt: '<99>{#p/basic}{#k/0/9}{@fill=#d4bbff}You\nshould\nbuy ALL\nour stuff!',
       itemPurchase: [
-         "<09>{#p/basic}{#k/1/8}{@fill=#d4bbff}布萊蒂!\nWe're gonna be rich!",
+         "<09>{#p/basic}{#k/1/8}{@fill=#d4bbff}Bratty!\nWe're gonna be rich!",
          '<09>{#p/basic}{#k/0/4}{@fill=#d4bbff}So are you gonna buy it??',
          '<09>{#p/basic}{#k/4/5}{@fill=#d4bbff}You need WAY more money.',
          "<10>{#p/human}（你帶的\n東西\n太多了。）"
@@ -11319,7 +11319,7 @@ export default {
                  },
                  {
                     b: "<16>{#k/2/8}* We don't.\n* Really need.\n* Anything.",
-                    c: "<16>{#k/1/7}* Wait! I'll pay 1000G if you get 鎂塔頓 to autograph my butt!"
+                    c: "<16>{#k/1/7}* Wait! I'll pay 1000G if you get Mettaton to autograph my butt!"
                  }
               ],
       sell2: () =>
@@ -11357,9 +11357,9 @@ export default {
             ? [ 'Is Everyone Okay', 'Godlike Being', 'OuterNet Shutdown', 'The Humans', '離開' ]
             : [
                  'About You Two',
-                 SAVE.data.n.plot < 68 ? 'Thrift Shop' : SAVE.data.b.killed_mettaton ? '鎂塔頓' : 'Grand Finale',
+                 SAVE.data.n.plot < 68 ? 'Thrift Shop' : SAVE.data.b.killed_mettaton ? 'Mettaton' : 'Grand Finale',
                  [ 'Area Ownership', '§fill=#ff0§Burgie (NEW)', 'Burgie' ][Math.min(SAVE.data.n.shop_gossip_hub, 2)],
-                 [ 'Alphys', '§fill=#ff0§Royal Scientist (NEW)', '§fill=#ff0§艾斯戈爾 (NEW)', 'Asgore' ][
+                 [ 'Alphys', '§fill=#ff0§Royal Scientist (NEW)', '§fill=#ff0§Asgore (NEW)', 'Asgore' ][
                     Math.min(SAVE.data.n.shop_gossip_alphys, 3)
                  ],
                  '離開'
@@ -11389,8 +11389,8 @@ export default {
                  ]
                : [
                     {
-                       b: "<16>{#k/0/0}* I'm 布萊蒂, and this is my best friend, 凱蒂.",
-                       c: "<16>* I'm 凱蒂, and this is my best friend, 布萊蒂.",
+                       b: "<16>{#k/0/0}* I'm Bratty, and this is my best friend, Catty.",
+                       c: "<16>* I'm Catty, and this is my best friend, Bratty.",
                        s: true
                     },
                     {
@@ -11568,7 +11568,7 @@ export default {
                             ]
                           : [
                                {
-                                  b: '<16>{#k/2/1}* So like, originally, 鎂塔頓 was in charge here, right?',
+                                  b: '<16>{#k/2/1}* So like, originally, Mettaton was in charge here, right?',
                                   c: '<16>{#k/1/1}* Totally in charge.'
                                },
                                {
@@ -11642,7 +11642,7 @@ export default {
                           s: true
                        },
                        {
-                          b: '<16>{#k/2/5}* 凱蒂, we would have said no.',
+                          b: '<16>{#k/2/5}* Catty, we would have said no.',
                           c: '',
                           s: true
                        },
@@ -11677,7 +11677,7 @@ export default {
                           s: true
                        },
                        {
-                          b: "<16>{#k/5/6}* 凱蒂, don't you have ANY standards?",
+                          b: "<16>{#k/5/6}* Catty, don't you have ANY standards?",
                           c: '',
                           s: true
                        },
@@ -11693,7 +11693,7 @@ export default {
                           c: '<16>{#k/0/8}* ... no, wait!\n* Can you go ask him to make us some food?'
                        },
                        {
-                          b: '<16>{#k/4/8}* 凱蒂!',
+                          b: '<16>{#k/4/8}* Catty!',
                           c: '',
                           s: true
                        },
@@ -11756,7 +11756,7 @@ export default {
                  ]
                : [
                     [
-                       { b: '<16>{#k/4/4}* Oh my god.\n* 艾菲斯.', c: '<16>* Oh my god, 艾菲斯.', s: true },
+                       { b: '<16>{#k/4/4}* Oh my god.\n* Alphys.', c: '<16>* Oh my god, ALPHYS.', s: true },
                        {
                           b: '<16>{#k/5/8}* She used to live in our housing spire!',
                           c: '<16>* She was like a big sister!',
@@ -11784,7 +11784,7 @@ export default {
                     ],
                     [
                        {
-                          b: '<16>{#k/0/6}* So 艾菲斯 has always been, like...',
+                          b: '<16>{#k/0/6}* So Alphys has always been, like...',
                           c: '<16>{#k/0/0}* ... super duper smart.'
                        },
                        { b: '<16>{#k/2/4}* Like...', c: '<16>* UNNATURALLY smart.' },
@@ -11822,7 +11822,7 @@ export default {
                           s: true
                        },
                        {
-                          b: '<16>{#k/4/0}* So like... OBVIOUSLY 艾斯戈爾 made her the royal scientist.',
+                          b: '<16>{#k/4/0}* So like... OBVIOUSLY Asgore made her the royal scientist.',
                           c: '<16>{#k/0/2}* Oh, for sure!'
                        }
                     ],
@@ -11833,7 +11833,7 @@ export default {
                           s: true
                        },
                        {
-                          b: "<16>{#k/2/0}* So like, here's the thing about 艾斯戈爾...",
+                          b: "<16>{#k/2/0}* So like, here's the thing about Asgore...",
                           c: "<16>* ... he's one of the NICEST guys you'll ever meet."
                        },
                        ...[
@@ -11848,8 +11848,8 @@ export default {
                                 s: true
                              },
                              {
-                                b: '<16>{#k/2/6}* I heard 安黛因 lobbied to expand the Royal Guard.',
-                                c: "<16>{#k/2/6}* Yeah, didn't 艾斯戈爾, like, not even want one to begin with?"
+                                b: '<16>{#k/2/6}* I heard Undyne lobbied to expand the Royal Guard.',
+                                c: "<16>{#k/2/6}* Yeah, didn't Asgore, like, not even want one to begin with?"
                              }
                           ],
                           [
@@ -11879,7 +11879,7 @@ export default {
                        },
                        '{*}{#s/meow}{%}',
                        {
-                          b: '<16>{#k/5/8}* 凱蒂, no!',
+                          b: '<16>{#k/5/8}* Catty, no!',
                           c: '<16>* Nya ha ha!',
                           s: true
                        },
@@ -11969,7 +11969,7 @@ export default {
                   ? [
                        '<32>{#p/human}* (Pondering the backstory of a certain TV superstar fills you with determination.)'
                     ]
-                  : [ "<32>{#p/human}* (鎂塔頓's ludicrous hijinks fill you with determination.)" ]
+                  : [ "<32>{#p/human}* (Mettaton's ludicrous hijinks fill you with determination.)" ]
                : SAVE.data.n.plot < 68
                ? [ '<32>{#p/human}* (Taking a step back before your upcoming performance fills you with determination.)' ]
                : world.bad_robot
@@ -12025,7 +12025,7 @@ export default {
             SAVE.data.b.ubershortcut
                ? [ '<32>{#p/human}* (The air is calm and peaceful, filling you with determination.)' ]
                : SAVE.data.n.plot < 68
-               ? [ "<32>{#p/human}* (The anticipation of 鎂塔頓's grand finale fills you with determination.)" ]
+               ? [ "<32>{#p/human}* (The anticipation of Mettaton's grand finale fills you with determination.)" ]
                : SAVE.data.n.plot === 72
                ? [
                     '<32>{#p/human}* （核心的能量即將耗竭...）',

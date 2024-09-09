@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* ..."
-msgstr "<32>{#p/basic}* ..."
+msgstr ""
 
 msgid "<32>{#p/basic}* I'm going to pretend you didn't just sell that locket."
 msgstr "<32>{#p/basic}* Vou fingir que você não vendeu aquele medalhão."
@@ -34,7 +34,7 @@ msgid "<25>{#f/9}* If you tried to call me, I had my phone turned off."
 msgstr "<25>{#f/9}* Se você tentasse me ligar, meu telefone estava desligado."
 
 msgid "<25>{#f/13}* ..."
-msgstr "<25>{#f/13}* ..."
+msgstr ""
 
 msgid "<25>{#f/13}* I am sorry for all that I did, little one."
 msgstr "<25>{#f/13}* Sinto muito por tudo o que fiz, pequeno."
@@ -50,7 +50,7 @@ msgstr ""
 "<25>{#f/9}* Estou apenas começando a aceitar meu comportamento no passado."
 
 msgid "<25>{#f/10}* ..."
-msgstr "<25>{#f/10}* ..."
+msgstr ""
 
 msgid "<25>{#f/10}* I suppose it is nice to see you here."
 msgstr "<25>{#f/10}* Suponho que seja bom vê-lo aqui."
@@ -86,7 +86,7 @@ msgstr ""
 "* Mas não agora."
 
 msgid "<25>{#f/5}* ..."
-msgstr "<25>{#f/5}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/toriel}{#f/5}* ... huh?\n"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* ..."
-msgstr "<32>{#p/basic}* ..."
+msgstr ""
 
 msgid "<32>{#p/basic}* I'm going to pretend you didn't just sell that locket."
 msgstr "<32>{#p/basic}* 我什么都没看到。"
@@ -35,7 +35,7 @@ msgstr ""
 "  所以你打不通我的电话。"
 
 msgid "<25>{#f/13}* ..."
-msgstr "<25>{#f/13}* ..."
+msgstr ""
 
 msgid "<25>{#f/13}* I am sorry for all that I did, little one."
 msgstr ""
@@ -57,7 +57,7 @@ msgstr ""
 "  有多严重。"
 
 msgid "<25>{#f/10}* ..."
-msgstr "<25>{#f/10}* ..."
+msgstr ""
 
 msgid "<25>{#f/10}* I suppose it is nice to see you here."
 msgstr "<25>{#f/10}* 总之，很高兴见到你。"
@@ -95,7 +95,7 @@ msgstr ""
 "* 还是一会再去吧。"
 
 msgid "<25>{#f/5}* ..."
-msgstr "<25>{#f/5}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/toriel}{#f/5}* ... huh?\n"
@@ -113,7 +113,7 @@ msgstr ""
 "  给的建议。）"
 
 msgid "<25>{#p/toriel}{#f/2}* ..."
-msgstr "<25>{#p/toriel}{#f/2}* ..."
+msgstr ""
 
 msgid "<25>{#f/1}* Those words..."
 msgstr "<25>{#f/1}* 这些话..."
@@ -278,7 +278,7 @@ msgid "<32>* Now she's..."
 msgstr "<32>* 她现在..."
 
 msgid "<32>* ..."
-msgstr "<32>* ..."
+msgstr ""
 
 msgid ""
 "<32>* But, uh, it's okay!\n"
@@ -637,7 +637,7 @@ msgid "<32>{#p/napstablook}* well, that was that"
 msgstr ""
 
 msgid "<32>* ............"
-msgstr "<32>* ............"
+msgstr ""
 
 msgid ""
 "<32>{#p/napstablook}* i'll be outside...\n"
@@ -882,13 +882,13 @@ msgid "<32>* now she's... just gone..."
 msgstr "<32>* 现在她... 直接消失了..."
 
 msgid "3..."
-msgstr "3..."
+msgstr ""
 
 msgid "2..."
-msgstr "2..."
+msgstr ""
 
 msgid "1..."
-msgstr "1..."
+msgstr ""
 
 msgid "GO!"
 msgstr "开始!"
@@ -946,7 +946,7 @@ msgstr ""
 "* ..........."
 
 msgid "<32>{#p/napstablook}* ..."
-msgstr "<32>{#p/napstablook}* ..."
+msgstr ""
 
 msgid "<32>{#p/napstablook}* what do you want......"
 msgstr ""
@@ -1228,7 +1228,7 @@ msgstr ""
 "  会偶尔出现..."
 
 msgid "<32>{#p/napstablook}* ............"
-msgstr "<32>{#p/napstablook}* ............"
+msgstr ""
 
 msgid ""
 "<32>{#p/napstablook}* hopefully next time you won't have to risk your life."
@@ -1319,13 +1319,13 @@ msgid "<32>{#p/napstablook}* i wish i had more to say..."
 msgstr "<32>{#p/napstablook}* 我没话讲了..."
 
 msgid "<32>{#p/napstablook}* ........."
-msgstr "<32>{#p/napstablook}* ........."
+msgstr ""
 
 msgid "<32>{#p/napstablook}* congratulations, i guess"
 msgstr "<32>{#p/napstablook}* 那么，恭喜你"
 
 msgid "<32>{#p/napstablook}* ......"
-msgstr "<32>{#p/napstablook}* ......"
+msgstr ""
 
 msgid "<32>{#p/human}* (You got the Hoverboots.)"
 msgstr "<32>{#p/human}* （你捡到了一双悬浮靴。）"
@@ -1420,10 +1420,10 @@ msgid "<32>* Ole' Gerson's not gonna be a happy camper after that..."
 msgstr ""
 
 msgid "<32>* I'll make sure you NEVER win another game of electrosnail."
-msgstr "<32>* I'll make sure you NEVER win another game of electrosnail."
+msgstr ""
 
 msgid "<32>* I'll make sure you NEVER win a game of electrosnail."
-msgstr "<32>* I'll make sure you NEVER win a game of electrosnail."
+msgstr ""
 
 msgid ""
 "<32>{#p/basic}* No.\n"
@@ -1435,7 +1435,7 @@ msgstr ""
 "* 不行！！！"
 
 msgid "<32>* What. Have. You. DONE???"
-msgstr "<32>* What. Have. You. DONE???"
+msgstr ""
 
 msgid "<32>* She was..."
 msgstr "<32>* 她..."
@@ -1985,7 +1985,7 @@ msgstr ""
 "  从这里出去..."
 
 msgid "<25>{#p/kidd}{#f/4}* ..."
-msgstr "<25>{#p/kidd}{#f/4}* ..."
+msgstr ""
 
 msgid "<33>{#p/basic}* Electricity permeates the body."
 msgstr "<33>{#p/basic}* 电流通过了她的全身。"
@@ -2120,10 +2120,10 @@ msgid "<25>{#p/asriel2}{#f/16}* I can't imagine how that feels for you."
 msgstr "<25>{#p/asriel2}{#f/16}* 没法和你感同身受呢。"
 
 msgid "<25>{#p/alphys}{#g/alphysIDK}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysIDK}* ..."
+msgstr ""
 
 msgid "<25>{#p/alphys}{#g/alphysNeutralSweat}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysNeutralSweat}* ..."
+msgstr ""
 
 msgid "<25>{#p/alphys}{#g/alphysNeutralSweat}* This was a b-bad idea."
 msgstr "<25>{#p/alphys}{#g/alphysNeutralSweat}* 这主意糟透了。"
@@ -2145,7 +2145,7 @@ msgid "<25>{#p/asriel2}{#f/10}* ... you sure?"
 msgstr "<25>{#p/asriel2}{#f/10}* ...当真？"
 
 msgid "<25>{#p/asriel2}{#f/7}* ..."
-msgstr "<25>{#p/asriel2}{#f/7}* ..."
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/7}* Coward."
 msgstr "<25>{#p/asriel2}{#f/7}* 真是个胆小鬼。"
@@ -2735,7 +2735,7 @@ msgid "<25>{#p/asriel2}{#f/6}* Killing Undyne is quickly becoming our hobby."
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/6}* ..."
-msgstr "<25>{#p/asriel2}{#f/6}* ..."
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/13}* Uh, you can take the lead, $(name)."
 msgstr ""
@@ -2756,10 +2756,10 @@ msgid "<25>{#f/2}* I won't miss being a stupid talking star.{%40}"
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/13}* ..."
-msgstr "<25>{#p/asriel2}{#f/13}* ..."
+msgstr ""
 
 msgid "<25>{*}{#p/asriel2}{#f/13}* $(name)...{^100}{%}"
-msgstr "<25>{*}{#p/asriel2}{#f/13}* $(name)...{^100}{%}"
+msgstr ""
 
 msgid ""
 "<25>{#p/asriel2}{#f/13}* Er...\n"
@@ -2792,12 +2792,9 @@ msgid ""
 "* Sans...\n"
 "* Papyrus..."
 msgstr ""
-"<32>{*}{@random=1.1/1.1}* Toriel...\n"
-"* Sans...\n"
-"* Papyrus..."
 
 msgid "<32>{*}{@random=1.1/1.1}* Undyne..."
-msgstr "<32>{*}{@random=1.1/1.1}* Undyne..."
+msgstr ""
 
 msgid "<32>{*}{@random=1.1/1.1}* It's all m-my fault..."
 msgstr "<32>{*}{@random=1.1/1.1}* 都-都怪我..."
@@ -2836,7 +2833,7 @@ msgstr ""
 "* 看到Undyne你很激动吧？"
 
 msgid "<25>{#p/kidd}{#f/9}* ..."
-msgstr "<25>{#p/kidd}{#f/9}* ..."
+msgstr ""
 
 msgid "<25>{|}{#f/12}* I don't- {%}"
 msgstr "<25>{|}{#f/12}* 我没有- {%}"
@@ -2852,7 +2849,7 @@ msgid "<25>{#p/asriel2}{#f/3}* Just remember what we came here for."
 msgstr "<25>{#p/asriel2}{#f/3}* 别忘了我们来干嘛的就好。"
 
 msgid "<25>{#p/kidd}{#f/9}* Undyne..."
-msgstr "<25>{#p/kidd}{#f/9}* Undyne..."
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/10}* ...?"
 msgstr "<25>{#p/asriel2}{#f/10}* ...？"
@@ -2894,7 +2891,7 @@ msgid "<25>{#p/kidd}{#f/12}* Is she... really..."
 msgstr "<25>{#p/kidd}{#f/12}* 她... 真的..."
 
 msgid "<25>{#p/kidd}{#f/10}* ..."
-msgstr "<25>{#p/kidd}{#f/10}* ..."
+msgstr ""
 
 msgid "<25>{#f/10}* Undyne won't die."
 msgstr "<25>{#f/10}* Undyne不会死的。"
@@ -2934,7 +2931,7 @@ msgid "<25>{#p/asriel2}{#f/8}* (How did they KNOW?)"
 msgstr "<25>{#p/asriel2}{#f/8}* （他怎么知道？）"
 
 msgid "<25>{#p/asriel2}{#f/10}* ..."
-msgstr "<25>{#p/asriel2}{#f/10}* ..."
+msgstr ""
 
 msgid "<32>{#p/asriel2}{#f/6}* There she is."
 msgstr "<32>{#p/asriel2}{#f/6}* 她在那。"
@@ -2943,13 +2940,13 @@ msgid "<32>{#f/6}* Now."
 msgstr "<32>{#f/6}* 给我上。"
 
 msgid "<32>{#f/7}* ..."
-msgstr "<32>{#f/7}* ..."
+msgstr ""
 
 msgid "<32>{*}{#p/asriel2}{#f/14}{@random=1.1/1.1}{@fill=#f00}* Do it.{%100}"
 msgstr "<32>{*}{#p/asriel2}{#f/14}{@random=1.1/1.1}{@fill=#f00}* 还不快去。{%100}"
 
 msgid "<25>{#p/kidd}{#f/12}* ..."
-msgstr "<25>{#p/kidd}{#f/12}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/undyne}{#f/13}* What the HELL?\n"
@@ -2965,7 +2962,7 @@ msgid "<25>{#p/asriel2}{#f/15}* Careful, $(name)."
 msgstr "<25>{#p/asriel2}{#f/15}* 小心点，$(name)。"
 
 msgid "<25>{#p/asriel2}{#f/15}* $(name)..."
-msgstr "<25>{#p/asriel2}{#f/15}* $(name)..."
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/15}* Really now?"
 msgstr "<25>{#p/asriel2}{#f/15}* 开玩笑吗？"
@@ -3187,7 +3184,7 @@ msgid "<25>{#p/asriel2}{#f/8}* Whatever you say."
 msgstr "<25>{#p/asriel2}{#f/8}* 她爱咋咋地。"
 
 msgid "<25>{#p/asriel2}{#f/8}* ..."
-msgstr "<25>{#p/asriel2}{#f/8}* ..."
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/8}* Tch."
 msgstr "<25>{#p/asriel2}{#f/8}* 切。"
@@ -3270,7 +3267,7 @@ msgid "<25>{#f/8}* Just..."
 msgstr "<25>{#f/8}* 只是..."
 
 msgid "<25>{#f/8}* ..."
-msgstr "<25>{#f/8}* ..."
+msgstr ""
 
 msgid "<25>{#f/8}* ... what have I done..."
 msgstr "<25>{#f/8}* ...我干了什么..."
@@ -3358,7 +3355,7 @@ msgid "<18>Here, get up..."
 msgstr "<18>来，我扶你起来..."
 
 msgid "<18>..."
-msgstr "<18>..."
+msgstr ""
 
 msgid "<18>$(name), huh?"
 msgstr "<18>$(name)，是吗？"
@@ -3417,7 +3414,7 @@ msgid "_K1ll3rMann3qu1n_"
 msgstr "_摋掱亾耦_"
 
 msgid "ALPHYS"
-msgstr "ALPHYS"
+msgstr ""
 
 msgid "lazybones."
 msgstr "懒骨."
@@ -3432,7 +3429,7 @@ msgid "Spooktune Mashup.kwac"
 msgstr "鬼怪混音集.kwac"
 
 msgid "NAPSTABLOOK22"
-msgstr "NAPSTABLOOK22"
+msgstr ""
 
 msgid "<32>{#p/tem}* oh no, it's a... FISHES!!!"
 msgstr ""
@@ -3650,7 +3647,7 @@ msgid "None"
 msgstr "暂无"
 
 msgid "<32>{#p/basic}{#npc/a}* ..."
-msgstr "<32>{#p/basic}{#npc/a}* ..."
+msgstr ""
 
 msgid "<32>* Your relationship status is now set to \"bestie.\""
 msgstr ""
@@ -4750,7 +4747,7 @@ msgid "<32>* Please... help me..."
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/13}* ..."
-msgstr "<25>{#p/asriel1}{#f/13}* ..."
+msgstr ""
 
 msgid ""
 "<32>{#p/basic}* I think there's a b-b-b-bogey comin' towards me as we "
@@ -4825,7 +4822,7 @@ msgid "<32>* But, like, wouldn't we be able to wake ourselves up?"
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/15}* ..."
-msgstr "<25>{#p/asriel1}{#f/15}* ..."
+msgstr ""
 
 msgid ""
 "<23>{#p/papyrusnt}UNDYNE, ARE YOU THERE?\n"
@@ -4840,7 +4837,7 @@ msgid "<33>{#p/undyne}* What is it, Papyrus?"
 msgstr "<33>{#p/undyne}* 他怎么了，Papyrus？"
 
 msgid "<23>{#p/papyrusnt}..."
-msgstr "<23>{#p/papyrusnt}..."
+msgstr ""
 
 msgid "<32>{#p/undyne}* Papyrus?"
 msgstr "<32>{#p/undyne}* Papyrus？"
@@ -4860,7 +4857,7 @@ msgstr ""
 "* 这是咋回事？"
 
 msgid "<32>{#p/sans}{#f/7}* ..."
-msgstr "<32>{#p/sans}{#f/7}* ..."
+msgstr ""
 
 msgid "<32>{#p/undyne}* Not... particularly liking the silent treatment..."
 msgstr ""
@@ -4914,7 +4911,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/16}* ..."
-msgstr "<25>{#p/asriel1}{#f/16}* ..."
+msgstr ""
 
 msgid ""
 "<32>{#p/basic}* Help!\n"
@@ -4966,7 +4963,7 @@ msgstr ""
 "  听起来怪吓人的，哈哈..."
 
 msgid "<25>{#f/4}* ..."
-msgstr "<25>{#f/4}* ..."
+msgstr ""
 
 msgid ""
 "<32>{#p/radio}{#v/1}* Okay, nobody panic!\n"
@@ -5015,7 +5012,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/23}* ..."
-msgstr "<25>{#p/asriel1}{#f/23}* ..."
+msgstr ""
 
 msgid ""
 "<32>{#p/undyne}* You don't get it, this isn't some rowdy teen... get outta "
@@ -5100,7 +5097,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/22}* ..."
-msgstr "<25>{#p/asriel1}{#f/22}* ..."
+msgstr ""
 
 msgid "<32>{#p/alphys}* How's that new body coming?"
 msgstr "<32>{#p/alphys}* 新身体用着怎么样？ゑ"
@@ -5205,7 +5202,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/10}* ..."
-msgstr "<25>{#p/asriel1}{#f/10}* ..."
+msgstr ""
 
 msgid ""
 "<32>{#p/basic}* Asriel and the human are on their way. I'll intercept them "
@@ -5305,7 +5302,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/21}* ..."
-msgstr "<25>{#p/asriel1}{#f/21}* ..."
+msgstr ""
 
 msgid ""
 "<32>{#p/basic}* Skrubby of foundry crew.\n"
@@ -5375,7 +5372,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/3}* ..."
-msgstr "<25>{#p/asriel1}{#f/3}* ..."
+msgstr ""
 
 msgid ""
 "<23>{#p/papyrusnt}THIS IS PAPYRUS.\n"
@@ -5460,7 +5457,7 @@ msgid "<32>{#p/asgore}* Please... come back..."
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/25}* ..."
-msgstr "<25>{#p/asriel1}{#f/25}* ..."
+msgstr ""
 
 msgid "<32>{#p/undyne}* Mind if I ask you a favor?"
 msgstr "<32>{#p/undyne}* 可以请你帮我个忙吗？"
@@ -5737,7 +5734,7 @@ msgid "<25>{#f/2}* I wanna be just like her when I grow up..."
 msgstr "<25>{#f/2}* 我长大了要成为她那样..."
 
 msgid "<25>{#p/kidd}{#npc/a}{#f/4}* ..."
-msgstr "<25>{#p/kidd}{#npc/a}{#f/4}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/kidd}{#npc/a}{#f/3}* He always gets kicked out for pulling awful "
@@ -5987,7 +5984,7 @@ msgid "<32>{*}{#p/tem}{#i/5}{#s.stop}* I know what you did."
 msgstr "<32>{*}{#p/tem}{#i/10}{#s.stop}* 我知道你做了什么。"
 
 msgid "{*}{#s.resume}{%}"
-msgstr "{*}{#s.resume}{%}"
+msgstr ""
 
 msgid "<32>{#p/tem}{#npc/a}* Hi."
 msgstr "<32>{#p/tem}{#npc/a}* 嘿。"
@@ -6177,7 +6174,7 @@ msgid "<32>{*}{#p/undyne}* Run.{^20}{%}"
 msgstr "<32>{*}{#p/undyne}* 逃吧。{^20}{%}"
 
 msgid "<32>{#p/undyne}* ..."
-msgstr "<32>{#p/undyne}* ..."
+msgstr ""
 
 msgid "<32>{#p/undyne}* I'll go check."
 msgstr ""
@@ -6310,7 +6307,7 @@ msgid "<32>* O-okay, I'll go home..."
 msgstr "<32>* 好-好吧，我会回家的..."
 
 msgid "<32>{#p/kidd}* Undyne..."
-msgstr "<32>{#p/kidd}* Undyne..."
+msgstr ""
 
 msgid "<32>* You saved me...?"
 msgstr "<32>* 你救了我...？"
@@ -6478,7 +6475,7 @@ msgid "<18>{#f/7}SO DON'T GET INTO ANY TROUBLE!"
 msgstr ""
 
 msgid "<18>{#f/5}..."
-msgstr "<18>{#f/5}..."
+msgstr ""
 
 msgid "<18>{#f/5}PAPYRUS OUT..."
 msgstr ""
@@ -6730,9 +6727,6 @@ msgid ""
 "* ...\n"
 "* ..."
 msgstr ""
-"<32>{#p/basic}{#npc/a}* ...\n"
-"* ...\n"
-"* ..."
 
 msgid ""
 "<32>* ... Grillbz didn't mention customers, but said seeing you is a nice "
@@ -7118,7 +7112,7 @@ msgid "<32>{#p/tem}{#npc/a}* uwawawawah....."
 msgstr "<32>{#p/tem}{#npc/a}* 呜哇哦哇哦哇哦....."
 
 msgid "<32>{#p/tem}{#npc/a}* ..."
-msgstr "<32>{#p/tem}{#npc/a}* ..."
+msgstr ""
 
 msgid "<32>{#p/tem}{#npc/a}* Go away."
 msgstr "<32>{#p/tem}{#npc/a}* 滚开。"
@@ -7215,7 +7209,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/undyne}{#f/4}* ..."
-msgstr "<25>{#p/undyne}{#f/4}* ..."
+msgstr ""
 
 msgid "<25>{#p/sans}{#f/0}* hey, you there?"
 msgstr "<25>{#p/sans}{#f/0}* 嘿，你在吗？"
@@ -8119,7 +8113,7 @@ msgid "<25>{#p/asriel2}{#f/13}* Are we... really..."
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/16}* ..."
-msgstr "<25>{#p/asriel2}{#f/16}* ..."
+msgstr ""
 
 msgid ""
 "<32>{#p/basic}* Don't worry.\n"
@@ -8196,15 +8190,12 @@ msgid ""
 "* So!\n"
 "* SO!"
 msgstr ""
-"<32>{#p/basic}* So.\n"
-"* So!\n"
-"* SO!"
 
 msgid "<32>* You're a TV star now, huh?"
-msgstr "<32>* You're a TV star now, huh?"
+msgstr ""
 
 msgid "<32>* Yeah, Mettaton usually has that effect on people."
-msgstr "<32>* Yeah, Mettaton usually has that effect on people."
+msgstr ""
 
 msgid "<32>{#p/basic}* Ready or not, here she comes!!"
 msgstr ""
@@ -8336,7 +8327,7 @@ msgid "<25>{#f/23}* Must've been after I..."
 msgstr ""
 
 msgid "<25>{#f/22}* ..."
-msgstr "<25>{#f/22}* ..."
+msgstr ""
 
 msgid "<32>{#p/basic}* It's an old, derelict statue."
 msgstr "<32>{#p/basic}* 这是座古老的、废弃的雕像。"
@@ -8943,21 +8934,17 @@ msgid ""
 "<32>{#p/basic}* So.\n"
 "* One second, we're running for our lives from her..."
 msgstr ""
-"<32>{#p/basic}* So.\n"
-"* One second, we're running for our lives from her..."
 
 msgid "<32>* And the next?"
-msgstr "<32>* And the next?"
+msgstr ""
 
 msgid ""
 "<32>* We're cooking spaghetti with her.\n"
 "* And burning her house down."
 msgstr ""
-"<32>* We're cooking spaghetti with her.\n"
-"* And burning her house down."
 
 msgid "<32>{#p/human}* (You hear a small giggle.)"
-msgstr "<32>{#p/human}* (You hear a small giggle.)"
+msgstr ""
 
 msgid ""
 "<32>{#p/basic}* Jeez.\n"
@@ -8974,23 +8961,21 @@ msgid ""
 "<32>{#p/basic}* Oh, uh, sorry!\n"
 "* I..."
 msgstr ""
-"<32>{#p/basic}* Oh, uh, sorry!\n"
-"* I..."
 
 msgid "<32>* It's been a while since I've felt... happy like this."
-msgstr "<32>* It's been a while since I've felt... happy like this."
+msgstr ""
 
 msgid "<32>* With you here, things never seem to go wrong."
-msgstr "<32>* With you here, things never seem to go wrong."
+msgstr ""
 
 msgid "<32>* So... you just keep doing what you're doing, alright?"
-msgstr "<32>* So... you just keep doing what you're doing, alright?"
+msgstr ""
 
 msgid "<32>* And I'll..."
-msgstr "<32>* And I'll..."
+msgstr ""
 
 msgid "<32>* I'll be here for you."
-msgstr "<32>* I'll be here for you."
+msgstr ""
 
 msgid ""
 "<32>{#p/basic}* We did it.\n"
@@ -9167,16 +9152,16 @@ msgid ""
 msgstr ""
 
 msgid "<18>{#p/papyrus}{#f/5}..."
-msgstr "<18>{#p/papyrus}{#f/5}..."
+msgstr ""
 
 msgid "<25>{#p/undyne}{#f/1}* Come on, get inside!"
 msgstr ""
 
 msgid "<18>{#p/papyrus}..."
-msgstr "<18>{#p/papyrus}..."
+msgstr ""
 
 msgid "<25>{#p/undyne}{#f/5}* ..."
-msgstr "<25>{#p/undyne}{#f/5}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/undyne}{#f/17}* Why don't.\n"
@@ -9262,7 +9247,7 @@ msgid "<25>{#f/1}* Have a seat, and I'll see what I can do."
 msgstr ""
 
 msgid "<25>{#p/undyne}{#f/11}* ..."
-msgstr "<25>{#p/undyne}{#f/11}* ..."
+msgstr ""
 
 msgid "<25>* So why were YOU so desperate to break into my house earlier?"
 msgstr ""
@@ -9331,7 +9316,7 @@ msgid "<25>{#p/undyne}{#f/15}* Then again..."
 msgstr "<25>{#p/undyne}{#f/15}* 再者说..."
 
 msgid "<25>{#f/17}* ..."
-msgstr "<25>{#f/17}* ..."
+msgstr ""
 
 msgid "<25>{#f/4}* WHAT ARE YOU LOOKING AT?"
 msgstr "<25>{#f/4}* 你看什么看？"
@@ -9356,7 +9341,7 @@ msgstr ""
 "  复仇的欲望！"
 
 msgid "<25>{#p/undyne}{#f/13}* ..."
-msgstr "<25>{#p/undyne}{#f/13}* ..."
+msgstr ""
 
 msgid "<25>{#f/11}* So... let me get this straight."
 msgstr ""
@@ -9567,7 +9552,7 @@ msgstr ""
 "  就告诉我吧。"
 
 msgid "<25>{#p/undyne}{#f/3}* ..."
-msgstr "<25>{#p/undyne}{#f/3}* ..."
+msgstr ""
 
 msgid "<25>{#f/17}* This IS home."
 msgstr "<25>{#f/17}* 这里就是家。"
@@ -9581,7 +9566,7 @@ msgstr ""
 "  你的母星..."
 
 msgid "<25>{#f/9}* ..."
-msgstr "<25>{#f/9}* ..."
+msgstr ""
 
 msgid "<25>{#f/19}* But nothing can bring that back."
 msgstr ""
@@ -9829,7 +9814,7 @@ msgstr ""
 "  也没加糖什么的。"
 
 msgid "<25>{#f/11}* ..."
-msgstr "<25>{#f/11}* ..."
+msgstr ""
 
 msgid "<25>{#p/undyne}{#f/12}* That sugar's only there for the tea."
 msgstr ""
@@ -9897,7 +9882,7 @@ msgid "<25>{#p/undyne}{#f/17}* ... clearly not!"
 msgstr "<25>{#p/undyne}{#f/17}* ...就是不行！"
 
 msgid "<25>{#p/undyne}{#f/17}* ..."
-msgstr "<25>{#p/undyne}{#f/17}* ..."
+msgstr ""
 
 msgid "<25>{#p/undyne}{#f/1}* The energy saber..."
 msgstr "<25>{#p/undyne}{#f/1}* 那把能量剑..."
@@ -10551,7 +10536,7 @@ msgstr ""
 "  叮叮作响。"
 
 msgid "<25>{#p/undyne}{#f/17}* I mean, that works???"
-msgstr "<25>{#p/undyne}{#f/17}* I mean, that works???"
+msgstr ""
 
 msgid "<25>{#f/1}* Well, now it's time to stir the pasta!"
 msgstr ""
@@ -10687,7 +10672,7 @@ msgid "<25>{*}{#p/undyne}{#f/17}* Ugh, let me do it...{^10}{%}"
 msgstr "<25>{*}{#p/undyne}{#f/17}* 呃，让我来吧...{^10}{%}"
 
 msgid "<25>{*}{#p/undyne}{#f/17}* See, this is how you-{^20}{%}"
-msgstr "<25>{*}{#p/undyne}{#f/17}* See, this is how you-{^20}{%}"
+msgstr ""
 
 msgid "<25>{*}{#p/undyne}{#f/17}* No, wait, that's too-{^10}{%}"
 msgstr "<25>{*}{#p/undyne}{#f/17}* 不，等下，有点太-{^10}{%}"
@@ -10712,7 +10697,7 @@ msgstr ""
 "* 还是绑个腕带？"
 
 msgid "<25>{#p/undyne}{#f/10}* ..."
-msgstr "<25>{#p/undyne}{#f/10}* ..."
+msgstr ""
 
 msgid "<25>{#f/9}* ... who am I kidding..."
 msgstr "<25>{#f/9}* ...我在开什么玩笑..."
@@ -11185,7 +11170,7 @@ msgstr ""
 "  Undyne伤害你..."
 
 msgid "<25>* ..."
-msgstr "<25>* ..."
+msgstr ""
 
 msgid "<25>{#f/2}* Why don't we stick together for a while?"
 msgstr "<25>{#f/2}* 要不然我们一起行动？"
@@ -12053,7 +12038,7 @@ msgid "<25>* Papyrus didn't come to his meeting today."
 msgstr "<25>* Papyrus今天没来报到。"
 
 msgid "<25>{#f/19}* ..."
-msgstr "<25>{#f/19}* ..."
+msgstr ""
 
 msgid "<25>{#x2}* Say what you want about him."
 msgstr "<25>{#x2}* 你怎么想他都无所谓。"
@@ -12305,7 +12290,7 @@ msgid "<25>{#p/kidd}{#f/8}* You can't get over that gap alone, dude..."
 msgstr "<25>{#p/kidd}{#f/8}* 你一个人是过不去的..."
 
 msgid "<25>{#p/kidd}{#f/8}* ..."
-msgstr "<25>{#p/kidd}{#f/8}* ..."
+msgstr ""
 
 msgid "<25>{#p/kidd}{#f/5}* ... let me help."
 msgstr "<25>{#p/kidd}{#f/5}* ...我帮你。"
@@ -12383,7 +12368,7 @@ msgstr ""
 "* 你跟这家伙不是一路人。"
 
 msgid "<25>{*}{#p/kidd}{#f/8}* Undyne...{#x1}{^20}{%}"
-msgstr "<25>{*}{#p/kidd}{#f/8}* Undyne...{#x1}{^20}{%}"
+msgstr ""
 
 msgid ""
 "<25>{*}{#p/kidd}{#f/13}* I promise, I... I-I'll come back for you!{^20}{%}"
@@ -12573,7 +12558,7 @@ msgid ""
 msgstr ""
 
 msgid "* Skrubbington"
-msgstr "* Skrubbington"
+msgstr ""
 
 msgid "<32>{#p/asriel2}* Skrubbington."
 msgstr "<32>{#p/asriel2}* Skrubbington。"
@@ -12778,7 +12763,7 @@ msgid ""
 msgstr ""
 
 msgid "* Gelata"
-msgstr "* Gelata"
+msgstr ""
 
 msgid "<08>{#p/basic}{~}Guoooh!"
 msgstr ""
@@ -12865,10 +12850,10 @@ msgid ""
 msgstr ""
 
 msgid "* Gelatini"
-msgstr "* Gelatini"
+msgstr ""
 
 msgid "<08>{#p/basic}{~}..."
-msgstr "<08>{#p/basic}{~}..."
+msgstr ""
 
 msgid "<32>{#p/asriel2}* Gelatini."
 msgstr ""
@@ -13118,7 +13103,7 @@ msgid "<32>{#p/story}* Shyren's voice is raspy."
 msgstr ""
 
 msgid "* Shyren"
-msgstr "* Shyren"
+msgstr ""
 
 msgid "<32>{#p/story}* Shyren hums very faintly."
 msgstr ""
@@ -13287,7 +13272,7 @@ msgid ""
 msgstr ""
 
 msgid "* Radtile"
-msgstr "* Radtile"
+msgstr ""
 
 msgid "<32>{#p/asriel2}* Radtile."
 msgstr "<32>{#p/asriel2}* Radtile。"
@@ -13606,7 +13591,7 @@ msgid "<32>{#p/story}* Doge is trying desperately to pretend she's just fine."
 msgstr "<32>{#p/story}* Doge拼命装出一副没事的样子。"
 
 msgid "* Doge"
-msgstr "* Doge"
+msgstr ""
 
 msgid "<11>{#p/basic}{~}Ah..."
 msgstr "<11>{#p/basic}{~}啊..."
@@ -13927,7 +13912,7 @@ msgid "<11>{#p/basic}{~}{#f.batmusic1}Just a moment."
 msgstr ""
 
 msgid "<11>{#p/basic}{~}..."
-msgstr "<11>{#p/basic}{~}..."
+msgstr ""
 
 msgid "<11>{#p/basic}{~}\\x00*whips around*"
 msgstr ""
@@ -14453,7 +14438,7 @@ msgstr ""
 "  你的驳论。）"
 
 msgid "* Muffet"
-msgstr "* Muffet"
+msgstr ""
 
 msgid ""
 "<11>{#p/basic}{~}That's very kind, but we already have more than enough~"
@@ -14655,7 +14640,7 @@ msgid "<32>{#p/kidding}* It's over..."
 msgstr "<32>{#p/kidding}* 结束了..."
 
 msgid "<32>{#p/kidding}* ..."
-msgstr "<32>{#p/kidding}* ..."
+msgstr ""
 
 msgid "<32>{#p/kidding}* Are we gonna end this, or...?"
 msgstr "<32>{#p/kidding}* 我们要就此结束，还是...？"
@@ -15208,7 +15193,7 @@ msgid "* Undyne the Undying"
 msgstr ""
 
 msgid "* Undyne"
-msgstr "* Undyne"
+msgstr ""
 
 msgid "<32>{#p/story}* Undyne towers above you."
 msgstr "<32>{#p/story}* Undyne高耸于你之上。"
@@ -15423,7 +15408,7 @@ msgid "<32>{#p/story}* Smells like roasted fish."
 msgstr "<32>{#p/story}* 烤鱼的味道扑面而来。"
 
 msgid "<20>{#p/undyne}{#e/undyne/3}..."
-msgstr "<20>{#p/undyne}{#e/undyne/3}..."
+msgstr ""
 
 msgid ""
 "<20>{#e/undyne/4}What? You think I'm just gonna stand here and explain my "
@@ -15492,7 +15477,7 @@ msgid "<20>{#e/undyne/5}IT'S NOT THAT HARD!!!"
 msgstr "<20>{#e/undyne/5}没那么难！！！"
 
 msgid "<20>{#p/undyne}{#e/undyne/2}..."
-msgstr "<20>{#p/undyne}{#e/undyne/2}..."
+msgstr ""
 
 msgid "<20>{#e/undyne/2}I wanted this to be a fair fight."
 msgstr ""
@@ -16085,7 +16070,7 @@ msgid "<20>{#p/undyne}{#e/undyne/6}I WILL FIGHT YOU TO THE BITTER END!"
 msgstr ""
 
 msgid "<20>{#p/undyne}{#e/undyne/9}..."
-msgstr "<20>{#p/undyne}{#e/undyne/9}..."
+msgstr ""
 
 msgid ""
 "<20>{#p/undyne}{#e/undyne/11}\\x00*huff...*\n"
@@ -16093,7 +16078,7 @@ msgid ""
 msgstr ""
 
 msgid "<20>{#e/undyne/3}..."
-msgstr "<20>{#e/undyne/3}..."
+msgstr ""
 
 msgid "<20>{#e/undyne/4}Well..."
 msgstr ""
@@ -16116,7 +16101,7 @@ msgid ""
 msgstr ""
 
 msgid "<20>{#e/undyne/4}..."
-msgstr "<20>{#e/undyne/4}..."
+msgstr ""
 
 msgid "<20>{#e/undyne/3}It's a shame we can't do battle forever, huh?"
 msgstr ""
@@ -16148,7 +16133,7 @@ msgid ""
 msgstr ""
 
 msgid "<20>..."
-msgstr "<20>..."
+msgstr ""
 
 msgid ""
 "<20>You were stronger...\n"
@@ -16167,7 +16152,7 @@ msgstr ""
 "...就是我的葬身之地..."
 
 msgid "<20>{#p/undyne}{#e/undyne/31}..."
-msgstr "<20>{#p/undyne}{#e/undyne/31}..."
+msgstr ""
 
 msgid "<20>{#p/undyne}{#e/undyne/31}No..."
 msgstr "<20>{#p/undyne}{#e/undyne/31}不..."
@@ -16196,17 +16181,12 @@ msgid ""
 "<20>{#e/undyne/36}Alphys...\n"
 "Asgore..."
 msgstr ""
-"<20>{#e/undyne/36}Alphys...\n"
-"Asgore..."
 
 msgid ""
 "<20>{#e/undyne/36}Alphys...\n"
 "Asgore...\n"
 "Papyrus..."
 msgstr ""
-"<20>{#e/undyne/36}Alphys...\n"
-"Asgore...\n"
-"Papyrus..."
 
 msgid "<20>{#e/undyne/32}Everyone is counting on me to protect them!"
 msgstr "<20>{#e/undyne/32}大家，都需要我来守护！"
@@ -16265,7 +16245,7 @@ msgid "<20>{#e/undyne/34}Had enough yet?"
 msgstr "<20>{#e/undyne/34}闹够了没有？"
 
 msgid "<20>{#p/undyne}{#e/undyne/34}..."
-msgstr "<20>{#p/undyne}{#e/undyne/34}..."
+msgstr ""
 
 msgid ""
 "<20>{#p/undyne}{#e/undyne/35}... I won't...\n"
@@ -16277,7 +16257,7 @@ msgstr ""
 "放弃..."
 
 msgid "<20>{#p/undyne}{#e/undyne/43}..."
-msgstr "<20>{#p/undyne}{#e/undyne/43}..."
+msgstr ""
 
 msgid ""
 "<20>{#p/undyne}{#e/undyne/47}Ha...\n"
@@ -16290,8 +16270,6 @@ msgid ""
 "<20>{#e/undyne/44}...\n"
 "Alphys..."
 msgstr ""
-"<20>{#e/undyne/44}...\n"
-"Alphys..."
 
 msgid "<20>This is what I was afraid of..."
 msgstr ""
@@ -16467,7 +16445,7 @@ msgstr ""
 "* 她冷冰冰地瞪了你一眼。"
 
 msgid "<08>{#p/kidding}{#e/kidd/0}..."
-msgstr "<08>{#p/kidding}{#e/kidd/0}..."
+msgstr ""
 
 msgid "<08>{#e/kidd/1}H... huh?"
 msgstr "<08>{#e/kidd/1}呃... 嗯？"
@@ -16533,7 +16511,7 @@ msgid "<20>Just get outta here, okay?"
 msgstr "<20>赶紧逃吧，好吗？"
 
 msgid "<08>{#e/kidd/8}{#p/kidding}..."
-msgstr "<08>{#e/kidd/8}{#p/kidding}..."
+msgstr ""
 
 msgid "<20>{#p/undyne}{#e/undyne/5}Dr. Alphys will look after you."
 msgstr "<20>{#p/undyne}{#e/undyne/5}Alphys博士会照顾好你的。"
@@ -16571,9 +16549,6 @@ msgid ""
 "Asgore...\n"
 "Alphys..."
 msgstr ""
-"<20>Papyrus...\n"
-"Asgore...\n"
-"Alphys..."
 
 msgid "<20>Just like that, I..."
 msgstr "<20>我就这样..."
@@ -16588,7 +16563,7 @@ msgid "{#e/undyne/8}I can't..."
 msgstr "{#e/undyne/8}我不能..."
 
 msgid "<20>{#p/undyne}..."
-msgstr "<20>{#p/undyne}..."
+msgstr ""
 
 msgid "<11>{#e/undyne/12}No..."
 msgstr "<11>{#e/undyne/12}不..."
@@ -16793,7 +16768,7 @@ msgid "<32>{#p/asriel2}* $(name), I don't think you can beat her alone."
 msgstr "<32>{#p/asriel2}* $(name)，光靠你打不过她。"
 
 msgid "<32>{#p/asriel2}* ..."
-msgstr "<32>{#p/asriel2}* ..."
+msgstr ""
 
 msgid "<32>{#p/asriel2}* Let's see how she likes THIS."
 msgstr ""
@@ -17032,7 +17007,7 @@ msgstr ""
 "打中我！"
 
 msgid "<20>{#e/undyne/17}..."
-msgstr "<20>{#e/undyne/17}..."
+msgstr ""
 
 msgid "<20>{#p/undyne}{#e/undyne/12}When I told you to hit me..."
 msgstr ""
@@ -17068,7 +17043,7 @@ msgid ""
 msgstr ""
 
 msgid "<20>{#e/undyne/19}..."
-msgstr "<20>{#e/undyne/19}..."
+msgstr ""
 
 msgid ""
 "<20>{#e/undyne/10}AHHHHHHHHHHHHHH-\n"
@@ -17082,7 +17057,7 @@ msgid "<20>{#e/undyne/7}TO..."
 msgstr ""
 
 msgid "<20>{#e/undyne/7}..."
-msgstr "<20>{#e/undyne/7}..."
+msgstr ""
 
 msgid "<33>{#p/story}* In this case, FIGHTING might not be such a bad idea."
 msgstr ""
@@ -18021,7 +17996,7 @@ msgid "<09>{#p/tem}{#k/6}thanks PURCHASE!"
 msgstr "<09>{#p/tem}{#k/6}谢谢惠顾！"
 
 msgid "<09>{#p/tem}{#k/0}fdshfg"
-msgstr "<09>{#p/tem}{#k/0}fdshfg"
+msgstr ""
 
 msgid "<09>{#p/tem}{#k/2}you don hav da muns,"
 msgstr ""
@@ -18301,7 +18276,7 @@ msgstr ""
 "* 嚎吖！！！"
 
 msgid "$(x)G"
-msgstr "$(x)G"
+msgstr ""
 
 msgid "<32>{#k/2}* u gota... $(x)s!!!"
 msgstr "<32>{#k/2}* 尼带着... $(x)！！！"
@@ -18345,7 +18320,7 @@ msgid "<32>{#p/tem}{#k/3}* You're gonna regret that."
 msgstr "<32>{#p/tem}{#k/3}* 你会后悔的。"
 
 msgid "<09>{#p/basic}..."
-msgstr "<09>{#p/basic}..."
+msgstr ""
 
 msgid "<32>{#p/basic}{#k/1}* Good riddance."
 msgstr "<32>{#p/basic}{#k/1}* 可算走了。ゑ"
@@ -18479,7 +18454,7 @@ msgid "<09>{#p/basic}{#k/1}Here we are."
 msgstr "<09>{#p/basic}{#k/1}拿这个。"
 
 msgid "<09>{#p/basic}{#k/1}..."
-msgstr "<09>{#p/basic}{#k/1}..."
+msgstr ""
 
 msgid ""
 "<09>{#p/basic}{#k/3}Eh?\n"
@@ -18602,7 +18577,7 @@ msgid "<30>{#k/0}* Where can you find them?"
 msgstr "<30>{#k/0}* 你问它在哪？"
 
 msgid "<30>{#k/4}* ..."
-msgstr "<30>{#k/4}* ..."
+msgstr ""
 
 msgid "<30>{#k/0}* I don't remember."
 msgstr "<30>{#k/0}* 想不起来了。"
@@ -18618,13 +18593,13 @@ msgstr ""
 "  我不收！"
 
 msgid "Asgore"
-msgstr "Asgore"
+msgstr ""
 
 msgid "New Homeworld"
 msgstr "新家园"
 
 msgid "Toriel"
-msgstr "Toriel"
+msgstr ""
 
 msgid "§fill=#ff0§Handshake"
 msgstr "§fill=#ff0§握手"
@@ -18633,7 +18608,7 @@ msgid "Am I A Hero"
 msgstr "我是英雄吗"
 
 msgid "Asriel"
-msgstr "Asriel"
+msgstr ""
 
 msgid "(Threaten)"
 msgstr "（威胁他）"
@@ -18642,7 +18617,7 @@ msgid "(Fight)"
 msgstr "（揍他）"
 
 msgid "Undyne"
-msgstr "Undyne"
+msgstr ""
 
 msgid "Your Fate"
 msgstr "你的下场"
@@ -18669,7 +18644,7 @@ msgid "§fill=#ff0§Erogot (NEW)"
 msgstr "§fill=#ff0§Erogot（新）"
 
 msgid "Erogot"
-msgstr "Erogot"
+msgstr ""
 
 msgid "The Foundry"
 msgstr "铸厂"
@@ -19406,7 +19381,7 @@ msgid "<32>{#p/basic}{#k/1}* I take it you've killed her by now?"
 msgstr ""
 
 msgid "<32>{#k/1}* ..."
-msgstr "<32>{#k/1}* ..."
+msgstr ""
 
 msgid "<32>{#k/3}* Then why ask me..."
 msgstr ""
@@ -19418,7 +19393,7 @@ msgid "<32>{#k/2}* You just wanna get my reaction, don'tcha?"
 msgstr ""
 
 msgid "<32>{#k/4}* ..."
-msgstr "<32>{#k/4}* ..."
+msgstr ""
 
 msgid "<32>{#k/4}* How about... nah."
 msgstr ""
@@ -19436,7 +19411,7 @@ msgid "<32>{#k/1}* Get outta my sight."
 msgstr ""
 
 msgid "<32>{#p/basic}{#k/1}* ..."
-msgstr "<32>{#p/basic}{#k/1}* ..."
+msgstr ""
 
 msgid "<32>{#k/1}* You've got a real twisted sense of humor, kiddo."
 msgstr ""
@@ -19489,7 +19464,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}{#k/4}* ..."
-msgstr "<32>{#p/basic}{#k/4}* ..."
+msgstr ""
 
 msgid "<32>{#k/0}* What more is there to say?"
 msgstr ""

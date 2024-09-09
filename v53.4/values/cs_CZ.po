@@ -15,7 +15,7 @@ msgid "No?"
 msgstr "Ne?"
 
 msgid "Hm...?"
-msgstr "Hm...?"
+msgstr ""
 
 msgid "Maybe?"
 msgstr "Možná?"
@@ -211,19 +211,19 @@ msgid "It's m-moving! I-I-It's shaking!"
 msgstr "H-hýbe se! T-T-Třese se!"
 
 msgid "Jerry."
-msgstr "Jerry."
+msgstr ""
 
 msgid "(The dog jumped into your lap.)"
 msgstr "(Pes vám skočil do klína.)"
 
 msgid "(Pant pant)"
-msgstr "(Pant pant)"
+msgstr ""
 
 msgid "I'LL ALLOW IT!!!!"
 msgstr "DOVOLÍM TO!!!"
 
 msgid "ok."
-msgstr "ok."
+msgstr ""
 
 msgid "nope."
 msgstr "ne."
@@ -267,13 +267,13 @@ msgid "Sorry, but you're a letter shy."
 msgstr "Promiňte, ale jste dopis stydlivý."
 
 msgid "...?"
-msgstr "...?"
+msgstr ""
 
 msgid "Clean name."
 msgstr "Čistý název."
 
 msgid "hOI!"
-msgstr "hOI!"
+msgstr ""
 
 msgid "Ngah, fine."
 msgstr "Ngah, dobře."
@@ -282,7 +282,7 @@ msgid "Get your OWN name!"
 msgstr "Získejte své VLASTNÍ jméno!"
 
 msgid "Uh.... OK?"
-msgstr "Uh.... OK?"
+msgstr ""
 
 msgid "D-don't do that."
 msgstr "N-nedělejte to."
@@ -342,4 +342,4 @@ msgid "... fine."
 msgstr "... dobře."
 
 msgid "..."
-msgstr "..."
+msgstr ""

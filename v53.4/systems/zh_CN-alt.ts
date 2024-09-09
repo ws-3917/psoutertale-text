@@ -463,7 +463,7 @@ export default {
          header: '(( 演员表 ))',
          opponents: {
             froggit: {
-               name: '蛙吉特',
+               name: 'FROGGIT',
                author: 'ScarletScaledDragon',
                text: {
                   basic: 'Pondering\nLife',
@@ -473,7 +473,7 @@ export default {
                }
             },
             whimsun: {
-               name: '飘游虫虫',
+               name: 'FLUTTERLYTE',
                author: 'ScarletScaledDragon',
                text: {
                   basic: 'Learning To\nFly',
@@ -483,7 +483,7 @@ export default {
                }
             },
             moldsmal: {
-               name: '小黏团',
+               name: 'GELATINI',
                author: 'spacey_432',
                text: {
                   basic: 'Found A New\nSpace Station',
@@ -493,7 +493,7 @@ export default {
                }
             },
             loox: {
-               name: '干瞪眼',
+               name: 'OCULOUX',
                author: 'ScarletScaledDragon',
                text: {
                   basic: 'Slightly\nBully-Like',
@@ -503,7 +503,7 @@ export default {
                }
             },
             migosp: {
-               name: '忍术蟑螂',
+               name: 'SILENTE',
                author: 'ScarletScaledDragon',
                text: {
                   basic: 'Exceedingly\nAgreeable',
@@ -513,7 +513,7 @@ export default {
                }
             },
             mushy: {
-               name: '蘑西',
+               name: 'MUSHY',
                author: 'Balgamlı Kedi & ScarletScaledDragon',
                text: {
                   basic: 'Shooting\nBlanks',
@@ -523,7 +523,7 @@ export default {
                }
             },
             finalghost: {
-               name: '匿罗',
+               name: 'LURKSALOT',
                author: 'spacey_432',
                text: {
                   basic: 'Keeping To\nThemselves',
@@ -533,7 +533,7 @@ export default {
                }
             },
             stardrake: {
-               name: '星铁龙',
+               name: 'STARDRAKE',
                author: 'Burge',
                text: {
                   basic: 'Still Looking\nFor Laughs',
@@ -543,7 +543,7 @@ export default {
                }
             },
             chilldrake: {
-               name: '小酷龙',
+               name: 'CHILLDRAKE',
                author: 'Burge',
                text: {
                   basic: 'Still Looking\nFor Supporters',
@@ -553,7 +553,7 @@ export default {
                }
             },
             spacetop: {
-               name: '太空帽',
+               name: 'ASTRO SERF',
                author: 'DESM.al',
                text: {
                   basic: 'Thinking About\nIts Antenna',
@@ -563,7 +563,7 @@ export default {
                }
             },
             jerry: {
-               name: '杰瑞',
+               name: 'JERRY',
                author: 'Discarded Vessel',
                text: {
                   basic: 'Getting Ditched\nOn The Daily',
@@ -573,7 +573,7 @@ export default {
                }
             },
             mouse: {
-               name: '绅鼠猫',
+               name: 'WHIZKARAT',
                author: 'Zaxento The Greedy & semi',
                text: {
                   basic: 'Having An\nIdentity Crisis',
@@ -583,7 +583,7 @@ export default {
                }
             },
             doggo: {
-               name: '遁狗',
+               name: 'DOGGO',
                author: 'Discarded Vessel',
                text: {
                   basic: 'Believes In The\nAlmighty Wrench',
@@ -593,7 +593,7 @@ export default {
                }
             },
             lesserdog: {
-               name: '小犬座',
+               name: 'CANIS MINOR',
                author: 'major_memestar',
                text: {
                   basic: 'Searching For\nAffection',
@@ -603,7 +603,7 @@ export default {
                }
             },
             dogs: {
-               name: '狗来米 & 狗媳儿',
+               name: 'DOGAMY & DOGARESSA',
                author: 'major_memestar',
                text: {
                   basic: 'Still Thinking\nAbout Fetch',
@@ -613,7 +613,7 @@ export default {
                }
             },
             greatdog: {
-               name: '大犬座',
+               name: 'CANIS MAJOR',
                author: 'major_memestar',
                text: {
                   basic: "Unaware Of\nLife's Changes",
@@ -623,7 +623,7 @@ export default {
                }
             },
             woshua: {
-               name: '刷洁顿',
+               name: 'SKRUBBINGTON',
                author: 'Discarded Vessel',
                text: {
                   basic: 'Only 99.1\nPercent Clean',
@@ -633,7 +633,7 @@ export default {
                }
             },
             moldbygg: {
-               name: '大黏簇',
+               name: 'GELATA',
                author: 'spacey_432',
                text: {
                   basic: 'Looking For A\nBaby Sitter',
@@ -643,7 +643,7 @@ export default {
                }
             },
             radtile: {
-               name: '老顽鳄',
+               name: 'RADTILE',
                author: 'Balgamlı Kedi & Zaxento The Greedy',
                text: {
                   basic: 'Wallowing In\nImperfection',
@@ -653,7 +653,7 @@ export default {
                }
             },
             shyren: {
-               name: '害羞塞壬',
+               name: 'SHYREN',
                author: 'Ghostly',
                text: {
                   basic: 'Back To Taking\nPiano Lessons',
@@ -663,7 +663,7 @@ export default {
                }
             },
             doge: {
-               name: '督吉',
+               name: 'DOGE',
                author: 'major_memestar',
                text: {
                   basic: 'Construction Site\nDrill Sergeant',
@@ -673,7 +673,7 @@ export default {
                }
             },
             muffet: {
-               name: '玛菲特',
+               name: 'MUFFET',
                author: 'major_memestar',
                text: {
                   basic: 'Looking For Her\nNext Payout',
@@ -683,7 +683,7 @@ export default {
                }
             },
             pyrope: {
-               name: '烈焰热线',
+               name: 'HOTWIRE',
                author: 'semi',
                text: {
                   basic: 'Waiting For The\nBeat To Drop',
@@ -693,7 +693,7 @@ export default {
                }
             },
             tsundere: {
-               name: '傲娇飞船',
+               name: 'TSUNDERIDEX',
                author: 'spacey_432',
                text: {
                   basic: 'Flying Deeper\nInto Denial',
@@ -703,7 +703,7 @@ export default {
                }
             },
             perigee: {
-               name: '呦呦鸡',
+               name: 'PERIGEE',
                author: 'Discarded Vessel',
                text: {
                   basic: 'Another Day,\nAnother Conflict',
@@ -723,7 +723,7 @@ export default {
                }
             },
             glyde: {
-               name: '老滑头',
+               name: 'GLYDE',
                author: 'Burge',
                text: {
                   basic: 'Not Your Ideal\nBusiness Partner',
@@ -743,7 +743,7 @@ export default {
                }
             },
             madjick: {
-               name: '谜宇人',
+               name: 'COZMO',
                author: 'semi',
                text: {
                   basic: 'Looking For A\nDictionary',
@@ -753,7 +753,7 @@ export default {
                }
             },
             knightknight: {
-               name: '特雷莉亚',
+               name: 'TERRESTRIA',
                author: 'major_memestar',
                text: {
                   basic: 'In Search Of\nThe Past',
@@ -763,7 +763,7 @@ export default {
                }
             },
             froggitex: {
-               name: '终极蛙吉特',
+               name: 'FINAL FROGGIT',
                author: 'PoTheWinterCorder',
                text: {
                   basic: 'Keeping Its\nWisdom To Itself',
@@ -773,7 +773,7 @@ export default {
                }
             },
             whimsalot: {
-               name: '飘游䗁士',
+               name: 'FLUTTERKNYTE',
                author: 'spacey_432',
                text: {
                   basic: 'Still Working\nEvery Day',
@@ -783,7 +783,7 @@ export default {
                }
             },
             astigmatism: {
-               name: '眼行者',
+               name: 'EYEWALKER PRIME',
                author: 'semi',
                text: {
                   basic: 'Still A\nBig Bully',
@@ -793,7 +793,7 @@ export default {
                }
             },
             migospel: {
-               name: '默之蟑',
+               name: 'SILENCIO',
                author: 'Balgamlı Kedi',
                text: {
                   basic: 'Still A\nShameless Coward',
@@ -803,7 +803,7 @@ export default {
                }
             },
             mushketeer: {
-               name: '蘑炮手',
+               name: 'MUSHKETEER',
                author: 'Balgamlı Kedi & Ghostly',
                text: {
                   basic: 'One Mushroom\nArmy',
@@ -815,39 +815,39 @@ export default {
          },
          swords: {
             papyrus: {
-               name: '帕派瑞斯',
+               name: 'PAPYRUS',
                author: 'ProctorDorkchop02 & MattSpriteMaster'
             },
             sans: {
-               name: '衫斯',
+               name: 'SANS',
                author: 'ProctorDorkchop02 & Fired'
             },
             undyne: {
-               name: '安黛因',
+               name: 'UNDYNE',
                author: 'major_memestar'
             },
             alphys: {
-               name: '艾菲斯',
+               name: 'ALPHYS',
                author: 'major_memestar'
             },
             mewmew: {
-               name: '喵喵',
+               name: 'MEW MEW',
                author: 'spacey_432'
             },
             napstablook: {
-               name: '纳普斯特',
+               name: 'NAPSTABLOOK',
                author: 'spacey_432'
             },
             mettaton: {
-               name: '镁塔顿',
+               name: 'METTATON',
                author: 'MattSpriteMaster'
             },
             toriel: {
-               name: '托丽尔',
+               name: 'TORIEL',
                author: 'MattSpriteMaster'
             },
             asgore: {
-               name: '艾斯戈尔',
+               name: 'ASGORE',
                author: 'MattSpriteMaster'
             },
             monsterkid: {
@@ -855,7 +855,7 @@ export default {
                author: 'spacey_432'
             },
             asriel: {
-               name: '艾斯利尔',
+               name: 'ASRIEL',
                author: 'Medi0creking & MattSpriteMaster'
             }
          }
@@ -937,12 +937,12 @@ export default {
    },
 
    general: {
-      asriel: '艾斯利尔',
+      asriel: 'Asriel',
       asriel_location: '幻境',
       disabled: '关闭',
       enabled: '开启',
       finish: '按 [X] 返回',
-      frisk: '弗里斯克',
+      frisk: 'Frisk',
       g: 'G',
       hp: 'HP',
       inf: '\u221e',

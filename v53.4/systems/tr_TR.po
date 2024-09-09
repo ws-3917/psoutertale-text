@@ -98,10 +98,10 @@ msgid "BATTLE"
 msgstr "SAVAŞ"
 
 msgid "FixMusic"
-msgstr "FixMusic"
+msgstr ""
 
 msgid "FixPlayer"
-msgstr "FixPlayer"
+msgstr ""
 
 msgid "InfiniteG"
 msgstr "SonsuzA"
@@ -116,82 +116,82 @@ msgid "Movement"
 msgstr "Hareket"
 
 msgid "Noclip"
-msgstr "Noclip"
+msgstr ""
 
 msgid "Save"
 msgstr "Kaydet"
 
 msgid "SkipText"
-msgstr "SkipText"
+msgstr ""
 
 msgid "Freecam"
-msgstr "Freecam"
+msgstr ""
 
 msgid "CanAssist"
 msgstr "YardımcıOlVar"
 
 msgid "ClearBox"
-msgstr "ClearBox"
+msgstr ""
 
 msgid "Exit"
 msgstr "Çıkış"
 
 msgid "ResetBox"
-msgstr "ResetBox"
+msgstr ""
 
 msgid "ResetMenu"
-msgstr "ResetMenu"
+msgstr ""
 
 msgid "CanFlee"
-msgstr "CanFlee"
+msgstr ""
 
 msgid "InfiniteHP"
 msgstr "SınırsızCAN"
 
 msgid "PacifyAll"
-msgstr "PacifyAll"
+msgstr ""
 
 msgid "Suicide"
 msgstr "Özkıyım"
 
 msgid "WeakenAll"
-msgstr "WeakenAll"
+msgstr ""
 
 msgid "$(x) FPS"
-msgstr "$(x) FPS"
+msgstr ""
 
 msgid "Halt"
-msgstr "Halt"
+msgstr ""
 
 msgid "GAME SPEED"
-msgstr "GAME SPEED"
+msgstr ""
 
 msgid "$(x)x"
-msgstr "$(x)x"
+msgstr ""
 
 msgid "More"
-msgstr "More"
+msgstr ""
 
 msgid "Less"
-msgstr "Less"
+msgstr ""
 
 msgid "$(x)s/frame"
-msgstr "$(x)s/frame"
+msgstr ""
 
 msgid "GODHOME"
-msgstr "GODHOME"
+msgstr ""
 
 msgid "ROOM"
-msgstr "ROOM"
+msgstr ""
 
 msgid "Teleport"
-msgstr "Teleport"
+msgstr ""
 
 msgid "ENCOUNTER"
-msgstr "ENCOUNTER"
+msgstr ""
 
 msgid "Start"
-msgstr "Start"
+msgstr ""
 
 msgid "ARMOR"
 msgstr "ZIRH"
@@ -200,262 +200,262 @@ msgid "WEAPON"
 msgstr "SİLAH"
 
 msgid "INSPECT"
-msgstr "INSPECT"
+msgstr ""
 
 msgid "LAYERS"
-msgstr "LAYERS"
+msgstr ""
 
 msgid "TYPES"
-msgstr "TYPES"
+msgstr ""
 
 msgid "Base"
-msgstr "Base"
+msgstr ""
 
 msgid "Below"
-msgstr "Below"
+msgstr ""
 
 msgid "Main"
-msgstr "Main"
+msgstr ""
 
 msgid "Above"
-msgstr "Above"
+msgstr ""
 
 msgid "Menu"
-msgstr "Menu"
+msgstr ""
 
 msgid "Hitbox"
-msgstr "Hitbox"
+msgstr ""
 
 msgid "Sprite"
-msgstr "Sprite"
+msgstr ""
 
 msgid "Text"
-msgstr "Text"
+msgstr ""
 
 msgid "EXPLORER"
-msgstr "EXPLORER"
+msgstr ""
 
 msgid "Base (Explorer)"
-msgstr "Base (Explorer)"
+msgstr ""
 
 msgid "Below (Explorer)"
-msgstr "Below (Explorer)"
+msgstr ""
 
 msgid "Main (Explorer)"
-msgstr "Main (Explorer)"
+msgstr ""
 
 msgid "Above (Explorer)"
-msgstr "Above (Explorer)"
+msgstr ""
 
 msgid "Menu (Explorer)"
-msgstr "Menu (Explorer)"
+msgstr ""
 
 msgid "A"
-msgstr "A"
+msgstr ""
 
 msgid "C"
-msgstr "C"
+msgstr ""
 
 msgid "R"
-msgstr "R"
+msgstr ""
 
 msgid "E"
-msgstr "E"
+msgstr ""
 
 msgid "H"
-msgstr "H"
+msgstr ""
 
 msgid "O"
-msgstr "O"
+msgstr ""
 
 msgid "P"
-msgstr "P"
+msgstr ""
 
 msgid "S"
-msgstr "S"
+msgstr ""
 
 msgid "T"
-msgstr "T"
+msgstr ""
 
 msgid "Press [TAB] to cycle debug info"
-msgstr "Press [TAB] to cycle debug info"
+msgstr ""
 
 msgid "Acceleration"
-msgstr "Acceleration"
+msgstr ""
 
 msgid "Active"
-msgstr "Active"
+msgstr ""
 
 msgid "Alpha"
-msgstr "Alpha"
+msgstr ""
 
 msgid "Anchor"
-msgstr "Anchor"
+msgstr ""
 
 msgid "B"
-msgstr "B"
+msgstr ""
 
 msgid "Blend"
-msgstr "Blend"
+msgstr ""
 
 msgid "Border"
-msgstr "Border"
+msgstr ""
 
 msgid "Computed Size"
-msgstr "Computed Size"
+msgstr ""
 
 msgid "Content"
-msgstr "Content"
+msgstr ""
 
 msgid "Crop"
-msgstr "Crop"
+msgstr ""
 
 msgid "Down"
-msgstr "Down"
+msgstr ""
 
 msgid "Duration"
-msgstr "Duration"
+msgstr ""
 
 msgid "EXP"
-msgstr "EXP"
+msgstr ""
 
 msgid "Extent"
-msgstr "Extent"
+msgstr ""
 
 msgid "F"
-msgstr "F"
+msgstr ""
 
 msgid "Face"
-msgstr "Face"
+msgstr ""
 
 msgid "False"
-msgstr "False"
+msgstr ""
 
 msgid "Fill"
-msgstr "Fill"
+msgstr ""
 
 msgid "Font Family"
-msgstr "Font Family"
+msgstr ""
 
 msgid "Font Size"
-msgstr "Font Size"
+msgstr ""
 
 msgid "Frames"
-msgstr "Frames"
+msgstr ""
 
 msgid "Gravity"
-msgstr "Gravity"
+msgstr ""
 
 msgid "Group"
-msgstr "Group"
+msgstr ""
 
 msgid "HP"
 msgstr "CAN"
 
 msgid "Index"
-msgstr "Index"
+msgstr ""
 
 msgid "Inert"
-msgstr "Inert"
+msgstr ""
 
 msgid "Key"
-msgstr "Key"
+msgstr ""
 
 msgid "Last Saved Time"
-msgstr "Last Saved Time"
+msgstr ""
 
 msgid "Layer"
-msgstr "Layer"
+msgstr ""
 
 msgid "Layers"
-msgstr "Layers"
+msgstr ""
 
 msgid "Left"
-msgstr "Left"
+msgstr ""
 
 msgid "Metadata"
-msgstr "Metadata"
+msgstr ""
 
 msgid "Music"
-msgstr "Music"
+msgstr ""
 
 msgid "Namespace"
-msgstr "Namespace"
+msgstr ""
 
 msgid "NONE"
-msgstr "NONE"
+msgstr ""
 
 msgid "none"
-msgstr "none"
+msgstr ""
 
 msgid "Objects"
-msgstr "Objects"
+msgstr ""
 
 msgid "Oversaver"
-msgstr "Oversaver"
+msgstr ""
 
 msgid "Parallax"
-msgstr "Parallax"
+msgstr ""
 
 msgid "Position"
-msgstr "Position"
+msgstr ""
 
 msgid "Primed"
-msgstr "Primed"
+msgstr ""
 
 msgid "Priority"
-msgstr "Priority"
+msgstr ""
 
 msgid "REGISTRY"
-msgstr "REGISTRY"
+msgstr ""
 
 msgid "Renderer"
-msgstr "Renderer"
+msgstr ""
 
 msgid "Resources"
-msgstr "Resources"
+msgstr ""
 
 msgid "Reverse"
-msgstr "Reverse"
+msgstr ""
 
 msgid "Right"
-msgstr "Right"
+msgstr ""
 
 msgid "Room"
-msgstr "Room"
+msgstr ""
 
 msgid "Room State"
-msgstr "Room State"
+msgstr ""
 
 msgid "Rotation"
-msgstr "Rotation"
+msgstr ""
 
 msgid "Scale"
-msgstr "Scale"
+msgstr ""
 
 msgid "Shop Selection"
-msgstr "Shop Selection"
+msgstr ""
 
 msgid "Size"
-msgstr "Size"
+msgstr ""
 
 msgid "Spacing"
-msgstr "Spacing"
+msgstr ""
 
 msgid "Spin"
-msgstr "Spin"
+msgstr ""
 
 msgid "Sprites"
-msgstr "Sprites"
+msgstr ""
 
 msgid "Step"
-msgstr "Step"
+msgstr ""
 
 msgid "Stroke"
-msgstr "Stroke"
+msgstr ""
 
 msgid "Subcrop"
-msgstr "Subcrop"
+msgstr ""
 
 msgid "Talk"
 msgstr "Konuş"
@@ -467,73 +467,73 @@ msgid "Time"
 msgstr "Süre"
 
 msgid "Tint"
-msgstr "Tint"
+msgstr ""
 
 msgid "Tracked Assets"
-msgstr "Tracked Assets"
+msgstr ""
 
 msgid "True"
-msgstr "True"
+msgstr ""
 
 msgid "UNKNOWN"
-msgstr "UNKNOWN"
+msgstr ""
 
 msgid "Up"
-msgstr "Up"
+msgstr ""
 
 msgid "Vars"
-msgstr "Vars"
+msgstr ""
 
 msgid "Velocity"
-msgstr "Velocity"
+msgstr ""
 
 msgid "Volatile"
-msgstr "Volatile"
+msgstr ""
 
 msgid "SAVEMOD"
-msgstr "SAVEMOD"
+msgstr ""
 
 msgid "SAVE EDITOR"
-msgstr "SAVE EDITOR"
+msgstr ""
 
 msgid "Data (Booleans)"
-msgstr "Data (Booleans)"
+msgstr ""
 
 msgid "Data (Numbers)"
-msgstr "Data (Numbers)"
+msgstr ""
 
 msgid "Data (Strings)"
-msgstr "Data (Strings)"
+msgstr ""
 
 msgid "Flags (Booleans)"
-msgstr "Flags (Booleans)"
+msgstr ""
 
 msgid "Flags (Numbers)"
-msgstr "Flags (Numbers)"
+msgstr ""
 
 msgid "Flags (Strings)"
-msgstr "Flags (Strings)"
+msgstr ""
 
 msgid "NAVIGATION"
-msgstr "NAVIGATION"
+msgstr ""
 
 msgid "Prev"
-msgstr "Prev"
+msgstr ""
 
 msgid "Next"
-msgstr "Next"
+msgstr ""
 
 msgid "Enter Value"
-msgstr "Enter Value"
+msgstr ""
 
 msgid "Back"
-msgstr "Back"
+msgstr ""
 
 msgid "STORAGE"
 msgstr "DEPOLAMA"
 
 msgid "STORAGE EDITOR"
-msgstr "STORAGE EDITOR"
+msgstr ""
 
 msgid "SELECTION"
 msgstr "SEÇİM"
@@ -548,64 +548,58 @@ msgid "Dim. Box B"
 msgstr "Boy. Kutu B"
 
 msgid "Clear File"
-msgstr "Clear File"
+msgstr ""
 
 msgid "Notice"
-msgstr "Notice"
+msgstr ""
 
 msgid "Open"
-msgstr "Open"
+msgstr ""
 
 msgid "SAVE files"
-msgstr "SAVE files"
+msgstr ""
 
 msgid "Open File"
-msgstr "Open File"
+msgstr ""
 
 msgid "Save File"
-msgstr "Save File"
+msgstr ""
 
 msgid "That file could not be parsed."
-msgstr "That file could not be parsed."
+msgstr ""
 
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 msgid "Cancel"
-msgstr "Cancel"
+msgstr ""
 
 msgid "Clear this file?"
-msgstr "Clear this file?"
+msgstr ""
 
 msgid ""
 "Your SAVE file from the\n"
 "OUTERTALE demo has been\n"
 "moved to a timeline slot."
 msgstr ""
-"Your SAVE file from the\n"
-"OUTERTALE demo has been\n"
-"moved to a timeline slot."
 
 msgid "Save this file?"
-msgstr "Save this file?"
+msgstr ""
 
 msgid ""
 "Copy the text below into\n"
 "a JSON file to save it\n"
 "to your device."
 msgstr ""
-"Copy the text below into\n"
-"a JSON file to save it\n"
-"to your device."
 
 msgid "Load this file?"
-msgstr "Load this file?"
+msgstr ""
 
 msgid "§fill=#ff0§< DEVELOPER >§fill=#fff§"
 msgstr "§fill=#ff0§< GELİŞTİRİCİ >§fill=#fff§"
 
 msgid "spacey_432"
-msgstr "spacey_432"
+msgstr ""
 
 msgid ""
 msgstr ""
@@ -614,280 +608,280 @@ msgid "§fill=#ff0§< WRITER >§fill=#fff§"
 msgstr "§fill=#ff0§< YAZARLAR >§fill=#fff§"
 
 msgid "Balgamlı Kedi"
-msgstr "Balgamlı Kedi"
+msgstr ""
 
 msgid "Bilge \"mnwary\""
-msgstr "Bilge \"mnwary\""
+msgstr ""
 
 msgid "Dischnie"
-msgstr "Dischnie"
+msgstr ""
 
 msgid "Efe Kaya"
-msgstr "Efe Kaya"
+msgstr ""
 
 msgid "Ghostly"
-msgstr "Ghostly"
+msgstr ""
 
 msgid "InvincibleRacoon"
-msgstr "InvincibleRacoon"
+msgstr ""
 
 msgid "Jojoton56"
-msgstr "Jojoton56"
+msgstr ""
 
 msgid "Kiwi \"Quinn\""
-msgstr "Kiwi \"Quinn\""
+msgstr ""
 
 msgid "My Aster"
-msgstr "My Aster"
+msgstr ""
 
 msgid "neo9174"
-msgstr "neo9174"
+msgstr ""
 
 msgid "Rise"
-msgstr "Rise"
+msgstr ""
 
 msgid "ThatGuyWhoLikesFood"
-msgstr "ThatGuyWhoLikesFood"
+msgstr ""
 
 msgid "Turbulation"
-msgstr "Turbulation"
+msgstr ""
 
 msgid "Zaxento The Greedy"
-msgstr "Zaxento The Greedy"
+msgstr ""
 
 msgid "§fill=#ff0§< ARTIST >§fill=#fff§"
 msgstr "§fill=#ff0§< ÇİZİMLER >§fill=#fff§"
 
 msgid "Burge"
-msgstr "Burge"
+msgstr ""
 
 msgid "Deskius"
-msgstr "Deskius"
+msgstr ""
 
 msgid "DESM.al"
-msgstr "DESM.al"
+msgstr ""
 
 msgid "Discarded Vessel"
-msgstr "Discarded Vessel"
+msgstr ""
 
 msgid "Fired"
-msgstr "Fired"
+msgstr ""
 
 msgid "Funtermore"
-msgstr "Funtermore"
+msgstr ""
 
 msgid "HolyOranges"
-msgstr "HolyOranges"
+msgstr ""
 
 msgid "major_memestar"
-msgstr "major_memestar"
+msgstr ""
 
 msgid "MattSpriteMaster"
-msgstr "MattSpriteMaster"
+msgstr ""
 
 msgid "Medi0creking"
-msgstr "Medi0creking"
+msgstr ""
 
 msgid "NerNot1"
-msgstr "NerNot1"
+msgstr ""
 
 msgid "PhyreFM"
-msgstr "PhyreFM"
+msgstr ""
 
 msgid "Pongy25"
-msgstr "Pongy25"
+msgstr ""
 
 msgid "PoTheWinterCorder"
-msgstr "PoTheWinterCorder"
+msgstr ""
 
 msgid "ProctorDorkchop02"
-msgstr "ProctorDorkchop02"
+msgstr ""
 
 msgid "ScarletScaledDragon"
-msgstr "ScarletScaledDragon"
+msgstr ""
 
 msgid "semi"
-msgstr "semi"
+msgstr ""
 
 msgid "Soup Taels"
-msgstr "Soup Taels"
+msgstr ""
 
 msgid "SquigglyWiggley"
-msgstr "SquigglyWiggley"
+msgstr ""
 
 msgid "Starkiteckt"
-msgstr "Starkiteckt"
+msgstr ""
 
 msgid "supper12"
-msgstr "supper12"
+msgstr ""
 
 msgid "Valor52"
-msgstr "Valor52"
+msgstr ""
 
 msgid "§fill=#ff0§< TECHNICIAN >§fill=#fff§"
 msgstr "§fill=#ff0§< TEKNİSYEN >§fill=#fff§"
 
 msgid "Codetoil"
-msgstr "Codetoil"
+msgstr ""
 
 msgid "ryi3r"
-msgstr "ryi3r"
+msgstr ""
 
 msgid "ws3917"
-msgstr "ws3917"
+msgstr ""
 
 msgid "§fill=#ff0§< TESTER >§fill=#fff§"
 msgstr "§fill=#ff0§< TESTERLAR >§fill=#fff§"
 
 msgid "Alden"
-msgstr "Alden"
+msgstr ""
 
 msgid "Aspey"
-msgstr "Aspey"
+msgstr ""
 
 msgid "blue"
-msgstr "blue"
+msgstr ""
 
 msgid "Brad"
-msgstr "Brad"
+msgstr ""
 
 msgid "brayjamin"
-msgstr "brayjamin"
+msgstr ""
 
 msgid "ClamsyMoe"
-msgstr "ClamsyMoe"
+msgstr ""
 
 msgid "delta"
-msgstr "delta"
+msgstr ""
 
 msgid "DR4GON HE4RT"
-msgstr "DR4GON HE4RT"
+msgstr ""
 
 msgid "Dubituar"
-msgstr "Dubituar"
+msgstr ""
 
 msgid "Emurry"
-msgstr "Emurry"
+msgstr ""
 
 msgid "Enzolos"
-msgstr "Enzolos"
+msgstr ""
 
 msgid "EvanGamesGoodman"
-msgstr "EvanGamesGoodman"
+msgstr ""
 
 msgid "FireWizard72X"
-msgstr "FireWizard72X"
+msgstr ""
 
 msgid "FuLiNT"
-msgstr "FuLiNT"
+msgstr ""
 
 msgid "gardnaeden"
-msgstr "gardnaeden"
+msgstr ""
 
 msgid "Gon UT"
-msgstr "Gon UT"
+msgstr ""
 
 msgid "Green Tea"
-msgstr "Green Tea"
+msgstr ""
 
 msgid "Huggies!"
-msgstr "Huggies!"
+msgstr ""
 
 msgid "ilovecookies"
-msgstr "ilovecookies"
+msgstr ""
 
 msgid "Jago128"
-msgstr "Jago128"
+msgstr ""
 
 msgid "Joe98912"
-msgstr "Joe98912"
+msgstr ""
 
 msgid "Jonkler"
-msgstr "Jonkler"
+msgstr ""
 
 msgid "lil tanski"
-msgstr "lil tanski"
+msgstr ""
 
 msgid "MR. PETER"
-msgstr "MR. PETER"
+msgstr ""
 
 msgid "MSBen"
-msgstr "MSBen"
+msgstr ""
 
 msgid "Murder--Sans_MDR"
-msgstr "Murder--Sans_MDR"
+msgstr ""
 
 msgid "Nanorasmus"
-msgstr "Nanorasmus"
+msgstr ""
 
 msgid "NepAnime"
-msgstr "NepAnime"
+msgstr ""
 
 msgid "Shaun Duz Stuffs"
-msgstr "Shaun Duz Stuffs"
+msgstr ""
 
 msgid "SHCyank"
-msgstr "SHCyank"
+msgstr ""
 
 msgid "petar3644"
-msgstr "petar3644"
+msgstr ""
 
 msgid "PixelToons Jaafar"
-msgstr "PixelToons Jaafar"
+msgstr ""
 
 msgid "Prezmop"
-msgstr "Prezmop"
+msgstr ""
 
 msgid "prymus-agd"
-msgstr "prymus-agd"
+msgstr ""
 
 msgid "Quin"
-msgstr "Quin"
+msgstr ""
 
 msgid "RadicalRic"
-msgstr "RadicalRic"
+msgstr ""
 
 msgid "Raelynn"
-msgstr "Raelynn"
+msgstr ""
 
 msgid "retr22800"
-msgstr "retr22800"
+msgstr ""
 
 msgid "RoCtD_14159"
-msgstr "RoCtD_14159"
+msgstr ""
 
 msgid "sonicisawesome222"
-msgstr "sonicisawesome222"
+msgstr ""
 
 msgid "spaceknife234"
-msgstr "spaceknife234"
+msgstr ""
 
 msgid "superkippy"
-msgstr "superkippy"
+msgstr ""
 
 msgid "Teecup"
-msgstr "Teecup"
+msgstr ""
 
 msgid "Tem in a Cowboy Hat"
-msgstr "Tem in a Cowboy Hat"
+msgstr ""
 
 msgid "Tenbrooks"
-msgstr "Tenbrooks"
+msgstr ""
 
 msgid "The Fallen Angel"
-msgstr "The Fallen Angel"
+msgstr ""
 
 msgid "TheAsriel"
-msgstr "TheAsriel"
+msgstr ""
 
 msgid "Wild Pasta"
-msgstr "Wild Pasta"
+msgstr ""
 
 msgid "Xiao_Akatsuki"
-msgstr "Xiao_Akatsuki"
+msgstr ""
 
 msgid "xNoodlePlayz"
-msgstr "xNoodlePlayz"
+msgstr ""
 
 msgid "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§"
 msgstr "§fill=#ff0§< ÖZEL TEŞEKKÜRLER >§fill=#fff§"
@@ -1008,7 +1002,7 @@ msgstr ""
 "Zıplıyor"
 
 msgid "FLUTTERLYTE"
-msgstr "FLUTTERLYTE"
+msgstr ""
 
 msgid ""
 "Learning To\n"
@@ -1070,7 +1064,7 @@ msgstr ""
 "Galaksi Buldu"
 
 msgid "OCULOUX"
-msgstr "OCULOUX"
+msgstr ""
 
 msgid ""
 "Slightly\n"
@@ -1125,10 +1119,10 @@ msgstr ""
 "İnkarcısı"
 
 msgid "MUSHY"
-msgstr "MUSHY"
+msgstr ""
 
 msgid "Balgamlı Kedi & ScarletScaledDragon"
-msgstr "Balgamlı Kedi & ScarletScaledDragon"
+msgstr ""
 
 msgid ""
 "Shooting\n"
@@ -1159,7 +1153,7 @@ msgstr ""
 "Dua Ediyor"
 
 msgid "LURKSALOT"
-msgstr "LURKSALOT"
+msgstr ""
 
 msgid ""
 "Keeping To\n"
@@ -1183,7 +1177,7 @@ msgstr ""
 "Alakasız"
 
 msgid "STARDRAKE"
-msgstr "STARDRAKE"
+msgstr ""
 
 msgid ""
 "Still Looking\n"
@@ -1207,7 +1201,7 @@ msgstr ""
 "Popüler"
 
 msgid "CHILLDRAKE"
-msgstr "CHILLDRAKE"
+msgstr ""
 
 msgid ""
 "Still Looking\n"
@@ -1238,7 +1232,7 @@ msgstr ""
 "Aktivist"
 
 msgid "ASTRO SERF"
-msgstr "ASTRO SERF"
+msgstr ""
 
 msgid ""
 "Thinking About\n"
@@ -1269,7 +1263,7 @@ msgstr ""
 "Yayıncısı"
 
 msgid "JERRY"
-msgstr "JERRY"
+msgstr ""
 
 msgid ""
 "Getting Ditched\n"
@@ -1296,7 +1290,7 @@ msgid "WHIZKARAT"
 msgstr "WHİZKARAT"
 
 msgid "Zaxento The Greedy & semi"
-msgstr "Zaxento The Greedy & semi"
+msgstr ""
 
 msgid ""
 "Having An\n"
@@ -1327,7 +1321,7 @@ msgstr ""
 "Topluluğuna Döndü"
 
 msgid "DOGGO"
-msgstr "DOGGO"
+msgstr ""
 
 msgid ""
 "Believes In The\n"
@@ -1387,7 +1381,7 @@ msgstr ""
 "Muhtaç"
 
 msgid "DOGAMY & DOGARESSA"
-msgstr "DOGAMY & DOGARESSA"
+msgstr ""
 
 msgid ""
 "Still Thinking\n"
@@ -1473,7 +1467,7 @@ msgstr ""
 "Basınçlı Yıkamacı"
 
 msgid "GELATA"
-msgstr "GELATA"
+msgstr ""
 
 msgid ""
 "Looking For A\n"
@@ -1507,7 +1501,7 @@ msgid "RADTILE"
 msgstr "RADTİLE"
 
 msgid "Balgamlı Kedi & Zaxento The Greedy"
-msgstr "Balgamlı Kedi & Zaxento The Greedy"
+msgstr ""
 
 msgid ""
 "Wallowing In\n"
@@ -1538,7 +1532,7 @@ msgstr ""
 "Geleceğe Yol Aldı"
 
 msgid "SHYREN"
-msgstr "SHYREN"
+msgstr ""
 
 msgid ""
 "Back To Taking\n"
@@ -1569,7 +1563,7 @@ msgstr ""
 "Söyleyemiyor"
 
 msgid "DOGE"
-msgstr "DOGE"
+msgstr ""
 
 msgid ""
 "Construction Site\n"
@@ -1593,7 +1587,7 @@ msgstr ""
 "Köpek Gibi Sevildi"
 
 msgid "MUFFET"
-msgstr "MUFFET"
+msgstr ""
 
 msgid ""
 "Looking For Her\n"
@@ -1739,7 +1733,7 @@ msgstr ""
 "Muhafızları"
 
 msgid "GLYDE"
-msgstr "GLYDE"
+msgstr ""
 
 msgid ""
 "Not Your Ideal\n"
@@ -1787,7 +1781,7 @@ msgstr ""
 "Aşkı Arıyor"
 
 msgid "COZMO"
-msgstr "COZMO"
+msgstr ""
 
 msgid ""
 "Looking For A\n"
@@ -1866,7 +1860,7 @@ msgstr ""
 "İçin Kullanmakta"
 
 msgid "FLUTTERKNYTE"
-msgstr "FLUTTERKNYTE"
+msgstr ""
 
 msgid ""
 "Still Working\n"
@@ -1959,10 +1953,10 @@ msgstr ""
 "Daha Hızlı Koşuyor"
 
 msgid "MUSHKETEER"
-msgstr "MUSHKETEER"
+msgstr ""
 
 msgid "Balgamlı Kedi & Ghostly"
-msgstr "Balgamlı Kedi & Ghostly"
+msgstr ""
 
 msgid ""
 "One Mushroom\n"
@@ -1993,37 +1987,37 @@ msgstr ""
 "Korkmuş"
 
 msgid "PAPYRUS"
-msgstr "PAPYRUS"
+msgstr ""
 
 msgid "ProctorDorkchop02 & MattSpriteMaster"
-msgstr "ProctorDorkchop02 & MattSpriteMaster"
+msgstr ""
 
 msgid "SANS"
-msgstr "SANS"
+msgstr ""
 
 msgid "ProctorDorkchop02 & Fired"
-msgstr "ProctorDorkchop02 & Fired"
+msgstr ""
 
 msgid "UNDYNE"
-msgstr "UNDYNE"
+msgstr ""
 
 msgid "ALPHYS"
-msgstr "ALPHYS"
+msgstr ""
 
 msgid "MEW MEW"
-msgstr "MEW MEW"
+msgstr ""
 
 msgid "NAPSTABLOOK"
-msgstr "NAPSTABLOOK"
+msgstr ""
 
 msgid "METTATON"
-msgstr "METTATON"
+msgstr ""
 
 msgid "TORIEL"
 msgstr "TORİEL"
 
 msgid "ASGORE"
-msgstr "ASGORE"
+msgstr ""
 
 msgid "MONSTER KID"
 msgstr "CANAVAR ÇOCUK"
@@ -2032,7 +2026,7 @@ msgid "ASRIEL"
 msgstr "ASRİEL"
 
 msgid "Medi0creking & MattSpriteMaster"
-msgstr "Medi0creking & MattSpriteMaster"
+msgstr ""
 
 msgid "[↑ or ↓] to Select / [Z or ENTER] to Confirm"
 msgstr "Seçmek için [↑ veya ↓] / Onaylamak için [Z veya ENTER]"
@@ -2155,10 +2149,10 @@ msgid "Restarting.."
 msgstr "Tekrar Başlıyor.."
 
 msgid "OUTERTALE"
-msgstr "OUTERTALE"
+msgstr ""
 
 msgid "OUTERTALE...?"
-msgstr "OUTERTALE...?"
+msgstr ""
 
 msgid "GAMEPAD SETUP"
 msgstr "GAMEPAD KURULUMU"
@@ -2240,7 +2234,7 @@ msgstr ""
 "Kurulumu geçmek için [ESC]."
 
 msgid "Asriel"
-msgstr "Asriel"
+msgstr ""
 
 msgid "The Oblivion"
 msgstr "Hiçlik"
@@ -2255,7 +2249,7 @@ msgid "Press [X] to Finish"
 msgstr "Bitirmek için [X]’e basın."
 
 msgid "Frisk"
-msgstr "Frisk"
+msgstr ""
 
 msgid "G"
 msgstr "A"
@@ -2287,7 +2281,7 @@ msgid "No"
 msgstr "Hayır"
 
 msgid "§fill=#0f0§NOMINAL"
-msgstr "§fill=#0f0§NOMINAL"
+msgstr ""
 
 msgid "$(x)%"
 msgstr "%$(x)"
@@ -2299,7 +2293,7 @@ msgid "Settings"
 msgstr "Ayarlar"
 
 msgid "?"
-msgstr "?"
+msgstr ""
 
 msgid "XM"
 msgstr "EM"
@@ -2330,7 +2324,7 @@ msgid "Go back"
 msgstr "Geri dön"
 
 msgid "OUTERTALE V5.03 (c) 2024 SPACEY_432"
-msgstr "OUTERTALE V5.03 (c) 2024 SPACEY_432"
+msgstr ""
 
 msgid "* (HP fully restored.)"
 msgstr "* (CAN'ın tamamen doldu.)"
@@ -2378,7 +2372,7 @@ msgid "Quit"
 msgstr "Çık"
 
 msgid "Backspace"
-msgstr "Backspace"
+msgstr ""
 
 msgid "Done"
 msgstr "Bitir"
@@ -2417,7 +2411,7 @@ msgid "FLASHING IMAGERY"
 msgstr "YANARDÖNERLİ GÖRSELLER"
 
 msgid "NORMAL"
-msgstr "NORMAL"
+msgstr ""
 
 msgid "REDUCED"
 msgstr "AZALTILMIŞ"
@@ -2502,7 +2496,7 @@ msgid "STATUS"
 msgstr "DURUM"
 
 msgid "\"$(x)\""
-msgstr "\"$(x)\""
+msgstr ""
 
 msgid ""
 "<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and"
@@ -2548,10 +2542,10 @@ msgstr ""
 "bahseder.{^35}{}"
 
 msgid "<24>{^100}{}"
-msgstr "<24>{^100}{}"
+msgstr ""
 
 msgid "<24>{^35}{}"
-msgstr "<24>{^35}{}"
+msgstr ""
 
 msgid "Resume Canon Timeline"
 msgstr "Asıl Zaman Çizelgesine Devam"

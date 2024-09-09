@@ -256,7 +256,7 @@ msgstr ""
 "<26>{#f/1}* Aunque, algo de la letra era algo... violenta, para mi gusto."
 
 msgid "<25>{#f/5}* ..."
-msgstr "<25>{#f/5}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#f/0}* Do not worry, my child.\n"
@@ -363,7 +363,7 @@ msgid "<25>{#p/toriel}{#f/5}* You have probably been to the Citadel by now."
 msgstr "<25>{#p/toriel}{#f/5}* Probablemente ya hayas estado en Citadel ya."
 
 msgid "<25>{#p/toriel}{#f/9}* ..."
-msgstr "<25>{#p/toriel}{#f/9}* ..."
+msgstr ""
 
 msgid "<25>{#p/toriel}{#f/10}* Be good, won't you?"
 msgstr "<25>{#p/toriel}{#f/10}* Se bueno, ¿vale?"
@@ -402,7 +402,7 @@ msgid "Yes"
 msgstr "Si"
 
 msgid "No"
-msgstr "No"
+msgstr ""
 
 msgid "<32>{#p/human}* (Something seems to have interrupted your sleep.)"
 msgstr "<32>{#p/human}* (Parece que algo te ha interrumpido el sueño.)"
@@ -437,7 +437,7 @@ msgid "<32>* If you've seen everyone else you wanted to see..."
 msgstr "<32>* Si has visto a todos los que quieres ver..."
 
 msgid "<32>* ..."
-msgstr "<32>* ..."
+msgstr ""
 
 msgid "<32>* You know what to do."
 msgstr "<32>* Ya sabes que hacer."
@@ -446,7 +446,7 @@ msgid "<32>* Otherwise, I'll wait until you're ready."
 msgstr "<32>* De lo contrario, esperaré hasta que estés listo."
 
 msgid "<32>{#p/basic}* Asriel."
-msgstr "<32>{#p/basic}* Asriel."
+msgstr ""
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* ... Frisk?\n"
@@ -462,10 +462,10 @@ msgid "<32>{#p/basic}* Your best friend, remember?"
 msgstr "<32>{#p/basic}* Tu mejor amigo, ¿te acuerdas?"
 
 msgid "<25>{#p/asriel1}{#f/25}* ...!"
-msgstr "<25>{#p/asriel1}{#f/25}* ...!"
+msgstr ""
 
 msgid "<25>{#f/25}* $(name)...?"
-msgstr "<25>{#f/25}* $(name)...?"
+msgstr ""
 
 msgid "<25>{#f/13}* But... you're..."
 msgstr "<25>{#f/13}* Pero... Estas..."
@@ -510,10 +510,10 @@ msgid "<32>* About everything."
 msgstr "<32>* Sobre , todo."
 
 msgid "<25>{#p/asriel1}{#f/23}* ..."
-msgstr "<25>{#p/asriel1}{#f/23}* ..."
+msgstr ""
 
 msgid "<25>{#f/23}* $(name)..."
-msgstr "<25>{#f/23}* $(name)..."
+msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/13}* But..."
 msgstr "<25>{#p/asriel1}{#f/13}* Pero..."
@@ -543,7 +543,7 @@ msgid "<32>* You don't have to make it out to be better than it is."
 msgstr "<32>* No tienes que hacerlo para que sea mejor de lo que es."
 
 msgid "<25>{#p/asriel1}{#f/22}* ..."
-msgstr "<25>{#p/asriel1}{#f/22}* ..."
+msgstr ""
 
 msgid "<25>{#f/22}* ... why now?"
 msgstr "<25>{#f/22}* ... Por que ahora?"
@@ -603,7 +603,7 @@ msgid "<32>* I'm the one to blame for it."
 msgstr "<32>* Soy al que deberían acusar de ello."
 
 msgid "<25>{#p/asriel1}{#f/13}* $(name)..."
-msgstr "<25>{#p/asriel1}{#f/13}* $(name)..."
+msgstr ""
 
 msgid "<25>{#f/15}* Have you been conscious this whole time?"
 msgstr "<25>{#f/15}* Has estado consciente todo este tiempo?"
@@ -661,7 +661,7 @@ msgstr ""
 "<32>* ... solo estabas intentando pararme... de hacer un error terrible."
 
 msgid "<25>{#p/asriel1}{#f/15}* $(name)..."
-msgstr "<25>{#p/asriel1}{#f/15}* $(name)..."
+msgstr ""
 
 msgid ""
 "<32>{#p/basic}* If not for you, the outpost would've been destroyed in a "
@@ -744,7 +744,7 @@ msgid "<32>* And now, I finally know the answer."
 msgstr "<32>* Y ahora, finalmente se la respuesta."
 
 msgid "<25>{#p/asriel1}{#f/15}* ...?"
-msgstr "<25>{#p/asriel1}{#f/15}* ...?"
+msgstr ""
 
 msgid "<32>{#p/basic}* ... it's you, Asriel."
 msgstr "<32>{#p/basic}* ... eres tú, Asriel."
@@ -769,7 +769,7 @@ msgid "<32>* All this time, that's what's been holding me back."
 msgstr "<32>* Todo este tiempo, eso es lo que me ha estado echando atrás."
 
 msgid "<25>{#p/asriel1}{#f/23}* $(name)..."
-msgstr "<25>{#p/asriel1}{#f/23}* $(name)..."
+msgstr ""
 
 msgid ""
 "<32>{#p/basic}* Asriel.\n"
@@ -792,13 +792,13 @@ msgid "<32>{#p/basic}* I forgive you, too."
 msgstr "<32>{#p/basic}* Te perdono a ti, también."
 
 msgid "<25>{#p/asriel1}{#f/30}{#i/4}* ...!"
-msgstr "<25>{#p/asriel1}{#f/30}{#i/4}* ...!"
+msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/26}{#i/4}* $(name)..."
-msgstr "<25>{#p/asriel1}{#f/26}{#i/4}* $(name)..."
+msgstr ""
 
 msgid "<32>{#p/basic}* Shh..."
-msgstr "<32>{#p/basic}* Shh..."
+msgstr ""
 
 msgid "<32>* It's alright."
 msgstr "<32>* Está bien."
@@ -879,7 +879,7 @@ msgid "<25>{#f/22}* Don't scare me like that again, okay?"
 msgstr "<25>{#f/22}* No me asustes así otra vez, ¿vale?"
 
 msgid "<25>{#f/13}* ..."
-msgstr "<25>{#f/13}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* Well...\n"
@@ -892,7 +892,7 @@ msgid "<25>{#f/15}* My original one."
 msgstr "<25>{#f/15}* La original."
 
 msgid "<25>{#f/16}* ..."
-msgstr "<25>{#f/16}* ..."
+msgstr ""
 
 msgid ""
 "<26>{#f/16}* When $(name) and I died, they must've wrapped themselves around"
@@ -918,7 +918,7 @@ msgid "<25>{#f/15}* Live the life they always wanted me to have."
 msgstr "<25>{#f/15}* Vivir la vida que siempre quisieron que tuve."
 
 msgid "<25>{#p/asriel1}{#f/23}* ... Frisk."
-msgstr "<25>{#p/asriel1}{#f/23}* ... Frisk."
+msgstr ""
 
 msgid "<25>{#f/23}* I'm going to stay with you from now on."
 msgstr "<25>{#f/23}* Voy a estar contigo a partir de ahora."
@@ -940,7 +940,7 @@ msgid "<25>{#f/15}* ... I don't know."
 msgstr "<25>{#f/15}* ... No sé."
 
 msgid "<25>{#f/15}* ..."
-msgstr "<25>{#f/15}* ..."
+msgstr ""
 
 msgid "<25>{#f/13}* Frisk... are you really sure about this?"
 msgstr "<25>{#f/13}* Frisk... ¿estás seguro de esto?"
@@ -962,10 +962,10 @@ msgid ""
 msgstr "<25>{#f/15}* ¿Estás seguro que puedes estar ahí para alguien como él?"
 
 msgid "<32>{#p/human}* (...)"
-msgstr "<32>{#p/human}* (...)"
+msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/15}* ..."
-msgstr "<25>{#p/asriel1}{#f/15}* ..."
+msgstr ""
 
 msgid "<25>{#f/17}* ... I guess I just don't understand you, Frisk."
 msgstr "<25>{#f/17}* ... Supongo que no te entiendo, Frisk."
@@ -974,7 +974,7 @@ msgid "<25>{#f/23}* No matter what I do to you... you just won't give in."
 msgstr "<25>{#f/23}* Sin importar lo que te haga... tú no vas a ceder."
 
 msgid "<25>{#f/22}* ..."
-msgstr "<25>{#f/22}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#f/13}* Hey.\n"
@@ -1292,7 +1292,7 @@ msgid "<25>{#f/13}* Mom, Dad..."
 msgstr "<25>{#f/13}* Mamá, Papá..."
 
 msgid "<25>{#f/13}* Sans, Papyrus, Undyne, Alphys..."
-msgstr "<25>{#f/13}* Sans, Papyrus, Undyne, Alphys..."
+msgstr ""
 
 msgid "<25>{#f/15}* Everyone I've killed in past realities..."
 msgstr "<25>{#f/15}* Todos los que he matado en realidades pasadas..."
@@ -1390,7 +1390,7 @@ msgid "<25>{#p/toriel}{#f/1}{#npc/a}* Don't stay in there for too long..."
 msgstr "<25>{#p/toriel}{#f/1}{#npc/a}* No estés ahí mucho tiempo..."
 
 msgid "<32>{#p/basic}* ..."
-msgstr "<32>{#p/basic}* ..."
+msgstr ""
 
 msgid "<32>* This is fine."
 msgstr "<32>* Esto está bien."
@@ -1409,7 +1409,7 @@ msgstr ""
 "$(name)?"
 
 msgid "<25>{#p/asriel2}{#f/3}* ..."
-msgstr "<25>{#p/asriel2}{#f/3}* ..."
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/10}* Wasn't there a dummy here before...?"
 msgstr "<25>{#p/asriel2}{#f/10}* ¿No había un maniquí aquí antes?"
@@ -1964,10 +1964,10 @@ msgstr ""
 "dormir.)"
 
 msgid "<32>{#p/napstablook}* Zzz... Zzz..."
-msgstr "<32>{#p/napstablook}* Zzz... Zzz..."
+msgstr ""
 
 msgid "<32>* Zzz... Zzz..."
-msgstr "<32>* Zzz... Zzz..."
+msgstr ""
 
 msgid ""
 "<32>{#p/basic}* This ghost keeps saying 'z' out loud repeatedly, pretending "
@@ -2069,7 +2069,7 @@ msgid "Water"
 msgstr "Agua"
 
 msgid "Δ-9"
-msgstr "Δ-9"
+msgstr ""
 
 msgid "Nothing"
 msgstr "Nada"

@@ -169,7 +169,7 @@ msgid "GAME SPEED"
 msgstr "СКОРОСТЬ ИГРЫ"
 
 msgid "$(x)x"
-msgstr "$(x)x"
+msgstr ""
 
 msgid "More"
 msgstr "Больше"
@@ -178,7 +178,7 @@ msgid "Less"
 msgstr "Менее"
 
 msgid "$(x)s/frame"
-msgstr "$(x)s/frame"
+msgstr ""
 
 msgid "GODHOME"
 msgstr "Дом бога"
@@ -259,25 +259,25 @@ msgid "C"
 msgstr "С"
 
 msgid "R"
-msgstr "R"
+msgstr ""
 
 msgid "E"
-msgstr "E"
+msgstr ""
 
 msgid "H"
-msgstr "H"
+msgstr ""
 
 msgid "O"
-msgstr "O"
+msgstr ""
 
 msgid "P"
-msgstr "P"
+msgstr ""
 
 msgid "S"
-msgstr "S"
+msgstr ""
 
 msgid "T"
-msgstr "T"
+msgstr ""
 
 msgid "Press [TAB] to cycle debug info"
 msgstr "Нажмите [TAB], чтобы просмотреть отладочную информацию"
@@ -295,7 +295,7 @@ msgid "Anchor"
 msgstr "Якорь"
 
 msgid "B"
-msgstr "B"
+msgstr ""
 
 msgid "Blend"
 msgstr "Смесь"
@@ -325,7 +325,7 @@ msgid "Extent"
 msgstr "Степень"
 
 msgid "F"
-msgstr "F"
+msgstr ""
 
 msgid "Face"
 msgstr "Лицо"
@@ -607,7 +607,7 @@ msgid "§fill=#ff0§< DEVELOPER >§fill=#fff§"
 msgstr "§fill=#ff0§< СОЗДАТЕЛЬ >§fill=#fff§"
 
 msgid "spacey_432"
-msgstr "spacey_432"
+msgstr ""
 
 msgid ""
 msgstr ""
@@ -616,94 +616,94 @@ msgid "§fill=#ff0§< WRITER >§fill=#fff§"
 msgstr "§fill=#ff0§< ПИСАТЕЛЬ >§fill=#fff§"
 
 msgid "Balgamlı Kedi"
-msgstr "Balgamlı Kedi"
+msgstr ""
 
 msgid "Bilge \"mnwary\""
-msgstr "Bilge \"mnwary\""
+msgstr ""
 
 msgid "Dischnie"
 msgstr "Обеденный стол"
 
 msgid "Efe Kaya"
-msgstr "Efe Kaya"
+msgstr ""
 
 msgid "Ghostly"
-msgstr "Ghostly"
+msgstr ""
 
 msgid "InvincibleRacoon"
-msgstr "InvincibleRacoon"
+msgstr ""
 
 msgid "Jojoton56"
-msgstr "Jojoton56"
+msgstr ""
 
 msgid "Kiwi \"Quinn\""
-msgstr "Kiwi \"Quinn\""
+msgstr ""
 
 msgid "My Aster"
 msgstr "Моя Астор."
 
 msgid "neo9174"
-msgstr "neo9174"
+msgstr ""
 
 msgid "Rise"
-msgstr "Rise"
+msgstr ""
 
 msgid "ThatGuyWhoLikesFood"
-msgstr "ThatGuyWhoLikesFood"
+msgstr ""
 
 msgid "Turbulation"
-msgstr "Turbulation"
+msgstr ""
 
 msgid "Zaxento The Greedy"
-msgstr "Zaxento The Greedy"
+msgstr ""
 
 msgid "§fill=#ff0§< ARTIST >§fill=#fff§"
 msgstr "§fill=#ff0§< ХУДОЖНИК >§fill=#fff§"
 
 msgid "Burge"
-msgstr "Burge"
+msgstr ""
 
 msgid "Deskius"
-msgstr "Deskius"
+msgstr ""
 
 msgid "DESM.al"
-msgstr "DESM.al"
+msgstr ""
 
 msgid "Discarded Vessel"
-msgstr "Discarded Vessel"
+msgstr ""
 
 msgid "Fired"
-msgstr "Fired"
+msgstr ""
 
 msgid "Funtermore"
-msgstr "Funtermore"
+msgstr ""
 
 msgid "HolyOranges"
-msgstr "HolyOranges"
+msgstr ""
 
 msgid "major_memestar"
-msgstr "major_memestar"
+msgstr ""
 
 msgid "MattSpriteMaster"
-msgstr "MattSpriteMaster"
+msgstr ""
 
 msgid "Medi0creking"
-msgstr "Medi0creking"
+msgstr ""
 
 msgid "NerNot1"
-msgstr "NerNot1"
+msgstr ""
 
 msgid "PhyreFM"
-msgstr "PhyreFM"
+msgstr ""
 
 msgid "Pongy25"
-msgstr "Pongy25"
+msgstr ""
 
 msgid "PoTheWinterCorder"
 msgstr "По Зимней границе"
 
 msgid "ProctorDorkchop02"
-msgstr "ProctorDorkchop02"
+msgstr ""
 
 msgid "ScarletScaledDragon"
 msgstr "Алый чешуйчатый дракон"
@@ -712,82 +712,82 @@ msgid "semi"
 msgstr "полу"
 
 msgid "Soup Taels"
-msgstr "Soup Taels"
+msgstr ""
 
 msgid "SquigglyWiggley"
 msgstr "Волнистый, извивающийся"
 
 msgid "Starkiteckt"
-msgstr "Starkiteckt"
+msgstr ""
 
 msgid "supper12"
-msgstr "supper12"
+msgstr ""
 
 msgid "Valor52"
-msgstr "Valor52"
+msgstr ""
 
 msgid "§fill=#ff0§< TECHNICIAN >§fill=#fff§"
 msgstr "§fill=#ff0§< СПЕЦИАЛИСТ >§fill=#fff§"
 
 msgid "Codetoil"
-msgstr "Codetoil"
+msgstr ""
 
 msgid "ryi3r"
 msgstr "Ryi3r"
 
 msgid "ws3917"
-msgstr "ws3917"
+msgstr ""
 
 msgid "§fill=#ff0§< TESTER >§fill=#fff§"
 msgstr "§fill=#ff0§< ТЕСТЕР >§fill=#fff§"
 
 msgid "Alden"
-msgstr "Alden"
+msgstr ""
 
 msgid "Aspey"
-msgstr "Aspey"
+msgstr ""
 
 msgid "blue"
 msgstr "Синий"
 
 msgid "Brad"
-msgstr "Brad"
+msgstr ""
 
 msgid "brayjamin"
-msgstr "brayjamin"
+msgstr ""
 
 msgid "ClamsyMoe"
-msgstr "ClamsyMoe"
+msgstr ""
 
 msgid "delta"
 msgstr "Дельта"
 
 msgid "DR4GON HE4RT"
-msgstr "DR4GON HE4RT"
+msgstr ""
 
 msgid "Dubituar"
-msgstr "Dubituar"
+msgstr ""
 
 msgid "Emurry"
-msgstr "Emurry"
+msgstr ""
 
 msgid "Enzolos"
-msgstr "Enzolos"
+msgstr ""
 
 msgid "EvanGamesGoodman"
-msgstr "EvanGamesGoodman"
+msgstr ""
 
 msgid "FireWizard72X"
-msgstr "FireWizard72X"
+msgstr ""
 
 msgid "FuLiNT"
-msgstr "FuLiNT"
+msgstr ""
 
 msgid "gardnaeden"
-msgstr "gardnaeden"
+msgstr ""
 
 msgid "Gon UT"
-msgstr "Gon UT"
+msgstr ""
 
 msgid "Green Tea"
 msgstr "Зелёный Чай"
@@ -796,16 +796,16 @@ msgid "Huggies!"
 msgstr "Обнимашки!"
 
 msgid "ilovecookies"
-msgstr "ilovecookies"
+msgstr ""
 
 msgid "Jago128"
-msgstr "Jago128"
+msgstr ""
 
 msgid "Joe98912"
-msgstr "Joe98912"
+msgstr ""
 
 msgid "Jonkler"
-msgstr "Jonkler"
+msgstr ""
 
 msgid "lil tanski"
 msgstr "Тански, Лил"
@@ -1880,10 +1880,10 @@ msgid "Restarting.."
 msgstr "Перезапуск.."
 
 msgid "OUTERTALE"
-msgstr "OUTERTALE"
+msgstr ""
 
 msgid "OUTERTALE...?"
-msgstr "OUTERTALE...?"
+msgstr ""
 
 msgid "GAMEPAD SETUP"
 msgstr "НАСТРОЙКА КНОПОК"
@@ -1996,18 +1996,16 @@ msgstr "УР"
 msgid ""
 "§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§"
 msgstr ""
-"§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§"
 
 msgid ""
 "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
 msgstr ""
-"{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
 
 msgid "{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
-msgstr "{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
+msgstr ""
 
 msgid "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}"
-msgstr "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}"
+msgstr ""
 
 msgid "No"
 msgstr "Нет"
@@ -2016,7 +2014,7 @@ msgid "§fill=#0f0§NOMINAL"
 msgstr "§fill=#0f0§НОМИНАЛ"
 
 msgid "$(x)%"
-msgstr "$(x)%"
+msgstr ""
 
 msgid "player"
 msgstr "игрок"
@@ -2025,7 +2023,7 @@ msgid "Settings"
 msgstr "Настройки"
 
 msgid "?"
-msgstr "?"
+msgstr ""
 
 msgid "XM"
 msgstr "ЭВ"
@@ -2225,7 +2223,7 @@ msgid "STATUS"
 msgstr "СТАТУС"
 
 msgid "\"$(x)\""
-msgstr "\"$(x)\""
+msgstr ""
 
 msgid ""
 "<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and"
@@ -2270,10 +2268,10 @@ msgstr ""
 "оттуда.{^35}{}"
 
 msgid "<24>{^100}{}"
-msgstr "<24>{^100}{}"
+msgstr ""
 
 msgid "<24>{^35}{}"
-msgstr "<24>{^35}{}"
+msgstr ""
 
 msgid "Resume Canon Timeline"
 msgstr "Продолжить Каноничный Таймлайн"

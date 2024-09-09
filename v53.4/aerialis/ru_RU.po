@@ -135,7 +135,7 @@ msgstr ""
 "<25>{#p/alphys}{#g/alphys NeutralSweat}* Прошу прощения. Побег и все такое."
 
 msgid "<25>{#p/alphys}{#g/alphysIDK}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysIDK}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/alphys}{#g/alphysNervousLaugh}* You'll be fine, right?\n"
@@ -150,7 +150,7 @@ msgstr ""
 "так ли?"
 
 msgid "<25>{#p/alphys}{#g/alphysSideSad}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysSideSad}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/alphys}{#g/alphysHaveSomeCompassion}* Please...\n"
@@ -563,7 +563,7 @@ msgid ""
 msgstr "Это полная чушь!"
 
 msgid "<25>{#p/undyne}{#f/3}* ..."
-msgstr "<25>{#p/undyne}{#f/3}* ..."
+msgstr ""
 
 msgid "<25>{#p/undyne}{#f/3}* Never say that to me again."
 msgstr "<25>{#p/undyne}{#f/3}* Больше не говори мне этого."
@@ -1311,7 +1311,7 @@ msgstr ""
 "<25>{#f/4}* Я только что закончил звонок и еще не пошел в лабораторию."
 
 msgid "<25>{#f/17}* ..."
-msgstr "<25>{#f/17}* ..."
+msgstr ""
 
 msgid "<25>{#g/alphysWhyOhWhy}* You know what, there's no problem here!"
 msgstr "<25>{#g/alphysWhyOhWhy}* Вы знаете, здесь нет проблем!"
@@ -1332,7 +1332,7 @@ msgstr ""
 "делал ничего плохого."
 
 msgid "<25>{#f/20}* ..."
-msgstr "<25>{#f/20}* ..."
+msgstr ""
 
 msgid "<25>{#f/10}* A-anyway, you're, like, new to Aerialis, right!?"
 msgstr "<25>{#f/10}* A - В любом случае, вы новичок для Aerialis, не так ли?"
@@ -1439,7 +1439,7 @@ msgid ""
 msgstr "* Твоя дружба."
 
 msgid "<25>{#f/11}* ..."
-msgstr "<25>{#f/11}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#f/13}* Even...\n"
@@ -1491,7 +1491,7 @@ msgid "<25>{#f/3}* That has to count for something, right???"
 msgstr "<25>{#f/3}* Это определенно имеет смысл, не так ли?"
 
 msgid "<25>{#g/alphysIDK}* ..."
-msgstr "<25>{#g/alphysIDK}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#g/alphysIDK}* That being said, you're probably gonna need my help in "
@@ -1708,7 +1708,7 @@ msgid "<25>{#f/17}* Let's see what you've got on you..."
 msgstr "<25>{#f/17}* Давайте посмотрим, что у вас есть."
 
 msgid "<25>{#p/alphys}{#f/21}* ..."
-msgstr "<25>{#p/alphys}{#f/21}* ..."
+msgstr ""
 
 msgid "<25>{#f/21}* What is this."
 msgstr "<25>{#f/21}* Что это такое?"
@@ -1722,7 +1722,7 @@ msgstr ""
 "использует эту технологию?"
 
 msgid "<25>{#f/22}* ..."
-msgstr "<25>{#f/22}* ..."
+msgstr ""
 
 msgid "<25>{#f/23}* I'll be right back."
 msgstr "<25>{#f/23}* Я сейчас вернусь."
@@ -1908,7 +1908,7 @@ msgid "<32>{#z02}* I'LL BE WATCHING YOUR EVERY MOVE."
 msgstr "<32>{#z02}* Я буду внимательно следить за каждым вашим шагом."
 
 msgid "<32>{#z21}* ..."
-msgstr "<32>{#z21}* ..."
+msgstr ""
 
 msgid "<32>{#z11}* WELL, TOODLES!"
 msgstr "<32>{#z11}* Хорошо, отлично!"
@@ -2077,7 +2077,7 @@ msgid "<32>{#p/human}* (More typing can be heard.)"
 msgstr "<32>{#p/human}* (Можно услышать больше машинописи.)"
 
 msgid "<32>{#p/human}* (...)"
-msgstr "<32>{#p/human}* (...)"
+msgstr ""
 
 msgid "<32>{#p/human}* (The typing stops.)"
 msgstr "<32>{#p/human}* (Набор прекратился.)"
@@ -2147,7 +2147,7 @@ msgid ""
 msgstr "* Это делает все проще!"
 
 msgid "<25>{#p/alphys}{#g/alphysFR}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysFR}* ..."
+msgstr ""
 
 msgid "<25>{#g/alphysFR}* I do NOT have a crush on Mettaton."
 msgstr "<25>{#g/alphysFR}* Мне не нравится Меттон."
@@ -2162,7 +2162,7 @@ msgid "<25>{#p/alphys}{#g/alphysNervousLaugh}* You sure?"
 msgstr "<25>{#p/alphys}{#g/alphys NervousLaugh}* Вы уверены?"
 
 msgid "<25>{#p/alphys}{#x1}* ..."
-msgstr "<25>{#p/alphys}{#x1}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/alphys}{#g/alphysSideSad}* Oh, I guess that was the right answer."
@@ -2170,7 +2170,7 @@ msgstr ""
 "<25>{#p/alphys}{#g/alphysSideSad}* О, я думаю, что это правильный ответ."
 
 msgid "<25>{#g/alphysHaveSomeCompassion}* ..."
-msgstr "<25>{#g/alphysHaveSomeCompassion}* ..."
+msgstr ""
 
 msgid "<25>{#p/alphys}{#g/alphysWelp}* Oh wow, that was the right answer."
 msgstr "<25>{#p/alphys}{#g/alphysWelp}* Вау, это правильный ответ."
@@ -2375,7 +2375,7 @@ msgstr ""
 "Меттон, не так ли?"
 
 msgid "<25>{#x1}* ..."
-msgstr "<25>{#x1}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/alphys}{#g/alphysWelp}* Oh.\n"
@@ -2395,7 +2395,7 @@ msgid "<32>{#p/human}* (The typing from earlier resumes.)"
 msgstr "<32>{#p/human}* (машинопись в предыдущих резюме)."
 
 msgid "<25>{#p/alphys}{#g/alphysCutscene1}{#x1}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysCutscene1}{#x1}* ..."
+msgstr ""
 
 msgid "<25>{#p/alphys}{#g/alphysSmileSweat}* There!!!"
 msgstr "<25>{#p/alphys}{#g/alphysSmileSweat}* Смотрите!!"
@@ -2408,7 +2408,7 @@ msgid ""
 msgstr "<25>{#g/alphysNeutralSweat}* Нет. Я думаю, я должен отменить это."
 
 msgid "<25>{#g/alphysWelp}* ..."
-msgstr "<25>{#g/alphysWelp}* ..."
+msgstr ""
 
 msgid "<25>{#g/alphysWelp}* This could take a while."
 msgstr "<25>{#g/alphysWelp}* Это может занять некоторое время."
@@ -2436,7 +2436,7 @@ msgid "<25>{#p/alphys}{#g/alphysSideSad}* Not this again..."
 msgstr "<25>{#p/alphys}{#g/alphysSideSad}* Больше так не делай."
 
 msgid "<25>{#g/alphysSideSad}* ..."
-msgstr "<25>{#g/alphysSideSad}* ..."
+msgstr ""
 
 msgid "<25>{#g/alphysWelp}* Wait, I'm still logged into Mettaton's account."
 msgstr ""
@@ -2473,7 +2473,7 @@ msgid "<25>{#f/3}* D-did you throw it away or something?"
 msgstr "<25>{#f/3}* D - Вы выбросили его или что?"
 
 msgid "<25>{#f/3}* ..."
-msgstr "<25>{#f/3}* ..."
+msgstr ""
 
 msgid "<25>{#g/alphysUhButHeresTheDeal}* Sure, okay!"
 msgstr "<25>{#g/alphysUhButheresTheDeal}* Конечно, хорошо!"
@@ -2810,7 +2810,7 @@ msgid ":$(x)"
 msgstr ": $(x)"
 
 msgid "$(x)%"
-msgstr "$(x)%"
+msgstr ""
 
 msgid ""
 "<32>{#p/mettaton}* YOU DO REALIZE YOUR LIFE IS IN DANGER HERE... RIGHT?"
@@ -2941,7 +2941,7 @@ msgid "<25>{#p/alphys}{#g/alphysCutscene1}* You did it!!"
 msgstr "<25>{#p/alphys}{#g/alphysCutscene1}* Вы сделали это!"
 
 msgid "<25>{#g/alphysCutscene2}* ..."
-msgstr "<25>{#g/alphysCutscene2}* ..."
+msgstr ""
 
 msgid "<25>{#g/alphysUhButHeresTheDeal}* I guess I should've expected that."
 msgstr "<25>{#g/alphysUhButheresTheDeal}* Я думаю, я должен ожидать этого."
@@ -2955,7 +2955,7 @@ msgid ""
 msgstr "* Ты сделал это!!"
 
 msgid "<25>{#p/alphys}{#g/alphysCutscene3}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysCutscene3}* ..."
+msgstr ""
 
 msgid "<25>{#g/alphysFR}* You have a death wish."
 msgstr "<25>{#g/alphysFR}* У вас есть желание умереть."
@@ -3105,7 +3105,7 @@ msgid "<25>{#g/alphysCutscene2}* Eheh..."
 msgstr "<25>{#g/alphysCutscene2}* Э..."
 
 msgid "<25>{#f/10}* ..."
-msgstr "<25>{#f/10}* ..."
+msgstr ""
 
 msgid "<25>{#f/3}* Don't judge me, I just like rooting for you."
 msgstr "<25>{#f/3}* Не суди меня, я просто люблю подбадривать тебя."
@@ -3226,7 +3226,7 @@ msgid "<25>{#p/kidd}{#f/3}* Hey, guys."
 msgstr "<25>{#p/kidd}{#f/3}* Эй, ребята."
 
 msgid "<25>{#p/kidd}{#f/1}* YO!"
-msgstr "<25>{#p/kidd}{#f/1}* YO!"
+msgstr ""
 
 msgid "<32>{#p/mettaton}{#z0}* THANK YOU ALL SO MUCH FOR COMING!"
 msgstr "<32>{#p/metaton}{#z0}* Большое спасибо, что пришли!"
@@ -3238,7 +3238,7 @@ msgid "<32>{#p/mettaton}{#z0}* ..."
 msgstr "<32>{#p/metaton}{#z0}* ..."
 
 msgid "<32>{#z1}* ..."
-msgstr "<32>{#z1}* ..."
+msgstr ""
 
 msgid "<32>* MY CONTESTANT DOESN'T SEEM TO BE SHOWING UP."
 msgstr "<32>* Мои участники, похоже, не появились."
@@ -3302,7 +3302,7 @@ msgstr ""
 "<25>{#p/undyne}{#f/16}* На самом деле, я здесь только по одной причине."
 
 msgid "<25>{#p/sans}{#g/sansNormal}* heya."
-msgstr "<25>{#p/sans}{#g/sansNormal}* heya."
+msgstr ""
 
 msgid "<25>{#p/sans}{#g/sansLaugh2}* oh, heheh..."
 msgstr "<25>{#p/sans}{#g/sansLaugh2}* О, эй..."
@@ -3383,7 +3383,7 @@ msgid "<25>{#p/undyne}{#f/14}* It's certainly not mine anymore, is it?"
 msgstr "<25>{#p/undyne}{#f/14}* Он определенно больше не мой, не так ли?"
 
 msgid "<25>{#p/sans}{#g/sansBlink}* ..."
-msgstr "<25>{#p/sans}{#g/sansBlink}* ..."
+msgstr ""
 
 msgid "<25>{#p/sans}{#g/sansBlink}* go on, don't be afraid."
 msgstr "<25>{#p/sans}{#g/sansBlink}* Продолжайте, не бойтесь."
@@ -3535,7 +3535,7 @@ msgid "<32>{#p/tem}* tem... love to be on TV!!"
 msgstr "<32>{#p/tem}* tem. Люблю телевизор!"
 
 msgid "<25>{#p/kidd}{#f/4}* ..."
-msgstr "<25>{#p/kidd}{#f/4}* ..."
+msgstr ""
 
 msgid "<25>{#p/kidd}{#f/1}* Why wouldn't it be?"
 msgstr "<25>{#p/kidd}{#f/1}* Почему бы и нет?"
@@ -3724,13 +3724,13 @@ msgid ""
 msgstr "* Я просто лучше знаю других участников."
 
 msgid "<25>{#p/sans}* ..."
-msgstr "<25>{#p/sans}* ..."
+msgstr ""
 
 msgid "<25>{#p/sans}{#g/sansBlink}* eh, i'm not really in the mood."
 msgstr "<25>{#p/sans}{#g/sansBlink}* Ну, я действительно не в настроении."
 
 msgid "<25>{#p/sans}* anne."
-msgstr "<25>{#p/sans}* anne."
+msgstr ""
 
 msgid "<32>{#p/mettaton}* HOW ABOUT YOU, BLOOKY?"
 msgstr "<32>{#p/metaton}* А вы, Буллок?"
@@ -3781,7 +3781,7 @@ msgstr ""
 "Извините..."
 
 msgid "<25>{#p/sans}{#g/sansNormal}* ..."
-msgstr "<25>{#p/sans}{#g/sansNormal}* ..."
+msgstr ""
 
 msgid "<25>{#p/sans}{#g/sansBlink}* that's okay."
 msgstr "<25>{#p/sans}{#g/sansBlink}* Все в порядке."
@@ -3994,7 +3994,7 @@ msgid "<25>{#f/3}* So... I guess it'll be Sans."
 msgstr "<25>{#f/3}* Поэтому... я думаю, что это должен быть Sans."
 
 msgid "<32>{#p/kidd}{#f/8}* ..."
-msgstr "<32>{#p/kidd}{#f/8}* ..."
+msgstr ""
 
 msgid "<32>{#f/8}* The human."
 msgstr "<32>{#f/8}* Человечество."
@@ -4120,7 +4120,7 @@ msgid "<32>* IT MAY NOT BE MTT-BRAND, BUT IT'S THE NEXT BEST THING! (TM)"
 msgstr "<32>* Это может быть не бренд MTT, но это следующая лучшая вещь! (ТМ)"
 
 msgid "<32>{#p/tem}* AYAYA!"
-msgstr "<32>{#p/tem}* AYAYA!"
+msgstr ""
 
 msgid ""
 "<32>{#p/mettaton}* CONGRATULATIONS, MONSTER KID!\n"
@@ -4427,7 +4427,7 @@ msgid "<25>{#p/kidd}{#f/4}* H... huh?"
 msgstr "<25>{#p/kidd}{#f/4}* H...?"
 
 msgid "<25>{#f/7}* ..."
-msgstr "<25>{#f/7}* ..."
+msgstr ""
 
 msgid "<25>{#f/14}* YOOOOOOOOOOO!!!!"
 msgstr "<25>{#f/14}* Ха - ха!!"
@@ -4731,7 +4731,7 @@ msgid "<25>{#p/asriel2}{#f/1}* There."
 msgstr "<25>{#p/asriel2}{#f/1}* Здесь."
 
 msgid "<25>{#p/asriel2}{#f/6}* ..."
-msgstr "<25>{#p/asriel2}{#f/6}* ..."
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/7}* Did we seriously just wait for that?"
 msgstr "<25>{#p/asriel2}{#f/7}* Мы действительно ждем?"
@@ -4777,7 +4777,7 @@ msgid "<32>* NOW WOULD BE THE PERFECT TIME TO SHARE THEM."
 msgstr "<32>* Сейчас самое подходящее время поделиться ими."
 
 msgid "<25>{#p/asriel2}{#f/15}* ..."
-msgstr "<25>{#p/asriel2}{#f/15}* ..."
+msgstr ""
 
 msgid "<25>{#f/2}* Nah."
 msgstr "<25>{#f/2}* Нет."
@@ -4786,7 +4786,7 @@ msgid "<25>{#p/asriel2}{#f/6}* Come on, get down."
 msgstr "<25>{#p/asriel2}{#f/6}* Быстро спускайтесь."
 
 msgid "<25>{#p/asriel2}{#f/8}* ..."
-msgstr "<25>{#p/asriel2}{#f/8}* ..."
+msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/6}* Onward to the elevator."
 msgstr "<25>{#p/asriel2}{#f/6}* Перейти к лифту."
@@ -4847,7 +4847,7 @@ msgid "<32>{#p/basic}{#x1}* Girl, you thinkin' what I'm thinkin'?{#x3}"
 msgstr "<32>{#p/basic}{#x1}* Девушка, ты думаешь \"О чем я думаю\"? {#x3}"
 
 msgid "<32>{#p/basic}* ..."
-msgstr "<32>{#p/basic}* ..."
+msgstr ""
 
 msgid "<32>{#p/basic}{#x1}{#x2}* Oh, for sure.{#x3}"
 msgstr "<32>{#p/basic}{#x1}{#x2}* О, конечно. {#x3}"
@@ -5111,7 +5111,7 @@ msgid "<32>{#p/basic}* Our cousin's a SELLOUT."
 msgstr "<32>{#p/basic}* Наш двоюродный брат продаёт вещи."
 
 msgid "<32>{#p/finalghost}* ..."
-msgstr "<32>{#p/finalghost}* ..."
+msgstr ""
 
 msgid "<32>* Our cousin is many things, but a \"sellout\" is not one of them."
 msgstr ""
@@ -5253,7 +5253,7 @@ msgstr ""
 "<25>{#f/31}* Я просто... Ей трудно смириться с тем, что с ней происходит."
 
 msgid "<25>{#f/31}* ..."
-msgstr "<25>{#f/31}* ..."
+msgstr ""
 
 msgid "<25>{#f/20}* Well, we should probably head up to the rec center now."
 msgstr "<25>{#f/20}* Ладно, нам пора в развлекательный центр."
@@ -6300,7 +6300,7 @@ msgid "<32>{#p/human}* (You decide not to give.)"
 msgstr "<32>{#p/human}* (Вы решили не давать)."
 
 msgid "<25>{#p/alphys}{#g/alphysWTF}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysWTF}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#g/alphysCutscene2}* Okay, you know what?\n"
@@ -7032,7 +7032,7 @@ msgid "<25>{#p/alphys}{#g/alphysOhGodNo}* Oh my god, are you guys..."
 msgstr "<25>{#p/alphys}{#g/alphysOhGodNo}* О, Боже, вы..."
 
 msgid "<25>{#p/alphys}{#g/alphysWelp}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysWelp}* ..."
+msgstr ""
 
 msgid "<25>{#g/alphysInquisitive}* What are you looking at me for?"
 msgstr "<25>{#g/alphysInquirious}* Почему ты смотришь на меня?"
@@ -7389,7 +7389,7 @@ msgstr ""
 "<25>{#g/alphysFR}* ASGORE имеет {@ fill = #003cff} секрет {@ fill = # fff}."
 
 msgid "<25>{#p/alphys}{#g/alphysIDK3}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysIDK3}* ..."
+msgstr ""
 
 msgid ""
 "<25>{#p/alphys}{#g/alphysIDK3}* What hurts most of all, though, is... "
@@ -7464,10 +7464,10 @@ msgstr ""
 "<25>{#p/alphys}{#g/alphysIDK3}* И вы тот, кто позволил этому случиться."
 
 msgid "<25>{#p/alphys}{#g/alphysIDK2}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysIDK2}* ..."
+msgstr ""
 
 msgid "<25>{#p/alphys}{#g/alphysThatSucks}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysThatSucks}* ..."
+msgstr ""
 
 msgid "<25>* In any case, there's... nothing else I can do."
 msgstr "<25>* В любом случае, я ничего не могу сделать."
@@ -8025,7 +8025,7 @@ msgid "<25>{#p/asriel2}{#f/13}* Uh... $(name)?"
 msgstr "<25>{#p/asriel2}{#f/13}* Э. $ (Имя)?"
 
 msgid "<25>{#p/asriel2}{#f/13}* ..."
-msgstr "<25>{#p/asriel2}{#f/13}* ..."
+msgstr ""
 
 msgid "<32>* Wasn't there a spare cell phone on Alphys's desk?"
 msgstr "Разве на столе Альфиса не был запасной телефон?"
@@ -8816,13 +8816,13 @@ msgstr ""
 "<25>{#p/asriel1}{#f/15}* Я должен трясти себя, как собака, чтобы снять его."
 
 msgid "<25>{#p/asriel1}{#f/8}* ..."
-msgstr "<25>{#p/asriel1}{#f/8}* ..."
+msgstr ""
 
 msgid "<26>{#p/asriel1}{#f/31}* Don't you get any ideas."
 msgstr "<26>{{#p/asriel1}{#f/31:* У вас нет ни малейшей идеи."
 
 msgid "<25>{#p/asriel1}{#f/31}* ..."
-msgstr "<25>{#p/asriel1}{#f/31}* ..."
+msgstr ""
 
 msgid "<32>{#p/basic}* A bucket of ice cream."
 msgstr "<32>{#p/basic}* Ведро мороженого."
@@ -9967,7 +9967,7 @@ msgid ""
 msgstr "* Солдат, иди с тобой в новый дом!"
 
 msgid "<32>{#p/basic}{#npc/a}* ..."
-msgstr "<32>{#p/basic}{#npc/a}* ..."
+msgstr ""
 
 msgid "<32>{#p/basic}{#npc/a}* You may be on your way now."
 msgstr "<32>{#p/basic}{#npc/a}* Вы, возможно, уже в пути."
@@ -12269,7 +12269,7 @@ msgstr ""
 "этаж?"
 
 msgid "<25>{#f/8}* ..."
-msgstr "<25>{#f/8}* ..."
+msgstr ""
 
 msgid "<25>{#f/7}* I should have known he'd make us take the long way up."
 msgstr ""
@@ -12744,7 +12744,7 @@ msgid "<25>* is getting out of here really worth all that trouble?"
 msgstr "<25>Действительно ли это стоит таких проблем, чтобы уехать отсюда?"
 
 msgid "<25>{#f/0}* ..."
-msgstr "<25>{#f/0}* ..."
+msgstr ""
 
 msgid "<25>{#f/3}* lemme tell you a story."
 msgstr "<25>{#f/3}* Позвольте мне рассказать вам историю."
@@ -12991,7 +12991,7 @@ msgid ""
 msgstr "* Я подозреваю, что на тебе царапины."
 
 msgid "<25>{#p/sans}{#f/0}* heh."
-msgstr "<25>{#p/sans}{#f/0}* heh."
+msgstr ""
 
 msgid ""
 "<25>{#p/sans}{#f/0}* well, enjoy the food, and... i hope you learned "
@@ -13304,7 +13304,7 @@ msgid "<25>{#p/alphys}{#g/alphysSideSad}* No... why..."
 msgstr "<25>{#p/alphys}{#g/alphysSideSad}* Не... Почему..."
 
 msgid "<25>{#g/alphysWorried}* ..."
-msgstr "<25>{#g/alphysWorried}* ..."
+msgstr ""
 
 msgid "<25>* Couldn't there have been... another way?"
 msgstr "<25>* Не может быть. Другой путь?"
@@ -13351,7 +13351,7 @@ msgid "<32>{#p/human}* (You hear a long sigh.)"
 msgstr "<32>{#p/human}* (Вы слышите длинный вздох.)"
 
 msgid "<25>{#p/alphys}{#g/alphysWorried}* ..."
-msgstr "<25>{#p/alphys}{#g/alphysWorried}* ..."
+msgstr ""
 
 msgid "<25>{#g/alphysWorried}* That should be the l-last of the engineers."
 msgstr "<25>{#g/alphysWorried}* Это должен быть последний инженер."
@@ -13508,7 +13508,7 @@ msgid "<25>{#g/alphysCutscene2}* Uh... good luck?"
 msgstr "<25>{#g/alphysCutscene2}* Э... Удачи?"
 
 msgid "<25>{#g/alphysCutscene3}* ..."
-msgstr "<25>{#g/alphysCutscene3}* ..."
+msgstr ""
 
 msgid "<25>* Please don't die to these guys."
 msgstr "<25>* Пожалуйста, не умирайте за этих парней."
@@ -13620,7 +13620,7 @@ msgid "<25>{#p/alphys}{#g/alphysInquisitive}* Why are you going..."
 msgstr "<25>{#p/alphys}{#g/alphysInquiry}* Почему вы идете."
 
 msgid "<25>{#f/21}* ..."
-msgstr "<25>{#f/21}* ..."
+msgstr ""
 
 msgid "<25>{#f/22}* HAS THIS BEEN UNLOCKED THE WHOLE TIME!?"
 msgstr "<25>{#f/22}* Это всегда разблокировано!"
@@ -17552,7 +17552,7 @@ msgstr ""
 "<08>{#p/basic}{~} Пусть у вас будет богатство, к которому вы стремитесь."
 
 msgid "<32>{#p/asriel2}* ..."
-msgstr "<32>{#p/asriel2}* ..."
+msgstr ""
 
 msgid "<32>{#p/basic}* Final Froggit is knocked out!"
 msgstr "<32>{#p/basic}* Окончательная лягушка устранена!"
@@ -17592,7 +17592,7 @@ msgid "<08>{#p/basic}{~}Purr."
 msgstr "<08>{#p/basic}{~} Purr."
 
 msgid "<32>{#p/alphys}* ..."
-msgstr "<32>{#p/alphys}* ..."
+msgstr ""
 
 msgid ""
 "<32>{#p/story}* The battlefield is engulfed in the smell of leola root."
@@ -17930,7 +17930,7 @@ msgid "<32>{#p/story}* Flutterknyte is at rest."
 msgstr "<32>{#p/story}* Flutterknyte находится в состоянии покоя."
 
 msgid "* Eyewalker Prime"
-msgstr "* Eyewalker Prime"
+msgstr ""
 
 msgid "<08>{#p/basic}{~}Out of sight, out of mind."
 msgstr "<08>{#p/basic}{~} Не видно, не помню."
@@ -19253,10 +19253,10 @@ msgid "<32>{#p/story}* Tsunderidex's engines are leaking plasma."
 msgstr "<32>{#p/story}* Двигатель Sunderidex протекает через плазму."
 
 msgid "* RG 01"
-msgstr "* RG 01"
+msgstr ""
 
 msgid "* RG 03"
-msgstr "* RG 03"
+msgstr ""
 
 msgid "<11>{#p/basic}{~}Like, what are you even doing?"
 msgstr "<11>{#p/basic}{~} Например, что именно вы делаете?"
@@ -19601,7 +19601,7 @@ msgid "<11>{#p/basic}{~}{@random=1.1/1.1}..."
 msgstr "<11>{#p/basic}{~}{@ random = 1.1/1.1}."
 
 msgid "<32>{#p/story}* ..."
-msgstr "<32>{#p/story}* ..."
+msgstr ""
 
 msgid "<32>{#p/story}* 01's gaze pans downwards to the floor."
 msgstr "<32>{#p/story}* 01 Взгляд опускается вниз на пол."
@@ -19610,10 +19610,10 @@ msgid "<32>{#p/story}* 03's breathing intensifies."
 msgstr "<32>{#p/story}* 03 Усиление дыхания."
 
 msgid "* RG 02"
-msgstr "* RG 02"
+msgstr ""
 
 msgid "* RG 04"
-msgstr "* RG 04"
+msgstr ""
 
 msgid "<11>{#p/basic}{~}I don't get this at all..."
 msgstr "<11>{#p/basic}{~} Я совершенно не понимаю."
@@ -19875,7 +19875,7 @@ msgid "§fill=#ff0§OuterNet (NEW)"
 msgstr "§ fill = #ff0 § OuterNet (новый)"
 
 msgid "OuterNet"
-msgstr "OuterNet"
+msgstr ""
 
 msgid "<25>{#p/alphys}{#g/alphysCutscene1}* Oh, h-hey!"
 msgstr "<25>{#p/alphys}{#g/alphysCutscene 1:1}* О, эй!"
@@ -20058,7 +20058,7 @@ msgid "<32>{#p/human}* (You turned on the Old Radio.)"
 msgstr "<32>{#p/human}* (Вы включили старое радио.)"
 
 msgid "<32>{#p/event}{#a.radiostart}* ..."
-msgstr "<32>{#p/event}{#a.radiostart}* ..."
+msgstr ""
 
 msgid "{*}{#a.radiostop}{%}"
 msgstr "› › › › › › › › › › › › › › › › › 82"
@@ -21692,7 +21692,7 @@ msgid "<30>{#p/human}* (You took 2048G from behind the counter.)"
 msgstr "<30>{#p/human}* (Вы взяли 2048G из - за стойки.)"
 
 msgid "<30>{#p/basic}{#k/7}* ..."
-msgstr "<30>{#p/basic}{#k/7}* ..."
+msgstr ""
 
 msgid ""
 "<30>{#k/4}* Okay.\n"
@@ -21713,10 +21713,10 @@ msgstr ""
 "что - то."
 
 msgid "<30>{#p/basic}{#k/1}* ..."
-msgstr "<30>{#p/basic}{#k/1}* ..."
+msgstr ""
 
 msgid "<30>{#k/4}* ..."
-msgstr "<30>{#k/4}* ..."
+msgstr ""
 
 msgid "<30>{#k/3}* Excuse me?"
 msgstr "<30>{#k/3}* Извините?"
@@ -21886,7 +21886,7 @@ msgid "<32>{#p/basic}{#k/1}* I'm not your counselor, pal."
 msgstr "<32>{#p/basic}{#k/1}* Я не ваш консультант, друг."
 
 msgid "<32>{#k/7}* ..."
-msgstr "<32>{#k/7}* ..."
+msgstr ""
 
 msgid ""
 "<32>{#k/0}* Sorry.\n"
@@ -21894,7 +21894,7 @@ msgid ""
 msgstr "* Только... Запомни мои слова."
 
 msgid "<32>{#p/basic}{#k/2}* ..."
-msgstr "<32>{#p/basic}{#k/2}* ..."
+msgstr ""
 
 msgid "<32>{#k/4}* I guess I can't make fun of the bastard forever."
 msgstr "<32>{#k/4}* Я не думаю, что могу смеяться над этим ублюдком вечно."
@@ -21915,7 +21915,7 @@ msgid "<32>{#p/basic}{#k/8}* Mettaton."
 msgstr "<32>{#p/basic}{#k/8}* Меттон."
 
 msgid "<32>{#k/4}* ..."
-msgstr "<32>{#k/4}* ..."
+msgstr ""
 
 msgid "<32>{#k/6}* Yeah, he's dead."
 msgstr "<32>{#k/6}* Да, он умер."
@@ -21932,7 +21932,7 @@ msgid "<32>{#k/5}* I don't really think there's much to say."
 msgstr "<32>{#k/5}* Мне действительно нечего сказать."
 
 msgid "<32>{#p/basic}{#k/5}* ..."
-msgstr "<32>{#p/basic}{#k/5}* ..."
+msgstr ""
 
 msgid "<33>{#k/7}* I'm not going to repeat myself."
 msgstr "<33>{#k/7}* Я не буду повторять свои слова."
@@ -22053,7 +22053,7 @@ msgid ""
 msgstr "* Абсолютный ад."
 
 msgid "<32>{#k/1}* ..."
-msgstr "<32>{#k/1}* ..."
+msgstr ""
 
 msgid "<32>{#k/3}* Gosh, isn't talking to you JUST SO MUCH FUN!?!?"
 msgstr "<32>{#k/3}* Боже мой, разве не весело говорить с тобой?!"
@@ -22575,7 +22575,7 @@ msgstr ""
 "заплачу 1000G!"
 
 msgid "<16>{#k/2/4}* ..."
-msgstr "<16>{#k/2/4}* ..."
+msgstr ""
 
 msgid "<16>{#k/5/1}* We'd kick you out if this wasn't so silly."
 msgstr "<16>{#k/5/1}* Если бы это было не так глупо, мы бы выгнали вас."
@@ -22650,7 +22650,7 @@ msgid "<16>{#k/4/4}* Are we okay?"
 msgstr "<16>{#k/4/4}* Мы в порядке?"
 
 msgid "<16>{#k/2/6/0}"
-msgstr "<16>{#k/2/6/0}"
+msgstr ""
 
 msgid "{*}{#s/meow}{%}"
 msgstr "› › › › › › › › #s/meow › › › › › › ›"
@@ -22918,7 +22918,7 @@ msgid "<16>{#k/1/7}* YES!"
 msgstr "<16>{#k/1/7}* Да!"
 
 msgid "<16>{#k/4/7}* ..."
-msgstr "<16>{#k/4/7}* ..."
+msgstr ""
 
 msgid "<16>{#k/5/6}* Catty, don't you have ANY standards?"
 msgstr "<16>{#k/5/6}* Кэти, у вас нет никаких стандартов?"
@@ -22944,7 +22944,7 @@ msgstr ""
 "* Ты знаешь, я всегда буду получать его от таких плохих парней, как он."
 
 msgid "<16>{#k/2/4/0}"
-msgstr "<16>{#k/2/4/0}"
+msgstr ""
 
 msgid "<16>{#k/2/8}* You did not just say that out loud."
 msgstr "<16>{#k/2/8}* Вы только что сказали это не вслух."

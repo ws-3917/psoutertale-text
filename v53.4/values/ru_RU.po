@@ -267,7 +267,7 @@ msgid "Sorry, but you're a letter shy."
 msgstr "Извините, но вы стесняетесь букв."
 
 msgid "...?"
-msgstr "...?"
+msgstr ""
 
 msgid "Clean name."
 msgstr "Чистое имя."
@@ -342,4 +342,4 @@ msgid "... fine."
 msgstr "... хорошо."
 
 msgid "..."
-msgstr "..."
+msgstr ""

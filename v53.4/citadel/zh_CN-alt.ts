@@ -648,7 +648,7 @@ export default {
                "<32>* It's just...",
                '<32>* ...',
                '<32>{#p/human}* (You hear a large sigh.)',
-               '<32>{#p/basic}* 弗里斯克...',
+               '<32>{#p/basic}* Frisk...',
                "<32>* There's still something I haven't told you yet.",
                "<32>* It's about my past, and...",
                "<32>* It's the reason why I'm so desperate to talk to him.",
@@ -658,7 +658,7 @@ export default {
                '<32>* I need you to understand.'
             ],
             () => [
-               '<32>{#p/basic}* 弗里斯克...',
+               '<32>{#p/basic}* Frisk...',
                "<32>* Can you imagine what it's like to lose your whole family in one night?",
                '<32>* Can you imagine...',
                "<32>* What it's like to know that you're the one to blame?",
@@ -929,7 +929,7 @@ export default {
                        '<25>{#p/asgore}{#npc/a}{#f/21}* Oh?\n* You have something to tell me?',
                        '<32>{#npc}{#p/human}* (You repeat the promise made to you by Asgore in Archive Six.)',
                        '<25>{#p/asgore}{#npc/a}{#f/8}* ...！',
-                       '<25>{#f/1}* 弗里斯克...',
+                       '<25>{#f/1}* Frisk...',
                        '<25>{#f/1}* ... I am not sure I can do that, but...',
                        '<25>{#f/6}* For you, I will try.'
                     ])
@@ -2536,7 +2536,7 @@ export default {
                ? [ '<25>{#p/asriel1}{#f/23}* 看样子，$(name)，\n  你又赢了。' ]
                : [
                     "<25>{#p/asriel1}{#f/23}* $(name)，\n  我一直都是个爱哭鬼，是吧？",
-                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* 艾斯利尔...' ])
+                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* Asriel...' ])
                  ]),
             '<25>{#p/asriel1}{#f/22}* ...',
             '<25>{#f/21}* ...我知道的。',
@@ -2574,7 +2574,7 @@ export default {
                     "<25>{#f/17}* 那...",
                     '<25>{#f/23}* ...真是个好名字。',
                     '<25>{#f/22}* ...',
-                    '<25>{#f/13}* 弗里斯克...',
+                    '<25>{#f/13}* Frisk...',
                     ...(SAVE.flag.n.killed_sans > 0
                        ? [
                             '<25>{#p/asriel1}{#f/13}* What we did back there, I...',
@@ -2708,7 +2708,7 @@ export default {
                     '<25>{#f/16}* I hurt so many people.',
                     '<25>{#f/13}* Friends, family, bystanders...',
                     "<25>{#f/22}* There's no excuse for what I've done.",
-                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* 艾斯利尔...' ]),
+                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* Asriel...' ]),
                     choicer.create('* (What will you do?)', 'Forgive', 'Do not')
                  ],
          sad4a: () => [
@@ -2956,7 +2956,7 @@ export default {
                                '<32>{#p/basic}* If you leave here, your journey will really be over.',
                                '<32>{#p/basic}* Your friends will follow you to a new homeworld.'
                             ]
-                          : [ '<32>{#p/basic}* 弗里斯克...', "<32* Don't you remember what we have to do?" ]),
+                          : [ '<32>{#p/basic}* Frisk...', "<32* Don't you remember what we have to do?" ]),
                        "<99>{#p/human}* （离开这里吗？）{!}\n§shift=48§我想\n§shift=48§再等等§shift=83§现在离开{#c/0/6/6}"
                     ],
             [
@@ -3038,7 +3038,7 @@ export default {
                  ]
                : SAVE.data.b.c_state_secret1_used
                ? [
-                    '<25>{#p/toriel}{#f/5}* 艾斯戈尔...',
+                    '<25>{#p/toriel}{#f/5}* Asgore...',
                     '<25>{#p/toriel}{#f/5}* I know it may not mean much to you now, but...',
                     '<25>{#p/toriel}{#f/9}* I am truly sorry for the way I allowed myself to be.',
                     '<25>{#p/toriel}{#f/13}* I made you out to be a terrible creature.',
@@ -3285,7 +3285,7 @@ export default {
          ],
          hangar39: [ '<25>{#p/toriel}{#f/10}* My child...' ],
          hangar40: [ '<25>{#p/toriel}{#f/1}* ... be good, alright?' ],
-         returnofchara1: [ '<32>{#p/basic}* 弗里斯克...', '<32>* ... are you still there?' ],
+         returnofchara1: [ '<32>{#p/basic}* Frisk...', '<32>* ... are you still there?' ],
          returnofchara2: [
             '<32>{#p/basic}* Sorry I disappeared on you so suddenly back there.',
             '<32>* Doing what I did... took a lot out of me.',
@@ -4924,7 +4924,7 @@ export default {
       ]
    },
    b_opponent_archive2: {
-      name: () => (battler.volatile[0].sparable ? '* 葛森' : '* e8919be6a3ae'),
+      name: () => (battler.volatile[0].sparable ? '* Gerson' : '* 476572736f6e'),
       status0: [ '<32>{#p/human}* （e8919be6a3ae\n  正站在训练场的对侧。）' ],
       status1: [ '<32>{#p/human}* （e8919be6a3ae让你先出招。）' ],
 
@@ -4982,7 +4982,7 @@ export default {
       act_notesN: [ '<32>{#p/human}* （在消散前，罗曼教授\n  和你交流了笔记。）' ]
    },
    b_opponent_archive4: {
-      name: () => (battler.volatile[0].sparable ? '* 纳普斯特' : '* e7bab3e699aee696afe789b9'),
+      name: () => (battler.volatile[0].sparable ? '* Napstablook' : '* 4e6170737461626c6f6f6b'),
       status0: [ '<32>{#p/human}* （e7bab3e699aee696afe789b9\n  正飘在电脑桌旁。）' ],
       status1: [ '<32>{#p/human}* (4e6170737461626c6f6f6b is looking for a new sound.)' ],
 
@@ -5021,7 +5021,7 @@ export default {
       act_praise: [ '<32>{#p/human}* (But your kind words fell on invisibly shy ears.)' ]
    },
    b_opponent_archive5: {
-      name: () => (battler.volatile[0].sparable ? '* 艾斯戈尔' : '* e889bee696afe68888e5b094'),
+      name: () => (battler.volatile[0].sparable ? '* Asgore' : '* 4173676f7265'),
       status0: [ '<32>{#p/human}* (4173676f7265 stands tall.)' ],
       status1: [ '<32>{#p/human}* （e889bee696afe68888e5b094\n  只有一件事有求于你。）' ],
 
@@ -5037,8 +5037,8 @@ export default {
       refuse: '{*}{#p/event}{#i/3}但是它拒绝了。',
       name: () =>
          battler.volatile[0].container.objects[0]?.metadata.power === true
-            ? '§fill=#ff7f7f§§swirl=2/1/1.05§§hue§* 艾斯利尔·逐梦'
-            : '* 艾斯利尔·逐梦',
+            ? '§fill=#ff7f7f§§swirl=2/1/1.05§§hue§* Asriel Dreemurr'
+            : '* Asriel Dreemurr',
       status0: pager.create(
          0,
          (power = false) =>
@@ -5438,7 +5438,7 @@ export default {
       cryTalk2: [ '<20>{*}{#p/asriel3}{@random=1.1/1.1}马上给我停下！！！{^40}{%}' ],
       endStatus1: () => (SAVE.data.b.oops ? [ '<32>{#p/story}* ...' ] : [ '<32>{#p/basic}* ...' ]),
       endTalk1: [ '<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}...', '<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name)...' ],
-      endStatus2: () => (SAVE.data.b.oops ? [ '<32>{#p/story}* ...' ] : [ '<32>{#p/basic}* 艾斯利尔...' ]),
+      endStatus2: () => (SAVE.data.b.oops ? [ '<32>{#p/story}* ...' ] : [ '<32>{#p/basic}* Asriel...' ]),
       endTalk2: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}我好孤独，\n$(name)..." ],
       endStatus3: () => (SAVE.data.b.oops ? [ '<32>{#p/story}* ...' ] : [ '<32>{#p/basic}* ...' ]),
       endTalk3: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}我好害怕，\n$(name)..." ],
@@ -6424,10 +6424,10 @@ export default {
             ? [ '<20>{#p/asriel1}果然...', '<20>这种感觉，\n比上次好太多了。' ]
             : [ '<20>{#p/asriel1}终于。', '<20>当星星那么久\n真是受够了。' ],
       friend91: [ '<20>{#p/asriel1}哈喽！', '<20>你在那里吗，\n$(name)？', "<20>是我啊，你最好的朋友：" ],
-      friend92: '<99>{*}{#p/asriel3}{#v/1}{#i/12}艾斯利尔·逐梦{^10}{#p/event}{%}'
+      friend92: '<99>{*}{#p/asriel3}{#v/1}{#i/12}ASRIEL DREEMURR{^10}{#p/event}{%}'
    },
    b_opponent_finalasgore: {
-      name: '* 艾斯戈尔',
+      name: '* Asgore',
       death1: [
          '<11>{*}{#p/asgore}{#e/asgore/1}{#v/1}{#i/8}{@random=1.1/1.1}...这就是\n我的归宿了...',
          '<11>{*}{#e/asgore/1}{#v/1}{#i/8}{@random=1.1/1.1}...',
