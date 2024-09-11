@@ -649,7 +649,16 @@ export default {
          ]
       },
       dummy1x: () =>
-         SAVE.data.n.state_wastelands_dummy === 4
+         SAVE.data.b.flirt_maddummy
+            ? [
+                 SAVE.data.n.state_wastelands_dummy === 4
+                    ? "<32>{#p/basic}* Gah!\n* You're even worse than I thought you'd be!!"
+                    : '<32>{#p/basic}* Gah!\n* Just how awful ARE you!?',
+                 '<32>* Not only did you hug someone with haphephobia....',
+                 '<32>* But the way you did it!?',
+                 '<32>* Revolting.\n* Revolting!\n* REVOLTING!!!!'
+              ]
+            : SAVE.data.n.state_wastelands_dummy === 4
             ? [
                  '<32>{#p/basic}* Гах!\n* Я точно ЗНАЛ, что ты это сделаешь!!!',
                  '<32>* Вот это ИМБЕЦИЛ!!!\n* Ты только что обнял кого-то с гафефобией!!!!',
@@ -814,10 +823,14 @@ export default {
             ? [ '<32>{#p/human}* (Ты ударил этого манекена.)' ]
             : SAVE.data.b.oops
             ? [ '<32>{#p/human}* (Ты ткнул в манекен.)' ]
+            : SAVE.data.b.flirt_maddummy
+            ? [ '<32>{#p/human}* (You tenderly embraced the dummy.)' ]
             : [ '<32>{#p/human}* (Ты обнимаешь манекен.)' ],
       dummypunch3: () =>
          SAVE.data.b.f_state_dummypunch
             ? [ "<32>{#p/basic}* Это избитый тренировочный манекен." ]
+            : SAVE.data.b.flirt_maddummy
+            ? [ "<32>{#p/basic}* It's a red-faced hugging dummy." ]
             : [ "<32>{#p/basic}* Это счастливый обнимающийся манекен." ],
       epicreaction: () =>
          [

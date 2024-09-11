@@ -9192,11 +9192,8 @@ msgstr ""
 "принять... но..."
 
 msgid ""
-"<25>{#p/alphys}{#g/alphysSoAwesome}* ... if only Undyne asked me to do "
-"that..."
+"<25>{#p/alphys}{#g/alphysSoAwesome}* ... god, if only Undyne were here..."
 msgstr ""
-"<25>{#p/alphys}{#g/alphysSoAwesome}* ... Было бы здорово, если бы Энди "
-"попросила меня сделать это."
 
 msgid ""
 "<25>{#p/alphys}{#g/alphysNervousLaugh}* Ehehe... you humans really are "

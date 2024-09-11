@@ -8953,8 +8953,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"<25>{#p/alphys}{#g/alphysSoAwesome}* ... if only Undyne asked me to do "
-"that..."
+"<25>{#p/alphys}{#g/alphysSoAwesome}* ... god, if only Undyne were here..."
 msgstr ""
 
 msgid ""

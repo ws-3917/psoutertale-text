@@ -3816,7 +3816,7 @@ export default {
                           "<32>{#p/human}* (Вы шептали Альфису что - то другое.)",
                           "<25>{#p/alphys}{#g/alphys NervousLaugh}* Wh. Что с тобой?",
                           "<25>{#p/alphys}{#g/alphys NervousLaugh}* Я имею в виду... Я не могу принять... но...",
-                          '<25>{#p/alphys}{#g/alphysSoAwesome}* ... Было бы здорово, если бы Энди попросила меня сделать это.'
+                          '<25>{#p/alphys}{#g/alphysSoAwesome}* ... god, if only Undyne were here...'
                        ],
                        [ '<25>{#p/alphys}{#g/alphys NervousLaugh}* Э... Вы, люди, действительно удивительны.' ]
                     ][SAVE.data.b.flirt_alphys ? 1 : ((SAVE.data.b.flirt_alphys = true), 0)]

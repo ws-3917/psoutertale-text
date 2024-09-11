@@ -649,7 +649,16 @@ export default {
          ]
       },
       dummy1x: () =>
-         SAVE.data.n.state_wastelands_dummy === 4
+         SAVE.data.b.flirt_maddummy
+            ? [
+                 SAVE.data.n.state_wastelands_dummy === 4
+                    ? "<32>{#p/basic}* Gah!\n* You're even worse than I thought you'd be!!"
+                    : '<32>{#p/basic}* Gah!\n* Just how awful ARE you!?',
+                 '<32>* Not only did you hug someone with haphephobia....',
+                 '<32>* But the way you did it!?',
+                 '<32>* Revolting.\n* Revolting!\n* REVOLTING!!!!'
+              ]
+            : SAVE.data.n.state_wastelands_dummy === 4
             ? [
                  '<32>{#p/basic}* 呸！\n* 我就知道你會那麼做！！',
                  '<32>* What an IMBECILE!!!\n* You just hugged someone with haphephobia!!!!',
@@ -814,10 +823,14 @@ export default {
             ? [ '<32>{#p/human}* （你給人偶來了一拳。）' ]
             : SAVE.data.b.oops
             ? [ '<32>{#p/human}* （...你只是戳了戳人偶。）' ]
+            : SAVE.data.b.flirt_maddummy
+            ? [ '<32>{#p/human}* (You tenderly embraced the dummy.)' ]
             : [ '<32>{#p/human}* （你抱了抱人偶。）' ],
       dummypunch3: () =>
          SAVE.data.b.f_state_dummypunch
             ? [ "<32>{#p/basic}* 人偶被你教訓了一頓。" ]
+            : SAVE.data.b.flirt_maddummy
+            ? [ "<32>{#p/basic}* It's a red-faced hugging dummy." ]
             : [ "<32>{#p/basic}* 一個很開心的抱抱人偶。" ],
       epicreaction: () =>
          [

@@ -1156,7 +1156,7 @@ export default {
             '<25>{#g/alphysCutscene2}* C... congratulations.'
          ],
          cooker1a: [ '<32>{#p/mettaton}* 你好啊。' ],
-         cooker1b: [ "<32>{*}{#p/mettaton}* 歡迎來到前哨站的首期\n  創意工坊節目！{^30}{%}" ],
+         cooker1b: [ "<32>{*}{#p/mettaton}* 歡迎來到前哨站的首期\n  創藝工坊節目！{^30}{%}" ],
          cooker2a1: () =>
             iFancyYourVilliany()
                ? [ '<32>{#p/mettaton}* WHAT ARE WE MAKING TODAY?\n* SOMETHING FUN, OF COURSE!' ]

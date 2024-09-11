@@ -3804,7 +3804,7 @@ export default {
                           "<32>{#p/human}* (You whispered something else into Alphys's ear.)",
                           "<25>{#p/alphys}{#g/alphysNervousLaugh}* Wh... what's gotten into you???",
                           "<25>{#p/alphys}{#g/alphysNervousLaugh}* I, I mean... I can't accept it... but...",
-                          '<25>{#p/alphys}{#g/alphysSoAwesome}* ... if only Undyne asked me to do that...'
+                          '<25>{#p/alphys}{#g/alphysSoAwesome}* ... god, if only Undyne were here...'
                        ],
                        [ '<25>{#p/alphys}{#g/alphysNervousLaugh}* Ehehe... you humans really are something...' ]
                     ][SAVE.data.b.flirt_alphys ? 1 : ((SAVE.data.b.flirt_alphys = true), 0)]

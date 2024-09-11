@@ -2507,7 +2507,7 @@ msgid ""
 "SHOW!{^30}{%}"
 msgstr ""
 "<32>{*}{#p/mettaton}* 歡迎來到前哨站的首期\n"
-"  創意工坊節目！{^30}{%}"
+"  創藝工坊節目！{^30}{%}"
 
 msgid ""
 "<32>{#p/mettaton}* WHAT ARE WE MAKING TODAY?\n"

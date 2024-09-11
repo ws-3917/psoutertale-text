@@ -1266,6 +1266,28 @@ msgstr ""
 
 msgid ""
 "<32>{#p/basic}* Gah!\n"
+"* You're even worse than I thought you'd be!!"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Gah!\n"
+"* Just how awful ARE you!?"
+msgstr ""
+
+msgid "<32>* Not only did you hug someone with haphephobia...."
+msgstr ""
+
+msgid "<32>* But the way you did it!?"
+msgstr ""
+
+msgid ""
+"<32>* Revolting.\n"
+"* Revolting!\n"
+"* REVOLTING!!!!"
+msgstr ""
+
+msgid ""
+"<32>{#p/basic}* Gah!\n"
 "* I just KNEW you were going to do that!!"
 msgstr ""
 
@@ -1651,10 +1673,16 @@ msgstr ""
 msgid "<32>{#p/human}* (You poked the dummy.)"
 msgstr ""
 
+msgid "<32>{#p/human}* (You tenderly embraced the dummy.)"
+msgstr ""
+
 msgid "<32>{#p/human}* (You hugged the dummy.)"
 msgstr ""
 
 msgid "<32>{#p/basic}* It's a beat-up training dummy."
+msgstr ""
+
+msgid "<32>{#p/basic}* It's a red-faced hugging dummy."
 msgstr ""
 
 msgid "<32>{#p/basic}* It's a happy hugging dummy."
