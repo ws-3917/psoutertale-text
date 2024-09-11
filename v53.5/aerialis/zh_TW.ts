@@ -8777,7 +8777,7 @@ export default {
          world.genocide
             ? [ '<32>{#p/asriel2}* 離死不遠了。' ]
             : [ '<32>{#p/story}* Mushketeer sets out on its final push.' ],
-      genoStatus: [ '<32>{#p/asriel2}* Mushketeer.' ],
+      genoStatus: [ '<32>{#p/asriel2}* Mushketeer。' ],
       status0: () =>
          world.genocide
             ? [ '<32>{#p/asriel2}* Why is this thing in our way?' ]
@@ -8819,7 +8819,7 @@ export default {
       flirtTalk2: [ "<08>{#p/basic}{~}Well..\nIf it's what you're into.." ],
       flirtStatus: () =>
          world.genocide
-            ? [ '<32>{#p/asriel2}* Mushketeer.' ]
+            ? [ '<32>{#p/asriel2}* Mushketeer。' ]
             : !world.badder_lizard
             ? calm_lizard()
                ? [ "<32>{#p/alphys}* Welp, that didn't work." ]
@@ -8827,7 +8827,7 @@ export default {
             : [ '<32>{#p/story}* Oh no, Mushketeer is serious.' ],
       flirtStatus2: () =>
          world.genocide
-            ? [ '<32>{#p/asriel2}* Mushketeer.' ]
+            ? [ '<32>{#p/asriel2}* Mushketeer。' ]
             : !world.badder_lizard
             ? calm_lizard()
                ? [ '<32>{#p/alphys}* Wait, that worked?' ]
@@ -8916,7 +8916,7 @@ export default {
          [ "<08>{#p/basic}{~}It's like I told my mum", '<08>{#p/basic}{~}I knew this day would come.' ],
          [ '<08>{#p/basic}{~}Only a train wreck', "<08>{#p/basic}{~}Wouldn't offer you a pay- check!" ]
       ],
-      genoStatus: [ '<32>{#p/asriel2}* Hotwire.' ],
+      genoStatus: [ '<32>{#p/asriel2}* Hotwire。' ],
       genoSpareStatus: [ "<32>{#p/asriel2}* It's vulnerable." ],
       act_check: () =>
          world.goatbro
@@ -9154,22 +9154,22 @@ export default {
             : [ '<32>{#p/story}* Tsunderidex is worried about its newly activated parts.' ],
       status1: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Tsunderidex.' ]
+            ? [ '<32>{#p/asriel2}* Tsunderidex。' ]
             : [ '<32>{#p/story}* Tsunderidex looks over, then turns up its nose.' ],
       status2: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Tsunderidex.' ]
+            ? [ '<32>{#p/asriel2}* Tsunderidex。' ]
             : [ '<32>{#p/story}* Tsunderidex shakes its nose dimissively at you.' ],
       status3: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Tsunderidex.' ]
+            ? [ '<32>{#p/asriel2}* Tsunderidex。' ]
             : [ '<32>{#p/story}* Tsunderidex \"accidentally\" bumps you with its nacelles.' ],
       status4: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Tsunderidex.' ]
+            ? [ '<32>{#p/asriel2}* Tsunderidex。' ]
             : [ '<32>{#p/story}* Tsunderidex sets its cannons to \"stun.\"' ],
       status5: () =>
-         world.goatbro ? [ '<32>{#p/asriel2}* Tsunderidex.' ] : [ '<32>{#p/story}* Smells like space cacti.' ],
+         world.goatbro ? [ '<32>{#p/asriel2}* Tsunderidex。' ] : [ '<32>{#p/story}* Smells like space cacti.' ],
       status6: () =>
          world.goatbro
             ? [ "<32>{#p/asriel2}* It's vulnerable." ]
@@ -10877,8 +10877,8 @@ export default {
               ],
       itemPrompt: () =>
          world.population === 0 || burger()
-            ? '<09>{#p/basic}{#k/7}What do YOU want from me?'
-            : '<09>{#p/basic}{#k/0}What do you want from me?',
+            ? '<09>{#p/basic}{#k/7}您想要點\n什麼？'
+            : '<09>{#p/basic}{#k/0}你想要點\n什麼？',
       itemPurchase: () =>
          world.population === 0 || burger()
             ? [
@@ -10909,7 +10909,7 @@ export default {
             ? world.bullied && !world.genocide && !burger()
                ? '<23>{#p/basic}{#k/5}* 你好啊小惡霸。'
                : '<23>{#p/basic}{#k/5}* 你好啊小殺人犯。'
-            : '<23>{#p/basic}{#k/0}* 你想來點什麼，小傢伙？',
+            : '<23>{#p/basic}{#k/0}* 怎麼了，小傢伙？',
       menuPrompt2: () =>
          world.population === 0 || burger()
             ? '<23>{#p/basic}{#k/7}* 還想要點別的嗎？'
@@ -10945,28 +10945,28 @@ export default {
          world.runaway
             ? [ '<30>{#p/basic}* 空無一物。' ]
             : SAVE.data.b.a_state_freesell
-            ? [ '<30>{#p/basic}{#k/6}* Sorry, one free sample per murderer.' ]
+            ? [ '<30>{#p/basic}{#k/6}* 抱歉，一位殺人犯只能拿一份。' ]
             : [ "<30>{#p/basic}{#k/6}* It's not happening, pal." ],
       talk: () =>
          SAVE.data.n.plot === 72
             ? [ 'Romantic Advice', 'Mettaton', 'Where To Go Next', 'My Future', '離開' ]
             : [
-                 [ 'Life Advice', '§fill=#ff0§Taking Charge (NEW)', 'Taking Charge' ][
+                 [ '生活建議', '§fill=#ff0§Taking Charge (NEW)', 'Taking Charge' ][
                     Math.min(SAVE.data.n.shop_bpants_advice, 2)
                  ],
                  'Mettaton',
                  postSIGMA()
                     ? 'Power Outage'
-                    : [ 'Where We Are', '§fill=#ff0§Glyde (NEW)', 'Glyde' ][Math.min(SAVE.data.n.shop_bpants_hub, 2)],
+                    : [ '我們在哪', '§fill=#ff0§Glyde (NEW)', 'Glyde' ][Math.min(SAVE.data.n.shop_bpants_hub, 2)],
                  'Your Future',
                  '離開'
               ],
       talkPrompt: () =>
          world.population === 0 || burger()
             ? world.bullied && !world.genocide && !burger()
-               ? '<09>{#p/basic}{#k/0}Take it from me, little bully.'
+               ? '<09>{#p/basic}{#k/0}聽我說吧，\n小惡霸。'
                : '<09>{#p/basic}{#k/0}聽我說吧，\n小殺人犯。'
-            : '<09>{#p/basic}{#k/0}Take it from me, little buddy.',
+            : '<09>{#p/basic}{#k/0}聽我說吧，\n小傢伙。',
       talkText: [
          () =>
             SAVE.data.n.plot === 72
@@ -10979,9 +10979,9 @@ export default {
                  ]
                : world.population === 0 || burger()
                ? [
-                    '<32>{#p/basic}{#k/6}* Life advice...',
-                    "<32>{#k/6}* Shucks, I'd have thought you'd be pretty knowledgable in that department.",
-                    "<32>{#k/5}* Or maybe you're just more experienced with the opposite of life."
+                    '<32>{#p/basic}{#k/6}* 生活建議啊...',
+                    "<32>{#k/6}* 哎呦，\n  我還以為你在這方面很在行呢。",
+                    "<32>{#k/5}* 或許你只是對生活的對立面\n  比較有經驗。"
                  ]
                : [
                     [
@@ -11022,13 +11022,13 @@ export default {
                        "<32>{#k/4}* I'd rant about him, but uh...\n* Since you killed him...",
                        "<32>{#k/5}* I don't really think there's much to say."
                     ]
-                  : [ '<32>{#p/basic}{#k/5}* ...', "<33>{#k/7}* I'm not going to repeat myself." ]
+                  : [ '<32>{#p/basic}{#k/5}* ...', "<33>{#k/7}* 我可不打算複述一遍。" ]
                : SAVE.data.n.shop_bpants_mtt1++ < 1
                ? world.population === 0 || burger()
                   ? [
                        '<32>{#p/basic}{#k/4}* Mettaton...',
-                       "<32>{#k/6}* I'd rant about HIM, but YOU make him look like a saint.",
-                       '<32>{#k/5}* I guess you could call that an accomplishment... of a terrible, terrible sort.'
+                       "<32>{#k/6}* 我本想罵他來著，\n  但和您比的話，他簡直是個聖人。",
+                       '<32>{#k/5}* 我想你可以稱之為...\n  一種糟糕透頂的成就。'
                     ]
                   : [
                        '<32>{#p/basic}{#k/4}* Why does it always have to be about him...',
@@ -11042,7 +11042,7 @@ export default {
                        '<32>{#k/0}* ...',
                        '<32>{#k/7}* What?\n* Were you expecting me to talk about his business or something?'
                     ]
-               : [ '<32>{#p/basic}{#k/5}* ...', "<33>{#k/7}* I'm not going to repeat myself." ],
+               : [ '<32>{#p/basic}{#k/5}* ...', "<33>{#k/7}* 我可不打算複述一遍。" ],
          () =>
             SAVE.data.n.plot === 72
                ? [
@@ -11061,9 +11061,9 @@ export default {
                : world.population === 0 || burger()
                ? [
                     '<32>{#p/basic}{#k/0}* ...',
-                    "<32>{#k/0}* We're in hell, my friend.\n* Absolute hell.",
+                    "<32>{#k/0}* 朋友啊，我們在地獄。\n* 無間地獄。",
                     '<32>{#k/1}* ...',
-                    "<32>{#k/3}* Gosh, isn't talking to you JUST SO MUCH FUN!?!?"
+                    "<32>{#k/3}* 啊呀，\n  和你聊天還真有趣不是嗎！？！？"
                  ]
                : [
                     [
@@ -11188,8 +11188,8 @@ export default {
          {
             b: '<16>* 「如果你看到了\n   這個...」',
             c: world.bullied
-               ? '<16>* 「那麼，對於你\n   這超討厭的怪胎\n   來說，有個壞消\n   息！」'
-               : '<16>* 「那麼，對於你\n   這超邪惡的怪胎\n   來說，有個壞消\n   息！」'
+               ? '<16>* 「那麼，對於你\n   這超討厭的怪胎\n   來說，有個\n   壞訊息！」'
+               : '<16>* 「那麼，對於你\n   這超邪惡的怪胎\n   來說，有個\n   壞訊息！」'
          },
          ...(SAVE.data.n.plot === 72 && !world.runaway
             ? [

@@ -3389,12 +3389,12 @@ export default {
             [ "<32>{#p/basic}* Aren't ya gonna go 'n' see what the big guy's got shakin'?" ]
          ),
          giftbox1a: () => [
-            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 裡面有一把武器。" ]),
-            choicer.create('* （打開盒子嗎？）', '是', '否')
+            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 盒子裡裝著一把武器。" ]),
+            choicer.create('* （拿走裡面的東西嗎？）', '是', '否')
          ],
          giftbox1b: () => [
-            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 裡面有一件防具。" ]),
-            choicer.create('* （打開盒子嗎？）', '是', '否')
+            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 盒子裡裝著一件防具。" ]),
+            choicer.create('* （拿走裡面的東西嗎？）', '是', '否')
          ],
          giftbox2a: () => [
             '<32>{#p/human}* （你帶走了「大熊座」。）',
@@ -3407,14 +3407,14 @@ export default {
          giftbox3: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (But there was nothing left to take.)' ]
-               : [ "<32>{#p/basic}* It's empty." ],
+               : [ "<32>{#p/basic}* 裡面什麼都沒有了。" ],
          giftbox4: [ '<32>{#p/human}* （你打算先不打開。）' ],
          tea0: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (The note on the envelope wants you to enjoy the tea.)' ]
                : [
                     "<32>{#p/basic}* 茶杯上貼著一張紙條...",
-                    '<32>{#p/basic}* 「無論你是誰，請好好享用\n  我給你沏的這杯茶。」'
+                    '<32>{#p/basic}* 「我為你沏了杯茶。」\n* 「無論你是誰，我都衷心希望\n  你能喜歡它。」'
                  ],
          tea1: [ '<32>{#p/human}* （你帶走了星花茶。）' ],
          tea2: () =>
@@ -3424,16 +3424,16 @@ export default {
          fireplace1: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (You feel the inviting warmth of the fireplace...)',
+                    '<32>{#p/human}* （壁爐的溫暖讓你無法抗拒...）',
                     choicer.create('* （爬進去嗎？）', '是', '否')
                  ]
                : [
                     SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                       ? '<32>{#p/basic}* Just another fireplace.'
+                       ? '<32>{#p/basic}* 另一座壁爐。'
                        : "<32>{#p/basic}* Asgore的壁爐。\n* 裡面並不燙，而是暖暖的，\n  很舒服。",
                     ...(world.darker
                        ? []
-                       : [ '<32>* 你甚至可以爬進去。', choicer.create('* （爬進去嗎？）', '是', '否') ])
+                       : [ '<32>* 看樣子，你可以爬進去。', choicer.create('* （爬進去嗎？）', '是', '否') ])
                  ],
          fireplace2a: [ '<32>{#p/human}* （你不打算爬進去。）' ],
          fireplace2b: () => [
@@ -3491,29 +3491,29 @@ export default {
          fridgetrap4: [ '<32>{#p/human}* （你得到了巧克力。）' ],
          brocall1: [
             '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
-            '<25>{#p/alphys}{#g/alphysInquisitive}* Hey, are you coming?',
-            "<25>{#p/alphys}{#g/alphysWelp}* I... don't want Asgore to get impatient.",
-            "<25>{#p/alphys}{#g/alphysTheFactIs}* He's already been waiting for a hundred years...",
+            '<25>{#p/alphys}{#g/alphysInquisitive}* 嘿，你什麼時候過來啊？',
+            "<25>{#p/alphys}{#g/alphysWelp}* Asgore等這一刻\n  已經等了一百年了...",
+            "<25>{#p/alphys}{#g/alphysTheFactIs}* 我...\n  不想讓他再等下去了...",
             '<32>{#s/equip}{#p/event}* 滴...'
          ],
          brocall2: [
             '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
-            '<25>{#p/alphys}{#g/alphysCutscene3}* Hello?\n* Are you there?',
-            "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* We're...\n* Still waiting...",
-            '<25>{#p/alphys}{#g/alphysFR}* Have you run off or something?',
+            '<25>{#p/alphys}{#g/alphysCutscene3}* 喂？\n* 你怎麼還沒過來？',
+            "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* 我們還等著你呢...",
+            '<25>{#p/alphys}{#g/alphysFR}* 你是臨時有事，\n  還是不想來，逃跑了？',
             '<32>{#s/equip}{#p/event}* 滴...'
          ],
          brocall3: [
             '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
-            '<25>{#p/alphys}{#g/alphysCutscene3}* Yup.\n* You have.\n* I just checked.',
-            "<25>{#p/alphys}{#g/alphysWTF2}* WE'VE GOT IMPORTANT STUFF TO DO, Y'KNOW...",
-            '<25>{#p/alphys}{#g/alphysWhyOhWhy}* ... why does this always happen to me...',
+            '<25>{#p/alphys}{#g/alphysCutscene3}* 你可真行，還真跑了。\n* 我都看見了。',
+            "<25>{#p/alphys}{#g/alphysWTF2}* 聽好，\n  我們可沒空跟你磨磨嘰嘰...",
+            '<25>{#p/alphys}{#g/alphysWhyOhWhy}* ...我怎麼這麼倒霉啊...',
             '<32>{#s/equip}{#p/event}* 滴...'
          ],
          brocall4: [
             '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
-            '<32>{#p/mettaton}* HEY, ALPHYS CALLED ME AND TOLD ME YOU WERE BEING UNCOOPERATIVE.',
-            "<32>{#p/mettaton}* BASED ON WHAT I'VE BEEN DISCUSSING WITH PAPYRUS...",
+            '<32>{#p/mettaton}* 嘿。\n* ALPHYS剛給我打電話，跟我說\n  你不配合她的工作。',
+            "<32>{#p/mettaton}* 隨後，我就跟PAPYRUS聊了聊...",
             '<32>{#p/mettaton}* I SUGGEST YOU TURN YOUR BUTT AROUND AND GET ON WITH IT.',
             '<32>{#p/mettaton}* YOU CAN DO IT, DARLING!',
             '<32>{#s/equip}{#p/event}* 滴...'

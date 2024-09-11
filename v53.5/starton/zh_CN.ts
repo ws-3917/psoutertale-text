@@ -5804,12 +5804,12 @@ export default {
       flirtTalk1: [ "<08>{#p/basic}{~}You're weird." ],
       flirtTalk2: [ "<08>{#p/basic}{~}You're mean AND weird." ],
       genoStatus: () =>
-         SAVE.data.b.s_state_chilldrake ? [ '<32>{#p/asriel2}* Chilldrake.' ] : [ '<32>{#p/asriel2}* Stardrake.' ],
+         SAVE.data.b.s_state_chilldrake ? [ '<32>{#p/asriel2}* Chilldrake。' ] : [ '<32>{#p/asriel2}* Stardrake。' ],
       heckleStatus: () =>
          world.goatbro
             ? SAVE.data.b.s_state_chilldrake
-               ? [ '<32>{#p/asriel2}* Chilldrake.' ]
-               : [ '<32>{#p/asriel2}* Stardrake.' ]
+               ? [ '<32>{#p/asriel2}* Chilldrake。' ]
+               : [ '<32>{#p/asriel2}* Stardrake。' ]
             : SAVE.data.b.s_state_chilldrake
             ? [ '<32>{#p/story}* Chilldrake is puffed up...' ]
             : [ '<32>{#p/story}* Stardrake骄傲自满...' ],
@@ -6077,11 +6077,11 @@ export default {
       act_disown3: [ '<32>{#p/human}* (You try to pluck a whisker, but Whizkarat pretends it has none.)' ],
       act_flirt: [ "<32>{#p/human}* (You make a cute remark and scratch Whizkarat's neck.)" ],
       disownStatus: () =>
-         world.goatbro ? [ '<32>{#p/asriel2}* Whizkarat.' ] : [ '<32>{#p/story}* Whizkarat逐渐变得不再冷静。' ],
+         world.goatbro ? [ '<32>{#p/asriel2}* Whizkarat。' ] : [ '<32>{#p/story}* Whizkarat逐渐变得不再冷静。' ],
       disownTalk1: [ '<08>{#p/basic}{~}把你的\n爪子\n拿开..！' ],
       flirtTalk: [ '<08>{#p/basic}{~}No pussy- cats allowed.' ],
       flirtTalk2: [ '<08>{#p/basic}{~}\x00*purrs gently*' ],
-      genoStatus: [ '<32>{#p/asriel2}* Whizkarat.' ],
+      genoStatus: [ '<32>{#p/asriel2}* Whizkarat。' ],
       hurtStatus: () =>
          world.goatbro ? [ '<32>{#p/asriel2}* 离死不远了。' ] : [ '<32>{#p/story}* Whizkarat is nearing demise.' ],
       idleTalk1: [ '<08>{#p/basic}{~}What food do they eat?' ],
@@ -6099,7 +6099,7 @@ export default {
       randStatus4: [ '<32>{#p/story}* Smells like top-twenty-cheese.' ],
       remindStatus: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Whizkarat.' ]
+            ? [ '<32>{#p/asriel2}* Whizkarat。' ]
             : [ '<32>{#p/story}* Whizkarat只需要一点\n  小小的帮助。' ],
       remindTalk1: [ '<08>{#p/basic}{~}住在\n洞里，\n是吗..？' ],
       remindTalk2: [ '<08>{#p/basic}{~}会像\n玩具\n吱吱叫，\n是吗..？' ],

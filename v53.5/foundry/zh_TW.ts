@@ -5384,7 +5384,7 @@ export default {
       ],
       status1: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelata.' ]
+            ? [ '<32>{#p/asriel2}* Gelata。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 哇！' ]
             : [ '<32>{#p/story}* Gelata appears!' ],
@@ -5404,25 +5404,25 @@ export default {
       idleTalk4: [ '<08>{#p/basic}{~}\x00*eager shuffle*' ],
       randStatus1: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelata.' ]
+            ? [ '<32>{#p/asriel2}* Gelata。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* What does it want?' ]
             : [ '<32>{#p/story}* Gelata wants to carry you.' ],
       randStatus2: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelata.' ]
+            ? [ '<32>{#p/asriel2}* Gelata。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 我好奇我要是抱抱它\n  會發生什麼。' ]
             : [ '<32>{#p/story}* Gelata wobbles anxiously.' ],
       randStatus3: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelata.' ]
+            ? [ '<32>{#p/asriel2}* Gelata。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 黏糊糊的... 但我喜歡！' ]
             : [ '<32>{#p/story}* Gelata mills about nearby.' ],
       randStatus4: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelata.' ]
+            ? [ '<32>{#p/asriel2}* Gelata。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 啥都黏糊糊的。' ]
             : [ '<32>{#p/story}* Smells like a jell-o store.' ],
@@ -5439,7 +5439,7 @@ export default {
       act_sit: [ '<32>{#p/human}* (You sit on top of Gelata.)\n* (Gelata now feels that it has been useful to you.)' ],
       distanceStatus: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelata.' ]
+            ? [ '<32>{#p/asriel2}* Gelata。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* Can I come sit too!?' ]
             : [ '<32>{#p/story}* Gelata seems happy with your presence.' ],
@@ -5455,28 +5455,28 @@ export default {
             : [ '<32>{#p/story}* GELATINI - ATK 18 DEF 18\n* Not a squorch to be heard.' ],
       name: '* Gelatini',
       smalTalk: [ '<08>{#p/basic}{~}...' ],
-      status1: () => (world.goatbro ? [ '<32>{#p/asriel2}* Gelatini.' ] : [ '<32>{#p/story}* Gelatini出現了？' ]),
+      status1: () => (world.goatbro ? [ '<32>{#p/asriel2}* Gelatini。' ] : [ '<32>{#p/story}* Gelatini出現了？' ]),
       fakeStatus1: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelatini.' ]
+            ? [ '<32>{#p/asriel2}* Gelatini。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* Do Gelatinis always sit this still?' ]
             : [ "<32>{#p/story}* Gelatini isn't moving." ],
       fakeStatus2: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelatini.' ]
+            ? [ '<32>{#p/asriel2}* Gelatini。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ "<32>{#p/kidding}* Something's off with that Gelatini..." ]
             : [ '<32>{#p/story}* Gelatini is a perfectly tempered gelatin with no flaws.' ],
       fakeStatus3: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelatini.' ]
+            ? [ '<32>{#p/asriel2}* Gelatini。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* Are Gelatinis always this quiet?' ]
             : [ "<32>{#p/story}* It's Gelatini's quiet time." ],
       fakeStatus4: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelatini.' ]
+            ? [ '<32>{#p/asriel2}* Gelatini。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* This seems kinda weird.' ]
             : [ '<32>{#p/story}* Smells like a jell-o store.' ],

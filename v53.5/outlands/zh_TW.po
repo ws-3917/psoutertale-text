@@ -207,7 +207,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#f/5}* ..."
-msgstr ""
+msgstr "<25>{#f/5}* ..."
 
 msgid ""
 "<25>{#f/0}* Do not worry, my child.\n"
@@ -289,7 +289,7 @@ msgid "<25>{#p/toriel}{#f/5}* You have probably been to the Citadel by now."
 msgstr ""
 
 msgid "<25>{#p/toriel}{#f/9}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/9}* ..."
 
 msgid "<25>{#p/toriel}{#f/10}* Be good, won't you?"
 msgstr ""
@@ -361,7 +361,7 @@ msgid "<32>* If you've seen everyone else you wanted to see..."
 msgstr "<32>* 如果你已見過每一位想見的人..."
 
 msgid "<32>* ..."
-msgstr ""
+msgstr "<32>* ..."
 
 msgid "<32>* You know what to do."
 msgstr "<32>* 就做你該做的事吧。"
@@ -440,7 +440,7 @@ msgid "<32>* About everything."
 msgstr "<32>* 關於我的，我的一切。"
 
 msgid "<25>{#p/asriel1}{#f/23}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/23}* ..."
 
 msgid "<25>{#f/23}* $(name)..."
 msgstr "<25>{#f/23}* 但是..."
@@ -481,7 +481,7 @@ msgstr ""
 "  我是個好人。"
 
 msgid "<25>{#p/asriel1}{#f/22}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/22}* ..."
 
 msgid "<25>{#f/22}* ... why now?"
 msgstr "<25>{#f/22}* ...為什麼現在說這些？"
@@ -851,7 +851,7 @@ msgid "<25>{#f/22}* Don't scare me like that again, okay?"
 msgstr ""
 
 msgid "<25>{#f/13}* ..."
-msgstr ""
+msgstr "<25>{#f/13}* ..."
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* Well...\n"
@@ -862,7 +862,7 @@ msgid "<25>{#f/15}* My original one."
 msgstr ""
 
 msgid "<25>{#f/16}* ..."
-msgstr ""
+msgstr "<25>{#f/16}* ..."
 
 msgid ""
 "<26>{#f/16}* When $(name) and I died, they must've wrapped themselves around"
@@ -904,7 +904,7 @@ msgid "<25>{#f/15}* ... I don't know."
 msgstr ""
 
 msgid "<25>{#f/15}* ..."
-msgstr ""
+msgstr "<25>{#f/15}* ..."
 
 msgid "<25>{#f/13}* Frisk... are you really sure about this?"
 msgstr ""
@@ -929,7 +929,7 @@ msgid "<32>{#p/human}* (...)"
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/15}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/15}* ..."
 
 msgid "<25>{#f/17}* ... I guess I just don't understand you, Frisk."
 msgstr ""
@@ -938,7 +938,7 @@ msgid "<25>{#f/23}* No matter what I do to you... you just won't give in."
 msgstr ""
 
 msgid "<25>{#f/22}* ..."
-msgstr ""
+msgstr "<25>{#f/22}* ..."
 
 msgid ""
 "<25>{#f/13}* Hey.\n"
@@ -1282,7 +1282,7 @@ msgstr ""
 "  很舒服。"
 
 msgid "<32>* You could probably crawl in."
-msgstr "<32>* 你甚至可以爬進去。"
+msgstr "<32>* 看樣子，你可以爬進去。"
 
 msgid "<32>{#p/human}* (You chose not to crawl in.)"
 msgstr "<32>{#p/human}* （你不打算爬進去。）"
@@ -1307,7 +1307,7 @@ msgid "<25>{#p/toriel}{#f/1}{#npc/a}* Don't stay in there for too long..."
 msgstr "<25>{#p/toriel}{#f/1}{#npc/a}* 別在裡面待太久了..."
 
 msgid "<32>{#p/basic}* ..."
-msgstr ""
+msgstr "<32>{#p/basic}* ..."
 
 msgid "<32>* This is fine."
 msgstr "<32>* 挺舒服的。"
@@ -1329,7 +1329,7 @@ msgstr ""
 "  我們都是在一起的。"
 
 msgid "<25>{#p/asriel2}{#f/3}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/3}* ..."
 
 msgid "<25>{#p/asriel2}{#f/10}* Wasn't there a dummy here before...?"
 msgstr ""
@@ -2298,7 +2298,7 @@ msgid "<25>{#p/toriel}{#n1}* Splendid!"
 msgstr "<25>{#p/toriel}{#n1}* 太好了！"
 
 msgid "<25>{#g/torielCompassionSmile}* ..."
-msgstr ""
+msgstr "<25>{#g/torielCompassionSmile}* ..."
 
 msgid "<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book now?"
 msgstr "<25>{#p/toriel}{#f/1}{#n1}* 現在想聽這本小書了嗎？"
@@ -2310,7 +2310,7 @@ msgid "<25>{#p/toriel}{#f/1}{#n1}* Alright, then..."
 msgstr "<25>{#p/toriel}{#f/1}{#n1}* 好，故事從這裡開始..."
 
 msgid "<25>{#p/toriel}{#g/torielCompassionSmile}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#g/torielCompassionSmile}* ..."
 
 msgid "<25>{#f/1}{#n1}* \"Once, there was a monster...\""
 msgstr "<25>{#f/1}{#n1}* 「從前，有一隻怪物...」"
@@ -2685,10 +2685,10 @@ msgid "<25>{#p/toriel}{#f/5}{#n1}* My child..."
 msgstr "<25>{#p/toriel}{#f/5}{#n1}* 我的孩子..."
 
 msgid "<25>{#p/toriel}{#f/5}{#n1}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/5}{#n1}* ..."
 
 msgid "<25>{#p/toriel}{#f/9}{#n1}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/9}{#n1}* ..."
 
 msgid "<25>{#p/toriel}{#f/9}* Please, wait here."
 msgstr "<25>{#p/toriel}{#f/9}* 拜託，在這裡等著。"
@@ -2871,7 +2871,7 @@ msgstr ""
 "* 我可以替你操作。"
 
 msgid "<25>{#f/0}* ..."
-msgstr ""
+msgstr "<25>{#f/0}* ..."
 
 msgid ""
 "<25>{#f/0}* There is a riddle to be solved here.\n"
@@ -2943,13 +2943,13 @@ msgstr ""
 "* 我來幫你解開這個迷題吧。"
 
 msgid "<25>{#p/toriel}{#f/5}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/5}* ..."
 
 msgid "<25>{#f/5}* I see."
 msgstr "<25>{#f/5}* 知道了。"
 
 msgid "<25>{#p/toriel}{#f/0}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/0}* ..."
 
 msgid "<25>{#f/0}* I suppose I can solve the riddle for you this time."
 msgstr "<25>{#f/0}* 這次的謎題，我替你解吧。"
@@ -3128,10 +3128,10 @@ msgstr ""
 "  什麼都能避免。"
 
 msgid "<25>{#p/toriel}{#f/3}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/3}* ..."
 
 msgid "<25>{#f/4}* ..."
-msgstr ""
+msgstr "<25>{#f/4}* ..."
 
 msgid "<25>{#f/0}* The next room awaits."
 msgstr "<25>{#f/0}* 咱們去下一個房間吧。"
@@ -3164,7 +3164,7 @@ msgstr ""
 "* 孩子，快住手！"
 
 msgid "<25>{#f/1}* ..."
-msgstr ""
+msgstr "<25>{#f/1}* ..."
 
 msgid "<25>{#f/0}* Thankfully, that was only a training dummy."
 msgstr ""
@@ -3238,7 +3238,7 @@ msgstr ""
 "  做了什麼。"
 
 msgid "<25>{#f/8}* ..."
-msgstr ""
+msgstr "<25>{#f/8}* ..."
 
 msgid "<25>{#f/6}* You better fix this, $(name)."
 msgstr ""
@@ -3322,7 +3322,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#f/6}* ..."
-msgstr ""
+msgstr "<25>{#f/6}* ..."
 
 msgid "<25>{#f/8}* Goodbye, $(name)..."
 msgstr ""
@@ -3479,7 +3479,7 @@ msgid "<25>{#f/5}{#v/0}* Each one could've been someone else's Toriel."
 msgstr ""
 
 msgid "<25>{#f/5}{#v/0}* ..."
-msgstr ""
+msgstr "<25>{#f/5}{#v/0}* ..."
 
 msgid "<25>{#f/7}{#v/0}* Selfish brat."
 msgstr ""
@@ -3790,7 +3790,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#f/6}{#v/0}* ..."
-msgstr ""
+msgstr "<25>{#f/6}{#v/0}* ..."
 
 msgid ""
 "<25>{#f/6}{#v/0}* How did it feel to finally satisfy your violent side?"
@@ -3843,7 +3843,7 @@ msgid "<25>{#f/11}{#v/0}* Wouldn't that be exciting?"
 msgstr ""
 
 msgid "<25>{#f/8}{#v/0}* ..."
-msgstr ""
+msgstr "<25>{#f/8}{#v/0}* ..."
 
 msgid "<25>{#f/7}{#v/0}* See ya, idiot."
 msgstr ""
@@ -4003,7 +4003,7 @@ msgstr ""
 "  對嗎？"
 
 msgid "<25>{#f/9}* ..."
-msgstr ""
+msgstr "<25>{#f/9}* ..."
 
 msgid "<25>{#f/9}* If you leave here, I will not be able to protect you."
 msgstr ""
@@ -4069,7 +4069,7 @@ msgid "<25>{#f/9}* Do not follow me into the next room."
 msgstr "<25>{#f/9}* 不要跟著我進下一個房間。"
 
 msgid "<25>{#p/toriel}{#p/toriel}{#f/13}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#p/toriel}{#f/13}* ..."
 
 msgid "<25>{#f/10}* ... of course."
 msgstr "<25>{#f/10}* ...果然。"
@@ -4124,7 +4124,7 @@ msgstr ""
 "  居然真的發生啦。"
 
 msgid "<32>{*}{#x2}* ..."
-msgstr ""
+msgstr "<32>{*}{#x2}* ..."
 
 msgid ""
 "<25>{*}{#f/7}* Sorry, $(name).\n"
@@ -4175,7 +4175,7 @@ msgstr ""
 "  我就一直阻止你。"
 
 msgid "<25>{*}{#p/twinkly}{#f/8}* ..."
-msgstr ""
+msgstr "<25>{*}{#p/twinkly}{#f/8}* ..."
 
 msgid ""
 "<32>{#p/basic}* After you sleep at Toriel's home, she destroys the bridge to"
@@ -4316,7 +4316,7 @@ msgid "<25>{#p/asriel1}{#f/17}* Ah... chocolate."
 msgstr "<25>{#p/asriel1}{#f/17}* 啊... 是巧克力。"
 
 msgid "<25>{#p/asriel1}{#f/13}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/13}* ..."
 
 msgid ""
 "<25>{#p/asriel1}{#f/23}* Oh... $(name) ALWAYS used to root around in the "
@@ -4501,7 +4501,7 @@ msgstr ""
 "  隨時可以到客廳找我。"
 
 msgid "<25>{#p/toriel}{#f/10}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/10}* ..."
 
 msgid "<25>{#f/20}{|}* Come here- {%}"
 msgstr "<25>{#f/20}{|}* 過來- {%}"
@@ -4537,7 +4537,7 @@ msgstr ""
 "  我肯定會接的。"
 
 msgid "<25>{#f/10}* ..."
-msgstr ""
+msgstr "<25>{#f/10}* ..."
 
 msgid "<25>{#f/14}* Be good, alright?"
 msgstr "<25>{#f/14}* 要乖啊，好嗎？"
@@ -5789,10 +5789,10 @@ msgid "<25>{#p/toriel}{#f/3}* Do you expect me to do this all day?"
 msgstr "<25>{#p/toriel}{#f/3}* 你想讓我一整天都這樣子嗎？"
 
 msgid "<25>{#p/toriel}{#f/4}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/4}* ..."
 
 msgid "<25>{#p/toriel}{#f/17}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/17}* ..."
 
 msgid "<25>{#f/15}* I do not like the game you are playing."
 msgstr "<25>{#f/15}* 我不喜歡你玩這種遊戲。"
@@ -5884,7 +5884,7 @@ msgstr ""
 "  不要像他們一樣拋下我..."
 
 msgid "<25>{#p/toriel}{#f/18}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/18}* ..."
 
 msgid ""
 "<25>{#g/torielCompassionSmile}* There, there, my child.\n"
@@ -6510,13 +6510,13 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/25}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/25}* ..."
 
 msgid "<25>{#f/25}* Frisk... you..."
 msgstr ""
 
 msgid "<25>{#f/23}* ..."
-msgstr ""
+msgstr "<25>{#f/23}* ..."
 
 msgid "<25>{#f/23}* You don't have to be alone anymore, okay?"
 msgstr ""
@@ -7237,7 +7237,7 @@ msgid "<25>{#p/asriel1}{#f/21}* ... it's missing..."
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/21}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/21}* ..."
 
 msgid "<32>* There still isn't much else to say."
 msgstr ""
@@ -7519,7 +7519,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel1}{#f/17}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/17}* ..."
 
 msgid "<33>{#p/basic}* It's just not worth your time."
 msgstr "<33>{#p/basic}* 你不想浪費時間玩牌。"
@@ -9162,7 +9162,7 @@ msgid "<32>{#p/story}* Froggit seems reluctant to fight you."
 msgstr "<32>{#p/story}* Froggit似乎不願意和你戰鬥了。"
 
 msgid "* Froggit"
-msgstr ""
+msgstr "* Froggit"
 
 msgid ""
 "<08>{#p/basic}{~}(Shiver, shake.)\n"
@@ -9265,7 +9265,7 @@ msgstr ""
 "*嗚嗚*"
 
 msgid "* Flutterlyte"
-msgstr ""
+msgstr "* Flutterlyte"
 
 msgid "<32>{#p/story}* Flutterlyte is barely keeping itself in the air."
 msgstr "<32>{#p/story}* Flutterlyte快要從空中掉下來了。"
@@ -9401,7 +9401,7 @@ msgstr ""
 "如何？"
 
 msgid "* Oculoux"
-msgstr ""
+msgstr "* Oculoux"
 
 msgid "<08>{#p/basic}{~}How dare you question our way of life!"
 msgstr ""
@@ -9527,7 +9527,7 @@ msgid "<08>{#p/basic}I DON'T CARE."
 msgstr "<08>{#p/basic}我不在乎。"
 
 msgid "* Silente"
-msgstr ""
+msgstr "* Silente"
 
 msgid "<32>{#p/story}* Silente refuses to give up."
 msgstr "<32>{#p/story}* Silente不打算放棄。"
@@ -9649,7 +9649,7 @@ msgid "<08>{#p/basic}{~}All in a day's."
 msgstr "<08>{#p/basic}{~}不足為懼。"
 
 msgid "* Mushy"
-msgstr ""
+msgstr "* Mushy"
 
 msgid "<32>{#p/story}* Mushy bows out of respect."
 msgstr "<32>{#p/story}* Mushy淺鞠一躬，以表敬意。"
@@ -9863,10 +9863,10 @@ msgstr ""
 "發洩吧..."
 
 msgid "* Napstablook"
-msgstr ""
+msgstr "* Napstablook"
 
 msgid "<11>{#p/napstablook}{~}..."
-msgstr ""
+msgstr "<11>{#p/napstablook}{~}..."
 
 msgid "<32>{#p/human}* (You flirtatiously comment on Napstablook's top hat.)"
 msgstr ""
@@ -9938,7 +9938,7 @@ msgstr ""
 "任何問題。"
 
 msgid "<11>{#p/toriel}{#f/22}..."
-msgstr ""
+msgstr "<11>{#p/toriel}{#f/22}..."
 
 msgid ""
 "<32>{#p/story}* TORIEL - ATK 80 DEF 80\n"
@@ -9976,7 +9976,7 @@ msgstr ""
 "* 覺得你很「天真可愛」。"
 
 msgid "<20>{#p/asriel2}..."
-msgstr ""
+msgstr "<20>{#p/asriel2}..."
 
 msgid "<20>{#p/asriel2}{#f/3}Howdy, $(name)."
 msgstr ""
@@ -10014,7 +10014,7 @@ msgstr ""
 "我..."
 
 msgid "<20>{#f/15}..."
-msgstr ""
+msgstr "<20>{#f/15}..."
 
 msgid "<20>{#f/16}Well, that's not important now."
 msgstr ""
@@ -10079,7 +10079,7 @@ msgid "<20>{#p/asriel2}{#f/3}Well then."
 msgstr "<20>{#p/asriel2}{#f/3}那麼..."
 
 msgid "<20>{#f/3}..."
-msgstr ""
+msgstr "<20>{#f/3}..."
 
 msgid "<20>{#f/4}Let's just get going."
 msgstr "<20>{#f/4}出發吧。"
@@ -10167,7 +10167,7 @@ msgid "<32>* What do you think that means?"
 msgstr "<32>* 你明白，這意味著什麼嗎？"
 
 msgid "<25>{#p/toriel}{#f/13}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/13}* ..."
 
 msgid "<32>{#p/basic}* It means you have to let them go."
 msgstr ""
@@ -10404,10 +10404,10 @@ msgid "<20>{#p/asriel2}{#f/3}Follow me."
 msgstr "<20>{#p/asriel2}{#f/3}跟我來。"
 
 msgid "* Toriel"
-msgstr ""
+msgstr "* Toriel"
 
 msgid "<11>{#p/toriel}{#f/11}..."
-msgstr ""
+msgstr "<11>{#p/toriel}{#f/11}..."
 
 msgid ""
 "<11>{#p/toriel}{#f/11}...\n"
@@ -10429,7 +10429,7 @@ msgstr ""
 "在做什麼？"
 
 msgid "<11>{#p/toriel}{#f/17}..."
-msgstr ""
+msgstr "<11>{#p/toriel}{#f/17}..."
 
 msgid "<11>{#p/toriel}{#f/17}What are you trying to prove?"
 msgstr ""
@@ -10451,7 +10451,7 @@ msgid "<11>{#p/toriel}{#f/12}Go away!"
 msgstr "<11>{#p/toriel}{#f/12}走開！"
 
 msgid "<11>{#p/toriel}{#f/13}..."
-msgstr ""
+msgstr "<11>{#p/toriel}{#f/13}..."
 
 msgid ""
 "<11>{#p/toriel}{#f/13}...\n"
@@ -10504,7 +10504,7 @@ msgstr ""
 "不好嗎？"
 
 msgid "<11>{#p/toriel}{#f/21}..."
-msgstr ""
+msgstr "<11>{#p/toriel}{#f/21}..."
 
 msgid "<11>{#p/toriel}{#f/18}Why are you making this so difficult?"
 msgstr ""
@@ -10560,7 +10560,7 @@ msgid "<32>{#p/story}* Toriel is looking through you."
 msgstr "<32>{#p/story}* Toriel看穿了你。"
 
 msgid "<32>{#p/story}* ..."
-msgstr ""
+msgstr "<32>{#p/story}* ..."
 
 msgid "<32>{#p/basic}* There must be another way..."
 msgstr "<32>{#p/basic}* 肯定有其他辦法的..."
@@ -10788,7 +10788,7 @@ msgid "<25>{#p/toriel}{#g/torielLowConcern}* Hello?"
 msgstr "<25>{#p/toriel}{#g/torielLowConcern}* 嗯？"
 
 msgid "<25>{#p/toriel}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}* ..."
 
 msgid ""
 "<25>{#f/7}* Huh?\n"
@@ -10880,7 +10880,7 @@ msgstr ""
 "  我覺得那不是你的本意。"
 
 msgid "<25>{#p/toriel}{#f/15}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/15}* ..."
 
 msgid "<25>{#f/12}* I am going to pretend you did not just say that to me."
 msgstr "<25>{#f/12}* 我會當作沒聽見的。"
@@ -11513,7 +11513,7 @@ msgid "<25>{#f/1}* And it seemed such an obvious solution in hindsight..."
 msgstr ""
 
 msgid "<25>{#f/7}* ..."
-msgstr ""
+msgstr "<25>{#f/7}* ..."
 
 msgid ""
 "<25>{#f/8}* Hahaha!\n"
@@ -12727,7 +12727,7 @@ msgid "<25>{#p/asriel2}{#f/4}* We have better things to do."
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/4}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/4}* ..."
 
 msgid "<25>{#p/asriel2}{#f/4}* ... seriously?"
 msgstr ""

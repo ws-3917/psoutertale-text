@@ -1389,7 +1389,7 @@ export default {
             if (dmettaton) {
                addA([
                   '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
-                  '<32>{#p/napstablook}* hey',
+                  '<32>{#p/napstablook}* 嘿',
                   '<32>{#p/napstablook}* is anyone there?',
                   "<32>{#p/napstablook}* i think... there's something i need to tell you.",
                   "<32>{#p/napstablook}* if it's not too much trouble."
@@ -5024,7 +5024,7 @@ export default {
       play: '* 玩耍',
       playdead: '* 裝死',
       plead: '* 求饒',
-      pluck: '* Pluck',
+      pluck: '* 拔鬍子',
       poke: '* 戳刺',
       pose: '* 擺姿勢',
       praise: '* 稱讚',
@@ -5444,7 +5444,7 @@ export default {
             ? [ "<32>{#p/asriel2}* Lithium.\n* That's literally it." ]
             : [ '<32>{#p/story}* LITHIUM - ATK 1 DEF 0\n* Without its spacesuit...' ],
       act_reassure: [ '<32>{#p/human}* (You inform Lithium that it still looks fine.)' ],
-      genoStatus: [ '<32>{#p/asriel2}* Lithium.' ],
+      genoStatus: [ '<32>{#p/asriel2}* 鋰塊。' ],
       happyStatus: [ "<32>{#p/story}* Lithium doesn't mind its identity." ],
       happyTalk1: [ '<08>{#p/basic}{~}Yeah.. I like my body too.' ],
       happyTalk2: [ '<08>{#p/basic}{~}Hmm.. antennae are for posers.' ],

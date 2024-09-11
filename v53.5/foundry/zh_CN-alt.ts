@@ -5297,7 +5297,7 @@ export default {
       act_check4: [
          "<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n* This humble germophobe's love story is as soapy as it gets."
       ],
-      name: '* Skrubbington',
+      name: '* 刷洁顿',
       status1: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 刷洁顿。' ]
@@ -5384,7 +5384,7 @@ export default {
       ],
       status1: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelata.' ]
+            ? [ '<32>{#p/asriel2}* 大黏簇。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 哇！' ]
             : [ '<32>{#p/story}* Gelata appears!' ],
@@ -5397,32 +5397,32 @@ export default {
       act_check4: [ '<32>{#p/story}* GELATA - ATK 18 DEF 18\n* Not your ideal relationship...' ],
       act_topple1: [ "<32>{#p/human}* (You try to topple Gelata, but it hasn't been weakened enough.)" ],
       act_topple2: [ '<32>{#p/human}* (You topple Gelata.)\n* (Its body parts collapse and roll into the distance.)' ],
-      name: '* Gelata',
+      name: '* 大黏簇',
       idleTalk1: [ '<08>{#p/basic}{~}Guoooh!' ],
       idleTalk2: [ '<08>{#p/basic}{~}\x00*slime sounds*' ],
       idleTalk3: [ '<08>{#p/basic}{~}吼。' ],
       idleTalk4: [ '<08>{#p/basic}{~}\x00*eager shuffle*' ],
       randStatus1: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelata.' ]
+            ? [ '<32>{#p/asriel2}* 大黏簇。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* What does it want?' ]
             : [ '<32>{#p/story}* Gelata wants to carry you.' ],
       randStatus2: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelata.' ]
+            ? [ '<32>{#p/asriel2}* 大黏簇。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 我好奇我要是抱抱它\n  会发生什么。' ]
             : [ '<32>{#p/story}* Gelata wobbles anxiously.' ],
       randStatus3: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelata.' ]
+            ? [ '<32>{#p/asriel2}* 大黏簇。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 黏糊糊的... 但我喜欢！' ]
             : [ '<32>{#p/story}* Gelata mills about nearby.' ],
       randStatus4: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelata.' ]
+            ? [ '<32>{#p/asriel2}* 大黏簇。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 啥都黏糊糊的。' ]
             : [ '<32>{#p/story}* Smells like a jell-o store.' ],
@@ -5439,7 +5439,7 @@ export default {
       act_sit: [ '<32>{#p/human}* (You sit on top of Gelata.)\n* (Gelata now feels that it has been useful to you.)' ],
       distanceStatus: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelata.' ]
+            ? [ '<32>{#p/asriel2}* 大黏簇。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* Can I come sit too!?' ]
             : [ '<32>{#p/story}* Gelata seems happy with your presence.' ],
@@ -5453,30 +5453,30 @@ export default {
          world.goatbro
             ? [ "<32>{#p/asriel2}* 小黏团...\n* 直觉告诉我，这只怪物可没有\n  它外表看起来那么简单。" ]
             : [ '<32>{#p/story}* GELATINI - ATK 18 DEF 18\n* Not a squorch to be heard.' ],
-      name: '* Gelatini',
+      name: '* 小黏团',
       smalTalk: [ '<08>{#p/basic}{~}...' ],
-      status1: () => (world.goatbro ? [ '<32>{#p/asriel2}* Gelatini.' ] : [ '<32>{#p/story}* 小黏团出现了？' ]),
+      status1: () => (world.goatbro ? [ '<32>{#p/asriel2}* 小黏团。' ] : [ '<32>{#p/story}* 小黏团出现了？' ]),
       fakeStatus1: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelatini.' ]
+            ? [ '<32>{#p/asriel2}* 小黏团。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* Do Gelatinis always sit this still?' ]
             : [ "<32>{#p/story}* Gelatini isn't moving." ],
       fakeStatus2: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelatini.' ]
+            ? [ '<32>{#p/asriel2}* 小黏团。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ "<32>{#p/kidding}* Something's off with that Gelatini..." ]
             : [ '<32>{#p/story}* Gelatini is a perfectly tempered gelatin with no flaws.' ],
       fakeStatus3: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelatini.' ]
+            ? [ '<32>{#p/asriel2}* 小黏团。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* Are Gelatinis always this quiet?' ]
             : [ "<32>{#p/story}* It's Gelatini's quiet time." ],
       fakeStatus4: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Gelatini.' ]
+            ? [ '<32>{#p/asriel2}* 小黏团。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* This seems kinda weird.' ]
             : [ '<32>{#p/story}* Smells like a jell-o store.' ],
@@ -5575,7 +5575,7 @@ export default {
          '<32>* (You hum a farewell song.)'
       ],
       hurtStatus: [ "<32>{#p/story}* Shyren's voice is raspy." ],
-      name: '* Shyren',
+      name: '* 害羞塞壬',
       randStatus1: () =>
          SAVE.data.n.state_foundry_muffet === 1
             ? [ '<32>{#p/story}* Shyren hums very faintly.' ]
@@ -5653,7 +5653,7 @@ export default {
       act_check4: [
          '<32>{#p/story}* RADTILE - ATK 24 DEF 12\n* When it comes to romance, this cool crocodile is stone cold.'
       ],
-      name: '* Radtile',
+      name: '* 老顽鳄',
       status1: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 老顽鳄。' ]
@@ -5795,7 +5795,7 @@ export default {
          world.goatbro
             ? [ '<32>{#p/asriel2}* 离死不远了。' ]
             : [ "<32>{#p/story}* 督吉拼命装出一副没事的样子。" ],
-      name: '* Doge',
+      name: '* 督吉',
       petTalkPost: [ '<11>{#p/basic}{~}啊...' ],
       petText: [
          '<32>{#p/human}* （你试着抚摸督吉。）',
@@ -6129,7 +6129,7 @@ export default {
       ],
       counterTextLate: [ "<32>{#p/human}* （你尝试反驳玛菲特，\n  但她早已拿定了主意。）" ],
       counterTextPost: [ '<32>{#p/human}* （但玛菲特已经听过了\n  你的驳论。）' ],
-      name: '* Muffet',
+      name: '* 玛菲特',
       payTalkPost: [ "<11>{#p/basic}{~}谢谢你的好意，\n但我们的钱\n已经够多了~" ],
       payText: [
          '<32>{#p/human}* （你尝试给玛菲特付钱。）',
@@ -6407,7 +6407,7 @@ export default {
             : respecc()
             ? [ '<32>{#p/story}* 安黛因 - 攻击25 防御10\n* 曾经是你的死敌，如今是你\n  无与伦比的对手！' ]
             : [ '<32>{#p/story}* 安黛因 - 攻击50 防御20\n* 永不放弃的英雄。' ],
-      name: () => (world.genocide ? '* Undyne the Undying' : '* Undyne'),
+      name: () => (world.genocide ? '* 不灭的安黛因' : '* 安黛因'),
       status1: () =>
          helmetdyne()
             ? [ '<32>{#p/story}* 安黛因高耸于你之上。' ]
@@ -7059,7 +7059,7 @@ export default {
       neutralFinalStatus: [ '<32>{#p/story}* 安黛因充满了决心。' ]
    },
    b_opponent_dateundyne: {
-      name: '* Undyne',
+      name: '* 安黛因',
       snacker: () =>
          SAVE.data.b.undyne_respecc
             ? [ '<20>{#p/undyne}{#e/undyne/13}希望你能喜欢，\n呋呼呼！' ]

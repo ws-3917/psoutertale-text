@@ -648,7 +648,7 @@ export default {
                "<32>* It's just...",
                '<32>* ...',
                '<32>{#p/human}* (You hear a large sigh.)',
-               '<32>{#p/basic}* Frisk...',
+               '<32>{#p/basic}* 弗裡斯克...',
                "<32>* There's still something I haven't told you yet.",
                "<32>* It's about my past, and...",
                "<32>* It's the reason why I'm so desperate to talk to him.",
@@ -658,7 +658,7 @@ export default {
                '<32>* I need you to understand.'
             ],
             () => [
-               '<32>{#p/basic}* Frisk...',
+               '<32>{#p/basic}* 弗裡斯克...',
                "<32>* Can you imagine what it's like to lose your whole family in one night?",
                '<32>* Can you imagine...',
                "<32>* What it's like to know that you're the one to blame?",
@@ -929,7 +929,7 @@ export default {
                        '<25>{#p/asgore}{#npc/a}{#f/21}* Oh?\n* You have something to tell me?',
                        '<32>{#npc}{#p/human}* (You repeat the promise made to you by Asgore in Archive Six.)',
                        '<25>{#p/asgore}{#npc/a}{#f/8}* ...！',
-                       '<25>{#f/1}* Frisk...',
+                       '<25>{#f/1}* 弗裡斯克...',
                        '<25>{#f/1}* ... I am not sure I can do that, but...',
                        '<25>{#f/6}* For you, I will try.'
                     ])
@@ -2956,7 +2956,7 @@ export default {
                                '<32>{#p/basic}* If you leave here, your journey will really be over.',
                                '<32>{#p/basic}* Your friends will follow you to a new homeworld.'
                             ]
-                          : [ '<32>{#p/basic}* Frisk...', "<32* Don't you remember what we have to do?" ]),
+                          : [ '<32>{#p/basic}* 弗裡斯克...', "<32* Don't you remember what we have to do?" ]),
                        "<99>{#p/human}* （離開這裡嗎？）{!}\n§shift=48§我想\n§shift=48§再等等§shift=83§現在離開{#c/0/6/6}"
                     ],
             [
@@ -3285,7 +3285,7 @@ export default {
          ],
          hangar39: [ '<25>{#p/toriel}{#f/10}* My child...' ],
          hangar40: [ '<25>{#p/toriel}{#f/1}* ... be good, alright?' ],
-         returnofchara1: [ '<32>{#p/basic}* Frisk...', '<32>* ... are you still there?' ],
+         returnofchara1: [ '<32>{#p/basic}* 弗裡斯克...', '<32>* ... are you still there?' ],
          returnofchara2: [
             '<32>{#p/basic}* Sorry I disappeared on you so suddenly back there.',
             '<32>* Doing what I did... took a lot out of me.',
@@ -3389,12 +3389,12 @@ export default {
             [ "<32>{#p/basic}* Aren't ya gonna go 'n' see what the big guy's got shakin'?" ]
          ),
          giftbox1a: () => [
-            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 裡面有一把武器。" ]),
-            choicer.create('* （打開盒子嗎？）', '是', '否')
+            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 盒子裡裝著一把武器。" ]),
+            choicer.create('* （拿走裡面的東西嗎？）', '是', '否')
          ],
          giftbox1b: () => [
-            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 裡面有一件防具。" ]),
-            choicer.create('* （打開盒子嗎？）', '是', '否')
+            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 盒子裡裝著一件防具。" ]),
+            choicer.create('* （拿走裡面的東西嗎？）', '是', '否')
          ],
          giftbox2a: () => [
             '<32>{#p/human}* （你帶走了「大熊座」。）',
@@ -3407,14 +3407,14 @@ export default {
          giftbox3: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (But there was nothing left to take.)' ]
-               : [ "<32>{#p/basic}* It's empty." ],
+               : [ "<32>{#p/basic}* 裡面什麼都沒有了。" ],
          giftbox4: [ '<32>{#p/human}* （你打算先不打開。）' ],
          tea0: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (The note on the envelope wants you to enjoy the tea.)' ]
                : [
                     "<32>{#p/basic}* 茶杯上貼著一張紙條...",
-                    '<32>{#p/basic}* 「無論你是誰，請好好享用\n  我給你沏的這杯茶。」'
+                    '<32>{#p/basic}* 「我為你沏了杯茶。」\n* 「無論你是誰，我都衷心希望\n  你能喜歡它。」'
                  ],
          tea1: [ '<32>{#p/human}* （你帶走了星花茶。）' ],
          tea2: () =>
@@ -3424,16 +3424,16 @@ export default {
          fireplace1: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (You feel the inviting warmth of the fireplace...)',
+                    '<32>{#p/human}* （壁爐的溫暖讓你無法抗拒...）',
                     choicer.create('* （爬進去嗎？）', '是', '否')
                  ]
                : [
                     SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                       ? '<32>{#p/basic}* Just another fireplace.'
+                       ? '<32>{#p/basic}* 另一座壁爐。'
                        : "<32>{#p/basic}* 艾斯戈爾的壁爐。\n* 裡面並不燙，而是暖暖的，\n  很舒服。",
                     ...(world.darker
                        ? []
-                       : [ '<32>* 你甚至可以爬進去。', choicer.create('* （爬進去嗎？）', '是', '否') ])
+                       : [ '<32>* 看樣子，你可以爬進去。', choicer.create('* （爬進去嗎？）', '是', '否') ])
                  ],
          fireplace2a: [ '<32>{#p/human}* （你不打算爬進去。）' ],
          fireplace2b: () => [
@@ -3491,29 +3491,29 @@ export default {
          fridgetrap4: [ '<32>{#p/human}* （你得到了巧克力。）' ],
          brocall1: [
             '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
-            '<25>{#p/alphys}{#g/alphysInquisitive}* Hey, are you coming?',
-            "<25>{#p/alphys}{#g/alphysWelp}* I... don't want Asgore to get impatient.",
-            "<25>{#p/alphys}{#g/alphysTheFactIs}* He's already been waiting for a hundred years...",
+            '<25>{#p/alphys}{#g/alphysInquisitive}* 嘿，你什麼時候過來啊？',
+            "<25>{#p/alphys}{#g/alphysWelp}* 艾斯戈爾等這一刻\n  已經等了一百年了...",
+            "<25>{#p/alphys}{#g/alphysTheFactIs}* 我...\n  不想讓他再等下去了...",
             '<32>{#s/equip}{#p/event}* 滴...'
          ],
          brocall2: [
             '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
-            '<25>{#p/alphys}{#g/alphysCutscene3}* Hello?\n* Are you there?',
-            "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* We're...\n* Still waiting...",
-            '<25>{#p/alphys}{#g/alphysFR}* Have you run off or something?',
+            '<25>{#p/alphys}{#g/alphysCutscene3}* 喂？\n* 你怎麼還沒過來？',
+            "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* 我們還等著你呢...",
+            '<25>{#p/alphys}{#g/alphysFR}* 你是臨時有事，\n  還是不想來，逃跑了？',
             '<32>{#s/equip}{#p/event}* 滴...'
          ],
          brocall3: [
             '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
-            '<25>{#p/alphys}{#g/alphysCutscene3}* Yup.\n* You have.\n* I just checked.',
-            "<25>{#p/alphys}{#g/alphysWTF2}* WE'VE GOT IMPORTANT STUFF TO DO, Y'KNOW...",
-            '<25>{#p/alphys}{#g/alphysWhyOhWhy}* ... why does this always happen to me...',
+            '<25>{#p/alphys}{#g/alphysCutscene3}* 你可真行，還真跑了。\n* 我都看見了。',
+            "<25>{#p/alphys}{#g/alphysWTF2}* 聽好，\n  我們可沒空跟你磨磨嘰嘰...",
+            '<25>{#p/alphys}{#g/alphysWhyOhWhy}* ...我怎麼這麼倒霉啊...',
             '<32>{#s/equip}{#p/event}* 滴...'
          ],
          brocall4: [
             '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
-            '<32>{#p/mettaton}* HEY, ALPHYS CALLED ME AND TOLD ME YOU WERE BEING UNCOOPERATIVE.',
-            "<32>{#p/mettaton}* BASED ON WHAT I'VE BEEN DISCUSSING WITH PAPYRUS...",
+            '<32>{#p/mettaton}* 嘿。\n* 艾菲斯剛給我打電話，跟我說\n  你不配合她的工作。',
+            "<32>{#p/mettaton}* 隨後，我就跟帕派瑞斯聊了聊...",
             '<32>{#p/mettaton}* I SUGGEST YOU TURN YOUR BUTT AROUND AND GET ON WITH IT.',
             '<32>{#p/mettaton}* YOU CAN DO IT, DARLING!',
             '<32>{#s/equip}{#p/event}* 滴...'
@@ -4924,7 +4924,7 @@ export default {
       ]
    },
    b_opponent_archive2: {
-      name: () => (battler.volatile[0].sparable ? '* Gerson' : '* 476572736f6e'),
+      name: () => (battler.volatile[0].sparable ? '* 葛森' : '* e6a0bce788bee6a3ae'),
       status0: [ '<32>{#p/human}* （e6a0bce788bee6a3ae\n  正站在訓練場的對側。）' ],
       status1: [ '<32>{#p/human}* （e6a0bce788bee6a3ae讓你先出招。）' ],
 
@@ -4982,7 +4982,7 @@ export default {
       act_notesN: [ '<32>{#p/human}* （在消散前，羅曼教授\n  和你交流了筆記。）' ]
    },
    b_opponent_archive4: {
-      name: () => (battler.volatile[0].sparable ? '* Napstablook' : '* 4e6170737461626c6f6f6b'),
+      name: () => (battler.volatile[0].sparable ? '* 納普斯特' : '* e7b48de699aee696afe789b9'),
       status0: [ '<32>{#p/human}* （e7b48de699aee696afe789b9\n  正飄在電腦桌旁。）' ],
       status1: [ '<32>{#p/human}* (4e6170737461626c6f6f6b is looking for a new sound.)' ],
 
@@ -5021,7 +5021,7 @@ export default {
       act_praise: [ '<32>{#p/human}* (But your kind words fell on invisibly shy ears.)' ]
    },
    b_opponent_archive5: {
-      name: () => (battler.volatile[0].sparable ? '* Asgore' : '* 4173676f7265'),
+      name: () => (battler.volatile[0].sparable ? '* 艾斯戈爾' : '* e889bee696afe68888e788be'),
       status0: [ '<32>{#p/human}* (4173676f7265 stands tall.)' ],
       status1: [ '<32>{#p/human}* （e889bee696afe68888e788be\n  只有一件事有求於你。）' ],
 
@@ -5037,8 +5037,8 @@ export default {
       refuse: '{*}{#p/event}{#i/3}但是它拒絕了。',
       name: () =>
          battler.volatile[0].container.objects[0]?.metadata.power === true
-            ? '§fill=#ff7f7f§§swirl=2/1/1.05§§hue§* Asriel Dreemurr'
-            : '* Asriel Dreemurr',
+            ? '§fill=#ff7f7f§§swirl=2/1/1.05§§hue§* 艾斯利爾·逐夢'
+            : '* 艾斯利爾·逐夢',
       status0: pager.create(
          0,
          (power = false) =>
@@ -6424,10 +6424,10 @@ export default {
             ? [ '<20>{#p/asriel1}果然...', '<20>這種感覺，\n比上次好太多了。' ]
             : [ '<20>{#p/asriel1}終於。', '<20>當星星那麼久\n真是受夠了。' ],
       friend91: [ '<20>{#p/asriel1}哈囉！', '<20>你在那裡嗎，\n$(name)？', "<20>是我啊，你最好的朋友：" ],
-      friend92: '<99>{*}{#p/asriel3}{#v/1}{#i/12}ASRIEL DREEMURR{^10}{#p/event}{%}'
+      friend92: '<99>{*}{#p/asriel3}{#v/1}{#i/12}艾斯利爾·逐夢{^10}{#p/event}{%}'
    },
    b_opponent_finalasgore: {
-      name: '* Asgore',
+      name: '* 艾斯戈爾',
       death1: [
          '<11>{*}{#p/asgore}{#e/asgore/1}{#v/1}{#i/8}{@random=1.1/1.1}...這就是\n我的歸宿了...',
          '<11>{*}{#e/asgore/1}{#v/1}{#i/8}{@random=1.1/1.1}...',

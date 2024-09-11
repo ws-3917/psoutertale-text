@@ -1432,7 +1432,7 @@ export default {
                SAVE.data.b.killed_mettaton
                   ? [ '<32>{#p/basic}{#npc/a}* So c-c-cold...' ]
                   : SAVE.data.n.plot === 33
-                  ? [ '<32>{#p/basic}{#npc/a}* Sansyyyy...' ]
+                  ? [ '<32>{#p/basic}{#npc/a}* 衫~衫~' ]
                   : SAVE.data.n.plot === 72
                   ? [ '<32>{#p/basic}{#npc/a}* S-soooooo ready!' ]
                   : papreal() || world.dead_dog
@@ -5804,12 +5804,12 @@ export default {
       flirtTalk1: [ "<08>{#p/basic}{~}You're weird." ],
       flirtTalk2: [ "<08>{#p/basic}{~}You're mean AND weird." ],
       genoStatus: () =>
-         SAVE.data.b.s_state_chilldrake ? [ '<32>{#p/asriel2}* Chilldrake.' ] : [ '<32>{#p/asriel2}* Stardrake.' ],
+         SAVE.data.b.s_state_chilldrake ? [ '<32>{#p/asriel2}* 小酷龍。' ] : [ '<32>{#p/asriel2}* 星鐵龍。' ],
       heckleStatus: () =>
          world.goatbro
             ? SAVE.data.b.s_state_chilldrake
-               ? [ '<32>{#p/asriel2}* Chilldrake.' ]
-               : [ '<32>{#p/asriel2}* Stardrake.' ]
+               ? [ '<32>{#p/asriel2}* 小酷龍。' ]
+               : [ '<32>{#p/asriel2}* 星鐵龍。' ]
             : SAVE.data.b.s_state_chilldrake
             ? [ '<32>{#p/story}* Chilldrake is puffed up...' ]
             : [ '<32>{#p/story}* 星鐵龍驕傲自滿...' ],
@@ -5917,7 +5917,7 @@ export default {
          SAVE.data.b.s_state_chilldrake
             ? [ '<32>{#p/human}* (You double down on your agreement with Chilldrake.)' ]
             : [ "<32>{#p/human}* (You continue to laugh at Stardrake's puns.)" ],
-      name: () => (SAVE.data.b.s_state_chilldrake ? '* Chilldrake' : '* Stardrake'),
+      name: () => (SAVE.data.b.s_state_chilldrake ? '* 小酷龍' : '* 星鐵龍'),
       punTalk1: () =>
          SAVE.data.b.s_state_chilldrake
             ? [ '<08>{#p/basic}{~}Only Starry can do that.' ]
@@ -6017,7 +6017,7 @@ export default {
          SAVE.data.b.spared_jerry
             ? [ '<08>{#p/basic}{~}I love humans!' ]
             : [ '<08>{#p/basic}{~}Must be nice being HUMAN..' ],
-      name: '* Jerry',
+      name: '* 傑瑞',
       randStatus1: () =>
          SAVE.data.b.spared_jerry
             ? [ '<32>{#p/story}* Jerry is living care-free.' ]
@@ -6077,11 +6077,11 @@ export default {
       act_disown3: [ '<32>{#p/human}* (You try to pluck a whisker, but Whizkarat pretends it has none.)' ],
       act_flirt: [ "<32>{#p/human}* (You make a cute remark and scratch Whizkarat's neck.)" ],
       disownStatus: () =>
-         world.goatbro ? [ '<32>{#p/asriel2}* Whizkarat.' ] : [ '<32>{#p/story}* 紳鼠貓逐漸變得不再冷靜。' ],
+         world.goatbro ? [ '<32>{#p/asriel2}* 紳鼠貓。' ] : [ '<32>{#p/story}* 紳鼠貓逐漸變得不再冷靜。' ],
       disownTalk1: [ '<08>{#p/basic}{~}把你的\n爪子\n拿開..！' ],
       flirtTalk: [ '<08>{#p/basic}{~}No pussy- cats allowed.' ],
       flirtTalk2: [ '<08>{#p/basic}{~}\x00*purrs gently*' ],
-      genoStatus: [ '<32>{#p/asriel2}* Whizkarat.' ],
+      genoStatus: [ '<32>{#p/asriel2}* 紳鼠貓。' ],
       hurtStatus: () =>
          world.goatbro ? [ '<32>{#p/asriel2}* 離死不遠了。' ] : [ '<32>{#p/story}* Whizkarat is nearing demise.' ],
       idleTalk1: [ '<08>{#p/basic}{~}What food do they eat?' ],
@@ -6092,14 +6092,14 @@ export default {
       initTalk2: [ '<08>{#p/basic}{~}Oh, how I lose myself..' ],
       initTalk3: [ '<08>{#p/basic}{~}事態\n並不\n理想。' ],
       initTalk4: [ '<08>{#p/basic}{~}Could you help me?' ],
-      name: '* Whizkarat',
+      name: '* 紳鼠貓',
       randStatus1: [ '<32>{#p/story}* Whizkarat fantasizes about getting down on all fours.' ],
       randStatus2: [ '<32>{#p/story}* Whizkarat scans the area.' ],
       randStatus3: [ '<32>{#p/story}* 紳鼠貓正試圖裝成\n  自己很小的樣子。' ],
       randStatus4: [ '<32>{#p/story}* Smells like top-twenty-cheese.' ],
       remindStatus: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Whizkarat.' ]
+            ? [ '<32>{#p/asriel2}* 紳鼠貓。' ]
             : [ '<32>{#p/story}* 紳鼠貓只需要一點\n  小小的幫助。' ],
       remindTalk1: [ '<08>{#p/basic}{~}住在\n洞裡，\n是嗎..？' ],
       remindTalk2: [ '<08>{#p/basic}{~}會像\n玩具\n吱吱叫，\n是嗎..？' ],
@@ -6133,7 +6133,7 @@ export default {
       flirt1: [ '<11>{#p/basic}{~}（情不自禁\n地臉紅）' ],
       invisStatus: () =>
          world.goatbro ? [ "<32>{#p/asriel2}* 不堪一擊。" ] : [ '<32>{#p/story}* 遁狗找不到你了。' ],
-      name: '* Doggo',
+      name: '* 遁狗',
       fetchStatus: [ '<32>{#p/story}* 遁狗喜歡巡迴遊戲！' ],
       fetchpet: [ '<32>{#p/human}* （但是遁狗忙於尋找扳手，\n  沒時間讓你摸。）' ],
       fetchflirt: [ '<32>{#p/human}* （但是遁狗忙於尋找扳手，\n  沒時間聽你說話。）' ],
@@ -6222,7 +6222,7 @@ export default {
          world.goatbro
             ? [ '<32>{#p/asriel2}* 離死不遠了。' ]
             : [ '<32>{#p/story}* 小犬座將它的尾巴\n  夾到兩條腿之間。' ],
-      name: '* Canis Minor',
+      name: '* 小犬座',
       petTalk1: [ '<11>{#p/basic}{~}（喘氣 \n喘氣）' ],
       petTalk2: [ '<11>{#p/basic}{~}（輕微的\n犬叫聲）' ],
       petTalk3: [ '<11>{#p/basic}{~}（尾巴\n搖搖）' ],
@@ -6390,7 +6390,7 @@ export default {
       loneTalk1: [ '<11>{#p/basic}{~}汪嗚！' ],
       loneTalk2: [ '<11>{#p/basic}{~}嗚——' ],
       loneTalk3: [ '<11>{#p/basic}{~}嗷嗚...' ],
-      name: '* Dogamy',
+      name: '* 狗來米',
       fetchStatus: [ '<32>{#p/story}* 已婚的狗喜歡巡迴遊戲！' ],
       fetchStatusX: [ "<32>{#p/story}* 狗狗們的思緒正指數增長！" ],
       otherPet: [ '<11>{#p/basic}{~}...' ],
@@ -6513,7 +6513,7 @@ export default {
          world.goatbro ? [ '<32>{#p/asriel2}* 只剩一個了。' ] : [ '<32>{#p/story}* 狗來米心碎了。' ],
       loneTalk1: [ '<11>{#p/basic}{~}（會讓你\n好受的。）' ],
       loneTalk2: [ "<11>{#p/basic}{~}（你會為此\n受苦的。）" ],
-      name: '* Dogaressa',
+      name: '* 狗媳兒',
       otherPet: [ '<11>{#p/basic}{~}（...）' ],
       petNeedStatus: () =>
          world.goatbro
@@ -6585,7 +6585,7 @@ export default {
             : [ '<32>{#p/story}* 大犬座只是想要一些關愛。' ],
       ignoreStatus2: () =>
          world.goatbro ? [ '<32>{#p/asriel2}* 大犬座。' ] : [ '<32>{#p/story}* 大犬座正在賣萌。' ],
-      name: '* Canis Major',
+      name: '* 大犬座',
       fetchStatus: [ '<32>{#p/story}* 大犬座喜歡巡迴遊戲！' ],
       petStatus1: () =>
          world.goatbro
@@ -6758,7 +6758,7 @@ export default {
       insult2: [ "<15>{#p/papyrus}{#f/15}THERE'S NO NEED TO LIE TO YOURSELF!!!" ],
       insult3: [ "<32>{#p/human}* (No effect...)\n* (Seems acting won't escalate this battle any further.)" ],
       insult4: [ '<32>{#p/human}* （但帕派瑞斯現在忙於戰鬥，\n  沒時間聽你說話。）' ],
-      name: '* Papyrus',
+      name: '* 帕派瑞斯',
       randomStatus1: [ '<32>{#p/story}* 帕派瑞斯正在準備一記\n  骨頭攻擊。' ],
       randomStatus2: [ '<32>{#p/story}* 帕派瑞斯準備了一記非骨頭攻擊，\n  然後花了一分鐘的時間來糾正錯誤。' ],
       randomStatus3: [ '<32>{#p/story}* 帕派瑞斯正在做飯。' ],
@@ -7020,7 +7020,7 @@ export default {
          '<11>{#f/1}我本人不在這，\n艾斯利爾。',
          "<11>{#f/2}這不過\n是個投影。"
       ],
-      name: '* Asgore',
+      name: '* 艾斯戈爾',
       status1: [ '<32>{#p/asriel2}* 現在殺了他，$(name)。' ],
       status2: [ '<32>{#p/asriel2}* ...' ]
    },

@@ -489,7 +489,7 @@ export default {
                     : "<32>{#p/basic}* 托丽尔的壁炉。\n* 里面并不烫，而是暖暖的，\n  很舒服。",
                  ...(world.darker
                     ? []
-                    : [ '<32>* 你甚至可以爬进去。', choicer.create('* （爬进去吗？）', '是', '否') ])
+                    : [ '<32>* 看样子，你可以爬进去。', choicer.create('* （爬进去吗？）', '是', '否') ])
               ],
       fireplace2a: [ '<32>{#p/human}* （你不打算爬进去。）' ],
       fireplace2b: () => [
@@ -3886,7 +3886,7 @@ export default {
       idleText3: [ '<08>{#p/basic}{~}跳跳，\n跳跳。' ],
       idleText4: [ '<08>{#p/basic}{~}喵。' ],
       mercyStatus: [ '<32>{#p/story}* 蛙吉特似乎不愿意和你战斗了。' ],
-      name: '* Froggit',
+      name: '* 蛙吉特',
       meanText: [ '<08>{#p/basic}{~}（缩缩，\n抖抖。）\n呱呱..' ],
       niceText: [ '<08>{#p/basic}{~}（脸微微\n泛红。）\n呱呱..' ],
       perilStatus: [ '<32>{#p/story}* 蛙吉特正试图逃跑。' ],
@@ -3915,7 +3915,7 @@ export default {
       idleTalk3: [ "<08>{#p/basic}{~}我好怕.." ],
       idleTalk4: [ "<08>{#p/basic}{~}我做\n不到..." ],
       idleTalk5: [ '<08>{#p/basic}{~}\x00*呜呜*\n*呜呜*' ],
-      name: '* Flutterlyte',
+      name: '* 飘游虫虫',
       perilStatus: [ '<32>{#p/story}* 飘游虫虫快要从空中掉下来了。' ],
       status1: [ '<32>{#p/story}* 飘游虫虫飘飘悠悠地飞了过来！' ],
       status2: [ '<32>{#p/story}* 飘游虫虫继续咕哝着道歉。' ],
@@ -3948,7 +3948,7 @@ export default {
       idleTalk3: [ '<08>{#p/basic}{~}盯着你\n意味着\n在意你。' ],
       idleTalk4: [ '<08>{#p/basic}{~}真碍眼。' ],
       idleTalk5: [ '<08>{#p/basic}{~}来个\n盯人比赛\n如何？' ],
-      name: '* Oculoux',
+      name: '* 干瞪眼',
       pickTalk1: [ '<08>{#p/basic}{~}你怎么敢\n质疑我们的\n生活方式！' ],
       spareStatus: [ "<32>{#p/story}* 干瞪眼完全不想战斗了。" ],
       status1: [ '<32>{#p/story}* 一对干瞪眼向你走来！' ],
@@ -3975,7 +3975,7 @@ export default {
       groupTalk4: [ '<08>{#p/basic}当心虫群\n..' ],
       groupTalk5: [ '<08>{#p/basic}现在，\n保持一致\n..' ],
       groupTalk6: [ "<08>{#p/basic}我不在乎。" ],
-      name: '* Silente',
+      name: '* 忍术蟑螂',
       perilStatus: [ '<32>{#p/story}* 忍术蟑螂不打算放弃。' ],
       soloInsult: [ "<32>{#p/human}* （你打算辱骂忍术蟑螂，\n  但它太开心了，根本不在乎。）" ],
       soloStatus: [ "<32>{#p/story}* 忍术蟑螂在这宇宙中无忧无虑。" ],
@@ -4004,7 +4004,7 @@ export default {
       idleTalk1: [ '<08>{#p/basic}{~}砰！\n砰！\n砰！' ],
       idleTalk2: [ '<08>{#p/basic}{~}上马！' ],
       idleTalk3: [ "<08>{#p/basic}{~}不足为惧。" ],
-      name: '* Mushy',
+      name: '* 蘑西',
       spareStatus: [ '<32>{#p/story}* 蘑西浅鞠一躬，以表敬意。' ],
       status1: [ '<32>{#p/story}* 刹那间，蘑西已至！' ],
       status2: [ '<32>{#p/story}* 蘑西稍微调整了一下姿势。' ],
@@ -4061,7 +4061,7 @@ export default {
       insultTalk2: [ '<11>{#p/napstablook}{~}随便了...' ],
       insultTalk3: [ '<11>{#p/napstablook}{~}随你\n怎么说...' ],
       insultTalk4: [ '<11>{#p/napstablook}{~}尽情\n发泄吧...' ],
-      name: '* Napstablook',
+      name: '* 纳普斯特',
       silentTalk: [ '<11>{#p/napstablook}{~}...' ],
       sincere: [ "<32>{#p/human}* （你对纳普斯特的大礼帽\n  发表了暧昧的评论。）" ],
       sincereTalk: [ '<11>{#p/napstablook}{~}嘿... 谢谢' ],
@@ -4197,7 +4197,7 @@ export default {
          "<11>{#v/3}{#i/12}{#x4}{@random=1.2/1.2}要乖啊... \n好吗？"
       ],
       magic1: [ '<20>{#p/asriel2}{#f/3}跟我来。' ],
-      name: '* Toriel',
+      name: '* 托丽尔',
       spareTalk1: [ '<11>{#p/toriel}{#f/11}...' ],
       spareTalk2: [ '<11>{#p/toriel}{#f/11}...\n...' ],
       spareTalk3: [ '<11>{#p/toriel}{#f/11}...\n...\n...' ],

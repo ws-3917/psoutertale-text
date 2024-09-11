@@ -489,7 +489,7 @@ export default {
                     : "<32>{#p/basic}* Toriel的壁炉。\n* 里面并不烫，而是暖暖的，\n  很舒服。",
                  ...(world.darker
                     ? []
-                    : [ '<32>* 你甚至可以爬进去。', choicer.create('* （爬进去吗？）', '是', '否') ])
+                    : [ '<32>* 看样子，你可以爬进去。', choicer.create('* （爬进去吗？）', '是', '否') ])
               ],
       fireplace2a: [ '<32>{#p/human}* （你不打算爬进去。）' ],
       fireplace2b: () => [

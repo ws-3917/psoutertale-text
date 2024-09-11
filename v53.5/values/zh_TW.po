@@ -348,7 +348,7 @@ msgid "You cannot."
 msgstr "不可以。"
 
 msgid "... fine."
-msgstr ""
+msgstr "...行。"
 
 msgid "..."
-msgstr ""
+msgstr "..."
