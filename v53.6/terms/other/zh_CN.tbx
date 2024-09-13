@@ -12,31 +12,31 @@
         <body>
             <termEntry id="Undyne's laughter">
                 <langSet xml:lang="en"><tig><term>Fuhuhu</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>呋呼呼</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>呋呼呼</term></tig></langSet>
             </termEntry>
             <termEntry id="Twinkly/Chaotic Asriel说的+Paps在场务必按这个翻，其它情况若能保证通顺也尽量按这个翻">
                 <langSet xml:lang="en"><tig><term>idiot</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>蠢货</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>蠢货</term></tig></langSet>
             </termEntry>
             <termEntry id="Monster Kid">
                 <langSet xml:lang="en"><tig><term>Yo</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>哟</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>哟</term></tig></langSet>
             </termEntry>
             <termEntry>
                 <langSet xml:lang="en"><tig><term>Signal Star</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>讯星</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>讯星</term></tig></langSet>
             </termEntry>
             <termEntry id="Gerson's laughter">
                 <langSet xml:lang="en"><tig><term>Wa ha ha</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>哇哈哈</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>哇哈哈</term></tig></langSet>
             </termEntry>
             <termEntry>
                 <langSet xml:lang="en"><tig><term>Outernet</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>域外网</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>域外网</term></tig></langSet>
             </termEntry>
             <termEntry id="term">
                 <langSet xml:lang="en"><tig><term>boss monster</term></tig></langSet>
-                <langSet xml:lang="zh_Hans"><tig><term>王级怪物</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>王级怪物</term></tig></langSet>
             </termEntry>
             <termEntry id="cell">
                 <langSet xml:lang="en"><tig><term>Keyring</term></tig></langSet>

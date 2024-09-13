@@ -12270,6 +12270,8 @@ msgstr ""
 
 msgid "<25>{#p/sans}{#f/2}* i then proceeded to play a tune on my trombone."
 msgstr ""
+"<25>{#p/sans}{#f/2}* 然後我拿起長號\n"
+"  吹了一段骨樂。"
 
 msgid "<25>{#f/4}* her being her, she INSTANTLY got the joke."
 msgstr ""

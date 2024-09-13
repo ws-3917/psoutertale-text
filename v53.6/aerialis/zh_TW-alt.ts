@@ -6209,7 +6209,7 @@ export default {
          '<25>{#f/0}* so i asked her...',
          '<25>{#f/2}* \"wanna know what a skeleton does to pass the time?\"',
          '<32>{#p/soriel}* \"What do they do?\"',
-         '<25>{#p/sans}{#f/2}* i then proceeded to play a tune on my trombone.',
+         '<25>{#p/sans}{#f/2}* 然後我拿起長號\n  吹了一段骨樂。',
          '<25>{#f/4}* her being her, she INSTANTLY got the joke.',
          "<25>{#f/0}* ... that night ended up being the best we'd ever have.",
          '<25>{#f/0}* fast-forward to today, and well...',

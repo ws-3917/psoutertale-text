@@ -677,7 +677,7 @@ export default {
                author: 'semi',
                text: {
                   basic: 'Hledá přáteli\nZ dětství',
-                  spare: 'Použijte svou\npředstavivost',
+                  spare: 'Použijte svou představivost',
                   flirt: 'Please Use Your\nImagination',
                   bully: 'Royal Guard\nRetirees'
                }
