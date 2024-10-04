@@ -2,12 +2,12 @@
 
 export default {
    battle: {
-      death0: [ '(Tomas un respiro profundo.)', "(Estas lleno de determinación.)" ],
-      death1: [ 'No puedes rendirte aún...', '$¡(nombre)!\nMantente determinado...' ],
-      death2: [ 'Nuestro destino está en tus manos...', '$¡(nombre)!\nMantente determinado...' ],
-      death3: [ "¡Estarás bien!", '$¡(nombre)!\nMantente determinado...' ],
-      death4: [ "¡No te rindas!", '$¡(nombre)!\nMantente determinado...' ],
-      death5: [ '¡No puede acabar ahora!', '$¡(nombre)!\nMantente determinado...' ],
+      death0: ['(Tomas un respiro profundo.)', "(Estas lleno de determinación.)"],
+      death1: ['No puedes rendirte aún...', '$¡(nombre)!\nMantente determinado...'],
+      death2: ['Nuestro destino está en tus manos...', '$¡(nombre)!\nMantente determinado...'],
+      death3: ["¡Estarás bien!", '$¡(nombre)!\nMantente determinado...'],
+      death4: ["¡No te rindas!", '$¡(nombre)!\nMantente determinado...'],
+      death5: ['¡No puede acabar ahora!', '$¡(nombre)!\nMantente determinado...'],
 
       flee1: '. . . . * Escapaste...',
       flee2: ". . . . * Me largo.",
@@ -34,7 +34,7 @@ export default {
       },
       control: {
          tab: 'CONTROLES',
-         headers: [ 'GENERAL', 'COMBATE' ],
+         headers: ['GENERAL', 'COMBATE'],
          items: [
             [
                'ArreglarMusica',
@@ -90,14 +90,14 @@ export default {
       },
       inspect: {
          tab: 'INSPECIONAR',
-         headers: [ 'CAPAS', 'TIPOS' ],
+         headers: ['CAPAS', 'TIPOS'],
          switches: [
-            [ 'Base', 'Debajo', 'Principal', 'Encima', 'Menú' ],
-            [ 'Hitbox', 'Sprite', 'Texto' ]
+            ['Base', 'Debajo', 'Principal', 'Encima', 'Menú'],
+            ['Hitbox', 'Sprite', 'Texto']
          ],
          p_explorer: {
             header: 'EXPLORADOR',
-            layers: [ 'Base (Explorador)', 'Debajo (Explorador)', 'Principal (Explorador)', 'Encima (Explorador)', 'Menú (Explorador)' ],
+            layers: ['Base (Explorador)', 'Debajo (Explorador)', 'Principal (Explorador)', 'Encima (Explorador)', 'Menú (Explorador)'],
             letters: {
                animation: 'A',
                character: 'C',
@@ -112,12 +112,12 @@ export default {
          },
          debug_instructions: 'Presiona [TAB] para ciclar la info',
          debug: {
-            a: 'A', 
+            a: 'A',
             acceleration: 'Aceleración',
             active: 'Activo',
             alpha: 'Alfa',
             anchor: 'Ancla',
-            b: 'B', 
+            b: 'B',
             blend: 'Mezclar',
             border: 'Borde',
             compute: 'Tamaño Computado',
@@ -127,7 +127,7 @@ export default {
             duration: 'Duración',
             exp: 'PE',
             extent: 'Extensión',
-            f: 'F', 
+            f: 'F',
             face: 'Cara',
             false: 'Falso',
             fill: 'Llenar',
@@ -163,7 +163,7 @@ export default {
             room: 'Habitación',
             roomState: 'EstadHabitación',
             rotation: 'Rotación',
-            s: 'S', 
+            s: 'S',
             scale: 'Escala',
             shopSelection: 'SelecdeTienda',
             size: 'Tamaño',
@@ -220,8 +220,8 @@ export default {
       dialog_open: { buttonLabel: 'Abrir', name: 'Archivo de GUARDADO', title: 'Abrir Archivo' },
       dialog_save: { buttonLabel: 'Guardar', name: 'Archivo de GUARDADO', title: 'Guardar Archivo' },
       error_load: 'Ese archivo no pudo ser analizado.',
-      message_alert: [ 'Vale' ],
-      message_confirm: [ 'Cancelar', 'Vale' ],
+      message_alert: ['Vale'],
+      message_confirm: ['Cancelar', 'Vale'],
       prompt_clear: '¿Desea eliminar este archivo?',
       prompt_demo: 'Su archivo de GUARDADO\nde la demo de OUTERTALE\nse ha movido a una línea temporal.',
       prompt_save: '¿Guardar este archivo?',
@@ -415,16 +415,16 @@ export default {
             '§fill=#ff0§< GRACIAS ESPECIALES >§fill=#fff§',
             'Bilge \"mnwary\"',
             "§fill=#808080§Por estar ahí para ayudar al\nfinal del desarrollo, y\nasegurando que la escritura del juego\nllegue a su potencial máximo.§fill=#fff§"
-         
-        ],
+
+         ],
          [
             '§fill=#ff0§< TRADUCTORES AL ESPAÑOL >§fill=#fff§',
             'Chistosito',
             'Stefano9000',
             'DR4GON_HE4RT',
             'Manuel',
-        ],
-[ 'Traído a usted por §fill=#ff0§The Mavis & Co.§fill=#fff§' ]
+         ],
+         ['Traído a usted por §fill=#ff0§The Mavis & Co.§fill=#fff§']
       ],
 
       final_frontier: {
@@ -844,7 +844,7 @@ export default {
             'Trabajar en este proyecto a sido un honor,',
             'y un placer de mi parte.'
          ],
-         [ 'Cuando empecé esta aventura, nunca', "pensé que llegaría tan lejos, pero aquí", 'estamos de todas formas, al final.' ],
+         ['Cuando empecé esta aventura, nunca', "pensé que llegaría tan lejos, pero aquí", 'estamos de todas formas, al final.'],
          [
             'Para mí, UNDERTALE fue una experiencia',
             'que me cambió la vida, y una que fue muy difícil',
@@ -870,7 +870,7 @@ export default {
             'que tu hiciste, y nada puede quitarte esa',
             'experiencia de ti.'
          ],
-         [ 'A pesar de tus errores... eres increíble,', 'y mereces amor y atención.', '¿Recuérdalo, vale?' ]
+         ['A pesar de tus errores... eres increíble,', 'y mereces amor y atención.', '¿Recuérdalo, vale?']
       ],
       real2: 'Cuida de ti, \"$(x).\"',
 
@@ -1016,17 +1016,17 @@ export default {
       stat12: 'ESTADO',
       stat13: '\"$(x)\"',
 
-      story1: [ '<24>{#p/storyteller}Hace tiempo, dos especies habitaban el sistema solar: HUMANOS y MONSTROUS.{^35}{}' ],
-      story2: [ '<24>Cuando el tiempo pasó, una guerra empezó entre las especies.{^35}{}' ],
-      story3: [ "<24>Después de que el planeta natal de los MONSTRUOS fuera destruido, los HUMANOS declararon victoria.{^35}{}" ],
-      story4: [ '<24>Los MONSTRUOS restantes fueron expulsados a un puesto abandonado.{^35}{}' ],
-      story5: [ '<24>Un poderoso campo de fuerza fue creado, y los MONSTRUOS fueron sellados dentro.{^35}{}' ],
-      story6: [ '<24>Muchos años después.{^8}.{^8}.{^35}{}' ],
-      story7: [ '<#24>     SECTOR EBOTT     \n         251X{^35}{}' ],
-      story8: [ '<24>Leyendas hablan de un lugar del que las naves nunca vuelven.{^35}{}' ],
-      story9: [ '<24>{^100}{}' ],
-      story10: [ '<24>{^100}{}' ],
-      story11: [ '<24>{^35}{}' ]
+      story1: ['<24>{#p/storyteller}Hace tiempo, dos especies habitaban el sistema solar: HUMANOS y MONSTROUS.{^35}{}'],
+      story2: ['<24>Cuando el tiempo pasó, una guerra empezó entre las especies.{^35}{}'],
+      story3: ["<24>Después de que el planeta natal de los MONSTRUOS fuera destruido, los HUMANOS declararon victoria.{^35}{}"],
+      story4: ['<24>Los MONSTRUOS restantes fueron expulsados a un puesto abandonado.{^35}{}'],
+      story5: ['<24>Un poderoso campo de fuerza fue creado, y los MONSTRUOS fueron sellados dentro.{^35}{}'],
+      story6: ['<24>Muchos años después.{^8}.{^8}.{^35}{}'],
+      story7: ['<#24>     SECTOR EBOTT     \n         251X{^35}{}'],
+      story8: ['<24>Leyendas hablan de un lugar del que las naves nunca vuelven.{^35}{}'],
+      story9: ['<24>{^100}{}'],
+      story10: ['<24>{^100}{}'],
+      story11: ['<24>{^35}{}']
    },
 
    timeline: {
