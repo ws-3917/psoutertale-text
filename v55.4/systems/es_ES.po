@@ -523,7 +523,7 @@ msgid "Prev"
 msgstr "Anterior"
 
 msgid "Next"
-msgstr "Siguiente"
+msgstr "Sig"
 
 msgid "Enter Value"
 msgstr "Introduzca Valor"
@@ -2478,7 +2478,7 @@ msgid "GOLD"
 msgstr "ORO"
 
 msgid "NEXT"
-msgstr "SIGUIENTE"
+msgstr "SIG"
 
 msgid ""
 "§fill=#ff0§Warning:\n"
@@ -2519,8 +2519,8 @@ msgid ""
 "<24>After the MONSTERS' home planet was destroyed, HUMANS declared "
 "victory.{^35}{}"
 msgstr ""
-"<24>Después de que el planeta natal de los MONSTRUOS fuera destruido, los "
-"HUMANOS declararon victoria.{^35}{}"
+"<24>Al destruir el planeta natal de los MONSTRUOS, los HUMANOS declararon "
+"victoria.{^35}{}"
 
 msgid ""
 "<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}"
